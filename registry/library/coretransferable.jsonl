@@ -11,3 +11,17 @@
 {"id": "/documentation/CoreTransferable/ProxyRepresentation", "law": "For example, a type might use the structure’s built-in conformance — a plain text representation — so it can be pasted into any text editor: makes it easy to provide alternative representations for receivers that don’t support the preferred custom format."}
 {"id": "/documentation/CoreTransferable/ProxyRepresentation", "law": "Don’t perform long-running work in and closures."}
 {"id": "/documentation/CoreTransferable/ProxyRepresentation", "law": "Use or to read and write files or for other lengthy tasks."}
+{"id": "/documentation/coretransferable", "law": "Use transferable types for system interactions that move or share data, like the Share button, drag and drop, and copy and paste."}
+{"id": "/documentation/coretransferable", "law": "Use types together with system frameworks like SwiftUI — that include types such as and — to share and paste transferable data."}
+{"id": "/documentation/coretransferable/choosing-a-transfer-representation-for-a-model-type", "law": "Use for model types where the entire model is stored in memory, and use for types stored on disk."}
+{"id": "/documentation/coretransferable/choosing-a-transfer-representation-for-a-model-type", "law": "You use as convenient way to create a transfer representation if your model is already or you can easily make it ."}
+{"id": "/documentation/coretransferable/choosing-a-transfer-representation-for-a-model-type", "law": "If you use a , you’re often defining a new data type as well."}
+{"id": "/documentation/coretransferable/choosing-a-transfer-representation-for-a-model-type", "law": "Use the type to let another type that conforms to take on the responsibility of representing your type."}
+{"id": "/documentation/coretransferable/choosing-a-transfer-representation-for-a-model-type", "law": "Common types like strings, data, and images are already , and you can use them as proxy representations in some common contexts."}
+{"id": "/documentation/coretransferable/datarepresentation", "law": "Use this transfer representation if your model is stored in memory."}
+{"id": "/documentation/coretransferable/datarepresentation", "law": "The following shows the structure conforming to with two instances composed together: The example drawing app’s custom transfer representation comes first so that apps that know about the custom transfer representation can use it."}
+{"id": "/documentation/coretransferable/datarepresentation", "law": "Avoid registering data with the content type."}
+{"id": "/documentation/coretransferable/transferable", "law": "The following declares a simple structure that’s and an extension to make it : To ensure compatibility with other apps that don’t know about the custom type identifier, the following adds an additional transfer representation that converts the note to text."}
+{"id": "/documentation/coretransferable/filerepresentation", "law": "Use a for transferring types that involve a large amount of data."}
+{"id": "/documentation/coretransferable/filerepresentation", "law": "For example, if your app defines a type that could represent a lengthy video, use a instance to transfer the video data to another app or process."}
+{"id": "/documentation/coretransferable/filerepresentation", "law": "For example, if you are sharing a PDF file, declare a of a content type, instead of or so the data can be dragged, shared, or imported to apps that support that data type: It’s efficient to pass data around as a file and the receiver loads it into memory only if it’s required."}

@@ -4,3 +4,6 @@
 {"id": "/documentation/Testing/DefiningTests", "law": "Use the argument of the attribute to include a message explaining why the test is unable to run: Define a test function to validate that code is working correctly."}
 {"id": "/documentation/Testing/AttachableAsImage", "law": "Instances of types conforming to this protocol do not themselves conform to ."}
 {"id": "/documentation/Testing/AttachableAsImage", "law": "You do not generally need to add your own conformances to this protocol."}
+{"id": "/documentation/Testing/Attachable", "law": "To further configure an attachable value before you attach it, use it to initialize an instance of and set its properties before passing it to ."}
+{"id": "/documentation/Testing/Attachable", "law": "Most user-defined types do not need to conform to this protocol."}
+{"id": "/documentation/Testing/Attachable", "law": "A type should conform to this protocol if it can be represented as a sequence of bytes that would be diagnostically useful if a test fails."}

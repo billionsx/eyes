@@ -1,5 +1,9 @@
 {
- "page_sha": "",
+ "page_sha": "eaa3d5a9c0f761c12776616b798370a8e6ebe7f8a4945a73fa56675f56200892",
+ "done": [
+  "tvOS-18-Design-Templates-Sketch.dmg",
+  "tvOS-18-Production-Templates-Sketch.dmg"
+ ],
  "kits": [
   {
    "kit": "tvOS-18-Design-Templates-Sketch.dmg",
@@ -7,11 +11,16 @@
    "text_styles": 0,
    "radii": 4,
    "symbols": 7
+  },
+  {
+   "kit": "tvOS-18-Production-Templates-Sketch.dmg",
+   "colors": 0,
+   "text_styles": 0,
+   "radii": 0,
+   "symbols": 0
   }
  ],
- "errors": [
-  "iOS-27-Icon-Templates-Photoshop-Illustrator.dmg: RuntimeError: в контейнере нет .sketch"
- ],
+ "errors": [],
  "links_seen": [
   "Bezel-Apple-TV.dmg",
   "Bezel-Apple-Watch-Series-11-2025.dmg",
@@ -72,8 +81,5 @@
    "cap_sample": 0.7046
   }
  ],
- "ts": "2026-07-27 06:55 UTC",
- "done": [
-  "tvOS-18-Design-Templates-Sketch.dmg"
- ]
+ "ts": "2026-07-27 19:20 UTC"
 }

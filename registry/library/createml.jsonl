@@ -52,3 +52,5 @@
 {"id": "/documentation/createml/mlregressor", "law": "Use an to estimate continuous values like price, time, or temperature."}
 {"id": "/documentation/createml/mlregressor/write(to:metadata:)", "law": "Exports a Core ML model file for use in your app."}
 {"id": "/documentation/createml/mlregressormetrics", "law": "Metrics you use to evaluate a regressor’s performance."}
+{"id": "/documentation/CreateML/MLDataValueConvertible", "law": "You can use any type that conforms to the protocol in an or an ."}
+{"id": "/documentation/CreateML/MLIdentifier", "law": "You can use any type that conforms to the protocol, typically or , to uniquely identify users and items in these methods: A type the Create ML framework can use as a machine learning identifier."}

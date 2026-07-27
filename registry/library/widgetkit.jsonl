@@ -51,3 +51,36 @@
 {"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "If your widget is configurable, make sure the predictable intent contains a that matches the intent’s values to the configurable parameters of your widget."}
 {"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "If your widget isn’t configurable, don’t provide a parameter matching."}
 {"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "If Smart Stacks don’t contain a matching widget, the system can automatically add the configured widget as a Widget Suggestion, giving the app more visibility and the person instant access to the information."}
+{"id": "/documentation/WidgetKit/Controls-Collection", "law": "People place controls in prominent locations to personalize how they use their devices: On devices with an Action button, people can place a controls action in the Action button."}
+{"id": "/documentation/WidgetKit/Controls-Collection", "law": "To offer a control for your app, use WidgetKit API to configure and update the control, create its layout with , and perform its action using ."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "An interaction with a button or toggle should do more than open the app."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "If you want to offer an interaction that opens the app, use and as described in ."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "Live Activities don’t use a timeline mechanism to update their content."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "However, they use WidgetKit and a widget extension with a similar cycle of view archiving and decoding."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "Buttons and toggles you add to your widgets and Live Activities use functionality that you expose to the system by adopting the App Intents framework."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "Define input parameters that your action needs using the property wrapper and make sure their type conforms to the protocol."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "Make sure input parameters have assigned values because, unlike app intents you define for system functionality like Siri, widgets don’t resolve parameters for app intents."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "In the protocol’s required function, add code for the action you want to make available to the widget."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "Make sure to add your custom app intent to your app target."}
+{"id": "/documentation/WidgetKit/Adding-interactivity-to-widgets-and-Live-Activities", "law": "Use this as an opportunity to update your widget with the result of the interaction."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "Use WidgetKit to build widgets, controls, watch complications, and Live Activities."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "System experiences that use WidgetKit as a foundation rely on a set of related frameworks and share design and functional similarities, making them great candidates for code and design component reuse."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "To avoid costly changes in your app’s development process, plan your WidgetKit adoption before you create designs and write code."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "When you add support for Live Activities, you need to create minimal, compact, and extended presentations that make sure your Live Activities appear correctly for each platform."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "Widgets, watch complications, controls, and Live Activities use a widget extension you add to your Xcode project."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "Based on features and platforms you support, use WidgetKit in combination with other frameworks as follows: To create the user interface for each feature, use ."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "To add interactivity to widgets and Live Activities, use and the framework."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "To offer configurable widgets and watch complications, use ."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "To provide the contextual clues that the system uses for Smart Stacks and to offer Widget Suggestions, use and ."}
+{"id": "/documentation/WidgetKit/Developing-a-WidgetKit-strategy", "law": "To start, update, and end Live Activities, use ."}
+{"id": "/documentation/WidgetKit/LiveActivities-Collection", "law": "To create Live Activities, you use WidgetKit together with ."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "Starting with iOS 17 and macOS 14, you use App Intents to create configurable widgets."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "If the minimum version your app supports is iOS 17, macOS 14, or watchOS 10, use App Intents for your widget configurations."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "If the name or type of the parameters don’t match, the system omits the parameter from the app intent, and the user’s configuration is lost."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "For example, if the parameter is an , use for the app intent type."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "If the parameter’s type is an enum or custom object, the new type must conform to or , respectively."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "To generate timeline entries that use app intents, create a timeline provider that conforms to ."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "When designing the timeline entries that the timeline providers generate, consider these two approaches: Use separate timeline entry types for each provider: one that includes the app intent, and another that includes a SiriKit intent."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "Use a single timeline entry type that includes both an app intent and a SiriKit intent."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "The second approach reduces any duplication, but requires optional types for the intent properties."}
+{"id": "/documentation/WidgetKit/Migrating-from-SiriKit-Intents-to-App-Intents", "law": "If you share the same timeline entry type across both intent provider types, you can use a single content closure with logic conditional to the intent in the entry."}

@@ -261,7 +261,8 @@
  },
  "account-apple-com": {
   "url": "https://account.apple.com/",
-  "note": "robots-disallow"
+  "sections": 0,
+  "cta": 2
  },
  "www-apple-com-apple-one": {
   "url": "https://www.apple.com/apple-one/",
@@ -335,8 +336,8 @@
  },
  "www-apple-com-business": {
   "url": "https://www.apple.com/business/",
-  "sections": 9,
-  "cta": 66
+  "sections": 10,
+  "cta": 76
  },
  "www-apple-com-retail-business": {
   "url": "https://www.apple.com/retail/business/",
@@ -420,7 +421,8 @@
  },
  "investor-apple-com-investor-relations-default-aspx": {
   "url": "https://investor.apple.com/investor-relations/default.aspx",
-  "note": "robots-disallow"
+  "sections": 0,
+  "cta": 4
  },
  "www-apple-com-compliance": {
   "url": "https://www.apple.com/compliance/",

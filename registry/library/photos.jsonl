@@ -24,3 +24,5 @@
 {"id": "/documentation/photos/phlivephoto", "law": "To work with the data files that constitute a Live Photo, use the class.) To display Live Photo content on the web, use the framework."}
 {"id": "/documentation/Photos/PHAssetChangeRequest/creationRequestForAssetFromVideo(atFileURL:)", "law": "To set metadata properties of the newly created asset, use the corresponding properties of the change request (listed in Modifying Assets)."}
 {"id": "/documentation/Photos/PHAssetChangeRequest/creationRequestForAssetFromVideo(atFileURL:)", "law": "To reference the newly created asset later in the same change block or after the change block completes, use the property to retrieve a placeholder object."}
+{"id": "/documentation/Photos/PHAsset", "law": "Use the class methods listed in Fetching Assets to retrieve one or more instances representing the assets you want to display or edit."}
+{"id": "/documentation/Photos/PHAsset", "law": "However, depending on how you plan to use this data, you may not need to download all of it."}

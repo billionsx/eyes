@@ -508,3 +508,141 @@
 {"id": "/documentation/foundation/nsuseractivityconnectionunavailableerror-c.enum.case", "law": "The user activity couldn’t be continued because a required connection wasn’t available."}
 {"id": "/documentation/foundation/nsuseractivityconnectionunavailableerror-swift.var", "law": "The user activity couldn’t be continued because a required connection wasn’t available."}
 {"id": "/documentation/foundation/nsuseractivitypersistentidentifier", "law": "In Swift, persistent identifiers use the structure."}
+{"id": "/documentation/Foundation/NSMutableString", "law": "In Swift, you can use this type instead of a in cases that require reference semantics."}
+{"id": "/documentation/Foundation/NSMutableString", "law": "To construct and manage an immutable string—or a string that cannot be changed after it has been created—use an object of the class."}
+{"id": "/documentation/Foundation/AttributedString", "law": "Custom keys should also extend , so callers can use dot-syntax to access the attribute."}
+{"id": "/documentation/Foundation/AttributedString", "law": "Localized attributed strings can also use the extension syntax to indicate parts of the string where the system can apply automatic grammar agreement."}
+{"id": "/documentation/Foundation/AttributedString", "law": "Use Markdown syntax to initialize an attributed string with text and attributes."}
+{"id": "/documentation/Foundation/Calendar/RecurrenceRule", "law": "A rule which specifies how often an event should repeat in the future"}
+{"id": "/documentation/Foundation/DateComponents", "law": "A is not required to define all the component fields."}
+{"id": "/documentation/foundation/filemanager/searchpathdirectory", "law": "Use these constants with the initializer and the and methods of FileManager."}
+{"id": "/documentation/foundation/filemanager/searchpathdomainmask", "law": "Domain constants specifying base locations to use when you search for significant directories."}
+{"id": "/documentation/foundation/nsurl", "law": "In Swift, this object bridges to ; use when you need reference semantics or other Foundation-specific behavior."}
+{"id": "/documentation/foundation/nsurl", "law": "You can use URL objects to construct URLs and access their parts."}
+{"id": "/documentation/foundation/nsurl", "law": "For example, you can use the , , and classes to access the contents of remote resources, as described in ."}
+{"id": "/documentation/foundation/nsurl", "law": "You can also use URLs for interapplication communication."}
+{"id": "/documentation/foundation/nsurl", "law": "Additionally, you can use URLs when working with pasteboards, as described in NSURL Additions Reference (part of the AppKit framework)."}
+{"id": "/documentation/foundation/nsurl", "law": "To check if a is strictly valid according to the RFC, use the new method."}
+{"id": "/documentation/foundation/nsurl", "law": "In a macOS app that adopts App Sandbox, you can use security-scoped bookmarks to gain access to file-system resources outside your app’s sandbox."}
+{"id": "/documentation/foundation/nsurl", "law": "To gain access to a security-scoped URL, you must call the method (or its Core Foundation equivalent, the function)."}
+{"id": "/documentation/foundation/nsurl", "law": "For iOS apps, if you use a to access the URL, it automatically manages the security-scoped URL for you."}
+{"id": "/documentation/foundation/nsurl", "law": "If (or ) returns , you must relinquish your access by calling the method (or its Core Foundation equivalent, the function)."}
+{"id": "/documentation/foundation/url", "law": "For example, you can use and its related classes to access the contents of remote resources."}
+{"id": "/documentation/foundation/url", "law": "As a convenience, you can use Swift’s - syntax to asynchronously access the contents of a through the and properties."}
+{"id": "/documentation/foundation/url", "law": "These properties use the shared instance to load the resource."}
+{"id": "/documentation/foundation/url", "law": "To make the best use of these directories, see ."}
+{"id": "/documentation/foundation/nsextensioncontext/didbecomeactivemessage", "law": "You can use this message to adjust your extension’s activity when the host app becomes active."}
+{"id": "/documentation/foundation/nsextensioncontext/didenterbackgroundmessage", "law": "You can use this message in your extension to stop tasks and prepare for the system to suspend the extension."}
+{"id": "/documentation/foundation/nsextensioncontext/didenterbackgroundmessage", "law": "If you need more time to complete critical tasks, use the methods of the class to request that time."}
+{"id": "/documentation/foundation/nsextensioncontext/hostedviewmaximumallowedsize", "law": "The size of that view controller’s view must be no larger than the size value in this property."}
+{"id": "/documentation/foundation/nsextensioncontext/hostedviewmaximumallowedsize", "law": "The maximum size for a Siri hosted view."}
+{"id": "/documentation/foundation/nsextensioncontext/hostedviewminimumallowedsize", "law": "The size of that view controller’s view must be at least as large as the size value in this property."}
+{"id": "/documentation/foundation/nsextensioncontext/hostedviewminimumallowedsize", "law": "The minimum size for a Siri hosted view."}
+{"id": "/documentation/foundation/nsextensioncontext/intent", "law": "When the user selects an app from the list of suggested apps in iOS’s share sheet, this property contains metadata that you can use to populate your share extensions interface."}
+{"id": "/documentation/foundation/nsextensioncontext/interfaceparametersdescription()", "law": "During development, use this method to retrieve a human-readable description of the contents of the objects that SiriKit intends to display for the current intent."}
+{"id": "/documentation/foundation/nsextensioncontext/interfaceparametersdescription()", "law": "Use that information to plan your custom interface."}
+{"id": "/documentation/foundation/nsextensioncontext/open(_:completionhandler:)", "law": "An iMessage app extension can use this method only to open its parent app, and only if the parent app is shown on the iOS home screen."}
+{"id": "/documentation/foundation/nsextensioncontext/open(_:completionhandler:)", "law": "You can use this method in a Today widget to open the widget’s containing app."}
+{"id": "/documentation/foundation/nsextensioncontext/open(_:completionhandler:)", "law": "If you use this method to open other apps from your Today widget, your App Store submission may require additional review."}
+{"id": "/documentation/foundation/nsextensioncontext/widgetmaximumsize(for:)", "law": "Returns the maximum size for the specified widget display mode."}
+{"id": "/documentation/foundation/nsextensioncontext/willenterforegroundmessage", "law": "Your extension can use this message to restart tasks that it stopped when the app moved to the background."}
+{"id": "/documentation/foundation/nsextensioncontext/willresignactivemessage", "law": "Your extension can use this message to adjust the extension’s activity when it becomes inactive."}
+{"id": "/documentation/foundation/nsextensioncontext/willresignactivemessage", "law": "For example, you might use this message to save any unsaved data to prevent it from being lost."}
+{"id": "/documentation/foundation/nsextensionrequesthandling", "law": "An extension’s principal object can implement this protocol and use to keep track of the request from a host app."}
+{"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostdidbecomeactive", "law": "Extensions can use this notification to adjust their activity when they become active."}
+{"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostdidenterbackground", "law": "Extensions can use this notification to stop tasks and prepare the extension to be suspended."}
+{"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostdidenterbackground", "law": "If you need more time to complete critical tasks, use the methods of the class to request that time."}
+{"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostwillenterforeground", "law": "Extensions can use this notification to restart tasks that it stopped when they moved to the background."}
+{"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostwillresignactive", "law": "Extensions can use this notification to adjust their activity when they become inactive."}
+{"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostwillresignactive", "law": "For example, you might use this notification to save any unsaved data to prevent it from being lost."}
+{"id": "/documentation/foundation/nsarray", "law": "You can use this type in Swift instead of an constant in cases that require reference semantics."}
+{"id": "/documentation/foundation/nsarray", "law": "You can use arrays when you need an ordered collection of objects."}
+{"id": "/documentation/foundation/nsarray", "law": "You should not terminate the list of objects with when using this literal syntax, and in fact is an invalid value."}
+{"id": "/documentation/foundation/nsarray", "law": "Any subclass of must override the primitive instance methods and ."}
+{"id": "/documentation/foundation/nsarray", "law": "These methods must operate on the backing store that you provide for the elements of the collection."}
+{"id": "/documentation/foundation/nsarray", "law": "For this backing store you can use a static array, a standard object, or some other data type or mechanism."}
+{"id": "/documentation/foundation/nsarray", "law": "If you do, your initializer must invoke one of the designated initializers of the class, either or ."}
+{"id": "/documentation/foundation/nsarray", "law": "The class adopts the , , and protocols; custom subclasses of should override the methods in these protocols as necessary."}
+{"id": "/documentation/foundation/nsarray", "law": "You must provide the storage for your subclass and implement the primitive methods that directly act on that storage."}
+{"id": "/documentation/foundation/nsarray", "law": "Although they are corresponding types, and do not have identical interfaces or implementations, and you can sometimes do things with that you cannot easily do with ."}
+{"id": "/documentation/foundation/nscopying", "law": "The exact meaning of “copy” can vary from class to class, but a copy must be a functionally independent object with values identical to the original at the time the copy was made."}
+{"id": "/documentation/foundation/nscopying", "law": "Your options for implementing this protocol are as follows: Implement using and in classes that don’t inherit ."}
+{"id": "/documentation/foundation/nscopying", "law": "If the superclass implementation might use the function, make explicit assignments to pointer instance variables for retained objects."}
+{"id": "/documentation/foundation/nsextensionitem/attachments", "law": "These items are always typed ."}
+{"id": "/documentation/foundation/nsitemprovider", "law": "When using an item provider with drag and drop, ensure that UI updates take place on the main queue as follows:"}
+{"id": "/documentation/foundation/nsitemprovider", "law": "During that examination, the extension can use the method to look for data that it recognizes."}
+{"id": "/documentation/foundation/nsitemprovider", "law": "Item providers use values to identify the data they contain."}
+{"id": "/documentation/foundation/nsitemprovider", "law": "After finding a type of data that your extension can use, it calls the method to load the actual data, which is delivered to the provided completion handler."}
+{"id": "/documentation/foundation/nsitemprovider", "law": "You can optionally use the property to generate a preview image for your data."}
+{"id": "/documentation/foundation/nsitemprovider", "law": "A single item provider may use custom blocks to provide its data in many different formats."}
+{"id": "/documentation/foundation/nsitemprovider", "law": "When configuring an item provider, use the method to register your blocks and the formats each one supports."}
+{"id": "/documentation/foundation/uti-subtypes-for-data-detector-types", "law": "Use these constants to specify the type of data your extension works with."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "is a type you use to manage strings of stylized Unicode text."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "If you need to modify the contents of an attributed string later, use the type instead."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "If an HTML file contains tags or constructs that attributed strings don’t support, the import process ignores them and imports what it can."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "To change the rendering behavior of your Markdown content, remove the intent attributes and add the style attributes you prefer."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "and use attributed strings extensively during the layout and rendering processes."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "These technologies use the string’s text and rendering-related attributes to calculate the text metrics needed during layout."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "The technologies use only attributes that directly affect the appearance of the text, and ignore most other attributes."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "Because these methods use TextKit to draw the string, they recognize the same rendering-related attributes as that technology."}
+{"id": "/documentation/foundation/nsattributedstring", "law": "The class and its Core Foundation counterpart, , are toll-free bridged, which means you can use the two types interchangeably in your code without losing any text or attribute information."}
+{"id": "/documentation/foundation/nsitemprovider/completionhandler", "law": "Use this block to receive data from a call to the method."}
+{"id": "/documentation/foundation/nsitemprovider/containerframe", "law": "An intersection of the rectangles means that at least part of the item is visible onscreen."}
+{"id": "/documentation/foundation/nsitemprovider/init(item:typeidentifier:)", "law": "Use this method to initialize an item provider for objects in your app."}
+{"id": "/documentation/foundation/nsitemprovider/loadhandler", "law": "Use this block when registering a type-specific coercion handler with the method."}
+{"id": "/documentation/foundation/nsitemprovider/loadhandler", "law": "In the case of a preview image, the is always a , , (in iOS), or (in macOS) class."}
+{"id": "/documentation/foundation/nsitemprovider/loadinplacefilerepresentation(fortypeidentifier:completionhandler:)", "law": "In either case, you must access the returned using an object."}
+{"id": "/documentation/foundation/nsitemprovider/loaditem(fortypeidentifier:options:completionhandler:)", "law": "The type information for the first parameter of your block should be set to the class of the expected type."}
+{"id": "/documentation/foundation/nsitemprovider/preferredpresentationsize", "law": "If the value in this property is , use the size specified in the rectangle."}
+{"id": "/documentation/foundation/nsitemprovider/registerckshare(_:container:allowedsharingoptions:)", "law": "Use this method when a currently exists on the server."}
+{"id": "/documentation/foundation/nsitemprovider/registerckshare(container:allowedsharingoptions:preparationhandler:)", "law": "Use this method to share a collection of objects that don’t have an existing assignment."}
+{"id": "/documentation/foundation/nsitemprovider/registerckshare:container:allowedsharingoptions:", "law": "Use this method when a currently exists on the server."}
+{"id": "/documentation/foundation/nsitemprovider/registercksharewithcontainer:allowedsharingoptions:preparationhandler:", "law": "Use this method to share a collection of objects that aren’t assigned to an existing ."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(_:container:)", "law": "Use this method when the CloudKit share already exists on the server and you want to update it."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(_:container:)", "law": "If you’re unsure which container to use, fetch the share’s metadata using ."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(_:container:)", "law": "Use the protocol to respond to any changes the sharing service makes."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(_:container:)", "law": "To create a new share, use the method instead."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(preparationhandler:)", "law": "Use this method to share a hierarchy of CloudKit records with other iCloud users."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(preparationhandler:)", "law": "The root record (and its hierarchy) must already exist on the server or be part of the same save operation."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(preparationhandler:)", "law": "Use the protocol to respond to any changes the sharing service makes."}
+{"id": "/documentation/foundation/nsitemprovider/registercloudkitshare(preparationhandler:)", "law": "To modify an existing share, use the method instead."}
+{"id": "/documentation/foundation/nsitemprovider/registeredcontenttypes", "law": "You app should register content types in order of fidelity."}
+{"id": "/documentation/foundation/nsitemprovider/registerfilerepresentation(for:visibility:openinplace:loadhandler:)", "law": "If a destination app must access the represented file using a file coordinator, set the parameter in the load handler block to ."}
+{"id": "/documentation/foundation/nsitemprovider/registerfilerepresentation(for:visibility:openinplace:loadhandler:)", "law": "Open-in-place support requires that the file provider is visible in the Files app."}
+{"id": "/documentation/foundation/nsitemprovider/registerfilerepresentation(fortypeidentifier:fileoptions:visibility:loadhandler:)", "law": "If a destination app must access the represented file using a file coordinator, set the parameter in the load handler block to ."}
+{"id": "/documentation/foundation/nsitemprovider/registerfilerepresentation(fortypeidentifier:fileoptions:visibility:loadhandler:)", "law": "Open-in-place support requires that the file provider is visible in the Files app."}
+{"id": "/documentation/foundation/nsitemprovider/registeritem(fortypeidentifier:loadhandler:)", "law": "Use this method to register blocks that can take the item provider’s file or data object and convert it to a specific data format."}
+{"id": "/documentation/foundation/nsitemprovider/registeritem(fortypeidentifier:loadhandler:)", "law": "You must call the completion handler, either with the requested data or with an error."}
+{"id": "/documentation/foundation/nsitemprovider/registeritem(fortypeidentifier:loadhandler:)", "law": "Use this method to register blocks to coerce your custom data types."}
+{"id": "/documentation/foundation/nsitemprovider/suggestedname", "law": "Setting this property is recommended when providing or text data from an item provider."}
+{"id": "/documentation/foundation/nsitemprovider/suggestedname", "law": "The filename to use when writing the provided data to a file on disk."}
+{"id": "/documentation/foundation/options-dictionary-key", "law": "Keys indicating options to use when generating the item provider’s data."}
+{"id": "/documentation/foundation/nsitemproviderfileoptions/openinplace", "law": "A data-access specification declaring that items should open in place, rather than being copied."}
+{"id": "/documentation/foundation/progress", "law": "Specifically, you can use a progress object to show the user a progress bar and explanatory text that update as you do work."}
+{"id": "/documentation/foundation/progress", "law": "Progress objects have many properties that you can use to observe and report current progress."}
+{"id": "/documentation/foundation/progress", "law": "It also means that there is a nonzero cost to updating the values of those properties, so avoid using a unit count that is too granular."}
+{"id": "/documentation/foundation/progress", "law": "Suboperations don’t need to know anything about the containing progress item — you can create new progress objects as suboperations of another progress instance."}
+{"id": "/documentation/foundation/progress", "law": "You can use a single progress object to track the entire task, but it’s easier to manage each subtask using a separate progress object."}
+{"id": "/documentation/foundation/progress", "law": "If you don’t create any suboperation progress objects between the calls to and , the containing progress object automatically updates its by adding the pending units."}
+{"id": "/documentation/foundation/nscomparisonpredicate", "law": "Use comparison predicates to compare the results of two expressions."}
+{"id": "/documentation/foundation/nscomparisonpredicate", "law": "You create a comparison predicate with an operator, a left expression, and a right expression, and use instances of the class to represent those expressions."}
+{"id": "/documentation/foundation/nscompoundpredicate", "law": "Use to create an or compound predicate of one or more other predicates, or the of a single predicate."}
+{"id": "/documentation/foundation/nsexpression", "law": "Both sides of these expressions must evaluate to a collection; the left side must evaluate to an object, and the right side can be any other collection type."}
+{"id": "/documentation/foundation/nsexpression", "law": "To implement this extended functionality, use the syntax as in the following example: All methods must take one or more arguments and return an value, although you can use the expression to convert datatypes with lossy string representations (for example, )."}
+{"id": "/documentation/foundation/nsexpression", "law": "macOS 10.5 extends the expression to provide support for casting to classes for use in creating receivers for function expressions."}
+{"id": "/documentation/foundation/nsexpression", "law": "An expression for use in a comparison predicate."}
+{"id": "/documentation/foundation/nspredicate", "law": "Predicates represent logical conditions, which you can use to filter collections of objects."}
+{"id": "/documentation/foundation/nspredicate/allowevaluation()", "law": "Before you enable evaluation, you should validate key paths, selectors, and other details to ensure no erroneous or malicious code will be executed."}
+{"id": "/documentation/foundation/nspredicate/evaluate(with:substitutionvariables:)", "law": "This method is optimized for situations which require repeatedly evaluating a predicate with substitution variables with different variable substitutions."}
+{"id": "/documentation/foundation/nspredicate/init(value:)", "law": "A predicate that always evaluates to ."}
+{"id": "/documentation/foundation/nspredicate/init(value:)", "law": "Creates and returns a predicate that always evaluates to a specified Boolean value."}
+{"id": "/documentation/foundation/nspredicate/predicateformat", "law": "You cannot use this method to create a persistent representation of a predicate suitable for recreating the original predicate."}
+{"id": "/documentation/foundation/predicate", "law": "You use predicates for operations like filtering a collection or searching for matching elements."}
+{"id": "/documentation/foundation/predicate", "law": "To create a predicate, use the macro."}
+{"id": "/documentation/foundation/predicate", "law": "To define a list of types and key paths that are allowed when reading an archived predicate, use ."}
+{"id": "/documentation/foundation/predicatebindings", "law": "If you define a custom predicate expression type, you must propagate the predicate’s bindings to its subexpressions."}
+{"id": "/documentation/foundation/predicatebindings", "law": "If you define a custom predicate type, you must create an instance of this structure, populate it with the predicate’s variables, and propagate it throughout the expression tree."}
+{"id": "/documentation/foundation/predicatecodableconfiguration", "law": "Use this configuration when encoding and decoding a predicate to restrict what that predicate can contain."}
+{"id": "/documentation/foundation/predicateexpressions", "law": "Don’t use this type directly."}
+{"id": "/documentation/foundation/standardpredicateexpression", "law": "Don’t declare new types that conform to the protocol."}
+{"id": "/documentation/foundation/nsusercancellederror-swift.var", "law": "This code is for errors that do not require a dialog displayed and might be candidates for special-casing."}

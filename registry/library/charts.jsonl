@@ -23,3 +23,5 @@
 {"id": "/documentation/Charts/BarMark", "law": "To differentiate the product categories, add a modifer that specifies a visual encoding for the : You can use the optional parameter in the initializer to modify the stacking mechanism."}
 {"id": "/documentation/Charts/BarMark", "law": "To build a one dimensional chart, use one of the initializers that only requires a for one dimension, like for plotting with x."}
 {"id": "/documentation/Charts/BarMark", "law": "Use to represent intervals by using the , , or ."}
+{"id": "/documentation/Charts/Plottable", "law": "You then use those items as the values in a chart, like for the chart in the following example: You can create a custom plottable type by conforming it to this protocol."}
+{"id": "/documentation/Charts/PrimitivePlottableProtocol", "law": "Don’t use this type directly."}

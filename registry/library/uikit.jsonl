@@ -1654,3 +1654,7 @@
 {"id": "/documentation/UIKit/supporting-voiceover-in-your-app", "law": "Depending on the context, hints aren’t always necessary."}
 {"id": "/documentation/UIKit/UIDevice/identifierForVendor", "law": "Therefore, if your app stores the value of this property anywhere, you should gracefully handle situations where the identifier changes."}
 {"id": "/documentation/UIKit/UIDevice/name", "law": "To access the user-assigned device name through this property in iOS 16 and later, your app must meet certain criteria and be assigned an entitlement."}
+{"id": "/documentation/UIKit/UIViewController/loadView()", "law": "You should never call this method directly."}
+{"id": "/documentation/UIKit/UIViewController/loadView()", "law": "If you use Interface Builder to create your views and initialize the view controller, you must not override this method."}
+{"id": "/documentation/UIKit/UIViewController/loadView()", "law": "The views you create should be unique instances and should not be shared with any other view controller object."}
+{"id": "/documentation/UIKit/UIViewController/loadView()", "law": "Your custom implementation of this method should not call ."}

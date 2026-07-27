@@ -755,3 +755,25 @@
 ### 2026-07-27 15:18 UTC · монитор прода
 - сейчас 0 · новых 0 · закрыто 0 · алерт: эфир
 
+### 2026-07-27 19:13 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 2914 · законов добыто 905 · изменилось 0
+- фронтир 55015 · всего пройдено 14200 · библиотека 20829 законов / 336 фреймворков
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 254 · модулей-видов 529 · новых типографических законов 107
+
+### · большая семёрка
+- страниц 58 · новых положений 31 · рамок в карте 7
+
+### 2026-07-27 19:20 UTC · кит
+- tvOS-18-Production-Templates-Sketch.dmg: цветов 0 · текст-стилей 0 · радиусов 0 · символов 0
+- шрифты: SF-Pro.dmg: лиц 47 · крышка 0.7046 
+- шрифты: SF-Compact.dmg: лиц 38 · крышка 0.6665 
+- шрифты: SF-Mono.dmg: лиц 12 · крышка 0.7046 
+- все ссылки страницы: Bezel-Apple-TV.dmg · Bezel-Apple-Watch-Series-11-2025.dmg · Bezel-Apple-Watch-Ultra-2-2024.dmg · Bezel-Apple-Watch-Ultra-3-2025.dmg · Bezel-MacBook-Air-M5.dmg · Bezel-MacBook-Neo.dmg · Bezel-MacBook-Pro-M5.dmg · Bezel-Studio-Displays.dmg · Bezel-iMac-M4.dmg · Bezel-iPad-(A16).dmg · Bezel-iPad-Air-(M4).dmg · Bezel-iPad-Pro-(M5).dmg · Bezel-iPad-mini-(A17-Pro).dmg · Bezel-iPhone-16.dmg · Bezel-iPhone-17.dmg · Glyph-ARKit.dmg · Glyph-Add-Apple-Watch-Face.dmg · Glyph-AirPlay.dmg · Icon-Apple-Health.dmg · Icon-Game-Center.dmg · Icon-HomeKit.dmg · Icon-Siri.dmg · Keynote-Live-Video-Product-Bezel.dmg · Logo-Sign-in-with-Apple.dmg · NY.dmg · Parallax%20Previewer.dmg · Parallax%20Previewer_1_0.dmg · ParallaxExporter_Apps.zip · ParallaxExporter_Windows.zip · SF-Arabic.dmg · SF-Armenian.dmg · SF-Compact.dmg · SF-Georgian.dmg · SF-Hebrew.dmg · SF-Mono.dmg · SF-Pro.dmg · iOS-27-Icon-Templates-Photoshop-Illustrator.dmg · tvOS-18-Design-Templates-Sketch.dmg · tvOS-18-Production-Templates-Photoshop.dmg · tvOS-18-Production-Templates-Sketch.dmg · visionOS-2-Design-Templates-Sketch.dmg
+
+### живой взгляд
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

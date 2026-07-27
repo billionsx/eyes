@@ -1,1 +1,5 @@
 {"id": "/documentation/GeoToolbox", "law": "Use to create structures for use across Maps technologies and third-party mapping systems."}
+{"id": "/documentation/GeoToolbox/PlaceDescriptor", "law": "A allows you to construct a collection of metadata about a place, including at least one which contains common geographic concepts like an address or coordinate."}
+{"id": "/documentation/GeoToolbox/PlaceDescriptor", "law": "Use in conjunction with a mapping service to request rich information about a place."}
+{"id": "/documentation/GeoToolbox/PlaceDescriptor", "law": "For example to create a that describes an address with a common name use as shown here."}
+{"id": "/documentation/GeoToolbox/PlaceDescriptor", "law": "A structure that contains identifying information about a place that a mapping service may use to attempt to find rich place information such as phone numbers, websites, and so on."}

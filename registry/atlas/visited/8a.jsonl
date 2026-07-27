@@ -33,3 +33,5 @@
 {"id": "/documentation/appintents/entityproperty/init(identifier:getter:)-4vigz", "sha": "7714647999b65ffee50456c621a784f6f30bd8632543379de6c3ce1e57867226", "t": "init(identifier:getter:)", "n": 108, "laws": 1, "ts": "2026-07-27 06:16 UTC"}
 {"id": "/documentation/appintents/entityquerycomparatormode", "sha": "d7893040198fc0f7900a9a471b5f80fe071799f86822dfc4ce7d4c9636bf2ccb", "t": "EntityQueryComparatorMode", "n": 137, "laws": 0, "ts": "2026-07-27 06:35 UTC"}
 {"id": "/documentation/appintents/intentparameter-currencies", "sha": "afe5e27887d9a16994a212e3961fb12510475da1e98d9f767c76d228c8da78fe", "t": "Currencies", "n": 645, "laws": 0, "ts": "2026-07-27 06:36 UTC"}
+{"id": "/documentation/corespotlight/cssearchableitemattributeset/genre", "sha": "528a1be97fde2804c5b81c7a4c890e2dd76855704469b68e23b7fd7378c0c12d", "t": "genre", "n": 23, "laws": 0, "ts": "2026-07-27 18:51 UTC"}
+{"id": "/documentation/foundation/nsextensioncontext/interfaceparametersdescription()", "sha": "42e98ad87887a73a1f0390b79f2fa95e14f3022ddac998f88e53e99404f016e7", "t": "interfaceParametersDescription()", "n": 654, "laws": 2, "ts": "2026-07-27 19:08 UTC"}

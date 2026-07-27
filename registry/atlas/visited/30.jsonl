@@ -54,3 +54,6 @@
 {"id": "/documentation/appintents/entityproperty/init(identifier:indexingkey:)-7u2ie", "sha": "7714647999b65ffee50456c621a784f6f30bd8632543379de6c3ce1e57867226", "t": "init(identifier:indexingKey:)", "n": 108, "laws": 1, "ts": "2026-07-27 06:17 UTC"}
 {"id": "/documentation/appintents/entityproperty/init(title:)-3nzru", "sha": "1a9bdefdd67e861e0ab0de5c14548d5225e17103f4b751d33b4b7d48ebabaa07", "t": "init(title:)", "n": 38, "laws": 0, "ts": "2026-07-27 06:32 UTC"}
 {"id": "/documentation/appintents/enumerableentityquery/findintentdescription", "sha": "cbce20f4b2784b622949216b0ceb805827b66a6184a2a08caccac96d384f46e2", "t": "findIntentDescription", "n": 94, "laws": 0, "ts": "2026-07-27 06:36 UTC"}
+{"id": "/documentation/swift/string/init(decodingcstring:as:)-2zmjc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(decodingCString:as:)", "n": 0, "laws": 0, "ts": "2026-07-27 18:57 UTC"}
+{"id": "/documentation/Foundation/Decimal", "sha": "9e416a994892ba73c3607ed9127d33be1633e5448c3917d358f161ff45ebc561", "t": "Decimal", "n": 2245, "laws": 0, "ts": "2026-07-27 19:05 UTC"}
+{"id": "/documentation/appkit/nsresponder/mouseentered(with:)", "sha": "b41108f3bdf161ce3a085b07228974e96e409be4114ee02601b63627b8722bb2", "t": "mouseEntered(with:)", "n": 161, "laws": 0, "ts": "2026-07-27 19:13 UTC"}

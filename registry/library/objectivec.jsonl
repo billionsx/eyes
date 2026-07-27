@@ -14,3 +14,7 @@
 {"id": "/documentation/objectivec/nsobject-swift.class/accessibilityincrement()", "law": "Use this method to increment the value of the element."}
 {"id": "/documentation/ObjectiveC/uiaccessibilityaction", "law": "Then, you must implement the and methods."}
 {"id": "/documentation/ObjectiveC/uiaccessibilityaction", "law": "A set of methods that accessibility elements can use to support specific actions."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/dealloc", "law": "You override this method to dispose of resources other than the object’s instance variables, for example: In an implementation of , do not invoke the superclass’s implementation."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/dealloc", "law": "You should try to avoid managing the lifetime of limited resources such as file descriptors using ."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/dealloc", "law": "You never send a message directly."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/dealloc", "law": "When not using ARC, your implementation of must invoke the superclass’s implementation as its last instruction."}

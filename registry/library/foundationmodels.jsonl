@@ -253,3 +253,4 @@
 {"id": "/documentation/FoundationModels/prompting-an-on-device-foundation-model", "law": "This is particularly useful after trying different strategies that don’t improve the quality of the results."}
 {"id": "/documentation/FoundationModels/prompting-an-on-device-foundation-model", "law": "An on-device model can handle some conditionals or light reasoning, like: Use the weather tool if the person asks about the weather and the calendar tool if the person asks about events."}
 {"id": "/documentation/FoundationModels/prompting-an-on-device-foundation-model", "law": "In the previous prompt, each example might correspond to a structure you create named : On-device models need simpler examples for few-shot prompts than what you can use with server-based frontier models."}
+{"id": "/documentation/FoundationModels/PromptRepresentable", "law": "Conformance to this protocol is provided automatically by the macro, you should not override its implementations."}

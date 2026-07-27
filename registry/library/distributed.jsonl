@@ -4,3 +4,13 @@
 {"id": "/documentation/Distributed", "law": "A distributed actor is always part of some distributed actor system; that distributed actor system handles the serialization and networking necessary to perform remote method calls."}
 {"id": "/documentation/Distributed", "law": "For local testing, you can use ."}
 {"id": "/documentation/Distributed", "law": "For production, you can use the distributed actor system from the library, use another library, or write your own distributed actor system."}
+{"id": "/documentation/distributed/distributedactor", "law": "It is possible to require a type to conform to the protocol by refining it with another protocol, or by using a generic constraint."}
+{"id": "/documentation/distributed/distributedactor", "law": "These properties are and accessible even if the instance is remote , because all distributed actor references must store the actor system remote calls will be delivered through, as well as the id identifying the target of those calls."}
+{"id": "/documentation/distributed/distributedactor", "law": "Every distributed actor must declare what type of actor system it is part of by implementing the associated type requirement."}
+{"id": "/documentation/distributed/distributedactor", "law": "A distributed actor must declare what type of actor system it is ready to work with by fulfilling the type member requirement:"}
+{"id": "/documentation/distributed/distributedactor", "law": "It is possible for a specific actor to override the system it is using, by declaring an type alias as usual: In general the should not be declared public, as picking the default should be left up to each specific module of a project."}
+{"id": "/documentation/distributed/distributedactor", "law": "The accepted actor system must be of the type, which must conform to the protocol."}
+{"id": "/documentation/distributed/distributedactor", "law": "This is required because distributed actors are always managed by a concrete distributed actor system and cannot exist on their own without one."}
+{"id": "/documentation/distributed/distributedactor", "law": "It is possible to explicitly declare a parameter-free initializer ( ), however the property still must be assigned a concrete actor system instance the actor shall be part of."}
+{"id": "/documentation/distributed/distributedactor", "law": "In general it is recommended to always have an parameter as the last non-defaulted non-closure parameter in every actor’s initializer parameter list."}
+{"id": "/documentation/distributed/distributedactor", "law": "This way it is simple to swap in a “test actor system” instance in unit tests, and avoid relying on global state which could make testing more difficult."}

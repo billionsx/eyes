@@ -1,0 +1,23 @@
+{
+ "url": "https://investor.apple.com/investor-relations/default.aspx",
+ "sections": [],
+ "modules": [],
+ "imgs": 1,
+ "videos": 0,
+ "cta": 4,
+ "h_levels": {
+  "1": 1,
+  "2": 4,
+  "3": 16,
+  "4": 2
+ },
+ "css": [
+  "//s2.q4cdn.com/470004039/files/css/print.css",
+  "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "//s2.q4cdn.com/470004039/files/css/global.css?v=39275",
+  "//s2.q4cdn.com/470004039/files/css/client.css?v=39469",
+  "//s2.q4cdn.com/470004039/files/css/print.css",
+  "/css/evergreen/dist/default/evergreen.1.0.0.min.css"
+ ],
+ "typography_laws": 2
+}

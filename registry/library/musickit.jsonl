@@ -17,3 +17,4 @@
 {"id": "/documentation/musickit", "law": "Each music item type has its own set of properties you can use as a filter for a catalog resource request when loading music items for your app."}
 {"id": "/documentation/musickit", "law": "Before you can use any of the functionality of the framework, you need to request the user’s informed consent for your app to access their music data."}
 {"id": "/documentation/musickit/using-automatic-token-generation-for-apple-music-api", "law": "Be sure to set the bundle identifier of your app target to the same value you use for your App ID in these steps."}
+{"id": "/documentation/MusicKit/MusicLibraryRequestFilterValueEquatable", "law": "A protocol for types of values your app can use with equality filters when fetching items using a music library request."}

@@ -2,6 +2,7 @@
  "url": "https://www.apple.com/business/",
  "sections": [
   "section-welcome",
+  "section-mac-facts",
   "section-news",
   "section-innovation",
   "section-real-companies",
@@ -13,6 +14,7 @@
  ],
  "modules": [
   "name:hero",
+  "name:business is better with mac facts gallery",
   "name:new and noteworthy gallery",
   "name:hardware and software gallery",
   "name:stats gallery",
@@ -23,13 +25,13 @@
   "name:faq",
   "name:index"
  ],
- "imgs": 94,
+ "imgs": 104,
  "videos": 3,
- "cta": 66,
+ "cta": 76,
  "h_levels": {
   "1": 1,
-  "2": 13,
-  "3": 56,
+  "2": 14,
+  "3": 66,
   "4": 9
  },
  "css": [
@@ -37,7 +39,7 @@
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
   "/v/markets-shared-form/b/built/styles/main.built.css",
-  "/v/business/g/built/styles/overview.built.css",
+  "/v/business/h/built/styles/overview.built.css",
   "/ac/ac-films/7.5.1/styles/modal.css"
  ],
  "typography_laws": 2

@@ -745,3 +745,99 @@
 {"id": "/documentation/appkit/nsslidercell/slidertype", "law": "The minimum value ( ) is at the top, and the value increases clockwise around the dial."}
 {"id": "/documentation/appkit/nsslidercell/slidertype", "law": "The maximum selectable value is just below ; for example, if is 360, you can set the dial up to 359.999."}
 {"id": "/documentation/appkit/nsslidercell/slidertype", "law": "You can use the property to display tick marks, and you can use the property to specify that values are limited to those values represented by tick marks."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "To access the input files, use the property of the contained in the array."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "To obtain the correct directory path for writing output files, use , passing the constant."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "If the action requires user interaction then the extension may present a user interface."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "Set the key in the to and ensure that the principal class is a subclass of ."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "If the extension does not require user interaction, specify and have the principal class conform to ."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "Extensions that present a user interface show their view controller’s view immediately after the extension calls and should input files with the property of ."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "Once the extension’s user interface has completed any required user interaction for the task, process the files in the normal way by calling ."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "To cancel the task, use the ."}
+{"id": "/documentation/appkit/add-functionality-to-finder-with-action-extensions", "law": "Each extension must also have a template icon for use in the Quick Actions menu and the Finder Preview pane."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "Item objects are view controllers, and you use their view hierarchies to display your content."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "Items are the most common types of elements displayed by a collection view, and every collection view must have at least one type of item."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "You use items to represent the main content of your collection view interface."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "For example, a photo browser app would use items to display individual photos."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "The actual data is always managed by your app and exposed to the collection view through the data source object, which uses the data to configure the items that are displayed."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "The use of items with a collection view requires doing the following: Define the visual appearance of your items by specifying what views they contain and how those views are arranged."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "(You must register your items before the collection view tries to display any content.) In your data source object, create and configure items when the collection view asks for them; see ."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "Your app’s data structures are always the original source of content, and the item contains only a copy of that data to present to the user."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "When the underlying data associated with an item changes, the data source should invalidate the item by calling the method of the collection view."}
+{"id": "/documentation/appkit/nscollectionviewitem", "law": "When using a nib file, you can use a generic object if your item contains only an image or text field."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "You must assign the property to a view in your view hierarchy."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "When using history mode, do not wire to an subview."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "This allows the page controller to remain responsive to the user without any required action by your application.Next, if implemented, the delegate method is invoked."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "However, do not block the main thread or the animation will stutter or pause."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "You should any position settings or other display specific state stored in the implementation."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "The is still hidden at this point and you must call on the page controller instance to inform the instance to hide the private transition view and show ."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "Book mode is designed to give you more control over the swiping process and to facilitate more user interface designs than just history, although you can use book mode to create a history user interface."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "To enable book mode, you must implement the following two methods in your delegate: and ."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "If you do not implement this method, then the of the view controller that would have been passed to this delegate method is set as the object."}
+{"id": "/documentation/appkit/nspagecontroller", "law": "The NSPageController instance will use this to generate a default snapshot for that identifier."}
+{"id": "/documentation/appkit/nsprintinfo", "law": "You can use this dictionary to store custom information associated with a print job."}
+{"id": "/documentation/appkit/nsprintinfo", "law": "Any non-object values should be stored as or objects in the dictionary."}
+{"id": "/documentation/appkit/nsprintinfo", "law": "See for a list of types which should be stored as numbers."}
+{"id": "/documentation/appkit/nsprintinfo", "law": "For other non-object values, use the class."}
+{"id": "/documentation/appkit/nsprintinfo", "law": "To store custom information that belongs in printing presets you should use the dictionary returned by the method."}
+{"id": "/documentation/appkit/nssegueperforming", "law": "To conditionally disallow the performance of a segue, override the method, returning .If you need to programmatically trigger a segue that cannot be expressed in a storyboard file, such as a transition between scenes in different storyboards, use the method in this protocol."}
+{"id": "/documentation/appkit/nstabviewcontroller", "law": "Always assign a child view controller to new tab view items before adding those items to the tab view interface."}
+{"id": "/documentation/appkit/nstitlebaraccessoryviewcontroller", "law": "If you’re currently using fullscreen accessory APIs, such as , you should use APIs instead."}
+{"id": "/documentation/appkit/nstitlebaraccessoryviewcontroller", "law": "Typically, you create an object, give it your custom view, set the property to ensure that it displays correctly in relation to the title bar, and add the view controller to your window."}
+{"id": "/documentation/appkit/nstitlebaraccessoryviewcontroller", "law": "For more information about methods you can use to add and remove a title bar accessory view controller, see Managing Title Bars."}
+{"id": "/documentation/appkit/nstitlebaraccessoryviewcontroller", "law": "Don’t override the property in your subclass."}
+{"id": "/documentation/appkit/nstitlebaraccessoryviewcontroller", "law": "The remaining size direction is automatically set to the maximum size as required for the window."}
+{"id": "/documentation/appkit/nsview/layout()", "law": "You must call as part of your implementation."}
+{"id": "/documentation/appkit/nsviewcontroller/commitediting(withdelegate:didcommit:contextinfo:)", "law": "The receiver must have been registered as the editor of an object using , and has not yet been unregistered by a subsequent invocation of ."}
+{"id": "/documentation/appkit/nsviewcontroller/commitediting(withdelegate:didcommit:contextinfo:)", "law": "The method must have the following method signature:."}
+{"id": "/documentation/appkit/nsviewcontroller/commitediting(withdelegate:didcommit:contextinfo:)", "law": "If an error occurs while attempting to commit, for example if key-value coding validation fails, an implementation of this method should typically send the receiver’s view a message, specifying the view’s containing window."}
+{"id": "/documentation/appkit/nsviewcontroller/commitediting(withdelegate:didcommit:contextinfo:)", "law": "You may find this method useful in some situations when you want to ensure that pending changes are applied before a change in user interface state."}
+{"id": "/documentation/appkit/nsviewcontroller/commitediting(withdelegate:didcommit:contextinfo:)", "law": "For example, you may need to ensure that changes pending in a text field are applied before a window is closed."}
+{"id": "/documentation/appkit/nsviewcontroller/init(nibname:bundle:)", "law": "The specified nib file should typically have the class of the file’s owner set to , or a custom subclass, with the outlet connected to a view."}
+{"id": "/documentation/appkit/nsviewcontroller/init(nibname:bundle:)", "law": "If you pass in for , returns and throws an exception; in this case you must set before is invoked, or override ."}
+{"id": "/documentation/appkit/nsviewcontroller/insertchild(_:at:)", "law": "You should instead use the method unless you want to perform work on child view controllers as you add them."}
+{"id": "/documentation/appkit/nsviewcontroller/loadview()", "law": "If you require this method to be called, access the property."}
+{"id": "/documentation/appkit/nsviewcontroller/loadview()", "law": "Do not invoke this method from other objects unless you take care to avoid redundant invocations."}
+{"id": "/documentation/appkit/nsviewcontroller/loadview()", "law": "To be safe, other objects should instead access a view controller’s property."}
+{"id": "/documentation/appkit/nsviewcontroller/preferredmaximumsize", "law": "An app extension should return the maximum dimensions that are potentially useful for its root view, based on the items the service has been sent."}
+{"id": "/documentation/appkit/nsviewcontroller/preferredminimumsize", "law": "An app extension should return the minimum dimensions its primary view can accommodate, based on the items the app extension has been sent."}
+{"id": "/documentation/appkit/nsviewcontroller/preferredscreenorigin", "law": "To specify the desired primary view size for an app extension’s view controller, use the property."}
+{"id": "/documentation/appkit/nsviewcontroller/present(_:animator:)", "law": "Do not call this method unless you want to use a custom animator."}
+{"id": "/documentation/appkit/nsviewcontroller/present(_:animator:)", "law": "To use one of the standard animators to present another view controller, instead call one of the dedicated presentation methods: Each of these methods calls this method in turn."}
+{"id": "/documentation/appkit/nsviewcontroller/present(_:aspopoverrelativeto:of:preferrededge:behavior:)", "law": "You can use methods to customize the popover."}
+{"id": "/documentation/appkit/nsviewcontroller/presentasmodalwindow(_:)", "law": "You can use methods to prevent the closing of the modal window, if needed."}
+{"id": "/documentation/appkit/nsviewcontroller/removechild(at:)", "law": "If you just want to remove a child view controller, instead use the method Removes a specified child controller from the view controller."}
+{"id": "/documentation/appkit/nsviewcontroller/removefromparent()", "law": "Use this method to remove a child view controller from its parent view controller, unless you want to perform work during the removal."}
+{"id": "/documentation/appkit/nsviewcontroller/representedobject", "law": "When you use the represented object as the file’s owner of a nib file, you can bind controls to the file’s owner using key paths that start with the string ."}
+{"id": "/documentation/appkit/nsviewcontroller/title", "law": "The class does not use this property for its own purposes."}
+{"id": "/documentation/appkit/nsviewcontroller/transition(from:to:options:completionhandler:)", "law": "Use this method to transition between sibling child view controllers owned by a parent view controller (which is the receiver of this method)."}
+{"id": "/documentation/appkit/nsviewcontroller/transition(from:to:options:completionhandler:)", "law": "The receiver of this method must be the parent view controller of the and view controllers, or else this method raises an exception."}
+{"id": "/documentation/appkit/nsviewcontroller/transition(from:to:options:completionhandler:)", "law": "To create a parent/child relationship between view controllers, use the method or the method."}
+{"id": "/documentation/appkit/nsviewcontroller/updateviewconstraints()", "law": "If you override this method, you must call this method on at some point in your implementation or call the method on the view controller’s view."}
+{"id": "/documentation/appkit/nsviewcontroller/viewdidappear()", "law": "You can override this method to perform tasks appropriate for that time, such as work that should not interfere with the presentation animation, or starting an animation that you want to begin after the view appears."}
+{"id": "/documentation/appkit/nsviewcontroller/viewloading", "law": "Use this property wrapper on view controller properties that can be before the view controller’s view loads."}
+{"id": "/documentation/appkit/nsviewcontroller/viewloading", "law": "The following example uses the wrapper to ensure that loads before referencing it in the of the property observer: After loading , the system can safely access and set the property."}
+{"id": "/documentation/appkit/nsviewcontroller/viewloading", "law": "Use this property wrapper over implicitly unwrapped optionals for as well."}
+{"id": "/documentation/appkit/nsuserinterfacecompressionoptions", "law": "Because a compression options object behaves like a set, you can use common operations like intersection, union and subtraction to interact with instances and their members."}
+{"id": "/documentation/appkit/nsuserinterfacecompressionoptions", "law": "To compare two different compression options objects, use the methods described in the Comparing compression options section."}
+{"id": "/documentation/appkit/nspopovertouchbaritem/makestandardactivatepopovergesturerecognizer()", "law": "Use this method to create a gesture recognizer that you then attach to a custom view."}
+{"id": "/documentation/appkit/nspopovertouchbaritem/showsclosebutton", "law": "A Boolean value that determines whether a close button should be shown on the popover bar."}
+{"id": "/documentation/appkit/nsinterfacestyleforkey", "law": "An value specifies the style in which an interface item, such as a button or a scroll bar, should be drawn."}
+{"id": "/documentation/appkit/nsinterfacestyleforkey", "law": "For example, a value of indicates an item should be drawn in the Macintosh style."}
+{"id": "/documentation/appkit/nsinterfacestyleforkey", "law": "Note that this function never returns ."}
+{"id": "/documentation/appkit/nsresponder/becomefirstresponder()", "law": "Use the method, not this method, to make an object the first responder."}
+{"id": "/documentation/appkit/nsresponder/becomefirstresponder()", "law": "Never invoke this method directly."}
+{"id": "/documentation/appkit/nsresponder/contextmenukeydown(_:)", "law": "Handle a key event that should present a context menu at the user focus."}
+{"id": "/documentation/appkit/nsresponder/contextmenukeydown(_:)", "law": "Most applications should not override this method."}
+{"id": "/documentation/appkit/nsresponder/contextmenukeydown(_:)", "law": "Instead, you should customize the context menu displayed from a keyboard event by implementing and , or , rather than this method."}
+{"id": "/documentation/appkit/nsresponder/contextmenukeydown(_:)", "law": "You should only override this method when you do not want the system-provided default behavior for the context menu hotkey, either for a specific key combination, or for the hotkey in general."}
+{"id": "/documentation/appkit/nsresponder/contextmenukeydown(_:)", "law": "For example, if your application already provides a different behavior for control-Return (the default context menu hotkey definition), and you want to preserve that behavior, you should override this method to handle that specific key combination, and then return without calling ."}
+{"id": "/documentation/appkit/nsresponder/contextmenukeydown(_:)", "law": "An implementation of this method should call to pass the request up the responder chain."}
+{"id": "/documentation/appkit/nsresponder/contextmenukeydown(_:)", "law": "If you do not call , then no further handling of the key event will be performed."}
+{"id": "/documentation/appkit/nsresponder/cursorupdate(with:)", "law": "If the responder implements this method, but decides not to handle a particular event, it should invoke the superclass implementation of this method."}
+{"id": "/documentation/appkit/nsresponder/encoderestorablestate(with:backgroundqueue:)", "law": "Don’t call this method directly."}
+{"id": "/documentation/appkit/nsresponder/helprequested(_:)", "law": "Subclasses are not required to override this method."}
+{"id": "/documentation/appkit/nsresponder/helprequested(_:)", "law": "Current hardware does not invoke this method and application code should not call it directly."}
+{"id": "/documentation/appkit/nsresponder/helprequested(_:)", "law": "To provide context-sensitive help, use help tags (tooltips)."}
+{"id": "/documentation/appkit/nsresponder/nextresponder", "law": "The next responder must be an object that inherits, directly or indirectly, from ."}
+{"id": "/documentation/appkit/nsresponder/performkeyequivalent(with:)", "law": "If the character code or codes in match the receiver’s key equivalent, the receiver should respond to the event and return ."}
+{"id": "/documentation/appkit/nsresponder/performkeyequivalent(with:)", "law": "You should extract the characters for a key equivalent using the method ."}

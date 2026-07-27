@@ -1,1 +1,11 @@
 {"id": "/documentation/UniformTypeIdentifiers", "law": "Use these types in your project to describe the file types in your app."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "If your app uses a type that this framework provides, don’t redeclare it in your app’s bundle."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "When importing a type from another app, don’t declare your own identifier; instead, use the same type identifier as the original."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "To ensure uniqueness, start by using a reverse DNS format that begins with ."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "The identifier must contain only alphanumeric characters ( , – , and – ), hyphens ( ), and periods ( )."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "For example, you might use or for the string in the file."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "Don’t use , , or as the prefix in your app’s types."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "For example, if your app uses a proprietary file format based on , use in the string in the file."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "When defining a document type, make sure that it conforms to or to ensure the Finder or Files app can represent it."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "If you specify conformance to a nonpublic type, make sure that you also declare that type in your bundle."}
+{"id": "/documentation/UniformTypeIdentifiers/defining-file-and-data-types-for-your-app", "law": "For example, you might use for the string in the file."}

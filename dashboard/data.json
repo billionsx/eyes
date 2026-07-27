@@ -1,24 +1,24 @@
 {
- "ts": "2026-07-27 15:18 UTC",
+ "ts": "2026-07-27 19:20 UTC",
  "atlas": {
-  "visited": 12700,
-  "frontier": 53601,
+  "visited": 14200,
+  "frontier": 55015,
   "cycles": 0,
-  "last": "2026-07-27 06:37 UTC"
+  "last": "2026-07-27 19:13 UTC"
  },
  "library": {
-  "laws": 20079,
-  "frameworks": 335
+  "laws": 20829,
+  "frameworks": 336
  },
- "web_laws": 157,
+ "web_laws": 264,
  "knowledge": 1666,
  "sources": 71,
  "web_pages": 87,
  "kit": {
-  "kits": 1,
+  "kits": 2,
   "fonts": 3,
   "links_seen": 41,
-  "errors": 1
+  "errors": 0
  },
  "symbols": 9184,
  "screens": {
@@ -48,8 +48,8 @@
   "iskcon": 327
  },
  "big7": {
-  "pages": 161,
-  "laws": 97,
+  "pages": 208,
+  "laws": 128,
   "frames": 7
  },
  "base": "ios26.5-dark",
