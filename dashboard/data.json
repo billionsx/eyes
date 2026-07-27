@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-27 11:37 UTC",
+ "ts": "2026-07-27 15:18 UTC",
  "atlas": {
   "visited": 12700,
   "frontier": 53601,
@@ -35,8 +35,8 @@
  },
  "certificate": "iskcon: 95.0 · A",
  "monitor": {
-  "ts": "2026-07-27 10:48 UTC",
-  "sha": "0b254f466eb16c931c41bdafc59608b8522cb54c",
+  "ts": "2026-07-27 15:18 UTC",
+  "sha": "",
   "now": 0,
   "new": 0,
   "gone": 0
