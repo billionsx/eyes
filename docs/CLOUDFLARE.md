@@ -5,32 +5,28 @@
 Pages перевыкладывает страницу автоматически). Ни сервера, ни билда, ни
 платы: страница уже лежит готовой в `dashboard/`.
 
-Проверено 27.07.2026: `vrajs.com` **занят** — то есть уже зарегистрирован
-(домен не продаётся). Если регистратор твой — идёшь по шагам как есть.
+ФАКТ 27.07.2026 (снимок панели основателя): зона `vrajs.com` уже в аккаунте
+`d5cbe19470dc38599873eabfe148e6d1` (тот же аккаунт, где живёт D1 проекта
+ISKCON), план **free**, DNS Setup **Full**, статус — «Your domain is now
+protected by Cloudflare». Значит **шаг 1 закрыт**, начинать с шага 2.
 
 ---
-## Шаг 1 · Зона домена в Cloudflare
+## Шаг 1 · Зона домена в Cloudflare — ЗАКРЫТ 27.07.2026
 
-Открыть **https://dash.cloudflare.com** → выбрать аккаунт.
+Зона активна, ничего делать не нужно. Прямая ссылка на зону:
+https://dash.cloudflare.com/d5cbe19470dc38599873eabfe148e6d1/vrajs.com
 
-**Если `vrajs.com` уже в списке сайтов** — пропустить шаг, идти на шаг 2.
-
-Если нет:
-1. **Add a domain** (кнопка справа сверху или на главной аккаунта).
-2. Ввести `vrajs.com` → **Continue**.
-3. План — **Free** → **Continue**.
-4. Cloudflare покажет найденные DNS-записи → **Continue**.
-5. Cloudflare выдаст **два своих nameserver'а** вида
-   `xxx.ns.cloudflare.com` — их нужно вписать у регистратора домена
-   (там, где домен куплен: раздел NS / DNS-серверы / «Управление
-   DNS-серверами»), заменив текущие.
-6. Вернуться в Cloudflare → **Check nameservers now**. Активация занимает
-   от 5 минут до нескольких часов; статус зоны станет **Active**.
+Если когда-нибудь понадобится повторить на другом домене: **Add a domain** →
+имя → план **Free** → Cloudflare выдаёт два своих nameserver'а
+(`…ns.cloudflare.com`) → вписать их у регистратора вместо текущих NS →
+**Check nameservers now** → статус зоны **Active**.
 
 ---
 ## Шаг 2 · Проект Pages из репозитория
 
-1. В меню слева — **Workers & Pages** → кнопка **Create application**.
+1. Открыть **Workers & Pages** этого аккаунта:
+   https://dash.cloudflare.com/d5cbe19470dc38599873eabfe148e6d1/workers-and-pages
+   → кнопка **Create application**.
 2. Вкладка **Pages** → **Import an existing Git repository** → **Connect
    to Git** → **GitHub** → авторизовать Cloudflare.
 3. В списке репозиториев выбрать **billionsx/eyes** → **Begin setup**.
@@ -50,6 +46,10 @@ Pages перевыкладывает страницу автоматически
 
 Пустой build command — намеренно: страница уже собрана департаментом,
 Cloudflare её только раздаёт. Ни npm, ни node, ни минут сборки.
+
+В `dashboard/` каждым прогоном пишутся также `_headers` (кэш 5 минут,
+`nosniff`, CORS на `data.json`) и `robots.txt` — Pages подхватывает их сам.
+Числа эфира доступны машинам как `https://vrajs.com/data.json`.
 
 ---
 ## Шаг 3 · Домен на проект

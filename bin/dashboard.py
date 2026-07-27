@@ -179,6 +179,22 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
 </html>"""
     (out / "index.html").write_text(html, encoding="utf-8")
 
+    # Статика домена: пишется каждым прогоном, чтобы не могла разойтись.
+    # index.html пересобирается постоянно — кэш браузера держим коротким,
+    # data.json отдаём как источник чисел для внешних читателей.
+    (out / "_headers").write_text(
+        "/*\n"
+        "  X-Content-Type-Options: nosniff\n"
+        "  Referrer-Policy: strict-origin-when-cross-origin\n"
+        "  Cache-Control: public, max-age=300, must-revalidate\n"
+        "/data.json\n"
+        "  Access-Control-Allow-Origin: *\n"
+        "  Cache-Control: public, max-age=300\n", encoding="utf-8")
+    (out / "robots.txt").write_text(
+        "# Billions X Eyes · эфир департамента\n"
+        "User-agent: *\n"
+        "Allow: /\n", encoding="utf-8")
+
 
 if __name__ == "__main__":
     d = collect()
