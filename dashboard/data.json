@@ -1,0 +1,339 @@
+{
+ "ts": "2026-07-27 11:13 UTC",
+ "atlas": {
+  "visited": 12700,
+  "frontier": 53601,
+  "cycles": 0,
+  "last": "2026-07-27 06:37 UTC"
+ },
+ "library": {
+  "laws": 20079,
+  "frameworks": 335
+ },
+ "web_laws": 157,
+ "knowledge": 1666,
+ "sources": 71,
+ "web_pages": 87,
+ "kit": {
+  "kits": 1,
+  "fonts": 3,
+  "links_seen": 41,
+  "errors": 1
+ },
+ "symbols": 9184,
+ "screens": {
+  "frames": 195,
+  "apps": 10
+ },
+ "appstore": {
+  "points": 55,
+  "have": true
+ },
+ "brief": "BIG7 · бриф недели 2026-W31",
+ "certificates": {
+  "iskcon": "95.0 · A"
+ },
+ "certificate": "iskcon: 95.0 · A",
+ "monitor": {
+  "ts": "2026-07-27 10:48 UTC",
+  "sha": "0b254f466eb16c931c41bdafc59608b8522cb54c",
+  "now": 0,
+  "new": 0,
+  "gone": 0
+ },
+ "live": {
+  "pages": 3
+ },
+ "ratchet": {
+  "iskcon": 327
+ },
+ "big7": {
+  "pages": 161,
+  "laws": 97,
+  "frames": 7
+ },
+ "base": "ios26.5-dark",
+ "tasks": {
+  "bxad": {
+   "done": 10,
+   "active": 7,
+   "queued": 1,
+   "blocked": 0,
+   "partial": 1
+  },
+  "iskcon_product": {
+   "done": 2,
+   "active": 1,
+   "queued": 6,
+   "blocked": 0,
+   "partial": 0
+  },
+  "service": {
+   "done": 0,
+   "active": 5,
+   "queued": 3,
+   "blocked": 0,
+   "partial": 1
+  }
+ },
+ "tasks_list": {
+  "_суть": "Реестр поручений основателя (ст. 53). Каждое поручение: статус · орган-исполнитель · статья устава. Статусы: done | active | queued | blocked | partial.",
+  "bxad": [
+   {
+    "id": "T01",
+    "task": "Полная профессиональная конституция департамента",
+    "status": "done",
+    "organ": "CONSTITUTION.md р.5 · суд ст.45",
+    "article": "весь устав"
+   },
+   {
+    "id": "T02",
+    "task": "Проверка работоспособности и реального соответствия стандартам",
+    "status": "done",
+    "organ": "bin/verify.py (сверка 3 плоскостей)",
+    "article": "ст. 45"
+   },
+   {
+    "id": "T03",
+    "task": "Изученность всех пунктов: динамика · кинетика · эффекты · анимация",
+    "status": "done",
+    "organ": "bin/study.py + AE13 + дозор спрингов",
+    "article": "ст. 21.1 · 22.1"
+   },
+   {
+    "id": "T04",
+    "task": "Ежедневное исследование developer.apple.com + 18 внутренних ресурсов",
+    "status": "active",
+    "organ": "bin/crawler.py · 73 источника · ежедневно",
+    "article": "ст. 35–37 · 49"
+   },
+   {
+    "id": "T05",
+    "task": "Автономный цикл всей /documentation/ → собственная библиотека законов",
+    "status": "active",
+    "organ": "bin/atlas.py · 2 урожая/сутки",
+    "article": "ст. 37.1 · 37.2"
+   },
+   {
+    "id": "T06",
+    "task": "Кит iOS 27 из Figma без аккаунта основателя",
+    "status": "partial",
+    "organ": "figkit: Figma-рука спит (KIT-UNLOCK.md); факт: Sketch-кита 27 не существует; компенсация: кадротека + шрифты SF + символы",
+    "article": "ст. 36.1"
+   },
+   {
+    "id": "T07",
+    "task": "Переименование департамента в Billions X Eyes (BXE)",
+    "status": "done",
+    "organ": "каталог bxad/ · eyes.yml · брендинг",
+    "article": "титул"
+   },
+   {
+    "id": "T08",
+    "task": "Директива №8: Программа-95 — узкие звенья и инструменты",
+    "status": "active",
+    "organ": "ст. 52: кадротека·Figma-рука·символы·живой взгляд·атлас·веб-атлас",
+    "article": "ст. 52"
+   },
+   {
+    "id": "T09",
+    "task": "Архив кадров приложений Apple → изучить и внести",
+    "status": "done",
+    "organ": "bin/screens.py · 195 кадров/10 приложений · паспорта · находки сдвига базы · релиз bxad-screens-v1",
+    "article": "ст. 36.2"
+   },
+   {
+    "id": "T10",
+    "task": "Мультиплатформенность: iOS·iPadOS·macOS·tvOS·visionOS·watchOS·AppStore·Web — раздельно, по назначению",
+    "status": "done",
+    "organ": "standards/platforms/*.json (8 тел)",
+    "article": "ст. 26.2"
+   },
+   {
+    "id": "T11",
+    "task": "Веб-версии продуктов Apple наравне с documentation",
+    "status": "active",
+    "organ": "bin/weblab.py (паспорта + CSS-законы)",
+    "article": "ст. 36.3"
+   },
+   {
+    "id": "T12",
+    "task": "Стандарты лендинг-презентаций Apple: кит по 87 страницам",
+    "status": "active",
+    "organ": "WEBLAB.md — частоты секций/модулей; library/web-landings.jsonl",
+    "article": "ст. 36.3"
+   },
+   {
+    "id": "T13",
+    "task": "Урожай неубиваем пушами/отменами",
+    "status": "done",
+    "organ": "eyes-atlas.yml — своя concurrency-группа",
+    "article": "ст. 37.3 (примеч.)"
+   },
+   {
+    "id": "T14",
+    "task": "Все поручения зафиксированы и интегрированы в автономный процесс",
+    "status": "done",
+    "organ": "registry/tasks.json + суд целостности",
+    "article": "ст. 53"
+   },
+   {
+    "id": "T15",
+    "task": "Отчётность — дашборд в прямом эфире",
+    "status": "done",
+    "organ": "bin/dashboard.py → dashboard/DASHBOARD.md + index.html, обновление каждым прогоном",
+    "article": "ст. 54"
+   },
+   {
+    "id": "T16",
+    "task": "Перенос BXE: отдельный GitHub + домен + Cloudflare, подключаем к любому проекту",
+    "status": "queued",
+    "organ": "MIGRATION-STANDALONE.md; факт: Тильда даёт только TXT/MX (CNAME нет) — пути В1 pages.dev · В2 свой домен CF (рекомендация) · В3 NS-перенос зоны",
+    "article": "ст. 46–47"
+   },
+   {
+    "id": "T17",
+    "task": "Живой взгляд: видеть приложения в реальном режиме, не кадрами",
+    "status": "active",
+    "organ": "bin/liveview.py --live (Chromium · DOM+computed · AE-сверка); SPA-ожидание в урожае №2",
+    "article": "ст. 37.3"
+   },
+   {
+    "id": "T18",
+    "task": "Установка приложений Apple для разработчиков",
+    "status": "done",
+    "organ": "eyes-macos.yml: Xcode 15.4 (+8 версий) · SF Symbols установлен · опись 9184 символа",
+    "article": "ст. 49.1"
+   },
+   {
+    "id": "T19",
+    "task": "Большая семёрка (Deloitte·PwC·EY·KPMG + McKinsey·BCG·Bain): ежедневное системное познание логики — аналитика · продукт · бизнес-логика",
+    "status": "active",
+    "organ": "bin/consult.py · шаг урожая ежедневно · library/big7 + карта фреймворков",
+    "article": "ст. 55"
+   }
+  ],
+  "iskcon_product": [
+   {
+    "id": "P-3G",
+    "task": "«Тройка 2-й генерации» ПКЛ: Шринивас · Нароттама · Шьямананда",
+    "status": "done",
+    "organ": "ПКЛ-конвейер (gold, аудит до нуля)"
+   },
+   {
+    "id": "P-4F",
+    "task": "«Финальная четвёрка» P1 современных гуру (закрытие 36/36)",
+    "status": "done",
+    "organ": "D1 entity_profiles (silver)"
+   },
+   {
+    "id": "C7",
+    "task": "Ц7 · Лекции Прабхупады (media в D1, «лекция дня», слушание в садхану)",
+    "status": "queued",
+    "organ": "продуктовые сессии ISKCON"
+   },
+   {
+    "id": "C8",
+    "task": "Ц8 · Путь ученика + рекомендованный порядок чтения",
+    "status": "queued",
+    "organ": "продуктовые сессии ISKCON"
+   },
+   {
+    "id": "C9",
+    "task": "Ц9 · Пуджа/Божества (deities почти пуст)",
+    "status": "queued",
+    "organ": "продуктовые сессии ISKCON"
+   },
+   {
+    "id": "C10",
+    "task": "Ц10 · Geo-density (координаты центров/тиртх)",
+    "status": "queued",
+    "organ": "продуктовые сессии ISKCON"
+   },
+   {
+    "id": "C11",
+    "task": "Ц11 · Контентная/структурная гигиена",
+    "status": "queued",
+    "organ": "продуктовые сессии ISKCON"
+   },
+   {
+    "id": "C12",
+    "task": "Ц12 · Payload ceiling Катхи (план в UX_AUDIT.md)",
+    "status": "queued",
+    "organ": "продуктовые сессии ISKCON"
+   },
+   {
+    "id": "PKL8",
+    "task": "ПКЛ Фаза 2: Джива (текущий) → Гопала Бхатта → … → Бхугарбха (8)",
+    "status": "active",
+    "organ": "ПКЛ-конвейер"
+   }
+  ],
+  "service": [
+   {
+    "id": "M1",
+    "task": "PR-гейт: ревью каждого pull request числами законов, построчно",
+    "status": "active",
+    "organ": "bin/review.py + eyes-review.yml (внутренняя версия); мульти-тенант — M7",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M2",
+    "task": "Монитор прода 24/7: живой взгляд после каждого деплоя + алерт в Slack",
+    "status": "active",
+    "organ": "bin/monitor.py + eyes-monitor.yml (workflow_run: deploy-web); Slack при секрете SLACK_WEBHOOK_URL, иначе комментарий к коммиту деплоя",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M3",
+    "task": "Пиксель-сертификация: ежемесячный PDF-отчёт соответствия с адресами + бейдж",
+    "status": "active",
+    "organ": "bin/certify.py + eyes-certify.yml (1-е число + dispatch): HTML+PDF+badge.json, формула объявлена в сертификате",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M4",
+    "task": "Генерация по канону: скрин/Figma → компонент, прошедший суд; персональный tokens.json клиента",
+    "status": "queued",
+    "organ": "мок-конвейер + адаптеры",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M5",
+    "task": "Страж App Store: прогон по живым App Review Guidelines до сабмита",
+    "status": "active",
+    "organ": "bin/appstore.py + eyes-appstore.yml (15-е число + dispatch): пункты живых гайдлайнов дословно + автопроверки репо (privacy/support с путями)",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M6",
+    "task": "Big7-бриф: еженедельные тезисы семёрки, применённые к продукту клиента",
+    "status": "active",
+    "organ": "bin/brief.py + eyes-brief.yml (пн 08:31 UTC): новые положения дословно с адресами · движение рамок · канонические вопросы",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M7",
+    "task": "GitHub App мульти-тенант (кнопки владельца: регистрация приложения)",
+    "status": "partial",
+    "organ": "путь А ГОТОВ: reusable workflow eyes-review-reusable.yml (клиент подключается 8-строчным yml без App); путь Б: BUSINESS/APP-SETUP.md — регистрация GitHub App кнопками владельца",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M8",
+    "task": "Stripe + тарифы Solo 99 / Team 499 / Studio 1000",
+    "status": "queued",
+    "organ": "после M7",
+    "article": "ст. 56"
+   },
+   {
+    "id": "M9",
+    "task": "Лендинг службы, собранный китом лендингов Apple",
+    "status": "queued",
+    "organ": "WEBLAB-кит → страница",
+    "article": "ст. 56"
+   }
+  ]
+ },
+ "articles": 68
+}

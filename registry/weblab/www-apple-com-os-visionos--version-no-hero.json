@@ -1,0 +1,40 @@
+{
+ "url": "https://www.apple.com/os/visionos/?version=no-hero",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-siri",
+  "section-apple-intelligence",
+  "section-spatial-experiences",
+  "section-improvements",
+  "section-more",
+  "section-developers",
+  "section-avp"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:siri ai on apple vision pro gallery",
+  "name:apple intelligence on apple vision pro gallery",
+  "name:spatial experiences gallery",
+  "name:os improvements gallery",
+  "name:more",
+  "name:developers",
+  "name:explore apple vision pro"
+ ],
+ "imgs": 104,
+ "videos": 9,
+ "cta": 24,
+ "h_levels": {
+  "1": 1,
+  "2": 10,
+  "3": 36
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/os/f/built/styles/visionos.built.css"
+ ],
+ "typography_laws": 2
+}

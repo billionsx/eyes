@@ -1,0 +1,2 @@
+{"id": "/documentation/ColorSync", "law": "Use ColorSync directly when your app needs to manage color itself; for example, a professional photo, print, or video app that builds custom transforms, or a tool that inspects and calibrates the profiles assigned to devices and displays."}
+{"id": "/documentation/ColorSync", "law": "Use ColorSync to match color across color spaces and to read, author, and embed the International Color Consortium (ICC) profiles that describe them."}

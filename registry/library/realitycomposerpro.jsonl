@@ -1,0 +1,8 @@
+{"id": "/documentation/RealityComposerPro", "law": "Systems define a process that acts on every entity with the required components."}
+{"id": "/documentation/RealityComposerPro", "law": "Systems act globally over all entities with the required components — entities that lack the components, such as a tree or a chair, are ignored."}
+{"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "Script Graphs use entry points — such as On Initialize , On Update , On Collision , On Tap , and Custom Events — as the starting point for execution flow."}
+{"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "Use SwiftUI to build the user interface for your app."}
+{"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "You don’t need Swift experience, but familiarity with the RealityKit Entity Component System helps."}
+{"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "To add your first node, use the methods described in ."}
+{"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "If you know what you’re looking for, use the Search box in the Node Selector to narrow the list."}
+{"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "Use the simulation to confirm your Script Graph executes as expected before deploying to a device."}

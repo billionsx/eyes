@@ -1,0 +1,26 @@
+{"id": "/documentation/photos/phasset", "law": "Use the class methods listed in Fetching Assets to retrieve one or more instances representing the assets you want to display or edit."}
+{"id": "/documentation/photos/phasset", "law": "However, depending on how you plan to use this data, you may not need to download all of it."}
+{"id": "/documentation/photos/phassetchangerequest", "law": "You use the class to request changes for objects."}
+{"id": "/documentation/photos/phassetchangerequest", "law": "Use the change request’s properties to request changes to the corresponding properties of the asset itself."}
+{"id": "/documentation/photos/phassetchangerequest", "law": "If you create or use a change request object outside a photo library change block, Photos raises an Objective-C exception."}
+{"id": "/documentation/photos/phassetchangerequest", "law": "A request to create, delete, change metadata for, or edit the content of a Photos asset, for use in a photo library change block."}
+{"id": "/documentation/photos/phassetcollectionchangerequest", "law": "You use the class to request changes for objects."}
+{"id": "/documentation/photos/phassetcollectionchangerequest", "law": "Before creating a change request, use the method to verify that the collection allows the edit operation you’re requesting."}
+{"id": "/documentation/photos/phassetcollectionchangerequest", "law": "Use the change request’s properties and instance methods to request changes to the asset collection itself."}
+{"id": "/documentation/photos/phassetcollectionchangerequest", "law": "If you create or use a change request object outside a photo library change block, Photos raises an Objective-C exception."}
+{"id": "/documentation/photos/phassetcollectionchangerequest", "law": "A request to create, delete, or modify a Photos asset collection, for use in a photo library change block."}
+{"id": "/documentation/photos/phcontenteditingoutput", "law": "Use a photo library change block to commit the edit."}
+{"id": "/documentation/photos/phfetchoptions", "law": "The options you specify control which objects the fetch result includes, how those objects are arranged in the fetch result, and how Photos should notify your app of changes to the fetch result."}
+{"id": "/documentation/photos/phfetchresult", "law": "When you use class methods on the , , , and classes to retrieve objects, Photos provides the resulting objects in a fetch result."}
+{"id": "/documentation/photos/phimagemanager", "law": "Use these methods to fetch full-size photo assets or thumbnail images, or to retrieve AVFoundation objects for playing, exporting, and manipulating video assets."}
+{"id": "/documentation/photos/phimagemanager", "law": "To load image or video data: Use the class to fetch the asset you’re interested in."}
+{"id": "/documentation/photos/phimagemanager", "law": "Use one of the methods listed in the Requesting groups below to load the asset’s image or video data."}
+{"id": "/documentation/photos/phimagemanager", "law": "If you need to load image data for many assets together, use the class to “preheat” the cache by loading images you expect to need soon."}
+{"id": "/documentation/photos/phchange", "law": "After Photos provides a change object, you use its methods to get a change details object."}
+{"id": "/documentation/photos/phphotolibrarychangeobserver/photolibrarydidchange(_:)", "law": "Use the provided object to find out which, if any, of the albums or collections you’re interested in have changed and get detailed change information."}
+{"id": "/documentation/photos/phlivephoto", "law": "In iOS and tvOS, you can use this class to reference Live Photos from the user’s library (fetched with the and classes), to load displayable Live Photo objects from data obtained elsewhere (such as pictures shared through a social network), and to assign Live Photos to objects for display."}
+{"id": "/documentation/photos/phlivephoto", "law": "In iOS, tvOS, and macOS, you can use this class to display edits in progress for Live Photo content in a photo editing extension."}
+{"id": "/documentation/photos/phlivephoto", "law": "(To work with Live Photos as elements of the Photos library, use the class."}
+{"id": "/documentation/photos/phlivephoto", "law": "To work with the data files that constitute a Live Photo, use the class.) To display Live Photo content on the web, use the framework."}
+{"id": "/documentation/Photos/PHAssetChangeRequest/creationRequestForAssetFromVideo(atFileURL:)", "law": "To set metadata properties of the newly created asset, use the corresponding properties of the change request (listed in Modifying Assets)."}
+{"id": "/documentation/Photos/PHAssetChangeRequest/creationRequestForAssetFromVideo(atFileURL:)", "law": "To reference the newly created asset later in the same change block or after the change block completes, use the property to retrieve a placeholder object."}

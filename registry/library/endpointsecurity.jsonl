@@ -1,0 +1,8 @@
+{"id": "/documentation/EndpointSecurity/monitoring-system-events-with-endpoint-security", "law": "is a minimal system extension that shows how to use the Endpoint Security library."}
+{"id": "/documentation/EndpointSecurity/monitoring-system-events-with-endpoint-security", "law": "You must set the “Extension” target membership on exactly one of these two files."}
+{"id": "/documentation/EndpointSecurity/monitoring-system-events-with-endpoint-security", "law": "Scroll to “Full Disk Access” and grant permission to use the extension."}
+{"id": "/documentation/EndpointSecurity/monitoring-system-events-with-endpoint-security", "law": "For process executions, the extension denies new execs that use the signing ID ; this means the extension will prevent the default from launching."}
+{"id": "/documentation/endpointsecurity/client", "law": "Create an Endpoint Security client with , then use this client to subscribe to event types of interest to your app or system extension."}
+{"id": "/documentation/endpointsecurity/message", "law": "Handlers use this information to react to the event."}
+{"id": "/documentation/endpointsecurity/message", "law": "In the case of authorization events, handlers must actively respond to the message and authorize or deny the monitored action."}
+{"id": "/documentation/endpointsecurity/message", "law": "The client must respond before the specified by the message."}

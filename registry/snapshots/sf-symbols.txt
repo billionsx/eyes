@@ -1,0 +1,41 @@
+# SF Symbols - Apple Developer
+# https://developer.apple.com/sf-symbols/
+# снято: 2026-07-23 08:46 UTC
+
+## h2: Explore Get Started
+## h2: Stay Updated
+## h2: Explore Platforms
+## h2: Featured
+## h2: Explore Technologies
+## h2: Featured
+## h2: Explore Community
+## h2: Featured
+## h2: Explore Documentation
+## h2: Release Notes
+## h2: Explore Downloads
+## h2: Featured
+## h2: Explore Support
+## h2: Featured
+## h2: Quick Links
+## h2: SF Symbols
+## h1: SF Symbols
+## h2: Enhanced Search
+## h2: New Symbols
+## h2: Draw
+## h2: Annotation
+## h2: Variable Rendering
+## h2: Animation
+## h2: Rendering
+## h3: Download SF Symbols 8 beta
+## h3: Explore the Human Interface Guidelines
+## h2: Developer Footer
+## h3: Platforms
+## h3: Tools
+## h3: Technologies
+## h3: Resources
+## h3: Support
+## h3: Account
+## h3: Programs
+## h3: Events
+
+SF Symbols - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community-driven events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos SF Symbols Open Menu Close Menu Download SF Symbols 8 beta SF Symbols 7 SF Symbols SF Symbols is a library of over 7,000 symbols designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics tools to create custom symbols with shared design characteristics and accessibility features. Symbols feature multi-layer drawings designed for motion, enabling a range of expressive animations. Crafted for a global audience, symbols automatically adapt to a user’s reading direction and feature localized designs for over 20 international scripts. Enhanced Search Enhanced Search uses semantic understanding to surface the most relevant symbols for your query. Describe what you’re looking for in your own words, and SF Symbols will find the best match, even if your search terms don’t exactly match a symbol’s name. New Symbols SF Symbols features new symbols and design updates to existing symbols that integrate with Apple’s universal design language. These new symbols are available in apps running iOS 27, iPadOS 27, macOS 27, watchOS 27, tvOS 27, and visionOS 27. Draw Draw On and Draw Off are animation presets inspired by the calligraphic movement of handwriting, designed to let symbols more expressively animate into and out of your app’s interface. These animations leverage a symbol’s layer structure, combined with new annotation and timing choreography, to guide the symbol’s movement. Multiple playback options offer flexibility for various contexts: Whole Symbol animates all layers together in a single, swift movement; By Layer offsets the start time of each layer to create a more dynamic effect; and Individually animates one layer at a time for a more deliberate reveal. Annotation Annotation tools make it easy to create Draw animations for custom symbols with just a few clicks. Place guide points on layers to control how a path draws from beginning to end. Guide point placement is automatically translated across weights and can be customized in Ultralight, Regular, and Black to precisely control movement across all symbol weights and scales. Create bespoke animations tailored to your custom symbols by leveraging draw attachments, optional bi-directionality, adaptive end caps, and more. Variable Rendering Symbols can dynamically express changes in strength or progress over time using Variable Rendering, enabling them to function as informative and dynamic progress indicators. Variable Color changes the opacity of individual layers in sequence from beginning to end, and Variable Draw leverages Draw annotation to convey value changes with greater precision and resolution. Animation A collection of configurable animations provides dynamic and expressive behaviors across the entire symbol library. Choreographed movements such as Bounce, Wiggle, Rotate, Breathe, and more allow symbols to respond to user input, convey status changes, and signal ongoing activity. Magic Replace provides contextual continuity when transitioning between related symbols. These animated effects leverage a symbol’s layer structure, enabling compatibility with custom symbols. Rendering Four distinct rendering modes provide consistency and control over how color is applied to symbols. Monochrome renders symbols in a single color. Hierarchical uses a single tint color with multiple levels of opacity for depth and emphasis. Palette rendering allows symbols to be customized with multiple contrasting colors. And Multicolor rendering provides intrinsic color across hundreds of symbols. Optional gradient rendering, available across all rendering modes, automatically generates a smooth linear gradient from a single source color, elevating symbols with a greater sense of lighting and dimension. Download SF Symbols 8 beta Download Requires macOS Sonoma or later. What’s new in SF Symbols 7 WWDC25 What’s new in SF Symbols 6 WWDC24 Explore the Human Interface Guidelines Get details on how to use SF Symbols in your apps. Learn more Developer Footer SF Symbols Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness In-App Purchase Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines

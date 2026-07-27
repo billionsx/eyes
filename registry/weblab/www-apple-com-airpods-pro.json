@@ -1,0 +1,60 @@
+{
+ "url": "https://www.apple.com/airpods-pro/",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-product-viewer",
+  "section-product-stories",
+  "section-noise-control",
+  "section-audio-performance",
+  "section-personalized-listening",
+  "section-fitness",
+  "section-hearing-health",
+  "section-magical",
+  "section-battery",
+  "section-incentive",
+  "section-contrast",
+  "section-environment",
+  "section-values",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:product viewer",
+  "name:noise control intro",
+  "name:noise control gallery",
+  "name:audio performance",
+  "name:personalized listening",
+  "name:fitness",
+  "name:hearing health intro",
+  "name:hearing health gallery",
+  "name:magical experience",
+  "name:battery intro",
+  "name:battery details",
+  "name:find my",
+  "name:why apple gallery",
+  "name:compare",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:router"
+ ],
+ "imgs": 198,
+ "videos": 15,
+ "cta": 90,
+ "h_levels": {
+  "1": 1,
+  "2": 25,
+  "3": 48,
+  "4": 4,
+  "5": 2
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/airpods-pro/s/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

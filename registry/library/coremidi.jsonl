@@ -1,0 +1,7 @@
+{"id": "/documentation/CoreMIDI/incorporating-midi-2-into-your-apps", "law": "Both MIDI 1 and 2 use the same structure."}
+{"id": "/documentation/CoreMIDI/incorporating-midi-2-into-your-apps", "law": "This sample code project shows how to use Core MIDI in ."}
+{"id": "/documentation/CoreMIDI/incorporating-midi-2-into-your-apps", "law": "The sample consists of two targets built in Mac Catalyst that you use to send or receive MIDI events."}
+{"id": "/documentation/CoreMIDI/incorporating-midi-2-into-your-apps", "law": "Use the targets on the same device to show the transmission of UMP MIDI data."}
+{"id": "/documentation/coremidi/midiclientdispose(_:)", "law": "Don’t explicitly dispose of your client; the system automatically disposes all clients when an app terminates."}
+{"id": "/documentation/coremidi/mididestinationcreatewithprotocol(_:_:_:_:_:)", "law": "Drivers don’t need to call this function."}
+{"id": "/documentation/coremidi/midieventlistadd(_:_:_:_:_:_:)", "law": "The maximum size of an event list is 65,536 bytes."}

@@ -1,0 +1,10 @@
+{"id": "/documentation/MapKitJS/displaying-indoor-maps-with-mapkit-js", "law": "Use these examples to create your own indoor map with a style that is consistent with your app’s design."}
+{"id": "/documentation/MapKitJS/displaying-indoor-maps-with-mapkit-js", "law": "Use the Indoor Mapping Data Format (IMDF) to show an indoor map with custom overlays and points of interest in your browser."}
+{"id": "/documentation/MapKitJS", "law": "Use this JavaScript API to embed interactive maps directly into your webpages or apps across different platforms and operating systems, including iOS and Android."}
+{"id": "/documentation/MapKitJS", "law": "MapKit JS requires authorization through a Maps token for initialization and some API calls."}
+{"id": "/documentation/mapkitjs", "law": "Use this JavaScript API to embed interactive maps directly into your webpages or apps across different platforms and operating systems, including iOS and Android."}
+{"id": "/documentation/mapkitjs", "law": "MapKit JS requires authorization through a Maps token for initialization and some API calls."}
+{"id": "/documentation/mapkitjs/itemcollection", "law": "Don’t instantiate them directly."}
+{"id": "/documentation/mapkitjs/mapkit", "law": "Similar to for apps, you can use MapKit JS to display interactive maps with customized annotations and overlays, and provide directions and search services."}
+{"id": "/documentation/mapkitjs/mapkit/importgeojson", "law": "If the data argument is a GeoJSON object instead of a URL and you don’t provide a function, returns an ."}
+{"id": "/documentation/mapkitjs/mapkit/importgeojson", "law": "You must load the library first before accessing the method, otherwise, the method throws an ."}

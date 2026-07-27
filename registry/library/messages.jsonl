@@ -1,0 +1,21 @@
+{"id": "/documentation/Messages/creating-a-sticker-app-with-a-custom-layout", "law": "The cells use a custom to provide an , each of which contains an instance."}
+{"id": "/documentation/Messages/icecreambuilder-building-an-imessage-extension", "law": "iMessage Extensions can be required to display in ."}
+{"id": "/documentation/Messages/icecreambuilder-building-an-imessage-extension", "law": "All data passed between users in a conversation needs to be encoded in a URL; you should use to build and parse these URLs."}
+{"id": "/documentation/Messages/icecreambuilder-building-an-imessage-extension", "law": "If you prefer to send the message immediately then use the method instead."}
+{"id": "/documentation/Messages", "law": "You can use the Messages framework to create sticker packs and iMessage apps."}
+{"id": "/documentation/Messages", "law": "To avoid a crash, an iMessage app linked on or after iOS 10 must include usage description keys for the device features it needs to access in its file."}
+{"id": "/documentation/Messages", "law": "Specifically, it must include to access the device’s camera, and it must include to access the device’s microphones."}
+{"id": "/documentation/Messages", "law": "Use iMessage apps to: Present a custom user interface inside the Messages app; see ."}
+{"id": "/documentation/Messages", "law": "If your app uses manual touch handling such as , , and , you can do either of the following: Change your manual touch handling code to use a gesture recognizer instead."}
+{"id": "/documentation/Messages", "law": "Use your to override and return when your iMessage app doesn’t own the gesture."}
+{"id": "/documentation/messages", "law": "You can use the Messages framework to create sticker packs and iMessage apps."}
+{"id": "/documentation/messages", "law": "To avoid a crash, an iMessage app linked on or after iOS 10 must include usage description keys for the device features it needs to access in its file."}
+{"id": "/documentation/messages", "law": "Specifically, it must include to access the device’s camera, and it must include to access the device’s microphones."}
+{"id": "/documentation/messages", "law": "Use iMessage apps to: Present a custom user interface inside the Messages app; see ."}
+{"id": "/documentation/messages", "law": "If your app uses manual touch handling such as , , and , you can do either of the following: Change your manual touch handling code to use a gesture recognizer instead."}
+{"id": "/documentation/messages", "law": "Use your to override and return when your iMessage app doesn’t own the gesture."}
+{"id": "/documentation/messages/icecreambuilder-building-an-imessage-extension", "law": "iMessage Extensions can be required to display in ."}
+{"id": "/documentation/messages/icecreambuilder-building-an-imessage-extension", "law": "All data passed between users in a conversation needs to be encoded in a URL; you should use to build and parse these URLs."}
+{"id": "/documentation/messages/icecreambuilder-building-an-imessage-extension", "law": "If you prefer to send the message immediately then use the method instead."}
+{"id": "/documentation/messages/msmessagesappviewcontroller", "law": "Use this class to manage your extension."}
+{"id": "/documentation/messages/creating-a-sticker-app-with-a-custom-layout", "law": "The cells use a custom to provide an , each of which contains an instance."}

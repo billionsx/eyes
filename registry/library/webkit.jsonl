@@ -1,0 +1,45 @@
+{"id": "/documentation/WebKit/building-a-cross-platform-web-browser", "law": "The sample places both options in a toolbar menu, like this: The method returns the file formats the current page supports, so the export menu always reflects what the page can produce."}
+{"id": "/documentation/WebKit", "law": "Use the WebKit framework to integrate richly styled web content into your app’s native content."}
+{"id": "/documentation/WebKit/WKWebView", "law": "A object is a platform-native view that you use to incorporate web content seamlessly into your app’s UI."}
+{"id": "/documentation/WebKit/WKWebView", "law": "Use it when web technologies satisfy your app’s layout and styling requirements more readily than native views."}
+{"id": "/documentation/WebKit/WKWebView", "law": "For example, you might use it when your app’s content changes frequently."}
+{"id": "/documentation/WebKit/WKWebView", "law": "Use the navigation delegate to react when the user clicks links in your web content, or interacts with the content in a way that affects navigation."}
+{"id": "/documentation/WebKit/WKWebView", "law": "Use the UI delegate to present native UI elements, such as alerts or contextual menus, in response to interactions with your web content."}
+{"id": "/documentation/WebKit/WKWebView", "law": "For example, use a web view configuration object to specify handlers for custom URL schemes, manage cookies, and customize preferences for your web content."}
+{"id": "/documentation/WebKit/WKWebView", "law": "Use the object to change the default data detector behavior."}
+{"id": "/documentation/WebKit/WKWebView", "law": "You can also use to programmatically set the scale of web content the first time it appears in a web view."}
+{"id": "/documentation/WebKit/WKWebView", "law": "Use your navigation delegate to modify the web view’s navigation behavior, or to track the loading progress of new content."}
+{"id": "/documentation/WebKit/WKWebView", "law": "You can also use the methods of to navigate programmatically through your content, or to trigger navigation from other parts of your app’s interface."}
+{"id": "/documentation/webkit", "law": "Use the WebKit framework to integrate richly styled web content into your app’s native content."}
+{"id": "/documentation/webkit/urlschemehandler", "law": "Custom schemes let you integrate custom resource types into your web content, and you may define custom schemes for resources that your app requires."}
+{"id": "/documentation/webkit/urlschemehandler", "law": "For example, you might use a custom scheme to integrate content that is available only on the user’s device, such as the user’s photos."}
+{"id": "/documentation/webkit/webkit-for-swiftui", "law": "Use WebKit features to observe content and customize the web browsing and display experience."}
+{"id": "/documentation/webkit/webkit-for-swiftui", "law": "You can use by itself when you don’t need to display the content directly."}
+{"id": "/documentation/webkit/webpage", "law": "A is an type, which you use to access various properties of web content and track changes to them."}
+{"id": "/documentation/webkit/webpage", "law": "Use to interact with web content, like evaluating JavaScript or converting the page to PDF data."}
+{"id": "/documentation/webkit/webpage", "law": "The following example shows you how you can combine these capabilities to get specific metadata from an ephemeral page with a custom user agent: Use to programmatically navigate to various types of resources like URL requests, HTML strings, and data."}
+{"id": "/documentation/webkit/webpage", "law": "You can also use the property to observe changes to people’s navigation history, and to programmatically navigate to a specific back-forward list item."}
+{"id": "/documentation/webkit/webpage", "law": "You can use this conformance to export the page to various different types of content, like PDF, web archive data, and other types."}
+{"id": "/documentation/webkit/webpage", "law": "For customization of PDF or image exprt, use ."}
+{"id": "/documentation/webkit/webpage/navigationdeciding", "law": "For example, you might use these methods to restrict navigation from specific links within your content."}
+{"id": "/documentation/webkit/webpage/navigations", "law": "To track a specific programmatic navigation, use the return value of one of the loading APIs."}
+{"id": "/documentation/webkit/webview-swift.struct", "law": "To customize navigation, use a with your and customize the , or create a new type that conforms to ."}
+{"id": "/documentation/webkit/wkwebview", "law": "A object is a platform-native view that you use to incorporate web content seamlessly into your app’s UI."}
+{"id": "/documentation/webkit/wkwebview", "law": "Use it when web technologies satisfy your app’s layout and styling requirements more readily than native views."}
+{"id": "/documentation/webkit/wkwebview", "law": "For example, you might use it when your app’s content changes frequently."}
+{"id": "/documentation/webkit/wkwebview", "law": "Use the navigation delegate to react when the user clicks links in your web content, or interacts with the content in a way that affects navigation."}
+{"id": "/documentation/webkit/wkwebview", "law": "Use the UI delegate to present native UI elements, such as alerts or contextual menus, in response to interactions with your web content."}
+{"id": "/documentation/webkit/wkwebview", "law": "For example, use a web view configuration object to specify handlers for custom URL schemes, manage cookies, and customize preferences for your web content."}
+{"id": "/documentation/webkit/wkwebview", "law": "Use the object to change the default data detector behavior."}
+{"id": "/documentation/webkit/wkwebview", "law": "You can also use to programmatically set the scale of web content the first time it appears in a web view."}
+{"id": "/documentation/webkit/wkwebview", "law": "Use your navigation delegate to modify the web view’s navigation behavior, or to track the loading progress of new content."}
+{"id": "/documentation/webkit/wkwebview", "law": "You can also use the methods of to navigate programmatically through your content, or to trigger navigation from other parts of your app’s interface."}
+{"id": "/documentation/webkit/replacing-uiwebview-in-your-app", "law": "If you need an in-app web browser and don’t need deep customization of that experience, is a good choice."}
+{"id": "/documentation/webkit/replacing-uiwebview-in-your-app", "law": "If you need to authenticate your users, use ."}
+{"id": "/documentation/webkit/replacing-uiwebview-in-your-app", "law": "If you need a high degree of configurability or are using web content in ways unrelated to browsing, use ."}
+{"id": "/documentation/webkit/replacing-uiwebview-in-your-app", "law": "It has a different architecture that requires rethinking how you use web views, as well as code changes to implement its functionality."}
+{"id": "/documentation/webkit/replacing-uiwebview-in-your-app", "law": "This difference requires code and architecture changes in your app."}
+{"id": "/documentation/webkit/replacing-uiwebview-in-your-app", "law": "Cookie restrictions across the entire landscape, mean SSO functionality in isn’t supported for third-party cookies and clients should use a token-based authentication system like OAuth for SSO."}
+{"id": "/documentation/webkit/webkit-for-appkit-and-uikit", "law": "Use supporting objects to manage cookies, evaluate scripts, control navigation, generate snapshots, and perform text-based searches."}
+{"id": "/documentation/webkit/webkit-for-appkit-and-uikit", "law": "Always call WebKit functions and methods from your app’s main thread or main dispatch queue."}
+{"id": "/documentation/webkit/webkit-for-appkit-and-uikit", "law": "Avoid using deprecated classes and protocols in your apps."}

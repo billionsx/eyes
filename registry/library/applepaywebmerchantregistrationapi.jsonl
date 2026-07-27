@@ -1,0 +1,6 @@
+{"id": "/documentation/ApplePayWebMerchantRegistrationAPI", "law": "Merchants aren’t required to set up an Apple Developer account or configure their own keys and certificates — you set up a shared set of keys and certificates for your entire merchant portfolio."}
+{"id": "/documentation/ApplePayWebMerchantRegistrationAPI", "law": "To use this API in the sandbox environment, call the endpoints using the domain ."}
+{"id": "/documentation/ApplePayWebMerchantRegistrationAPI", "law": "To use the Apple Pay Web Merchant Registration API, you must meet the following requirements: Your organization must be enrolled in the Apple Developer program."}
+{"id": "/documentation/ApplePayWebMerchantRegistrationAPI", "law": "You must apply for access to the API."}
+{"id": "/documentation/ApplePayWebMerchantRegistrationAPI", "law": "Your server must call the API using mutual authentication with Transport Layer Security (TLS) 1.2 or later, and one of the supported cipher suites."}
+{"id": "/documentation/ApplePayWebMerchantRegistrationAPI", "law": "Applying to use the registration API and configuring IDs."}

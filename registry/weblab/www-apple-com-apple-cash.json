@@ -1,0 +1,45 @@
+{
+ "url": "https://www.apple.com/apple-cash/",
+ "sections": [
+  "section-hero",
+  "section-spend-it",
+  "section-tiles-grid",
+  "section-faq",
+  "section-routers"
+ ],
+ "modules": [
+  "name:hero",
+  "name:apple cash",
+  "name:wallet",
+  "name:tap to cash",
+  "name:send cash with text",
+  "name:apple pay",
+  "name:apple cash family",
+  "name:siri",
+  "name:send reload repeat",
+  "name:security",
+  "name:privacy",
+  "name:daily cash",
+  "name:transfers",
+  "name:wallet router",
+  "name:apple pay router",
+  "name:apple card router"
+ ],
+ "imgs": 68,
+ "videos": 2,
+ "cta": 46,
+ "h_levels": {
+  "1": 1,
+  "2": 29,
+  "3": 19
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-cash/g/built/styles/main.built.css",
+  "/v/apple-cash/g/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

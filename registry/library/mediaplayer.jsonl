@@ -1,0 +1,37 @@
+{"id": "/documentation/MediaPlayer/becoming-a-now-playable-app", "law": "Before you run the sample code project in Xcode: See the comments for the protocol in file , to learn what settings and configuration you may want to customize for your use-case."}
+{"id": "/documentation/MediaPlayer/becoming-a-now-playable-app", "law": "Use the platform-specific class to implement your customizations to the standard behavior."}
+{"id": "/documentation/MediaPlayer/becoming-a-now-playable-app", "law": "Ensure your app is eligible to become the Now Playing app by adopting best practices for providing Now Playing info and registering for remote command center actions."}
+{"id": "/documentation/MediaPlayer", "law": "Use the Media Player framework, which is part of , to control playback of the user’s media from your app."}
+{"id": "/documentation/MediaPlayer", "law": "If your app incorporates music, you can use this framework to search for audio content, such as songs, podcasts, and books, in the user’s library."}
+{"id": "/documentation/MediaPlayer", "law": "Add the key to your app’s file, and include a description of how you intend to use the user’s library."}
+{"id": "/documentation/MediaPlayer", "law": "To play content from the user’s library using the Media Player framework, use one of the built-in objects: An application player plays music locally within your app."}
+{"id": "/documentation/MediaPlayer", "law": "Use this player when you want greater control over the audio you play for the user."}
+{"id": "/documentation/MediaPlayer", "law": "Use this player when you want audio to continue playing even when the user switches away from your app."}
+{"id": "/documentation/MediaPlayer", "law": "Use media queries to retrieve the items you want to play and to populate the queue for the media player you select."}
+{"id": "/documentation/MediaPlayer", "law": "To play videos containing objects, use an object from ."}
+{"id": "/documentation/MediaPlayer", "law": "Only use this framework to facilitate playback of the user’s audio content within your app."}
+{"id": "/documentation/MediaPlayer", "law": "Don’t gather information about the user’s audio content for any other purpose."}
+{"id": "/documentation/MediaPlayer/MPNowPlayingInfoCenter", "law": "If your app also provides Now Playing information containing information about the current track, use this object to update that information at appropriate times."}
+{"id": "/documentation/MediaPlayer/MPNowPlayingInfoCenter", "law": "To ensure that your app interacts successfully with the widest possible range of accessories, provide values for as many information properties as you can in the dictionary."}
+{"id": "/documentation/MediaPlayer/MPNowPlayingInfoCenter", "law": "The information you can specify includes all of the Now Playing metadata properties (see the Accessing Now Playing metadata properties topic group below), and the following subset of properties: You don’t have direct control over what information the system displays, or its formatting."}
+{"id": "/documentation/MediaPlayer/MPNowPlayingInfoCenter", "law": "You can ensure that your app interacts well with other apps providing Now Playing information by following the best practices in the sample code project."}
+{"id": "/documentation/MediaPlayer/MPNowPlayingInfoCenter", "law": "If your app donates media information to , and you choose not to opt-out, the media played may appear as a suggestion in the Journal app, or other apps that use the Journaling Suggestions framework."}
+{"id": "/documentation/MediaPlayer/MPRemoteCommandCenter", "law": "Don’t create instances of this class yourself."}
+{"id": "/documentation/MediaPlayer/MPRemoteCommandCenter", "law": "Instead, use the method to retrieve the shared command center object."}
+{"id": "/documentation/mediaplayer", "law": "Use the Media Player framework, which is part of , to control playback of the user’s media from your app."}
+{"id": "/documentation/mediaplayer", "law": "If your app incorporates music, you can use this framework to search for audio content, such as songs, podcasts, and books, in the user’s library."}
+{"id": "/documentation/mediaplayer", "law": "Add the key to your app’s file, and include a description of how you intend to use the user’s library."}
+{"id": "/documentation/mediaplayer", "law": "To play content from the user’s library using the Media Player framework, use one of the built-in objects: An application player plays music locally within your app."}
+{"id": "/documentation/mediaplayer", "law": "Use this player when you want greater control over the audio you play for the user."}
+{"id": "/documentation/mediaplayer", "law": "Use this player when you want audio to continue playing even when the user switches away from your app."}
+{"id": "/documentation/mediaplayer", "law": "Use media queries to retrieve the items you want to play and to populate the queue for the media player you select."}
+{"id": "/documentation/mediaplayer", "law": "To play videos containing objects, use an object from ."}
+{"id": "/documentation/mediaplayer", "law": "Only use this framework to facilitate playback of the user’s audio content within your app."}
+{"id": "/documentation/mediaplayer", "law": "Don’t gather information about the user’s audio content for any other purpose."}
+{"id": "/documentation/mediaplayer/mpnowplayinginfocenter", "law": "If your app also provides Now Playing information containing information about the current track, use this object to update that information at appropriate times."}
+{"id": "/documentation/mediaplayer/mpnowplayinginfocenter", "law": "To ensure that your app interacts successfully with the widest possible range of accessories, provide values for as many information properties as you can in the dictionary."}
+{"id": "/documentation/mediaplayer/mpnowplayinginfocenter", "law": "The information you can specify includes all of the Now Playing metadata properties (see the Accessing Now Playing metadata properties topic group below), and the following subset of properties: You don’t have direct control over what information the system displays, or its formatting."}
+{"id": "/documentation/mediaplayer/mpnowplayinginfocenter", "law": "You can ensure that your app interacts well with other apps providing Now Playing information by following the best practices in the sample code project."}
+{"id": "/documentation/mediaplayer/mpnowplayinginfocenter", "law": "If your app donates media information to , and you choose not to opt-out, the media played may appear as a suggestion in the Journal app, or other apps that use the Journaling Suggestions framework."}
+{"id": "/documentation/mediaplayer/mpnowplayingsession", "law": "If you create an object, don’t attempt to use it with the that an presents."}
+{"id": "/documentation/mediaplayer/mpnowplayingsession", "law": "Create your own instance with custom playback controls to use with your Now Playing session."}

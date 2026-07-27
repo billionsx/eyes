@@ -1,0 +1,41 @@
+{
+ "url": "https://www.apple.com/government/",
+ "sections": [
+  "section-hero",
+  "section-productivity",
+  "section-innovation",
+  "section-success-stories",
+  "section-security",
+  "section-sustainability",
+  "section-accessibility",
+  "section-how-to-buy"
+ ],
+ "modules": [
+  "name:hero",
+  "name:productivity",
+  "name:innovation gallery",
+  "name:success stories gallery",
+  "name:security",
+  "name:sustainability",
+  "name:accessibility",
+  "name:contact us",
+  "name:apple partner network"
+ ],
+ "imgs": 44,
+ "videos": 0,
+ "cta": 35,
+ "h_levels": {
+  "1": 1,
+  "2": 10,
+  "3": 25,
+  "4": 12
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/government/c/built/styles/main.built.css",
+  "/v/government/c/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

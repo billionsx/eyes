@@ -1,0 +1,3 @@
+{"id": "/documentation/SpriteKit", "law": "You can use SpriteKit in a compatible iPhone or iPad app running in visionOS, but don’t use it in apps you create specifically for visionOS."}
+{"id": "/documentation/SpriteKit", "law": "Load graphics from various sources, or use an atlas to maximize rendering performance."}
+{"id": "/documentation/SpriteKit", "law": "Multipurpose mathematical objects you use to facilitate other graphical work."}

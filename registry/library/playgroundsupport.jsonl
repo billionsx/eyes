@@ -1,0 +1,3 @@
+{"id": "/documentation/playgroundsupport", "law": "The always-on live view in Swift Playgrounds, activated when you add to a page, executes in its own process so you can persist information and visuals between successive runs."}
+{"id": "/documentation/playgroundsupport", "law": "The always-on live view isn't reset until you leave the page."}
+{"id": "/documentation/playgroundsupport", "law": "Messaging Between a Playground Page and the Always-On Live View."}

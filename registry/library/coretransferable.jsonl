@@ -1,0 +1,13 @@
+{"id": "/documentation/CoreTransferable", "law": "Use transferable types for system interactions that move or share data, like the Share button, drag and drop, and copy and paste."}
+{"id": "/documentation/CoreTransferable", "law": "Use types together with system frameworks like SwiftUI — that include types such as and — to share and paste transferable data."}
+{"id": "/documentation/CoreTransferable/DataRepresentation", "law": "Use this transfer representation if your model is stored in memory."}
+{"id": "/documentation/CoreTransferable/DataRepresentation", "law": "The following shows the structure conforming to with two instances composed together: The example drawing app’s custom transfer representation comes first so that apps that know about the custom transfer representation can use it."}
+{"id": "/documentation/CoreTransferable/DataRepresentation", "law": "Avoid registering data with the content type."}
+{"id": "/documentation/CoreTransferable/FileRepresentation", "law": "Use a for transferring types that involve a large amount of data."}
+{"id": "/documentation/CoreTransferable/FileRepresentation", "law": "For example, if your app defines a type that could represent a lengthy video, use a instance to transfer the video data to another app or process."}
+{"id": "/documentation/CoreTransferable/FileRepresentation", "law": "For example, if you are sharing a PDF file, declare a of a content type, instead of or so the data can be dragged, shared, or imported to apps that support that data type: It’s efficient to pass data around as a file and the receiver loads it into memory only if it’s required."}
+{"id": "/documentation/CoreTransferable/Transferable", "law": "The following declares a simple structure that’s and an extension to make it : To ensure compatibility with other apps that don’t know about the custom type identifier, the following adds an additional transfer representation that converts the note to text."}
+{"id": "/documentation/CoreTransferable/ProxyRepresentation", "law": "Use this representation to rely on an existing transfer representation that’s suitable for the type."}
+{"id": "/documentation/CoreTransferable/ProxyRepresentation", "law": "For example, a type might use the structure’s built-in conformance — a plain text representation — so it can be pasted into any text editor: makes it easy to provide alternative representations for receivers that don’t support the preferred custom format."}
+{"id": "/documentation/CoreTransferable/ProxyRepresentation", "law": "Don’t perform long-running work in and closures."}
+{"id": "/documentation/CoreTransferable/ProxyRepresentation", "law": "Use or to read and write files or for other lengthy tasks."}

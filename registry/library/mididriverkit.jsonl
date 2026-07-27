@@ -1,0 +1,14 @@
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "Use a reverse-DNS format for your identifiers, as described in ."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "Additionally, iPadOS requires that your driver’s bundle identifier begin with the host app’s bundle identifier."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "In , make sure the string concatentation that initializes matches the bundle identifier for the driver."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "Although this simplifies running the sample code, in your own apps you may prefer to use ."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "If you don’t intend for your driver to allow user client connections, just use the entitlement."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "When creating the driver’s profile, be sure to select DriverKit App Development as the profile type."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "To run the sample app in macOS, use the scheme selector to select the CreatingMIDIDriverSampleApp scheme and the My Mac destination."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "When installation completes, the Driver Manager status in the app displays the message “CreatingMIDIDriverSampleAppDriver has been activated and is ready to use.” At this point, the sample’s MIDI device is available to CoreMIDI."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "To inspect the newly installed device, use the Audio MIDI Setup app ( ), which shows the CreatingMIDIDriverSampleAppDevice on the MIDI pane with one port."}
+{"id": "/documentation/MIDIDriverKit/creating-a-midi-device-driver", "law": "Then you can use the other buttons in this section to toggle the offline property and to add or remove ports."}
+{"id": "/documentation/MIDIDriverKit", "law": "Use the MIDIDriverKit framework to implement a MIDI driver extension that communicates with Core MIDI."}
+{"id": "/documentation/MIDIDriverKit", "law": "The framework handles all user-client communication between your driver extension and the Core MIDI server so you don’t need to implement a MIDI driver plug-in."}
+{"id": "/documentation/mididriverkit", "law": "Use the MIDIDriverKit framework to implement a MIDI driver extension that communicates with Core MIDI."}
+{"id": "/documentation/mididriverkit", "law": "The framework handles all user-client communication between your driver extension and the Core MIDI server so you don’t need to implement a MIDI driver plug-in."}

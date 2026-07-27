@@ -1,0 +1,4 @@
+{"id": "/documentation/corelocationui/cllocationbutton", "law": "Add this button to your user interface in situations when users may want to grant temporary access to their location data each time they use a particular feature of your app."}
+{"id": "/documentation/corelocationui/cllocationbutton", "law": "This temporary authorization expires when your app is no longer in use."}
+{"id": "/documentation/corelocationui/locationbutton", "law": "Add this button to your SwiftUI user interface in situations when users may want to grant temporary access to their location data each time they use a particular feature of your app."}
+{"id": "/documentation/corelocationui/locationbutton", "law": "This temporary authorization expires when your app is no longer in use."}

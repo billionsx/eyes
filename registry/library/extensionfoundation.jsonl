@@ -1,0 +1,3 @@
+{"id": "/documentation/ExtensionFoundation", "law": "To build app extensions for system features, you typically use a different framework or a dedicated set of types instead of this framework."}
+{"id": "/documentation/ExtensionFoundation", "law": "Host apps use the framework to find and launch available app extensions."}
+{"id": "/documentation/ExtensionFoundation", "law": "App extensions use this framework to communicate with the host app and support non-UI features."}

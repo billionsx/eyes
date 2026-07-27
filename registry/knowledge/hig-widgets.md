@@ -1,0 +1,82 @@
+# знание · `hig-widgets`
+Источник: https://developer.apple.com/design/human-interface-guidelines/widgets
+Домены мандата: динамические-острова, кроссплатформенность
+Нормативных положений: 75 (детерминированная выжимка, не пересказ)
+
+
+## без раздела
+- For example, people who use the Weather app are often most interested in the current high and low temperatures and weather conditions, so the Weather widgets prioritize this information.
+- Prefer dynamic information that changes throughout the day.
+- If a widget’s content never appears to change, people may not keep it in a prominent position.
+- Although widgets don’t update from minute to minute, it’s important to find ways to keep their content fresh to invite frequent viewing.
+- Small widgets use their limited space to typically show a single piece of information while larger sizes support additional layers of information and actions.
+- Avoid expanding a smaller widget’s content to simply fill a larger area.
+- In larger widgets, you can display more data — or more detailed visualizations of the data — but you don’t want to lose sight of the widget’s primary purpose.
+- Use brand elements thoughtfully.
+- Incorporate brand colors, typefaces, and stylized glyphs to make your widget recognizable but don’t overpower useful information or make your widget look out of place.
+- In some cases, people need to configure a widget to ensure it displays the information that’s most useful for them.
+- In contrast, some widgets — like the Podcasts widget — automatically display recent content, so people don’t need to customize them.
+- Avoid mirroring your widget’s appearance within your app.
+- If your widget provides additional functionality when someone is signed in to your app, make sure people know that.
+- To remain relevant and useful, widgets periodically refresh their information but don’t support continuous, real-time updates, and the system may adjust the limits for updates depending on various factors.
+- Use system functionality to refresh dates and times in your widget.
+- Use animated transitions to bring attention to data updates.
+- Additionally, use standard and custom animations with a duration of up to two seconds to let people know when new information is available or when content displays differently.
+- Ensure that a widget interaction opens your app at the right location.
+- Deep link to details and actions that directly relate to the widget’s content, and don’t make people navigate to the relevant area in the app.
+- Multiple interaction targets — SwiftUI links, buttons, and toggles — might make sense for your content, but avoid creating app-like layouts in your widgets.
+- Pay attention to the size of targets and make sure people can tap or click them with confidence and without accidentally performing unintended interactions.
+- Supply content at appropriate sizes to make sure that your widget looks great on every device and let the system resize or scale it as necessary.
+- As you design for various devices and scale factors, use the values listed in and the for guidance; for your production widget, use to ensure flexibility.
+- In general, use standard margins to ensure legibility.
+- Use the standard margin width for widgets — 16 points for most widgets — to avoid crowding their edges and creating a cluttered appearance.
+- If you need to use tighter margins — for example, to create content groupings for graphics, buttons, or background shapes — setting margins of 11 points can work well.
+- Additionally, note that widgets use smaller margins on the desktop on Mac and on the Lock Screen, including in StandBy.
+- To ensure that your content looks good within a widget’s rounded corners, use a SwiftUI container to apply the correct corner radius.
+- Prefer using the system font, text styles, and SF Symbols.
+- Use SF Symbols to align and scale symbols with text that uses the system font.
+- If you use a custom font, do so sparingly, and be sure it’s easy for people to read at a glance.
+- It often works well to use a custom font for the large text in a widget and SF Pro for the smaller text.
+- Avoid very small font sizes.
+- Always use text elements and styles to ensure that your text scales well and to allow VoiceOver to speak your content.
+- In iOS, iPadOS, and visionOS, widgets support Dynamic Type sizes from Large to AX5 when you use to choose a system font or to choose a custom font.
+- Use color to enhance a widget’s appearance without competing with its content.
+- Beautiful colors draw the eye, but they’re best when they don’t prevent people from absorbing a widget’s information at a glance.
+- In your asset catalog, you can also specify the colors you want the system to use as it generates your widget’s editing-mode user interface.
+- Use text and iconography in addition to color to express meaning.
+- Use full-color images judiciously.
+- Consider reserving full-color images to represent media content, such as album art for a music app’s widget, and use full-color images with smaller dimensions than the size of the widget.
+- Prefer light backgrounds for the light appearance and dark backgrounds for the dark appearance, and consider using the semantic system colors for text and backgrounds to let the colors dynamically adapt to the current appearance.
+- Offer enough contrast to ensure legibility.
+- Use white or light gray for the most prominent content and darker grayscale values for secondary elements to establish hierarchy.
+- Confirm that image content has sufficient contrast in grayscale, and use opaque grayscale values, rather than opacities of white, to achieve the best vibrant material effect.
+- For example, use rectangles of different widths to suggest lines of text, and circles or squares in place of glyphs and images.
+- If your widget is available in multiple sizes, group them together so people don’t think each size is a different widget.
+- Provide a single description of your widget — regardless of how many sizes you offer — to avoid repetition and to help people understand how each size provides a slightly different perspective on the same content and functionality.
+- Provide useful information in your Lock Screen widget, and don’t treat it only as an additional way for people to launch into your app.
+- Support the Always-On display on iPhone.
+- Devices with the Always-On display render widgets on the Lock Screen with reduced luminance.
+- Use levels of gray that provide enough contrast in the Always-On display, and make sure your content remains legible.
+- Widgets don’t show real-time information.
+- Widgets and Live Activities use the same underlying frameworks and share design similarities.
+- By supporting StandBy, you also ensure your widgets work well in CarPlay.
+- CarPlay and StandBy widgets both use the small system family widget with the background removed and scaled up to best fit the grid on the Widgets screen.
+- Instead, make use of the additional space by scaling up and rearranging text so people can glance at the widget content from a greater distance.
+- To seamlessly blend with the black background, don’t use background colors for your widget when it appears in StandBy.
+- Additionally, people can customize the frame width of widgets that use the elevated mounting style, and custom options that are unique to the widget.
+- In visionOS, widgets don’t float in isolation but are part of living rooms, kitchens, offices, and more.
+- Make sure your widget’s tone, contrast, and legibility remain consistent and intentional.
+- If you choose to exclude UI elements from tinting, test your widget in every provided tint color palette to make sure the untinted elements remain legible when a person customizes their widgets with tint colors.
+- When a person views the widget from nearby, show more details and use a smaller type size.
+- Use print design principles like clear hierarchy, strong typography, and scale to make sure your content remains glanceable.
+- On horizontal surfaces — for example, on a desk — the widget always appears elevated and gently tilts backward, providing a subtle angle that improves readability, and casts a soft shadow that helps it feel grounded on the surface.
+- Horizontal surfaces don’t use the recessed mounting style.
+- By default, widgets use the elevated mounting style, because it works for horizontal and vertical surfaces.
+- By default, visionOS widgets use the elevated mounting style, which is ideal for content that you want to stand out and feel present, like reminders, media, or glanceable data.
+- Use the property of your to declare supported mounting styles — elevated, recessed, or both — for all widgets included in the configuration.
+- People can choose from different system-defined frame widths for widgets that use the elevated mounting style.
+- You can’t change your layout based on the frame width a person chooses, so make sure your widget layout stays visually balanced for each frame width.
+- The foreground elements always stay bright and legible, and don’t dim or brighten, even as ambient light changes.
+- Foreground elements appear in full color, unaffected by ambient lighting, to make sure important content stays sharp and legible.
+- By default, widgets in the Smart Stack use a black background.
+- As you design your widgets, use the following values for guidance.

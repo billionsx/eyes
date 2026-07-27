@@ -1,0 +1,19 @@
+{
+ "colors": {},
+ "text_styles": {},
+ "corner_radii": {
+  "2.0": "kit:tvOS-18-Design-Templates-Sketch.dmg:Templates - Video Player, Picture-in-picture, Post-Play/Rectangle",
+  "7.0": "kit:tvOS-18-Design-Templates-Sketch.dmg:Templates - Video Player, Picture-in-picture, Post-Play/Track",
+  "10.0": "kit:tvOS-18-Design-Templates-Sketch.dmg:Templates - Video Player, Picture-in-picture, Post-Play/Circle",
+  "18.5": "kit:tvOS-18-Design-Templates-Sketch.dmg:Templates - Video Player, Picture-in-picture, Post-Play/Platter"
+ },
+ "symbols": [
+  "Device Authentication -  Confirmation",
+  "Device Authentication - Allow Confirmation on Linked iPhone, iPad or Apple Watch",
+  "Device Authentication - Authentication Confirmed",
+  "Device Authentication - Camera Switching",
+  "Device Authentication - Disconnection",
+  "Device Authentication - Guest Connection",
+  "Device Authentication - User Selection"
+ ]
+}

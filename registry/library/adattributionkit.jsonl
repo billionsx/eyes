@@ -1,0 +1,4 @@
+{"id": "/documentation/AdAttributionKit", "law": "Apple determines a postback data tier for the conversion, and the device uses the tier later to determine the level of detail the postback can contain to help ensure crowd anonymity."}
+{"id": "/documentation/AdAttributionKit", "law": "For install conversions, up to five other ad networks receive a postback with a parameter value of if their ad impressions qualify for the attribution, but don’t win."}
+{"id": "/documentation/AdAttributionKit", "law": "The following diagram shows the path of ad impressions that qualify for, but don’t win, the ad attribution."}
+{"id": "/documentation/AdAttributionKit", "law": "Apps don’t need to use before calling ad attribution APIs, and can call these APIs regardless of their tracking authorization status."}

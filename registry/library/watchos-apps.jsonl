@@ -1,0 +1,82 @@
+{"id": "/documentation/watchOS-Apps", "law": "They don’t need to wait to see if the action succeeds; instead, the watchOS app automatically notifies them of any important updates."}
+{"id": "/documentation/watchOS-Apps", "law": "Many may prefer to interact through complications or notifications, and may never explicitly launch your app."}
+{"id": "/documentation/watchOS-Apps", "law": "Use notifications to alert people of significant events."}
+{"id": "/documentation/watchOS-Apps", "law": "You can use either local or remote notifications to communicate, even when your app isn’t running."}
+{"id": "/documentation/watchOS-Apps", "law": "Use SiriKit and App intents to expand the ways people can interact with your app."}
+{"id": "/documentation/watchOS-Apps", "law": "If your app uses domains like messaging or media, use to add Siri support to your app."}
+{"id": "/documentation/watchOS-Apps", "law": "For other features, use to expose your app’s functionality to system services like Siri and the Shortcuts app."}
+{"id": "/documentation/watchOS-Apps", "law": "Designing your app for the Always On state."}
+{"id": "/documentation/watchOS-Apps", "law": "Use WidgetKit to create complications on the watch face that provide quick access to useful information from your app."}
+{"id": "/documentation/watchOS-Apps", "law": "Use notifications to string together longer workflows."}
+{"id": "/documentation/watchos-apps", "law": "They don’t need to wait to see if the action succeeds; instead, the watchOS app automatically notifies them of any important updates."}
+{"id": "/documentation/watchos-apps", "law": "Many may prefer to interact through complications or notifications, and may never explicitly launch your app."}
+{"id": "/documentation/watchos-apps", "law": "Use notifications to alert people of significant events."}
+{"id": "/documentation/watchos-apps", "law": "You can use either local or remote notifications to communicate, even when your app isn’t running."}
+{"id": "/documentation/watchos-apps", "law": "Use SiriKit and App intents to expand the ways people can interact with your app."}
+{"id": "/documentation/watchos-apps", "law": "If your app uses domains like messaging or media, use to add Siri support to your app."}
+{"id": "/documentation/watchos-apps", "law": "For other features, use to expose your app’s functionality to system services like Siri and the Shortcuts app."}
+{"id": "/documentation/watchos-apps", "law": "Designing your app for the Always On state."}
+{"id": "/documentation/watchos-apps", "law": "Use WidgetKit to create complications on the watch face that provide quick access to useful information from your app."}
+{"id": "/documentation/watchos-apps", "law": "Use notifications to string together longer workflows."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "The launch of watchOS 6 introduced the Always On state."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "In watchOS 8, Always On expands to include your apps."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "For example, when displaying dates and times, using values like , , and , the system automatically updates the view while in Always On."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "Always On isn’t available on Apple Watch SE or Apple Watch Series 4 and earlier."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "Apps compiled for watchOS 8 and later have Always On enabled by default."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "Users can also disable Always On for the entire device or on a per-app basis by choosing Settings > Display & Brightness > Always On."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "In watchOS 8 and later, apps can remain in the frontmost app state for a maximum of 1 hour."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "However, you can use a to schedule periodic updates."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "Because displayed information may be visible to casual observers, be sure to hide any sensitive data while your app is in Always On."}
+{"id": "/documentation/watchos-apps/designing-your-app-for-the-always-on-state", "law": "Add the view modifier to blur out specific user interface elements during Always On."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "When designing your app, be sure to support all available Apple Watch sizes to ensure a consistent experience for everyone who uses your app."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "Where possible, use resizable objects to fill the available space."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "If necessary, you can customize your layout for specific sizes; however, when creating the layout for larger screens, use the additional space to display larger controls and assets, rather than filling the screen with additional controls."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "To disable the safe area, use the view modifier."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "The following example shows text alignment using scene padding: Use to automatically align with the text margins."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "To ensure your app’s interface appears as you expect on Series 10 and 11 sizes, build your app with the watchOS 11 SDK or later."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "Use Dynamic Type so the wearer can modify the size of text components in your app."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "Different watch sizes use different default Dynamic Type sizes: The wearer can change the Dynamic Type size, including using accessibility sizes."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "Always check your app’s appearance with all available type sizes."}
+{"id": "/documentation/watchos-apps/supporting-multiple-watch-sizes", "law": "Add a PDF to the asset catalog as a 2x image asset, then set its Auto Scaling attribute to Automatic."}
+{"id": "/documentation/watchos-apps/building_a_watchos_app", "law": "You can also use SwiftUI to manage your app’s life cycle."}
+{"id": "/documentation/watchos-apps/building_a_watchos_app", "law": "To update a view based on these changes, you can use the modifier."}
+{"id": "/documentation/watchos-apps/building_a_watchos_app", "law": "SwiftUI also provides view modifiers for handling user activity and background tasks: Use to handle incoming objects."}
+{"id": "/documentation/watchos-apps/building_a_watchos_app", "law": "Use to handle incoming instances."}
+{"id": "/documentation/watchos-apps/building_a_watchos_app", "law": "Then use the property wrapper to declare a variable for your delegate."}
+{"id": "/documentation/watchos-apps/building_a_watchos_app", "law": "Use this method to perform any additional configuration that your delegate requires."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "When designing your app, use these features to create efficient, intuitive navigation: provides a set of views that people can scroll through using the Digital Crown."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "Use these features to make your app consistent and visually coherent: guarantee consistent size and placement for buttons."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "The Digital Crown provides a precise input device that people can use to navigate between apps, scroll through an app’s content, and make precise selections without obscuring the display."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "To get the most out of the Digital Crown, emphasize vertical scrolling over horizontal scrolling in your app and use system controls that already support the Digital Crown, like the ."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "To create vertical pagination, use a and set the to ."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "Use a to display a set of distinct, purposeful views."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "You can use location, recency, frequency, or some other indication of user intent to determine the detail view to display."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "Consider making your detail views unmistakeable at a glance, so they also don’t need a title."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "You can use the source list to present comparative data."}
+{"id": "/documentation/watchos-apps/creating-an-intuitive-and-effective-ui-in-watchos-10", "law": "Use the modifier to provide the view for the current data from the front of the array."}
+{"id": "/documentation/watchos-apps/migrating-to-a-single-target-watchos-app", "law": "A watchOS app has one of the following project configurations: Single-target apps have a simpler project configuration and avoid ambiguity about where to store resources and apply entitlements."}
+{"id": "/documentation/watchos-apps/migrating-to-a-single-target-watchos-app", "law": "When the minimum deployment target is watchOS 9.2 or later, building a dual-target app with Xcode produces an error, and prompts you to migrate to a single-target app using the built-in migrator."}
+{"id": "/documentation/watchos-apps/migrating-to-a-single-target-watchos-app", "law": "If you use storyboards, update the class module for each interface controller to the watchOS app module."}
+{"id": "/documentation/watchos-apps/migrating-to-a-single-target-watchos-app", "law": "Adopt the single-target configuration to simplify your project and avoid ambiguity about where to store resources and apply entitlements."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "The launch of watchOS 6 introduced the Always On state."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "In watchOS 8, Always On expands to include your apps."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "For example, when displaying dates and times, using values like , , and , the system automatically updates the view while in Always On."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "Always On isn’t available on Apple Watch SE or Apple Watch Series 4 and earlier."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "Apps compiled for watchOS 8 and later have Always On enabled by default."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "Users can also disable Always On for the entire device or on a per-app basis by choosing Settings > Display & Brightness > Always On."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "In watchOS 8 and later, apps can remain in the frontmost app state for a maximum of 1 hour."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "However, you can use a to schedule periodic updates."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "Because displayed information may be visible to casual observers, be sure to hide any sensitive data while your app is in Always On."}
+{"id": "/documentation/watchOS-Apps/designing-your-app-for-the-always-on-state", "law": "Add the view modifier to blur out specific user interface elements during Always On."}
+{"id": "/documentation/watchOS-Apps/notifications", "law": "Apple Watch is ideally suited for short, personal interactions, but you can use notifications to string together longer workflows, for instance to convey a series of short steps."}
+{"id": "/documentation/watchOS-Apps/notifications", "law": "Apple Watch and iPhone also work together to automatically forward notifications sent to your iOS app to a paired Apple Watch, even if you don’t have a watchOS app; however, you can improve the user experience on Apple Watch by customizing the notifications in your watchOS app."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "When designing your app, be sure to support all available Apple Watch sizes to ensure a consistent experience for everyone who uses your app."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "Where possible, use resizable objects to fill the available space."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "If necessary, you can customize your layout for specific sizes; however, when creating the layout for larger screens, use the additional space to display larger controls and assets, rather than filling the screen with additional controls."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "To disable the safe area, use the view modifier."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "The following example shows text alignment using scene padding: Use to automatically align with the text margins."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "To ensure your app’s interface appears as you expect on Series 10 and 11 sizes, build your app with the watchOS 11 SDK or later."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "Use Dynamic Type so the wearer can modify the size of text components in your app."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "Different watch sizes use different default Dynamic Type sizes: The wearer can change the Dynamic Type size, including using accessibility sizes."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "Always check your app’s appearance with all available type sizes."}
+{"id": "/documentation/watchOS-Apps/supporting-multiple-watch-sizes", "law": "Add a PDF to the asset catalog as a 2x image asset, then set its Auto Scaling attribute to Automatic."}

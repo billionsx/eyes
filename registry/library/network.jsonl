@@ -1,0 +1,63 @@
+{"id": "/documentation/Network/building-a-custom-peer-to-peer-protocol", "law": "After connecting, you can use your device to play against an AI opponent on Apple TV."}
+{"id": "/documentation/Network/building-a-custom-peer-to-peer-protocol", "law": "You can use this mode to play a peer-to-peer two-player game."}
+{"id": "/documentation/Network/building-a-custom-peer-to-peer-protocol", "law": "Use networking frameworks to create a custom protocol for playing a game across iOS, iPadOS, watchOS, and tvOS devices."}
+{"id": "/documentation/Network/collecting-network-connection-metrics", "law": "Use reports to understand how DNS and protocol handshakes impact connection establishment."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "The argument enables use of Bonjour service names rather than host names."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "To create an outbound connection object, you must supply a parameters object ( ) and an endpoint ( )."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "Any constraints on the connection, like whether or not to use the cellular interface."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "To create a parameters object, call either the or the convenience function, depending on whether you want to use TCP or UDP."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "For a simple application like , you can use the main queue for your callbacks."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "A more complex application would typically use a custom serial queue instead."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "You must set your queue before starting the connection, and you cannot change the queue after that."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "Thus, you must retain the connection object, by calling , until you’re done with the connection."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "For a simple application, like , you can use a very simple state changed handler."}
+{"id": "/documentation/Network/implementing-netcat-with-network-framework", "law": "Make sure you handle the state."}
+{"id": "/documentation/Network", "law": "Use this framework when you need direct access to protocols like TLS, TCP, and UDP for your custom application protocols."}
+{"id": "/documentation/Network", "law": "Continue to use , which is built upon this framework, for loading HTTP- and URL-based resources."}
+{"id": "/documentation/Network", "law": "watchOS supports Network framework for specific use cases."}
+{"id": "/documentation/Network", "law": "Configure protocol options to use with connections and listeners, and inspect the results of protocol handshakes."}
+{"id": "/documentation/Network/NWEndpoint/Port", "law": "A port number you use along with a host to identify a network endpoint."}
+{"id": "/documentation/network", "law": "Use this framework when you need direct access to protocols like TLS, TCP, and UDP for your custom application protocols."}
+{"id": "/documentation/network", "law": "Continue to use , which is built upon this framework, for loading HTTP- and URL-based resources."}
+{"id": "/documentation/network", "law": "watchOS supports Network framework for specific use cases."}
+{"id": "/documentation/network", "law": "Configure protocol options to use with connections and listeners, and inspect the results of protocol handshakes."}
+{"id": "/documentation/network/nwprotocolquic", "law": "A network protocol for connections that use the QUIC transport protocol."}
+{"id": "/documentation/network/nwprotocoltcp", "law": "A network protocol for connections that use the Transmission Control Protocol."}
+{"id": "/documentation/network/nwprotocoltls", "law": "A network protocol for connections that use Transport Layer Security."}
+{"id": "/documentation/network/nwprotocoludp", "law": "A network protocol for connections that use the User Datagram Protocol."}
+{"id": "/documentation/network/nwprotocolwebsocket", "law": "A network protocol for connections that use WebSocket."}
+{"id": "/documentation/network/nwconnection/establishmentreport", "law": "Use this report to inspect connection establishment details, such as its resolution steps, use of proxies, and duration."}
+{"id": "/documentation/network/nwconnection/establishmentreport", "law": "When iCloud Private Relay is in use, any proxied connections have the property set."}
+{"id": "/documentation/network/nwconnection/establishmentreport", "law": "Connections that aren’t proxied might still use iCloud Private Relay for name resolution."}
+{"id": "/documentation/network/nwconnection/establishmentreport", "law": "In this case, the property includes information about resolutions that use the DNS protocol."}
+{"id": "/documentation/Network/nw_content_context_t", "law": "For sending, you should use unless there is a reason to override some values."}
+{"id": "/documentation/Network/nw_listener_t", "law": "An object you use to listen for incoming network connections."}
+{"id": "/documentation/Network/nw_parameters_t", "law": "An object that stores the protocols to use for connections, options for sending data, and network path constraints."}
+{"id": "/documentation/network/nw_browser_t", "law": "An object you use to browse for available network services."}
+{"id": "/documentation/network/nw_connection_group_t", "law": "An object you use to communicate with a group of endpoints, such as an IP multicast group on a local network."}
+{"id": "/documentation/network/nw_ethernet_channel_t", "law": "Use Ethernet channels to send and receive custom Ethernet frame types over an interface."}
+{"id": "/documentation/network/nw_ethernet_channel_t", "law": "Creating Ethernet channels requires the entitlement."}
+{"id": "/documentation/network/nw_ethernet_channel_t", "law": "An object you use to send and receive custom Ethernet frames."}
+{"id": "/documentation/network/nw_listener_t", "law": "An object you use to listen for incoming network connections."}
+{"id": "/documentation/network/nw_parameters_create_secure_tcp(_:_:)", "law": "This function allows you to either use the default configurations for TLS and TCP, or use customized protocol options."}
+{"id": "/documentation/network/nw_parameters_create_secure_tcp(_:_:)", "law": "If you want to use the default configuration, pass NW_PARAMETERS_DEFAULT_CONFIGURATION."}
+{"id": "/documentation/network/nw_parameters_create_secure_udp(_:_:)", "law": "This function allows you to either use the default configurations for DTLS and UDP, or use customized protocol options."}
+{"id": "/documentation/network/nw_parameters_create_secure_udp(_:_:)", "law": "If you want to use the default configuration, pass NW_PARAMETERS_DEFAULT_CONFIGURATION."}
+{"id": "/documentation/network/nw_parameters_set_local_endpoint(_:_:)", "law": "Sets a specific local IP address and port to use for connections and listeners."}
+{"id": "/documentation/Network/ListenerProvider", "law": "Listeners use advertise descriptors to advertise services that can subsequently be discovered by browsers."}
+{"id": "/documentation/Network/ListenerProvider", "law": "Extensible support for configuring advertise descriptors to define the service a listener should advertise."}
+{"id": "/documentation/Network/NetworkConnection", "law": "A connection handles establishment of any transport, security, and application-level protocols required to transmit and receive user data."}
+{"id": "/documentation/Network/NetworkBrowser/run(_:)-31x4b", "law": "To browse forever, do not return any value from the closure."}
+{"id": "/documentation/Network/NetworkBrowser/run(_:)-31x4b", "law": "should only be called once on a browser, and multiple calls to will throw exceptions."}
+{"id": "/documentation/Network/NetworkListener/State/waiting(_:)", "law": "Waiting listeners do not have a viable network"}
+{"id": "/documentation/Network/NetworkListener/run(_:)-4iov3", "law": "should only be called once on a listener, and multiple calls to will throw an exception."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "While this article focuses on local network TLS, you can apply many of the concepts for other use cases."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "A CA is a trusted entity that issues certificates for use in cryptographic operations."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "On macOS, either create and use an identity on the same machine the server is running on, or securely distribute the PKCS#12 file to the device Keychain."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "To retrieve the identity from the Keychain on macOS, use the following: After loading the identity on macOS, you can use the exact same code on iOS."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "For clients that connect to the server, install the root certificate on the client device to avoid overriding trust evaluation."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "When connecting from the client side of the connection, use the following: If the root certificate from the CA is installed on the device, you can use the code above without implementing to override trust evaluation."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "If your client needs to connect over IP, instead of using a local network name, the server needs to use a leaf certificate that lists the IP in the “IP Address” field of the Subject Alternative Name."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "To work around this on the client, use to perform your own verification checks on the peer’s leaf certificate."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "This isn’t the recommended path, but could be done in extreme cases."}
+{"id": "/documentation/Network/creating-an-identity-for-local-network-tls", "law": "Learn how to create and use a digital identity in your application for local network TLS."}

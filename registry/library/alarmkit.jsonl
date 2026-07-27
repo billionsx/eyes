@@ -1,0 +1,21 @@
+{"id": "/documentation/AlarmKit/scheduling-an-alarm-with-alarmkit", "law": "Because and are optional presentations, this sample doesn’t use them if the alarm only has an state."}
+{"id": "/documentation/AlarmKit", "law": "Use to create custom alarms and timers in your app."}
+{"id": "/documentation/alarmkit", "law": "Use to create custom alarms and timers in your app."}
+{"id": "/documentation/alarmkit/alarm/countdownduration-swift.struct/postalert", "law": "If the value is we will use the duration for post-alarm countdowns."}
+{"id": "/documentation/alarmkit/alarm/countdownduration-swift.struct/postalert", "law": "The duration applied after the alarm has alerted at least once and moves back to the countdown state."}
+{"id": "/documentation/alarmkit/alarm/schedule-swift.enum/relative/recurrence/never", "law": "An alarm that never repeats."}
+{"id": "/documentation/alarmkit/alarmmanager/alarmupdates-swift.property", "law": "Use this to receive a notification when an alarm alerts, snoozes, or dismisses."}
+{"id": "/documentation/alarmkit/alarmmanager/requestauthorization()", "law": "Requests permission to use the alarm system if it hasn’t been requested before."}
+{"id": "/documentation/alarmkit/alarmpresentation/alert-swift.struct", "law": "Use this object to optionally define a secondary button and its behavior."}
+{"id": "/documentation/alarmkit/alarmpresentation/alert-swift.struct/secondarybutton", "law": "If you use , the secondary button is omitted."}
+{"id": "/documentation/alarmkit/alarmpresentation/countdown-swift.struct", "law": "An object that describes the content required for the countdown UI."}
+{"id": "/documentation/alarmkit/alarmpresentation/paused-swift.struct", "law": "To get back to a countdown state, you must provide a definition for a resume button."}
+{"id": "/documentation/alarmkit/alarmmetadata", "law": "The implementation can be empty if you don’t want to provide any additional data for your alarm UI."}
+{"id": "/documentation/alarmkit/alarmpresentation", "law": "An object that describes the content required for the alarm UI."}
+{"id": "/documentation/alarmkit/scheduling-an-alarm-with-alarmkit", "law": "Because and are optional presentations, this sample doesn’t use them if the alarm only has an state."}
+{"id": "/documentation/alarmkit/alarm/schedule-swift.enum/fixed(_:)", "law": "You can use for events where the time won’t vary based on where the person is located."}
+{"id": "/documentation/alarmkit/alarm/schedule-swift.enum/relative(_:)", "law": "You can use for events which need to take into account the current time zone."}
+{"id": "/documentation/alarmkit/alarm/schedule-swift.enum/relative/recurrence", "law": "Alarm.Schedule.Relative.Recurrence.never."}
+{"id": "/documentation/alarmkit/alarmattributes/presentation", "law": "The content required for the various states of the UI."}
+{"id": "/documentation/alarmkit/alarmmanager/authorizationupdates", "law": "An asynchronous sequence that emits events when authorization to use alarms changes."}
+{"id": "/documentation/alarmkit/alarmpresentation/alert-swift.struct/secondarybuttonbehavior-swift.enum", "law": "The secondary button displays if you use ."}

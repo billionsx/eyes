@@ -1,0 +1,54 @@
+{"id": "/documentation/CreateML/creating-a-model-from-tabular-data", "law": "Use any initializer to import your data in to a data table."}
+{"id": "/documentation/CreateML/creating-a-model-from-tabular-data", "law": "In this example, the playground sets aside 20% of each model’s data rows for evaluation, leaving the remaining 80% for training."}
+{"id": "/documentation/CreateML/creating-a-model-from-tabular-data", "law": "During training, automatically sets aside a small percentage of the training data to use for validating the model’s progress during the training phase."}
+{"id": "/documentation/CreateML/creating-a-model-from-tabular-data", "law": "When you are satisfied with your modelʼs performance, save it to a file for later use in your app."}
+{"id": "/documentation/CreateML/detecting-human-actions-in-a-live-video-feed", "law": "The next sections explain the remaining publishers in the chain and the methods they use to transform their inputs."}
+{"id": "/documentation/CreateML/detecting-human-actions-in-a-live-video-feed", "law": "Get the most accurate predictions from an action classifier by using whatever technique you think best tracks a person from frame to frame, and use the multiarray from that person’s result."}
+{"id": "/documentation/CreateML/detecting-human-actions-in-a-live-video-feed", "law": "An action classifier requires a valid, non- multiarray for every frame."}
+{"id": "/documentation/CreateML", "law": "Use Create ML with familiar tools like Swift and macOS playgrounds to create and train custom machine learning models on your Mac."}
+{"id": "/documentation/CreateML", "law": "Create machine learning models for use in your app."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "You then import the model file into your Xcode project to use the image classifier in your app."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "Use at least 10 images per category, but keep in mind that an image classifier performs better with a more diverse set of images."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "For example, don’t use 10 images for one category and then 1000 images for another."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "They don’t have to be a particular size, nor do they need to be the same size as each other."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "However, it’s best to use images that are at least 299 x 299 pixels."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "If possible, gather images that best represent what you expect the model to see when you use it in your app."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "For example, you might use the label for all the images of cheetahs."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "Use Create ML to create an image classifier project."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "To use your model in code, you only need to change one line."}
+{"id": "/documentation/CreateML/creating-an-image-classifier-model", "law": "Change this line to use your image classification model class instead: These models are interchangeable because both take an image as input, and both output a label string."}
+{"id": "/documentation/createml", "law": "Use Create ML with familiar tools like Swift and macOS playgrounds to create and train custom machine learning models on your Mac."}
+{"id": "/documentation/createml", "law": "Create machine learning models for use in your app."}
+{"id": "/documentation/createml/improving-your-model-s-accuracy", "law": "Use these values from each data set to determine where your model needs to improve."}
+{"id": "/documentation/createml/improving-your-model-s-accuracy", "law": "When working with image data, double the maximum number of iterations in the playground UI (the default value is 10)."}
+{"id": "/documentation/createml/improving-your-model-s-accuracy", "law": "For more general tasks, use a different underlying model than the type determined by (see Supporting Classifier Types ) or (see Supporting Regressor Types )."}
+{"id": "/documentation/createml/improving-your-model-s-accuracy", "law": "In this case, your model is _overfitting, _meaning that it’s learning too many specific details about your training set that don’t generally apply to other examples."}
+{"id": "/documentation/createml/improving-your-model-s-accuracy", "law": "Use metrics to tune the performance of your machine learning model."}
+{"id": "/documentation/createml/mlclassifier", "law": "Use an to train a general-purpose model to recognize categories."}
+{"id": "/documentation/createml/mlclassifier", "law": "For example, you can create a classifier that predicts whether a sports team is likely to win or lose its next game by training it with these inputs: The team’s win-loss ratio The team’s game locations When working with image or natural language data, don’t use ."}
+{"id": "/documentation/createml/mlclassifier", "law": "Instead, use the or one of the Natural Language models ( or )."}
+{"id": "/documentation/createml/mlclassifiermetrics/classificationerror", "law": "Predicting that a new patient will always be healthy would be highly accurate (low classification error), but a poor disease detector."}
+{"id": "/documentation/createml/mldatatable", "law": "Otherwise, use a data table to prepare your data before training a text classifier."}
+{"id": "/documentation/createml/mldatatable/init()", "law": "Use this initializer to create an empty data table."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "Use this initializer to create a data table from either a JavaScript Object Notation (JSON) file or a comma-separated values (CSV) file."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "Use to customize how the data table imports information from your CSV file."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "For example, to create a data table as shown above, build a JSON file with a root array of dictionaries that all use the same set of keys."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "Then, use to create the data table."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "You can create a CSV file programmatically or use an app like Numbers to export a spreadsheet."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "If you don’t provide parsing options, it is assumed that your CSV file has the following formatting attributes: The first entry is a header row with the names of the columns."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "For example, to create a data table as shown above, first create a CSV file programmatically or use a spreadsheet app like Numbers to export one, and add it to your project."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "In this example, the initializer must ignore the first three lines of the CSV file beginning with “This example…”."}
+{"id": "/documentation/createml/mldatatable/init(contentsof:options:)", "law": "Lastly, use to create the data table."}
+{"id": "/documentation/createml/mldatatable/init(dictionary:)", "law": "Use this initializer to create a data table from an in-memory ."}
+{"id": "/documentation/createml/mldatatable/init(dictionary:)", "law": "Then, use to create a data table from the dictionary."}
+{"id": "/documentation/createml/mldatatable/init(namedcolumns:)", "law": "Use this initializer to create a data table from untyped columns."}
+{"id": "/documentation/createml/mldatatable/init(namedcolumns:)", "law": "Then, use to create a data table from the columns paired with their names."}
+{"id": "/documentation/createml/mldatatable/parsingoptions", "law": "Use only when importing a CSV file with , especially if your CSV file has special formatting or your data table only needs to import specific rows or columns."}
+{"id": "/documentation/createml/mldatatable/subscript(_:)", "law": "Use this subscript to retrieve an or add a new one to the data table."}
+{"id": "/documentation/createml/mldatatable/subscript(_:)", "law": "The number of elements in the column must equal the number of rows in the data table."}
+{"id": "/documentation/createml/mldatatable/subscript(_:)", "law": "Use the untyped column’s multiplication operator to create a new column of data."}
+{"id": "/documentation/createml/mldatatable/subscript(_:)", "law": "Finally, use the to add the new column to a table with a different name."}
+{"id": "/documentation/createml/mldatatable/subscript(_:)", "law": "To replace a column, use before adding its replacement."}
+{"id": "/documentation/createml/mlregressor", "law": "Use an to estimate continuous values like price, time, or temperature."}
+{"id": "/documentation/createml/mlregressor/write(to:metadata:)", "law": "Exports a Core ML model file for use in your app."}
+{"id": "/documentation/createml/mlregressormetrics", "law": "Metrics you use to evaluate a regressor’s performance."}

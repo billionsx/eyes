@@ -1,0 +1,6 @@
+{"id": "/documentation/Testing/DefiningTests", "law": "Importing the testing library into a target intended for distribution such as an application, app library, or executable target isn’t supported or recommended."}
+{"id": "/documentation/Testing/DefiningTests", "law": "To customize a test function’s name as presented in an IDE or at the command line, supply a string literal as an argument to the attribute: To further customize the appearance and behavior of a test function, use such as ."}
+{"id": "/documentation/Testing/DefiningTests", "law": "If a test function can only run on newer versions of an operating system or of the Swift language, use the attribute when declaring it."}
+{"id": "/documentation/Testing/DefiningTests", "law": "Use the argument of the attribute to include a message explaining why the test is unable to run: Define a test function to validate that code is working correctly."}
+{"id": "/documentation/Testing/AttachableAsImage", "law": "Instances of types conforming to this protocol do not themselves conform to ."}
+{"id": "/documentation/Testing/AttachableAsImage", "law": "You do not generally need to add your own conformances to this protocol."}

@@ -1,0 +1,3 @@
+{"id": "/documentation/LiveCommunicationKit", "law": "With LiveCommunicationKit, your app can: Initiate and receive VoIP conversations Forward cellular network conversations to the system Using LiveCommunicationKit in your app allows people to configure their device to use your app as the default dialer or calling app."}
+{"id": "/documentation/LiveCommunicationKit", "law": "With a person’s permission, an installed health research app that uses entitlements may collect Speech Metrics data while your LiveCommunicationKit app is in use."}
+{"id": "/documentation/LiveCommunicationKit", "law": "The system may use that information to indicate communication with that person as a suggestion in the Journal app, or in other apps that use the framework."}

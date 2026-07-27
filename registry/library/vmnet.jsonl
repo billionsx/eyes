@@ -1,0 +1,4 @@
+{"id": "/documentation/vmnet", "law": "A sandboxed user space process must have the entitlement in order to use the vmnet API."}
+{"id": "/documentation/vmnet", "law": "IPv4 traffic originating from the guest operating system must use the private IPv4 address."}
+{"id": "/documentation/vmnet", "law": "You can create a maximum of 32 interfaces with a limit of 4 per guest operating system."}
+{"id": "/documentation/vmnet", "law": "Each read or write call allows up to 200 packets to be read or written for a maximum of 256KB."}

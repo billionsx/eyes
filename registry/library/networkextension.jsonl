@@ -1,0 +1,122 @@
+{"id": "/documentation/NetworkExtension/configuring-a-wi-fi-accessory-to-join-a-network", "law": "If you can’t use that process, this sample demonstrates an alternative method."}
+{"id": "/documentation/NetworkExtension/configuring-a-wi-fi-accessory-to-join-a-network", "law": "After receiving this information, the accessory can use it to associate itself with the same network as the iOS device."}
+{"id": "/documentation/NetworkExtension/configuring-a-wi-fi-accessory-to-join-a-network", "law": "After downloading the sample, follow these steps to configure it for use: The macOS target is ."}
+{"id": "/documentation/NetworkExtension/configuring-a-wi-fi-accessory-to-join-a-network", "law": "The iOS target is , and requires the use of a physical device."}
+{"id": "/documentation/NetworkExtension/filtering-network-traffic", "law": "Use the Network Extension framework to allow or deny network connections."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "Filtering requests by URL presents an efficiency challenge because real-world use of URL filters often involves testing against thousands, or even millions, of URLs."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "Because the workspace coordinates dependencies between its member projects, always access this sample through its workspace and not the individual projects."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "If you have your own PIR server ready for use, you can use that instead."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "The article describes how to use this tool."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "If you prefer not to do this manually, the sample app extension already has Bloom filter data in the file that it can use."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "If you don’t specfify a Privacy Pass URL, the system assumes the configured PIR server URL handles this responsibility as well, which is the case for the provided sample server."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "For example, if you use the sample PIR server described in and run it, you: Toggle the Enabled switch to the on state."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "Use the Apply button to save these configuration changes and start the filter."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "You can also use the Settings app to enable or disable it later."}
+{"id": "/documentation/NetworkExtension/filtering-traffic-by-url", "law": "Loading these URLs should fail immediately with the filter enabled, and potentially succeed with the filter disabled, assuming the host is up and reachable."}
+{"id": "/documentation/NetworkExtension/receiving-voice-and-text-communications-on-a-local-network", "law": "This sample app shows how to implement and use Local Push Connectivity within a messaging app."}
+{"id": "/documentation/NetworkExtension/receiving-voice-and-text-communications-on-a-local-network", "law": "Apps that use Local Push Connectivity require the ."}
+{"id": "/documentation/NetworkExtension/receiving-voice-and-text-communications-on-a-local-network", "law": "After you’ve set the team, Xcode automatically creates unique bundle identifiers that you use in the following steps."}
+{"id": "/documentation/NetworkExtension/receiving-voice-and-text-communications-on-a-local-network", "law": "All cellular networks other than Band 48 CBRS require the device to be supervised for to run."}
+{"id": "/documentation/NetworkExtension/receiving-voice-and-text-communications-on-a-local-network", "law": "You must perform the steps above on at least two iOS devices so you can test and observe message exchanges between clients."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "The sample code project contains a PIR server for use with the app and its app extension."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "This directory is a sibling to the sample’s Xcode targets ( , , and ) but isn’t part of the Xcode workspace because you don’t build it with Xcode."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "Instead, you can use the included with various platform-as-a-service systems."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "If you don’t already have one of these package-deployment systems, you can use Apple’s open source project."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "To use , start by downloading and installing from the project’s ."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "Keep in mind that requires macOS 26 or later."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "In Terminal, start with the following command: The PIR server requires that its name matches the bundle identifier of the app that connects to the server."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "You can take the database file created by that tool and use it to replace the default version in the directory."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "If you run the app on iOS instead, use your Mac’s IP address in the URL."}
+{"id": "/documentation/NetworkExtension/setting-up-a-pir-server-for-url-filtering", "law": "To stop the server itself, use the following command: If you used the option to run the server, this also removes the stopped container automatically."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "Use this tool to create prefilter data for arbitrarily large datasets."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "The Xcode developer tools don’t include by default, but you can install it by using ."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "In Xcode, use Product > Build (Cmd-B) to build the tool."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "Use Xcode’s Product > Run menu item to build and run the tool from within Xcode."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "Because of this limitation on character encoding, you need to any URLs that don’t conform to the allowed-characters subset."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "This means you don’t need to include all these variants in your list of input URLs."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "You can use this for the corresponding PIR server data, as described in ."}
+{"id": "/documentation/NetworkExtension/using-the-bloom-filter-tool", "law": "These hashing functions provide the data format required by the to create an in-memory Bloom filter."}
+{"id": "/documentation/NetworkExtension", "law": "The supported operating systems include a number of different VPN APIs, distinguished by the protocols they support: Use to create and manage a VPN configuration that uses one of the built-in VPN protocols (IPsec or IKEv2)."}
+{"id": "/documentation/NetworkExtension", "law": "iOS supports Always-on VPN to ensure all IP traffic is tunneled back to the organization."}
+{"id": "/documentation/NetworkExtension", "law": "See the for information about how to configure Always-on VPN."}
+{"id": "/documentation/networkextension", "law": "The supported operating systems include a number of different VPN APIs, distinguished by the protocols they support: Use to create and manage a VPN configuration that uses one of the built-in VPN protocols (IPsec or IKEv2)."}
+{"id": "/documentation/networkextension", "law": "iOS supports Always-on VPN to ensure all IP traffic is tunneled back to the organization."}
+{"id": "/documentation/networkextension", "law": "See the for information about how to configure Always-on VPN."}
+{"id": "/documentation/networkextension/hotspot-helper", "law": "allows your app to participate in the process of authenticating with hotspot networks, that is, Wi-Fi networks where the user must interact with the network to gain access to the wider Internet."}
+{"id": "/documentation/networkextension/hotspot-helper", "law": "Before using , you must first be granted a special entitlement ( ) by Apple."}
+{"id": "/documentation/networkextension/hotspot-helper", "law": "Hotspot helpers can use these APIs to communicate with the hotspot even when Wi-Fi is not the default route."}
+{"id": "/documentation/networkextension/wi-fi-configuration", "law": "For example, you can use it to help a user join a specific Wi-Fi network, like the hotspot at a local coffee shop, or to set up an accessory that uses Wi-Fi."}
+{"id": "/documentation/networkextension/wi-fi-configuration", "law": "For macOS, use the framework, which provides a full-featured Wi-Fi configuration and management API."}
+{"id": "/documentation/networkextension/content-filter-providers", "law": "An on-device network content filter examines user network content as it passes through the network stack and determines if it should block that content or allow it to pass on to its final destination."}
+{"id": "/documentation/networkextension/content-filter-providers", "law": "By combining these providers, your content filter has access to the network but can’t use that access to export user network content."}
+{"id": "/documentation/networkextension/content-filter-providers", "law": "Your filter data provider has read-only access to that app group, allowing it use those rules to filter content but still preventing it from exporting user network content."}
+{"id": "/documentation/networkextension/content-filter-providers", "law": "When a VPN configuration is active, connections use the VPN instead of iCloud Private Relay."}
+{"id": "/documentation/networkextension/content-filter-providers", "law": "Network Extension providers also don’t use iCloud Private Relay."}
+{"id": "/documentation/networkextension/neurlfiltercontrolprovider/fetchprefilter(existingprefiltertag:)", "law": "The initial fetch must return a valid ."}
+{"id": "/documentation/networkextension/neurlfiltercontrolprovider/fetchprefilter(existingprefiltertag:)", "law": "Returning a prefilter for subsequent fetches indicates no change; in this case, the system continues to use the current prefilter data."}
+{"id": "/documentation/networkextension/neurlfiltercontrolprovider/fetchprefilter(existingprefiltertag:)", "law": "Make sure the first call to this method returns a non- Bloom filter."}
+{"id": "/documentation/networkextension/neurlfiltercontrolprovider/fetchprefilter(existingprefiltertag:)", "law": "In this case, the system continues to use the previously provided Bloom filter."}
+{"id": "/documentation/networkextension/neurlfiltercontrolprovider/fetchprefilter(existingprefiltertag:)", "law": "The fetched prefilter data must be a Bloom filter using the 32-bit FNV-1a and 32-bit MurmurHash3 hash functions, with double hashing."}
+{"id": "/documentation/networkextension/neurlfiltercontrolprovider/fetchprefilter(existingprefiltertag:)", "law": "The selected false-positive tolerance must be relatively low to allow for accurate and efficient prefiltering."}
+{"id": "/documentation/networkextension/neurlfiltercontrolprovider/fetchprefilter(existingprefiltertag:)", "law": "All URLs in the data set must already be Punycoded before constructing the Bloom filter."}
+{"id": "/documentation/networkextension/neurlfiltermanager", "law": "The verdict indicates if the app should block the requested URL."}
+{"id": "/documentation/networkextension/neurlfiltermanager", "law": "Because of this, be sure to Punycode your own URL dataset before constructing your Bloom filter and PIR database."}
+{"id": "/documentation/networkextension/neurlfiltermanager", "law": "For a more flexible URL matching solution, use the property to select the URL components – the scheme, domain, path, query, fragment) – to include in the parsing results."}
+{"id": "/documentation/networkextension/neurlfiltermanager", "law": "You can also use the property to implement custom parsing."}
+{"id": "/documentation/networkextension/neurlfiltermanager", "law": "A class you use to configure and control a URL filter."}
+{"id": "/documentation/networkextension/neurlfiltermanager/handlestatuschange()", "law": "Use this method to watch for the status change notification and react to it."}
+{"id": "/documentation/networkextension/neurlfiltermanager/prefilterfetchinterval", "law": "Your implementation should allow some slight deviation between the scheduled time and the actual execution of the fetch."}
+{"id": "/documentation/networkextension/neurlfiltermanager/prefilterfetchinterval", "law": "The minimum value allowed is seconds (45 minutes)."}
+{"id": "/documentation/networkextension/neurlfiltermanager/setconfiguration(pirserverurl:pirprivacypassissuerurl:pirauthenticationtoken:controlproviderbundleidentifier:)", "law": "Sets a URL filter configuration with the required PIR server attributes and app extension information."}
+{"id": "/documentation/networkextension/neurlfilterprefilter", "law": "The returned must contain a Bloom filter built with the 32-bit FNV-1a and 32-bit MurmurHash3 hash functions, with double hashing."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "The sample code project contains a PIR server for use with the app and its app extension."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "This directory is a sibling to the sample’s Xcode targets ( , , and ) but isn’t part of the Xcode workspace because you don’t build it with Xcode."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "Instead, you can use the included with various platform-as-a-service systems."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "If you don’t already have one of these package-deployment systems, you can use Apple’s open source project."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "To use , start by downloading and installing from the project’s ."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "Keep in mind that requires macOS 26 or later."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "In Terminal, start with the following command: The PIR server requires that its name matches the bundle identifier of the app that connects to the server."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "You can take the database file created by that tool and use it to replace the default version in the directory."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "If you run the app on iOS instead, use your Mac’s IP address in the URL."}
+{"id": "/documentation/networkextension/setting-up-a-pir-server-for-url-filtering", "law": "To stop the server itself, use the following command: If you used the option to run the server, this also removes the stopped container automatically."}
+{"id": "/documentation/networkextension/url-filters", "law": "For browsers or any app that doesn’t use WebKit or , use the Participation API to voluntarily check URLs."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "Use this tool to create prefilter data for arbitrarily large datasets."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "The Xcode developer tools don’t include by default, but you can install it by using ."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "In Xcode, use Product > Build (Cmd-B) to build the tool."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "Use Xcode’s Product > Run menu item to build and run the tool from within Xcode."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "Because of this limitation on character encoding, you need to any URLs that don’t conform to the allowed-characters subset."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "This means you don’t need to include all these variants in your list of input URLs."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "You can use this for the corresponding PIR server data, as described in ."}
+{"id": "/documentation/networkextension/using-the-bloom-filter-tool", "law": "These hashing functions provide the data format required by the to create an in-memory Bloom filter."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "Use the Local Push Connectivity API to maintain a persistent network connection to a server to alert users to Voice-over-IP (VoIP) calls and other messages."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "Local Push Connectivity is appropriate for use cases where an iOS device operates on a local, restricted network that doesn’t have access to APNs."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "The App Push Provider extension functions like a local network replacement for APNs; use it primarily to send small messages and alerts to users."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "To use the Local Push Connectivity API, your app must have the with the value."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "An app can use both Local Push Connectivity and Apple Push Notification Service."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "Typically, you use Local Push Connectivity in a restricted network environment, and use APNs in an unrestricted network."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "Your server determines whether to use Local Push Connectivity or APNs: If the server has a viable connection of the type that’s established by the client’s , send the notification over that connection."}
+{"id": "/documentation/networkextension/local-push-connectivity", "law": "If the server doesn’t have an active connection to the , or if the extension fails to acknowledge a message sent by the server, use APNs."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "To keep the connection viable, use the following best practices to maintain your client’s life cycle and connect over the local network."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Use this callback to set up the connection to your server and call the completion handler, passing in an error if the connection failed."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Ensure that the extension can launch when the system needs it and can continue running, because both are essential for your app extension to participate in local push connectivity."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Use the following guidelines when writing your extension: Your extension must maintain a small memory footprint, or the system may terminate it."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Use the Allocations and Leaks templates in Xcode Instruments to analyze your extension’s “dirty” memory usage and identify any memory leaks."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Use Instruments or add a logging statement to to verify that your deinitializes when expected."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Use the framework to create and maintain this connection."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Ensure each side of the connection monitors the health of the other side: Have your server periodically send heartbeat messages to the client."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "The push provider must acknowledge these messages, so the server can rapidly detect when the client disconnects unexpectedly."}
+{"id": "/documentation/networkextension/maintaining-a-reliable-network-connection", "law": "Your push provider must implement the callback method, which the framework calls every 60 seconds."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "Filtering requests by URL presents an efficiency challenge because real-world use of URL filters often involves testing against thousands, or even millions, of URLs."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "Because the workspace coordinates dependencies between its member projects, always access this sample through its workspace and not the individual projects."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "If you have your own PIR server ready for use, you can use that instead."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "The article describes how to use this tool."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "If you prefer not to do this manually, the sample app extension already has Bloom filter data in the file that it can use."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "If you don’t specfify a Privacy Pass URL, the system assumes the configured PIR server URL handles this responsibility as well, which is the case for the provided sample server."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "For example, if you use the sample PIR server described in and run it, you: Toggle the Enabled switch to the on state."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "Use the Apply button to save these configuration changes and start the filter."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "You can also use the Settings app to enable or disable it later."}
+{"id": "/documentation/networkextension/filtering-traffic-by-url", "law": "Loading these URLs should fail immediately with the filter enabled, and potentially succeed with the filter disabled, assuming the host is up and reachable."}
+{"id": "/documentation/networkextension/nefiltermanager", "law": "The filter configuration must be explicitly loaded into memory from the Network Extension preferences before it can be used, and any changes must be explicitly saved to the Network Extension preferences before taking effect on the system."}
+{"id": "/documentation/networkextension/nefiltermanager", "law": "To use the class, you must enable the Network Extensions capability in Xcode and select the Content Filter capability."}
+{"id": "/documentation/networkextension/nefiltermanager", "law": "To specify that a filter configuration created via a profile payload is associated with a particular app (and therefore allow the app to use to manage the configuration), the app’s bundle identifier must be set as the value of the field in the profile payload."}
+{"id": "/documentation/networkextension/nefiltermanager", "law": "Apps that use are required to contain two Filter Provider extensions that together perform the task of examining network content and making pass and block decisions."}

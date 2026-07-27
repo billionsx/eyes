@@ -1,0 +1,44 @@
+{"id": "/documentation/CoreHaptics/delivering-rich-app-experiences-with-haptics", "law": "You must run the sample on iPhone 8 or later."}
+{"id": "/documentation/CoreHaptics/playing-a-custom-haptic-pattern-from-a-file", "law": "HapticSampler requires Xcode 11 or later."}
+{"id": "/documentation/CoreHaptics/playing-a-custom-haptic-pattern-from-a-file", "law": "If you don’t want the layering, your app should wait out the duration of the first haptic before starting subsequent haptic players."}
+{"id": "/documentation/CoreHaptics/playing-a-custom-haptic-pattern-from-a-file", "law": "Haptic patterns don’t blend like audio waveforms, and not all combinations produce a discernible effect."}
+{"id": "/documentation/CoreHaptics/playing-a-custom-haptic-pattern-from-a-file", "law": "Experiment with various combinations to ensure that the result feels right."}
+{"id": "/documentation/CoreHaptics/playing-collision-based-haptic-patterns", "law": "Although the sample app uses UIKit Dynamics and UIKit for simplicity and familiarity with UIKit classes, but your app can also use a 2D engine like SpriteKit to represent interactive object collisions."}
+{"id": "/documentation/CoreHaptics/playing-collision-based-haptic-patterns", "law": "HapticBounce requires Xcode 11 or later."}
+{"id": "/documentation/CoreHaptics/playing-haptics-on-game-controllers", "law": "This sample code project must be run on a physical device and requires a Bluetooth-connected game controller."}
+{"id": "/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "Use this interface to explore the range of haptic patterns that you can create with Core Haptics."}
+{"id": "/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "HapticPalette requires Xcode 11 or later."}
+{"id": "/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel distinct."}
+{"id": "/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "Creating haptic pattern players is inexpensive, so you don’t need to keep them around."}
+{"id": "/documentation/CoreHaptics", "law": "Use haptics to engage users physically, with tactile and audio feedback that gets attention and reinforces actions."}
+{"id": "/documentation/CoreHaptics", "law": "You can use transient and continuous patterns independently, or build your pattern from precise combinations of the two."}
+{"id": "/documentation/corehaptics", "law": "Use haptics to engage users physically, with tactile and audio feedback that gets attention and reinforces actions."}
+{"id": "/documentation/corehaptics", "law": "You can use transient and continuous patterns independently, or build your pattern from precise combinations of the two."}
+{"id": "/documentation/corehaptics/chhapticdynamicparameter", "law": "To precipitate a gradual change, use a object."}
+{"id": "/documentation/corehaptics/chhapticdynamicparameter", "law": "In both cases, the resulting value is limited to the range with minimum and maximum values corresponding to the specified event parameter."}
+{"id": "/documentation/corehaptics/chhapticevent", "law": "Use a object obtained through factory methods to play events."}
+{"id": "/documentation/corehaptics/chhapticeventparameter", "law": "Event parameters are static; they don’t change over the course of the pattern."}
+{"id": "/documentation/corehaptics/chhapticeventparameter", "law": "To change a parameter value after a haptic has started playing, use a to make an immediate change, or a to transition smoothly."}
+{"id": "/documentation/corehaptics/chhapticparametercurve", "law": "Unlike dynamic parameters, which change a property value instantaneously, parameter curves interpolate linearly between parameter values to ensure a smooth transition."}
+{"id": "/documentation/corehaptics/playing-collision-based-haptic-patterns", "law": "Although the sample app uses UIKit Dynamics and UIKit for simplicity and familiarity with UIKit classes, but your app can also use a 2D engine like SpriteKit to represent interactive object collisions."}
+{"id": "/documentation/corehaptics/playing-collision-based-haptic-patterns", "law": "HapticBounce requires Xcode 11 or later."}
+{"id": "/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "Use this interface to explore the range of haptic patterns that you can create with Core Haptics."}
+{"id": "/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "HapticPalette requires Xcode 11 or later."}
+{"id": "/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel distinct."}
+{"id": "/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time", "law": "Creating haptic pattern players is inexpensive, so you don’t need to keep them around."}
+{"id": "/documentation/corehaptics/chhapticengine", "law": "Although it’s possible to create content— instances—independent of a CHHapticEngine, your app must use an engine to play that content."}
+{"id": "/documentation/corehaptics/preparing-your-app-to-play-haptics", "law": "Make sure you set the engine’s handler properties before starting it to play a haptic."}
+{"id": "/documentation/corehaptics/preparing-your-app-to-play-haptics", "law": "Some devices don’t support haptic feedback, including iPad, iPod touch, and Apple Vision Pro."}
+{"id": "/documentation/corehaptics/preparing-your-app-to-play-haptics", "law": "Use an instance of a haptic engine to perform these key tasks: Create players to play those haptic and audio patterns."}
+{"id": "/documentation/corehaptics/preparing-your-app-to-play-haptics", "law": "When this occurs, inside the reset handler, your app should do the following: Restart the haptic engine, if it was running at the time reset happened, by calling ."}
+{"id": "/documentation/corehaptics/representing-haptic-patterns-in-ahap-files", "law": "When Core Haptics loads an AHAP file, it sets missing entries to their default value and clamps out-of-range values to their minimum or maximum values, whichever is closer."}
+{"id": "/documentation/corehaptics/representing-haptic-patterns-in-ahap-files", "law": "Indentation of nested levels is also not required; you don’t need to indent the various subdictionaries, but doing so helps you visually distinguish the levels."}
+{"id": "/documentation/corehaptics/representing-haptic-patterns-in-ahap-files", "law": "When your app designates an audio file to play alongside a haptic, use an audio event with a waveform path and audio-specific properties:"}
+{"id": "/documentation/corehaptics/representing-haptic-patterns-in-ahap-files", "law": "If you don’t include a parameter, the Core Haptics engine assumes its default value for that event."}
+{"id": "/documentation/corehaptics/representing-haptic-patterns-in-ahap-files", "law": "It’s a normalized value that maps to the minimum value the system supports."}
+{"id": "/documentation/corehaptics/representing-haptic-patterns-in-ahap-files", "law": "Likewise, a value of 1 doesn’t indicate 1 second; rather, it maps to the maximum supported value."}
+{"id": "/documentation/corehaptics/delivering-rich-app-experiences-with-haptics", "law": "You must run the sample on iPhone 8 or later."}
+{"id": "/documentation/CoreHaptics/CHHapticEngine", "law": "Although it’s possible to create content— instances—independent of a CHHapticEngine, your app must use an engine to play that content."}
+{"id": "/documentation/CoreHaptics/CHHapticPattern", "law": "More complicated patterns also contain key-value pairs for parameter curves, which you can use to modulate parameters over time."}
+{"id": "/documentation/CoreHaptics/CHHapticPattern", "law": "To add haptics to your app, you create an instance of , load a pattern, and use the engine to create a player to play that pattern."}
+{"id": "/documentation/CoreHaptics/CHHapticPattern", "law": "For example, you can use sharpness values to convey an experience that’s crisp, precise, and mechanical, or one that’s soft, rounded, and organic."}

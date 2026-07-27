@@ -1,0 +1,3 @@
+{"id": "/documentation/Accounts", "law": "An account stores the login credentials of a particular service, such as LinkedIn, and you use those credentials to authenticate with the service."}
+{"id": "/documentation/Accounts", "law": "When you integrate the Accounts framework into your app, you don’t need to store account logins yourself."}
+{"id": "/documentation/Accounts", "law": "Instead, the user grants your app access to use their account login credentials, bypassing the need to type their username and password."}

@@ -1,0 +1,63 @@
+{
+ "url": "https://www.apple.com/app-store/",
+ "sections": [
+  "section-hero",
+  "section-discovery",
+  "section-privacy",
+  "section-safety",
+  "section-hardware",
+  "section-confidence",
+  "section-store-banner",
+  "section-news"
+ ],
+ "modules": [
+  "name:hero",
+  "name:stories and collections",
+  "name:story number",
+  "name:curated by experts",
+  "name:in-app events",
+  "name:discover amazing apps",
+  "name:available apps",
+  "name:storefront languages",
+  "name:expert editors",
+  "name:app details",
+  "name:security for every app",
+  "name:malware screening",
+  "name:patient privacy",
+  "name:choose data to share",
+  "name:app data sharing",
+  "name:app guidelines",
+  "name:experts review apps",
+  "name:submissions rejected",
+  "name:inappropriate content",
+  "name:no surprise purchases",
+  "name:moderators review",
+  "name:remove outdated apps",
+  "name:apps help unlock the full potential",
+  "name:we help app developers",
+  "name:make any app yours",
+  "name:purchase safely",
+  "name:report a problem",
+  "name:backed by apple support",
+  "name:apps from data centers",
+  "name:local payment methods",
+  "name:router",
+  "name:newsroom"
+ ],
+ "imgs": 98,
+ "videos": 0,
+ "cta": 20,
+ "h_levels": {
+  "1": 1,
+  "2": 9,
+  "3": 41
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/app-store/c/built/styles/main.built.css",
+  "/v/app-store/c/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

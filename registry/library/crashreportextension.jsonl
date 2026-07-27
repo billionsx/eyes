@@ -1,0 +1,4 @@
+{"id": "/documentation/CrashReportExtension", "law": "Use the parameter to inspect the state of the crashed app by retrieving a crash reason, symbolicating relevant addresses, and communicating with the process over a read-only Mach port."}
+{"id": "/documentation/CrashReportExtension", "law": "As with all app extensions, your extension’s bundle identifier must be a child of the main app identifier."}
+{"id": "/documentation/CrashReportExtension", "law": "For example, for an app with bundle ID , a crash reporter extension might use the identifiers or ."}
+{"id": "/documentation/CrashReportExtension/CrashReporterExtension", "law": "The following example shows an implementation that accesses the crashed process’s and for use in generating a crash report."}

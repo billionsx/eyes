@@ -1,0 +1,9 @@
+{"id": "/documentation/DeviceDiscoveryUI", "law": "Use DeviceDiscoveryUI to enable pairing from app to app and from apps to another device; the framework supports pairing with Apple and third-party devices."}
+{"id": "/documentation/DeviceDiscoveryUI", "law": "For pairing to enable the setup of hardware devices, use the AccessorySetupKit framework."}
+{"id": "/documentation/DeviceDiscoveryUI", "law": "The following example shows how to describe a named network service an app provides — the publisher — and demonstrates how to use a to present a pairing interface using SwiftUI that waits for a peer or subscriber ."}
+{"id": "/documentation/DeviceDiscoveryUI", "law": "In the client, use DeviceDiscoveryUI to present a view that lists available devices, and then use the or frameworks to create the listeners and the connections, and to send and receive messages."}
+{"id": "/documentation/DeviceDiscoveryUI", "law": "Also, because the system securely manages the connection, people don’t need to authorize full access to their local network."}
+{"id": "/documentation/DeviceDiscoveryUI", "law": "You must distribute your app as a universal purchase, so that all copies of your app share the same bundle ID."}
+{"id": "/documentation/DeviceDiscoveryUI/DevicePairingView", "law": "A should be used to become discoverable to local devices from the user through a button interface."}
+{"id": "/documentation/DeviceDiscoveryUI/DevicePicker", "law": "Always display the picker as a full-screen, modal view."}
+{"id": "/documentation/DeviceDiscoveryUI/DevicePicker", "law": "Use the DevicePickerSupportedAction environment value to check whether the current device supports device discovery."}

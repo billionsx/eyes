@@ -1,0 +1,7 @@
+{"id": "/documentation/AppStoreServerAPI", "law": "Use this information to keep your customers’ purchase information current on your server."}
+{"id": "/documentation/AppStoreServerAPI", "law": "Use the endpoint to send information to the App Store when customers request a refund for an In-App Purchase, after you receive the from ."}
+{"id": "/documentation/AppStoreServerAPI", "law": "Use to set an app account token when your customer makes an In-App Purchase outside your app, or to update its value."}
+{"id": "/documentation/AppStoreServerAPI", "law": "Your server must support the Transport Layer Security (TLS) protocol 1.2 or later to use the App Store Server API."}
+{"id": "/documentation/AppStoreServerAPI", "law": "Calls to the API require JSON Web Tokens (JWTs) for authorization; you obtain keys to create the tokens from your organization’s App Store Connect account."}
+{"id": "/documentation/AppStoreServerAPI", "law": "For endpoints that take a as a parameter, be sure to call the endpoint using the same environment that creates the transaction identifier."}
+{"id": "/documentation/AppStoreServerAPI", "law": "If you don’t have environment information, follow these steps: Call the endpoint using the production URL."}

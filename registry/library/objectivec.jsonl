@@ -1,0 +1,16 @@
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/accessibilityDecrement()", "law": "If your element has the trait, you must implement this method."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/accessibilityDecrement()", "law": "Use this method to decrement the value of the element."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/accessibilityIncrement()", "law": "If your element has the trait, you must implement this method."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/accessibilityIncrement()", "law": "Use this method to increment the value of the element."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/validateMenuItem:", "law": "The object implementing this method must be the target of ."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class", "law": "Avoid using deprecated classes and protocols in your apps."}
+{"id": "/documentation/objectivec/nsobject-swift.class", "law": "Avoid using deprecated classes and protocols in your apps."}
+{"id": "/documentation/objectivec/nsobject-swift.class/accessibilityactivate()", "law": "You can use this method to make complex controls more readily accessible to users."}
+{"id": "/documentation/objectivec/nsobject-swift.class/accessibilityactivate()", "law": "Your implementation of this method should activate the element and perform whatever other tasks it deems appropriate."}
+{"id": "/documentation/objectivec/nsobject-swift.class/accessibilityactivate()", "law": "For example, you might use the method to activate a control that requires a complex gesture and would be difficult for VoiceOver users to perform, possibly because the gesture has a different meaning when VoiceOver is running."}
+{"id": "/documentation/objectivec/nsobject-swift.class/accessibilitydecrement()", "law": "If your element has the trait, you must implement this method."}
+{"id": "/documentation/objectivec/nsobject-swift.class/accessibilitydecrement()", "law": "Use this method to decrement the value of the element."}
+{"id": "/documentation/objectivec/nsobject-swift.class/accessibilityincrement()", "law": "If your element has the trait, you must implement this method."}
+{"id": "/documentation/objectivec/nsobject-swift.class/accessibilityincrement()", "law": "Use this method to increment the value of the element."}
+{"id": "/documentation/ObjectiveC/uiaccessibilityaction", "law": "Then, you must implement the and methods."}
+{"id": "/documentation/ObjectiveC/uiaccessibilityaction", "law": "A set of methods that accessibility elements can use to support specific actions."}

@@ -1,0 +1,22 @@
+{"id": "/documentation/QuartzCore/CAMetalDrawable/texture", "law": "Use this object to configure a object to render to the drawable object."}
+{"id": "/documentation/QuartzCore/CAMetalLayer", "law": "Use a when you want to use Metal to render a layer’s contents; for example, to render into a view."}
+{"id": "/documentation/QuartzCore/CAMetalLayer", "law": "To avoid stalls in your app, request a new drawable only when you need it, and release any references to it as quickly as possible after you’re done with it."}
+{"id": "/documentation/QuartzCore/CAMetalLayer", "law": "For example, before retrieving a new drawable, you might perform other work on the CPU or submit commands to the GPU that don’t require the drawable."}
+{"id": "/documentation/QuartzCore/CAMetalLayer", "law": "If you don’t release drawables correctly, the layer runs out of drawables, and future calls to return ."}
+{"id": "/documentation/QuartzCore/CAMetalLayer", "law": "Don’t release the drawable explicitly; instead, embed your render loop within an autorelease pool block: This block releases drawables promptly and avoids possible deadlock situations with multiple drawables."}
+{"id": "/documentation/QuartzCore/CAMetalLayer", "law": "If you don’t need to query these properties, release the drawable when you no longer need it."}
+{"id": "/documentation/QuartzCore/CAMetalLayer/pixelFormat", "law": "You must use one of the following formats: The pixel format of the layer’s textures."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "For example, an app that displays movies might use to calculate which video frame to display next."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "An app that performs its own animations might use to determine where and how visible objects appear in the upcoming frame."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "To calculate the actual frame duration, use - ."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "You can use this value in your app to calculate the frame rate of the display, the approximate time the system displays the next frame, and to adjust the drawing behavior so that the next frame is ready in time to display."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "However, the actual frames per second may differ from the preferred value you set; actual frame rates are always a factor of the maximum refresh rate of the device."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "For example, if your device’s maximum refresh rate is 60 frames per second (defined by ), actual frame rates include 15, 20, 30, and 60 frames per second."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "If you set a display link’s preferred frame rate to a value higher than the maximum, the actual frame rate is the maximum."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "The system rounds, to the nearest factor, preferred frame rates that aren’t a divisor of the maximum frame rate."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "For example, setting a preferred frame rate to either 26 or 35 frames per second on a device with a maximum refresh rate of 60 frames per second yields an actual frame rate of 30 times per second."}
+{"id": "/documentation/QuartzCore/CADisplayLink", "law": "If your app needs more control over refresh rate to ensure smooth rendering of frames, use and the information from instances to render frames."}
+{"id": "/documentation/QuartzCore/CAMetalDrawable", "law": "Don’t implement this protocol yourself."}
+{"id": "/documentation/QuartzCore/CALayer", "law": "If the layer object was created by a view, the view typically assigns itself as the layer’s delegate automatically, and you should not change that relationship."}
+{"id": "/documentation/QuartzCore/CALayer", "law": "For layers you create yourself, you can assign a object and use that object to provide the contents of the layer dynamically and perform other tasks."}
+{"id": "/documentation/QuartzCore/CALayerDelegate", "law": "The object that implements this protocol must be assigned to the property of the layer object."}

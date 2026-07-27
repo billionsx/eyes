@@ -1,0 +1,4 @@
+{"id": "/documentation/iokit/communicating_with_a_modem_on_a_serial_port", "law": "Run the program within Xcode and use the console to monitor the progress of the communication."}
+{"id": "/documentation/iokit/communicating_with_a_modem_on_a_serial_port", "law": "This action terminates communication to the modem and concludes the use of the serial port."}
+{"id": "/documentation/iokit", "law": "Devices supported on macOS 11 and later require ."}
+{"id": "/documentation/iokit", "law": "Use IOKit in your apps and services to discover and use devices."}

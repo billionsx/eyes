@@ -1,0 +1,43 @@
+name: eyes-review-reusable
+# ПОДКЛЮЧЕНИЕ ЛЮБОГО ПРОЕКТА (ст. 56 · M7-A). Клиент кладёт себе 10 строк
+# (templates/eyes-client.yml) и получает построчное ревью PR по измеренным
+# законам департамента. Ни submodule, ни GitHub App не нужны.
+on:
+  workflow_call:
+    inputs:
+      globs:
+        description: "CSV-глобы файлов клиента (например src/**/*.css,src/**/*.tsx)"
+        required: true
+        type: string
+      project:
+        description: "Имя проекта клиента"
+        required: false
+        type: string
+        default: "client"
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/checkout@v4
+        with:
+          repository: billionsx/eyes
+          path: __eyes
+          sparse-checkout: |
+            bin
+            adapters
+            registry/standards
+      - name: "BXE · ревью PR клиента по измеренным законам"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PROJECT_ROOT: .
+          EYES_CLIENT_GLOBS: ${{ inputs.globs }}
+          EYES_CLIENT_PROJECT: ${{ inputs.project }}
+        run: python3 __eyes/bin/review.py

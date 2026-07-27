@@ -1,0 +1,38 @@
+{"id": "/documentation/CoreBluetooth/measuring-distance-between-devices-using-channel-sounding", "law": "This sample app demonstrates how to use the Channel Sounding API to continuously measure the physical distance between an iOS device and any Bluetooth Low Energy peripheral that supports Bluetooth 6.3 and Channel Sounding."}
+{"id": "/documentation/CoreBluetooth/measuring-distance-between-devices-using-channel-sounding", "law": "Before running the sample code project in Xcode: Use an iOS 27 device with Channel Sounding-capable hardware (iPhone 17 or later) as the initiator."}
+{"id": "/documentation/CoreBluetooth/measuring-distance-between-devices-using-channel-sounding", "law": "Use a Bluetooth Low Energy peripheral that supports Bluetooth 6.3 and Channel Sounding as the responder."}
+{"id": "/documentation/CoreBluetooth/measuring-distance-between-devices-using-channel-sounding", "law": "Ensure your information property list includes the required entries for the Bluetooth identifiers your peripheral uses."}
+{"id": "/documentation/CoreBluetooth/measuring-distance-between-devices-using-channel-sounding", "law": "is the required pairing mechanism for Channel Sounding."}
+{"id": "/documentation/CoreBluetooth/transferring-data-between-bluetooth-low-energy-devices", "law": "It also covers a rudimentary way to use the Received Signal Strength Indicator (RSSI) value to determine whether data transfer is feasible."}
+{"id": "/documentation/CoreBluetooth/transferring-data-between-bluetooth-low-energy-devices", "law": "RSSI values are provided as negative numbers, with a theortetical maximum of ."}
+{"id": "/documentation/CoreBluetooth/transferring-data-between-bluetooth-low-energy-devices", "law": "sends the data in chunks — each sized to the maximum value the central can receive — by setting the value of its property to the latest chunk."}
+{"id": "/documentation/CoreBluetooth", "law": "Don’t subclass any of the classes of the Core Bluetooth framework."}
+{"id": "/documentation/CoreBluetooth", "law": "If your app has an instantiated and starts a Live Activity, it can use the same privileges while in the background that it uses when it is in the foreground."}
+{"id": "/documentation/corebluetooth", "law": "Don’t subclass any of the classes of the Core Bluetooth framework."}
+{"id": "/documentation/corebluetooth", "law": "If your app has an instantiated and starts a Live Activity, it can use the same privileges while in the background that it uses when it is in the foreground."}
+{"id": "/documentation/corebluetooth/cbcentralmanager", "law": "This state indicates that the central device (your iPhone or iPad, for instance) supports Bluetooth low energy and that Bluetooth is on and available for use."}
+{"id": "/documentation/corebluetooth/cbcentralmanagerdelegate/centralmanager(_:diddiscover:advertisementdata:rssi:)", "law": "You must retain a local copy of the peripheral if you want to perform commands on it."}
+{"id": "/documentation/corebluetooth/cbcentralmanagerdelegate/centralmanager(_:diddiscover:advertisementdata:rssi:)", "law": "Use the RSSI data to determine the proximity of a discoverable peripheral device, and whether you want to connect to it automatically."}
+{"id": "/documentation/corebluetooth/cbcentralmanagerdelegate/centralmanagerdidupdatestate(_:)", "law": "You implement this required method to ensure that the central device supports Bluetooth low energy and that it’s available to use."}
+{"id": "/documentation/corebluetooth/cbcentralmanagerdelegate/centralmanagerdidupdatestate(_:)", "law": "You should issue commands to the central manager only when the central manager’s indicates it’s powered on."}
+{"id": "/documentation/corebluetooth/cbcentralmanagerdelegate/centralmanagerdidupdatestate(_:)", "law": "If the state moves below , all objects obtained from this central manager become invalid; you must retrieve or discover these peripherals again."}
+{"id": "/documentation/corebluetooth/cbperipheraldelegate", "law": "The delegate of a object must adopt the protocol."}
+{"id": "/documentation/corebluetooth/cbperipheraldelegate", "law": "This protocol doesn’t have any required methods."}
+{"id": "/documentation/corebluetooth/cbperipheraldelegate", "law": "A protocol that provides updates on the use of a peripheral’s services."}
+{"id": "/documentation/CoreBluetooth/CBCentralManager", "law": "This state indicates that the central device (your iPhone or iPad, for instance) supports Bluetooth low energy and that Bluetooth is on and available for use."}
+{"id": "/documentation/CoreBluetooth/CBCentralManager/connect(_:options:)", "law": "Attempts to connect to a peripheral don’t time out."}
+{"id": "/documentation/CoreBluetooth/CBCentralManager/scanForPeripherals(withServices:options:)", "law": "The recommended practice is to populate the parameter rather than leaving it ."}
+{"id": "/documentation/CoreBluetooth/CBCentralManager/scanForPeripherals(withServices:options:)", "law": "To do this, your app must explicitly scan for one or more services by specifying them in the parameter."}
+{"id": "/documentation/CoreBluetooth/CBCentralManagerDelegate/centralManager(_:didDiscover:advertisementData:rssi:)", "law": "You must retain a local copy of the peripheral if you want to perform commands on it."}
+{"id": "/documentation/CoreBluetooth/CBCentralManagerDelegate/centralManager(_:didDiscover:advertisementData:rssi:)", "law": "Use the RSSI data to determine the proximity of a discoverable peripheral device, and whether you want to connect to it automatically."}
+{"id": "/documentation/CoreBluetooth/CBCharacteristic", "law": "The properties of a characteristic determine how you can use a characteristic’s value, and how you access the descriptors."}
+{"id": "/documentation/CoreBluetooth/CBMutableCharacteristic", "law": "You use this class to create a characteristic and to set its properties and permissions as desired."}
+{"id": "/documentation/CoreBluetooth/CBMutableService", "law": "You use this class to create a service or an included service on a local peripheral device (represented by a object)."}
+{"id": "/documentation/CoreBluetooth/CBPeripheral/setNotifyValue(_:for:)", "law": "Because the peripheral chooses when it sends an update, your app should prepare to handle them as long as notifications or indications remain enabled."}
+{"id": "/documentation/CoreBluetooth/CBPeripheralManager", "law": "Before you call methods, the peripheral manager object must be in the powered-on state, as indicated by the ."}
+{"id": "/documentation/CoreBluetooth/CBPeripheralManager", "law": "This state indicates that the device (your iPhone or iPad, for instance) supports Bluetooth low energy and that its Bluetooth is on and available for use."}
+{"id": "/documentation/CoreBluetooth/CBPeripheralManagerDelegate/peripheralManagerDidUpdateState(_:)", "law": "You implement this required method to ensure that Bluetooth low energy is available to use on the local peripheral device."}
+{"id": "/documentation/CoreBluetooth/CBPeripheralManagerDelegate/peripheralManagerDidUpdateState(_:)", "law": "If the state moves below , advertising has stopped you must explicitly restart it."}
+{"id": "/documentation/CoreBluetooth/CBPeripheralManagerDelegate/peripheralManagerDidUpdateState(_:)", "law": "In addition, the powered off state clears the local database; in this case you must explicitly re-add all services."}
+{"id": "/documentation/CoreBluetooth/CBPeer", "law": "You typically don’t create instances of either or its concrete subclasses."}
+{"id": "/documentation/CoreBluetooth/CBPeer/identifier", "law": "Peers use instances to identify themselves, instead of by the objects that identify a peripheral’s services, characteristics, and descriptors."}

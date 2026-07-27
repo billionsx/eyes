@@ -1,0 +1,3 @@
+{"id": "/documentation/LightweightCodeRequirements", "law": "Use the tests to distinguish code files on disk, running processes, and processes that the operating system launches."}
+{"id": "/documentation/LightweightCodeRequirements", "law": "The keywords you use to test code properties in the lightweight code requirement DSL are: For code signed by an organization or individual other than Apple, the code’s identity is specified by its , , and ."}
+{"id": "/documentation/LightweightCodeRequirements", "law": "The lightweight code requirement DSL provides operators that you use to build up complex requirements from individual tests."}

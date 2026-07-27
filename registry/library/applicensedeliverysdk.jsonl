@@ -1,0 +1,3 @@
+{"id": "/documentation/AppLicenseDeliverySDK", "law": "Use this SDK to generate licenses for alternative app marketplaces you build with or other apps that you distribute from your website."}
+{"id": "/documentation/AppLicenseDeliverySDK", "law": "Alternative app marketplaces use this SDK to generate a license for each app that developers distribute on the marketplace."}
+{"id": "/documentation/AppLicenseDeliverySDK", "law": "Use this SDK’s framework to implement a license server on your website back end that’s capable of running compiled Swift code."}

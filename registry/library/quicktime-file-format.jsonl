@@ -1,0 +1,4 @@
+{"id": "/documentation/quicktime-file-format", "law": "The QTFF is an ideal format for the exchange of digital media between devices, applications, and operating systems, because you can use it to describe almost any media structure."}
+{"id": "/documentation/quicktime-file-format", "law": "QuickTime provides a number of high-level functions that you can use to create and manipulate QuickTime files, without requiring you to understand the actual file format."}
+{"id": "/documentation/quicktime-file-format", "law": "Use this documentation to create QuickTime files beyond the basic types."}
+{"id": "/documentation/quicktime-file-format", "law": "If you are writing an application that parses QuickTime files, you should recognize that there may be non-movie data in the files."}

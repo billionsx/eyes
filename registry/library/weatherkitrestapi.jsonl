@@ -1,0 +1,4 @@
+{"id": "/documentation/WeatherKitRESTAPI", "law": "Use the WeatherKit REST API web service to provide weather data to your apps and services that offer both current and forecasted weather information to your users."}
+{"id": "/documentation/WeatherKitRESTAPI", "law": "To provide weather information to a web app or other platform, like Android, use the WeatherKit REST API."}
+{"id": "/documentation/WeatherKitRESTAPI", "law": "For native iOS, macOS, tvOS, and watchOS apps, use ."}
+{"id": "/documentation/WeatherKitRESTAPI", "law": "Using this API requires attribution."}

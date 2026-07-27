@@ -1,0 +1,2 @@
+{"id": "/documentation/ThreadNetwork", "law": "Mesh networks are peer-to-peer networks that don’t have a single, centrally defined router, eliminating the risk of a single point of failure."}
+{"id": "/documentation/ThreadNetwork", "law": "To create your own Thread Border Router, use the ThreadNetwork framework to configure and manage your router."}

@@ -1,0 +1,5 @@
+{"id": "/documentation/AdvancedCommerceAPI", "law": "Use this framework to offer an exceptionally large catalog of one-time purchases, subscriptions, and subscriptions with optional add-ons while using the App Store commerce system."}
+{"id": "/documentation/AdvancedCommerceAPI", "law": "Apps that use this API host and manage their own catalog of In-App Purchases, or SKUs."}
+{"id": "/documentation/AdvancedCommerceAPI", "law": "You can use the Advanced Commerce API and the StoreKit API in the same app."}
+{"id": "/documentation/AdvancedCommerceAPI", "law": "Both APIs use the App Store commerce system, including the same signed JWS transactions and JWS renewal info."}
+{"id": "/documentation/AdvancedCommerceAPI", "law": "Your server must support the Transport Layer Security (TLS) protocol 1.2 or later to call the Advanced Commerce API."}

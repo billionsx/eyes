@@ -1,0 +1,92 @@
+{"id": "/documentation/Security/constraining-a-tool's-launch-environment", "law": "In Xcode, ensure the Launch Constraints Sample App scheme is selected in the scheme drop-down menu, and choose Product > Run."}
+{"id": "/documentation/Security/constraining-a-tool's-launch-environment", "law": "You use this design pattern to create GUI “wrappers” for command-line tools, such as database administration tools."}
+{"id": "/documentation/Security", "law": "Use the Security framework to protect information, establish trust, and control access to software."}
+{"id": "/documentation/Security", "law": "Ensure the validity of code to be executed for a particular purpose."}
+{"id": "/documentation/Security", "law": "As shown in the image below, you can also use lower level cryptographic resources to create new secure services."}
+{"id": "/documentation/Security", "law": "Always use the highest level API that meets your needs."}
+{"id": "/documentation/Security", "law": "The Security framework is not always your best option."}
+{"id": "/documentation/Security", "law": "Only if your app requires lower level access to security protocol functions would you use the secure transport API directly."}
+{"id": "/documentation/Security/disabling-and-enabling-system-integrity-protection", "law": "You don’t need to disable SIP to run and debug apps from Xcode, but you might need to disable it to install system extensions, such as DriverKit drivers."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "You can bypass these questions and streamline the submission process by providing the required information in your app’s file."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "Set the value to if your app—including any third-party libraries it links against—doesn’t use encryption, or if it only uses forms of encryption that are exempt from export compliance documentation requirements."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "Typically, the use of encryption that’s built into the operating system—for example, when your app makes HTTPS connections using —is exempt from export documentation upload requirements, whereas the use of proprietary encryption is not."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "To determine whether your use of encryption is considered exempt, see ."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "If your app uses exempt forms of encryption, you might alternatively be required to submit a year-end self-classification report to the U.S."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "(If you use non-exempt encryption and provide documentation to Apple, the self-classification report isn’t necessary.) To learn more, see ."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "If your app requires export compliance documentation, upload the required items to App Store Connect, as described in ."}
+{"id": "/documentation/Security/complying-with-encryption-export-regulations", "law": "Declare the use of encryption in your app to streamline the app submission process."}
+{"id": "/documentation/Security/SecItemAdd(_:_:)", "law": "To add multiple items to a keychain at once use the key in the dictionary with an array of dictionaries (each corresponding to one of the items) as its value."}
+{"id": "/documentation/Security/SecItemAdd(_:_:)", "law": "When you use Xcode to create an application, Xcode adds an entitlement to the application bundle."}
+{"id": "/documentation/Security/SecItemAdd(_:_:)", "law": "The value of this key must be the name of a keychain access group to which all the programs that share this item belong."}
+{"id": "/documentation/Security/SecItemCopyMatching(_:_:)", "law": "You can’t combine the and options when copying password items (items of class or ), because copying each password item could require additional authentication."}
+{"id": "/documentation/Security/SecItemCopyMatching(_:_:)", "law": "Instead, request a reference or persistent reference to the items, then request the data for only the specific passwords that you actually require."}
+{"id": "/documentation/Security/SecItemCopyMatching(_:_:)", "law": "The objects in the provided array must all be of the same type."}
+{"id": "/documentation/Security/SecItemCopyMatching(_:_:)", "law": "The objects in the provided array must all be of the same type."}
+{"id": "/documentation/Security/SecItemCopyMatching(_:_:)", "law": "When you use Xcode to create an application, Xcode adds an entitlement to the application bundle."}
+{"id": "/documentation/Security/SecItemCopyMatching(_:_:)", "law": "When you call the function to add an item to the keychain, you can specify the access group to which that item should belong."}
+{"id": "/documentation/Security/SecKeyCopyExternalRepresentation(_:_:)", "law": "All of these representations use constant size integers, including leading zeros as needed."}
+{"id": "/documentation/Security/SecKeychainItem", "law": "A object for a certificate that is stored in a keychain can be safely cast to a for use with ."}
+{"id": "/documentation/Security/kSecClassGenericPassword", "law": "The following keychain item attributes apply to a generic password item, and don’t form part of its composite primary key: (macOS only) (on macOS, this key only applies if you set or to ) The value that indicates a generic password item."}
+{"id": "/documentation/Security/keychain-services", "law": "You use the keychain to store these items as well."}
+{"id": "/documentation/Security/storing-keys-in-the-keychain", "law": "You use the functions of the keychain services API to add, retrieve, delete, or modify keychain items."}
+{"id": "/documentation/Security/storing-keys-in-the-keychain", "law": "Use the function to actually store the item:"}
+{"id": "/documentation/Security/storing-keys-in-the-keychain", "law": "When you want to retrieve the key, you construct another query dictionary using the same application tag: The above dictionary indicates that the key should be of type , as in , and that it should have the tag used in that example and above."}
+{"id": "/documentation/Security/storing-keys-in-the-keychain", "law": "The last line says that the retrieval should return a key reference (as opposed, for example, to the actual key data)."}
+{"id": "/documentation/Security/storing-keys-in-the-keychain", "law": "You use this query with the function to execute a search and populate an empty reference that you supply: If the call is successful, as indicated by the status result, you can then use the returned key reference to carry out cryptographic operations."}
+{"id": "/documentation/Security/storing-keys-in-the-keychain", "law": "Unless you use unique tags for all of your keys of a given type, you might not get the key you were looking for when you run the search."}
+{"id": "/documentation/Security/storing-keys-in-the-keychain", "law": "Avoid reusing tags in the first place."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "Use keychain services to enable simple, secure storage for users’ passwords."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "In this way you avoid repeatedly asking the user for a password, and you don’t have to implement your own encryption, which can be error prone."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "To get started, define a structure to hold the credentials as they move around your app in memory: Next, define an error enumeration that you can use to communicate keychain access outcomes: Then, identify the server that your app is working with:"}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "Using an instance of the credentials structure and the server constant, you can create an add query: The query dictionary’s first key-value pair indicates that the item is an Internet password, from which keychain services infers that the data is secret and requires encryption."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "Generic passwords are similar in most respects to Internet passwords, but they lack certain attributes specific to remote access (for example, they don’t have a attribute)."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "When you don’t need these extra attributes, use a generic password instead."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "With the query complete, you simply feed it to the function: Although you typically ignore the return data supplied by reference in the second argument on an add operation (as demonstrated here), always check the function’s return status to ensure that the operation succeeds."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "To find the item later, use your knowledge of its attributes."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "For constant attributes (here, the server), use the same value during lookup."}
+{"id": "/documentation/Security/adding-a-password-to-the-keychain", "law": "As long as your app never adds similar items with varying attributes (such as passwords for different accounts on the same server), you can omit these dynamic attributes as search parameters and instead retrieve them along with the item."}
+{"id": "/documentation/Security/kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly", "law": "This is recommended for items that only need to be accessible while the application is in the foreground."}
+{"id": "/documentation/Security/kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly", "law": "Items with this attribute never migrate to a new device."}
+{"id": "/documentation/Security/kSecUseAuthenticationUISkip", "law": "Silently skip any items that require user authentication."}
+{"id": "/documentation/Security/kSecUseAuthenticationUISkip", "law": "Only use this value with the function."}
+{"id": "/documentation/Security/kSecUseAuthenticationUISkip", "law": "A value that indicates items requiring user authentication should be skipped."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "When you use keychain services to store user secrets, the framework’s default behavior provides a reasonable trade-off between security and accessibility."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "However, a device not protected by a passcode is always unlocked, so you might want to restrict access further and insist that an item can only be accessed from a device protected by a passcode."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "In order of decreasing restrictiveness, the choices are: Always use the most restrictive option that makes sense for your app."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "For extremely sensitive data that you never want stored in iCloud, you might choose ."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "You don’t need to set the accessible attribute directly if you set it as part of the access control attribute instead."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "You use these options to require the user to demonstrate their presence."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "You can specifically require biometrics — like Touch ID or Face ID — or a passcode, but you typically use the option, as shown in the preceding code snippet, to let the system choose a mechanism, depending on the current situation."}
+{"id": "/documentation/Security/restricting-keychain-item-accessibility", "law": "In addition to requiring a particular device state and user presence, you can require an application-specific password."}
+{"id": "/documentation/Security/searching-for-keychain-items", "law": "Because in your search you requested multiple return types and allowed only a single result, you should expect the result to be a dictionary."}
+{"id": "/documentation/Security/searching-for-keychain-items", "law": "Meanwhile, you use the key to extract the password data, which you then convert to a string: If when conducting the search you instead set the value associated with the key to an integer number greater than 1, the returned item is an array whose entry count is limited to the value you set."}
+{"id": "/documentation/Security/searching-for-keychain-items", "law": "You can’t combine the and options when copying password items, because copying each password item could require additional authentication."}
+{"id": "/documentation/Security/searching-for-keychain-items", "law": "Instead, request a reference or persistent reference to the items, then request the data for only the specific passwords that you actually require."}
+{"id": "/documentation/Security/searching-for-keychain-items", "law": "If you take this approach, make sure that you don’t create similar items in the keychain—test for and then delete or modify existing items instead."}
+{"id": "/documentation/Security/using-the-keychain-to-manage-user-secrets", "law": "Later, when the server requires reauthentication, the app can retrieve the credentials from the keychain instead of bothering the user."}
+{"id": "/documentation/Security/using-the-keychain-to-manage-user-secrets", "law": "The most common path through the diagram is the central one, which requires no user interaction."}
+{"id": "/documentation/Security/using-the-keychain-to-manage-user-secrets", "law": "Here, a secure network resource requires periodic reauthentication, for example, because the user relaunches an app after having been away for a while."}
+{"id": "/documentation/Security/using-the-keychain-to-manage-user-secrets", "law": "In response, your app should “forget” the corresponding credentials, along with performing any other actions required to log out."}
+{"id": "/documentation/Security/using-the-keychain-to-manage-user-secrets", "law": "Use the function to remove the password from the keychain entirely."}
+{"id": "/documentation/security", "law": "Use the Security framework to protect information, establish trust, and control access to software."}
+{"id": "/documentation/security", "law": "Ensure the validity of code to be executed for a particular purpose."}
+{"id": "/documentation/security", "law": "As shown in the image below, you can also use lower level cryptographic resources to create new secure services."}
+{"id": "/documentation/security", "law": "Always use the highest level API that meets your needs."}
+{"id": "/documentation/security", "law": "The Security framework is not always your best option."}
+{"id": "/documentation/security", "law": "Only if your app requires lower level access to security protocol functions would you use the secure transport API directly."}
+{"id": "/documentation/security/disabling-and-enabling-system-integrity-protection", "law": "You don’t need to disable SIP to run and debug apps from Xcode, but you might need to disable it to install system extensions, such as DriverKit drivers."}
+{"id": "/documentation/Security/hardened-runtime", "law": "Make sure to use only the entitlements that are absolutely necessary for your app’s functionality."}
+{"id": "/documentation/Security/hardened-runtime", "law": "Due to their privileged position in the system, macOS refuses to load system extensions that use Hardened Runtime exception entitlements."}
+{"id": "/documentation/Security/hardened-runtime", "law": "If you’re manually signing code, follow this convention to ensure maximum compatibility."}
+{"id": "/documentation/Security/hardened-runtime", "law": "Don’t include an entitlement if the value is false."}
+{"id": "/documentation/Security/hardened-runtime", "law": "To upload a macOS app to be notarized, you must enable the Hardened Runtime capability."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Beginning in macOS 10.14.5, software signed with a new Developer ID certificate and all new or updated kernel extensions must be notarized to run."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Beginning in macOS 10.15, all software built after June 1, 2019, and distributed with Developer ID must be notarized."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "However, you aren’t required to notarize software that you distribute through the Mac App Store because the App Store submission process already includes equivalent security checks."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Apple’s notary service requires you to adopt the following protections: Enable code-signing for all of the executables you distribute, and ensure that executables have valid code signatures, as described in ."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Use a “Developer ID” application, kernel extension, system extension, or installer certificate for your code-signing signature."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "(Don’t use a Mac Distribution, ad hoc, Apple Developer, or local development certificate.) Verify the certificate type before submitting, as described in ."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "For custom workflows, see .) Don’t include the entitlement with the value set to any variation of ."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Ensure your processes have properly-formatted XML, ASCII-encoded entitlements as described in ."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Always review the notary log for any warnings, and test your software before distribution."}
+{"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "For plug-ins that aren’t notarized, the user must explicitly approve the plug-in by opening the System Preferences app and navigating to the General tab in Security & Privacy."}

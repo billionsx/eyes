@@ -1,0 +1,14 @@
+# BILLIONS X EYES · ПОДКЛЮЧЕНИЕ ПРОЕКТА (файл кладётся В РЕПОЗИТОРИЙ ПРОЕКТА
+# как .github/workflows/eyes.yml). Ничего больше делать не нужно: ни submodule,
+# ни GitHub App, ни секретов. Департамент сам придёт на каждый pull request
+# и оставит построчные замечания числами своих законов.
+name: eyes
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  review:
+    uses: billionsx/eyes/.github/workflows/eyes-review-reusable.yml@main
+    with:
+      project: МОЙ-ПРОЕКТ                       # ← имя проекта
+      globs: "src/**/*.css,src/**/*.tsx"        # ← где лежит интерфейс

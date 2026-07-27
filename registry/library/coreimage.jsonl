@@ -1,0 +1,81 @@
+{"id": "/documentation/CoreImage/generating-an-animation-with-a-core-image-render-destination", "law": "Set the peak specular highlight value to the maximum value of white with respect to the current headroom, or a reasonable default value."}
+{"id": "/documentation/CoreImage/generating-an-animation-with-a-core-image-render-destination", "law": "generates the gradient shading image between the current maximum RGB white, , and a fully transparent clear color, ."}
+{"id": "/documentation/CoreImage", "law": "Use the many built-in image filters to process images and build complex effects by chaining filters."}
+{"id": "/documentation/CoreImage", "law": "Use built-in or custom filters to process still and video images."}
+{"id": "/documentation/CoreImage/CIColorMatrix", "law": "The properties you use to configure a color matrix filter."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "The par swift.class` object are set and retrieved through the use of key-value pairs."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "You use the object in conjunction with other Core Image classes, such as , , and , to take advantage of the built-in Core Image filters when processing images, creating filter generators, or writing custom filters."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "Each thread must create its own objects, but you can pass a filter’s immutable input and output objects between threads."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "To get a quick overview of how to set up and use Core Image filters, see ."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "Use these filters to avoid run-time errors that can occur when relying on Core Image’s string-based API."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "To use the type-safe API, import : The type-safe approach returns a non-optional filter."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "For this reason, your subclass must obey the following guidelines to ensure proper behavior: Store input parameters in instance variables whose names are prefixed with ."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "Don’t use auto-synthesized instance variables, because their names are automatically prefixed with an underscore."}
+{"id": "/documentation/CoreImage/CIFilter-swift.class", "law": "For example: If using manual reference counting, don’t release input parameter instance variables in your method implementation."}
+{"id": "/documentation/CoreImage/CIImage", "law": "You use objects in conjunction with other Core Image classes—such as , , , and —to take advantage of the built-in Core Image filters when processing images."}
+{"id": "/documentation/CoreImage/CIImage", "law": "Multiple threads can use the same GPU or CPU object to render objects."}
+{"id": "/documentation/CoreImage/CIImage", "law": "If you app is multithreaded, each thread must create its own objects."}
+{"id": "/documentation/CoreImage/CIImage", "law": "(See Getting Autoadjustment Filters.) For a discussion of all the methods you can use to create objects on iOS and macOS, see ."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel", "law": "The method can accept zero, one or more inputs: kernels that generate imagery (such as a noise or pattern generator) need no inputs, while kernels that composite source images together require multiple inputs."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel", "law": "To get the best performance, you should only use objects when your image processing algorithms can’t be expressed as Core Image Kernel Language."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel", "law": "You do not directly create instances of a custom subclass."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel", "law": "Image processors must not carry or use state specific to any single invocation of the processor, so all methods (and accessors for readonly properties) of an image processor kernel class are class methods."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel", "law": "Your subclass should override at least the method to perform its image processing."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel", "law": "If your image processor needs to work with a larger or smaller region of interest in the input image than each corresponding region of the output image (for example, a blur filter, which samples several input pixels for each output pixel), you should also override the method."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel", "law": "(Do not override this method.) The abstract class you extend to create custom image processors that can integrate with Core Image workflows."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel/formatForInput(at:)", "law": "The format must be one of , , or ."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel/outputFormat", "law": "The format must be one of , , or ."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel/process(with:arguments:output:)", "law": "When your implementation of this class method is called, use the provided and objects to return processed pixel data to Core Image via ."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel/process(with:arguments:output:)", "law": "This is a class method so that you cannot use or capture any state by accident."}
+{"id": "/documentation/CoreImage/CIImageProcessorKernel/process(with:arguments:output:)", "law": "All the parameters that affect the output results must be passed to ."}
+{"id": "/documentation/CoreImage/CILinearGradient", "law": "The properties you use to configure a linear gradient filter."}
+{"id": "/documentation/CoreImage/CILinearGradient/color0", "law": "The first color to use in the gradient."}
+{"id": "/documentation/CoreImage/CILinearGradient/color1", "law": "The second color to use in the gradient."}
+{"id": "/documentation/CoreImage/CIRenderDestination", "law": "You can create a object for each surface or buffer to which you must render."}
+{"id": "/documentation/coreimage", "law": "Use the many built-in image filters to process images and build complex effects by chaining filters."}
+{"id": "/documentation/coreimage", "law": "Use built-in or custom filters to process still and video images."}
+{"id": "/documentation/coreimage/cirenderdestination", "law": "You can create a object for each surface or buffer to which you must render."}
+{"id": "/documentation/CoreImage/CIImageProcessorInput", "law": "In your image processor class’ method, use the provided object to access the image data and supporting information to perform your custom image processing routine."}
+{"id": "/documentation/CoreImage/CIImageProcessorInput", "law": "For example, if you process the image using a Metal shader, use the property to bind the image as an input texture."}
+{"id": "/documentation/CoreImage/CIImageProcessorInput", "law": "Or, if you process the image using a CPU-based routine, use the property to access pixel data in memory."}
+{"id": "/documentation/CoreImage/CIImageProcessorInput", "law": "To finish setting up or performing your image processing routine, use the provided object to return processed pixel data to Core Image."}
+{"id": "/documentation/CoreImage/CIImageProcessorInput", "law": "A container of image data and information for use in a custom image processor."}
+{"id": "/documentation/CoreImage/CIImageProcessorOutput", "law": "In your image processor class’ method, use an appropriate property of the provided object to return processed pixel data to Core Image."}
+{"id": "/documentation/CoreImage/CIImageProcessorOutput", "law": "You must provide rendered output to one (and only one) of the properties listed in ."}
+{"id": "/documentation/coreimage/ciimage", "law": "You use objects in conjunction with other Core Image classes—such as , , , and —to take advantage of the built-in Core Image filters when processing images."}
+{"id": "/documentation/coreimage/ciimage", "law": "Multiple threads can use the same GPU or CPU object to render objects."}
+{"id": "/documentation/coreimage/ciimage", "law": "If you app is multithreaded, each thread must create its own objects."}
+{"id": "/documentation/coreimage/ciimage", "law": "(See Getting Autoadjustment Filters.) For a discussion of all the methods you can use to create objects on iOS and macOS, see ."}
+{"id": "/documentation/coreimage/ciimageprocessorinput", "law": "In your image processor class’ method, use the provided object to access the image data and supporting information to perform your custom image processing routine."}
+{"id": "/documentation/coreimage/ciimageprocessorinput", "law": "For example, if you process the image using a Metal shader, use the property to bind the image as an input texture."}
+{"id": "/documentation/coreimage/ciimageprocessorinput", "law": "Or, if you process the image using a CPU-based routine, use the property to access pixel data in memory."}
+{"id": "/documentation/coreimage/ciimageprocessorinput", "law": "To finish setting up or performing your image processing routine, use the provided object to return processed pixel data to Core Image."}
+{"id": "/documentation/coreimage/ciimageprocessorinput", "law": "A container of image data and information for use in a custom image processor."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel", "law": "The method can accept zero, one or more inputs: kernels that generate imagery (such as a noise or pattern generator) need no inputs, while kernels that composite source images together require multiple inputs."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel", "law": "To get the best performance, you should only use objects when your image processing algorithms can’t be expressed as Core Image Kernel Language."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel", "law": "You do not directly create instances of a custom subclass."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel", "law": "Image processors must not carry or use state specific to any single invocation of the processor, so all methods (and accessors for readonly properties) of an image processor kernel class are class methods."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel", "law": "Your subclass should override at least the method to perform its image processing."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel", "law": "If your image processor needs to work with a larger or smaller region of interest in the input image than each corresponding region of the output image (for example, a blur filter, which samples several input pixels for each output pixel), you should also override the method."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel", "law": "(Do not override this method.) The abstract class you extend to create custom image processors that can integrate with Core Image workflows."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/formatforinput(at:)", "law": "The format must be one of , , or ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/outputformat", "law": "The format must be one of , , or ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/outputformat(at:arguments:)", "law": "The format must be one of , , or ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/process(with:arguments:output:)", "law": "When your implementation of this class method is called, use the provided and objects to return processed pixel data to Core Image via ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/process(with:arguments:output:)", "law": "This is a class method so that you cannot use or capture any state by accident."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/process(with:arguments:output:)", "law": "All the parameters that affect the output results must be passed to ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/process(with:arguments:outputs:)", "law": "When your implementation of this class method is called, use the provided and objects to return processed pixel data to Core Image via multiple ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/process(with:arguments:outputs:)", "law": "This is a class method so that you cannot use or capture any state by accident."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/process(with:arguments:outputs:)", "law": "All the parameters that affect the output results must be passed to ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/roi(forinput:arguments:outputrect:)", "law": "The of the th input that is required for the above"}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/roi(forinput:arguments:outputrect:)", "law": "This is a class method so that you cannot use or capture any state by accident."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/roi(forinput:arguments:outputrect:)", "law": "All the parameters that affect the output results must be passed to ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/roitilearray(forinput:arguments:outputrect:)", "law": "An array of that specify tile regions of the ’th input that is required for the above Each region tile in the array is a created by calling The tiles may overlap but should fully cover the area of ‘input’ that is needed."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/roitilearray(forinput:arguments:outputrect:)", "law": "If a processor has multiple inputs, then each input should return the same number of region tiles."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/roitilearray(forinput:arguments:outputrect:)", "law": "This is a class method so that you cannot use or capture any state by accident."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/roitilearray(forinput:arguments:outputrect:)", "law": "All the parameters that affect the output results must be passed to ."}
+{"id": "/documentation/coreimage/ciimageprocessorkernel/synchronizeinputs", "law": "Generally, if your subclass uses the GPU your should override this method to return false."}
+{"id": "/documentation/coreimage/ciimageprocessoroutput", "law": "In your image processor class’ method, use an appropriate property of the provided object to return processed pixel data to Core Image."}
+{"id": "/documentation/coreimage/ciimageprocessoroutput", "law": "You must provide rendered output to one (and only one) of the properties listed in ."}
+{"id": "/documentation/coreimage/cikernel", "law": "If your custom filter uses both color and geometry information, but does not require processing both at the same time, you can improve performance by separating your image processing code: use a object for the color processing step and a object for the geometry processing step."}
+{"id": "/documentation/coreimage/cikernel", "law": "It may use zero or more input images."}

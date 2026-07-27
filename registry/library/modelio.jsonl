@@ -1,0 +1,51 @@
+{"id": "/documentation/ModelIO", "law": "You can use this framework to import and export assets from and to a variety of industry standard file formats supported by popular authoring tools and game engines."}
+{"id": "/documentation/ModelIO", "law": "You can also use Model I/O to generate or process model and texture data—for example, to create subdivision surfaces, to bake ambient occlusion textures, or to generate light probes."}
+{"id": "/documentation/ModelIO", "law": "Use the class to load these objects from a file or to create a collection of 3D objects for export to a file."}
+{"id": "/documentation/ModelIO", "law": "Use the class to inspect or rearrange a mesh’s vertex and index data format."}
+{"id": "/documentation/ModelIO", "law": "Use classes that adopt the and protocols to minimize the number of times a mesh’s vertex and index data is copied and translated between loading, processing, and rendering on a GPU."}
+{"id": "/documentation/ModelIO", "law": "Use methods (for example, the method) to process a model, generating additional data—such as surface normals, tangent basis vectors, ambient occlusion, or light maps—for use in rendering."}
+{"id": "/documentation/ModelIO", "law": "Use the class and its subclasses to generate procedural textures such as noise, normal maps, and realistic sky boxes."}
+{"id": "/documentation/ModelIO", "law": "Use the class to generate light sources whose illumination is based on the contents of a scene."}
+{"id": "/documentation/ModelIO", "law": "Use the class to work with a volumetric description of a model."}
+{"id": "/documentation/ModelIO", "law": "The and classes describe realistic lighting properties for use in rendering, and the class also supports physically based rendering parameters."}
+{"id": "/documentation/ModelIO/MDLSkyCubeTexture", "law": "Like other procedural subclasses, the class generates texel data only when that data is first referenced, and then caches it for future use."}
+{"id": "/documentation/ModelIO/MDLSkyCubeTexture/update()", "law": "After you first create a sky cube texture, Model I/O does not generate texture data until you use one of the methods listed inAccessing Texture Data."}
+{"id": "/documentation/ModelIO/MDLTexture", "law": "You use the class or one of its subclasses to identify, load, or create texture data, and then associate textures with materials using the and classes."}
+{"id": "/documentation/modelio", "law": "You can use this framework to import and export assets from and to a variety of industry standard file formats supported by popular authoring tools and game engines."}
+{"id": "/documentation/modelio", "law": "You can also use Model I/O to generate or process model and texture data—for example, to create subdivision surfaces, to bake ambient occlusion textures, or to generate light probes."}
+{"id": "/documentation/modelio", "law": "Use the class to load these objects from a file or to create a collection of 3D objects for export to a file."}
+{"id": "/documentation/modelio", "law": "Use the class to inspect or rearrange a mesh’s vertex and index data format."}
+{"id": "/documentation/modelio", "law": "Use classes that adopt the and protocols to minimize the number of times a mesh’s vertex and index data is copied and translated between loading, processing, and rendering on a GPU."}
+{"id": "/documentation/modelio", "law": "Use methods (for example, the method) to process a model, generating additional data—such as surface normals, tangent basis vectors, ambient occlusion, or light maps—for use in rendering."}
+{"id": "/documentation/modelio", "law": "Use the class and its subclasses to generate procedural textures such as noise, normal maps, and realistic sky boxes."}
+{"id": "/documentation/modelio", "law": "Use the class to generate light sources whose illumination is based on the contents of a scene."}
+{"id": "/documentation/modelio", "law": "Use the class to work with a volumetric description of a model."}
+{"id": "/documentation/modelio", "law": "The and classes describe realistic lighting properties for use in rendering, and the class also supports physically based rendering parameters."}
+{"id": "/documentation/modelio/mdlcheckerboardtexture", "law": "Like other procedural subclasses, the class generates texel data only when that data is first referenced, and then caches it for future use."}
+{"id": "/documentation/modelio/mdlcolorswatchtexture", "law": "Like other procedural subclasses, the class generates texel data only when that data is first referenced, and caches it for future use."}
+{"id": "/documentation/modelio/mdlnamed", "law": "You can use this property to assign descriptive names to objects such as meshes, materials, cameras, and scattering functions to better keep track of the objects in your app."}
+{"id": "/documentation/modelio/mdlnoisetexture", "law": "Like other procedural subclasses, the class generates texel data only when that data is first referenced, and then caches it for future use."}
+{"id": "/documentation/modelio/mdlnormalmaptexture", "law": "Like other procedural subclasses, the class generates texel data only when that data is first referenced, and caches it for future use."}
+{"id": "/documentation/modelio/mdlskycubetexture", "law": "Like other procedural subclasses, the class generates texel data only when that data is first referenced, and then caches it for future use."}
+{"id": "/documentation/modelio/mdlskycubetexture/highdynamicrangecompression", "law": "In tone mapping, Model I/O ignores values below the x component of this vector, clamps color values at or above the y component to the maximum display brightness, and smoothly scales color values in between those points."}
+{"id": "/documentation/modelio/mdlskycubetexture/init(name:channelencoding:texturedimensions:turbidity:sunelevation:upperatmospherescattering:groundalbedo:)", "law": "This initializer does not generate texel data; the class automatically generates data and caches it for reuse when you use one of the methods listed in Accessing Texture Data."}
+{"id": "/documentation/modelio/mdlskycubetexture/update()", "law": "After you first create a sky cube texture, Model I/O does not generate texture data until you use one of the methods listed inAccessing Texture Data."}
+{"id": "/documentation/modelio/mdltexture", "law": "You use the class or one of its subclasses to identify, load, or create texture data, and then associate textures with materials using the and classes."}
+{"id": "/documentation/modelio/mdltexturefilter", "law": "A texture filter, together with a object and transform information, form a object, which describes a texture and its rendering parameters for use in rendering one aspect of a object’s surface appearance."}
+{"id": "/documentation/modelio/mdltexturefilter", "law": "A description of filtering modes for a renderer to use when sampling from a texture."}
+{"id": "/documentation/modelio/mdltexturesampler", "law": "You use texture samplers as material property values with the class."}
+{"id": "/documentation/modelio/mdlurltexture", "law": "Unlike the superclass , the class loads texel data from the file at that URL only when that data is first referenced, and then caches it for future use."}
+{"id": "/documentation/modelio/mdlasset", "law": "To access the objects contained in an asset, use , the method, or subscripting."}
+{"id": "/documentation/modelio/mdlasset", "law": "To traverse that hierarchy, use an object’s property."}
+{"id": "/documentation/modelio/mdlasset", "law": "For objects contained in the asset, you can use methods such as and to access object properties at a specific time sample."}
+{"id": "/documentation/modelio/mdlmaterialproperty", "law": "To retrieve the material property’s value, you must use the property accessor appropriate to its type."}
+{"id": "/documentation/modelio/mdltexture/init(named:)", "law": "To instead create a texture object referencing a file and defer loading image data, use the class."}
+{"id": "/documentation/modelio/mdltexture/init(named:bundle:)", "law": "To instead create a texture object referencing a file and defer loading image data, use the class."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:)", "law": "A renderer can use this texture to create reflections on surfaces with metallic materials."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:)", "law": "A renderer can use this texture to create diffuse lighting effects."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:)", "law": "The side of an object rendered with a reflective material would show a hard line between red and blue, but a diffuse material should appear purple, because the side of the object receives a blend of the red light from above and the blue light from below."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:)", "law": "You can use reflective and irradiance textures with the class."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:roughness:)", "law": "A renderer can use this texture to create reflections on surfaces with metallic materials."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:roughness:)", "law": "A renderer can use this texture to create diffuse lighting effects."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:roughness:)", "law": "The side of an object rendered with a reflective material would show a hard line between red and blue, but a diffuse material should appear purple, because the side of the object receives a blend of the red light from above and the blue light from below."}
+{"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:roughness:)", "law": "You can use reflective and irradiance textures with the class."}

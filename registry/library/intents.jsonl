@@ -1,0 +1,106 @@
+{"id": "/documentation/intents", "law": "To implement modern support for these features and integrate your app with Apple Intelligence and Siri AI, use the framework."}
+{"id": "/documentation/intents", "law": "Intents is a framework you use to support interactions with Siri, Shortcuts, and widgets."}
+{"id": "/documentation/Intents/INGetRideStatusIntent", "law": "To handle this intent, the handler object in your Intents extension must adopt the protocol."}
+{"id": "/documentation/Intents/INGetRideStatusIntent", "law": "Your handler should confirm the request and create an object with the status of the ride."}
+{"id": "/documentation/Intents/INGetRideStatusIntent", "law": "To require unlocking of the device, include the name of this class in the key of your Intents extension’s file."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Use the methods of the protocol to confirm and handle requests to get the status of the user’s currently booked ride."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Your app must know which ride is currently active."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Use the methods of this protocol to handle the request and provide an appropriate response."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Maps does not require you to confirm the contents of a get ride status intent before handling it."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Implement that method and use it to begin the delivery of regular updates."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Always deliver an update at least once every 20 seconds; otherwise, provide updates with the same frequency that you use for updating your own app."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Always provide updates when the ride phase or completion status changes."}
+{"id": "/documentation/Intents/INGetRideStatusIntentHandling", "law": "Use the methods of the observer object to deliver your updates back to SiriKit."}
+{"id": "/documentation/Intents/INListRideOptionsIntent", "law": "Use the information in this intent to identify the possible vehicles that you can provide to the user right now."}
+{"id": "/documentation/Intents/INListRideOptionsIntent", "law": "The intent contains information about the user’s pickup and drop-off locations, which you can use to determine ride availability, pricing, and estimated pickup times."}
+{"id": "/documentation/Intents/INListRideOptionsIntent", "law": "To handle this intent, the handler object in your Intents extension must adopt the protocol."}
+{"id": "/documentation/Intents/INListRideOptionsIntent", "law": "Your handler should resolve and confirm the request parameters and create an object with the list of options."}
+{"id": "/documentation/Intents/INListRideOptionsIntent", "law": "When it needs to suggest apps capable of providing a ride, Maps uses your coverage information to determine whether it should suggest your app."}
+{"id": "/documentation/Intents/INListRideOptionsIntent", "law": "If you do not provide a coverage file and your app is not installed on the user’s device, Maps does not suggest your app."}
+{"id": "/documentation/Intents/INListRideOptionsIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests for information about the types of rides available from your service right now."}
+{"id": "/documentation/Intents/INListRideOptionsIntentHandling", "law": "Ride options represent the categories of vehicles that your service offers and do not represent specific vehicles in your fleet."}
+{"id": "/documentation/Intents/INListRideOptionsIntentHandling", "law": "You should also provide an estimated time at which one or more vehicles of that type could pick up the user."}
+{"id": "/documentation/Intents/INListRideOptionsIntentHandling", "law": "Maps does not require you to resolve or confirm the contents of a list ride options intent before handling it."}
+{"id": "/documentation/Intents/INRequestRideIntent", "law": "Use this intent object to identify possible ride options for the user to choose from and to book the ride after the user confirms it."}
+{"id": "/documentation/Intents/INRequestRideIntent", "law": "To handle this intent, the handler object in your Intents extension must adopt the protocol."}
+{"id": "/documentation/Intents/INRequestRideIntent", "law": "Your handler should confirm the request and create an object with information about whether your app successfully booked the ride."}
+{"id": "/documentation/Intents/INRequestRideIntent", "law": "When it needs to suggest apps capable of providing a ride, Maps uses your coverage information to determine whether it should suggest your app."}
+{"id": "/documentation/Intents/INRequestRideIntent", "law": "If you do not provide a coverage file and your app is not installed on the user’s device, Maps does not suggest your app."}
+{"id": "/documentation/Intents/INRequestRideIntent", "law": "When it needs to suggest apps capable of providing a ride, Maps uses your coverage information to determine whether it should suggest your app."}
+{"id": "/documentation/Intents/INRequestRideIntent", "law": "If you don’t provide a coverage file and your app isn’t installed on the user’s device, Maps doesn’t suggest your app."}
+{"id": "/documentation/Intents/INRequestRideIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to book a ride using your service."}
+{"id": "/documentation/Intents/INRequestRideIntentHandling", "law": "You should resolve all options in some manner, but you may omit options that are not relevant to your service."}
+{"id": "/documentation/Intents/INRequestRideIntentHandling", "law": "For ride requests, you must resolve the following items: Pickup location Drop-off location Party size Ride option Payment method Maps does not require you to confirm the contents of a get ride status intent before handling it."}
+{"id": "/documentation/Intents/INRequestRideIntentHandling", "law": "Pass the information in that object to your service and use the results to configure the response object you return to SiriKit."}
+{"id": "/documentation/Intents/INRequestRideIntentHandling", "law": "Use that ID string to retrieve specific information from the service regarding the vehicle type, driver, and ride option."}
+{"id": "/documentation/Intents/INRequestRideIntentHandling", "law": "Use all of the retrieved information to build the object that and add the status object to the object passed back to SiriKit."}
+{"id": "/documentation/Intents/INRequestRideIntentResponse", "law": "Specifically, your status object must include a valid object and you should always specify an activity object in the property of your status object."}
+{"id": "/documentation/Intents/INRequestRideIntentResponse", "law": "When handling the intent, the and codes generate an error and should not be used."}
+{"id": "/documentation/Intents/INRideOption", "law": "When the user books a ride through Siri or Maps, you use objects to convey information about pricing and passenger capacity for that ride."}
+{"id": "/documentation/Intents/INRideOption", "law": "Always fill in as many properties of ride option objects as makes sense for that ride."}
+{"id": "/documentation/Intents/INRideStatus", "law": "When configuring ride status objects, always provide values for as many properties as possible."}
+{"id": "/documentation/Intents/INPaymentRecord", "law": "Siri always asks the user to confirm payments before asking your Intents extension to process them."}
+{"id": "/documentation/Intents/INPersonResolutionResult", "law": "Use the creation method that best reflects your ability to successfully resolve the parameter."}
+{"id": "/documentation/Intents/INPersonResolutionResult/confirmationRequired(with:)", "law": "Use this method when you can resolve the parameter to the specified person but you want the user to confirm that value."}
+{"id": "/documentation/Intents/INPersonResolutionResult/confirmationRequired(with:)", "law": "Creates an object whose resolution requires that the user must confirm the value before proceeding."}
+{"id": "/documentation/Intents/INPersonResolutionResult/disambiguation(with:)", "law": "Use this method to create a result object when more than one person might match the given information and you can’t pick one definitively."}
+{"id": "/documentation/Intents/INPersonResolutionResult/disambiguation(with:)", "law": "Creates an object whose resolution requires the user to select from among the specified objects."}
+{"id": "/documentation/Intents/INPersonResolutionResult/success(with:)", "law": "Use this method to create a result object when you recognize the specified user and can resolve that person to your app’s internal data structures."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to send money to another user of your app."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling", "law": "Use the methods of this protocol to resolve the payment parameters and to validate that the payment is possible."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/confirm(intent:completion:)", "law": "You might use this method to validate a user’s logged in status, has sufficient funds for the payment, and can perform the transaction."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/handle(intent:completion:)", "law": "Your implementation of this method must transfer the specified money to the designated payee."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/handle(intent:completion:)", "law": "The response object you provide should include the transaction details and indicate whether or not the transaction was successful."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/resolveCurrencyAmount(for:with:)-75c7o", "law": "If the amount is outside of the minimum or maximum transaction amount supported by your app, return a successful result and use your response object to communicate that the amount is below the minimum or above the maximum amount."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/resolveCurrencyAmount(for:with:)-75c7o", "law": "Do not use this method to validate that the user’s account contains the specified amount."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/resolveCurrencyAmount(for:with:)-75c7o", "law": "If you identify a currency amount but there is a problem in sending the funds, use the method to create a object that indicates the reason you couldn’t send the amount."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/resolvePayee(for:with:)-3otmy", "law": "Use the provided payee information in the intent object to locate the corresponding user in your app."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/resolvePayee(for:with:)-3otmy", "law": "Always strive toward a successful resolution to a specific user, but always ask for confirmation of the selected user if there is some uncertainty."}
+{"id": "/documentation/Intents/INSendPaymentIntentHandling/resolvePayee(for:with:)-3otmy", "law": "If you identify a user but there is a problem in sending funds to that user, use the method to create a object that indicates you can’t the payee."}
+{"id": "/documentation/Intents/INSendPaymentIntentResponse", "law": "Use an object to specify the details of the financial transaction that you perform."}
+{"id": "/documentation/Intents/INVocabulary", "law": "Include words and phrases only when their use in your app by the current user might differ from everyday usage."}
+{"id": "/documentation/Intents/INVocabulary", "law": "Don’t register contact names that you retrieved from the user’s Contacts database."}
+{"id": "/documentation/Intents/INVocabulary", "law": "Don’t use this class to register terms that are common to all users of your app."}
+{"id": "/documentation/Intents/INVocabulary", "law": "Your Intents extension must support at least one intent that uses the registered terms."}
+{"id": "/documentation/Intents/INVocabulary", "law": "Use the shared vocabulary object only in your iOS app."}
+{"id": "/documentation/Intents/INVocabulary", "law": "Don’t try to register vocabulary from your Intents extension or Intents UI extension."}
+{"id": "/documentation/Intents/INVocabulary/setVocabularyStrings(_:of:)", "law": "Use this method to register user-specific vocabulary terms of the specified type."}
+{"id": "/documentation/Intents/INVocabulary/setVocabularyStrings(_:of:)", "law": "Do not use this method to register terminology that is common to all users of your app."}
+{"id": "/documentation/Intents/INVocabulary/setVocabularyStrings(_:of:)", "law": "Use this method only to register terms that are specific to the current user."}
+{"id": "/documentation/Intents/INVocabulary/setVocabularyStrings(_:of:)", "law": "Common terminology should be included in the vocabulary property list file that you include with your Intents extension."}
+{"id": "/documentation/Intents/INVocabulary/setVocabularyStrings(_:of:)", "law": "Calling this method is not a guarantee that Siri will use the terms you supply."}
+{"id": "/documentation/Intents/INVocabulary/setVocabularyStrings(_:of:)", "law": "So always place the most important strings first in the ordered set."}
+{"id": "/documentation/Intents/INVocabulary/setVocabularyStrings(_:of:)", "law": "In addition, if any of the strings exceed the maximum size limit, Siri ignores them."}
+{"id": "/documentation/Intents/INCancelWorkoutIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to cancel a workout using your app."}
+{"id": "/documentation/Intents/INCancelWorkoutIntentHandling", "law": "You don’t actually cancel the workout from your Intents extension."}
+{"id": "/documentation/Intents/INEndWorkoutIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to end a workout using your app."}
+{"id": "/documentation/Intents/INEndWorkoutIntentHandling", "law": "You don’t actually end the workout from your Intents extension."}
+{"id": "/documentation/Intents/INIntentHandlerProviding", "law": "This protocol is adopted by the class and you must provide a custom implementation."}
+{"id": "/documentation/Intents/INIntentHandlerProviding", "law": "Modify the method in that subclass and use it to create your handler objects."}
+{"id": "/documentation/Intents/INIntentHandlerProviding", "law": "You can use the same class to handle multiple intents or you can use different classes for each intent."}
+{"id": "/documentation/Intents/INIntentHandlerProviding/handler(for:)", "law": "The object you return must adopt the handling protocol for the specified intent."}
+{"id": "/documentation/Intents/INIntentHandlerProviding/handler(for:)", "law": "When creating handler objects in this method, use the provided object only to determine which handler to create."}
+{"id": "/documentation/Intents/INIntentHandlerProviding/handler(for:)", "law": "Don’t use the object to initialize your handler object and don’t store a reference to the intent object for later use."}
+{"id": "/documentation/Intents/INPauseWorkoutIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to pause a workout that’s using your app."}
+{"id": "/documentation/Intents/INPauseWorkoutIntentHandling", "law": "You don’t actually pause the workout from your Intents extension."}
+{"id": "/documentation/Intents/INResumeWorkoutIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to resume a paused workout that’s using your app."}
+{"id": "/documentation/Intents/INResumeWorkoutIntentHandling", "law": "You don’t actually resume the workout from your Intents extension."}
+{"id": "/documentation/Intents/INSpeakableStringResolutionResult", "law": "Use the creation method that best reflects your ability to successfully resolve the parameter."}
+{"id": "/documentation/Intents/INSpeakableStringResolutionResult/confirmationRequired(with:)", "law": "Use this method when you can resolve the parameter to the specified value but you want the user to confirm that value."}
+{"id": "/documentation/Intents/INSpeakableStringResolutionResult/confirmationRequired(with:)", "law": "Creates an object whose resolution requires that the user must confirm the value before proceeding."}
+{"id": "/documentation/Intents/INSpeakableStringResolutionResult/disambiguation(with:)", "law": "Use this method to create a result object when there is more one value that might match the given parameter."}
+{"id": "/documentation/Intents/INSpeakableStringResolutionResult/disambiguation(with:)", "law": "Creates an object whose resolution requires the user to select from among the specified objects."}
+{"id": "/documentation/Intents/INSpeakableStringResolutionResult/success(with:)", "law": "Use this method to create a result object when you are able to use the provided string to handle the intent successfully."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to start a workout using your app."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling", "law": "You don’t actually start a workout from your Intents extension."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/handle(intent:completion:)", "law": "Use this method to transfer control of starting the workout to your app."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveGoalValue(for:with:)", "law": "Use it to validate the goal supplied by the user."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveGoalValue(for:with:)", "law": "If you don’t implement this method, SiriKit assumes that you’re able to start the workout with the specified goal."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveIsOpenEnded(for:with:)", "law": "If you don’t implement this method, SiriKit assumes that you’re able to start either an open ended or fixed goal workout."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveWorkoutGoalUnitType(for:with:)", "law": "Use it to validate the units of the user-supplied workout goal."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveWorkoutGoalUnitType(for:with:)", "law": "If you don’t implement this method, SiriKit assumes that you’re able to start the workout with the specified goal."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveWorkoutLocationType(for:with:)", "law": "If you don’t implement this method, SiriKit assumes that you’re able to start the workout in the specified location."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveWorkoutName(for:with:)", "law": "Use it to validate the user-supplied workout name."}
+{"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveWorkoutName(for:with:)", "law": "If you don’t implement this method, SiriKit assumes that you’re able to start the requested workout with the specified name."}
+{"id": "/documentation/Intents/INStartWorkoutIntentResponse", "law": "Use an object to specify whether your app is able to start a workout."}
+{"id": "/documentation/Intents/INStartWorkoutIntentResponseCode/handleInApp", "law": "Use this code when you want SiriKit to launch your app in the background so that you can handle the intent there."}

@@ -1,0 +1,39 @@
+{
+ "url": "https://www.apple.com/apple-pay/",
+ "sections": [
+  "section-hero",
+  "section-benefits",
+  "section-just-go",
+  "section-easy-does-it",
+  "section-security",
+  "section-faqs",
+  "section-routers"
+ ],
+ "modules": [
+  "name:hero",
+  "name:value props",
+  "name:ready and set",
+  "name:easy does it all",
+  "name:safe and sound",
+  "name:faq",
+  "name:wallet router",
+  "name:apple card router",
+  "name:apple cash router"
+ ],
+ "imgs": 33,
+ "videos": 0,
+ "cta": 27,
+ "h_levels": {
+  "1": 1,
+  "2": 15,
+  "3": 26
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-pay/v/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

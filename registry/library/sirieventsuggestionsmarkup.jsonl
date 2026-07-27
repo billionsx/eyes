@@ -1,0 +1,3 @@
+{"id": "/documentation/SiriEventSuggestionsMarkup", "law": "You can use the Siri Event Suggestions Markup data format to provide event details in webpages and emails."}
+{"id": "/documentation/SiriEventSuggestionsMarkup", "law": "Siri parses travel arrangements, shows, restaurant reservations, and social events in order to augment related activities, like suggesting driving directions or a ride share to a scheduled event and activating Do Not Disturb just before a show starts."}
+{"id": "/documentation/SiriEventSuggestionsMarkup", "law": "Use a consistent each time, so the system can manage duplicates between Safari and Mail and across the user’s devices."}

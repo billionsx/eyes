@@ -1,0 +1,3 @@
+{"id": "/documentation/TelephonyMessagingKit", "law": "To use TelephonyMessagingKit, use the shared instance of as your app’s main point of contact with the framework."}
+{"id": "/documentation/TelephonyMessagingKit", "law": "To have access to the TelephonyMessageKit API you must add the entitlement to your app."}
+{"id": "/documentation/TelephonyMessagingKit", "law": "People using your app must have an account registered in the European Union (EU), and their device must be located within the EU."}

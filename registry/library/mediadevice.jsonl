@@ -1,0 +1,14 @@
+{"id": "/documentation/MediaDevice", "law": "The picker is the same UI people use for AirPlay and Bluetooth output."}
+{"id": "/documentation/MediaDevice", "law": "Your extension and the container app require the entitlement."}
+{"id": "/documentation/MediaDevice", "law": "To capture those samples, follow for audio, and use for video."}
+{"id": "/documentation/MediaDevice", "law": "Media apps use to observe route changes, and to control playback while your extension handles the protocol-specific communication with the hardware."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Don’t make persistent connections that extend beyond the purpose of discovery before the system notifies you that the person has made a selection and activated a device."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Media apps that support your protocol use to start playback on the device."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Your extension works with , the framework media apps use to observe routes and control playback."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Both the extension and its container app require the entitlement set to Media Sharing Protocol ID that uniquely names your protocol: In the extension’s Info pane in Xcode, set to inside the dictionary."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Your Media Sharing Protocol ID identifies your protocol throughout the system, and you set it in three places that must all use the same value: The string value of the entitlement (set above)."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "The type must conform to : The system uses the value as your protocol’s display name."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Obtain an instance by calling , then use it throughout your extension to report discovered devices, activation results, sessions, and pairing requests."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Use your protocol’s discovery mechanism to find devices, then report them to the system through ."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Don’t call this when no devices are found."}
+{"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Some devices require pairing before activation."}

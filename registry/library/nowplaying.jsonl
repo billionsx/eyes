@@ -1,0 +1,7 @@
+{"id": "/documentation/NowPlaying", "law": "Use it to publish playback for music, audiobooks, podcasts, movies, TV shows, and other content."}
+{"id": "/documentation/NowPlaying", "law": "Create a type that conforms to and use to register it with the system."}
+{"id": "/documentation/NowPlaying", "law": "Don’t mix the Now Playing framework with the and APIs from the framework for local playback."}
+{"id": "/documentation/NowPlaying/publishing-media-sessions", "law": "The framework requests artwork from your process asynchronously at the size the system requires."}
+{"id": "/documentation/NowPlaying/publishing-media-sessions", "law": "Use to switch which session represents your app to the system."}
+{"id": "/documentation/NowPlaying/publishing-media-sessions", "law": "Your app must be in the foreground when you call ."}
+{"id": "/documentation/NowPlaying/publishing-media-sessions", "law": "Use to conditionally make a command available or unavailable."}

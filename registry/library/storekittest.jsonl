@@ -1,0 +1,33 @@
+{"id": "/documentation/StoreKitTest/testing-and-validating-ad-impression-signatures-and-postbacks-for-skadnetwork", "law": "This sample code project provides examples of how to use the StoreKit Test framework to test individual units of an implementation."}
+{"id": "/documentation/StoreKitTest/testing-and-validating-ad-impression-signatures-and-postbacks-for-skadnetwork", "law": "In the sample code, use the same value everywhere that the ad network identifier is required."}
+{"id": "/documentation/StoreKitTest/testing-and-validating-ad-impression-signatures-and-postbacks-for-skadnetwork", "law": "In the testing environment, this value is always ."}
+{"id": "/documentation/StoreKitTest/testing-and-validating-ad-impression-signatures-and-postbacks-for-skadnetwork", "law": "In the sample code, use the private key when you generate a signature, and use the public key when you call ."}
+{"id": "/documentation/StoreKitTest/testing-and-validating-ad-impression-signatures-and-postbacks-for-skadnetwork", "law": "All of the properties are required."}
+{"id": "/documentation/StoreKitTest/testing-and-validating-ad-impression-signatures-and-postbacks-for-skadnetwork", "law": "In the testing environment, the is always ."}
+{"id": "/documentation/StoreKitTest", "law": "Use this framework to write unit tests and continuous integration tests."}
+{"id": "/documentation/StoreKitTest", "law": "Use and to control the test environment."}
+{"id": "/documentation/StoreKitTest", "law": "For testing in-app purchase transactions, use ."}
+{"id": "/documentation/StoreKitTest", "law": "Use this class to test a variety of in-app purchase scenarios, such as subscription renewals and Ask to Buy transactions, and maintain control over the transactions in the testing environment."}
+{"id": "/documentation/StoreKitTest", "law": "For testing ad impressions and postbacks, use ."}
+{"id": "/documentation/StoreKitTest", "law": "Each instance of holds a set of test postbacks that you create and can use in multiple unit tests."}
+{"id": "/documentation/StoreKitTest", "law": "Ad networks that use APIs can use this class to validate the ad impressions that they sign, and test receiving postbacks on their server."}
+{"id": "/documentation/StoreKitTest", "law": "Testing StoreKit in iOS, watchOS, or tvOS apps requires Xcode 12 or later running on macOS 10.15 or later."}
+{"id": "/documentation/StoreKitTest", "law": "Testing StoreKit in a macOS app requires Xcode 12 or later running on macOS 11 or later."}
+{"id": "/documentation/storekittest", "law": "Use this framework to write unit tests and continuous integration tests."}
+{"id": "/documentation/storekittest", "law": "Use and to control the test environment."}
+{"id": "/documentation/storekittest", "law": "For testing in-app purchase transactions, use ."}
+{"id": "/documentation/storekittest", "law": "Use this class to test a variety of in-app purchase scenarios, such as subscription renewals and Ask to Buy transactions, and maintain control over the transactions in the testing environment."}
+{"id": "/documentation/storekittest", "law": "For testing ad impressions and postbacks, use ."}
+{"id": "/documentation/storekittest", "law": "Each instance of holds a set of test postbacks that you create and can use in multiple unit tests."}
+{"id": "/documentation/storekittest", "law": "Ad networks that use APIs can use this class to validate the ad impressions that they sign, and test receiving postbacks on their server."}
+{"id": "/documentation/storekittest", "law": "Testing StoreKit in iOS, watchOS, or tvOS apps requires Xcode 12 or later running on macOS 10.15 or later."}
+{"id": "/documentation/storekittest", "law": "Testing StoreKit in a macOS app requires Xcode 12 or later running on macOS 11 or later."}
+{"id": "/documentation/storekittest/skadtestpostback", "law": "Use this class to create test postbacks to use for unit testing."}
+{"id": "/documentation/storekittest/skadtestpostback", "law": "Use it to test your app’s ability to register the app installation and update conversion values, and to test your server’s ability to receive postbacks."}
+{"id": "/documentation/storekittest/skadtestsession", "law": "Use the class to test your implementations of SKAdNetwork."}
+{"id": "/documentation/storekittest/skadtestsession", "law": "Create one instance of this class to use in multiple test cases."}
+{"id": "/documentation/storekittest/skadtestsession", "law": "Use to create test postbacks."}
+{"id": "/documentation/storekittest/skadtestsession", "law": "To validate the ad impressions, use the following methods: to test your signature for view-through ads to test your signature for StoreKit-rendered ads to test your signature for web ads You need a cryptographic private key to generate signatures."}
+{"id": "/documentation/storekittest/skadtestsession", "law": "Use a public/private key pair that you create using an Elliptic Curve Digital Signature Algorithm (ECDSA) with a prime256V1 curve."}
+{"id": "/documentation/storekittest/skadtestsession", "law": "Never share your private keys, store keys in a code repository, or include keys in client-facing code."}
+{"id": "/documentation/storekittest/skadtestsession", "law": "The class you use to test ad impressions and postbacks in Xcode."}

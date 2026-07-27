@@ -1,0 +1,31 @@
+{"id": "/documentation/WatchKit/interacting-with-bluetooth-peripherals-during-background-app-refresh", "law": "The IDs in the sample are already in use."}
+{"id": "/documentation/WatchKit/interacting-with-bluetooth-peripherals-during-background-app-refresh", "law": "On the watch, to demonstrate the alert when the peripheral moves out of range and comes back in functionality, turn on the “Scan to alert” switch."}
+{"id": "/documentation/WatchKit", "law": "You can also use WatchKit to design your app’s user interface in a storyboard, connecting UI elements to an interface controller."}
+{"id": "/documentation/WatchKit", "law": "Build watchOS apps that use features the app delegate monitors or controls, such as background tasks and extended runtime sessions."}
+{"id": "/documentation/WatchKit/WKApplicationDelegate/userDidAcceptCloudKitShare(with:)", "law": "Use this method to respond to a CloudKit Sharing invitation."}
+{"id": "/documentation/WatchKit/WKInterfacePaymentButton", "law": "Use a payment button to initiate an Apple Pay transaction on Apple Watch."}
+{"id": "/documentation/WatchKit/WKInterfacePaymentButton", "law": "You must connect this button to an action method that creates an Apple Pay payment request."}
+{"id": "/documentation/WatchKit/WKInterfacePaymentButton", "law": "Do not subclass or create instances of this class yourself."}
+{"id": "/documentation/WatchKit/WKInterfacePaymentButton", "law": "At that point, you can use the object in your outlet to make changes to the payment button."}
+{"id": "/documentation/WatchKit/WKInterfacePaymentButton", "law": "A button that you can use to trigger payments through Apple Pay."}
+{"id": "/documentation/WatchKit/WKApplicationDelegate/handle(_:)-4vdjo", "law": "Use this method to handle the specified tasks."}
+{"id": "/documentation/WatchKit/WKWatchConnectivityRefreshBackgroundTask", "law": "Don’t subclass or create instances of this class."}
+{"id": "/documentation/WatchKit/WKWatchConnectivityRefreshBackgroundTask", "law": "You must use your methods to receive this data."}
+{"id": "/documentation/WatchKit/WKWatchConnectivityRefreshBackgroundTask", "law": "Use the property to determine whether you still have any pending data."}
+{"id": "/documentation/watchkit", "law": "You can also use WatchKit to design your app’s user interface in a storyboard, connecting UI elements to an interface controller."}
+{"id": "/documentation/watchkit", "law": "Build watchOS apps that use features the app delegate monitors or controls, such as background tasks and extended runtime sessions."}
+{"id": "/documentation/watchkit/background-execution", "law": "If your app requires background operations, use one of the following techniques to respond to the task: Add a modifier to respond to the background task in your SwiftUI scene."}
+{"id": "/documentation/watchkit/background-execution", "law": "Your app must enable the appropriate background mode in your project’s capabilities, and then start the session while your app is running in the foreground."}
+{"id": "/documentation/watchkit/background-execution", "law": "Use an object to start and stop workouts."}
+{"id": "/documentation/watchkit/background-execution", "law": "Use the class to play extended audio files in the background."}
+{"id": "/documentation/watchkit/background-execution", "law": "Use a object to start a continuous background location session."}
+{"id": "/documentation/watchkit/background-execution", "law": "Select a session type based on the app’s intended use — not based on the features that the session provides."}
+{"id": "/documentation/watchkit/life-cycles", "law": "Use the state changes to trigger relevant tasks, such as loading shared resources and configuring your initial user interface."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "However, your app can use both background sessions and extended runtime sessions to continue running after the user stops interacting with it."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "Extended runtime sessions support the following session types: Select a session type based on the app’s intended use—not based on the features that the session provides."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "Use Xcode’s CPU report tool or the time profiler in Instruments to test and minimize your app’s CPU usage."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "A physical therapy app, for example, might use a for range-of-motion exercises and an for vigorous cross-training."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "You must always start or schedule the extended runtime session when your app state is in the state."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "You must schedule the session by calling while your app is in the state."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "If you don’t set the session’s delegate in the method, the system ends the session."}
+{"id": "/documentation/watchkit/using-extended-runtime-sessions", "law": "During the session, your app must trigger the alarm by calling the session’s method."}

@@ -1,0 +1,195 @@
+{"id": "/documentation/Vision/aligning-similar-images", "law": "Image registration requests require two images, a reference image and a floating image."}
+{"id": "/documentation/Vision/analyzing-a-selfie-and-visualizing-its-content", "law": "Use the framework to detect faces and facial features in a photo."}
+{"id": "/documentation/Vision/analyzing-a-selfie-and-visualizing-its-content", "law": "The sample uses to allow a person to select the selfies to analyze, and sets the maximum number of images to 5 through the parameter."}
+{"id": "/documentation/Vision/applying-matte-effects-to-people-in-images-and-video", "law": "You can use image masks to make selective adjustments to particular areas of an image."}
+{"id": "/documentation/Vision/applying-matte-effects-to-people-in-images-and-video", "law": "For example, the illustration below shows how to use a mask to perform a blend operation to replace the background behind the subject."}
+{"id": "/documentation/Vision/applying-matte-effects-to-people-in-images-and-video", "law": "You must run the sample app on a physical device with iOS 15 or later."}
+{"id": "/documentation/Vision/building-a-feature-rich-app-for-sports-analysis", "law": "The app provides an example of how you can use these technologies together to help players improve their bean-bag tossing performance."}
+{"id": "/documentation/Vision/building-a-feature-rich-app-for-sports-analysis", "law": "In this easy-to-learn game, you throw bean bags at a 4 x 2-foot board that has a 6-inch hole in one end."}
+{"id": "/documentation/Vision/building-a-feature-rich-app-for-sports-analysis", "law": "Some Vision algorithms require a stable scene with a fixed camera position and stationary background."}
+{"id": "/documentation/Vision/building-a-feature-rich-app-for-sports-analysis", "law": "Some Vision algorithms require a stable scene to produce accurate results."}
+{"id": "/documentation/Vision/building-a-feature-rich-app-for-sports-analysis", "law": "The app analyzes video frames until the shift reaches a minimum difference threshold, at which point the app considers the scene stable."}
+{"id": "/documentation/Vision/building-a-feature-rich-app-for-sports-analysis", "law": "Detecting a parabola requires more than a single data point, so this is a stateful request that builds evidence of the object’s movement over time."}
+{"id": "/documentation/Vision/classifying-images-for-categorization-and-search", "law": "Testing can help determine the balance point that returns the best results for a specific use case."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-3d-with-vision", "law": "Before you run the sample code project in Xcode, ensure you’re using an iOS device with an A12 chip or later."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-3d-with-vision", "law": "The input image should have all limbs of the subject visible."}
+{"id": "/documentation/Vision/detecting-moving-objects-in-a-video", "law": "You must run the sample code project on a physical device with an A12 processor or later."}
+{"id": "/documentation/Vision/detecting-moving-objects-in-a-video", "law": "For live capture, the sample app requires a stable scene with a fixed camera position and stationary background, so mount your iOS device to a tripod and keep it fixed on the field of view."}
+{"id": "/documentation/Vision/detecting-moving-objects-in-a-video", "law": "You need to modify the trajectory request’s configuration based on your conditions when you use your own video."}
+{"id": "/documentation/Vision/detecting-moving-objects-in-a-video", "law": "Generally, developers use a shorter length for real-time apps, and longer lengths to observe finer and longer curves."}
+{"id": "/documentation/Vision/detecting-moving-objects-in-a-video", "law": "The follows objects moving on a parabolic path, and requires more than a single data point (trajectory length)."}
+{"id": "/documentation/Vision/detecting-moving-objects-in-a-video", "law": "After a request gathers enough data points to recognize the trajectory — a length of at least 5 — it passes the observation results that contain the trajectory information."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "However, you can also use Vision in your own apps on macOS 10.13, iOS 11, or tvOS 11."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "To see this sample in action, build and run the project, then use the toggle switches to choose which kinds of objects (any combination of rectangles, faces, barcodes, and text) to detect."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": ", , and objects don’t carry orientation, so provide it as part of the initializer."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "objects don’t contain orientation, so supply it in the initializer ."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "objects don’t contain orientation, so supply it in the initializer ."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "Check that any images downloaded from the web have upright orientation; if they don’t, inform Vision about the orientation through the initializer ."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "If you acquire your photos through other means, such as from the web or other apps, be sure to check for orientation and provide it separately if it doesn’t come baked into the image."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "Vision computations may consume resources and take time, so use a background queue to avoid blocking the main queue as it executes."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "In the object’s completion handler, use the callback’s observation parameter to retrieve detection information."}
+{"id": "/documentation/Vision/detecting-objects-in-still-images", "law": "Even when Vision calls its completion handlers on a background thread, always dispatch UI calls like the path-drawing code to the main thread."}
+{"id": "/documentation/Vision/extracting-phone-numbers-from-text-in-images", "law": "The sample app shows you how to use these capabilities to detect and display phone numbers scanned by the camera."}
+{"id": "/documentation/Vision/extracting-phone-numbers-from-text-in-images", "law": "It highlights the use of the fast recognition level and a reduced scope to provide responsive real-time text recognition."}
+{"id": "/documentation/Vision/extracting-phone-numbers-from-text-in-images", "law": "Additional configuration properties enable you to specify the languages to recognize, use language correction during recognition, specify the area of the live video to scan, and more."}
+{"id": "/documentation/Vision/extracting-phone-numbers-from-text-in-images", "law": "First the app creates a request to recognize text: Next, in the delegate method that Vision calls when it writes a sample buffer, the app configures the request to use fast recognition, disable language correction, and set a small rectangular region of interest."}
+{"id": "/documentation/Vision/extracting-phone-numbers-from-text-in-images", "law": "You must allow the sample app to access the camera for it to function correctly."}
+{"id": "/documentation/Vision/generating-thumbnails-from-videos", "law": "To avoid selecting similar thumbnails, the compares the image similarity."}
+{"id": "/documentation/Vision/generating-thumbnails-from-videos", "law": "The structure contains the information about a specific frame in the video that the sample uses to determine the best frame to use as a thumbnail."}
+{"id": "/documentation/Vision/generating-thumbnails-from-videos", "law": "To ensure that the thumbnail results represent different scenes rather than variations of the same frame, computes the similarity between the frames."}
+{"id": "/documentation/Vision/locating-and-displaying-recognized-text", "law": "To enable use of the camera, the sample uses to create a custom camera interface."}
+{"id": "/documentation/Vision/recognize-tables-within-a-document", "law": "Because this sample app requires camera access, you’ll need to build and run this sample on a device."}
+{"id": "/documentation/Vision/recognize-tables-within-a-document", "law": "In the sample project’s assets folder, open the file and use the rear camera on iPad or iPhone to take a picture of the document."}
+{"id": "/documentation/Vision/recognize-tables-within-a-document", "law": "The app allows you to tap on the cells in the captured table and use the data within the cells to call or send a message."}
+{"id": "/documentation/Vision/recognize-tables-within-a-document", "law": "It uses the property of the to access the selected cell and to ensure that people only tap within the table bounds."}
+{"id": "/documentation/Vision/recognize-tables-within-a-document", "law": "Bounding regions use normalized coordinates ( to ) relative to the image dimensions, which makes them work at any display scale."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "Configure the camera to use for capture."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "Don’t simply select the highest resolution available if your app doesn’t require it."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "Check the model parameters in Xcode to find out if your app requires a resolution smaller than 640 x 480 pixels."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "Add video input to your session by adding the camera as a device: Add video output to your session, being sure to specify the pixel format: Process every frame, but don’t hold on to more than one Vision request at a time."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "To simplify buffer management, in the capture output, Vision blocks the call for as long as the previous request requires."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "You must input the camera’s orientation properly using the device orientation."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "Vision algorithms aren’t orientation-agnostic, so when you make a request, use an orientation that’s relative to that of the capture device."}
+{"id": "/documentation/Vision/recognizing-objects-in-live-capture", "law": "You can also use the resulting from object recognition to initialize an object tracker such as ."}
+{"id": "/documentation/Vision/segmenting-and-colorizing-individuals-from-a-surrounding-scene", "law": "Use the Vision framework to isolate and apply colors to people in an image."}
+{"id": "/documentation/Vision/selecting-a-selfie-based-on-capture-quality", "law": "The sample app shows you how to use this metric to evaluate a collection of images of the same person and identify which one has the best capture quality."}
+{"id": "/documentation/Vision/selecting-a-selfie-based-on-capture-quality", "law": "It provides a score you can use to rank multiple captures of the same person."}
+{"id": "/documentation/Vision/selecting-a-selfie-based-on-capture-quality", "law": "You must allow the sample app to access the camera for it to function correctly."}
+{"id": "/documentation/Vision/tracking-multiple-objects-or-rectangles-in-video", "law": "The class requires a detected object observation to initialize."}
+{"id": "/documentation/Vision/tracking-multiple-objects-or-rectangles-in-video", "law": "In your own app, if you prefer to nominate objects programmatically, you can use observations returned from Vision’s own object detection algorithms."}
+{"id": "/documentation/Vision/tracking-multiple-objects-or-rectangles-in-video", "law": "For each such request, call the sequence request handler’s method, making sure to pass in the video reader’s orientation to ensure upright tracking."}
+{"id": "/documentation/Vision/tracking-multiple-objects-or-rectangles-in-video", "law": "This method runs synchronously; use a background queue, such as in the sample code, so that the main queue isn’t blocked while your requests execute."}
+{"id": "/documentation/Vision/tracking-multiple-objects-or-rectangles-in-video", "law": "Use the observation’s to determine its location, so you can update your app or UI with the tracked object’s new location."}
+{"id": "/documentation/Vision/tracking-multiple-objects-or-rectangles-in-video", "law": "Also use it to seed the next round of tracking."}
+{"id": "/documentation/Vision/tracking-multiple-objects-or-rectangles-in-video", "law": "In practice, you should periodically run a new tracking request with an updated set of input observations to capture objects that weren’t present in your initial nomination frame."}
+{"id": "/documentation/Vision/tracking-the-user-s-face-in-real-time", "law": "Grant the app permission to use the camera."}
+{"id": "/documentation/Vision/tracking-the-user-s-face-in-real-time", "law": "If the request succeeded, its property contains data specific to the type of request that you can use to identify the object’s location and bounding box."}
+{"id": "/documentation/Vision/tracking-the-user-s-face-in-real-time", "law": "Before the Vision framework can track an object, it must first know which object to track."}
+{"id": "/documentation/Vision/tracking-the-user-s-face-in-real-time", "law": "This method runs synchronously, so use a background queue to avoid blocking the main queue as it executes, and call back to the main queue only if you need to perform UI updates such as path drawing."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "This sample code project contains two components: a Create ML model you train in Swift Playgrounds, and the iOS app, FlowerShop, which you use to classify different flower types."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "The sample app, FlowerShop, requires the following: Xcode 10."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "Take the following measures to improve your data set: Aim for a minimum of 10 images per category—the more, the better."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "Avoid highly unbalanced datasets by preparing a roughly equal number between categories."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "If you’re using photos taken on an iOS device to train your model, you can use the macOS utility, Image Capture, to import the images onto your computer, and do the following: In Xcode, open and display the Assistant Editor."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "Place the training images you’d like to use into named folders (such as Agapanthus )."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "For example, a parameter such as “Color 299 x 299” indicates the size of the training image."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "Don’t continuously queue up every buffer that the camera provides; instead, drop buffers to keep the pipeline moving."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "Even if captured frames don’t match the size of the image under which you trained the Create ML model (299 × 299), the Vision framework crops and scales down its input images to match the model’s expected size on your behalf."}
+{"id": "/documentation/Vision/training-a-create-ml-model-to-classify-flowers", "law": "When tuning your application for the optimal confidence threshold, use the output streamed to Xcode’s debugger window to gauge typical confidence values, making sure to note how far the confidence spikes on typical correct classifications."}
+{"id": "/documentation/Vision/VNCoreMLRequest", "law": "The results array of a Core ML-based image analysis request contains a different observation type, depending on the kind of object you use: If the model predicts a single feature, the model’s object has a non- value for and Vision treats the model as a classifier."}
+{"id": "/documentation/Vision/VNCoreMLRequest", "law": "If the model’s outputs include at least one output with a feature type of , Vision treats that model as an image-to-image model."}
+{"id": "/documentation/Vision/VNRequest/usesCPUOnly", "law": "A Boolean signifying that the Vision request should execute exclusively on the CPU."}
+{"id": "/documentation/Vision/VNCoreMLModel", "law": "Once you train the model, use this class to initialize a for identification."}
+{"id": "/documentation/Vision/VNCoreMLModel", "law": "A container for the model to use with Vision requests."}
+{"id": "/documentation/Vision/VNCoreMLRequest/imageCropAndScaleOption", "law": "Scaling an image ensures that the entire image fits into the algorithm’s input image dimensions, which may require a change in aspect ratio."}
+{"id": "/documentation/Vision/VNRequest", "law": "A discards the alpha channel of input images, so don’t rely on it."}
+{"id": "/documentation/Vision/VNRequest/results", "law": "Don’t access this property until the request has finished processing."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-images", "law": "You can use Vision’s capability for detecting human body poses on its own or with Core ML."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-images", "law": "For example, a safety-training app could help employees use correct ergonomics, a fitness app could automatically track the exercise a user performs, and a media-editing app could find photos or videos based on pose similarity."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-images", "law": "The following example shows how to use to perform a for detecting body points in the specified ."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-images", "law": "Use the function to translate the normalized points to the input image coordinates."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-images", "law": "For an example of how you can use and visualize recognized body points, see the sample app."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-images", "law": "To achieve the most accurate results from Vision’s human body pose-detection capabilities, consider the following points: The subject’s height should ideally be at least a third of the overall image height."}
+{"id": "/documentation/Vision/detecting-human-body-poses-in-images", "law": "A large portion of the subject’s key body regions and points should be present in the image."}
+{"id": "/documentation/Vision/VNCoreMLModel/featureProvider", "law": "A feature provider is necessary for models that have more than one required input."}
+{"id": "/documentation/Vision/VNCoreMLModel/featureProvider", "law": "Models with only one image input won’t use the feature provider."}
+{"id": "/documentation/vision/vnimagealignmentobservation", "law": "Don’t create one of these classes yourself."}
+{"id": "/documentation/vision/vnimageregistrationrequest", "law": "Don’t create an instance of this superclass yourself."}
+{"id": "/documentation/vision/detectfacecapturequalityrequest", "law": "If you don’t execute the request, or the request fails, the property is ."}
+{"id": "/documentation/vision/detectfacelandmarksrequest", "law": "You can either use face observations output by a or manually create instances with the bounding boxes of the faces you want to analyze."}
+{"id": "/documentation/vision/classifying-images-for-categorization-and-search", "law": "Testing can help determine the balance point that returns the best results for a specific use case."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "However, you can also use Vision in your own apps on macOS 10.13, iOS 11, or tvOS 11."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "To see this sample in action, build and run the project, then use the toggle switches to choose which kinds of objects (any combination of rectangles, faces, barcodes, and text) to detect."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": ", , and objects don’t carry orientation, so provide it as part of the initializer."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "objects don’t contain orientation, so supply it in the initializer ."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "objects don’t contain orientation, so supply it in the initializer ."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "Check that any images downloaded from the web have upright orientation; if they don’t, inform Vision about the orientation through the initializer ."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "If you acquire your photos through other means, such as from the web or other apps, be sure to check for orientation and provide it separately if it doesn’t come baked into the image."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "Vision computations may consume resources and take time, so use a background queue to avoid blocking the main queue as it executes."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "In the object’s completion handler, use the callback’s observation parameter to retrieve detection information."}
+{"id": "/documentation/vision/detecting-objects-in-still-images", "law": "Even when Vision calls its completion handlers on a background thread, always dispatch UI calls like the path-drawing code to the main thread."}
+{"id": "/documentation/vision/vnobservation", "law": "Don’t use this abstract superclass directly."}
+{"id": "/documentation/vision/vnrequest", "law": "A discards the alpha channel of input images, so don’t rely on it."}
+{"id": "/documentation/vision/segmenting-and-colorizing-individuals-from-a-surrounding-scene", "law": "Use the Vision framework to isolate and apply colors to people in an image."}
+{"id": "/documentation/vision/vnsequencerequesthandler", "law": "Unlike the , you don’t specify the image on creation."}
+{"id": "/documentation/vision/classificationobservation/hasminimumprecision(_:forrecall:)", "law": "A Boolean value that indicates whether the classification observation provides a minimum percentage of correct results that meet the desired recall."}
+{"id": "/documentation/vision/classificationobservation/hasminimumprecision(_:forrecall:)", "law": "Testing can help determine the balance point between the and values to return the best results for a specific use case."}
+{"id": "/documentation/vision/classificationobservation/hasminimumprecision(_:forrecall:)", "law": "Determines whether the observation has a minimum precision value for a specific recall."}
+{"id": "/documentation/vision/classificationobservation/hasminimumrecall(_:forprecision:)", "law": "A Boolean value that indicates whether the classification observation achieves a minimum recall value for a specific precision."}
+{"id": "/documentation/vision/classificationobservation/hasminimumrecall(_:forprecision:)", "law": "Testing can help determine the balance point between the and values to return the best results for a specific use case."}
+{"id": "/documentation/vision/classificationobservation/hasminimumrecall(_:forprecision:)", "law": "Determines whether the observation has a minimum recall value for a specific precision."}
+{"id": "/documentation/vision/detecting-human-body-poses-in-images", "law": "You can use Vision’s capability for detecting human body poses on its own or with Core ML."}
+{"id": "/documentation/vision/detecting-human-body-poses-in-images", "law": "For example, a safety-training app could help employees use correct ergonomics, a fitness app could automatically track the exercise a user performs, and a media-editing app could find photos or videos based on pose similarity."}
+{"id": "/documentation/vision/detecting-human-body-poses-in-images", "law": "The following example shows how to use to perform a for detecting body points in the specified ."}
+{"id": "/documentation/vision/detecting-human-body-poses-in-images", "law": "Use the function to translate the normalized points to the input image coordinates."}
+{"id": "/documentation/vision/detecting-human-body-poses-in-images", "law": "For an example of how you can use and visualize recognized body points, see the sample app."}
+{"id": "/documentation/vision/detecting-human-body-poses-in-images", "law": "To achieve the most accurate results from Vision’s human body pose-detection capabilities, consider the following points: The subject’s height should ideally be at least a third of the overall image height."}
+{"id": "/documentation/vision/detecting-human-body-poses-in-images", "law": "A large portion of the subject’s key body regions and points should be present in the image."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "The request doesn’t require images with depth data to run."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "The framework provides a measured height only when configuring an to use the LiDAR camera."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "Use to get an estimate of how far the person was away from a camera."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "To get an accurate understanding of where the camera was when capturing the image, use ."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "A joint’s position is always relative to the root joint."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "Use to project a 3D joint coordinate back to a 2D input image for the body joint you specify."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "For instance, if you want to align the 3D body pose with the 2D input image, use to get the root joint position in the input image."}
+{"id": "/documentation/vision/identifying-3d-human-body-poses-in-images", "law": "You can also configure your to use LiDAR to get depth data."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "This feature has wide-ranging uses, but can be of particular use in sports and fitness apps, where you commonly want to follow the trajectories of balls, pucks, and so on."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "Vision’s trajectory-detection algorithm requires a stable scene, meaning the camera is mounted on a tripod, and the camera and background remain stationary."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "To detect trajectories in video, use an instance of ."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "This is a new stateful request type that you use to build evidence over time."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "Most Vision requests are stateless, and because they require limited resources to create, you typically make new instances as needed."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "A trajectory length, which indicates the number of points you require to recognize a parabola."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "The minimum number is 5, but you can increase it to fit your needs."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "Note that requires using objects that contain timestamps so it can correctly calculate the trajectory observationʼs time range."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "If you know the approximate size of the objects you want to follow, you can set a minimum and maximum object size."}
+{"id": "/documentation/vision/identifying-trajectories-in-video", "law": "Set the minimum size to filter out small, spurious movements like a bird flying through the scene."}
+{"id": "/documentation/vision/locating-and-displaying-recognized-text", "law": "To enable use of the camera, the sample uses to create a custom camera interface."}
+{"id": "/documentation/vision/recognizing-text-in-images", "law": "You can use this functionality in your own apps to handle both real-time and offline use cases."}
+{"id": "/documentation/vision/recognizing-text-in-images", "law": "The following example shows how to use to perform a for recognizing text in the specified ."}
+{"id": "/documentation/vision/recognizing-text-in-images", "law": "Your choice of fast or accurate path, along with your use of a particular API revision, determines the language support the text-recognition algorithms provide."}
+{"id": "/documentation/vision/detectlenssmudgerequest", "law": "Use this request to detect whether an image or video is captured with a smudged lens."}
+{"id": "/documentation/vision/detectlenssmudgerequest", "law": "Use this capability to find the best frame from a video or set of images."}
+{"id": "/documentation/vision/detectlenssmudgerequest", "law": "Running requires a device with A14 Bionic and later or device with M1 and later."}
+{"id": "/documentation/vision/detectlenssmudgerequest", "law": "Make sure that you are using a request on a fixed capture where the device is stable when taking the image."}
+{"id": "/documentation/vision/detectlenssmudgerequest", "law": "To use the properties of the request, add a to your chosen capture type."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "The class of the request to generate saliency differs depending on the type of saliency you want Vision to compute: Object-based saliency and attention-based saliency have different use cases."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "If you’re deciding what to keep in an image thumbnail based on what’s most interesting, use attention-based saliency."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "Both types of saliency requests return their results as heatmaps, which are 68 x 68 pixel buffers of floating-point saliency values."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "For object-based saliency requests, which return up to three bounding boxes, you can use either the most salient bounding box directly to crop a region of your image, or the union of all boxes."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "Each bounding box comes with a score that you use to rank the relevance of regions within the image."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "Attention-based saliency requests return only one bounding box, which you use directly to crop the image and drop uninteresting content."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "Use this bounding box to find the region on which to focus: If nothing is salient, the attention heatmap that’s returned highlights the central part of the image."}
+{"id": "/documentation/vision/cropping-images-using-saliency", "law": "Once you know which regions of an image are interesting, you can use the output of a saliency request as the input to another Vision request, like text recognition."}
+{"id": "/documentation/vision/vngenerateobjectnessbasedsaliencyimagerequest", "law": "The resulting observation, , encodes this data as a heat map, which you can use to highlight regions of interest."}
+{"id": "/documentation/vision/vnsaliencyimageobservation", "law": "Its dimensions are 64 x 64 when fetched in real time, or 68 x 68 when requested in its deferred form."}
+{"id": "/documentation/vision/generating-thumbnails-from-videos", "law": "To avoid selecting similar thumbnails, the compares the image similarity."}
+{"id": "/documentation/vision/generating-thumbnails-from-videos", "law": "The structure contains the information about a specific frame in the video that the sample uses to determine the best frame to use as a thumbnail."}
+{"id": "/documentation/vision/generating-thumbnails-from-videos", "law": "To ensure that the thumbnail results represent different scenes rather than variations of the same frame, computes the similarity between the frames."}
+{"id": "/documentation/vision/recognize-tables-within-a-document", "law": "Because this sample app requires camera access, you’ll need to build and run this sample on a device."}
+{"id": "/documentation/vision/recognize-tables-within-a-document", "law": "In the sample project’s assets folder, open the file and use the rear camera on iPad or iPhone to take a picture of the document."}
+{"id": "/documentation/vision/recognize-tables-within-a-document", "law": "The app allows you to tap on the cells in the captured table and use the data within the cells to call or send a message."}
+{"id": "/documentation/vision/recognize-tables-within-a-document", "law": "It uses the property of the to access the selected cell and to ensure that people only tap within the table bounds."}
+{"id": "/documentation/vision/recognize-tables-within-a-document", "law": "Bounding regions use normalized coordinates ( to ) relative to the image dimensions, which makes them work at any display scale."}
+{"id": "/documentation/vision/recognizedocumentsrequest", "law": "Use this request to understand different types of structured texts like receipts, nutritional labels, textbook pages, forms, or other documents that you want to understand in further detail."}
+{"id": "/documentation/vision/applying-matte-effects-to-people-in-images-and-video", "law": "You can use image masks to make selective adjustments to particular areas of an image."}
+{"id": "/documentation/vision/applying-matte-effects-to-people-in-images-and-video", "law": "For example, the illustration below shows how to use a mask to perform a blend operation to replace the background behind the subject."}
+{"id": "/documentation/vision/applying-matte-effects-to-people-in-images-and-video", "law": "You must run the sample app on a physical device with iOS 15 or later."}
+{"id": "/documentation/vision/generateiterativesegmentationrequest", "law": "The request supports a maximum of 13 points when seeded with a point or scribble, or 11 points when seeded with a box."}
+{"id": "/documentation/vision/vndetectfacecapturequalityrequest", "law": "If you don’t execute the request, or the request fails, the property is ."}
+{"id": "/documentation/vision/vndetectfacelandmarksrequest", "law": "You can either use face observations output by a or manually create instances with the bounding boxes of the faces you want to analyze."}
+{"id": "/documentation/vision/tracking-the-user-s-face-in-real-time", "law": "Grant the app permission to use the camera."}
+{"id": "/documentation/vision/tracking-the-user-s-face-in-real-time", "law": "If the request succeeded, its property contains data specific to the type of request that you can use to identify the object’s location and bounding box."}
+{"id": "/documentation/vision/tracking-the-user-s-face-in-real-time", "law": "Before the Vision framework can track an object, it must first know which object to track."}
+{"id": "/documentation/vision/tracking-the-user-s-face-in-real-time", "law": "This method runs synchronously, so use a background queue to avoid blocking the main queue as it executes, and call back to the main queue only if you need to perform UI updates such as path drawing."}
+{"id": "/documentation/vision/vntrackobjectrequest", "law": "Use this type of request to track the bounding boxes around objects previously identified in an image."}
+{"id": "/documentation/vision/vntrackrectanglerequest", "law": "Use this type of request to track the bounding boxes of rectangles throughout a sequence of images."}
+{"id": "/documentation/vision/tracking-multiple-objects-or-rectangles-in-video", "law": "The class requires a detected object observation to initialize."}
+{"id": "/documentation/vision/tracking-multiple-objects-or-rectangles-in-video", "law": "In your own app, if you prefer to nominate objects programmatically, you can use observations returned from Vision’s own object detection algorithms."}
+{"id": "/documentation/vision/tracking-multiple-objects-or-rectangles-in-video", "law": "For each such request, call the sequence request handler’s method, making sure to pass in the video reader’s orientation to ensure upright tracking."}
+{"id": "/documentation/vision/tracking-multiple-objects-or-rectangles-in-video", "law": "This method runs synchronously; use a background queue, such as in the sample code, so that the main queue isn’t blocked while your requests execute."}
+{"id": "/documentation/vision/tracking-multiple-objects-or-rectangles-in-video", "law": "Use the observation’s to determine its location, so you can update your app or UI with the tracked object’s new location."}
+{"id": "/documentation/vision/tracking-multiple-objects-or-rectangles-in-video", "law": "Also use it to seed the next round of tracking."}
+{"id": "/documentation/vision/tracking-multiple-objects-or-rectangles-in-video", "law": "In practice, you should periodically run a new tracking request with an updated set of input observations to capture objects that weren’t present in your initial nomination frame."}
+{"id": "/documentation/vision/vncoremlrequest", "law": "The results array of a Core ML-based image analysis request contains a different observation type, depending on the kind of object you use: If the model predicts a single feature, the model’s object has a non- value for and Vision treats the model as a classifier."}
+{"id": "/documentation/vision/vncoremlrequest", "law": "If the model’s outputs include at least one output with a feature type of , Vision treats that model as an image-to-image model."}
+{"id": "/documentation/Vision/TrackObjectRequest", "law": "Use this type of request to track the bounding boxes around objects previously identified in an image."}

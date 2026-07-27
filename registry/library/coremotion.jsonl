@@ -1,0 +1,20 @@
+{"id": "/documentation/CoreMotion/getting-motion-activity-data-from-headphones", "law": "This sample app demonstrates how to use to request updates when the current type of motion changes."}
+{"id": "/documentation/CoreMotion", "law": "Use this data in your app as input for user interactions, fitness tracking, health-related matters, and more."}
+{"id": "/documentation/CoreMotion", "law": "For example, a game might use accelerometer and gyroscope input to control onscreen game behavior."}
+{"id": "/documentation/CoreMotion", "law": "Not all services are available on all devices, and some services might be unavailable even on devices with the required hardware."}
+{"id": "/documentation/CoreMotion", "law": "Before you try to use any motion-related services, check the availability of those services using a object."}
+{"id": "/documentation/CoreMotion", "law": "An iOS app must include usage description keys in its file for the types of data it needs."}
+{"id": "/documentation/CoreMotion/CMMotionActivity", "law": "On devices that support motion, you can use a or object to request updates when the current type of motion changes."}
+{"id": "/documentation/CoreMotion/CMMotionActivity", "law": "You don’t create instances of this class yourself."}
+{"id": "/documentation/coremotion", "law": "Use this data in your app as input for user interactions, fitness tracking, health-related matters, and more."}
+{"id": "/documentation/coremotion", "law": "For example, a game might use accelerometer and gyroscope input to control onscreen game behavior."}
+{"id": "/documentation/coremotion", "law": "Not all services are available on all devices, and some services might be unavailable even on devices with the required hardware."}
+{"id": "/documentation/coremotion", "law": "Before you try to use any motion-related services, check the availability of those services using a object."}
+{"id": "/documentation/coremotion", "law": "An iOS app must include usage description keys in its file for the types of data it needs."}
+{"id": "/documentation/coremotion/cmheadphoneactivitymanager", "law": "Use an instance of the manager to determine if the device supports headphone activity updates, and to start and stop updates."}
+{"id": "/documentation/coremotion/cmheadphoneactivitymanager", "law": "Before using this class, check and to make sure the features are available."}
+{"id": "/documentation/coremotion/cmmotionactivity", "law": "On devices that support motion, you can use a or object to request updates when the current type of motion changes."}
+{"id": "/documentation/coremotion/cmmotionactivity", "law": "You don’t create instances of this class yourself."}
+{"id": "/documentation/coremotion/cmmotionactivitymanager", "law": "To use this API, you must include the key in your app’s file and provide a usage description string for this key."}
+{"id": "/documentation/coremotion/cmmotionactivitymanager", "law": "The usage description appears in the prompt that the user must accept the first time the system asks the user to access motion data for your app."}
+{"id": "/documentation/coremotion/cmmotionactivitymanager", "law": "If you don’t include a usage description string, your app crashes when you call this API."}

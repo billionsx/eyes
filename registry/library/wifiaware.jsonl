@@ -1,0 +1,26 @@
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "For an app to perform any Wi-Fi Aware operations, it needs to declare the services that it intends to use for publishing and subscribing."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "Before using Wi-Fi Aware in an app, it’s important to decide on the to use for the connections."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "The first option is , the recommended option for almost all use cases."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "The second option is , which is for instances that require low latency."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "The sample app uses as it needs to send position updates for every frame of the simulation scene and thus requires very low latency."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "To change the performance mode in the sample app, change the following line in : Using performance mode can drain a device’s battery, so use it only when it’s required."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "The sample app uses the User Datagram Protocol (UDP) as the transport protocol because the use case doesn’t require reliable or in-order delivery."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "Although this particular design of connecting to the first available endpoint works for the sample app’s use case, most apps typically review the discovered endpoint and make a connection only if required."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "The setting provided during connection should match the one the app provides when starting the listener."}
+{"id": "/documentation/WiFiAware/Building-peer-to-peer-apps", "law": "To access the average transmit latency for the corresponding access category, use the following code:"}
+{"id": "/documentation/WiFiAware", "law": "Your app can use the Wi-Fi Aware framework to connect with Wi-Fi Aware certified accessories."}
+{"id": "/documentation/wifiaware", "law": "Your app can use the Wi-Fi Aware framework to connect with Wi-Fi Aware certified accessories."}
+{"id": "/documentation/wifiaware/adopting-wi-fi-aware", "law": "Your app can use the Wi-Fi Aware framework to securely establish peer-to-peer (P2P) connections between Wi-Fi devices."}
+{"id": "/documentation/wifiaware/adopting-wi-fi-aware", "law": "If you intend your app to use Wi-Fi Aware capabilities, you need to add the entitlement."}
+{"id": "/documentation/wifiaware/adopting-wi-fi-aware", "law": "The value of the entitlement is an array of capability strings, where the strings specify the Wi-Fi Aware operations and API capabilities your app intends to use."}
+{"id": "/documentation/wifiaware/adopting-wi-fi-aware", "law": "To minimize resource cost, avoid simultaneously subscribing to the same service multiple times."}
+{"id": "/documentation/wifiaware/adopting-wi-fi-aware", "law": "Declare the services you want to use with the WiFiAwareServices key in your app’s Information property list."}
+{"id": "/documentation/wifiaware/adopting-wi-fi-aware", "law": "For a service name to be valid, it must conform to the rules in and ."}
+{"id": "/documentation/wifiaware/adopting-wi-fi-aware", "law": "The configuration includes whether the service is published, subscribed, or both: One or both of the and keys must be present."}
+{"id": "/documentation/wifiaware/connecting-paired-devices", "law": "For your app to pair devices, or ask the person using your app for access to existing devices, you can use either of the following two methods: : Pair any kind of device for device-to-device and app-to-app use cases, such as file transfer and media streaming."}
+{"id": "/documentation/wifiaware/connecting-paired-devices", "law": "The following code example creates a that subscribes for the service over Wi-Fi Aware, and provides browse results that the system can use to make outgoing connections to the specified paired devices:"}
+{"id": "/documentation/wifiaware/wapaireddevice", "law": "Use or to add the devices to the set of that your app may connect to on-demand."}
+{"id": "/documentation/wifiaware/waperformancemode", "law": "Each service must have the same on both the (subscriber) and (publisher) sides of the connection, or the performance behavior is undefined."}
+{"id": "/documentation/wifiaware/waperformancemode/bulk", "law": "A mode that prioritizes throughput, power, and support for other concurrent Wi-Fi use cases and devices."}
+{"id": "/documentation/wifiaware/waperformancemode/realtime", "law": "A mode that prioritizes latency at the expense of throughput, power, and other concurrent Wi-Fi use cases and devices."}
+{"id": "/documentation/wifiaware/wapublisherlistener/devices/matching(_:)", "law": "A new containing the device filter to use."}

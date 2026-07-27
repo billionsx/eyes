@@ -1,0 +1,19 @@
+{"id": "/documentation/MusicKit/explore-more-content-with-musickit", "law": "Use a reverse-DNS format for your identifier, as describes."}
+{"id": "/documentation/MusicKit/integrating-musickit-into-your-app", "law": "Use a reverse-DNS format for your identifier, as describes."}
+{"id": "/documentation/MusicKit/using-musickit-to-integrate-with-apple-music", "law": "This sample code project must be run on a physical device."}
+{"id": "/documentation/MusicKit/using-musickit-to-integrate-with-apple-music", "law": "Use a reverse-DNS format for your identifier, as describes."}
+{"id": "/documentation/MusicKit", "law": "Use MusicKit to integrate your app with , a web service you use to access information about music items in the Apple Music catalog."}
+{"id": "/documentation/MusicKit", "law": "Users must grant permission for your app to access their music data."}
+{"id": "/documentation/MusicKit", "law": "Add the key to your app’s file, and include a description of how you intend to use the user’s media."}
+{"id": "/documentation/MusicKit", "law": "Request permission for your app to use MusicKit with ."}
+{"id": "/documentation/MusicKit", "law": "Check specific capabilities for the current to ensure your music-related functionality is available to the user."}
+{"id": "/documentation/MusicKit", "law": "Each music item type has its own set of properties you can use as a filter for a catalog resource request when loading music items for your app."}
+{"id": "/documentation/MusicKit", "law": "Before you can use any of the functionality of the framework, you need to request the user’s informed consent for your app to access their music data."}
+{"id": "/documentation/musickit", "law": "Use MusicKit to integrate your app with , a web service you use to access information about music items in the Apple Music catalog."}
+{"id": "/documentation/musickit", "law": "Users must grant permission for your app to access their music data."}
+{"id": "/documentation/musickit", "law": "Add the key to your app’s file, and include a description of how you intend to use the user’s media."}
+{"id": "/documentation/musickit", "law": "Request permission for your app to use MusicKit with ."}
+{"id": "/documentation/musickit", "law": "Check specific capabilities for the current to ensure your music-related functionality is available to the user."}
+{"id": "/documentation/musickit", "law": "Each music item type has its own set of properties you can use as a filter for a catalog resource request when loading music items for your app."}
+{"id": "/documentation/musickit", "law": "Before you can use any of the functionality of the framework, you need to request the user’s informed consent for your app to access their music data."}
+{"id": "/documentation/musickit/using-automatic-token-generation-for-apple-music-api", "law": "Be sure to set the bundle identifier of your app target to the same value you use for your App ID in these steps."}

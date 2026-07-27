@@ -1,0 +1,3 @@
+{"id": "/documentation/ExternalAccessory", "law": "Use the External Accessory framework to set up and manage a connection to an MFi accessory your iOS app supports."}
+{"id": "/documentation/ExternalAccessory/EAWiFiUnconfiguredAccessoryBrowser", "law": "You use a browser object to scan for unconfigured accessories, connect them to the user’s Wi-Fi infrastructure, and configure attributes of the accessories."}
+{"id": "/documentation/ExternalAccessory/EAWiFiUnconfiguredAccessoryBrowser", "law": "An object you use to scan for wireless accessories and configure them for use with the user’s app."}

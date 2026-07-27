@@ -1,0 +1,40 @@
+# Icon Composer - Apple Developer
+# https://developer.apple.com/icon-composer/
+# снято: 2026-07-24 17:43 UTC
+
+## h2: Explore Get Started
+## h2: Stay Updated
+## h2: Explore Platforms
+## h2: Featured
+## h2: Explore Technologies
+## h2: Featured
+## h2: Explore Community
+## h2: Featured
+## h2: Explore Documentation
+## h2: Release Notes
+## h2: Explore Downloads
+## h2: Featured
+## h2: Explore Support
+## h2: Featured
+## h2: Quick Links
+## h1: Icon Composer
+## h2: Design with Liquid Glass
+## h2: Refraction
+## h2: New Specular Highlights
+## h2: Updated Annotation
+## h2: Multi-Platform Design Made Easy
+## h2: Annotate Across Rendering Modes
+## h2: Built for Xcode
+## h3: Download Icon Composer
+## h3: Explore the Human Interface Guidelines
+## h2: Developer Footer
+## h3: Platforms
+## h3: Tools
+## h3: Technologies
+## h3: Resources
+## h3: Support
+## h3: Account
+## h3: Programs
+## h3: Events
+
+Icon Composer - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community-driven events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos Icon Composer Icon Composer lets you create layered icons out of Liquid Glass from a single design for iPhone, iPad, Mac, and Apple Watch. A multi-layer icon format allows you to craft your icon and annotate it across appearance modes. Icon Composer is designed to work seamlessly with Xcode and provides the option to export a flattened version of your icon for marketing and communication needs. Download Design with Liquid Glass Bring your icon to life with Liquid Glass—a beautiful and expressive material that scales with your icon across platforms and appearance modes. Import and organize your artwork layers, then adjust properties including specular highlights, refraction, translucency, and shadows to give your icon material presence. Refraction By bending light through your icon, Refraction lets layers pick up and transmit color and shape from what's behind them. Dial in the strength per layer, from a subtle edge bend to lens-like distortion, to emphasize key elements within your icon and create stunning interactions between layers. New Specular Highlights Crisp, specular highlights elevate and define each layer, preserving contrast at the edges. Choose how highlights align with each layer, either inside or outside, or let Icon Composer decide automatically based on the color of your layers. A new, vertical light angle shines from above, matching the surrounding interface. Original Imported Optimized Updated Annotation Bring your existing icons forward. Imported Icon Composer files render with new, sharper material automatically. From there, fine-tune your icon using specular highlights, refraction, shadows, and more to take full advantage of Liquid Glass to create a unique icon that shines. Multi-Platform Design Made Easy Consistent enclosure shapes and a shared grid system make designing across supported Apple platforms easier. A single design is used by default and can be customized for each platform. Annotate Across Rendering Modes Icon Composer gives you full control over how your icon appears across rendering modes—all within a single file. Using a single layered structure, choose how your icon looks in Default, Dark, and Mono modes to optimize its appearance on iPhone, iPad, Mac, and Apple Watch. Default Dark Mono Built for Xcode Once you’ve completed your annotations in Icon Composer, you can add the icon directly to Xcode. The new icon file type integrates seamlessly with Xcode, enabling you to sync changes directly into your project. Download Icon Composer Download Requires macOS Tahoe 26.4 or later. Say hello to the new look of app icons WWDC25 Create icons with Icon Composer WWDC25 Explore the Human Interface Guidelines Get details on how to design app icons for Apple platforms. Learn more Developer Footer Icon Composer Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness In-App Purchase Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines

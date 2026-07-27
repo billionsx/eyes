@@ -1,0 +1,385 @@
+{
+ "dmg": "SF-Compact.dmg",
+ "faces": [
+  {
+   "name": "SF Compact Display Black",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1078,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Black.otf"
+  },
+  {
+   "name": "SF Compact Display Bold",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1068,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Bold.otf"
+  },
+  {
+   "name": "SF Compact Display Heavy",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1075,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Heavy.otf"
+  },
+  {
+   "name": "SF Compact Display Light",
+   "unitsPerEm": 2048,
+   "capHeight": 1364,
+   "capHeight_fraction": 0.666,
+   "xHeight": 1045,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Light.otf"
+  },
+  {
+   "name": "SF Compact Display Medium",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1057,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Medium.otf"
+  },
+  {
+   "name": "SF Compact Display Regular",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1051,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Regular.otf"
+  },
+  {
+   "name": "SF Compact Display Semibold",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1061,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Semibold.otf"
+  },
+  {
+   "name": "SF Compact Display Thin",
+   "unitsPerEm": 2048,
+   "capHeight": 1362,
+   "capHeight_fraction": 0.665,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Thin.otf"
+  },
+  {
+   "name": "SF Compact Display Ultralight",
+   "unitsPerEm": 2048,
+   "capHeight": 1359,
+   "capHeight_fraction": 0.6636,
+   "xHeight": 1033,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Display-Ultralight.otf"
+  },
+  {
+   "name": "SF Compact Rounded Black",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Black.otf"
+  },
+  {
+   "name": "SF Compact Rounded Bold",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Bold.otf"
+  },
+  {
+   "name": "SF Compact Rounded Heavy",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Heavy.otf"
+  },
+  {
+   "name": "SF Compact Rounded Light",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Light.otf"
+  },
+  {
+   "name": "SF Compact Rounded Medium",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Medium.otf"
+  },
+  {
+   "name": "SF Compact Rounded Regular",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Regular.otf"
+  },
+  {
+   "name": "SF Compact Rounded Semibold",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Semibold.otf"
+  },
+  {
+   "name": "SF Compact Rounded Thin",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Thin.otf"
+  },
+  {
+   "name": "SF Compact Rounded Ultralight",
+   "unitsPerEm": 2048,
+   "capHeight": 1372,
+   "capHeight_fraction": 0.6699,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Rounded-Ultralight.otf"
+  },
+  {
+   "name": "SF Compact Text Black",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1078,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Black.otf"
+  },
+  {
+   "name": "SF Compact Text Black Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1364,
+   "capHeight_fraction": 0.666,
+   "xHeight": 1078,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-BlackItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Bold",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1068,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Bold.otf"
+  },
+  {
+   "name": "SF Compact Text Bold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1068,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-BoldItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Heavy",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1075,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Heavy.otf"
+  },
+  {
+   "name": "SF Compact Text Heavy Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1364,
+   "capHeight_fraction": 0.666,
+   "xHeight": 1075,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-HeavyItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Light",
+   "unitsPerEm": 2048,
+   "capHeight": 1364,
+   "capHeight_fraction": 0.666,
+   "xHeight": 1047,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Light.otf"
+  },
+  {
+   "name": "SF Compact Text Light Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1047,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-LightItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Medium",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1057,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Medium.otf"
+  },
+  {
+   "name": "SF Compact Text Medium Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1057,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-MediumItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Regular",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1052,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Regular.otf"
+  },
+  {
+   "name": "SF Compact Text Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1366,
+   "capHeight_fraction": 0.667,
+   "xHeight": 1052,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-RegularItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Semibold",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1061,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Semibold.otf"
+  },
+  {
+   "name": "SF Compact Text Semibold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1061,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-SemiboldItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Thin",
+   "unitsPerEm": 2048,
+   "capHeight": 1362,
+   "capHeight_fraction": 0.665,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Thin.otf"
+  },
+  {
+   "name": "SF Compact Text Thin Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1362,
+   "capHeight_fraction": 0.665,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-ThinItalic.otf"
+  },
+  {
+   "name": "SF Compact Text Ultralight",
+   "unitsPerEm": 2048,
+   "capHeight": 1359,
+   "capHeight_fraction": 0.6636,
+   "xHeight": 1033,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-Ultralight.otf"
+  },
+  {
+   "name": "SF Compact Text Ultralight Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1359,
+   "capHeight_fraction": 0.6636,
+   "xHeight": 1033,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Text-UltralightItalic.otf"
+  },
+  {
+   "name": "SF Compact",
+   "unitsPerEm": 2048,
+   "capHeight": 1364,
+   "capHeight_fraction": 0.666,
+   "xHeight": 1078,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact-Italic.ttf"
+  },
+  {
+   "name": "SF Compact",
+   "unitsPerEm": 2048,
+   "capHeight": 1365,
+   "capHeight_fraction": 0.6665,
+   "xHeight": 1078,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Compact.dmg:SF-Compact.ttf"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+{"id": "/documentation/AccessoryNotifications", "law": "Customer installations of your app can only use the framework on devices located in the EU that are signed in with an Apple Account with an EU country or region."}
+{"id": "/documentation/AccessoryNotifications", "law": "Use to determine whether to send an alert for the notification."}
+{"id": "/documentation/AccessoryNotifications", "law": "The property provides the recommended behavior that matches the system’s alerting logic."}
+{"id": "/documentation/AccessoryNotifications", "law": "Use to determine sound characteristics, including whether the notification ignores silent mode."}

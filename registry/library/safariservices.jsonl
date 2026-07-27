@@ -1,0 +1,73 @@
+{"id": "/documentation/SafariServices", "law": "Use the Safari Services framework to integrate Safari behaviors into your iOS or macOS app, or to extend the behavior of Safari."}
+{"id": "/documentation/SafariServices/safari-app-extensions", "law": "These capabilities enhance the tools you use, the tasks you can accomplish, and the data you can access in your browser."}
+{"id": "/documentation/SafariServices/safari-app-extensions", "law": "Safari app extensions use a combination of JavaScript, CSS, and native code written in Objective-C or Swift."}
+{"id": "/documentation/safariservices", "law": "Use the Safari Services framework to integrate Safari behaviors into your iOS or macOS app, or to extend the behavior of Safari."}
+{"id": "/documentation/safariservices/blocking-content-with-your-safari-web-extension", "law": "To use the Declarative Net Request API in your Safari web extension, first request permission."}
+{"id": "/documentation/safariservices/blocking-content-with-your-safari-web-extension", "law": "Add references to ruleset files that you create in your file to tell Safari to use them."}
+{"id": "/documentation/safariservices/safari-web-extensions", "law": "You can also use Safari web extensions in ."}
+{"id": "/documentation/safariservices/safari-web-extensions", "law": "Use to package your extension for testing and distribution, and join the to distribute Safari web extensions."}
+{"id": "/documentation/safariservices/safari-web-extensions", "law": "To get started with creating a Safari web extension, use one of the following options: Package your existing extension into a Safari web extension, so you can use it in Safari in macOS, visionOS, and iOS and distribute it."}
+{"id": "/documentation/safariservices/safari-web-extensions", "law": "Learn more about the capabilities of web extensions and the APIs you use to build them in Mozilla’s documentation."}
+{"id": "/documentation/safariservices/assessing-your-safari-web-extension-s-browser-compatibility", "law": "Use them as appropriate for your extension and your plan for browser compatibility."}
+{"id": "/documentation/safariservices/assessing-your-safari-web-extension-s-browser-compatibility", "law": "Use the most suitable approach for your code quality and browser compatibility."}
+{"id": "/documentation/safariservices/assessing-your-safari-web-extension-s-browser-compatibility", "law": "If you use them, adjust your implementation."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "Use a nonpersistent background page or service worker so that Safari can determine when to keep it in memory or unload it based on system memory usage."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "As you update your Safari web extension to take advantage of new features that Safari supports, specify the Safari versions that your web extension is compatible with to avoid confusing your users."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "Use pointer events instead of mouse events to handle touch interactions."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "Some users prefer larger type on small screens."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "In iOS, you must make your background page nonpersistent."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "Your background page must be nonpersistent or you must declare your background script as a service worker if you’re using manifest version 3."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "Use a service worker for better compatibility with other browsers."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "Use the API to save and restore state."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "Make your background page persistent in macOS if you use the API in it, due to the frequency of callbacks that might fail if Safari unloads the background page."}
+{"id": "/documentation/safariservices/optimizing-your-web-extension-for-safari", "law": "When you build features in your web extension that need a specific version of Safari, specify the required versions in your file."}
+{"id": "/documentation/safariservices/syncing-safari-web-extensions-across-devices-and-platforms", "law": "If your extension has different bundle identifiers in macOS and iOS, turn on syncing by configuring your Xcode project for both macOS and iOS."}
+{"id": "/documentation/safariservices/syncing-safari-web-extensions-across-devices-and-platforms", "law": "The bundle identifiers for the iOS app and extension you specify must be from the same developer account as your macOS app and extension."}
+{"id": "/documentation/safariservices/syncing-safari-web-extensions-across-devices-and-platforms", "law": "The bundle identifiers for the macOS app and extension you specify must be from the same developer account as your iOS app and extension."}
+{"id": "/documentation/safariservices/syncing-safari-web-extensions-across-devices-and-platforms", "law": "Let users install your extension on one device and then use and manage the extension on all their other iOS and macOS devices."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "You need to run the containing macOS or iOS app for your extension at least once to install it in Safari."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "Note that your project may encounter errors if you set the deployment target below the minimum level required to support features in your extension."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "Use Safari’s macOS developer tools to gain insight into your extension and debug issues."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "To use Safari’s Web Inspector for iOS, first enable the Web Inspector on your device."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "Safari’s developer tools include a debugger that you can use to debug scripts in your Safari web extension."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "See to use Xcode’s debugger to inspect your native app when you need more comprehensive debugging tools."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "When your web extension works on one webpage, but doesn’t work on another, make sure your website access permissions and allowed domain patterns are correct."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "If Safari doesn’t support them, implement the recommended workaround."}
+{"id": "/documentation/safariservices/troubleshooting-your-safari-web-extension", "law": "Use developer resources to investigate and resolve common problems with Safari web extensions."}
+{"id": "/documentation/safariservices/creating-a-safari-web-extension", "law": "If you don’t have an account, you can update this information later in the project settings."}
+{"id": "/documentation/safariservices/creating-a-safari-web-extension", "law": "XCTest doesn’t support unit tests for the JavaScript APIs that Safari web extensions use, or UI tests in Safari."}
+{"id": "/documentation/safariservices/creating-a-safari-web-extension", "law": "Use XCTest if you build features in the iOS or macOS app container using Swift or Objective-C."}
+{"id": "/documentation/safariservices/creating-a-safari-web-extension", "law": "The other files in the Xcode project are for the iOS or macOS app the system needs to use your web extension in Safari."}
+{"id": "/documentation/safariservices/creating-a-safari-web-extension", "law": "Use a PNG format, and provide 48-, 64-, 96-, 128-, 256-, and 512-pixel sizes."}
+{"id": "/documentation/safariservices/creating-a-safari-web-extension", "law": "Use a PNG format, and provide 16-, 19-, 32-, and 38-pixel sizes."}
+{"id": "/documentation/safariservices/creating-a-safari-web-extension", "law": "Your app icons should relate visually to your extension icon and toolbar icon."}
+{"id": "/documentation/safariservices/adding-a-web-development-tool-to-safari-web-inspector", "law": "Safari provides Web Inspector, a set of tools that web developers use to inspect and debug their webpages."}
+{"id": "/documentation/safariservices/adding-a-web-development-tool-to-safari-web-inspector", "law": "Safari requires user permission for each target page that the user inspects with your development tool."}
+{"id": "/documentation/safariservices/adding-a-web-development-tool-to-safari-web-inspector", "law": "Optimize your development tool approach to support this requirement: To tell Safari to add your tool as a tab in Web Inspector, you must create the inspector tab in your extension using ."}
+{"id": "/documentation/safariservices/adding-a-web-development-tool-to-safari-web-inspector", "law": "Don’t conditionally create the inspector tab after you check permissions; if you do, Safari won’t add a tab for your tool."}
+{"id": "/documentation/safariservices/messaging-between-a-webpage-and-your-safari-web-extension", "law": "With messaging, you can allow a webpage to control features in your extension based on events or data, or you can allow a webpage to request and use data from your extension."}
+{"id": "/documentation/safariservices/messaging-between-a-webpage-and-your-safari-web-extension", "law": "If you don’t provide the attribute or you provide an empty list, no webpages can send messages to your extension."}
+{"id": "/documentation/safariservices/messaging-between-a-webpage-and-your-safari-web-extension", "law": "Then, use to send a message through the port, and to receive a message from the port."}
+{"id": "/documentation/safariservices/messaging-between-the-app-and-javascript-in-a-safari-web-extension", "law": "You use app groups to share app data between them."}
+{"id": "/documentation/safariservices/messaging-between-the-app-and-javascript-in-a-safari-web-extension", "law": "From a script running in the browser or Mac web app, use to send a message to the native app extension: Safari ignores the parameter and only sends the message to the containing app’s native app extension."}
+{"id": "/documentation/safariservices/messaging-between-the-app-and-javascript-in-a-safari-web-extension", "law": "Use the profile identifier for any extension logic that you need to limit to the user’s profile or to a web app instance, such as fetching or storing data."}
+{"id": "/documentation/safariservices/messaging-between-the-app-and-javascript-in-a-safari-web-extension", "law": "To prepare the JavaScript script to receive messages from the macOS app, use to establish a port connection to the containing app: Safari ignores the parameter and only allows the script to establish a port connection with the containing macOS app."}
+{"id": "/documentation/safariservices/managing-safari-web-extension-permissions", "law": "Use options that request the least access necessary for your extension to function."}
+{"id": "/documentation/safariservices/managing-safari-web-extension-permissions", "law": "Prioritize using , host permissions, and ; only use if there is no other option."}
+{"id": "/documentation/safariservices/managing-safari-web-extension-permissions", "law": "In macOS, the user clicks the toolbar button and selects an option to grant permission for a single use, for the day, or for all websites, or to deny permission."}
+{"id": "/documentation/safariservices/managing-safari-web-extension-permissions", "law": "Use the permission to minimize access requests to the user."}
+{"id": "/documentation/safariservices/updating-a-safari-web-extension", "law": "If you prefer to use another editor for your source files, or if you want to preserve your existing development workflow for your converted web extension, edit your source files in an external source editor and use Xcode to update your extension in Safari."}
+{"id": "/documentation/safariservices/updating-a-safari-web-extension", "law": "To update your existing Xcode project with a macOS Safari web extension to support iOS, use the packager tool with the option."}
+{"id": "/documentation/safariservices/updating-a-safari-web-extension", "law": "If you have an existing development workflow for your web extension, you can use another source editor for your HTML, CSS, and JavaScript extension files in the Resources group."}
+{"id": "/documentation/safariservices/updating-a-safari-web-extension", "law": "If your alternative source editor supports custom build commands, configure it to use from the command line to build your extension’s macOS app container."}
+{"id": "/documentation/safariservices/updating-a-safari-web-extension", "law": "When you add new files, make sure that you add the files to the correct target."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "You don’t need to secure data between your app and Safari."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "To share data between your app and Safari, use instead."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "Present an when you don’t need to customize or interact with the web content."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "In accordance with , when you present this view controller, it must visibly present information to users."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "Additionally, you may not use to track users without their knowledge and consent."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "You might use this approach to display terms of service or support documentation."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "Don’t use these presentation styles to display content from websites."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "Don’t embed an as a child view controller in your app, or include it in your view controller hierarchy."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "Always present it modally using the method."}
+{"id": "/documentation/SafariServices/SFSafariViewController", "law": "The custom delegate is recommended, but you can remove it if you prefer the default modal transition behavior."}

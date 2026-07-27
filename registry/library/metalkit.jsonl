@@ -1,0 +1,21 @@
+{"id": "/documentation/MetalKit/MTKView", "law": "The class provides a default implementation of a Metal-aware view that you can use to render graphics using Metal and display them onscreen."}
+{"id": "/documentation/MetalKit/MTKView", "law": "The view requires a object to manage the Metal objects it creates for you."}
+{"id": "/documentation/MetalKit/MTKView", "law": "You must set the property and, optionally, modify the view’s drawable properties before drawing."}
+{"id": "/documentation/MetalKit/MTKView", "law": "Use this mode for games and other animated content that’s regularly updated."}
+{"id": "/documentation/MetalKit/MTKView", "law": "Use this mode for apps with a more traditional workflow, where updates happen when data changes, but not on a regular timed interval."}
+{"id": "/documentation/MetalKit/MTKView", "law": "Use this mode to create your own custom workflow."}
+{"id": "/documentation/MetalKit/MTKView", "law": "You should either subclass or provide a delegate, but not both."}
+{"id": "/documentation/MetalKit/MTKView", "law": "After rendering the contents, you must present the drawable to update the view’s contents."}
+{"id": "/documentation/MetalKit/MTKView", "law": "Don’t wait for the command buffer to finish executing before registering the drawable’s presentation."}
+{"id": "/documentation/MetalKit/MTKViewDelegate", "law": "Use a delegate to provide a drawing method to a object and respond to rendering events without subclassing the class."}
+{"id": "/documentation/MetalKit/MTKView/currentDrawable", "law": "If all drawable objects are in use, the value of this property is ."}
+{"id": "/documentation/MetalKit/MTKView/currentDrawable", "law": "Your app should check that isn’t before attempting to draw."}
+{"id": "/documentation/MetalKit/MTKView/currentDrawable", "law": "Use a object to render into the drawable’s texture and present it for display (typically registered using the method of a command buffer)."}
+{"id": "/documentation/MetalKit/MTKView/currentDrawable", "law": "The drawable to use for the current frame."}
+{"id": "/documentation/MetalKit/MTKTextureLoader", "law": "Use the class to create a Metal texture from existing image data."}
+{"id": "/documentation/MetalKit/MTKTextureLoader", "law": "Then use one of the texture loader’s methods to create a texture."}
+{"id": "/documentation/MetalKit/MTKTextureLoader", "law": "The code example below synchronously creates a texture from data at a URL, using the default options: If you use custom data formats, or change the image data at runtime, use methods instead."}
+{"id": "/documentation/MetalKit/MTKView/currentMTL4RenderPassDescriptor", "law": "The view does not use this descriptor and there is no requirement for an app to use this descriptor."}
+{"id": "/documentation/MetalKit/MTKView/clearColor", "law": "The color to use to clear the color target when creating a render pass descriptor."}
+{"id": "/documentation/MetalKit/MTKView/device", "law": "You must explicitly set the device object."}
+{"id": "/documentation/MetalKit/MTKViewDelegate/mtkView(_:drawableSizeWillChange:)", "law": "Use this method to recompute any view or projection matrices, or to regenerate any buffers to be compatible with the view’s new size."}

@@ -1,0 +1,42 @@
+{
+ "url": "https://www.apple.com/apple-watch-hermes/",
+ "sections": [
+  "section-hero",
+  "section-series-11",
+  "section-ultra-3",
+  "section-modern-classics",
+  "section-stitch-above",
+  "section-sporty-sophistication",
+  "section-design-set-sail",
+  "section-explore-portfolio",
+  "section-shop-latest"
+ ],
+ "modules": [
+  "name:hero",
+  "name:hermes series 11",
+  "name:hermes ultra 3",
+  "name:grand h band",
+  "name:neo tricot band",
+  "name:kilim band",
+  "name:en mer band",
+  "name:explore portfolio",
+  "name:shop the latest",
+  "name:buy strip"
+ ],
+ "imgs": 42,
+ "videos": 1,
+ "cta": 17,
+ "h_levels": {
+  "1": 1,
+  "2": 4,
+  "3": 25
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-watch-hermes/ak/built/styles/main.built.css",
+  "/v/apple-watch-hermes/ak/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

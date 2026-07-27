@@ -1,0 +1,3 @@
+{"id": "/documentation/Matter", "law": "Use to bring accessories onto a local network, then commission and control those accessories using Matter."}
+{"id": "/documentation/Matter", "law": "To access a Matter accessory on a network, you must commission it."}
+{"id": "/documentation/Matter", "law": "Once you commission an accessory, it exposes areas of functionality called clusters that you use to control it."}

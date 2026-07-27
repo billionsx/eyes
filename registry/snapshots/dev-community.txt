@@ -1,0 +1,34 @@
+# Community - Apple Developer
+# https://developer.apple.com/community/
+# снято: 2026-07-24 17:43 UTC
+
+## h2: Explore Get Started
+## h2: Stay Updated
+## h2: Explore Platforms
+## h2: Featured
+## h2: Explore Technologies
+## h2: Featured
+## h2: Explore Community
+## h2: Featured
+## h2: Explore Documentation
+## h2: Release Notes
+## h2: Explore Downloads
+## h2: Featured
+## h2: Explore Support
+## h2: Featured
+## h2: Quick Links
+## h1: Connect with the Apple Developer community
+## h4: WWDC
+## h2: Spotlight
+## h2: Contribute
+## h2: Developer Footer
+## h3: Platforms
+## h3: Tools
+## h3: Technologies
+## h3: Resources
+## h3: Support
+## h3: Account
+## h3: Programs
+## h3: Events
+
+Community - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community-driven events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos Connect with the Apple Developer community The developer community is where developers from around the world come together to meet, build, and grow. WWDC Apple’s Worldwide Developers Conference brings together developers from around the world for a week of technology and creativity, all online and free. Explore WWDC Apple developer events Meet with Apple in person and online in a variety of sessions, labs, and workshops — tailored for you. View Apple events Community events Discover local meetups, online groups, and activities to connect with fellow developers. View community events Spotlight Discover the innovation, ingenuity, and technical achievement of Apple developers worldwide. Community recognition Meet some of the inspiring people who are making a difference in the Apple developer community. Learn more Developer stories Go behind the screens with developers, designers, and engineers to find out how they brought their remarkable creations to life. Explore the library Apple Developer Academies Sharpen your skills with a free curriculum for future professional developers. Learn more Apple Developer Centers Developer Centers are the home for in-person Apple developer sessions, labs, workshops, and appointments. Learn more Contribute Apple Developer Forums Ask questions and be part of the conversation on a wide variety of developer topics. Browse the forums Open source projects Apple works with developers around the world to create, contribute, and release open source code. Learn more Developer Footer Community Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness In-App Purchase Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines

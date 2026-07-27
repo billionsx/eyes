@@ -1,0 +1,69 @@
+{"id": "/documentation/SceneKit/postprocessing-a-scene-with-custom-symbols", "law": "See the “Defining a Technique” section of the documentation for detailed information about the steps required to define a technique."}
+{"id": "/documentation/SceneKit/postprocessing-a-scene-with-custom-symbols", "law": "Value bindings use the logical type that corresponds with the Metal type."}
+{"id": "/documentation/SceneKit/postprocessing-a-scene-with-custom-symbols", "law": "For example, custom symbols defined in the technique with a type of , with a type of in the shader, use a value when bound."}
+{"id": "/documentation/SceneKit", "law": "Unlike lower-level APIs such as Metal and OpenGL that require you to implement in precise detail the rendering algorithms that display a scene, SceneKit requires only descriptions of your scene’s contents and the actions or animations you want it to perform."}
+{"id": "/documentation/SceneKit/SCNMaterial/LightingModel-swift.struct", "law": "Constants specifying the lighting and shading algorithm to use for rendering a material."}
+{"id": "/documentation/SceneKit/SCNAudioPlayer", "law": "To use positional audio, first create a reusable or object to provide an audio stream."}
+{"id": "/documentation/SceneKit/SCNAudioSource", "law": "A simple, reusable audio source—music or sound effects loaded from a file—for use in positional audio playback."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "That is, you can still use material properties, lighting models, and camera effects to affect the rendered image."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "SceneKit inserts your shader modifiers into its shader program a specific order: You can use the structures defined by earlier entry points in later entry points."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "The code you provide for a shader modifier must be organized in a specific structure, as illustrated in the example below: Custom variables declarations."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "Because the syntax differs between Metal and OpenGL shaders, you must include both declarations for your shader modifier to be usable with both rendering technologies."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "If you include custom functions in your snippet, you must place the directive between your function definitions and the main body of the snippet."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "By default, SceneKit automatically uses material properties to determine whether an object should be rendered with partial transparency and uses this information to optimize rendering performance."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "Use the or directive to override SceneKit’s setting."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "If you set a value using the or method, or set a target value for a keypath animation, the value must be contained in an Objective-C object."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "Assigning a uniform of a vector or matrix type requires an object containing data of the appropriate type."}
+{"id": "/documentation/SceneKit/SCNShadable", "law": "In this case, your properties can use primitive or structure types appropriate to the corresponding Metal or GLSL variables."}
+{"id": "/documentation/SceneKit/SCNShaderModifierEntryPoint/geometry", "law": "You can use SceneKit’s uniforms (such as ) to operate in a different coordinate space, but you must convert back to model space before writing results."}
+{"id": "/documentation/SceneKit/SCNShaderModifierEntryPoint/geometry", "law": "The below shader modifier produces an animated sinusoidal deformation: Use this entry point to deform a geometry’s surface or alter its vertex attributes."}
+{"id": "/documentation/SceneKit/SCNNode", "law": "To construct a scene, you use a hierarchy of nodes to create its structure, then add lights, cameras, and geometry to nodes to create visible content."}
+{"id": "/documentation/SceneKit/SCNNode", "law": "You use a hierarchy of nodes and transformations to model the contents of your scene in a way that suits the needs of your app."}
+{"id": "/documentation/SceneKit/SCNNode", "law": "To add physics-based behaviors and special effects to SceneKit content, use other types of node attachments."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "To create effects such as color grading and displacement mapping, define techniques that use as input the color buffer rendered by SceneKit and process that buffer with a fragment shader."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "Defining a technique does not require Metal or OpenGL client code, but you should be familiar with the terminology and conventions of GPU rendering."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "To use a technique, assign it to the property of a view (or other SceneKit renderer object) or a camera."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "When SceneKit performs a rendering pass whose option is or , you can use category masks to filter the set of nodes drawn during that pass."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "If the node’s category mask and the include mask overlap (that is, the bitwise AND results in a nonzero value) and the node’s category mask and the exclude mask do not overlap, SceneKit includes the node in the drawing pass."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "In SceneKit’s main drawing pass, the color render target is the screen (or rather, a view or layer for screen display), and a depth render target temporarily stores the information needed to ensure that rendered surfaces appear in the correct depth order."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "You specify render targets using the following identifiers in the and dictionaries of a pass definition: Use the and targets as inputs to identify the color and depth buffers rendered to in SceneKit’s main drawing pass."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "Use the target as an output to identify the image buffer displayed as the end result of a technique."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "After you define a target, you can use its identifier in the and dictionaries of a pass definition."}
+{"id": "/documentation/SceneKit/SCNTechnique", "law": "To use an image as an input texture for a pass, define a symbol of type in the technique’s dictionary."}
+{"id": "/documentation/scenekit", "law": "Unlike lower-level APIs such as Metal and OpenGL that require you to implement in precise detail the rendering algorithms that display a scene, SceneKit requires only descriptions of your scene’s contents and the actions or animations you want it to perform."}
+{"id": "/documentation/scenekit/scnbufferstream", "law": "Instead, you use the method to register a block to be called by SceneKit."}
+{"id": "/documentation/scenekit/scnbufferstream", "law": "In that block, SceneKit provides a buffer stream object that you can use to write data to the buffer."}
+{"id": "/documentation/scenekit/scnnoderendererdelegate", "law": "Typically, you use a node renderer delegate to perform custom rendering that is anchored at a location in the scene."}
+{"id": "/documentation/scenekit/scnnoderendererdelegate", "law": "To provide a renderer delegate for an object, use its property."}
+{"id": "/documentation/scenekit/scnnoderendererdelegate", "law": "Instead, use methods in the protocol to extend SceneKit’s rendering using shader programs written in the Metal shading language or the OpenGL Shading Language (GLSL)."}
+{"id": "/documentation/scenekit/scnnoderendererdelegate", "law": "Methods you can implement to use your own custom Metal or OpenGL drawing code to render content for a node."}
+{"id": "/documentation/scenekit/scnprogram", "law": "You use an object to perform custom rendering using shader programs written in the Metal shading language or the OpenGL Shading Language (GLSL)."}
+{"id": "/documentation/scenekit/scnprogram", "law": "To use a program object for rendering, assign it to the property of a geometry or material."}
+{"id": "/documentation/scenekit/scnprogram", "law": "Use a program object when you want to completely replace SceneKit’s rendering."}
+{"id": "/documentation/scenekit/scnprogram", "law": "If instead you want to simply modify or extend SceneKit’s rendering, use the property of a geometry or material to insert snippets of Metal or GLSL source code into SceneKit’s built-in shader programs."}
+{"id": "/documentation/scenekit/scnprogram", "law": "To use a custom shader program in SceneKit, create an object and optionally specify its object for handling errors."}
+{"id": "/documentation/scenekit/scnprogram", "law": "Rendering with Metal shaders requires that the property of your object (or other renderer) be set to , which in turn requires that your app be running on Metal-capable hardware."}
+{"id": "/documentation/scenekit/scnprogram", "law": "If you provide both Metal and OpenGL shaders in the same object, SceneKit automatically selects the appropriate shaders to use when rendering, falling back to OpenGL or OpenGL ES shaders when Metal is not supported on the current hardware."}
+{"id": "/documentation/scenekit/scnprogram", "law": "Metal shaders for use with SceneKit require an directive to gain access to SceneKit-specific symbols."}
+{"id": "/documentation/scenekit/scnprogram", "law": "Use these symbols to access the kinds of data listed below."}
+{"id": "/documentation/scenekit/scnprogram", "law": "To use vertex attributes provided by objects in your shader program, declare those attributes in your Metal shader source code using attribute qualifiers (see in ) and the constants listed in Table 1."}
+{"id": "/documentation/scenekit/scnshadable", "law": "That is, you can still use material properties, lighting models, and camera effects to affect the rendered image."}
+{"id": "/documentation/scenekit/scnshadable", "law": "SceneKit inserts your shader modifiers into its shader program a specific order: You can use the structures defined by earlier entry points in later entry points."}
+{"id": "/documentation/scenekit/scnshadable", "law": "The code you provide for a shader modifier must be organized in a specific structure, as illustrated in the example below: Custom variables declarations."}
+{"id": "/documentation/scenekit/scnshadable", "law": "Because the syntax differs between Metal and OpenGL shaders, you must include both declarations for your shader modifier to be usable with both rendering technologies."}
+{"id": "/documentation/scenekit/scnshadable", "law": "If you include custom functions in your snippet, you must place the directive between your function definitions and the main body of the snippet."}
+{"id": "/documentation/scenekit/scnshadable", "law": "By default, SceneKit automatically uses material properties to determine whether an object should be rendered with partial transparency and uses this information to optimize rendering performance."}
+{"id": "/documentation/scenekit/scnshadable", "law": "Use the or directive to override SceneKit’s setting."}
+{"id": "/documentation/scenekit/scnshadable", "law": "If you set a value using the or method, or set a target value for a keypath animation, the value must be contained in an Objective-C object."}
+{"id": "/documentation/scenekit/scnshadable", "law": "Assigning a uniform of a vector or matrix type requires an object containing data of the appropriate type."}
+{"id": "/documentation/scenekit/scnshadable", "law": "In this case, your properties can use primitive or structure types appropriate to the corresponding Metal or GLSL variables."}
+{"id": "/documentation/scenekit/scntechnique", "law": "To create effects such as color grading and displacement mapping, define techniques that use as input the color buffer rendered by SceneKit and process that buffer with a fragment shader."}
+{"id": "/documentation/scenekit/scntechnique", "law": "Defining a technique does not require Metal or OpenGL client code, but you should be familiar with the terminology and conventions of GPU rendering."}
+{"id": "/documentation/scenekit/scntechnique", "law": "To use a technique, assign it to the property of a view (or other SceneKit renderer object) or a camera."}
+{"id": "/documentation/scenekit/scntechnique", "law": "When SceneKit performs a rendering pass whose option is or , you can use category masks to filter the set of nodes drawn during that pass."}
+{"id": "/documentation/scenekit/scntechnique", "law": "If the node’s category mask and the include mask overlap (that is, the bitwise AND results in a nonzero value) and the node’s category mask and the exclude mask do not overlap, SceneKit includes the node in the drawing pass."}
+{"id": "/documentation/scenekit/scntechnique", "law": "In SceneKit’s main drawing pass, the color render target is the screen (or rather, a view or layer for screen display), and a depth render target temporarily stores the information needed to ensure that rendered surfaces appear in the correct depth order."}
+{"id": "/documentation/scenekit/scntechnique", "law": "You specify render targets using the following identifiers in the and dictionaries of a pass definition: Use the and targets as inputs to identify the color and depth buffers rendered to in SceneKit’s main drawing pass."}
+{"id": "/documentation/scenekit/scntechnique", "law": "Use the target as an output to identify the image buffer displayed as the end result of a technique."}
+{"id": "/documentation/scenekit/scntechnique", "law": "After you define a target, you can use its identifier in the and dictionaries of a pass definition."}
+{"id": "/documentation/scenekit/scntechnique", "law": "To use an image as an input texture for a pass, define a symbol of type in the technique’s dictionary."}

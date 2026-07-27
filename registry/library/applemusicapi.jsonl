@@ -1,0 +1,10 @@
+{"id": "/documentation/AppleMusicAPI", "law": "Use Apple Music API to access information about media in the Apple Music Catalog and a user’s personal iCloud Music Library."}
+{"id": "/documentation/AppleMusicAPI", "law": "Use this API to retrieve information about albums, songs, artists, playlists, music videos, Apple Music stations, ratings, charts, recommendations, and the user’s most-recently played content."}
+{"id": "/documentation/AppleMusicAPI", "law": "Use the to access the Apple Music Catalog in bulk."}
+{"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "The header of every Apple Music API request requires a signed developer token."}
+{"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "There are two paths to generate developer tokens: If you’re developing an app for Apple platforms (iOS, tvOS, watchOS or macOS), the recommended way to integrate with Apple Music is to use for Swift, following the steps provided in ."}
+{"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "allows you to use a developer token to authenticate yourself as a trusted developer and member of the Apple Developer Program."}
+{"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "Construct a developer token as a JSON object whose header contains: The algorithm ( ) you use to sign the token, which should have a value of A 10-character key identifier ( ) key, obtained from your developer account Apple Music supports only developer tokens signed with the ES256 algorithm."}
+{"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "Only use this JWT if the origin header of the request matches one of the values in the array."}
+{"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "This addition helps prevent unauthorized use of the tokens."}
+{"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "If this limit is exceeded, you’ll temporarily receive error responses for requests that use the token."}

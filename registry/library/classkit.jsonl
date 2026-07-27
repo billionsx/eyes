@@ -1,0 +1,53 @@
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "Before starting, be sure to read to learn how to configure your environment to work with ClassKit, and to prepare to debug your ClassKit adoption."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "In your implementation of the protocol’s method, you can use characteristics of your model objects to inform context creation."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "If your app has contexts that can change, use this opportunity to reconfigure the context."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "While contexts declare the structure of your app, you use instances to report progress through those contexts."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "Model objects use their own identifier path to locate the matching context, and then use the context to manage activities."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "Quizzes, once started, must be finished before the user can move to another task."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "For this, you use activity items."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "The method demonstrates the two ways in which you can register an activity item, either as primary or not: If you do decide to set a primary item, make sure you always set the same kind of primary item for a given activity."}
+{"id": "/documentation/ClassKit/incorporating-classkit-into-an-educational-app", "law": "For example, once you register the score item as the primary for a quiz activity, you must always use score this way."}
+{"id": "/documentation/ClassKit", "law": "Meanwhile, students use Schoolwork to receive assignments that link directly to content in your app."}
+{"id": "/documentation/ClassKit", "law": "ClassKit doesn’t replace any existing logic or storage mechanisms in your app, and you don’t use it to generate any new user interfaces."}
+{"id": "/documentation/ClassKit", "law": "Instead, you use ClassKit to publicize the structure you already have, so that teachers can use Apple’s Schoolwork app to create assignments based on your app’s content and measure their students’ progress through those assignments."}
+{"id": "/documentation/ClassKit", "law": "For student-facing submission functionality, use the framework, which provides views that enable students to submit assigned documents and track submission status directly within your app."}
+{"id": "/documentation/ClassKit", "law": "ClassKit is designed for educational organizations that use ."}
+{"id": "/documentation/ClassKit/CLSActivity", "law": "As such, an activity is always associated with a context."}
+{"id": "/documentation/ClassKit/CLSActivity", "law": "You never initialize an activity in isolation or store a reference to it."}
+{"id": "/documentation/ClassKit/CLSActivity", "law": "You can also use the method to stop it temporarily if the user pauses the task, in which case you can start it again later with another call to when the user resumes."}
+{"id": "/documentation/ClassKit/CLSActivity", "law": "On the other hand, you might not provide a way to pause a quiz activity because you require that it be completed without interruption, once started."}
+{"id": "/documentation/ClassKit/CLSContextProvider", "law": "The protocol’s one required method tells the app extension to create or update the descendants of a given context."}
+{"id": "/documentation/ClassKit/CLSContextProvider", "law": "You typically call on the context-building code of your main app in the app extension to avoid duplicating code."}
+{"id": "/documentation/ClassKit/CLSContextProvider/updateDescendants(of:completion:)", "law": "You can use this method call to update only the context’s direct descendants — like the chapters for a given book — or the entire context hierarchy underneath the given context, like all of a book’s chapters, sections, and quizzes."}
+{"id": "/documentation/ClassKit/CLSDataStore", "law": "Use the ClassKit data store to build and access contexts ( instances) that you use to advertise your app’s assignable content."}
+{"id": "/documentation/ClassKit/CLSDataStore", "law": "Contexts in turn provide access to activities ( instances) and activity items ( , , and instances) that you use to record progress through assignments."}
+{"id": "/documentation/ClassKit/CLSDataStore", "law": "You don’t instantiate a data store yourself."}
+{"id": "/documentation/ClassKit/CLSDataStore", "law": "Instead, use the single data store instance throughout your app."}
+{"id": "/documentation/ClassKit/CLSDataStore", "law": "This property acts as the root context in your context hierarchy that you can use as a starting point when searching for descendant contexts."}
+{"id": "/documentation/ClassKit/CLSDataStore", "law": "Then, when the data store needs a context that it’s never seen before, it asks your delegate to build it."}
+{"id": "/documentation/ClassKit/CLSDataStore/completeAllAssignedActivities(matching:)", "law": "Use the method to set the Done status programmatically."}
+{"id": "/documentation/ClassKit/CLSDataStore/completeAllAssignedActivities(matching:)", "law": "Call this method only when you know that the task is complete and the student can’t or won’t work it any further because the task’s allotted time elapsed or because the student submitted all the required information to the teacher."}
+{"id": "/documentation/ClassKit/CLSDataStore/delegate", "law": "So you should be prepared for any context request that you make of the data store to result in a delegate callback."}
+{"id": "/documentation/ClassKit/CLSDataStoreDelegate", "law": "However, it’s generally most efficient to use the delegate protocol, building contexts only when they’re missing from the data store."}
+{"id": "/documentation/ClassKit/enabling-classkit-in-your-app", "law": "The Schoolwork app provides the interface that teachers use to see what content your app offers, create assignments based on that content, and monitor student progress through those assignments."}
+{"id": "/documentation/ClassKit/enabling-classkit-in-your-app", "law": "Students use the same app to receive assignments, and link directly to content in your app."}
+{"id": "/documentation/ClassKit/enabling-classkit-in-your-app", "law": "It also lets you experience what teachers and students see when they use your app in an educational environment."}
+{"id": "/documentation/ClassKit/testing-your-classkit-app-during-development", "law": "To define these roles and enable these connections, users must be signed in to devices with Managed Apple IDs issued by an educational institution enrolled in Apple School Manager."}
+{"id": "/documentation/ClassKit/testing-your-classkit-app-during-development", "law": "Nothing is sent to iCloud, and so a Managed Apple ID isn’t required."}
+{"id": "/documentation/ClassKit/testing-your-classkit-app-during-development", "law": "If you don’t sign in with a Managed Apple ID in production mode, ClassKit treats you as an unmanaged user, silently dropping any data you report through the API."}
+{"id": "/documentation/ClassKit/testing-your-classkit-app-during-development", "law": "If you choose production mode in your app’s entitlements, make sure to disable ClassKit development mode on your development devices."}
+{"id": "/documentation/ClassKit/testing-your-classkit-app-during-development", "law": "Use development mode to test your app without a Managed Apple ID."}
+{"id": "/documentation/classkit", "law": "Meanwhile, students use Schoolwork to receive assignments that link directly to content in your app."}
+{"id": "/documentation/classkit", "law": "ClassKit doesn’t replace any existing logic or storage mechanisms in your app, and you don’t use it to generate any new user interfaces."}
+{"id": "/documentation/classkit", "law": "Instead, you use ClassKit to publicize the structure you already have, so that teachers can use Apple’s Schoolwork app to create assignments based on your app’s content and measure their students’ progress through those assignments."}
+{"id": "/documentation/classkit", "law": "For student-facing submission functionality, use the framework, which provides views that enable students to submit assigned documents and track submission status directly within your app."}
+{"id": "/documentation/classkit", "law": "ClassKit is designed for educational organizations that use ."}
+{"id": "/documentation/classkit/clsdatastore", "law": "Use the ClassKit data store to build and access contexts ( instances) that you use to advertise your app’s assignable content."}
+{"id": "/documentation/classkit/clsdatastore", "law": "Contexts in turn provide access to activities ( instances) and activity items ( , , and instances) that you use to record progress through assignments."}
+{"id": "/documentation/classkit/clsdatastore", "law": "You don’t instantiate a data store yourself."}
+{"id": "/documentation/classkit/clsdatastore", "law": "Instead, use the single data store instance throughout your app."}
+{"id": "/documentation/classkit/clsdatastore", "law": "This property acts as the root context in your context hierarchy that you can use as a starting point when searching for descendant contexts."}
+{"id": "/documentation/classkit/clsdatastore", "law": "Then, when the data store needs a context that it’s never seen before, it asks your delegate to build it."}
+{"id": "/documentation/classkit/enabling-classkit-in-your-app", "law": "The Schoolwork app provides the interface that teachers use to see what content your app offers, create assignments based on that content, and monitor student progress through those assignments."}
+{"id": "/documentation/classkit/enabling-classkit-in-your-app", "law": "Students use the same app to receive assignments, and link directly to content in your app."}
+{"id": "/documentation/classkit/enabling-classkit-in-your-app", "law": "It also lets you experience what teachers and students see when they use your app in an educational environment."}

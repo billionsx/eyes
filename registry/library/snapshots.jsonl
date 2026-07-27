@@ -1,0 +1,3 @@
+{"id": "/documentation/Snapshots", "law": "Use the Maps Web Snapshots service to generate static map images from a URL."}
+{"id": "/documentation/Snapshots", "law": "You can use Snapshots any time that an interactive map isn’t required, and in any place you typically use an image URL — in web pages, and in places where JavaScript isn’t available, such as email clients."}
+{"id": "/documentation/Snapshots", "law": "You generate the required signature using credentials obtained through your Apple Developer account."}

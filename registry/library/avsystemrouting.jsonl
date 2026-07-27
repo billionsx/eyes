@@ -1,0 +1,7 @@
+{"id": "/documentation/AVSystemRouting", "law": "Media sharing protocol providers distribute media device extensions through their own apps so you don’t need to bundle each device’s SDK in your app."}
+{"id": "/documentation/AVSystemRouting", "law": "After starting a session, use the class’s playback control to manage remote playback and receive state updates."}
+{"id": "/documentation/AVSystemRouting", "law": "For communication that includes a companion app on the remote device, use the media session’s data channel and implement ."}
+{"id": "/documentation/AVSystemRouting", "law": "The two frameworks communicate through the system, so your app never needs to interact with protocol-specific details directly."}
+{"id": "/documentation/AVSystemRouting/routing-media-to-third-party-devices", "law": "Use to launch the system media player on the remote device: The method returns an that your app uses to control playback and communicate with the remote device."}
+{"id": "/documentation/AVSystemRouting/routing-media-to-third-party-devices", "law": "Use the property to drive playback on the remote device and observe its state."}
+{"id": "/documentation/AVSystemRouting/routing-media-to-third-party-devices", "law": "To enable bidirectional communication with the companion app through a data channel, use when creating the session: After starting an application session, use the class’s to exchange data with the remote device."}

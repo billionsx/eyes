@@ -1,0 +1,7 @@
+{"id": "/documentation/CloudKitJS", "law": "Use CloudKit JS to build a web interface that lets users access the same public and private databases as your CloudKit app running on iOS or macOS."}
+{"id": "/documentation/CloudKitJS", "law": "You must have an existing CloudKit app and enable web services to use CloudKit JS."}
+{"id": "/documentation/CloudKitJS", "law": "You’ll use Xcode to create your app’s containers and use CloudKit Dashboard to view the containers."}
+{"id": "/documentation/CloudKitJS", "law": "Use an API Token from a website or an embedded web view in a native app, or when you need to authenticate the user."}
+{"id": "/documentation/CloudKitJS", "law": "Use a server-to-server key to access the public database from a server process or script as an administrator."}
+{"id": "/documentation/CloudKitJS", "law": "To enable strict mode for an entire script, put “use strict” before any other statements."}
+{"id": "/documentation/CloudKitJS", "law": "Also, specify whether to use the development or production environment."}

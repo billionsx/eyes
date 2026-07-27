@@ -1,0 +1,4 @@
+{"id": "/documentation/DeviceDiscoveryExtension", "law": "Use DeviceDiscoveryExtension (DDE) to discover third-party media receivers to which your app can stream AV content."}
+{"id": "/documentation/DeviceDiscoveryExtension", "law": "To stream to a third-party device that you don’t manufacture, bundle your app with the device discovery extension that the manufacturer provides as part of its SDK."}
+{"id": "/documentation/devicediscoveryextension", "law": "Use DeviceDiscoveryExtension (DDE) to discover third-party media receivers to which your app can stream AV content."}
+{"id": "/documentation/devicediscoveryextension", "law": "To stream to a third-party device that you don’t manufacture, bundle your app with the device discovery extension that the manufacturer provides as part of its SDK."}

@@ -1,0 +1,51 @@
+{
+ "url": "https://www.apple.com/ipad-pro/",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-closer-look",
+  "section-themes",
+  "section-incentive",
+  "section-contrast",
+  "section-environment",
+  "section-values",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:closer look",
+  "name:chip",
+  "name:ipados",
+  "name:apple intelligence",
+  "name:display",
+  "name:design",
+  "name:apple pencil pro",
+  "name:magic keyboard",
+  "name:cameras",
+  "name:connectivity",
+  "name:why apple",
+  "name:compare",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:router"
+ ],
+ "imgs": 310,
+ "videos": 17,
+ "cta": 40,
+ "h_levels": {
+  "1": 1,
+  "2": 24,
+  "3": 64,
+  "4": 6
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/ac/includes/campaigns-seasonal/bts-fy26/a/built/styles/overview.built.css",
+  "/v/ipad-pro/aw/built/styles/main.built.css",
+  "/v/ipad-pro/aw/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

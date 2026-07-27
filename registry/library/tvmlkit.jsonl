@@ -1,0 +1,3 @@
+{"id": "/documentation/TVMLKit/implementing-a-hybrid-tv-app-with-tvmlkit", "law": "Building your app with the stateless model is useful if you want to use the functionalities provided by Swift or if you are more familiar with native development."}
+{"id": "/documentation/TVMLKit/implementing-a-hybrid-tv-app-with-tvmlkit", "law": "You then use the app controller’s delegate method to specify the initial page’s content by creating a new object."}
+{"id": "/documentation/TVMLKit/implementing-a-hybrid-tv-app-with-tvmlkit", "law": "TVMLKit apps use this navigation controller to manage navigation between pages."}

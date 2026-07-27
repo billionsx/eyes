@@ -1,0 +1,60 @@
+{
+ "url": "https://www.apple.com/macbook-air/",
+ "sections": [
+  "section-hero",
+  "section-highlights",
+  "section-routers",
+  "section-decarbonizing",
+  "section-values-router"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:design intro",
+  "name:sizes",
+  "name:finishes gallery",
+  "name:lifestyle gallery",
+  "name:performance intro",
+  "name:m5 highlights",
+  "name:battery",
+  "name:artificial intelligence",
+  "name:apple intelligence",
+  "name:privacy",
+  "name:macos intro",
+  "name:macos gallery",
+  "name:continuity",
+  "name:switch gallery",
+  "name:display",
+  "name:camera and audio",
+  "name:connectivity",
+  "name:security",
+  "name:upgrade",
+  "name:compare",
+  "name:accessories",
+  "name:trade-in",
+  "name:acmi",
+  "name:education pricing",
+  "name:apple at work",
+  "name:education",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:buy strip"
+ ],
+ "imgs": 198,
+ "videos": 7,
+ "cta": 30,
+ "h_levels": {
+  "1": 1,
+  "2": 26,
+  "3": 42
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/ac/includes/campaigns-seasonal/bts-fy26/a/built/styles/overview.built.css",
+  "/v/macbook-air/z/built/styles/main.built.css",
+  "/v/macbook-air/z/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

@@ -1,0 +1,15 @@
+{"id": "/documentation/NetworkingDriverKit", "law": "Use NetworkingDriverKit to develop drivers for USB Ethernet adapters."}
+{"id": "/documentation/NetworkingDriverKit", "law": "It also provides support for managing the memory you use to store packets, transferring those packets between the device and networking stack, and inspecting the Ethernet link status."}
+{"id": "/documentation/NetworkingDriverKit", "law": "Use USBDriverKit to manage the connection to your hardware device."}
+{"id": "/documentation/NetworkingDriverKit", "law": "Include your driver inside your macOS app and use the framework to install and upgrade the driver on the user’s Mac."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkEthernet/SetInterfaceEnable-3v24g", "law": "Override this method and use it to start or stop the delivery of packets to and from the device."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkEthernet/SetInterfaceEnable-3v24g", "law": "For example, change the enabled state of the queues you use to handle packets moving to or from the device."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkEthernet/init", "law": "Limit the work you do in this method to simple tasks that must occur before your service stats."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkEthernet/init", "law": "For example, you might use this method to allocate memory for your structure."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkEthernet/init", "law": "Always call the implementation of this method at some point."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkRxCompletionQueue", "law": "Create an object and use it to deliver packets from your hardware device to the networking stack."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkRxCompletionQueue", "law": "The queue you use to store packets that you successfully transferred to the networking stack."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkRxSubmissionQueue", "law": "Create an in your driver and use it to dequeue empty packets."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkTxCompletionQueue", "law": "Create an object and use it to return packets back to the system after sending them to your hardware."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkTxCompletionQueue", "law": "The queue you use to store packets that you successfully transferred to the device."}
+{"id": "/documentation/NetworkingDriverKit/IOUserNetworkTxSubmissionQueue", "law": "Create an in your driver and use it to dequeue empty packets."}

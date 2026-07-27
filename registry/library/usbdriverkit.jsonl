@@ -1,0 +1,3 @@
+{"id": "/documentation/USBDriverKit", "law": "Use the framework to develop drivers for custom or non-class-compliant USB devices for use with macOS."}
+{"id": "/documentation/USBDriverKit", "law": "Use them as is to access the device configurations, interfaces, and endpoints of the USB device."}
+{"id": "/documentation/USBDriverKit", "law": "On macOS, use the framework to install and upgrade your driver."}

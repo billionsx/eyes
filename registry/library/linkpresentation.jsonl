@@ -1,0 +1,2 @@
+{"id": "/documentation/LinkPresentation/LinkMetadata", "law": "Use to store metadata about a URL, including its title, icon, images, and video."}
+{"id": "/documentation/LinkPresentation/LinkMetadata", "law": "For remote URLs, cache the metadata locally to avoid the data and performance cost of fetching it from the internet every time you present it."}

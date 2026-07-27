@@ -1,0 +1,25 @@
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "You can use the FSKit framework to implement any kind of file system, whether based on an existing storage device or as an abstraction of the contents of a URL."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "To use the sample file system, do the following: Build and run the project in Xcode."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "In Terminal, use the command to create a directory to serve as the mount target for the passthrough file system."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "In Terminal, use the command to mount an arbitrary directory as the source for the passthrough file system."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "The sample code project already contains these items; you don’t need to create a new target."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "With this type, the can implement its required method to set up a as follows: Verify that the source resource is an and that the extension can access it as a security-scoped resource by calling ."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "The implementation of the required is similar."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "Your own implementation is free to implement whichever volume operation protocols you need for your purposes, as long as you implmement the required protocol."}
+{"id": "/documentation/FSKit/building-a-passthrough-file-system", "law": "You can omit any operation protocols you don’t need."}
+{"id": "/documentation/FSKit", "law": "is a simpler file system where containers use only one resource and provide only one volume."}
+{"id": "/documentation/fskit", "law": "is a simpler file system where containers use only one resource and provide only one volume."}
+{"id": "/documentation/fskit/fsitem", "law": "If the value is (Swift) or (Objective-C), it’s safe to use the attribute."}
+{"id": "/documentation/fskit/fsitem", "law": "Methods that get or set an item’s attribute use or , respectively."}
+{"id": "/documentation/fskit/fsunaryfilesystemoperations", "law": "Make sure your subclass of conforms to this protocol."}
+{"id": "/documentation/fskit/fsunaryfilesystemoperations/loadresource(resource:options:replyhandler:)", "law": "If the resource does use a supported format, create a subclass of , clear the container error state, and invoke the callback, passing your volume as a parameter."}
+{"id": "/documentation/fskit/fsvolume", "law": "This protocol defines the minimum set of operations supported by a volume, such as mounting, activating, creating and removing items, and more."}
+{"id": "/documentation/fskit/fsvolume/operations", "law": "This protocol extends , so your volume implementation must also conform to that protocol."}
+{"id": "/documentation/fskit/fsvolume/operations", "law": "Methods that all volumes implement to provide required capabilities."}
+{"id": "/documentation/fskit/fsvolume/preallocateoperations", "law": "A file system may use reallocation to avoid performing space allocation while in the midst of I/O; this strategy improves performance."}
+{"id": "/documentation/fskit/fsvolume/readwriteoperations", "law": "In that case, files with the attribute set use this protocol, and those without it use ."}
+{"id": "/documentation/fskit/fsvolume/readwriteoperations/read(from:at:length:into:replyhandler:)", "law": "If points past the last valid byte of the file, don’t reply with an error but set to ."}
+{"id": "/documentation/fskit/fsvolume/xattroperations", "law": "Use Methods and properties implemented by volumes that natively or partially support extended attributes."}
+{"id": "/documentation/fskit/fsvolumekerneloffloadediooperations", "law": "You don’t manage extents directly."}
+{"id": "/documentation/fskit/fsvolumekerneloffloadediooperations", "law": "In that case, files with the attribute set use , and those without it use this protocol."}
+{"id": "/documentation/fskit/fsvolumekerneloffloadediooperations", "law": "Methods and properties implemented by volumes that use kernel-offloaded I/O to achieve higher file transfer performance."}

@@ -1,0 +1,2 @@
+{"id": "/documentation/AutomatedDeviceEnrollment", "law": "This feature requires Bluetooth access to discover and pair with nearby devices, and camera access to scan visual pairing PIN codes."}
+{"id": "/documentation/AutomatedDeviceEnrollment", "law": "To use this feature, you must have the Automated Device Enrollment entitlement."}

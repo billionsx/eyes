@@ -1,0 +1,16 @@
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "Use this sample as a guide for developing drivers for your own networking hardware."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "Use a reverse-DNS format for your identifier (for more information, see )."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "Then, in , edit the definition of to use the string you chose for your driver’s bundle ID."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "For the Bundle ID field, choose Explicit, and use the bundle IDs you chose earlier."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "For each target, enter the unique bundle ID you chose earlier in the Bundle Identifier field, and use the Provisioning Profile popup to select the profile you downloaded in the previous two steps."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "Drivers use this method to reset hardware and pepare it for operation."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "Drivers can use the first call to the method for setup, but typically do so in ."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "Instead, use this callback to get into and out of a safe state given the power setting."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "The driver uses this opportunity to set up queues to ensure that calls to and from NetworkingDriverKit are thread-safe."}
+{"id": "/documentation/PCIDriverKit/connecting-a-network-driver", "law": "The following setup in creates a queue and calls to tell the queue to use the newly created action."}
+{"id": "/documentation/PCIDriverKit", "law": "Use the PCIDriverKit framework to develop drivers that manage custom features on your Peripheral Component Interconnect (PCI) and PCI-Express hardware."}
+{"id": "/documentation/PCIDriverKit", "law": "Use that object to read and write the configuration and memory of your PCI hardware."}
+{"id": "/documentation/PCIDriverKit", "law": "On macOS, use the framework to install and upgrade your driver."}
+{"id": "/documentation/pcidriverkit", "law": "Use the PCIDriverKit framework to develop drivers that manage custom features on your Peripheral Component Interconnect (PCI) and PCI-Express hardware."}
+{"id": "/documentation/pcidriverkit", "law": "Use that object to read and write the configuration and memory of your PCI hardware."}
+{"id": "/documentation/pcidriverkit", "law": "On macOS, use the framework to install and upgrade your driver."}

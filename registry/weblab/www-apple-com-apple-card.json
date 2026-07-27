@@ -1,0 +1,49 @@
+{
+ "url": "https://www.apple.com/apple-card/",
+ "sections": [
+  "section-hero",
+  "section-simplicity",
+  "section-tiles-grid",
+  "section-router",
+  "section-routers"
+ ],
+ "modules": [
+  "name:hero",
+  "name:simplicity",
+  "name:built for iphone",
+  "name:no fees",
+  "name:pay less interest",
+  "name:unlimited daily cash",
+  "name:two percent daily cash back",
+  "name:shop apple merchants",
+  "name:mega merchant perks",
+  "name:grow your daily cash",
+  "name:apple card family",
+  "name:titanium card",
+  "name:privacy and security",
+  "name:acmi",
+  "name:financial health",
+  "name:partnerships",
+  "name:get started",
+  "name:wallet router",
+  "name:apple pay router",
+  "name:apple cash router"
+ ],
+ "imgs": 6,
+ "videos": 3,
+ "cta": 48,
+ "h_levels": {
+  "1": 1,
+  "2": 34,
+  "3": 11
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-card/n/built/styles/main-overview.built.css",
+  "/v/apple-card/n/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

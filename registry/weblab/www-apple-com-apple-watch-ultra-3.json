@@ -1,0 +1,63 @@
+{
+ "url": "https://www.apple.com/apple-watch-ultra-3/",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-product-viewer",
+  "section-running",
+  "section-battery",
+  "section-satellite",
+  "section-more-sports",
+  "section-adventure",
+  "section-safety",
+  "section-health",
+  "section-versatility",
+  "section-more-apps",
+  "section-incentive",
+  "section-contrast",
+  "section-environment",
+  "section-values",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:product viewer",
+  "name:running intro",
+  "name:running gallery",
+  "name:battery",
+  "name:satellite",
+  "name:more sports intro",
+  "name:more sports gallery",
+  "name:adventure intro",
+  "name:adventure gallery",
+  "name:safety intro",
+  "name:safety gallery",
+  "name:health intro",
+  "name:health gallery",
+  "name:versatility",
+  "name:more apps",
+  "name:why apple",
+  "name:compare",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:router"
+ ],
+ "imgs": 212,
+ "videos": 5,
+ "cta": 91,
+ "h_levels": {
+  "1": 1,
+  "2": 27,
+  "3": 66,
+  "4": 11
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-watch-ultra-3/b/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

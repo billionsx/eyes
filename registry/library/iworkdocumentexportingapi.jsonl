@@ -1,0 +1,4 @@
+{"id": "/documentation/iWorkDocumentExportingAPI", "law": "Once the service exports an iWork document to PDF format, an app can use the PDF to display an inline preview for iWork documents."}
+{"id": "/documentation/iWorkDocumentExportingAPI", "law": "The conversion service supports files that meet the following criteria: A maximum file size of 1 GB."}
+{"id": "/documentation/iWorkDocumentExportingAPI", "law": "Make note of your developer team ID, located under your account name in the upper-right corner of the window; the service requires this value when making calls to the service API."}
+{"id": "/documentation/iWorkDocumentExportingAPI", "law": "Use a reverse domain style sting, such as , and click Continue."}

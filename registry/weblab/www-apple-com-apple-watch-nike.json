@@ -1,0 +1,34 @@
+{
+ "url": "https://www.apple.com/apple-watch-nike/",
+ "sections": [
+  "section-hero",
+  "section-sport-band",
+  "section-sport-loop",
+  "section-pretty-face",
+  "section-run-club"
+ ],
+ "modules": [
+  "name:hero",
+  "name:sport band",
+  "name:sport loop",
+  "name:nike globe watch face",
+  "name:nike run club app",
+  "name:buy strip"
+ ],
+ "imgs": 12,
+ "videos": 0,
+ "cta": 15,
+ "h_levels": {
+  "1": 1,
+  "2": 5,
+  "3": 18
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-watch-nike/ai/built/styles/main.built.css",
+  "/v/apple-watch-nike/ai/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

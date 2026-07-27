@@ -1,0 +1,46 @@
+{"id": "/documentation/Compression", "law": "The framework offers two methods of compression: Buffer compression uses a single-step method for compressing files, making it perfect for use with uncompressed files under 8 MB, or compressed files under 1 MB."}
+{"id": "/documentation/Compression", "law": "To use buffer compression, you compress or decompress the input data with one call to the corresponding function."}
+{"id": "/documentation/Compression", "law": "To use stream compression, you call the compression or decompression function repeatedly to compress or decompress data from a source buffer to a destination buffer."}
+{"id": "/documentation/Compression/compression_algorithm", "law": "Choose an algorithm according to the following guidelines: If speed and compression ratio are important, use ."}
+{"id": "/documentation/Compression/compression_algorithm", "law": "If you require interoperability with non-Apple devices, use ."}
+{"id": "/documentation/Compression/compression_algorithm", "law": "If speed is critical, and you’re willing to sacrifice compression ratio to achieve it, use ."}
+{"id": "/documentation/Compression/compression_algorithm", "law": "If compression ratio is critical, and you can sacrifice speed to achieve it, use ."}
+{"id": "/documentation/Compression/compression_algorithm", "law": "When compression ratio and performance are equally important, use to favor compression ratio and to favor performance."}
+{"id": "/documentation/Compression/Algorithm/lzfse", "law": "LZFSE is Apple’s proprietary compression algorithm, matching the compression ratio of zlib level 5, but with much higher energy efficiency and speed (between 2x and 3x) for both encode and decode operations."}
+{"id": "/documentation/Compression/Algorithm/lzfse", "law": "Use LZFSE when compressing a payload for iOS, macOS, watchOS, and tvOS."}
+{"id": "/documentation/Compression/Algorithm/lzfse", "law": "If you need to compress a payload for another platform (for example, Linux or Windows), use LZ4, LZMA, or zlib."}
+{"id": "/documentation/Compression/Algorithm/lzfse", "law": "The LZFSE compression algorithm, which is recommended for use on Apple platforms."}
+{"id": "/documentation/Compression/Algorithm/zlib", "law": "The encoded format is the raw format as described in , the following obtains the equivalent configuration of the encoder: The zlib compression algorithm, which is recommended for cross-platform compression."}
+{"id": "/documentation/Compression/compression_stream", "law": "If no further input will be added to the stream via subsequent calls, should be (otherwise 0)."}
+{"id": "/documentation/Compression/compression_stream_process(_:_:)", "law": "If you don’t provide any more input data, set to and call again."}
+{"id": "/documentation/compression", "law": "The framework offers two methods of compression: Buffer compression uses a single-step method for compressing files, making it perfect for use with uncompressed files under 8 MB, or compressed files under 1 MB."}
+{"id": "/documentation/compression", "law": "To use buffer compression, you compress or decompress the input data with one call to the corresponding function."}
+{"id": "/documentation/compression", "law": "To use stream compression, you call the compression or decompression function repeatedly to compress or decompress data from a source buffer to a destination buffer."}
+{"id": "/documentation/compression/algorithm/brotli", "law": "The Brotli compression algorithm, which is recommended for text compression."}
+{"id": "/documentation/compression/algorithm/lz4", "law": "Do not read or write any further data beyond this header."}
+{"id": "/documentation/compression/algorithm/lz4", "law": "If you are implementing a wrapper for a raw LZ4 decoder, keep in mind that a compressed block may refer to data from the previous block, so the (decoded) previous block must be available to the decoder."}
+{"id": "/documentation/compression/algorithm/lz4", "law": "The LZ4 compression algorithm, which is recommended for fast compression."}
+{"id": "/documentation/compression/algorithm/lzfse", "law": "LZFSE is Apple’s proprietary compression algorithm, matching the compression ratio of zlib level 5, but with much higher energy efficiency and speed (between 2x and 3x) for both encode and decode operations."}
+{"id": "/documentation/compression/algorithm/lzfse", "law": "Use LZFSE when compressing a payload for iOS, macOS, watchOS, and tvOS."}
+{"id": "/documentation/compression/algorithm/lzfse", "law": "If you need to compress a payload for another platform (for example, Linux or Windows), use LZ4, LZMA, or zlib."}
+{"id": "/documentation/compression/algorithm/lzfse", "law": "The LZFSE compression algorithm, which is recommended for use on Apple platforms."}
+{"id": "/documentation/compression/algorithm/lzma", "law": "The LZMA compression algorithm, which is recommended for high-compression ratio."}
+{"id": "/documentation/compression/algorithm/zlib", "law": "The encoded format is the raw format as described in , the following obtains the equivalent configuration of the encoder: The zlib compression algorithm, which is recommended for cross-platform compression."}
+{"id": "/documentation/compression/compression_lzfse", "law": "It pairs an LZ77-style match finder with Finite State Entropy (FSE, a variant of tabled Asymmetric Numeral Systems) to encode literals and match metadata, which lets it match the compression ratio of (zlib level 5) while running 2x to 3x faster for both encoding and decoding."}
+{"id": "/documentation/compression/compression_lzfse", "law": "For new Apple-only code, prefer — it typically compresses a bit better than LZFSE, encodes significantly faster, and decodes slightly faster."}
+{"id": "/documentation/compression/compression_lzfse", "law": "If a payload needs to be decoded on another platform such as Linux or Windows, use , , or instead."}
+{"id": "/documentation/compression/compression_lzfse", "law": "LZFSE is supported by both the buffer API — and — and the streaming API via , so you can use it for in-memory payloads or for processing data incrementally as it arrives."}
+{"id": "/documentation/compression/compression_lzfse", "law": "The LZFSE compression algorithm, which is recommended for use on Apple platforms."}
+{"id": "/documentation/compression/compression_zlib", "law": "The encoded format is the raw format as described in , the following obtains the equivalent configuration of the encoder: The zlib compression algorithm, which is recommended for cross-platform compression."}
+{"id": "/documentation/compression/compression_algorithm", "law": "Choose an algorithm according to the following guidelines: If speed and compression ratio are important, use ."}
+{"id": "/documentation/compression/compression_algorithm", "law": "If you require interoperability with non-Apple devices, use ."}
+{"id": "/documentation/compression/compression_algorithm", "law": "If speed is critical, and you’re willing to sacrifice compression ratio to achieve it, use ."}
+{"id": "/documentation/compression/compression_algorithm", "law": "If compression ratio is critical, and you can sacrifice speed to achieve it, use ."}
+{"id": "/documentation/compression/compression_algorithm", "law": "When compression ratio and performance are equally important, use to favor compression ratio and to favor performance."}
+{"id": "/documentation/compression/compression_stream", "law": "If no further input will be added to the stream via subsequent calls, should be (otherwise 0)."}
+{"id": "/documentation/compression/compression_stream/state", "law": "You should not directly access this field."}
+{"id": "/documentation/compression/compression_stream_process(_:_:)", "law": "If you don’t provide any more input data, set to and call again."}
+{"id": "/documentation/Compression/COMPRESSION_LZMESH", "law": "LZMESH decodes 3.5x faster than on Apple silicon."}
+{"id": "/documentation/Compression/COMPRESSION_LZMESH", "law": "The decoder requires only 64 KB of scratch memory, making it well suited for memory-constrained environments."}
+{"id": "/documentation/Compression/COMPRESSION_LZMESH", "law": "The LZMESH compression algorithm, which is recommended for fast, general-purpose compression on Apple platforms."}
+{"id": "/documentation/Compression/COMPRESSION_ZLIB", "law": "The encoded format is the raw format as described in , the following obtains the equivalent configuration of the encoder: The zlib compression algorithm, which is recommended for cross-platform compression."}

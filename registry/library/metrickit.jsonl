@@ -1,0 +1,29 @@
+{"id": "/documentation/MetricKit/track-performance-by-app-state-using-metrickit", "law": "As you use the app on your device, MetricKit collects performance data in the background."}
+{"id": "/documentation/MetricKit/track-performance-by-app-state-using-metrickit", "law": "The person can also change the active variant from the MetricKit Sample settings in the Settings app, which provides a “Use Card Layout” toggle under the “A/B Test” group."}
+{"id": "/documentation/MetricKit/track-performance-by-app-state-using-metrickit", "law": "You can also use with this handle, but only populates the measurement properties such as CPU time, memory usage, and logical writes."}
+{"id": "/documentation/MetricKit/track-performance-by-app-state-using-metrickit", "law": "The sample demonstrates how to use this pattern to prompt someone for additional context in debug builds."}
+{"id": "/documentation/MetricKit", "law": "For apps running in visionOS, the framework supports diagnostics for crashes, hangs, high energy use, and disk writes, but doesn’t report performance metrics."}
+{"id": "/documentation/MetricKit", "law": "Use this data to improve the performance of your iOS app, macOS app, or Mac Catalyst app."}
+{"id": "/documentation/metrickit", "law": "For apps running in visionOS, the framework supports diagnostics for crashes, hangs, high energy use, and disk writes, but doesn’t report performance metrics."}
+{"id": "/documentation/metrickit", "law": "Use this data to improve the performance of your iOS app, macOS app, or Mac Catalyst app."}
+{"id": "/documentation/metrickit/analyzing-app-performance-with-metrickit", "law": "carries individual metric values (scalars, histograms, or statistics depending on the metric), and you can use the property to route them to category-specific handlers."}
+{"id": "/documentation/metrickit/analyzing-app-performance-with-metrickit", "law": "You can use to filter the array without writing an exhaustive switch."}
+{"id": "/documentation/metrickit/analyzing-app-performance-with-metrickit", "law": "Use them to understand how your app’s storage breaks down between executable code and user data: provides frame statistics for a specific Metal layer, including the layer name, frame count, active drawing duration, and a frames-per-second measurement:"}
+{"id": "/documentation/metrickit/analyzing-app-performance-with-metrickit", "law": "The two environments have different optionality: is optional, while is required."}
+{"id": "/documentation/metrickit/crashdiagnostic", "law": "Use to correlate this crash with the aggregate termination counts in and : A diagnostic report that describes a crash that occurred."}
+{"id": "/documentation/metrickit/metricmanager", "law": "Both are typed properties that never throw, so you iterate them with in long-lived tasks: To receive metrics segmented by app state, pass a set of values to ."}
+{"id": "/documentation/metrickit/metricmanager/tracklaunchtask(id:ontrackingerror:_:)-jnu1", "law": "Use this method to wrap synchronous work that extends your app’s perceived launch time."}
+{"id": "/documentation/metrickit/metricmanager/tracklaunchtask(id:ontrackingerror:_:)-jnu1", "law": "Pass an closure to observe values without interrupting the tracked work: To track asynchronous launch work instead, use ."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "When you use the framework to describe your app’s behavior, MetricKit can attribute metrics like scroll hitch time or slow app launch to a particular feature, an app-configurable setting, or any other labeled states that you define."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "Use a single instance that registers all the domains your app needs, which reduces overhead and simplifies observation."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "Use the attribute to define a state type, then call to get a reporter and to signal state changes: automatically generates the conformance from the struct’s stored properties."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "Use to consume each as it arrives."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "Use simulated reports to understand the structure of MetricKit reports and to test your in-app implementation for report handling."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "For a dynamic number of concurrent tasks, use instead."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "When you don’t register any state reporting domains, is empty and all performance data appears in the full-day interval entry, accessible through , with an empty array."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "You can also use with the handle from , but it doesn’t populate the measurement properties."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "Use to populate properties like CPU time, memory usage, and logical writes."}
+{"id": "/documentation/metrickit/monitoring-app-performance-with-metrickit", "law": "To tag a signpost as an animation interval and populate , , and , use instead."}
+{"id": "/documentation/metrickit/mxsignpost(_:dso:log:name:signpostid:_:_:)", "law": "Don’t alter the parameters , , or ."}
+{"id": "/documentation/metrickit/statereportingdomain", "law": "Use reverse DNS notation to avoid naming collisions: Pass a set of values to to receive metrics segmented by each domain’s recorded states."}
+{"id": "/documentation/metrickit/statereportingdomain", "law": "Use from the framework to obtain a ."}

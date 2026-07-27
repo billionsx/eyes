@@ -1,0 +1,48 @@
+{"id": "/documentation/Speech/recognizing-speech-in-live-audio", "law": "This sample project shows you how to use the Speech framework to transcribe or caption audio, and how to use a custom language model to add new vocabulary and improve the accuracy of the transcription."}
+{"id": "/documentation/Speech/recognizing-speech-in-live-audio", "law": "The hint provides the transcriber with the specialized chess vocabulary described in the section below, helping to ensure that the app transcribes that vocabulary correctly."}
+{"id": "/documentation/Speech/recognizing-speech-in-live-audio", "law": "The speech analyzer processes audio taken from an asynchronous sequence; the app must convert the audio to a format that the transcriber module can work with and add it to that sequence."}
+{"id": "/documentation/Speech/recognizing-speech-in-live-audio", "law": "To avoid concurrency-related compilation errors, the app actually saves the session instance in an actor and manages the session through that actor."}
+{"id": "/documentation/Speech/recognizing-speech-in-live-audio", "law": "The task group uses Swift’s structured concurrency mechanism to ensure that both subtasks run to completion before returns."}
+{"id": "/documentation/Speech/recognizing-speech-in-live-audio", "law": "When the app launches, it uses to ensure that any necessary transcription assets install."}
+{"id": "/documentation/Speech/recognizing-speech-in-live-audio", "law": "Developers can enhance the transcriber module for specific use cases and applications by customizing its language model."}
+{"id": "/documentation/Speech", "law": "Use the Speech framework to recognize spoken words in recorded or live audio."}
+{"id": "/documentation/Speech", "law": "This framework provides a similar behavior, except that you can use it without the presence of the keyboard."}
+{"id": "/documentation/Speech", "law": "For example, you might use speech recognition to recognize verbal commands or to handle text dictation in other parts of your app."}
+{"id": "/documentation/Speech", "law": "For a general understanding of how you use these classes together, see ."}
+{"id": "/documentation/speech", "law": "Use the Speech framework to recognize spoken words in recorded or live audio."}
+{"id": "/documentation/speech", "law": "This framework provides a similar behavior, except that you can use it without the presence of the keyboard."}
+{"id": "/documentation/speech", "law": "For example, you might use speech recognition to recognize verbal commands or to handle text dictation in other parts of your app."}
+{"id": "/documentation/speech", "law": "For a general understanding of how you use these classes together, see ."}
+{"id": "/documentation/speech/assetinventory", "law": "Before using the class, you must install assets required by the modules you plan to use."}
+{"id": "/documentation/speech/assetinventory", "law": "Once you download, install, or use an asset, the system retains and updates it automatically, and shares it with other apps."}
+{"id": "/documentation/speech/assetinventory", "law": "Installing an asset is a four-step process: Create analyzer modules in the configurations that you wish to use."}
+{"id": "/documentation/speech/assetinventory", "law": "Start downloading the required assets for the modules’ configuration."}
+{"id": "/documentation/speech/recognizing-speech-in-live-audio", "law": "This sample project shows you how to use the Speech framework to transcribe or caption audio, and how to use a custom language model to add new vocabulary and improve the accuracy of the transcription."}
+{"id": "/documentation/speech/recognizing-speech-in-live-audio", "law": "The hint provides the transcriber with the specialized chess vocabulary described in the section below, helping to ensure that the app transcribes that vocabulary correctly."}
+{"id": "/documentation/speech/recognizing-speech-in-live-audio", "law": "The speech analyzer processes audio taken from an asynchronous sequence; the app must convert the audio to a format that the transcriber module can work with and add it to that sequence."}
+{"id": "/documentation/speech/recognizing-speech-in-live-audio", "law": "To avoid concurrency-related compilation errors, the app actually saves the session instance in an actor and manages the session through that actor."}
+{"id": "/documentation/speech/recognizing-speech-in-live-audio", "law": "The task group uses Swift’s structured concurrency mechanism to ensure that both subtasks run to completion before returns."}
+{"id": "/documentation/speech/recognizing-speech-in-live-audio", "law": "When the app launches, it uses to ensure that any necessary transcription assets install."}
+{"id": "/documentation/speech/recognizing-speech-in-live-audio", "law": "Developers can enhance the transcriber module for specific use cases and applications by customizing its language model."}
+{"id": "/documentation/speech/speechanalyzer", "law": "Many use cases only need a module, which performs speech-to-text transcriptions."}
+{"id": "/documentation/speech/speechanalyzer", "law": "In particular, where an Objective-C API might use a delegate to provide results to you, the Swift API’s modules provides their results via an ."}
+{"id": "/documentation/speech/speechanalyzer", "law": "Ensure the relevant assets are installed or already present."}
+{"id": "/documentation/speech/speechanalyzer", "law": "Create an input sequence you can use to provide the spoken audio."}
+{"id": "/documentation/speech/speechanalyzer", "law": "To do this: Create an asynchronous input sequence of elements that is appropriate for your use case."}
+{"id": "/documentation/speech/speechanalyzer", "law": "To convert audio buffers to a supported format as objects on the fly, use ."}
+{"id": "/documentation/speech/speechanalyzer", "law": "You can and usually should perform analysis using the or methods; those methods work well with Swift structured concurrency techniques."}
+{"id": "/documentation/speech/speechanalyzer", "law": "However, you may prefer that the analyzer proceed independently and perform its analysis autonomously as audio input becomes available in a task managed by the analyzer itself."}
+{"id": "/documentation/speech/speechanalyzer", "law": "To use this capability, create the analyzer with one of the initializers that has an input sequence or file parameter, or call or ."}
+{"id": "/documentation/speech/speechanalyzer", "law": "By default, the analyzer and modules load the system resources that they require lazily, and unload those resources when they’re deallocated."}
+{"id": "/documentation/speech/dictationtranscriber", "law": "For example, you may use hint to improve accuracy of distant speech."}
+{"id": "/documentation/speech/speechanalyzer/analyzesequence(_:)", "law": "You may use this value for the parameter of (or other methods)."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "Many use cases only need a module, which performs speech-to-text transcriptions."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "In particular, where an Objective-C API might use a delegate to provide results to you, the Swift API’s modules provides their results via an ."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "Ensure the relevant assets are installed or already present."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "Create an input sequence you can use to provide the spoken audio."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "To do this: Create an asynchronous input sequence of elements that is appropriate for your use case."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "To convert audio buffers to a supported format as objects on the fly, use ."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "You can and usually should perform analysis using the or methods; those methods work well with Swift structured concurrency techniques."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "However, you may prefer that the analyzer proceed independently and perform its analysis autonomously as audio input becomes available in a task managed by the analyzer itself."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "To use this capability, create the analyzer with one of the initializers that has an input sequence or file parameter, or call or ."}
+{"id": "/documentation/Speech/SpeechAnalyzer", "law": "By default, the analyzer and modules load the system resources that they require lazily, and unload those resources when they’re deallocated."}

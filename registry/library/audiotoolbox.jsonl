@@ -1,0 +1,56 @@
+{"id": "/documentation/AudioToolbox/encoding-and-decoding-audio", "law": "Some audio formats have a magic cookie that the converter requires to decompress audio data."}
+{"id": "/documentation/AudioToolbox/encoding-and-decoding-audio", "law": "If one changes, the other must match."}
+{"id": "/documentation/AudioToolbox/encoding-and-decoding-audio", "law": "If the audio format calls for packet descriptions, they should also be consistent with and ."}
+{"id": "/documentation/AudioToolbox/generating-spatial-audio-from-a-multichannel-audio-stream", "law": "To generate spatialized audio from a multichannel audio stream, you use a spatial mixer audio unit (AUSM)."}
+{"id": "/documentation/AudioToolbox/generating-spatial-audio-from-a-multichannel-audio-stream", "law": "Use for an object to render the input signal as a single source, except if rendering in-head with ."}
+{"id": "/documentation/AudioToolbox/incorporating-audio-effects-and-instruments", "law": "This sample app shows you how to use AU plug-ins in your iOS and macOS apps."}
+{"id": "/documentation/AudioToolbox/incorporating-audio-effects-and-instruments", "law": "You must avoid blocking your application’s main thread when instantiating an Audio Unit."}
+{"id": "/documentation/AudioToolbox/incorporating-audio-effects-and-instruments", "law": "However, the interprocess communication required of this model adds some small but potentially significant overhead."}
+{"id": "/documentation/AudioToolbox/incorporating-audio-effects-and-instruments", "law": "In both platforms, these plug-ins are always run as part of the host app’s process."}
+{"id": "/documentation/AudioToolbox/incorporating-audio-effects-and-instruments", "law": "The view configuration object’s property indicates whether the host app should show its control surface for the view configuration."}
+{"id": "/documentation/AudioToolbox/incorporating-audio-effects-and-instruments", "law": "The host app should respect this setting and update its user interface accordingly."}
+{"id": "/documentation/AudioToolbox/incorporating-audio-effects-and-instruments", "law": "To create a new user preset, first create an instance of and give it a user-defined name and a negative value (user presets require a negative value for this property)."}
+{"id": "/documentation/AudioToolbox/AUAudioUnit", "law": "Version 3 audio units should subclass the class."}
+{"id": "/documentation/AudioToolbox/AUAudioUnit", "law": "The principal class must conform to the protocol, which will typically instantiate an subclass."}
+{"id": "/documentation/AudioToolbox/AUAudioUnit", "law": "Use the convention when naming your audio unit component."}
+{"id": "/documentation/AudioToolbox/AUAudioUnit", "law": "Version 2 audio units should subclass the class instead."}
+{"id": "/documentation/AudioToolbox/AUAudioUnit/fullStateForDocument", "law": "Hosts may use this property to save and restore the state of an audio unit being used."}
+{"id": "/documentation/AudioToolbox/AUAudioUnit/fullStateForDocument", "law": "Subclasses that do not implement this property interface with the property instead."}
+{"id": "/documentation/AudioToolbox/AUAudioUnitFactory", "law": "In most cases, if your audio unit specifies parameters to configure its behavior, it should provide a custom user interface to control those parameters."}
+{"id": "/documentation/AudioToolbox/AUAudioUnitFactory", "law": "In this case, the hosting app must create a generic user interface for your audio unit."}
+{"id": "/documentation/AudioToolbox/AUAudioUnitFactory/createAudioUnit(with:)", "law": "In this scenario, you should return an object with a reference count of 1, but autoreleased."}
+{"id": "/documentation/AudioToolbox/AUParameterNode/implementorValueObserver", "law": "It should store the new value in its audio signal processing state (assuming that state is separate from the parameter object)."}
+{"id": "/documentation/AudioToolbox/AUParameterNode/implementorValueProvider", "law": "The audio unit should return the current value for this parameter; the parameter node object then stores this value."}
+{"id": "/documentation/AudioToolbox/AUParameterTree", "law": "An audio unit may choose to dynamically rearrange the tree; when doing so, it must issue a KVO notification on the audio unit’s property."}
+{"id": "/documentation/AudioToolbox/AudioUnitElement", "law": "The Global scope always has exactly one element—element 0."}
+{"id": "/documentation/audiotoolbox/audioconverterconvertbuffer(_:_:_:_:_:)", "law": "To perform these types of conversion, use instead."}
+{"id": "/documentation/audiotoolbox/audioconverterconvertcomplexbuffer(_:_:_:_:)", "law": "In these cases, instead use the function."}
+{"id": "/documentation/audiotoolbox/audioconverterconvertcomplexbuffer(_:_:_:_:)", "law": "Converts audio data from one linear PCM format to another, where both use the same sample rate."}
+{"id": "/documentation/audiotoolbox/audioconverterfillcomplexbuffer(_:_:_:_:_:_:)", "law": "Use this function for all audio data format conversions except for the special case of converting from one linear PCM format to another with no sample rate conversion."}
+{"id": "/documentation/audiotoolbox/audiofilereadpacketdata(_:_:_:_:_:_:_:)", "law": "This function is more efficient than when reading compressed file formats that do not have packet tables, such as MP3 or ADTS."}
+{"id": "/documentation/audiotoolbox/audiofilereadpacketdata(_:_:_:_:_:_:_:)", "law": "This function is a good choice for reading either CBR (constant bit-rate) or VBR data if you do not need to read a fixed duration of audio."}
+{"id": "/documentation/audiotoolbox/audiofilereadpacketdata(_:_:_:_:_:_:_:)", "law": "If you do need to read a fixed duration of audio, whether CBR or VBR, use instead."}
+{"id": "/documentation/audiotoolbox/audio-components", "law": "Use the Audio Components API to register and discover audio units, codecs, and other loadable code modules."}
+{"id": "/documentation/audiotoolbox/auaudiounit", "law": "Version 3 audio units should subclass the class."}
+{"id": "/documentation/audiotoolbox/auaudiounit", "law": "The principal class must conform to the protocol, which will typically instantiate an subclass."}
+{"id": "/documentation/audiotoolbox/auaudiounit", "law": "Use the convention when naming your audio unit component."}
+{"id": "/documentation/audiotoolbox/auaudiounit", "law": "Version 2 audio units should subclass the class instead."}
+{"id": "/documentation/audiotoolbox/auaudiounitfactory", "law": "In most cases, if your audio unit specifies parameters to configure its behavior, it should provide a custom user interface to control those parameters."}
+{"id": "/documentation/audiotoolbox/auaudiounitfactory", "law": "In this case, the hosting app must create a generic user interface for your audio unit."}
+{"id": "/documentation/audiotoolbox/auaudiounitv2bridge", "law": "If so, the audio unit’s component description should refer to a registered component with a version 2 implementation by using a factory function."}
+{"id": "/documentation/audiotoolbox/auaudiounitv2bridge", "law": "Hosts should not access this class; it will be instantiated if needed when creating an audio unit."}
+{"id": "/documentation/audiotoolbox/audiounitextensionsetcomponentlist(_:_:)", "law": "The bundle identifier of the process that calls this function must prefix or match the extension identifier."}
+{"id": "/documentation/audiotoolbox/auheadtrackingbinauralrenderer", "law": "Only the audio mix engine may use AUHeadTrackingBinauralRenderer Audio Units to provide on demand Bluetooth head tracking support."}
+{"id": "/documentation/audiotoolbox/debugging-out-of-process-audio-units-on-apple-silicon", "law": "Attaching to system processes requires disabling system integrity protection in macOS before debugging."}
+{"id": "/documentation/audiotoolbox/debugging-out-of-process-audio-units-on-apple-silicon", "law": "The process name to use depends on the host, as well as the architectures of the host and plugin."}
+{"id": "/documentation/audiotoolbox/debugging-out-of-process-audio-units-on-apple-silicon", "law": "Debugging is generally a seamless process, but if you encounter issues, consider the following: When setting audio unit properties, don’t assume callbacks happen on the main thread."}
+{"id": "/documentation/audiotoolbox/debugging-out-of-process-audio-units-on-apple-silicon", "law": "The differences in the way mouse-tracking APIs work can lead to processing mouse events in unexpected ways, so use event deltas for calculations that involve mouse movement."}
+{"id": "/documentation/audiotoolbox/debugging-out-of-process-audio-units-on-apple-silicon", "law": "If custom, free-floating dialogs don’t work as you expect, add them as a subwindow to the main window — this includes custom tooltip and drop-down menu implementations."}
+{"id": "/documentation/audiotoolbox/debugging-out-of-process-audio-units-on-apple-silicon", "law": "The Core Audio framework must handle this, so if you have a specific need, submit a feedback request."}
+{"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "Customer installations of your app can use the framework only on devices located in the EU that are signed in with an Apple Account with an EU country or region."}
+{"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "The system identifies your audio unit using the type, which requires the component type , the four-character code ."}
+{"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "Include the type, a four-character subtype unique to your audio unit, a four-character manufacturer code, a display name, and a version number: The App Extension’s principal class must conform to and implement to return an instance of your subclass:"}
+{"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "The system sets this KVO-compliant property; you don’t have to set it yourself."}
+{"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "The system sets this KVO-compliant property lets you know when to begin or stop retrieving head tracking data; you don’t have to set it yourself."}
+{"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "Don’t store this value; it isn’t a UUID, despite being a string."}
+{"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "When the property becomes non- , use the value to request head orientation data from ."}

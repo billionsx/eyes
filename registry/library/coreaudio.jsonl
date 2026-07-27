@@ -1,0 +1,21 @@
+{"id": "/documentation/CoreAudio/building-an-audio-server-plug-in-and-driver-extension", "law": "To bypass this configuration and use ad hoc signing to test the driver in your local development environment, perform the following steps: Disable System Integrity Protection (SIP) on your system so it recognizes ad hoc-signed DriverKit extensions."}
+{"id": "/documentation/CoreAudio/building-an-audio-server-plug-in-and-driver-extension", "law": "Configure the target to use local signing."}
+{"id": "/documentation/CoreAudio/building-an-audio-server-plug-in-and-driver-extension", "law": "Use the included installer script to install the driver on your system."}
+{"id": "/documentation/CoreAudio/capturing-system-audio-with-core-audio-taps", "law": "This sample code project shows you how to use a tap as an input in a HAL aggregate device, just like a microphone."}
+{"id": "/documentation/CoreAudio/capturing-system-audio-with-core-audio-taps", "law": "To use a tap as an input source, add it to an aggregate device that you configure for playback."}
+{"id": "/documentation/CoreAudio/capturing-system-audio-with-core-audio-taps", "law": "First get the tap’s unique identifier by passing the selector and the tap’s audio object ID to : Then use the selector to get and set the list of taps in an aggregate device."}
+{"id": "/documentation/CoreAudio/capturing-system-audio-with-core-audio-taps", "law": "Before you run the sample code project in Xcode, ensure that you’re using macOS 14.2 or later."}
+{"id": "/documentation/CoreAudio/capturing-system-audio-with-core-audio-taps", "law": "Use a Core Audio tap to capture outgoing audio from a process or group of processes."}
+{"id": "/documentation/CoreAudio/creating-an-audio-server-driver-plug-in", "law": "Use Audio MIDI Setup to inspect the newly installed device."}
+{"id": "/documentation/CoreAudio", "law": "Use the Core Audio framework to interact with device’s audio hardware."}
+{"id": "/documentation/coreaudio", "law": "Use the Core Audio framework to interact with device’s audio hardware."}
+{"id": "/documentation/coreaudio/capturing-system-audio-with-core-audio-taps", "law": "This sample code project shows you how to use a tap as an input in a HAL aggregate device, just like a microphone."}
+{"id": "/documentation/coreaudio/capturing-system-audio-with-core-audio-taps", "law": "To use a tap as an input source, add it to an aggregate device that you configure for playback."}
+{"id": "/documentation/coreaudio/capturing-system-audio-with-core-audio-taps", "law": "First get the tap’s unique identifier by passing the selector and the tap’s audio object ID to : Then use the selector to get and set the list of taps in an aggregate device."}
+{"id": "/documentation/coreaudio/capturing-system-audio-with-core-audio-taps", "law": "Before you run the sample code project in Xcode, ensure that you’re using macOS 14.2 or later."}
+{"id": "/documentation/coreaudio/capturing-system-audio-with-core-audio-taps", "law": "Use a Core Audio tap to capture outgoing audio from a process or group of processes."}
+{"id": "/documentation/coreaudio/creating-an-audio-server-driver-plug-in", "law": "Use Audio MIDI Setup to inspect the newly installed device."}
+{"id": "/documentation/coreaudio/audioobjectsetpropertydata(_:_:_:_:_:_:)", "law": "Note that the value of the property should not be considered changed until the HAL has called the listeners as many properties values are changed asynchronously."}
+{"id": "/documentation/coreaudio/building-an-audio-server-plug-in-and-driver-extension", "law": "To bypass this configuration and use ad hoc signing to test the driver in your local development environment, perform the following steps: Disable System Integrity Protection (SIP) on your system so it recognizes ad hoc-signed DriverKit extensions."}
+{"id": "/documentation/coreaudio/building-an-audio-server-plug-in-and-driver-extension", "law": "Configure the target to use local signing."}
+{"id": "/documentation/coreaudio/building-an-audio-server-plug-in-and-driver-extension", "law": "Use the included installer script to install the driver on your system."}

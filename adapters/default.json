@@ -1,0 +1,44 @@
+{
+ "project": "default",
+ "enabled": false,
+ "created": "2026-07-27",
+ "pt_to_css_px": 1,
+ "repo": "",
+ "branch": "main",
+ "prod": "",
+ "live_pages": [],
+ "deploy_workflow": "",
+ "allow_extra": [],
+ "sizes_extra": [],
+ "radius_extra": [],
+ "report": {
+  "globs": [
+   "src/**/*.css",
+   "src/**/*.tsx",
+   "src/**/*.ts",
+   "src/**/*.jsx",
+   "src/**/*.vue",
+   "src/**/*.swift"
+  ],
+  "rules": [
+   "AE1",
+   "AE2",
+   "AE3",
+   "AE4",
+   "AE5",
+   "AE6",
+   "AE7",
+   "AE8",
+   "AE9",
+   "AE10",
+   "AE11",
+   "AE12",
+   "AE13"
+  ]
+ },
+ "strict": {
+  "globs": [],
+  "rules": []
+ },
+ "_порядок": "шаблон паспорта. Новый проект подключается командой `python3 bin/eyes.py attach --project <имя> --repo <owner/name> --prod <url> --globs \"src/**/*.css,src/**/*.tsx\"`. Новый проект всегда начинает в режиме report (советник); правило переводится в strict, когда его долг равен нулю (ст. 7.4)."
+}

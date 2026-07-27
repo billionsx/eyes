@@ -1,0 +1,43 @@
+# Technologies - Apple Developer
+# https://developer.apple.com/technologies/
+# снято: 2026-07-24 17:43 UTC
+
+## h2: Explore Get Started
+## h2: Stay Updated
+## h2: Explore Platforms
+## h2: Featured
+## h2: Explore Technologies
+## h2: Featured
+## h2: Explore Community
+## h2: Featured
+## h2: Explore Documentation
+## h2: Release Notes
+## h2: Explore Downloads
+## h2: Featured
+## h2: Explore Support
+## h2: Featured
+## h2: Quick Links
+## h1: Bring your ideas to life
+## h2: Xcode
+## h2: Swift
+## h2: Built for Swift
+## h2: Featured technologies
+## h2: Tools and frameworks
+## h4: Tools
+## h4: Languages and core frameworks
+## h4: Capabilities and system integration
+## h4: Commerce
+## h4: Privacy and security
+## h4: Media and services
+## h4: Graphics, games, and spatial computing
+## h2: Developer Footer
+## h3: Platforms
+## h3: Tools
+## h3: Technologies
+## h3: Resources
+## h3: Support
+## h3: Account
+## h3: Programs
+## h3: Events
+
+Technologies - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community-driven events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos Bring your ideas to life With the power of Xcode, the ease of Swift, and the revolutionary features of cutting-edge Apple technologies, you have the freedom to create your most innovative apps ever. Find out what’s new from WWDC Xcode Xcode offers the tools you need to develop, test, and distribute apps for Apple platforms. Learn about Xcode Swift Swift is a powerful and intuitive programming language for all Apple platforms. Learn about Swift Built for Swift Swift-based frameworks that let you easily build app interfaces, manage data, and test code across Apple platforms. SwiftUI SwiftData Swift Testing Featured technologies Accessibility App Intents App Store Apple Intelligence AI & Machine Learning Games Security Metal Xcode Cloud Tools and frameworks Tools App Store Connect CloudKit Console Command Line Tools Core AI Debugger Feedback Assistant Game Porting Toolkit Icon Composer Maps Tools Metal Developer Tools Pass Designer Push Notifications Console Reality Composer Pro SF Symbols Swift Playground TestFlight Transporter Xcode Xcode Cloud Languages and core frameworks Swift SwiftUI Swift Testing SwiftData AppKit UIKit C++ Capabilities and system integration App extensions Accessibility Accessories AI & Machine Learning Apple Home Apple Intelligence App Intents CarPlay Core AI Foundation models Health and fitness iMessage apps and stickers iCloud and CloudKit Localization Maps and location Notifications Safari and web SharePlay Siri WebKit Widgets Commerce In-App Purchase Apple Pay Apple Wallet StoreKit Tap to Pay on iPhone Privacy and security Child safety Face ID and Touch ID Passkeys Security Sign in with Apple Media and services Apple Immersive Video Apple News Format Audio Audio and video HTTP Live Streaming (HLS) MusicKit ShazamKit WeatherKit Graphics, games, and spatial computing Accelerate Apple Arcade Apple Games app Augmented reality Games technologies Game Center Metal RealityKit Developer Footer Technologies Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness In-App Purchase Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines

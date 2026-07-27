@@ -1,0 +1,6 @@
+{"id": "/documentation/AdSupport", "law": "Use the AdSupport framework to obtain an advertising identifier."}
+{"id": "/documentation/AdSupport", "law": "The is an alphanumeric string that’s unique to each device, and which you only use for advertising."}
+{"id": "/documentation/AdSupport", "law": "On devices running iOS 14.5 and later and iPadOS 14.5 and later, your app must support and define the purpose string before it can get the property."}
+{"id": "/documentation/AdSupport", "law": "Before requesting the advertising identifier for the first time, your app must make a one-time call to ."}
+{"id": "/documentation/AdSupport", "law": "To get the advertising identifier, follow these steps: Use the AdSupport framework to call the class method to retrieve an instance of ."}
+{"id": "/documentation/AdSupport", "law": "Use the property to obtain the UUID."}

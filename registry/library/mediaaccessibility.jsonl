@@ -1,0 +1,5 @@
+{"id": "/documentation/MediaAccessibility/responding-to-changes-in-the-flashing-lights-setting", "law": "Dim Flashing Lights is a setting that allows a person to indicate that they want to avoid bright, frequent flashes of light on their Apple device."}
+{"id": "/documentation/MediaAccessibility/responding-to-changes-in-the-flashing-lights-setting", "law": "To change the setting, open Settings > Accessibility > Motion and turn on Dim Flashing Lights."}
+{"id": "/documentation/mediaaccessibility/flashing-lights", "law": "People might want to avoid bright, frequent flashes of light in the media they consume."}
+{"id": "/documentation/mediaaccessibility/maflashinglightsprocessor", "law": "If your app performs custom video drawing instead of using APIs, you can use the class to detect and mitigate sequences of flashing effects in your video content."}
+{"id": "/documentation/MediaAccessibility/flashing-lights", "law": "People might want to avoid bright, frequent flashes of light in the media they consume."}

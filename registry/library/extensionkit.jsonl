@@ -1,0 +1,3 @@
+{"id": "/documentation/ExtensionKit", "law": "System features typically provide a custom workflow for building the associated app extension, but still use this framework to implement support for those features."}
+{"id": "/documentation/ExtensionKit", "law": "Adopt in your app extensions and use it to define the views you want to display."}
+{"id": "/documentation/ExtensionKit", "law": "In a host app, use this framework to present the interfaces that app extensions provide."}

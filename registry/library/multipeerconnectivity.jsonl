@@ -1,0 +1,9 @@
+{"id": "/documentation/MultipeerConnectivity", "law": "Apps that use the local network must provide a usage string in their with the key ."}
+{"id": "/documentation/MultipeerConnectivity", "law": "Apps that use Bonjour must also declare the services they browse, using the key."}
+{"id": "/documentation/MultipeerConnectivity", "law": "When working with the Multipeer Connectivity framework, your app must interact with several types of objects: Session objects ( ) support communication between connected peer devices."}
+{"id": "/documentation/MultipeerConnectivity", "law": "If you wish to provide your own user interface, or if you wish to exercise additional programmatic control over which invitations are displayed, use an advertiser object directly."}
+{"id": "/documentation/MultipeerConnectivity", "law": "Upon returning to the foreground, the framework automatically resumes advertising and browsing, but the developer must reestablish any closed sessions."}
+{"id": "/documentation/MultipeerConnectivity/MCNearbyServiceAdvertiser", "law": "Before you can advertise a service, you must create an object that identifies your app and the user to nearby devices."}
+{"id": "/documentation/MultipeerConnectivity/MCNearbyServiceAdvertiser", "law": "It should be in the same format as a Bonjour service type: 1–15 characters long and valid characters include ASCII lowercase letters, numbers, and the hyphen, containing at least one letter and no adjacent hyphens."}
+{"id": "/documentation/MultipeerConnectivity/MCNearbyServiceAdvertiser", "law": "A short name that distinguishes itself from unrelated services is recommended; for example, a text chat app made by ABC company could use the service type ."}
+{"id": "/documentation/MultipeerConnectivity/MCNearbyServiceAdvertiser", "law": "The content of will be advertised within Bonjour TXT records, so you should keep the dictionary small for better discovery performance."}

@@ -1,0 +1,33 @@
+{
+ "url": "https://www.apple.com/retail/geniusbar/",
+ "sections": [
+  "section-hero",
+  "section-prep-steps",
+  "section-possibilities",
+  "section-faq",
+  "section-support"
+ ],
+ "modules": [
+  "name:hero",
+  "name:steps to prep",
+  "name:possibilities",
+  "name:faq",
+  "name:apple support app"
+ ],
+ "imgs": 9,
+ "videos": 0,
+ "cta": 14,
+ "h_levels": {
+  "1": 1,
+  "2": 5,
+  "3": 22
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/retail/assets/global-elements/globalfooter/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localeswitcher/4/en_US/styles/localeswitcher.built.css",
+  "/retail/_next/static/css/e9c9babb11cbec6f.css",
+  "/retail/_next/static/css/019fa0e9f95b102a.css"
+ ],
+ "typography_laws": 3
+}

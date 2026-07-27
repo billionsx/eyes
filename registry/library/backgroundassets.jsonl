@@ -1,0 +1,23 @@
+{"id": "/documentation/BackgroundAssets/downloading-essential-assets-in-the-background", "law": "Before you run the sample code project in Xcode: Configure the WWDC Sessions and WWDC Sessions Background Assets Extension targets to use your Developer team for signing."}
+{"id": "/documentation/BackgroundAssets/downloading-essential-assets-in-the-background", "law": "Fetch the assets your app requires before its first launch using an app extension and the Background Assets framework."}
+{"id": "/documentation/BackgroundAssets", "law": "To use these features: Group your assets into asset packs containing manifest files that specify a download policy and other details."}
+{"id": "/documentation/BackgroundAssets", "law": "Use the Background Assets framework only to download additional assets for your app; don’t use it for any other purposes."}
+{"id": "/documentation/BackgroundAssets", "law": "For example, don’t collect or transmit data to identify a user or device or to perform advertising or advertising measurement."}
+{"id": "/documentation/backgroundassets", "law": "To use these features: Group your assets into asset packs containing manifest files that specify a download policy and other details."}
+{"id": "/documentation/backgroundassets", "law": "Use the Background Assets framework only to download additional assets for your app; don’t use it for any other purposes."}
+{"id": "/documentation/backgroundassets", "law": "For example, don’t collect or transmit data to identify a user or device or to perform advertising or advertising measurement."}
+{"id": "/documentation/backgroundassets/badownload", "law": "You don’t create instances of this object directly."}
+{"id": "/documentation/backgroundassets/badownload", "law": "Instead, use an object that inherits from , such as ."}
+{"id": "/documentation/backgroundassets/badownloadmanager", "law": "Use to schedule and cancel asset downloads, monitor their progress, and access the queue of pending downloads."}
+{"id": "/documentation/backgroundassets/badownloadmanager", "law": "You don’t create instances of this class directly; instead, use the property to access the framework’s singleton that it shares between your app and the app’s extension."}
+{"id": "/documentation/backgroundassets/badownloadmanager", "law": "The following example shows how to create an asset download, acquire exclusive control of the shared download manager, and then use the manager to schedule the download: An object that manages the queue of scheduled asset downloads."}
+{"id": "/documentation/backgroundassets/configuring-an-unmanaged-background-assets-project", "law": "The extension uses the manifest file, which should contains the asset URLs and file sizes, to return a set of download requests to the system."}
+{"id": "/documentation/backgroundassets/configuring-an-unmanaged-background-assets-project", "law": "In the next dialog, click Activate to use the extension scheme Xcode creates."}
+{"id": "/documentation/backgroundassets/configuring-an-unmanaged-background-assets-project", "law": "If you don’t have an Xcode project for your app, first create one from an Application template under the platform you support, such as iOS or macOS."}
+{"id": "/documentation/BackgroundAssets/creating-managed-asset-packs", "law": "Before you can use Managed Background Assets, you need to create asset packs with a manifest file that specifies a download policy and provides other details."}
+{"id": "/documentation/BackgroundAssets/creating-managed-asset-packs", "law": "If you use Apple-Hosted Background Assets, you upload the asset packs to App Store Connect and update them there along with your app builds."}
+{"id": "/documentation/BackgroundAssets/creating-managed-asset-packs", "law": "After you install Xcode, run this command in Terminal to generate a manifest template: Then, enter the information about your asset pack in the manifest file following the instructions in the comments: Set the key to an identifier that you use in your code to access the asset pack."}
+{"id": "/documentation/BackgroundAssets/creating-managed-asset-packs", "law": "Use the key for individual assets and the key for folders that contain assets."}
+{"id": "/documentation/BackgroundAssets/creating-managed-asset-packs", "law": "The paths that you include in the manifest file must be relative to the directory where you run the packaging tool command."}
+{"id": "/documentation/BackgroundAssets/creating-managed-asset-packs", "law": "Next, use the packaging tool command to compress the assets, along with the manifest file, into an archive."}
+{"id": "/documentation/BackgroundAssets/creating-managed-asset-packs", "law": "To use web services, see ."}

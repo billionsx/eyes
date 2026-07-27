@@ -1,0 +1,3 @@
+{"id": "/documentation/MerchantTokenNotificationServices", "law": "You can also use this API to inform Apple Pay servers to invalidate your token when it’s no longer in use."}
+{"id": "/documentation/MerchantTokenNotificationServices", "law": "The API between the device and you, the merchant, requires Transport Layer Security (TLS), and the device presents the merchant-provided to authenticate requests."}
+{"id": "/documentation/MerchantTokenNotificationServices", "law": "Access to the APIs between the Apple Pay server and the merchant requires mutual TLS."}

@@ -1,0 +1,2 @@
+{"id": "/documentation/ImageCaptureCore", "law": "Add the key to your file with a description of your intended use."}
+{"id": "/documentation/ImageCaptureCore", "law": "In macOS 14 and later, use the entitlement key to allow your sandboxed app to interact with USB devices."}

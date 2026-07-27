@@ -1,0 +1,141 @@
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "The app in this sample project demonstrates how to use app extensions to give users the ability to book rides through Siri and Maps."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "However, a few steps are required to test the app’s functionalities."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "Make sure your simulator location is set to “Apple” for the sample to function correctly."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "To enable Siri to recognize and respond to ride-booking requests, you must implement classes that conform to the protocol."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "In every handle method, you must construct an ."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "Make sure you call the block with your response passed in at the end of the function."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "For the Maps context, you don’t need to implement resolve methods."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "At minimum, you only need to implement the handle method to tell the context what ride options are available, and how to handle ride selection."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "To add ride options to Maps, create an object and populate it with, at minimum, , , , and ."}
+{"id": "/documentation/SiriKit/booking-rides-with-sirikit", "law": "To ensure that the ride options show up in Maps, add the , , and keys to your extension’s file under IntentsSupported."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "In the Capabilities pane, make sure that App Groups is switched on for the and targets."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "Each target in the project must preface its bundle identifier with the bundle identifier of the app’s main target."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "For example, if you set the bundle identifier for the target to , then you should set the bundle identifier for the target to ."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "Depending on the command that the user speaks to Siri, your app may have to deal with one of the following scenarios: The initial request specifies all required parameters."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "For example, the user requests, “Send $50 to Jane with Payments.” The request lacks some required parameters."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "Use this method to take input from Siri, match it to a payee, and asynchronously return an by calling , , or ."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "Use to aid Siri with recognizing any domain-specific vocabulary users are likely to use in their voice commands."}
+{"id": "/documentation/SiriKit/handling-payment-requests-with-sirikit", "law": "Use this method to perform the confirmed transaction and pass back the status of the transaction by calling the block."}
+{"id": "/documentation/SiriKit/handling-workout-requests-with-sirikit", "law": "In the Capabilities pane, make sure that App Groups is switched on for the and targets."}
+{"id": "/documentation/SiriKit/handling-workout-requests-with-sirikit", "law": "Each target in the project must preface its bundle identifier with the bundle identifier of the app’s main target."}
+{"id": "/documentation/SiriKit/handling-workout-requests-with-sirikit", "law": "In order for the Intent Extension to handle workout requests, the principal class of the extension must implement the method of ."}
+{"id": "/documentation/SiriKit/handling-workout-requests-with-sirikit", "law": "Use this method to dispatch the request to a class configured to handle it."}
+{"id": "/documentation/SiriKit/handling-workout-requests-with-sirikit", "law": "In order for a class to handle a request from SiriKit to use the workout controls, the class must implement one of the workout intent handler protocols."}
+{"id": "/documentation/SiriKit/handling-workout-requests-with-sirikit", "law": "“Start a workout with Ascent” specifies no parameters, only that a workout should be started."}
+{"id": "/documentation/SiriKit/handling-workout-requests-with-sirikit", "law": "An app must decide how to handle these situations using the available resolution methods for the intent type."}
+{"id": "/documentation/SiriKit/integrating-your-app-with-siri-event-suggestions", "law": "To build this project, use Xcode 12.0 with the iOS 14.0 SDK."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To avoid duplicating code that is common across the two targets, the project includes a shared framework called SoupKit."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "Soup Chef has a key feature that people are likely to use frequently: ordering soup."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To make it easy for users to place an order for soup, it makes sense for the app to add a shortcut for this feature for use with Siri."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "After placing this order a few times using Soup Chef, Siri learns the user’s pattern, and can use that information to predicate when the user might place a similar order."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "This provides a better user experience because the user never leaves their current screen."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To use a custom intent in an app, Xcode needs to generate source code for the items defined in the Intent Definition file."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To specify which target has the generated source code, use the Intent Classes setting in the Target Membership panel."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "For Soup Chef, only the SoupKit target uses the Intent Classes setting; all other targets use the No Generated Classes setting."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "And because SoupKit shares its code with other targets, the other targets can use ."}
+{"id": "/documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "Before Siri can suggest shortcuts to the user, the app must tell Siri about the shortcuts through intent donations."}
+{"id": "/documentation/SiriKit/soup-chef-with-app-intents-migrating-custom-intents", "law": "This version of Soup Chef highlights the changes required to migrate from a custom intent to App Intents."}
+{"id": "/documentation/SiriKit/soup-chef-with-app-intents-migrating-custom-intents", "law": "To avoid duplicating code that is common across the two targets, the project includes a shared framework called SoupKit."}
+{"id": "/documentation/SiriKit/soup-chef-with-app-intents-migrating-custom-intents", "law": "The and use the existing data manager to resolve the entity values."}
+{"id": "/documentation/SiriKit/soup-chef-with-app-intents-migrating-custom-intents", "law": "The method in AppIntents subsumes the resolve, confirm, and handle functionality that was required with custom Intents."}
+{"id": "/documentation/SiriKit/soup-chef-with-app-intents-migrating-custom-intents", "law": "Entities declared in an App Intent can be optional or required."}
+{"id": "/documentation/SiriKit/soup-chef-with-app-intents-migrating-custom-intents", "law": "Handling cases where user input requires confirmation or needs new value are handled explicitly within the function."}
+{"id": "/documentation/SiriKit/soup-chef-with-app-intents-migrating-custom-intents", "law": "To aid with localization of AppShortcuts, use to add support for other locales."}
+{"id": "/documentation/SiriKit", "law": "To implement modern support for these features and integrate your app with Apple Intelligence and Siri AI, use the framework."}
+{"id": "/documentation/SiriKit", "law": "For SiriKit, use the standard intents that the system provides to empower actions users already ask Siri to do, such as playing music or sending a text message."}
+{"id": "/documentation/SiriKit", "law": "With a person’s permission, an installed health research app that uses entitlements may collect Face Metrics data while your SiriKit app is in use."}
+{"id": "/documentation/SiriKit", "law": "To prevent SensorKit from collecting Face Metrics data while your app is in use, you can set the information property list key to ."}
+{"id": "/documentation/SiriKit", "law": "Requesting Authorization to Use Siri."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "Use to receive media intents from Siri and Shortcuts."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "To opt in to Siri media control, you must choose at least one category for your app."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "The system can also use your app’s donations to offer personalized audio suggestions on Lock Screen, in Control Center, and in the Home app."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "If you haven’t already customized the PlayMedia system intent, follow these steps to set that up: If your project doesn’t already have an file, use File > New File and then choose SiriKit Intent Definition File to add one to your project."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "Once you have the PlayMedia system intent in a SiriKit Intent Definition file, make sure that its list of Supported Combinations includes the entry with “mediaContainer” as the only parameter."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "If some media becomes irrelevant or unavailable, use to remove interactions associated with those specific media items."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "Don’t call unless you really mean to reset what the system has learned about the way the user interacts with your app."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "If you need to delete items from the index, use ."}
+{"id": "/documentation/SiriKit/improving-siri-media-interactions-and-app-selection", "law": "You should update the vocabulary as needed, such as when the user renames or deletes a playlist, or begins listening to a particular artist more frequently."}
+{"id": "/documentation/SiriKit/donating-shortcuts", "law": "Users can also use donated shortcuts to add personalized voice phrases to Siri."}
+{"id": "/documentation/SiriKit/donating-shortcuts", "law": "However, don’t make more than one shortcut donation for an action at the time the user performs the action."}
+{"id": "/documentation/SiriKit/donating-shortcuts", "law": "Additionally, don’t make donations for actions the user hasn’t completed in your app; if the user never places an order for soup, don’t donate a shortcut for the order soup action."}
+{"id": "/documentation/SiriKit/donating-shortcuts", "law": "The activity type should be a reverse domain name that’s unique within the list."}
+{"id": "/documentation/SiriKit/donating-shortcuts", "law": "You can also suggest the voice phrase that a user may want to use when adding a phrase to Siri by setting the property on the user activity."}
+{"id": "/documentation/SiriKit/donating-shortcuts", "law": "Use an intent that best describes the action; otherwise, create a custom intent."}
+{"id": "/documentation/SiriKit/donating-shortcuts", "law": "Even if you provide an Intents App Extension, you should always implement the method in your app delegate."}
+{"id": "/documentation/sirikit", "law": "To implement modern support for these features and integrate your app with Apple Intelligence and Siri AI, use the framework."}
+{"id": "/documentation/sirikit", "law": "For SiriKit, use the standard intents that the system provides to empower actions users already ask Siri to do, such as playing music or sending a text message."}
+{"id": "/documentation/sirikit", "law": "With a person’s permission, an installed health research app that uses entitlements may collect Face Metrics data while your SiriKit app is in use."}
+{"id": "/documentation/sirikit", "law": "To prevent SensorKit from collecting Face Metrics data while your app is in use, you can set the information property list key to ."}
+{"id": "/documentation/sirikit", "law": "Requesting Authorization to Use Siri."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "The app in this sample project demonstrates how to use app extensions to give users the ability to book rides through Siri and Maps."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "However, a few steps are required to test the app’s functionalities."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "Make sure your simulator location is set to “Apple” for the sample to function correctly."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "To enable Siri to recognize and respond to ride-booking requests, you must implement classes that conform to the protocol."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "In every handle method, you must construct an ."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "Make sure you call the block with your response passed in at the end of the function."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "For the Maps context, you don’t need to implement resolve methods."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "At minimum, you only need to implement the handle method to tell the context what ride options are available, and how to handle ride selection."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "To add ride options to Maps, create an object and populate it with, at minimum, , , , and ."}
+{"id": "/documentation/sirikit/booking-rides-with-sirikit", "law": "To ensure that the ride options show up in Maps, add the , , and keys to your extension’s file under IntentsSupported."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "In the Capabilities pane, make sure that App Groups is switched on for the and targets."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "Each target in the project must preface its bundle identifier with the bundle identifier of the app’s main target."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "For example, if you set the bundle identifier for the target to , then you should set the bundle identifier for the target to ."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "Depending on the command that the user speaks to Siri, your app may have to deal with one of the following scenarios: The initial request specifies all required parameters."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "For example, the user requests, “Send $50 to Jane with Payments.” The request lacks some required parameters."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "Use this method to take input from Siri, match it to a payee, and asynchronously return an by calling , , or ."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "Use to aid Siri with recognizing any domain-specific vocabulary users are likely to use in their voice commands."}
+{"id": "/documentation/sirikit/handling-payment-requests-with-sirikit", "law": "Use this method to perform the confirmed transaction and pass back the status of the transaction by calling the block."}
+{"id": "/documentation/sirikit/handling-workout-requests-with-sirikit", "law": "In the Capabilities pane, make sure that App Groups is switched on for the and targets."}
+{"id": "/documentation/sirikit/handling-workout-requests-with-sirikit", "law": "Each target in the project must preface its bundle identifier with the bundle identifier of the app’s main target."}
+{"id": "/documentation/sirikit/handling-workout-requests-with-sirikit", "law": "In order for the Intent Extension to handle workout requests, the principal class of the extension must implement the method of ."}
+{"id": "/documentation/sirikit/handling-workout-requests-with-sirikit", "law": "Use this method to dispatch the request to a class configured to handle it."}
+{"id": "/documentation/sirikit/handling-workout-requests-with-sirikit", "law": "In order for a class to handle a request from SiriKit to use the workout controls, the class must implement one of the workout intent handler protocols."}
+{"id": "/documentation/sirikit/handling-workout-requests-with-sirikit", "law": "“Start a workout with Ascent” specifies no parameters, only that a workout should be started."}
+{"id": "/documentation/sirikit/handling-workout-requests-with-sirikit", "law": "An app must decide how to handle these situations using the available resolution methods for the intent type."}
+{"id": "/documentation/sirikit/integrating-your-app-with-siri-event-suggestions", "law": "To build this project, use Xcode 12.0 with the iOS 14.0 SDK."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To avoid duplicating code that is common across the two targets, the project includes a shared framework called SoupKit."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "Soup Chef has a key feature that people are likely to use frequently: ordering soup."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To make it easy for users to place an order for soup, it makes sense for the app to add a shortcut for this feature for use with Siri."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "After placing this order a few times using Soup Chef, Siri learns the user’s pattern, and can use that information to predicate when the user might place a similar order."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "This provides a better user experience because the user never leaves their current screen."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To use a custom intent in an app, Xcode needs to generate source code for the items defined in the Intent Definition file."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "To specify which target has the generated source code, use the Intent Classes setting in the Target Membership panel."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "For Soup Chef, only the SoupKit target uses the Intent Classes setting; all other targets use the No Generated Classes setting."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "And because SoupKit shares its code with other targets, the other targets can use ."}
+{"id": "/documentation/sirikit/soup-chef-accelerating-app-interactions-with-shortcuts", "law": "Before Siri can suggest shortcuts to the user, the app must tell Siri about the shortcuts through intent donations."}
+{"id": "/documentation/sirikit/soup-chef-with-app-intents-migrating-custom-intents", "law": "This version of Soup Chef highlights the changes required to migrate from a custom intent to App Intents."}
+{"id": "/documentation/sirikit/soup-chef-with-app-intents-migrating-custom-intents", "law": "To avoid duplicating code that is common across the two targets, the project includes a shared framework called SoupKit."}
+{"id": "/documentation/sirikit/soup-chef-with-app-intents-migrating-custom-intents", "law": "The and use the existing data manager to resolve the entity values."}
+{"id": "/documentation/sirikit/soup-chef-with-app-intents-migrating-custom-intents", "law": "The method in AppIntents subsumes the resolve, confirm, and handle functionality that was required with custom Intents."}
+{"id": "/documentation/sirikit/soup-chef-with-app-intents-migrating-custom-intents", "law": "Entities declared in an App Intent can be optional or required."}
+{"id": "/documentation/sirikit/soup-chef-with-app-intents-migrating-custom-intents", "law": "Handling cases where user input requires confirmation or needs new value are handled explicitly within the function."}
+{"id": "/documentation/sirikit/soup-chef-with-app-intents-migrating-custom-intents", "law": "To aid with localization of AppShortcuts, use to add support for other locales."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "Configuring your Xcode project requires several steps."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "In addition to adding an Intents app extension target to your project, you must make some minor changes to your app as well."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "The App Store requires the presence of these entitlements for any iOS app or watchOS app containing an Intents extension."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "You may add more than one Intents extension to your app, but each extension must support different intents."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "Choose Restricted While Locked to specify that the intent requires an unlocked device."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "Some intents, such as those involving financial transactions, always require the user’s device to be unlocked."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "In watchOS, all intents require the device to be unlocked."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "Unless your watchOS app has enabled, your iOS app must support all of the intents your watchOS app supports, either directly in the app or in an app extension."}
+{"id": "/documentation/SiriKit/creating-an-intents-app-extension", "law": "Some intents may require additional configuration steps for your Xcode project or your app."}
+{"id": "/documentation/sirikit/ride-booking", "law": "Maps expects you to handle all of the intents in this domain and won’t load your Intents app extension if you don’t support all of them."}
+{"id": "/documentation/sirikit/ride-booking", "law": "When crafting your responses, use these objects to specify details about the booking, the vehicle, and the driver providing the ride."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "Apps must register any vocabulary that’s used in a nonconventional way or that’s completely unique to your app."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "Siri uses your custom vocabulary to improve the speech recognition process and to ensure that your app has correct information."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "You must provide one or more example phrases for engaging your app through Siri."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "Example phrases correspond to the way that users speak about your app and should include any custom vocabulary terms defined by your app."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "You don’t need to register your user-specific or global vocabulary again from your Intents extension in watchOS."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "All apps should provide at least a few phrases that teach users how to use Siri to trigger your intents."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "You may omit this key if you don’t have any custom vocabulary terms."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "You must always associate custom vocabulary terms with a specific property of the corresponding intent object."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "Don’t register terms that are easily understood, such as “My Photo Album” or “My Workout”."}
+{"id": "/documentation/SiriKit/registering-custom-vocabulary-with-sirikit", "law": "As a result, each call to that method must include all of the terms that you want to associate with the user."}
+{"id": "/documentation/sirikit/workouts", "law": "You can use an Intents UI app extension to provide a custom interface for workout-related intents."}
+{"id": "/documentation/sirikit/siri-event-suggestions", "law": "If you send your users reservation information in email or web pages, use to provide the information to Siri as well."}
+{"id": "/documentation/sirikit/media", "law": "In order for Siri to suggest media content, you should donate an object to Siri after the user plays the content (see )."}
+{"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "Lightweight extensions that don’t include most of your app’s code can respond to a user’s request more quickly."}
+{"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "A private shared framework lets you place the code for accessing your services in one code module and use that code from multiple targets."}
+{"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "Use a shared container to store common resources."}
+{"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "Put relevant images and data files into a shared container so your app and app extension can use them."}
+{"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "Move your back-end services to a private framework so your app and app extensions can use them."}

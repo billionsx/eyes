@@ -1,0 +1,58 @@
+{
+ "url": "https://www.apple.com/apple-vision-pro/",
+ "sections": [
+  "section-hero",
+  "section-foundation",
+  "section-design",
+  "section-experiences",
+  "section-visionos",
+  "section-technology",
+  "section-values",
+  "section-routers"
+ ],
+ "modules": [
+  "name:hero",
+  "name:design intro",
+  "name:design gallery",
+  "name:entertainment intro",
+  "name:entertainment gallery",
+  "name:productivity intro",
+  "name:productivity gallery",
+  "name:photos and videos intro",
+  "name:photos and videos gallery",
+  "name:connection intro",
+  "name:connection gallery",
+  "name:apps intro",
+  "name:apps gallery",
+  "name:visionos intro",
+  "name:visionos gallery",
+  "name:technology intro",
+  "name:micro-led displays",
+  "name:advanced spatial audio",
+  "name:eye tracking",
+  "name:external sensors",
+  "name:m5 chip",
+  "name:m5 chip stats",
+  "name:technology gallery",
+  "name:values",
+  "name:values gallery",
+  "name:accessories",
+  "name:developers"
+ ],
+ "imgs": 144,
+ "videos": 28,
+ "cta": 47,
+ "h_levels": {
+  "1": 1,
+  "2": 13,
+  "3": 18
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-vision-pro/k/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

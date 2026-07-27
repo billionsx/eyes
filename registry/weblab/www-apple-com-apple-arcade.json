@@ -1,0 +1,36 @@
+{
+ "url": "https://www.apple.com/apple-arcade/",
+ "sections": [
+  "section-hero",
+  "section-value-props",
+  "section-offers",
+  "section-collection",
+  "section-gaming",
+  "section-devices",
+  "section-faq",
+  "section-apple-one"
+ ],
+ "modules": [
+  "name:hero",
+  "name:value props",
+  "name:collection",
+  "name:apple games gallery",
+  "name:devices",
+  "name:faq"
+ ],
+ "imgs": 27,
+ "videos": 2,
+ "cta": 33,
+ "h_levels": {
+  "1": 1,
+  "2": 8,
+  "3": 27
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-arcade/q/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

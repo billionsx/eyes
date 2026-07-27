@@ -1,0 +1,13 @@
+{"id": "/documentation/simd/fmax(_:_:)-4pce8", "law": "Returns the maximum value of each element in a vector."}
+{"id": "/documentation/simd/fmin(_:_:)-6p9y", "law": "Returns the minimum value of each element in a vector."}
+{"id": "/documentation/simd/max(_:_:)-1mzkc", "law": "Returns the maximum value of each element in a vector."}
+{"id": "/documentation/simd/max(_:_:)-9e6ry", "law": "Returns the maximum value of each element in a vector."}
+{"id": "/documentation/simd/min(_:_:)-32b0w", "law": "Returns the minimum value of each element in a vector."}
+{"id": "/documentation/simd/min(_:_:)-7hm19", "law": "Returns the minimum value of each element in a vector."}
+{"id": "/documentation/simd/norm_inf(_:)-7ga8i", "law": "Returns the maximum absolute value of a vector."}
+{"id": "/documentation/simd/reduce_max(_:)-96cb3", "law": "Returns the maximum value in a vector."}
+{"id": "/documentation/simd/rint", "law": "Use the function to specify the rounding direction."}
+{"id": "/documentation/simd/simd_max(_:_:)-6ykq4", "law": "Returns the maximum value of each element in a vector."}
+{"id": "/documentation/simd/simd_min(_:_:)-5xqg7", "law": "Returns the minimum value of each element in a vector."}
+{"id": "/documentation/simd/simd_norm_inf-94bsb", "law": "Returns the maximum absolute value of a vector."}
+{"id": "/documentation/simd/simd_reduce_max(_:)-4gytr", "law": "Returns the maximum value in a vector."}

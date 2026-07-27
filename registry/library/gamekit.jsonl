@@ -1,0 +1,201 @@
+{"id": "/documentation/GameKit/creating-real-time-games", "law": "To extend this sample to use matchmaking rules, see ."}
+{"id": "/documentation/GameKit/creating-real-time-games", "law": "Otherwise, use the existing bundle ID that ends in your team ID."}
+{"id": "/documentation/GameKit/creating-real-time-games", "law": "The first time the sample starts voice chat, the system displays a dialog asking the player whether the sample may use the microphone."}
+{"id": "/documentation/GameKit/creating-real-time-games", "law": "Each time the player starts a match, they earn 10% toward this achievement until they reach 100%."}
+{"id": "/documentation/GameKit/creating-turn-based-games", "law": "Then pass the next participants and the game data, specifying a timeout in case the recipients don’t respond, to the method."}
+{"id": "/documentation/GameKit/creating-turn-based-games", "law": "Because GameKit requires that the current participant save completed exchanges before ending a match, the method also invokes the method before ending a match."}
+{"id": "/documentation/GameKit", "law": "Use the GameKit framework to implement Game Center social-gaming network features."}
+{"id": "/documentation/GameKit", "law": "After players sign in to Game Center on their device, they can access their friends and use Game Center features you implement."}
+{"id": "/documentation/GameKit", "law": "Before you can use GameKit classes, you must enable Game Center in your project and initialize the local player in your code; otherwise, your game receives a error."}
+{"id": "/documentation/gamekit", "law": "Use the GameKit framework to implement Game Center social-gaming network features."}
+{"id": "/documentation/gamekit", "law": "After players sign in to Game Center on their device, they can access their friends and use Game Center features you implement."}
+{"id": "/documentation/gamekit", "law": "Before you can use GameKit classes, you must enable Game Center in your project and initialize the local player in your code; otherwise, your game receives a error."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "Use a recurring leaderboard to organize regular competitions or encourage players to score higher in your game."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "Unlike a classic leaderboard that never resets, a recurring leaderboard represents score rankings during a period of time."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "Occurrences are sequential and don’t overlap, so the restart interval must be equal to or greater than the duration."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "Use the Game Progress Manager to test leaderboards on your local device before you push the configuration update to App Store Connect."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "Use the leaderboard ID you entered in Xcode to specify the current occurrence when submitting a score."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "Don’t submit scores to past occurances leaderboards."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "To submit a score to one or more leaderboards, including recurring leaderboards, use the class method in ."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "Then use the instance method to submit the score to the recurring leaderboard."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "You can only use the instance method for recurring leaderboards."}
+{"id": "/documentation/gamekit/creating-recurring-leaderboards", "law": "To get the start date of the next occurrence, use the property."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "Use leaderboards to record player scores, which they can view in their Game Center account and directly in your game using built-in Game Center or custom interfaces."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "For example, use a classic leaderboard for the best all-time scores and a recurring leaderboard for periodic competitions."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "For example, use leaderboard sets to aggregate the scores from different levels and configurations in your game."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "Before you begin, have at least one localized name and image, which Game Center presents to the player, ready to upload for a language."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "For example, for a game with many levels, use a leaderboard set to organize the leaderboards for each level."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "When you use leaderboard sets, you can have up to 500 leaderboards across 100 leaderboard sets."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "You must have at least one leaderboard for your app before you can create a leaderboard set."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "If you choose to use leaderboard sets, you must include all future leaderboards in a leaderboard set."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "Use the Game Progress Manager to test leaderboards on your local device before you push the configuration update to App Store Connect."}
+{"id": "/documentation/gamekit/encourage-progress-and-competition-with-leaderboards", "law": "For example, if you choose Elapsed Time - To the Minute and want the maximum value to be 10 minutes, enter seconds in the To field."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "A classic leaderboard is persistent, that is, the scores never reset unless you delete the leaderboard."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "In your code, you use the identifier you set for the leaderboard in App Store Connect to submit scores or load leaderboards."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "Use the class method to submit a score to one or more leaderboards."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "To retrieve information about all leaderboards in your game, use the class method."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "To fetch the scores for a leaderboard, use the or method."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "Use the parameters of these methods to filter the scores to the player’s friends, a rank, and time period when the score occurs."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "You must create leaderboard objects using one of the load methods above."}
+{"id": "/documentation/gamekit/gkleaderboard", "law": "Use the method to get the image for a leaderboard."}
+{"id": "/documentation/gamekit/gkleaderboardscore", "law": "Make sure the score is compatible with the score format that you configure in App Store Connect."}
+{"id": "/documentation/gamekit/gkleaderboardscore", "law": "Then use either the or method to report one or more scores."}
+{"id": "/documentation/gamekit/gkleaderboardset", "law": "If you use leaderboard sets, you must have one or more leaderboards and then place each leaderboard in a set, which can be a mix of classic and recurring leaderboards."}
+{"id": "/documentation/gamekit/gkleaderboardset", "law": "To load all the leaderboard sets for your game, use the class method."}
+{"id": "/documentation/gamekit/gkleaderboardset", "law": "Then use the , , and properties to access the data for each leaderboard set."}
+{"id": "/documentation/gamekit/gkleaderboardset", "law": "To load the images you add to App Store Connect for each set, use the method."}
+{"id": "/documentation/gamekit/gkleaderboardset", "law": "Then use the method to get the leaderboards in each set."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "In your game code, you configure a match request to use matchmaking rules by setting its queue and game-specific properties."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "Use one or more rule sets to group matchmaking rules for the different configurations, levels, or other types of features in your game."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "You need to create at least one rule set before you can add matchmaking rules."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "For example, use a reverse-domain name service path, such as ."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "Then decide on the minimum and maximum number of players allowed to join the matches."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "A valid match is any number of players between the minimum and maximum range, but Game Center assumes that more players provide a better experience, so looks for the maximum number of players first."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "Use to refer to the first one and for the second one."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "To loosen the matchmaking criteria over time, set the type to and use either the or function in an expression."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "If you have previous versions of your game that don’t use matchmaking rules, you can apply the same rules to match requests from those versions."}
+{"id": "/documentation/GameKit/finding-players-using-matchmaking-rules", "law": "To use matchmaking rules, set the property to the reference name of the queue that you previously created using the endpoint."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "Before you can use the GameKit framework and access Game Center data, you need to enable Game Center."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "After you enable Game Center, you can configure the features you want to use in your game — like leaderboards, achievements, activites, and challenges — right in Xcode or in App Store Connect."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "For Mac targets, ensure that you enable both Incoming Connections and Outgoing Connections in the App Sandbox capability under Network."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "Use a GameKit bundle file to configure achievements, activities, challenges, leaderboards, and leaderboard sets."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "If you don’t have an app record in App Store Connect, create one so you can sync your configuration while you develop your game."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "Use Game Progress Manager to test your game features locally during development by modifying properties, reporting updates, and resetting resources."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "You can also use it to test features and deep links to your game."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "Before testing your GameKit configuration, turn on Debug Mode in Xcode: Choose Product > Scheme > Edit Scheme."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "In the sidebar, click the “Select a device” pop-up button, and select the physical device you use for testing."}
+{"id": "/documentation/GameKit/initializing-and-configuring-game-center", "law": "Testing your app with the Game Progress Manager requires a physical device and is available for iOS 18.4 and later, macOS 15.4 and later, tvOS 18.4 and later, and visionOS 2.4 and later."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "If you don’t want the access point to appear on the main window, set it to another window using the property."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "Use the property to set the corner in which the access point appears."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "For volumetric and immersive games on visionOS, if you don’t set the parent window, GameKit ignores the property (see )."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "Be sure to convert the screen coordinates of the access point to your view’s coordinates."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "For example, you should pause animations when the player clicks or taps the access point to display the dashboard."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "You can use the property to change the focus when the player navigates the area behind the access point: Then use the method to show the dashboard when the player selects the access point."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "For example, if you don’t set the parent window of volumetric games, the access point doesn’t appear."}
+{"id": "/documentation/gamekit/adding-an-access-point-to-your-game", "law": "However, if you use the class to present the dashboard (see ), it appears anchored to the window, scene, or view relative to where you present the view controller."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "Use the class to implement voice communication among players in a multiplayer game."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "Next, activate the system audio so that GameKit can use the default audio session for voice chat."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "You can use one or more separate audio channels for voice chat."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "For example, use one channel for communicating with all the players and another channel for communicating between team members."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "To communicate on the same channel, players need to use the same channel name."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "The first time your game accesses the microphone on the player’s device, the system presents a dialog to the user that displays the reason your app wants permission to use the microphone."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "If you don’t provide a reason that the system presents to the player or the player doesn’t grant permission, GameKit won’t start the channel."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "Use the property to enable the microphone: If the match has multiple channels, only one channel can use the microphone at a time."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "To stop transmitting data over the channel, use the method, and deactivate the audio session."}
+{"id": "/documentation/gamekit/adding-voice-chat-to-multiplayer-games", "law": "If you mute all the players, GameKit still sends the data to the local player, so instead use the method."}
+{"id": "/documentation/gamekit/displaying-the-game-center-dashboard", "law": "Use the class to present the dashboard in a specific state — such as the main dashboard ,_ _from which the player can navigate to any area, including the player profile or a list of leaderboards."}
+{"id": "/documentation/gamekit/displaying-the-game-center-dashboard", "law": "They can use the filter in the header area to adjust the scope of the leaderboard by a time period, or show a specific occurrence of a recurring leaderboard."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-real-time-games", "law": "If you use the class to find players, you can start the game and begin exchanging data when GameKit calls the delegate method."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-real-time-games", "law": "Use the match property in the method to determine when you can begin exchanging data."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-real-time-games", "law": "Use the or method to send data to one or more players."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-real-time-games", "law": "If you choose a client-server topology, use the delegate method to find the player with the best network connection to act as the server."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-real-time-games", "law": "To display which player sent the data, use the player parameter."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "The default interface allows the player to use automatic matches to fill any empty slots."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "Optionally, your game can continue processing responses to invitations, and GameKit can continue automatching to fill empty slots until the maximum number of players that you specify join the game."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "Use the method to get the maximum number of players for your match type ( , , or )."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "If you use game-specific matchmaking rules to find players, set the and optionally, the properties of the object."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "Use the or equivalent method to present the matchmaker view controller, in which the local player can choose players or automatch to fill empty slots."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "To use automatch only to connect with other players, set the mode to , or to invite players without using automatch, set the mode to ."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "To allow the local player to start gameplay with a minimum number of players, while Game Center continues to fill empty slots in the background, set the property to ."}
+{"id": "/documentation/gamekit/finding-multiple-players-for-a-game", "law": "Then use the object that GameKit passes to this delegate method to get the player list and send data from one player to another during the game."}
+{"id": "/documentation/gamekit/finding-players-for-custom-server-based-games", "law": "Hosted matches allow your game to use the Game Center matchmaking service to find players while using your own server to exchange game data."}
+{"id": "/documentation/gamekit/finding-players-for-custom-server-based-games", "law": "You can quickly find players for your game with hosted matches by using the Game Center service and optionally use matchmaking rules to filter and prioritize match requests to find the most compatible players."}
+{"id": "/documentation/gamekit/finding-players-for-custom-server-based-games", "law": "Creating a hosted match requires your game to implement all of the low-level networking needed for your game."}
+{"id": "/documentation/gamekit/finding-players-for-custom-server-based-games", "law": "Your server must match that player’s network address to the player identifier and, similar to a match, perform routing when one device in the match needs to communicate with others."}
+{"id": "/documentation/gamekit/finding-players-for-custom-server-based-games", "law": "When invitees receive the start-game message, they must manually close the view controller for their app."}
+{"id": "/documentation/gamekit/gkinvite", "law": "Your game never directly creates objects."}
+{"id": "/documentation/gamekit/gkmatch", "law": "You never create a object directly."}
+{"id": "/documentation/gamekit/gkmatch", "law": "If you use the class to find players, implement the delegate method to set the match delegate."}
+{"id": "/documentation/gamekit/gkmatch", "law": "If you use the class, set the match delegate in the handler you pass to the method."}
+{"id": "/documentation/gamekit/gkmatch", "law": "Then use either the or the method to send data."}
+{"id": "/documentation/gamekit/gkmatch", "law": "To implement voice chat, use the method to create one or more voice channels represented by the returned object."}
+{"id": "/documentation/gamekit/gkmatchdelegate/match(_:didreceive:fromremoteplayer:)", "law": "Be sure to validate the data you receive from the match and write your code carefully to avoid security vulnerabilities."}
+{"id": "/documentation/gamekit/gkmatchmaker", "law": "Use the class to auto-match players for a quicker game start, programmatically invite specific players, or implement your own interface for players to invite other players."}
+{"id": "/documentation/gamekit/gkmatchmaker", "law": "If you want to present a familiar matchmaking GameKit interface to players, instead use either the or class."}
+{"id": "/documentation/gamekit/gkmatchmaker", "law": "If you host a game on your own server, you can also use this class to find Game Center players."}
+{"id": "/documentation/gamekit/gkmatchmaker", "law": "If you provide a SharePlay interface for inviting players, use the and methods to create a group activity on behalf of the player."}
+{"id": "/documentation/gamekit/gkmatchmakerviewcontroller", "law": "If you use SwiftUI, you can get the root view controller from the object."}
+{"id": "/documentation/gamekit/gkmatchmakerviewcontroller", "law": "For macOS games, use the class to present and dismiss the view controller."}
+{"id": "/documentation/gamekit/gkmatchmakerviewcontrollerdelegate/matchmakerviewcontroller(_:didfind:)", "law": "Use the match object passed to this method to get the players and communicate between them during the game."}
+{"id": "/documentation/gamekit/gkmatchrequest", "law": "To request a match, set the properties of the match request, such as the number of players, the invitation message, and whether to use automatch to fill the player slots."}
+{"id": "/documentation/gamekit/gkmatchrequest", "law": "You’re required to set the minimum and maximum number of players allowed in the match."}
+{"id": "/documentation/gamekit/gkmatchrequest", "law": "To use the matchmaking user interface that GameKit provides, pass the match request to the class for real-time games, or the class for turn-based games."}
+{"id": "/documentation/gamekit/gkmatchrequest", "law": "To use matchmaking rules, set the property to the queue name that you configure in App Store Connect."}
+{"id": "/documentation/gamekit/gkmatchrequest", "law": "If you set the request’s and properties, use values that are in the rule set’s player range."}
+{"id": "/documentation/gamekit/gkmatchrequest", "law": "If you don’t use matchmaking rules, you can restrict finding players to a subset of players."}
+{"id": "/documentation/gamekit/gkvoicechat", "law": "Use the method to connect players to the channel."}
+{"id": "/documentation/gamekit/gkvoicechat", "law": "Use the property to activate the microphone or switch the microphone between channels."}
+{"id": "/documentation/gamekit/matchmaking-rules", "law": "During development, you use the matchmaking rules APIs to upload your rules to the Game Center server."}
+{"id": "/documentation/gamekit/matchmaking-rules", "law": "In your game code, you configure match requests to use your set of matchmaking rules by specifying a queue."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "Your game can have a maximum of 100 achievements, 100 points per achievement, and 1000 points total for all achievements."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "If you don’t hide the achievement, Game Center shows it immediately in the locked state."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "Use the Game Progress Manager to test achievements on your local device before you push the configuration update to App Store Connect."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "Use the identifier you enter in Xcode to find the corresponding object in the array that GameKit passes to the completion handler."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "You must create a new object using the identifier from App Store Connect."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "For the local player, use the method to create the object."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "For another player, when ending a turn-based match, use the method."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "For example, increase the percentage complete by 10%."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "When you report that the player completes the achievement 100%, the dashboard shows the image for the achievement, and Game Center adds it to the player’s completed achievements."}
+{"id": "/documentation/gamekit/rewarding-players-with-achievements", "law": "For example, use a hidden achievement if an achievement description reveals aspects of your game’s plot, or if you want to surprise the player with awards."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-turn-based-games", "law": "The code examples in this article use GameKit asynchronous methods that you invoke from an method or within a structure."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-turn-based-games", "law": "To display more details to the recipient, use the other properties, such as the and properties."}
+{"id": "/documentation/gamekit/exchanging-data-between-players-in-turn-based-games", "law": "To cancel an exchange request, use the method."}
+{"id": "/documentation/gamekit/gkturnbasedexchange", "law": "To cancel an active or complete exchange, use the method."}
+{"id": "/documentation/gamekit/gkturnbasedmatch", "law": "You don’t create turn-based match objects directly."}
+{"id": "/documentation/gamekit/gkturnbasedmatch", "law": "Don’t subclass the class."}
+{"id": "/documentation/gamekit/gkturnbasedmatch/completedexchanges", "law": "If the local player is the current player, use the method to save completed exchanges before ending their turn."}
+{"id": "/documentation/gamekit/gkturnbasedmatch/savemergedmatch(_:withresolvedexchanges:completionhandler:)", "law": "Use this method to save the exchange data in the match’s property before the current participant ends their turn, forfeits a match, or ends a match."}
+{"id": "/documentation/gamekit/gkturnbasedmatchmakerviewcontroller", "law": "If you use SwiftUI, you can get the root view controller from the object."}
+{"id": "/documentation/gamekit/gkturnbasedmatchmakerviewcontroller", "law": "In macOS, you use the class to present and dismiss the view controller."}
+{"id": "/documentation/gamekit/gkturnbasedparticipant", "law": "In your game, use participant objects to show information about opponents during gameplay."}
+{"id": "/documentation/gamekit/gkturnbasedparticipant", "law": "Before you end a match, you must set the property for every participant in the match."}
+{"id": "/documentation/gamekit/sending-messages-to-players-in-turn-based-games", "law": "The code listings in this article use GameKit asynchronous methods that you invoke from an method or within a structure."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "The code examples in this article use GameKit asynchronous methods that you invoke from an method or within a structure."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "Turn-based games don’t support matchmaking rules."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "Turn-based game matchmaking use only the , , , and properties of a ."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "To get the maximum number of players Game Center supports for turn-based games, pass to the method."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "In your code, use the following steps to present the turn-based matchmaker interface: Create a object by passing the object you configure in the section above."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "Optionally, set the view controller’s property to limit the use of automatch."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "Use the property to determine whether it’s the local player’s turn."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "Ensure that the size of the match data doesn’t exceed the property."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "For example, use the class to convert your game data to a object."}
+{"id": "/documentation/gamekit/starting-turn-based-matches-and-passing-turns-between-players", "law": "Alternatively, use the method to save the game data without passing the turn to the next participant."}
+{"id": "/documentation/GameKit/connecting-players-with-their-friends-in-your-game", "law": "The first time a player tries to use functionality in your game that requires Game Center friends access, the system displays a prompt asking the player whether your game can access their friends list."}
+{"id": "/documentation/GameKit/connecting-players-with-their-friends-in-your-game", "law": "The code listings in this article use GameKit asynchronous methods that you invoke within a structure in SwiftUI."}
+{"id": "/documentation/GameKit/connecting-players-with-their-friends-in-your-game", "law": "For example, use this feature to encourage players to add more friends in your multiplayer game."}
+{"id": "/documentation/GameKit/connecting-players-with-their-friends-in-your-game", "law": "You must provide a reason to access a player’s friends by adding the key to the information property list."}
+{"id": "/documentation/GameKit/connecting-players-with-their-friends-in-your-game", "law": "If you don’t provide this key, an error occurs when you attempt to access the friends."}
+{"id": "/documentation/GameKit/connecting-players-with-their-friends-in-your-game", "law": "To ensure you allow enough time for the player to make a decision, don’t display the prompt during game play."}
+{"id": "/documentation/GameKit/connecting-players-with-their-friends-in-your-game", "law": "Once the player grants access, use the method to get the friends who also grant you access to their friends."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "Use leaderboards to record player scores, which they can view in their Game Center account and directly in your game using built-in Game Center or custom interfaces."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "For example, use a classic leaderboard for the best all-time scores and a recurring leaderboard for periodic competitions."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "For example, use leaderboard sets to aggregate the scores from different levels and configurations in your game."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "Before you begin, have at least one localized name and image, which Game Center presents to the player, ready to upload for a language."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "For example, for a game with many levels, use a leaderboard set to organize the leaderboards for each level."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "When you use leaderboard sets, you can have up to 500 leaderboards across 100 leaderboard sets."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "You must have at least one leaderboard for your app before you can create a leaderboard set."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "If you choose to use leaderboard sets, you must include all future leaderboards in a leaderboard set."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "Use the Game Progress Manager to test leaderboards on your local device before you push the configuration update to App Store Connect."}
+{"id": "/documentation/GameKit/encourage-progress-and-competition-with-leaderboards", "law": "For example, if you choose Elapsed Time - To the Minute and want the maximum value to be 10 minutes, enter seconds in the To field."}
+{"id": "/documentation/GameKit/exchanging-data-between-players-in-turn-based-games", "law": "The code examples in this article use GameKit asynchronous methods that you invoke from an method or within a structure."}
+{"id": "/documentation/GameKit/exchanging-data-between-players-in-turn-based-games", "law": "To display more details to the recipient, use the other properties, such as the and properties."}
+{"id": "/documentation/GameKit/exchanging-data-between-players-in-turn-based-games", "law": "To cancel an exchange request, use the method."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "The default interface allows the player to use automatic matches to fill any empty slots."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "Optionally, your game can continue processing responses to invitations, and GameKit can continue automatching to fill empty slots until the maximum number of players that you specify join the game."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "Use the method to get the maximum number of players for your match type ( , , or )."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "If you use game-specific matchmaking rules to find players, set the and optionally, the properties of the object."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "Use the or equivalent method to present the matchmaker view controller, in which the local player can choose players or automatch to fill empty slots."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "To use automatch only to connect with other players, set the mode to , or to invite players without using automatch, set the mode to ."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "To allow the local player to start gameplay with a minimum number of players, while Game Center continues to fill empty slots in the background, set the property to ."}
+{"id": "/documentation/GameKit/finding-multiple-players-for-a-game", "law": "Then use the object that GameKit passes to this delegate method to get the player list and send data from one player to another during the game."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "Your game can have a maximum of 100 achievements, 100 points per achievement, and 1000 points total for all achievements."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "If you don’t hide the achievement, Game Center shows it immediately in the locked state."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "Use the Game Progress Manager to test achievements on your local device before you push the configuration update to App Store Connect."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "Use the identifier you enter in Xcode to find the corresponding object in the array that GameKit passes to the completion handler."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "You must create a new object using the identifier from App Store Connect."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "For the local player, use the method to create the object."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "For another player, when ending a turn-based match, use the method."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "For example, increase the percentage complete by 10%."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "When you report that the player completes the achievement 100%, the dashboard shows the image for the achievement, and Game Center adds it to the player’s completed achievements."}
+{"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "For example, use a hidden achievement if an achievement description reveals aspects of your game’s plot, or if you want to surprise the player with awards."}
+{"id": "/documentation/GameKit/sending-messages-to-players-in-turn-based-games", "law": "The code listings in this article use GameKit asynchronous methods that you invoke from an method or within a structure."}

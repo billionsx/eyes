@@ -1,0 +1,26 @@
+{"id": "/documentation/NaturalLanguage", "law": "Use this framework to segment natural language text into paragraphs, sentences, or words, and tag information about those segments, such as part of speech, lexical class, lemma, script, and language."}
+{"id": "/documentation/NaturalLanguage", "law": "Use this framework to perform tasks like: Language identification , automatically detecting the language of a piece of text."}
+{"id": "/documentation/NaturalLanguage", "law": "You can also use this framework with Create ML to train and deploy custom natural language models."}
+{"id": "/documentation/NaturalLanguage/NLTagScheme/tokenType", "law": "To classify tokens by a more specific type, for example, distinguishing words between nouns and verbs, use the scheme."}
+{"id": "/documentation/NaturalLanguage/NLTagger", "law": "Use it to segment natural language text into paragraph, sentence, or word units and to tag each unit with information like part of speech, lexical class, lemma, script, and language."}
+{"id": "/documentation/NaturalLanguage/NLTagger", "law": "Don’t use an instance of simultaneously from multiple threads."}
+{"id": "/documentation/NaturalLanguage/NLTagger/enumerateTags(in:unit:scheme:options:using:)", "law": "Use this method to iterate your block over the given range of a string."}
+{"id": "/documentation/NaturalLanguage/NLTagger/enumerateTags(in:unit:scheme:options:using:)", "law": "For example, use the tag scheme to identify which tokens are parts of speech, types of whitespace, or types of punctuation."}
+{"id": "/documentation/NaturalLanguage/NLTagger/enumerateTags(in:unit:scheme:options:using:)", "law": "Use the tag scheme to identify the stem form of each word token, if known."}
+{"id": "/documentation/NaturalLanguage/NLTokenUnit/word", "law": "Use this linguistic unit to tokenize text into individual words, like in the following example: For more information, see ."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "To find similarities between pieces of natural language text, you use text embeddings."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "You use embeddings for tasks like: Searching for the nearest neighbors to a given term—for example, to expand a search query."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "To calculate the distance between individual words, use a word embedding."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "To find the distance between your input word and another word, use ."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "To find the nearest neighbors to your input word, enumerate over the word’s neighbors by calling the method, specifying the maximum number of nearest neighbors to look at."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "To calculate the distance between phrases, use a sentence embedding."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "You might use it to measure similarity between sentences for tasks like text retrieval, or for detecting paraphrases."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "To find the distance between your input sentence and another sentence, use ."}
+{"id": "/documentation/NaturalLanguage/finding-similarities-between-pieces-of-text", "law": "They don’t have a fixed vocabulary, and they can return results for arbitrary sentences."}
+{"id": "/documentation/NaturalLanguage/identifying-the-language-in-text", "law": "You’ll find supported languages in , but you can also define and use your own language tags."}
+{"id": "/documentation/NaturalLanguage/identifying-the-language-in-text", "law": "This property is an optional value, so make sure to handle the case where the language recognizer can’t identify a dominant language."}
+{"id": "/documentation/NaturalLanguage/identifying-the-language-in-text", "law": "To generate multiple possible language predictions, use the method."}
+{"id": "/documentation/NaturalLanguage/identifying-the-language-in-text", "law": "Specify the maximum number of possible languages to identify."}
+{"id": "/documentation/NaturalLanguage/identifying-the-language-in-text", "law": "Although this step isn’t required, you can provide the language recognizer with information about the text you want to identify if you already know something about it."}
+{"id": "/documentation/NaturalLanguage/identifying-the-language-in-text", "law": "For example, if you know that the language must be within a specific set of languages, you can specify that constraint."}
+{"id": "/documentation/NaturalLanguage/tokenizing-natural-language-text", "law": "The example and accompanying steps below show how you use to enumerate over the words in natural language text."}

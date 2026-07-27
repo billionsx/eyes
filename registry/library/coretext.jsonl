@@ -1,0 +1,2 @@
+{"id": "/documentation/CoreText", "law": "The Core Text layout engine is designed for high performance, ease of use, and close integration with ."}
+{"id": "/documentation/CoreText", "law": "However, the layout objects ( , , , , , and associated objects) should be used in a single operation, work queue, or thread."}

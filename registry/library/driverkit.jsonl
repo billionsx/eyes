@@ -1,0 +1,79 @@
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "DriverKit on iPadOS requires an iPad with an M-series chip."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "Use this app to install or update the driver, and then to call the driver directly."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "You can set up the project to build with automatic signing (recommended) or manual signing."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "To use automatic signing: Temporarily turn off SIP, as described in the article ."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "Select the project and use the “Signing & Capabilities” tab to set the and targets to “Automatically manage signing”."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "Use a reverse-DNS format for your identifier, as described in ."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "In the Xcode Project navigator, choose the project and use the Signing & Capabilities tab to replace the existing bundle identifier with your chosen identifier for each of the targets."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "Although this simplifies running the sample code, in your own apps you may prefer to use ."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "For the Bundle ID, choose “explicit”, and use the names you chose in the first step."}
+{"id": "/documentation/DriverKit/communicating-between-a-driverkit-extension-and-a-client-app", "law": "When creating the driver’s profile, be sure to select DriverKit App Development as the profile type."}
+{"id": "/documentation/DriverKit", "law": "In macOS, use the framework to install and upgrade your driver."}
+{"id": "/documentation/DriverKit/IOMemoryDescriptor/CreateMapping", "law": "Use this method to map a memory buffer created by another process into the address space of the current process."}
+{"id": "/documentation/DriverKit/IOService/Start", "law": "Use this method to configure your driver’s data structures and setup the associated hardware."}
+{"id": "/documentation/DriverKit/IOService/Start", "law": "You might also store a reference to the object for later use."}
+{"id": "/documentation/DriverKit/IOService/Start", "law": "Always call early in your implementation of this method."}
+{"id": "/documentation/DriverKit/IOTimerDispatchSource", "law": "There are several timebases you can use to configure the timer, but the most common one is ."}
+{"id": "/documentation/DriverKit/OSAction", "law": "When configuring your driver, you use action objects in places where the system must call your custom code asynchronously."}
+{"id": "/documentation/DriverKit/OSAction", "law": "Because actions execute asynchronously, store any state information your action requires in the object you specify at configuration time."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "When you activate a system extension from your app, the system requires your extension to have the proper entitlements and code signature."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "It must also meet all other criteria for running on the user’s system."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "Always remember to reenable all validation checks and perform additional testing before shipping your system extension to users."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "You must place all system extensions in the directory of your app bundle, and the app itself must be installed in one of the system’s directories."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "To allow development of your app outside of these directories, use the command-line tool to enable developer mode."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "To use this tool for your system extension, do the following: After your system extension launches, run the command-line tool and note your extension’s process ID."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "After you attach to your system extension’s process, you can use to examine its threads and other state information."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "On Apple silicon, kexts use the architecture, which includes support for pointer authentication codes (PACs)."}
+{"id": "/documentation/DriverKit/debugging-and-testing-system-extensions", "law": "The following example shows you how to use the command-line tool to add the boot arg: Debug your system extensions by temporarily disabling the security checks that macOS performs during the installation process."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "To ensure that these interactions don’t compromise the security or integrity of the system, the system loads only drivers that have a valid set of entitlements."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "The app handles the activation of your extension, which registers it with the system and makes its services available for use."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "To perform this installation, your app must have the System Extension entitlement."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "A brief description of the app you’ll use to install the driver."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "Provide a description of the apps you’ll use to support your hardware."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "When making the request, specify the complete set of entitlements you use to support one product."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "All of the requested entitlements must belong to the same group."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "Most drivers require a transport-specific entitlement to tell the system what type of hardware they support."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "If the entitlements don’t match, the system aborts the activation process."}
+{"id": "/documentation/DriverKit/requesting-entitlements-for-driverkit-development", "law": "You can select only one group, so that group must contain all of the entitlements your driver needs to operate."}
+{"id": "/documentation/driverkit", "law": "In macOS, use the framework to install and upgrade your driver."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "When you activate a system extension from your app, the system requires your extension to have the proper entitlements and code signature."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "It must also meet all other criteria for running on the user’s system."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "Always remember to reenable all validation checks and perform additional testing before shipping your system extension to users."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "You must place all system extensions in the directory of your app bundle, and the app itself must be installed in one of the system’s directories."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "To allow development of your app outside of these directories, use the command-line tool to enable developer mode."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "To use this tool for your system extension, do the following: After your system extension launches, run the command-line tool and note your extension’s process ID."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "After you attach to your system extension’s process, you can use to examine its threads and other state information."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "On Apple silicon, kexts use the architecture, which includes support for pointer authentication codes (PACs)."}
+{"id": "/documentation/driverkit/debugging-and-testing-system-extensions", "law": "The following example shows you how to use the command-line tool to add the boot arg: Debug your system extensions by temporarily disabling the security checks that macOS performs during the installation process."}
+{"id": "/documentation/driverkit/driverkit-sample-code", "law": "Use these samples as a starting point to write your own custom drivers."}
+{"id": "/documentation/driverkit/driverkit-sample-code", "law": "Use your custom driver code to support proprietary features of your hardware devices."}
+{"id": "/documentation/driverkit/iotimerdispatchsource/timeroccurred", "law": "Use this method as a prototype for declaring your own custom timer handlers."}
+{"id": "/documentation/driverkit/iotimerdispatchsource/timeroccurred", "law": "When declaring your method, use the macro to indicate that your method has the same parameters and return value as this method."}
+{"id": "/documentation/driverkit/iotimerdispatchsource/timeroccurred", "law": "Use the implementation of your method to perform any custom actions related to the timer’s expiration."}
+{"id": "/documentation/driverkit/iouserserver", "law": "You do not create or use instances of this class directly."}
+{"id": "/documentation/driverkit/osaction", "law": "When configuring your driver, you use action objects in places where the system must call your custom code asynchronously."}
+{"id": "/documentation/driverkit/osaction", "law": "Because actions execute asynchronously, store any state information your action requires in the object you specify at configuration time."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "To ensure that these interactions don’t compromise the security or integrity of the system, the system loads only drivers that have a valid set of entitlements."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "The app handles the activation of your extension, which registers it with the system and makes its services available for use."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "To perform this installation, your app must have the System Extension entitlement."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "A brief description of the app you’ll use to install the driver."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "Provide a description of the apps you’ll use to support your hardware."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "When making the request, specify the complete set of entitlements you use to support one product."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "All of the requested entitlements must belong to the same group."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "Most drivers require a transport-specific entitlement to tell the system what type of hardware they support."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "If the entitlements don’t match, the system aborts the activation process."}
+{"id": "/documentation/driverkit/requesting-entitlements-for-driverkit-development", "law": "You can select only one group, so that group must contain all of the entitlements your driver needs to operate."}
+{"id": "/documentation/driverkit/type", "law": "Typically, you use this macro to implement DriverKit callbacks using your own custom methods."}
+{"id": "/documentation/driverkit/type", "law": "Your method must still declare the same parameters and return type as the original method."}
+{"id": "/documentation/driverkit/type", "law": "This macro generates the following convenient symbols that you can use when configuring actions involving your custom method: A message ID constant you can pass to the method of ."}
+{"id": "/documentation/DriverKit/IMPL", "law": "Use this macro when overriding any methods that are adorned directly (or indirectly via their class) with the macro."}
+{"id": "/documentation/DriverKit/IMPL", "law": "For example, use it to define the implementation of custom and methods in an subclass."}
+{"id": "/documentation/DriverKit/IMPL", "law": "Don’t add this macro when overriding methods declared with the or macros."}
+{"id": "/documentation/DriverKit/IMPL", "law": "When using the macro to define your method, don’t include the method parameters as part of your definition."}
+{"id": "/documentation/DriverKit/SUPERDISPATCH", "law": "When calling the DriverKit implementation of a method that runs in the kernel, use this macro to bridge from your driver extension’s process space to the superclass’ version of the method."}
+{"id": "/documentation/DriverKit/SUPERDISPATCH", "law": "You must use this macro to call inherited DriverKit methods annotated with the macro."}
+{"id": "/documentation/DriverKit/SUPERDISPATCH", "law": "To use this macro, call the original method without the prefix and insert this macro as the final parameter in the parameter list."}
+{"id": "/documentation/DriverKit/SUPERDISPATCH", "law": "Don’t use this macro when calling the inherited version of a DriverKit method marked with the macro."}
+{"id": "/documentation/DriverKit/IOService/SetPowerState", "law": "Implement this method in your service object and use it to put your driver in a safe state for the new power setting."}
+{"id": "/documentation/DriverKit/driverkit-sample-code", "law": "Use these samples as a starting point to write your own custom drivers."}
+{"id": "/documentation/DriverKit/driverkit-sample-code", "law": "Use your custom driver code to support proprietary features of your hardware devices."}

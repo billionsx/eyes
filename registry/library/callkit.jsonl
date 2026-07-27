@@ -1,0 +1,20 @@
+{"id": "/documentation/CallKit/voip-calling-with-callkit", "law": "This sample code project must be run on a physical device."}
+{"id": "/documentation/CallKit/voip-calling-with-callkit", "law": "Before you run the sample code project in Xcode, check to be sure your device has iOS 13 or later or iPadOS 13 or later installed."}
+{"id": "/documentation/CallKit/voip-calling-with-callkit", "law": "Use the CallKit framework to integrate native VoIP calling."}
+{"id": "/documentation/CallKit", "law": "Use CallKit to integrate your calling services with other call-related apps in the system."}
+{"id": "/documentation/CallKit", "law": "CallKit also responds appropriately to system-level behaviors, such as Do Not Disturb."}
+{"id": "/documentation/CallKit", "law": "In addition to handling calls, you can use a Call Directory app extension to provide caller ID information and a list of blocked numbers associated with your service."}
+{"id": "/documentation/CallKit", "law": "With a person’s permission, an installed health research app that uses entitlements may collect Speech Metrics data while your CallKit app is in use."}
+{"id": "/documentation/CallKit", "law": "The system may use that information to indicate communication with that person as a suggestion in the Journal app, or in other apps that use the framework."}
+{"id": "/documentation/CallKit", "law": "Call-related actions route through your provider and its delegate, which you use to communicate with your service."}
+{"id": "/documentation/CallKit", "law": "Use a Call Directory app extension to block calls and provide caller ID information."}
+{"id": "/documentation/callkit", "law": "Use CallKit to integrate your calling services with other call-related apps in the system."}
+{"id": "/documentation/callkit", "law": "CallKit also responds appropriately to system-level behaviors, such as Do Not Disturb."}
+{"id": "/documentation/callkit", "law": "In addition to handling calls, you can use a Call Directory app extension to provide caller ID information and a list of blocked numbers associated with your service."}
+{"id": "/documentation/callkit", "law": "With a person’s permission, an installed health research app that uses entitlements may collect Speech Metrics data while your CallKit app is in use."}
+{"id": "/documentation/callkit", "law": "The system may use that information to indicate communication with that person as a suggestion in the Journal app, or in other apps that use the framework."}
+{"id": "/documentation/callkit", "law": "Call-related actions route through your provider and its delegate, which you use to communicate with your service."}
+{"id": "/documentation/callkit", "law": "Use a Call Directory app extension to block calls and provide caller ID information."}
+{"id": "/documentation/callkit/cxprovider", "law": "A VoIP app should create only one instance of and store it for use globally."}
+{"id": "/documentation/callkit/cxproviderconfiguration", "law": "A provider configuration can also set the maximum number of call groups and the number of calls in a single call group, determine whether to use emails and phone numbers as handles, and specify whether to support video."}
+{"id": "/documentation/callkit/preparing-your-app-to-be-the-default-calling-app", "law": "For example: Only use the URL scheme as a fallback behavior in response to a person’s explicit action in your app, such as clicking a call button after your app presents the proposed number to call."}

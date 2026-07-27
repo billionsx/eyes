@@ -1,0 +1,9 @@
+{"id": "/documentation/os/OSSignposter", "law": "Signposts allow you to record meaningful information about the duration of your app’s tasks using the same subsystems and categories that you use for logging."}
+{"id": "/documentation/os/OSSignposter", "law": "Use to create signposted intervals in your code, and then use Instruments’ instrument to record those intervals as you run your app and perform the actions to measure."}
+{"id": "/documentation/os/OSSignposter", "law": "also provides functionality to signpost a closure, and to emit individual signposts that don’t have a duration that you can use to highlight points of interest, such as when the user taps a button or performs a specific gesture."}
+{"id": "/documentation/os/OSAllocatedUnfairLock", "law": "However, it’s unsafe to use from Swift because it’s a value type and, therefore, doesn’t have a stable memory address."}
+{"id": "/documentation/os/OSAllocatedUnfairLock", "law": "Instead, use , which avoids that pitfall because it doesn’t function as a value type, despite being a structure."}
+{"id": "/documentation/os/OSAllocatedUnfairLock", "law": "If you’ve existing Swift code that uses , change it to use to ensure correct locking behavior."}
+{"id": "/documentation/os/OSAllocatedUnfairLock", "law": "To use a nonscoped lock, use or ."}
+{"id": "/documentation/os/OSAllocatedUnfairLock", "law": "You can also use with the more traditional lock/unlock approach by calling before executing code that needs protection, and upon completion, like this: When using this approach, you must call from the same thread you use to call ."}
+{"id": "/documentation/os/OSAllocatedUnfairLock", "law": "Because of this, it’s unsafe to use this approach across an suspension point."}

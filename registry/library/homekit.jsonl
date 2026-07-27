@@ -1,0 +1,58 @@
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "You use the app to configure and control a specific device—a garage door opener from a fictional manufacturer, Kilgo Devices."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "To be able to use HomeKit, you enable the HomeKit capability and include the key in your app’s file, as described in ."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "You can use HAS to inspect and manipulate all of these items."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "You always use an instance of as the root HomeKit object."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "The sample app defines a class for use as a singleton that holds the one and only home manager for the app: You create an accessory list collection view controller to present the list of connected accessories."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "Because this root view controller never gets deallocated, it can safely assign itself as the protocol delegate: The manager tells its delegate when the list of homes changes, including the first time the home manager loads data from the HomeKit database during initialization."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "You can extend the app to allow the user to select among all known homes instead of always choosing the primary home."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "Select from a list of devices on the network that don’t already have an existing HomeKit association."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "Use care when crafting your filters."}
+{"id": "/documentation/HomeKit/configuring-a-home-automation-device", "law": "This is the primary characteristic, and you should give users quick access to it."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "To be able to use HomeKit, you enable the HomeKit capability and include the key in your app’s file, as described in ."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "To be able to build an app that has the HomeKit capability, you must set a valid signing team in the target’s General pane before you build, so that Xcode can create a provisioning profile containing the HomeKit entitlement."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "If you don’t have any real home automation accessories, or if you want to try an accessory type that you don’t have, use the HomeKit Accessory Simulator (HAS), as described in ."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "You can use a mix of simulated devices and real ones."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "You always use an instance of as the root HomeKit object, following the pattern described in ."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "Use the delegate to set the home view’s property based on this information."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "You can derive a name from this information, and use that to group accessories: Unlike the class, the class doesn’t natively contain the list of related accessories."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "When the user taps an accessory in the home view, you use the method override to assign the corresponding accessory to the accessory view, which triggers the view to reload its content: When the user taps a service in the accessory view, you push a instance on the navigation stack."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "For example, the garage door opener service might have a characteristic whose value you set to indicate whether the garage door should be opened or closed."}
+{"id": "/documentation/HomeKit/interacting-with-a-home-automation-network", "law": "This particular implementation ensures that the home view always shows the primary home."}
+{"id": "/documentation/homekit/testing-your-app-with-the-homekit-accessory-simulator", "law": "To test your app, install the HomeKit Accessory Simulator (HAS) to simulate any accessories you don’t have, or to help automate your testing process."}
+{"id": "/documentation/homekit/testing-your-app-with-the-homekit-accessory-simulator", "law": "You can use your Mac’s camera to simulate network cameras and video doorbells."}
+{"id": "/documentation/homekit/testing-your-app-with-the-homekit-accessory-simulator", "law": "In the HomeKit Accessory Simulator, define accessories that you can use with your app."}
+{"id": "/documentation/HomeKit/HMAccessory", "law": "You don’t create accessories directly."}
+{"id": "/documentation/HomeKit/HMAccessory/category", "law": "Use this information to help users distinguish among different accessories in their environment."}
+{"id": "/documentation/HomeKit/HMAccessory/isBridged", "law": "For example, a bridge might be a hub for multiple lights that use a communication protocol other than HomeKit Accessory Protocol."}
+{"id": "/documentation/HomeKit/HMAccessory/isBridged", "law": "To add a bridge to a home, use the home’s method, as you would for any other accessory."}
+{"id": "/documentation/HomeKit/HMAccessoryCategory", "law": "You can use a category to help users identify the types of accessories they’re browsing."}
+{"id": "/documentation/HomeKit/HMAccessoryCategory", "law": "To improve the user experience, you can use the category information associated with each accessory to help the user understand which accessory is the lamp and which is the fan."}
+{"id": "/documentation/HomeKit/HMAccessoryDelegate", "law": "To receive method calls for a particular characteristic, indicating when the characteristic value changes, you must first call the characteristic’s method."}
+{"id": "/documentation/HomeKit/HMAccessoryDelegate", "law": "As a result, your app must update its internal data store or user interface from both the completion handler of an asynchronous call, and the delegate callback that corresponds to the same kind of change made by another app."}
+{"id": "/documentation/HomeKit/HMCharacteristic", "law": "You don’t create characteristic instances."}
+{"id": "/documentation/HomeKit/HMCharacteristic", "law": "Device manufacturers can use one of the standard types, given in , or they can create custom types."}
+{"id": "/documentation/HomeKit/HMCharacteristic", "law": "Some characteristics use plain numbers, Booleans, or strings."}
+{"id": "/documentation/HomeKit/HMCharacteristic/value", "law": "To be sure you have the current value, call and wait for the response before checking the property."}
+{"id": "/documentation/HomeKit/HMHome/roomForEntireHome()", "law": "The room that represents all parts of the home that don’t have a more specific room to represent them."}
+{"id": "/documentation/HomeKit/HMHome/roomForEntireHome()", "law": "A room that represents all parts of the home that don’t have a more specific room to represent them."}
+{"id": "/documentation/HomeKit/HMHomeDelegate", "law": "As a result, your app must update its internal data store or user interface from both the completion handler of an asynchronous call, and the delegate callback that corresponds to the same kind of change made by another app."}
+{"id": "/documentation/HomeKit/HMHomeManagerDelegate", "law": "As a result, your app must update its internal data store or user interface from both the completion handler of an asynchronous call, and the delegate callback that corresponds to the same kind of change made by another app."}
+{"id": "/documentation/HomeKit/HMRoom", "law": "Rooms don’t have any physical characteristics like size or location."}
+{"id": "/documentation/HomeKit/HMRoom", "law": "Meaningful room names enable voice commands like “Siri, turn on the kitchen lights.” You create new rooms using the method of ."}
+{"id": "/documentation/HomeKit/HMService", "law": "Accessories have both user-controllable services, like a light, and services that are for the use of the accessory itself, like a firmware update service."}
+{"id": "/documentation/HomeKit/HMService", "law": "You don’t create services directly."}
+{"id": "/documentation/HomeKit/enabling-homekit-in-your-app", "law": "If you don’t include a purpose string, your app crashes when you first try to use HomeKit."}
+{"id": "/documentation/HomeKit/enabling-homekit-in-your-app", "law": "Your app should handle both initial and subsequent access denials gracefully."}
+{"id": "/documentation/HomeKit/enabling-homekit-in-your-app", "law": "Declare your app’s intention to use HomeKit, and get permission from the user to access home automation accessories."}
+{"id": "/documentation/HomeKit/testing-your-app-with-the-homekit-accessory-simulator", "law": "To test your app, install the HomeKit Accessory Simulator (HAS) to simulate any accessories you don’t have, or to help automate your testing process."}
+{"id": "/documentation/HomeKit/testing-your-app-with-the-homekit-accessory-simulator", "law": "You can use your Mac’s camera to simulate network cameras and video doorbells."}
+{"id": "/documentation/HomeKit/testing-your-app-with-the-homekit-accessory-simulator", "law": "In the HomeKit Accessory Simulator, define accessories that you can use with your app."}
+{"id": "/documentation/homekit/hmaccessory", "law": "You don’t create accessories directly."}
+{"id": "/documentation/homekit/hmaccessorysetupmanager", "law": "Use this class to provides steps for the user to add one or more accessories to a particular home, and follow up with additional setup."}
+{"id": "/documentation/homekit/hmaccessorysetupmanager", "law": "These APIs don’t require that the current app has home data authorization."}
+{"id": "/documentation/homekit/hmaccessorysetuprequest", "law": "Use this class to provide steps for the user to add one or more accessories to a particular home, and follow up with additional setup."}
+{"id": "/documentation/homekit/hmcharacteristic", "law": "You don’t create characteristic instances."}
+{"id": "/documentation/homekit/hmcharacteristic", "law": "Device manufacturers can use one of the standard types, given in , or they can create custom types."}
+{"id": "/documentation/homekit/hmcharacteristic", "law": "Some characteristics use plain numbers, Booleans, or strings."}
+{"id": "/documentation/homekit/hmservice", "law": "Accessories have both user-controllable services, like a light, and services that are for the use of the accessory itself, like a firmware update service."}
+{"id": "/documentation/homekit/hmservice", "law": "You don’t create services directly."}

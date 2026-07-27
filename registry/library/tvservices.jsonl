@@ -1,0 +1,33 @@
+{"id": "/documentation/TVServices/mapping-apple-tv-users-to-app-profiles", "law": "To let people get to your content more directly, your app should save shared login information where it can access the credentials regardless of the current user, and your code should also remember which profile to load for each user."}
+{"id": "/documentation/TVServices/mapping-apple-tv-users-to-app-profiles", "law": "It also checks before saving to avoid remembering the selected profile in case there aren’t multiple users on the Apple TV."}
+{"id": "/documentation/TVServices/mapping-apple-tv-users-to-app-profiles", "law": "To avoid having each user sign in individually, tvOS 16 adds a new Keychain API: ."}
+{"id": "/documentation/TVServices/mapping-apple-tv-users-to-app-profiles", "law": "The method in the shows how to use the above to read the username and password from the Keychain: You can also use the same to save a new item with username and password."}
+{"id": "/documentation/TVServices/supporting-multiple-users-in-your-tvos-app", "law": "You must run this sample code project on a physical device."}
+{"id": "/documentation/TVServices", "law": "Use the TVServices framework to display content prominently on the screen and to speed up user login."}
+{"id": "/documentation/TVServices", "law": "Don’t perform memory-intensive operations from your TVServices app extension."}
+{"id": "/documentation/tvservices", "law": "Use the TVServices framework to display content prominently on the screen and to speed up user login."}
+{"id": "/documentation/tvservices", "law": "Don’t perform memory-intensive operations from your TVServices app extension."}
+{"id": "/documentation/tvservices/legacy-extension", "law": "If you must perform cpu-intensive or memory-intensive operations to generate Top Shelf content, perform those operations on a server and provide URLs to the generated resources."}
+{"id": "/documentation/tvservices/legacy-extension", "law": "However, any string you create should identify its content item forever; never recycle identifiers for new content."}
+{"id": "/documentation/tvservices/tvtopshelfcontentprovider", "law": "Use its methods to create the items that you want to display in the top shelf interface."}
+{"id": "/documentation/tvservices/tvtopshelfcontentprovider", "law": "The main interface for your Top Shelf app extension, which you use to provide content for the top shelf area of the tvOS Home Screen."}
+{"id": "/documentation/TVServices/TVUserManager/shouldStorePreferencesForCurrentUser", "law": "To avoid interrupting people with a profile picker each time they launch your app, you can save the current user’s selection on a shared device."}
+{"id": "/documentation/TVServices/TVUserManager/shouldStorePreferencesForCurrentUser", "law": "After someone selects a profile, use to determine whether to retain the profile selection or to prompt each time your app launches."}
+{"id": "/documentation/TVServices/TVUserManager/shouldStorePreferencesForCurrentUser", "law": "This property might be if people share a device, but don’t configure multiple users on that device."}
+{"id": "/documentation/TVServices/TVUserManager/shouldStorePreferencesForCurrentUser", "law": "If the property’s value is , display the profile picker to determine which profile to use for the current session, but don’t save the selected profile."}
+{"id": "/documentation/TVServices/TVUserManager/shouldStorePreferencesForCurrentUser", "law": "If the value is , and there isn’t a saved profile in , display the profile picker and save the selected profile for future use."}
+{"id": "/documentation/TVServices/TVUserManager/shouldStorePreferencesForCurrentUser", "law": "If the value is and there’s already a saved profile, skip the prompt and use the saved profile."}
+{"id": "/documentation/tvservices/personalizing-your-app-for-each-user-on-apple-tv", "law": "Multiple people can log in to accounts on a single Apple TV, and you can set up your app so each member of a household can use it with their own Apple TV account."}
+{"id": "/documentation/tvservices/personalizing-your-app-for-each-user-on-apple-tv", "law": "In most cases, managing each user’s data in their Apple account provides the best user experience, but it requires some support in your app."}
+{"id": "/documentation/tvservices/personalizing-your-app-for-each-user-on-apple-tv", "law": "Make sure you’re using to save data whenever the user switches away from your app."}
+{"id": "/documentation/tvservices/personalizing-your-app-for-each-user-on-apple-tv", "law": "When your app receives a push notification from CloudKit, use to check whether the update is for the current user."}
+{"id": "/documentation/tvservices/personalizing-your-app-for-each-user-on-apple-tv", "law": "Use account-specific storage to segregate data on a multiuser system."}
+{"id": "/documentation/tvservices/supporting-multiple-users-in-your-tvos-app", "law": "You must run this sample code project on a physical device."}
+{"id": "/documentation/tvservices/tvusermanager", "law": "To avoid interrupting people with a profile picker each time they launch your app, you can save and retrieve the current user’s selection on a shared device."}
+{"id": "/documentation/tvservices/tvusermanager", "law": "If that value is , display the profile picker to determine which profile to use for the current session, but don’t save the selected profile."}
+{"id": "/documentation/tvservices/tvusermanager", "law": "If the value is , and there isn’t a saved profile in , display the profile picker and save the selected profile for future use."}
+{"id": "/documentation/tvservices/tvusermanager", "law": "If the value is and there’s already a saved profile, skip the prompt and use the saved profile."}
+{"id": "/documentation/tvservices/mapping-apple-tv-users-to-app-profiles", "law": "To let people get to your content more directly, your app should save shared login information where it can access the credentials regardless of the current user, and your code should also remember which profile to load for each user."}
+{"id": "/documentation/tvservices/mapping-apple-tv-users-to-app-profiles", "law": "It also checks before saving to avoid remembering the selected profile in case there aren’t multiple users on the Apple TV."}
+{"id": "/documentation/tvservices/mapping-apple-tv-users-to-app-profiles", "law": "To avoid having each user sign in individually, tvOS 16 adds a new Keychain API: ."}
+{"id": "/documentation/tvservices/mapping-apple-tv-users-to-app-profiles", "law": "The method in the shows how to use the above to read the username and password from the Keychain: You can also use the same to save a new item with username and password."}

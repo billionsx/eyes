@@ -1,0 +1,56 @@
+{
+ "url": "https://www.apple.com/mac-mini/",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-closer-look",
+  "section-product-stories",
+  "section-design",
+  "section-lifestyle",
+  "section-performance",
+  "section-apple-intelligence",
+  "section-macos",
+  "section-mac-iphone",
+  "section-accessories",
+  "section-incentive",
+  "section-contrast",
+  "section-decarbonizing",
+  "section-values",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:closer look",
+  "name:design intro",
+  "name:ports",
+  "name:thermal control",
+  "name:lifestyle image",
+  "name:m4 chips",
+  "name:apple intelligence privacy",
+  "name:macos",
+  "name:mac + iphone",
+  "name:accessories",
+  "name:why apple",
+  "name:compare",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:router"
+ ],
+ "imgs": 179,
+ "videos": 10,
+ "cta": 72,
+ "h_levels": {
+  "1": 1,
+  "2": 25,
+  "3": 44
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/mac-mini/aa/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

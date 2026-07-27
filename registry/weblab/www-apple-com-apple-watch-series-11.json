@@ -1,0 +1,55 @@
+{
+ "url": "https://www.apple.com/apple-watch-series-11/",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-product-viewer",
+  "section-health",
+  "section-fitness",
+  "section-battery",
+  "section-on-the-go",
+  "section-safety",
+  "section-incentive",
+  "section-contrast",
+  "section-environment",
+  "section-values",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:product viewer",
+  "name:health intro",
+  "name:blood pressure",
+  "name:health gallery",
+  "name:fitness intro",
+  "name:workout buddy",
+  "name:workout gallery",
+  "name:battery",
+  "name:on the go intro",
+  "name:on the go gallery",
+  "name:safety",
+  "name:why apple",
+  "name:compare",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:router"
+ ],
+ "imgs": 211,
+ "videos": 12,
+ "cta": 88,
+ "h_levels": {
+  "1": 1,
+  "2": 23,
+  "3": 51,
+  "4": 16
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-watch-series-11/c/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

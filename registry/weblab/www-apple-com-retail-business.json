@@ -1,0 +1,31 @@
+{
+ "url": "https://www.apple.com/retail/business/",
+ "sections": [
+  "section-page-headline",
+  "section-hero",
+  "section-products-and-services"
+ ],
+ "modules": [
+  "name:page headline",
+  "name:apple at work",
+  "name:products and services",
+  "name:buy strip"
+ ],
+ "imgs": 0,
+ "videos": 0,
+ "cta": 15,
+ "h_levels": {
+  "1": 1,
+  "2": 2,
+  "3": 14,
+  "4": 1
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/retail/business/m/built/styles/main.built.css",
+  "/v/retail/business/m/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

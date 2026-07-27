@@ -1,0 +1,22 @@
+{"id": "/documentation/WalletOrders", "law": "Use Wallet Orders to give users the ability to track and manage their purchases in Wallet."}
+{"id": "/documentation/walletorders", "law": "Use Wallet Orders to give users the ability to track and manage their purchases in Wallet."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "Signing an order package requires a signing certificate for the order type identifier."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "Install the generated certificate on the server you use for signing the order package."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "For example, the code below shows the file for an order package that’s localized for English and Simplified Chinese: Don’t include metadata files that aren’t part of the order format, such as the file, in the manifest or distributable order package."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "If your order package doesn’t build correctly, check whether the following are all true: The file contains all the required keys."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "For more information about required keys, see the top-level object."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "The and files use the correct JSON syntax."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "Strings that require value formats are correct, such as the and keys of , which require an RFC 3339 format, or which requires an ISO 8601-1 duration format."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "Strings that require values from a finite set are correct, such as and ."}
+{"id": "/documentation/walletorders/building-a-distributable-order-package", "law": "The names of localization folders use the correct language and region identifiers."}
+{"id": "/documentation/walletorders/creating-the-source-for-an-order", "law": "Create the source in a directory that you use to create the final distributable order package."}
+{"id": "/documentation/walletorders/creating-the-source-for-an-order", "law": "Be sure to provide the same number of resolutions for each localization."}
+{"id": "/documentation/walletorders/creating-the-source-for-an-order", "law": "Use UTF-16 encoding for non-ASCII characters."}
+{"id": "/documentation/walletorders/creating-the-source-for-an-order", "law": "The system localizes fields that contain dates and times that use standard formats in the file."}
+{"id": "/documentation/walletorders/creating-the-source-for-an-order", "law": "The system always displays localized versions of these values, even when your order doesn’t contain localization folders for the language."}
+{"id": "/documentation/walletorders/order", "law": "The value must correspond with your signing certificate and isn’t displayed to the user."}
+{"id": "/documentation/walletorders/order", "law": "This should equal the time, if the order hasn’t had any updates."}
+{"id": "/documentation/walletorders/order", "law": "Must be monotonically increasing."}
+{"id": "/documentation/walletorders/order", "law": "Required if you provide a web service."}
+{"id": "/documentation/walletorders/order", "law": "Use this field if the order data isn’t provided by the merchant, but by a third party."}
+{"id": "/documentation/walletorders/retrieve-the-latest-version-of-an-order", "law": "Make sure you support standard HTTP caching on this endpoint."}

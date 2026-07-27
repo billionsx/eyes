@@ -1,0 +1,27 @@
+{"id": "/documentation/ProximityReader", "law": "Use this framework to initiate the payment process from your app."}
+{"id": "/documentation/ProximityReader", "law": "The use of this framework requires you to coordinate with a participating payment service provider that is Level 3 certified."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "With Tap to Share, merchants can use an iPhone to connect to a customer’s iPhone or device and exchange information."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "Your app needs a Tap to Pay on iPhone entitlement and the ability to open a session by , or retrieve and use a to initialize a and connect to a customer’s device."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "When your app opens a screen in which a merchant requires input from a customer, create a session that provides relevant merchant information."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "The property provides an asynchronous stream of events that you can use to determine the state of the session and manage your UI."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "After your session is ready, use the appropriate method to request customer information."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "Use the same method to repopulate the shopping cart when making updates."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "The shopping cart is stateless, so make sure to include the full shopping cart every update."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "If the customer hasn’t set up Apple Pay on their device or chooses not to use Apple Pay, returns and you must use another payment method to receive the payment from the customer."}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "The example below shows how a merchant might use Apple Pay to request a payment from a customer:"}
+{"id": "/documentation/ProximityReader/adding-support-for-tap-to-share-to-your-app", "law": "If the merchant supports loyalty or membership Wallet Passes, you can use the method to allow the customer to add your pass to their Wallet."}
+{"id": "/documentation/proximityreader", "law": "Use this framework to initiate the payment process from your app."}
+{"id": "/documentation/proximityreader", "law": "The use of this framework requires you to coordinate with a participating payment service provider that is Level 3 certified."}
+{"id": "/documentation/proximityreader/adopting-the-verifier-api-in-your-iphone-app", "law": "To support the Verifier API, a person’s iPhone requires iOS 17 and later."}
+{"id": "/documentation/proximityreader/adopting-the-verifier-api-in-your-iphone-app", "law": "If the call to is successful, the framework returns a object that you can use to read mobile documents."}
+{"id": "/documentation/proximityreader/adopting-the-verifier-api-in-your-iphone-app", "law": "The following example shows how to prepare device to read mobile documents: The first time you use a reader token to prepare a session, the framework performs a network call to the Verifier API server."}
+{"id": "/documentation/proximityreader/adopting-the-verifier-api-in-your-iphone-app", "law": "After you use a reader token to successfully prepare the device and create a , you can reuse it to prepare the device repeatedly for up to 48 hours."}
+{"id": "/documentation/proximityreader/adopting-the-verifier-api-in-your-iphone-app", "law": "Use to present a system UI to prompt the person using your app to present their mobile document to the reader and approve the request."}
+{"id": "/documentation/proximityreader/adopting-the-verifier-api-in-your-iphone-app", "law": "Even if you don’t live in an area that supports mobile documents, you can test your implementation in the Simulator or by downloading a developer profile on your local device."}
+{"id": "/documentation/proximityreader/generating-reader-tokens-for-the-verifier-api", "law": "You need to link a reader token to the device that you’ll use to read documents, as well as your brand information from Apple Business Register."}
+{"id": "/documentation/proximityreader/generating-reader-tokens-for-the-verifier-api", "law": "Construct a token with these fields in the header: In the payload section of the token, include the following: When decoded, a token for use with the Verifier API has the following format: To learn more about JWT, see the ."}
+{"id": "/documentation/proximityreader/mobiledocumentreader", "law": "Use the returned object to read mobile documents."}
+{"id": "/documentation/proximityreader/mobiledocumentreadersession", "law": "Use a object to read mobile documents from a properly configured device."}
+{"id": "/documentation/proximityreader/mobiledocumentreadersession", "law": "Don’t create this object directly."}
+{"id": "/documentation/proximityreader/mobiledocumentreadersession", "law": "You may use the same session object to perform multiple read operations, but you may perform only one read operation at a time from the device."}
+{"id": "/documentation/proximityreader/mobiledocumentreadersession", "law": "The object you use to start reading a mobile document."}

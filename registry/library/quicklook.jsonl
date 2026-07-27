@@ -1,0 +1,4 @@
+{"id": "/documentation/QuickLook", "law": "Use the Quick Look framework to show a preview of common file types in your app that allows basic interactions."}
+{"id": "/documentation/QuickLook", "law": "To perform more advanced edits on files, provide advanced playback features, display a file’s content next to text, or add views on top of the preview, use lower-level APIs."}
+{"id": "/documentation/QuickLook", "law": "For example, use to provide advanced video playback features."}
+{"id": "/documentation/QuickLook", "law": "Create previews of files to use inside your app, or perform simple edits on previews."}

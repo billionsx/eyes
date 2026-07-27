@@ -1,0 +1,4 @@
+{"id": "/documentation/PHASE", "law": "Use PHASE (Physical Audio Spatialization Engine) to provide complex, dynamic audio experiences in your games and apps."}
+{"id": "/documentation/PHASE", "law": "If the audio in your game or app doesn’t incorporate environmental events or cues, you can use or ."}
+{"id": "/documentation/PHASE/playing-sound-from-a-location-in-a-3d-scene", "law": "To complement obstacles and indoor locations in your scene, you can use spatial audio to layer environmental effects, for example, a reflection or reverberation, on top of spatial sounds."}
+{"id": "/documentation/PHASE/playing-sound-from-a-location-in-a-3d-scene", "law": "For spatial sounds, the framework requires a 3D position from which the sound originates."}

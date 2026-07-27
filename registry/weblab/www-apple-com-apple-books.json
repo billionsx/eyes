@@ -1,0 +1,37 @@
+{
+ "url": "https://www.apple.com/apple-books/",
+ "sections": [
+  "section-hero",
+  "section-library",
+  "section-tiles",
+  "section-devices",
+  "section-faq",
+  "section-router"
+ ],
+ "modules": [
+  "name:hero",
+  "name:library",
+  "name:audiobooks",
+  "name:reading goals",
+  "name:recommendations",
+  "name:progress",
+  "name:devices",
+  "name:router"
+ ],
+ "imgs": 32,
+ "videos": 0,
+ "cta": 27,
+ "h_levels": {
+  "1": 1,
+  "2": 7,
+  "3": 28
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-books/c/built/styles/main.built.css",
+  "/v/apple-books/c/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

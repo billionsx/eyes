@@ -1,0 +1,5 @@
+{"id": "/documentation/ContactProvider", "law": "Use the Contact Provider framework if your app manages its own contacts to make them available in other apps that use the framework."}
+{"id": "/documentation/ContactProvider", "law": "This enables people to organize the contacts they use in your app separately from their personal contacts."}
+{"id": "/documentation/ContactProvider", "law": "Use the manager to enable or disable the extension domain, typically using the default domain."}
+{"id": "/documentation/ContactProvider", "law": "After enabling the extension domain, the extension can run and sync contacts, making contacts available to other apps that use the framework."}
+{"id": "/documentation/ContactProvider", "law": "Xcode provides a Contact Provider extension template for use in an existing project to add Contact Provider support."}

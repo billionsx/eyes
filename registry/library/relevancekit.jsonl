@@ -1,0 +1,3 @@
+{"id": "/documentation/RelevanceKit", "law": "To give your widget additional visibility in the watchOS Smart Stack and ensure it appears when a person needs it, use RelevanceKit to provide contextual clues that signal the widget’s relevance to the system."}
+{"id": "/documentation/RelevanceKit", "law": "Note that you use RelevanceKit in combination with and to provide interactive and contextually relevant widgets in the Smart Stack, including iPhone widgets that appear on Apple Watch."}
+{"id": "/documentation/RelevanceKit", "law": "You don’t need to explicitly add to your code."}

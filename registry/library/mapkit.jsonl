@@ -1,0 +1,151 @@
+{"id": "/documentation/MapKit/annotating-a-map-with-custom-data", "law": "You can use annotations to call out addresses, points of interest, and particular destinations."}
+{"id": "/documentation/MapKit/annotating-a-map-with-custom-data", "law": "To display an annotation on a map, your app must provide two distinct objects: an annotation object and an annotation view."}
+{"id": "/documentation/MapKit/annotating-a-map-with-custom-data", "law": "Use a default annotation view if you need to customize the content with a callout, or change the default marker."}
+{"id": "/documentation/MapKit/annotating-a-map-with-custom-data", "law": "Use a custom annotation view if you want to have a completely custom view appear for the annotation."}
+{"id": "/documentation/MapKit/annotating-a-map-with-custom-data", "law": "Before returning from the delegate call providing the annotation view, you configure the annotation view with any customizations required for the annotation."}
+{"id": "/documentation/MapKit/annotating-a-map-with-custom-data", "law": "For example, use a flag icon for an annotation view representing San Francisco."}
+{"id": "/documentation/MapKit/displaying-an-indoor-map", "law": "Use these examples to create your own indoor map with a style that’s consistent with your app’s design."}
+{"id": "/documentation/MapKit/displaying-an-indoor-map", "law": "Use the Indoor Mapping Data Format (IMDF) to show an indoor map with custom overlays and points of interest."}
+{"id": "/documentation/MapKit/displaying-an-updating-path-of-a-user-s-location-history", "law": "Alternately, use one of the routes in the iOS simulator, such as Freeway Drive or City Bicycle Ride."}
+{"id": "/documentation/MapKit/displaying-an-updating-path-of-a-user-s-location-history", "law": "This combination of when-in-use authorization and background updates allows the app to receive location updates while in the background, and the system displays a location service indicator when the app isn’t in the foreground."}
+{"id": "/documentation/MapKit/displaying-an-updating-path-of-a-user-s-location-history", "law": "For example, if this app is for hiking, it needs high-accuracy data to capture a detailed path for the user’s hiking route, requiring to facilitate the required detail."}
+{"id": "/documentation/MapKit/displaying-an-updating-path-of-a-user-s-location-history", "law": "If they use it for providing driving directions, it sets to so that Core Location makes small adjustments to the reported location to match known roads."}
+{"id": "/documentation/MapKit/displaying-an-updating-path-of-a-user-s-location-history", "law": "For example, apps that only need to show a path with a static set of coordinates, such as the path a user took in the distant past, can use ."}
+{"id": "/documentation/MapKit/displaying-an-updating-path-of-a-user-s-location-history", "law": "In an app that has well-defined usage patterns, such as a hiking app for use within a national park, the might consist of a large area the path is likely to remain within, such as the bounds of the national park."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "This sample code project demonstrates how to draw common shapes, how to perform custom drawing outside of a common shape, and how to use map tiles from additional data sources."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "Most overlays use geographic coordinates to create contiguous or noncontiguous sets of lines, rectangles, circles, and other shapes."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "The app adds the overlay data objects to the map in a specific order to ensure that certain overlays display on top of others."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "Most apps only use a small number of overlay types, so this function only needs to create the small number of corresponding overlay renderer types."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "The app creates a renderer for the circle described above with the following code: When the app uses the provided renderer classes for common shapes, MapKit vectorizes overlay shapes so that they always remain sharp while the map scales."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "The app doesn’t change the default value of the property, so the standard overlay shapes always remain sharp."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "The app then adds the grouped overlay to the map view, rather than adding the individual overlays, to avoid requesting a separate renderer for each overlay from its delegate."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "When implementing a custom renderer, the app doesn’t use the or of the as reference points during drawing."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "To use a custom bitmap map tile overlay, the app uses to manage loading the tile data and to render the map tiles."}
+{"id": "/documentation/MapKit/displaying-overlays-on-a-map", "law": "When the tile overlay loads the data, MapKit replaces the placeholder values with the required values to load tiles for a specific map region according to the EPSG:3857 spherical Mercator projection coordinate system."}
+{"id": "/documentation/mapkit/mapkit_for_appkit_and_uikit/explore_a_location_with_a_highly_detailed_map_and_look_around", "law": "Display a richly detailed map, and use Look Around to experience an interactive view of landmarks."}
+{"id": "/documentation/MapKit", "law": "Use MapKit to give your app a sense of place with maps and location information."}
+{"id": "/documentation/MapKit", "law": "You can use the MapKit framework to: Embed maps directly into your app’s windows and views."}
+{"id": "/documentation/MapKit/MKMapView", "law": "Use this class as-is to display map information and to manipulate the map contents from your app."}
+{"id": "/documentation/MapKit/MKMapView", "law": "You can also use projected map coordinates instead of regions to specify some values."}
+{"id": "/documentation/MapKit/MKMapView", "law": "To specify locations and distances, you use the , , and data types."}
+{"id": "/documentation/MapKit/MKMapView", "law": "Don’t subclass the class itself."}
+{"id": "/documentation/MapKit/MKMapView", "law": "Even if you specify a custom appearance, users can use the Maps app to force all maps to adopt a light appearance."}
+{"id": "/documentation/MapKit/MKMapView", "law": "Use the map view’s property to determine the actual appearance of your map."}
+{"id": "/documentation/MapKit/MKMapView", "law": "Because the map view needs annotation views only when they’re onscreen, the class provides a mechanism for queueing annotation views that aren’t in use."}
+{"id": "/documentation/MapKit/MKMapView", "law": "This feature improves memory use by keeping only a small number of annotation views in memory at once, and by recycling the views you do have."}
+{"id": "/documentation/MapKit/MKMapView", "law": "When configuring your map interface, be sure to add all of your annotation objects right away."}
+{"id": "/documentation/MapKit/MKMapView", "law": "You can use overlays to layer content over a wide portion of the map."}
+{"id": "/documentation/MapKit/MKOverlay", "law": "You might use overlays to define the geographic boundaries of a national park or trace a bus route along city streets."}
+{"id": "/documentation/MapKit/MKMapItem", "law": "Use this class to do the following: Share map-related data with the Maps app."}
+{"id": "/documentation/MapKit/MKMapItem", "law": "Use the information in those two objects to plot the route and generate directions."}
+{"id": "/documentation/mapkit", "law": "Use MapKit to give your app a sense of place with maps and location information."}
+{"id": "/documentation/mapkit", "law": "You can use the MapKit framework to: Embed maps directly into your app’s windows and views."}
+{"id": "/documentation/mapkit/mkannotation/coordinate", "law": "Your implementation of this property must be key-value observing (KVO) compliant."}
+{"id": "/documentation/mapkit/mkannotation/title", "law": "Use this optional property to supply a string that the annotation displays in the callout for the associated annotation view."}
+{"id": "/documentation/mapkit/mkannotation/title", "law": "If you specify a object, setting the title isn’t required."}
+{"id": "/documentation/mapkit/mkannotationview", "law": "If you choose to override directly and you don’t specify a custom image in the property, the annotation view sets the width and height of the annotation view’s frame to by default."}
+{"id": "/documentation/mapkit/mkannotationview", "law": "Although they scroll with the map contents, annotation views reside in a separate display layer and don’t scale when the size of the visible map region changes."}
+{"id": "/documentation/mapkit/mkannotationview", "law": "For this reason, don’t tightly couple annotation views to the contents of their associated annotation."}
+{"id": "/documentation/mapkit/mkannotationview", "law": "Instead, use the properties of an annotation view (or setter methods) to configure the view for a new annotation object."}
+{"id": "/documentation/mapkit/mkannotationview", "law": "You can use the class as-is or subclass it to provide custom behavior as necessary."}
+{"id": "/documentation/mapkit/mkannotationview", "law": "You might also create custom subclasses as a convenience and use them to put the annotation view in a known state."}
+{"id": "/documentation/mapkit/mkannotationview", "law": "To provide custom callout views, override the method and use it to return the views."}
+{"id": "/documentation/mapkit/mkannotationview/detailcalloutaccessoryview", "law": "The detail accessory view to use in the standard callout."}
+{"id": "/documentation/mapkit/mkmapviewdelegate", "law": "Because many map operations require the class to load data asynchronously, the map view calls these methods to notify your app when specific operations complete."}
+{"id": "/documentation/mapkit/mkmapviewdelegate", "law": "Optional methods that you use to receive map-related update messages."}
+{"id": "/documentation/mapkit/mkmapviewdelegate/mapview(_:annotationview:calloutaccessorycontroltapped:)", "law": "You can use this method to respond to taps and perform any actions associated with that control."}
+{"id": "/documentation/mapkit/mkmapviewdelegate/mapview(_:annotationview:calloutaccessorycontroltapped:)", "law": "For example, if your control displays additional information about the annotation, you can use this method to present a modal panel with that information."}
+{"id": "/documentation/mapkit/mkpinannotationview", "law": "Use of specific classes of this framework (and their associated interfaces) is subject to the Google Mobile Maps terms of service, found at ."}
+{"id": "/documentation/mapkit/mkpointannotation", "law": "You use this class, rather than define a custom annotation object, in situations where all you want to do is display a title string at the specified point on the map."}
+{"id": "/documentation/mapkit/mkannotationview/displaypriority", "law": "An annotation view with a priority of is always visible on the map, whereas other priorities may result in a hidden annotation view."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "This sample code project demonstrates how to draw common shapes, how to perform custom drawing outside of a common shape, and how to use map tiles from additional data sources."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "Most overlays use geographic coordinates to create contiguous or noncontiguous sets of lines, rectangles, circles, and other shapes."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "The app adds the overlay data objects to the map in a specific order to ensure that certain overlays display on top of others."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "Most apps only use a small number of overlay types, so this function only needs to create the small number of corresponding overlay renderer types."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "The app creates a renderer for the circle described above with the following code: When the app uses the provided renderer classes for common shapes, MapKit vectorizes overlay shapes so that they always remain sharp while the map scales."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "The app doesn’t change the default value of the property, so the standard overlay shapes always remain sharp."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "The app then adds the grouped overlay to the map view, rather than adding the individual overlays, to avoid requesting a separate renderer for each overlay from its delegate."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "When implementing a custom renderer, the app doesn’t use the or of the as reference points during drawing."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "To use a custom bitmap map tile overlay, the app uses to manage loading the tile data and to render the map tiles."}
+{"id": "/documentation/mapkit/displaying-overlays-on-a-map", "law": "When the tile overlay loads the data, MapKit replaces the placeholder values with the required values to load tiles for a specific map region according to the EPSG:3857 spherical Mercator projection coordinate system."}
+{"id": "/documentation/mapkit/mkoverlay", "law": "You might use overlays to define the geographic boundaries of a national park or trace a bus route along city streets."}
+{"id": "/documentation/mapkit/mkoverlayrenderer", "law": "You can use one of these existing renderers or define your own subclasses if you want to draw the overlay contents differently."}
+{"id": "/documentation/mapkit/mkoverlayrenderer", "law": "However, if your class contains content that may not be ready for drawing right away, you need to also override the method and use it to report when your class is ready and able to draw."}
+{"id": "/documentation/mapkit/mkoverlayrenderer/draw(_:zoomscale:in:)", "law": "Subclasses can override this method and use it to draw the overlay’s contents."}
+{"id": "/documentation/mapkit/mkoverlayrenderer/draw(_:zoomscale:in:)", "law": "Use Core Graphics to draw any content for your overlays."}
+{"id": "/documentation/mapkit/mkoverlayrenderer/draw(_:zoomscale:in:)", "law": "Overlay drawing typically occurs on background threads to improve performance, so don’t manipulate UIKit views or other objects that you can only manipulate on the app’s main thread."}
+{"id": "/documentation/mapkit/mkoverlayrenderer/draw(_:zoomscale:in:)", "law": "In addition, avoid drawing the entire contents of the overlay each time the overlay renderer calls this method."}
+{"id": "/documentation/mapkit/mkoverlayrenderer/draw(_:zoomscale:in:)", "law": "Instead, be sure to take the parameter into consideration and avoid drawing content outside that rectangle."}
+{"id": "/documentation/mapkit/mkpolyline", "law": "The first and last points don’t automatically connect to each other."}
+{"id": "/documentation/mapkit/displaying-an-updating-path-of-a-user-s-location-history", "law": "Alternately, use one of the routes in the iOS simulator, such as Freeway Drive or City Bicycle Ride."}
+{"id": "/documentation/mapkit/displaying-an-updating-path-of-a-user-s-location-history", "law": "This combination of when-in-use authorization and background updates allows the app to receive location updates while in the background, and the system displays a location service indicator when the app isn’t in the foreground."}
+{"id": "/documentation/mapkit/displaying-an-updating-path-of-a-user-s-location-history", "law": "For example, if this app is for hiking, it needs high-accuracy data to capture a detailed path for the user’s hiking route, requiring to facilitate the required detail."}
+{"id": "/documentation/mapkit/displaying-an-updating-path-of-a-user-s-location-history", "law": "If they use it for providing driving directions, it sets to so that Core Location makes small adjustments to the reported location to match known roads."}
+{"id": "/documentation/mapkit/displaying-an-updating-path-of-a-user-s-location-history", "law": "For example, apps that only need to show a path with a static set of coordinates, such as the path a user took in the distant past, can use ."}
+{"id": "/documentation/mapkit/displaying-an-updating-path-of-a-user-s-location-history", "law": "In an app that has well-defined usage patterns, such as a hiking app for use within a national park, the might consist of a large area the path is likely to remain within, such as the bounds of the national park."}
+{"id": "/documentation/mapkit/mkcirclerenderer", "law": "You typically use this class as-is and don’t subclass it."}
+{"id": "/documentation/mapkit/mkmappoint", "law": "The underlying units that MapKit uses to draw the contents of an define the actual units of a map point, but you don’t need to worry about these units directly."}
+{"id": "/documentation/mapkit/mkmappoint", "law": "You use map points primarily to simplify computations that are complex to do using coordinate values on a curved surface."}
+{"id": "/documentation/mapkit/mkmapview", "law": "Use this class as-is to display map information and to manipulate the map contents from your app."}
+{"id": "/documentation/mapkit/mkmapview", "law": "You can also use projected map coordinates instead of regions to specify some values."}
+{"id": "/documentation/mapkit/mkmapview", "law": "To specify locations and distances, you use the , , and data types."}
+{"id": "/documentation/mapkit/mkmapview", "law": "Don’t subclass the class itself."}
+{"id": "/documentation/mapkit/mkmapview", "law": "Even if you specify a custom appearance, users can use the Maps app to force all maps to adopt a light appearance."}
+{"id": "/documentation/mapkit/mkmapview", "law": "Use the map view’s property to determine the actual appearance of your map."}
+{"id": "/documentation/mapkit/mkmapview", "law": "Because the map view needs annotation views only when they’re onscreen, the class provides a mechanism for queueing annotation views that aren’t in use."}
+{"id": "/documentation/mapkit/mkmapview", "law": "This feature improves memory use by keeping only a small number of annotation views in memory at once, and by recycling the views you do have."}
+{"id": "/documentation/mapkit/mkmapview", "law": "When configuring your map interface, be sure to add all of your annotation objects right away."}
+{"id": "/documentation/mapkit/mkmapview", "law": "You can use overlays to layer content over a wide portion of the map."}
+{"id": "/documentation/mapkit/mkmapview/addoverlay(_:level:)", "law": "As soon as the bounding rectangle of the overlay intersects the visible portion of the map, the map view calls your delegate’s method to get the renderer object to use when drawing the overlay."}
+{"id": "/documentation/mapkit/mkmapview/addoverlay(_:level:)", "law": "To remove an overlay from a map, use the method."}
+{"id": "/documentation/mapkit/mkmapview/overlays(in:)", "law": "You can use this method to get all of the overlays assigned to a specific map level, which might be a subset of the complete set of overlay objects."}
+{"id": "/documentation/mapkit/mkmapviewdelegate/mapview(_:rendererfor:)", "law": "The renderer to use when presenting the specified overlay on the map."}
+{"id": "/documentation/mapkit/mkmapviewdelegate/mapview(_:rendererfor:)", "law": "Implement this method and use it to provide an appropriate renderer object for your overlays."}
+{"id": "/documentation/mapkit/mkmapviewdelegate/mapview(_:rendererfor:)", "law": "Asks the delegate for a renderer object to use when drawing the specified overlay."}
+{"id": "/documentation/mapkit/mkmultipoint", "law": "Don’t create instances of this class directly."}
+{"id": "/documentation/mapkit/mkmultipoint", "law": "However, you can use the methods and property of this class to access information about the specific points associated with the line or polygon."}
+{"id": "/documentation/mapkit/mkmultipolygon", "law": "Use a when you have multiple distinct polygon shapes that you intend to render using the same style."}
+{"id": "/documentation/mapkit/mkmultipolygonrenderer", "law": "Use this renderer to provide the style for multiple polygons created using ."}
+{"id": "/documentation/mapkit/mkoverlaypathrenderer/linedashpattern", "law": "An array of numbers specifying the dash pattern to use for the path."}
+{"id": "/documentation/mapkit/mkpolylinerenderer", "law": "You typically use this class as-is and don’t subclass it."}
+{"id": "/documentation/mapkit/mkshape", "law": "You can’t instantiate this class directly; use a subclass instead."}
+{"id": "/documentation/mapkit/mktileoverlay", "law": "You use tile overlay objects to represent your own tile-based content and to coordinate the display of that content in a map view."}
+{"id": "/documentation/mapkit/mktileoverlay", "law": "You can use a single tile overlay object to represent all of the tiles at one or more zoom levels of the map."}
+{"id": "/documentation/mapkit/mktileoverlay", "law": "If you use a different indexing scheme for your tiles, you can also subclass and override the or methods to map between the requested tile and your custom indexing scheme."}
+{"id": "/documentation/mapkit/mkaddressfilter", "law": "Use this object to filter search results by criteria, such as country, region, and municipality."}
+{"id": "/documentation/mapkit/mklocalpointsofinterestrequest", "law": "The fetch returns points of interest up to the maximum distance defined by ."}
+{"id": "/documentation/mapkit/mklocalpointsofinterestrequest", "law": "A structured request to use when searching for points of interest."}
+{"id": "/documentation/mapkit/mklocalsearch", "law": "Use an object to execute a single search request."}
+{"id": "/documentation/mapkit/mklocalsearch", "law": "You might use this class to search for addresses or points of interest on the map."}
+{"id": "/documentation/mapkit/mklocalsearch/start(completionhandler:)", "law": "You use this method to initiate a map-based search operation."}
+{"id": "/documentation/mapkit/mklocalsearchcompleter", "law": "You use an object to retrieve auto-complete suggestions for your own map-based search controls."}
+{"id": "/documentation/mapkit/mklocalsearchcompleter", "law": "You must always assign a delegate object to the search completer so that you can receive the search results that it generates."}
+{"id": "/documentation/mapkit/mklocalsearchcompleter/queryfragment", "law": "For example, if you’re using a text field to manage the input from the user, use the method of the text field’s delegate to update the value of this property, as the following example shows: The search string that you want completions for."}
+{"id": "/documentation/mapkit/mklocalsearchcompleterdelegate", "law": "You use this protocol when implementing an autocomplete solution for a map in your app."}
+{"id": "/documentation/mapkit/mklocalsearchcompleterdelegate", "law": "As the user types search terms, use an object to start searching for valid completions."}
+{"id": "/documentation/mapkit/mklocalsearchcompletion", "law": "You don’t create instances of this class directly."}
+{"id": "/documentation/mapkit/mklocalsearchcompletion", "law": "Instead, you use an to initiate a search based on a set of partial search strings."}
+{"id": "/documentation/mapkit/mklocalsearchcompletion", "law": "Retrieve any objects from that property and display the search terms in your interface, or use one to initiate a search for content based on that search term."}
+{"id": "/documentation/mapkit/mklocalsearchcompletion", "law": "When displaying text completions for a partial search term in your user interface, you might want to use a bold version of a font or add some other highlighting to the portion of the completion string that causes it to match the partial search term."}
+{"id": "/documentation/mapkit/mklocalsearchcompletion/titlehighlightranges", "law": "Use this property to identify the ranges of characters in the title string that you want to highlight."}
+{"id": "/documentation/mapkit/mklocalsearchregionpriority", "law": "MKLocalSearchRegionPriority.required."}
+{"id": "/documentation/mapkit/mkmapitem", "law": "Use this class to do the following: Share map-related data with the Maps app."}
+{"id": "/documentation/mapkit/mkmapitem", "law": "Use the information in those two objects to plot the route and generate directions."}
+{"id": "/documentation/mapkit/mkmapitem/identifier-swift.property", "law": "You can persist an identifier and use it later to recall information about place."}
+{"id": "/documentation/mapkit/mkmapitemrequest", "law": "A utility class you use to request additional information about a map feature."}
+{"id": "/documentation/mapkit/mapkit-for-swiftui", "law": "People who use your app can also explore at street level using and Look Around viewer."}
+{"id": "/documentation/mapkit/mklookaroundscene", "law": "A utility class that encapsulates information the framework requires to retrieve and display a specific Look Around location’s imagery."}
+{"id": "/documentation/mapkit/mklookaroundscenerequest", "law": "A class you use to request a LookAround scene at the location you specify."}
+{"id": "/documentation/mapkit/mklookaroundsnapshotter", "law": "A utility class that you use to create a static image from a LookAround scene."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "Use Place IDs to maintain unique collections of places that are important to your app."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "You can also use a Place ID as a primary key or as part of a composite key in a database, or share Place IDs with other apps."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "These always return the most recent information for the place that the Place ID refers to, even if that information changed since you originally obtained it."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "You don’t have to track these changes or even update the stored Place ID."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "Use Place IDs to display annotations with from MapKit for AppKit and UIKit or from MapKit JS."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "You can also use Place IDs to show more detailed selection accessories, such as popups that automatically display a place’s name, address, hours, and more, with from MapKit for AppKit and UIKit and from MapKit JS."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "To aid with this task, place objects don’t just contain a Place ID in ."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "If your set already contains any of the alternate Place IDs, don’t add the new Place ID to the set because it would be a duplicate."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "Ensure that your set of Place IDs doesn’t contain two Place IDs that refer to the same place by performing the following steps: Create an empty set of Place IDs."}
+{"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "After you’ve completed the above steps, delete the temporary set you used to ensure that there were no duplicates amongst Place IDs and their alternates."}
+{"id": "/documentation/mapkit/mkiconstyle", "law": "A class you use to customize the annotation view icon of a point of interest (POI) on the map."}
+{"id": "/documentation/mapkit/mkmapfeatureoptions", "law": "A structure you use to tell the map which kinds of features users can interact with."}

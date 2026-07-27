@@ -1,0 +1,51 @@
+{
+ "url": "https://www.apple.com/apple-fitness-plus/",
+ "sections": [
+  "section-hero",
+  "section-get-started",
+  "section-inspiration",
+  "section-move",
+  "section-join",
+  "section-compatibility",
+  "section-faq",
+  "section-routing"
+ ],
+ "modules": [
+  "name:hero",
+  "name:pricing section first",
+  "name:get started intro",
+  "name:custom plan",
+  "name:personalized recommendations",
+  "name:supercharge with apple watch",
+  "name:airpods pro 3 metrics",
+  "name:fitness+ trainer team",
+  "name:summary tab",
+  "name:fitness+ awards",
+  "name:activity",
+  "name:preferences",
+  "name:more ways to move",
+  "name:fitness+ instagram",
+  "name:pricing section second",
+  "name:devices",
+  "name:faq",
+  "name:apple one",
+  "name:apple music"
+ ],
+ "imgs": 225,
+ "videos": 5,
+ "cta": 107,
+ "h_levels": {
+  "2": 21,
+  "1": 1,
+  "3": 36
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-fitness-plus/ac/built/styles/main.built.css",
+  "/v/apple-fitness-plus/ac/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

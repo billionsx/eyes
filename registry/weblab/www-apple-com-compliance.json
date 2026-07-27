@@ -1,0 +1,27 @@
+{
+ "url": "https://www.apple.com/compliance/",
+ "sections": [
+  "section-lgl-one-up-tile",
+  "section-lgl-one-up-tile",
+  "section-lgl-one-up-tile",
+  "section-lgl-one-up-tile"
+ ],
+ "modules": [],
+ "imgs": 0,
+ "videos": 0,
+ "cta": 25,
+ "h_levels": {
+  "1": 1,
+  "2": 5,
+  "3": 11
+ },
+ "css": [
+  "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/3.0/styles/ac-localnav.built.css",
+  "/legal/v/legal/e/built/styles/main.built.css",
+  "/compliance/css/compliance-quote.css",
+  "/ac/localnav/4/styles/ac-localnav.built.css"
+ ],
+ "typography_laws": 2
+}

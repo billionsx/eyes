@@ -1,0 +1,24 @@
+{
+ "url": "https://www.apple.com/today/groups/",
+ "sections": [
+  "section-registration-form"
+ ],
+ "modules": [],
+ "imgs": 0,
+ "videos": 0,
+ "cta": 17,
+ "h_levels": {
+  "1": 1,
+  "2": 6,
+  "3": 14
+ },
+ "css": [
+  "/today/_next/static/css/dcd1fb177ddcaf15.css",
+  "/today/_next/static/css/7daa22a0520ee5b7.css",
+  "/today/_next/static/css/1e03b4eaef61234f.css",
+  "/today/_next/static/css/59ee2fb2a0e75786.css",
+  "/today/_next/static/css/becee81ce4ae4c88.css",
+  "/today/_next/static/css/5f974a17875cceba.css"
+ ],
+ "typography_laws": 57
+}

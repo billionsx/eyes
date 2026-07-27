@@ -1,0 +1,2 @@
+{"id": "/documentation/AVRouting", "law": "Use the AVRouting framework to add third-party devices and protocols to ."}
+{"id": "/documentation/AVRouting", "law": "Each device requires a unique device discovery extension, which distinguishes itself through a uniform type identifier in its file."}

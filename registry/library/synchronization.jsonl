@@ -1,0 +1,6 @@
+{"id": "/documentation/synchronization/atomicrepresentable", "law": "Luckily for us, does use one of these types as its storage type."}
+{"id": "/documentation/synchronization/atomicrepresentable", "law": "In addition to selecting what storage representation our type will use, we define two static functions that go from both our custom type to its representation and the representation back to our own type."}
+{"id": "/documentation/synchronization/atomicrepresentable", "law": "From here, you can use this type in all of the primitive atomic operations like shown below:"}
+{"id": "/documentation/synchronization/atomicrepresentable", "law": "When defining your own conformance, it is critical that your custom type should choose from the following list of types as its own : is the same type as and the same is true for all of the same sized integer types."}
+{"id": "/documentation/synchronization/atomicrepresentable", "law": "If your type wraps an unsigned integer, you should prefer to use an unsigned integer’s atomic representation instead of a signed ones and vice versa."}
+{"id": "/documentation/synchronization/atomicrepresentable", "law": "and always conform to on 64 bit systems, but on 32 bit systems they will only conform if the platform supports double wide atomics."}

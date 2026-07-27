@@ -1,0 +1,102 @@
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "Coffee Tracker saves and reads caffeine samples to HealthKit, so the app must respond to any external changes, such as another app adding or deleting a caffeine sample from HealthKit."}
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "Make sure the Coffee Tracker complication appears on the active watch face."}
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "Settings should show all the drinks you added to the app."}
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "When ClockKit asks the data source for a timeline entry, the app needs to instantiate a template for the specified identifier and family, and then fill the template with the required data, before wrapping it in a object and returning it."}
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "Depending on the watch face, the gauge and text may use the specified colors to provide additional information."}
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "In general, if an app has a complication on the active watch face, it can safely use four updates per hour, shared between both the app’s background tasks and it’s background observer queries."}
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "However, HealthKit further limits the update on caffeine samples to a maximum of one per hour."}
+{"id": "/documentation/ClockKit/creating-and-updating-a-complication-s-timeline", "law": "This means, the first update from HealthKit should trigger within a minute."}
+{"id": "/documentation/ClockKit/displaying-essential-information-on-a-watch-face", "law": "The bundle IDs should be and respectively."}
+{"id": "/documentation/ClockKit/displaying-essential-information-on-a-watch-face", "law": "To avoid showing a desaturated image, this sample uses to provide both full-color and tinted versions."}
+{"id": "/documentation/ClockKit/providing-multiple-complications", "law": "While each descriptor doesn’t need to cover all possible families, every family is covered by at least one descriptor."}
+{"id": "/documentation/ClockKit/providing-multiple-complications", "law": "For most families, the app checks the complication to determine which template it should provide."}
+{"id": "/documentation/ClockKit/providing-multiple-complications", "law": "If an app creates templates based on the complication’s property, it must check for the default identifier."}
+{"id": "/documentation/ClockKit", "law": "Use to create complications."}
+{"id": "/documentation/ClockKit", "law": "Use the ClockKit framework to implement complications for your app."}
+{"id": "/documentation/ClockKit", "law": "Complications are small interface elements that appear on a watch face and provide quick access to data that people frequently use."}
+{"id": "/documentation/ClockKit", "law": "Use the templates to display text, images, and graphical gauges."}
+{"id": "/documentation/ClockKit", "law": "If you use a user activity configuration, ClockKit passes the user activity to your app after waking it."}
+{"id": "/documentation/ClockKit", "law": "You can use these tasks to keep the content of your watchOS app and your complications up to date and accurate."}
+{"id": "/documentation/clockkit", "law": "Use to create complications."}
+{"id": "/documentation/clockkit", "law": "Use the ClockKit framework to implement complications for your app."}
+{"id": "/documentation/clockkit", "law": "Complications are small interface elements that appear on a watch face and provide quick access to data that people frequently use."}
+{"id": "/documentation/clockkit", "law": "Use the templates to display text, images, and graphical gauges."}
+{"id": "/documentation/clockkit", "law": "If you use a user activity configuration, ClockKit passes the user activity to your app after waking it."}
+{"id": "/documentation/clockkit", "law": "You can use these tasks to keep the content of your watchOS app and your complications up to date and accurate."}
+{"id": "/documentation/clockkit/clkcomplication/family", "law": "The property determines how much space is available to a complication and which templates you can use to display your complication data."}
+{"id": "/documentation/clockkit/clkcomplication/family", "law": "In your complication data source, you typically use the property’s value in a statement when determining the complication template your data source creates."}
+{"id": "/documentation/clockkit/clkcomplication/identifier", "law": "For apps created for watchOS 6 or earlier, the system automatically sets the configuration’s property to if you don’t implement your data source’s method."}
+{"id": "/documentation/clockkit/clkcomplication/identifier", "law": "Because default identifiers can come from shared watch faces, your data source’s and methods must check for the value, and provide generic complication entries when it occurs."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource", "law": "Apps that support a complication must define a class that supports the protocol and register it with the system."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource", "law": "You don’t instantiate your data source class explicitly."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource", "law": "Use the General tab of your WatchKit extension’s project settings to specify the families you support."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource", "law": "Your complication data source class must implement the protocol’s method."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource", "law": "For watchOS 6 and earlier, you must implement both and ."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource", "law": "Use to specify whether your app can batch load future timeline entries."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/getcomplicationdescriptors(handler:)", "law": "You can also use your implementation to customize the types of complications according to your app’s current data."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/getcurrenttimelineentry(for:withhandler:)", "law": "Your implementation of this method must create a timeline entry with the data to display right now."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/getcurrenttimelineentry(for:withhandler:)", "law": "If your complication supports past timeline entries, the entry you return from this method must come after all past entries that you provide using the method."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/getprivacybehavior(for:withhandler:)", "law": "If you don’t implement this method, ClockKit uses the value as the default."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineenddate(for:withhandler:)", "law": "Your implementation of this method must execute the block in the handler parameter and specify the date."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineenddate(for:withhandler:)", "law": "If you don’t implement this method, ClockKit doesn’t attempt to retrieve timeline entries after the current entry."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineentries(for:after:limit:withhandler:)", "law": "Use this method to build an array of timeline entries with your app’s future data."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineentries(for:after:limit:withhandler:)", "law": "Don’t provide entries that occur before the date in the parameter, and limit the number of entries you create to the value in the parameter."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineentries(for:after:limit:withhandler:)", "law": "The array you return must start after the date specified in the parameter and extend forward in time."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineentries(for:after:limit:withhandler:)", "law": "Each successive entry in the array must come after the one before it."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineentries(for:after:limit:withhandler:)", "law": "Entries must be greater than one minute apart."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineentries(for:after:limit:withhandler:)", "law": "Don’t include the current entry in your array."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/gettimelineentries(for:after:limit:withhandler:)", "law": "If you don’t implement this method, ClockKit doesn’t try to add later entries to the timeline."}
+{"id": "/documentation/clockkit/clkcomplicationdescriptor", "law": "Use complication descriptors to define the different types of complications that your app supports."}
+{"id": "/documentation/clockkit/clkcomplicationserver/activecomplications", "law": "To avoid any race conditions, always perform the following steps in order: Set up an observer for the notification."}
+{"id": "/documentation/clockkit/clkcomplicationserver/activecomplications", "law": "If has a non- value, you can use it immediately."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "In watchOS 7 and later, use your data source’s method to define the complications your app supports."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "If your app has only a few complications, you can use constants for the identifiers."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "The descriptors don’t all need to support the same families."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "However, you should make sure that at least one descriptor supports each family—even if the resulting complication only acts as a launcher for your app."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "Use to specify an object for the complication type."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "You can use the method to navigate to a particular part of your app that the activity object specifies."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "Use to specify a user info dictionary with information that your data source can use when creating timeline entries."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "Because the system can pass complications as part of a shared watch face, only place data in the user info dictionary that other instances of your app can use."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "For example, when referring to data, avoid using identifiers that can change between users—like an index into the user’s favorites list."}
+{"id": "/documentation/clockkit/declaring-complications-for-your-app", "law": "Instead use items that remain constant across all copies of the app, like unique string identifiers."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "No matter what method you use, keep your watchOS app, appʼs snapshot, notifications, and complications in a consistent state."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "Also, make sure to update your complication when you update your app’s data."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "You can also use active runtime as an opportunity to refresh the complications, even when the user is doing something else."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "Don’t rely on this strategy as the primary way to update your data."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "You can’t predict when the user will launch your app, and any download, transfer, or update actions that don’t finish while the app is running will need to schedule background tasks."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "Use background URL sessions to download updated data from a server."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "The system triggers a background task after the download completes, and you can use this task to set up your next download, keeping your app up to date."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "Next, create the session and use the session to schedule a background download task."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "Be sure to assign a to the session."}
+{"id": "/documentation/clockkit/keeping-your-complications-up-to-date", "law": "Also, use the tasks’s property to schedule the download for the future."}
+{"id": "/documentation/clockkit/loading-future-timeline-events", "law": "ClockKit renders your complication in advance to ensure that it’s instantly available when the user glances at their watch."}
+{"id": "/documentation/clockkit/loading-future-timeline-events", "law": "If details about the meeting change, your server can use PushKit notifications to alert the user of these changes, updating the timeline as needed."}
+{"id": "/documentation/clockkit/loading-future-timeline-events", "law": "However, your implementation must create timeline entries starting at the specified date."}
+{"id": "/documentation/clockkit/loading-future-timeline-events", "law": "The entries must occur in chronological order, and the parameter determines the maximum number of entries you can pass to the handler."}
+{"id": "/documentation/clockkit/providing-multiple-complications", "law": "While each descriptor doesn’t need to cover all possible families, every family is covered by at least one descriptor."}
+{"id": "/documentation/clockkit/providing-multiple-complications", "law": "For most families, the app checks the complication to determine which template it should provide."}
+{"id": "/documentation/clockkit/providing-multiple-complications", "law": "If an app creates templates based on the complication’s property, it must check for the default identifier."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/getsupportedtimetraveldirections(for:withhandler:)", "law": "Your implementation of this method must execute the block in the parameter and specify the supported directions."}
+{"id": "/documentation/clockkit/clkcomplicationtemplate", "law": "You don’t create instances of this class directly."}
+{"id": "/documentation/clockkit/clkcomplicationtemplate", "law": "Instead, you create instances of one of the concrete subclasses and use the resulting object to specify the data for your complication."}
+{"id": "/documentation/clockkit/clkcomplicationtemplategraphiccornerstacktext", "law": "The system always displays the outer text as white."}
+{"id": "/documentation/clockkit/clkcomplicationtemplategraphicrectangularstandardbody", "law": "The following table lists the dimensions of the image you use in this template."}
+{"id": "/documentation/clockkit/clkcomplicationtemplategraphicrectangularstandardbody", "law": "All images must be specified as @2x images for display on Apple Watch, so the point-based dimensions are half the listed size."}
+{"id": "/documentation/clockkit/clkfullcolorimageprovider", "law": "If you don’t provide a tinted image provider, ClockKit automatically desaturates the full-color image to create the tinted image."}
+{"id": "/documentation/clockkit/graphic", "law": "Use graphic templates to display multicolor text, full-color images, and gauges with color gradients on a variety of watch faces, including the Infograph, Infograph Modular, and Solar Dial."}
+{"id": "/documentation/clockkit/graphic", "law": "These templates use a instance to draw some or all of the complication’s content."}
+{"id": "/documentation/clockkit/graphic", "law": "In these templates, the SwiftUI view fills the entire complication—giving you a blank canvas that you can use to create your content."}
+{"id": "/documentation/clockkit/graphic", "law": "The system automatically desaturates images by default; however, you can use the class’s property to provide a tinted version for the image."}
+{"id": "/documentation/clockkit/clkcomplication", "law": "You don’t create instances of this class directly."}
+{"id": "/documentation/clockkit/clkcomplication", "law": "Complication objects are only available when your complication is in use on the watch face."}
+{"id": "/documentation/clockkit/clkcomplication", "law": "In addition to getting information about the complication, you use complication objects to extend or replace the timeline data for one of your active complications."}
+{"id": "/documentation/clockkit/clkcomplicationdatasource/getlocalizablesampletemplate(for:withhandler:)", "law": "The data you supply should be fake, but it should reflect what your complication would normally look like."}
+{"id": "/documentation/clockkit/clkdefaultcomplicationidentifier", "law": "If your app supports multiple complications per family, you must check for values in your data source’s and methods."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "Coffee Tracker saves and reads caffeine samples to HealthKit, so the app must respond to any external changes, such as another app adding or deleting a caffeine sample from HealthKit."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "Make sure the Coffee Tracker complication appears on the active watch face."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "Settings should show all the drinks you added to the app."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "When ClockKit asks the data source for a timeline entry, the app needs to instantiate a template for the specified identifier and family, and then fill the template with the required data, before wrapping it in a object and returning it."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "Depending on the watch face, the gauge and text may use the specified colors to provide additional information."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "In general, if an app has a complication on the active watch face, it can safely use four updates per hour, shared between both the app’s background tasks and it’s background observer queries."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "However, HealthKit further limits the update on caffeine samples to a maximum of one per hour."}
+{"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "This means, the first update from HealthKit should trigger within a minute."}

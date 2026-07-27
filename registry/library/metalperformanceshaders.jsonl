@@ -1,0 +1,43 @@
+{"id": "/documentation/MetalPerformanceShaders/training-a-neural-network-with-metal-performance-shaders", "law": "You can use any dataset of your choice to train this model."}
+{"id": "/documentation/MetalPerformanceShaders/training-a-neural-network-with-metal-performance-shaders", "law": "The following dataset works well for this purpose: Please note that Apple does not own the copyright to this dataset nor makes any representations about the applicable terms of use for this dataset."}
+{"id": "/documentation/MetalPerformanceShaders/training-a-neural-network-with-metal-performance-shaders", "law": "If you choose to use this dataset, the sample includes a script that downloads the dataset from that location and pass it as input to the model."}
+{"id": "/documentation/MetalPerformanceShaders/training-a-neural-network-with-metal-performance-shaders", "law": "Before you run the sample code project in Xcode: Make sure your Mac is running macOS 10.15 or later."}
+{"id": "/documentation/MetalPerformanceShaders/training-a-neural-network-with-metal-performance-shaders", "law": "Make sure you are running Xcode 11 or later."}
+{"id": "/documentation/MetalPerformanceShaders/training-a-neural-network-with-metal-performance-shaders", "law": "Use an MPS neural network graph to train a simple neural network digit classifier."}
+{"id": "/documentation/MetalPerformanceShaders", "law": "These data-parallel primitives are specially tuned to take advantage of the unique hardware characteristics of each GPU family to ensure optimal performance."}
+{"id": "/documentation/MetalPerformanceShaders/MPSKernelOptions/allowReducedPrecision", "law": "When possible, kernels use a higher-precision data representation internally than the destination storage format to avoid excessive accumulation of computational rounding error in the result."}
+{"id": "/documentation/MetalPerformanceShaders/MPSKernelOptions/allowReducedPrecision", "law": "This option advises the kernel that the destination storage format already has too much precision for what is ultimately required downstream, and the kernel may use reduced precision internally when it determines that a less precise result would yield better performance."}
+{"id": "/documentation/MetalPerformanceShaders/image-filters", "law": "Unfortunately, it is not always possible for kernels to run in place."}
+{"id": "/documentation/MetalPerformanceShaders/image-filters", "law": "To make use of the feature, you will need to write a copy allocator block."}
+{"id": "/documentation/MetalPerformanceShaders/MPSNNGraph", "law": "If you would like to set the device, your should conform to the protocol."}
+{"id": "/documentation/MetalPerformanceShaders/MPSNNGraph", "law": "In typical usage, some refinement, especially of padding policies, may be required to get the expected answer from Metal Performance Shaders."}
+{"id": "/documentation/MetalPerformanceShaders/MPSNNGraph", "law": "This will give you a view into the result produced from each intermediate layer with a minimum of fuss."}
+{"id": "/documentation/MetalPerformanceShaders/MPSNNGraph", "law": "In addition, the usual method is available to inspect objects to make sure they conform to expectation."}
+{"id": "/documentation/metalperformanceshaders", "law": "These data-parallel primitives are specially tuned to take advantage of the unique hardware characteristics of each GPU family to ensure optimal performance."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "To avoid reading off the edge of an image for filters that have a filter area (convolution, pooling), set and reduce the size of the output image by ."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "Always remember the following distinction: The class takes weights in the order ."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "You can use objects and similar to perform pre-processing of images, such as scaling and resizing."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "Use objects for intermediate images that live for a short period of time (one object)."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "Generally, objects should be created as needed and thrown away promptly."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "Persistent objects should not retain them."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "Please be sure to understand the purpose of the property."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "Because the Metal Performance Shaders framework encodes its work in place in your command buffer, you always have the option to insert your own code in between encodings as a Metal function for tasks not covered by the framework."}
+{"id": "/documentation/metalperformanceshaders/convolutional-neural-network-kernels", "law": "You do not need to use the Metal Performance Shaders framework for everything."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "(Channels marked with a are just for padding and should not contain or values.) An object can contain multiple CNN images for batch processing."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "Thus, should be , should be , and must be ."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "In general, you should avoid calling the property to avoid materializing memory for longer than necessary."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "When possible, use the other properties to get information about the object instead."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "In apps that use CNN, kernels may need more than the four data channels that a object can provide."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "The channels within an do not necessarily correspond to colors in a color space (although they can, if necessary)."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "objects can provide great memory usage and CPU time savings, but come with significant restrictions that should be understood before using them."}
+{"id": "/documentation/metalperformanceshaders/mpsimage", "law": "A texture that may have more than four channels for use in convolutional neural networks."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "Metal Performance Shaders achieves this by automatically identifying objects that do not overlap in time over the course of a object’s lifetime and can therefore reuse the same memory."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "objects leverage an internal cache of preallocated reusable memory to hold pixel data to avoid typical memory allocation performance penalties common to ordinary and objects."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "To avoid data corruption due to aliasing, objects impose some important restrictions: The underlying texture storage mode is ."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "You cannot, for example, use the or methods with them."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "The property must be managed correctly."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "Temporary images must also adhere to the general pixel format restrictions for objects."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "Since temporary images can only be used with a single command buffer, and can not be used off the GPU, they generally should not be kept around past the completion of their associated command buffer."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "You may use the property with the methods of an subclass, if and the texture conforms to the requirements of the given kernel."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "You can not read or write data to an using the CPU, or use the data in other objects."}
+{"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "Use regular objects for more persistent storage."}

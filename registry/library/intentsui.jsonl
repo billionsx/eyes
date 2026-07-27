@@ -1,0 +1,9 @@
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "Each Intents UI app extension must contain only one view controller, but that view controller may provide a custom interface for multiple intents."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "Use the key in the extension’s file to specify which intent classes the view controller supports."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "During the configuration phase, use the class of the intent to configure the contents of your view."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "Use that method to configure the custom interface that you want displayed by Siri and Maps."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "If you don’t provide a custom view, SiriKit displays a default view."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "For example, you might use it solely to add branding information to the default interface."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "However, don’t add gesture recognizers or views that involve user interactions to your view hierarchy."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "If you need to update your views dynamically, use a timer to trigger programmatic updates."}
+{"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "To avoid the duplication of some types of content, implement the properties of the protocol in your view controller."}

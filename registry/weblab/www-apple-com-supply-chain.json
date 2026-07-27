@@ -1,0 +1,43 @@
+{
+ "url": "https://www.apple.com/supply-chain/",
+ "sections": [
+  "section-hero",
+  "section-highlights",
+  "section-innovation",
+  "section-people",
+  "section-environment",
+  "section-reports",
+  "section-news",
+  "section-feedback",
+  "section-values-router"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:innovation everywhere",
+  "name:people tile grid",
+  "name:environment",
+  "name:reports",
+  "name:newsroom",
+  "name:feedback",
+  "name:values router"
+ ],
+ "imgs": 269,
+ "videos": 10,
+ "cta": 51,
+ "h_levels": {
+  "1": 1,
+  "2": 20,
+  "3": 53,
+  "4": 4
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/supply-chain/c/built/styles/main.built.css",
+  "/v/supply-chain/c/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

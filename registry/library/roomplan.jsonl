@@ -1,0 +1,7 @@
+{"id": "/documentation/RoomPlan/providing-custom-models-for-captured-rooms-and-structure-exports", "law": "If you don’t have your own 3D models, you can use the 3D models that this sample code project provides by substituting the folder on disk for the sample code project’s folder."}
+{"id": "/documentation/RoomPlan", "law": "Use RoomPlan to create a 3D model of an interior room."}
+{"id": "/documentation/RoomPlan", "law": "If the framework requires a specific kind of device movement or perspective to complete the capture, the UI displays instructions that explain how to position the device."}
+{"id": "/documentation/roomplan", "law": "Use RoomPlan to create a 3D model of an interior room."}
+{"id": "/documentation/roomplan", "law": "If the framework requires a specific kind of device movement or perspective to complete the capture, the UI displays instructions that explain how to position the device."}
+{"id": "/documentation/roomplan/scanning-the-rooms-of-a-single-structure", "law": "Your app stops the room-capture session by calling , passing an argument of to keep the session open, as required to scan another room."}
+{"id": "/documentation/roomplan/scanning-the-rooms-of-a-single-structure", "law": "With the finalized room array, use the framework to merge the rooms into a single structure."}

@@ -1,0 +1,32 @@
+{"id": "/documentation/Translation/translating-text-within-your-app", "law": "To display simple system translations in your app, use the translation overlay."}
+{"id": "/documentation/Translation/translating-text-within-your-app", "law": "For a more customizable translation experience, use the object and its associated translation methods."}
+{"id": "/documentation/Translation/translating-text-within-your-app", "law": "This pattern of defining a configuration as a property wrapper and invalidating its state is recommended for initiating new translations."}
+{"id": "/documentation/Translation/translating-text-within-your-app", "law": "To translate multiple strings between the same languages, it’s most efficient to use one of the batch translation functions of ."}
+{"id": "/documentation/Translation/translating-text-within-your-app", "law": "To translate multiple strings of text and display the results as they arrive, use the function."}
+{"id": "/documentation/Translation", "law": "You can use the built-in UI and let the system offer a translation to users on your behalf."}
+{"id": "/documentation/Translation", "law": "Or you can use the framework to customize the translation experience."}
+{"id": "/documentation/Translation", "law": "To customize the translation experience use one of the translation tasks such as ."}
+{"id": "/documentation/Translation", "law": "These functions provides you with a that you can use to translate strings of text one at a time, or in a batch."}
+{"id": "/documentation/translation", "law": "You can use the built-in UI and let the system offer a translation to users on your behalf."}
+{"id": "/documentation/translation", "law": "Or you can use the framework to customize the translation experience."}
+{"id": "/documentation/translation", "law": "To customize the translation experience use one of the translation tasks such as ."}
+{"id": "/documentation/translation", "law": "These functions provides you with a that you can use to translate strings of text one at a time, or in a batch."}
+{"id": "/documentation/translation/translationsession", "law": "With this instance, you can use one or more of the translate functions to translate a single string or multiple strings of text."}
+{"id": "/documentation/translation/translationsession", "law": "This initializer requires that you specify which source language you use and throws an error if the languages aren’t already installed on the person’s device."}
+{"id": "/documentation/translation/translationsession/configuration", "law": "Specify the source and target languages to use in a translation session with this object."}
+{"id": "/documentation/translation/translationsession/configuration", "law": "The following example demonstrates how to initiate a new translation from a button press: A type containing the information to use when performing a translation."}
+{"id": "/documentation/translation/translationsession/preparetranslation()", "law": "If you call this function when the is , it throws error, since there’s no sample text to identify which source language to use for translation."}
+{"id": "/documentation/translation/translationsession/translate(_:)-4m20l", "law": "The app doesn’t need to install the required languages before calling this method."}
+{"id": "/documentation/translation/translationsession/translate(_:)-4m20l", "law": "If the required languages for translation have already downloaded and the source language is clear, this function returns results without showing any UI to the person."}
+{"id": "/documentation/translation/translationsession/translate(_:)-59zi2", "law": "Use this method to translate text that includes formatting like bold text or links, and preserve that formatting in the translated result."}
+{"id": "/documentation/translation/translationsession/translate(_:)-59zi2", "law": "The app doesn’t need to install the required languages before calling this method."}
+{"id": "/documentation/translation/translationsession/translate(_:)-59zi2", "law": "The function handles translation based on language availability: If the required languages are already downloaded and the source language is clear, the function returns results without showing any UI to the person."}
+{"id": "/documentation/translation/translationsession/translate(batch:)", "law": "The app doesn’t need to install the required languages before calling this method."}
+{"id": "/documentation/translation/translationsession/translate(batch:)", "law": "To create requests for attributed strings, use ."}
+{"id": "/documentation/translation/translationsession/translate(batch:)", "law": "If the required languages for translation have already downloaded and the source language is clear, this function returns results without showing any UI to the person."}
+{"id": "/documentation/translation/translationsession/translate(batch:)", "law": "The strings must either match the you set in the configuration, or if the is , be of the same language."}
+{"id": "/documentation/translation/translationsession/translations(from:)", "law": "The app doesn’t need to install the required languages before calling this method."}
+{"id": "/documentation/translation/translationsession/translations(from:)", "law": "To create requests for attributed strings, use ."}
+{"id": "/documentation/translation/translationsession/translations(from:)", "law": "If the required languages for translation have already downloaded and the source language is clear, this function returns results without showing any further prompts to the person."}
+{"id": "/documentation/translation/translationsession/translations(from:)", "law": "The strings must either match the you set in the configuration, or if the is , be of the same language."}
+{"id": "/documentation/Translation/LanguageAvailability/supportedLanguages", "law": "A language must download before it can be used in a translation."}

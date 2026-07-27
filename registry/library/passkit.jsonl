@@ -1,0 +1,51 @@
+{"id": "/documentation/PassKit/implementing-wallet-extensions", "law": "Apple Pay in-app provisioning relies on the individual to add a payment pass from within the issuer app, and requires this person to already be in the issuer app with the intention of adding the pass."}
+{"id": "/documentation/PassKit/implementing-wallet-extensions", "law": "Wallet Extensions improve discoverability of the option to add an issued card to Apple Wallet, as people can tap a button within Apple Wallet to begin a provisioning experience that doesn’t require them to enter details manually."}
+{"id": "/documentation/PassKit/implementing-wallet-extensions", "law": "Use this sample as a guide for developing the Wallet Extensions feature."}
+{"id": "/documentation/PassKit/implementing-wallet-extensions", "law": "As for the UI extension, the issuer app needs a UI extension to perform user authentication if the non-UI extension reports that authentication is required."}
+{"id": "/documentation/PassKit/implementing-wallet-extensions", "law": "Because Wallet Extensions require an entitlement from Apple, you can’t run the app extensions in this sample."}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "The sample app demonstrates how to use the Apple Pay button, display the Apple Pay payment sheet, make payment requests, and accept coupon codes."}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "Doing this requires an Apple developer account."}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "Xcode configures the required merchant ID for Apple Pay in each target when you build the project."}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "Set the signing option for the iOS app to “Automatically manage signing.” Running this app on an iPhone or Apple Watch requires an Apple Pay card."}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "Running in Simulator doesn’t require a card."}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "The iOS app displays the payment button if the device can make payments, and it contains at least one payment card; otherwise it displays the button to add a payment."}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "Configuring the dates requires a calendar, start date components, and end date components"}
+{"id": "/documentation/PassKit/offering-apple-pay-in-your-app", "law": "Updates to the payment sheet use the completion handlers implemented by both apps."}
+{"id": "/documentation/PassKit", "law": "When you use PassKit APIs to support Apple Pay in your iOS and watchOS apps, your users can purchase real-world goods and services, or donate to nonprofit organizations, without ever leaving your app."}
+{"id": "/documentation/passkit", "law": "When you use PassKit APIs to support Apple Pay in your iOS and watchOS apps, your users can purchase real-world goods and services, or donate to nonprofit organizations, without ever leaving your app."}
+{"id": "/documentation/passkit/pkissuerprovisioningextensionauthorizationproviding", "law": "The principal class of your app’s authorization user interface extension target must conform to the protocol."}
+{"id": "/documentation/passkit/pkissuerprovisioningextensionhandler", "law": "The principal class of your app’s extension target must be a subclass of ."}
+{"id": "/documentation/passkit/pkissuerprovisioningextensionhandler", "law": "Your app must be installed and the user open the app at least once for the system to call the extension handler."}
+{"id": "/documentation/passkit/wallet", "law": "Use the API in Wallet to access and manage different types of passes, including identity passes, payment passes, and digital car keys."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "To enable your app to use Apple Pay, register an identifier with Apple that uniquely identifies your business as a merchant able to accept payments."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "This ID never expires, and you can use it in multiple websites and apps."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "Apple Pay servers use the certificate’s public key to encrypt payment data."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "You (or your payment service provider) use the private key to decrypt the data to process payments."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "If you use an e-commerce provider or a payment platform, contact them for information about how to use their service with Apple Pay."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "Select the merchant identifier to use with this app."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "If you’re also developing websites using , you can use the same merchant ID and Payment Processing Certificate for your website."}
+{"id": "/documentation/PassKit/setting-up-apple-pay", "law": "However, Apple Pay on the web requires additional setup; see , , and the for more information."}
+{"id": "/documentation/passkit/complying-with-regional-regulations", "law": "Some regional regulations may require specific configurations in your Apple Pay implementation, such as including certain options in properties."}
+{"id": "/documentation/passkit/complying-with-regional-regulations", "law": "Check with your payment service provider (PSP) or the appropriate authorities to ensure your implementation meets requirements."}
+{"id": "/documentation/passkit/pkpaymentauthorizationcontroller/canmakepayments()", "law": "On devices that support making payments but don’t have any payment cards configured, the method returns because the hardware and parental controls allow making payments, but the method returns regardless of network."}
+{"id": "/documentation/passkit/pkpaymentauthorizationcontroller/canmakepayments(usingnetworks:)", "law": "If there are no configured payment cards, this method always returns ."}
+{"id": "/documentation/passkit/pkpaymentauthorizationcontrollerdelegate/paymentauthorizationcontroller(_:didselectpaymentmethod:handler:)", "law": "Use this delegate callback to update the summary items in response to the card type changing (for example, applying credit card surcharges), and then call the completion handler with the updated summary items."}
+{"id": "/documentation/passkit/pkpaymentauthorizationcontrollerdelegate/paymentauthorizationcontrollerdidfinish(_:)", "law": "Use this method to dismiss the payment authorization controller and update any other app state."}
+{"id": "/documentation/passkit/pkpaymentbutton", "law": "To trigger a payment through Apple Pay in a WatchKit app, use instead."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "Use a object to represent a merchant request for payment for goods or services."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "Use the property to set up a recurring payment request using the and classes."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "Use the property to set up an automatic reload payment request using the and classes."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "Use the property to set up a deferred payment request using the class."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "Use the property to indicate whether this payment request is eligible for Apple Pay Later."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "You can indicate that Apple Pay Later is unavailable for certain kinds of transactions, including subscriptions, items that require recurring payments or prohibited items, such as gift cards."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "Use the property to request payment data for multimerchant payments with the class."}
+{"id": "/documentation/passkit/pkpaymentrequest", "law": "Use the property to exclude specific Apple Pay cards that you’ve issued from appearing in the payment sheet as a pay option."}
+{"id": "/documentation/passkit/pkpaymentsummaryitem", "law": "For shipping cost, use the subclass."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "To enable your app to use Apple Pay, register an identifier with Apple that uniquely identifies your business as a merchant able to accept payments."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "This ID never expires, and you can use it in multiple websites and apps."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "Apple Pay servers use the certificate’s public key to encrypt payment data."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "You (or your payment service provider) use the private key to decrypt the data to process payments."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "If you use an e-commerce provider or a payment platform, contact them for information about how to use their service with Apple Pay."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "Select the merchant identifier to use with this app."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "If you’re also developing websites using , you can use the same merchant ID and Payment Processing Certificate for your website."}
+{"id": "/documentation/passkit/setting-up-apple-pay", "law": "However, Apple Pay on the web requires additional setup; see , , and the for more information."}

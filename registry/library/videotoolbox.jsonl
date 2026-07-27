@@ -1,0 +1,39 @@
+{"id": "/documentation/VideoToolbox/encoding-video-for-live-streaming", "law": "This sample code project demonstrates how to configure and use a object to encode video for live streaming."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-live-streaming", "law": "Create a object and specify the required dimensions and ."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-live-streaming", "law": "Optionally specify the codec profile and level, the average target bit rate and the data rate limits or the target constant bit rate, the maximum interval between key frames, the number of look ahead frames, and the spatial adaptive QP level."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-live-streaming", "law": "You can use the movie file to test this app."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-live-streaming", "law": "Use autocomplete before the component to complete the path for that directory."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-low-latency-conferencing", "law": "This sample code project demonstrates how to configure and use a object to encode video for low-latency conferencing."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-low-latency-conferencing", "law": "Create a object and specify the required dimensions and ."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-low-latency-conferencing", "law": "For low latency use, include the option and set it to in the ."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-low-latency-conferencing", "law": "You can use the movie file to test this app."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-low-latency-conferencing", "law": "Use autocomplete before the component to complete the path for that directory."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-offline-transcoding", "law": "This sample code project demonstrates how to configure and use a object to encode video for offline transcoding."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-offline-transcoding", "law": "Create a object and specify the required dimensions and ."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-offline-transcoding", "law": "Optionally specify the codec profile and level, the target bit rate, the maximum interval between key frames, the number of look ahead frames, and the spatial adaptive QP level."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-offline-transcoding", "law": "You can use the movie file to test this app."}
+{"id": "/documentation/VideoToolbox/encoding-video-for-offline-transcoding", "law": "Use autocomplete before the component to complete the path for that directory."}
+{"id": "/documentation/VideoToolbox", "law": "Apps that don’t need direct access to hardware encoders and decoders shouldn’t need to use VideoToolbox directly."}
+{"id": "/documentation/VideoToolbox/kVTCompressionPropertyKey_RealTime", "law": "A Boolean value indicating whether it’s recommended that the video encoder perform compression in real time."}
+{"id": "/documentation/VideoToolbox/kVTCompressionPropertyKey_MVHEVCViewIDs", "law": "The entries in the specified array should be in the same order and have the same count as the value specified in ."}
+{"id": "/documentation/videotoolbox", "law": "Apps that don’t need direct access to hardware encoders and decoders shouldn’t need to use VideoToolbox directly."}
+{"id": "/documentation/videotoolbox/encoding-video-for-low-latency-conferencing", "law": "This sample code project demonstrates how to configure and use a object to encode video for low-latency conferencing."}
+{"id": "/documentation/videotoolbox/encoding-video-for-low-latency-conferencing", "law": "Create a object and specify the required dimensions and ."}
+{"id": "/documentation/videotoolbox/encoding-video-for-low-latency-conferencing", "law": "For low latency use, include the option and set it to in the ."}
+{"id": "/documentation/videotoolbox/encoding-video-for-low-latency-conferencing", "law": "You can use the movie file to test this app."}
+{"id": "/documentation/videotoolbox/encoding-video-for-low-latency-conferencing", "law": "Use autocomplete before the component to complete the path for that directory."}
+{"id": "/documentation/videotoolbox/encoding-video-for-offline-transcoding", "law": "This sample code project demonstrates how to configure and use a object to encode video for offline transcoding."}
+{"id": "/documentation/videotoolbox/encoding-video-for-offline-transcoding", "law": "Create a object and specify the required dimensions and ."}
+{"id": "/documentation/videotoolbox/encoding-video-for-offline-transcoding", "law": "Optionally specify the codec profile and level, the target bit rate, the maximum interval between key frames, the number of look ahead frames, and the spatial adaptive QP level."}
+{"id": "/documentation/videotoolbox/encoding-video-for-offline-transcoding", "law": "You can use the movie file to test this app."}
+{"id": "/documentation/videotoolbox/encoding-video-for-offline-transcoding", "law": "Use autocomplete before the component to complete the path for that directory."}
+{"id": "/documentation/videotoolbox/vtframesilo-api-collection", "law": "Each such pass must begin with a call to , which takes a list of time ranges."}
+{"id": "/documentation/videotoolbox/vtframesilo-api-collection", "law": "The frame silo object may write sample buffers and data to the backing file between addition and retrieval; don’t expect to get identical object pointers back."}
+{"id": "/documentation/videotoolbox/encoding-video-for-live-streaming", "law": "This sample code project demonstrates how to configure and use a object to encode video for live streaming."}
+{"id": "/documentation/videotoolbox/encoding-video-for-live-streaming", "law": "Create a object and specify the required dimensions and ."}
+{"id": "/documentation/videotoolbox/encoding-video-for-live-streaming", "law": "Optionally specify the codec profile and level, the average target bit rate and the data rate limits or the target constant bit rate, the maximum interval between key frames, the number of look ahead frames, and the spatial adaptive QP level."}
+{"id": "/documentation/videotoolbox/encoding-video-for-live-streaming", "law": "You can use the movie file to test this app."}
+{"id": "/documentation/videotoolbox/encoding-video-for-live-streaming", "law": "Use autocomplete before the component to complete the path for that directory."}
+{"id": "/documentation/videotoolbox/vtframeprocessor", "law": "Use this class to perform frame by frame processing on your video."}
+{"id": "/documentation/videotoolbox/vtframeprocessor", "law": "For successful processing, the caller needs to ensure that all buffers passed to the processWithParameters interface are unmodified (including attachments) until the function returns or the callback is received in the case of asynchronous mode."}
+{"id": "/documentation/videotoolbox/vtframeprocessorconfiguration", "law": "A protocol that describes the configuration of a processor to use during a video processing session."}

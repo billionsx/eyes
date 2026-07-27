@@ -1,0 +1,41 @@
+{
+ "url": "https://www.apple.com/airpods-max/",
+ "sections": [
+  "section-welcome",
+  "section-media-card",
+  "section-bento-gallery",
+  "section-product-stories",
+  "section-icon-card",
+  "section-contrast",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights gallery",
+  "name:closer look gallery",
+  "name:hifi audio",
+  "name:active noise cancellation",
+  "name:adaptive audio",
+  "name:communication features",
+  "name:features gallery",
+  "name:why apple gallery",
+  "name:compare",
+  "name:index"
+ ],
+ "imgs": 151,
+ "videos": 2,
+ "cta": 45,
+ "h_levels": {
+  "1": 1,
+  "2": 19,
+  "3": 28
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/airpods-max/k/built/styles/main.built.css",
+  "/v/airpods-max/k/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

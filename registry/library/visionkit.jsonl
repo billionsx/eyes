@@ -1,0 +1,18 @@
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "For iOS apps, users can use a long-press gesture (touch and hold) a QR code to follow a link or take another action, depending on the payload."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "The code listings in this article use asynchronous methods that you invoke from an method or within a structure."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "If you use a to display the image, it handles the image content area calculations for you."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "If you don’t use a object, inform the interaction object when the content area of the image changes while the interaction bounds don’t change."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "Then use the method to notify the interaction if the content area changes."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "If you use an to display the image, it handles the image content area calculations for you."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "Then use the method to notify the overlay view if the content area of the image changes while the view bounds don’t change."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "To improve performance, use a single shared instance of the analyzer throughout the app."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "If you want the supplementary interface to use a custom font, set the property."}
+{"id": "/documentation/VisionKit/enabling-live-text-interactions-with-images", "law": "Quick actions use the specified font for text and font weight for symbols."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "The code listings in this article use asynchronous methods that you invoke from an method or within a structure."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "The first time your app attempts to use the camera, the system prompts users for permission."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "If the user grants permission, you can use the camera on the device; otherwise, the user is unable to use your app to scan text or codes."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "If you don’t add this key, a runtime error occurs when you access the camera."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "Use the other parameters of the initializer to disable specific interface features and gestures."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "For example, the scanner calls this method when users tap Don’t Allow the first time the system prompt appears, as described in ."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "Use the parameters of the enumeration to get details about the item, such as the bounds."}
+{"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "To stop scanning, use the method in one of the delegate methods."}

@@ -1,0 +1,49 @@
+{"id": "/documentation/AccessorySetupKit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "This sample project uses two app targets to demonstrate how to use AccessorySetupKit."}
+{"id": "/documentation/AccessorySetupKit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "simulates Bluetooth dice, while highlights how to use AccessorySetupKit to onboard the accessory."}
+{"id": "/documentation/AccessorySetupKit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "The target uses AccessorySetupKit to authorize the use of a Bluetooth dice accessory and receive roll results."}
+{"id": "/documentation/AccessorySetupKit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "The accessory is now authorized for use in the app."}
+{"id": "/documentation/AccessorySetupKit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "Discover, select, and set up a specific Bluetooth accessory without requesting permission to use Bluetooth."}
+{"id": "/documentation/AccessorySetupKit", "law": "Use AccessorySetupKit to discover and configure Bluetooth or Wi-Fi accessories with images and names provided by the app."}
+{"id": "/documentation/AccessorySetupKit", "law": "To use AccessorySetupKit with , specify Wi-Fi Aware properties in a prior to beginning accessory discovery."}
+{"id": "/documentation/AccessorySetupKit", "law": "In watchOS 26 and later, if someone sets up an accessory with your iOS app by using AccessorySetupKit, a companion watchOS app can also use CoreBluetooth to communicate with the new accessory and any other accessories."}
+{"id": "/documentation/accessorysetupkit", "law": "Use AccessorySetupKit to discover and configure Bluetooth or Wi-Fi accessories with images and names provided by the app."}
+{"id": "/documentation/accessorysetupkit", "law": "To use AccessorySetupKit with , specify Wi-Fi Aware properties in a prior to beginning accessory discovery."}
+{"id": "/documentation/accessorysetupkit", "law": "In watchOS 26 and later, if someone sets up an accessory with your iOS app by using AccessorySetupKit, a companion watchOS app can also use CoreBluetooth to communicate with the new accessory and any other accessories."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession", "law": "Use an instance of to interact with the AccessorySetupKit framework."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession", "law": "Starting in iOS 18.4, apps can use AccessorySetupKit for discovery and setup of Bluetooth LE devices that conform to the Human Interface Device (HID) service, such as keyboard and mouse accessories."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "Use the AccessorySetupKit framework to simplify discovery and configuration of Bluetooth or Wi-Fi accessories."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "This allows the person using your app to use these devices without granting overly-broad Bluetooth or Wi-Fi access."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "When the picker sends an accessory added event, use information about the selected device to create a Bluetooth or Wi-Fi connection."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "This only affects use of AccessorySetupKit discovery and selection; you can use other services and properties on the accessory after the person using the app selects it."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "The event handler receives a single parameter of type , which has an that you use to determine what to do with each callback."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "Collect these items in an array and pass them to the session for the operating system to present a picker: Each display item’s , a property of type , needs to have a or , and at least one of the following accessory identifiers: A and set to the same length."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "For Bluetooth accessories, the accessory identifiers you use in display items need to match the values you supply in the app’s information property list."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "For items you want to migrate, set one or both of the following: An , which must be a full SSID and not a prefix."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "Don’t initialize a before migration is complete."}
+{"id": "/documentation/accessorysetupkit/discovering-and-configuring-accessories", "law": "If your app needs do this, set the picker’s display settings to use the option."}
+{"id": "/documentation/AccessorySetupKit/ASAccessorySession", "law": "Use an instance of to interact with the AccessorySetupKit framework."}
+{"id": "/documentation/AccessorySetupKit/ASAccessorySession", "law": "Starting in iOS 18.4, apps can use AccessorySetupKit for discovery and setup of Bluetooth LE devices that conform to the Human Interface Device (HID) service, such as keyboard and mouse accessories."}
+{"id": "/documentation/AccessorySetupKit/ASDiscoveryDescriptor", "law": "Use an instance of this type to identify accessories your app can set up, then set it as the property of an ."}
+{"id": "/documentation/accessorysetupkit/asdiscoveredaccessory", "law": "Use the discovered accessory’s Bluetooth properties to create a new , incorporating traits like a custom accessory name or a newly downloaded product image."}
+{"id": "/documentation/accessorysetupkit/asdiscoveredaccessory", "law": "A discovered accessory, for use in creating a customized picker display item."}
+{"id": "/documentation/accessorysetupkit/asdiscovereddisplayitem", "law": "Use this type when your app’s picker uses the option."}
+{"id": "/documentation/accessorysetupkit/asdiscoverydescriptor", "law": "Use an instance of this type to identify accessories your app can set up, then set it as the property of an ."}
+{"id": "/documentation/accessorysetupkit/asmigrationdisplayitem", "law": "A previously-discovered accessory as presented by the discovery picker, for use when migrating it to AccessorySetupKit."}
+{"id": "/documentation/accessorysetupkit/aspickerdisplayitem", "law": "To enable different behaviors during setup, use the property, which is an option set (Swift) or bitfield (Objective-C) of behavior options."}
+{"id": "/documentation/accessorysetupkit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "This sample project uses two app targets to demonstrate how to use AccessorySetupKit."}
+{"id": "/documentation/accessorysetupkit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "simulates Bluetooth dice, while highlights how to use AccessorySetupKit to onboard the accessory."}
+{"id": "/documentation/accessorysetupkit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "The target uses AccessorySetupKit to authorize the use of a Bluetooth dice accessory and receive roll results."}
+{"id": "/documentation/accessorysetupkit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "The accessory is now authorized for use in the app."}
+{"id": "/documentation/accessorysetupkit/setting-up-and-authorizing-a-bluetooth-accessory", "law": "Discover, select, and set up a specific Bluetooth accessory without requesting permission to use Bluetooth."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/accessories", "law": "To monitor for changes in this list, use your event handler to watch for the events , , and ."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/finishauthorization(for:settings:completionhandler:)", "law": "Use this method in scenarios where an accessory has multiple wireless interfaces."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/finishpickerdiscovery(completionhandler:)", "law": "Use this method if you previously set the picker display setting to in order to perform manual filtering of discovered accessories."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/pickerdisplaysettings", "law": "Use this property to configure settings like the picker timeout."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/renameaccessory(_:options:completionhandler:)", "law": "To rename a Wi-Fi SSID with this method, use the option ."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/showpicker(completionhandler:)", "law": "Use this method when your app includes a for its supported accessories."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/showpicker(completionhandler:)", "law": "If your app doesn’t use DDE, call with an array of instances instead."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/updateauthorization(for:descriptor:completionhandler:)", "law": "Call this method to upgrade previously-added SSID-based accessories to use WiFi Aware."}
+{"id": "/documentation/accessorysetupkit/asaccessorysession/updatepicker(showing:completionhandler:)", "law": "You use this method when your picker uses the option to enable manual filtering of discovered accessories."}
+{"id": "/documentation/accessorysetupkit/asaccessory/bluetoothidentifier", "law": "Use this identifier to establish a connection to the accessory."}
+{"id": "/documentation/accessorysetupkit/asaccessory/ssid", "law": "Use this identifier to establish a connection to the accessory."}
+{"id": "/documentation/accessorysetupkit/aspickerdisplaysettings/discoverytimeout-swift.struct/unbounded", "law": "Use this timeout value if you set the picker display option and need unlimited time for filtering."}

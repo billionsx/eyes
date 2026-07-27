@@ -1,0 +1,12 @@
+{"id": "/documentation/SpatialPreview", "law": "Use Spatial Preview to work with spatial content from a macOS app to a connected visionOS device in real time."}
+{"id": "/documentation/SpatialPreview", "law": "is recommended for Spatial Preview because it works without any additional setup."}
+{"id": "/documentation/SpatialPreview", "law": "If you want to use your own OpenUSD library, see the documentation below on how to bridge OpenUSD to ."}
+{"id": "/documentation/spatialpreview", "law": "Use Spatial Preview to work with spatial content from a macOS app to a connected visionOS device in real time."}
+{"id": "/documentation/spatialpreview", "law": "is recommended for Spatial Preview because it works without any additional setup."}
+{"id": "/documentation/spatialpreview", "law": "If you want to use your own OpenUSD library, see the documentation below on how to bridge OpenUSD to ."}
+{"id": "/documentation/spatialpreview/bridging-an-external-usd-runtime-to-spatial-preview", "law": "Applications that use USDKit for accessing USD data will automatically have edits to the USD data synced with Spatial Preview Sessions."}
+{"id": "/documentation/spatialpreview/bridging-an-external-usd-runtime-to-spatial-preview", "law": "When your app has its own USD runtime, the two applications don’t share memory or a stage cache."}
+{"id": "/documentation/spatialpreview/bridging-an-external-usd-runtime-to-spatial-preview", "law": "For each direction, app to device and device to app, the pattern is the same: write overrides into a thin edit layer, export it to disk, and use to propagate the changes into USDKit’s stage."}
+{"id": "/documentation/spatialpreview/bridging-an-external-usd-runtime-to-spatial-preview", "law": "When you read edits from the Spatial Preview stage and apply them to the in your application, don’t treat the edits as new changes to the USD data."}
+{"id": "/documentation/spatialpreview/bridging-an-external-usd-runtime-to-spatial-preview", "law": "Batch and pass edits from an external OpenUSD runtime to the bridge layer at some reasonable time period (30ms for example) to prevent locking the thread."}
+{"id": "/documentation/spatialpreview/bridging-an-external-usd-runtime-to-spatial-preview", "law": "This approach requires less bridging code but exports the full scene on every change, which can be slow for large scenes: exposes a property of type ."}

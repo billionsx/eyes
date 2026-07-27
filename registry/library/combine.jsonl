@@ -1,0 +1,13 @@
+{"id": "/documentation/Combine", "law": "For example, you can subscribe to updates from a text field’s publisher, and use the text to perform URL requests."}
+{"id": "/documentation/Combine", "law": "You can then use another publisher to process the responses and use them to update your app."}
+{"id": "/documentation/Combine/Publisher", "law": "The subscriber’s and associated types must match the and types declared by the publisher."}
+{"id": "/documentation/Combine/Publisher", "law": "The subscriber uses the subscription to demand elements from the publisher and can use it to cancel publishing."}
+{"id": "/documentation/Combine/Publisher", "law": "Every must adhere to this contract for downstream subscribers to function correctly."}
+{"id": "/documentation/Combine/Publisher", "law": "Use operators to assemble a chain of republishers, optionally ending with a subscriber, that processes elements produced by upstream publishers."}
+{"id": "/documentation/Combine/Publisher", "law": "Rather than implementing the protocol yourself, you can create your own publisher by using one of several types provided by the Combine framework: Use a concrete subclass of , such as , to publish values on-demand by calling its method."}
+{"id": "/documentation/Combine/Publisher", "law": "Use a to publish whenever you update the subject’s underlying value."}
+{"id": "/documentation/Combine/Publisher/map(_:)-99evh", "law": "You use to transform from one kind of element to another."}
+{"id": "/documentation/Combine/Publisher/map(_:)-99evh", "law": "If your closure can throw an error, use Combine’s operator instead."}
+{"id": "/documentation/Combine/Publisher/scan(_:_:)", "law": "Use to accumulate all previously-published values into a single value, which you then combine with each newly-published value."}
+{"id": "/documentation/Combine/Subject", "law": "A subject is a publisher that you can use to ”inject” values into a stream, by calling its method."}
+{"id": "/documentation/Combine/Published", "law": "Use it with properties of classes, not with non-class types like structures."}

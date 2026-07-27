@@ -1,0 +1,29 @@
+{
+ "url": "https://www.apple.com/watch/",
+ "sections": [],
+ "modules": [
+  "name:compare",
+  "name:why apple",
+  "name:get to know apple watch",
+  "name:apple watch essentials",
+  "name:apple watch compatibility",
+  "name:router"
+ ],
+ "imgs": 59,
+ "videos": 0,
+ "cta": 13,
+ "h_levels": {
+  "1": 1,
+  "2": 7,
+  "3": 35
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/api-www/global-elements/global-footer/v1/en_US/styles/ac-globalfooter.built.css",
+  "/_apps/artisan/_next/static/css/498a874b708d3e34.css",
+  "/_apps/artisan/_next/static/css/dec5f538b5b0f461.css",
+  "/_apps/artisan/_next/static/css/3e83321b8891f345.css",
+  "/_apps/artisan/_next/static/css/501e2f39342b9727.css"
+ ],
+ "typography_laws": 2
+}

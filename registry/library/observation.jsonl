@@ -1,0 +1,2 @@
+{"id": "/documentation/Observation", "law": "To track changes, use the function."}
+{"id": "/documentation/Observation/Observable", "law": "Instead, always use the macro when adding observation support to a type."}

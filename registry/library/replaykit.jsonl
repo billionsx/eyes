@@ -1,0 +1,4 @@
+{"id": "/documentation/ReplayKit/RPScreenRecorder", "law": "You get a reference to the recorder through the function and use it to implement start-and-stop recording functionality."}
+{"id": "/documentation/ReplayKit/RPScreenRecorder", "law": "Only one app at a time can use the recorder on the user’s device."}
+{"id": "/documentation/replaykit/rpscreenrecorder", "law": "You get a reference to the recorder through the function and use it to implement start-and-stop recording functionality."}
+{"id": "/documentation/replaykit/rpscreenrecorder", "law": "Only one app at a time can use the recorder on the user’s device."}

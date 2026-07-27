@@ -1,0 +1,10 @@
+{"id": "/documentation/XCUIAutomation", "law": "Use the XCUIAutomation framework to control your app’s user interface and inspect its state."}
+{"id": "/documentation/XCUIAutomation", "law": "Use to write tests that control your app using XCUIAutomation, and check if your app’s state matches your expectations."}
+{"id": "/documentation/XCUIAutomation", "law": "You can still use it to test compatible iPad and iPhone apps that you build using the iOS SDK but run in visionOS."}
+{"id": "/documentation/XCUIAutomation", "law": "Replicate sequences of interactions and make sure that your app’s user interface behaves as intended."}
+{"id": "/documentation/XCUIAutomation/recording-ui-automation-for-testing", "law": "When you write UI tests with XCUIAutomation, you use to find the elements in your app that your test interacts with."}
+{"id": "/documentation/XCUIAutomation/recording-ui-automation-for-testing", "law": "Use UI recording to replicate your app interactions so that Xcode constructs the element queries for you."}
+{"id": "/documentation/XCUIAutomation/recording-ui-automation-for-testing", "law": "In these situations, you don’t need to launch your app in the test."}
+{"id": "/documentation/XCUIAutomation/recording-ui-automation-for-testing", "law": "For example, if you’re likely to move a given button when redesigning your app’s UI, but the name of the button never changes, choose a query that locates it by name instead of its index in its parent element."}
+{"id": "/documentation/XCUIAutomation/recording-ui-automation-for-testing", "law": "Use element queries to find UI elements, and assertion macros from to assert that the elements have the expected properties."}
+{"id": "/documentation/XCUIAutomation/recording-ui-automation-for-testing", "law": "Use this to test that recorded interactions in your app are still possible in updated versions, and that the app doesn’t crash when you interact with it."}

@@ -1,0 +1,2 @@
+{"id": "/documentation/EnterpriseProgramAPI", "law": "Calls to the API require JSON Web Tokens (JWT) for authorization; you obtain keys to create the tokens from your organization’s Enterprise Program account."}
+{"id": "/documentation/EnterpriseProgramAPI", "law": "Changes you make using the Enterprise Program API affect the production data you use for development and distribution."}

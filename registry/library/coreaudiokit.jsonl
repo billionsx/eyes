@@ -1,0 +1,2 @@
+{"id": "/documentation/CoreAudioKit", "law": "Core Audio Kit provides views and controllers to use when building Audio Unit user interfaces."}
+{"id": "/documentation/CoreAudioKit/AUViewController", "law": "If an audio unit provides a custom view controller, the UI Audio Unit extension must implement a subclass of and implement the protocol inside the subclass."}

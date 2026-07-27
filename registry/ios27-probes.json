@@ -1,0 +1,40 @@
+{
+ "_суть": "страницы iOS 27, которых ещё нет: дозор пробует вежливо, 404 терпит, живую вербует сам (устав §5)",
+ "probes": [
+  {
+   "id": "ios27-release-notes",
+   "url": "https://developer.apple.com/documentation/ios-ipados-release-notes/ios-27-release-notes",
+   "kind": "docc",
+   "domains": [
+    "ios27",
+    "релиз-ноты"
+   ]
+  },
+  {
+   "id": "ipados27-release-notes",
+   "url": "https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-27-release-notes",
+   "kind": "docc",
+   "domains": [
+    "ios27",
+    "релиз-ноты"
+   ]
+  },
+  {
+   "id": "ios27-landing",
+   "url": "https://developer.apple.com/ios/whats-new/",
+   "kind": "html",
+   "domains": [
+    "ios27"
+   ]
+  },
+  {
+   "id": "sf-symbols-8",
+   "url": "https://developer.apple.com/sf-symbols/",
+   "kind": "html",
+   "domains": [
+    "ios27",
+    "иконки"
+   ]
+  }
+ ]
+}

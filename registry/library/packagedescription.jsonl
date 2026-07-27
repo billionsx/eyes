@@ -1,0 +1,5 @@
+{"id": "/documentation/PackageDescription", "law": "Swift packages are reusable components of Swift, Objective-C, Objective-C++, C, or C++ code that developers can use in their projects."}
+{"id": "/documentation/PackageDescription", "law": "They bundle source files, binaries, and resources in a way that’s easy to use in your app’s project."}
+{"id": "/documentation/PackageDescription", "law": "Each Swift package requires a file in the main directory of the package — referred to as the package manifest."}
+{"id": "/documentation/PackageDescription", "law": "When you create a Swift package, you use the PackageDescription library in the package manifest to list dependencies, configure localized resources, and set other configuration options."}
+{"id": "/documentation/PackageDescription", "law": "The package manifest also allows you to define executable products, as well as plugins that Swift Package Manager can use to build other products in the manifest."}

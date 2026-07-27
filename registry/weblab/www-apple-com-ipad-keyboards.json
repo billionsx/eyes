@@ -1,0 +1,33 @@
+{
+ "url": "https://www.apple.com/ipad-keyboards/",
+ "sections": [
+  "section-hero",
+  "section-magic-keyboard-ipad-pro",
+  "section-magic-keyboard-ipad-air",
+  "section-magic-keyboard-folio",
+  "section-compatibility"
+ ],
+ "modules": [
+  "name:hero",
+  "name:magic keyboard ipad pro",
+  "name:magic keyboard ipad air",
+  "name:magic keyboard folio",
+  "name:compatibility",
+  "name:buy strip"
+ ],
+ "imgs": 20,
+ "videos": 0,
+ "cta": 18,
+ "h_levels": {
+  "1": 1,
+  "2": 7,
+  "3": 24
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/ipad-keyboards/q/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

@@ -1,0 +1,8 @@
+{"id": "/documentation/ScreenSaver", "law": "Use the available functions to produce random values and centering rectangles."}
+{"id": "/documentation/ScreenSaver", "law": "That view defines the interface you use to generate your screen saver content."}
+{"id": "/documentation/ScreenSaver", "law": "If your screen saver stores any preference information, use the class instead of the standard class."}
+{"id": "/documentation/ScreenSaver", "law": "Because screen savers are plug-ins for the screen saver engine, the screen saver binary must support the same hardware architecture of the running engine."}
+{"id": "/documentation/ScreenSaver", "law": "For full compatibility, make sure your screen saver supports both the and architectures."}
+{"id": "/documentation/ScreenSaver", "law": "Calls your view’s method, which you use to set up any animation-related state information."}
+{"id": "/documentation/ScreenSaver", "law": "Use that method to clean up any state information you establish in your method."}
+{"id": "/documentation/ScreenSaver", "law": "The or methods don’t immediately start or stop the animations."}

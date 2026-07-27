@@ -1,0 +1,2 @@
+{"id": "/documentation/AddressBook", "law": "Do not use the AddressBook framework in macOS 10.11 and later."}
+{"id": "/documentation/AddressBook", "law": "Use the APIs defined in the framework instead."}

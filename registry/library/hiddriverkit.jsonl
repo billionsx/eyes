@@ -1,0 +1,37 @@
+{"id": "/documentation/HIDDriverKit/handling-keyboard-events-from-a-human-interface-device", "law": "You can’t use automatic code signing for this sample app."}
+{"id": "/documentation/HIDDriverKit/handling-keyboard-events-from-a-human-interface-device", "law": "You must create an explicit App ID and provisioning profile, and your provisioning profile must contain the following set of entitlements: Request these entitlements from Apple, and use them to configure a provisioning profile for the sample."}
+{"id": "/documentation/HIDDriverKit/handling-keyboard-events-from-a-human-interface-device", "law": "You must also disable SIP to skip the notarization checks that normally occur when installing DriverKit extensions."}
+{"id": "/documentation/HIDDriverKit/handling-keyboard-events-from-a-human-interface-device", "law": "You can also use that tool to uninstall your extension or reset the state of your system extensions."}
+{"id": "/documentation/HIDDriverKit/handling-keyboard-events-from-a-human-interface-device", "law": "Because it is a local method, the sample doesn’t use the macro to call it."}
+{"id": "/documentation/HIDDriverKit/handling-stylus-input-from-a-human-interface-device", "law": "You can’t use automatic code signing for this sample app."}
+{"id": "/documentation/HIDDriverKit/handling-stylus-input-from-a-human-interface-device", "law": "You must create an explicit App ID and provisioning profile, and your provisioning profile must contain the following set of entitlements: Request these entitlements from Apple, and use them to configure a provisioning profile for the sample."}
+{"id": "/documentation/HIDDriverKit/handling-stylus-input-from-a-human-interface-device", "law": "You must also disable SIP to skip the notarization checks that normally occur when installing DriverKit extensions."}
+{"id": "/documentation/HIDDriverKit/handling-stylus-input-from-a-human-interface-device", "law": "You can also use that tool to uninstall your extension or reset the state of your system extensions."}
+{"id": "/documentation/HIDDriverKit/handling-stylus-input-from-a-human-interface-device", "law": "For example, a driver might use custom data provided by the device to dispatch a modified event to the system."}
+{"id": "/documentation/hiddriverkit/handling-stylus-input-from-a-human-interface-device", "law": "You can’t use automatic code signing for this sample app."}
+{"id": "/documentation/hiddriverkit/handling-stylus-input-from-a-human-interface-device", "law": "You must create an explicit App ID and provisioning profile, and your provisioning profile must contain the following set of entitlements: Request these entitlements from Apple, and use them to configure a provisioning profile for the sample."}
+{"id": "/documentation/hiddriverkit/handling-stylus-input-from-a-human-interface-device", "law": "You must also disable SIP to skip the notarization checks that normally occur when installing DriverKit extensions."}
+{"id": "/documentation/hiddriverkit/handling-stylus-input-from-a-human-interface-device", "law": "You can also use that tool to uninstall your extension or reset the state of your system extensions."}
+{"id": "/documentation/hiddriverkit/handling-stylus-input-from-a-human-interface-device", "law": "For example, a driver might use custom data provided by the device to dispatch a modified event to the system."}
+{"id": "/documentation/hiddriverkit/iohidelement", "law": "You use these element objects to obtain details about the report, such as the current value reported by the device, how that value is meant to be used, and the minimum and maximum values."}
+{"id": "/documentation/hiddriverkit/iohidelement", "law": "You don’t create objects directly."}
+{"id": "/documentation/hiddriverkit/iohidelement", "law": "Instead, use the method of your or object to fetch the elements associated with the latest report."}
+{"id": "/documentation/hiddriverkit/iohideventservice", "law": "In both cases, use the methods of this class to send events to the operating system, which dispatches those events to relevant apps."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice", "law": "To implement a custom event service, override the method and use it to iterate over the report contents and dispatch any relevant events."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice", "law": "For this class, always include the keys and values in the following table."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice", "law": "A service that parses HID report data into elements that you can use to dispatch events."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/getelements", "law": "Use this method to get the array of objects that contain the data for the most recent device report."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/getelements", "law": "Use the and methods of the element to determine the type of information in each element."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/handlereport", "law": "Implement a custom version of this method and use the macro to let the system know that your method conforms to this prototype."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/handlereport", "law": "In your custom implementation of this method, use the report data to gather the information you need to dispatch an appropriate event to the system."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/handlereport", "law": "To simplify the parsing of the report data, use the method to populate a set of objects with data from the report."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/start", "law": "Use this method to configure your custom data structures and associated hardware."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/start", "law": "You might also store a reference to the provider object for later use."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/start", "law": "Always call early in your implementation of this method."}
+{"id": "/documentation/hiddriverkit/iouserhideventservice/stop", "law": "Use your implementation of this method to stop all activity and put your driver in a quiescent state."}
+{"id": "/documentation/hiddriverkit/handling-keyboard-events-from-a-human-interface-device", "law": "You can’t use automatic code signing for this sample app."}
+{"id": "/documentation/hiddriverkit/handling-keyboard-events-from-a-human-interface-device", "law": "You must create an explicit App ID and provisioning profile, and your provisioning profile must contain the following set of entitlements: Request these entitlements from Apple, and use them to configure a provisioning profile for the sample."}
+{"id": "/documentation/hiddriverkit/handling-keyboard-events-from-a-human-interface-device", "law": "You must also disable SIP to skip the notarization checks that normally occur when installing DriverKit extensions."}
+{"id": "/documentation/hiddriverkit/handling-keyboard-events-from-a-human-interface-device", "law": "You can also use that tool to uninstall your extension or reset the state of your system extensions."}
+{"id": "/documentation/hiddriverkit/handling-keyboard-events-from-a-human-interface-device", "law": "Because it is a local method, the sample doesn’t use the macro to call it."}
+{"id": "/documentation/hiddriverkit/iohideventservice/dispatchdigitizerstylusevent", "law": "Subclasses must override it to dispatch stylus events."}

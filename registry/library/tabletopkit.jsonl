@@ -1,0 +1,29 @@
+{"id": "/documentation/TabletopKit/creating-tabletop-games", "law": "Otherwise, use the existing bundle ID that ends in your team ID."}
+{"id": "/documentation/TabletopKit/creating-tabletop-games", "law": "If you don’t have an Apple Vision Pro device, you can run the sample code in Simulator and interact with some equipment."}
+{"id": "/documentation/TabletopKit/creating-tabletop-games", "law": "Ensure that the SharePlay badge turns green."}
+{"id": "/documentation/TabletopKit/implementing-playing-card-overlap-and-physical-characteristics", "law": "Use a QuickHull-like algorithm search to find the convex hull around all of these points, but limited to only find the single hull face that intersects a specified vertical line."}
+{"id": "/documentation/TabletopKit/implementing-playing-card-overlap-and-physical-characteristics", "law": "A QuickHull algorithm consists of starting with a plane defined by any three points known to be on the convex hull — such as those at a maximum or minimum value in any one coordinate axis."}
+{"id": "/documentation/TabletopKit/implementing-playing-card-overlap-and-physical-characteristics", "law": "Iterate over the points to: Find the point with the highest distance outside the current plane, which must also be on the convex hull."}
+{"id": "/documentation/TabletopKit/implementing-playing-card-overlap-and-physical-characteristics", "law": "Because this use case only requires finding a single plane of the convex hull, it’s unnecessary to find the full convex hull."}
+{"id": "/documentation/TabletopKit/implementing-playing-card-overlap-and-physical-characteristics", "law": "Instead, the algorithm focuses on locating the single face that contains, in 2D, the supplied center point by iterating the following steps: Find the point with the highest distance outside the current plane, which must also be on the convex hull, and discard all points below or on the plane."}
+{"id": "/documentation/TabletopKit/implementing-playing-card-overlap-and-physical-characteristics", "law": "Each outer iteration, starting from all points, finds at least one — but often two or three — of the three actual support points, so three outer iterations may be required."}
+{"id": "/documentation/TabletopKit/simulating-dice-rolls-as-a-component-for-your-game", "law": "The class manages the overall game state and coordinates between TabletopKit and the UI: The app uses a volumetric window style with a 2 x 2 x 2 meter default size to provide adequate space for dice interaction."}
+{"id": "/documentation/TabletopKit/simulating-dice-rolls-as-a-component-for-your-game", "law": "The sample uses a hexagonal positioning pattern to ensure dice don’t overlap during group interactions."}
+{"id": "/documentation/TabletopKit", "law": "Create multiplayer spatial games on a virtual table surface and use FaceTime to invite players."}
+{"id": "/documentation/tabletopkit", "law": "Create multiplayer spatial games on a virtual table surface and use FaceTime to invite players."}
+{"id": "/documentation/tabletopkit/tablesetup", "law": "To render seats using RealityKit, conform to the protocol and use the or a similar method to add seats."}
+{"id": "/documentation/tabletopkit/tablesetup", "law": "Otherwise, conform to the protocol and use the or a similar method to add seats."}
+{"id": "/documentation/tabletopkit/tablesetup", "law": "To render equipment using RealityKit, conform to the protocol and use the or a similar method to add equipment."}
+{"id": "/documentation/tabletopkit/tablesetup", "law": "Otherwise, conform to the protocol and use the or a similar method to add equipment."}
+{"id": "/documentation/tabletopkit/tablesetup", "law": "Use either the or method to add score counters."}
+{"id": "/documentation/tabletopkit/tabletop", "law": "To create a round table, use one of the round initializers."}
+{"id": "/documentation/tabletopkit/tabletopshape", "law": "To create a round table, use the initializer, or if you render the table using RealityKit, the initializer."}
+{"id": "/documentation/tabletopkit/tabletopshape", "law": "For a rectangular table, use the equivalent or initializer."}
+{"id": "/documentation/tabletopkit/equipment", "law": "For more complex data, use ."}
+{"id": "/documentation/tabletopkit/tabletopinteraction", "law": "To get information about the equipment that the interaction applies to, use the property."}
+{"id": "/documentation/tabletopkit/tabletopinteraction", "law": "To get the phase of the interaction or gesture, use the or properties."}
+{"id": "/documentation/tabletopkit/tabletopinteraction", "law": "To start an interaction programmatically, use the method."}
+{"id": "/documentation/tabletopkit/creating-tabletop-games", "law": "Otherwise, use the existing bundle ID that ends in your team ID."}
+{"id": "/documentation/tabletopkit/creating-tabletop-games", "law": "If you don’t have an Apple Vision Pro device, you can run the sample code in Simulator and interact with some equipment."}
+{"id": "/documentation/tabletopkit/creating-tabletop-games", "law": "Ensure that the SharePlay badge turns green."}
+{"id": "/documentation/tabletopkit/moveequipmentaction", "law": "To create a move equipment action, use the or the static method."}

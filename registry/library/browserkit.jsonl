@@ -1,0 +1,2 @@
+{"id": "/documentation/BrowserKit", "law": "Use the BrowserKit framework to transfer data such as browsing history, bookmarks, and browser extensions from one browser to another, and to test whether a device is eligible to implement an alternative browser engine."}
+{"id": "/documentation/BrowserKit", "law": "Transfer browser data to another browser or check a device’s eligibility to use an alternative browser engine."}

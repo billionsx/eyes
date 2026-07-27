@@ -1,0 +1,50 @@
+# Apple Design Resources - Apple Developer
+# https://developer.apple.com/design/resources/
+# снято: 2026-07-23 08:47 UTC
+
+## h2: Explore Get Started
+## h2: Stay Updated
+## h2: Explore Platforms
+## h2: Featured
+## h2: Explore Technologies
+## h2: Featured
+## h2: Explore Community
+## h2: Featured
+## h2: Explore Documentation
+## h2: Release Notes
+## h2: Explore Downloads
+## h2: Featured
+## h2: Explore Support
+## h2: Featured
+## h2: Quick Links
+## h2: Design
+## h1: Apple Design Resources
+## h2: iOS and iPadOS
+## h4: iOS 27 and iPadOS 27
+## h2: macOS
+## h4: macOS 27
+## h2: tvOS
+## h4: tvOS 18
+## h2: watchOS
+## h4: watchOS 26
+## h2: visionOS
+## h4: visionOS 26
+## h4: visionOS 2
+## h2: Technologies
+## h2: Fonts
+## h2: SF Symbols
+## h2: Icon Composer
+## h2: Parallax image tools
+## h2: Product Bezels
+## h2: Badges and Logos
+## h2: Developer Footer
+## h3: Platforms
+## h3: Tools
+## h3: Technologies
+## h3: Resources
+## h3: Support
+## h3: Account
+## h3: Programs
+## h3: Events
+
+Apple Design Resources - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community-driven events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos Design Open Menu Close Menu Overview What’s New Get Started Guidelines Resources Apple Design Resources Design apps accurately and quickly using official Apple design templates, icon production templates, color guides, and more. iOS & iPadOS macOS tvOS watchOS visionOS Technologies Fonts Tools Product Bezels iOS and iPadOS iOS 27 and iPadOS 27 UI Kit Figma Sketch App Icon Template Figma Sketch Photoshop, Illustrator macOS macOS 27 UI Kit Figma Sketch tvOS tvOS 18 UI Kit Sketch Note: Sketch must be installed to download Templates Sketch Production Templates Sketch 427 KB Photoshop 238 KB watchOS watchOS 26 UI Kit Figma Sketch visionOS visionOS 26 UI Kit Figma Sketch visionOS 2 UI Kit Sketch Note: Sketch must be installed to download Figma Templates Sketch Technologies Add Apple Watch Face PNG, PDF, SVG AirPlay PDF Design Guidelines App Clips Design Template Figma Sketch Apple Health Icon PNG Design Guidelines Apple Pay Design Template Figma Sketch ARKit Badge and Glyph PDF Design Guidelines Camera Control Sketch Games and Game Center PNG, PDF HomeKit Icon and Glyph PNG, PDF Design Guidelines Live Activities Template Figma Sketch Messages Template Figma Sketch Sign in with Apple Logo PNG, PDF, SVG Design Guidelines Sign in with Apple Buttons Figma Sketch Siri and App Shortcuts Template Figma Sketch Siri Icons PNG Tap to Pay on iPhone Template Figma Sketch TipKit Template Figma Sketch Wallet Template Figma Sketch Fonts SF Pro Download SF Pro System font for iOS, iPadOS, macOS and tvOS. SF Compact Download SF Compact System font for watchOS, optimized for small sizes and narrow columns. SF Mono Download SF Mono Used in Xcode, enables alignment between rows and columns of text. New York Download New York Performs as a traditional reading face at small sizes and a graphic display face at larger sizes. SF Arabic Download SF Arabic Arabic system font on Apple platforms. SF Armenian Download SF Armenian Designed with proportions that have been adjusted for a better visual balance in multilingual typesetting. SF Georgian Download SF Georgian Supports modern Georgian, Mkhedruli, and Mtavruli uppercase forms. SF Hebrew Download SF Hebrew With full support of the Niqqud diacritical marks. SF Symbols SF Symbols is a library of over 7,000 symbols designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics tools to create custom symbols with shared design characteristics and accessibility features. Symbols feature multi-layer drawings designed for motion, enabling a range of expressive animations. Crafted for a global audience, symbols automatically adapt to a user’s reading direction and feature localized designs for over 20 international scripts. Learn more Download SF Symbols 8 beta Requires macOS Sonoma or later. Download SF Symbols 7 Requires macOS Sonoma or later. Icon Composer Icon Composer lets you create layered icons out of Liquid Glass from a single design for iPhone, iPad, Mac, and Apple Watch. A multi-layer icon format allows you to craft your icon and annotate it across appearance modes. Icon Composer is designed to work seamlessly with Xcode and provides the option to export a flattened version of your icon for marketing and communication needs. Learn more Download Icon Composer Requires macOS Sequoia or later. Parallax image tools Use Parallax Previewer and Parallax Exporter Plug-In for Adobe Photoshop to deliver parallax visual effects that transform static images into dynamic and immersive experiences on tvOS and visionOS. Parallax Previewer App Download version 2 for macOS Requires macOS 13.5 or later. Download version 1 for macOS Requires macOS 10.10.5 or later. User Guide Parallax Exporter Plug-In for Adobe Photoshop Download for macOS Requires Adobe Photoshop 2023 (v24.1) or later and macOS 12.4.0 or later. Download for Windows Requires Adobe Photoshop 2023 (v24.1) or later and Microsoft Windows 10 64-bit (version 22H2) or later. Product Bezels When using product bezels in your marketing materials, be sure to review these Marketing Resources and Identity Guidelines . Apple TV Photoshop, PNG Apple Watch Ultra 3 (2025) Photoshop, PNG Apple Watch Ultra 2 (2024) Photoshop, PNG Apple Watch Series 11 Photoshop, PNG Studio Displays Photoshop, PNG iMac Photoshop, PNG iPad (A16) Photoshop, PNG iPad Air (M4) Photoshop, PNG iPad mini (A17 Pro) Photoshop, PNG iPad Pro (M5) Photoshop, PNG iPhone 17 Photoshop, PNG iPhone 16 Photoshop, PNG MacBook Air M5 Photoshop, PNG MacBook Pro M5 Photoshop, PNG MacBook Neo Photoshop, PNG iPhone and iPad for Keynote Live Video Keynote Badges and Logos Find badges and logos for Apple technologies, such as Apple Health, Apple Wallet, Apple Music, and Apple Pay, that can be used in your app’s marketing material. View Apple Badges and Logos Developer Footer Design Resources Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness In-App Purchase Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines

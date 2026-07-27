@@ -1,0 +1,5 @@
+{"id": "/documentation/HTTP-Live-Streaming", "law": "For live events, the server requires a media encoder, which can be off-the-shelf hardware, and a way to break the encoded media into segments and save them as files, which can either be software such as the media stream segmenter provided by Apple or part of an integrated third-party solution."}
+{"id": "/documentation/HTTP-Live-Streaming", "law": "No custom server modules are required to deliver the content, and typically very little configuration is needed on the web server."}
+{"id": "/documentation/HTTP-Live-Streaming", "law": "You also need the use of a web server and a way to encode live streams as fragmented MPEG-4 media files containing HEVC or H.264 video, and AAC or AC-3 audio."}
+{"id": "/documentation/HTTP-Live-Streaming", "law": "Ensure correct playlist formatting and adherence to guidelines."}
+{"id": "/documentation/HTTP-Live-Streaming", "law": "Use the provided tools to segment your stream, create multivariant playlists, and verify the output of your own tools."}

@@ -1,0 +1,10 @@
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "If your app doesn’t use for shared content, the framework provides an object wrapped in to implement a custom collaboration infrastructure."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "In SwiftUI, use to support collaboration mode in the share sheet."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "The object your app shares must adopt , a protocol for sharing and data transfer."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "If your app uses a custom collaboration infrastructure, you must provide your own manage button."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Then use the in that observer to capture and react to the result of the server-side save of the share."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Use the in that same observer to handle when a share stops."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "To post a notice, retrieve the and use it to create an that matches the type of update."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Use to post a notice about content updates or comments."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Use to retrieve a collaboration highlight with the URL of the your app used to initiate the collaboration."}
+{"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Use the to post a notice when your app moves, renames, or deletes content on the server."}

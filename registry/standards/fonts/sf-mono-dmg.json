@@ -1,0 +1,125 @@
+{
+ "dmg": "SF-Mono.dmg",
+ "faces": [
+  {
+   "name": "SF Mono Bold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1100,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-Bold.otf"
+  },
+  {
+   "name": "SF Mono Bold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1100,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-BoldItalic.otf"
+  },
+  {
+   "name": "SF Mono Heavy",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1113,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-Heavy.otf"
+  },
+  {
+   "name": "SF Mono Heavy Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1113,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-HeavyItalic.otf"
+  },
+  {
+   "name": "SF Mono Light",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1077,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-Light.otf"
+  },
+  {
+   "name": "SF Mono Light Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1077,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-LightItalic.otf"
+  },
+  {
+   "name": "SF Mono Medium",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1088,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-Medium.otf"
+  },
+  {
+   "name": "SF Mono Medium Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1088,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-MediumItalic.otf"
+  },
+  {
+   "name": "SF Mono Regular",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1083,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-Regular.otf"
+  },
+  {
+   "name": "SF Mono Regular Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1083,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-RegularItalic.otf"
+  },
+  {
+   "name": "SF Mono Semibold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1093,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-Semibold.otf"
+  },
+  {
+   "name": "SF Mono Semibold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1093,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Mono.dmg:SF-Mono-SemiboldItalic.otf"
+  }
+ ]
+}

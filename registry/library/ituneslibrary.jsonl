@@ -1,0 +1,2 @@
+{"id": "/documentation/iTunesLibrary", "law": "To use this framework, create an object by calling the class method."}
+{"id": "/documentation/iTunesLibrary", "law": "For example: You must code sign your app to retrieve information with this framework, and iTunes library access is read-only."}

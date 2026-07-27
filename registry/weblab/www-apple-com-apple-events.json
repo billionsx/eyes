@@ -1,0 +1,34 @@
+{
+ "url": "https://www.apple.com/apple-events/",
+ "sections": [
+  "section-hero",
+  "section-announced",
+  "section-recent-events",
+  "section-all-apple-events"
+ ],
+ "modules": [
+  "name:hero",
+  "name:siri ai",
+  "name:apple intelligence",
+  "name:child safety",
+  "name:os improvements",
+  "name:past events"
+ ],
+ "imgs": 20,
+ "videos": 1,
+ "cta": 16,
+ "h_levels": {
+  "1": 1,
+  "2": 5,
+  "3": 21
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-events/home/aj/built/styles/overview.built.css",
+  "/ac/ac-video/4.14.1/styles/ac-video.css",
+  "/ac/ac-films/7.4.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

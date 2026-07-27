@@ -1,0 +1,64 @@
+{"id": "/documentation/CoreGraphics", "law": "You use this framework to handle path-based drawing, transformations, color management, offscreen rendering, patterns, gradients and shadings, image data management, image creation, and image masking, as well as PDF document creation, display, and parsing."}
+{"id": "/documentation/CoreGraphics/CGColorSpace", "law": "Color spaces that are correctly specified ensure that an image has a consistent appearance regardless of the output device."}
+{"id": "/documentation/CoreGraphics/CGColorSpace", "law": "Core Graphics supports several kinds of color spaces: Calibrated color spaces ensure that colors appear the same when displayed on different devices."}
+{"id": "/documentation/CoreGraphics/CGColorSpace", "law": "Device color spaces are not recommended when high-fidelity color preservation is important."}
+{"id": "/documentation/CoreGraphics/CGBlendMode/colorBurn", "law": "Source image sample values that specify white do not produce a change."}
+{"id": "/documentation/CoreGraphics/CGBlendMode/screen", "law": "Multiplies the inverse of the source image samples with the inverse of the background image samples, resulting in colors that are at least as light as either of the two contributing sample colors."}
+{"id": "/documentation/CoreGraphics/CGDataProvider", "law": "For information on how to use CGDataProvider functions, see Programming Guide."}
+{"id": "/documentation/coregraphics", "law": "You use this framework to handle path-based drawing, transformations, color management, offscreen rendering, patterns, gradients and shadings, image data management, image creation, and image masking, as well as PDF document creation, display, and parsing."}
+{"id": "/documentation/coregraphics/cgcolor", "law": "A color object contains a set of components (such as red, green, and blue) that uniquely define a color, and a color space that specifies how those components should be interpreted."}
+{"id": "/documentation/coregraphics/cgcolor", "law": "Drawing operations use color objects for setting fill and stroke colors, managing alpha, and setting color with a pattern."}
+{"id": "/documentation/coregraphics/cgcolorconversioninfo", "law": "You use color conversion objects to specify the work to be done by an filter, which can then perform GPU-accelerated image conversion."}
+{"id": "/documentation/coregraphics/cgcolorconversioninfo", "law": "An object that describes how to convert between color spaces for use by other system services."}
+{"id": "/documentation/coregraphics/cgcolorrenderingintent", "law": "The rendering intent specifies how Quartz should handle colors that are not located within the gamut of the destination color space of a graphics context."}
+{"id": "/documentation/coregraphics/cgcolorrenderingintent", "law": "If you do not explicitly set the rendering intent by calling the function , the graphics context uses the relative colorimetric rendering intent, except when drawing sampled images."}
+{"id": "/documentation/coregraphics/cgcolorspace", "law": "Color spaces that are correctly specified ensure that an image has a consistent appearance regardless of the output device."}
+{"id": "/documentation/coregraphics/cgcolorspace", "law": "Core Graphics supports several kinds of color spaces: Calibrated color spaces ensure that colors appear the same when displayed on different devices."}
+{"id": "/documentation/coregraphics/cgcolorspace", "law": "Device color spaces are not recommended when high-fidelity color preservation is important."}
+{"id": "/documentation/coregraphics/cgcolorspace/colortable", "law": "If the color space is an indexed color space, this array contains color component values for the colors in the color space, in the same format you use when creating an indexed color space with the initializer."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(calibratedgraywhitepoint:blackpoint:gamma:)", "law": "Colors in a device-independent color space should appear the same when displayed on different devices, to the extent that the capabilities of the device allow."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(calibratedrgbwhitepoint:blackpoint:gamma:matrix:)", "law": "Colors in a device-independent color space should appear the same when displayed on different devices, to the extent that the capabilities of the device allow."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(calibratedrgbwhitepoint:blackpoint:gamma:matrix:)", "law": "For color spaces that require a detailed gamma, such as the piecewise transfer function used in sRGB or ITU-R BT.709, you may want to use the function instead, because it can accurately represent these gamma curves."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(iccbasedncomponents:range:profile:alternate:)", "law": "Colors in a device-independent color space should appear the same when displayed on different devices, to the extent that the capabilities of the device allow."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(iccbasedncomponents:range:profile:alternate:)", "law": "You may want to use this function for a color space that requires a detailed gamma, such as the piecewise transfer function used in sRGB or ITU-R BT.709, because this function can accurately represent these gamma curves."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(labwhitepoint:blackpoint:range:)", "law": "Colors in a device-independent color space should appear the same when displayed on different devices, to the extent that the capabilities of the device allow."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(name:)", "law": "You can use this function to create a generic color space."}
+{"id": "/documentation/coregraphics/cgcolorspace/init(platformcolorspaceref:)", "law": "For this reason, device color spaces are not recommended when color preservation is important."}
+{"id": "/documentation/coregraphics/cgcolorspace/itur_2020_hlg", "law": "Pixel values should be between and ."}
+{"id": "/documentation/coregraphics/cgcolorspace/numberofcomponents", "law": "Use this function to obtain the number of components in a given color space: for example, in an RGB color space this function returns 3 (for the three intensity values red, green, and blue)."}
+{"id": "/documentation/coregraphics/cgcolorspacecreatedevicecmyk()", "law": "For this reason, device color spaces are not recommended when color preservation is important."}
+{"id": "/documentation/coregraphics/cgcolorspacecreatedevicegray()", "law": "For this reason, device color spaces are not recommended when color preservation is important."}
+{"id": "/documentation/coregraphics/cgcolorspacecreatedevicergb()", "law": "For this reason, device color spaces are not recommended when color preservation is important."}
+{"id": "/documentation/coregraphics/cgdataconsumer", "law": "Most apps should use objects instead."}
+{"id": "/documentation/coregraphics/cgdataprovider", "law": "For information on how to use CGDataProvider functions, see Programming Guide."}
+{"id": "/documentation/coregraphics/cgfont", "law": "For full Unicode and text-layout support, use the services provided by TextKit)."}
+{"id": "/documentation/coregraphics/cgfunction", "law": "describes the parameters and semantics required for the callbacks used by function objects."}
+{"id": "/documentation/coregraphics/cgpdfdictionary", "law": "In a PDF dictionary, the key must be an array of characters."}
+{"id": "/documentation/coregraphics/cglinecap", "law": "To change the line cap style in a graphics context, you use the function ."}
+{"id": "/documentation/coregraphics/cglinejoin", "law": "To set the line join style in a graphics context, you use the function ."}
+{"id": "/documentation/coregraphics/cgmutablepath", "law": "The lines and curves of a subpath are always connected, but they are not required to form a closed set of lines."}
+{"id": "/documentation/coregraphics/cgpath/currentpoint", "law": "To determine whether a path is empty, use ."}
+{"id": "/documentation/coregraphics/cgpathcreatecopybystrokingpath", "law": "If the line join style is set to , Core Graphics uses the miter limit to determine whether the lines should be joined with a bevel instead of a miter."}
+{"id": "/documentation/coregraphics/cgpathdrawingmode", "law": "You can pass a path drawing mode constant to the function to specify how Core Graphics should paint a graphics context’s current path."}
+{"id": "/documentation/CoreGraphics/CGColor", "law": "A color object contains a set of components (such as red, green, and blue) that uniquely define a color, and a color space that specifies how those components should be interpreted."}
+{"id": "/documentation/CoreGraphics/CGColor", "law": "Drawing operations use color objects for setting fill and stroke colors, managing alpha, and setting color with a pattern."}
+{"id": "/documentation/coregraphics/adopting-advancements-in-hdr-image-rendering", "law": "Despite the visual benefits of HDR images, rendering them in full fidelity isn’t always the best option for your app."}
+{"id": "/documentation/coregraphics/adopting-advancements-in-hdr-image-rendering", "law": "You may need to reduce HDR fidelity to lower your app’s power consumption, avoid causing eye strain, or improve mixed media or multiwindow experiences by matching the range of brightness between your images and the rest of the system UI."}
+{"id": "/documentation/coregraphics/adopting-advancements-in-hdr-image-rendering", "law": "Headroom , for instance, is the ratio between the maximum HDR light level and the maximum SDR light level, and can be an attribute of either an image or a display."}
+{"id": "/documentation/coregraphics/adopting-advancements-in-hdr-image-rendering", "law": "Use dynamic range to optimize rendering for multimedia and multiwindow usage."}
+{"id": "/documentation/coregraphics/adopting-advancements-in-hdr-image-rendering", "law": "and always compute HDR metadata."}
+{"id": "/documentation/coregraphics/adopting-advancements-in-hdr-image-rendering", "law": "Computing HDR metadata at load time requires extra computation and may impact performance."}
+{"id": "/documentation/coregraphics/adopting-advancements-in-hdr-image-rendering", "law": "Once the system calculates and at load time or loads them along with the image data, you can access the values with functions in and to ensure you use the images in the appropriate contexts."}
+{"id": "/documentation/coregraphics/cgbitmapinfo", "law": "Applications that store pixel data in memory using ARGB format must take care in how they read data."}
+{"id": "/documentation/coregraphics/cgbitmapinfo", "law": "To specify byte ordering, use a bitwise OR operator to combine the appropriate constant with the parameter."}
+{"id": "/documentation/coregraphics/cgimage/bitmapinfo", "law": "You use the constant to extract this information."}
+{"id": "/documentation/coregraphics/cgimage/bitmapinfo", "law": "You use the constant to extract the alpha information."}
+{"id": "/documentation/coregraphics/cgimage/cropping(to:)", "law": "Be sure to specify the subrectangle’s coordinates relative to the original image’s full size, even if the shows only a scaled version."}
+{"id": "/documentation/coregraphics/cgimage/cropping(to:)", "law": "In Swift, you do not need to release the original image reference explicitly."}
+{"id": "/documentation/coregraphics/cgimage/cropping(to:)", "law": "If you already use , or if you are post-processing images as data in Core Image, such as chaining together multiple filters to the cropped result, it may be more efficient to crop directly in the Core Image framework using the filter; in this case, use the convenience function ."}
+{"id": "/documentation/coregraphics/cgimage/init(maskwidth:height:bitspercomponent:bitsperpixel:bytesperrow:provider:decode:shouldinterpolate:)", "law": "Image masks must be 1, 2, 4, or 8 bits per component."}
+{"id": "/documentation/coregraphics/cgimage/init(width:height:bitspercomponent:bitsperpixel:bytesperrow:space:bitmapinfo:provider:decode:shouldinterpolate:intent:)", "law": "The data provider should provide raw data that matches the format specified by the other input parameters."}
+{"id": "/documentation/coregraphics/cgimage/init(width:height:bitspercomponent:bitsperpixel:bytesperrow:space:bitmapinfo:provider:decode:shouldinterpolate:intent:)", "law": "To use encoded data (for example, from a file specified by a URL-based data provider), see and ."}
+{"id": "/documentation/coregraphics/cgimagealphainfo", "law": "You should not premultiply any other color values specified in Core Graphics."}
+{"id": "/documentation/CoreGraphics/CGBitmapInfo", "law": "Applications that store pixel data in memory using ARGB format must take care in how they read data."}
+{"id": "/documentation/CoreGraphics/CGBitmapInfo", "law": "To specify byte ordering, use a bitwise OR operator to combine the appropriate constant with the parameter."}

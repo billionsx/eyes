@@ -1,0 +1,39 @@
+{
+ "url": "https://www.apple.com/",
+ "sections": [
+  "section-hero",
+  "section-promo",
+  "section-endless-entertainment-gallery"
+ ],
+ "modules": [
+  "name:hero-bts-2026",
+  "name:hero-iphone-family",
+  "name:hero-macbook-air-m5",
+  "name:promo-ipad-air-m4",
+  "name:promo-macbook-pro",
+  "name:promo-apple-watch-series-11",
+  "name:promo-ipad-pro",
+  "name:promo-iphone-tradein",
+  "name:promo-apple-card",
+  "name:endless-entertainment",
+  "name:tv-plus-gallery",
+  "name:fam-gallery"
+ ],
+ "imgs": 92,
+ "videos": 4,
+ "cta": 46,
+ "h_levels": {
+  "1": 1,
+  "2": 5,
+  "3": 17
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/home/a/styles/main.built.css",
+  "/v/home/a/styles/home.built.css",
+  "/v/home/a/built/styles/home-gallery.built.css"
+ ],
+ "typography_laws": 2
+}

@@ -1,0 +1,132 @@
+{"id": "/documentation/HealthKit/accessing-a-user-s-clinical-records", "law": "People must first download their clinical records from one of the before the records appear in HealthKit."}
+{"id": "/documentation/HealthKit/accessing-a-user-s-clinical-records", "law": "To use HealthKit, you must first enable the HealthKit capability and include the key in your app’s file, as described in ."}
+{"id": "/documentation/HealthKit/accessing-a-user-s-clinical-records", "law": "If you don’t have such an account, you can add sample data within the Simulator as described in ."}
+{"id": "/documentation/HealthKit/accessing-a-user-s-clinical-records", "law": "The app must request permission to read all the types that it intends to use."}
+{"id": "/documentation/HealthKit/accessing-a-user-s-clinical-records", "law": "Instead, anyone using the app must manually request authorization, by scrolling to the bottom of the list and tapping the Authorize button."}
+{"id": "/documentation/HealthKit/creating-a-mobility-health-app", "law": "The sample code project requires this version of Xcode."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "With permission, your app can use data from workout zones to provide a view of training intensity across all of a person’s workout apps."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "Before you can access someone’s workout zone data, you must ask their permission."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "You don’t need to call any additional methods to enable zone calculation."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "Cycling power requires the person’s configuration."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "Workouts can use different zone configurations, and comparing time-in-zone across workouts requires planning for those differences."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "Use this information to update your interface and provide real-time feedback during workouts."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "Custom configurations apply only to the workout created; they don’t modify the person’s preferred zone choices in Health Settings."}
+{"id": "/documentation/HealthKit/accessing-workout-zone-data", "law": "If you don’t set a custom configuration, the system uses the person’s preferred zones for zone calculations."}
+{"id": "/documentation/HealthKit/recording-and-querying-menopausal-state", "law": "Apps that support reproductive health tracking can use HealthKit to record and query information about whether a person reports a menopausal or nonmenopausal state."}
+{"id": "/documentation/HealthKit/recording-and-querying-menopausal-state", "law": "The framework requires that the start date and end date of each sample be identical."}
+{"id": "/documentation/HealthKit/recording-and-querying-menopausal-state", "law": "Use the value to record when someone confirms that they have neither menopause nor perimenopause at a specific date."}
+{"id": "/documentation/HealthKit/recording-and-querying-menopausal-state", "law": "Apps can use menopausal state information to personalize someone’s experience."}
+{"id": "/documentation/HealthKit", "law": "For example, when a group of friends joins a daily step-counting challenge, each person can use their preferred hardware device and app to track their steps, while everyone in the group uses the same social app for the challenge."}
+{"id": "/documentation/HealthKit", "law": "Because health data may contain sensitive, personal information, apps must receive permission from the user to read data from or write data to the HealthKit store."}
+{"id": "/documentation/HealthKit", "law": "They must also take steps to protect that data at all times."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "For iOS 15 and watchOS 8 and later, you must enable the HealthKit Background Delivery by adding the entitlement to your app."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "Some sample types have a maximum frequency of ."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "For example, on iOS, samples have an hourly maximum frequency."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "In watchOS, most data types have an hourly maximum frequency; however, the following data types can receive updates at : Also, in watchOS, the background updates share a budget with tasks."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "Be sure to test your background queries on a device."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "By setting up the queries in , you ensure that you’ve instantiated your queries, and they’re ready to use before HealthKit delivers the updates."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "After your observer queries have finished processing the new data, you must call the update’s completion handler."}
+{"id": "/documentation/HealthKit/HKHealthStore/enableBackgroundDelivery(for:frequency:withCompletion:)", "law": "If you don’t call the update’s completion handler, HealthKit continues to attempt to launch your app using a backoff algorithm to increase the delay between attempts."}
+{"id": "/documentation/HealthKit/HKQuantityTypeIdentifier/dietaryCaffeine", "law": "These samples use mass units (described in ) and measure cumulative values (described in )."}
+{"id": "/documentation/HealthKit/HKSampleQuery", "law": "You can use sample queries to search for any concrete subclasses of the class, including , , , and objects."}
+{"id": "/documentation/HealthKit/HKSampleQuery", "law": "As with many HealthKit classes, don’t subclass the class."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "Use HealthKit’s clinical record support to read Fast Healthcare Interoperability Resources (FHIR) from the HealthKit store."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "To use clinical records, you must request permission to read each record type."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "Then, use HealthKit’s queries to access the individual records."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "Xcode’s simulator provides sample accounts you can use when building and testing your app."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "First, when you enable your app’s HealthKit capabilities, you must also select the Clinical Health Records checkbox."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "Next, you must provide a Health Records Usage string for your app."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "Use this string to describe what your app does with the user’s records, and why it’s important for the user to share this data."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "You must request permission to read all the types that your app intends to use."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "You can request authorization of clinical record types and regular HealthKit types in the same method call; however, HealthKit presents the clinical record types in a separate permission sheet to ensure the user understands exactly what they’re approving."}
+{"id": "/documentation/HealthKit/accessing-health-records", "law": "Like all HealthKit apps, apps that read clinical record data must have a valid Privacy Policy URL in the app store submission."}
+{"id": "/documentation/HealthKit/accessing-sample-data-in-the-simulator", "law": "When you need sample data to build or test your app, you must either download real data from a supported healthcare institution, or access existing sample data."}
+{"id": "/documentation/HealthKit/accessing-sample-data-in-the-simulator", "law": "Xcode provides three sample accounts in the simulator that you can use to build and test your app."}
+{"id": "/documentation/HealthKit/accessing-sample-data-in-the-simulator", "law": "The system may ask to access your location, but you do not need to share that information in order to add the sample accounts."}
+{"id": "/documentation/HealthKit/accessing-sample-data-in-the-simulator", "law": "Your testing should cover both cases."}
+{"id": "/documentation/HealthKit/accessing-sample-data-in-the-simulator", "law": "For this test, require your app to ask for permission to download updates."}
+{"id": "/documentation/HealthKit/accessing-sample-data-in-the-simulator", "law": "By adding a new account, you can ensure that your app properly handles incoming data."}
+{"id": "/documentation/healthkit", "law": "For example, when a group of friends joins a daily step-counting challenge, each person can use their preferred hardware device and app to track their steps, while everyone in the group uses the same social app for the challenge."}
+{"id": "/documentation/healthkit", "law": "Because health data may contain sensitive, personal information, apps must receive permission from the user to read data from or write data to the HealthKit store."}
+{"id": "/documentation/healthkit", "law": "They must also take steps to protect that data at all times."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "Use HealthKit’s clinical record support to read Fast Healthcare Interoperability Resources (FHIR) from the HealthKit store."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "To use clinical records, you must request permission to read each record type."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "Then, use HealthKit’s queries to access the individual records."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "Xcode’s simulator provides sample accounts you can use when building and testing your app."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "First, when you enable your app’s HealthKit capabilities, you must also select the Clinical Health Records checkbox."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "Next, you must provide a Health Records Usage string for your app."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "Use this string to describe what your app does with the user’s records, and why it’s important for the user to share this data."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "You must request permission to read all the types that your app intends to use."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "You can request authorization of clinical record types and regular HealthKit types in the same method call; however, HealthKit presents the clinical record types in a separate permission sheet to ensure the user understands exactly what they’re approving."}
+{"id": "/documentation/healthkit/accessing-health-records", "law": "Like all HealthKit apps, apps that read clinical record data must have a valid Privacy Policy URL in the app store submission."}
+{"id": "/documentation/healthkit/accessing-sample-data-in-the-simulator", "law": "When you need sample data to build or test your app, you must either download real data from a supported healthcare institution, or access existing sample data."}
+{"id": "/documentation/healthkit/accessing-sample-data-in-the-simulator", "law": "Xcode provides three sample accounts in the simulator that you can use to build and test your app."}
+{"id": "/documentation/healthkit/accessing-sample-data-in-the-simulator", "law": "The system may ask to access your location, but you do not need to share that information in order to add the sample accounts."}
+{"id": "/documentation/healthkit/accessing-sample-data-in-the-simulator", "law": "Your testing should cover both cases."}
+{"id": "/documentation/healthkit/accessing-sample-data-in-the-simulator", "law": "For this test, require your app to ask for permission to download updates."}
+{"id": "/documentation/healthkit/accessing-sample-data-in-the-simulator", "law": "By adding a new account, you can ensure that your app properly handles incoming data."}
+{"id": "/documentation/healthkit/hkdocumentsample", "law": "You should never instantiate an object directly."}
+{"id": "/documentation/healthkit/hkdocumentsample", "law": "Instead, you always work with a concrete subclass."}
+{"id": "/documentation/healthkit/hkdocumentsample", "law": "Like many HealthKit classes, you should not create any custom subclasses of the class."}
+{"id": "/documentation/healthkit/hkdocumenttype", "law": "To create a document type instance, use the class’s convenience method."}
+{"id": "/documentation/healthkit/hkdocumenttype", "law": "As with many HealthKit classes, don’t subclass document types."}
+{"id": "/documentation/healthkit/hkverifiableclinicalrecord", "law": "Apps that use verifiable clinical records can use the cryptographic signature to verify the authenticity of the contents."}
+{"id": "/documentation/healthkit/hkverifiableclinicalrecordsubject", "law": "To protect the subject’s privacy, SMART Health Cards provide the minimum required data."}
+{"id": "/documentation/healthkit/samples", "law": "Most HealthKit data types use quantity samples."}
+{"id": "/documentation/healthkit/samples", "law": "For example, height, heart rate, and dietary energy consumed all use quantity samples."}
+{"id": "/documentation/healthkit/accessing-a-user-s-clinical-records", "law": "People must first download their clinical records from one of the before the records appear in HealthKit."}
+{"id": "/documentation/healthkit/accessing-a-user-s-clinical-records", "law": "To use HealthKit, you must first enable the HealthKit capability and include the key in your app’s file, as described in ."}
+{"id": "/documentation/healthkit/accessing-a-user-s-clinical-records", "law": "If you don’t have such an account, you can add sample data within the Simulator as described in ."}
+{"id": "/documentation/healthkit/accessing-a-user-s-clinical-records", "law": "The app must request permission to read all the types that it intends to use."}
+{"id": "/documentation/healthkit/accessing-a-user-s-clinical-records", "law": "Instead, anyone using the app must manually request authorization, by scrolling to the bottom of the list and tapping the Authorize button."}
+{"id": "/documentation/healthkit/hkliveworkoutbuilder", "law": "Use a live workout builder to create an sample during an active ."}
+{"id": "/documentation/healthkit/hkworkoutconfiguration", "law": "As with many HealthKit classes, don’t subclass the class."}
+{"id": "/documentation/healthkit/hkworkoutsession", "law": "Collecting heart rate data on iPhone or iPad requires pairing with an external heart rate sensor because these devices don’t have one."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "Use workout sessions to track a user’s activity on Apple Watch."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "To track workouts on Apple Watch, you must set up, start, and save a workout session."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "The app must clearly indicate when a workout session is in progress, and either automatically save workout data for the user, or provide a clear option to explicitly save or discard workout data."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "Finally, the watchOS app should provide clear feedback when a workout is successfully saved."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "Before creating a workout session, you must set up HealthKit and request permission to read and share any health data your app intends to use."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "For workout sessions, you must request permission to share workout types."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "As a result, you must add usage descriptions to your WatchKit App Extension."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "Use the key to describe why your app needs to read the requested data."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "Use for the data your app intends to write."}
+{"id": "/documentation/healthkit/running-workout-sessions", "law": "Workout sessions require the Workout processing background mode."}
+{"id": "/documentation/healthkit/data-types", "law": "You can use the resulting object types to request permission to access the data, save new data to the HealthKit store, or read data from the HealthKit store."}
+{"id": "/documentation/healthkit/hkhealthstore", "law": "Use a object to request permission to share or read HealthKit data."}
+{"id": "/documentation/healthkit/hkhealthstore", "law": "You can also use the HealthKit store to save new samples to the store, manage the samples that your app saves, and start, stop, and manage queries."}
+{"id": "/documentation/healthkit/queries", "law": "Use queries to read sample data from the HealthKit store."}
+{"id": "/documentation/healthkit/queries", "law": "You can also use queries to list all the sources for a particular data type, or to perform statistical calculations for a data type."}
+{"id": "/documentation/healthkit/queries", "law": "For example, statistical queries can calculate the minimum and maximum heart rate for a given week, or the total step count for a given day."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "Use sample queries to access any type of sample data."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "Use this query to search for changes to the HealthKit store."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "Use this query to perform statistical calculations over the set of matching samples."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "You can use statistics queries to calculate the sum, minimum, maximum, or average value in the set."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "Use this query to perform multiple statistics queries over a series of fixed-length time intervals."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "You often use these queries when creating graphs."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "Use this query to perform complex searches of the data contained in a correlation."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "If you just want to match the correlation type, use a sample query instead."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "Use this query to search for sources (apps and devices) that have saved matching samples to the HealthKit store."}
+{"id": "/documentation/healthkit/reading-data-from-healthkit", "law": "Use this query to search for activity summary information for the user."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "For example, to record the user’s weight, you use the type identifier."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "Use the convenience methods on the class to create the correct object type for your data."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "The quantity’s units must correspond to the allowable units described in the type identifier’s documentation."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "Therefore, your quantity must use centimeters, meters, feet, inches, or another compatible unit."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "For category samples, the sample’s value must correspond to the enum described in the type identifier’s documentation."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "Therefore, you must pass a value from this enum when creating this sample."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "For correlations, you must first create all the sample objects that the correlation will contain."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "Don’t save the contained objects into the HealthKit store."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "If your app saves data to HealthKit, high-level summaries of that data can appear as suggestions in the Journal app, or in other apps that use the framework."}
+{"id": "/documentation/healthkit/saving-data-to-healthkit", "law": "Ideally, you want to find a sample size that’s granular enough to provide the user with useful historical data and you should avoid saving samples that are 24 hours long or longer."}
+{"id": "/documentation/healthkit/creating-a-mobility-health-app", "law": "The sample code project requires this version of Xcode."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "With permission, your app can use data from workout zones to provide a view of training intensity across all of a person’s workout apps."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "Before you can access someone’s workout zone data, you must ask their permission."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "You don’t need to call any additional methods to enable zone calculation."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "Cycling power requires the person’s configuration."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "Workouts can use different zone configurations, and comparing time-in-zone across workouts requires planning for those differences."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "Use this information to update your interface and provide real-time feedback during workouts."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "Custom configurations apply only to the workout created; they don’t modify the person’s preferred zone choices in Health Settings."}
+{"id": "/documentation/healthkit/accessing-workout-zone-data", "law": "If you don’t set a custom configuration, the system uses the person’s preferred zones for zone calculations."}
+{"id": "/documentation/healthkit/hkworkoutzone", "law": "This structure defines the minimum and maximum values that determine when a quantity type measurement falls within the zone."}
+{"id": "/documentation/healthkit/hkworkoutzone", "law": "For example, a heart rate zone might have a minimum of 136.8 beats per minute and a maximum of 147.6 beats per minute."}
+{"id": "/documentation/healthkit/hkanchoredobjectquery/init(type:predicate:anchor:limit:resultshandler:)", "law": "Be sure to dispatch these results to the main queue before updating the user interface."}

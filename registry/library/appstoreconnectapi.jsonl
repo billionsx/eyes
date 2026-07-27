@@ -1,0 +1,66 @@
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "The system behind the API requires significant usage of your app before it makes metrics available, and each metric has different usage thresholds."}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use Terminal to run the following command to install the libraries locally:"}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "To use the API, you need to generate and provide a JSON Web Token (JWT), signed using an App Store Connect API key."}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "While retrieving your API key, take note of the issuer ID and the key ID, generating a JWT requires them."}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "After retrieving your API key, use the script to generate a JWT to authenticate requests you send to the App Store Connect API."}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use the endpoint to get a list of your apps and metadata about them, including App IDs."}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "Create a JWT, then use that token with to request a list of your apps: Retrieving diagnostic logs, or build-specific metrics, requires a build ID."}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use to get a list of the builds."}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use the following command to request a list of builds for an App:"}
+{"id": "/documentation/AppStoreConnectAPI/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use the script to download power and performance metrics, and to print metric hotspot data identified by insights:"}
+{"id": "/documentation/AppStoreConnectAPI/uploading-app-previews", "law": "To run this sample, you must have an app in App Store Connect with a version in the “Prepare for Submission” state, and an app preview file to upload."}
+{"id": "/documentation/AppStoreConnectAPI/uploading-app-previews", "law": "This project requires Python 3, which is pre-installed on macOS 10.15."}
+{"id": "/documentation/AppStoreConnectAPI/uploading-app-previews", "law": "Follow these steps to install and the required Python modules: Open the Terminal app by typing Command-space and entering “Terminal.app” in the Spotlight search field."}
+{"id": "/documentation/AppStoreConnectAPI/uploading-app-previews", "law": "Make sure the video file you’d like to upload is available on your local machine."}
+{"id": "/documentation/AppStoreConnectAPI/uploading-app-previews", "law": "Your app must be in App Store Connect with a version in the “Prepare for Submission” state."}
+{"id": "/documentation/AppStoreConnectAPI/uploading-app-previews", "law": "The App Store Connect API requires the addition of an app preview to an app preview set ."}
+{"id": "/documentation/AppStoreConnectAPI/uploading-app-previews", "law": "Use the upload operations to upload a file, potentially in multiple parts."}
+{"id": "/documentation/AppStoreConnectAPI", "law": "Calls to the API require JSON Web Tokens (JWT) for authorization; you obtain keys to create the tokens from your organization’s App Store Connect account."}
+{"id": "/documentation/AppStoreConnectAPI", "law": "Changes you make using the App Store Connect API affect the production data you use for development and distribution."}
+{"id": "/documentation/AppStoreConnectAPI", "law": "Use these relationships to navigate to the related resources—for example, to find beta testers within specific beta groups in TestFlight."}
+{"id": "/documentation/appstoreconnectapi", "law": "Calls to the API require JSON Web Tokens (JWT) for authorization; you obtain keys to create the tokens from your organization’s App Store Connect account."}
+{"id": "/documentation/appstoreconnectapi", "law": "Changes you make using the App Store Connect API affect the production data you use for development and distribution."}
+{"id": "/documentation/appstoreconnectapi", "law": "Use these relationships to navigate to the related resources—for example, to find beta testers within specific beta groups in TestFlight."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "The App Store Connect API requires a JSON Web Token (JWT) to authorize each request you make to the API."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "You can use the private key to sign tokens that authorize access to your data in App Store Connect and the Apple Developer website."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "Individual keys aren’t able to use Provisioning endpoints, access , or ."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "App Store Connect API keys are unique to the App Store Connect API and you can’t use them for other Apple services."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "To generate team keys, you must have an Admin account in App Store Connect."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "To generate a team API key to use with the App Store Connect API, log in to and: Select Users and Access, and then select the Integrations tab."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "Make sure the Team Keys tab is selected."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "Don’t share your keys, store keys in a code repository, or include keys in client-side code."}
+{"id": "/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api", "law": "If you don’t have the Generate Individual API Keys permission, the Generate API Key button won’t show on your profile."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "The App Store Connect API requires JWTs to authorize each API request."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "To create a JWT to communicate with the App Store Connect API, use the following fields and values in the header: To get your key ID for your team API key from App Store Connect, log in to and: Select Users and Access."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "If you have more than one team API key, use the key ID of the same private key that you use to sign the JWT."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "Use the following fields and values in the JWT payload: To get your issuer ID, log in to and: Select Users and Access."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "Use the following fields and values in the JWT payload: Individual keys don’t use the Issuer ID key , but do require the Subject key Here’s an example of a JWT payload:"}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "With this payload, App Store Connect only allows you to fetch a list of iOS apps using the endpoint if you use the query parameter."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "You can use a JWT without a for any request as long as the role of the API key allows it."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "For example, an appropriate lifetime for a token you use for a one-off request is two minutes."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "Use the private key associated with the key ID you specified in the header to sign the token."}
+{"id": "/documentation/appstoreconnectapi/generating-tokens-for-api-requests", "law": "You don’t need to generate a new token for every API request."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apps", "law": "Note: is deprecated, use instead."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apps-_id_-perfpowermetrics", "law": "Use for all iPhone models."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apps-_id_-perfpowermetrics", "law": "To get metrics for a specific app version instead, use the endpoint."}
+{"id": "/documentation/appstoreconnectapi/get-v1-builds-_id_-diagnosticsignatures", "law": "The example response returns two signatures that are responsible for 85% and 7% of disk writes."}
+{"id": "/documentation/appstoreconnectapi/get-v1-builds-_id_-perfpowermetrics", "law": "Use for all iPhone models."}
+{"id": "/documentation/appstoreconnectapi/get-v1-builds-_id_-perfpowermetrics", "law": "To get the metrics for all of the most-recent app versions instead, use the endpoint."}
+{"id": "/documentation/appstoreconnectapi/get-v1-diagnosticsignatures-_id_-logs", "law": "The maximum number of diagnostic logs to return."}
+{"id": "/documentation/appstoreconnectapi/power-and-performance-metrics-and-logs", "law": "Use this information to improve your app’s performance."}
+{"id": "/documentation/appstoreconnectapi/power-and-performance-metrics-and-logs", "law": "Use the and endpoints to get the metrics reports for the most recent version of your app or for a specific build."}
+{"id": "/documentation/appstoreconnectapi/app-preview-sets", "law": "Use app preview sets to: Begin the process of uploading app previews."}
+{"id": "/documentation/appstoreconnectapi/app-previews", "law": "Use this resource to: Upload new app previews to App Store Connect."}
+{"id": "/documentation/appstoreconnectapi/post-v1-appinfolocalizations", "law": "Use this endpoint to add localized app information for a new locale."}
+{"id": "/documentation/appstoreconnectapi/post-v1-appinfolocalizations", "law": "Be sure to use to add the same locale to the version as well."}
+{"id": "/documentation/appstoreconnectapi/post-v1-appinfolocalizations", "law": "If the App Store version and the app info don’t have the same set of localizations, you will receive an erorr when you submit the version to the App Store."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "The uploading APIs are designed to ensure reliability for large files, even over an unreliable connection."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "A successful response provides a set of operations you will use to upload the asset."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "A set of operations that you use to upload the parts of the asset to App Store Connect."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "Use the upload operations returned in the response to your reservation request to upload your asset to App Store Connect."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "You don’t need to supply a JWT; don’t share the URLs."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "After you’ve uploaded all parts of your asset to App Store Connect, you must commit the reservation."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "If the total bytes received don’t match the file size value in the reservation, the commit request fails."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "If you need to update your asset after committing it, you must delete it and create another upload, beginning with an asset reservation."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "Use the API to re-fetch the asset at any time to check on its status."}
+{"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "To upload your asset you must delete the asset record and retry your upload, beginning with making an asset reservation."}

@@ -1,0 +1,6 @@
+{"id": "/documentation/AppDataTransfer", "law": "Use the App Data Transfer web API to request and download App Store information and app-install activity data about your app."}
+{"id": "/documentation/AppDataTransfer", "law": "The data available relates to a user’s use of Apple’s App Store and includes information such as previous transactions and downloads."}
+{"id": "/documentation/AppDataTransfer", "law": "You don’t need to make a new token request."}
+{"id": "/documentation/AppDataTransfer", "law": "To make recurring requests, use one of the following values: The Apple server returns a request ID, which you use when you get the request status, request download URLs, or cancel the request."}
+{"id": "/documentation/AppDataTransfer", "law": "If you submit a recurring request and don’t resubmit the recurring instance each subsequent day, the recurring request expires 40 days after submission of the request."}
+{"id": "/documentation/AppDataTransfer", "law": "If you submit a recurring request and don’t resubmit the recurring instance each subsequent week, the recurring request expires 190 days after submission of the request."}

@@ -1,0 +1,39 @@
+{
+ "url": "https://www.apple.com/healthcare/",
+ "sections": [
+  "section-hero",
+  "section-hospital-care",
+  "section-home-care",
+  "section-rnd",
+  "section-it-security",
+  "section-values",
+  "section-router"
+ ],
+ "modules": [
+  "name:hero",
+  "name:hospital care",
+  "name:care at home",
+  "name:research and development",
+  "name:it and security",
+  "name:apple values",
+  "name:router"
+ ],
+ "imgs": 24,
+ "videos": 0,
+ "cta": 30,
+ "h_levels": {
+  "1": 1,
+  "2": 12,
+  "3": 24,
+  "4": 5
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/healthcare/m/built/styles/main.built.css",
+  "/v/healthcare/m/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

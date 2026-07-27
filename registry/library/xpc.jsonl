@@ -1,0 +1,4 @@
+{"id": "/documentation/XPC", "law": "Clients that make use of these services rely on peer-to-peer XPC connections to communicate across process boundaries."}
+{"id": "/documentation/XPC", "law": "The following table summarizes the types of services available and some differences in how they behave: The LaunchAgent and LaunchDaemon types require special installation and configuration."}
+{"id": "/documentation/XPC", "law": "Using in the Foundation framework lets you design a well-defined protocol for clients to use."}
+{"id": "/documentation/XPC", "law": "If your project doesn’t or can’t link against Foundation, use the lower-level APIs in the XPC framework."}

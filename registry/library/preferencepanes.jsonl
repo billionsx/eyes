@@ -1,0 +1,5 @@
+{"id": "/documentation/PreferencePanes", "law": "Use the Preference Panes framework to integrate your custom system-level preferences into the System Preferences app."}
+{"id": "/documentation/PreferencePanes", "law": "You use this framework to implement a preference pane bundle, which contains the custom interface you want to display to the user."}
+{"id": "/documentation/PreferencePanes", "law": "Use that object to respond to interactions with the controls and views of your interface and to save any settings changes to the user’s defaults database."}
+{"id": "/documentation/PreferencePanes", "law": "Use preference pane bundles only for settings that must be managed separately from your app."}
+{"id": "/documentation/PreferencePanes", "law": "For example, use it to manage settings that are shared between multiple apps in the same suite."}

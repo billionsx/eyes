@@ -1,0 +1,24 @@
+{"id": "/documentation/PDFKit/custom-graphics", "law": "This method returns and declares that all instances of for the document presented through should instantiate the subclass ."}
+{"id": "/documentation/PDFKit/custom-graphics", "law": "All custom drawing for a PDF page should be done through this mechanism."}
+{"id": "/documentation/PDFKit/custom-graphics", "law": "Custom drawing methods should always be thread-safe and call the superclass method, which is required to draw the original content."}
+{"id": "/documentation/PDFKit/pdf-widgets", "law": "The property sets the maximum number of characters a user can enter into the text field."}
+{"id": "/documentation/PDFKit/pdf-widgets", "law": "The property, if set, divides the text field into as many equally spaced positions, or combs, as the value of the maximum length of the field."}
+{"id": "/documentation/PDFKit/pdf-widgets", "law": "By default, all text widget annotations are single line, meaning they don’t include word wrapping."}
+{"id": "/documentation/PDFKit/pdf-widgets", "law": "To group widgets—in this case the radio buttons—the buttons must have the same field name, which is set in ."}
+{"id": "/documentation/PDFKit/pdf-widgets", "law": "To give radio buttons of the same field name their own unique subidentifier, the property must be set on each, which is also done in ."}
+{"id": "/documentation/pdfkit/adding-custom-graphics-to-a-pdf", "law": "If the graphic is something small, such as circling or highlighting a particular element on the page, or a repeatable custom graphic, such as a heart, club, spade, or diamond, then it should be added using ."}
+{"id": "/documentation/pdfkit/adding-custom-graphics-to-a-pdf", "law": "The methods for pages and annotations are nearly identical, the only difference being the parameter for annotations and the parameter for pages: For annotations, use this method: For pages, use this method: In the appropriate method, add your custom drawing, in this case the line."}
+{"id": "/documentation/pdfkit/adding-custom-graphics-to-a-pdf", "law": "To ensure that your drawing maintains its properties and doesn’t affect other contexts in your PDF, make sure to save and restore your graphics state (before and after, respectively) you add your custom drawing code."}
+{"id": "/documentation/pdfkit/adding-custom-graphics-to-a-pdf", "law": "Ensure that you draw your content with respect to the PDF page coordinate system."}
+{"id": "/documentation/pdfkit/adding-widgets-to-a-pdf-document", "law": "Specify different properties for each button if you should only select one at a time."}
+{"id": "/documentation/pdfkit/adding-widgets-to-a-pdf-document", "law": "For a text field, you can use to specify placeholder text and to specify the font of the field’s text."}
+{"id": "/documentation/pdfkit/pdf-widgets", "law": "The property sets the maximum number of characters a user can enter into the text field."}
+{"id": "/documentation/pdfkit/pdf-widgets", "law": "The property, if set, divides the text field into as many equally spaced positions, or combs, as the value of the maximum length of the field."}
+{"id": "/documentation/pdfkit/pdf-widgets", "law": "By default, all text widget annotations are single line, meaning they don’t include word wrapping."}
+{"id": "/documentation/pdfkit/pdf-widgets", "law": "To group widgets—in this case the radio buttons—the buttons must have the same field name, which is set in ."}
+{"id": "/documentation/pdfkit/pdf-widgets", "law": "To give radio buttons of the same field name their own unique subidentifier, the property must be set on each, which is also done in ."}
+{"id": "/documentation/pdfkit/pdfpage", "law": "For simple display and navigation of PDF documents within your application, you don’t need to use ."}
+{"id": "/documentation/PDFKit/PDFPage", "law": "For simple display and navigation of PDF documents within your application, you don’t need to use ."}
+{"id": "/documentation/pdfkit/custom-graphics", "law": "This method returns and declares that all instances of for the document presented through should instantiate the subclass ."}
+{"id": "/documentation/pdfkit/custom-graphics", "law": "All custom drawing for a PDF page should be done through this mechanism."}
+{"id": "/documentation/pdfkit/custom-graphics", "law": "Custom drawing methods should always be thread-safe and call the superclass method, which is required to draw the original content."}

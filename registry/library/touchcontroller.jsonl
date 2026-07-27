@@ -1,0 +1,4 @@
+{"id": "/documentation/TouchController", "law": "Use Touch Controller to add custom and interactive touch controls for your games."}
+{"id": "/documentation/TouchController", "law": "Use the class as the central point to manage and render your touch controls."}
+{"id": "/documentation/TouchController", "law": "To configure the appearance of your controls, use and ."}
+{"id": "/documentation/TouchController", "law": "Use to create a consistent look and feel with system-provided assets."}

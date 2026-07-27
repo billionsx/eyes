@@ -1,0 +1,8 @@
+{"id": "/documentation/EventKitUI", "law": "On iOS, use the EventKitUI framework to show calendar and reminder information to the user modally."}
+{"id": "/documentation/EventKitUI", "law": "The view controllers you’ll use on iOS are: , for displaying existing events."}
+{"id": "/documentation/EventKitUI", "law": "To access the event store, which contains calendar and reminder data, use EventKit."}
+{"id": "/documentation/EventKitUI/EKCalendarChooser", "law": "Use the calendar chooser view controller to allow users to select one or more calendars when creating or editing a calendar event."}
+{"id": "/documentation/EventKitUI/EKCalendarChooser", "law": "Use a delegate that conforms to to receive callbacks when the user selects calendars or cancels an operation."}
+{"id": "/documentation/EventKitUI/EKEventEditViewController", "law": "The delegate must conform to ."}
+{"id": "/documentation/EventKitUI/EKEventEditViewController/event", "law": "To avoid throwing an exception, ensure that the event is in the specified event store."}
+{"id": "/documentation/EventKitUI/EKEventViewController", "law": "The delegate must conform to the protocol."}

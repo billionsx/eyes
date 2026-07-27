@@ -1,0 +1,27 @@
+# BILLIONS X EYES · ПИНГ ПОСЛЕ ДЕПЛОЯ (файл кладётся В РЕПОЗИТОРИЙ ПРОЕКТА
+# как .github/workflows/ping-eyes.yml). После успешного деплоя проект будит
+# монитор департамента, и тот смотрит на свежий прод живыми глазами.
+#
+# Нужен один секрет в репозитории проекта: EYES_DISPATCH_TOKEN —
+# fine-grained PAT с доступом Contents:Read + Metadata:Read к billionsx/eyes.
+name: ping-eyes
+on:
+  workflow_run:
+    workflows: ["ИМЯ ВОРКФЛОУ ДЕПЛОЯ"]   # ← точное поле name: вашего деплоя
+    types: [completed]
+  workflow_dispatch:
+jobs:
+  ping:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Разбудить монитор департамента"
+        env:
+          TOKEN: ${{ secrets.EYES_DISPATCH_TOKEN }}
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/billionsx/eyes/dispatches \
+            -d "{\"event_type\":\"deployed\",\"client_payload\":{\"repo\":\"${{ github.repository }}\",\"sha\":\"${{ github.event.workflow_run.head_sha }}\"}}" \
+            -w "dispatch HTTP=%{http_code}\n"

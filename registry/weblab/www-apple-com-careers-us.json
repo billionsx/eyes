@@ -1,0 +1,22 @@
+{
+ "url": "https://www.apple.com/careers/us/",
+ "sections": [],
+ "modules": [],
+ "imgs": 0,
+ "videos": 3,
+ "cta": 39,
+ "h_levels": {
+  "1": 1,
+  "2": 4,
+  "3": 20
+ },
+ "css": [
+  "/careers/css/common/clientlibs/styles/sf/base.css",
+  "/careers/css/common/clientlibs/styles/sf/ac-sasskit.css",
+  "/careers/css/common/clientlibs/styles/sf/components/routing-cards.css",
+  "/careers/css/common/clientlibs/styles/sf/components/cards.css",
+  "/careers/css/common/clientlibs/styles/sf/components/events.css",
+  "/careers/css/common/clientlibs/styles/sf/components/footer.css"
+ ],
+ "typography_laws": 54
+}

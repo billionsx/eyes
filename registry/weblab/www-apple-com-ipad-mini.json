@@ -1,0 +1,62 @@
+{
+ "url": "https://www.apple.com/ipad-mini/",
+ "sections": [
+  "section-hero",
+  "section-design",
+  "section-intelligence",
+  "section-powerful",
+  "section-pencil",
+  "section-apps",
+  "section-download",
+  "section-camera",
+  "section-ar",
+  "section-decarbonizing",
+  "section-values-router",
+  "section-trade-in",
+  "section-compare"
+ ],
+ "modules": [
+  "name:hero",
+  "name:screen design",
+  "name:liquid retina display",
+  "name:smart folio",
+  "name:apple intelligence intro",
+  "name:writing tools",
+  "name:express yourself visually",
+  "name:siri",
+  "name:apple intelligence privacy",
+  "name:a17 pro chip",
+  "name:apple pencil pro",
+  "name:ipados",
+  "name:5g",
+  "name:wi-fi",
+  "name:usb-c",
+  "name:center stage",
+  "name:wide back camera",
+  "name:true tone flash",
+  "name:ar",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:trade in",
+  "name:compare",
+  "name:buy strip"
+ ],
+ "imgs": 106,
+ "videos": 10,
+ "cta": 26,
+ "h_levels": {
+  "1": 1,
+  "2": 21,
+  "3": 29,
+  "4": 4
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/ipad-mini/v/built/styles/main.built.css",
+  "/v/ipad-mini/v/built/styles/overview.built.css",
+  "/v/ipad/shared/compare/r/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

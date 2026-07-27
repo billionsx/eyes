@@ -1,0 +1,8 @@
+{"id": "/documentation/WorkoutKit/customizing-workouts-with-workoutkit", "law": "Wait at least 1 minute for the Workout app to complete the workout."}
+{"id": "/documentation/WorkoutKit/customizing-workouts-with-workoutkit", "law": "Create, preview, and sync workouts for use in the Workout app on Apple Watch."}
+{"id": "/documentation/WorkoutKit", "law": "Then you use the workout to create a , which provides methods for previewing, syncing, or exporting the plan."}
+{"id": "/documentation/WorkoutKit", "law": "You can also use WorkoutKit to create and maintain a workout schedule and, with the user’s permission, sync scheduled compositions to Apple Watch."}
+{"id": "/documentation/WorkoutKit", "law": "Before you can schedule a workout, you must ask for permission."}
+{"id": "/documentation/workoutkit", "law": "Then you use the workout to create a , which provides methods for previewing, syncing, or exporting the plan."}
+{"id": "/documentation/workoutkit", "law": "You can also use WorkoutKit to create and maintain a workout schedule and, with the user’s permission, sync scheduled compositions to Apple Watch."}
+{"id": "/documentation/workoutkit", "law": "Before you can schedule a workout, you must ask for permission."}

@@ -1,0 +1,43 @@
+{"id": "/documentation/AppleMapsServerAPI/integrating-the-apple-maps-server-api-into-java-server-applications", "law": "The file demonstrates how you use the Apple Maps Server APIs and the following API features: Getting an Access Token — Authenticate with the service and retrieve an Apple Maps Server API token."}
+{"id": "/documentation/AppleMapsServerAPI/integrating-the-apple-maps-server-api-into-java-server-applications", "law": "— The project includes a Gradle command wrapper that uses Gradle version 7.5.1; you may a different version if you need to use a different Java installation."}
+{"id": "/documentation/AppleMapsServerAPI", "law": "Use this web-based service to streamline your app’s API by moving georelated searches for places, points of interest, geocoding, directions, possible autocompletions for searches, and estimated time of arrival (ETA) calculations from inside your app to your server."}
+{"id": "/documentation/AppleMapsServerAPI", "law": "Use these credentials to access the API from your app, or use them on ."}
+{"id": "/documentation/AppleMapsServerAPI", "law": "It requires authorization using a JSON Web Token (JWT) for API calls."}
+{"id": "/documentation/AppleMapsServerAPI", "law": "Use the Token API to for API access."}
+{"id": "/documentation/AppleMapsServerAPI", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/AppleMapsServerAPI/creating-a-maps-identifier-and-a-private-key", "law": "Maps IDs use reverse-domain-style notation with three or four fields separated by a dot."}
+{"id": "/documentation/AppleMapsServerAPI/creating-a-maps-identifier-and-a-private-key", "law": "The first field must be ; the remainder of this string can be a name that’s meaningful to you."}
+{"id": "/documentation/AppleMapsServerAPI/creating-a-maps-identifier-and-a-private-key", "law": "That way, if a key you use in production becomes compromised, revoking it doesn’t affect your UAT or test environments."}
+{"id": "/documentation/AppleMapsServerAPI/creating-a-maps-identifier-and-a-private-key", "law": "After executing these steps, you have a private key that you can use to sign tokens, and you can begin ."}
+{"id": "/documentation/AppleMapsServerAPI/creating-a-maps-identifier-and-a-private-key", "law": "To keep your private key secure, don’t put your private key in public facing client-side code, and don’t share the key."}
+{"id": "/documentation/applemapsserverapi", "law": "Use this web-based service to streamline your app’s API by moving georelated searches for places, points of interest, geocoding, directions, possible autocompletions for searches, and estimated time of arrival (ETA) calculations from inside your app to your server."}
+{"id": "/documentation/applemapsserverapi", "law": "Use these credentials to access the API from your app, or use them on ."}
+{"id": "/documentation/applemapsserverapi", "law": "It requires authorization using a JSON Web Token (JWT) for API calls."}
+{"id": "/documentation/applemapsserverapi", "law": "Use the Token API to for API access."}
+{"id": "/documentation/applemapsserverapi", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-token", "law": "The app should try again later."}
+{"id": "/documentation/applemapsserverapi/-v1-token", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-token", "law": "Returns a JWT maps access token that you use to call the service API."}
+{"id": "/documentation/applemapsserverapi/creating-a-maps-identifier-and-a-private-key", "law": "Maps IDs use reverse-domain-style notation with three or four fields separated by a dot."}
+{"id": "/documentation/applemapsserverapi/creating-a-maps-identifier-and-a-private-key", "law": "The first field must be ; the remainder of this string can be a name that’s meaningful to you."}
+{"id": "/documentation/applemapsserverapi/creating-a-maps-identifier-and-a-private-key", "law": "That way, if a key you use in production becomes compromised, revoking it doesn’t affect your UAT or test environments."}
+{"id": "/documentation/applemapsserverapi/creating-a-maps-identifier-and-a-private-key", "law": "After executing these steps, you have a private key that you can use to sign tokens, and you can begin ."}
+{"id": "/documentation/applemapsserverapi/creating-a-maps-identifier-and-a-private-key", "law": "To keep your private key secure, don’t put your private key in public facing client-side code, and don’t share the key."}
+{"id": "/documentation/applemapsserverapi/creating-and-using-tokens-with-maps-server-api", "law": "To use a Maps token with Maps Server API you must have an Apple Developer account and obtain a Maps ID and a private key as described in ."}
+{"id": "/documentation/applemapsserverapi/creating-and-using-tokens-with-maps-server-api", "law": "Maps Server API requires a Maps token to initialize MapKit."}
+{"id": "/documentation/applemapsserverapi/creating-and-using-tokens-with-maps-server-api", "law": "Construct a token with these required fields in the header: In the payload section of the token, include the following claims: To locate your Team ID, sign in to your , and click Membership in the sidebar."}
+{"id": "/documentation/applemapsserverapi/creating-and-using-tokens-with-maps-server-api", "law": "When decoded, a token for use with Maps Server API has the following format: To learn more about Maps tokens, see the ."}
+{"id": "/documentation/applemapsserverapi/creating-and-using-tokens-with-maps-server-api", "law": "The claim sets one or more Apple Maps frameworks you are authorizing the token to use."}
+{"id": "/documentation/applemapsserverapi/creating-and-using-tokens-with-maps-server-api", "law": "Available values are: Instead of signing a token dynamically, you can use a static token when using any Apple Maps frameworks other than Maps Server API."}
+{"id": "/documentation/applemapsserverapi/creating-and-using-tokens-with-maps-server-api", "law": "Sign JSON Web Tokens to use Maps Server API and debug common signing errors."}
+{"id": "/documentation/applemapsserverapi/debugging-an-invalid-token", "law": "MapKit JS requires a valid token to initialize."}
+{"id": "/documentation/applemapsserverapi/debugging-an-invalid-token", "law": "Reasons why a token might be invalid include: The token is missing required fields."}
+{"id": "/documentation/applemapsserverapi/debugging-an-invalid-token", "law": "The token has all the required fields, but some values are incorrect."}
+{"id": "/documentation/applemapsserverapi/debugging-an-invalid-token", "law": "This string must match exactly, include the protocol ( , ), trailing slashes, and so on."}
+{"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "To use a Maps token with Maps Server API you must have an Apple Developer account and obtain a Maps ID and a private key as described in ."}
+{"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "Maps Server API requires a Maps token to initialize MapKit."}
+{"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "Construct a token with these required fields in the header: In the payload section of the token, include the following claims: To locate your Team ID, sign in to your , and click Membership in the sidebar."}
+{"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "When decoded, a token for use with Maps Server API has the following format: To learn more about Maps tokens, see the ."}
+{"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "The claim sets one or more Apple Maps frameworks you are authorizing the token to use."}
+{"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "Available values are: Instead of signing a token dynamically, you can use a static token when using any Apple Maps frameworks other than Maps Server API."}
+{"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "Sign JSON Web Tokens to use Maps Server API and debug common signing errors."}

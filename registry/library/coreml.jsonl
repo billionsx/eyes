@@ -1,0 +1,84 @@
+{"id": "/documentation/CoreML/classifying-images-with-vision-and-core-ml", "law": "The sample uses MobileNet as an example of how to use a third-party Core ML model."}
+{"id": "/documentation/CoreML/classifying-images-with-vision-and-core-ml", "law": "The method tells Vision how to adjust images that don’t meet the model’s image input constraints by setting the request’s property to ."}
+{"id": "/documentation/CoreML/finding-answers-to-questions-in-a-text-document", "law": "Before you run the sample code project in Xcode, use a device with either: iOS 13 or later macOS 10.15 or later"}
+{"id": "/documentation/CoreML/finding-answers-to-questions-in-a-text-document", "law": "The BERT model requires you to convert each word into one or more token IDs."}
+{"id": "/documentation/CoreML/finding-answers-to-questions-in-a-text-document", "law": "Before you can use the vocabulary dictionary to find those IDs, you must divide the document’s text and the question’s text into word tokens."}
+{"id": "/documentation/CoreML/finding-answers-to-questions-in-a-text-document", "law": "The BERT model in this sample requires a one-dimensional input with 384 elements."}
+{"id": "/documentation/CoreML/finding-answers-to-questions-in-a-text-document", "law": "You use the BERT model to predict where to find an answer to the question in the document text, by giving the model your input feature provider with the input instances."}
+{"id": "/documentation/CoreML/finding-answers-to-questions-in-a-text-document", "law": "Searching through the 20 x 20 or fewer combinations of logits for the best combination."}
+{"id": "/documentation/CoreML/finding-answers-to-questions-in-a-text-document", "law": "For larger texts that exceed this limitation, consider using one of these techniques: Use a search mechanism to narrow down the relevant document text."}
+{"id": "/documentation/CoreML/integrating-a-core-ml-model-into-your-app", "law": "Xcode also uses information about the model’s inputs and outputs to automatically generate a custom programmatic interface to the model, which you use to interact with the model in your code."}
+{"id": "/documentation/CoreML/integrating-a-core-ml-model-into-your-app", "law": "Use the generated class’s initializer to create the model:"}
+{"id": "/documentation/CoreML/integrating-a-core-ml-model-into-your-app", "law": "The most common type of error you’ll encounter when working with Core ML occurs when the details of the input data don’t match the details the model is expecting—for example, an image in the wrong format."}
+{"id": "/documentation/CoreML/personalizing-a-model-with-on-device-updates", "law": "Use your completion handler to save the updated model in the to disk."}
+{"id": "/documentation/CoreML/personalizing-a-model-with-on-device-updates", "law": "Use your updated model by loading it with the model’s initializer."}
+{"id": "/documentation/CoreML/understanding-a-dice-roll-with-vision-and-object-detection", "law": "Before you run the sample code project in Xcode, note the following: You must run this sample code project on a physical device that uses iOS 13 or later."}
+{"id": "/documentation/CoreML/understanding-a-dice-roll-with-vision-and-object-detection", "law": "It may perform differently on dice that use other colors."}
+{"id": "/documentation/CoreML/understanding-a-dice-roll-with-vision-and-object-detection", "law": "To use this threshold provider with your , assign it to the property of your as seen in the following example."}
+{"id": "/documentation/CoreML/understanding-a-dice-roll-with-vision-and-object-detection", "law": "For simplicity, you can use camera frames coming from an ."}
+{"id": "/documentation/CoreML/understanding-a-dice-roll-with-vision-and-object-detection", "law": "You can define the requirements of an ended roll as a comparison between two consecutive camera frames with the following conditions: The number of detected dice must be the same."}
+{"id": "/documentation/CoreML/understanding-a-dice-roll-with-vision-and-object-detection", "law": "For each detected die: The bounding box must have not moved."}
+{"id": "/documentation/CoreML/understanding-a-dice-roll-with-vision-and-object-detection", "law": "The identified class must match."}
+{"id": "/documentation/CoreML/using-core-ml-for-semantic-image-segmentation", "law": "The following image shows the metadata and operations for the 8-bit model: To use a model with a different name, but using the same semantics, replace the source code references in with the model class for and :"}
+{"id": "/documentation/CoreML/using-core-ml-for-semantic-image-segmentation", "law": "The sample app loads the segmentation model asynchronously to avoid blocking the calling thread: In the , the sample loads the model using the modifier, and displays a progress view to display the load time."}
+{"id": "/documentation/CoreML/using-core-ml-for-semantic-image-segmentation", "law": "For more information about the format uses for metadata, see : Because the colors from the model metadata are optional, a common practice is to use a generic set of colors that an app defines."}
+{"id": "/documentation/CoreML/using-core-ml-for-semantic-image-segmentation", "law": "A semantic image-segmentation model can generate a large number of labels, and may need to reuse colors or use very similar colors."}
+{"id": "/documentation/CoreML/using-core-ml-for-semantic-image-segmentation", "law": "To assist people with color blindness, avoid using only color to identify different objects."}
+{"id": "/documentation/CoreML", "law": "Use to integrate machine learning models into your app."}
+{"id": "/documentation/CoreML", "law": "You use a model to make predictions based on new input data."}
+{"id": "/documentation/CoreML", "law": "Models trained using are in the model format and are ready to use in your app."}
+{"id": "/documentation/CoreML", "law": "Alternatively, you can use a wide variety of other machine learning libraries and then use to convert the model into the format."}
+{"id": "/documentation/CoreML", "law": "Once a model is on a person’s device, you can use to retrain or fine-tune it on-device, with that person’s data."}
+{"id": "/documentation/CoreML/MLModel/predictions(from:options:)", "law": "Use this method to make more than one prediction at one time."}
+{"id": "/documentation/CoreML/MLModel", "law": "In most cases, you can use Core ML without accessing the class directly."}
+{"id": "/documentation/CoreML/MLModel", "law": "Instead, use the programmer-friendly wrapper class that Xcode automatically generates when you add a model (see )."}
+{"id": "/documentation/CoreML/MLModel", "law": "If your app needs the interface, use the wrapper class’s property."}
+{"id": "/documentation/CoreML/MLModel", "law": "If your app downloads and compiles a model on the user’s device, you must use the class directly to make predictions."}
+{"id": "/documentation/CoreML/MLModel", "law": "Use an instance on one thread or one dispatch queue at a time."}
+{"id": "/documentation/coreml", "law": "Use to integrate machine learning models into your app."}
+{"id": "/documentation/coreml", "law": "You use a model to make predictions based on new input data."}
+{"id": "/documentation/coreml", "law": "Models trained using are in the model format and are ready to use in your app."}
+{"id": "/documentation/coreml", "law": "Alternatively, you can use a wide variety of other machine learning libraries and then use to convert the model into the format."}
+{"id": "/documentation/coreml", "law": "Once a model is on a person’s device, you can use to retrain or fine-tune it on-device, with that person’s data."}
+{"id": "/documentation/coreml/model-integration-samples", "law": "Use the provided Core ML sample code projects to learn how to classify numeric values, images, and text within applications."}
+{"id": "/documentation/coreml/understanding-a-dice-roll-with-vision-and-object-detection", "law": "Before you run the sample code project in Xcode, note the following: You must run this sample code project on a physical device that uses iOS 13 or later."}
+{"id": "/documentation/coreml/understanding-a-dice-roll-with-vision-and-object-detection", "law": "It may perform differently on dice that use other colors."}
+{"id": "/documentation/coreml/understanding-a-dice-roll-with-vision-and-object-detection", "law": "To use this threshold provider with your , assign it to the property of your as seen in the following example."}
+{"id": "/documentation/coreml/understanding-a-dice-roll-with-vision-and-object-detection", "law": "For simplicity, you can use camera frames coming from an ."}
+{"id": "/documentation/coreml/understanding-a-dice-roll-with-vision-and-object-detection", "law": "You can define the requirements of an ended roll as a comparison between two consecutive camera frames with the following conditions: The number of detected dice must be the same."}
+{"id": "/documentation/coreml/understanding-a-dice-roll-with-vision-and-object-detection", "law": "For each detected die: The bounding box must have not moved."}
+{"id": "/documentation/coreml/understanding-a-dice-roll-with-vision-and-object-detection", "law": "The identified class must match."}
+{"id": "/documentation/coreml/using-core-ml-for-semantic-image-segmentation", "law": "The following image shows the metadata and operations for the 8-bit model: To use a model with a different name, but using the same semantics, replace the source code references in with the model class for and :"}
+{"id": "/documentation/coreml/using-core-ml-for-semantic-image-segmentation", "law": "The sample app loads the segmentation model asynchronously to avoid blocking the calling thread: In the , the sample loads the model using the modifier, and displays a progress view to display the load time."}
+{"id": "/documentation/coreml/using-core-ml-for-semantic-image-segmentation", "law": "For more information about the format uses for metadata, see : Because the colors from the model metadata are optional, a common practice is to use a generic set of colors that an app defines."}
+{"id": "/documentation/coreml/using-core-ml-for-semantic-image-segmentation", "law": "A semantic image-segmentation model can generate a large number of labels, and may need to reuse colors or use very similar colors."}
+{"id": "/documentation/coreml/using-core-ml-for-semantic-image-segmentation", "law": "To assist people with color blindness, avoid using only color to identify different objects."}
+{"id": "/documentation/CoreML/MLModel/prediction(from:)-9y2aa", "law": "Use this method to make a single prediction."}
+{"id": "/documentation/coreml/classifying-images-with-vision-and-core-ml", "law": "The sample uses MobileNet as an example of how to use a third-party Core ML model."}
+{"id": "/documentation/coreml/classifying-images-with-vision-and-core-ml", "law": "The method tells Vision how to adjust images that don’t meet the model’s image input constraints by setting the request’s property to ."}
+{"id": "/documentation/coreml/mlmultiarray", "law": "Some models use a one-dimensional multiarray for an input or output."}
+{"id": "/documentation/coreml/getting-a-core-ml-model", "law": "Core ML requires the Core ML model format (models with a file extension)."}
+{"id": "/documentation/coreml/getting-a-core-ml-model", "law": "Models trained using Create ML are in the Core ML model format and are ready to use in your app."}
+{"id": "/documentation/coreml/getting-a-core-ml-model", "law": "Use to convert these models to use in your app."}
+{"id": "/documentation/coreml/getting-a-core-ml-model", "law": "Obtain a Core ML model to use in your app."}
+{"id": "/documentation/coreml/mlmodel", "law": "In most cases, you can use Core ML without accessing the class directly."}
+{"id": "/documentation/coreml/mlmodel", "law": "Instead, use the programmer-friendly wrapper class that Xcode automatically generates when you add a model (see )."}
+{"id": "/documentation/coreml/mlmodel", "law": "If your app needs the interface, use the wrapper class’s property."}
+{"id": "/documentation/coreml/mlmodel", "law": "If your app downloads and compiles a model on the user’s device, you must use the class directly to make predictions."}
+{"id": "/documentation/coreml/mlmodel", "law": "Use an instance on one thread or one dispatch queue at a time."}
+{"id": "/documentation/coreml/mlfeatureprovider", "law": "Use to customize the way your app gets data to and from your model when the model’s dynamically generated interface doesn’t meet your app’s needs."}
+{"id": "/documentation/coreml/mlfeatureprovider", "law": "Use the returned from a method to get the output feature values for that prediction."}
+{"id": "/documentation/coreml/mlfeaturevalue", "law": "If your app accesses an directly, it must create and consume instances."}
+{"id": "/documentation/coreml/mlmodel/init(contentsof:)", "law": "If the wrapper class doesn’t meet your app’s needs or you need to customize the model’s configuration, use this initializer to create a model object from any compiled model file you can access."}
+{"id": "/documentation/coreml/mlmodel/init(contentsof:)", "law": "Typically, you use this initializer after your app has downloaded and compiled a model, which is one technique for saving space in your app (see )."}
+{"id": "/documentation/coreml/mlmodelconfiguration", "law": "Use a model configuration to: Set or override model parameters."}
+{"id": "/documentation/coreml/mlmodelconfiguration", "law": "Restrict the model to use a specific computational device category, such as a CPU."}
+{"id": "/documentation/coreml/mlmodelconfiguration", "law": "You typically use a model configuration instance to configure an instance as you create it with or create an ."}
+{"id": "/documentation/coreml/mltask", "law": "You don’t create use this class directly."}
+{"id": "/documentation/coreml/mltask", "law": "Instead, use a class that inherits from this one, such as ."}
+{"id": "/documentation/coreml/mltask/resume()", "law": "Use this method to start a task for the first time or resumes a task that has paused."}
+{"id": "/documentation/coreml/mlupdatetask", "law": "Use an to update a machine learning model on a user’s device."}
+{"id": "/documentation/CoreML/MLFeatureProvider", "law": "Use to customize the way your app gets data to and from your model when the model’s dynamically generated interface doesn’t meet your app’s needs."}
+{"id": "/documentation/CoreML/MLFeatureProvider", "law": "Use the returned from a method to get the output feature values for that prediction."}
+{"id": "/documentation/CoreML/MLModel/modelDescription", "law": "Model information you use at runtime during development, which Xcode also displays in its Core ML model editor view."}
+{"id": "/documentation/CoreML/MLMultiArray", "law": "Some models use a one-dimensional multiarray for an input or output."}

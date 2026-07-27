@@ -1,0 +1,137 @@
+{"id": "/documentation/AVKit/adopting-picture-in-picture-playback-in-tvos", "law": "This sample code project must be run on a physical device."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "This sample code project demonstrates how to use the multiview video playback APIs using SwiftUI."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use this type of experience in apps where watching multiple videos makes sense, such as in a sports app or a security camera app."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use this experience controller to configure the experiences you support, and to initiate transitions between different experience types."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use to adapt this for SwiftUI."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "The function performs a request to transition the video to the provided state, but this doesn’t always succeed."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "This transition fails if you already presented the maximum number of videos."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use the delegate method to update your state and view hierarchy for completed transitions."}
+{"id": "/documentation/AVKit/creating-a-multiview-video-playback-experience-in-visionos", "law": "This transition fails to complete when the isn’t in the view hierarchy because the system requires a scene to transition to these states."}
+{"id": "/documentation/AVKit/playing-video-content-in-a-standard-user-interface", "law": "A player view controller requires an object to provide the media content to display."}
+{"id": "/documentation/AVKit/playing-video-content-in-a-standard-user-interface", "law": "This delegate method passes the player view controller and transition coordinator to use for coordinating animations."}
+{"id": "/documentation/AVKit/playing-video-content-in-a-standard-user-interface", "law": "To use PiP, the sample configures its audio session and background modes."}
+{"id": "/documentation/AVKit/supporting-continuity-camera-in-your-tvos-app", "law": "You can use a separate Apple ID for each device or the same Apple ID for both."}
+{"id": "/documentation/AVKit/supporting-continuity-camera-in-your-tvos-app", "law": "The third step is important for conferencing apps that use Voice over IP (VoIP)."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "Enabling multitasking camera access isn’t recommended if your app uses resource-intensive capabilities such as 4K video capture, or Apple ProRAW or Deep Fusion image capture."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "Even if your app doesn’t use resource-intensive capabilities, you should test it alongside other resource-intensive apps and with Stage Manager to determine if there are performance issues."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "You can configure a capture session to allow use of the camera while multitasking if the current environment supports it."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "If this value is , you can enable multitasking camera access by setting to , as the example below shows: Enabling your app to use the camera while multitasking extends to Picture in Picture mode for video calls using AVKit."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "Apps that have a deployment target earlier than iOS 16 require the entitlement to enable accessing the camera while multitasking."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "When you enable multitasking camera access, your app doesn’t need to run in full-screen mode to use the camera."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "Deselect the “Requires full screen” checkbox."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "The system only allows one app to use the device’s camera at a time."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "For example, if your app is running in Stage Manager and another app utilizes the camera, the system suspends your app’s use of the camera until the other app finishes."}
+{"id": "/documentation/AVKit/accessing-the-camera-while-multitasking-on-ipad", "law": "When the system interrupts your app’s use of the camera, it notifies your app so you can update your user interface."}
+{"id": "/documentation/AVKit/AVPlayerViewController", "law": "To enable PiP playback in your macOS app, use ."}
+{"id": "/documentation/AVKit/AVPlayerViewController", "law": "Use the class to create and describe navigation markers, then use the property to associate marker groups with the current object."}
+{"id": "/documentation/AVKit/AVPlayerViewController", "law": "Use the class to describe interstitial content, and the property to associate those time ranges with the current object."}
+{"id": "/documentation/AVKit/AVPlayerViewController", "law": "Use the class to describe the proposed content, and set it as the property of the current object."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "Enabling multitasking camera access isn’t recommended if your app uses resource-intensive capabilities such as 4K video capture, or Apple ProRAW or Deep Fusion image capture."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "Even if your app doesn’t use resource-intensive capabilities, you should test it alongside other resource-intensive apps and with Stage Manager to determine if there are performance issues."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "You can configure a capture session to allow use of the camera while multitasking if the current environment supports it."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "If this value is , you can enable multitasking camera access by setting to , as the example below shows: Enabling your app to use the camera while multitasking extends to Picture in Picture mode for video calls using AVKit."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "Apps that have a deployment target earlier than iOS 16 require the entitlement to enable accessing the camera while multitasking."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "When you enable multitasking camera access, your app doesn’t need to run in full-screen mode to use the camera."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "Deselect the “Requires full screen” checkbox."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "The system only allows one app to use the device’s camera at a time."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "For example, if your app is running in Stage Manager and another app utilizes the camera, the system suspends your app’s use of the camera until the other app finishes."}
+{"id": "/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad", "law": "When the system interrupts your app’s use of the camera, it notifies your app so you can update your user interface."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "Use PiP in your video-call apps so users can multitask with other apps while on video calls."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "In iOS 16 and later, you can use the camera in Picture in Picture mode by enabling a capture session’s property."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "Apps that have a deployment target earlier than iOS 16 require the entitlement to use the camera in PiP mode."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "You need to add a to , so use or depending on your need."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "In iOS 18 and later, you may also use as your source view."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "Video-calling apps need to display the remote view, so use to do so."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "Use to determine whether the current device supports PiP playback."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "A content source requires a video-call view controller, and a source view that contains the content you associate with the video call."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "Avoid unintentionally starting PiP by setting the content source on your PiP controller to or by releasing your PiP controller, when the active call ends."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-for-video-calls", "law": "After creating a content source, use it to initialize ."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-custom-player", "law": "Use key-value observing (KVO) on the controller’s property to display the appropriate affordances and provide the correct behavior in your playback UI."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-custom-player", "law": "The PiP display doesn’t use the that you passed to , so AVFoundation stops vending video frames to when PiP mode is active."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-custom-player", "law": "To participate in PiP life-cycle events, your code should adopt the protocol and set itself as the controller’s delegate."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-custom-player", "law": "Also, use KVO on the controller’s property to observe whether using PiP mode is possible in the current context, for example, when the system is displaying an active FaceTime window."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-custom-player", "law": "Your app can have many playing sessions, and in the case of PiP, your player must be tied to a session."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-custom-player", "law": "Only begin PiP playback in response to user interaction and never programmatically."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-custom-player", "law": "To implement this functionality, use the and delegate methods, and take the required actions."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-standard-player", "law": "When a video isn’t filling the entire screen in width, use to indicate a video is the primary focus."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-standard-player", "law": "In general, the system automatically pauses the video upon scene backgrounding, so you don’t need to pause video based on activation state."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-standard-player", "law": "If you need to restrict skipping content for legal disclaimers or advertisements, use during the required section of your video."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-standard-player", "law": "To handle the restore process, your code must adopt the protocol and implement the method."}
+{"id": "/documentation/avkit/adopting-picture-in-picture-in-a-standard-player", "law": "Avoid adding animations during the swap so you can ensure quick restoration for your user."}
+{"id": "/documentation/avkit/avpictureinpicturecontroller", "law": "To use Picture in Picture, you need to configure your app to support background audio playback."}
+{"id": "/documentation/avkit/adopting-the-system-player-interface-in-visionos", "law": "The recommended way to provide a video playback interface for your visionOS app is to adopt ."}
+{"id": "/documentation/avkit/adopting-the-system-player-interface-in-visionos", "law": "In addition to providing the system playback interface, you can also use to present a media-trimming experience similar to QuickTime Player in macOS."}
+{"id": "/documentation/avkit/adopting-the-system-player-interface-in-visionos", "law": "Use to play video in windowed environments in visionOS."}
+{"id": "/documentation/avkit/adopting-the-system-player-interface-in-visionos", "law": "You can use the visionOS player UI to present controls contextually, which your app displays for a specific range of time in the content and then dismiss."}
+{"id": "/documentation/avkit/adopting-the-system-player-interface-in-visionos", "law": "A common use for this type of control is a skip button that displays during the title sequence of a movie or TV show."}
+{"id": "/documentation/avkit/adopting-the-system-player-interface-in-visionos", "law": "provides a property you can use to specify one or more actions to present."}
+{"id": "/documentation/avkit/avexperiencecontroller", "law": "Use this class to control, observe, and respond to experience changes for an ."}
+{"id": "/documentation/avkit/avexperiencecontroller", "law": "Using the other presentation APIs may preclude the use of this class."}
+{"id": "/documentation/avkit/avexperiencecontroller/allowedexperiences", "law": "Use this to allow additional experiences like multiview, or to disable expanded."}
+{"id": "/documentation/avkit/avexperiencecontroller/delegate-swift.protocol", "law": "Use this delegate to be informed of transitions and to update applications state based on these changes."}
+{"id": "/documentation/avkit/avexperiencecontroller/delegate-swift.protocol/experiencecontroller(_:preparefortransitionusing:)", "law": "This may include showing or hiding view controllers, putting the player view controller in the view hierarchy, or any other asynchronous work required for the transition."}
+{"id": "/documentation/avkit/avexperiencecontroller/expandedconfiguration/fallbackplacement", "law": "A fallback placement to use when the original container isn’t in the view controller hierarchy."}
+{"id": "/documentation/avkit/avplayerviewcontroller", "law": "To enable PiP playback in your macOS app, use ."}
+{"id": "/documentation/avkit/avplayerviewcontroller", "law": "Use the class to create and describe navigation markers, then use the property to associate marker groups with the current object."}
+{"id": "/documentation/avkit/avplayerviewcontroller", "law": "Use the class to describe interstitial content, and the property to associate those time ranges with the current object."}
+{"id": "/documentation/avkit/avplayerviewcontroller", "law": "Use the class to describe the proposed content, and set it as the property of the current object."}
+{"id": "/documentation/avkit/avplayerviewcontroller/experiencecontroller", "law": "Use an experience controller to transition a player to different experiences and observe experience transitions."}
+{"id": "/documentation/avkit/avplayerviewcontroller/experiencecontroller", "law": "The use of the experience controller is mutually exclusive with a view controller’s existing API for managing the experience."}
+{"id": "/documentation/avkit/avportalviewport", "law": "Use this configuration to create cinematic viewing experiences with custom framing."}
+{"id": "/documentation/avkit/avportalviewport", "law": "When properties are not explicitly set, the system provides sensible defaults: Aspect Ratio: Defaults to 16:9 (1.78) for standard widescreen content Spatial videos do not support portal viewport settings."}
+{"id": "/documentation/avkit/avviewport", "law": "Use this object to customize the visual presentation of your content."}
+{"id": "/documentation/avkit/third-party-casting-support", "law": "Use the protocol suite to build custom transport controls that work with third-party casting services."}
+{"id": "/documentation/avkit/trimming-and-exporting-media-in-visionos", "law": "You use to present the system video-player interface in your visionOS app."}
+{"id": "/documentation/avkit/trimming-and-exporting-media-in-visionos", "law": "This article describes how to adopt this feature in your app, and shows how to use AVFoundation to export the trimmed result."}
+{"id": "/documentation/avkit/trimming-and-exporting-media-in-visionos", "law": "A convenient way to export your trimmed selection is to use ."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "This sample code project demonstrates how to use the multiview video playback APIs using SwiftUI."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use this type of experience in apps where watching multiple videos makes sense, such as in a sports app or a security camera app."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use this experience controller to configure the experiences you support, and to initiate transitions between different experience types."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use to adapt this for SwiftUI."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "The function performs a request to transition the video to the provided state, but this doesn’t always succeed."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "This transition fails if you already presented the maximum number of videos."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "Use the delegate method to update your state and view hierarchy for completed transitions."}
+{"id": "/documentation/avkit/creating-a-multiview-video-playback-experience-in-visionos", "law": "This transition fails to complete when the isn’t in the view hierarchy because the system requires a scene to transition to these states."}
+{"id": "/documentation/avkit/avcaptureeventinteraction", "law": "You can only use this API for capture use cases."}
+{"id": "/documentation/avkit/avcaptureeventinteraction", "law": "The system sends capture events only to apps that actively use the camera."}
+{"id": "/documentation/avkit/avcaptureeventinteraction", "law": "Backgrounded capture apps, and apps not performing capture, don’t receive events."}
+{"id": "/documentation/avkit/avcaptureeventinteraction", "law": "Adopting this API overrides default hardware button behavior, so apps must always respond appropriately to any events received."}
+{"id": "/documentation/avkit/avcaptureeventsound", "law": "To use AirPods Camera Control, it must be available in your country or region."}
+{"id": "/documentation/avkit/avinputpickerinteraction", "law": "Use to present an input picker."}
+{"id": "/documentation/avkit/avplayerviewcontroller/contentoverlayview", "law": "Use the content overlay view to add noninteractive custom views, such as a logo or watermark, between the video content and the controls."}
+{"id": "/documentation/avkit/avplayerviewcontrollerdelegate/playerviewcontrollerdidstoppictureinpicture(_:)", "law": "Don’t restore your app’s user interface in your implementation of this method."}
+{"id": "/documentation/AVKit/AVContinuityDevicePickerViewController", "law": "The continuity device picker presents any devices near the Apple TV that use the same Apple ID."}
+{"id": "/documentation/avkit/avcontinuitydevicepickerviewcontroller", "law": "The continuity device picker presents any devices near the Apple TV that use the same Apple ID."}
+{"id": "/documentation/avkit/avdisplaymanager", "law": "Don’t directly instantiate a display manager object."}
+{"id": "/documentation/avkit/customizing-the-tvos-playback-experience", "law": "The redesigned UI provides viewers with convenient access to relevant controls and information while always keeping the focus on the content."}
+{"id": "/documentation/avkit/customizing-the-tvos-playback-experience", "law": "Existing apps that use adopt the new styling and features of the redesigned player UI when they link against the tvOS 15 SDK."}
+{"id": "/documentation/avkit/customizing-the-tvos-playback-experience", "law": "If your app would prefer to always hide the title view, set the value of the player view controller’s to ."}
+{"id": "/documentation/avkit/customizing-the-tvos-playback-experience", "law": "You can use the tvOS player UI to present controls contextually, which you display for a specific range of time in the content and then dismiss."}
+{"id": "/documentation/avkit/customizing-the-tvos-playback-experience", "law": "A common use for this type of control is a Skip button that displays during the title sequence of a movie or TV show."}
+{"id": "/documentation/avkit/customizing-the-tvos-playback-experience", "law": "provides a property that you can use to specify one or more actions to present."}
+{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "law": "Your user interface should provide visual and descriptive information about the proposed content, and should also include options for the user to accept or reject the proposal."}
+{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "law": "To lay out your content relative to the newly sized and positioned video frame, you use the provided by the view controller’s property."}
+{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "law": "Your presented user interface should also provide controls so the user can accept or reject the proposal."}
+{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "law": "The event handlers for these actions should call the controller’s method, indicating the user’s choice."}
+{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "law": "The example code creates the required playback objects, creates a new for the next video in the queue, and sets the video as the player item’s ."}
+{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "law": "You use these methods to define how the system presents the content proposal, as well as to handle the acceptance or rejection of the proposed content."}
+{"id": "/documentation/avkit/presenting-navigation-markers", "law": "In tvOS, a contains a property you use to supply chapter information."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "One method is to use HTTP Live Streaming’s (HLS) support for serving stitched playlists."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "You can use the property of to control whether users can navigate through the content using the Siri Remote."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "Automatic handling of interstitial events allows the system to make smooth transitions between your main and interstitial content, and doesn’t require you to coordinate playback between the players."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "When you use , AVKit internally enforces linear playback and other navigation restrictions based on the event type."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "You use to indicate whether AVKit should generate the value of from ."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "On the server that distributes HLS content, use the tag to associate a date range with a set of attributes."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "Use to monitor the player for server-side events."}
+{"id": "/documentation/avkit/working-with-interstitial-content", "law": "If you don’t update to the latest SDK and begin using streams that contain , you need to manage your own interstitials except for AirPlay."}
+{"id": "/documentation/avkit/supporting-continuity-camera-in-your-tvos-app", "law": "You can use a separate Apple ID for each device or the same Apple ID for both."}
+{"id": "/documentation/avkit/supporting-continuity-camera-in-your-tvos-app", "law": "The third step is important for conferencing apps that use Voice over IP (VoIP)."}
+{"id": "/documentation/AVKit/adopting-the-system-player-interface-in-visionos", "law": "The recommended way to provide a video playback interface for your visionOS app is to adopt ."}
+{"id": "/documentation/AVKit/adopting-the-system-player-interface-in-visionos", "law": "In addition to providing the system playback interface, you can also use to present a media-trimming experience similar to QuickTime Player in macOS."}
+{"id": "/documentation/AVKit/adopting-the-system-player-interface-in-visionos", "law": "Use to play video in windowed environments in visionOS."}
+{"id": "/documentation/AVKit/adopting-the-system-player-interface-in-visionos", "law": "You can use the visionOS player UI to present controls contextually, which your app displays for a specific range of time in the content and then dismiss."}
+{"id": "/documentation/AVKit/adopting-the-system-player-interface-in-visionos", "law": "A common use for this type of control is a skip button that displays during the title sequence of a movie or TV show."}
+{"id": "/documentation/AVKit/adopting-the-system-player-interface-in-visionos", "law": "provides a property you can use to specify one or more actions to present."}
+{"id": "/documentation/AVKit/trimming-and-exporting-media-in-visionos", "law": "You use to present the system video-player interface in your visionOS app."}
+{"id": "/documentation/AVKit/trimming-and-exporting-media-in-visionos", "law": "This article describes how to adopt this feature in your app, and shows how to use AVFoundation to export the trimmed result."}
+{"id": "/documentation/AVKit/trimming-and-exporting-media-in-visionos", "law": "A convenient way to export your trimmed selection is to use ."}

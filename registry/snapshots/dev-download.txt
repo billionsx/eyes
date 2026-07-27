@@ -1,0 +1,36 @@
+# Download - Apple Developer
+# https://developer.apple.com/download/
+# снято: 2026-07-24 17:43 UTC
+
+## h2: Explore Get Started
+## h2: Stay Updated
+## h2: Explore Platforms
+## h2: Featured
+## h2: Explore Technologies
+## h2: Featured
+## h2: Explore Community
+## h2: Featured
+## h2: Explore Documentation
+## h2: Release Notes
+## h2: Explore Downloads
+## h2: Featured
+## h2: Explore Support
+## h2: Featured
+## h2: Quick Links
+## h2: Downloads
+## h1: Get beta software, tools, resources, and more
+## h3: Latest releases
+## h3: Development essentials
+## h3: Design essentials
+## h3: Explore more
+## h2: Developer Footer
+## h3: Platforms
+## h3: Tools
+## h3: Technologies
+## h3: Resources
+## h3: Support
+## h3: Account
+## h3: Programs
+## h3: Events
+
+Download - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community-driven events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos Downloads Open Menu Close Menu Overview Operating Systems Applications More Get beta software, tools, resources, and more Latest releases Build with the latest technologies in Apple platforms and test for compatibility with beta software. You can install the beta OS releases directly to your device from Software Update. Learn more. Xcode beta iOS beta iPadOS beta macOS beta visionOS beta tvOS beta watchOS beta View more Development essentials Xcode Get the tools you need to develop, test, and distribute apps for all Apple platforms. Download on the App Store View beta versions Learn more TestFlight Invite users to test your apps before releasing them on the App Store. Download on the App Store Learn more Command Line Tools Develop directly in Terminal with the package of command line developer tools for Xcode. View downloads Learn more View more Design essentials Apple Design Resources Get UI design templates, icon production templates, color guides, and more. View downloads Learn more Icon Composer Create and manage app icons that leverage the depth and dimension of Liquid Glass. Download Learn more Requires macOS Sequoia 15.3 or later. SF Symbols Browse the library of symbols that integrate seamlessly with the San Francisco system font. Download Learn more Requires macOS Sequoia 15.3 or later. View more Explore more Operating Systems Applications & Utilities Sample Code Projects on GitHub Apple Design Resources Configuration Profiles Fonts Badges Developer Footer Download Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness In-App Purchase Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines

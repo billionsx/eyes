@@ -1,0 +1,44 @@
+{
+ "url": "https://www.apple.com/apple-music/",
+ "sections": [
+  "section-hero",
+  "section-get-started",
+  "section-cards",
+  "section-devices",
+  "section-plans",
+  "section-faq",
+  "section-working-with"
+ ],
+ "modules": [
+  "name:hero",
+  "name:get started gallery",
+  "name:listening experience",
+  "name:music discovery",
+  "name:exclusive content",
+  "name:apple music sing",
+  "name:shared listening",
+  "name:apple music classical",
+  "name:shazam music",
+  "name:devices",
+  "name:plans",
+  "name:faq",
+  "name:working with apple music"
+ ],
+ "imgs": 84,
+ "videos": 4,
+ "cta": 57,
+ "h_levels": {
+  "1": 1,
+  "2": 7,
+  "3": 42,
+  "4": 7
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-music/ag/built/styles/main.built.css",
+  "/v/apple-music/ag/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

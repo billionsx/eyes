@@ -1,0 +1,46 @@
+{"id": "/documentation/PencilKit/building-a-handwriting-recognition-experience-with-pencilkit", "law": "This sample code project must be run on a physical device with Apple Pencil."}
+{"id": "/documentation/PencilKit/configuring-the-pencilkit-tool-picker", "law": "In addition to showing system tools, the tool picker provides a custom tool that a person can use to place stamps on the canvas."}
+{"id": "/documentation/PencilKit/configuring-the-pencilkit-tool-picker", "law": "Although this sample app’s basic functionality is available in Simulator, running the project with physical devices is recommended to demonstrate the full capabilities of the hardware."}
+{"id": "/documentation/PencilKit/configuring-the-pencilkit-tool-picker", "law": "If you don’t specify an identifier to differentiate between multiple system tools of the same type, the picker treats those tool items as duplicates and only shows the first item in the list."}
+{"id": "/documentation/PencilKit/configuring-the-pencilkit-tool-picker", "law": "In this sample app, this view controller shows additional customization options for the stamp tool, like being able to choose which animal to use for the custom stamp tool."}
+{"id": "/documentation/PencilKit/customizing-scribble-with-interactions", "law": "This sample code project must be run on a physical device with Apple Pencil."}
+{"id": "/documentation/PencilKit/drawing-with-pencilkit", "law": "This sample code project must be run on a physical device with Apple Pencil."}
+{"id": "/documentation/PencilKit/inspecting-modifying-and-constructing-pencilkit-drawings", "law": "This sample code project must be run on a physical device with Apple Pencil."}
+{"id": "/documentation/PencilKit/controlling-stroke-rendering-for-animation-and-editing", "law": "Use , , and to control how strokes look when you create or edit them in code."}
+{"id": "/documentation/PencilKit/controlling-stroke-rendering-for-animation-and-editing", "law": "To slice a full stroke, use ."}
+{"id": "/documentation/PencilKit/controlling-stroke-rendering-for-animation-and-editing", "law": "Use rather than slicing the path directly."}
+{"id": "/documentation/pencilkit/pkstrokerecognizer", "law": "Use to extract recognized text from individual strokes, generate content suitable for indexing in search systems such as Spotlight, and search for specific words or phrases within handwritten content."}
+{"id": "/documentation/pencilkit/recognizing-handwriting-and-converting-to-text", "law": "You configure it with your preferred languages, give it a drawing, and call the method that fits your use case: recognizing specific strokes, searching for a word, or generating indexable content."}
+{"id": "/documentation/pencilkit/recognizing-handwriting-and-converting-to-text", "law": "It returns when it can’t produce a result, for example, when the strokes don’t contain recognizable handwriting."}
+{"id": "/documentation/pencilkit/recognizing-handwriting-and-converting-to-text", "law": "It returns the matching strokes and their bounds, which you can use to scroll to or highlight results on screen."}
+{"id": "/documentation/pencilkit/recognizing-handwriting-and-converting-to-text", "law": "Use to find all occurrences of a word or phrase across the drawing."}
+{"id": "/documentation/pencilkit/recognizing-handwriting-and-converting-to-text", "law": "Each gives you the identifiers of the matching strokes and a bounding rectangle in the drawing’s coordinate space, which is the same coordinate space as ; you can use this space to scroll to or highlight the match on screen."}
+{"id": "/documentation/pencilkit/recognizing-handwriting-and-converting-to-text", "law": "Use the property to get a string to pass to the CoreSpotlight indexing API."}
+{"id": "/documentation/pencilkit/pkinkingtool-swift.struct", "law": "A structure that defines the drawing characteristics (width, color, pen style) to use when drawing lines on a canvas view."}
+{"id": "/documentation/pencilkit/pkinkingtoolreference", "law": "An object that defines the drawing characteristics (width, color, pen style) to use when drawing lines on a canvas view."}
+{"id": "/documentation/pencilkit/pkresponderstate", "law": "Use it to attach a tool picker to a specific view and control when that picker is visible."}
+{"id": "/documentation/pencilkit/pktool-c.class", "law": "Don’t create objects directly."}
+{"id": "/documentation/pencilkit/pktool-swift.protocol", "law": "Don’t adopt this protocol in your own objects."}
+{"id": "/documentation/pencilkit/pktoolpicker/accessoryitem", "law": "Use this property to display a button in the tool picker when enough space is available."}
+{"id": "/documentation/pencilkit/pktoolpicker/accessoryitem", "law": "You can use this button to surface an additional behavior in the picker, such as showing a menu for adding different shapes to the canvas."}
+{"id": "/documentation/pencilkit/pktoolpicker/init(toolitems:)", "law": "Use this initializer to create a tool picker with the tools you specify, which the picker displays in the custom order you provide during initialization."}
+{"id": "/documentation/pencilkit/controlling-stroke-rendering-for-animation-and-editing", "law": "Use , , and to control how strokes look when you create or edit them in code."}
+{"id": "/documentation/pencilkit/controlling-stroke-rendering-for-animation-and-editing", "law": "To slice a full stroke, use ."}
+{"id": "/documentation/pencilkit/controlling-stroke-rendering-for-animation-and-editing", "law": "Use rather than slicing the path directly."}
+{"id": "/documentation/pencilkit/drawing-with-pencilkit", "law": "This sample code project must be run on a physical device with Apple Pencil."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "PencilKit uses a stroke format optimized for Apple Pencil input, represented by , which differs from the Bézier path format that Core Graphics and other frameworks use."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "Pass a timestamp from your source data if one exists, or use () for the current time."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "Use and to calculate values that vary along the stroke rather than mapping points one-to-one from your source data."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "Use this value if your source data stores per-segment properties like color or width."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "For the following properties, consider whether your source data includes values to use rather than a fixed default: : The time in seconds from the stroke’s to this derived control point."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "If your source data includes per-point or per-segment timestamps, use those elapsed times instead."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "For imported data that doesn’t include pencil orientation, use reasonable values instead."}
+{"id": "/documentation/pencilkit/importing-external-drawing-data-into-pencilkit", "law": "Use to export a stroke path to a for saving, then to load it back."}
+{"id": "/documentation/pencilkit/inspecting-modifying-and-constructing-pencilkit-drawings", "law": "This sample code project must be run on a physical device with Apple Pencil."}
+{"id": "/documentation/pencilkit/pkconvertedbezierpointreference", "law": "In Swift, use the equivalent value type instead."}
+{"id": "/documentation/pencilkit/pkdrawing-swift.struct", "law": "You use drawing objects to store the data associated with your user’s drawings."}
+{"id": "/documentation/pencilkit/pkdrawing-swift.struct", "law": "You can save this data with the rest of your app’s content, and you can use that saved data to create a new drawing object later."}
+{"id": "/documentation/pencilkit/pkdrawingreference", "law": "You use drawing objects to store the data associated with your user’s drawings."}
+{"id": "/documentation/pencilkit/pkdrawingreference", "law": "You can save this data with the rest of your app’s content, and you can use that saved data to create a new drawing object later."}
+{"id": "/documentation/pencilkit/pkstrokerenderstate", "law": "In Swift, use the equivalent value type instead."}
+{"id": "/documentation/pencilkit/customizing-scribble-with-interactions", "law": "This sample code project must be run on a physical device with Apple Pencil."}

@@ -1,0 +1,105 @@
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "To support such use cases, apps need to move user data to the cloud and implement a data-sharing flow that includes features like sharing management, data synchronization, and access control."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "This sample demonstrates how to use CloudKit to implement these features by allowing users to create topic and note records in their private databases and share them with other users."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "Make sure the iCloud capability is present and the CloudKit option is in a selected state, then select the iCloud container with your bundle identifier from step 1 from the Containers list."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "If you prefer to use a different container, select it from the Containers list, and specify the container identifier when creating the variable in the class."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "An iCloud container identifier is case-sensitive and must begin with “ ”."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "For the CloudKit private database to synchronize across devices, the Apple ID must be the same on the devices."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "Choose Settings > Apple ID > iCloud, and turn on iCloud Drive, if it is off."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "cloudkit/designing-and-creating-a-cloudkit-database Before saving a record, the sample doesn’t use any record-type information."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "For real-world apps that use record types at an earlier phase, like creating a at the beginning of a launch session, the schema must be ready first."}
+{"id": "/documentation/CloudKit/sharing-cloudkit-data-with-other-icloud-users", "law": "Use Xcode to build and run the sample app on the devices."}
+{"id": "/documentation/CloudKit", "law": "You use CloudKit to store your app’s existing data in the cloud so that the user can access it on multiple devices."}
+{"id": "/documentation/CloudKit", "law": "Apps can always store data in a public area that is readable by all users."}
+{"id": "/documentation/CloudKit", "law": "CloudKit also relies heavily on the use of objects to manage the asynchronous transfer of data to and from the server."}
+{"id": "/documentation/CloudKit", "law": "Before using CloudKit, make sure it’s the most suitable option for your app."}
+{"id": "/documentation/CloudKit", "law": "Use these classes as-is to save, retrieve, and manipulate data in iCloud."}
+{"id": "/documentation/CloudKit/CKDatabaseSubscription", "law": "You don’t need to explicitly enable push notifications for your App ID to receive subscription notifications."}
+{"id": "/documentation/CloudKit/CKDatabaseSubscription", "law": "To use silent push notifications, add the Background Modes capability in your Xcode project and then select the “Background fetch” and “Remote notifications” options."}
+{"id": "/documentation/CloudKit/CKDatabaseSubscription", "law": "This is important for the shared database because you don’t know what record zones exist in advance."}
+{"id": "/documentation/CloudKit/CKDatabaseSubscription", "law": "Because the system coalesces notifications, don’t rely on them for specific changes."}
+{"id": "/documentation/CloudKit/CKDatabaseSubscription", "law": "Consider notifications an indication of remote changes, and use to fetch the record zones that contain those changes."}
+{"id": "/documentation/CloudKit/CKDatabaseSubscription", "law": "After you have the record zones, use to fetch the changed records in each zone."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "Use this operation to fetch record changes in one or more record zones, such as those that occur during record creation, modification, and deletion."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "For the first time you fetch a record zone’s changes, or to refetch all changes in a zone’s history, use instead."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "This operation’s tokens aren’t compatible with so you should segregate them in your app’s cache."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "Don’t infer behavior or order from the tokens’ contents."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "Cache the results on-device and use to subscribe to future changes."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "If you use the shared database, subscribe to changes with instead."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "This means you don’t know in advance which zones exist in the shared database."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "Use to fetch shared record zones on receipt of the subscription’s push notifications."}
+{"id": "/documentation/CloudKit/CKFetchRecordZoneChangesOperation", "law": "Regardless of which database you use, it’s not necessary to perform fetches each time your app launches, or to schedule fetches at regular intervals."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "After modifying the fields of a record, use this operation to save those changes to a database."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "You also use this operation to delete records permanently from a database."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "If you’re saving a record that contains a reference to another record, set the reference’s to indicate if the target record’s deletion should cascade to the saved record."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "This helps avoid orphaned records in explicit record hierarchies."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "When creating two new records that have a reference between them, use the same operation to save both records at the same time."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "During a save operation, CloudKit requires that the target record of the reference, if set, exists in the database or is part of the same operation; all other reference fields are exempt from this requirement."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "You must provide handlers capable of executing on a background thread, so any tasks that require access to the main thread must redirect accordingly."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "Use the completion handler to perform any housekeeping tasks for the operation, but don’t use it to process the results of the operation."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "The completion handler you provide should manage any failures of the operation, whether due to an error or an explicit cancellation."}
+{"id": "/documentation/CloudKit/CKModifyRecordsOperation", "law": "To ensure the speed of fetching and saving records, the server may reject large operations."}
+{"id": "/documentation/CloudKit/CKQuerySubscription", "law": "You don’t need to explicitly enable push notifications for your App ID to receive subscription notifications."}
+{"id": "/documentation/CloudKit/CKQuerySubscription", "law": "To use silent push notifications, add the Background Modes capability in your Xcode project and then select the “Background fetch” and “Remote notifications” options."}
+{"id": "/documentation/CloudKit/CKQuerySubscription", "law": "Because the system coalesces notifications, don’t rely on them for specific changes."}
+{"id": "/documentation/CloudKit/CKQuerySubscription", "law": "Consider notifications an indication of remote changes and use to fetch the changed records."}
+{"id": "/documentation/CloudKit/CKQuerySubscription", "law": "Because doesn’t employ server change tokens, dispose of any records you cache on-device and use the query’s results instead."}
+{"id": "/documentation/CloudKit/CKServerChangeToken", "law": "You don’t create change tokens."}
+{"id": "/documentation/CloudKit/CKServerChangeToken", "law": "Don’t infer any behavior or order from a token’s contents."}
+{"id": "/documentation/CloudKit/CKShare", "law": "Use to save the share to the server."}
+{"id": "/documentation/CloudKit/CKShare", "law": "The initial set of records the share includes must exist on the server or be part of the same save operation to succeed."}
+{"id": "/documentation/CloudKit/CKShare", "law": "Use to present options to the user for sharing the URL."}
+{"id": "/documentation/CloudKit/CKShare", "law": "You must add the key to your app’s file with a value of ."}
+{"id": "/documentation/CloudKit/CKShare", "law": "CloudKit limits the number of participants in a share to 100, and each participant must have an active iCloud account."}
+{"id": "/documentation/CloudKit/CKShare", "law": "You don’t create participants."}
+{"id": "/documentation/CloudKit/CKShare", "law": "Instead, use to manage a share’s participants and their permissions."}
+{"id": "/documentation/CloudKit/CKShare", "law": "Provide the user’s email address or phone number, and use to fetch the corresponding participants."}
+{"id": "/documentation/CloudKit/CKShare", "law": "Use the keys that defines, as the following example shows: A specialized record type that manages a collection of shared records."}
+{"id": "/documentation/cloudkit", "law": "You use CloudKit to store your app’s existing data in the cloud so that the user can access it on multiple devices."}
+{"id": "/documentation/cloudkit", "law": "Apps can always store data in a public area that is readable by all users."}
+{"id": "/documentation/cloudkit", "law": "CloudKit also relies heavily on the use of objects to manage the asynchronous transfer of data to and from the server."}
+{"id": "/documentation/cloudkit", "law": "Before using CloudKit, make sure it’s the most suitable option for your app."}
+{"id": "/documentation/cloudkit", "law": "Use these classes as-is to save, retrieve, and manipulate data in iCloud."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation", "law": "Use this operation to fetch all record zone changes in a database."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation", "law": "For your app’s first fetch, or to refetch every change in the database’s history, use instead."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation", "law": "This operation’s tokens aren’t compatible with so you should segregate them in your cache."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation", "law": "Don’t infer any behavior or order from the tokens’ contents."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation", "law": "When your app launches for the first time, use this operation to fetch all the database’s changes."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation", "law": "Cache the results on-device and use to subscribe to future changes."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation", "law": "Use those IDs with to fetch the corresponding changes."}
+{"id": "/documentation/cloudkit/ckfetchdatabasechangesoperation/changetokenupdatedblock", "law": "The closure executes periodically, and provides a new change token so that you don’t need to refetch previously fetched record zone changes in a subsequent operation."}
+{"id": "/documentation/cloudkit/ckrecord/share", "law": "Records in a hierarchy must only exist within one share."}
+{"id": "/documentation/cloudkit/ckshare", "law": "Use to save the share to the server."}
+{"id": "/documentation/cloudkit/ckshare", "law": "The initial set of records the share includes must exist on the server or be part of the same save operation to succeed."}
+{"id": "/documentation/cloudkit/ckshare", "law": "Use to present options to the user for sharing the URL."}
+{"id": "/documentation/cloudkit/ckshare", "law": "You must add the key to your app’s file with a value of ."}
+{"id": "/documentation/cloudkit/ckshare", "law": "CloudKit limits the number of participants in a share to 100, and each participant must have an active iCloud account."}
+{"id": "/documentation/cloudkit/ckshare", "law": "You don’t create participants."}
+{"id": "/documentation/cloudkit/ckshare", "law": "Instead, use to manage a share’s participants and their permissions."}
+{"id": "/documentation/cloudkit/ckshare", "law": "Provide the user’s email address or phone number, and use to fetch the corresponding participants."}
+{"id": "/documentation/cloudkit/ckshare", "law": "Use the keys that defines, as the following example shows: A specialized record type that manages a collection of shared records."}
+{"id": "/documentation/cloudkit/cksystemsharinguiobserver", "law": "Use your implementation to update the local state of a shared item when your app receives a , or to delete a locally cached share when the system notifies your app about a share deletion."}
+{"id": "/documentation/cloudkit/designing-and-creating-a-cloudkit-database", "law": "Every record type must have a unique string name."}
+{"id": "/documentation/cloudkit/designing-and-creating-a-cloudkit-database", "law": "Because is key-value coding compliant, you can use ."}
+{"id": "/documentation/cloudkit/designing-and-creating-a-cloudkit-database", "law": "To save a record to your container, you must pick a database to save the record to."}
+{"id": "/documentation/cloudkit/inspecting-and-editing-an-icloud-container-s-schema", "law": "Use the CloudKit Database app to verify existing record types, create new record types, edit fields, add search indexes, and delete unpublished record types."}
+{"id": "/documentation/cloudkit/inspecting-and-editing-an-icloud-container-s-schema", "law": "If you create a record programmatically through just-in-time schema creation, use the CloudKit Database app to verify that the record type appears in the schema with the name and fields you expect."}
+{"id": "/documentation/cloudkit/inspecting-and-editing-an-icloud-container-s-schema", "law": "To enable searching for records by type, you must first add an index to a field on your record type."}
+{"id": "/documentation/cloudkit/shared-records", "law": "If you want to share an unbounded collection of records that don’t have natural parent-child relationships, share their containing record zone."}
+{"id": "/documentation/cloudkit/shared-records", "law": "If your data model is hierarchical, this is good practice even if you don’t plan to share the records."}
+{"id": "/documentation/cloudkit/shared-records", "law": "The shared records must already exist in iCloud or be part of the same save operation."}
+{"id": "/documentation/cloudkit/shared-records", "law": "Use this URL to invite other users to participate."}
+{"id": "/documentation/cloudkit/shared-records", "law": "Use and in macOS (with the service name) to achieve similar functionality."}
+{"id": "/documentation/cloudkit/shared-records", "law": "When an invited user taps or clicks the share URL, CloudKit verifies they have an active iCloud account, which must match their participant details."}
+{"id": "/documentation/cloudkit/shared-records", "law": "After receiving the share metadata from CloudKit, use to confirm the user’s participation."}
+{"id": "/documentation/cloudkit/shared-records", "law": "To stop sharing, the share’s owner must delete the share or, for shared hierarchies, the root record."}
+{"id": "/documentation/cloudkit/shared-records", "law": "Use or to allow a participant to stop participating."}
+{"id": "/documentation/cloudkit/shared-records", "law": "You can use the framework’s share-related operations to implement behavior similar to that of and to build a custom sharing experience by following these steps: Use to generate participants and add them to the share using ."}
+{"id": "/documentation/CloudKit/CKContainer/privateCloudDatabase", "law": "If there isn’t an iCloud account on the user’s device, this property still returns a database, but any attempt to use it results in an error."}
+{"id": "/documentation/CloudKit/CKContainer/privateCloudDatabase", "law": "To determine if there is an iCloud account on the device, use the method."}
+{"id": "/documentation/CloudKit/CKContainer/sharedCloudDatabase", "law": "If there isn’t an iCloud account on the user’s device, this property still returns a database, but any attempt to use it results in an error."}
+{"id": "/documentation/CloudKit/CKContainer/sharedCloudDatabase", "law": "To determine if there is an iCloud account on the device, use the method."}
+{"id": "/documentation/CloudKit/CKShare/addParticipant(_:)", "law": "To modify the list of participants, a share’s must be ."}
+{"id": "/documentation/CloudKit/CKShare/removeParticipant(_:)", "law": "To modify the list of participants, a share’s must be ."}
+{"id": "/documentation/CloudKit/CKSystemSharingUIObserver", "law": "Use your implementation to update the local state of a shared item when your app receives a , or to delete a locally cached share when the system notifies your app about a share deletion."}
+{"id": "/documentation/CloudKit/deploying-an-icloud-container-s-schema", "law": "Before you publish your app, you must deploy the development schema to the production environment to copy over its record types, fields, and indexes."}
+{"id": "/documentation/CloudKit/deploying-an-icloud-container-s-schema", "law": "To deploy a schema, you must have privileges to edit the production environment."}

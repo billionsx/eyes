@@ -1,0 +1,6 @@
+{"id": "/documentation/XCTest", "law": "Use the XCTest framework to write unit tests for your Xcode projects that integrate seamlessly with Xcode’s testing workflow."}
+{"id": "/documentation/XCTest", "law": "Use XCTest in combination with to interact with an application’s UI and validate user interaction flows."}
+{"id": "/documentation/XCTest", "law": "A test target can contain tests using both Swift Testing and XCTest, however don’t mix API from the two frameworks in the same test."}
+{"id": "/documentation/XCTest", "law": "Continue to use XCTest for user interface tests and ."}
+{"id": "/documentation/XCTest/defining-test-cases-and-test-methods", "law": "You can check (or assert ) conditions inside test methods to make sure that your code is behaving as expected."}
+{"id": "/documentation/XCTest/defining-test-cases-and-test-methods", "law": "Use the family of functions to check for Boolean conditions, or non- values, expected values, errors, or thrown exceptions."}

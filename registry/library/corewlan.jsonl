@@ -1,0 +1,3 @@
+{"id": "/documentation/CoreWLAN", "law": "You can also use the client to register to receive Wi-Fi event notifications."}
+{"id": "/documentation/CoreWLAN", "law": "For convenience, the client class defines a shared instance singleton that you can use for this purpose."}
+{"id": "/documentation/CoreWLAN", "law": "You can use the CoreWLAN framework in an app that adopts App Sandbox without any special exceptions as long as you use the interface objects vended from a client instance."}

@@ -1,0 +1,54 @@
+{
+ "url": "https://www.apple.com/airpods-4/",
+ "sections": [
+  "section-welcome",
+  "section-media-card",
+  "section-bento-gallery",
+  "section-product-stories",
+  "section-new-audio-experience",
+  "section-anc",
+  "section-redesigned",
+  "section-charging",
+  "section-magic",
+  "section-icon-card-gallery",
+  "section-contrast",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights gallery",
+  "name:closer look gallery",
+  "name:audio experiences intro",
+  "name:audio experiences gallery",
+  "name:active noise cancellation",
+  "name:redesigned intro",
+  "name:ear fit",
+  "name:updated stem",
+  "name:sweat and water resistant",
+  "name:charging intro",
+  "name:charging details",
+  "name:features intro",
+  "name:features gallery",
+  "name:why apple gallery",
+  "name:compare",
+  "name:router"
+ ],
+ "imgs": 113,
+ "videos": 4,
+ "cta": 43,
+ "h_levels": {
+  "1": 1,
+  "2": 19,
+  "3": 27,
+  "4": 4,
+  "5": 3
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/airpods-4/g/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

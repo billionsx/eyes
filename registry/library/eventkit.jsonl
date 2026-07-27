@@ -1,0 +1,100 @@
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "indicates how your app intends to use calendar data."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "Starting in iOS 17, your app should only request the specific level of access it requires to complete its calendar data tasks."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "Because its workflow doesn’t interact with the user’s calendar data, the app isn’t required to include any calendar usage strings or prompt the user for access."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "To request write-only access to events, use or ."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "and require write-only or full access."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "doesn’t require any user permission."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "Because of these reasons, the app requires write-only access so it can control the date and time of every event added to Calendar."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "In write-only access apps, the calendar chooser ignores the value of the setting and this setting always behaves as if it’s set to ."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "To request full access to events, use or ."}
+{"id": "/documentation/EventKit/accessing-calendar-using-eventkit-and-eventkitui", "law": "To request access to events, use or ."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "You app must first request full access to reminders from the person using the app before it can access their reminder data."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "Before running the sample code project in Xcode, select the sample target, then configure it to use your team for signing."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "The sample app presents a map with custom annotations that someone can use to create location-based reminders within the app."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "This key is required for apps that access the person’s location services."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "The key is required for apps that access a person’s reminders."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "Set up your app to instantiate and use a single instance of that manages all reminder-related tasks."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "An object requires a significant amount of time to initialize and release."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "Creating a reminder requires a list, which is a calendar for these items."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "To use the default radius, set its value to 0."}
+{"id": "/documentation/EventKit/managing-location-based-reminders", "law": "First, the sample app creates an object using , then it sets the and properties, and other properties, such as priority and time zone: The and properties are required and must be set before saving the reminder."}
+{"id": "/documentation/EventKit", "law": "You can use EventKit to set up alarms and create recurring events."}
+{"id": "/documentation/EventKit/EKCalendar", "law": "Use the properties in this class to get attributes about a calendar, such as its title and type."}
+{"id": "/documentation/EventKit/EKCalendar", "law": "Use the method to create a calendar object."}
+{"id": "/documentation/EventKit/EKEventStore", "law": "After initializing the event store, you must request access to events or reminders before attempting to fetch or create data."}
+{"id": "/documentation/EventKit/EKEventStore", "law": "Use similar methods to access and manipulate reminders."}
+{"id": "/documentation/EventKit/EKEventStore", "law": "After receiving an object from an event store, don’t use that object with a different event store."}
+{"id": "/documentation/EventKit/EKEventStore", "law": "For example, don’t fetch an event from one event store, modify the event, and then pass it to in a different store."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "Your app must obtain permission from the person using the app before it can access the calendar database: your app must never directly modify the calendar database on its own."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "Your app should only request the access it needs to complete its tasks."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "To receive event or reminder data, you must request access to an entity type after initializing the event store."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "To request access to reminders, use ."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "To request access to events, use or , depending on the level of access your app needs."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "For example, to request full access to reminders, use the following: Releasing an event store instance before other EventKit objects may result in an error."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "Your app can use the entire EventKit calendar API when it has write-only calendar access."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "Your app can use without requesting write-only or full calendar access."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "An iOS app must include in its file the usage description keys for the types of data it needs to access."}
+{"id": "/documentation/EventKit/accessing-the-event-store", "law": "Don’t request full access if your app’s features only need write-only access."}
+{"id": "/documentation/eventkit", "law": "You can use EventKit to set up alarms and create recurring events."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "Your app must obtain permission from the person using the app before it can access the calendar database: your app must never directly modify the calendar database on its own."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "Your app should only request the access it needs to complete its tasks."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "To receive event or reminder data, you must request access to an entity type after initializing the event store."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "To request access to reminders, use ."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "To request access to events, use or , depending on the level of access your app needs."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "For example, to request full access to reminders, use the following: Releasing an event store instance before other EventKit objects may result in an error."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "Your app can use the entire EventKit calendar API when it has write-only calendar access."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "Your app can use without requesting write-only or full calendar access."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "An iOS app must include in its file the usage description keys for the types of data it needs to access."}
+{"id": "/documentation/eventkit/accessing-the-event-store", "law": "Don’t request full access if your app’s features only need write-only access."}
+{"id": "/documentation/eventkit/ekeventstore", "law": "After initializing the event store, you must request access to events or reminders before attempting to fetch or create data."}
+{"id": "/documentation/eventkit/ekeventstore", "law": "Use similar methods to access and manipulate reminders."}
+{"id": "/documentation/eventkit/ekeventstore", "law": "After receiving an object from an event store, don’t use that object with a different event store."}
+{"id": "/documentation/eventkit/ekeventstore", "law": "For example, don’t fetch an event from one event store, modify the event, and then pass it to in a different store."}
+{"id": "/documentation/eventkit/ekeventstore/requestaccess(to:completion:)", "law": "In iOS 6 and later, requesting access to an event store asynchronously prompts your users for permission to use their data."}
+{"id": "/documentation/eventkit/ekeventstore/requestaccess(to:completion:)", "law": "Because users may deny access to the event store, your app should handle an empty data case."}
+{"id": "/documentation/eventkit/ekeventstore/requestaccess(to:completion:)", "law": "If your app has never requested access before, you must request access to events or reminders before attempting to fetch or create them."}
+{"id": "/documentation/eventkit/ekvirtualconferencedescriptor", "law": "When users add events to their calendars and use one of the room types that your provider defines, EventKit requests a virtual conference descriptor from your provider."}
+{"id": "/documentation/eventkit/ekvirtualconferencedescriptor", "law": "Events that use your virtual conference descriptors may sync to other devices where your app isn’t installed."}
+{"id": "/documentation/eventkit/ekvirtualconferenceprovider", "law": "Events that use your virtual conference descriptors may sync to other devices where your app isn’t installed."}
+{"id": "/documentation/EventKit/EKAlarm", "law": "Use the and class methods to create an alarm and use the properties to set information about an alarm."}
+{"id": "/documentation/EventKit/EKEventStore/predicateForReminders(in:)", "law": "A predicate to use when calling ."}
+{"id": "/documentation/EventKit/EKEventStore/requestFullAccessToReminders(completion:)", "law": "Requesting access to an event store asynchronously prompts people for permission to use their data."}
+{"id": "/documentation/EventKit/EKEventStore/requestFullAccessToReminders(completion:)", "law": "Because they may deny permission, your app should handle cases where it doesn’t receive access to the event store."}
+{"id": "/documentation/EventKit/EKEventStore/requestFullAccessToReminders(completion:)", "law": "If your app has never requested access, you must request access to reminders before attempting to fetch or create them."}
+{"id": "/documentation/EventKit/EKEventStoreChangedNotification", "law": "When you receive this notification, you should refetch all and objects you have accessed, as they are considered stale."}
+{"id": "/documentation/EventKit/EKEventStoreChangedNotification", "law": "If you are actively editing an event and do not wish to refetch it unless it is absolutely necessary to do so, you can call the refresh method on it."}
+{"id": "/documentation/EventKit/EKEventStoreChangedNotification", "law": "If the method returns , you do not need to refetch the event."}
+{"id": "/documentation/EventKit/EKReminder", "law": "Use the method to create a new reminder."}
+{"id": "/documentation/EventKit/EKReminder", "law": "Use the properties in the class to get and modify certain information about a reminder."}
+{"id": "/documentation/EventKit/EKStructuredLocation", "law": "Use to create a new structured location, then set it to the property of an object."}
+{"id": "/documentation/EventKit/EKStructuredLocation/radius", "law": "To use the default radius, set this property to ."}
+{"id": "/documentation/EventKit/EKStructuredLocation/radius", "law": "A minimum distance from the core location that would trigger the alarm or reminder."}
+{"id": "/documentation/EventKit/setting-an-alarm", "law": "An alarm requires you to create an event or reminder that is visible in the user’s Calendar or Reminders app."}
+{"id": "/documentation/EventKit/setting-an-alarm", "law": "A is better suited for general purposes that don’t involve the Calendar database."}
+{"id": "/documentation/EventKit/setting-an-alarm", "law": "Alarms created with a relative offset must occur before or at the start date of the event."}
+{"id": "/documentation/EventKit/setting-an-alarm", "law": "A value of for the radius property will use the system’s default radius; to choose a radius of your own, specify a value in meters."}
+{"id": "/documentation/EventKit/updating-with-notifications", "law": "If your app fetches calendar events or reminders, register to be notified about changes to the Calendar database to ensure the calendar and reminder information you display to the user is current."}
+{"id": "/documentation/EventKit/updating-with-notifications", "law": "Because your local data is often invalidated or incomplete when a change occurs in the Calendar database, you should refetch your current date range of events whenever you receive an notification."}
+{"id": "/documentation/EventKit/updating-with-notifications", "law": "If you are modifying an event and do not want to refetch it unless it is absolutely necessary, call the method on the event."}
+{"id": "/documentation/EventKit/updating-with-notifications", "law": "If the method returns , you can continue to use the event; otherwise, you must refetch it."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "For information on how to use these event view controllers, see ."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "If your app modifies a user’s Calendar database, it must get confirmation from the user before doing so."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "An app should never modify the Calendar database without specific instruction from the user."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "If you want to remove an event from the Calendar database, use the method ."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "If you pass to the parameter, make sure that you later invoke the method to permanently save your changes."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "If your iOS app links on macOS and you need to access Reminders data, be sure to include the key in your file."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "The and properties are required."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "The and properties must explicitly be set before you save the reminder."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "Just like when saving or removing events, make sure that if you pass to the parameter, you later invoke the method to save your changes."}
+{"id": "/documentation/eventkit/creating-events-and-reminders", "law": "To associate a start date or due date with a reminder, use the and properties."}
+{"id": "/documentation/eventkit/ekevent", "law": "Use the method to create a new event."}
+{"id": "/documentation/eventkit/ekevent", "law": "Use the properties in the class to get and modify certain information about an event."}
+{"id": "/documentation/eventkit/ekreminder", "law": "Use the method to create a new reminder."}
+{"id": "/documentation/eventkit/ekreminder", "law": "Use the properties in the class to get and modify certain information about a reminder."}
+{"id": "/documentation/eventkit/retrieving-events-and-reminders", "law": "To search for and return events and reminders from the Calendar database, you must connect to the event store, as discussed in “ .” There are two ways to retrieve events and reminders."}
+{"id": "/documentation/eventkit/retrieving-events-and-reminders", "law": "Although the method accepts a parameter of type , you must supply a predicate created with the method ."}
+{"id": "/documentation/eventkit/retrieving-events-and-reminders", "law": "If you know the event’s unique identifier because you fetched it previously with a predicate, you can use the method to fetch the event."}
+{"id": "/documentation/eventkit/updating-with-notifications", "law": "If your app fetches calendar events or reminders, register to be notified about changes to the Calendar database to ensure the calendar and reminder information you display to the user is current."}
+{"id": "/documentation/eventkit/updating-with-notifications", "law": "Because your local data is often invalidated or incomplete when a change occurs in the Calendar database, you should refetch your current date range of events whenever you receive an notification."}
+{"id": "/documentation/eventkit/updating-with-notifications", "law": "If you are modifying an event and do not want to refetch it unless it is absolutely necessary, call the method on the event."}
+{"id": "/documentation/eventkit/updating-with-notifications", "law": "If the method returns , you can continue to use the event; otherwise, you must refetch it."}

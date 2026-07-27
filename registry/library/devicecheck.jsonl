@@ -1,0 +1,6 @@
+{"id": "/documentation/DeviceCheck", "law": "Using the class in your app, you can get a token that you use on your server to set and query two binary digits of data per device, while maintaining user privacy."}
+{"id": "/documentation/DeviceCheck", "law": "For example, you might use this data to identify devices that have already taken advantage of a promotional offer that you provide, or to flag a device that you’ve determined to be fraudulent."}
+{"id": "/documentation/DeviceCheck", "law": "You use the class to generate a special cryptographic key on the device, and have Apple attest to the validity of that key."}
+{"id": "/documentation/DeviceCheck", "law": "You then use that key to assert the validity of your app whenever you request sensitive data from your server."}
+{"id": "/documentation/DeviceCheck", "law": "Reduce fraudulent use of your services by managing device state and asserting app integrity."}
+{"id": "/documentation/DeviceCheck", "law": "Preparing to use the app attest service."}

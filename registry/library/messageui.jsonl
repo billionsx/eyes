@@ -1,0 +1,2 @@
+{"id": "/documentation/MessageUI", "law": "Use these interfaces to add message delivery capabilities, without requiring the user to leave your app."}
+{"id": "/documentation/MessageUI", "law": "If you can’t send a message, don’t display the corresponding view controller."}

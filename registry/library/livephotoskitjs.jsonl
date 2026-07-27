@@ -1,0 +1,10 @@
+{"id": "/documentation/LivePhotosKitJS", "law": "Use the LivePhotosKit JS library to play Live Photos on your web pages."}
+{"id": "/documentation/LivePhotosKitJS", "law": "Use the script tag and link to Apple’s hosted version of LivePhotosKit JS at The LivePhotosKit JS version number is in the URL."}
+{"id": "/documentation/LivePhotosKitJS", "law": "To enable strict mode for an entire script, put ‘use strict’ before any other statements."}
+{"id": "/documentation/LivePhotosKitJS", "law": "You can use any HTML tag that supports child nodes."}
+{"id": "/documentation/LivePhotosKitJS", "law": "At minimum, each tag requires the attribute as well as a non-zero height and width."}
+{"id": "/documentation/LivePhotosKitJS", "law": "Optionally, you can use the following additional data attributes: : The timestamp from the beginning of the provided video component, at which the still photo was captured."}
+{"id": "/documentation/LivePhotosKitJS", "law": "After a Player is created, use the properties and methods to set it up and use it, just as you would with a native image or video element."}
+{"id": "/documentation/LivePhotosKitJS", "law": "To avoid this problem, the element that is being decorated to be a player should explicitly specify its height and width."}
+{"id": "/documentation/LivePhotosKitJS", "law": "Use File > Export > Export Unmodified Original to export to your file system."}
+{"id": "/documentation/LivePhotosKitJS", "law": "Ensure that iTunes for Windows is installed."}

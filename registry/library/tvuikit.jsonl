@@ -1,0 +1,7 @@
+{"id": "/documentation/TVUIKit", "law": "When you build an app for tvOS with , you can use to refine the display of your content for a TV environment."}
+{"id": "/documentation/TVUIKit", "law": "Use the framework to provide deeper integration between your app and Apple TV."}
+{"id": "/documentation/tvuikit", "law": "When you build an app for tvOS with , you can use to refine the display of your content for a TV environment."}
+{"id": "/documentation/tvuikit", "law": "Use the framework to provide deeper integration between your app and Apple TV."}
+{"id": "/documentation/tvuikit/tvcollectionviewfullscreencell", "law": "Use to populate the full-screen collection view with content."}
+{"id": "/documentation/tvuikit/tvcollectionviewfullscreencell", "law": "A full-screen cell to use in full-screen display format."}
+{"id": "/documentation/tvuikit/tvcollectionviewfullscreenlayout", "law": "Use this class to create a full-screen browsing experience."}

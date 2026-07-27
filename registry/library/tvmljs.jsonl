@@ -1,0 +1,21 @@
+{"id": "/documentation/tvmljs/binding_json_data_to_tvml_documents", "law": "Use the attribute to uniquely identify the elements."}
+{"id": "/documentation/tvmljs/binding_json_data_to_tvml_documents", "law": "Rather than creating a separate in the TVML document for each JSON object, the sample uses a separate JSON file that contains the data that the elements use."}
+{"id": "/documentation/tvmljs/binding_json_data_to_tvml_documents", "law": "Use an to retrieve the JSON information from your server."}
+{"id": "/documentation/tvmljs/binding_json_data_to_tvml_documents", "law": "The property contains the data that the queries in the previous section use."}
+{"id": "/documentation/tvmljs/binding_json_data_to_tvml_documents", "law": "You need to add a type and an identifier to each JSON object because creating new objects requires both a type and a unique identifier for each object."}
+{"id": "/documentation/tvmljs/binding_json_data_to_tvml_documents", "law": "Use the method to bind the new data items with the data item."}
+{"id": "/documentation/tvmljs/creating_a_client-server_tvml_app", "law": "Use this sample code project to create your first client-server app."}
+{"id": "/documentation/tvmljs/creating_a_client-server_tvml_app", "law": "To avoid showing a blank screen, create and display a loading document to provide users with a visual cue that your app is working, despite not having a connection to the server."}
+{"id": "/documentation/tvmljs/creating_a_client-server_tvml_app", "law": "This ensures that you can always display the loading document, even if access to the server is down."}
+{"id": "/documentation/tvmljs/responding_to_user_interaction", "law": "This app shows you how to use events to update the screen when the user moves to a menu item, but doesn’t select the item."}
+{"id": "/documentation/tvmljs/responding_to_user_interaction", "law": "Use the function to load the template and then add an event listener to the document using the JavaScript function."}
+{"id": "/documentation/tvmljs/responding_to_user_interaction", "law": "Use the function to verify that the event fired for the correct TVML element."}
+{"id": "/documentation/tvmljs/responding_to_user_interaction", "law": "Use the function to load the new document from the server."}
+{"id": "/documentation/tvmljs", "law": "You use other classes in the framework to stream media and respond to events."}
+{"id": "/documentation/tvmljs/datasource", "law": "Use the interface to manage data represented as an array."}
+{"id": "/documentation/tvmljs/browser", "law": "When appropriately configured, use the method to display a new ."}
+{"id": "/documentation/tvmljs/mediaitem", "law": "In order to play audio or video, at a minimum, there must be a object that contains a single object which contains a single object."}
+{"id": "/documentation/tvmljs/player", "law": "In order to play audio or video, at a minimum, there must be a object that contains a single object, which contains a single object."}
+{"id": "/documentation/tvmljs/playlist", "law": "In order to play audio or video, at a minimum, there must be a object that contains a single object, which contains a single object."}
+{"id": "/documentation/tvmljs/slideshow", "law": "Use the method to create and begin a new slideshow."}
+{"id": "/documentation/tvmljs/menubardocument", "law": "Use the function with the feature name to retrieve an instance of this class from the element; for example, ."}

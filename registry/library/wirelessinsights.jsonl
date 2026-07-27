@@ -1,0 +1,2 @@
+{"id": "/documentation/WirelessInsights", "law": "The WirelessInsights framework notifies your app about network conditions that might affect its ability to use data."}
+{"id": "/documentation/WirelessInsights", "law": "Your app can take action appropriate to its use of cellular data; for example: A streaming media app might react to a prediction of a lengthy, high-impact event by buffering media in advance of the event."}

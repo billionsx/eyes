@@ -1,0 +1,10 @@
+{"id": "/documentation/Dispatch", "law": "The BSD subsystem, Core Foundation, and Cocoa APIs have all been extended to use these enhancements to help both the system and your application to run faster, more efficiently, and with improved responsiveness."}
+{"id": "/documentation/Dispatch", "law": "Consider how difficult it is for a single application to use multiple cores effectively, let alone to do it on different computers with different numbers of computing cores or in an environment with multiple applications competing for those cores."}
+{"id": "/documentation/Dispatch", "law": "When ARC is not enabled, use the and functions (or Objective-C semantics) to retain and release your dispatch objects."}
+{"id": "/documentation/Dispatch", "law": "You cannot use the Core Foundation retain and release functions."}
+{"id": "/documentation/Dispatch", "law": "If you need to use retain and release semantics in an ARC-enabled app with a later deployment target (for maintaining compatibility with existing code), you can disable Objective-C-based dispatch objects by adding to your compiler flags."}
+{"id": "/documentation/Dispatch/DispatchQueue", "law": "When designing tasks for concurrent execution, do not call methods that block the current thread of execution."}
+{"id": "/documentation/Dispatch/dispatch_data_t", "law": "Any direct access to the memory in a dispatch data object must not modify that memory."}
+{"id": "/documentation/Dispatch/dispatch_queue_t", "law": "The global concurrent queues invoke blocks in FIFO order but do not wait for their completion, allowing multiple blocks to be invoked concurrently."}
+{"id": "/documentation/Dispatch/DispatchQueue/main", "law": "Alternatively, use asynchronous versions of the call, if available."}
+{"id": "/documentation/Dispatch/DispatchQoS", "law": "Because higher priority work is performed more quickly and with more resources than lower priority work, it typically requires more energy than lower priority work."}

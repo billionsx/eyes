@@ -1,0 +1,5 @@
+{"id": "/documentation/GLKit", "law": "The GLKit framework provides functions and classes that reduce the effort required to create new shader-based apps or to port existing apps that rely on fixed-function vertex or fragment processing provided by earlier versions of OpenGL ES or OpenGL."}
+{"id": "/documentation/GLKit", "law": "This reduces the amount of code needed to create an iOS app that use OpenGL ES."}
+{"id": "/documentation/GLKit", "law": "On iOS, GLKit requires an OpenGL ES 2.0 context."}
+{"id": "/documentation/GLKit", "law": "In macOS, GLKit requires an OpenGL context that supports the OpenGL 3.2 Core Profile."}
+{"id": "/documentation/GLKit", "law": "Use math libraries, background texture loading, pre-created shader effects, and a standard view and view controller to implement your rendering loop."}

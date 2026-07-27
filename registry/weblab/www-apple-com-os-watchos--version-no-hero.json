@@ -1,0 +1,38 @@
+{
+ "url": "https://www.apple.com/os/watchos/?version=no-hero",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-siri",
+  "section-health",
+  "section-improvements",
+  "section-more",
+  "section-compatibility",
+  "section-developers"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:siri ai on apple watch gallery",
+  "name:health and fitness gallery",
+  "name:os improvements gallery",
+  "name:more",
+  "name:compatibility",
+  "name:developers"
+ ],
+ "imgs": 70,
+ "videos": 4,
+ "cta": 21,
+ "h_levels": {
+  "1": 1,
+  "2": 9,
+  "3": 30
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/os/f/built/styles/watchos.built.css"
+ ],
+ "typography_laws": 2
+}

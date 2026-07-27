@@ -1,0 +1,2 @@
+{"id": "/documentation/CoreMediaIO", "law": "Use the Core Media I/O framework to enable support for custom camera devices in macOS."}
+{"id": "/documentation/CoreMediaIO", "law": "The system prevents apps from loading extension code into their process to ensure that they can’t bypass macOS privacy protections or mask their identity."}

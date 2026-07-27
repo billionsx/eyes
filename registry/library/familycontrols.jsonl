@@ -1,0 +1,7 @@
+{"id": "/documentation/FamilyControls", "law": "To authorize your parental controls app, use a shared instance."}
+{"id": "/documentation/FamilyControls", "law": "You must add the Family Controls capability to your app before you call the or methods."}
+{"id": "/documentation/FamilyControls", "law": "Before submitting your app to the App Store, you must to use the entitlement."}
+{"id": "/documentation/FamilyControls", "law": "Authorizing parental controls for a child requires approval from a parent or guardian in the same Family Sharing group."}
+{"id": "/documentation/FamilyControls", "law": "Authorizing parental controls for an individual requires approval from the owner of the device."}
+{"id": "/documentation/FamilyControls", "law": "In addition, while a device has at least one app authorized for parental controls by a parent or guardian, the user can’t sign out of iCloud."}
+{"id": "/documentation/FamilyControls", "law": "In a compatible iPad or iPhone app running in visionOS, authorization attempts always fail."}

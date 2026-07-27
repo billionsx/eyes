@@ -1,0 +1,27 @@
+{"id": "/documentation/TVML", "law": "Use Apple TV Markup Language to create individual pages inside of a client-server app."}
+{"id": "/documentation/TVML", "law": "Simple elements often don’t contain other elements and typically fit on one line."}
+{"id": "/documentation/TVML", "law": "Use queries inside of a element to define different values for the same style in a single class."}
+{"id": "/documentation/tvml", "law": "Use Apple TV Markup Language to create individual pages inside of a client-server app."}
+{"id": "/documentation/tvml", "law": "Simple elements often don’t contain other elements and typically fit on one line."}
+{"id": "/documentation/tvml", "law": "Use queries inside of a element to define different values for the same style in a single class."}
+{"id": "/documentation/tvml/alerttemplate", "law": "Use the element to display important information, such as a message telling the user to perform an action before continuing."}
+{"id": "/documentation/tvml/alerttemplate", "law": "At a minimum, provide a description of the alert and a button so the user can take any required actions."}
+{"id": "/documentation/tvml/catalogtemplate", "law": "Use the element to display information about groups of like products; for example, a movie catalog that provides categories for dramas, comedies, and all movies."}
+{"id": "/documentation/tvml/compilationtemplate", "law": "Use the element to display information about one product that is made up of several distinct pieces; for example, an album and all of the songs that it contains."}
+{"id": "/documentation/tvml/compilationtemplate", "law": "The related content on the right side of the screen contains any images associated with the product and buttons that the user can use to interact with the product, such as Play and Buy buttons."}
+{"id": "/documentation/tvml/descriptivealerttemplate", "law": "Use the element to display a significant amount of important information, such as a Terms of Service page."}
+{"id": "/documentation/tvml/divtemplate", "law": "The element should only be used when you can’t use another template to achieve the look you want."}
+{"id": "/documentation/tvml/divtemplate", "law": "Provides the ability to create pages that don’t conform to a layout defined by another template."}
+{"id": "/documentation/tvml/formtemplate", "law": "Use the element to gather information from the user; for example, requiring a password to access your app."}
+{"id": "/documentation/tvml/formtemplate", "law": "Use the footer area to contain any user interaction buttons."}
+{"id": "/documentation/tvml/listtemplate", "law": "Use the element to display a list of items; for example, a list of the user’s favorite movies."}
+{"id": "/documentation/tvml/listtemplate", "law": "Whereas you use the catalog template to display categories of a product (action movies, comedies, favorite movies), you use the list template to display actual contents of one category, such as a list of the user’s favorite movies."}
+{"id": "/documentation/tvml/loadingtemplate", "law": "Use the element to display a spinner and description of why the spinner is being displayed; for example, an interim page showing that the requested page is being loaded."}
+{"id": "/documentation/tvml/loadingtemplate", "law": "When a user performs an action to bring up a new page and the new page is not immediately ready, a page should be presented."}
+{"id": "/documentation/tvml/maintemplate", "law": "Use the element to display options to the user; for example, the main page for a movie with options to play the movie, see extra content, and jump to specific scenes."}
+{"id": "/documentation/tvml/menubartemplate", "law": "Use the to display a list of selectable items across the top of the screen."}
+{"id": "/documentation/tvml/oneuptemplate", "law": "Use the element to display a single, full-screen image."}
+{"id": "/documentation/tvml/paradetemplate", "law": "Use the element to display a list of automatically scrolling, static images on the left that are associated with a selected image category on the right."}
+{"id": "/documentation/tvml/productbundletemplate", "law": "Use the element to display detailed information about a product bundle, such as a page that describes a television series, including information about the actors, ratings, and series episodes."}
+{"id": "/documentation/tvml/producttemplate", "law": "Use the element to display, for example, a page that describes a movie, including information about the actors, ratings, and like movies."}
+{"id": "/documentation/tvml/ratingtemplate", "law": "Use the element to display a rating for an item."}

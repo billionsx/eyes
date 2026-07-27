@@ -1,0 +1,22 @@
+{"id": "/documentation/WatchConnectivity/transferring-data-with-watch-connectivity", "law": "This sample demonstrates how to use the APIs, and how to handle Watch Connectivity background tasks."}
+{"id": "/documentation/WatchConnectivity/transferring-data-with-watch-connectivity", "law": "Use a physical iPhone and Apple Watch to test this sample code project."}
+{"id": "/documentation/WatchConnectivity/transferring-data-with-watch-connectivity", "law": "For example, if the iOS app target uses , the watchOS app and widget targets must use and , respectively."}
+{"id": "/documentation/WatchConnectivity/transferring-data-with-watch-connectivity", "law": "The reply handler runs asynchronously on a background thread, and returns quickly to avoid timeout."}
+{"id": "/documentation/WatchConnectivity/transferring-data-with-watch-connectivity", "law": "Apps can use to retrieve the number of remaining times."}
+{"id": "/documentation/WatchConnectivity/transferring-data-with-watch-connectivity", "law": "When using Watch Connectivity, apps must complete every background task ( )."}
+{"id": "/documentation/WatchConnectivity", "law": "Use this framework to transfer data between your iOS app and the WatchKit extension of a paired watchOS app."}
+{"id": "/documentation/WatchConnectivity", "law": "You also use this framework to trigger an update to your watchOS app’s complication."}
+{"id": "/documentation/WatchConnectivity/WCSession/remainingComplicationUserInfoTransfers", "law": "If this property is set to 0, any additional calls to use instead."}
+{"id": "/documentation/WatchConnectivity/WCSession/sendMessage(_:replyHandler:errorHandler:)", "law": "Use this message to send a dictionary of data to the counterpart as soon as possible."}
+{"id": "/documentation/WatchConnectivity/WCSession/transferCurrentComplicationUserInfo(_:)", "law": "A transfer object that you can use to monitor and cancel the operation."}
+{"id": "/documentation/WatchConnectivity/WCSession/transferCurrentComplicationUserInfo(_:)", "law": "Your WatchKit extension can use the data to replace or extend its current timeline entries."}
+{"id": "/documentation/WatchConnectivity/WCSession/transferCurrentComplicationUserInfo(_:)", "law": "Always test Watch Connectivity data transfers on paired devices."}
+{"id": "/documentation/WatchConnectivity/WCSession/transferUserInfo(_:)", "law": "A transfer object that you can use to monitor and cancel the operation."}
+{"id": "/documentation/WatchConnectivity/WCSession/transferUserInfo(_:)", "law": "Call this method when you want to send a dictionary of data to the counterpart and ensure that it’s delivered."}
+{"id": "/documentation/WatchConnectivity/WCSession/transferUserInfo(_:)", "law": "Always test Watch Connectivity data transfers on paired devices."}
+{"id": "/documentation/WatchConnectivity/WCSession/updateApplicationContext(_:)", "law": "Use this method to transfer a dictionary of data items to the counterpart app."}
+{"id": "/documentation/WatchConnectivity/WCSession/updateApplicationContext(_:)", "law": "The system sends context data when the opportunity arises, with the goal of having the data ready to use by the time the counterpart wakes up."}
+{"id": "/documentation/WatchConnectivity/WCSession/updateApplicationContext(_:)", "law": "This method replaces the previous dictionary that was set, so you should use this method to communicate state changes or to deliver data that is updated frequently anyway."}
+{"id": "/documentation/WatchConnectivity/WCSession/updateApplicationContext(_:)", "law": "Sends a dictionary of values that a paired and active device can use to synchronize its state."}
+{"id": "/documentation/watchconnectivity", "law": "Use this framework to transfer data between your iOS app and the WatchKit extension of a paired watchOS app."}
+{"id": "/documentation/watchconnectivity", "law": "You also use this framework to trigger an update to your watchOS app’s complication."}

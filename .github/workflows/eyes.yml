@@ -1,0 +1,109 @@
+name: eyes
+
+# ДЕПАРТАМЕНТ BILLIONS X EYES · устав: CONSTITUTION.md
+#
+# Автономный репозиторий: департамент не принадлежит ни одному проекту.
+# Проекты подключаются паспортами adapters/*.json; код проектов забирается
+# в _projects/ и судится оттуда. Хроника коммитится В РЕПОЗИТОРИЙ — это
+# основной канал наблюдаемости (логи Actions из песочницы не читаются).
+#
+# Коммит делает встроенный токен → цикла «пуш → прогон → пуш» не возникает.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "dashboard/**"
+      - "briefs/**"
+      - "certificates/**"
+      - "registry/state/**"
+      - "registry/live/**"
+      - "registry/atlas/**"
+      - "registry/bizlab/**"
+      - "registry/weblab/**"
+      - "registry/knowledge/**"
+      - "registry/library/**"
+      - "registry/snapshots/**"
+      - "registry/screens/**"
+      - "docs/**"
+      - "*.md"
+  schedule:
+    - cron: "43 5 * * 1"   # понедельник — полный обход
+    - cron: "43 5 * * 4"   # четверг — резервный слот (GH-кроны роняют слоты)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [eyes-run]
+
+concurrency:
+  group: eyes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  eyes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: "Инструменты"
+        run: pip install --quiet pillow numpy
+
+      - name: "Суд — selftest (живые нарушения в обе стороны)"
+        run: python3 bin/eyes.py selftest
+
+      - name: "Реестр подключённых проектов (ст. 57)"
+        run: python3 bin/eyes.py projects
+
+      - name: "Разведка — дозор источников Apple"
+        run: python3 bin/eyes.py crawl
+
+      - name: "Дозор iOS 27"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 bin/eyes.py ios27 --issue-on-detect
+
+      - name: "Пробы iOS 27 — вербовка оживших страниц (устав §7.3)"
+        run: python3 bin/eyes.py probe
+
+      - name: "Знание — нормативная выжимка из снимков (устав §7.2)"
+        run: python3 bin/eyes.py digest
+
+      - name: "Сверка — конституция ↔ реестр ↔ знание Apple (ст. 45)"
+        run: python3 bin/eyes.py verify
+
+      - name: "Изученность — каждая статья кодекса изучена (замер/знание/🕳)"
+        run: python3 bin/eyes.py study
+
+      - name: "Забор кода подключённых проектов (ст. 57)"
+        env:
+          EYES_PROJECTS_TOKEN: ${{ secrets.EYES_PROJECTS_TOKEN }}
+        run: python3 bin/fetch.py
+
+      - name: "Советник + храповик — по ВСЕМ паспортам, долг только падает"
+        run: bash bin/advise.sh
+
+      - name: "Кадротека → релиз (одноразовый мост, затем очистка)"
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ls registry/screens/raw_part_* >/dev/null 2>&1; then
+            cat registry/screens/raw_part_* > /tmp/Apple_Apps_iOS27.zip
+            REL=$(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${{ github.repository }}/releases/tags/eyes-screens-v1 | python3 -c "import sys,json;print(json.load(sys.stdin).get('id',''))")
+            curl -s -H "Authorization: token $GITHUB_TOKEN" -H "Content-Type: application/zip" --data-binary @/tmp/Apple_Apps_iOS27.zip "https://uploads.github.com/repos/${{ github.repository }}/releases/$REL/assets?name=Apple_Apps_iOS27.zip" -o /tmp/up.json -w "upload HTTP=%{http_code}\n"
+            python3 -c "import json;d=json.load(open('/tmp/up.json'));print('asset:',d.get('state',d.get('message')))"
+            rm -f registry/screens/raw_part_*
+          fi
+
+      - name: "Эфир — пересборка дашборда (ст. 54)"
+        if: always()
+        run: python3 bin/dashboard.py
+
+      - name: "Хроника — коммит состояния в репозиторий"
+        if: always()
+        run: |
+          bash bin/chronicle.sh "eyes: хроника разведки" registry dashboard

@@ -1,0 +1,6 @@
+{"id": "/documentation/GameplayKit", "law": "Describe your gameplay by creating classes that adopt the game model protocols, then use those classes with a strategist object to create AI players or suggest moves."}
+{"id": "/documentation/GameplayKit", "law": "Classes that model impassable areas in a game world, for use with Pathfinding and Agents."}
+{"id": "/documentation/GameplayKit", "law": "Generate fields of coherent random noise, then use them to create texture images resembling natural phenomena such as clouds or wood grain, build procedural game worlds of unlimited size, and more."}
+{"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "For cryptography, obfuscation, or cipher uses, use the Security framework, described in ."}
+{"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "To generate basic random values with this random source, use the methods defined in the protocol."}
+{"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "To generate random values with a specific range and distribution, use this random source with the class or one of its subclasses."}

@@ -1,0 +1,3 @@
+{"id": "/documentation/MediaIntelligence", "law": "Use it in video editors, photo organizers, and other media apps to add intelligence features without building the underlying analysis pipeline yourself."}
+{"id": "/documentation/MediaIntelligence", "law": "You can then query the analyzer to retrieve faces by asset, entity, or face ID, and use the results to build features like person-based photo organization or face search."}
+{"id": "/documentation/MediaIntelligence", "law": "Use to identify the most engaging segments of a video clip, or use to select a keyframe that represents the overall theme of the video."}

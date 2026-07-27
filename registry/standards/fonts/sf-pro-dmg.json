@@ -1,0 +1,475 @@
+{
+ "dmg": "SF-Pro.dmg",
+ "faces": [
+  {
+   "name": "SF Pro Display Black",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1104,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Black.otf"
+  },
+  {
+   "name": "SF Pro Display Black Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1104,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-BlackItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Bold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1072,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Bold.otf"
+  },
+  {
+   "name": "SF Pro Display Bold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1075,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-BoldItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Heavy",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1089,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Heavy.otf"
+  },
+  {
+   "name": "SF Pro Display Heavy Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1089,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-HeavyItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Light",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Light.otf"
+  },
+  {
+   "name": "SF Pro Display Light Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-LightItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Medium",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1052,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Medium.otf"
+  },
+  {
+   "name": "SF Pro Display Medium Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1055,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-MediumItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Regular",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Regular.otf"
+  },
+  {
+   "name": "SF Pro Display Regular Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-RegularItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Semibold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1060,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Semibold.otf"
+  },
+  {
+   "name": "SF Pro Display Semibold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1062,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-SemiboldItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Thin",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Thin.otf"
+  },
+  {
+   "name": "SF Pro Display Thin Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-ThinItalic.otf"
+  },
+  {
+   "name": "SF Pro Display Ultralight",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-Ultralight.otf"
+  },
+  {
+   "name": "SF Pro Display Ultralight Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Display-UltralightItalic.otf"
+  },
+  {
+   "name": "SF Pro Rounded Black",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1104,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Black.otf"
+  },
+  {
+   "name": "SF Pro Rounded Bold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1072,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Bold.otf"
+  },
+  {
+   "name": "SF Pro Rounded Heavy",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1089,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Heavy.otf"
+  },
+  {
+   "name": "SF Pro Rounded Light",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Light.otf"
+  },
+  {
+   "name": "SF Pro Rounded Medium",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1052,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Medium.otf"
+  },
+  {
+   "name": "SF Pro Rounded Regular",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Regular.otf"
+  },
+  {
+   "name": "SF Pro Rounded Semibold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1060,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Semibold.otf"
+  },
+  {
+   "name": "SF Pro Rounded Thin",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Thin.otf"
+  },
+  {
+   "name": "SF Pro Rounded Ultralight",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Rounded-Ultralight.otf"
+  },
+  {
+   "name": "SF Pro Text Black",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1124,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Black.otf"
+  },
+  {
+   "name": "SF Pro Text Black Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1124,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-BlackItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Bold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1101,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Bold.otf"
+  },
+  {
+   "name": "SF Pro Text Bold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1103,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-BoldItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Heavy",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1113,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Heavy.otf"
+  },
+  {
+   "name": "SF Pro Text Heavy Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1113,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-HeavyItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Light",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1077,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Light.otf"
+  },
+  {
+   "name": "SF Pro Text Light Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1077,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-LightItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Medium",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1086,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Medium.otf"
+  },
+  {
+   "name": "SF Pro Text Medium Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1089,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-MediumItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Regular",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1078,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Regular.otf"
+  },
+  {
+   "name": "SF Pro Text Regular Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1078,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-RegularItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Semibold",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1093,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Semibold.otf"
+  },
+  {
+   "name": "SF Pro Text Semibold Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1094,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-SemiboldItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Thin",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1077,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Thin.otf"
+  },
+  {
+   "name": "SF Pro Text Thin Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1077,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-ThinItalic.otf"
+  },
+  {
+   "name": "SF Pro Text Ultralight",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1076,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-Ultralight.otf"
+  },
+  {
+   "name": "SF Pro Text Ultralight Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1076,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Text-UltralightItalic.otf"
+  },
+  {
+   "name": "SF Pro Italic",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro-Italic.ttf"
+  },
+  {
+   "name": "SF Pro",
+   "unitsPerEm": 2048,
+   "capHeight": 1443,
+   "capHeight_fraction": 0.7046,
+   "xHeight": 1040,
+   "ascender": 1950,
+   "descender": -494,
+   "at": "font:SF-Pro.dmg:SF-Pro.ttf"
+  }
+ ]
+}

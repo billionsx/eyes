@@ -1,0 +1,8 @@
+{"id": "/documentation/VisualIntelligence", "law": "People use visual intelligence to learn about places and objects around them and onscreen."}
+{"id": "/documentation/VisualIntelligence", "law": "To integrate your app with visual intelligence and include your app’s content in search results, use the Visual Intelligence framework and ."}
+{"id": "/documentation/VisualIntelligence/integrating-your-app-with-visual-intelligence", "law": "Make sure to provide localized, concise, and high-quality display representations that consist of a title, subtitle, and an image."}
+{"id": "/documentation/VisualIntelligence/integrating-your-app-with-visual-intelligence", "law": "In your code, make sure to provide a localized display representation."}
+{"id": "/documentation/VisualIntelligence/integrating-your-app-with-visual-intelligence", "law": "Use the descriptor’s to access a list of labels that visual intelligence creates or the of the camera capture."}
+{"id": "/documentation/VisualIntelligence/integrating-your-app-with-visual-intelligence", "law": "Returning results quickly makes for a good search experience, so make sure to limit the list of returned items, if needed."}
+{"id": "/documentation/VisualIntelligence/integrating-your-app-with-visual-intelligence", "law": "A common case is to convert the pixel buffer into an image, then use the image in an image search."}
+{"id": "/documentation/VisualIntelligence/integrating-your-app-with-visual-intelligence", "law": "To return more than one type from a single intent value query, use the Swift macro to return multiple app entity types."}

@@ -1,0 +1,24 @@
+{"id": "/documentation/CoreVideo", "law": "Apps that don’t need to manipulate individual video frames don’t need to use Core Video directly."}
+{"id": "/documentation/CoreVideo/cvpixelbuffer-q2e", "law": "Applications generating frames, compressing or decompressing video, or using Core Image can all make use of Core Video pixel buffers."}
+{"id": "/documentation/CoreVideo/CVBufferSetAttachment(_:_:_:_:)", "law": "To retrieve attachments, use the or functions."}
+{"id": "/documentation/CoreVideo/kCVPixelBufferIOSurfacePropertiesKey", "law": "Provide a value for this key if you want Core Video to use the framework to allocate the pixel buffer."}
+{"id": "/documentation/CoreVideo/kCVPixelBufferIOSurfacePropertiesKey", "law": "Provide an empty dictionary to use the default options."}
+{"id": "/documentation/CoreVideo/CVPixelBufferLockBaseAddress(_:_:)", "law": "You must call the function before accessing pixel data with the CPU, and call the function afterward."}
+{"id": "/documentation/CoreVideo/CVPixelBufferLockBaseAddress(_:_:)", "law": "If you include the value in the parameter when locking the buffer, you must also include it when unlocking the buffer."}
+{"id": "/documentation/CoreVideo/CVPixelBufferUnlockBaseAddress(_:_:)", "law": "You must call the function before accessing pixel data with the CPU, and call the function afterward."}
+{"id": "/documentation/CoreVideo/CVPixelBufferUnlockBaseAddress(_:_:)", "law": "If you include the value in the parameter when locking the buffer, you must also include it when unlocking the buffer."}
+{"id": "/documentation/CoreVideo/cvdisplaylink-k0k", "law": "You can use a display link to easily synchronize with the refresh rate of a display."}
+{"id": "/documentation/corevideo", "law": "Apps that don’t need to manipulate individual video frames don’t need to use Core Video directly."}
+{"id": "/documentation/corevideo/cvpixelbufferlockbaseaddress(_:_:)", "law": "You must call the function before accessing pixel data with the CPU, and call the function afterward."}
+{"id": "/documentation/corevideo/cvpixelbufferlockbaseaddress(_:_:)", "law": "If you include the value in the parameter when locking the buffer, you must also include it when unlocking the buffer."}
+{"id": "/documentation/corevideo/cvpixelbufferunlockbaseaddress(_:_:)", "law": "You must call the function before accessing pixel data with the CPU, and call the function afterward."}
+{"id": "/documentation/corevideo/cvpixelbufferunlockbaseaddress(_:_:)", "law": "If you include the value in the parameter when locking the buffer, you must also include it when unlocking the buffer."}
+{"id": "/documentation/corevideo/cvplanarcomponentinfo", "law": "For this reason, you should use and to get information about a planar pixel buffer."}
+{"id": "/documentation/corevideo/cvpixelbufferlockflags/readonly", "law": "Set this flag if you don’t plan to modify buffer data while holding the lock."}
+{"id": "/documentation/corevideo/cvpixelbufferlockflags/readonly", "law": "If you pass this flag to the function, you must also pass it to the function."}
+{"id": "/documentation/corevideo/cvdisplaylinkcreatewithcgdisplay(_:_:)", "law": "Use this call to create a display link for a single display."}
+{"id": "/documentation/corevideo/cvdisplaylinkcreatewithcgdisplays(_:_:_:)", "law": "Use this call to create a display link for a set of displays identified by the Core Graphics display IDs."}
+{"id": "/documentation/corevideo/cvdisplaylinkgetcurrenttime(_:_:)", "law": "You use this call to obtain the timestamp of the frame that is currently being displayed."}
+{"id": "/documentation/corevideo/cvdisplaylinkoutputcallback", "law": "Your app must register a callback function for the system to invoke with the data necessary to process and output a frame of video."}
+{"id": "/documentation/corevideo/cvdisplaylinkoutputcallback", "law": "Your callback must retrieve the frame with the timestamp that the parameter specifies, manipulate it if you require (for example, apply color correction or map onto a surface), and output it to the display."}
+{"id": "/documentation/corevideo/cvtime-q1e", "law": "You use them to interact with the Core Video display link."}

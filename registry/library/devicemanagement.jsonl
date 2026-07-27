@@ -1,0 +1,9 @@
+{"id": "/documentation/DeviceManagement", "law": "Administrators use Apple School Manager or Apple Business Manager to enroll organization-owned devices, and users can enroll their own devices."}
+{"id": "/documentation/DeviceManagement/WebContentFilter", "law": "Available: iOS 7+ | iPadOS 7+ | visionOS 1.1+ Use instead."}
+{"id": "/documentation/DeviceManagement/WebContentFilter", "law": "Use when is .This key must be present for unsupervised devices and user enrollment."}
+{"id": "/documentation/DeviceManagement/WebContentFilter", "law": "At least one of or needs to be ."}
+{"id": "/documentation/DeviceManagement/WebContentFilter", "law": "At least one of or needs to be ."}
+{"id": "/documentation/DeviceManagement/WebContentFilter", "law": "At least one of or needs to be ."}
+{"id": "/documentation/DeviceManagement/WebContentFilter", "law": "If , this payload enforces a policy which requires retention of browsing history."}
+{"id": "/documentation/DeviceManagement/WebContentFilter", "law": "This causes Safari to disable clearing of browsing history, and prevents the use of private browsing mode because that mode doesn’t keep browsing history."}
+{"id": "/documentation/DeviceManagement/WebContentFilter/URLFilterParameters-data.dictionary", "law": "The minimum allowed value is 2700 seconds (45 minutes)."}

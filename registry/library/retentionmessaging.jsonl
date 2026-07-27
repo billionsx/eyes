@@ -1,0 +1,5 @@
+{"id": "/documentation/RetentionMessaging", "law": "Don’t upload content that is misleading or inaccurate."}
+{"id": "/documentation/RetentionMessaging", "law": "The simplest way to use this API is to configure default messages."}
+{"id": "/documentation/RetentionMessaging", "law": "Then, specify the messages to use as default messages."}
+{"id": "/documentation/RetentionMessaging", "law": "To provide retention messages that include offers, use the real-time messaging flow."}
+{"id": "/documentation/RetentionMessaging", "law": "The system requires the default messages to use as a fallback if a real-time call to your server fails for any reason."}

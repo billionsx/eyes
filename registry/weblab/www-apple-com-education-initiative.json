@@ -1,0 +1,39 @@
+{
+ "url": "https://www.apple.com/education-initiative/",
+ "sections": [
+  "section-hero",
+  "section-intro",
+  "section-educators",
+  "section-opportunities",
+  "section-equity",
+  "section-router",
+  "section-newsroom",
+  "section-values"
+ ],
+ "modules": [
+  "name:hero",
+  "name:intro",
+  "name:educators",
+  "name:opportunities",
+  "name:equity",
+  "name:router",
+  "name:newsroom",
+  "name:values gallery"
+ ],
+ "imgs": 80,
+ "videos": 0,
+ "cta": 15,
+ "h_levels": {
+  "1": 1,
+  "2": 22,
+  "3": 22
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/education-initiative/c/built/styles/main.built.css",
+  "/v/education-initiative/c/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

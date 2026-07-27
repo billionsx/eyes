@@ -1,0 +1,6 @@
+{"id": "/documentation/dnssd", "law": "In support of these main tasks, this API can directly assist you in performing two subsidiary tasks: Enumerating domains (finding recommended service domains)."}
+{"id": "/documentation/dnssd", "law": "Most apps shouldn’t use this API, and instead should use a higher-level service discovery API like ."}
+{"id": "/documentation/dnssd", "law": "Use dnssd if you’re writing BSD-style applications or cross-platform programs that don’t need to link to higher-level frameworks."}
+{"id": "/documentation/dnssd", "law": "You can also use dnssd if you need specific lower-level functionality exposed by this API."}
+{"id": "/documentation/dnssd", "law": "Apps that use the local network must provide a usage string in their file with the key ."}
+{"id": "/documentation/dnssd", "law": "Apps that use must also declare the services they browse, using the key."}

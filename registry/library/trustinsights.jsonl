@@ -1,0 +1,3 @@
+{"id": "/documentation/TrustInsights", "law": "The Trust Insights framework requires that your app’s Xcode project enables the entitlement."}
+{"id": "/documentation/TrustInsights", "law": "In order to request evaluations, you need to first request a person’s permission to use the Trust Insights framework."}
+{"id": "/documentation/TrustInsights", "law": "The result of a Trust Insight evaluation can help you determine if you should perform further checks before finalizing a transaction."}

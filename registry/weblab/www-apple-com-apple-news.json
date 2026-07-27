@@ -1,0 +1,46 @@
+{
+ "url": "https://www.apple.com/apple-news/",
+ "sections": [
+  "section-ribbon",
+  "section-hero",
+  "section-offers",
+  "section-publications",
+  "section-puzzles",
+  "section-audio",
+  "section-personalized",
+  "section-devices",
+  "section-plans",
+  "section-tiles-grid",
+  "section-faq",
+  "section-router"
+ ],
+ "modules": [
+  "name:hero",
+  "name:subscription offers",
+  "name:publications",
+  "name:puzzles",
+  "name:personalization",
+  "name:devices",
+  "name:plans",
+  "name:apple news+",
+  "name:apple one",
+  "name:router",
+  "name:free-trial"
+ ],
+ "imgs": 12,
+ "videos": 0,
+ "cta": 39,
+ "h_levels": {
+  "1": 1,
+  "2": 16,
+  "3": 24
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-news/n/built/styles/main.built.css",
+  "/v/apple-news/n/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

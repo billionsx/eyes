@@ -1,0 +1,4 @@
+{"id": "/documentation/SoundAnalysis/classifying-sounds-in-an-audio-file", "law": "For example, a sound recording app can use an audio file analyzer to assign searchable metadata tags to each sound file in its library."}
+{"id": "/documentation/SoundAnalysis/classifying-sounds-in-an-audio-file", "law": "The same app could also use the analyzer to add timestamps to each recording so that the user can jump to a moment with a specific sound."}
+{"id": "/documentation/SoundAnalysis/classifying-sounds-in-an-audio-file", "law": "You must maintain a strong reference to your observer."}
+{"id": "/documentation/SoundAnalysis/classifying-sounds-in-an-audio-file", "law": "Sound analyzers don’t keep strong references to your observer."}

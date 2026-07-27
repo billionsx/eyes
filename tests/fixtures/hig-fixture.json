@@ -1,0 +1,51 @@
+{
+ "metadata": {
+  "title": "Buttons"
+ },
+ "primaryContentSections": [
+  {
+   "content": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Best practices"
+    },
+    {
+     "type": "paragraph",
+     "inlineContent": [
+      {
+       "type": "text",
+       "text": "Use a minimum tappable area of 44x44 pt for all controls."
+      },
+      {
+       "type": "text",
+       "text": "Avoid pairing a filled button with a bordered one."
+      },
+      {
+       "type": "text",
+       "text": "Ensure your interface responds to the Reduce Motion setting."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Platform considerations"
+    },
+    {
+     "type": "paragraph",
+     "inlineContent": [
+      {
+       "type": "text",
+       "text": "People expect buttons to respond within about 100 ms."
+      },
+      {
+       "type": "text",
+       "text": "Decorative flourishes are fine here."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "url": "https://www.apple.com/apple-tv/",
+ "sections": [
+  "section-hero",
+  "section-value-props",
+  "section-offers",
+  "section-shows",
+  "section-sports",
+  "section-apple-tv-app",
+  "section-faq",
+  "section-routers"
+ ],
+ "modules": [
+  "name:hero",
+  "name:value props",
+  "name:offers",
+  "name:shows",
+  "name:sports",
+  "name:apple tv app",
+  "name:faq",
+  "name:apple tv 4k",
+  "name:airplay"
+ ],
+ "imgs": 6,
+ "videos": 0,
+ "cta": 35,
+ "h_levels": {
+  "1": 1,
+  "2": 6,
+  "3": 46
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-tv/c/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

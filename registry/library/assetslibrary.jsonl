@@ -1,0 +1,2 @@
+{"id": "/documentation/AssetsLibrary", "law": "Use the Assets Library framework to access the pictures and videos managed by the Photos application."}
+{"id": "/documentation/AssetsLibrary", "law": "Instead, use the framework, which in iOS 8.0 and later provides more features and better performance for working with a user’s photo library."}

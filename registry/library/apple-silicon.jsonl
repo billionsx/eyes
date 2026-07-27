@@ -1,0 +1,74 @@
+{"id": "/documentation/Apple-Silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "Some iPad apps, such as games, require a full-screen experience."}
+{"id": "/documentation/Apple-Silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "These apps don’t participate in iPad multitasking, and they don’t support resizable windows when run on a Mac."}
+{"id": "/documentation/Apple-Silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "To ensure these behaviors, the apps include the key with a value of in their file."}
+{"id": "/documentation/Apple-Silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "This sample shows how to configure an iPad app that requires full-screen mode on iPad to take advantage of the native resolution of the Mac display for a pixel-perfect, edge-to-edge, full-screen experience."}
+{"id": "/documentation/Apple-Silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "An app that requires full screen on iPad — that is, an app that includes the key with a value of in its file — doesn’t take advantage of the entire display when run on a Mac in full-screen mode."}
+{"id": "/documentation/Apple-Silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "Many apps that require full-screen mode when running on iPad look equally as good on Mac when appearing in a window."}
+{"id": "/documentation/Apple-Silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "You can use the app to explore Touch Alternatives on your Mac with Apple silicon."}
+{"id": "/documentation/Apple-Silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "Use a mouse or trackpad to drag the circle around the window."}
+{"id": "/documentation/Apple-Silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "Press and hold Option to use a trackpad as a virtual touch screen."}
+{"id": "/documentation/Apple-Silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "The array should include only those values that make sense for the app."}
+{"id": "/documentation/Apple-Silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "With earlier versions of Xcode, developers can use the Property List template."}
+{"id": "/documentation/apple-silicon", "law": "Getting the best performance on Apple silicon sometimes requires making adjustments to the way you use hardware resources."}
+{"id": "/documentation/apple-silicon", "law": "For example, use Grand Central Dispatch instead of creating and managing threads yourself."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "Most iOS apps require no modifications to run on Apple silicon."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "In particular, frameworks that interact with iOS-specific hardware, such as Core Motion and ARKit, return errors when you try to use features that aren’t available."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "Similarly, macOS doesn’t support frameworks like HomeKit, and you receive errors when you use them."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "Before you attempt to use any sensor or feature in your iOS app, always check whether it’s available."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "Don’t assume a device contains a front- or rear-facing camera."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "Use Core Location to fetch location data as you do in iOS."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "Core Location doesn’t require GPS hardware to get the current location."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "The better alternative is to use hard data that relates directly to the current task."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "For example, use size classes to determine whether to display an expanded or minimal version of your app’s interface."}
+{"id": "/documentation/apple-silicon/adapting-ios-code-to-run-in-the-macos-environment", "law": "When you do need to know the device type, use higher-level APIs whenever possible."}
+{"id": "/documentation/apple-silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "You can use the app to explore Touch Alternatives on your Mac with Apple silicon."}
+{"id": "/documentation/apple-silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "Use a mouse or trackpad to drag the circle around the window."}
+{"id": "/documentation/apple-silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "Press and hold Option to use a trackpad as a virtual touch screen."}
+{"id": "/documentation/apple-silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "The array should include only those values that make sense for the app."}
+{"id": "/documentation/apple-silicon/providing-touch-gesture-equivalents-using-touch-alternatives", "law": "With earlier versions of Xcode, developers can use the Property List template."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "Your apps use the same frameworks and infrastructure that Mac Catalyst apps use to run, but without the need to recompile for the Mac platform."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "Your app requires frameworks, symbols, or features unavailable in macOS."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "You don’t want users to have access to the content in your app’s bundle or data container."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "The absence of specific hardware on a Mac doesn’t always require you to opt out."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "You can disable parts of your app that require device-specific hardware, allowing the user to use the rest of your app."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "For example, Core Location doesn’t require GPS to return location data."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "You don’t need to opt out apps that rely on single-finger touch input or make occasional use of multifinger gestures."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "If you don’t adopt iPad multitasking, your iPad app runs in a fixed-size window."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "iPhone apps always run in a fixed-size window."}
+{"id": "/documentation/apple-silicon/running-your-ios-apps-in-macos", "law": "Use and APIs to find files and standard system directories."}
+{"id": "/documentation/apple-silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "Some iPad apps, such as games, require a full-screen experience."}
+{"id": "/documentation/apple-silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "These apps don’t participate in iPad multitasking, and they don’t support resizable windows when run on a Mac."}
+{"id": "/documentation/apple-silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "To ensure these behaviors, the apps include the key with a value of in their file."}
+{"id": "/documentation/apple-silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "This sample shows how to configure an iPad app that requires full-screen mode on iPad to take advantage of the native resolution of the Mac display for a pixel-perfect, edge-to-edge, full-screen experience."}
+{"id": "/documentation/apple-silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "An app that requires full screen on iPad — that is, an app that includes the key with a value of in its file — doesn’t take advantage of the entire display when run on a Mac in full-screen mode."}
+{"id": "/documentation/apple-silicon/providing-an-edge-to-edge-full-screen-experience-in-your-ipad-app-running-on-a-mac", "law": "Many apps that require full-screen mode when running on iPad look equally as good on Mac when appearing in a window."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "If you use custom makefiles or build scripts, add the architecture to your build system."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "macOS frameworks shield apps from most architectural differences between platforms, but some differences may still require you to change your code."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "In addition, architectural differences may affect your app’s performance and require further changes."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "Early in the porting process, identify the workflow you’ll use to build and test your code."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "However, always test, tune, and validate your code on both computer types to uncover issues specific to that architecture."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "If you tuned your code specifically for the architecture and hardware capabilities, porting to may require additional effort."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "To start your investigation, make a note of any code that does the following: Interacts with third-party libraries you don’t own."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "Always have a well-defined test plan, ideally with a set of automated test suites you can run at build time."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "Use that information to identify additional areas to investigate."}
+{"id": "/documentation/Apple-Silicon/porting-your-macos-apps-to-apple-silicon", "law": "All code running in the same process must support the same architecture."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "Assumptions you make for your code on Intel-based Mac computers may not always apply on Apple silicon."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "Use the following tips to identify potential problem areas in your code before you begin testing."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "When a global variable isn’t available, use the or functions to fetch the information instead."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "Some features of Apple silicon are decidedly different than those of Intel-based Mac computers, and may impact your code if you don’t fetch them dynamically."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "For example, to determine if AVX512 instructions are available, use the string."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "Always protect shared data with locks, memory barriers, and other synchronization primitives present in macOS."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "To ensure the correctness of your code on both platforms, add explicit synchronization primitives to your code."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "If you use lockless algorithms or custom synchronization techniques, consider replacing them with system-provided primitives."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "Use the thread sanitizer to detect data races and identify places where your code requires synchronization."}
+{"id": "/documentation/Apple-Silicon/addressing-architectural-differences-in-your-macos-code", "law": "On , the compiler always places variadic parameters on the stack, regardless of whether registers are available."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Tuning the performance of any code requires separate passes on both Apple silicon and Intel-based Mac computers."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Take advantage of these APIs to ensure your code runs efficiently on all Mac computers."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Use Instruments to gather performance data for your app on both Apple silicon and Intel-based Mac computers."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Use the data you gather to identify potential performance regressions, and the parts of your code that you might need to change."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "This class emphasizes maximum performance and responsiveness."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "If you don’t assign QoS classes, your app’s responsiveness and efficiency may suffer as a result."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "For example, use the function to set the QoS class of your POSIX threads."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Use GCD to execute serially, concurrently, or in parallel on the system’s available cores."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Instead of custom thread pools, you use dispatch queues to schedule your tasks for execution."}
+{"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "For more information about how to use GCD, see ."}

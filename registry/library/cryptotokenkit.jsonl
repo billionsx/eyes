@@ -1,0 +1,6 @@
+{"id": "/documentation/CryptoTokenKit", "law": "You use the CryptoTokenKit framework to easily access cryptographic tokens."}
+{"id": "/documentation/CryptoTokenKit", "law": "You use the framework to work with a token’s assets as if they were part of your system, even though they remain secured by the token."}
+{"id": "/documentation/CryptoTokenKit", "law": "You can also use the framework to enable a token for two-factor authentication in macOS."}
+{"id": "/documentation/CryptoTokenKit", "law": "Starting in macOS 10.15.4, the CryptoTokenKit framework includes support for always-available tokens, referred to as persistent tokens."}
+{"id": "/documentation/CryptoTokenKit", "law": "The app hosting the token extension allows the system to address and use available tokens, address and use identities available by accessing tokens, and to access additional configuration information about tokens."}
+{"id": "/documentation/CryptoTokenKit", "law": "When you want to manage the associations between users and tokens on a given computer, use the command line utility."}

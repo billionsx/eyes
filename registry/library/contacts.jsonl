@@ -1,0 +1,35 @@
+{"id": "/documentation/Contacts/accessing-a-person-s-contact-data-using-contacts-and-contactsui", "law": "Before running the sample code project in Xcode, select the sample target, then configure it to use your Developer team for signing."}
+{"id": "/documentation/Contacts", "law": "The contact class is like in that it has a mutable subclass, , you can use to modify contact properties."}
+{"id": "/documentation/Contacts", "law": "Because the contact store methods are synchronous, it’s best practice to use them on background threads."}
+{"id": "/documentation/Contacts", "law": "For example, to fetch contacts that have the name Appleseed , use and pass in ."}
+{"id": "/documentation/Contacts", "law": "You can use to limit the contact properties that you fetch."}
+{"id": "/documentation/Contacts", "law": "To fetch a contact using both a predicate ( ) and a array, use ."}
+{"id": "/documentation/Contacts", "law": "Each operation requires a specific set of contact keys to correctly perform the operation."}
+{"id": "/documentation/Contacts", "law": "Note that the user receives a prompt only the first time an app requests access; all subsequent calls use the existing permissions."}
+{"id": "/documentation/Contacts", "law": "To avoid having your app’s UI main thread block for this access, you can use either the asynchronous method or dispatch your usage to a background thread."}
+{"id": "/documentation/Contacts", "law": "You can either use to check the availability of a single contact key, or to check multiple keys."}
+{"id": "/documentation/Contacts", "law": "When refetching a unified contact, be sure to use its identifier."}
+{"id": "/documentation/contacts", "law": "The contact class is like in that it has a mutable subclass, , you can use to modify contact properties."}
+{"id": "/documentation/contacts", "law": "Because the contact store methods are synchronous, it’s best practice to use them on background threads."}
+{"id": "/documentation/contacts", "law": "For example, to fetch contacts that have the name Appleseed , use and pass in ."}
+{"id": "/documentation/contacts", "law": "You can use to limit the contact properties that you fetch."}
+{"id": "/documentation/contacts", "law": "To fetch a contact using both a predicate ( ) and a array, use ."}
+{"id": "/documentation/contacts", "law": "Each operation requires a specific set of contact keys to correctly perform the operation."}
+{"id": "/documentation/contacts", "law": "Note that the user receives a prompt only the first time an app requests access; all subsequent calls use the existing permissions."}
+{"id": "/documentation/contacts", "law": "To avoid having your app’s UI main thread block for this access, you can use either the asynchronous method or dispatch your usage to a background thread."}
+{"id": "/documentation/contacts", "law": "You can either use to check the availability of a single contact key, or to check multiple keys."}
+{"id": "/documentation/contacts", "law": "When refetching a unified contact, be sure to use its identifier."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "Use and to let the person control which contacts your app can access."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "In Xcode, configure the required setting in the Build Settings tab of your app target."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "The following image shows an example contacts usage description for an app that requires contacts access to edit your mailing address and profile image: Your app crashes if you attempt to access contact data without a contacts usage description."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "Verify the authorization status of your app before presenting features that require Contacts access in your UI."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "If your app hasn’t requested access yet, any attempts to use these features automatically prompt the person for Contacts access."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "If the person previously denied access to your app, attempts to use these features fail with a error."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "The system remembers your app’s authorization status so that subsequent calls to or don’t prompt the person again."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "Your app can use the entire Contacts API when it has limited contact access."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "Use to let people choose contacts to share with your app."}
+{"id": "/documentation/contacts/accessing-the-contact-store", "law": "The entitlement requires permission from Apple to use, and you can’t publicly distribute your app until you have permission to use it."}
+{"id": "/documentation/contacts/cncontactstore", "law": "The object represents the user’s contacts store database, and you use it to fetch information from that database and save changes back to it."}
+{"id": "/documentation/contacts/cncontactstore", "law": "There are a few recommended ways you can implement fetch and save requests in your app: Fetch only the properties that you need for contacts."}
+{"id": "/documentation/contacts/cncontactstore", "law": "When fetching all contacts and caching the results, first fetch all contacts identifiers, then fetch batches of detailed contacts by identifiers as required."}
+{"id": "/documentation/contacts/cncontactstore", "law": "Because fetch methods perform I/O, it’s recommended that you avoid using the main thread to execute fetches."}

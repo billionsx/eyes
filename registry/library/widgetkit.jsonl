@@ -1,0 +1,53 @@
+{"id": "/documentation/WidgetKit", "law": "Use an iterative approach and start with support for one feature or select sizes of widgets — for example, start with a small widget as described in , but plan and design additional sizes and features across platforms from the beginning."}
+{"id": "/documentation/WidgetKit", "law": "People use buttons and toggles in widgets, controls, and Live Activities to interact with your app without launching it."}
+{"id": "/documentation/WidgetKit", "law": "In addition to offering relevant information and specific interactivity at a glance, people use widgets, watch complications, Live Activities, and controls to personalize their devices: People configure widgets and watch complications to display details specific to their needs."}
+{"id": "/documentation/WidgetKit", "law": "Widgets and watch complications use a special mechanism to update their content: You create a timeline of data updates and hand it to WidgetKit."}
+{"id": "/documentation/WidgetKit", "law": "Live Activities don’t use timelines to update their content."}
+{"id": "/documentation/WidgetKit", "law": "Instead, they use and ActivityKit push notifications you send with APNs."}
+{"id": "/documentation/WidgetKit", "law": "Controls don’t use timelines to update their content."}
+{"id": "/documentation/WidgetKit", "law": "Widgets, watch complications, Live Activities, and controls are small and require a focused, glanceable design."}
+{"id": "/documentation/widgetkit", "law": "Use an iterative approach and start with support for one feature or select sizes of widgets — for example, start with a small widget as described in , but plan and design additional sizes and features across platforms from the beginning."}
+{"id": "/documentation/widgetkit", "law": "People use buttons and toggles in widgets, controls, and Live Activities to interact with your app without launching it."}
+{"id": "/documentation/widgetkit", "law": "In addition to offering relevant information and specific interactivity at a glance, people use widgets, watch complications, Live Activities, and controls to personalize their devices: People configure widgets and watch complications to display details specific to their needs."}
+{"id": "/documentation/widgetkit", "law": "Widgets and watch complications use a special mechanism to update their content: You create a timeline of data updates and hand it to WidgetKit."}
+{"id": "/documentation/widgetkit", "law": "Live Activities don’t use timelines to update their content."}
+{"id": "/documentation/widgetkit", "law": "Instead, they use and ActivityKit push notifications you send with APNs."}
+{"id": "/documentation/widgetkit", "law": "Controls don’t use timelines to update their content."}
+{"id": "/documentation/widgetkit", "law": "Widgets, watch complications, Live Activities, and controls are small and require a focused, glanceable design."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "Live Activities use WidgetKit and share many aspects of their design and implementation with the widgets in your app."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "Static widgets use a for the property."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "To configure a static widget, provide the following information: Use modifiers to provide additional configuration details, including a display name, a description, and the families the widget supports."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "For an app’s widget to appear in the widget gallery, a person must launch the app that contains the widget at least once after the app is installed."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "You can use APNs and WidgetKit push notifications to update your widgets."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "In order for people to be able to use your widget, it needs to be available in the widget gallery."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "If your widget would normally need assets or information that takes time to generate or fetch from a server, use sample data instead."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "Widgets and watch complications may show sensitive information and can be highly visible, especially on devices with an Always-On display."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "To let people decide whether a widget should show sensitive data on a locked device, mark views that contain sensitive information using the modifier."}
+{"id": "/documentation/widgetkit/creating-a-widget-extension", "law": "In iOS, people can configure whether to show sensitive data on the Lock Screen and during Always On."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "Use WidgetKit to build widgets, controls, watch complications, and Live Activities."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "System experiences that use WidgetKit as a foundation rely on a set of related frameworks and share design and functional similarities, making them great candidates for code and design component reuse."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "To avoid costly changes in your app’s development process, plan your WidgetKit adoption before you create designs and write code."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "When you add support for Live Activities, you need to create minimal, compact, and extended presentations that make sure your Live Activities appear correctly for each platform."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "Widgets, watch complications, controls, and Live Activities use a widget extension you add to your Xcode project."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "Based on features and platforms you support, use WidgetKit in combination with other frameworks as follows: To create the user interface for each feature, use ."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "To add interactivity to widgets and Live Activities, use and the framework."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "To offer configurable widgets and watch complications, use ."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "To provide the contextual clues that the system uses for Smart Stacks and to offer Widget Suggestions, use and ."}
+{"id": "/documentation/widgetkit/developing-a-widgetkit-strategy", "law": "To start, update, and end Live Activities, use ."}
+{"id": "/documentation/widgetkit/controls-collection", "law": "People place controls in prominent locations to personalize how they use their devices: On devices with an Action button, people can place a controls action in the Action button."}
+{"id": "/documentation/widgetkit/controls-collection", "law": "To offer a control for your app, use WidgetKit API to configure and update the control, create its layout with , and perform its action using ."}
+{"id": "/documentation/widgetkit/liveactivities-collection", "law": "To create Live Activities, you use WidgetKit together with ."}
+{"id": "/documentation/WidgetKit/Creating-accessory-widgets-and-watch-complications", "law": "Widgets and watch complications use WidgetKit and SwiftUI views, enabling you to: Update your existing widgets’ code to support accessory widgets."}
+{"id": "/documentation/WidgetKit/Creating-accessory-widgets-and-watch-complications", "law": "Before you start coding, make sure to review options available to you and carefully plan your software development project."}
+{"id": "/documentation/WidgetKit/Creating-accessory-widgets-and-watch-complications", "law": "If you don’t offer widgets in your app, add a widget extension to your app and support accessory widgets from the start."}
+{"id": "/documentation/WidgetKit/Creating-accessory-widgets-and-watch-complications", "law": "If your watchOS app offers ClockKit complications, continue to use these to support watchOS 8 and earlier."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "To make sure the system can accurately determine your widget’s importance to someone, provide contextual and behavioral clues in your timeline provider with and ."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "Depending on the platform, provide the following clues to the system: Smart Stacks on iPhone and iPad don’t consider relevance information you provide with your timeline provider’s callback, but the callback is available across platforms to enable code sharing."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "WidgetKit calculates the relative difference of scores between entries; the absolute values don’t matter."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "Because WidgetKit maintains relevance information across timelines, use a consistent scale for all of them."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "For simplicity, you might use an enumeration with specific values for , , and relevance."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "Alternatively, if your score calculations have a continuous variation, you might use floating-point precision in your scale, with consistent minimum and maximum values."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "To offer configurable widgets, the app’s widget configurations make use of custom intents, such as , , , and ."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "If your widget is configurable, make sure the predictable intent contains a that matches the intent’s values to the configurable parameters of your widget."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "If your widget isn’t configurable, don’t provide a parameter matching."}
+{"id": "/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks", "law": "If Smart Stacks don’t contain a matching widget, the system can automatically add the configured widget as a Widget Suggestion, giving the app more visibility and the person instant access to the information."}

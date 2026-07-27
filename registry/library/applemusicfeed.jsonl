@@ -1,0 +1,5 @@
+{"id": "/documentation/AppleMusicFeed", "law": "These bulk exports are appropriate for offline use cases, complementing Apple Music API, which is best for online use."}
+{"id": "/documentation/AppleMusicFeed", "law": "With access to the raw data and the information in this documentation, you can use Apple Music Feed in many ways."}
+{"id": "/documentation/AppleMusicFeed", "law": "Many large-scale data-processing frameworks, like Hadoop and Spark, use this format."}
+{"id": "/documentation/AppleMusicFeed", "law": "Use the token to request metadata for the latest feed export for a specific data set."}
+{"id": "/documentation/AppleMusicFeed", "law": "Use the token to request links to parts of the data for a feed export."}

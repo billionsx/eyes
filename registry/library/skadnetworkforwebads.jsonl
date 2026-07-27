@@ -1,0 +1,3 @@
+{"id": "/documentation/SKAdNetworkforWebAds", "law": "In iOS 16.1 and later, ad networks can use this API to get attributions for web ad clicks in Safari that lead to app installations from the App Store."}
+{"id": "/documentation/SKAdNetworkforWebAds", "law": "To use the API, follow these steps: Register your ad network; see ."}
+{"id": "/documentation/SKAdNetworkforWebAds", "law": "Ad networks can only use this API to get attributions for web ad clicks in Safari; the API doesn’t get attributions for web ad clicks in or ."}

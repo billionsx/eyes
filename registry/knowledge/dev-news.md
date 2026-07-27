@@ -1,0 +1,127 @@
+# знание · `dev-news`
+Источник: https://developer.apple.com/news/
+Домены мандата: ios27, hig
+Нормативных положений: 120 (детерминированная выжимка, не пересказ)
+
+
+## без раздела
+- ## h2: Upcoming SDK minimum requirements
+- As previously shared, beginning in September 2026, responses will be required when submitting new apps or updates to the App Store, or when submitting apps for notarization for alternative distribution.
+- For significant changes, developers should use the Significant Change API under the PermissionKit framework.
+- Next steps Review documentation and implement the following: Declared Age Range API Significant Change API under PermissionKit New age rating property type in StoreKit App Store server notification Use Apple’s sandbox testing environment to validate that the APIs have been implemented correctly.
+- And make sure to build and test with Xcode 26.5 to take advantage of the advancements in the latest SDKs.
+- Please ensure your responses to the age rating questionnaire in App Store Connect accurately reflect your app’s content.
+- Vietnam To align with Article 38 of Vietnam Decree 147, apps available on the App Store in Vietnam will require a region-specific age rating.
+- These adjustments are made using publicly available exchange rate information from reputable financial media (e.g., The Wall Street Journal) or financial companies (e.g., Bloomberg) to help make sure prices for apps and In-App Purchases stay consistent across all storefronts.
+- A new app version must be submitted to initiate the license verification process.
+- Please ensure that your app complies with all disclosures and warnings requirements, including but not limited to age restrictions and gambling risks, as required under the law.
+- You can add localized metadata with your next version submission for each platform you support and use new localized App Store badges in your marketing communications.
+- Definitions, Section 3.3.3(B), Section 3.3.7(K): Specified requirements for use of the Foveated Streaming framework and clarified data privacy requirements.
+- Definitions, Section 3.3.3(Q): Specified requirements for use of the Family Controls framework.
+- Definitions, Section 3.3.7(J): Specified requirements for use of the Accessory Notifications framework and Accessory Live Activities framework.
+- And make sure to build and test with Xcode 26.5 beta to take advantage of the advancements in the latest SDKs.
+- These apps may require registration or authorization from regulatory bodies, such as the U.S.
+- Existing apps distributed in these regions that meet either of the criteria above must provide a status by early 2027.
+- Cohort data is aggregated to ensure user privacy.
+- This new guide in App Store Connect Help enables you to develop a data-driven strategy and understand App Store tools and features you can use to grow your business.
+- The commission rate for standard Apple In-App Purchase and paid app transactions will be 25%.
+- Currently, the rate is 30%.
+- The commission rate for qualifying Apple In-App Purchase transactions under the App Store Small Business Program and Mini Apps Partner Program, and for auto-renewals of Apple In-App Purchase subscriptions after the first year, will be 12%.
+- Currently, the rate is 15%.
+- Signing the updated terms by March 15 is not required to receive the benefit of these commission rate changes starting that date.
+- We are committed to terms that remain fair and transparent to all developers, and to always offering competitive App Store rates to developers distributing apps in China that are no higher than overall rates in other markets.
+- And make sure to build and test with Xcode 26.4 beta to take advantage of the advancements in the latest SDKs.
+- Your app playground should be experienced within 3 minutes or less.
+- These adjustments are made using publicly available exchange rate information from financial data providers to help make sure prices for apps and In-App Purchases stay consistent across all storefronts.
+- As always, you can change the prices of your apps, In‑App Purchases, and auto‑renewable subscriptions at any time.
+- Definitions, section 3.3.3(P): Specified terms for use of the Declared Age Range API and Significant App Topic Update API.
+- Definitions, section 3.3.8(J): Specified requirements for use of the Wi-Fi Infrastructure Framework.
+- New Requirements for Social Media Apps in Australia December 8, 2025 Beginning December 10, 2025, a new Australian law will require certain social media platforms operating in Australia to prevent people under 16 from having a social media account.
+- Participating developers may benefit from a reduced commission rate of 15% on the sales of qualifying In-App Purchases.
+- To be eligible for this reduced commission rate, participating apps must support certain App Store technologies, including the Declared Age Range API and the Advanced Commerce API in order to help provide a safe and seamless experience for customers of all ages.
+- Please review the changes below: 1.2.1(a): This new guideline specifies that creator apps must provide a way for users to identify content that exceeds the app’s age rating, and use an age restriction mechanism based on verified or declared age to limit access by underage users.
+- 2.5.10: This language has been deleted (“Apps should not be submitted with empty ad banners or test advertisements.”).
+- 3.2.2(ix): Clarified that loan apps may not charge a maximum APR higher than 36%, including costs and fees, and may not require repayment in full in 60 days or less.
+- 4.1(c): This new guideline specifies that you cannot use another developer’s icon, brand, or product name in your app’s icon or name, without approval from the developer.
+- 4.7.5: Clarifies that apps offering software not embedded in the binary must provide a way for users to identify content that exceeds the app’s age rating, and use an age restriction mechanism based on verified or declared age to limit access by underage users.
+- 5.1.2(i): Clarifies that you must clearly disclose where personal data will be shared with third parties, including with third-party AI, and obtain explicit permission before doing so.
+- And make sure to build and test with Xcode 26.2 beta to take advantage of the advancements in the latest SDKs.
+- These adjustments are made using publicly available exchange rate information from financial data providers to help make sure prices for apps and In-App Purchases stay consistent across all storefronts.
+- As always, you can change the prices of your apps, In‑App Purchases, and auto‑renewable subscriptions at any time.
+- Auto-renewable subscriptions that don’t auto-renew once the promotional period ends.
+- You can continue to use promo codes in order to provide people with a free download of your app.
+- As a reminder, registering a notification endpoint allows Apple to send you important updates about the people who use your app and their account status, including: Changes in email forwarding preferences.
+- When you receive these notifications, you should immediately update any data associated with the account change in the app, as well as any necessary server infrastructure, to give people more control of the personal data they’ve shared.
+- Account change guidance Account changes are directly related to privacy and control for the user and their personal data, and confirming account changes should be straightforward and transparent.
+- For account email forwarding changes: Ensure any displayed user data affected by the account change matches the change event in the notification payload.
+- Note: Always follow applicable legal requirements for storing and retaining user account information and for handling account changes and deletions.
+- Once this law goes into effect, users located in Texas who create a new Apple Account will be required to confirm whether they are 18 years or older.
+- All new Apple Accounts for users under the age of 18 will be required to join a Family Sharing group , and parents or guardians will need to provide consent for all App Store downloads, app purchases, and transactions using Apple's In-App Purchase system by the minor.
+- To assist developers in meeting their obligations in a privacy-preserving way, we’ll introduce capabilities to help them obtain users’ age categories and manage significant changes as required by Texas state law.
+- The Declared Age Range API is available to implement now, and will be updated in the coming months to provide the required age categories for new account users in Texas.
+- Additionally, parents will be able to revoke consent for a minor continuing to use an app.
+- We know protecting kids from online threats requires constant vigilance and effort.
+- This messaging should appear anywhere prices are displayed.
+- And to take advantage of the advancements in the latest SDKs, make sure to build and test with Xcode 26.0.1.
+- Starting April 2026, apps and games uploaded to App Store Connect need to meet the following minimum requirements.
+- iOS and iPadOS apps must be built with the iOS 26 & iPadOS 26 SDK or later tvOS apps must be built with the tvOS 26 SDK or later visionOS apps must be built with the visionOS 26 SDK or later watchOS apps must be built with the watchOS 26 SDK or later Learn more about submitting Awe dropping.
+- These adjustments are made using publicly available exchange rate information from financial data providers to help make sure prices for apps and In-App Purchases stay consistent across all storefronts.
+- - Individual developers based outside of Vietnam: Personal income tax (PIT) introduction of 5%, replacing the corporate income tax (CIT).
+- Reduced VAT rate of 0% for news, magazines, and books no longer applies and all content will be taxed at the standard rate.
+- FCT of 5% introduced on Apple’s commission.
+- - Individual developers based in Vietnam: Personal income tax (PIT) introduction of 2%, replacing the corporate income tax (CIT).
+- FCT of 5% introduced on Apple’s commission.
+- Reduced VAT rate of 0% for news, magazines, and books no longer applies and all content will be taxed at the standard rate.
+- As always, you can change the prices of your apps, In‑App Purchases, and auto‑renewable subscriptions at any time.
+- We’ve also introduced new age rating questions to help identify sensitive content in your app and added the ability to set a higher rating to reflect your app’s minimum age requirement.
+- We’ve introduced a new set of required questions to the ratings questionnaire for all apps.
+- If your app has a policy requiring a higher minimum user age than the rating assigned by Apple, you can set a higher age rating after you respond to the age ratings questions.
+- As a reminder, you must consider how all app features, including AI assistants and chatbot functionality, impact the frequency of sensitive content appearing within your app to make sure it receives the appropriate rating.
+- Please provide responses to the updated age rating questions for each of your apps by January 31, 2026, to avoid an interruption when submitting your app updates in App Store Connect.
+- Learn more about age ratings values and definitions Learn how to set your app rating New 64-bit requirement for watchOS apps July 22, 2025 Beginning April 2026, watchOS apps uploaded to App Store Connect must also include 64-bit support and be built with the watchOS 26 SDK.
+- Music streaming apps on the App Store in the European Economic Area (EEA) wanting to use the Music Streaming Services Entitlement (EEA) can use these options.
+- Section 3.3.3(N): Updated requirements for use of the ID Verifier APIs.
+- Definitions, 3.3.3(P): Specified requirements for use of the Declared Age Range API.
+- Definitions, 3.3.7(G): Specified requirements for use of the Wi-Fi Aware framework.
+- Definitions, 3.3.7(H): Specified requirements for use of the TelephonyMessagingKit APIs.
+- Definitions, 3.3.7(I): Specified requirements for use of the Default Dialer APIs.
+- Definition, Section 3.3.8(H), Attachment 11: Specified requirements for use of EnergyKit.
+- Definitions, 3.3.8(I): Specified requirements for use of the Foundation Models framework.
+- Definitions, Attachment 4: Specified requirements for use of the iCloud Extended Share APIs.
+- 3.2.1(viii): Clarified that financial apps must have necessary licensing and permissions in the locations where developers make them available.
+- These adjustments are made using publicly available exchange rate information from financial data providers to help make sure prices for apps and In-App Purchases stay consistent across all storefronts.
+- Tax and price updates As of May 16: Your proceeds from the sale of eligible apps and In‑App Purchases have been modified in Brazil to account for the Contribuições de Intervenção no Domínio Econômico (CIDE) tax introduction of 10% for developers based outside of Brazil.
+- Beginning June 2: Pricing for apps and In-App Purchases will be updated for Brazil and Kazakhstan if you haven’t selected one of these storefronts as the base storefront for your app or In‑App Purchase.¹ The updates in Brazil also consider the 10% CIDE tax introduction.
+- As always, you can change the prices of your apps, In‑App Purchases, and auto‑renewable subscriptions at any time.
+- Additional upcoming changes Beginning August 4: All auto-renewable subscription price increases in Austria, Germany, and Poland will require customers to consent to the new price for their subscription to continue renewing.
+- Price increases scheduled with a start date on or after August 4: All customers must consent to the new price.
+- To help ensure a smooth transition, we recommend avoiding scheduling price increases with a start date between August 2 and August 4.
+- And to take advantage of the advancements in the latest SDKs, make sure to build and test with Xcode 16.3.
+- Beginning April 24, 2025, apps uploaded to App Store Connect must be built with Xcode 16 or later using an SDK for iOS 18, iPadOS 18, tvOS 18, visionOS 2, or watchOS 11.
+- At this time, you don’t have to update your keys unless you want to take advantage of the new capabilities.
+- To comply, if you offer trials or offers for auto-renewing subscriptions to your app or game, additional consent must be obtained for your trial or offer after the initial transaction.
+- These adjustments are made using publicly available exchange rate information from financial data providers to help make sure prices for apps and In-App Purchases stay consistent across all storefronts.
+- As always, you can change the prices of your apps, In‑App Purchases, and auto‑renewable subscriptions at any time.
+- Apple will collect and remit a 10% Japanese consumption tax (JCT) to the National Tax Agency JAPAN on such transactions at the time of purchase.
+- Please note any prepaid payment instruments (such as coins) sold prior to April 1, 2025, will not be subject to platform taxation, and the relevant JCT compliance should continue to be managed by the developer.
+- Game distribution on the App Store in Vietnam February 4, 2025 The Vietnamese Ministry of Information and Communications (MIC) requires games to be licensed to remain available on the App Store in Vietnam.
+- No formal coding experience required — the Challenge is open to students of all levels.
+- Your app playground doesn’t need to be intricate — it should be experienced within 3 minutes or less.
+- Developers can apply to use the Advanced Commerce API to support eligible App Store business models and more flexibly manage their In-App Purchases within their app.
+- If your app performs on-device receipt validation, update your app to support certificates that use the SHA-256 algorithm; alternatively, use the AppTransaction and Transaction APIs to verify App Store transactions.
+- In order to maintain uninterrupted service, you’ll need to ensure that your production servers support one or more of the designated six ciphers before February 4, 2025.
+- And to take advantage of the advancements in the latest SDKs, make sure to build and test with Xcode 16.2.
+- Meet the winners Updated Apple Developer Program License Agreement now available December 6, 2024 Attachment 2 of the Apple Developer Program License Agreement has been amended to specify requirements for use of the In-App Purchase API.
+- Make sure your apps and games are up to date and ready.
+- These adjustments are made using publicly available exchange rate information from financial data providers to help make sure prices for apps and In-App Purchases stay consistent across all storefronts.
+- Madeira: Decrease of the Madeira VAT rate from 5% to 4% for news publications, magazines and other periodicals, books, and audiobooks.
+- As always, you can change the prices of your apps, In‑App Purchases, and auto‑renewable subscriptions at any time.
+- Use the App Store Connect app to generate Apple-designed assets and share them to your social media channels.
+- The console’s interface provides an aggregated view of the broadcast push notifications that are successfully accepted by APNs, the number of devices that receive them, and a snapshot of the maximum number of devices subscribed to your channels.
+- If your app performs on-device receipt validation, update your app to support certificates that use the SHA-256 algorithm; alternatively, use the AppTransaction and Transaction APIs to verify App Store transactions.
+- And make sure to build and test with Xcode 16.2 beta to take advantage of the advancements in the latest SDKs.
+- Developers of apps that use alternative browser engines can now use WebKit in those same apps.
+- To ensure a smooth transition and avoid push notification delivery failures, please make sure that both old and new server certificates are included in the Trust Store before the cut-off date for each of your application servers that connect to sandbox and production.
+- At this time, you don’t need to update the APNs SSL provider certificates issued to you by Apple.
+- Where required by local regulations, regional ratings will appear alongside Apple global age ratings.
+- Starting April 2025, apps uploaded to App Store Connect must be built with SDKs for iOS 18, iPadOS 18, tvOS 18, visionOS 2, or watchOS 11.

@@ -1,0 +1,18 @@
+{"id": "/documentation/PhotosUI/PhotosPicker", "law": "Use the Photos picker view to browse and select images and videos from the photo library."}
+{"id": "/documentation/PhotosUI/PhotosPicker", "law": "When displaying the picker, you can use options to customize what it displays."}
+{"id": "/documentation/PhotosUI/PhotosPicker", "law": "To load a SwiftUI and track progress, use ."}
+{"id": "/documentation/PhotosUI/PhotosPickerItem", "law": "To load a SwiftUI and track progress, use ."}
+{"id": "/documentation/PhotosUI/PhotosPickerItem", "law": "A type that represents an item you use with a Photos picker."}
+{"id": "/documentation/photosui", "law": "The framework also provides a view you can use to display live photos."}
+{"id": "/documentation/photosui/photospicker", "law": "Use the Photos picker view to browse and select images and videos from the photo library."}
+{"id": "/documentation/photosui/photospicker", "law": "When displaying the picker, you can use options to customize what it displays."}
+{"id": "/documentation/photosui/photospicker", "law": "To load a SwiftUI and track progress, use ."}
+{"id": "/documentation/photosui/photospickeritem", "law": "To load a SwiftUI and track progress, use ."}
+{"id": "/documentation/photosui/photospickeritem", "law": "A type that represents an item you use with a Photos picker."}
+{"id": "/documentation/photosui/phprojectcategory", "law": "Use this category to designate the types of projects your extension can create, such as books, calendars, cards, and slideshows."}
+{"id": "/documentation/photosui/phprojectextensioncontroller", "law": "The principal view controller for a Photos project extension must conform to this protocol."}
+{"id": "/documentation/photosui/phprojectextensioncontroller", "law": "To enable this entry point into the extension, the Info.plist must include this key/value pair in its dictionary."}
+{"id": "/documentation/photosui/phprojectregionofinterest", "law": "Use a region of interest to determine where to focus, zoom, or crop your image in your project extension; for example, you can customize your slideshow’s transitions based on each photo’s highest-quality region of interest, as shown in ."}
+{"id": "/documentation/photosui/phprojectregionofinterest/quality", "law": "If a project must choose between multiple assets containing the same region of interest, use the metric to choose the best representative."}
+{"id": "/documentation/photosui/phprojectregionofinterest/weight", "law": "For projects focused on animation or transition between assets, focus on the regions with the highest weight to ensure that your presentation features areas of greatest interest to the user."}
+{"id": "/documentation/photosui/phpickerviewcontroller", "law": "As a view controller that the system renders on top of your app, the picker controller requires certain prerequisites for operation that your app needs to observe: The picker controller disables user interaction if an app alters its visibility, such as by adjusting the of its view’s layer."}

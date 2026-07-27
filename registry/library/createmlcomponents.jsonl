@@ -1,0 +1,9 @@
+{"id": "/documentation/CreateMLComponents/counting-human-body-action-repetitions-in-a-live-video-feed", "law": "To improve performance, you can move the downsampler to an earlier stage in the pipeline if you don’t need to render poses on every frame."}
+{"id": "/documentation/CreateMLComponents/counting-human-body-action-repetitions-in-a-live-video-feed", "law": "Optionally, use to select only joints of interest for counting."}
+{"id": "/documentation/CreateMLComponents/counting-human-body-action-repetitions-in-a-live-video-feed", "law": "This sample code project requires a device with iOS 16 or later, or iPadOS 16 or later."}
+{"id": "/documentation/CreateMLComponents/counting-human-body-action-repetitions-in-a-live-video-feed", "law": "Low lighting and other factors can vary the frame rate, which may affect the counting performance, so ensure the person’s full body is visible in bright environments."}
+{"id": "/documentation/CreateMLComponents/counting-human-body-action-repetitions-in-a-live-video-feed", "law": "requires the inclusion of the Swift package."}
+{"id": "/documentation/CreateMLComponents/counting-human-body-action-repetitions-in-a-live-video-feed", "law": "The next transformer in the pipeline, , selects a single pose from the array of poses by using the default strategy, namely, selecting the most prominent person by their maximum bounding box area."}
+{"id": "/documentation/CreateMLComponents/counting-human-body-action-repetitions-in-a-live-video-feed", "law": "Use Create ML Components to analyze a series of video frames and count a person’s repetitive or periodic body movements."}
+{"id": "/documentation/CreateMLComponents", "law": "Use components to configure your machine learning tasks with a detailed level of granularity."}
+{"id": "/documentation/createmlcomponents", "law": "Use components to configure your machine learning tasks with a detailed level of granularity."}

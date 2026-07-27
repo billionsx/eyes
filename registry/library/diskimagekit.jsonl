@@ -1,0 +1,2 @@
+{"id": "/documentation/DiskImageKit", "law": "It’s designed primarily for use with the Virtualization framework, enabling seamless integration of disk images as storage for virtual machines."}
+{"id": "/documentation/DiskImageKit", "law": "You can only use RAW images as standalone images or as base images in stacked configurations."}

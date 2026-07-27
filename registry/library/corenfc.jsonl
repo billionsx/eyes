@@ -1,0 +1,34 @@
+{"id": "/documentation/CoreNFC/building-an-nfc-tag-reader-app", "law": "This sample code project shows how to use Core NFC in an app to read Near Field Communication (NFC) tags of types 1 through 5 that contains NFC Data Exchange Format (NDEF) data."}
+{"id": "/documentation/CoreNFC/building-an-nfc-tag-reader-app", "law": "To use this sample, download the project and build it using Xcode."}
+{"id": "/documentation/CoreNFC/building-an-nfc-tag-reader-app", "law": "Turn on Near Field Communication Tag Reading under the Capabilities tab for the project’s target (see )."}
+{"id": "/documentation/CoreNFC/building-an-nfc-tag-reader-app", "law": "The dispatch queue to use when calling methods on the delegate."}
+{"id": "/documentation/CoreNFC/building-an-nfc-tag-reader-app", "law": "The reader session requires a delegate object that conforms to the protocol."}
+{"id": "/documentation/CoreNFC/building-an-nfc-tag-reader-app", "law": "This session must be active to write an NDEF message to the tag, so this time, is set to , preventing the session from becoming invalid after reading the tag."}
+{"id": "/documentation/CoreNFC", "law": "Core NFC isn’t available for use in app extensions, and it requires a device that supports Near Field Communication."}
+{"id": "/documentation/CoreNFC/NFCReaderSessionProtocol/alertMessage", "law": "Before you call , use this property to supply a string that provides more context about how your app uses NFC reader mode."}
+{"id": "/documentation/CoreNFC/NFCReaderSessionProtocol/alertMessage", "law": "A custom description that helps users understand how they can use NFC reader mode in your app."}
+{"id": "/documentation/CoreNFC/adding-support-for-background-tag-reading", "law": "To avoid unintentional tag reading, the system reads tags in the background only when the user’s iPhone is in use."}
+{"id": "/documentation/CoreNFC/adding-support-for-background-tag-reading", "law": "Also, be aware there are times when the display is on and background tag reading is unavailable, such as if: The device has never been unlocked."}
+{"id": "/documentation/CoreNFC/adding-support-for-background-tag-reading", "law": "Apple Pay Wallet is in use."}
+{"id": "/documentation/CoreNFC/adding-support-for-background-tag-reading", "law": "The URI record must contain either a universal link or a supported URL scheme."}
+{"id": "/documentation/CoreNFC/adding-support-for-background-tag-reading", "law": "Use universal links instead."}
+{"id": "/documentation/CoreNFC/adding-support-for-background-tag-reading", "law": "Process data from a tag read in the background Not all devices support background tag reading, so be sure to provide the user the option to read tags directly from your app."}
+{"id": "/documentation/corenfc", "law": "Core NFC isn’t available for use in app extensions, and it requires a device that supports Near Field Communication."}
+{"id": "/documentation/corenfc/adding-support-for-background-tag-reading", "law": "To avoid unintentional tag reading, the system reads tags in the background only when the user’s iPhone is in use."}
+{"id": "/documentation/corenfc/adding-support-for-background-tag-reading", "law": "Also, be aware there are times when the display is on and background tag reading is unavailable, such as if: The device has never been unlocked."}
+{"id": "/documentation/corenfc/adding-support-for-background-tag-reading", "law": "Apple Pay Wallet is in use."}
+{"id": "/documentation/corenfc/adding-support-for-background-tag-reading", "law": "The URI record must contain either a universal link or a supported URL scheme."}
+{"id": "/documentation/corenfc/adding-support-for-background-tag-reading", "law": "Use universal links instead."}
+{"id": "/documentation/corenfc/adding-support-for-background-tag-reading", "law": "Process data from a tag read in the background Not all devices support background tag reading, so be sure to provide the user the option to read tags directly from your app."}
+{"id": "/documentation/corenfc/nfciso15693tag", "law": "For the delegate to receive the tag object, your app must include the ."}
+{"id": "/documentation/corenfc/nfciso15693tag", "law": "For the reader session to read and write data to the tag, it must be available to the reader session."}
+{"id": "/documentation/corenfc/nfciso15693tag", "law": "Use the property to check the tag’s availability."}
+{"id": "/documentation/corenfc/nfciso7816tag", "law": "For the delegate to receive the tag object, your app must include: The ."}
+{"id": "/documentation/corenfc/nfciso7816tag", "law": "For the reader session to read and write data to the tag, it must be available to the reader session."}
+{"id": "/documentation/corenfc/nfciso7816tag", "law": "Use the property to check the tag’s availability."}
+{"id": "/documentation/corenfc/nfcmifaretag", "law": "To receive the MIFARE DESFire tag as an object, don’t include in the array."}
+{"id": "/documentation/corenfc/nfcmifaretag", "law": "For the delegate to receive the tag object, your app must include the ."}
+{"id": "/documentation/corenfc/nfcmifaretag", "law": "For the reader session to read and write data to the tag, it must be available to the reader session."}
+{"id": "/documentation/corenfc/nfcmifaretag", "law": "Use the property to check the tag’s availability."}
+{"id": "/documentation/corenfc/nfctag-swift.enum", "law": "Use this generic object to determine if the tag is available, and to retrieve an object of a specific tag type."}
+{"id": "/documentation/corenfc/nfctagcommandconfiguration", "law": "A set of parameters you use to define the configuration of an NFC tag command."}

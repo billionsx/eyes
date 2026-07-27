@@ -1,0 +1,46 @@
+{
+ "url": "https://www.apple.com/apple-intelligence/",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-siri",
+  "section-visual-intelligence",
+  "section-images",
+  "section-communication",
+  "section-productivity",
+  "section-more",
+  "section-privacy",
+  "section-experience-ai",
+  "section-compatibility",
+  "section-developers"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:siri ai gallery",
+  "name:visual intelligence gallery",
+  "name:photos and images gallery",
+  "name:communication gallery",
+  "name:productivity gallery",
+  "name:more",
+  "name:privacy",
+  "name:compare",
+  "name:compatibility",
+  "name:sdk"
+ ],
+ "imgs": 137,
+ "videos": 6,
+ "cta": 32,
+ "h_levels": {
+  "1": 1,
+  "2": 13,
+  "3": 57
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-intelligence/h/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

@@ -1,0 +1,26 @@
+# Spring
+# https://developer.apple.com/documentation/swiftui/spring
+# снято: 2026-07-24 16:51 UTC
+
+## Overview
+## Creating a spring
+## Getting built-in springs
+## Getting spring characteristics
+## Getting spring state
+## Setting spring state
+## Calculating forces and durations
+
+## Overview
+Use this type to convert between different representations of spring parameters: You can also use it to query for a spring’s position and its other properties for a given set of inputs: A representation of a spring’s motion.
+## Creating a spring
+init(duration:bounce:). init(mass:stiffness:damping:allowOverDamping:). init(response:dampingRatio:). init(settlingDuration:dampingRatio:epsilon:).
+## Getting built-in springs
+bouncy. bouncy(duration:extraBounce:). smooth. smooth(duration:extraBounce:). snappy. snappy(duration:extraBounce:).
+## Getting spring characteristics
+bounce. damping. dampingRatio. duration. mass. response. settlingDuration. stiffness.
+## Getting spring state
+value(target:initialVelocity:time:). value(fromValue:toValue:initialVelocity:time:). velocity(target:initialVelocity:time:). velocity(fromValue:toValue:initialVelocity:time:).
+## Setting spring state
+update(value:velocity:target:deltaTime:).
+## Calculating forces and durations
+force(target:position:velocity:). force(fromValue:toValue:position:velocity:). settlingDuration(target:initialVelocity:epsilon:). settlingDuration(fromValue:toValue:initialVelocity:epsilon:).

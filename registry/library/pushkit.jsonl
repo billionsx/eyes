@@ -1,0 +1,2 @@
+{"id": "/documentation/PushKit", "law": "Both PushKit and User Notifications use the Apple Push Notification service (APNs) to deliver push notifications to user devices."}
+{"id": "/documentation/PushKit", "law": "PushKit doesn’t support some special use cases in which access to Apple Push Notification service (APNs) isn’t possible."}

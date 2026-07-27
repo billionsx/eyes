@@ -1,0 +1,37 @@
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "The protocol defines the text and imagery that tips use to describe what the features does, as well as the rules for when the tip appears."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "Before tips display, they must load into the app."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "Use this style of tip whenever possible to avoid covering UI elements that people may want to interact with."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "Use this style of tip view if adjusting the underlying layout is undesirable or people don’t need to interact with any controls the tip obscures."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "If you use a popover, consider excluding imagery because the tip already points to the feature being highlighted."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "Buttons present people with additional information and options before they decide whether to use a new feature."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "This sample demonstrates how to use app state to display a tip."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "In this sample, the tip displays if the following rules are satisfied: The event occurs at least once."}
+{"id": "/documentation/TipKit/HighlightingAppFeaturesWithTipKit", "law": "The event occurs with at least three distinct items."}
+{"id": "/documentation/TipKit", "law": "Use TipKit to show contextual tips that highlight new, interesting, or unused features people haven’t discovered on their own yet."}
+{"id": "/documentation/TipKit", "law": "As you design tips for your app, ensure you don’t overwhelm your users."}
+{"id": "/documentation/TipKit", "law": "Use tips sparingly to highlight nonobvious features people haven’t discovered on their own."}
+{"id": "/documentation/TipKit", "law": "Similarly, avoid displaying tips each time someone uses your app."}
+{"id": "/documentation/TipKit", "law": "Don’t use tips to guide people through your app, or for advertising and promotion purposes."}
+{"id": "/documentation/tipkit", "law": "Use TipKit to show contextual tips that highlight new, interesting, or unused features people haven’t discovered on their own yet."}
+{"id": "/documentation/tipkit", "law": "As you design tips for your app, ensure you don’t overwhelm your users."}
+{"id": "/documentation/tipkit", "law": "Use tips sparingly to highlight nonobvious features people haven’t discovered on their own."}
+{"id": "/documentation/tipkit", "law": "Similarly, avoid displaying tips each time someone uses your app."}
+{"id": "/documentation/tipkit", "law": "Don’t use tips to guide people through your app, or for advertising and promotion purposes."}
+{"id": "/documentation/tipkit/tip", "law": "Use this protocol for setting a tip’s content, as well as defining the conditions for when it appears in a view."}
+{"id": "/documentation/tipkit/tip/action", "law": "Use actions to provide additional help and guidance for people looking to get started with your tip."}
+{"id": "/documentation/tipkit/tip/actions", "law": "Use actions to provide primary and secondary buttons to help people get started or learn more about your feature."}
+{"id": "/documentation/tipkit/tip/actions", "law": "If you don’t supply a value, this property returns an empty array of type ."}
+{"id": "/documentation/tipkit/tip/event", "law": "Use an event when you want to track an action that can occur one or more times in your app (such as a user logging in)."}
+{"id": "/documentation/tipkit/tip/event", "law": "Then use to donate to the event when the action occurs, increasing the event count by one."}
+{"id": "/documentation/tipkit/tip/event", "law": "Use to filter donations by recency: Use and to find the most or least frequent donation values: These methods can be combined to build complex eligibility conditions: A repeatable user-defined action."}
+{"id": "/documentation/tipkit/tip/rules", "law": "Use this property to define the rules for when your tips display."}
+{"id": "/documentation/tipkit/tip/rules", "law": "If you don’t supply a value, this property returns an empty array of type ."}
+{"id": "/documentation/tipkit/tips/configure(_:)", "law": "This function must be called before tips display in your app."}
+{"id": "/documentation/tipkit/tips/configure(_:)", "law": "To change the default location of where your tips persist use the convenience method ."}
+{"id": "/documentation/tipkit/tips/configure(_:)", "law": "To change the display frequency use the convenience method ."}
+{"id": "/documentation/tipkit/tips/event", "law": "Use an event when you want to track an action that can occur one or more times in your app (such as a user logging in)."}
+{"id": "/documentation/tipkit/tips/event", "law": "Then use to donate to the event when the action occurs, increasing the event count by one."}
+{"id": "/documentation/tipkit/tips/event", "law": "Use to filter donations by recency: Use and to find the most or least frequent donation values: These methods can be combined to build complex eligibility conditions: A repeatable user-defined action."}
+{"id": "/documentation/tipkit/tips/parameter", "law": "Tips must be configured using before a parameter’s value will be updated."}
+{"id": "/documentation/tipkit/tips/rule", "law": "Use rules to control when your tips display."}
+{"id": "/documentation/tipkit/tipview", "law": "Use and when adding tips to UIView and NSView hierarchies."}

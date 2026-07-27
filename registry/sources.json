@@ -1,0 +1,650 @@
+{
+ "_": "Карта источников разведки. Курируемый список, не спайдер: дозор ходит только сюда. domains — ключи мандата (registry/standards/MANDATE.md). Добавление источника = правка этого файла, дозор подхватит сам.",
+ "sources": [
+  {
+   "id": "hig-index",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/",
+   "domains": [
+    "hig",
+    "целостность"
+   ],
+   "note": "оглавление HIG — появление/исчезновение разделов",
+   "kind": "docc"
+  },
+  {
+   "id": "hig-whats-new",
+   "url": "https://developer.apple.com/design/whats-new/",
+   "domains": [
+    "hig",
+    "ios27"
+   ],
+   "note": "официальное «что нового в дизайне»"
+  },
+  {
+   "id": "hig-materials",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/materials",
+   "domains": [
+    "liquid-glass",
+    "размытие",
+    "полупрозрачность",
+    "многослойность"
+   ],
+   "note": "материалы = Liquid Glass",
+   "kind": "docc"
+  },
+  {
+   "id": "liquid-glass-adoption",
+   "url": "https://developer.apple.com/documentation/technologyoverviews/adopting-liquid-glass",
+   "domains": [
+    "liquid-glass",
+    "свечение",
+    "стекло-движение"
+   ],
+   "note": "технический обзор внедрения Liquid Glass",
+   "kind": "docc"
+  },
+  {
+   "id": "hig-color",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/color",
+   "domains": [
+    "цвет",
+    "градиенты"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-dark-mode",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/dark-mode",
+   "domains": [
+    "цвет",
+    "тени"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-typography",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/typography",
+   "domains": [
+    "кернинг",
+    "шрифты"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-layout",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/layout",
+   "domains": [
+    "расстояния",
+    "минимализм",
+    "кроссплатформенность"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-icons",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/icons",
+   "domains": [
+    "иконки"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-app-icons",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/app-icons",
+   "domains": [
+    "иконки",
+    "динамические-иконки"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "sf-symbols",
+   "url": "https://developer.apple.com/sf-symbols/",
+   "domains": [
+    "иконки"
+   ],
+   "note": "версия SF Symbols = сигнал смены поколения"
+  },
+  {
+   "id": "fonts",
+   "url": "https://developer.apple.com/fonts/",
+   "domains": [
+    "шрифты",
+    "кернинг"
+   ],
+   "note": "SF Pro и метрики"
+  },
+  {
+   "id": "hig-motion",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/motion",
+   "domains": [
+    "анимация",
+    "кинетика",
+    "эффекты"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-gestures",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/gestures",
+   "domains": [
+    "жесты",
+    "надавливание"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-haptics",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/playing-haptics",
+   "domains": [
+    "вибрации"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-buttons",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+   "domains": [
+    "плашки",
+    "капсулы"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-menus",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/menus",
+   "domains": [
+    "динамичные-меню"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-sliders",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/sliders",
+   "domains": [
+    "ползунки"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-sheets",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/sheets",
+   "domains": [
+    "многослойность",
+    "popup"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-popovers",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/popovers",
+   "domains": [
+    "popup"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-alerts",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/alerts",
+   "domains": [
+    "popup"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-tab-bars",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+   "domains": [
+    "динамичные-меню",
+    "архитектура-приложений"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-navigation-bars",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/navigation-bars",
+   "domains": [
+    "архитектура-приложений"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-live-activities",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+   "domains": [
+    "динамические-острова"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-widgets",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/widgets",
+   "domains": [
+    "динамические-острова",
+    "кроссплатформенность"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-ratings-reviews",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews",
+   "domains": [
+    "рейтинги",
+    "отзывы"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-game-center",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/game-center",
+   "domains": [
+    "геймификация"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-wallet",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+   "domains": [
+    "apple-wallet"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-apple-pay",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/apple-pay",
+   "domains": [
+    "apple-pay"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-designing-watchos",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos",
+   "domains": [
+    "apple-watch",
+    "кроссплатформенность"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "hig-designing-visionos",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos",
+   "domains": [
+    "пространственность",
+    "стекло-движение"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "design-resources",
+   "url": "https://developer.apple.com/design/resources/",
+   "domains": [
+    "hig",
+    "иконки",
+    "шрифты"
+   ],
+   "note": "официальные библиотеки макетов — смена версии = сигнал"
+  },
+  {
+   "id": "ios-landing",
+   "url": "https://developer.apple.com/ios/",
+   "domains": [
+    "ios27"
+   ],
+   "note": "версия iOS на витрине разработчика"
+  },
+  {
+   "id": "ipados-landing",
+   "url": "https://developer.apple.com/ipados/",
+   "domains": [
+    "ios27"
+   ]
+  },
+  {
+   "id": "ios-release-notes",
+   "url": "https://developer.apple.com/documentation/ios-ipados-release-notes",
+   "domains": [
+    "ios27"
+   ],
+   "kind": "docc"
+  },
+  {
+   "id": "dev-news",
+   "url": "https://developer.apple.com/news/",
+   "domains": [
+    "ios27",
+    "hig"
+   ]
+  },
+  {
+   "id": "dev-news-rss",
+   "url": "https://developer.apple.com/news/rss/news.rss",
+   "domains": [
+    "ios27"
+   ],
+   "note": "RSS — самый ранний официальный сигнал"
+  },
+  {
+   "id": "apple-newsroom-rss",
+   "url": "https://www.apple.com/newsroom/rss-feed.rss",
+   "domains": [
+    "ios27",
+    "маркетинг"
+   ],
+   "note": "анонсы Apple, включая WWDC"
+  },
+  {
+   "id": "doc-updates",
+   "url": "https://developer.apple.com/documentation/updates/",
+   "domains": [
+    "ios27",
+    "hig"
+   ],
+   "note": "журнал обновлений документации",
+   "kind": "docc"
+  },
+  {
+   "id": "app-store-marketing",
+   "url": "https://developer.apple.com/app-store/marketing/guidelines/",
+   "kind": "html",
+   "domains": [
+    "маркетинг",
+    "бейджи",
+    "реклама"
+   ]
+  },
+  {
+   "id": "hig-charting-data",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/charting-data",
+   "kind": "docc",
+   "domains": [
+    "графики",
+    "Fitness",
+    "геймификация"
+   ]
+  },
+  {
+   "id": "hig-toolbars",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/toolbars",
+   "kind": "docc",
+   "domains": [
+    "панели",
+    "меню"
+   ]
+  },
+  {
+   "id": "hig-toggles",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/toggles",
+   "kind": "docc",
+   "domains": [
+    "контролы",
+    "ползунки"
+   ]
+  },
+  {
+   "id": "hig-text-fields",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/text-fields",
+   "kind": "docc",
+   "domains": [
+    "контролы",
+    "формы"
+   ]
+  },
+  {
+   "id": "hig-pickers",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/pickers",
+   "kind": "docc",
+   "domains": [
+    "контролы",
+    "Calendar"
+   ]
+  },
+  {
+   "id": "hig-progress-indicators",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/progress-indicators",
+   "kind": "docc",
+   "domains": [
+    "контролы",
+    "анимация"
+   ]
+  },
+  {
+   "id": "hig-status-bars",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/status-bars",
+   "kind": "docc",
+   "domains": [
+    "хром",
+    "острова"
+   ]
+  },
+  {
+   "id": "hig-split-views",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/split-views",
+   "kind": "docc",
+   "domains": [
+    "архитектура",
+    "суб-приложения",
+    "кроссплатформенность"
+   ]
+  },
+  {
+   "id": "hig-designing-for-ipados",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-ipados",
+   "kind": "docc",
+   "domains": [
+    "кроссплатформенность"
+   ]
+  },
+  {
+   "id": "hig-designing-for-macos",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-macos",
+   "kind": "docc",
+   "domains": [
+    "кроссплатформенность"
+   ]
+  },
+  {
+   "id": "hig-designing-for-tvos",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos",
+   "kind": "docc",
+   "domains": [
+    "кроссплатформенность",
+    "TV"
+   ]
+  },
+  {
+   "id": "ios27-landing",
+   "url": "https://developer.apple.com/ios/whats-new/",
+   "kind": "html",
+   "domains": [
+    "ios27"
+   ],
+   "enrolled": "2026-07-23 17:38 UTC"
+  },
+  {
+   "id": "sf-symbols-8",
+   "url": "https://developer.apple.com/sf-symbols/",
+   "kind": "html",
+   "domains": [
+    "ios27",
+    "иконки"
+   ],
+   "enrolled": "2026-07-23 17:38 UTC"
+  },
+  {
+   "id": "app-review-guidelines",
+   "url": "https://developer.apple.com/app-store/review/guidelines/",
+   "kind": "html",
+   "domains": [
+    "маркетинг",
+    "рейтинги",
+    "отзывы",
+    "popup",
+    "геймификация"
+   ]
+  },
+  {
+   "id": "design-awards",
+   "url": "https://developer.apple.com/design/awards/",
+   "kind": "html",
+   "domains": [
+    "UI/UX",
+    "эталоны"
+   ]
+  },
+  {
+   "id": "wwdc-videos",
+   "url": "https://developer.apple.com/videos/wwdc2026/",
+   "kind": "html",
+   "domains": [
+    "ios27",
+    "анимация",
+    "Liquid Glass"
+   ]
+  },
+  {
+   "id": "hig-accessibility",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+   "kind": "docc",
+   "domains": [
+    "динамика",
+    "эффекты",
+    "анимация",
+    "доступность"
+   ]
+  },
+  {
+   "id": "swiftui-animation",
+   "url": "https://developer.apple.com/documentation/swiftui/animation",
+   "kind": "docc",
+   "domains": [
+    "динамика",
+    "анимация",
+    "спринги"
+   ]
+  },
+  {
+   "id": "swiftui-spring",
+   "url": "https://developer.apple.com/documentation/swiftui/spring",
+   "kind": "docc",
+   "domains": [
+    "динамика",
+    "спринги",
+    "анимация"
+   ]
+  },
+  {
+   "id": "asc-help",
+   "url": "https://developer.apple.com/help/app-store-connect/",
+   "kind": "html",
+   "domains": [
+    "App Store Connect",
+    "публикация",
+    "маркетинг"
+   ]
+  },
+  {
+   "id": "upcoming-requirements",
+   "url": "https://developer.apple.com/news/upcoming-requirements/",
+   "kind": "html",
+   "domains": [
+    "требования",
+    "релиз-ноты",
+    "маркетинг"
+   ]
+  },
+  {
+   "id": "icon-composer",
+   "url": "https://developer.apple.com/icon-composer/",
+   "kind": "html",
+   "domains": [
+    "иконки",
+    "инструменты"
+   ]
+  },
+  {
+   "id": "pass-designer",
+   "url": "https://developer.apple.com/pass-designer/",
+   "kind": "html",
+   "domains": [
+    "Wallet",
+    "инструменты"
+   ]
+  },
+  {
+   "id": "reality-composer-pro",
+   "url": "https://developer.apple.com/reality-composer-pro/",
+   "kind": "html",
+   "domains": [
+    "visionOS",
+    "инструменты",
+    "3D"
+   ]
+  },
+  {
+   "id": "videos-design",
+   "url": "https://developer.apple.com/videos/design/",
+   "kind": "html",
+   "domains": [
+    "UI/UX",
+    "видео",
+    "Liquid Glass"
+   ]
+  },
+  {
+   "id": "dev-programs",
+   "url": "https://developer.apple.com/programs/",
+   "kind": "html",
+   "domains": [
+    "программа разработчика",
+    "правила"
+   ]
+  },
+  {
+   "id": "appstore-whats-new",
+   "url": "https://developer.apple.com/app-store/whats-new/",
+   "kind": "html",
+   "domains": [
+    "App Store",
+    "маркетинг"
+   ]
+  },
+  {
+   "id": "technologies",
+   "url": "https://developer.apple.com/technologies/",
+   "kind": "html",
+   "domains": [
+    "технологии",
+    "кроссплатформенность"
+   ]
+  },
+  {
+   "id": "dev-community",
+   "url": "https://developer.apple.com/community/",
+   "kind": "html",
+   "domains": [
+    "сообщество"
+   ]
+  },
+  {
+   "id": "dev-download",
+   "url": "https://developer.apple.com/download/",
+   "kind": "html",
+   "domains": [
+    "загрузки",
+    "инструменты",
+    "iOS 27"
+   ]
+  },
+  {
+   "id": "dev-help",
+   "url": "https://developer.apple.com/help/",
+   "kind": "html",
+   "domains": [
+    "справка",
+    "правила"
+   ]
+  }
+ ]
+}

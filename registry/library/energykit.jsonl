@@ -1,0 +1,30 @@
+{"id": "/documentation/EnergyKit", "law": "EnergyKit provides grid forecasts and energy insights to help people view their energy consumption patterns and choose when to use electricity at home."}
+{"id": "/documentation/EnergyKit", "law": "Use EnergyKit to build apps that manage home device electricity usage and support the transition to a cleaner electricity grid."}
+{"id": "/documentation/EnergyKit", "law": "You can use the framework for residential, metered locations such as smart thermostats (HVAC), and for electric vehicle charging."}
+{"id": "/documentation/EnergyKit", "law": "Use this guidance to optimize when your managed devices consume electricity."}
+{"id": "/documentation/EnergyKit", "law": "To use EnergyKit, the system requires your app to have the entitlement with a value of ."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "You can use EnergyKit to optimize electric vehicle (EV) charging based on grid cleanliness and electricity rates, and provide people with insights into their charging sessions."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the Home app to display activity logs and insights based on the submitted data."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "To use EnergyKit, the system requires your app to have the entitlement with a value of ."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "Energy guidance, data submission, and insight provision require working with venues."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "You can retrieve the available venues by calling , and store each venue’s identifier for later use, as shown in the example below."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the guidance to optimize how your managed devices consume electricity."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "Calculating how much energy a vehicle needs and how long its charging takes provides guidance you can use to you can make charging decisions."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "Create a load event with the state: The event requires zero energy and zero power because charging hasn’t started."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "The load event requires you to report active charging."}
+{"id": "/documentation/EnergyKit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the tariff breakdown to retrieve energy costs when a person connects their utility account: The framework provides insights only after you submit load events."}
+{"id": "/documentation/energykit", "law": "EnergyKit provides grid forecasts and energy insights to help people view their energy consumption patterns and choose when to use electricity at home."}
+{"id": "/documentation/energykit", "law": "Use EnergyKit to build apps that manage home device electricity usage and support the transition to a cleaner electricity grid."}
+{"id": "/documentation/energykit", "law": "You can use the framework for residential, metered locations such as smart thermostats (HVAC), and for electric vehicle charging."}
+{"id": "/documentation/energykit", "law": "Use this guidance to optimize when your managed devices consume electricity."}
+{"id": "/documentation/energykit", "law": "To use EnergyKit, the system requires your app to have the entitlement with a value of ."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "You can use EnergyKit to optimize electric vehicle (EV) charging based on grid cleanliness and electricity rates, and provide people with insights into their charging sessions."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the Home app to display activity logs and insights based on the submitted data."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "To use EnergyKit, the system requires your app to have the entitlement with a value of ."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Energy guidance, data submission, and insight provision require working with venues."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "You can retrieve the available venues by calling , and store each venue’s identifier for later use, as shown in the example below."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the guidance to optimize how your managed devices consume electricity."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Calculating how much energy a vehicle needs and how long its charging takes provides guidance you can use to you can make charging decisions."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Create a load event with the state: The event requires zero energy and zero power because charging hasn’t started."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "The load event requires you to report active charging."}
+{"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the tariff breakdown to retrieve energy costs when a person connects their utility account: The framework provides insights only after you submit load events."}

@@ -1,0 +1,41 @@
+# Animation
+# https://developer.apple.com/documentation/swiftui/animation
+# снято: 2026-07-23 18:47 UTC
+
+## Overview
+## Getting the default animation
+## Getting linear animations
+## Getting eased animations
+## Getting built-in spring animations
+## Customizing spring animations
+## Creating custom animations
+## Configuring an animation
+## Instance Properties
+## Instance Methods
+## Type Properties
+## Type Methods
+
+## Overview
+An provides a visual transition of a view when a state value changes from one value to another. The characteristics of this transition vary according to the animation type. For instance, a animation provides a mechanical feel to the animation because its speed is consistent from start to finish. In contrast, an animation that uses easing, like , offers a more natural feel by varying the acceleration of the animation. To apply an animation to a view, add the modifier, and specify both an animation type and the value to animate. For instance, the view in the following code performs an animation each time the state variable changes: When the value of changes, the modifier resizes according to the new value. SwiftUI can animate the transition between sizes because conforms to the protocol. Shapes in SwiftUI conform to the protocol, which describes how to animate a property of a view. In addition to adding an animation to a view, you can also configure the animation by applying animation modifiers to the animation type. For example, you can: Delay the start of the animation by using the modifier. Repeat the animation by using the or modifiers. Change the speed of the animation by using the modifier. For example, the view in the following code repeats the animation three times by using the modifier: A view can also perform an animation when a binding value changes. To specify the animation type on a binding, call its method. For example, the view in the following code performs a animation, moving the box truck between the leading and trailing edges of the view. The truck moves each time a person clicks the control, which changes the value of the binding. The way a view changes over time to create a smooth visual transition from one state to another.
+## Getting the default animation
+default.
+## Getting linear animations
+linear. linear(duration:).
+## Getting eased animations
+easeIn. easeIn(duration:). easeOut. easeOut(duration:). easeInOut. easeInOut(duration:).
+## Getting built-in spring animations
+bouncy. bouncy(duration:extraBounce:). smooth. smooth(duration:extraBounce:). snappy. snappy(duration:extraBounce:).
+## Customizing spring animations
+spring. spring(_:blendDuration:). spring(duration:bounce:blendDuration:). spring(response:dampingFraction:blendDuration:). interactiveSpring. interactiveSpring(response:dampingFraction:blendDuration:). interpolatingSpring. interpolatingSpring(_:initialVelocity:). interpolatingSpring(duration:bounce:initialVelocity:). interpolatingSpring(mass:stiffness:damping:initialVelocity:).
+## Creating custom animations
+init(_:). timingCurve(_:duration:). timingCurve(_:_:_:_:duration:).
+## Configuring an animation
+delay(_:). repeatCount(_:autoreverses:). repeatForever(autoreverses:). speed(_:).
+## Instance Properties
+base.
+## Instance Methods
+animate(value:time:context:). logicallyComplete(after:). shouldMerge(previous:value:time:context:). velocity(value:time:context:).
+## Type Properties
+systemOverlayAppearance. systemOverlayDelayedDisappearance. systemOverlayDisappearance. systemOverlayDisappearanceDelay.
+## Type Methods
+interactiveSpring(duration:extraBounce:blendDuration:).

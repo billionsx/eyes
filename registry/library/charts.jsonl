@@ -1,0 +1,25 @@
+{"id": "/documentation/Charts", "law": "Swift Charts is a powerful and concise SwiftUI framework you can use to transform your data into informative visualizations."}
+{"id": "/documentation/Charts", "law": "There are many ways you can use Swift Charts to communicate patterns or trends in your data."}
+{"id": "/documentation/charts", "law": "Swift Charts is a powerful and concise SwiftUI framework you can use to transform your data into informative visualizations."}
+{"id": "/documentation/charts", "law": "There are many ways you can use Swift Charts to communicate patterns or trends in your data."}
+{"id": "/documentation/charts/areaplot", "law": "Use when you want to visualize data in the same way as with , but you want to plot a function or visualize an entire data collection with a single plot."}
+{"id": "/documentation/charts/barplot", "law": "Use when you want to visualize data in the same way as with , but you want to visualize an entire data collection with a single plot."}
+{"id": "/documentation/charts/lineplot", "law": "Use when you want to visualize data in the same way as with , but you want to plot a function or visualize an entire data collection with a single plot."}
+{"id": "/documentation/charts/lineplot", "law": "For example, you can plot the function y = x^2 with: You can add multiple function plots in a chart and use different foreground styles to distinguish among them."}
+{"id": "/documentation/charts/pointplot", "law": "Use when you want to visualize data in the same way as with , but you want to visualize an entire data collection with a single plot."}
+{"id": "/documentation/charts/rectangleplot", "law": "Use when you want to visualize data in the same way as with , but you want to visualize an entire data collection with a single plot."}
+{"id": "/documentation/charts/ruleplot", "law": "Use when you want to visualize data in the same way as with , but you want to visualize an entire data collection with a single plot."}
+{"id": "/documentation/charts/sectorplot", "law": "Use when you want to visualize data in the same way as with , but you want to visualize an entire data collection with a single plot."}
+{"id": "/documentation/charts/chartcontent", "law": "The protocol provides a set of modifiers that you use to configure the properties of chart content."}
+{"id": "/documentation/charts/chartcontent", "law": "Any of the types that conform to the protocol can use these modifiers."}
+{"id": "/documentation/charts/chartcontentbuilder", "law": "You don’t call the methods of the result builder directly."}
+{"id": "/documentation/charts/chartcontentbuilder", "law": "A result builder that you use to compose the contents of a chart."}
+{"id": "/documentation/charts/creating-a-chart-using-swift-charts", "law": "Then use modifiers to customize different components of the chart, like the legend, axes, and scale."}
+{"id": "/documentation/charts/creating-a-chart-using-swift-charts", "law": "For example, you can use to create a line chart or to produce a scatter plot."}
+{"id": "/documentation/charts/creating-a-chart-using-swift-charts", "law": "In this case, creating a bar chart is a good way to convey the number of each type of toy shape, so you use : The resulting chart clearly communicates that the cube toy shape appears the most: Scale determines the position, height, and color of each ."}
+{"id": "/documentation/charts/creating-a-chart-using-swift-charts", "law": "However, for regular, repetitive data, you can use a structure to represent the same chart more concisely:"}
+{"id": "/documentation/charts/creating-a-chart-using-swift-charts", "law": "However, in this case, the colors that the framework assigns to each mark don’t match the shape colors that they represent."}
+{"id": "/documentation/Charts/BarMark", "law": "To create a simple vertical bar chart that plots categories with x positions and numbers with y positions, use ."}
+{"id": "/documentation/Charts/BarMark", "law": "To differentiate the product categories, add a modifer that specifies a visual encoding for the : You can use the optional parameter in the initializer to modify the stacking mechanism."}
+{"id": "/documentation/Charts/BarMark", "law": "To build a one dimensional chart, use one of the initializers that only requires a for one dimension, like for plotting with x."}
+{"id": "/documentation/Charts/BarMark", "law": "Use to represent intervals by using the , , or ."}

@@ -1,0 +1,3 @@
+{"id": "/documentation/SafetyKit", "law": "Crash Detection requires the entitlement."}
+{"id": "/documentation/SafetyKit", "law": "To support Crash Detection, use to determine whether it’s available and if so, ask permission to allow your app to receive crash events."}
+{"id": "/documentation/SafetyKit", "law": "If your app receives a Crash Detection event, use to provide assistance."}

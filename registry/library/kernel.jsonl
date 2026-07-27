@@ -1,0 +1,7 @@
+{"id": "/documentation/kernel/hardware_families/usb/building_a_simple_usb_driver", "law": "To run the sample code project in Xcode, make sure to use macOS 10.15.5 or later and Xcode 11.5 or later."}
+{"id": "/documentation/kernel/hardware_families/usb/building_a_simple_usb_driver", "law": "For the driver to load, System Integrity Protection (SIP) must be off."}
+{"id": "/documentation/kernel/hardware_families/usb/building_a_simple_usb_driver", "law": "The test device should be unsupported under macOS; otherwise, an existing driver will take precedence, recognize the device, and preempt this sample driver."}
+{"id": "/documentation/kernel/hardware_families/usb/building_a_simple_usb_driver", "law": "The sample driver requires the following command to find criteria that matches the keys in the Info.plist file for a selected USB device plugged into a Mac: WIth the device’s parmeters identified and placed in the Info.plist file, the driver loads and intializes the device upon insertion."}
+{"id": "/documentation/kernel/hardware_families/usb", "law": "Use kernel extensions to implement support for devices with real-time requirements, such as audio and video devices."}
+{"id": "/documentation/kernel/hardware_families/usb", "law": "For most types of USB drivers, Apple has deprecated the use of kernel extensions."}
+{"id": "/documentation/kernel/1579975-vdsp_ctoz", "law": "For best performance, , , and should be 16-byte aligned."}

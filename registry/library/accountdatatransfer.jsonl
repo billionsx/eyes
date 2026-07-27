@@ -1,0 +1,10 @@
+{"id": "/documentation/AccountDataTransfer", "law": "Use the Account Data Transfer web API to request and download information about the people who use your app."}
+{"id": "/documentation/AccountDataTransfer", "law": "The data available relates to someone’s use of Apple’s App Store, including information such as previous transactions and downloads."}
+{"id": "/documentation/AccountDataTransfer", "law": "You don’t need to make a new token request."}
+{"id": "/documentation/AccountDataTransfer", "law": "If you’re an app developer and need to transfer data related to App Store information, app install, or push notification activity for your app instead, use the API."}
+{"id": "/documentation/AccountDataTransfer", "law": "If you request access to the Account Data Transfer API, and Apple grants your request, you don’t need to supply the query parameter when you request an authorization token for the App Data Transfer API."}
+{"id": "/documentation/AccountDataTransfer", "law": "To make recurring requests, for app install or push notification activity, use one of the following values: If you already have a recurring request pending and make another recurring request, the system returns an error, along with the ID of the existing request."}
+{"id": "/documentation/AccountDataTransfer", "law": "The Apple server returns a request ID, which you use when you get the request status, request download URLs, or cancel the request."}
+{"id": "/documentation/AccountDataTransfer", "law": "If you submit a recurring request and don’t resubmit the recurring instance each subsequent day, the recurring request expires 40 days after submission of the initial request."}
+{"id": "/documentation/AccountDataTransfer", "law": "If you submit a recurring request and don’t resubmit the recurring instance each subsequent week, the recurring request expires 190 days after submission of the initial request."}
+{"id": "/documentation/AccountDataTransfer", "law": "Use the endpoint that corresponds to the scope of the requested report and include the request identifier in the path."}

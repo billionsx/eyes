@@ -1,0 +1,378 @@
+{
+ "app": "Apple Massages",
+ "summary": {
+  "frames": 10,
+  "ladder_avg": {
+   "#000000": 0.4418,
+   "#1C1C1E": 0.2677,
+   "#2C2C2E": 0.0,
+   "#1C1C1C": 0.0002,
+   "#2C2C2C": 0.0002,
+   "#181818": 0.0196,
+   "#111111": 0.0039,
+   "#38383A": 0.0
+  },
+  "forbidden_frames": 4,
+  "off_ladder_candidates": [
+   {
+    "hex": "#161617",
+    "weight": 0.445
+   },
+   {
+    "hex": "#1C1C1D",
+    "weight": 0.317
+   },
+   {
+    "hex": "#3C3C3C",
+    "weight": 0.279
+   },
+   {
+    "hex": "#242425",
+    "weight": 0.22
+   },
+   {
+    "hex": "#1B1B1C",
+    "weight": 0.192
+   },
+   {
+    "hex": "#404041",
+    "weight": 0.149
+   },
+   {
+    "hex": "#1B1B1D",
+    "weight": 0.115
+   },
+   {
+    "hex": "#1A1A1B",
+    "weight": 0.11
+   },
+   {
+    "hex": "#121212",
+    "weight": 0.052
+   },
+   {
+    "hex": "#040404",
+    "weight": 0.039
+   }
+  ]
+ },
+ "frames": [
+  {
+   "file": "IMG_2140.PNG",
+   "at": "screen:Apple Massages/IMG_2140.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.9302,
+    "#2C2C2E": 1e-05,
+    "#1C1C1C": 7e-05,
+    "#2C2C2C": 6e-05,
+    "#181818": 0.04935,
+    "#111111": 3e-05,
+    "#38383A": 5e-05
+   },
+   "forbidden_hits": {
+    "#8E8E8E": 18
+   },
+   "off_ladder_top": []
+  },
+  {
+   "file": "IMG_2141.PNG",
+   "at": "screen:Apple Massages/IMG_2141.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.55073,
+    "#1C1C1C": 4e-05,
+    "#2C2C2C": 0.00012,
+    "#181818": 0.04392,
+    "#111111": 4e-05
+   },
+   "forbidden_hits": {},
+   "off_ladder_top": [
+    {
+     "hex": "#161617",
+     "share": 0.2224
+    },
+    {
+     "hex": "#3C3C3C",
+     "share": 0.1395
+    },
+    {
+     "hex": "#737374",
+     "share": 0.0111
+    }
+   ]
+  },
+  {
+   "file": "IMG_2142.PNG",
+   "at": "screen:Apple Massages/IMG_2142.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.5432,
+    "#2C2C2E": 1e-05,
+    "#1C1C1C": 4e-05,
+    "#2C2C2C": 0.00013,
+    "#181818": 0.04404,
+    "#111111": 2e-05,
+    "#38383A": 1e-05
+   },
+   "forbidden_hits": {
+    "#8E8E8E": 27
+   },
+   "off_ladder_top": [
+    {
+     "hex": "#161617",
+     "share": 0.2224
+    },
+    {
+     "hex": "#3C3C3C",
+     "share": 0.1395
+    },
+    {
+     "hex": "#1D1D1D",
+     "share": 0.0148
+    },
+    {
+     "hex": "#737374",
+     "share": 0.0111
+    }
+   ]
+  },
+  {
+   "file": "IMG_2143.PNG",
+   "at": "screen:Apple Massages/IMG_2143.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.82934,
+    "#2C2C2E": 1e-05,
+    "#1C1C1C": 0.0002,
+    "#2C2C2C": 0.00027,
+    "#181818": 0.04569,
+    "#111111": 0.03841,
+    "#38383A": 1e-05
+   },
+   "forbidden_hits": {
+    "#8E8E8E": 32
+   },
+   "off_ladder_top": [
+    {
+     "hex": "#121212",
+     "share": 0.0521
+    }
+   ]
+  },
+  {
+   "file": "IMG_2144.PNG",
+   "at": "screen:Apple Massages/IMG_2144.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.41307,
+    "#1C1C1E": 0.41609,
+    "#2C2C2E": 8e-05,
+    "#1C1C1C": 0.0002,
+    "#181818": 0.00147,
+    "#111111": 0.0001,
+    "#38383A": 4e-05
+   },
+   "forbidden_hits": {},
+   "off_ladder_top": [
+    {
+     "hex": "#040404",
+     "share": 0.0386
+    },
+    {
+     "hex": "#FFFFFF",
+     "share": 0.0162
+    },
+    {
+     "hex": "#1B1B1D",
+     "share": 0.0103
+    }
+   ]
+  },
+  {
+   "file": "IMG_2145.PNG",
+   "at": "screen:Apple Massages/IMG_2145.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.35199,
+    "#1C1C1E": 0.59645,
+    "#2C2C2E": 9e-05,
+    "#1C1C1C": 2e-05,
+    "#181818": 0.00399,
+    "#38383A": 6e-05
+   },
+   "forbidden_hits": {},
+   "off_ladder_top": []
+  },
+  {
+   "file": "IMG_2146.PNG",
+   "at": "screen:Apple Massages/IMG_2146.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.33263,
+    "#1C1C1E": 0.60337,
+    "#2C2C2E": 7e-05,
+    "#1C1C1C": 3e-05,
+    "#2C2C2C": 3e-05,
+    "#181818": 0.004,
+    "#38383A": 5e-05
+   },
+   "forbidden_hits": {},
+   "off_ladder_top": [
+    {
+     "hex": "#FFFFFF",
+     "share": 0.0117
+    }
+   ]
+  },
+  {
+   "file": "IMG_2147.PNG",
+   "at": "screen:Apple Massages/IMG_2147.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.32952,
+    "#1C1C1E": 0.63042,
+    "#2C2C2E": 3e-05,
+    "#1C1C1C": 2e-05,
+    "#181818": 0.00399,
+    "#38383A": 2e-05
+   },
+   "forbidden_hits": {},
+   "off_ladder_top": []
+  },
+  {
+   "file": "IMG_2148.PNG",
+   "at": "screen:Apple Massages/IMG_2148.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.06844,
+    "#1C1C1E": 0.43035,
+    "#2C2C2E": 3e-05
+   },
+   "forbidden_hits": {
+    "#8E8E8E": 35
+   },
+   "off_ladder_top": [
+    {
+     "hex": "#1B1B1C",
+     "share": 0.1919
+    },
+    {
+     "hex": "#404041",
+     "share": 0.1489
+    },
+    {
+     "hex": "#1A1A1B",
+     "share": 0.0725
+    },
+    {
+     "hex": "#1B1B1D",
+     "share": 0.0514
+    }
+   ]
+  },
+  {
+   "file": "IMG_2149.PNG",
+   "at": "screen:Apple Massages/IMG_2149.PNG",
+   "size_px": [
+    1179,
+    2556
+   ],
+   "device": "iPhone 393×852pt @3x (эталон)",
+   "ladder_share": {
+    "#000000": 0.06844,
+    "#1C1C1E": 0.00031,
+    "#2C2C2E": 3e-05,
+    "#1C1C1C": 0.00091,
+    "#2C2C2C": 0.00133
+   },
+   "forbidden_hits": {},
+   "off_ladder_top": [
+    {
+     "hex": "#1C1C1D",
+     "share": 0.3172
+    },
+    {
+     "hex": "#242425",
+     "share": 0.2197
+    },
+    {
+     "hex": "#1B1B1D",
+     "share": 0.0532
+    },
+    {
+     "hex": "#1A1A1B",
+     "share": 0.038
+    },
+    {
+     "hex": "#242424",
+     "share": 0.0259
+    },
+    {
+     "hex": "#414142",
+     "share": 0.0171
+    },
+    {
+     "hex": "#2A2A2B",
+     "share": 0.0146
+    },
+    {
+     "hex": "#404042",
+     "share": 0.0143
+    },
+    {
+     "hex": "#29292A",
+     "share": 0.0143
+    },
+    {
+     "hex": "#282829",
+     "share": 0.0126
+    },
+    {
+     "hex": "#272728",
+     "share": 0.0125
+    },
+    {
+     "hex": "#2B2B2C",
+     "share": 0.0122
+    }
+   ]
+  }
+ ]
+}

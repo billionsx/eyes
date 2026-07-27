@@ -1,0 +1,14 @@
+{"id": "/documentation/CoreSpotlight", "law": "You can then use Core Spotlight to search for your indexed content and display those results in your app."}
+{"id": "/documentation/CoreSpotlight", "law": "Spotlight File Import extensions don’t provide functionality in macOS."}
+{"id": "/documentation/CoreSpotlight", "law": "Devices don’t share indexed data with Apple, or synchronize that data with the person’s other devices."}
+{"id": "/documentation/CoreSpotlight", "law": "In addition to indexing content, iOS provides additional strategies for making your app’s content searchable: Use the search-related properties of to add items to the on-device index, with the option to identify the items as eligible for public indexing."}
+{"id": "/documentation/CoreSpotlight", "law": "Use web markup to index content on your web server in Apple’s server-side index, which makes the data available to all iOS users in Spotlight and Safari search results."}
+{"id": "/documentation/CoreSpotlight/adding-your-app-s-content-to-spotlight-indexes", "law": "When indexing your app’s content, use a named index."}
+{"id": "/documentation/CoreSpotlight/adding-your-app-s-content-to-spotlight-indexes", "law": "The following example creates a named index for the app’s main content and a second index for content that requires extra security: Use the index only for prototyping and testing your code."}
+{"id": "/documentation/CoreSpotlight/adding-your-app-s-content-to-spotlight-indexes", "law": "Don’t use it to store content in the production version of your app."}
+{"id": "/documentation/CoreSpotlight/adding-your-app-s-content-to-spotlight-indexes", "law": "You can specify any information you want for the client data, but must limit the total size of it to 250 bytes."}
+{"id": "/documentation/CoreSpotlight/CSSearchableItemAttributeSet", "law": "During the indexing process, you create objects and use a to fill in the attributes for that item."}
+{"id": "/documentation/CoreSpotlight/CSSearchableItemAttributeSet", "law": "You don’t have to provide values for every attribute."}
+{"id": "/documentation/CoreSpotlight/Spotlight-search-tool", "law": "The provides an efficient way for the Foundation Models framework to access the content in that index and use it to answer prompts."}
+{"id": "/documentation/CoreSpotlight/Spotlight-search-tool", "law": "Include this tool in the Foundation Models session you use to run prompts that require your app’s custom content."}
+{"id": "/documentation/CoreSpotlight/Spotlight-search-tool", "law": "Make your app’s indexed content available to the system’s Foundation models as additional context to use when answering prompts."}

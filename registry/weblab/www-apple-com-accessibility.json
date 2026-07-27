@@ -1,0 +1,37 @@
+{
+ "url": "https://www.apple.com/accessibility/",
+ "sections": [
+  "section-hero",
+  "section-features",
+  "section-resources",
+  "section-stories",
+  "section-newsroom",
+  "section-values-cards"
+ ],
+ "modules": [
+  "name:hero",
+  "name:features gallery",
+  "name:resources gallery",
+  "name:stories gallery",
+  "name:news",
+  "name:values gallery",
+  "name:buy strip"
+ ],
+ "imgs": 41,
+ "videos": 2,
+ "cta": 15,
+ "h_levels": {
+  "1": 1,
+  "2": 13,
+  "3": 33
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/accessibility/ab/built/styles/main.built.css",
+  "/v/accessibility/ab/built/styles/overview.built.css",
+  "/ac/ac-video/4.15.1/styles/ac-video.css"
+ ],
+ "typography_laws": 2
+}

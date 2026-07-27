@@ -1,0 +1,93 @@
+{"id": "/documentation/CoreLocation/adopting-live-updates-in-core-location", "law": "The live updates sample requires Xcode 16 or later and iOS 18 or later."}
+{"id": "/documentation/CoreLocation/monitoring-location-changes-with-core-location", "law": "Before you run the sample code project in Xcode, ensure that you’re using Xcode 16 or later and iOS 18 or later."}
+{"id": "/documentation/CoreLocation/ranging-for-beacons", "law": "This sample code project configures a device to act as a beacon, and configures a device to use ranging to find surrounding beacons."}
+{"id": "/documentation/CoreLocation/ranging-for-beacons", "law": "Use two iOS devices to run the sample, with one acting as a beacon, and the other ranging for the beacon."}
+{"id": "/documentation/CoreLocation/ranging-for-beacons", "law": "Use a instance to request that authorization, set up the constraint based on the hardcoded UUID, then tell the instance to start monitoring."}
+{"id": "/documentation/CoreLocation", "law": "You use instances of the class to configure, start, and stop the Core Location services."}
+{"id": "/documentation/CoreLocation", "law": "Configuring your app to use location services."}
+{"id": "/documentation/CoreLocation", "law": "Requesting authorization to use location services."}
+{"id": "/documentation/corelocation", "law": "You use instances of the class to configure, start, and stop the Core Location services."}
+{"id": "/documentation/corelocation", "law": "Configuring your app to use location services."}
+{"id": "/documentation/corelocation", "law": "Requesting authorization to use location services."}
+{"id": "/documentation/corelocation/clbackgroundactivitysession-3mzv3", "law": "Use to start a background activity session that allows a when-in-use authorized app to receive location updates or monitoring events."}
+{"id": "/documentation/corelocation/clbackgroundactivitysession-3mzv3", "law": "An object that manages a visual indicator that keeps your app in use in the background, allowing it to receive updates or events."}
+{"id": "/documentation/corelocation/cllocationmanager", "law": "Use a location-manager object to configure, start, and stop location services."}
+{"id": "/documentation/corelocation/cllocationmanager", "law": "You might use these services to: Track large or small changes in the user’s current location with a configurable degree of accuracy."}
+{"id": "/documentation/corelocation/cllocationmanager", "law": "Create one or more location-manager objects in your app and use them where you need location data."}
+{"id": "/documentation/corelocation/cllocationmanager", "law": "That thread must itself have an active , like the one found in your app’s main thread."}
+{"id": "/documentation/corelocation/cllocationmanager", "law": "The object you use to start and stop the delivery of location-related events to your app."}
+{"id": "/documentation/corelocation/cllocationupdate", "law": "You use events to observe changes in the device’s location, and to determine the activity type."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "You might use that data to show someone’s physical location on a map and help them navigate their environment."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "You might also use location data to alert someone when they’re near a particular device or geographic region."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "For all of these use cases and more, the Core Location framework provides access to the location data you need."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "The system also requires apps to gain permission to use location data, and prevents apps from acquiring locations without permission."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "In addition, provide a clear privacy policy that explains how you use someone’s location data."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "Always verify that location services are available before you attempt to use them."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "The device doesn’t have the required hardware."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "Your app doesn’t have authorization to use the service."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "Call the appropriate method for a given service immediately before you try to use that service."}
+{"id": "/documentation/corelocation/configuring-your-app-to-use-location-services", "law": "For more information, see Declare the device capabilities your app requires below."}
+{"id": "/documentation/corelocation/monitoring-location-changes-with-core-location", "law": "Before you run the sample code project in Xcode, ensure that you’re using Xcode 16 or later and iOS 18 or later."}
+{"id": "/documentation/corelocation/adopting-live-updates-in-core-location", "law": "The live updates sample requires Xcode 16 or later and iOS 18 or later."}
+{"id": "/documentation/corelocation/clbeacon", "law": "You do not create instances of this class directly."}
+{"id": "/documentation/corelocation/clcirculargeographiccondition", "law": "Use to monitor events that occur in a circular geographic condition that you describe."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "Companies can deploy iBeacon devices in environments where proximity detection is a benefit to users, and apps can use the proximity of beacons to determine an appropriate course of action."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "Adding iBeacon support to your app involves detecting beacons in two different stages: Use region monitoring to detect the presence of an iBeacon."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "Use beacon ranging to determine the proximity to a detected iBeacon."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "Ranging requires taking frequent measurements of the strength of Bluetooth signals and computing the distance to the associated beacons."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "When deploying your iBeacon hardware, you must program each iBeacon with an appropriate proximity UUID, major value, and minor value."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "The value is a 16-bit unsigned integer that you use to differentiate groups of beacons with the same UUID."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "The value is a 16-bit unsigned integer that you use to differentiate groups of beacons with the same UUID and major value."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "Only the UUID is required, but it is recommended that you program all three values into your iBeacon hardware."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "Use region monitoring to alert your app when an iBeacon is nearby."}
+{"id": "/documentation/corelocation/determining-the-proximity-to-an-ibeacon-device", "law": "Because you typically define a UUID for your company once and do not change it later, the example includes a hard-coded version of that value."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "Apps that use their underlying iOS device as an iBeacon must run in the foreground."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "As a result, use this feature for point-of-sale apps or for apps that are meant to run in the foreground anyway."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "For other types of iBeacon implementations, use dedicated beacon hardware from third-party manufacturers."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "To use an iOS device as an iBeacon, you do the following: Obtain or generate a 128-bit UUID for your device."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "For example, a department store chain might use the same UUID for all of its deployed beacons, or each store might be assigned a different UUID."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "To create a new UUID for your iBeacon deployment, use the command-line tool."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "Use a object to configure your beacon’s identity."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "You use the beacon region to generate a dictionary of information that you can advertise later over Bluetooth."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "To broadcast your beacon’s identity from an iOS device, use the Core Bluetooth framework to configure the iOS device as a Bluetooth peripheral."}
+{"id": "/documentation/corelocation/turning-an-ios-device-into-an-ibeacon-device", "law": "Other devices use that information to perform ranging and detect their proximity to your iOS device."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "You might use that data to show someone’s physical location on a map and help them navigate their environment."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "You might also use location data to alert someone when they’re near a particular device or geographic region."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "For all of these use cases and more, the Core Location framework provides access to the location data you need."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "The system also requires apps to gain permission to use location data, and prevents apps from acquiring locations without permission."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "In addition, provide a clear privacy policy that explains how you use someone’s location data."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "Always verify that location services are available before you attempt to use them."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "The device doesn’t have the required hardware."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "Your app doesn’t have authorization to use the service."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "Call the appropriate method for a given service immediately before you try to use that service."}
+{"id": "/documentation/CoreLocation/configuring-your-app-to-use-location-services", "law": "For more information, see Declare the device capabilities your app requires below."}
+{"id": "/documentation/CoreLocation/CLActivityType/automotiveNavigation", "law": "Use this activity type when your app is using the location manager specifically during a vehicular positioning session to track location changes to the automobile."}
+{"id": "/documentation/CoreLocation/CLActivityType/fitness", "law": "For other positioning sessions that aren’t workouts, use or ."}
+{"id": "/documentation/CoreLocation/CLLocation", "law": "Typically, you don’t create location objects yourself."}
+{"id": "/documentation/CoreLocation/CLLocation", "law": "Some services also return previously collected location data, which you can use as context to improve your services."}
+{"id": "/documentation/CoreLocation/CLLocation", "law": "You can always retrieve the most recently collected location from the property of your object."}
+{"id": "/documentation/CoreLocation/CLLocation", "law": "Use objects as-is, and don’t subclass them."}
+{"id": "/documentation/CoreLocation/CLLocationManager", "law": "Use a location-manager object to configure, start, and stop location services."}
+{"id": "/documentation/CoreLocation/CLLocationManager", "law": "You might use these services to: Track large or small changes in the user’s current location with a configurable degree of accuracy."}
+{"id": "/documentation/CoreLocation/CLLocationManager", "law": "Create one or more location-manager objects in your app and use them where you need location data."}
+{"id": "/documentation/CoreLocation/CLLocationManager", "law": "That thread must itself have an active , like the one found in your app’s main thread."}
+{"id": "/documentation/CoreLocation/CLLocationManager", "law": "The object you use to start and stop the delivery of location-related events to your app."}
+{"id": "/documentation/CoreLocation/CLLocationManager/activityType", "law": "An app should use to communicate to Core Location algorithms the type of activity the app’s users typically perform while using the app."}
+{"id": "/documentation/CoreLocation/CLLocationManager/activityType", "law": "If your app allows the user to change the type activity they’re performing, for example in a navigation app that allows the user to switch between driving or walking modes, you should also update the as well."}
+{"id": "/documentation/CoreLocation/CLLocationManager/allowsBackgroundLocationUpdates", "law": "Apps that receive location updates when running in the background must include the key (with the value) in their app’s file."}
+{"id": "/documentation/CoreLocation/CLLocationManager/allowsBackgroundLocationUpdates", "law": "Use this property to enable and disable background updates programmatically."}
+{"id": "/documentation/CoreLocation/CLLocationManager/allowsBackgroundLocationUpdates", "law": "For example, you might set this property to only after the user enables features in your app that require background location updates."}
+{"id": "/documentation/CoreLocation/CLLocationManager/desiredAccuracy", "law": "The location service does its best to achieve the requested accuracy; however, apps must be prepared to use less accurate data."}
+{"id": "/documentation/CoreLocation/CLLocationManager/desiredAccuracy", "law": "If your app isn’t authorized to access precise location information ( is ), changes to this property’s value have no effect; the accuracy is always ."}
+{"id": "/documentation/CoreLocation/CLLocationManager/startUpdatingLocation()", "law": "Therefore, if your app needs to receive location events while in the background, it must include the key (with the value) in its file."}
+{"id": "/documentation/CoreLocation/CLLocationManager/startUpdatingLocation()", "law": "In addition to your delegate object implementing the method, it should also implement the method to respond to potential errors."}
+{"id": "/documentation/CoreLocation/kCLLocationAccuracyBest", "law": "Specify this constant when you want very high accuracy but don’t need the same level of accuracy required for navigation apps."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "You must call this method or before you can receive location-related information."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "Your app must be in the foreground to show a location authorization prompt."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "This method runs asynchronously and prompts the user to grant permission to the app to use location services."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "The user prompt contains the text from the key in your app file, and the presence of that key is required when calling this method."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "If the user’s choice grants When In Use authorization to your app, your app can start any location service and is eligible to receive the results while it’s in use."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "If the user’s choice grants temporary When In Use authorization, the authorization expires when the app is no longer in use, reverting to Not Determined status ( )."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "For information about when an app is considered to be in use, see ."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "Be mindful of battery use and user privacy by monitoring the device’s location only when necessary and when the user expects it."}
+{"id": "/documentation/CoreLocation/CLLocationManager/requestWhenInUseAuthorization()", "law": "Requests the user’s permission to use location services while the app is in use."}

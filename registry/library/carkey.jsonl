@@ -1,0 +1,5 @@
+{"id": "/documentation/carkey", "law": "Car manufacturers adopt this framework in the apps they use to support and control their vehicles."}
+{"id": "/documentation/carkey", "law": "For example, your app might use it to lock or unlock the vehicle, or open a power sunroof."}
+{"id": "/documentation/carkey", "law": "Use the session to retrieve the list of commands available to the current person, and to initiate actions from your app."}
+{"id": "/documentation/carkey", "law": "Your app must have the entitlement to use this framework."}
+{"id": "/documentation/carkey", "law": "To request the entitlement, you must be an automaker enrolled in the MFi Program."}

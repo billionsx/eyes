@@ -1,0 +1,42 @@
+{
+ "url": "https://www.apple.com/privacy/",
+ "sections": [
+  "section-hero",
+  "section-safari",
+  "section-apple-intelligence",
+  "section-on-device",
+  "section-private-cloud",
+  "section-app-videos",
+  "section-features-text",
+  "section-latest",
+  "section-router",
+  "section-values"
+ ],
+ "modules": [
+  "name:hero",
+  "name:safari",
+  "name:apple intelligence",
+  "name:apps gallery",
+  "name:privacy protections gallery",
+  "name:latest on privacy",
+  "name:router",
+  "name:values"
+ ],
+ "imgs": 2,
+ "videos": 11,
+ "cta": 14,
+ "h_levels": {
+  "1": 1,
+  "2": 26,
+  "3": 30
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/privacy/y/built/styles/main.built.css",
+  "/v/privacy/y/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

@@ -1,0 +1,39 @@
+{
+ "url": "https://www.apple.com/apple-podcasts/",
+ "sections": [
+  "section-hero",
+  "section-catalog",
+  "section-tiles",
+  "section-ecosystem",
+  "section-faq"
+ ],
+ "modules": [
+  "name:hero",
+  "name:catalog",
+  "name:video",
+  "name:transcript",
+  "name:audio control",
+  "name:carplay",
+  "name:subscription",
+  "name:personalized",
+  "name:share your voice",
+  "name:ecosystem",
+  "name:faq"
+ ],
+ "imgs": 49,
+ "videos": 1,
+ "cta": 28,
+ "h_levels": {
+  "1": 1,
+  "2": 13,
+  "3": 33
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/apple-podcasts/g/built/styles/main.built.css",
+  "/v/apple-podcasts/g/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

@@ -1,0 +1,5 @@
+{"id": "/documentation/CoreMedia", "law": "Use Core Media’s low-level data types and interfaces to efficiently process media samples and manage queues of media data."}
+{"id": "/documentation/CoreMedia/CMMetadataFormatDescription", "law": "A type you use to interact with metadata format descriptions."}
+{"id": "/documentation/CoreMedia/CMTag-swift.class", "law": "If you need to refer to another media element or in-memory data as part of a tag, use a buffer index or other constant."}
+{"id": "/documentation/CoreMedia/CMTag-swift.class", "law": "It’s recommended to use instances where possible to preserve type safety."}
+{"id": "/documentation/CoreMedia/CMTimeScale", "law": "Timescales must be positive."}

@@ -1,0 +1,37 @@
+{
+ "url": "https://www.apple.com/racial-equity-justice-initiative/",
+ "sections": [
+  "section-hero",
+  "section-education",
+  "section-economic",
+  "section-criminal-justice",
+  "section-resources",
+  "section-newsroom",
+  "section-values"
+ ],
+ "modules": [
+  "name:hero",
+  "name:education",
+  "name:economic empowerment",
+  "name:criminal justice reform",
+  "name:reports and resources",
+  "name:newsroom",
+  "name:values gallery"
+ ],
+ "imgs": 58,
+ "videos": 0,
+ "cta": 21,
+ "h_levels": {
+  "1": 1,
+  "2": 25,
+  "3": 11
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/racial-equity-justice-initiative/d/built/styles/main.built.css",
+  "/v/racial-equity-justice-initiative/d/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

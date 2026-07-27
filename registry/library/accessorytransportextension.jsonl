@@ -1,0 +1,3 @@
+{"id": "/documentation/AccessoryTransportExtension", "law": "Use the Accessory Transport Extension framework to securely transfer information to an accessory that you develop."}
+{"id": "/documentation/AccessoryTransportExtension", "law": "Customer installations of your app can only use the framework on devices located in the EU that are signed in with an Apple Account with an EU country or region."}
+{"id": "/documentation/AccessoryTransportExtension", "law": "The workflow requires three extensions to maintain security and encapsulation."}

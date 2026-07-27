@@ -1,0 +1,63 @@
+{
+ "url": "https://www.apple.com/iphone-17e/",
+ "sections": [
+  "section-welcome",
+  "section-highlights",
+  "section-valuable",
+  "section-durability",
+  "section-battery",
+  "section-camera",
+  "section-shared-features",
+  "section-upgrade",
+  "section-accessories",
+  "section-upgrade-android",
+  "section-incentive",
+  "section-incentive-alt",
+  "section-contrast",
+  "section-environment",
+  "section-values",
+  "section-index"
+ ],
+ "modules": [
+  "name:hero",
+  "name:highlights",
+  "name:value",
+  "name:design intro",
+  "name:design gallery",
+  "name:performance and battery intro",
+  "name:performance and battery compare",
+  "name:camera intro",
+  "name:camera gallery",
+  "name:camera storage",
+  "name:shared features intro",
+  "name:connectivity gallery",
+  "name:ios and apple intelligence gallery",
+  "name:upgrade compare",
+  "name:apple specialists",
+  "name:apple trade in",
+  "name:accessories",
+  "name:upgrade to iphone",
+  "name:why apple gallery",
+  "name:why apple gallery",
+  "name:compare",
+  "name:environment gallery",
+  "name:values gallery",
+  "name:index"
+ ],
+ "imgs": 216,
+ "videos": 13,
+ "cta": 110,
+ "h_levels": {
+  "2": 33,
+  "1": 1,
+  "3": 69
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/iphone-17e/c/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

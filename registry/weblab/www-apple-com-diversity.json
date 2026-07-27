@@ -1,0 +1,39 @@
+{
+ "url": "https://www.apple.com/diversity/",
+ "sections": [
+  "section-welcome",
+  "section-product-stories",
+  "section-graphs",
+  "section-newsroom",
+  "section-incentive"
+ ],
+ "modules": [
+  "name:hero",
+  "name:inclusive by design",
+  "name:veterans",
+  "name:hbcu",
+  "name:pay equity",
+  "name:accessible for everyone",
+  "name:community for our employees",
+  "name:apple workforce",
+  "name:newsroom",
+  "name:values"
+ ],
+ "imgs": 24,
+ "videos": 0,
+ "cta": 42,
+ "h_levels": {
+  "1": 1,
+  "2": 11,
+  "3": 25,
+  "4": 1
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/diversity/i/built/styles/overview.built.css",
+  "/ac/ac-films/7.5.1/styles/modal.css"
+ ],
+ "typography_laws": 2
+}

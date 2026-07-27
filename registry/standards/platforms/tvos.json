@@ -1,0 +1,18 @@
+{
+ "platform": "tvOS",
+ "measured": "📐 первые величины из официального кита tvOS-18 (Sketch)",
+ "watch": [
+  "hig-designing-for-tvos"
+ ],
+ "правило": "величины применяются исключительно по назначению платформы; перенос между платформами — только замером (устав ст. 26)",
+ "from_kit": {
+  "corner_radii_pt": {
+   "track": 7.0,
+   "circle_button": 10.0,
+   "platter": 18.5,
+   "hairline_rect": 2.0,
+   "at": "kit:tvOS-18-Design-Templates-Sketch.dmg:Templates - Video Player, Picture-in-picture, Post-Play/*"
+  },
+  "symbols_device_auth": 7
+ }
+}

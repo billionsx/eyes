@@ -1,0 +1,79 @@
+# What’s New - iOS - Apple Developer
+# https://developer.apple.com/ios/whats-new/
+# снято: 2026-07-23 18:08 UTC
+
+## h2: Explore Get Started
+## h2: Stay Updated
+## h2: Explore Platforms
+## h2: Featured
+## h2: Explore Technologies
+## h2: Featured
+## h2: Explore Community
+## h2: Featured
+## h2: Explore Documentation
+## h2: Release Notes
+## h2: Explore Downloads
+## h2: Featured
+## h2: Explore Support
+## h2: Featured
+## h2: Quick Links
+## h2: iOS
+## h1: What’s new in iOS 27
+## h2: Foundation Models framework
+## h4: What's new in the Foundation Models framework
+## h4: Build agentic app experiences with the Foundation Models framework
+## h4: Build with the new Apple Foundation Model on Private Cloud Compute
+## h4: Bring an LLM provider to the Foundation Models framework
+## h4: Debug and profile agentic app experiences with Instruments
+## h4: Build AI-powered scripts with the fm CLI and Python SDK
+## h4: Improve your prompts by hill-climbing with Evaluations
+## h4: Meet the Evaluations framework
+## h4: Create robust evaluations for agentic apps
+## h2: App Intents framework
+## h4: Code-along: Make your app available to Siri
+## h4: Build intelligent Siri experiences with App Intents
+## h4: Advanced App Intent schemas for Siri
+## h4: Discover new capabilities in the App Intents framework
+## h4: Meet the App Intents Testing framework
+## h4: LLM search using Core Spotlight
+## h2: Core AI
+## h4: Meet Core AI
+## h4: Dive into Core AI model authoring and optimization
+## h4: Integrate on-device AI models into your app using Core AI
+## h4: Optimize custom machine learning operations with Metal tensors
+## h2: Platform improvements
+## h4: Principles of great design
+## h4: Communicate your brand identity on iOS
+## h4: What's new in SwiftUI
+## h4: WidgetKit foundations
+## h4: Modernize your UIKit app
+## h4: Use SwiftUI with AppKit and UIKit
+## h4: Dive into lazy stacks and scrolling with SwiftUI
+## h4: Compose advanced graphics effects with SwiftUI
+## h4: Craft clear names for features and labels in your app
+## h4: Design intuitive search experiences
+## h2: Games and media
+## h4: Make your game great with touch
+## h4: Build real-time neural rendering pipelines with Metal
+## h4: Find and fix performance issues in your Metal games
+## h4: Speedrun your game port with agentic coding
+## h4: Meet the Music Understanding framework
+## h4: Integrate MusicKit into your app
+## h4: Discover generated subtitles and subtitle styles
+## h4: Meet the NowPlaying framework
+## h4: Build a responsive camera app that launches quickly
+## h4: Implement high resolution photo capture
+## h4: Enhance RAW image processing with Core Image
+## h4: Support the Center Stage front camera in your iOS app
+## h2: Resources
+## h2: Developer Footer
+## h3: Platforms
+## h3: Tools
+## h3: Technologies
+## h3: Resources
+## h3: Support
+## h3: Account
+## h3: Programs
+## h3: Events
+
+What’s New - iOS - Apple Developer View in English Apple Developer Get Started Explore Get Started Overview Learn Apple Developer Program Stay Updated Latest News Hello Developer Platforms Explore Platforms Apple Platforms iOS iPadOS macOS tvOS visionOS watchOS App Store Featured Design Distribution Games Accessories Web Home CarPlay Technologies Explore Technologies Overview Xcode Swift SwiftUI Featured Accessibility AI & Machine Learning App Intents Apple Intelligence Games Security Xcode Cloud Community Explore Community Overview Meet with Apple events Community-driven events Developer Forums Open Source Featured WWDC Swift Student Challenge Developer Stories App Store Awards Apple Design Awards Apple Developer Centers Documentation Explore Documentation Documentation Library Technology Overviews Sample Code Human Interface Guidelines Videos Release Notes Featured Updates iOS iPadOS macOS watchOS visionOS tvOS Xcode Downloads Explore Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer Forums Feedback Assistant Contact Us Featured Account Help App Review Guidelines App Store Connect Help Upcoming Requirements Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos iOS Open Menu Close Menu Overview What’s New Get Started Resources What’s new in iOS 27 Dive into the latest key technologies and capabilities. Foundation Models framework The Foundation Models framework is a native Swift API that gives you direct access to the same on-device model that powers Apple Intelligence. You can now work with any language model, including Apple Foundation Models, cloud models like Claude and Gemini, or any other provider that conforms to the Language Model protocol. Multimodal prompts let you pass images alongside text so your app can reason about visual content, and Vision framework tools like OCR and barcode readers are available for your model to call directly, all on-device. Dynamic Profiles let you swap models, tools, and instructions on the fly, so your app’s behavior can adapt within a continuous session. If you’re enrolled in the App Store Small Business Program and your app has fewer than 2 million total first-time App Store downloads, you can access the next generation of Apple Foundation Models running on Private Cloud Compute at no cloud API cost. And with the new Evaluations framework, you can verify that your AI features behave correctly across dynamic conditions, going beyond what unit tests alone can catch. What's new in the Foundation Models framework Build agentic app experiences with the Foundation Models framework Build with the new Apple Foundation Model on Private Cloud Compute Bring an LLM provider to the Foundation Models framework Debug and profile agentic app experiences with Instruments Build AI-powered scripts with the fm CLI and Python SDK Improve your prompts by hill-climbing with Evaluations Meet the Evaluations framework Create robust evaluations for agentic apps Explore Foundation Models framework documentation Add server-side intelligence with Private Cloud Compute Apple Developer Forums App Intents framework Siri now connects to more of what people do in your app through the App Intents framework, making your content and actions available through natural language. Entity schemas contribute your app's content to the Spotlight semantic index, so Siri can surface it with attribution back to your app. Intent schemas let people take action on that content naturally with no specific phrases to define and no code changes needed as Siri's language understanding evolves or expands to new languages and regional dialects. The new View Annotations API lets you map your views to entities so people can reference and act on what's on screen conversationally. The App Intents Testing framework enables you to validate your entire integration through real system pathways, without UI automation, so you can catch issues early and ship with confidence. Code-along: Make your app available to Siri Build intelligent Siri experiences with App Intents Advanced App Intent schemas for Siri Discover new capabilities in the App Intents framework Meet the App Intents Testing framework LLM search using Core Spotlight Learn about the App Intents framework Apple Developer Forums Core AI Core AI is a new framework built directly into the OS and purpose-built for Apple Silicon, providing the best way to bring your own models on-device — complete with supporting tools and technologies. A modern, memory-safe Swift API lets you load, specialize, and run AI models entirely on-device, keeping user data private and your apps responsive, with zero server dependencies and zero token costs. Models are automatically specialized for the hardware they run on, with ahead-of-time compilation support for quick load times. Fine-grained control over inference memory, zero-copy data paths, and stateful execution give you the performance you need to run everything from compact vision models to large-scale generative AI across all Apple platforms. Meet Core AI Dive into Core AI model authoring and optimization Integrate on-device AI models into your app using Core AI Optimize custom machine learning operations with Metal tensors Explore Core AI documentation Platform improvements Your app has new tools to look great and work smoothly across SwiftUI, UIKit, and WidgetKit. Refreshed materials, refined typography, and updated tab and navigation bars unify Apple platforms while letting your app keep its identity. With SwiftUI, you can now build high-performance document-based apps with direct disk access, reorder content across lists and grids, and lazily load subviews that prefetch content for smooth scrolling. UIKit adds new layouts that adapt for iPhone Mirroring, and widgets can now be customized through App Intents and dynamic styling. Principles of great design Communicate your brand identity on iOS What's new in SwiftUI WidgetKit foundations Modernize your UIKit app Use SwiftUI with AppKit and UIKit Dive into lazy stacks and scrolling with SwiftUI Compose advanced graphics effects with SwiftUI Craft clear names for features and labels in your app Design intuitive search experiences Games and media Game Porting Toolkit 4 introduces open source agentic coding skills that bring Metal and Apple game development best practices to every step of the porting process, helping you ship on Apple platforms faster. If your app works with audio or media playback, the Music Understanding framework lets it analyze audio across six dimensions on your device. The NowPlaying framework connects your app's playback to the Lock Screen, Control Center, Dynamic Island, and CarPlay. And version 9 of the Core Image RAW processing APIs dramatically improves image quality with better sharpness and more defined color. Make your game great with touch Build real-time neural rendering pipelines with Metal Find and fix performance issues in your Metal games Speedrun your game port with agentic coding Meet the Music Understanding framework Integrate MusicKit into your app Discover generated subtitles and subtitle styles Meet the NowPlaying framework Build a responsive camera app that launches quickly Implement high resolution photo capture Enhance RAW image processing with Core Image Support the Center Stage front camera in your iOS app Learn about the Game Porting Toolkit Apple Developer Forums Resources Take advantage of the latest advancements in iOS by building your apps and games with Xcode 27 beta. Browse updated documentation and try out the sample code for the new technologies introduced at WWDC26. Download the Xcode 27 beta and the iOS 27 beta Learn how to install and use Apple beta software View the iOS and iPadOS release notes Browse sample code Join the conversation on the forums Developer Footer Features are subject to change. Some capabilities and services may not be available in all regions or all languages; some feature availability may vary due to local laws and regulations. iOS What’s New Platforms Open Menu Close Menu iOS iPadOS macOS tvOS visionOS watchOS App Store Tools Open Menu Close Menu Swift SwiftUI Swift Playground TestFlight Xcode Xcode Cloud Icon Composer SF Symbols Technologies Open Menu Close Menu Accessibility Accessories AI & Machine Learning Apple Intelligence Audio & Video Augmented Reality Business Design Distribution Education Games Health & Fitness In-App Purchase Localization Maps & Location Security Safari & Web Resources Open Menu Close Menu Documentation Downloads Sample Code Videos Documentation Archive Support Open Menu Close Menu Help Guides & Articles Contact Us Forums Feedback & Bug Reporting System Status Account Open Menu Close Menu Apple Developer App Store Connect Certificates, IDs, & Profiles Feedback Assistant Programs Open Menu Close Menu Apple Developer Program Apple Developer Enterprise Program App Store Small Business Program MFi Program Mini Apps Partner Program News Partner Program Video Partner Program Security Bounty Program Security Research Device Program Events Open Menu Close Menu Meet with Apple Apple Developer Centers App Store Awards Apple Design Awards Apple Developer Academies WWDC Read the latest news . Get the Apple Developer app . Light Dark Auto Copyright © 2026 Apple Inc. All rights reserved. Terms of Use Privacy Policy Agreements and Guidelines

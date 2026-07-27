@@ -1,0 +1,4 @@
+{"id": "/documentation/CoreAudioTypes", "law": "The Core Audio Types framework declares common data types and constants that other Core Audio interfaces use."}
+{"id": "/documentation/CoreAudioTypes", "law": "Use specialized data types to interact with audio streams, complex buffers, and audiovisual timestamps."}
+{"id": "/documentation/CoreAudioTypes/AudioStreamBasicDescription", "law": "For variable bit rate (VBR) audio, and for CBR audio where the channels have unequal sizes, also use an structure to additionally describe each packet."}
+{"id": "/documentation/CoreAudioTypes/kAudioChannelLayoutTag_MPEG_7_1_A", "law": "Your channels must be laid out in the following order: Left Right Center Low-frequency effects Left surround Right surround Left center Right center An MPEG 7.1-channel, configuration A, audio layout."}

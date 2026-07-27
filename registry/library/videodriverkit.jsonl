@@ -1,0 +1,2 @@
+{"id": "/documentation/VideoDriverKit", "law": "VideoDriverKit handles all of the necessary user client communication between CoreMedia and the driver extension, which eliminates the need to use kexts and ."}
+{"id": "/documentation/VideoDriverKit", "law": "Then use the framework to install and upgrade your driver."}

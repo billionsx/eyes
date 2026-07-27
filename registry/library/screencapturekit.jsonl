@@ -1,0 +1,16 @@
+{"id": "/documentation/ScreenCaptureKit/capturing-screen-content-in-macos", "law": "After the stream starts, further changes to its configuration and content filter don’t require restarting it."}
+{"id": "/documentation/ScreenCaptureKit", "law": "Use ScreenCaptureKit to capture high-performance video and audio across iOS, iPadOS, macOS, tvOS, and visionOS."}
+{"id": "/documentation/ScreenCaptureKit", "law": "Use , the system screen-sharing control, as the recommended approach for letting people select content sources and manage active streams, rather than building your own selection UI."}
+{"id": "/documentation/ScreenCaptureKit", "law": "In the Info pane of the Xcode target editor, add a key with a description of why your app requires screen recording access."}
+{"id": "/documentation/screencapturekit", "law": "Use ScreenCaptureKit to capture high-performance video and audio across iOS, iPadOS, macOS, tvOS, and visionOS."}
+{"id": "/documentation/screencapturekit", "law": "Use , the system screen-sharing control, as the recommended approach for letting people select content sources and manage active streams, rather than building your own selection UI."}
+{"id": "/documentation/screencapturekit", "law": "In the Info pane of the Xcode target editor, add a key with a description of why your app requires screen recording access."}
+{"id": "/documentation/screencapturekit/capturing-screen-content-on-ios", "law": "You use the sample to record the screen to a file, to buffer up to 15 seconds of rolling video and export a clip on demand, and to show a live camera preview during in-app captures."}
+{"id": "/documentation/screencapturekit/capturing-screen-content-on-ios", "law": "This sample requires a device running iOS 27 or later."}
+{"id": "/documentation/screencapturekit/sccontentfilter", "law": "Use a content filter to limit an object’s output to only that matching your filter criteria."}
+{"id": "/documentation/screencapturekit/scdisplay", "law": "Select a display to capture and use it to create an instance of ."}
+{"id": "/documentation/screencapturekit/scrunningapplication", "law": "Select one or more apps to capture and use them to create an instance of ."}
+{"id": "/documentation/screencapturekit/scshareablecontent", "law": "Use the , , and properties to create a object that specifies what display content to capture."}
+{"id": "/documentation/screencapturekit/scstream", "law": "Use a stream to capture video of screen content like apps and windows."}
+{"id": "/documentation/screencapturekit/scstreamframeinfo", "law": "Use keys to retrieve values from the dictionary of metadata attached to the sample buffers that a stream produces."}
+{"id": "/documentation/screencapturekit/scwindow", "law": "Select one or more windows to capture and use them to create an instance of ."}

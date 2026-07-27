@@ -1,0 +1,6 @@
+{"id": "/documentation/Distributed", "law": "Distributed actors share many characteristics with Swift actors, and include additional isolation checks to ensure location transparency and safety in a distributed environment."}
+{"id": "/documentation/Distributed", "law": "You use three main parts when writing code with distributed actors: Swift language support for actors and distributed actors."}
+{"id": "/documentation/Distributed", "law": "The Distributed module, which includes the types and protocols you need to declare and use distribute actors."}
+{"id": "/documentation/Distributed", "law": "A distributed actor is always part of some distributed actor system; that distributed actor system handles the serialization and networking necessary to perform remote method calls."}
+{"id": "/documentation/Distributed", "law": "For local testing, you can use ."}
+{"id": "/documentation/Distributed", "law": "For production, you can use the distributed actor system from the library, use another library, or write your own distributed actor system."}

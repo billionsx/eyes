@@ -1,0 +1,46 @@
+{
+ "url": "https://www.apple.com/airtag/",
+ "sections": [
+  "section-hero",
+  "section-manifesto",
+  "section-share-airtag",
+  "section-features",
+  "section-network",
+  "section-privacy",
+  "section-more-features",
+  "section-tiles",
+  "section-ar",
+  "section-accessories",
+  "section-tech-specs"
+ ],
+ "modules": [
+  "name:hero",
+  "name:manifesto",
+  "name:share airtag",
+  "name:features",
+  "name:network",
+  "name:privacy",
+  "name:more features",
+  "name:tiles",
+  "name:ar",
+  "name:accessories",
+  "name:buy strip"
+ ],
+ "imgs": 2,
+ "videos": 2,
+ "cta": 17,
+ "h_levels": {
+  "1": 1,
+  "2": 10,
+  "3": 22,
+  "4": 1,
+  "5": 5
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/airtag/g/built/styles/overview.built.css"
+ ],
+ "typography_laws": 2
+}

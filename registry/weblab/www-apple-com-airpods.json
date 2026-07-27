@@ -1,0 +1,37 @@
+{
+ "url": "https://www.apple.com/airpods/",
+ "sections": [
+  "section-airpods-max-2",
+  "section-airpods-pro-3",
+  "section-airpods-4",
+  "section-compare",
+  "section-consider",
+  "section-music"
+ ],
+ "modules": [
+  "name:airpods max 2",
+  "name:airpods pro 3",
+  "name:airpods 4",
+  "name:compare",
+  "name:get to know airpods",
+  "name:apple music",
+  "name:buy strip"
+ ],
+ "imgs": 40,
+ "videos": 2,
+ "cta": 42,
+ "h_levels": {
+  "1": 1,
+  "2": 8,
+  "3": 19,
+  "4": 5
+ },
+ "css": [
+  "/api-www/global-elements/global-header/v1/assets/globalheader.css",
+  "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+  "/ac/localnav/9/styles/ac-localnav.built.css",
+  "/v/airpods/ae/built/styles/overview.built.css",
+  "/v/airpods/shared/compare/g/built/styles/compare.built.css"
+ ],
+ "typography_laws": 2
+}

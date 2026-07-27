@@ -1,0 +1,3 @@
+{"id": "/documentation/AppMigrationKit", "law": "Use AppMigrationKit to export your app’s on-device data to another device running a non-Apple platform, or to import from another platform, or both."}
+{"id": "/documentation/AppMigrationKit", "law": "To participate in a cross-platform migration, your app creates an that conforms to the protocol and at least one of its subprotocols."}
+{"id": "/documentation/AppMigrationKit", "law": "The system doesn’t use the framework for migration between iOS or iPadOS devices."}

@@ -1,0 +1,416 @@
+{"id": "/documentation/RealityKit/animated-rotation-with-a-system", "law": "You can use the Entity Component System (ECS) from RealityKit to apply logic to any number of entities in a scene."}
+{"id": "/documentation/RealityKit/bringing-your-scenekit-projects-to-realitykit", "law": "This means that your existing apps and games continue to work, and you aren’t required to take immediate action."}
+{"id": "/documentation/RealityKit/bringing-your-scenekit-projects-to-realitykit", "law": "The manages spherical coordinate positioning around a target: To avoid jarring behaviors, the system can also implement soft camera movements by having the camera follow a target."}
+{"id": "/documentation/RealityKit/bringing-your-scenekit-projects-to-realitykit", "law": "Use this technique primarily for experiences with finite bounds, such as volumes, portals, windows, or immersive spaces that aren’t fully immersive."}
+{"id": "/documentation/RealityKit/bringing-your-scenekit-projects-to-realitykit", "law": "If you don’t have access to the original asset files and only have assets in SCN file format, you can use to convert your 3D models to USD."}
+{"id": "/documentation/RealityKit/bringing-your-scenekit-projects-to-realitykit", "law": "You can invoke by typing into a terminal window: To convert an SCN asset to USDZ, you can use: If you have a separate SCN file, which contains animation data, you can append this too:"}
+{"id": "/documentation/RealityKit/bringing-your-scenekit-projects-to-realitykit", "law": "The RealityKit version of the sample demonstrates how to leverage visionOS-specific features to enhance immersive experiences, particularly through the use of immersive spaces with Portrait mode."}
+{"id": "/documentation/RealityKit/building-an-immersive-experience-with-realitykit", "law": "This project requires an iPhone or iPad running at least iOS 15 or iPadOS 15."}
+{"id": "/documentation/RealityKit/building-an-immersive-experience-with-realitykit", "law": "Use systems and postprocessing effects to create a realistic underwater scene."}
+{"id": "/documentation/RealityKit/combining-2d-and-3d-views-in-an-immersive-app", "law": "These types include both SwiftUI and UIKit to exemplify how to use any framework in your visionOS app."}
+{"id": "/documentation/RealityKit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Ensure that your entities have both an and a ."}
+{"id": "/documentation/RealityKit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Add a to the and make sure it uses , or specify which entities to target with ."}
+{"id": "/documentation/RealityKit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Then use to convert the location of the tap gesture from the local coordinate space of the entity to the scene’s coordinate space."}
+{"id": "/documentation/RealityKit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Use attachments to place 2D content relative to 3D content in your visionOS app."}
+{"id": "/documentation/RealityKit/configuring-collision-in-realitykit", "law": "This sample code project shows how to use collision groups and collision filters together to take precise control over which entities collide in a RealityKit scene."}
+{"id": "/documentation/RealityKit/configuring-collision-in-realitykit", "law": "Here is how the four collision groups in this sample project are defined: You don’t assign collision groups directly to entities."}
+{"id": "/documentation/RealityKit/configuring-collision-in-realitykit", "law": "Although it’s common to pass an individual group to ‘s parameter as is done in this project, but you don’t have to."}
+{"id": "/documentation/RealityKit/configuring-collision-in-realitykit", "law": "After creating a collision filter, assign it to all the entities that should use that filter, like this:"}
+{"id": "/documentation/RealityKit/configuring-collision-in-realitykit", "law": "Requires Xcode 16.2, iOS 18, and an iOS device with an A9 or later processor."}
+{"id": "/documentation/RealityKit/configuring-collision-in-realitykit", "law": "Use collision groups and collision filters to control which objects collide."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "If possible, avoid creating environments that are very dark or very light."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "Baking lighting into your model’s textures isn’t always possible, but when you use an unlit material instead of a PBR material, you improve your environment’s performance."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "Try to use geometry that’s perpendicular to the viewer."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "You can also use normal maps and use UV animation on your textures to create more convincing flat objects, like the pond shown in this video."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "In the visonOS Simulator, once you have entered the immersive space, use the I/O > Set immersion to > 100% and then turn around to see the pond."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "If your environment has no floor or ground, use a sphere instead of a dome."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "Although the geometry detail in the stylized content of the sample isn’t dense enough to require much optimization, vertex count is one of the biggest sources of performance problems in rendered 3D scenes, so use the smallest number of vertices you need to achieve the effect that you want."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "Avoid using them on large or distant objects and use them selectively when building immersive environments."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "If somebody moves more than about a meter from their starting position, visionOS automatically turns immersive mode off, so you don’t need to worry about how environment objects look from other vantage points."}
+{"id": "/documentation/RealityKit/construct-an-immersive-environment-for-visionOS", "law": "Try to avoid using long, thin triangles in your models."}
+{"id": "/documentation/RealityKit/creating-a-spatial-drawing-app-with-realitykit", "law": "Use low-level mesh and texture APIs to achieve fast updates to a person’s brush strokes by integrating RealityKit with ARKit and SwiftUI."}
+{"id": "/documentation/RealityKit/creating-an-app-for-face-painting-in-ar", "law": "This project requires an iPhone or iPad running iOS 15 or iPadOS 15."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "You can use to capture and display connected camera feeds, as demonstrated in ."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "The low-latency rendering pipeline consists of four main components: This architecture minimizes latency by using shared texture handles to avoid copying data between Metal and RealityKit."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "The storage mode must be to create shared textures that reside entirely in GPU memory."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "You use these to signal frame updates to RealityKit."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "For mono cameras, use with a single texture."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "For stereo cameras, use that combines left and right eye textures: The method creates a plane with an unlit material displaying the camera texture."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "Use Core Image to convert incoming frames to Metal textures."}
+{"id": "/documentation/RealityKit/displaying-low-latency-connected-video", "law": "Create a Metal command buffer and use to render directly to the shared texture."}
+{"id": "/documentation/RealityKit/docking-a-video-player-in-an-immersive-scene", "law": "You can use to customize the width and location of the docking region."}
+{"id": "/documentation/RealityKit/docking-a-video-player-in-an-immersive-scene", "law": "This sample code project demonstrates how to use the RealityKit API for the docking-region component."}
+{"id": "/documentation/RealityKit/docking-a-video-player-in-an-immersive-scene", "law": "Use to include this picker as an option in the list of immersive scene selections."}
+{"id": "/documentation/RealityKit/generating-interactive-geometry-with-realitykit", "law": "For more complex meshes, or meshes you add vertices to or remove vertices from at runtime, you can estimate the maximum vertex capacity and resize the mesh if its vertex count ever exceeds that number."}
+{"id": "/documentation/RealityKit/generating-interactive-geometry-with-realitykit", "law": "To start, the sample captures the person’s interaction position and state with a , passing that information to : passes this interaction information to the active , which can use it to generate its height map."}
+{"id": "/documentation/RealityKit/presenting-images-in-realitykit", "law": "This sample app demonstrates how to use and to convert an existing 2D image to a 3D spatial scene, and how to present the 2D and 3D versions of the image using in a SwiftUI app."}
+{"id": "/documentation/RealityKit/presenting-images-in-realitykit", "law": "Your apps can choose to use any or all of these modes."}
+{"id": "/documentation/RealityKit/presenting-images-in-realitykit", "law": "The app implements an modifier for in the to ensure that the size matches the image."}
+{"id": "/documentation/RealityKit/presenting-images-in-realitykit", "law": "When the viewer clicks the Show as 3D button for the first time, it checks to see if the spatial 3D image has been generated, and returns if it has to avoid doing unnecessary work."}
+{"id": "/documentation/RealityKit/rendering-a-windowed-game-in-stereo", "law": "This project requires an Apple Vision Pro, and cannot be run in the simulator."}
+{"id": "/documentation/RealityKit/rendering-stereoscopic-video-with-realitykit", "law": "enables greater customization — it requires that you programmatically enqueue individual video-sample buffers for rendering."}
+{"id": "/documentation/RealityKit/rendering-stereoscopic-video-with-realitykit", "law": "You can also use an instance with a , which affords I/O control, supports preprocessing of media data, and accommodates DRM models not supported by ."}
+{"id": "/documentation/RealityKit/rendering-stereoscopic-video-with-realitykit", "law": "Use the as a property exposed from : also defines an to house the at the root of this scene: In the closure, the app instantiates a , passing the player’s video renderer."}
+{"id": "/documentation/RealityKit/rendering-stereoscopic-video-with-realitykit", "law": "The processor also loads the natural size of the side-by-side video for later use: The processor specifies settings in its dictionary."}
+{"id": "/documentation/RealityKit/responding-to-gestures-on-an-entity", "law": "The system ensures entities with a always face the person."}
+{"id": "/documentation/RealityKit/simulating-particles-in-your-visionos-app", "law": "You can use a preset as a starting point and then alter the behavior and appearance of the emitter and its particles by modifying the component’s properties."}
+{"id": "/documentation/RealityKit/simulating-physics-joints-in-your-realitykit-app", "law": "Before you activate a physics joint, each entity must have both a and a ."}
+{"id": "/documentation/RealityKit/simulating-physics-joints-in-your-realitykit-app", "law": "Use to access all pins an entity owns: always rotates around the pins’ local x-axis, but in this example the models rotate around the z-axis because the variable realigns the pins’ x-axis ( ) to the z-axis ( )."}
+{"id": "/documentation/RealityKit/simulating-physics-joints-in-your-realitykit-app", "law": "Use each as the parameters to create a new :"}
+{"id": "/documentation/RealityKit/simulating-physics-with-collisions-in-your-visionos-app", "law": "If you want to prioritize visibility from a distance rather than from all sides, use the window style instead."}
+{"id": "/documentation/RealityKit/simulating-physics-with-collisions-in-your-visionos-app", "law": "It sets: to a random hue within a range of 80-100%."}
+{"id": "/documentation/RealityKit/simulating-physics-with-collisions-in-your-visionos-app", "law": "The sample’s structure conforms to the protocol by implementing the initializer and method it requires."}
+{"id": "/documentation/RealityKit/tracking-a-handheld-accessory-as-a-virtual-sculpting-tool", "law": "Use a tracked accessory with Apple Vision Pro to create a virtual sculpture."}
+{"id": "/documentation/RealityKit/transforming-entities-between-realitykit-coordinate-spaces", "law": "Alternatively you could use method as shown in The sample code creates a cube in a volumetric window and moves the cube to an immersive space and back."}
+{"id": "/documentation/RealityKit/transforming-entities-between-realitykit-coordinate-spaces", "law": "When using the the as the value for the argument in the method, you will need to ensure that an immersive space is open and the immersive view has a in it."}
+{"id": "/documentation/RealityKit/transforming-entities-between-realitykit-coordinate-spaces", "law": "The method records the cube’s transform for use when the cube moves from the immersive space back to the volumetric window."}
+{"id": "/documentation/RealityKit/transforming-realitykit-entities-with-gestures", "law": "Gestures don’t have an action, so the app keeps track of whether the gesture has already started so it knows if it needs to store the starting position, rotation, or scale."}
+{"id": "/documentation/RealityKit/using-object-capture-assets-in-realitykit", "law": "CaptureChess requires Xcode 14 or later and iOS 16 or later."}
+{"id": "/documentation/realitykit/altering_realitykit_rendering_with_shader_functions", "law": "Custom materials require a Metal function called a surface shader , which sets the final rendering attributes for each of the entity’s fragments."}
+{"id": "/documentation/realitykit/altering_realitykit_rendering_with_shader_functions", "law": "In order to replicate that behavior, the shader has to set all of the properties used by to ensure that RealityKit renders the model correctly."}
+{"id": "/documentation/realitykit/altering_realitykit_rendering_with_shader_functions", "law": "Next, use that Metal library to get references to both of the shader functions."}
+{"id": "/documentation/realitykit/altering_realitykit_rendering_with_shader_functions", "law": "To make sure RealityKit uses this custom material regardless of which LOD model is being displayed, iterate over the entity’s children looking for a , which indicates a renderable non-primitive entity."}
+{"id": "/documentation/realitykit/controlling_entity_collisions_in_realitykit", "law": "To prevent particular objects from colliding with specific other objects, use in combination with ."}
+{"id": "/documentation/realitykit/controlling_entity_collisions_in_realitykit", "law": "This sample code project shows how to use collision groups and collision filters to take precise control over which entities collide in a scene."}
+{"id": "/documentation/realitykit/controlling_entity_collisions_in_realitykit", "law": "The sample code project requires Xcode 12.0, iOS 14.0, and an iOS device with an A9 or later processor."}
+{"id": "/documentation/realitykit/wwdc21_challenge_framework_freestyle", "law": "This project requires an iPhone or iPad with Apple Neural Engine, that’s also running iOS 15 or iPadOS 15."}
+{"id": "/documentation/RealityKit", "law": "RealityKit provides high-performance 3D simulation and rendering capabilities you can use to create apps with 3D or augmented reality (AR) for iOS, iPadOS, macOS, tvOS, and visionOS."}
+{"id": "/documentation/RealityKit", "law": "Use RealityKit’s rich functionality to create compelling augmented reality (AR) experiences: Create and import full RealityKit scenes with models, animations, and Spatial Audio by using Reality Composer Pro for visionOS."}
+{"id": "/documentation/RealityKit", "law": "Synchronize across devices and use SharePlay to enable group AR experiences."}
+{"id": "/documentation/RealityKit", "law": "Simulate and render 3D content for use in your augmented reality apps."}
+{"id": "/documentation/RealityKit/ARView", "law": "Use an instance to display rendered 3D graphics to the user."}
+{"id": "/documentation/RealityKit/ARView", "law": "Additionally, you can use the view to: Configure render options, environmental characteristics, and the camera mode."}
+{"id": "/documentation/RealityKit/ModelEntity", "law": "Use one or more model entities to place physical objects in a scene."}
+{"id": "/documentation/RealityKit/RealityView", "law": "Use to display rich 3D RealityKit content in your app, including content you author in Reality Composer Pro."}
+{"id": "/documentation/RealityKit/RealityView", "law": "passes a structure that conforms to to its and closures, which you can use to add and remove RealityKit entities to your view."}
+{"id": "/documentation/RealityKit/RealityView", "law": "Load your content asynchronously to avoid introducing a hang in your app."}
+{"id": "/documentation/RealityKit/RealityView", "law": "You can also use the optional closure on your to update your RealityKit content in response to changes in your view’s state."}
+{"id": "/documentation/RealityKit/RealityView", "law": "If you want to run code every frame (to do animations or simulations), you can use a or directly subscribe to the engine’s : has a flexible size by default, and does not size itself based on the RealityKit content it displays."}
+{"id": "/documentation/RealityKit/ARView/automaticallyConfigureSession", "law": "An indication of whether to use an automatically configured AR session."}
+{"id": "/documentation/RealityKit/PhysicsBodyComponent/mode", "law": "Apps typically use kinematic mode for entities the app programmatically controls, such as in response to a control or a person’s interaction."}
+{"id": "/documentation/RealityKit/PhysicsBodyComponent/mode", "law": "For entities that don’t need to move at all, set its physics body’s mode to ."}
+{"id": "/documentation/RealityKit/Scene", "law": "You don’t create a instance directly."}
+{"id": "/documentation/RealityKit/Scene", "law": "You then add a hierarchy of other instances to each anchor to indicate the geometry and behaviors that RealityKit should render at a given anchor point."}
+{"id": "/documentation/RealityKit/HoverEffectComponent", "law": "You can customize the visual effect of the through the use of styles."}
+{"id": "/documentation/RealityKit/HoverEffectComponent", "law": "Customize how a presents on a partially or fully transparent material with the following opacity functions: Opacity functions can’t be applied to that use ."}
+{"id": "/documentation/RealityKit/System/update(context:)", "law": "Use inside this method for the most optimized way to find the matching entities for this ."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "You can use RealityKit’s Entity Component System (ECS) to define and apply logic for entities in a scene."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "Don’t do any unnecessary work in the method, as it is called very frequently."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "To efficiently retrieve entities from a scene, use an , which you can use to fetch all entities, or just a subset of entities relevant to your system."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "Use the entity query with in your method to iterate over all the entities that your system depends on."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "If you use a Reality Composer Pro package in your project, you can create new components within the editor by selecting an entity, clicking the Add Component button, and then selecting the New Component option."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "To tell RealityKit that a dependency must update before your system, use the enumeration case, passing the other system as a parameter."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "For dependencies that must update after your system, use , instead."}
+{"id": "/documentation/RealityKit/implementing-systems-for-entities-in-a-scene", "law": "You don’t create instances manually."}
+{"id": "/documentation/realitykit", "law": "RealityKit provides high-performance 3D simulation and rendering capabilities you can use to create apps with 3D or augmented reality (AR) for iOS, iPadOS, macOS, tvOS, and visionOS."}
+{"id": "/documentation/realitykit", "law": "Use RealityKit’s rich functionality to create compelling augmented reality (AR) experiences: Create and import full RealityKit scenes with models, animations, and Spatial Audio by using Reality Composer Pro for visionOS."}
+{"id": "/documentation/realitykit", "law": "Synchronize across devices and use SharePlay to enable group AR experiences."}
+{"id": "/documentation/realitykit", "law": "Simulate and render 3D content for use in your augmented reality apps."}
+{"id": "/documentation/realitykit/ecs-systems", "law": "First, if multiple objects require the same behavior, but are implemented as different entity classes without a common ancestor other than , that logic has to be duplicated on all the objects and the duplicated code has to be kept in sync as it changes."}
+{"id": "/documentation/realitykit/ecs-systems", "law": "By placing logic that potentially effects multiple types of entities into a single , we reduce the overhead required to implement the logic."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "You can use RealityKit’s Entity Component System (ECS) to define and apply logic for entities in a scene."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "Don’t do any unnecessary work in the method, as it is called very frequently."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "To efficiently retrieve entities from a scene, use an , which you can use to fetch all entities, or just a subset of entities relevant to your system."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "Use the entity query with in your method to iterate over all the entities that your system depends on."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "If you use a Reality Composer Pro package in your project, you can create new components within the editor by selecting an entity, clicking the Add Component button, and then selecting the New Component option."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "To tell RealityKit that a dependency must update before your system, use the enumeration case, passing the other system as a parameter."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "For dependencies that must update after your system, use , instead."}
+{"id": "/documentation/realitykit/implementing-systems-for-entities-in-a-scene", "law": "You don’t create instances manually."}
+{"id": "/documentation/realitykit/system", "law": "Use systems to implement any behavior or logic that updates entities every scene update, such as different types of objects or characters."}
+{"id": "/documentation/realitykit/system", "law": "To identify which entities experience hunger, use a component that stores hunger-related state data and add it to the selected entities."}
+{"id": "/documentation/realitykit/system", "law": "Properties of a system are never serialized to a file or synced over the network."}
+{"id": "/documentation/realitykit/rendering-a-windowed-game-in-stereo", "law": "This project requires an Apple Vision Pro, and cannot be run in the simulator."}
+{"id": "/documentation/realitykit/component", "law": "RealityKit has a variety of predefined component types that you can use to add commonly needed characteristics."}
+{"id": "/documentation/realitykit/component", "law": "You don’t need to make this call for component types that RealityKit provides."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "To generate the best 3D representation from the object-creation process, provide RealityKit with high-quality, high-resolution photographs that don’t contain hard shadows or strong highlights."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "Avoid objects that are very thin in one dimension, highly reflective, transparent, or translucent."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "When using a turntable, take pictures in front of a well-lit, solid color background to minimize extraneous image data that can interfere with the object-creation process and use a tripod if available."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "The number of pictures that RealityKit needs in order to create an accurate 3D representation varies depending on the complexity and size of the object, but adjacent shots must have substantial overlap."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "Position sequential images so they have a 70% overlap or more."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "Anything less than 50% overlap between neighboring shots, and the object-creation process may fail or result in a low-quality recreation."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "RealityKit object creation doesn’t require you to take images in any specific order or name them in a specific way."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "Use an aperture setting narrow enough to maintain a crisp focus."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "Shoot at the highest resolution your camera supports and use RAW format if possible."}
+{"id": "/documentation/realitykit/capturing-photographs-for-realitykit-object-capture", "law": "Shooting with a narrow aperture requires more light but gives your photographs a greater depth of field, increasing the area of the object that’s in focus."}
+{"id": "/documentation/realitykit/creating-3d-objects-from-photographs", "law": "The completed process produces a 3D representation of the photographed object that you can use in your app or export to other software like Reality Composer Pro."}
+{"id": "/documentation/realitykit/creating-3d-objects-from-photographs", "law": "RealityKit Object Capture is only available on Mac computers that meet the minimum requirements for performing object reconstruction, including a GPU with at least 4 GB of RAM and ray tracing support."}
+{"id": "/documentation/realitykit/creating-3d-objects-from-photographs", "law": "Next, use that request, along with a URL pointing to the directory containing your images, to create the object."}
+{"id": "/documentation/realitykit/creating-3d-objects-from-photographs", "law": "To update your app’s UI or to take other actions as a result of these status updates, create an task and use a - - loop on ."}
+{"id": "/documentation/realitykit/creating-3d-objects-from-photographs", "law": "To simplify the object-creation process, you can use a custom configuration to provide images to the in sequence by listing adjacent images together, or to control support for object masking, which blocks out portions of an image around an object."}
+{"id": "/documentation/realitykit/creating-3d-objects-from-photographs", "law": "Construct virtual objects to use in your AR experiences."}
+{"id": "/documentation/realitykit/objectcapturesession", "law": "Once a session enters the state, your app can transfer the images to a Mac or use them locally on the iOS device for use in object reconstruction using ."}
+{"id": "/documentation/realitykit/photogrammetrysample", "law": "Use a unique for each so RealityKit can distinguish different instances in status updates, error messages, and other contexts."}
+{"id": "/documentation/realitykit/using-object-capture-assets-in-realitykit", "law": "CaptureChess requires Xcode 14 or later and iOS 16 or later."}
+{"id": "/documentation/realitykit/collisioncomponent", "law": "If the entity has a non-uniform scale assigned to its transform then that entity should not have any descendants assigned that contain rotations in their transforms."}
+{"id": "/documentation/realitykit/collisioncomponent", "law": "A good rule of thumb is to assign the non-uniform scale to the entity that has the collision shape, and avoid adding children below that entity."}
+{"id": "/documentation/realitykit/creating-a-spatial-drawing-app-with-realitykit", "law": "Use low-level mesh and texture APIs to achieve fast updates to a person’s brush strokes by integrating RealityKit with ARKit and SwiftUI."}
+{"id": "/documentation/realitykit/generating-interactive-geometry-with-realitykit", "law": "For more complex meshes, or meshes you add vertices to or remove vertices from at runtime, you can estimate the maximum vertex capacity and resize the mesh if its vertex count ever exceeds that number."}
+{"id": "/documentation/realitykit/generating-interactive-geometry-with-realitykit", "law": "To start, the sample captures the person’s interaction position and state with a , passing that information to : passes this interaction information to the active , which can use it to generate its height map."}
+{"id": "/documentation/realitykit/inputtargetcomponent", "law": "This component should be added to an entity to inform the system that it should be treated as a target for input handling."}
+{"id": "/documentation/realitykit/inputtargetcomponent", "law": "It can be customized to require only specific forms of input like direct or indirect interactions."}
+{"id": "/documentation/realitykit/inputtargetcomponent", "law": "To configure an entity for input but avoid any sort of physics-related processing, add an and , but disable the for collision detection, for example: behaves hierarchically, so if it is added to an entity that has descendants with s, those shapes will be used for input handling."}
+{"id": "/documentation/realitykit/modelcomponent", "law": "Use to render 3D models by attaching it to any in your RealityKit scene."}
+{"id": "/documentation/realitykit/modelcomponent", "law": "For more information about materials, see To load a USDZ or reality file to your app, use an entity initializer such as or ."}
+{"id": "/documentation/realitykit/modelcomponent", "law": "Use other components like , , , and to make entities interactive and dynamic."}
+{"id": "/documentation/realitykit/modelentity", "law": "Use one or more model entities to place physical objects in a scene."}
+{"id": "/documentation/realitykit/realityview", "law": "Use to display rich 3D RealityKit content in your app, including content you author in Reality Composer Pro."}
+{"id": "/documentation/realitykit/realityview", "law": "passes a structure that conforms to to its and closures, which you can use to add and remove RealityKit entities to your view."}
+{"id": "/documentation/realitykit/realityview", "law": "Load your content asynchronously to avoid introducing a hang in your app."}
+{"id": "/documentation/realitykit/realityview", "law": "You can also use the optional closure on your to update your RealityKit content in response to changes in your view’s state."}
+{"id": "/documentation/realitykit/realityview", "law": "If you want to run code every frame (to do animations or simulations), you can use a or directly subscribe to the engine’s : has a flexible size by default, and does not size itself based on the RealityKit content it displays."}
+{"id": "/documentation/realitykit/realityviewattachments", "law": "Use this type to access entities associated with the attachments you provide to your via the initializer."}
+{"id": "/documentation/realitykit/responding-to-gestures-on-an-entity", "law": "The system ensures entities with a always face the person."}
+{"id": "/documentation/realitykit/scene-content-anchors", "law": "RealityKit provides several types you can use as the target for your anchors."}
+{"id": "/documentation/realitykit/scene-content-audio", "law": "Use RealityKit’s default audio settings to create a personalized and realistic experience or utilize advanced customization options to tailor the audio for the needs of your application."}
+{"id": "/documentation/realitykit/transforming-realitykit-entities-with-gestures", "law": "Gestures don’t have an action, so the app keeps track of whether the gesture has already started so it knows if it needs to store the starting position, rotation, or scale."}
+{"id": "/documentation/realitykit/collisionfilter", "law": "Use Collision filters in combination with collision groups to define which entities collide with which other entities in a scene."}
+{"id": "/documentation/realitykit/collisiongroup", "law": "Use collision groups along with to define custom collision properties for entities in your scene and to control which entities collide with which others."}
+{"id": "/documentation/realitykit/physics-collision-detection", "law": "RealityKit can automatically detect when two objects participating in the physics system collide with each other if both entities have a with at least one collision shape ."}
+{"id": "/documentation/realitykit/simulating-physics-with-collisions-in-your-visionos-app", "law": "If you want to prioritize visibility from a distance rather than from all sides, use the window style instead."}
+{"id": "/documentation/realitykit/simulating-physics-with-collisions-in-your-visionos-app", "law": "It sets: to a random hue within a range of 80-100%."}
+{"id": "/documentation/realitykit/simulating-physics-with-collisions-in-your-visionos-app", "law": "The sample’s structure conforms to the protocol by implementing the initializer and method it requires."}
+{"id": "/documentation/realitykit/triggervolume", "law": "You use a trigger volume as a sensor that indicates when another collision-capable entity, like a , enters the region of space occupied by the trigger volume."}
+{"id": "/documentation/realitykit/triggervolume", "law": "You can use the generated between the trigger volume and the other entity to trigger an action, like indicating to the user that a projectile hit its target."}
+{"id": "/documentation/realitykit/triggervolume", "law": "This makes it very efficient for tasks that require only collision detection."}
+{"id": "/documentation/RealityKit/PhysicallyBasedMaterial", "law": "Use to create highly realistic-looking objects for your AR scenes."}
+{"id": "/documentation/RealityKit/PhysicallyBasedMaterial", "law": "Many of the properties for provide the option to use more than one type of data to specify that property."}
+{"id": "/documentation/RealityKit/PhysicallyBasedMaterial", "law": "You can set an object’s using a specific color for the entire material, or you can use an image that UV-maps on to the entity."}
+{"id": "/documentation/RealityKit/UnlitMaterial", "law": "materials do not respond to virtual or real lighting."}
+{"id": "/documentation/RealityKit/UnlitMaterial", "law": "For example, a on the left, and an on the right: The blending mode of materials should be configured explicitly with the property for transparent or translucent surfaces."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "You use the RealityKit framework to add 3D content to an app."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "Use debugging features built in to RealityKit — along with standard tools like Xcode and Instruments — to pinpoint the causes of reduced frame rate."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "Then make data-driven adjustments to your assets or to the way you use the framework to improve performance."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "This rate limits each of the main and render threads, as well as the GPU, to 16.6 ms to complete all computations per rendered frame."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "If the main thread consumes more than 16.6 ms, then the app is CPU limited."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "Use this information and the other data in the overlay to drive changes in your app."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "If you need more detailed data, use tools like Xcode’s and the app."}
+{"id": "/documentation/RealityKit/improving-the-performance-of-a-realitykit-app", "law": "Be sure to test your app on all supported devices before shipping your app."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "You use the RealityKit framework to add 3D content to an app."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "Use debugging features built in to RealityKit — along with standard tools like Xcode and Instruments — to pinpoint the causes of reduced frame rate."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "Then make data-driven adjustments to your assets or to the way you use the framework to improve performance."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "This rate limits each of the main and render threads, as well as the GPU, to 16.6 ms to complete all computations per rendered frame."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "If the main thread consumes more than 16.6 ms, then the app is CPU limited."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "Use this information and the other data in the overlay to drive changes in your app."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "If you need more detailed data, use tools like Xcode’s and the app."}
+{"id": "/documentation/realitykit/improving-the-performance-of-a-realitykit-app", "law": "Be sure to test your app on all supported devices before shipping your app."}
+{"id": "/documentation/realitykit/realitykit-scene-understanding", "law": "For existing iOS and macOS apps that use , enable these features by inserting options into ."}
+{"id": "/documentation/realitykit/realitykit-scene-understanding", "law": "They don’t work in space, or in a window or volume in the Shared Space."}
+{"id": "/documentation/realitykit/realitykit-scene-understanding", "law": "To enable scene reconstruction for a visionOS app, use a ."}
+{"id": "/documentation/realitykit/bringing-your-scenekit-projects-to-realitykit", "law": "This means that your existing apps and games continue to work, and you aren’t required to take immediate action."}
+{"id": "/documentation/realitykit/bringing-your-scenekit-projects-to-realitykit", "law": "The manages spherical coordinate positioning around a target: To avoid jarring behaviors, the system can also implement soft camera movements by having the camera follow a target."}
+{"id": "/documentation/realitykit/bringing-your-scenekit-projects-to-realitykit", "law": "Use this technique primarily for experiences with finite bounds, such as volumes, portals, windows, or immersive spaces that aren’t fully immersive."}
+{"id": "/documentation/realitykit/bringing-your-scenekit-projects-to-realitykit", "law": "If you don’t have access to the original asset files and only have assets in SCN file format, you can use to convert your 3D models to USD."}
+{"id": "/documentation/realitykit/bringing-your-scenekit-projects-to-realitykit", "law": "You can invoke by typing into a terminal window: To convert an SCN asset to USDZ, you can use: If you have a separate SCN file, which contains animation data, you can append this too:"}
+{"id": "/documentation/realitykit/bringing-your-scenekit-projects-to-realitykit", "law": "The RealityKit version of the sample demonstrates how to leverage visionOS-specific features to enhance immersive experiences, particularly through the use of immersive spaces with Portrait mode."}
+{"id": "/documentation/realitykit/combining-2d-and-3d-views-in-an-immersive-app", "law": "These types include both SwiftUI and UIKit to exemplify how to use any framework in your visionOS app."}
+{"id": "/documentation/realitykit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Ensure that your entities have both an and a ."}
+{"id": "/documentation/realitykit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Add a to the and make sure it uses , or specify which entities to target with ."}
+{"id": "/documentation/realitykit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Then use to convert the location of the tap gesture from the local coordinate space of the entity to the scene’s coordinate space."}
+{"id": "/documentation/realitykit/combining-2d-and-3d-views-in-an-immersive-app", "law": "Use attachments to place 2D content relative to 3D content in your visionOS app."}
+{"id": "/documentation/realitykit/bodytrackedentity", "law": "Unlike a model entity, a body-tracked entity lacks the components required to participate in collisions or physics simulations."}
+{"id": "/documentation/realitykit/bodytrackedentity", "law": "For an example of how to use a body-tracked entity, see ."}
+{"id": "/documentation/realitykit/bodytrackingcomponent", "law": "Body tracking requires a compatible rigged model."}
+{"id": "/documentation/realitykit/hasbodytracking", "law": "Body tracking requires a compatible rigged model."}
+{"id": "/documentation/realitykit/lowleveldeviceresource", "law": "On visionOS, resources must be allocated in shared memory that can be used by the renderer process."}
+{"id": "/documentation/realitykit/lowleveldeviceresource", "law": "Once a device resource is in use by the renderer, changing its contents is unsafe and undefined."}
+{"id": "/documentation/realitykit/lowleveltexture", "law": "Use when you want to bring your own texture data to RealityKit, or update your data frequently."}
+{"id": "/documentation/realitykit/lowleveltexture", "law": "To use , first configure the descriptor with the desired characteristics of your texture."}
+{"id": "/documentation/realitykit/lowleveltexture", "law": "For example, you can write a compute kernel in Metal Shading Language to generate the color of each pixel: You can use this compute kernel to populate the : To finish, add your to a and display it on an ."}
+{"id": "/documentation/realitykit/shadergraphmaterial", "law": "Use ShaderGraphMaterial when retrieving a shaders you build in Reality Composer Pro’s shader graph."}
+{"id": "/documentation/realitykit/unlitmaterial", "law": "materials do not respond to virtual or real lighting."}
+{"id": "/documentation/realitykit/unlitmaterial", "law": "For example, a on the left, and an on the right: The blending mode of materials should be configured explicitly with the property for transparent or translucent surfaces."}
+{"id": "/documentation/realitykit/building-an-immersive-experience-with-realitykit", "law": "This project requires an iPhone or iPad running at least iOS 15 or iPadOS 15."}
+{"id": "/documentation/realitykit/building-an-immersive-experience-with-realitykit", "law": "Use systems and postprocessing effects to create a realistic underwater scene."}
+{"id": "/documentation/realitykit/rendering-stereoscopic-video-with-realitykit", "law": "enables greater customization — it requires that you programmatically enqueue individual video-sample buffers for rendering."}
+{"id": "/documentation/realitykit/rendering-stereoscopic-video-with-realitykit", "law": "You can also use an instance with a , which affords I/O control, supports preprocessing of media data, and accommodates DRM models not supported by ."}
+{"id": "/documentation/realitykit/rendering-stereoscopic-video-with-realitykit", "law": "Use the as a property exposed from : also defines an to house the at the root of this scene: In the closure, the app instantiates a , passing the player’s video renderer."}
+{"id": "/documentation/realitykit/rendering-stereoscopic-video-with-realitykit", "law": "The processor also loads the natural size of the side-by-side video for later use: The processor specifies settings in its dictionary."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "It’s possible to use to pass data contained in a Swift struct to your compute function, which can receive it as a Metal struct as long as the two structs use the same exact memory layout."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "By using a bridging header and defining the struct in C, Metal and Swift can import the same header file and use the same struct with the same layout in memory."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "This article shows how to use a struct contained in a single header file that’s imported by both Swift and Metal."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "The struct should only contain simple datatypes."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "Don’t pass textures, samplers, or other complex objects in your struct."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "Also, don’t use any datatype that doesn’t have a consistent size in both Metal and Swift and on all devices."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "Instead, use datatypes like , , or , which are the same size everywhere."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "If you created a new bridging header, you must tell Xcode that it’s your project’s bridging header."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "Don’t use an absolute path."}
+{"id": "/documentation/RealityKit/passing-structured-data-to-a-metal-compute-function", "law": "Your entry should look something like this:"}
+{"id": "/documentation/realitykit/creating-a-plane-with-low-level-mesh", "law": "Initialize the mesh parts by specifying the mesh’s index count, topology, and bounds: In this example, the property specifies the maximum offset depth for the vertices."}
+{"id": "/documentation/realitykit/creating-a-plane-with-low-level-mesh", "law": "The mesh’s bounding box relies on this value to ensure it will encompass the vertices at all times, even if they are offset from their original positions."}
+{"id": "/documentation/realitykit/lowlevelmesh", "law": "Use when you want to bring your own vertex format to RealityKit or update your data frequently."}
+{"id": "/documentation/realitykit/lowlevelmesh", "law": "To update your data in , you can either use Swift for CPU processing, or Metal Compute Shaders for GPU processing."}
+{"id": "/documentation/realitykit/lowlevelmesh", "law": "Use for a simpler alternative to ."}
+{"id": "/documentation/realitykit/lowlevelmesh", "law": "Express your vertex by creating a that describes your layout, along with the required index and vertex capacities."}
+{"id": "/documentation/realitykit/lowlevelmesh", "law": "To use , first define your own vertex structure, either in a Metal header or using a Swift structure: Next, describe your structure to by creating a list of vertex attributes and a vertex layout."}
+{"id": "/documentation/realitykit/lowlevelmesh", "law": "A container for vertex data that you can use to create and update meshes using your own format."}
+{"id": "/documentation/realitykit/passing-metal-command-objects-around-your-application", "law": "Creating these command objects comes at a cost, so avoid making them on demand whenever you need to dispatch a compute shader function (see )."}
+{"id": "/documentation/realitykit/checking-the-pixel-format-of-a-postprocess-effect-s-output-texture", "law": "Some device GPUs require that the output texture for postprocess effects be in a specific format."}
+{"id": "/documentation/realitykit/checking-the-pixel-format-of-a-postprocess-effect-s-output-texture", "law": "An easy way to do that, is to add a derived property to using an extension: If you use this derived property instead of when encoding the results of a postprocess effect, it ensures the effect works on all devices."}
+{"id": "/documentation/realitykit/checking-the-pixel-format-of-a-postprocess-effect-s-output-texture", "law": "Make sure your postprocess effect works on all devices."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "You can use any image-processing or drawing APIs on the rendered frame but, as a practical matter, only APIs that execute on the GPU are fast enough to use every frame and maintain a good framerate."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "Some device GPUs require that the output texture be in a specific pixel format."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "To use the Metal compute function in your render callback, retrieve the default , then load your compute function and store the resulting object."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "In that function, use the command buffer passed in the context to create an , and assign the pipeline state property you created to that encoder using ."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "Then use on the encoder to pass the and the to your compute function."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "Note that the index values used in must match the value your compute function uses to retrieve the texture."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "Because the sample compute function above defines as , you need to use an index value of when calling to pass ."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "You can also use to pass non-texture data to your compute function."}
+{"id": "/documentation/realitykit/implementing-postprocess-effects-using-metal-compute-functions", "law": "Once you’ve assigned the needed textures and data to the encoder, use to start the compute function."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "It’s possible to use to pass data contained in a Swift struct to your compute function, which can receive it as a Metal struct as long as the two structs use the same exact memory layout."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "By using a bridging header and defining the struct in C, Metal and Swift can import the same header file and use the same struct with the same layout in memory."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "This article shows how to use a struct contained in a single header file that’s imported by both Swift and Metal."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "The struct should only contain simple datatypes."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "Don’t pass textures, samplers, or other complex objects in your struct."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "Also, don’t use any datatype that doesn’t have a consistent size in both Metal and Swift and on all devices."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "Instead, use datatypes like , , or , which are the same size everywhere."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "If you created a new bridging header, you must tell Xcode that it’s your project’s bridging header."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "Don’t use an absolute path."}
+{"id": "/documentation/realitykit/passing-structured-data-to-a-metal-compute-function", "law": "Your entry should look something like this:"}
+{"id": "/documentation/realitykit/postprocessing-effects", "law": "You can use any image processing or drawing APIs on the rendered frame but, as a practical matter, only APIs that execute on the GPU are fast enough to use every frame and maintain a good framerate."}
+{"id": "/documentation/realitykit/using-metal-performance-shaders-to-create-custom-postprocess-effects", "law": "You can use any image processing or drawing APIs on the rendered frame but, as a practical matter, only APIs that execute on the GPU are fast enough to use every frame and maintain a good framerate."}
+{"id": "/documentation/realitykit/using-metal-performance-shaders-to-create-custom-postprocess-effects", "law": "You can use apply these filters to an image without writing any custom shader code."}
+{"id": "/documentation/realitykit/using-metal-performance-shaders-to-create-custom-postprocess-effects", "law": "If the Metal Performance Shaders framework doesn’t provide an image filter that meets your needs, you can also use Core Image to postprocess frames."}
+{"id": "/documentation/realitykit/using-metal-performance-shaders-to-create-custom-postprocess-effects", "law": "Core Image provides a greater selection of image filters, which also run on the GPU, but Core Image requires you to convert the rendered frame into a ."}
+{"id": "/documentation/realitykit/using-metal-performance-shaders-to-create-custom-postprocess-effects", "law": "Some device GPUs require that the output texture be in a specific pixel format."}
+{"id": "/documentation/realitykit/lowlevelmesh/layout", "law": "If you interleave your data (meaning that you represent it with a structure), use one object where is equal to ."}
+{"id": "/documentation/realitykit/lowlevelmesh/layout", "law": "If you store your attributes separately, use one per attribute."}
+{"id": "/documentation/realitykit/meshresource", "law": "Use to create procedural geometry from built-in primitives like boxes, spheres, planes, and cylinders, or from custom mesh data."}
+{"id": "/documentation/realitykit/meshresource", "law": "Check to determine how many materials the mesh requires."}
+{"id": "/documentation/realitykit/audiomixgroupscomponent", "law": "A common use case for is to simultaneously control the playback volume of every in an , such as the sound effects in a scene."}
+{"id": "/documentation/realitykit/audiomixgroupscomponent", "law": "The following example sets the playback volume of every in the named SFX: To completely silence an , use the property."}
+{"id": "/documentation/realitykit/audiomixgroupscomponent", "law": "Use to fade the volume of an over time."}
+{"id": "/documentation/realitykit/imagepresentationcomponent", "law": "The set always contains as an option."}
+{"id": "/documentation/realitykit/imagepresentationcomponent/spatial3dimage", "law": "To present a as a spatial scene, you must first generate it."}
+{"id": "/documentation/realitykit/imagepresentationcomponent/spatial3dimage", "law": "Next, use the initializer to create an from the generated ."}
+{"id": "/documentation/realitykit/imagepresentationcomponent/spatial3dimage/generate()", "law": "Also throws an error if the image size does not meet the following requirements: At least 320 pixels on its shortest side At most 16,384 pixels on its largest side Aspect ratio between 1:3 and 3:1 Creates a 3D representation of the image if one does not already exist."}
+{"id": "/documentation/realitykit/docking-a-video-player-in-an-immersive-scene", "law": "You can use to customize the width and location of the docking region."}
+{"id": "/documentation/realitykit/docking-a-video-player-in-an-immersive-scene", "law": "This sample code project demonstrates how to use the RealityKit API for the docking-region component."}
+{"id": "/documentation/realitykit/docking-a-video-player-in-an-immersive-scene", "law": "Use to include this picker as an option in the list of immersive scene selections."}
+{"id": "/documentation/realitykit/videomaterial", "law": "Video materials use an instance to control movie playback."}
+{"id": "/documentation/realitykit/videomaterial", "law": "You can use any movie file format that supports to create a video material."}
+{"id": "/documentation/realitykit/videomaterial", "law": "To control playback of the material’s video, use the property, which offers methods like and ."}
+{"id": "/documentation/realitykit/videoplayercomponent", "law": "On visionOS, you can also use to play immersive media with RealityKit."}
+{"id": "/documentation/RealityKit/CollisionComponent", "law": "If the entity has a non-uniform scale assigned to its transform then that entity should not have any descendants assigned that contain rotations in their transforms."}
+{"id": "/documentation/RealityKit/CollisionComponent", "law": "A good rule of thumb is to assign the non-uniform scale to the entity that has the collision shape, and avoid adding children below that entity."}
+{"id": "/documentation/RealityKit/InputTargetComponent", "law": "This component should be added to an entity to inform the system that it should be treated as a target for input handling."}
+{"id": "/documentation/RealityKit/InputTargetComponent", "law": "It can be customized to require only specific forms of input like direct or indirect interactions."}
+{"id": "/documentation/RealityKit/InputTargetComponent", "law": "To configure an entity for input but avoid any sort of physics-related processing, add an and , but disable the for collision detection, for example: behaves hierarchically, so if it is added to an entity that has descendants with s, those shapes will be used for input handling."}
+{"id": "/documentation/realitykit/particleemittercomponent", "law": "To learn how to use in your app, see ."}
+{"id": "/documentation/realitykit/particleemittercomponent/particleemitter/image", "law": "The image that each particle will use (requires pre-multiplied RGB values)."}
+{"id": "/documentation/realitykit/particleemittercomponent/particleemitter/particlecolor/colorvalue", "law": "Options for specifying whether the particle color is a single color, or if the particle should take a random color in the given range."}
+{"id": "/documentation/realitykit/realityviewcontent", "law": "You can use to add and remove entities, subscribe to RealityKit events, and perform coordinate conversions between RealityKit entity space and a SwiftUI View’s coordinate space."}
+{"id": "/documentation/realitykit/entity/pins", "law": "For example, to access a skeletal pose joint named : Character escaping is only required for skeletal pose joints."}
+{"id": "/documentation/realitykit/geometricpin", "law": "You can use the subscript operator to retrieve a pin."}
+{"id": "/documentation/realitykit/impulseaction", "law": "This action requires a and with the set to ."}
+{"id": "/documentation/realitykit/physicsbodycomponent", "law": "If the entity has a non-uniform scale assigned to its transform then that entity should not have any descendants assigned that contain rotations in their transforms."}
+{"id": "/documentation/realitykit/physicsbodycomponent", "law": "A good rule of thumb is to assign the non-uniform scale to the entity that has the collision shape, and avoid adding children below that entity."}
+{"id": "/documentation/realitykit/physicsbodycomponent/mode", "law": "Apps typically use kinematic mode for entities the app programmatically controls, such as in response to a control or a person’s interaction."}
+{"id": "/documentation/realitykit/physicsbodycomponent/mode", "law": "For entities that don’t need to move at all, set its physics body’s mode to ."}
+{"id": "/documentation/realitykit/physicsjoint", "law": "Use two unique entities that both have a , and belong to the same physics simulation."}
+{"id": "/documentation/realitykit/physicsjoint", "law": "For example, a that connects a window, , to a window frame, : Best practices: When creating a joint, make sure that the jointed entities are initially positioned so that they satisfy the joint."}
+{"id": "/documentation/realitykit/physicsjoint", "law": "When connecting a and a entities by a joint, use as the pin on the kinematic entity."}
+{"id": "/documentation/realitykit/configuring-collision-in-realitykit", "law": "This sample code project shows how to use collision groups and collision filters together to take precise control over which entities collide in a RealityKit scene."}
+{"id": "/documentation/realitykit/configuring-collision-in-realitykit", "law": "Here is how the four collision groups in this sample project are defined: You don’t assign collision groups directly to entities."}
+{"id": "/documentation/realitykit/configuring-collision-in-realitykit", "law": "Although it’s common to pass an individual group to ‘s parameter as is done in this project, but you don’t have to."}
+{"id": "/documentation/realitykit/configuring-collision-in-realitykit", "law": "After creating a collision filter, assign it to all the entities that should use that filter, like this:"}
+{"id": "/documentation/realitykit/configuring-collision-in-realitykit", "law": "Requires Xcode 16.2, iOS 18, and an iOS device with an A9 or later processor."}
+{"id": "/documentation/realitykit/configuring-collision-in-realitykit", "law": "Use collision groups and collision filters to control which objects collide."}
+{"id": "/documentation/realitykit/hovereffectcomponent", "law": "You can customize the visual effect of the through the use of styles."}
+{"id": "/documentation/realitykit/hovereffectcomponent", "law": "Customize how a presents on a partially or fully transparent material with the following opacity functions: Opacity functions can’t be applied to that use ."}
+{"id": "/documentation/realitykit/physicallybasedmaterial", "law": "Use to create highly realistic-looking objects for your AR scenes."}
+{"id": "/documentation/realitykit/physicallybasedmaterial", "law": "Many of the properties for provide the option to use more than one type of data to specify that property."}
+{"id": "/documentation/realitykit/physicallybasedmaterial", "law": "You can set an object’s using a specific color for the entire material, or you can use an image that UV-maps on to the entity."}
+{"id": "/documentation/realitykit/physicallybasedmaterial/basecolor-swift.property", "law": "Here’s an example of using a single color to specify base color: The following example demonstrates how to use an image to specify base color: The color of an entity unmodified by lighting."}
+{"id": "/documentation/realitykit/physicallybasedmaterial/clearcoat-swift.property", "law": "By default, materials don’t have clearcoat enabled."}
+{"id": "/documentation/realitykit/physicallybasedmaterial/clearcoat-swift.property", "law": "Use this property to enable clearcoat rendering."}
+{"id": "/documentation/realitykit/physicallybasedmaterial/metallic-swift.property", "law": "Use this property to specify whether the entity displays metallic qualities and reflects the surrounding environment, or displays dielectric qualities and doesn’t reflect the environment."}
+{"id": "/documentation/realitykit/physicallybasedmaterial/metallic-swift.property", "law": "You an also use a UV-mapped grayscale image to represent the reflectiveness of different parts of the entity."}
+{"id": "/documentation/realitykit/system/init(scene:)", "law": "There’s no need to instantiate your own systems, so don’t call this method."}
+{"id": "/documentation/realitykit/system/update(context:)", "law": "Use inside this method for the most optimized way to find the matching entities for this ."}
+{"id": "/documentation/realitykit/entity/coordinatespacereference/immersivespace", "law": "You can use this enum case to get an entity’s relative transform to the immersive space: If no immersive space is open, calling with the case returns ."}
+{"id": "/documentation/realitykit/entity/coordinatespacereference/scene", "law": "You can use this enum case to get an entity’s relative transform in its parented window scene: If an entity is parented under an immersive space , calling with the case returns ."}
+{"id": "/documentation/realitykit/entity/transformmatrix(relativeto:)", "law": "Returns the 4 x 4 transform matrix of an entity relative to the given coordinate space."}
+{"id": "/documentation/realitykit/hastransform", "law": "This adoption gives all entities a component, and a collection of methods for manipulating the component, that you use to position the entity in space."}
+{"id": "/documentation/realitykit/hastransform/move(to:relativeto:duration:timingfunction:)", "law": "An instance that you use to control the animation playback."}
+{"id": "/documentation/realitykit/hastransform/move(to:relativeto:duration:timingfunction:)", "law": "When the move completes, the entity can then be hidden or removed if applicable to the use case."}
+{"id": "/documentation/realitykit/hastransform/transformmatrix(relativeto:)", "law": "Gets the 4 x 4 transform matrix of an entity relative to the given entity."}
+{"id": "/documentation/realitykit/custommaterial", "law": "Use a _surface shader _to calculate or specify all the material attributes that RealityKit uses to render your entity, such as , , and ."}
+{"id": "/documentation/realitykit/custommaterial/custom-swift.property", "law": "Use a object to send custom data to your shader functions."}
+{"id": "/documentation/realitykit/custommaterial/custom-swift.property", "law": "Unlike other properties, you don’t need to create a object for your material."}
+{"id": "/documentation/realitykit/custommaterial/custom-swift.property", "law": "The following code demonstrates how to use the custom property to pass a vector to your shader functions: You can also use it to pass up to four scalar values instead of a vector: The custom property can also include a texture."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "They also support an optional geometry modifier, which you can use to manipulate the location of the model’s vertices, allowing you to dynamically change the size or shape of the entity."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "To use a custom material, first write a surface shader in Metal."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "You can use any function name you want for your surface shader, but you must prefix your function with the keyword."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "Your function must have no return value and take a single parameter of type ."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "Your surface shader must call at least one supported function or nothing renders."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "Here are the accessor methods on , along with what you use them for: The following surface shader calculates and sets the fragment’s base color based on the and values from the material’s property."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "As with surface shaders, you can name your geometry modifier function anything you want, but you must prefix it with the keyword."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "A geometry shader must have no return value and take a single parameter of type ."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "Changes made in the geometry modifier only affect how RealityKit renders the model; they don’t affect the original entity in the RealityKit scene."}
+{"id": "/documentation/realitykit/modifying-realitykit-rendering-using-custom-materials", "law": "The lighting model affects how the entity looks and which output functions your surface shader can use."}
+{"id": "/documentation/RealityKit/AnimationLibraryComponent", "law": "You use an to access an entity’s animation resources."}
+{"id": "/documentation/RealityKit/AnimationLibraryComponent", "law": "If you need to build a custom tool to create files, you can use RealityKit to programmatically create an animation library by following these steps: Load an animation entity with ."}
+{"id": "/documentation/RealityKit/Entity/pins", "law": "For example, to access a skeletal pose joint named : Character escaping is only required for skeletal pose joints."}
+{"id": "/documentation/RealityKit/Model3D", "law": "Use to embed a 3D model from a USD file or Reality file in your SwiftUI app."}
+{"id": "/documentation/RealityKit/Model3D", "law": "You can use methods on the type as well as standard view modifiers to adjust the size of the model to fit your app’s interface."}
+{"id": "/documentation/RealityKit/Model3D", "law": "With this initializer, you can also use the parameter to manipulate the loaded model."}
+{"id": "/documentation/RealityKit/Model3D", "law": "To gain more control over the loading process, use the initializer, which takes a closure that receives a to indicate the state of the loading operation."}
+{"id": "/documentation/RealityKit/ReverbComponent", "law": "Use the property to adjust the level of audio you send to the spatial modeler."}
+{"id": "/documentation/RealityKit/ReverbComponent", "law": "Use the property to adjust the level of audio you send directly to a person’s ears, without additional reverberation."}
+{"id": "/documentation/RealityKit/ReverbComponent", "law": "Use the property to define the pattern that disperses sound into the acoustic environment."}
+{"id": "/documentation/RealityKit/MeshResource", "law": "Use to create procedural geometry from built-in primitives like boxes, spheres, planes, and cylinders, or from custom mesh data."}
+{"id": "/documentation/RealityKit/MeshResource", "law": "Check to determine how many materials the mesh requires."}
+{"id": "/documentation/RealityKit/ModelComponent", "law": "Use to render 3D models by attaching it to any in your RealityKit scene."}
+{"id": "/documentation/RealityKit/ModelComponent", "law": "For more information about materials, see To load a USDZ or reality file to your app, use an entity initializer such as or ."}
+{"id": "/documentation/RealityKit/ModelComponent", "law": "Use other components like , , , and to make entities interactive and dynamic."}
+{"id": "/documentation/RealityKit/EntityQuery", "law": "Use entity queries to iterate through all entities in a RealityKit scene that meet certain criteria."}
+{"id": "/documentation/RealityKit/EntityQuery", "law": "To specify which entities to retrieve, use a ."}
+{"id": "/documentation/RealityKit/CustomMaterial", "law": "Use a _surface shader _to calculate or specify all the material attributes that RealityKit uses to render your entity, such as , , and ."}
+{"id": "/documentation/RealityKit/ShaderGraphMaterial", "law": "Use ShaderGraphMaterial when retrieving a shaders you build in Reality Composer Pro’s shader graph."}
+{"id": "/documentation/RealityKit/EnvironmentResource", "law": "Ensure that the image is an environment map of equirectangular projection, also known as a latitude-longitude projection ."}
+{"id": "/documentation/RealityKit/EnvironmentResource", "law": "At build time, Xcode compiles the image for use as an environment resource and inserts the result into the app bundle."}
+{"id": "/documentation/RealityKit/EnvironmentResource", "law": "RealityKit supports the same input formats as Image I/O, such as and However, to achieve rich, vibrant lighting, use a or format, which support a wide dynamic range."}
+{"id": "/documentation/RealityKit/PortalComponent", "law": "On iOS 27, macOS 27, tvOS 27, visionOS 27, and later, creates a configured portal entity and its target world entity in a single call: To configure existing entities, use ."}
+{"id": "/documentation/RealityKit/PortalComponent", "law": "For example, you can use to clip portal content to an infinite half-space, or to clip to a box-bounded region of space."}
+{"id": "/documentation/RealityKit/PortalComponent", "law": "The spaceships below don’t have a ."}
+{"id": "/documentation/RealityKit/PortalComponent", "law": "RealityKit provides a default IBL if you don’t specify one with ."}
+{"id": "/documentation/RealityKit/PortalComponent", "law": "Contents within a portal world don’t receive real-world probe lighting."}
+{"id": "/documentation/RealityKit/PortalComponent", "law": "Dynamic lights, such as and , don’t cross world bounds."}
+{"id": "/documentation/RealityKit/WorldComponent", "law": "Use a and point its to this entity to render this world."}
+{"id": "/documentation/RealityKit/AnchorEntity", "law": "RealityKit might move anchor entities as the scene updates, so the location and rotation of the anchor entity can change relative to its container entity, even if your code never modifies its property."}
+{"id": "/documentation/RealityKit/ShapeResource/generateStaticMesh(from:)", "law": "You can use only the physics body mode and the collision component mode with this shape."}
+{"id": "/documentation/RealityKit/CollisionGroup", "law": "Use collision groups along with to define custom collision properties for entities in your scene and to control which entities collide with which others."}
+{"id": "/documentation/RealityKit/Component", "law": "RealityKit has a variety of predefined component types that you can use to add commonly needed characteristics."}
+{"id": "/documentation/RealityKit/Component", "law": "You don’t need to make this call for component types that RealityKit provides."}
+{"id": "/documentation/RealityKit/ForceEffectComponent", "law": "Use to apply a constant force in a direction: RealityKit provides a set of useful forces you can use with :"}
+{"id": "/documentation/RealityKit/ForceEffectComponent", "law": "To create a custom force effect, define a structure that implements , then create an instance of with your custom implementation: To apply force to a physics body with a custom , you must implement and apply forces in ."}
+{"id": "/documentation/RealityKit/ManipulationComponent", "law": "To disable system audio or use custom sounds, set to , and use component events to trigger your own audio responses."}
+{"id": "/documentation/RealityKit/ManipulationComponent", "law": "You can use this to add additional feedback, which lets someone know they have begun manipulating the entity."}
+{"id": "/documentation/RealityKit/ManipulationComponent", "law": "You can use this to provide visual or auditory confirmation of transfer."}
+{"id": "/documentation/RealityKit/ManipulationComponent", "law": "You can use this to drive effects like trails, dynamic shadows, or visual feedback."}
+{"id": "/documentation/RealityKit/ManipulationComponent", "law": "You can use this to run a final visual cue that the person’s manipulation of the entity is about to end."}
+{"id": "/documentation/RealityKit/ManipulationComponent", "law": "You can use this event to remove visual cues to show that neither the person nor the app are actively manipulating the entity’s transform anymore."}
+{"id": "/documentation/RealityKit/PhysicsBodyComponent", "law": "If the entity has a non-uniform scale assigned to its transform then that entity should not have any descendants assigned that contain rotations in their transforms."}
+{"id": "/documentation/RealityKit/PhysicsBodyComponent", "law": "A good rule of thumb is to assign the non-uniform scale to the entity that has the collision shape, and avoid adding children below that entity."}
+{"id": "/documentation/RealityKit/System", "law": "Use systems to implement any behavior or logic that updates entities every scene update, such as different types of objects or characters."}
+{"id": "/documentation/RealityKit/System", "law": "To identify which entities experience hunger, use a component that stores hunger-related state data and add it to the selected entities."}
+{"id": "/documentation/RealityKit/System", "law": "Properties of a system are never serialized to a file or synced over the network."}
+{"id": "/documentation/RealityKit/AmbientAudioComponent", "law": "Position is not taken into account; the channels do not get louder as the user moves toward them."}
+{"id": "/documentation/RealityKit/AudioFileGroupResource/init(_:)", "law": "An error if the provided array is empty or if the underlying audio assets do not have matching channel layouts."}
+{"id": "/documentation/RealityKit/Entity/playAudio(_:)", "law": "An object that you can use to start and stop audio playback for this specific instance of a resource playing on this entity."}
+{"id": "/documentation/RealityKit/Entity/playAudio(_:)", "law": "You can also use this controller to update playback properties, such as gain and speed, during playback."}
+{"id": "/documentation/RealityKit/handling-different-sized-objects-in-physics-simulations", "law": "You need to set up scenes containing those tiny objects differently to ensure that they simulate realistically."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "You can decide which AR data you need and how you want to use them by running a corresponding ."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "The following is an example of how to enable the camera, implement plane anchoring, use scene-understanding data for shadow and occlusion, and use the back camera in iOS: configures ARKit for you based on the configuration you pass in."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "This can help you to handle errors gracefully, such as informing someone to turn on the relevant permissions or reduce the feature set."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "System behavior starts to use scene-understanding data."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "In iOS, if you don’t set up manually, RealityKit runs the default session with the following configuration:"}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "In visionOS, if you don’t set up a spatial tracking session manually, the system anchors your in a privacy-preserving manner."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "In visionOS, avoid applying a transform that a spatial tracking session provides to an instance to an entity because it makes the entity lag behind the anchor by one frame."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "You can avoid the one frame lag when rendering an entity with the transform of an by adding it as a descendent of that anchor entity."}
+{"id": "/documentation/RealityKit/SpatialTrackingSession", "law": "This gives you full access to the anchor properties, but requires more setup on your part."}
+{"id": "/documentation/RealityKit/VideoPlayerComponent", "law": "On visionOS, you can also use to play immersive media with RealityKit."}
+{"id": "/documentation/RealityKit/SpatialAudioComponent", "law": "To avoid any unwanted mixdown artifacts, use mono source material where possible."}
+{"id": "/documentation/RealityKit/AnchoringComponent/AccessoryAnchoringSource/accessoryLocations", "law": "is supported by every accessory and is always available via the static property, regardless of whether it appears in this array."}
+{"id": "/documentation/RealityKit/SceneEvents/Update", "law": "An event invoked once per frame interval that you can use to execute custom logic for each frame."}
+{"id": "/documentation/RealityKit/scene-content-audio", "law": "Use RealityKit’s default audio settings to create a personalized and realistic experience or utilize advanced customization options to tailor the audio for the needs of your application."}

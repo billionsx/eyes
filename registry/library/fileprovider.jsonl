@@ -1,0 +1,66 @@
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "More and more people use cloud storage to store and share digital assets."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "The identifier points to an App Group container that the apps and extensions use to share data."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "Find the domain from the sidebar of Finder, and start to use it by dragging a file onto the location."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "The macOS app includes a server, which the iOS app requires to function."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "Users use the app to create a file provider domain and log in to the remote server from a Mac."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "To be functional, both the macOS and the iOS file provider extensions require the server to be running on the same network."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "Users use the app to create a file provider domain and log in to the remote server for an iOS device."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "The extensions don’t maintain a local copy of the working set."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "Real-world file provider extensions can define a working set smaller than the root container item set, and use a different enumerator for the working set enumeration, if desired."}
+{"id": "/documentation/FileProvider/synchronizing-files-using-file-provider-extensions", "law": "Real-world file provider extensions can do that and report the items to the server so the server can maintain the materialized item set and avoid pushing the changes on items irrelevant to the devices."}
+{"id": "/documentation/FileProvider", "law": "You don’t need a File Provider extension to allow access to documents that your app stores locally."}
+{"id": "/documentation/FileProvider", "law": "An extension other apps use to access files and folders managed by your app and synced with a remote storage."}
+{"id": "/documentation/FileProvider/NSFileProviderDomain", "law": "You can use domains to partition a file provider’s content."}
+{"id": "/documentation/FileProvider/NSFileProviderDomain", "law": "When you use domains, a single file provider can act as if multiple file providers were installed, and users can dynamically switch from one domain to another."}
+{"id": "/documentation/FileProvider/NSFileProviderDomain", "law": "You can use domains to represent different accounts or locations."}
+{"id": "/documentation/FileProvider/NSFileProviderEnumerating/enumerator(for:request:)", "law": "Possible item identifiers include: Your implementation should create and return an object that provides the requested content."}
+{"id": "/documentation/FileProvider/NSFileProviderEnumerating/enumerator(for:request:)", "law": "If you can’t return the requested enumerator, you must throw an error in Swift, or if you return nil in Objective-C, you must set the out parameter."}
+{"id": "/documentation/FileProvider/NSFileProviderEnumerating/enumerator(for:request:)", "law": "If the parameter is and your extension doesn’t support trashing items, then it should fail with the error code from the domain."}
+{"id": "/documentation/FileProvider/NSFileProviderEnumerating/enumerator(for:request:)", "law": "Additionally, make sure the items managed by your File Provider extension don’t have the capability enabled."}
+{"id": "/documentation/FileProvider/NSFileProviderEnumerating/enumerator(for:request:)", "law": "If the parameter doesn’t exist in your remote storage, you should fail with an error."}
+{"id": "/documentation/FileProvider/NSFileProviderError/Code/syncAnchorExpired", "law": "An error indicating that the sync anchor is too old, and that the system must restart the sync operation from the beginning."}
+{"id": "/documentation/FileProvider/NSFileProviderItemDecorating", "law": "Use the following keys to define the decorations: The value must be one of the following: Support for decorating items."}
+{"id": "/documentation/FileProvider/NSFileProviderItemIdentifier/trashContainer", "law": "Your extension must enumerate all trashed items on request."}
+{"id": "/documentation/FileProvider/NSFileProviderManager/signalErrorResolved(_:completionHandler:)", "law": "Use this method if any of your extension’s actions fail because of an , , or error."}
+{"id": "/documentation/FileProvider/NSFileProviderPartialContentFetching", "law": "To trigger a partial download, an app must use POSIX read operations to read part of the file."}
+{"id": "/documentation/FileProvider/defining-your-file-provider-s-content", "law": "You must instantiate and return an object that adopts the protocol."}
+{"id": "/documentation/FileProvider/defining-your-file-provider-s-content", "law": "Your file provider must maintain its own working set."}
+{"id": "/documentation/FileProvider/defining-your-file-provider-s-content", "law": "Any changes made to the working set must be propagated to all of the user’s devices, and each device must keep a local cache of the working set, letting it enumerate the working set when offline."}
+{"id": "/documentation/FileProvider/defining-your-file-provider-s-content", "law": "You must provide an enumerator that returns all of the items and changes for your working set."}
+{"id": "/documentation/FileProvider/defining-your-file-provider-s-content", "law": "The system always responds to changes to the working set."}
+{"id": "/documentation/FileProvider/defining-your-file-provider-s-content", "law": "If a change arrives and you don’t have an active enumerator, the system requests a new one."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "In response, your file provider must create an object that adopts the protocol."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "To avoid possible data loss, the system won’t convert a materialized item into a dataless item if the item has pending changes that the File Provider extension needs to sync."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "Your file provider must maintain its own working set."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "To ensure that the system applies remote updates to local copies, the working set must also include all materialized items managed by the system when using a replicated file provider."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "If your file provider doesn’t explicitly track materialized items, the working set must include all items (documents and directories) on your remote storage."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "You must provide an enumerator that returns all of the items and changes for your working set."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "If you don’t track the materialized items, your working set must include all items on your remote storage, and you must alert the system to all changes."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "Your file provider must then enumerate the changes by calling on the file provider manager for the corresponding domain, and use the provided enumerator to access the changes since the previous sync anchor."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "When the user, an app, or some other event creates, modifies, or deletes an item on your remote storage, your File Provider extension should check the working set to determine whether you need to signal an update."}
+{"id": "/documentation/FileProvider/synchronizing-the-file-provider-extension", "law": "If your file provider doesn’t track materialized items, the working set includes all items on your remote storage, and you must signal an update for every change."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "To use push notifications, you start by generating the signing key for your app."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "Avoid sending unnecessary push notifications."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "This means your extension must update your server whenever an enumerator is created or invalidated."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "Additionally, this coordination must gracefully degrade when an internet connection is unavailable or fails."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "For items in the working set, the server should always send push notifications."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "To signal changes from a remote server, you use provider authentication tokens (not provider certificates)."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "Use the APNs key to sign your JSON Web Tokens (JWT) when sending notifications from your server."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "Turn on push notifications."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "The method is never called for type pushes."}
+{"id": "/documentation/FileProvider/using-push-notifications-to-signal-changes", "law": "You can also use to update the root container, or to update the working set."}
+{"id": "/documentation/fileprovider", "law": "You don’t need a File Provider extension to allow access to documents that your app stores locally."}
+{"id": "/documentation/fileprovider", "law": "An extension other apps use to access files and folders managed by your app and synced with a remote storage."}
+{"id": "/documentation/fileprovider/replicated-file-provider-extension", "law": "At a minimum, the File Provider extension needs to perform the following: Adopt both the and the protocols."}
+{"id": "/documentation/fileprovider/replicated-file-provider-extension", "law": "You must implement the first enumerator, returning it when the system calls your method."}
+{"id": "/documentation/fileprovider/replicated-file-provider-extension", "law": "Use these interfaces to add features that aren’t provided by the base API."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "In response, your file provider must create an object that adopts the protocol."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "To avoid possible data loss, the system won’t convert a materialized item into a dataless item if the item has pending changes that the File Provider extension needs to sync."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "Your file provider must maintain its own working set."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "To ensure that the system applies remote updates to local copies, the working set must also include all materialized items managed by the system when using a replicated file provider."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "If your file provider doesn’t explicitly track materialized items, the working set must include all items (documents and directories) on your remote storage."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "You must provide an enumerator that returns all of the items and changes for your working set."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "If you don’t track the materialized items, your working set must include all items on your remote storage, and you must alert the system to all changes."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "Your file provider must then enumerate the changes by calling on the file provider manager for the corresponding domain, and use the provided enumerator to access the changes since the previous sync anchor."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "When the user, an app, or some other event creates, modifies, or deletes an item on your remote storage, your File Provider extension should check the working set to determine whether you need to signal an update."}
+{"id": "/documentation/fileprovider/synchronizing-the-file-provider-extension", "law": "If your file provider doesn’t track materialized items, the working set includes all items on your remote storage, and you must signal an update for every change."}

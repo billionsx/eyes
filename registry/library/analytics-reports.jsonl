@@ -1,0 +1,4 @@
+{"id": "/documentation/analytics-reports", "law": "Use the Analytics Report API to analyze data about your apps on Apple platforms."}
+{"id": "/documentation/analytics-reports", "law": "To start receiving reports, use the endpoint in the App Store Connect API."}
+{"id": "/documentation/analytics-reports", "law": "After you create your request, use to poll the list of report instances to check whether new instances are downloadable."}
+{"id": "/documentation/analytics-reports", "law": "Rely on column names instead of column positions in the report files to ensure smoother schema upgrades."}

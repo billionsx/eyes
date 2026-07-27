@@ -1,0 +1,4 @@
+{"id": "/documentation/AppStoreServerNotifications", "law": "Use the data in the notifications to update your user-account database, and to monitor and respond to in-app purchase refunds."}
+{"id": "/documentation/AppStoreServerNotifications", "law": "Use the notification type, along with the transaction and subscription renewal information, to update a customer’s service or to present promotional offers according to your business logic."}
+{"id": "/documentation/AppStoreServerNotifications", "law": "Use the token information to report it to Apple, including if you don’t recognize the token in your system."}
+{"id": "/documentation/AppStoreServerNotifications", "law": "Use the you receive to call the endpoint to learn how your server responds to the test notification."}

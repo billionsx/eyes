@@ -1,0 +1,14 @@
+{"id": "/documentation/SystemExtensions", "law": "You use frameworks like , , and to write your system extension, and you package the extension in your app bundle."}
+{"id": "/documentation/SystemExtensions", "law": "At runtime, use the SystemExtensions framework to install or update the extension on the user’s system."}
+{"id": "/documentation/SystemExtensions", "law": "To successfully activate your extension, you must adhere to the following rules: The extension must match your bundle identifier, excluding file extension."}
+{"id": "/documentation/SystemExtensions", "law": "For example, a DriverKit extension with bundle identifier must use the filename ."}
+{"id": "/documentation/SystemExtensions", "law": "Similarly, a NetworkExtension extension with bundle identifier must use the filename ."}
+{"id": "/documentation/SystemExtensions", "law": "You must use the same Team ID when signing the extension that you use for signing your app, unless the extension has the entitlement."}
+{"id": "/documentation/SystemExtensions", "law": "You must either distribute your app and extension through the Mac App Store, or notarize them."}
+{"id": "/documentation/SystemExtensions/installing-system-extensions-and-drivers", "law": "When the user launches your app, use the SystemExtensions framework to activate your driver and make it available for use."}
+{"id": "/documentation/SystemExtensions/installing-system-extensions-and-drivers", "law": "The identifier isn’t already in use by another system extension."}
+{"id": "/documentation/SystemExtensions/installing-system-extensions-and-drivers", "law": "Use the error code to identify the reason for the failure so that you can correct it."}
+{"id": "/documentation/SystemExtensions/installing-system-extensions-and-drivers", "law": "Use that information to determine whether you want to install the new extension or keep the old one."}
+{"id": "/documentation/SystemExtensions/installing-system-extensions-and-drivers", "law": "For more information about how to use the tool, see the man pages."}
+{"id": "/documentation/SystemExtensions/OSBundleUsageDescriptionKey", "law": "This key is required for all DriverKit extensions and must be in the extension’s file."}
+{"id": "/documentation/SystemExtensions/OSBundleUsageDescriptionKey", "law": "For system extensions that are not DriverKit extensions, use instead."}

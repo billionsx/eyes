@@ -1,0 +1,34 @@
+{
+ "_суть": "Большая семёрка консалтинга (поручение 26.07.2026): ежедневное системное познание логики фирм — аналитика · продукт · бизнес-логика.",
+ "firms": {
+  "mckinsey": [
+   "https://www.mckinsey.com/featured-insights",
+   "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights",
+   "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights"
+  ],
+  "bcg": [
+   "https://www.bcg.com/publications",
+   "https://www.bcg.com/capabilities/corporate-finance-strategy/insights"
+  ],
+  "bain": [
+   "https://www.bain.com/insights/",
+   "https://www.bain.com/insights/topics/"
+  ],
+  "deloitte": [
+   "https://www.deloitte.com/us/en/insights.html",
+   "https://www.deloitte.com/us/en/insights/topics/strategy.html"
+  ],
+  "pwc": [
+   "https://www.pwc.com/gx/en/issues.html",
+   "https://www.strategy-business.com/"
+  ],
+  "ey": [
+   "https://www.ey.com/en_gl/insights",
+   "https://www.ey.com/en_gl/insights/strategy"
+  ],
+  "kpmg": [
+   "https://kpmg.com/xx/en/our-insights.html"
+  ]
+ },
+ "budget_per_day": 70
+}
