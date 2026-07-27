@@ -278,6 +278,15 @@ def cmd_attach(root: Path, project: str, report_glob: list, strict_glob: list,
 
 
 # ────────────────────────────── selftest ───────────────────────────────
+def _importable(mod: str) -> bool:
+    """Инструмент суда либо есть, либо его нет — без трейсбека посреди суда."""
+    try:
+        __import__(mod)
+        return True
+    except Exception:
+        return False
+
+
 def cmd_selftest(root: Path) -> int:
     """Каждый орган проверен на живом нарушении в обе стороны."""
     fx = root / "tests" / "fixtures"
@@ -287,6 +296,15 @@ def cmd_selftest(root: Path) -> int:
         nonlocal ok
         print(("  ✓ " if cond else "  ✗ ") + name)
         ok = ok and cond
+
+    print("SELFTEST · инструменты суда (объявлены, а не угаданы)")
+    _need = {"numpy": "numpy", "PIL": "pillow", "fontTools": "fonttools"}
+    _miss = [pkg for mod, pkg in _need.items() if not _importable(mod)]
+    check("инструменты на месте: numpy · pillow · fonttools"
+          + (f" — НЕТ: pip install {' '.join(_miss)}" if _miss else ""), not _miss)
+    if _miss:
+        print(f"  суд без инструментов не идёт: pip install {' '.join(_miss)}")
+        return 1
 
     print("SELFTEST · исполнительная власть (lint)")
     tokens = json.loads((root / "registry" / "standards" / "tokens.json").read_text(encoding="utf-8"))

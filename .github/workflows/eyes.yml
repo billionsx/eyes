@@ -50,7 +50,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: "Инструменты"
-        run: pip install --quiet pillow numpy
+        run: pip install --quiet pillow numpy fonttools
 
       - name: "Суд — selftest (живые нарушения в обе стороны)"
         run: python3 bin/eyes.py selftest
