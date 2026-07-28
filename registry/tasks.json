@@ -110,7 +110,7 @@
    "id": "T16",
    "task": "Перенос BXE: отдельный GitHub + домен + Cloudflare, подключаем к любому проекту",
    "status": "done",
-   "organ": "исполнено 27–28.07.2026: репозиторий billionsx/eyes (перенос iskcon@ad77d7215 → eyes@fc49b846b) · суверенитет ст. 46 · паспорт проекта ст. 57 · зона vrajs.com в CF (аккаунт d5cbe194…e6d1, free) · Pages-проект eyes из main, build output dashboard, пустой build command · домен vrajs.com отдаёт эфир (проверено: числа страницы совпали с registry/dashboard/data.json 28.07 06:12 UTC) · подключение любого проекта паспортом + templates/eyes-client.yml и ping-eyes.yml · в монорепо bxad/ снят, связь охраняется гейтом tools/eyes-link-lint.py (ЗКН-Д030, У5)",
+   "organ": "исполнено 27–28.07.2026: репозиторий billionsx/eyes (перенос iskcon@ad77d7215 → eyes@fc49b846b) · суверенитет ст. 46 · паспорт проекта ст. 57 · зона vrajs.com в CF (аккаунт d5cbe194…e6d1, free) · Pages-проект eyes из main, build output dashboard, пустой build command · домен vrajs.com отдаёт эфир (проверено: числа страницы совпали с registry/dashboard/data.json 28.07 06:12 UTC) · подключение любого проекта паспортом + templates/eyes-client.yml и ping-eyes.yml · в монорепо bxad/ снят, связь охраняется гейтом на стороне клиента (его собственный закон о подключении)",
    "article": "ст. 46–47 · 57"
   },
   {

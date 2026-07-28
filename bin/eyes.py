@@ -181,7 +181,7 @@ def cmd_ios27(root: Path, issue: bool) -> int:
             "Дозор нашёл iOS 27 в официальных источниках Apple. Протокол смены базы (устав §5):\n\n"
             "1. Разведка уже сняла снимки — улики ниже; хроника в `../..//state/CHANGELOG.md`.\n"
             "2. Приём референсов: экраны iOS 27 кладутся как PDF — конвейер `ios26-intake` того же метода.\n"
-            "3. ЗАМЕР, не перенос: ни одно число не попадает в tokens.json без адреса замера (ЗКН-Д028 —\n"
+            "3. ЗАМЕР, не перенос: ни одно число не попадает в tokens.json без адреса замера (ЗКН-Э002 —\n"
             "   правдоподобное число хуже отсутствующего). До замера база остаётся ios26.5, поле `base`\n"
             "   не переключается декларацией.\n"
             "4. Храповик только растёт: новые замеры добавляются, старые снимаются поправкой с объяснением.\n\n"
@@ -768,7 +768,7 @@ def cmd_selftest(root: Path) -> int:
         shutil.copy(root / "registry" / "sources.json", tmps / "registry" / "sources.json")
         bare = (root / "CONSTITUTION.md").read_text(encoding="utf-8").replace(
             "Дозор: `hig-split-views`, `hig-designing-for-ipados` (архитектура\nразделённых пространств).", "")
-        bare = bare.replace("прецедент ЗКН-Д029", "прецедент")
+        bare = bare.replace("прецедент ЗКН-Э003", "прецедент")
         (tmps / "CONSTITUTION.md").write_text(bare, encoding="utf-8")
         check("статья без замера/знания/🕳 → НЕ ИЗУЧЕНО пойман",
               any("Суб-приложения" in b for b in study_mod2.run(tmps)["bad"]))

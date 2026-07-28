@@ -1,4 +1,4 @@
-# BXE · ЭФИР — 2026-07-28 07:19 UTC
+# BXE · ЭФИР — 2026-07-28 07:21 UTC
 Живые числа реестров департамента Billions X Eyes; лист пересобирается каждым прогоном.
 
 | Орган | Состояние |
@@ -40,7 +40,7 @@
 | T13 | Урожай неубиваем пушами/отменами | **done** | eyes-atlas.yml — своя concurrency-группа |
 | T14 | Все поручения зафиксированы и интегрированы в автономный процесс | **done** | registry/tasks.json + суд целостности |
 | T15 | Отчётность — дашборд в прямом эфире | **done** | bin/dashboard.py → dashboard/DASHBOARD.md + index.html, обновление каждым прогоном |
-| T16 | Перенос BXE: отдельный GitHub + домен + Cloudflare, подключаем к любому проекту | **done** | исполнено 27–28.07.2026: репозиторий billionsx/eyes (перенос iskcon@ad77d7215 → eyes@fc49b846b) · суверенитет ст. 46 · паспорт проекта ст. 57 · зона vrajs.com в CF (аккаунт d5cbe194…e6d1, free) · Pages-проект eyes из main, build output dashboard, пустой build command · домен vrajs.com отдаёт эфир (проверено: числа страницы совпали с registry/dashboard/data.json 28.07 06:12 UTC) · подключение любого проекта паспортом + templates/eyes-client.yml и ping-eyes.yml · в монорепо bxad/ снят, связь охраняется гейтом tools/eyes-link-lint.py (ЗКН-Д030, У5) |
+| T16 | Перенос BXE: отдельный GitHub + домен + Cloudflare, подключаем к любому проекту | **done** | исполнено 27–28.07.2026: репозиторий billionsx/eyes (перенос iskcon@ad77d7215 → eyes@fc49b846b) · суверенитет ст. 46 · паспорт проекта ст. 57 · зона vrajs.com в CF (аккаунт d5cbe194…e6d1, free) · Pages-проект eyes из main, build output dashboard, пустой build command · домен vrajs.com отдаёт эфир (проверено: числа страницы совпали с registry/dashboard/data.json 28.07 06:12 UTC) · подключение любого проекта паспортом + templates/eyes-client.yml и ping-eyes.yml · в монорепо bxad/ снят, связь охраняется гейтом на стороне клиента (его собственный закон о подключении) |
 | T17 | Живой взгляд: видеть приложения в реальном режиме, не кадрами | **active** | bin/liveview.py --live (Chromium · DOM+computed · AE-сверка); SPA-ожидание в урожае №2 |
 | T18 | Установка приложений Apple для разработчиков | **done** | eyes-macos.yml: Xcode 15.4 (+8 версий) · SF Symbols установлен · опись 9184 символа |
 | T19 | Большая семёрка (Deloitte·PwC·EY·KPMG + McKinsey·BCG·Bain): ежедневное системное познание логики — аналитика · продукт · бизнес-логика | **active** | bin/consult.py · шаг урожая ежедневно · library/big7 + карта фреймворков |

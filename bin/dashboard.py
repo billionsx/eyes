@@ -81,8 +81,7 @@ def collect() -> dict:
     return d
 
 
-GRP = {"bxad": "Департамент BXE", "service": "Служба (трек M)",
-       "iskcon_product": "Проект ISKCON"}
+GRP = {"bxad": "Департамент BXE", "service": "Служба (трек M)"}
 
 
 def render(d: dict):
@@ -173,7 +172,7 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
 </div>
 <h2>Поручения</h2>
 <table>{rows}</table>
-<footer>Числа — только из реестров департамента, ни одного из головы (БТ001).
+<footer>Числа — только из реестров департамента, ни одного из головы (ЗКН-Э001).
 Исходники и хроника: <a href="https://github.com/billionsx/eyes">github.com/billionsx/eyes</a> ·
 лист в Markdown: <a href="https://github.com/billionsx/eyes/blob/main/dashboard/DASHBOARD.md">DASHBOARD.md</a></footer>
 </html>"""
