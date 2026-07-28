@@ -9,7 +9,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   review:
-    uses: billionsx/iskcon/.github/workflows/eyes-review-reusable.yml@main
+    uses: billionsx/eyes/.github/workflows/eyes-review-reusable.yml@main
     with:
       globs: "src/**/*.css,src/**/*.tsx"   # свои пути
       project: "acme"

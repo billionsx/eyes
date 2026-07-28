@@ -151,7 +151,7 @@ def scaffold_ios27(root: Path, first_seen: str) -> None:
             tok_f = ROOT / "registry" / "standards" / "tokens.json"  # переносимость: каркас всегда от измеренной базы департамента
         base = json.loads(tok_f.read_text(encoding="utf-8"))
         sk = _skeleton(base)
-        sk["base"] = "ios27-dark (КАРКАС: ни одно 🕳 не закрыто — база НЕ действует, Д028)"
+        sk["base"] = "ios27-dark (КАРКАС: ни одно 🕳 не закрыто — база НЕ действует, Э002)"
         sk["_рельсы"] = ("создано дозором " + first_seen + "; заполняется только конвейером "
                          "intake → инструменты → храповик; перенос чисел из ios26 запрещён")
         nxt.write_text(json.dumps(sk, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -681,11 +681,11 @@ def cmd_selftest(root: Path) -> int:
 
     print("SELFTEST · служба M2 (дифф базовой линии)")
     import monitor as mon
-    oldf = [["brajs-com:AE10", "button", "Arial"], ["brajs-com:AE2", "div.gtab-bg", "чёрный drop"]]
-    newf = [["brajs-com:AE2", "div.gtab-bg", "чёрный drop"], ["brajs-com:AE1", "div.x", "фон вне лестницы"]]
+    oldf = [["example-com:AE10", "button", "Arial"], ["example-com:AE2", "div.gtab-bg", "чёрный drop"]]
+    newf = [["example-com:AE2", "div.gtab-bg", "чёрный drop"], ["example-com:AE1", "div.x", "фон вне лестницы"]]
     dd2 = mon.diff_findings(oldf, newf)
     check("монитор: регресс пойман, починка подтверждена, неизменное молчит",
-          [f[0] for f in dd2["new"]] == ["brajs-com:AE1"] and [f[0] for f in dd2["gone"]] == ["brajs-com:AE10"])
+          [f[0] for f in dd2["new"]] == ["example-com:AE1"] and [f[0] for f in dd2["gone"]] == ["example-com:AE10"])
     check("монитор: идентичные снятия → тишина",
           mon.diff_findings(newf, newf) == {"new": [], "gone": []})
 
