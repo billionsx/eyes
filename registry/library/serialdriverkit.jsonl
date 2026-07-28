@@ -1,1 +1,6 @@
 {"id": "/documentation/SerialDriverKit", "law": "To create a driver that communicates serially with a USB device, use the framework instead."}
+{"id": "/documentation/SerialDriverKit/IOUserSerial/Start", "law": "Use this method to perform any additional configuration of your driver, and then call the method to let the system know that your service is running."}
+{"id": "/documentation/SerialDriverKit/IOUserSerial/Start", "law": "For example, you might use this method to store a reference to the specified provider object for later use."}
+{"id": "/documentation/SerialDriverKit/IOUserSerial/Start", "law": "Always call early in your implementation of this method."}
+{"id": "/documentation/SerialDriverKit/IOUserSerial/Start", "law": "You don’t need to open a communications channel to your device in this method."}
+{"id": "/documentation/SerialDriverKit/IOUserSerial/Stop", "law": "Use your implementation of this method to stop all activity and put your driver in a quiescent state."}

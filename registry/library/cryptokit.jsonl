@@ -42,3 +42,13 @@
 {"id": "/documentation/cryptokit/enhancing-your-app-s-privacy-and-security-with-quantum-secure-workflows", "law": "When you call , Swift consumes the key, so you can’t copy or use it again."}
 {"id": "/documentation/cryptokit/enhancing-your-app-s-privacy-and-security-with-quantum-secure-workflows", "law": "If you need to persist or re-import a key, use or instead."}
 {"id": "/documentation/cryptokit/enhancing-your-app-s-privacy-and-security-with-quantum-secure-workflows", "law": "Use when you need long-term hardware-backed storage."}
+{"id": "/documentation/cryptokit/aes/gcm/sealedbox", "law": "Use a sealed box as a container for data that you want to transmit securely."}
+{"id": "/documentation/cryptokit/aes/gcm/sealedbox", "law": "The encryption makes the data unintelligible to anyone without the key, while the authentication tag makes it possible for the intended receiver to be sure the data remains intact."}
+{"id": "/documentation/cryptokit/chachapoly/sealedbox", "law": "Use a sealed box as a container for data that you want to transmit securely."}
+{"id": "/documentation/cryptokit/chachapoly/sealedbox", "law": "The encryption makes the data unintelligible to anyone without the key, while the authentication tag makes it possible for the intended receiver to be sure the data remains intact."}
+{"id": "/documentation/cryptokit/hmac", "law": "Use hash-based message authentication to create a code with a value that’s dependent on both a block of data and a symmetric cryptographic key."}
+{"id": "/documentation/cryptokit/hmac", "law": "When you need to encrypt the data as well as authenticate it, use a cipher like or to put the data into a sealed box (an instance of or )."}
+{"id": "/documentation/cryptokit/sharedsecret", "law": "However, you use it to generate a key by calling either the or method of the shared secret."}
+{"id": "/documentation/cryptokit/symmetrickey", "law": "You use a symmetric key to compute a message authentication code like , or to open and close a sealed box ( or ) using a cipher like or ."}
+{"id": "/documentation/cryptokit/symmetrickeysize", "law": "When creating a new instance with a call to its initializer, you typically use one of the standard key sizes, like , , or ."}
+{"id": "/documentation/cryptokit/symmetrickeysize", "law": "When you need a key with a non-standard length, use the initializer to create a instance with a custom bit count."}

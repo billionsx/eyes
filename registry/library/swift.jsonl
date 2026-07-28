@@ -594,3 +594,6 @@
 {"id": "/documentation/Swift/Duration", "law": "Calculations using may span from a negative value to a positive value and have a suitable range to at least cover attosecond scale for both small elapsed durations like sub-second precision to durations that span centuries."}
 {"id": "/documentation/Swift/Duration", "law": "Typical construction of values should be created via the static methods for specific time values."}
 {"id": "/documentation/Swift/Duration", "law": "itself does not ferry any additional information other than the temporal measurement component; specifically leap seconds should be represented as an additional accessor since that is specific only to certain clock implementations."}
+{"id": "/documentation/Swift/ExpressibleByExtendedGraphemeClusterLiteral", "law": "To add conformance to your custom type, implement the required initializer."}
+{"id": "/documentation/Swift/ExpressibleByStringLiteral", "law": "To add conformance to your custom type, implement the required initializer."}
+{"id": "/documentation/Swift/ExpressibleByUnicodeScalarLiteral", "law": "To add conformance to your custom type, implement the required initializer."}

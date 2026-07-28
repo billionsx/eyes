@@ -62,3 +62,8 @@
 {"id": "/documentation/appkit/nsdocument/printdocument(_:)", "sha": "49b0265d89253993a04f843988d73ee4690af52799eef9ed90e731db7cdfd4b1", "t": "printDocument(_:)", "n": 204, "laws": 0, "ts": "2026-07-28 05:40 UTC"}
 {"id": "/documentation/appkit/nswindow/convertpoint(toscreen:)", "sha": "4e1582cefab096ba460cb1f8633fd6f25e523969ca132ff93fa4d41dfd24f057", "t": "convertPoint(toScreen:)", "n": 144, "laws": 0, "ts": "2026-07-28 05:45 UTC"}
 {"id": "/documentation/appkit/nstextview/setselectedrange(_:affinity:stillselecting:)", "sha": "d5524b5509ba289d9d6776c05fbec0a87d170b4b188387274dc2f0bbdf018299", "t": "setSelectedRange(_:affinity:stillSelecting:)", "n": 269, "laws": 0, "ts": "2026-07-28 05:55 UTC"}
+{"id": "/documentation/appkit/nstableview/usesstaticcontents", "sha": "a6d9f2789c6265927fcb054fb5e0bf1f1df639ab43b455b14c5770ea349da131", "t": "usesStaticContents", "n": 821, "laws": 3, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/appstoreconnectapi/perfpowermetric", "sha": "641cb54ffe80686281fbc5ea823873f7593a1c34f5cbf95ccd15148ed9bd03cf", "t": "PerfPowerMetric", "n": 46, "laws": 0, "ts": "2026-07-28 18:55 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/geometry", "sha": "e4d0d884b88c2ccea05d1b4a7cee9912d95f3a128dec4dcc6e803211238004dc", "t": "UIWindowScene.Geometry", "n": 274, "laws": 0, "ts": "2026-07-28 18:58 UTC"}
+{"id": "/documentation/applearchive/archiveencryptioncontext/profile-swift.property", "sha": "3c7dfabaee570e6a1cd5df14466e369016c4c0200a2df29fe9afc248f09dc8c7", "t": "profile", "n": 26, "laws": 0, "ts": "2026-07-28 19:01 UTC"}
+{"id": "/documentation/applemapsserverapi/searchregion", "sha": "8f95c3510baae52b40f96b56a735c2875875424feb936066265219ea1da07ce3", "t": "SearchRegion", "n": 125, "laws": 0, "ts": "2026-07-28 19:03 UTC"}

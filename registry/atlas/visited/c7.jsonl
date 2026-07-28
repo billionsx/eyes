@@ -66,3 +66,9 @@
 {"id": "/documentation/appkit/nstoolbaritem/action", "sha": "db1a396c1493b7e60fbf0dc3208c48c148afbd4605c6fd3870bb7ffbc2f64d68", "t": "action", "n": 319, "laws": 0, "ts": "2026-07-28 05:59 UTC"}
 {"id": "/documentation/appkit/token-field", "sha": "59f5be7d89fbb588449e0047d4fd66d3aff851ef230b8d65705413d91f6a15dd", "t": "Token Field", "n": 234, "laws": 0, "ts": "2026-07-28 06:01 UTC"}
 {"id": "/documentation/appkit/nsoutlineview/autoresizesoutlinecolumn", "sha": "81bc8f499ab3b6da31b6ffd272d422dd4ccdef7f0ef4f13a102355b1182353e7", "t": "autoresizesOutlineColumn", "n": 530, "laws": 0, "ts": "2026-07-28 06:01 UTC"}
+{"id": "/documentation/UIKit/NSStringFromUIOffset", "sha": "8375ce2c3ae73d365ec434a84df0380e396d386d22cbff3b58ac2d63e0c7cf84", "t": "NSStringFromUIOffset", "n": 119, "laws": 0, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/appkit/nscollectionlayoutspacing", "sha": "492a0d9d6c1cbbd4c89d676842d0a431e66526d6feec8aaf7d64f6976fd70627", "t": "NSCollectionLayoutSpacing", "n": 852, "laws": 4, "ts": "2026-07-28 18:46 UTC"}
+{"id": "/documentation/appkit/nstableview/didremove(_:forrow:)", "sha": "fe9266a72c402b1496f6a833ca7caa00cb5ba009fa719d676ec24e747fbdf6f5", "t": "didRemove(_:forRow:)", "n": 351, "laws": 2, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiocontrol/free", "sha": "85aea04f2cd7531b329e9966b19d8b7864ab726947b722485cc6583741d8d4d2", "t": "free", "n": 24, "laws": 0, "ts": "2026-07-28 19:06 UTC"}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription/mbytesperpacket", "sha": "888bd26f216f350a6ae499b4c91c1e4cead9303be897ed075c8fc756dd7ff970", "t": "mBytesPerPacket", "n": 211, "laws": 0, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription/mframesperpacket", "sha": "24a56682a0b3905592ef535acb9a0f97fa602393d6a2e7375e418a484ce584f1", "t": "mFramesPerPacket", "n": 287, "laws": 0, "ts": "2026-07-28 19:08 UTC"}

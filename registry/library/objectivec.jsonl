@@ -30,3 +30,4 @@
 {"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "See the , , , and class specifications for examples of the use of this method."}
 {"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "If two objects are equal, they must have the same hash value."}
 {"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "Make sure you also define in your subclass."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/tableView:writeRows:toPasteboard:", "law": "Invoked by after it has been determined that a drag should begin, but before the drag has been started."}

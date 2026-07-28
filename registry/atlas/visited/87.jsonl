@@ -64,3 +64,5 @@
 {"id": "/documentation/CoreSpotlight/regenerating-your-app-s-indexes-on-demand", "sha": "44449b86b4bdf31f08c79f86ba072124c58740e9e3f80f96d3a10f133b5a14f1", "t": "Regenerating your app’s indexes on demand", "n": 2458, "laws": 4, "ts": "2026-07-27 19:07 UTC"}
 {"id": "/documentation/appkit/nsresponder/nextresponder", "sha": "8372e1ab29baa298eb4b6a56ec1a04234430a24aa5d7e872a3e8e33bd078ca39", "t": "nextResponder", "n": 150, "laws": 1, "ts": "2026-07-27 19:13 UTC"}
 {"id": "/documentation/appkit/nsglasseffectview/style-swift.enum", "sha": "bc2eec9628a83b9a4ab2863486af7df51413732f41b59458251cca0d3c32c2d4", "t": "NSGlassEffectView.Style", "n": 117, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nsstackview/addview(_:in:)", "sha": "852b1c4e961b347ccc0d16e241eb1fcb0db31aecb54fe160d0dc321b74f1651f", "t": "addView(_:in:)", "n": 984, "laws": 0, "ts": "2026-07-28 18:40 UTC"}
+{"id": "/documentation/system/filepath/lastcomponent", "sha": "51acbc230a5d0365bae21612c48cbb471ff75b9d5a7d4406a58f25ee3fed29df", "t": "lastComponent", "n": 231, "laws": 0, "ts": "2026-07-28 19:00 UTC"}

@@ -47,3 +47,8 @@
 {"id": "/documentation/appkit/nswindowcontroller/shouldclosedocument", "sha": "d9bd3aabd8123cb60290cc9dffe8f849328d092642c874b0688bb56ccab89f6b", "t": "shouldCloseDocument", "n": 307, "laws": 0, "ts": "2026-07-28 05:51 UTC"}
 {"id": "/documentation/appkit/nstextview/layoutmanager", "sha": "6f1f57aecfedbcaa19ac14dc5b6bb61ba7de5236cd221ac2fcf986111259b0e2", "t": "layoutManager", "n": 72, "laws": 0, "ts": "2026-07-28 05:54 UTC"}
 {"id": "/documentation/appkit/nstoolbar/init(identifier:)", "sha": "1d17fd12c45337dcb70c4ed46be0c63c05bf355d5117519e3d5b16a4a343881e", "t": "init(identifier:)", "n": 222, "laws": 1, "ts": "2026-07-28 05:59 UTC"}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreen", "sha": "bfb55e785a499b3de9e938186f6de467aa77e63828461637d1070c7d17f7af58", "t": "UILaunchScreen", "n": 560, "laws": 4, "ts": "2026-07-28 18:57 UTC"}
+{"id": "/documentation/system/filepath/length", "sha": "d693ee56df622134fb02e711f06bb149076f31f4709204259306074e5e107c0d", "t": "length", "n": 59, "laws": 0, "ts": "2026-07-28 19:00 UTC"}
+{"id": "/documentation/driverkit/iodispatchsource", "sha": "4c6de0a898b57eee8937006bfc0131a39313ad1c389843701c9e818833b27c3b", "t": "IODispatchSource", "n": 221, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/canbedefaultinputdevice", "sha": "4d57bab886a05954d7fa37dc4fd47811ad0090a43ca4cef0b22e5034b0b5393f", "t": "CanBeDefaultInputDevice", "n": 256, "laws": 1, "ts": "2026-07-28 19:06 UTC"}
+{"id": "/documentation/audiotoolbox/caanchoringstrategy", "sha": "7c530bdec45c7060f773bea272870e78e793f679c2e762b7b9e9c01e6af4102a", "t": "CAAnchoringStrategy", "n": 103, "laws": 0, "ts": "2026-07-28 19:09 UTC"}

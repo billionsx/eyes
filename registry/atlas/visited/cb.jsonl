@@ -65,3 +65,6 @@
 {"id": "/documentation/appkit/nswritingtoolscoordinator/preferredresultoptions", "sha": "9e8913980b8ae4475edaaa0530a9972dcb33dc0783e4099aad823d165aaaa337", "t": "preferredResultOptions", "n": 414, "laws": 0, "ts": "2026-07-28 05:57 UTC"}
 {"id": "/documentation/appkit/nstoolbar/itemidentifiers", "sha": "a352f92c71aced60cbd9f701626fd51aa15df10f5b335516f6532ac406b0a72e", "t": "itemIdentifiers", "n": 324, "laws": 1, "ts": "2026-07-28 05:59 UTC"}
 {"id": "/documentation/appkit/nsoutlineview/isexpandable(_:)", "sha": "a12ca5f2ab49b90f310ec44c452e33e6abbfce3f8289f0af03d9e704a4138f17", "t": "isExpandable(_:)", "n": 153, "laws": 0, "ts": "2026-07-28 06:01 UTC"}
+{"id": "/documentation/UIKit/NSStringFromCGRect", "sha": "5ee166add7da6755c5e8f092f19310dc8bdcf86192c6ece272efc5277a68b4ed", "t": "NSStringFromCGRect", "n": 154, "laws": 0, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/appkit/nstableview/drawrow(_:cliprect:)", "sha": "dd429aeb1beb8e9b5b24e7aa82b131c037d218f0156bd618400c550ec4ab4cd1", "t": "drawRow(_:clipRect:)", "n": 290, "laws": 2, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/appstoreconnectapi/custom-product-pages-and-localizations", "sha": "82aa9a89240b31878d4ef7fda0dc83251dd7eff1063cb8120d9bb2170a2c941e", "t": "Custom Product Pages and Localizations", "n": 493, "laws": 0, "ts": "2026-07-28 18:55 UTC"}

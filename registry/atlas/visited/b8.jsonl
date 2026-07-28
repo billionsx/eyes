@@ -56,3 +56,8 @@
 {"id": "/documentation/appkit/nsdocument/removewindowcontroller(_:)", "sha": "6fa2acc9fb3f819ffcad560abfc1a6c49a9f1d4203d4fae0226de9e52ba33445", "t": "removeWindowController(_:)", "n": 463, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
 {"id": "/documentation/appkit/nswindowcontroller/setdocumentedited(_:)", "sha": "39777e157d801ee0aac200a3a422f5b7fe1de5e69f230b8035c738013bd3dc6e", "t": "setDocumentEdited(_:)", "n": 328, "laws": 1, "ts": "2026-07-28 05:51 UTC"}
 {"id": "/documentation/appkit/nstoolbar/displaymode-swift.property", "sha": "e618f386422e9a38aa83b392a10a68779a623d9632f795b28bd35d3c5e78fe2d", "t": "displayMode", "n": 196, "laws": 0, "ts": "2026-07-28 05:58 UTC"}
+{"id": "/documentation/appkit/nstabview/selecttabviewitem(at:)", "sha": "e657ef91be9610fa0bcc6c761688e9f7002245fa3dc595f359d6e932b8f9c4cd", "t": "selectTabViewItem(at:)", "n": 164, "laws": 0, "ts": "2026-07-28 18:41 UTC"}
+{"id": "/documentation/appkit/nsalert", "sha": "fb35995539694fd87538ce0aeb51f66061336385469c20d8eca87b74e1b67c03", "t": "NSAlert", "n": 2794, "laws": 4, "ts": "2026-07-28 18:45 UTC"}
+{"id": "/documentation/appstoreconnectapi/appmediavideostate", "sha": "89a452fae1431ebc5cd7391a3c1e2d77ab8508aac22a1fc66be161ed2c345f17", "t": "AppMediaVideoState", "n": 76, "laws": 0, "ts": "2026-07-28 18:56 UTC"}
+{"id": "/documentation/Swift/ExpressibleByStringLiteral", "sha": "7f2fd8757c680bd2f721d9c46a310fa8bc05939c23f30c32b941435d75cffc11", "t": "ExpressibleByStringLiteral", "n": 406, "laws": 1, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/stop", "sha": "5f2c7d0a2e0770140d71a8802fcfb275b3fe8eabf8e1bc8f7cefc18c384f13da", "t": "Stop", "n": 804, "laws": 2, "ts": "2026-07-28 19:07 UTC"}

@@ -59,3 +59,8 @@
 {"id": "/documentation/appkit/nstextview/changelayoutorientation(_:)", "sha": "515aa6d57f5ccaaa67da84bfb0d17b84b18707de48f42cce82720a0dd9893a16", "t": "changeLayoutOrientation(_:)", "n": 124, "laws": 0, "ts": "2026-07-28 05:52 UTC"}
 {"id": "/documentation/appkit/nstextview/rulerview(_:handlemousedownwith:)", "sha": "2be6b1020141922a9b1861b9a2676951788425b9ecda35c4f9d6c1dd78fbd7fc", "t": "rulerView(_:handleMouseDownWith:)", "n": 287, "laws": 0, "ts": "2026-07-28 05:54 UTC"}
 {"id": "/documentation/appkit/nstextview/selectedranges", "sha": "6f5ab2f446fffc614aec445f31ed510c41851fba31203eb51040279e32e0273a", "t": "selectedRanges", "n": 268, "laws": 0, "ts": "2026-07-28 05:55 UTC"}
+{"id": "/documentation/appkit/nssharingservicepicker", "sha": "651d03d997fbd81beefad32a2c9dd3a9945482fa0349fe14c85477bfe4f806e0", "t": "NSSharingServicePicker", "n": 1020, "laws": 2, "ts": "2026-07-28 18:46 UTC"}
+{"id": "/documentation/appkit/nscollectionview/isfirstresponder", "sha": "c0bd7b18843961f620104197fb296562a4d6619ff751d631d31b19615da32899", "t": "isFirstResponder", "n": 225, "laws": 0, "ts": "2026-07-28 18:47 UTC"}
+{"id": "/documentation/appkit/nstableview/headerview", "sha": "87e95198ad8f87d40daacd325511a1a207bf53b16381d75e6cab1341bd8a4e5c", "t": "headerView", "n": 241, "laws": 0, "ts": "2026-07-28 18:52 UTC"}
+{"id": "/documentation/appstoreconnectapi/customer-review-responses", "sha": "394723694fb9a80024817804fdec66198832e25a794ce3d3135d65f0eb1b5647", "t": "Customer Review Responses", "n": 1316, "laws": 2, "ts": "2026-07-28 18:56 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiochannelcount", "sha": "bad4429d1714e16102d2de24c9ef638625b72b30d7f260ecdf6ac0d8fed760fe", "t": "AUAudioChannelCount", "n": 203, "laws": 1, "ts": "2026-07-28 19:03 UTC"}

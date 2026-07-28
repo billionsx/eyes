@@ -72,3 +72,6 @@
 {"id": "/documentation/appkit/nswindow/hostingsheetrepresentation", "sha": "3dc9658ce6c7f48f9129f060c6a1b5a8df4d6307b524109638fcd223fb9445d2", "t": "NSWindow.HostingSheetRepresentation", "n": 331, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
 {"id": "/documentation/appkit/nswindow/setiszoomed(_:)", "sha": "2d9bb52010f8c15e6403abff8eaf17f89e529437c9a560185ca7727a204484bd", "t": "setIsZoomed(_:)", "n": 56, "laws": 0, "ts": "2026-07-28 05:49 UTC"}
 {"id": "/documentation/appkit/nssplitviewitem/holdingpriority", "sha": "7304201e2d971a240589e4106f987cc27cbfad8fabd13956246db9fa7bd425d7", "t": "holdingPriority", "n": 327, "laws": 0, "ts": "2026-07-28 06:03 UTC"}
+{"id": "/documentation/appkit/nspasteboard/init(byfilteringtypesinpasteboard:)", "sha": "c86942ad5101f868121d7b03d7ea815cb07bf68749366dd42aa4248789a4d82d", "t": "init(byFilteringTypesInPasteboard:)", "n": 839, "laws": 0, "ts": "2026-07-28 18:49 UTC"}
+{"id": "/documentation/appkit/nstableview/intercellspacing", "sha": "79784fddb00887bdbd2f3a20b748a7727543d82a702cdfcfa73a34be7a1bb323", "t": "intercellSpacing", "n": 480, "laws": 1, "ts": "2026-07-28 18:52 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/getclockdomain", "sha": "3862d6342129b75a350e5197894c09b60e685095711c07f545e23c255c15ee48", "t": "GetClockDomain", "n": 194, "laws": 0, "ts": "2026-07-28 19:05 UTC"}

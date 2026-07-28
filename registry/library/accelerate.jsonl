@@ -1301,3 +1301,27 @@
 {"id": "/documentation/accelerate/bnnsfilterparameters/alloc_memory", "law": "Must be compatible with the function."}
 {"id": "/documentation/accelerate/bnnsfilterparameters/free_memory", "law": "Must be compatible with the function."}
 {"id": "/documentation/accelerate/vdsp_vgend", "law": "Use this function to generate and return a vector populated with ramped values."}
+{"id": "/documentation/Accelerate/compressing-and-saving-a-string-to-the-file-system", "law": "In this article, you’ll learn how to use AppleArchive to compress a structure, and write the compressed data to a file in macOS."}
+{"id": "/documentation/Accelerate/compressing-and-saving-a-string-to-the-file-system", "law": "You must add read and write file access to the Downloads folder in the Signing and Capabilities pane."}
+{"id": "/documentation/Accelerate/compressing-and-saving-a-string-to-the-file-system", "law": "Use to create the file stream that writes the compressed file to the file system."}
+{"id": "/documentation/Accelerate/compressing-and-saving-a-string-to-the-file-system", "law": "In this case, use the mode."}
+{"id": "/documentation/Accelerate/compressing-and-saving-a-string-to-the-file-system", "law": "Use to write the contents of the string as a blob to the encode stream."}
+{"id": "/documentation/Accelerate/compressing-file-system-directories", "law": "In this article, you’ll learn how to use AppleArchive to compress the contents of an entire directory to a single archive file."}
+{"id": "/documentation/Accelerate/compressing-file-system-directories", "law": "Use to create the file stream that writes the compressed file to the file system."}
+{"id": "/documentation/Accelerate/compressing-file-system-directories", "law": "In this case, use the mode:"}
+{"id": "/documentation/Accelerate/compressing-file-system-directories", "law": "Use to write the directory contents to the encode stream."}
+{"id": "/documentation/Accelerate/compressing-single-files", "law": "In this article, you’ll learn how to use AppleArchive to compress a single-source file, and write the compressed data to a file."}
+{"id": "/documentation/Accelerate/compressing-single-files", "law": "In this case, use to create a byte stream that reads the source file:"}
+{"id": "/documentation/Accelerate/compressing-single-files", "law": "You also use to create the file stream that writes the compressed file to the file system."}
+{"id": "/documentation/Accelerate/compressing-single-files", "law": "In this case, use the mode:"}
+{"id": "/documentation/Accelerate/decompressing-and-extracting-an-archived-directory", "law": "In this article, you’ll learn how to use AppleArchive to decompress and extract a previously compressed file system directory."}
+{"id": "/documentation/Accelerate/decompressing-and-extracting-an-archived-directory", "law": "In this case, use to create a byte stream that reads the source file:"}
+{"id": "/documentation/Accelerate/decompressing-and-parsing-an-archived-string", "law": "In this article, you’ll learn how to use AppleArchive to decompress and parse a previously compressed string."}
+{"id": "/documentation/Accelerate/decompressing-and-parsing-an-archived-string", "law": "You must add read and write file access to the Downloads folder in the Signing and Capabilities pane."}
+{"id": "/documentation/Accelerate/decompressing-and-parsing-an-archived-string", "law": "In this case, use to create a byte stream that reads the source file:"}
+{"id": "/documentation/Accelerate/decompressing-and-parsing-an-archived-string", "law": "Use the size of the blob field that you specified in to create a buffer to receive the uncompressed data."}
+{"id": "/documentation/Accelerate/decompressing-and-parsing-an-archived-string", "law": "Create a string from the raw buffer pointer by creating a typed pointer that’s bound to , and use to initialize the new string: Recreate a string from an archive file."}
+{"id": "/documentation/Accelerate/decompressing-single-files", "law": "In this article, you’ll learn how to use AppleArchive to decompress a previously compressed file, and write the decompressed data to a file."}
+{"id": "/documentation/Accelerate/decompressing-single-files", "law": "In this case, use to create a byte stream that reads the source file:"}
+{"id": "/documentation/Accelerate/decompressing-single-files", "law": "You also use to create the file stream that writes the decompressed file to the file system."}
+{"id": "/documentation/Accelerate/decompressing-single-files", "law": "In this case, use the mode:"}

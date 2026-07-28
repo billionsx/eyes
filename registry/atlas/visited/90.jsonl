@@ -55,3 +55,8 @@
 {"id": "/documentation/appkit/nscolor/quaternarylabelcolor", "sha": "c3b604a81a5c9e0a6a3222315d5d4e22d9c53b8290483c2fca2e7fa90bcef744", "t": "quaternaryLabelColor", "n": 312, "laws": 4, "ts": "2026-07-28 05:36 UTC"}
 {"id": "/documentation/appkit/nsdocument/keepbackupfile", "sha": "78f92877c120d95a0a9a74868024d80c0d20493c94f28f27f50ce9f3292d5906", "t": "keepBackupFile", "n": 387, "laws": 0, "ts": "2026-07-28 05:40 UTC"}
 {"id": "/documentation/appkit/nsview/draw(_:)", "sha": "6901fd02e09c3fc8140fd067b66cdbbe518e6633d2dfb01de2b08d7aec209a17", "t": "draw(_:)", "n": 1465, "laws": 10, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nsstackview/setviews(_:in:)", "sha": "19a3eddfa6e9884ea5ccb8cd3e80b7266f1e90e816e61ec6b3c8dbec9174ba70", "t": "setViews(_:in:)", "n": 573, "laws": 0, "ts": "2026-07-28 18:41 UTC"}
+{"id": "/documentation/appkit/nspasteboarditem/collaborationmetadata", "sha": "c450adb5f06fefe33b56851f7bd34b4f286b45c53405221d765f07616665997a", "t": "collaborationMetadata", "n": 65, "laws": 1, "ts": "2026-07-28 18:50 UTC"}
+{"id": "/documentation/appkit/nstableview/autoresizesallcolumnstofit", "sha": "b27d9f8cb2cb29fe822db6c2628c074be26c9f0b96cd212db011224e2f9cce43", "t": "autoresizesAllColumnsToFit", "n": 293, "laws": 0, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/applearchive/archiveencryptioncontext/authdata", "sha": "3a448456cee78f34fb99364e3cbc9eb83b0c291a1c2134e9969eb0aa711177b1", "t": "authData", "n": 339, "laws": 1, "ts": "2026-07-28 19:01 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/getoutputlatency", "sha": "6f0267e70de8e2f92d802e63ac39d412dcf9250acd0934034672d54a5f3c518f", "t": "GetOutputLatency", "n": 186, "laws": 0, "ts": "2026-07-28 19:05 UTC"}

@@ -1,1 +1,7 @@
 {"id": "/documentation/System/FilePath", "law": "), roots, and requires that the content terminates in a NUL ( )."}
+{"id": "/documentation/system/filepath", "law": "), roots, and requires that the content terminates in a NUL ( )."}
+{"id": "/documentation/system/filepath/component", "law": "Components are never empty and never contain the directory separator."}
+{"id": "/documentation/system/filepath/init(platformstring:)-8amn5", "law": "Note It is a precondition that must be null-terminated."}
+{"id": "/documentation/system/filepath/isabsolute", "law": "UNC paths and device paths are always absolute."}
+{"id": "/documentation/system/filepath/lexicallyresolving(_:)", "law": "Returns if the result would “escape” from through use of the special directory component ."}
+{"id": "/documentation/system/filepath/withplatformstring(_:)", "law": "Don’t try to store the pointer for later use."}

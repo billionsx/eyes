@@ -50,3 +50,6 @@
 {"id": "/documentation/appintents/appschema/photosintent/pasteedits", "sha": "77d33f7ec48e9688fcbcb0179c317efda1e3f6f4af382d632c484de964a3d7c1", "t": "pasteEdits", "n": 691, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
 {"id": "/documentation/appkit/nswindow/displayifneeded()", "sha": "8f30d2666413203f59abc55ee98571edb7390e982a5ad6d2ae7eaa249654fb2f", "t": "displayIfNeeded()", "n": 495, "laws": 0, "ts": "2026-07-28 05:46 UTC"}
 {"id": "/documentation/appkit/nstoolbar/displaymode-swift.enum", "sha": "413395bcfc589c127e6b3da81f5a68acf90ae69ab93bd788d567967ff3514c68", "t": "NSToolbar.DisplayMode", "n": 288, "laws": 0, "ts": "2026-07-28 05:58 UTC"}
+{"id": "/documentation/appstoreconnectapi/repositories", "sha": "0ff6b397087428ded6e3944e88dc278ff432d7eff4a5dbcf3f020ca6f669e6a5", "t": "Repositories", "n": 977, "laws": 0, "ts": "2026-07-28 18:54 UTC"}
+{"id": "/documentation/applearchive/apple-archive-functions", "sha": "3bf372fcbde2acac569989b9a333ce4d3ddd4e47076ade63653b506d72ef7288", "t": "Apple Archive functions", "n": 5042, "laws": 0, "ts": "2026-07-28 19:01 UTC"}
+{"id": "/documentation/audiodriverkit/audiodriverkit/kiouseraudioobjectiddriver", "sha": "20b336b38f4bffdc59d98e7c9a9a1c0a050ecc0ef029603f86b2c5bd93c104da", "t": "kIOUserAudioObjectIDDriver", "n": 105, "laws": 1, "ts": "2026-07-28 19:06 UTC"}

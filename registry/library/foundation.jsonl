@@ -667,3 +667,161 @@
 {"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "The string you use as a raw value for each enumeration case is the key name used during encoding and decoding."}
 {"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "In the example below, the structure is extended to conform to the protocol by implementing its required initializer, : The initializer populates a instance by using methods on the instance it receives as a parameter."}
 {"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "The example below shows how the structure can be extended to conform to the protocol by implementing its required method, : This implementation of the method reverses the decoding operation from the previous example."}
+{"id": "/documentation/foundation/nsarchiver", "law": "After encoding the objects, you can have the object write this mutable data object immediately to a file, or you can retrieve the mutable data object for some other use."}
+{"id": "/documentation/foundation/nscoder/allowedclasses", "law": "Secure coders check this set of allowed classes before decoding objects, and all objects must implement the protocol."}
+{"id": "/documentation/foundation/nscoder/cgaffinetransform(for:)", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/foundation/nscoder/cgpoint(for:)", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/foundation/nscoder/cgrect(for:)", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/foundation/nscoder/cgsize(for:)", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/foundation/nscoder/cgvector(for:)", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/foundation/nscoder/containsvalue(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodearray(ofobjctype:count:at:)", "law": "The items are decoded into the buffer beginning at , which must be large enough to contain them all."}
+{"id": "/documentation/foundation/nscoder/decodearray(ofobjctype:count:at:)", "law": "must contain exactly one type code."}
+{"id": "/documentation/foundation/nscoder/decodearray(ofobjctype:count:at:)", "law": "You should not use this method to decode C arrays of Objective-C objects."}
+{"id": "/documentation/foundation/nscoder/decodearrayofobjectsofclass:forkey:", "law": "Requires \\c NSSecureCoding otherwise an exception is thrown and sets the \\c decodingFailurePolicy to \\c NSDecodingFailurePolicySetErrorAndReturn."}
+{"id": "/documentation/foundation/nscoder/decodearrayofobjectsofclass:forkey:", "law": "Decodes the \\c NSArray object for the given \\c key, which should be an \\c NSArray , containing the given non-collection class (no nested arrays or arrays of dictionaries, etc) from the coder."}
+{"id": "/documentation/foundation/nscoder/decodearrayofobjectsofclasses:forkey:", "law": "Requires \\c NSSecureCoding otherwise an exception is thrown and sets the \\c decodingFailurePolicy to \\c NSDecodingFailurePolicySetErrorAndReturn."}
+{"id": "/documentation/foundation/nscoder/decodearrayofobjectsofclasses:forkey:", "law": "Decodes the \\c NSArray object for the given \\c key, which should be an \\c NSArray, containing the given non-collection classes (no nested arrays or arrays of dictionaries, etc) from the coder."}
+{"id": "/documentation/foundation/nscoder/decodebool(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodebytes(forkey:minimumlength:)", "law": "The length of the bytes must be greater than or equal to the parameter."}
+{"id": "/documentation/foundation/nscoder/decodebytes(forkey:returnedlength:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodebytes(withminimumlength:)", "law": "The length of the bytes must be greater than or equal to the parameter."}
+{"id": "/documentation/foundation/nscoder/decodebytes(withreturnedlength:)", "law": "If you need the bytes beyond the scope of the current block, you must copy them."}
+{"id": "/documentation/foundation/nscoder/decodecgaffinetransform(forkey:)", "law": "Use this method to decode size information that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodecgpoint(forkey:)", "law": "Use this method to decode a point that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodecgrect(forkey:)", "law": "Use this method to decode a rectangle that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodecgsize(forkey:)", "law": "Use this method to decode size information that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodecgvector(forkey:)", "law": "Use this method to decode vector information that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodecint(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodedata()", "law": "The implementation of your overriding method must match the implementation of your method."}
+{"id": "/documentation/foundation/nscoder/decodedata()", "law": "Your override of this method must read the number of bytes, create an object of the appropriate size, and decode the bytes into the new object."}
+{"id": "/documentation/foundation/nscoder/decodedata()", "law": "Subclasses must override this method."}
+{"id": "/documentation/foundation/nscoder/decodedictionarywithkeysofclass:objectsofclass:forkey:", "law": "Requires \\c NSSecureCoding otherwise an exception is thrown and sets the \\c decodingFailurePolicy to \\c NSDecodingFailurePolicySetErrorAndReturn."}
+{"id": "/documentation/foundation/nscoder/decodedictionarywithkeysofclasses:objectsofclasses:forkey:", "law": "Requires \\c NSSecureCoding otherwise an exception is thrown and sets the \\c decodingFailurePolicy to \\c NSDecodingFailurePolicySetErrorAndReturn."}
+{"id": "/documentation/foundation/nscoder/decodedirectionaledgeinsets(forkey:)", "law": "Use this method to decode edge inset information that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodedouble(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodefloat(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodeint32(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodeint64(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodeinteger(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodenxcolor", "law": "The difficulties of converting from a to a class require a special method like ."}
+{"id": "/documentation/foundation/nscoder/decodenxcolor", "law": "The method becomes part of the class only for apps that use AppKit."}
+{"id": "/documentation/foundation/nscoder/decodenxobject", "law": "Callers must have implemented an , which parallels the methods, on all of their classes that may be touched by this operation."}
+{"id": "/documentation/foundation/nscoder/decodeobject(forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/decodeobject(of:forkey:)-7tmft", "law": "If the coder doesn’t require secure coding, it ignores the parameter and does not check the decoded object."}
+{"id": "/documentation/foundation/nscoder/decodeobject(of:forkey:)-roif", "law": "If is , the decoded object’s class must be a member of the parameter, or a sublcass of a member."}
+{"id": "/documentation/foundation/nscoder/decodetoplevelobject(of:forkey:)-3w6pd", "law": "If the coder does not require secure coding, it ignores the parameter and does not check the decoded object."}
+{"id": "/documentation/foundation/nscoder/decodetoplevelobject(of:forkey:)-5lnnn", "law": "If is , the decoded object’s class must be a member of the classes parameter, or a sublcass of a member."}
+{"id": "/documentation/foundation/nscoder/decodetoplevelobjectofclass:forkey:error:", "law": "If the coder does not require secure coding, it ignores the parameter and does not check the decoded object."}
+{"id": "/documentation/foundation/nscoder/decodetoplevelobjectofclasses:forkey:error:", "law": "If is , the decoded object’s class must be a member of the classes parameter, or a sublcass of a member."}
+{"id": "/documentation/foundation/nscoder/decodeuiedgeinsets(forkey:)", "law": "Use this method to decode edge inset information that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodeuioffset(forkey:)", "law": "Use this method to decode offset information that was previously encoded using the method."}
+{"id": "/documentation/foundation/nscoder/decodevalue(ofobjctype:at:)", "law": "must contain exactly one type code, and the buffer specified by must be large enough to hold the value corresponding to that type code."}
+{"id": "/documentation/foundation/nscoder/decodevalue(ofobjctype:at:)", "law": "Subclasses must override this method and provide an implementation to decode the value."}
+{"id": "/documentation/foundation/nscoder/decodevalue(ofobjctype:at:size:)", "law": "The parameter must contain exactly one type code, and the buffer specified by must be large enough to hold the value corresponding to that type code."}
+{"id": "/documentation/foundation/nscoder/decodevalue(ofobjctype:at:size:)", "law": "Subclasses must override this method and provide an implementation to decode the value."}
+{"id": "/documentation/foundation/nscoder/decodevaluesofobjctypes:", "law": "For each type code in , you must specify a corresponding pointer argument whose buffer is large enough to hold the decoded value."}
+{"id": "/documentation/foundation/nscoder/decodevaluesofobjctypes:", "law": "Subclasses that implement the method do not need to override this method."}
+{"id": "/documentation/foundation/nscoder/decodevaluesofobjctypes:", "law": "You should not use this method to decode Objective-C objects."}
+{"id": "/documentation/foundation/nscoder/decodingfailurepolicy-swift.enum", "law": "Policies describing the action the coder should take when encountering decode failures."}
+{"id": "/documentation/foundation/nscoder/decodingfailurepolicy-swift.property", "law": "The action the coder should take when decoding fails."}
+{"id": "/documentation/foundation/nscoder/encode(_:)-1qd1e", "law": "Subclasses must override this method."}
+{"id": "/documentation/foundation/nscoder/encode(_:)-1qd1e", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encode(_:)-3c1wz", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encode(_:)-75jv4", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encode(_:)-82i7c", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encode(_:)-9648d", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-1mlmu", "law": "Subclasses must override this method to identify multiple encodings of and encode a reference to instead."}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-2dprz", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-5sk4z", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-7o6mu", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-84cez", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-9xiiu", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-dixg", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encodearray(ofobjctype:count:at:)", "law": "must contain exactly one type code."}
+{"id": "/documentation/foundation/nscoder/encodearray(ofobjctype:count:at:)", "law": "Subclasses that implement the method do not need to override this method."}
+{"id": "/documentation/foundation/nscoder/encodearray(ofobjctype:count:at:)", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encodearray(ofobjctype:count:at:)", "law": "You should not use this method to encode C arrays of Objective-C objects."}
+{"id": "/documentation/foundation/nscoder/encodebycopyobject(_:)", "law": "This method must be matched by a corresponding message."}
+{"id": "/documentation/foundation/nscoder/encodebyrefobject(_:)", "law": "This method must be matched by a corresponding message."}
+{"id": "/documentation/foundation/nscoder/encodebytes(_:length:)", "law": "This method must be matched by a corresponding message."}
+{"id": "/documentation/foundation/nscoder/encodebytes(_:length:forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encodecint(_:forkey:)", "law": "Subclasses must override this method if they perform keyed coding."}
+{"id": "/documentation/foundation/nscoder/encodeconditionalobject(_:)", "law": "In the overriding method, should be encoded only if it’s unconditionally encoded elsewhere (with any other method)."}
+{"id": "/documentation/foundation/nscoder/encodeconditionalobject(_:)", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encodeconditionalobject(_:)", "law": "Upon decoding, if was never encoded unconditionally, returns in place of ."}
+{"id": "/documentation/foundation/nscoder/encodeconditionalobject(_:)", "law": "However, if was encoded unconditionally, all references to must be resolved."}
+{"id": "/documentation/foundation/nscoder/encodeconditionalobject(_:forkey:)", "law": "Subclasses must override this method if they support keyed coding."}
+{"id": "/documentation/foundation/nscoder/encodeconditionalobject(_:forkey:)", "law": "If was never encoded unconditionally, returns in place of ."}
+{"id": "/documentation/foundation/nscoder/encodenxobject:", "law": "Callers must have implemented an , which parallels the methods, on all of their classes that may be touched by this operation."}
+{"id": "/documentation/foundation/nscoder/encodepropertylist(_:)", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encoderootobject(_:)", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encodevalue(ofobjctype:at:)", "law": "Subclasses must override this method, and match it with a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encodevalue(ofobjctype:at:)", "law": "When calling this method, must contain exactly one type code."}
+{"id": "/documentation/foundation/nscoder/encodevalue(ofobjctype:at:)", "law": "You should not use this method to encode Objective-C objects."}
+{"id": "/documentation/foundation/nscoder/encodevaluesofobjctypes:", "law": "For each type code in , you must specify a corresponding pointer argument."}
+{"id": "/documentation/foundation/nscoder/encodevaluesofobjctypes:", "law": "This method must be matched by a subsequent message."}
+{"id": "/documentation/foundation/nscoder/encodevaluesofobjctypes:", "law": "Subclasses that implement the method do not need to override this method."}
+{"id": "/documentation/foundation/nscoder/encodevaluesofobjctypes:", "law": "You should not use this method to encode Objective-C objects."}
+{"id": "/documentation/foundation/nscoder/error", "law": "For , this property is always ."}
+{"id": "/documentation/foundation/nscoder/failwitherror(_:)", "law": "You should set the error when you detect problems such as lack of secure coding, data corruption, or a domain validation failure."}
+{"id": "/documentation/foundation/nscoder/requiressecurecoding", "law": "if this coder requires secure coding; otherwise."}
+{"id": "/documentation/foundation/nscoder/requiressecurecoding", "law": "Secure coders check a set of allowed classes before decoding objects, and all objects must implement the protocol."}
+{"id": "/documentation/foundation/nscoder/requiressecurecoding", "law": "Indicates whether the archiver requires all archived classes to resist object substitution attacks."}
+{"id": "/documentation/foundation/nscoder/systemversion", "law": "Subclasses that implement decoding must override this property to return the system version of the data being decoded."}
+{"id": "/documentation/foundation/nscoder/uiedgeinsets(for:)", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/foundation/nscoder/uioffset(for:)", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/foundation/nskeyedarchiver", "law": "When decoding a non-keyed archive, the decoder must decode values in the same order the original encoder used."}
+{"id": "/documentation/foundation/nskeyedarchiver", "law": "The keys given to encoded values must be unique only within the scope of the currently-encoding object."}
+{"id": "/documentation/foundation/nskeyedarchiver", "law": "A keyed archive is hierarchical, so the keys used by object A to encode its instance variables don’t conflict with the keys used by object B."}
+{"id": "/documentation/foundation/nskeyedunarchiver", "law": "You can use any of the integer decode methods to decode a value encoded as any type of integer, whether a standard or an explicit 32-bit or 64-bit integer."}
+{"id": "/documentation/foundation/nskeyedunarchiver", "law": "Likewise, you can use the - or -returning decode methods to handle value encoded as a or ."}
+{"id": "/documentation/foundation/nsportcoder", "law": "An instance is always created and used by an object; you should never need to explicitly create or use one directly yourself."}
+{"id": "/documentation/foundation/nssecureunarchivefromdatatransformer", "law": "To use with , use the name of this class, or the name of a subclass you implement, as the name of the transformer for an entity’s attribute within a Core Data Model."}
+{"id": "/documentation/foundation/nssecureunarchivefromdatatransformer", "law": "If you use your own transformer subclass, register it with your app before intializing your persistent container with Core Data."}
+{"id": "/documentation/foundation/nsxpccoder", "law": "If you want to perform custom encoding or decoding of objects that your app sends over an , use to determine if the coder provided to your object is a kind of ."}
+{"id": "/documentation/Foundation/NSIndexPath", "law": "In Swift, this object bridges to ; use when you need reference semantics or other Foundation-specific behavior."}
+{"id": "/documentation/Foundation/NSIndexPath", "law": "You use the factory methods to create an index path for the corresponding table view or collection view."}
+{"id": "/documentation/Foundation/NSIndexPath", "law": "and supply specialized names for the first two index path nodes for use when working with table views and collection views."}
+{"id": "/documentation/Foundation/NSIndexSet", "law": "In Swift, this type bridges to ; use when you need reference semantics or other Foundation-specific behavior."}
+{"id": "/documentation/Foundation/NSIndexSet", "law": "Indexes must be in the range ."}
+{"id": "/documentation/Foundation/NSIndexSet", "law": "You use index sets in your code to store indexes into some other data structure."}
+{"id": "/documentation/Foundation/NSIndexSet", "law": "For example, given an object, you could use an index set to identify a subset of objects in that array."}
+{"id": "/documentation/Foundation/NSIndexSet", "law": "You should not use index sets to store an arbitrary collection of integer values because index sets store indexes as sorted ranges."}
+{"id": "/documentation/Foundation/NSIndexSet", "law": "You must not subclass the class."}
+{"id": "/documentation/Foundation/NSURL", "law": "In Swift, this object bridges to ; use when you need reference semantics or other Foundation-specific behavior."}
+{"id": "/documentation/Foundation/NSURL", "law": "You can use URL objects to construct URLs and access their parts."}
+{"id": "/documentation/Foundation/NSURL", "law": "For example, you can use the , , and classes to access the contents of remote resources, as described in ."}
+{"id": "/documentation/Foundation/NSURL", "law": "You can also use URLs for interapplication communication."}
+{"id": "/documentation/Foundation/NSURL", "law": "Additionally, you can use URLs when working with pasteboards, as described in NSURL Additions Reference (part of the AppKit framework)."}
+{"id": "/documentation/Foundation/NSURL", "law": "To check if a is strictly valid according to the RFC, use the new method."}
+{"id": "/documentation/Foundation/NSURL", "law": "In a macOS app that adopts App Sandbox, you can use security-scoped bookmarks to gain access to file-system resources outside your app’s sandbox."}
+{"id": "/documentation/Foundation/NSURL", "law": "To gain access to a security-scoped URL, you must call the method (or its Core Foundation equivalent, the function)."}
+{"id": "/documentation/Foundation/NSURL", "law": "For iOS apps, if you use a to access the URL, it automatically manages the security-scoped URL for you."}
+{"id": "/documentation/Foundation/NSURL", "law": "If (or ) returns , you must relinquish your access by calling the method (or its Core Foundation equivalent, the function)."}
+{"id": "/documentation/Foundation/FileManager", "law": "You use it to locate, create, copy, and move files and directories."}
+{"id": "/documentation/Foundation/FileManager", "law": "You also use it to get information about a file or directory or change some of its attributes."}
+{"id": "/documentation/Foundation/FileManager", "law": "When specifying the location of files, you can use either or objects."}
+{"id": "/documentation/Foundation/FileManager", "law": "The use of the class is generally preferred for specifying file-system items because URLs can convert path information to a more efficient representation internally."}
+{"id": "/documentation/Foundation/FileManager", "law": "If you are moving, copying, linking, or removing files or directories, you can use a delegate in conjunction with a file manager object to manage those operations."}
+{"id": "/documentation/Foundation/FileManager", "law": "In macOS 10.7 and later, the delegate must conform to the protocol."}
+{"id": "/documentation/Foundation/FileManager", "law": "Changes to an item in one location are propagated to all other locations to ensure the items stay in sync."}
+{"id": "/documentation/Foundation/FileManager", "law": "Apps with documents that contain multiple files can use packages to manage contents like media assets."}
+{"id": "/documentation/Foundation/FileManager", "law": "You can also use this pause and resume API on regular “flat” files."}
+{"id": "/documentation/Foundation/FileManager", "law": "However, if you use a delegate to receive notifications about the status of move, copy, remove, and link operations, you should create a unique instance of the file manager object, assign your delegate to that object, and use that file manager to initiate your operations."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "You use activities when your application performs a long-running operation."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "If the activity can take different amounts of time (for example, calculating the next move in a chess game), it should use this API to ensure correct behavior when the amount of data or the capabilities of the user’s computer varies."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "In addition, if your application requires high priority input/output (I/O), you can include the flag (using a bitwise )."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "You should only use this flag for activities like audio or video recording that require high priority I/O."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "If your activity takes place synchronously inside an event callback on the main thread, you don’t need to use this API."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "Be aware that failing to end these activities for an extended period of time can have significant negative impacts on the performance of your user’s computer, so be sure to use only the minimum amount of time required."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "You can also use this API to control automatic termination or sudden termination (see )."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "Typically, you disable sudden termination whenever your app defers work that the app must complete before it terminates."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "If, for example, your app defers writing data to disk and enables sudden termination, you should bracket the sensitive operations with a call to , perform the necessary operations, and then send a balancing message."}
+{"id": "/documentation/Foundation/ProcessInfo", "law": "In agents or daemon executables that don’t depend on AppKit, you can manually invoke right away."}
+{"id": "/documentation/Foundation/about-apple-file-system", "law": "You can use this behavior, for example, to reduce storage space required for document revisions and copies."}
+{"id": "/documentation/Foundation/about-apple-file-system", "law": "Each volume in the container can use the shared free space, so they all include that amount when reporting the available free space."}
+{"id": "/documentation/Foundation/about-apple-file-system", "law": "In general, check whether the space required to perform a particular operation is available on the volume, rather than trying to calculate the partition’s total free space."}
+{"id": "/documentation/Foundation/about-apple-file-system", "law": "When you use the class to create a new write handle, a sparse file is created automatically."}
+{"id": "/documentation/Foundation/about-apple-file-system", "law": "You can’t use to create a sparse file from an existing file that has blank data already stored on disk."}
+{"id": "/documentation/Foundation/about-apple-file-system", "law": "Use high-level APIs to get the most out of Apple File System."}

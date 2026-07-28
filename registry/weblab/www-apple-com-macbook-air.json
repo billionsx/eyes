@@ -31,6 +31,7 @@
   "name:upgrade",
   "name:compare",
   "name:accessories",
+  "name:apple upgrade",
   "name:trade-in",
   "name:acmi",
   "name:education pricing",
@@ -40,21 +41,21 @@
   "name:values gallery",
   "name:buy strip"
  ],
- "imgs": 198,
+ "imgs": 200,
  "videos": 7,
  "cta": 30,
  "h_levels": {
   "1": 1,
-  "2": 26,
-  "3": 42
+  "2": 27,
+  "3": 44
  },
  "css": [
   "/api-www/global-elements/global-header/v1/assets/globalheader.css",
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
-  "/v/ac/includes/campaigns-seasonal/bts-fy26/a/built/styles/overview.built.css",
-  "/v/macbook-air/z/built/styles/main.built.css",
-  "/v/macbook-air/z/built/styles/overview.built.css"
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/bts-fy26/a/built/styles/overview.built.css"
  ],
  "typography_laws": 2
 }

@@ -60,3 +60,4 @@
 {"id": "/documentation/appkit/nsdocument/allowsdocumentsharing", "sha": "69b0bbecfe00e3c92a6c69ab23eabe8e66ba0a99f039ef182051976976303e24", "t": "allowsDocumentSharing", "n": 317, "laws": 0, "ts": "2026-07-28 05:39 UTC"}
 {"id": "/documentation/appkit/nswindow/allowsconcurrentviewdrawing", "sha": "daaa3ceca00f2e83f9ffef768b82300797c5a6a619023e3decef88cd7bc03735", "t": "allowsConcurrentViewDrawing", "n": 213, "laws": 0, "ts": "2026-07-28 05:43 UTC"}
 {"id": "/documentation/appkit/nstextview/togglegrammarchecking(_:)", "sha": "7b7829508ef3c79ef049e1eb3457e20e3f8580bc39ff67c8b68c91db37b89062", "t": "toggleGrammarChecking(_:)", "n": 78, "laws": 0, "ts": "2026-07-28 05:56 UTC"}
+{"id": "/documentation/audiotoolbox/automaticspatialaudio", "sha": "c18013e1bf9759170b0c8b0e742f86a41d0a4dcf40b20874463a751e6983966e", "t": "AutomaticSpatialAudio", "n": 146, "laws": 0, "ts": "2026-07-28 19:09 UTC"}

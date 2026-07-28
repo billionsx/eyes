@@ -69,3 +69,7 @@
 {"id": "/documentation/appkit/nsdocumentcontroller/opendocument(_:)", "sha": "d813f7446765cf041ddc81ac5b1b012f823922e9c843b330fd9d3b54f26d5310", "t": "openDocument(_:)", "n": 347, "laws": 0, "ts": "2026-07-28 05:42 UTC"}
 {"id": "/documentation/appkit/nswindowdelegate", "sha": "f4ff555e1a0b5982b692a06d218ff93640a060e0e7f490ecdd78bb85bc6f80ee", "t": "NSWindowDelegate", "n": 2445, "laws": 0, "ts": "2026-07-28 05:50 UTC"}
 {"id": "/documentation/appkit/nswindowcontroller/showwindow(_:)", "sha": "9105cf606850c11a5df2865f078e3b9fa4b4e3b70bc191ee123c7ac3a1a7a9ae", "t": "showWindow(_:)", "n": 283, "laws": 0, "ts": "2026-07-28 05:51 UTC"}
+{"id": "/documentation/appkit/nstableview/floatsgrouprows", "sha": "2eb43e9b05c201286ccf1be61f0b4ee5f2eef1924aae819aa2bcc6e693bf8fcc", "t": "floatsGroupRows", "n": 303, "laws": 0, "ts": "2026-07-28 18:52 UTC"}
+{"id": "/documentation/appstoreconnectapi/actors", "sha": "a4de3fc2b2adc572a9fe5b0e18bde154880020d071a9d6454f2b8b541f828130", "t": "Actors", "n": 187, "laws": 0, "ts": "2026-07-28 18:56 UTC"}
+{"id": "/documentation/bundleresources/information-property-list/lsuipresentationmode", "sha": "3c6900e0eb7246248437502bf7630e01177dedba2ce439ea741383398aaefa65", "t": "LSUIPresentationMode", "n": 44, "laws": 0, "ts": "2026-07-28 18:57 UTC"}
+{"id": "/documentation/driverkit/kern_return_t", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "kern_return_t", "n": 0, "laws": 0, "ts": "2026-07-28 19:03 UTC"}

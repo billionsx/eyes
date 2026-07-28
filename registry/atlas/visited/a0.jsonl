@@ -57,3 +57,8 @@
 {"id": "/documentation/foundation/predicatecodablekeypathproviding", "sha": "9a1c6daea23f8b85b5aa19b3f7213bb09eb8e7d7502c71212f09ab4ad3ab6f2f", "t": "PredicateCodableKeyPathProviding", "n": 123, "laws": 0, "ts": "2026-07-27 19:10 UTC"}
 {"id": "/documentation/appkit/nsbestdepth", "sha": "f9d3b934b6a2924eb9596d5fe5eb4d571688d1716eb169a524ac3f6e8729498e", "t": "NSBestDepth", "n": 900, "laws": 1, "ts": "2026-07-28 05:43 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/identifier/togglesidebar", "sha": "00e2f8217259a654e5e79ce5f52a28bf5c94eaa1322cc119e6050a65a073882c", "t": "toggleSidebar", "n": 137, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nstableview/appintentsdatasource", "sha": "c2cdfab3fa91957daf5e6909b98830f05d2d7a35af0d8ecd07865c4c7d199715", "t": "appIntentsDataSource", "n": 260, "laws": 0, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/appkit/nstableview/selectedrowenumerator", "sha": "91b0a0aa6a825de93485fe3939500d092961a9d36f66a95bb3be25cca862c84d", "t": "selectedRowEnumerator", "n": 32, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/appkit/nstableview/textdidbeginediting:", "sha": "d4fe0bbfe298b85c8696d1c3a2d7ca8ddbccbbcf8fad3a7acb3195c0194a48ee", "t": "textDidBeginEditing:", "n": 159, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/UIKit/handling-key-presses-made-on-a-physical-keyboard", "sha": "54becfb0551b190571e08570042251038f78a6672b08972421d48c3db63ec729", "t": "Handling key presses made on a physical keyboard", "n": 1498, "laws": 1, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/driverkit/ioservice/init", "sha": "2c2e62058f72e56363b0a26cd75ab550c3a85c4aafa6b65394945fe411479e95", "t": "init", "n": 488, "laws": 3, "ts": "2026-07-28 19:04 UTC"}

@@ -64,3 +64,11 @@
 {"id": "/documentation/appkit/nsdocument/presenteditemurl", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "presentedItemURL", "n": 0, "laws": 0, "ts": "2026-07-28 05:40 UTC"}
 {"id": "/documentation/appkit/nswindow/contentview", "sha": "43431d2c23152bb5e3e2f1b8380fff3a83f19f17d0c31570f789e47982798d98", "t": "contentView", "n": 608, "laws": 1, "ts": "2026-07-28 05:44 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/target", "sha": "8bcf81565656797438928d9cdfdbc2dd7dc29429f3cb7b60a3c6cc50fca287c6", "t": "target", "n": 527, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nscollectionview/maxnumberofcolumns", "sha": "b816fa67e00e4eb8f17edf40b0af55a22e6b8df57606b1abd911e0322afd8a6c", "t": "maxNumberOfColumns", "n": 462, "laws": 3, "ts": "2026-07-28 18:47 UTC"}
+{"id": "/documentation/appkit/nscollectionview/minitemsize", "sha": "9bd5ab74d34776e28368a22f3c94a18e58b9929f4794b06b51debc6135c0f89e", "t": "minItemSize", "n": 218, "laws": 2, "ts": "2026-07-28 18:47 UTC"}
+{"id": "/documentation/appkit/nstableview/row(at:)", "sha": "ec9525c8aa23818e5780d3e55aa9bdba8a0105f9cd7995b78600167869b99e8f", "t": "row(at:)", "n": 147, "laws": 0, "ts": "2026-07-28 18:52 UTC"}
+{"id": "/documentation/appkit/nstableview/textdidchange:", "sha": "3bf29424b72f1280f969a5c23a72ee0708735d5409a83533f0ddad12a6054b4a", "t": "textDidChange:", "n": 273, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/appkit/nstableview/usesalternatingrowbackgroundcolors", "sha": "03609adb1f62c4a1ad7405092a1a93287e07917da6261d46a40b4367c0ae2ab6", "t": "usesAlternatingRowBackgroundColors", "n": 417, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/system/filedescriptor/accessmode/writeonly", "sha": "33de9b1f1cf4901ff17bfe72b9dfe3a439ccc86c317b29a9c76f8c2b97ba4eb4", "t": "writeOnly", "n": 80, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/handlechangecurrentstreamformat", "sha": "6f595ee048713146acdd18f018a53167fe730fa51aa239123820ebf42ebacd88", "t": "HandleChangeCurrentStreamFormat", "n": 297, "laws": 0, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/audiotoolbox/clock-utilities", "sha": "3d03fd477d282a44eaf04b6e6fb534a3fb1956beda8b71989b518abe1979b39e", "t": "Clock Utilities", "n": 1266, "laws": 0, "ts": "2026-07-28 19:09 UTC"}

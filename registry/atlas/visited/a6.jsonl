@@ -54,3 +54,6 @@
 {"id": "/documentation/appkit/nstextview/didchangeselectionmessage", "sha": "ece3a68933c11e32e238c24bf39475cb40d91b27ca5e36f766d2e4cc0729dd3d", "t": "NSTextView.DidChangeSelectionMessage", "n": 59, "laws": 0, "ts": "2026-07-28 05:53 UTC"}
 {"id": "/documentation/appkit/nsaccessibilityoutline", "sha": "876b909b3467f3cd08e601b43a35138afbb12f086a50d2dc48b1d33d8a4d848b", "t": "NSAccessibilityOutline", "n": 976, "laws": 4, "ts": "2026-07-28 06:01 UTC"}
 {"id": "/documentation/appkit/nssplitview/maxpossiblepositionofdivider(at:)", "sha": "766e9310f1a021ff6de989806f2954a10571b1ecfbe954a2a918d2a1c7927515", "t": "maxPossiblePositionOfDivider(at:)", "n": 723, "laws": 2, "ts": "2026-07-28 06:03 UTC"}
+{"id": "/documentation/appkit/nsstackview/customspacing(after:)", "sha": "7c0606e101e8bed30087cb8b071587bd64ea9446d9f60c1b8eaac5857c8288b7", "t": "customSpacing(after:)", "n": 577, "laws": 0, "ts": "2026-07-28 18:40 UTC"}
+{"id": "/documentation/appkit/nsdraggingitem/imagecomponents", "sha": "800e21dbfa447fde66819bff48d7ff812f0388e8ce5ec56f9fa7745781fd17f0", "t": "imageComponents", "n": 261, "laws": 1, "ts": "2026-07-28 18:49 UTC"}
+{"id": "/documentation/ARKit/ARConfiguration/isSupported", "sha": "7cf612355dd8455c25152d1fa1ccdffe00d54d550b581c58536a686a6650b147", "t": "isSupported", "n": 943, "laws": 4, "ts": "2026-07-28 18:58 UTC"}

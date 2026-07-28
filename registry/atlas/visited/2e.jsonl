@@ -49,3 +49,9 @@
 {"id": "/documentation/appkit/nstextview/usesfindpanel", "sha": "56acafe2cf5325d507f8a2560742aa0a27a3e2b774902b8d9796e4c972312dfa", "t": "usesFindPanel", "n": 231, "laws": 2, "ts": "2026-07-28 05:56 UTC"}
 {"id": "/documentation/AppKit/NSApplication/AboutPanelOptionKey/credits", "sha": "839f921f46c8d3aaaf08bf11096ec9ae3d85b4d13c9b2cbd12507cc048890def", "t": "credits", "n": 377, "laws": 0, "ts": "2026-07-28 05:57 UTC"}
 {"id": "/documentation/appkit/nssplitviewitem/isspringloaded", "sha": "686153b225208c3256fb22fb854a79a0188477b377b5e7720d1340e1d6990b0b", "t": "isSpringLoaded", "n": 303, "laws": 0, "ts": "2026-07-28 06:04 UTC"}
+{"id": "/documentation/appkit/nspasteboard/accessbehavior-9k4t4", "sha": "e6539ce87c6a61c28f667b4c787eeab9465d5ce480faa1c1b65290d97c168b6e", "t": "accessBehavior", "n": 173, "laws": 0, "ts": "2026-07-28 18:49 UTC"}
+{"id": "/documentation/appkit/nspasteboarditem/string(fortype:)", "sha": "867852e792a484f4ed733ccf6535ed7713bf15a10fff6775b60b8a0f9312e79f", "t": "string(forType:)", "n": 115, "laws": 0, "ts": "2026-07-28 18:50 UTC"}
+{"id": "/documentation/UIKit/UIUserInterfaceIdiom/phone", "sha": "296f717d961059f9ec75a24b37c5359b5cb59d30ee55f2b7efb7b56176a18341", "t": "UIUserInterfaceIdiom.phone", "n": 48, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/cryptokit/chachapoly/sealedbox", "sha": "20280258d38a32041abe18762b3130efda5c05b5599919e3b29db75a584fe94e", "t": "ChaChaPoly.SealedBox", "n": 779, "laws": 2, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/system/filedescriptor/accessmode/readonly", "sha": "eaa4576fdefaa7e9cc52e734c40453f03ce969140567c54a37011a74b7094438", "t": "readOnly", "n": 80, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/getclassid", "sha": "4b86c79673ed4dc035ad60a2b8120f680e88d9f4a5102a2e12efce5da6a3cf11", "t": "GetClassID", "n": 157, "laws": 0, "ts": "2026-07-28 19:05 UTC"}

@@ -2,3 +2,14 @@
 {"id": "/documentation/CoreAudioTypes", "law": "Use specialized data types to interact with audio streams, complex buffers, and audiovisual timestamps."}
 {"id": "/documentation/CoreAudioTypes/AudioStreamBasicDescription", "law": "For variable bit rate (VBR) audio, and for CBR audio where the channels have unequal sizes, also use an structure to additionally describe each packet."}
 {"id": "/documentation/CoreAudioTypes/kAudioChannelLayoutTag_MPEG_7_1_A", "law": "Your channels must be laid out in the following order: Left Right Center Low-frequency effects Left surround Right surround Left center Right center An MPEG 7.1-channel, configuration A, audio layout."}
+{"id": "/documentation/coreaudiotypes", "law": "The Core Audio Types framework declares common data types and constants that other Core Audio interfaces use."}
+{"id": "/documentation/coreaudiotypes", "law": "Use specialized data types to interact with audio streams, complex buffers, and audiovisual timestamps."}
+{"id": "/documentation/coreaudiotypes/audio-format-flags", "law": "Prefer using fixed-point formats in and floating-point formats in ."}
+{"id": "/documentation/coreaudiotypes/audio-format-identifiers", "law": "Use these identifiers to test for the presence of audio codecs on a system."}
+{"id": "/documentation/coreaudiotypes/audio-format-identifiers", "law": "If a given codec is present, you can use its identifier to specify that codec for data encoding or decoding, according to the capabilities of the codec."}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription", "law": "For variable bit rate (VBR) audio, and for CBR audio where the channels have unequal sizes, also use an structure to additionally describe each packet."}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription/mchannelsperframe", "law": "This value must be nonzero."}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription/mformatid", "law": "This value must be nonzero."}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription/msamplerate", "law": "The mSampleRate field must be nonzero, except when this structure is used in a listing of supported formats (see )."}
+{"id": "/documentation/coreaudiotypes/audiostreampacketdescription", "law": "For data formats where the packet size isn’t constant, such as variable bit rate data and data where the channels have unequal sizes, use this structure to supplement the information in the structure."}
+{"id": "/documentation/coreaudiotypes/kaudiostreamanyrate", "law": "A value that indicates that an audio stream can use any sample rate."}

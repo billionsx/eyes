@@ -47,3 +47,5 @@
 {"id": "/documentation/appkit/nstextview/rulerview(_:willmove:tolocation:)", "sha": "319916c3f3f6e71f5537e051d371ba3531b4c7e1a79a0e1814620a2596b9dd86", "t": "rulerView(_:willMove:toLocation:)", "n": 425, "laws": 2, "ts": "2026-07-28 05:54 UTC"}
 {"id": "/documentation/appkit/nswritingtoolscoordinator/animationparameters/duration", "sha": "6e6d04fbae697fdc0df7b1791918c78a93c3777d7e24368106415850055d24d1", "t": "duration", "n": 60, "laws": 0, "ts": "2026-07-28 05:58 UTC"}
 {"id": "/documentation/appkit/nssplitview/drawdivider(in:)", "sha": "1195a688532c81efeb70123151a2277cd9f417cb9ab7a4035fa349f0f1d20973", "t": "drawDivider(in:)", "n": 186, "laws": 1, "ts": "2026-07-28 06:03 UTC"}
+{"id": "/documentation/appkit/nscollectionview/layoutattributesforitem(at:)", "sha": "f4580370f242e17ee0fdc1ff0022121583dd857944f3d4a489c694c5612d8222", "t": "layoutAttributesForItem(at:)", "n": 408, "laws": 2, "ts": "2026-07-28 18:47 UTC"}
+{"id": "/documentation/applemapsserverapi/alternateidsresponse/alternateids", "sha": "311de543bfb38fab185ef08dbb8c4cd8d122d2d4292f84448c78cf307d4041f7", "t": "AlternateIdsResponse.AlternateIds", "n": 110, "laws": 0, "ts": "2026-07-28 19:02 UTC"}

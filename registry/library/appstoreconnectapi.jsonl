@@ -64,3 +64,185 @@
 {"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "If you need to update your asset after committing it, you must delete it and create another upload, beginning with an asset reservation."}
 {"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "Use the API to re-fetch the asset at any time to check on its status."}
 {"id": "/documentation/appstoreconnectapi/uploading-assets-to-app-store-connect", "law": "To upload your asset you must delete the asset record and retry your upload, beginning with making an asset reservation."}
+{"id": "/documentation/appstoreconnectapi/alternative-marketplaces-and-web-distribution", "law": "Use the APIs in this collection to help facilitate the distribution of your apps to users in the EU on an alternative app marketplace or from your website."}
+{"id": "/documentation/appstoreconnectapi/alternative-marketplaces-and-web-distribution", "law": "Use this API to manage: Alternative distribution keys Alternative distribution domains Marketplace search configurations Downloads and management of alternative distribution packages Webhook configuration for notifications To learn more, see and ."}
+{"id": "/documentation/appstoreconnectapi/analytics", "law": "Use the Analytics Reports API to analyze your app’s performance on iOS and the App Store and find opportunities for improvement."}
+{"id": "/documentation/appstoreconnectapi/analytics", "law": "To download analytics reports, be sure you have one of the following user roles: ADMIN SALES AND REPORTS FINANCE This table outlines which roles can use which resources: The Sales and Reports role can also read in addition to Analytics Reports."}
+{"id": "/documentation/appstoreconnectapi/certificates", "law": "The resource represents the digital certificates you use to sign your iOS or Mac apps for development and distribution."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "If you’re new to using the App Store Connect API, make sure to read the documentation in the Essentials section of and learn how to create API keys, generate JWTs, identify rate limits, and more."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "To configure subscription plan types and prices, be sure you have one of the following user roles: For the full list of App Store Connect user roles, see and ."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "The request requires a attribute and relationships to the and the the plan type applies to."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "Here’s an example payload: To review or change which territories offer a plan type later, use to list the plan availabilities on a subscription, then to update the territories."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "Use ( ) and filter by territory to keep the response small."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "Always include on this endpoint — it’s required in a future release."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "You use it as the base price point in the next step."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "Use ( ), where is the base price point ID from the previous step."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "Use this endpoint with filters to identify a specific adjusted equalization."}
+{"id": "/documentation/appstoreconnectapi/configuring-subscription-prices-across-territories", "law": "The request requires relationships to the and the ."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "If you’re new to using the App Store Connect API, make sure to read the documentation in the Essentials section of and learn how to create API keys, generate JWTs, identify rate limits, and more."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "To create and manage auto-renewable subscriptions, be sure you have one of the following user roles: For the full list of App Store Connect user roles, see and ."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "To get the Apple ID of the app, use ( ) and search the resulting pages for the name of the app you want to use."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "To arrange your subscription groups, make sure to map out all your offerings clearly."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "Use a descriptive string that’s useful for your own organization and recognition purposes."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "You use it to attach localizations in the next step."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "To add a localization, use ( ) with a payload that specifies the localized name of the subscription group, the locale, and an optional custom app name."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "To list every localization attached to a version, use ( )."}
+{"id": "/documentation/appstoreconnectapi/creating-auto-renewable-subscription-groups", "law": "To list every version on the parent subscription group, use ( )."}
+{"id": "/documentation/appstoreconnectapi/devices", "law": "A resource represents the iOS, Apple TV, Apple Watch, and Mac devices that you register to use for development and testing."}
+{"id": "/documentation/appstoreconnectapi/game-center", "law": "Adding support for certain Game Center features, like leaderboards and achievements, requires you to provide additional assets and metadata."}
+{"id": "/documentation/appstoreconnectapi/identifying-rate-limits", "law": "Consider rate limits as you integrate the API: If you periodically call the API to check a value, throttle your requests to avoid exceeding the per-hour limit for that endpoint."}
+{"id": "/documentation/appstoreconnectapi/interpreting-and-handling-errors", "law": "To determine your request’s status and handle errors, use the HTTP status code along with the from the ."}
+{"id": "/documentation/appstoreconnectapi/interpreting-and-handling-errors", "law": "If the API request failed, the object contains details to help you troubleshoot the error, and a property to use for programmatic error handling."}
+{"id": "/documentation/appstoreconnectapi/merchantids", "law": "Apple Pay developers and merchants can use this resource to automate registering both merchant ID and merchant name for interacting with Apple Pay services, and rotate required certificates to keep the service active."}
+{"id": "/documentation/appstoreconnectapi/sales-and-finance", "law": "Use the App Store Connect API to apply filters to select and configure the data, and automate the download of sales and financial reports."}
+{"id": "/documentation/appstoreconnectapi/sales-and-finance", "law": "These endpoints require a Team key and aren’t usable with an Individual key."}
+{"id": "/documentation/appstoreconnectapi/sandbox-testers", "law": "The resource represents a Sandbox Apple Account, which is an account you use to test your app in the sandbox environment."}
+{"id": "/documentation/appstoreconnectapi/sandbox-testers", "law": "Use App Store Connect to create or delete Sandbox Apple Account."}
+{"id": "/documentation/appstoreconnectapi/webhook-notifications", "law": "Unlike traditional APIs, where one system must make a request when receiving data, a webhook enables you to push data to the receiving system as soon as an event occurs."}
+{"id": "/documentation/appstoreconnectapi/webhook-notifications", "law": "Use the webhooks notifications endpoint to configure the notifications for events happening to your apps."}
+{"id": "/documentation/appstoreconnectapi/xcode-cloud-workflows-and-builds", "law": "To automate Xcode Cloud usage and integrate it with custom back-end systems, use the App Store Connect API to: Read information about Xcode Cloud products, workflows, and builds."}
+{"id": "/documentation/appstoreconnectapi/xcode-cloud-workflows-and-builds", "law": "If you’re new to using the App Store Connect API, make sure to read the documentation in the Essentials section of ."}
+{"id": "/documentation/appstoreconnectapi/xcode-cloud-workflows-and-builds", "law": "This is a customized task that depends on your use case."}
+{"id": "/documentation/appstoreconnectapi/xcode-cloud-workflows-and-builds", "law": "As a result, you need to perform verifications in your app to ensure the app works well with the updated servers."}
+{"id": "/documentation/appstoreconnectapi/xcode-cloud-workflows-and-builds", "law": "To help with these scenarios, use the App Store Connect API to automatically start new Xcode Cloud builds with an API call."}
+{"id": "/documentation/appstoreconnectapi/xcode-cloud-workflows-and-builds", "law": "Depending on what you want to do, you likely need to first read Xcode Cloud data and use it to create the request body to perform the operation."}
+{"id": "/documentation/appstoreconnectapi/xcode-cloud-workflows-and-builds", "law": "For example, to create a new workflow, you’ll need to read Xcode Cloud data using the following resources: After you’ve retrieved all necessary information, use it to create the and perform the operation to create a new workflow."}
+{"id": "/documentation/appstoreconnectapi/issues", "law": "Use it to access a list of issues that occurred and read detailed issue information; for example: The type of issue that occurred The location in your code where the issue occurred A message describing the issue This resource supports JSON web tokens with a lifetime of up to six months."}
+{"id": "/documentation/appstoreconnectapi/macos-versions", "law": "To change a workflow’s build environment, use the resource."}
+{"id": "/documentation/appstoreconnectapi/products", "law": "In addition to viewing your product and its associated information, you can use the resource to delete a product and its associated data."}
+{"id": "/documentation/appstoreconnectapi/providers", "law": "Use it to access these SCM providers and read the following information for each provider: A unique identifier The provider’s type The provider’s URL This resource supports JSON web tokens with a lifetime of up to six months."}
+{"id": "/documentation/appstoreconnectapi/pull-requests", "law": "Use it to access: A PR’s number, URL, title, and status The destination and source branches A value that indicates whether the PR involves more than one repository This resource supports JSON web tokens with a lifetime of up to six months."}
+{"id": "/documentation/appstoreconnectapi/workflows", "law": "Use it to: Read workflow information."}
+{"id": "/documentation/appstoreconnectapi/xcode-versions", "law": "To change a workflow’s build environment, use the resource."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-6-release-notes", "law": "Developers can now use and endpoints to manage images for promoting subscriptions and in-app purchases."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-6-release-notes", "law": "Use to set the attributes and , to learn more, see ."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-6-release-notes", "law": "The endpoint now requires a filter."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-6-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/creating-alternative-distribution-packages", "law": "Use alternative distribution package (ADP) endpoints to create new packages and read information about package versions, variants, and deltas."}
+{"id": "/documentation/appstoreconnectapi/creating-alternative-distribution-packages", "law": "Your App Review approved app version is in or Additionally, one of these must be true: Your app is connected to an alternative marketplace."}
+{"id": "/documentation/appstoreconnectapi/creating-alternative-distribution-packages", "law": "Alternative marketpaces, apps distributed by alternative marketplaces, and web distribution apps all use alternative distribution packages."}
+{"id": "/documentation/appstoreconnectapi/creating-alternative-distribution-packages", "law": "Web distribution apps do not use or .``"}
+{"id": "/documentation/appstoreconnectapi/creating-alternative-distribution-packages", "law": "Use the sample payload below as a guide: If you opt-in to notifications, and the associated marketplace has set up webhooks with the endpoint, the marketplace is notified that a new alternative distribution package is available."}
+{"id": "/documentation/appstoreconnectapi/creating-alternative-distribution-packages", "law": "Use the sample payload below as a guide: To learn more about next steps for your web distribution app, see ."}
+{"id": "/documentation/appstoreconnectapi/creating-alternative-distribution-packages", "law": "To ensure you’re selecting the most recent when there are multiple versions available, use when calling the endpoint."}
+{"id": "/documentation/appstoreconnectapi/creating-and-configuring-keys-for-web-distribution", "law": "Use alternative distribution keys to configure your app for installation from your website."}
+{"id": "/documentation/appstoreconnectapi/creating-and-configuring-keys-for-web-distribution", "law": "To create an alternative distribution key, you must have an existing app in App Store Connect."}
+{"id": "/documentation/appstoreconnectapi/creating-and-configuring-keys-for-web-distribution", "law": "If you don’t have one, create one before continuing."}
+{"id": "/documentation/appstoreconnectapi/creating-and-configuring-keys-for-web-distribution", "law": "Don’t share your private keys, store keys in a code repository, or include keys in client-side code."}
+{"id": "/documentation/appstoreconnectapi/creating-and-configuring-keys-for-web-distribution", "law": "The following request uploads the public key to App Store Connect: Manage keys you use to sign JSON web tokens (JWTs)."}
+{"id": "/documentation/appstoreconnectapi/creating-keys-and-establishing-alternative-marketplace-connections", "law": "Use alternative distribution keys to establish an alternative marketplace."}
+{"id": "/documentation/appstoreconnectapi/creating-keys-and-establishing-alternative-marketplace-connections", "law": "To create an alternative distribution key, you must have an existing alternative marketplace app in App Store Connect."}
+{"id": "/documentation/appstoreconnectapi/creating-keys-and-establishing-alternative-marketplace-connections", "law": "Don’t share your private keys, store keys in a code repository, or include keys in client-side code."}
+{"id": "/documentation/appstoreconnectapi/creating-keys-and-establishing-alternative-marketplace-connections", "law": "If you don’t include a relationship to an app Apple ID, the alternative distribution key is associated with all alternative distubution apps on your account."}
+{"id": "/documentation/appstoreconnectapi/creating-keys-and-establishing-alternative-marketplace-connections", "law": "Use the information in the following table to fill in the payload claims:"}
+{"id": "/documentation/appstoreconnectapi/creating-keys-and-establishing-alternative-marketplace-connections", "law": "Manage keys you use to sign JSON web tokens and connect marketplaces with apps."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apps-_id_-appencryptiondeclarations", "law": "The maximum number of app encryption declaration resources to return."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apps-_id_-appencryptiondeclarations", "law": "The maximum number of related builds resources to return."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-1-4-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-4-0-release-notes", "law": "Use the new endpoints to setup and configure notifications for events that happen with your apps, including App version state events and TestFlight feedback events."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-4-0-release-notes", "law": "You can also now use to update the for your app."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-4-0-release-notes", "law": "Use to view the available recommendations for your app metrics."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-4-0-release-notes", "law": "Use the or properties instead."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-4-0-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "The system behind the API requires significant usage of your app before it makes metrics available, and each metric has different usage thresholds."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use Terminal to run the following command to install the libraries locally:"}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "To use the API, you need to generate and provide a JSON Web Token (JWT), signed using an App Store Connect API key."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "While retrieving your API key, take note of the issuer ID and the key ID, generating a JWT requires them."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "After retrieving your API key, use the script to generate a JWT to authenticate requests you send to the App Store Connect API."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use the endpoint to get a list of your apps and metadata about them, including App IDs."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "Create a JWT, then use that token with to request a list of your apps: Retrieving diagnostic logs, or build-specific metrics, requires a build ID."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use to get a list of the builds."}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use the following command to request a list of builds for an App:"}
+{"id": "/documentation/appstoreconnectapi/retrieve-power-and-performance-metrics-and-log-insights", "law": "Use the script to download power and performance metrics, and to print metric hotspot data identified by insights:"}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-2-0-release-notes", "law": "In your app, APIs that offer IDFA functionality are still available but require obtaining the user’s permission using ."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-2-0-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-5-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/metricsinsight", "law": "A Boolean value that indicates whether the insight is high impact, meaning the metrics show that the latest app version has a regression of 100% or more, compared with the average values of the metric from the previous app versions."}
+{"id": "/documentation/appstoreconnectapi/metricsinsight", "law": "The maximum value of this metric for the latest app version, from the values in ."}
+{"id": "/documentation/appstoreconnectapi/accessibility-declarations", "law": "Use this resource to create and configure accessibility declarations for your apps."}
+{"id": "/documentation/appstoreconnectapi/accessibility-declarations", "law": "To add an accessibility URL to your the App Store page for your app, use and update the the attribute."}
+{"id": "/documentation/appstoreconnectapi/accessibility-declarations", "law": "To manage accessibility declarations, be sure you have one of the following user roles: Both Team and Individual API keys can use these endpoints with the correct role."}
+{"id": "/documentation/appstoreconnectapi/age-ratings", "law": "You must fill out this information before submitting your app for review."}
+{"id": "/documentation/appstoreconnectapi/app-categories", "law": "To update your app’s categories, use the resource."}
+{"id": "/documentation/appstoreconnectapi/app-screenshot-sets", "law": "Some screenshot sizes are required to submit your app for review."}
+{"id": "/documentation/appstoreconnectapi/app-screenshots", "law": "Use this resource to: Upload new app screenshots to App Store Connect."}
+{"id": "/documentation/appstoreconnectapi/app-screenshots", "law": "To upload screenshots, you must create an asset reservation, then follow the upload operations specified in the response."}
+{"id": "/documentation/appstoreconnectapi/app-screenshots", "law": "Some screenshot sizes are required in order to submit your app for review."}
+{"id": "/documentation/appstoreconnectapi/app-screenshots", "law": "You’ll get an error at submission time if you don’t provide all of the required assets."}
+{"id": "/documentation/appstoreconnectapi/app-store-version-localizations", "law": "Use to create and maintain your App Store metadata in different languages."}
+{"id": "/documentation/appstoreconnectapi/app-store-version-localizations", "law": "For information about required, localized, and editable metadata, see ."}
+{"id": "/documentation/appstoreconnectapi/app-tags", "law": "Use the app tag resource to read the tags that Apple applied to your app and remove tags that are not representative of your app."}
+{"id": "/documentation/appstoreconnectapi/apps", "law": "Use the resource to manage and maintain your existing apps."}
+{"id": "/documentation/appstoreconnectapi/apps", "law": "Don’t use this API to create new apps; instead, create new apps on the App Store Connect website."}
+{"id": "/documentation/appstoreconnectapi/apps", "law": "To upload builds to App Store Connect, you must use Xcode, Transporter, or the Transporter Mac app."}
+{"id": "/documentation/appstoreconnectapi/apps", "law": "This API doesn’t permit you to directly upload your builds, but you may use App Store Connect API Keys in conjunction with Transporter to upload."}
+{"id": "/documentation/appstoreconnectapi/end-user-license-agreements-eula", "law": "If you need to provide a custom EULA, use this resource to provide your agreement text."}
+{"id": "/documentation/appstoreconnectapi/game-center-enabled-versions", "law": "Use a resource to indicate which versions of your app support Game Center."}
+{"id": "/documentation/appstoreconnectapi/routing-app-coverages", "law": "Use to upload, replace, or delete a geographic coverage file for App Review."}
+{"id": "/documentation/appstoreconnectapi/routing-app-coverages", "law": "If your app uses location to provide routing information, you must supply a geographic coverage file before submitting your app to App Review."}
+{"id": "/documentation/appstoreconnectapi/routing-app-coverages", "law": "Manage geographic coverage files for apps that use location to provide routing information."}
+{"id": "/documentation/appstoreconnectapi/uploading-app-previews", "law": "To run this sample, you must have an app in App Store Connect with a version in the “Prepare for Submission” state, and an app preview file to upload."}
+{"id": "/documentation/appstoreconnectapi/uploading-app-previews", "law": "This project requires Python 3, which is pre-installed on macOS 10.15."}
+{"id": "/documentation/appstoreconnectapi/uploading-app-previews", "law": "Follow these steps to install and the required Python modules: Open the Terminal app by typing Command-space and entering “Terminal.app” in the Spotlight search field."}
+{"id": "/documentation/appstoreconnectapi/uploading-app-previews", "law": "Make sure the video file you’d like to upload is available on your local machine."}
+{"id": "/documentation/appstoreconnectapi/uploading-app-previews", "law": "Your app must be in App Store Connect with a version in the “Prepare for Submission” state."}
+{"id": "/documentation/appstoreconnectapi/uploading-app-previews", "law": "The App Store Connect API requires the addition of an app preview to an app preview set ."}
+{"id": "/documentation/appstoreconnectapi/uploading-app-previews", "law": "Use the upload operations to upload a file, potentially in multiple parts."}
+{"id": "/documentation/appstoreconnectapi/apppreviewsetapppreviewslinkagesrequest", "law": "A request body you use to reorder the app previews in a preview set."}
+{"id": "/documentation/appstoreconnectapi/apppreviewsetcreaterequest", "law": "The request body you use to create an App Preview Set."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apppreviewsets-_id_", "law": "The maximum number of related app previews resources to return."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apppreviewsets-_id_-apppreviews", "law": "The maximum number of app preview resources to return."}
+{"id": "/documentation/appstoreconnectapi/get-v1-apppreviewsets-_id_-relationships-apppreviews", "law": "The maximum number of app preview resource identifiers to return."}
+{"id": "/documentation/appstoreconnectapi/apppreviewcreaterequest", "law": "The request body you use to create an App Preview."}
+{"id": "/documentation/appstoreconnectapi/apppreviewupdaterequest", "law": "The request body you use to update an App Preview."}
+{"id": "/documentation/appstoreconnectapi/app-clip-app-store-review-details", "law": "The resource represents information about your App Clip that’s required by App Review."}
+{"id": "/documentation/appstoreconnectapi/app-clip-app-store-review-details", "law": "Use it to read, update, and add invocation URLs of your App Clip required for App Review."}
+{"id": "/documentation/appstoreconnectapi/app-clip-app-store-review-details", "law": "Manage required App Clip information you provide for App Review."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "However, your App Clip may require many App Clip experiences."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "If you’re new to using the App Store Connect API, make sure to read the documentation in the Essentials section of and learn how to create API keys, generate JWTs, identify rate limits, and more."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "To read App Clip information and manage App Clip experiences, be sure you have one of the following user roles: For the full list of App Store Connect user roles, see ."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "Creating or managing App Clip experiences typically requires a sequence of calls to endpoints the App Store Connect API provides."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "Before you start working on the implementation, list the steps required to achieve your goal."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "While the exact API calls you need to make depend on your use case, creating an App Clip experience usually involves: Gathering additional information Uploading the image asset that appears on the App Clip card Creating the App Clip experience"}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "For example, you use the endpoint to create a default App Clip experience."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "For example, successfully creating a default App Clip experience requires , , , , and information."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "For example, creating an App Clip experience using the App Store Connect API requires an image asset that appears on the App Clip card."}
+{"id": "/documentation/appstoreconnectapi/app-clips-and-app-clip-experiences", "law": "When you’ve gathered all required information and uploaded the image that appears on the App Clip card, you’re ready to create an App Clip experience."}
+{"id": "/documentation/appstoreconnectapi/app-encryption-declarations", "law": "Builds that have the flag set to true in the app’s property list must link to an app encryption declaration before the app can be submitted for beta app review."}
+{"id": "/documentation/appstoreconnectapi/app-pre-orders", "law": "Use to offer your app as a pre-order before it’s initial release on the App Store."}
+{"id": "/documentation/appstoreconnectapi/app-store-review-attachments", "law": "Use an resource to upload specific app documentation, demo videos, and other items to App Store Connect, to help prevent delays during the app review process."}
+{"id": "/documentation/appstoreconnectapi/app-store-review-details", "law": "Use to provide information required for App Review."}
+{"id": "/documentation/appstoreconnectapi/app-store-review-details", "law": "If you need to attach a file for App Review, use the resource."}
+{"id": "/documentation/appstoreconnectapi/app-store-review-details", "law": "Manage the required information you provide for App Review."}
+{"id": "/documentation/appstoreconnectapi/app-store-version-phased-releases", "law": "Use this resource to set up your process for an app update."}
+{"id": "/documentation/appstoreconnectapi/app-store-version-submissions", "law": "If your version submission is incomplete due to missing required information or other issues, you receive an error when you attempt to submit to App Review."}
+{"id": "/documentation/appstoreconnectapi/background-assets", "law": "Use the Background Assets API to manage content that Apple hosts, so people can download that content outside your main app bundle on the App Store."}
+{"id": "/documentation/appstoreconnectapi/background-assets", "law": "To manage Apple-hosted background assets, be sure you have one of the following user roles: Assets for your app that you can upload and download separately from the Apple hosted app."}
+{"id": "/documentation/appstoreconnectapi/build-icons", "law": "Use to identify which icons were uploaded to App Store Connect inside your app’s binary."}
+{"id": "/documentation/appstoreconnectapi/build-uploads", "law": "Use this resource to upload and manage build uploads for your apps."}
+{"id": "/documentation/appstoreconnectapi/build-uploads", "law": "Use the webhook event type to get information about build upload status changes."}
+{"id": "/documentation/appstoreconnectapi/build-uploads", "law": "You can also use Xcode or Transporter to upload app binaries."}
+{"id": "/documentation/appstoreconnectapi/build-uploads", "law": "To read information about your builds after a successful upload, use the resource."}
+{"id": "/documentation/appstoreconnectapi/builds", "law": "You must upload builds using Xcode, Transporter, or the resource."}
+{"id": "/documentation/appstoreconnectapi/builds", "law": "Once the build is in the system, you can use the API to perform actions like: Submitting builds for review."}
+{"id": "/documentation/appstoreconnectapi/customer-review-responses", "law": "Use this API to get, create, update, and delete your responses to customer reviews for your app."}
+{"id": "/documentation/appstoreconnectapi/customer-review-responses", "law": "Next use this API as follows: Respond to a customer review by calling using the review’s resource ID."}
+{"id": "/documentation/appstoreconnectapi/customer-reviews", "law": "Use this API to read the customer reviews for your app as follows: Call the endpoint to get all customer reviews for your app."}
+{"id": "/documentation/appstoreconnectapi/customer-reviews", "law": "To manage your responses to the customers reviews, use the endpoints in ."}
+{"id": "/documentation/appstoreconnectapi/review-submissions", "law": "The attribute is no longer required when using ."}
+{"id": "/documentation/appstoreconnectapi/territories", "law": "Use to get a list of active App Store storefronts in which to make your app available to customers."}
+{"id": "/documentation/appstoreconnectapi/appbetatesterslinkagesrequest", "law": "A request body you use to remove beta testers from an app."}
+{"id": "/documentation/appstoreconnectapi/appupdaterequest", "law": "The request body you use to update an App Update."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-7-release-notes", "law": "Name is now a required field when using ."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-7-release-notes", "law": "There is a new required attribute when you use , which gives all your localizations the same formatter."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-7-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/appinfolocalizationcreaterequest", "law": "The request body you use to create an App Info Localization."}
+{"id": "/documentation/appstoreconnectapi/post-v1-appstoreversionlocalizations", "law": "Use this endpoint to add localized version information for a new locale."}
+{"id": "/documentation/appstoreconnectapi/post-v1-appstoreversionlocalizations", "law": "Be sure to use to add the same locale to the version as well."}
+{"id": "/documentation/appstoreconnectapi/post-v1-appstoreversionlocalizations", "law": "If the App Store version and the app info don’t have the same set of localizations, you will receive an erorr when you submit the version to the App Store."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-2-1-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-2-release-notes", "law": "The attribute is now required when creating an In App Purchase."}
+{"id": "/documentation/appstoreconnectapi/app-store-connect-api-3-2-release-notes", "law": "Update your server-side code to use new features, and test your code against API changes."}
+{"id": "/documentation/appstoreconnectapi/advanced-app-clip-experience-images", "law": "Use this resource to associate your advanced experience with new imagery or to update already associated imagery."}
+{"id": "/documentation/appstoreconnectapi/app-clip-header-images", "law": "Use it to read the image you provided for use on the App Clip card, to add new imagery, to update image information, and to delete an existing image."}
+{"id": "/documentation/appstoreconnectapi/game-center-activity-images", "law": "To manage Game Center activity images, be sure you have one of the following user roles: Manage images for your Game Center activities."}

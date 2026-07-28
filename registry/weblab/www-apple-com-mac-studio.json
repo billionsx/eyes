@@ -35,6 +35,7 @@
   "name:macos",
   "name:ar",
   "name:compare",
+  "name:apple upgrade",
   "name:router accessories",
   "name:environment",
   "name:trade in",
@@ -45,21 +46,21 @@
   "name:values gallery",
   "name:buy strip"
  ],
- "imgs": 125,
+ "imgs": 127,
  "videos": 6,
  "cta": 22,
  "h_levels": {
   "1": 1,
-  "2": 22,
-  "3": 33
+  "2": 23,
+  "3": 35
  },
  "css": [
   "/api-www/global-elements/global-header/v1/assets/globalheader.css",
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
-  "/v/mac-studio/m/built/styles/main.built.css",
-  "/v/mac-studio/m/built/styles/overview.built.css",
-  "/ac/ac-films/7.5.1/styles/modal.css"
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/mac-studio/m/built/styles/main.built.css"
  ],
  "typography_laws": 2
 }

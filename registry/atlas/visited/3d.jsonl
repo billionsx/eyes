@@ -63,3 +63,6 @@
 {"id": "/documentation/appkit/nsdocument/windownibname", "sha": "09bfeea4d15d2a3192a97333609713b4cfe62bcf312edbc6db8279c82f3ce23f", "t": "windowNibName", "n": 395, "laws": 2, "ts": "2026-07-28 05:42 UTC"}
 {"id": "/documentation/appkit/nstextview/acceptsglyphinfo", "sha": "f55445c47f8c8bccd4d35da1956a2beec337844f72880fc5484acdbe54b940e1", "t": "acceptsGlyphInfo", "n": 214, "laws": 0, "ts": "2026-07-28 05:52 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/allowsduplicatesintoolbar", "sha": "973d338589ee80f68560b033ea2028c4e984714727aae8c8667f80ea5ab87eba", "t": "allowsDuplicatesInToolbar", "n": 533, "laws": 0, "ts": "2026-07-28 05:59 UTC"}
+{"id": "/documentation/appkit/nspasteboarditem/detectedvalues", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "NSPasteboardItem.DetectedValues", "n": 0, "laws": 0, "ts": "2026-07-28 18:50 UTC"}
+{"id": "/documentation/appkit/nscontrol/textdidbegineditingnotification", "sha": "e70b8173feffe852151eacb443ab050f569fb513a7c289e981d4d11065e623c7", "t": "textDidBeginEditingNotification", "n": 455, "laws": 1, "ts": "2026-07-28 18:50 UTC"}
+{"id": "/documentation/cryptokit/symmetrickey/bytes", "sha": "a3a1602a56db8e275bdcdf62ab92dd9ba4c9911845ce69a2d62ee9de1d1c59bc", "t": "bytes", "n": 32, "laws": 0, "ts": "2026-07-28 18:59 UTC"}

@@ -6,11 +6,11 @@
   "section-endless-entertainment-gallery"
  ],
  "modules": [
+  "name:hero-apple-upgrade",
   "name:hero-bts-2026",
   "name:hero-iphone-family",
-  "name:hero-macbook-air-m5",
+  "name:promo-macbook-air-m5",
   "name:promo-ipad-air-m4",
-  "name:promo-macbook-pro",
   "name:promo-apple-watch-series-11",
   "name:promo-ipad-pro",
   "name:promo-iphone-tradein",
@@ -19,8 +19,8 @@
   "name:tv-plus-gallery",
   "name:fam-gallery"
  ],
- "imgs": 92,
- "videos": 4,
+ "imgs": 101,
+ "videos": 5,
  "cta": 46,
  "h_levels": {
   "1": 1,

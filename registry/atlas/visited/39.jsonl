@@ -52,3 +52,10 @@
 {"id": "/documentation/swift/string/init(validatingcstring:)-1x5p0", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(validatingCString:)", "n": 0, "laws": 0, "ts": "2026-07-27 18:58 UTC"}
 {"id": "/documentation/swift/string/reversed()", "sha": "be93cb456f65557ce40d32b05d683c8e20d980d621a003a9d268a60f251f55cb", "t": "reversed()", "n": 617, "laws": 1, "ts": "2026-07-27 18:59 UTC"}
 {"id": "/documentation/appkit/nswindow/layoutifneeded()", "sha": "f87274489bceb862bde44c9265a9a4030e66140baab541d7bc40bb8dcac36eca", "t": "layoutIfNeeded()", "n": 524, "laws": 3, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nstreecontroller/rearrangeobjects()", "sha": "921b7effb00de0fff57a6d8a5b25982b7e08e20dfd1bcc3b81890d519bac93f0", "t": "rearrangeObjects()", "n": 182, "laws": 2, "ts": "2026-07-28 18:40 UTC"}
+{"id": "/documentation/appkit/nstreenode/representedobject", "sha": "3160d180cebd78cbd07e6127683a75e2a62c025fac57742b8a99fd49a6678ec0", "t": "representedObject", "n": 36, "laws": 0, "ts": "2026-07-28 18:40 UTC"}
+{"id": "/documentation/foundation/nsarchiver", "sha": "b4a4ef1ccbcfeb2ed23ac3da6c3011b618d0eed71c8e72aca36565193e930467", "t": "NSArchiver", "n": 1172, "laws": 1, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/foundation/nscoder/version(forclassname:)", "sha": "9b7dd666e40ab25e525e13deb5b13323ca5c0cada96909dd9681d6e2b74e5f27", "t": "version(forClassName:)", "n": 281, "laws": 0, "ts": "2026-07-28 18:45 UTC"}
+{"id": "/documentation/applearchive/archiveencryptioncontext/generatepassword()", "sha": "2514b51f08c37fa27709d11203d0b30893cb35027dc9ee7a6124b89bab09b572", "t": "generatePassword()", "n": 168, "laws": 0, "ts": "2026-07-28 19:01 UTC"}
+{"id": "/documentation/swift/cunsignedchar", "sha": "51bf7fcd9fbdc8a862083548f4965eaa667f83ec2a080beb99d074fd92d29a71", "t": "CUnsignedChar", "n": 27, "laws": 0, "ts": "2026-07-28 19:02 UTC"}
+{"id": "/documentation/audiotoolbox/aumidiciprofilechangedblock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUMIDICIProfileChangedBlock", "n": 0, "laws": 0, "ts": "2026-07-28 19:03 UTC"}

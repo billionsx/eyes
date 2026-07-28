@@ -466,3 +466,8 @@
 {"id": "/documentation/arkit/arreferenceimage/validate(completionhandler:)", "law": "Call this function on a reference image you create programmatically to make sure ARKit can track it, before passing it in to your session’s array."}
 {"id": "/documentation/arkit/arworldtrackingconfiguration/appclipcodetrackingenabled", "law": "To avoid scanning a physical code that’s not connected to an App Clip, the system ensures that an app provides an App Clip before allowing the app to interact with App Clip Codes."}
 {"id": "/documentation/arkit/arworldtrackingconfiguration/supportsappclipcodetracking", "law": "Devices require the Apple Neural Engine (ANE) to track App Clip Codes."}
+{"id": "/documentation/ARKit/ARConfiguration", "law": "Don’t allocate yourself; instead, instantiate one of its subclasses."}
+{"id": "/documentation/ARKit/ARConfiguration/isSupported", "law": "Before attempting to create an AR configuration, verify that the user’s device supports the configuration you plan to use by checking the property of the corresponding configuration class."}
+{"id": "/documentation/ARKit/ARConfiguration/isSupported", "law": "All ARKit configurations require an iOS device with an A9 or later processor."}
+{"id": "/documentation/ARKit/ARConfiguration/isSupported", "law": "If your app otherwise supports other devices and offers augmented reality as a secondary feature, use this property to determine whether to offer AR-based features to the user."}
+{"id": "/documentation/ARKit/ARConfiguration/isSupported", "law": "If your app requires ARKit for its core functionality, use the key in the section of your app’s Info.plist to make your app available only on devices that support ARKit."}

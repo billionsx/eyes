@@ -41,3 +41,47 @@
 {"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "The claim sets one or more Apple Maps frameworks you are authorizing the token to use."}
 {"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "Available values are: Instead of signing a token dynamically, you can use a static token when using any Apple Maps frameworks other than Maps Server API."}
 {"id": "/documentation/AppleMapsServerAPI/creating-and-using-tokens-with-maps-server-api", "law": "Sign JSON Web Tokens to use Maps Server API and debug common signing errors."}
+{"id": "/documentation/applemapsserverapi/integrating-the-apple-maps-server-api-into-java-server-applications", "law": "The file demonstrates how you use the Apple Maps Server APIs and the following API features: Getting an Access Token — Authenticate with the service and retrieve an Apple Maps Server API token."}
+{"id": "/documentation/applemapsserverapi/integrating-the-apple-maps-server-api-into-java-server-applications", "law": "— The project includes a Gradle command wrapper that uses Gradle version 7.5.1; you may a different version if you need to use a different Java installation."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "If you don’t specify either option, the defaults to now , which the server interprets as the current time."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "A comma-separated list of the features to avoid when calculating direction routes."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "If you don’t specify either option, the defaults to now , which the server interprets as the current time."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "For example, for English, use ."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "If you don’t provide a , the server uses and searchLocation as fallback hints."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "If you don’t provide a , the server uses and as fallback hints."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "If you don’t provide a , the server uses and as fallback hints."}
+{"id": "/documentation/applemapsserverapi/-v1-directions", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-etas", "law": "The parameter must specify at least one destination coordinate, but no more than 10 destinations."}
+{"id": "/documentation/applemapsserverapi/-v1-etas", "law": "The mode of transportation to use when estimating arrival times."}
+{"id": "/documentation/applemapsserverapi/-v1-etas", "law": "The time of departure to use in an estimated arrival time request, in ISO 8601 format in UTC time."}
+{"id": "/documentation/applemapsserverapi/-v1-etas", "law": "If you don’t specify a departure date, the server uses the current date and time when you make the request."}
+{"id": "/documentation/applemapsserverapi/-v1-etas", "law": "The app should try again later."}
+{"id": "/documentation/applemapsserverapi/-v1-etas", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-geocode", "law": "The language the server should use when returning the response, specified using a BCP 47 language code."}
+{"id": "/documentation/applemapsserverapi/-v1-geocode", "law": "For example, for English use ."}
+{"id": "/documentation/applemapsserverapi/-v1-geocode", "law": "Certain APIs, such as Searching, may opt to use the , if specified, as a fallback for the ."}
+{"id": "/documentation/applemapsserverapi/-v1-geocode", "law": "The app should try again later."}
+{"id": "/documentation/applemapsserverapi/-v1-geocode", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-reversegeocode", "law": "For example, for English, use ."}
+{"id": "/documentation/applemapsserverapi/-v1-reversegeocode", "law": "The app should try again later."}
+{"id": "/documentation/applemapsserverapi/-v1-reversegeocode", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-search", "law": "The language the server should use when returning the response, specified using a BCP 47 language code."}
+{"id": "/documentation/applemapsserverapi/-v1-search", "law": "For example, for English use ."}
+{"id": "/documentation/applemapsserverapi/-v1-search", "law": "Search may opt to use the , if specified, as a fallback for the ."}
+{"id": "/documentation/applemapsserverapi/-v1-search", "law": "If you use this parameter, you must include in ."}
+{"id": "/documentation/applemapsserverapi/-v1-search", "law": "If you use this parameter, you must include in ."}
+{"id": "/documentation/applemapsserverapi/-v1-search", "law": "The app should try again later."}
+{"id": "/documentation/applemapsserverapi/-v1-search", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "For example, for English, use ."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "If you don’t provide a , the server uses and as fallback hints."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "If you don’t provide , the server uses and as fallback hints."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "Certain APIs, such as Search, may opt to use the , if specified, as a fallback for the ."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "If you use this parameter, you must include in ."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "If you use this parameter, you must include in ."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "If your app requires a larger daily quota, submit a ."}
+{"id": "/documentation/applemapsserverapi/-v1-searchautocomplete", "law": "Find results that you can use to autocomplete searches."}
+{"id": "/documentation/applemapsserverapi/autocompleteresult", "law": "The relative URI to the endpoint to use to fetch more details pertaining to the result."}
+{"id": "/documentation/applemapsserverapi/autocompleteresult", "law": "A JSON string array to use to create a long form of display text for the completion result."}
+{"id": "/documentation/applemapsserverapi/autocompleteresult", "law": "An object that contains information you can use to suggest addresses and further refine search results."}
+{"id": "/documentation/applemapsserverapi/directionsavoid", "law": "A list of the features you can request to avoid when calculating directions."}
+{"id": "/documentation/applemapsserverapi/place", "law": "A place name that you can use for display purposes."}

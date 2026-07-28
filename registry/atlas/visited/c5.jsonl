@@ -57,3 +57,7 @@
 {"id": "/documentation/appkit/nswindow/didendliveresizenotification", "sha": "812dc7965f8372e76b9674473e8e40c7d2a8d4420c67db2299c91297900e3f13", "t": "didEndLiveResizeNotification", "n": 308, "laws": 1, "ts": "2026-07-28 05:45 UTC"}
 {"id": "/documentation/appkit/nswindow/orderingmode", "sha": "334f31d8c5133e61ff7c62ecb1766646d3fb5fe707d71cb1d69b3d99e64ef536", "t": "NSWindow.OrderingMode", "n": 253, "laws": 0, "ts": "2026-07-28 05:48 UTC"}
 {"id": "/documentation/appkit/nstextview/preferredpasteboardtype(from:restrictedtotypesfrom:)", "sha": "710873b99dbfceedbb86db734565369a928f071f50446129d6349add1507ff71", "t": "preferredPasteboardType(from:restrictedToTypesFrom:)", "n": 380, "laws": 2, "ts": "2026-07-28 05:54 UTC"}
+{"id": "/documentation/appkit/nstabview/controltint", "sha": "8cc0df82e89a8a107499a6fedb544db88edb2778c4b02d93e970facb873ad133", "t": "controlTint", "n": 136, "laws": 0, "ts": "2026-07-28 18:41 UTC"}
+{"id": "/documentation/appkit/nstableview/rows(in:)", "sha": "e61670e3b9f33667f62923fb77f970da3737de7b9b879539d57662c2dc5b1e83", "t": "rows(in:)", "n": 479, "laws": 0, "ts": "2026-07-28 18:52 UTC"}
+{"id": "/documentation/system/filepath/isabsolute", "sha": "22b3a224fe310883bbb909038e31c95012f5c1eac1652317f6d2f93319b549d4", "t": "isAbsolute", "n": 657, "laws": 1, "ts": "2026-07-28 19:00 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiocontrol/getcontrolelement", "sha": "28b6163b997518ad6b712aaf15add9dbd9698e0d889963c0b2887f112d80ce34", "t": "GetControlElement", "n": 80, "laws": 0, "ts": "2026-07-28 19:05 UTC"}

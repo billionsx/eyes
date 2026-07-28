@@ -65,3 +65,7 @@
 {"id": "/documentation/appkit/nssplitview/arrangedsubviews", "sha": "fb601fd306a3a5d21fa72083710ceb4e440eef1a6334510eae4b6c67c7500559", "t": "arrangedSubviews", "n": 287, "laws": 0, "ts": "2026-07-28 06:02 UTC"}
 {"id": "/documentation/appkit/nssplitviewcontroller/removesplitviewitem(_:)", "sha": "92b189f5384f18707bedae7d07a9ab1dd12bfc584219ef3119f8d16730a733a6", "t": "removeSplitViewItem(_:)", "n": 178, "laws": 0, "ts": "2026-07-28 06:03 UTC"}
 {"id": "/documentation/appkit/nstreecontroller/content", "sha": "13265f73f5b1a8b108252fa5fcfd19db586d07f6421759f49589ae65764daf14", "t": "content", "n": 209, "laws": 0, "ts": "2026-07-28 06:04 UTC"}
+{"id": "/documentation/foundation/nscoder/systemversion", "sha": "3b6eb3b4d65507c92f1161889a6be972722b3d136c00fb4e2d0e0290b37d7643", "t": "systemVersion", "n": 291, "laws": 1, "ts": "2026-07-28 18:45 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/setcanbedefaultoutputdevice", "sha": "5da1aba2f24b7c1f7db24b287f9693e799ceac2de2acd45999609f8c81d0a964", "t": "SetCanBeDefaultOutputDevice", "n": 275, "laws": 0, "ts": "2026-07-28 19:06 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiolevelcontrolrange", "sha": "35a11f31cb712e540381130f52fd6b90b8c6ef6a4ea9396bab750c8ee676ef7a", "t": "IOUserAudioLevelControlRange", "n": 119, "laws": 1, "ts": "2026-07-28 19:07 UTC"}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription/mbytesperframe", "sha": "c086645a1e07b040f731ed429c2a968610197c4dbd6b7c023d200fa86338cb86", "t": "mBytesPerFrame", "n": 424, "laws": 0, "ts": "2026-07-28 19:08 UTC"}

@@ -53,3 +53,8 @@
 {"id": "/documentation/appkit/nswindow/hasshadow", "sha": "a8ed0e13b9cd7139a7fe4d1bd53e27ddb8cab37d5a529b0f666c7f08dfe93d51", "t": "hasShadow", "n": 270, "laws": 0, "ts": "2026-07-28 05:46 UTC"}
 {"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.property", "sha": "d94c4ea3f0ab6939e512d6ff215a145ba0eb7ae9c0c12b8cac9147110869a32e", "t": "delegate", "n": 287, "laws": 1, "ts": "2026-07-28 05:57 UTC"}
 {"id": "/documentation/appkit/nsoutlineview/itemdidcollapsenotification", "sha": "8738f204a9ea7d0b249454e2bdf0f3a705872c1d843216802bef4e5201f072d2", "t": "itemDidCollapseNotification", "n": 310, "laws": 1, "ts": "2026-07-28 06:01 UTC"}
+{"id": "/documentation/appkit/nstableview/columnindexes(in:)", "sha": "485075dcaca3e22e2153f27e4d6a792000cb35241048c59f892997d37c791373", "t": "columnIndexes(in:)", "n": 267, "laws": 0, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/appstoreconnectapi/issues", "sha": "b4fa823c9e80c84a2343d37a75f115c0ed61e7fdeb19d80f6ab090b9075b747a", "t": "Issues", "n": 606, "laws": 1, "ts": "2026-07-28 18:54 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/getsamplerate", "sha": "14bec0cb8f6cf986358b7f3e5422527686834e81a7f08922c0f272f755b60d90", "t": "GetSampleRate", "n": 181, "laws": 0, "ts": "2026-07-28 19:05 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/performdeviceconfigurationchange", "sha": "f9fdaedad5e4368f643b10357cee2fd9af1e7686d9bc8714ad01014424c7d4b2", "t": "PerformDeviceConfigurationChange", "n": 563, "laws": 1, "ts": "2026-07-28 19:06 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/getlatency", "sha": "7383d9f18856239b89db31a03e7f46b283134b303935acacc2ae10fd6051c92d", "t": "GetLatency", "n": 177, "laws": 0, "ts": "2026-07-28 19:08 UTC"}

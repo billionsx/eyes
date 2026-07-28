@@ -568,3 +568,12 @@
 {"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "Folders have a much smaller representation in the project file, which can result in fewer merge conflicts because when you add or remove files to the project you don’t modify the project file."}
 {"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "If the groups and underlying directory structures don’t match, Xcode displays a dialog with a Show Details button."}
 {"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "Add new or existing files to your project, and use groups to organize the files and folders in the Project navigator."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "When you use automatic signing, Xcode registers the device for you."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "When you use automatic signing, Xcode registers the connected device or Mac for you."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "When you use manual signing, start by collecting the device identifier for your iOS, iPadOS, tvOS, visionOS, or watchOS device by using either Finder or Xcode."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "For watchOS, attach the phone, to which your watch is paired, with to your Mac and use Xcode to find the identifier."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "Use a name that makes the device easy to identify; for example, combine the owner’s name and device type, ”Ravi Patel’s iPhone 11”."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "You can disable devices that you no longer permit to use your app: select the device and click Disable."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "When you use automatic signing, Xcode automatically updates the provisioning profile when you export the app."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "To use manual signing, sign in to your developer account, select Certificates, Identifiers, and Profiles, then select Profiles."}
+{"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "To manually sign your app, select a profile to use from the Provisioning Profile dropdown menu."}

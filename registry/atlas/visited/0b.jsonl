@@ -56,3 +56,9 @@
 {"id": "/documentation/appkit/nstextview/iswritingtoolsactive", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "isWritingToolsActive", "n": 0, "laws": 0, "ts": "2026-07-28 05:54 UTC"}
 {"id": "/documentation/appkit/nswritingtoolsbehavior", "sha": "fe39c7342b3aa49617168b88410b56522a30d582b217c10e5e5bcc03116f339c", "t": "NSWritingToolsBehavior", "n": 635, "laws": 0, "ts": "2026-07-28 05:58 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/identifier/showfonts", "sha": "a9a3dc105b42d21cd6651ad70ab009b17fe8d03a7b893604156bd7cb474a56f5", "t": "showFonts", "n": 69, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nslayoutguide", "sha": "33728ea27fe5b4052b2260084556cbc3899f8b867162020bbf02df7a2d8860ed", "t": "NSLayoutGuide", "n": 3032, "laws": 7, "ts": "2026-07-28 18:45 UTC"}
+{"id": "/documentation/appkit/nstableview/sortdescriptors", "sha": "03e64df64ad48949aa5b8aba775e3064e7c5ad0fb878e3be8a88120ea16e7d7c", "t": "sortDescriptors", "n": 498, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/CoreMotion/CMMotionManager", "sha": "b2c18d8fb9ad1bbdb5f84b07437f13ea8833c1e934e4a9c0759bb9c1fa0c3576", "t": "CMMotionManager", "n": 5376, "laws": 3, "ts": "2026-07-28 18:58 UTC"}
+{"id": "/documentation/cryptokit/symmetrickey/bitcount", "sha": "b67d1fee3b2f7c09923ff7b460e45fb7809aa49318eceb920c7e3ee851a82356", "t": "bitCount", "n": 30, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.family.midi", "sha": "f45226af00902e24dc797e584c92db556df30589aeacd103dcced22837334182", "t": "com.apple.developer.driverkit.family.midi", "n": 93, "laws": 0, "ts": "2026-07-28 19:03 UTC"}
+{"id": "/documentation/audiodriverkit/audiodriverkit/iouseraudioiooperation", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "IOUserAudioIOOperation", "n": 0, "laws": 0, "ts": "2026-07-28 19:05 UTC"}

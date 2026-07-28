@@ -146,3 +146,39 @@
 {"id": "/documentation/BundleResources/Information-Property-List/CFBundleIdentifier", "law": "For watchOS apps that have a companion iOS app in the same project, the embedded WatchKit app and WatchKit extension targets must have the same bundle ID prefix as the iOS app."}
 {"id": "/documentation/BundleResources/Information-Property-List/CFBundleIdentifier", "law": "The WatchKit app must have the format , and the WatchKit extension must have the format ."}
 {"id": "/documentation/BundleResources/Information-Property-List/CFBundleShortVersionString", "law": "The required format is three period-separated integers, such as 10.14.1."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreen", "law": "You use this key to define the launch screen that the system displays while your app launches."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreen", "law": "If you need to provide different launch screens in response to being launched by different URL schemes, use instead."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreen", "law": "Use this key to configure the user interface during app launch in a way that doesn’t rely on storyboards."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreen", "law": "If you prefer to use storyboards, use instead."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreens", "law": "You use this key if your app supports launching in response to one or more URL schemes, and if you want to provide different launch screens for different launch triggers."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreens", "law": "If you need only one launch screen, use instead."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreens", "law": "Use this key to configure the user interface during app launch in a way that doesn’t rely on storyboards."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchscreens", "law": "If you prefer to use storyboards to define the launch screen, use the key instead."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchstoryboardname", "law": "If you prefer to configure your app’s launch screen without storyboards, use instead."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchstoryboards", "law": "Use when you want your app to show a different launch screen for different schemes."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchstoryboards", "law": "If your app has a single launch storyboard, use the simpler instead."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchstoryboards", "law": "The launch storyboard to use to generate a launch image when your app opens from a supported scheme."}
+{"id": "/documentation/bundleresources/information-property-list/uirequiresfullscreen", "law": "Each app must then adjust its content to fit the newly available space."}
+{"id": "/documentation/bundleresources/information-property-list/uisupportstruescreensizeonmac", "law": "The use of this key implies that your app is capable of handling a variety of display configurations available on a Mac, including: Small to large display resolutions; for example, 640 x 480 to 8K and beyond."}
+{"id": "/documentation/bundleresources/information-property-list/uisupportstruescreensizeonmac", "law": "Use of the key also implies that your app is capable of handling portrait and landscape sizes even when they don’t align with the device orientation."}
+{"id": "/documentation/bundleresources/information-property-list/uisupportstruescreensizeonmac", "law": "For instance, if your app supports rotation in iPadOS, the device orientation is always landscape even though the display might have a portrait aspect ratio in reality."}
+{"id": "/documentation/bundleresources/information-property-list/uisupportstruescreensizeonmac", "law": "This means that you don’t need to update the set of iOS-supported orientations (see ), or alter your code to handle unsupported orientations when using the key."}
+{"id": "/documentation/bundleresources/information-property-list/uisupportstruescreensizeonmac", "law": "Letterboxing and pillarboxing as needed if your app requires a specific aspect ratio."}
+{"id": "/documentation/bundleresources/information-property-list/uisupportstruescreensizeonmac", "law": "To provide a pixel-perfect, edge-to-edge, full-screen experience, use along with the key."}
+{"id": "/documentation/bundleresources/information-property-list/uilaunchimages", "law": "has been deprecated; use Xcode launch storyboards instead."}
+{"id": "/documentation/bundleresources/information-property-list/uirequiresfullscreenignoredstartingwithversion", "law": "Use this key only if you’ve already updated your app so that it no longer uses in later versions of iOS."}
+{"id": "/documentation/bundleresources/information-property-list/uirequiresfullscreenignoredstartingwithversion", "law": "A string value that specifies a system version after which the system ignores the requires full screen key."}
+{"id": "/documentation/bundleresources/information-property-list/uiapplicationpreferreddefaultscenesessionrole", "law": "To define the style that uses initially, use the key."}
+{"id": "/documentation/bundleresources/information-property-list/uiapplicationscenemanifest", "law": "The presence of this key indicates that the app supports scenes and doesn’t use an app delegate object to manage transitions to and from the foreground or background."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit", "law": "You must request this entitlement from Apple."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.allow-any-userclient-access", "law": "This entitlement allows any application to connect to the dext without having to specify bundle IDs, as requires."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.allow-third-party-userclients", "law": "The connecting apps must still have the entitlement."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.communicates-with-drivers", "law": "On macOS, use the entitlement instead."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.userclient-access", "law": "Set its value to an array of bundle IDs of driver extensions that you want to use with DriverKit."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.userclient-access", "law": "If you have only one bundle ID, you can use either a single string or a one-element array."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.userclient-access", "law": "On iPadOS, use the entitlement instead."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.family.block-storage-device", "law": "You must request this entitlement from Apple."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.family.block-storage-device", "law": "A Boolean value that indicates whether to match the driver against block storage devices that use custom drivers."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.transport.pci", "law": "Examples: You also use the keys defined by this entitlement in your app’s , to identify which devices your driver loads on."}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.system-extension.redistributable", "law": "If this entitlement isn’t present, the team ID of the app and system extension must match."}
+{"id": "/documentation/BundleResources/Entitlements/com.apple.developer.driverkit.allow-third-party-userclients", "law": "The connecting apps must still have the entitlement."}

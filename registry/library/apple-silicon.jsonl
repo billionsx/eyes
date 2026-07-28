@@ -72,3 +72,13 @@
 {"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Use GCD to execute serially, concurrently, or in parallel on the system’s available cores."}
 {"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "Instead of custom thread pools, you use dispatch queues to schedule your tasks for execution."}
 {"id": "/documentation/Apple-Silicon/tuning-your-code-s-performance-for-apple-silicon", "law": "For more information about how to use GCD, see ."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "Always create universal versions of your audio host app and Audio Unit plug-ins."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "Universal binaries ensure that your code runs natively on all platforms, which gives you the opportunity to optimize your code for each platform."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "The ability to load Audio Units in-process is still important for some apps, such as those that require minimal latency."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "For the architecture, always use the Audio Component API to load Audio Units, codecs, and other code modules into your app."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "Apps that target the architecture or link against the macOS 11 SDK cannot use the legacy Carbon Component Manager API to open Audio Units."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "When you link an Audio Unit or codec against the macOS 11 (or later) SDK, use one of these modern APIs instead of the Carbon Component API."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "To preserve compatibility, apps that link against the macOS 10.15 (or earlier) SDK may continue to use the Carbon Component Manager to load Audio Units and codecs."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "Apps that perform realtime audio processing need to ensure that their threads run at regular intervals."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "In some cases, your app or Audio Unit may also need to coordinate with threads from the audio server or a host app to ensure timely processing of audio."}
+{"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "law": "For both of these situations, use workgroups to communicate the scheduling needs of your realtime threads to the system."}

@@ -18,3 +18,6 @@
 {"id": "/documentation/coremotion/cmmotionactivitymanager", "law": "To use this API, you must include the key in your app’s file and provide a usage description string for this key."}
 {"id": "/documentation/coremotion/cmmotionactivitymanager", "law": "The usage description appears in the prompt that the user must accept the first time the system asks the user to access motion data for your app."}
 {"id": "/documentation/coremotion/cmmotionactivitymanager", "law": "If you don’t include a usage description string, your app crashes when you call this API."}
+{"id": "/documentation/CoreMotion/CMMotionManager", "law": "Use a object to start the services that report movement detected by the device’s onboard sensors."}
+{"id": "/documentation/CoreMotion/CMMotionManager", "law": "Use this object to receive four types of motion data: Accelerometer data , indicating the instantaneous acceleration of the device in three dimensional space."}
+{"id": "/documentation/CoreMotion/CMMotionManager", "law": "This approach is the recommended approach for apps such as games."}

@@ -47,13 +47,13 @@
   "name:values gallery",
   "name:router"
  ],
- "imgs": 275,
+ "imgs": 277,
  "videos": 13,
- "cta": 102,
+ "cta": 104,
  "h_levels": {
   "1": 1,
   "2": 31,
-  "3": 53,
+  "3": 54,
   "4": 3,
   "5": 3
  },
@@ -61,9 +61,9 @@
   "/api-www/global-elements/global-header/v1/assets/globalheader.css",
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
-  "/v/ac/includes/campaigns-seasonal/bts-fy26/a/built/styles/overview.built.css",
-  "/v/macbook-pro/ax/built/styles/overview.built.css",
-  "/ac/ac-films/7.5.1/styles/modal.css"
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/bts-fy26/a/built/styles/overview.built.css"
  ],
  "typography_laws": 2
 }

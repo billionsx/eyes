@@ -67,3 +67,8 @@
 {"id": "/documentation/foundation/nscopying", "sha": "b814b92e9abead1d7145f38f95733888a3c239afc48ba85d1099106354698501", "t": "NSCopying", "n": 1205, "laws": 3, "ts": "2026-07-27 19:08 UTC"}
 {"id": "/documentation/appkit/nsgesturerecognizer/allowedtouchtypes", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "allowedTouchTypes", "n": 0, "laws": 0, "ts": "2026-07-28 05:35 UTC"}
 {"id": "/documentation/appkit/nswindow/invalidatecursorrects(for:)", "sha": "45738e32002631ad2f44377ae5e6b489f09ccc225ad60c6433818cc4c051a0d2", "t": "invalidateCursorRects(for:)", "n": 236, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nscollectionlayoutdecorationitem", "sha": "da3c14f0b3bab467c417647df8dabeab0f954a19c9d04dcaa81544cdb983100e", "t": "NSCollectionLayoutDecorationItem", "n": 457, "laws": 1, "ts": "2026-07-28 18:46 UTC"}
+{"id": "/documentation/appkit/nspasteboard/pasteboarditems", "sha": "1bca84c37add0a0e2e6658aaefbc6e4f7d3dcb5eef7bb13080d0d545703871c7", "t": "pasteboardItems", "n": 163, "laws": 0, "ts": "2026-07-28 18:49 UTC"}
+{"id": "/documentation/driverkit/ioservicename", "sha": "c6d0a3a02d1f7bb4f3a427e97ee81e9fbfd16a27efd95cde91ca267525c52ede", "t": "IOServiceName", "n": 75, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/getzerotimestampperiod", "sha": "3ccbce317c95b7b8b4a0f996f798de3947634e08c7ed95108589a67fbb919bd6", "t": "GetZeroTimestampPeriod", "n": 427, "laws": 0, "ts": "2026-07-28 19:05 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioobject/setelementnumbername", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SetElementNumberName", "n": 0, "laws": 0, "ts": "2026-07-28 19:07 UTC"}

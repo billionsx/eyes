@@ -1679,3 +1679,113 @@
 {"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "If you don’t implement or configure scenes dynamically, UIKit uses the information in your app’s file to create your scenes."}
 {"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "In an app that doesn’t use the scene life-cycle objects, the app delegate object handles transitions to the foreground or background."}
 {"id": "/documentation/UIKit/drag-and-drop", "law": "You don’t need to perform additional configuration like setting special entitlements or keys."}
+{"id": "/documentation/UIKit/CGAffineTransformFromString", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/UIKit/CGPointFromString", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/UIKit/CGRectFromString", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/UIKit/CGSizeFromString", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/UIKit/CGVectorFromString", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/UIKit/UIEdgeInsetsFromString", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/UIKit/UIOffsetFromString", "law": "In general, you should use this function only to convert strings that were previously created using the function."}
+{"id": "/documentation/UIKit/UISceneSizeRestrictions", "law": "Don’t create a object yourself."}
+{"id": "/documentation/UIKit/UISceneSizeRestrictions", "law": "Instead, fetch an existing one from the property of your window scene, and modify its properties to set the minimum and maximum window sizes: The system provides this object only when it supports variable-sized windows."}
+{"id": "/documentation/UIKit/UISceneSizeRestrictions", "law": "An object that specifies the minimum and maximum sizes for resizable windows."}
+{"id": "/documentation/UIKit/multitasking-on-ipad-mac-and-apple-vision-pro", "law": "The first step in creating a great multitasking experience for people is to ensure your app’s scenes can adapt to different window sizes."}
+{"id": "/documentation/UIKit/multitasking-on-ipad-mac-and-apple-vision-pro", "law": "Since people can resize your app’s window, set a minimum size for your window with ."}
+{"id": "/documentation/UIKit/multitasking-on-ipad-mac-and-apple-vision-pro", "law": "To observe a scene’s geometry changing, use and compare the of both geometries."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "By default, Xcode preconfigures new projects to use scenes with the role."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "Choose the view controller whose content the external display supplements, then pass a that identifies the scene delegate to use, either by setting its directly or by giving it a name that matches a configuration in your information property list scene manifest."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "Use the to control and observe the accessory: Set to to stop presenting your content without giving up the registration, and set it back to to resume."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "Use the method and the session object it provides to configure and attach a window to the scene."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "Use this method to perform any final cleanup and update the content other scenes present, when necessary."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "If you use information from a object, obtain it contextually using a windows scene’s property."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "Use the scene delegate’s method if your app needs to know when a scene is changing screens."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "Many displays support multiple resolutions, some of which use different pixel aspect ratios."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "Screen objects use the most common screen mode by default, but they support changing that mode when they display content for a scene with the role."}
+{"id": "/documentation/UIKit/presenting-content-on-a-connected-display", "law": "For example, if you’re implementing a game using textures for a 640 x 480 pixel screen, you might change the screen mode for screens with higher default resolutions."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "By default, Xcode preconfigures new projects to use scenes with the role."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "Choose the view controller whose content the external display supplements, then pass a that identifies the scene delegate to use, either by setting its directly or by giving it a name that matches a configuration in your information property list scene manifest."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "Use the to control and observe the accessory: Set to to stop presenting your content without giving up the registration, and set it back to to resume."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "Use the method and the session object it provides to configure and attach a window to the scene."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "Use this method to perform any final cleanup and update the content other scenes present, when necessary."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "If you use information from a object, obtain it contextually using a windows scene’s property."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "Use the scene delegate’s method if your app needs to know when a scene is changing screens."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "Many displays support multiple resolutions, some of which use different pixel aspect ratios."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "Screen objects use the most common screen mode by default, but they support changing that mode when they display content for a scene with the role."}
+{"id": "/documentation/uikit/presenting-content-on-a-connected-display", "law": "For example, if you’re implementing a game using textures for a 640 x 480 pixel screen, you might change the screen mode for screens with higher default resolutions."}
+{"id": "/documentation/uikit/providing-data-to-the-view-hierarchy-with-custom-traits", "law": "Use a custom trait to pass application data, such as a color theme that a person selects in your app, through the objects in your view hierarchy that adopt ."}
+{"id": "/documentation/uikit/providing-data-to-the-view-hierarchy-with-custom-traits", "law": "Avoid using custom traits for data that you can pass directly between view controllers and views."}
+{"id": "/documentation/uikit/providing-data-to-the-view-hierarchy-with-custom-traits", "law": "To create a custom trait, define a type that conforms to : is the only required static property."}
+{"id": "/documentation/uikit/providing-data-to-the-view-hierarchy-with-custom-traits", "law": "First, extend with a property to get the value of your custom trait from a trait collection: Next, extend to get and set the value of your custom trait: Then, use standard property syntax to access and update your custom trait:"}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "Add support for scenes to your app to receive scene-specific life-cycle events that UIKit provides, and use scene objects and methods to manage your user interface."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "For each copy of your app’s UI, you use a scene object to manage the window, views, and view controllers that present the UI onscreen."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "Supporting multiple scenes requires extra work on your part to ensure that your scenes don’t interfere with each other."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "For example, if your scenes use the same shared data structures, they must coordinate access to those structures to preserve the integrity of your app’s data."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "UIKit requires the following information for each scene: The class name of the scene, which is ."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "The class must adopt the protocol."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "Don’t forget to designate an initial view controller in your storyboard."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "You might use this method to adjust the scene configuration based on the options that UIKit provides."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "If you don’t implement or configure scenes dynamically, UIKit uses the information in your app’s file to create your scenes."}
+{"id": "/documentation/uikit/specifying-the-scenes-your-app-supports", "law": "In an app that doesn’t use the scene life-cycle objects, the app delegate object handles transitions to the foreground or background."}
+{"id": "/documentation/uikit/supporting-multiple-windows-on-ipad", "law": "To support multiple windows, the app’s requires a manifest or , which contains information about the app’s scene-based life-cycle support."}
+{"id": "/documentation/uikit/supporting-multiple-windows-on-ipad", "law": "The presence of this key indicates that the app supports scenes and doesn’t use an app delegate object to manage transitions to and from the foreground or background."}
+{"id": "/documentation/uikit/supporting-multiple-windows-on-ipad", "law": "The sample app restores the scene to its previous state through the use of ."}
+{"id": "/documentation/uikit/supporting-multiple-windows-on-ipad", "law": "The must be included in the app’s under the array."}
+{"id": "/documentation/uikit/supporting-multiple-windows-on-ipad", "law": "Both approaches use the following code to create a new window scene."}
+{"id": "/documentation/uikit/supporting-multiple-windows-on-ipad", "law": "Through the use of a unique , the app can distinguish which new scene to create in : Support side-by-side instances of your app’s interface and create new windows."}
+{"id": "/documentation/uikit/transitioning-to-the-uikit-scene-based-life-cycle", "law": "Adopting the scene-based life cycle is required."}
+{"id": "/documentation/uikit/transitioning-to-the-uikit-scene-based-life-cycle", "law": "Beginning in iOS 27, iPadOS 27, Mac Catalyst 27, tvOS 27, and visionOS 27, apps built with the latest SDK must adopt the scene-based life cycle or they fail to launch."}
+{"id": "/documentation/uikit/transitioning-to-the-uikit-scene-based-life-cycle", "law": "If your app requires dynamic scene configurations — such as customizing scenes based on user activities, or handling different scene roles — implement in your app delegate instead."}
+{"id": "/documentation/uikit/transitioning-to-the-uikit-scene-based-life-cycle", "law": "For example: Supporting multiple scenes is optional, and may require restructuring your app’s data model to be scene-specific."}
+{"id": "/documentation/uikit/transitioning-to-the-uikit-scene-based-life-cycle", "law": "If your app adopts scenes for CarPlay, use instead."}
+{"id": "/documentation/uikit/transitioning-to-the-uikit-scene-based-life-cycle", "law": "If your app doesn’t present custom content on an external display, you don’t need to configure anything for this scene role."}
+{"id": "/documentation/uikit/uiscenesizerestrictions", "law": "Don’t create a object yourself."}
+{"id": "/documentation/uikit/uiscenesizerestrictions", "law": "Instead, fetch an existing one from the property of your window scene, and modify its properties to set the minimum and maximum window sizes: The system provides this object only when it supports variable-sized windows."}
+{"id": "/documentation/uikit/uiscenesizerestrictions", "law": "An object that specifies the minimum and maximum sizes for resizable windows."}
+{"id": "/documentation/uikit/uiscreenshotservice", "law": "You don’t create a object directly."}
+{"id": "/documentation/uikit/uistatusbarmanager", "law": "Use a object to get the current configuration of the status bar for its associated scene."}
+{"id": "/documentation/uikit/uistatusbarmanager", "law": "You don’t create objects directly."}
+{"id": "/documentation/uikit/uistatusbarmanager", "law": "You don’t use this object to modify the configuration of the status bar."}
+{"id": "/documentation/uikit/uititlebar", "law": "You use this object to configure the title bar and its toolbar."}
+{"id": "/documentation/uikit/uititlebar", "law": "An object that you use to configure the title bar of a window in a Mac app built with Mac Catalyst."}
+{"id": "/documentation/uikit/uitraitchangeobservable-7qoet", "law": "Keep your trait registrations focused, and avoid doing work not directly relevant to updated traits."}
+{"id": "/documentation/uikit/uitraitchangeobservable-7qoet", "law": "Traits may change more than once before the system updates a view, so avoid expensive work in response to trait changes."}
+{"id": "/documentation/uikit/uitraitchangeobservable-7qoet", "law": "For example, use the trait change notification to call , and update your view in ."}
+{"id": "/documentation/uikit/uitraitoverrides-c.protocol", "law": "A mutable container of traits you use to set trait changes for an object and its descendants."}
+{"id": "/documentation/uikit/uitraitoverrides-swift.struct", "law": "A mutable container of traits you use to set trait changes for an object and its descendants."}
+{"id": "/documentation/uikit/uiwindowscene", "law": "Use the delegate object or notification observers to respond to any changes."}
+{"id": "/documentation/uikit/uiwindowscene", "law": "Don’t create window scene objects directly."}
+{"id": "/documentation/uikit/uiwindowscene/activationaction", "law": "The closure should return a object."}
+{"id": "/documentation/uikit/uiwindowscene/activationaction", "law": "You can specify an alternate action to display on iPhone and apps that don’t support multiple windows."}
+{"id": "/documentation/uikit/uiwindowscene/activationconfiguration", "law": "Use a object to request a new window scene from the system."}
+{"id": "/documentation/uikit/uiwindowscene/activationconfiguration", "law": "An activation configuration requires a object that represents the scene’s content."}
+{"id": "/documentation/uikit/uiwindowscene/activationconfiguration", "law": "To request scene activation from a view interaction, use an instance of this class with ."}
+{"id": "/documentation/uikit/uiwindowscene/activationconfiguration", "law": "To request scene activation from a context menu, use an instance of this class with ."}
+{"id": "/documentation/uikit/uiwindowscene/activationinteraction", "law": "The closure should return a object."}
+{"id": "/documentation/uikit/uiwindowscene/activationinteraction", "law": "To request scene activation from an interaction with a cell, use the method."}
+{"id": "/documentation/uikit/uiwindowscene/activationrequestoptions", "law": "Use this object to specify the preferred presentation style of the new scene."}
+{"id": "/documentation/uikit/uiwindowscene/activationrequestoptions", "law": "An object that contains information you want the system to use when activating a new window scene."}
+{"id": "/documentation/uikit/uiwindowscene/activityitemsconfigurationsource", "law": "If you don’t provide a in either of these ways, the system may fall back to sharing either the of your app’s current user activity or a screenshot of the scene."}
+{"id": "/documentation/uikit/uiwindowscene/coordinatespace", "law": "Use the provided coordinate space to get the bounds of the scene’s bounds rectangle and to convert points and rectangles to and from other coordinate spaces."}
+{"id": "/documentation/uikit/uiwindowscene/coordinatespace", "law": "For example, use to convert a point in the scene to the screen coordinate space."}
+{"id": "/documentation/uikit/uiwindowscene/effectivegeometry", "law": "Observing is the recommended way to receive notifications of changes to the window scene’s geometry."}
+{"id": "/documentation/uikit/uiwindowscene/geometrypreferences/ios", "law": "Use this class to express iOS-specific geometry preferences when you call ."}
+{"id": "/documentation/uikit/uiwindowscene/geometrypreferences/mac", "law": "Use this class to express macOS-specific geometry preferences when you call ."}
+{"id": "/documentation/uikit/uiwindowscene/interfaceorientation", "law": "For example, the interface orientation does not always match the device orientation when the user enables rotation lock for the device."}
+{"id": "/documentation/uikit/uiwindowscene/interfaceorientation", "law": "The orientation to use when displaying content in your windows."}
+{"id": "/documentation/uikit/uiwindowscene/requestgeometryupdate(_:errorhandler:)", "law": "Use this method to explicitly request geometry changes to the window scene."}
+{"id": "/documentation/uikit/uiwindowscene/screenshotservice", "law": "Your delegate object must conform to the protocol."}
+{"id": "/documentation/uikit/uiwindowscene/sizerestrictions", "law": "When the value of this property is not , use it to change the default minimum and maximum window sizes for your app."}
+{"id": "/documentation/uikit/uiwindowscene/sizerestrictions", "law": "The minimum and maximum size of the app’s windows."}
+{"id": "/documentation/uikit/uiwindowscene/statusbarmanager", "law": "Use this object to get details about the status bar, such as whether it’s hidden."}
+{"id": "/documentation/uikit/uiwindowscene/titlebar", "law": "Use this property to configure the title bar displayed across the top of a window in your Mac app built with Mac Catalyst."}
+{"id": "/documentation/uikit/uiwindowscene/traitcollection", "law": "Use this property to get additional information about the current scene, such as the size class and scale factor."}
+{"id": "/documentation/uikit/uiwindowscene/windowingbehaviors", "law": "For Mac apps built with Mac Catalyst, use this property to specify whether the scene’s window displays minimize and close buttons."}
+{"id": "/documentation/uikit/uiwindowscene/windows", "law": "Use this property to retrieve the windows associated with the scene."}
+{"id": "/documentation/uikit/uiwindowscenedestructionrequestoptions", "law": "Use this object to specify the dismissal animations to apply to the scene’s UI, if that UI is onscreen."}
+{"id": "/documentation/uikit/uiwindowscenedestructionrequestoptions", "law": "An object that contains information to use when removing a window scene from your app."}
+{"id": "/documentation/UIKit/UIDevice", "law": "Use a object to get information about the device such as assigned name, device model, and operating-system name and version."}
+{"id": "/documentation/UIKit/UIDevice", "law": "You also use the instance to detect changes in the device’s characteristics, such as physical orientation."}
+{"id": "/documentation/UIKit/UIDevice", "law": "Before using either of these techniques to get orientation data, you must enable data delivery using the method."}
+{"id": "/documentation/UIKit/UIDevice", "law": "Similarly, you can use the instance to obtain information and notifications about changes to the battery’s charge state (described by the property) and charge level (described by the property)."}
+{"id": "/documentation/UIKit/UIDevice", "law": "You can also use the instance method to play keyboard input clicks in custom input and keyboard accessory views."}
+{"id": "/documentation/UIKit/handling-key-presses-made-on-a-physical-keyboard", "law": "Use to determine the text value of the key, and whether the responder should handle the key press or not."}

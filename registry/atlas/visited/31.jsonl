@@ -57,3 +57,9 @@
 {"id": "/documentation/appkit/nsdocument/undomanager", "sha": "a30563292a29dc5e21b74cc4b6f90419b50991b2d9d536484d8d8df8cf973591", "t": "undoManager", "n": 546, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
 {"id": "/documentation/appkit/nstextview/togglecontinuousspellchecking(_:)", "sha": "907efb2140b7cd9945d7f55d9d48e40d2f17ade5c1cf9a04fdf3319490c742e5", "t": "toggleContinuousSpellChecking(_:)", "n": 70, "laws": 0, "ts": "2026-07-28 05:56 UTC"}
 {"id": "/documentation/appkit/nstextview/writeselection(to:types:)", "sha": "2d1138c3c7713ca0a1ff04b677b97f92e73d373a6413c37ae7003e958b22b4e3", "t": "writeSelection(to:types:)", "n": 470, "laws": 1, "ts": "2026-07-28 05:56 UTC"}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-5sk4z", "sha": "82cc09bf4c9ff0e002007ab61a0f610e0a384a128d854fedcc8a60bd04d13cb8", "t": "encode(_:forKey:)", "n": 150, "laws": 1, "ts": "2026-07-28 18:44 UTC"}
+{"id": "/documentation/appkit/nstableview/column(at:)", "sha": "6bf3ed07d089c3051ebc7c3edc1388d4d3de4a7153d0bf4618c3c60354261dd7", "t": "column(at:)", "n": 166, "laws": 0, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/appkit/nstableview/tablecolumn(withidentifier:)", "sha": "f08f17d532c05d76965b200ef00af2957fcb241adc786482419268d6e0f2e332", "t": "tableColumn(withIdentifier:)", "n": 249, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/swift/cfloat16", "sha": "b076ecd2102687488d23509d13e958fda3da267afa697e75e32ce2d2c7a17742", "t": "CFloat16", "n": 22, "laws": 0, "ts": "2026-07-28 19:02 UTC"}
+{"id": "/documentation/applemapsserverapi/-v1-geocode", "sha": "560e759a45d51f28f2e4c07acc9c5f20e3e0e6f4ff1939a33473a2bdffcb8678", "t": "Geocode an address", "n": 1724, "laws": 5, "ts": "2026-07-28 19:02 UTC"}
+{"id": "/documentation/driverkit/osactionabortedhandler", "sha": "5dadc60683e2ce719c5e6be498ef0d1c46b7cee980d38e5a712ff46693d5847d", "t": "OSActionAbortedHandler", "n": 51, "laws": 0, "ts": "2026-07-28 19:04 UTC"}

@@ -8,3 +8,10 @@
 {"id": "/documentation/mapkitjs/mapkit", "law": "Similar to for apps, you can use MapKit JS to display interactive maps with customized annotations and overlays, and provide directions and search services."}
 {"id": "/documentation/mapkitjs/mapkit/importgeojson", "law": "If the data argument is a GeoJSON object instead of a URL and you don’t provide a function, returns an ."}
 {"id": "/documentation/mapkitjs/mapkit/importgeojson", "law": "You must load the library first before accessing the method, otherwise, the method throws an ."}
+{"id": "/documentation/MapKitJS/creating-a-maps-token", "law": "You create a Maps token through your , and then use the token to access MapKit JS services for displaying maps and points of interest on them."}
+{"id": "/documentation/MapKitJS/creating-a-maps-token", "law": "Use your new token to access MapKit JS services through ."}
+{"id": "/documentation/MapKitJS/creating-a-maps-token", "law": "This invalidates the token and you can no longer use it with MapKit JS."}
+{"id": "/documentation/MapKitJS/creating-a-maps-token", "law": "You must also set an value."}
+{"id": "/documentation/MapKitJS/handling-initialization-events", "law": "Unless you wish to explicitly control initialization timing in JavaScript, use instead of handling initialization events directly."}
+{"id": "/documentation/MapKitJS/handling-initialization-events", "law": "The example below shows a common use case: Respond to events that trigger when MapKit JS initializes."}
+{"id": "/documentation/MapKitJS/mapkit", "law": "Similar to for apps, you can use MapKit JS to display interactive maps with customized annotations and overlays, and provide directions and search services."}

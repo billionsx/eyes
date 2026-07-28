@@ -69,3 +69,5 @@
 {"id": "/documentation/appkit/nstoolbar/allowsdisplaymodecustomization", "sha": "4e296239415f7dd4a1380bdb0ede098ffe77b5958a079074a9a748413c1f830c", "t": "allowsDisplayModeCustomization", "n": 404, "laws": 0, "ts": "2026-07-28 05:58 UTC"}
 {"id": "/documentation/appkit/nsoutlineview/delegate", "sha": "06587db38b34213491b15ece6d84b0e5b32726163660ba8c4e21c0e27063fc8c", "t": "delegate", "n": 209, "laws": 1, "ts": "2026-07-28 06:01 UTC"}
 {"id": "/documentation/appkit/nssplitview/willresizesubviewsmessage", "sha": "de2d5981cdc952176ab79ece9826225581d44afd6d33826ccdd33b8e5078e14a", "t": "NSSplitView.WillResizeSubviewsMessage", "n": 117, "laws": 0, "ts": "2026-07-28 06:03 UTC"}
+{"id": "/documentation/appkit/nstableview/rowactionsvisible", "sha": "9d9bce6be0bcee02d58d6744f38eb23f4da692f8dc5f5c145860c06d10322331", "t": "rowActionsVisible", "n": 393, "laws": 0, "ts": "2026-07-28 18:52 UTC"}
+{"id": "/documentation/audiotoolbox/scheduledaudioslicecompletionproc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "ScheduledAudioSliceCompletionProc", "n": 0, "laws": 0, "ts": "2026-07-28 19:03 UTC"}

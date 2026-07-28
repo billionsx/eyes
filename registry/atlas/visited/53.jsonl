@@ -58,3 +58,8 @@
 {"id": "/documentation/appkit/nstextview/togglebasewritingdirection:", "sha": "138b58f6b2b469127ef155e96010f9e8794ddc53ed8521199ddb9734e6eb08c7", "t": "toggleBaseWritingDirection:", "n": 90, "laws": 0, "ts": "2026-07-28 05:56 UTC"}
 {"id": "/documentation/swiftui/view/linelimit(_:)", "sha": "ede0126181465fd8e28f55faea5877da98ba34c44b027cb67222c8fcd31d5801", "t": "lineLimit(_:)", "n": 312, "laws": 1, "ts": "2026-07-28 05:56 UTC"}
 {"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:sortdescriptorsdidchange:)", "sha": "c6f6255119d8a4996eb2df7363b2f54f53868b0342d04c7173f2711b20eb7a87", "t": "outlineView(_:sortDescriptorsDidChange:)", "n": 390, "laws": 0, "ts": "2026-07-28 06:02 UTC"}
+{"id": "/documentation/UIKit/CGPointFromString", "sha": "3d834f4db2740dc3444686717d9b8dbaf35ee78cc47f953deca5eb9cdaa782aa", "t": "CGPointFromString", "n": 336, "laws": 1, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/appkit/nsuserinterfaceitemidentification/identifier", "sha": "e7330f913426b4d3c43ae1a509b4e0d68a0c5ee420034fa89ca88a2a91e84c2d", "t": "identifier", "n": 1244, "laws": 6, "ts": "2026-07-28 18:45 UTC"}
+{"id": "/documentation/appkit/nstableview/columnsinrect:", "sha": "fb9dc070469e8fa3d3d2803dfadd29edcb48896c383f5fe43db43da551b59019", "t": "columnsInRect:", "n": 464, "laws": 0, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/system/filepath/append(_:)-66nkr", "sha": "ac12c21be5ce09208b2c02fad500ca9a4692ffed7a0468c57b19d35ea285c1d3", "t": "append(_:)", "n": 57, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
+{"id": "/documentation/coreaudiotypes/audiostreambasicdescription/mformatflags", "sha": "e3a0b8e2c936af01f8c7ddf649167dc5fed4899af4fb616e9c81d8230e5c090c", "t": "mFormatFlags", "n": 105, "laws": 0, "ts": "2026-07-28 19:08 UTC"}

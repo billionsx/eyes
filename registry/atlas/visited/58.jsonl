@@ -54,3 +54,6 @@
 {"id": "/documentation/appkit/nstextview/setbasewritingdirection(_:range:)", "sha": "c74f7bda8bbe769bb03c85c6fbe57fe994588ed8e9e537890cc97d852a3a9764", "t": "setBaseWritingDirection(_:range:)", "n": 331, "laws": 1, "ts": "2026-07-28 05:55 UTC"}
 {"id": "/documentation/appkit/nstextview/smartinsert(for:replacing:before:after:)", "sha": "5c74bd3f92b4a95511e19790c00bb5cd8b0fa310bf7926b28ffb480290014d91", "t": "smartInsert(for:replacing:before:after:)", "n": 509, "laws": 1, "ts": "2026-07-28 05:55 UTC"}
 {"id": "/documentation/appkit/nsviewtooltipowner", "sha": "48b1948358cb8d22ad960788e17077e4facacd3712a7633324de54c45803e202", "t": "NSViewToolTipOwner", "n": 381, "laws": 0, "ts": "2026-07-28 06:01 UTC"}
+{"id": "/documentation/appkit/nstableview/selectedrowindexes", "sha": "1f27d74ee2d594d567cf52510c1faf1b5f44c7ac342a8c86361b548f2339f5f3", "t": "selectedRowIndexes", "n": 57, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/appkit/nstableviewdatasource/numberofrows(in:)", "sha": "db7c3d7880cbbc5b60da472d20cd6a750dcf058c38cee974490a6e9853a19213", "t": "numberOfRows(in:)", "n": 477, "laws": 3, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/audiotoolbox/audiotoolbox-constants", "sha": "4ce6ffbe20df1721c3ef622fb1dd67cd217df7c44a0e27e5faa1c63cef6aab20", "t": "AudioToolbox Constants", "n": 153, "laws": 0, "ts": "2026-07-28 19:09 UTC"}

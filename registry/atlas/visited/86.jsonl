@@ -72,3 +72,7 @@
 {"id": "/documentation/appkit/nstoolbar/identifier-swift.typealias", "sha": "f7e10466b8511dbc34b9cd6b6f177cf964732675de9437234c26722d634ce1d9", "t": "NSToolbar.Identifier", "n": 271, "laws": 1, "ts": "2026-07-28 05:59 UTC"}
 {"id": "/documentation/appkit/nsoutlineview/parent(foritem:)", "sha": "e1d2dd51ae05f603de0511bfe8c872bb926be0dbc28cf945bd21800bb7d552c2", "t": "parent(forItem:)", "n": 99, "laws": 0, "ts": "2026-07-28 06:02 UTC"}
 {"id": "/documentation/appkit/nssplitviewitem/unspecifieddimension", "sha": "2b2666ccfa8c024e1eef4b15afbb5ab9cc148b8f0e4b9f236b07edb58d627d27", "t": "unspecifiedDimension", "n": 159, "laws": 1, "ts": "2026-07-28 06:04 UTC"}
+{"id": "/documentation/foundation/nscoder/cgpoint(for:)", "sha": "3d834f4db2740dc3444686717d9b8dbaf35ee78cc47f953deca5eb9cdaa782aa", "t": "cgPoint(for:)", "n": 336, "laws": 1, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/appkit/nscollectionviewdelegateflowlayout", "sha": "b255879d86c0101040af3ff8a1f4f0d0dac1db5f78cbca16501d2bab12e24fd4", "t": "NSCollectionViewDelegateFlowLayout", "n": 1076, "laws": 1, "ts": "2026-07-28 18:46 UTC"}
+{"id": "/documentation/appkit/nscollectionviewprefetching", "sha": "3faa0114f4c51c2ba366505e53f83412d9ce164687b965fe936af5213fdb0fdf", "t": "NSCollectionViewPrefetching", "n": 103, "laws": 0, "ts": "2026-07-28 18:48 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/settransporttype", "sha": "a14d61c9913879b5e80fc00e51f82111e38335e6b24f2ebcc4e46c7546e6892d", "t": "SetTransportType", "n": 331, "laws": 0, "ts": "2026-07-28 19:05 UTC"}

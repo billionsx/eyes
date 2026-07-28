@@ -59,3 +59,7 @@
 {"id": "/documentation/appkit/nsdocument/duplicate(_:)", "sha": "5ffec341695affe76a8e5823c2ee796b441af971193da8c65b9168f1615e82f5", "t": "duplicate(_:)", "n": 176, "laws": 0, "ts": "2026-07-28 05:39 UTC"}
 {"id": "/documentation/appkit/nsdocument/unlock(_:)", "sha": "bc42d16066336637adffa2cd5c83d4f09a4d783c0c81a1c9d5a46eaabc69d101", "t": "unlock(_:)", "n": 207, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
 {"id": "/documentation/appkit/nswindow/willexitversionbrowsernotification", "sha": "a0c2be65bdd83a49e56d972a273a5578b0c1923bf5c3713955f8b6fd49d02e71", "t": "willExitVersionBrowserNotification", "n": 266, "laws": 1, "ts": "2026-07-28 05:50 UTC"}
+{"id": "/documentation/appstoreconnectapi/apppricepointv3response", "sha": "23ead38aa3f56671ae12def11a8204d87c95005bb96634dc78e5336de2b1f7a3", "t": "AppPricePointV3Response", "n": 97, "laws": 0, "ts": "2026-07-28 18:56 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/windowingbehaviors", "sha": "0bbe1e8168641d8452462e71c70b00daf27929755efe42cce08d22fb84c8b8b5", "t": "windowingBehaviors", "n": 241, "laws": 1, "ts": "2026-07-28 18:58 UTC"}
+{"id": "/documentation/applearchive/archivestreamprotocol", "sha": "85e9bfde99c8b61fc0652704646fc46ab61c13220014590714237b58e61ea85f", "t": "ArchiveStreamProtocol", "n": 291, "laws": 0, "ts": "2026-07-28 19:01 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioobject/addcustomproperty", "sha": "ac226b7277391b951538f1e171c9f2532546cea941c91688a7e14ca4e5ed7990", "t": "AddCustomProperty", "n": 141, "laws": 0, "ts": "2026-07-28 19:07 UTC"}

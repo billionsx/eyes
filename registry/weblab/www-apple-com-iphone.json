@@ -28,21 +28,22 @@
   "name:iphone compatibility",
   "name:router"
  ],
- "imgs": 213,
+ "imgs": 217,
  "videos": 0,
- "cta": 134,
+ "cta": 138,
  "h_levels": {
   "1": 1,
   "2": 41,
-  "3": 75,
+  "3": 77,
   "4": 56
  },
  "css": [
   "/api-www/global-elements/global-header/v1/assets/globalheader.css",
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
-  "/v/iphone/home/cj/built/styles/overview.built.css",
-  "/ac/ac-films/7.5.1/styles/modal.css"
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/iphone/home/cj/built/styles/overview.built.css"
  ],
  "typography_laws": 2
 }

@@ -12,6 +12,7 @@
   "section-ar",
   "section-decarbonizing",
   "section-values-router",
+  "section-apple-upgrade",
   "section-trade-in",
   "section-compare"
  ],
@@ -37,26 +38,27 @@
   "name:ar",
   "name:environment gallery",
   "name:values gallery",
+  "name:apple upgrade",
   "name:trade in",
   "name:compare",
   "name:buy strip"
  ],
- "imgs": 106,
+ "imgs": 108,
  "videos": 10,
  "cta": 26,
  "h_levels": {
   "1": 1,
-  "2": 21,
-  "3": 29,
+  "2": 22,
+  "3": 30,
   "4": 4
  },
  "css": [
   "/api-www/global-elements/global-header/v1/assets/globalheader.css",
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
-  "/v/ipad-mini/v/built/styles/main.built.css",
-  "/v/ipad-mini/v/built/styles/overview.built.css",
-  "/v/ipad/shared/compare/r/built/styles/overview.built.css"
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ipad-mini/v/built/styles/main.built.css"
  ],
  "typography_laws": 2
 }

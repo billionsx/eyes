@@ -69,3 +69,5 @@
 {"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:)", "sha": "643f30ed76078bdac73cffb537cf3890f7709fbd455ebd4713539219220d130a", "t": "encodeRestorableState(with:)", "n": 1018, "laws": 5, "ts": "2026-07-28 05:39 UTC"}
 {"id": "/documentation/appkit/nswindow/minfullscreencontentsize", "sha": "77c05d164932bd637c9acffcfef9893892358c635a30f5d88c85e2cde62fe5cf", "t": "minFullScreenContentSize", "n": 706, "laws": 3, "ts": "2026-07-28 05:47 UTC"}
 {"id": "/documentation/appkit/nswindow/saveframe(usingname:)", "sha": "3e3528537dce1f2e0b8d0749aa185029e296a402df2743f4f7fec1fc483da15d", "t": "saveFrame(usingName:)", "n": 303, "laws": 0, "ts": "2026-07-28 05:48 UTC"}
+{"id": "/documentation/appkit/nstabview/tabviewitem(at:)-8gnqw", "sha": "318d99e74315ebfdb6016987936cff99eb8bc32f2ed2bd08d0acf918081e1cee", "t": "tabViewItem(at:)", "n": 244, "laws": 1, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/appstoreconnectapi/subscription-app-store-review-screenshots", "sha": "e614f9afedf9ce4f1721173291ac596afa93bd6b6eba2f0dc6909c9b1d1f5711", "t": "Subscription App Store Review Screenshots", "n": 528, "laws": 0, "ts": "2026-07-28 18:57 UTC"}

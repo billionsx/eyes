@@ -66,3 +66,7 @@
 {"id": "/documentation/appkit/nswindow/isdocumentedited", "sha": "e9a67b72c481754804b87c39c415e5642fe62c0a071f40611ba860cf491dae04", "t": "isDocumentEdited", "n": 612, "laws": 2, "ts": "2026-07-28 05:47 UTC"}
 {"id": "/documentation/appkit/nstextview/backgroundcolor", "sha": "a17be7d88f83d387af2e21ae3879d6e1cd86570c54bb6cafc090649a224545cd", "t": "backgroundColor", "n": 32, "laws": 0, "ts": "2026-07-28 05:52 UTC"}
 {"id": "/documentation/appkit/nstextview/writingtoolsbehavior", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "writingToolsBehavior", "n": 0, "laws": 0, "ts": "2026-07-28 05:56 UTC"}
+{"id": "/documentation/appkit/nstabview/selecttabviewitem(withidentifier:)", "sha": "25363d53db30123d279cac10eef72679eb2eabe27fd38574dd48137157be4e16", "t": "selectTabViewItem(withIdentifier:)", "n": 40, "laws": 0, "ts": "2026-07-28 18:41 UTC"}
+{"id": "/documentation/appkit/nscollectionview/numberofsections", "sha": "5e569b1eceaa77e9e789986bd08f8c6fbcee8271db72f19f52aa1ad588196784", "t": "numberOfSections", "n": 232, "laws": 1, "ts": "2026-07-28 18:47 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/windows", "sha": "588ef61154702f40a770196c9ba65e91b0950ec018e779795cda9bc4f370a63f", "t": "windows", "n": 242, "laws": 1, "ts": "2026-07-28 18:58 UTC"}
+{"id": "/documentation/system/filepath/stat(followtargetsymlink:retryoninterrupt:)", "sha": "91ec046ad2985192efbcd6c7de1f29f657cbe1bfd55c6181c114a2a266767e79", "t": "stat(followTargetSymlink:retryOnInterrupt:)", "n": 319, "laws": 0, "ts": "2026-07-28 19:00 UTC"}

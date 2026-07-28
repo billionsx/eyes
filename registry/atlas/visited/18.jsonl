@@ -49,3 +49,5 @@
 {"id": "/documentation/appkit/nswindow/showstoolbarbutton", "sha": "e81edfe5f3c7e85161e8e6574725bdadc91a2a065875ff20cf415d73a49d5c70", "t": "showsToolbarButton", "n": 405, "laws": 0, "ts": "2026-07-28 05:49 UTC"}
 {"id": "/documentation/appkit/nstextview/fieldeditor()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "fieldEditor()", "n": 0, "laws": 0, "ts": "2026-07-28 05:53 UTC"}
 {"id": "/documentation/appkit/browser-view", "sha": "448dabd50a8aeab334cff9773465415683ab1ea7e191ec1b0f539bfff2cc42b9", "t": "Browser View", "n": 160, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nstableview/setdrawsgrid:", "sha": "a18df1baf0e0e533426ea224acd7044f771d154d16989910380faba48cc911b4", "t": "setDrawsGrid:", "n": 41, "laws": 0, "ts": "2026-07-28 18:53 UTC"}
+{"id": "/documentation/coreaudiotypes/audioformatid", "sha": "cce9d529f9950d7aecd6470672b4f8dcbcf9ec1dd37442ca45359e915237a6ec", "t": "AudioFormatID", "n": 47, "laws": 0, "ts": "2026-07-28 19:08 UTC"}

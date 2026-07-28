@@ -21,3 +21,66 @@
 {"id": "/documentation/audiodriverkit/iouseraudiodevice/stopio", "law": "The framework expects this call to always succeed or fail."}
 {"id": "/documentation/audiodriverkit/iouseraudiodriver", "law": "The driver extension must have the entitlement."}
 {"id": "/documentation/audiodriverkit/iouseraudioobject", "law": "Don’t subclass or instantiate directly."}
+{"id": "/documentation/audiodriverkit/audiodriverkit/iouseraudioreservedconfigchangeaction", "law": "Identifiers for object state changes that require a configuration change."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "Use a reverse-DNS format for your identifiers, as described in ."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "iPadOS also requires that your driver’s bundle identifier begin with the host app’s bundle identifier."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "In , make sure the string concatentation that initializes matches the bundle identifer for the driver."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "Although this simplifies running the sample code, in your own apps you may prefer to use ."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "If you don’t intend for your driver to allow user client connections, just use the entitlement."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "When creating the driver’s profile, be sure to select DriverKit App Development as the profile type."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "To run the sample app in macOS, use the scheme selector to select the SimpleAudio (macOS) scheme and the My Mac destination."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "When installation completes, the Driver Manager status in the app displays the message “SimpleAudioDriver has been activated and is ready to use.” At this point, the sample’s audio device is available to Core Audio."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "To inspect the newly installed device, use the Audio MIDI Setup app ( ), which shows the sine tone’s frequency and sample rate."}
+{"id": "/documentation/audiodriverkit/creating-an-audio-device-driver", "law": "Then you can use the other buttons in this section to toggle the frequency and sample rate."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/create", "law": "If you subclass to override this class’ behavior, don’t use to allocate and initialize the custom subclass."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/setwantscontrolsrestored", "law": "Setter on the device object that tells the host that the controls for the device should or should not be saved/restored when the device is first published."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/setwantscontrolsrestored", "law": "If the device doesn’t implement this property, it is assumed that the settings should be saved and restored."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/setwantscontrolsrestored", "law": "Note that this should be set before the device is published to the host"}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/startio", "law": "The default implementation always returns ."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/startio", "law": "The framework expects this call to always succeed or fail."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/startio", "law": "The hardware can take as long as it needs in this call, provided it always either succeeds or fails."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/stopio", "law": "The default implementation always returns ."}
+{"id": "/documentation/audiodriverkit/iouseraudioclockdevice/stopio", "law": "The framework expects this call to always succeed or fail."}
+{"id": "/documentation/audiodriverkit/audiodriverkit/iouseraudiochannellabel", "law": "These channel labels attempt to list all labels in common use."}
+{"id": "/documentation/audiodriverkit/audiodriverkit/iouseraudiochannellabel", "law": "Use the label which most clearly describes what you mean."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/canbedefaultinputdevice", "law": "if the host can use this device as the default input device."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/canbedefaultoutputdevice", "law": "if the host can use this device as the default output device."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/canbedefaultsystemoutputdevice", "law": "if the system can use this device as the default output device."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/create", "law": "If you subclass to override this class’ behavior, don’t use to allocate and initialize the custom subclass."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/performdeviceconfigurationchange", "law": "This call can result from a call to or a from change to an I/O state that requires a configuration change."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/setwantsstreamformatsrestored", "law": "Setter on the device object that tells the host that the stream formats for the device should or should not be saved/restored when the device is first published."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/setwantsstreamformatsrestored", "law": "If the device doesn’t implement this property, it is assumed that the settings should be saved and restored."}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/setwantsstreamformatsrestored", "law": "Note that this should be set before the device is published to the host."}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/startio", "law": "The default implementation always returns ."}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/startio", "law": "The framework expects this call to always succeed or fail."}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/startio", "law": "The hardware can take as long as it needs in this call, provided it always either succeeds or fails."}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/stopio", "law": "The default implementation always returns ."}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/stopio", "law": "The framework expects this call to always succeed or fail."}
+{"id": "/documentation/audiodriverkit/audiodriverkit/kiouseraudioobjectiddriver", "law": "This always refers to the one and only instance of the ."}
+{"id": "/documentation/audiodriverkit/iouseraudiocustomproperty", "law": "For example, if a given property exists on multiple devices, use a device identifier as the qualifier to indicate which device to set the value on."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/addobject", "law": "Use this method to add to the driver any objects that require management by the host."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/addobject", "law": "The caller should also call to notify the host of any changes."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/free", "law": "Use this method to perform any final cleanup of your service, such as deallocating any memory you allocated."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/free", "law": "Always call at the end of your custom implementation."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/init", "law": "Limit the work you do in this method to simple tasks that must occur before your service starts."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/init", "law": "For example, use this method to allocate memory for your structure."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/init", "law": "Always call early in your implementation of this method."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/propertieschanged", "law": "For device objects, only use this method for state changes that don’t affect IO or the structure of the device."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/removeobject", "law": "The caller should also call to notify the host of any changes."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/start", "law": "Use this method to configure your driver’s data structures and setup the associated hardware."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/start", "law": "You might also store a reference to the object for later use."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/start", "law": "Always call early in your implementation of this method."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/startdevice", "law": "The default implementation always returns ."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/startdevice", "law": "The framework expects this call to always succeed for fail."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/startdevice", "law": "The hardware can take as long as it needs in this call, provided it always either succeeds or fails."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/stop", "law": "Use your implementation of this method to stop all activity and put your driver in a quiescent state."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/stop", "law": "Don’t use this method to release your structure; use the method instead."}
+{"id": "/documentation/audiodriverkit/iouseraudiodriver/stopdevice", "law": "The default implementation always returns ."}
+{"id": "/documentation/audiodriverkit/iouseraudiolevelcontrol/create", "law": "If you subclass to override this class’ behavior, don’t use to allocate and initialize the custom subclass."}
+{"id": "/documentation/audiodriverkit/iouseraudiolevelcontrolrange", "law": "A type that indicates minimum and maximum values for level controls."}
+{"id": "/documentation/audiodriverkit/iouseraudioobject/getobjectid", "law": "Use this identifier when looking up a driver’s objects with ."}
+{"id": "/documentation/audiodriverkit/iouseraudioobject/init-1ar2z", "law": "The no-arg initializer, , always returns ."}
+{"id": "/documentation/audiodriverkit/iouseraudioobject/init-26qwx", "law": "This no-arg initializer always returns ."}
+{"id": "/documentation/audiodriverkit/audiodriverkit/iouseraudiostreambasicdescription", "law": "For variable bit rate data and for constant bit rate data where the channels have unequal sizes, the type requires more data than this type provides."}
+{"id": "/documentation/audiodriverkit/audiodriverkit/iouseraudiostreamdirection", "law": "Use for output, and for input."}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/create", "law": "If you subclass to override this class’ behavior, don’t use to allocate and initialize the custom subclass."}

@@ -27,12 +27,12 @@
  "www-apple-com-macbook-pro": {
   "url": "https://www.apple.com/macbook-pro/",
   "sections": 19,
-  "cta": 102
+  "cta": 104
  },
  "www-apple-com-imac": {
   "url": "https://www.apple.com/imac/",
   "sections": 21,
-  "cta": 70
+  "cta": 72
  },
  "www-apple-com-mac-mini": {
   "url": "https://www.apple.com/mac-mini/",
@@ -61,7 +61,7 @@
  },
  "www-apple-com-ipad-mini": {
   "url": "https://www.apple.com/ipad-mini/",
-  "sections": 13,
+  "sections": 14,
   "cta": 26
  },
  "www-apple-com-apple-pencil": {
@@ -107,27 +107,27 @@
  "www-apple-com-iphone": {
   "url": "https://www.apple.com/iphone/",
   "sections": 12,
-  "cta": 134
+  "cta": 138
  },
  "www-apple-com-iphone-17-pro": {
   "url": "https://www.apple.com/iphone-17-pro/",
   "sections": 17,
-  "cta": 148
+  "cta": 152
  },
  "www-apple-com-iphone-air": {
   "url": "https://www.apple.com/iphone-air/",
   "sections": 17,
-  "cta": 143
+  "cta": 147
  },
  "www-apple-com-iphone-17": {
   "url": "https://www.apple.com/iphone-17/",
   "sections": 16,
-  "cta": 139
+  "cta": 143
  },
  "www-apple-com-iphone-17e": {
   "url": "https://www.apple.com/iphone-17e/",
   "sections": 16,
-  "cta": 110
+  "cta": 114
  },
  "www-apple-com-us-edu-shop-buy-iphone-iphone-16": {
   "url": "https://www.apple.com/us-edu/shop/buy-iphone/iphone-16",
@@ -147,7 +147,7 @@
  "www-apple-com-apple-watch-series-11": {
   "url": "https://www.apple.com/apple-watch-series-11/",
   "sections": 13,
-  "cta": 88
+  "cta": 90
  },
  "www-apple-com-apple-watch-se-3": {
   "url": "https://www.apple.com/apple-watch-se-3/",
@@ -157,7 +157,7 @@
  "www-apple-com-apple-watch-ultra-3": {
   "url": "https://www.apple.com/apple-watch-ultra-3/",
   "sections": 17,
-  "cta": 91
+  "cta": 93
  },
  "www-apple-com-apple-watch-nike": {
   "url": "https://www.apple.com/apple-watch-nike/",
@@ -327,7 +327,7 @@
  "www-apple-com-shop-browse-financing": {
   "url": "https://www.apple.com/shop/browse/financing",
   "sections": 0,
-  "cta": 16
+  "cta": 13
  },
  "www-apple-com-shop-buy-iphone-carrier-offers": {
   "url": "https://www.apple.com/shop/buy-iphone/carrier-offers",

@@ -47,3 +47,5 @@
 {"id": "/documentation/BundleResources/Information-Property-List/CFBundleIdentifier", "sha": "99fd5cfac3425b8aa5fc44d768e39751312e1e59d4c644261161415acfdcfd1c", "t": "CFBundleIdentifier", "n": 1244, "laws": 5, "ts": "2026-07-28 05:57 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/identifier/cloudsharing", "sha": "f42dd2cccb7aa4191d7077d5f27b2dd1d0813cb139a8c7d6832c318a70511cf6", "t": "cloudSharing", "n": 94, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
 {"id": "/documentation/appkit/nsoutlineview/columndidresizemessage", "sha": "d4dce83010e5ab62f69af991aa62452f1b4f478c28b8c03dbc2667826a75992c", "t": "NSOutlineView.ColumnDidResizeMessage", "n": 115, "laws": 0, "ts": "2026-07-28 06:01 UTC"}
+{"id": "/documentation/appkit/nsuserinterfacelayoutorientation/vertical", "sha": "908a630690af78dddb829519b6f17966fe501926c9ce3068b3c996a8973e3270", "t": "NSUserInterfaceLayoutOrientation.vertical", "n": 320, "laws": 2, "ts": "2026-07-28 18:41 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiostream/setlatency", "sha": "5987d0dc3826d3a5cbbe9b048c5d8291186cfbf70ee8cf682c23d8329479130a", "t": "SetLatency", "n": 323, "laws": 0, "ts": "2026-07-28 19:08 UTC"}

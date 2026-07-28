@@ -1880,3 +1880,470 @@
 {"id": "/documentation/appkit/nssplitviewitem/viewcontroller", "law": "Don’t set this property while adding the split view item to a split view controller."}
 {"id": "/documentation/appkit/nstreecontroller/alwaysusesmultiplevaluesmarker", "law": "A Boolean value that indicates whether the tree controller always returns the multiple values marker when multiple objects are selected, even if the selected items have the same value."}
 {"id": "/documentation/appkit/nstreecontroller/avoidsemptyselection", "law": "A Boolean value that indicates whether the tree controller requires the content array to attempt to maintain a selection at all times, avoiding an empty selection."}
+{"id": "/documentation/appkit/nstreecontroller/rearrangeobjects()", "law": "Subclasses should invoke this method if any parameter that affects the arranged objects changes."}
+{"id": "/documentation/appkit/nstreecontroller/rearrangeobjects()", "law": "Use this method to trigger reordering of the tree controller’s content."}
+{"id": "/documentation/appkit/nstreenode/sort(with:recursively:)", "law": "All the represented objects in the child nodes must be key-value coding compliant for the keys specified in the sort descriptors."}
+{"id": "/documentation/appkit/nsuserinterfacevalidations/validateuserinterfaceitem(_:)", "law": "if the user interface item should be enabled, otherwise ."}
+{"id": "/documentation/appkit/nsuserinterfacevalidations/validateuserinterfaceitem(_:)", "law": "Returns a Boolean value that indicates whether the sender should be enabled."}
+{"id": "/documentation/appkit/nsevent", "law": "Although you can create objects directly, you typically don’t."}
+{"id": "/documentation/appkit/nsevent", "law": "You can also use gesture recognizers to handle some events for you and execute your app’s code at appropriate times."}
+{"id": "/documentation/appkit/nsview/didclosemenu(_:with:)", "law": "When the view receives , it should reset its visual state, if necessary."}
+{"id": "/documentation/appkit/nslayoutconstraint", "law": "However, if you switch the order, you must also invert the multiplier and constant."}
+{"id": "/documentation/appkit/nslayoutconstraint", "law": "They can also use greater than or equal to (>=) or less than or equal to (<=) to describe the relationship between the two attributes."}
+{"id": "/documentation/appkit/nslayoutconstraint", "law": "Constraints with a priority of 1,000 are required."}
+{"id": "/documentation/appkit/nslayoutconstraint", "law": "By default, all constraints are required (priority = 1,000)."}
+{"id": "/documentation/appkit/nslayoutconstraint", "law": "After solving for the required constraints, Auto Layout tries to solve all the optional constraints in priority order from highest to lowest."}
+{"id": "/documentation/appkit/nslayoutconstraint", "law": "The relationship between two user interface objects that must be satisfied by the constraint-based layout system."}
+{"id": "/documentation/appkit/nslayoutconstraint/priority-swift.struct/required", "law": "Do not specify a layout constraint that exceeds this number."}
+{"id": "/documentation/appkit/nsstackview/addarrangedsubview(_:)", "law": "The stack view ensures that the array is always a subset of its array."}
+{"id": "/documentation/appkit/nsstackview/arrangedsubviews", "law": "The stack view ensures that the contents of this array are always a subset of its array."}
+{"id": "/documentation/appkit/nsstackview/clippingresistancepriority(for:)", "law": "For an explanation of clipping resistance and how to use it for a stack view, see the method."}
+{"id": "/documentation/appkit/nsstackview/gravity", "law": "You can use these constants to configure a stack view by way of the and methods."}
+{"id": "/documentation/appkit/nsstackview/gravity", "law": "In a vertically oriented stack view, the three gravity areas are always , , and ."}
+{"id": "/documentation/appkit/nsstackview/hasequalspacing", "law": "To require equal spacing, set this property to , which disables the method."}
+{"id": "/documentation/appkit/nsstackview/hasequalspacing", "law": "A Boolean value that indicates whether the spacing between adjacent views should be equal to each other."}
+{"id": "/documentation/appkit/nsstackview/insertarrangedsubview(_:at:)", "law": "The stack view also ensures that the array is always a subset of its array."}
+{"id": "/documentation/appkit/nsstackview/setclippingresistancepriority(_:for:)", "law": "To ensure that views detach rather than clip, lower the clipping resistance for the stack view to a value less than the default of and set the visibility priority for at least one view to a value less than ."}
+{"id": "/documentation/appkit/nsstackview/setclippingresistancepriority(_:for:)", "law": "If you disallow view clipping and disallow view detachment, which is the default behavior for a stack view, Auto Layout prevents the stack view from being reduced in size beyond the minimum needed to show all of its views."}
+{"id": "/documentation/appkit/nsstackview/sethuggingpriority(_:for:)", "law": "To configure a stack view to prevent its enclosing view from growing, use priorities for the constraints between the stack view and its enclosing view that are lower than the hugging priority."}
+{"id": "/documentation/appkit/nsstackview/setvisibilitypriority(_:for:)", "law": "A view with the highest possible visibility priority never detaches."}
+{"id": "/documentation/appkit/nsstackview/setvisibilitypriority(_:for:)", "law": "The default visibility priority for a view is , resulting in the view never detaching."}
+{"id": "/documentation/appkit/nsstackview/spacing", "law": "A stack view uses this property to define the minimum distance between views within a gravity area and between neighboring views in adjacent gravity areas."}
+{"id": "/documentation/appkit/nsstackview/spacing", "law": "The first row indicates that inter-view spacing is constrained to equal the value of the property with a priority of at least ; you can increase this by setting a higher stack view hugging priority with the method."}
+{"id": "/documentation/appkit/nsstackview/spacing", "law": "If you set the property to and use the default hugging priority, then the distance between all adjacent views, including adjacent views in neighboring gravity areas, grows and shrinks as the stack view grows and shrinks."}
+{"id": "/documentation/appkit/nsstackview/spacing", "law": "The minimum spacing, in points, between adjacent views in the stack view."}
+{"id": "/documentation/appkit/nsstackview/views", "law": "The array always contains all of the views owned and managed by the stack view, regardless of their gravity area placement and regardless of whether or not they are attached."}
+{"id": "/documentation/appkit/nsstackview/visibilitypriority/musthold", "law": "The default value, and maximum Auto Layout priority, that results in a view never detaching from the stack view."}
+{"id": "/documentation/appkit/nsstackview/visibilitypriority/notvisible", "law": "The minimum Auto Layout priority that forces a view to detach from the stack view."}
+{"id": "/documentation/appkit/nsstackviewdelegate", "law": "Adopt this protocol in a custom object and use it to track the addition and removal of views from the stack view’s view hierarchy."}
+{"id": "/documentation/appkit/nsstackviewdelegate", "law": "A set of methods you use to respond to a stack view detaching and reattaching views."}
+{"id": "/documentation/appkit/nsuserinterfacelayoutorientation/vertical", "law": "Use this constant in the property to specify a vertical layout for the stack view."}
+{"id": "/documentation/appkit/nsuserinterfacelayoutorientation/vertical", "law": "Use it to specify the vertical user interface axis for clipping resistance and hugging priority."}
+{"id": "/documentation/appkit/restoring-your-app-s-state-with-appkit", "law": "The person should be able to return to where they left off—and window state restoration is a core part of making that experience seamless."}
+{"id": "/documentation/appkit/restoring-your-app-s-state-with-appkit", "law": "This sample app demonstrates the use of state preservation and restoration for a macOS app."}
+{"id": "/documentation/appkit/restoring-your-app-s-state-with-appkit", "law": "To enable window state restoration, each window must be configured with a unique identifier, a frame autosave name, and a restoration class."}
+{"id": "/documentation/appkit/restoring-your-app-s-state-with-appkit", "law": "The app delegate must also declare support for secure restorable state:"}
+{"id": "/documentation/appkit/restoring-your-app-s-state-with-appkit", "law": "Whenever someone makes a change that should be preserved—selecting a product, switching tabs, or editing fields—the window controller calls ."}
+{"id": "/documentation/appkit/restoring-your-app-s-state-with-appkit", "law": "Do not force quit the app, as macOS discards saved state when a person force quits."}
+{"id": "/documentation/appkit/nsgridcell", "law": "Use a grid cell to specify the content view to display and to position the content view within the cell’s area."}
+{"id": "/documentation/appkit/nstabview/allowstruncatedlabels", "law": "When the value of this property is , the tab view allows truncating for labels that don’t fit on a tab, otherwise it does not."}
+{"id": "/documentation/appkit/nstabview/allowstruncatedlabels", "law": "A Boolean value that indicates if the tab view allows truncating for labels that don’t fit on a tab."}
+{"id": "/documentation/appkit/nstabview/contentrect", "law": "This area does not include the space required for the tab view’s tabs or borders (if any)."}
+{"id": "/documentation/appkit/nstabview/delegate", "law": "The value of this property must conform to the protocol."}
+{"id": "/documentation/appkit/nstabview/minimumsize", "law": "You can use the value of this property to limit how much a user can resize a tab view."}
+{"id": "/documentation/appkit/nstabview/minimumsize", "law": "The minimum size necessary for the tab view to display tabs in a useful way."}
+{"id": "/documentation/appkit/nstabview/tabviewitem(at:)-8gnqw", "law": "You can use this method to find a tab view item based on a user’s mouse click."}
+{"id": "/documentation/appkit/nscollectionviewelement", "law": "Adopt this protocol in the classes that you use to display content for items, supplementary views, and decoration views in a collection view."}
+{"id": "/documentation/appkit/nscollectionviewelement", "law": "For supplementary and decoration views, adopt this protocol in the custom view classes you use to represent that content."}
+{"id": "/documentation/appkit/nscollectionviewelement", "law": "A set of methods that you use to manage the content in a collection view."}
+{"id": "/documentation/appkit/nscollectionviewsectionheaderview", "law": "To ensure that the collection view can communicate with the button that controls the collapsing of a section, the section header view object should conform to this protocol and connect the button’s outlet to ."}
+{"id": "/documentation/appkit/nslayoutguide", "law": "Use layout guides to replace the placeholder views you may have created to represent inter-view spaces or encapsulation in your user interface."}
+{"id": "/documentation/appkit/nslayoutguide", "law": "Traditionally, there were a number of Auto Layout techniques that required placeholder views."}
+{"id": "/documentation/appkit/nslayoutguide", "law": "For example, if you wanted to use constraints to define the size or location of an empty space between views, you needed to use a placeholder view to represent that space."}
+{"id": "/documentation/appkit/nslayoutguide", "law": "They do not use as much memory, and they do not participate in the view hierarchy."}
+{"id": "/documentation/appkit/nslayoutguide", "law": "You can use these guides to define the space between elements in your layout."}
+{"id": "/documentation/appkit/nslayoutguide", "law": "The following example shows how to use layout guides to define an equal spacing between a series of views."}
+{"id": "/documentation/appkit/nslayoutguide", "law": "Layout constraints do not fully encapsulate their contents."}
+{"id": "/documentation/appkit/nstablecolumn", "law": "A table column object determines the width (including the maximum and minimum widths) of its column in the table view and specifies the column’s resizing and editing behavior."}
+{"id": "/documentation/appkit/nstablecolumn", "law": "In a cell-based table, you can control the display of the column by specifying subclasses of to use and by setting the font and other display characteristics for these cells."}
+{"id": "/documentation/appkit/nstablecolumn", "law": "For example, you can use an to display string values or substitute an to display pictures."}
+{"id": "/documentation/appkit/nsuserinterfaceitemidentification/identifier", "law": "If you create an item in Interface Builder and do not set a value for this string, a unique value is created for the item when the nib file is loaded."}
+{"id": "/documentation/appkit/nsuserinterfaceitemidentification/identifier", "law": "You should not change the value of a window’s identifier after adding any views to the window."}
+{"id": "/documentation/appkit/nsuserinterfaceitemidentification/identifier", "law": "For views and controls in a window, the value you specify for this string must be unique on a per-window basis."}
+{"id": "/documentation/appkit/nsuserinterfaceitemidentification/identifier", "law": "The slash ( ), backslash ( ), or colon ( ) characters are reserved and must not be used in your custom identifiers."}
+{"id": "/documentation/appkit/nsuserinterfaceitemidentification/identifier", "law": "Applications and frameworks should use a consistent prefix for their identifiers to avoid collisions with other frameworks."}
+{"id": "/documentation/appkit/nsuserinterfaceitemidentification/identifier", "law": "If you are subclassing a class from one of the system frameworks, do not override the accessor methods of this protocol."}
+{"id": "/documentation/appkit/nsalert", "law": "The methods of the class allow you to specify alert level, alert text, button titles, and a custom icon should you require it."}
+{"id": "/documentation/appkit/nsalert", "law": "To display an alert as a sheet, call the method; to display one as an app-modal dialog, use the method."}
+{"id": "/documentation/appkit/nsalert", "law": "You should create an object for each alert dialog, creating it only when you need to display an alert, and release it when you are done."}
+{"id": "/documentation/appkit/nsalert", "law": "Unless you must maintain compatibility with existing alert-processing code that uses the function-based API, you should allocate ( ) and initialize ( ) the alert object, and then set its attributes using the appropriate methods of the class."}
+{"id": "/documentation/appkit/nscolorpickingcustom", "law": "This protocol must be implemented by a custom picker, or an error will occur."}
+{"id": "/documentation/appkit/nsfontpanelvalidation", "law": "A set of methods you use to tell the Font panel to display some or all of its elements."}
+{"id": "/documentation/appkit/nspdfpanel", "law": "It also supports the use of a custom accessory view controller that allows an app to specify how a PDF file should be created."}
+{"id": "/documentation/appkit/nspreviewrepresentableactivityitem", "law": "Use this protocol to specify the item itself and a title and image the share sheet can use to create a preview for your item."}
+{"id": "/documentation/appkit/nspreviewrepresentableactivityitem", "law": "If your data consists of standard types like strings or images, use an object to specify metadata for those types."}
+{"id": "/documentation/appkit/nspreviewrepresentingactivityitem", "law": "Use it to create shareable items for common types such as strings or images, or when you don’t want to adopt the protocol directly in your app’s objects."}
+{"id": "/documentation/appkit/nsprintpanelaccessorizing", "law": "If you are implementing a custom printing accessory view, your controller must support this protocol."}
+{"id": "/documentation/appkit/nsprintpanelaccessorizing", "law": "Implementation of only one method in the protocol is actually required."}
+{"id": "/documentation/appkit/nsprintpanelaccessorizing", "law": "A set of methods that a Print panel object can use to get information from a printing accessory controller."}
+{"id": "/documentation/appkit/nsscreen", "law": "An app may use an object to retrieve information about a screen and use this information to decide what to display on that screen."}
+{"id": "/documentation/appkit/nsscreen", "law": "For example, an app may use the method to find out which of the available screens can best represent color and then might choose to display all of its windows on that screen."}
+{"id": "/documentation/appkit/nsscreen", "law": "Create the application object before you use the methods in this class, so that the application object can make the necessary connection to the window system."}
+{"id": "/documentation/appkit/nsscreen", "law": "You can make sure the application object exists by invoking the method of ."}
+{"id": "/documentation/appkit/nsscreen", "law": "If you need additional information or want to change the attributes relating to a display, you must use Quartz Services."}
+{"id": "/documentation/appkit/nssharingservicepicker", "law": "In macOS 12 and earlier, this picker displays a menu with a list of services that someone can use to share the item."}
+{"id": "/documentation/appkit/nssharingservicepicker", "law": "Your delegate must conform to the protocol."}
+{"id": "/documentation/appkit/nscollectionlayoutanchor", "law": "You use an anchor to attach a supplementary item to a specific item."}
+{"id": "/documentation/appkit/nscollectionlayoutanchor", "law": "For example, a fractional x offset of means that the origin of the supplementary item is offset by 30% of the supplementary item’s width in the positive x direction."}
+{"id": "/documentation/appkit/nscollectionlayoutboundarysupplementaryitem", "law": "You use boundary supplementary items to add headers or footers to a section of a collection view or the entire collection view."}
+{"id": "/documentation/appkit/nscollectionlayoutboundarysupplementaryitem", "law": "Each type of supplementary item must have a unique element kind."}
+{"id": "/documentation/appkit/nscollectionlayoutcontainer", "law": "In a section provider, you use the property of the layout environment ( ) to get information about the container of the layout, such as its size and content insets."}
+{"id": "/documentation/appkit/nscollectionlayoutdecorationitem", "law": "Each type of decoration item must have a unique element kind."}
+{"id": "/documentation/appkit/nscollectionlayoutdimension", "law": "Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at runtime, such as when data is loaded or in response to a change in system font size."}
+{"id": "/documentation/appkit/nscollectionlayoutdimension", "law": "Use a fractional value to define a value that’s relative to a dimension of the item’s container."}
+{"id": "/documentation/appkit/nscollectionlayoutdimension", "law": "For example, the following item has a width and a height that are both equal to 20% of its container’s width, creating a square that grows and shrinks as the size of its container changes."}
+{"id": "/documentation/appkit/nscollectionlayoutedgespacing", "law": "You use edge spacing to create additional spacing around the edges of an item to adjust the position of the item in relation to its container and other items."}
+{"id": "/documentation/appkit/nscollectionlayoutenvironment", "law": "In a section provider, you use the layout environment to get information about the context that the layout appears in."}
+{"id": "/documentation/appkit/nscollectionlayoutenvironment", "law": "You use this information while rendering the layout’s sections to help you make decisions about how to display the layout."}
+{"id": "/documentation/appkit/nscollectionlayoutgroup", "law": "After you configure a group, you must initialize a section ( ) of your collection view layout with that group."}
+{"id": "/documentation/appkit/nscollectionlayoutgroupcustomitem", "law": "You use a custom item if you want to specify a layout with a custom arrangement, like a radial or diagonal layout."}
+{"id": "/documentation/appkit/nscollectionlayoutgroupcustomitem", "law": "You use custom items within a group that’s created with ."}
+{"id": "/documentation/appkit/nscollectionlayoutgroupcustomitemprovider", "law": "You use a custom item provider to supply the item arrangement when creating a group using the initializer."}
+{"id": "/documentation/appkit/nscollectionlayoutsectionvisibleitemsinvalidationhandler", "law": "You use this handler to perform custom animations on the items currently visible within the bounds of that section."}
+{"id": "/documentation/appkit/nscollectionlayoutspacing", "law": "In a collection view layout, you use a spacing object to specify both the amount of space and the way in which it’s calculated."}
+{"id": "/documentation/appkit/nscollectionlayoutspacing", "law": "Use fixed spacing to provide an exact amount of space."}
+{"id": "/documentation/appkit/nscollectionlayoutspacing", "law": "Use flexible spacing to provide a minimum amount of space that can grow as more space becomes available."}
+{"id": "/documentation/appkit/nscollectionlayoutspacing", "law": "For example, the following code creates at least 200 points of space between the items in the group."}
+{"id": "/documentation/appkit/nscollectionlayoutsupplementaryitem", "law": "You use supplementary items to attach additional views to your content."}
+{"id": "/documentation/appkit/nscollectionlayoutsupplementaryitem", "law": "If you want to create a header or footer for your layout or its sections, use a boundary supplementary item (<````NSCollectionLayoutBoundarySupplementaryItem``>) instead."}
+{"id": "/documentation/appkit/nscollectionlayoutsupplementaryitem", "law": "Each type of supplementary item must have a unique element kind."}
+{"id": "/documentation/appkit/nscollectionviewcompositionallayoutconfiguration", "law": "You use a layout configuration to modify a collection view layout’s default scroll direction, add extra spacing between each section of the layout, and add headers or footers to the entire layout."}
+{"id": "/documentation/appkit/nscollectionviewcompositionallayoutsectionprovider", "law": "You use a section provider to create a compositional layout ( ) that has multiple sections with different layouts."}
+{"id": "/documentation/appkit/nscollectionviewcompositionallayoutsectionprovider", "law": "You can use this opportunity to adapt the layout to different layout environments by inspecting information about the current layout environment ( ) and using that information to configure each section."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "All data source objects must implement the and methods."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "Therefore, you should create data structures that adapt easily to the organization of the collection view itself."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "The data structures you use for your sections and items are separate from the views and view controllers that you use to present them."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "One simple way to organize your data is to use an object to store the items for each section."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "Whatever data structures you choose, make sure that they can return the needed information quickly."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "You must register the items and supplementary views of your app before trying to recycle or create them."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "For each element, you can register a class or nib file to use when creating new instances of the item."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "You must fully configure the item before returning it."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "Creating and configuring an item After returning an item object from your method, you do not modify that object again."}
+{"id": "/documentation/appkit/nscollectionviewdatasource", "law": "A set of methods that a data source object implements to provide the information and view objects that a collection view requires to present content."}
+{"id": "/documentation/appkit/nscollectionviewdelegateflowlayout", "law": "If you do not implement a particular method, the flow layout object obtains default values from its own properties and applies them uniformly."}
+{"id": "/documentation/appkit/nscollectionviewdiffabledatasource-axww", "law": "The object you use to manage data and provide items for a collection view."}
+{"id": "/documentation/appkit/nscollectionviewdiffabledatasourcereference", "law": "If you’re working in a Swift codebase, always use instead of ."}
+{"id": "/documentation/appkit/nscollectionviewdiffabledatasourcereference", "law": "The object you use to manage data and provide items for a collection view."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "Items may be the same size or different sizes, and you may use the flow layout object or the collection view’s delegate object to specify the size of items and the spacing around them."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "You can use an object as-is or subclass it to modify more aspects of the layout behavior."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "There are several ways to customize the basic layout behavior that do not require subclassing."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "For example, you can use a delegate object to change the size and spacing of items dynamically."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "You can configure a collection view to use a flow layout object programmatically or at design time: At design time, set the Layout attribute of your collection view to Flow."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "If you do not provide a delegate, the flow layout object uses the same values for all items."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "To add header or footer views to your flow layout, you must do the following: Register your header and footer views using the or method."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "Use your app data to configure the content of the supplementary view and its subviews."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "If you do want to update views directly, use the methods of the protocol to track when your views are added and removed from the collection view."}
+{"id": "/documentation/appkit/nscollectionviewflowlayout", "law": "Use the property, if it is not set to ."}
+{"id": "/documentation/appkit/nscollectionviewflowlayoutinvalidationcontext", "law": "Layout objects use invalidation contexts to optimize the layout process and avoid unnecessary work."}
+{"id": "/documentation/appkit/nscollectionviewflowlayoutinvalidationcontext", "law": "You use this class to specify whether the object should fetch new size information from its delegate."}
+{"id": "/documentation/appkit/nscollectionviewgridlayout", "law": "The object provides the same layout behavior offered by the class prior to macOS 10.11, and you can use it in cases where you want to maintain the old appearance while still taking advantage of newer collection view features."}
+{"id": "/documentation/appkit/nscollectionviewgridlayout", "law": "You can configure a collection view to use a grid layout object programmatically or at design time: At design time, set the Layout attribute of your collection view to Grid."}
+{"id": "/documentation/appkit/nscollectionviewgridlayout", "law": "Use the properties of this class to configure the number of rows and columns in the grid."}
+{"id": "/documentation/appkit/nscollectionviewgridlayout", "law": "You can also use these properties to configure the spacing between items and the minimum sizes."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "You do not create instances of this class directly."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "Collection views support many different types of elements, most of which are visual and all of which require layout attributes: Items are the main elements managed by the layout."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "The layout object defines the placement and use of supplementary views."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "For example, grid and flow layouts use supplementary views to implement headers and footers for each section."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "Decoration views are optional and the layout object defines their use and placement."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "Gaps do not have a direct visual representation, but they do have layout attributes, which the collection view uses for hit testing."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "Layouts should provide a well-defined organization for their elements and should not morph between different organizations."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "Your subclass should be mostly self contained and should not rely on the collection view."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "Layout objects can retrieve the number of sections and items from the collection view, but you should not design layout objects that require knowledge of the data being displayed."}
+{"id": "/documentation/appkit/nscollectionviewlayout", "law": "So if your layout object does not include decoration views, you do not need to implement the method or any other methods relating to decoration views."}
+{"id": "/documentation/appkit/nscollectionviewlayoutattributes", "law": "If you implement a custom layout object and your layout object requires additional attributes, you can subclass and add custom properties to your subclass."}
+{"id": "/documentation/appkit/nscollectionviewlayoutattributes", "law": "In your subclass, be sure to do the following: Provide an method with no parameters to initialize your subclass."}
+{"id": "/documentation/appkit/nscollectionviewlayoutattributes", "law": "The collection view caches layout attribute objects for later use."}
+{"id": "/documentation/appkit/nscollectionviewlayoutattributes", "law": "Therefore, if you want to include any new properties in the equality check, you must override the method."}
+{"id": "/documentation/appkit/nscollectionviewlayoutinvalidationcontext", "law": "Invalidation contexts are a way to improve the efficiency of layout operations and must be supported explicitly by the layout object."}
+{"id": "/documentation/appkit/nscollectionviewlayoutinvalidationcontext", "law": "Creating a custom invalidation context is not required and should only be done when your layout object has additional ways to optimize the layout process."}
+{"id": "/documentation/appkit/nscollectionviewtransitionlayout", "law": "In macOS 10.11, collection views do not provide built-in support for driving layout transitions."}
+{"id": "/documentation/appkit/nscollectionviewupdateitem", "law": "You do not create instances of this class directly."}
+{"id": "/documentation/appkit/nscollectionviewupdateitem", "law": "When updating its content, the collection view object creates them and passes them to the layout object’s method, which can use them to prepare for the upcoming changes."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshot-swift.struct", "law": "Diffable data sources use snapshots to provide data for collection views and table views."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshot-swift.struct", "law": "You use a snapshot to set up the initial state of the data that a view displays, and you use snapshots to reflect changes to the data that the view displays."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshot-swift.struct", "law": "Each of your sections and items must have unique identifiers that conform to the protocol."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshot-swift.struct", "law": "Use or Swift value types for your identifiers, including built-in types such as , , or ."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshot-swift.struct", "law": "If you use a Swift for your identifiers, your must be a subclass of ."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshotreference", "law": "If you’re working in a Swift codebase, always use instead of ."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshotreference", "law": "Diffable data sources use snapshots to provide data for collection views and table views."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshotreference", "law": "Each of your sections and items must have unique identifiers."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshotreference", "law": "Avoid using this type in Swift code."}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshotreference", "law": "Only use this type to bridge from Objective-C code to Swift code by typecasting from a snapshot reference to a snapshot: A representation of the state of the data in a view at a specific point in time."}
+{"id": "/documentation/appkit/nscollectionview/allowsemptyselection", "law": "Setting this property to causes the collection view to always leave at least one item selected."}
+{"id": "/documentation/appkit/nscollectionview/backgroundcolors", "law": "This property contains an array of objects, representing the colors to use when drawing the background grid."}
+{"id": "/documentation/appkit/nscollectionview/backgroundcolors", "law": "Specifying an empty array or causes the collection view to use the default colors returned by the method."}
+{"id": "/documentation/appkit/nscollectionview/collectionviewlayout", "law": "In macOS 10.11 and later, using a data source object is recommended, but you may specify for this property if your collection view does not use a data source object."}
+{"id": "/documentation/appkit/nscollectionview/collectionviewlayout", "law": "If you want to animate a layout change, use an animator object to set the layout object as follows: You can use the completion handler of the associated object to perform additional tasks when the animations finish."}
+{"id": "/documentation/appkit/nscollectionview/content", "law": "Use this object to specify an array of items directly."}
+{"id": "/documentation/appkit/nscollectionview/datasource", "law": "Use this object to specify how many items are in the collection view and to create the visual representation of those items."}
+{"id": "/documentation/appkit/nscollectionview/datasource", "law": "The object you specify must adopt the protocol."}
+{"id": "/documentation/appkit/nscollectionview/delegate", "law": "Use the delegate object to manage the selection and highlighting of items, track the addition and removal of items, and manage drag and drop operations."}
+{"id": "/documentation/appkit/nscollectionview/delegate", "law": "The object you assign to this property must conform to the protocol."}
+{"id": "/documentation/appkit/nscollectionview/deleteitems(at:)", "law": "After removing items from your data source object, use this method to synchronize those changes with the collection view."}
+{"id": "/documentation/appkit/nscollectionview/deleteitems(at:)", "law": "Calling this method lets the collection view know that it must update its internal data structures and possibly update its visual appearance."}
+{"id": "/documentation/appkit/nscollectionview/deletesections(_:)", "law": "Use this method to delete entire sections and their contained items."}
+{"id": "/documentation/appkit/nscollectionview/deletesections(_:)", "law": "Always update your data source object before calling this method."}
+{"id": "/documentation/appkit/nscollectionview/deselectall(_:)", "law": "Specifically, it calls the delegate’s method to see if the items should be selected."}
+{"id": "/documentation/appkit/nscollectionview/deselectitems(at:)", "law": "Use this method to reduce the current selection."}
+{"id": "/documentation/appkit/nscollectionview/draggingimageforitems(at:with:offset:)-7rc4k", "law": "The image to use for the dragged items."}
+{"id": "/documentation/appkit/nscollectionview/draggingimageforitems(at:with:offset:)-7rc4k", "law": "Returns an image to use for dragging the specified items."}
+{"id": "/documentation/appkit/nscollectionview/draggingimageforitems(at:with:offset:)-951w7", "law": "This method computes and returns an image to use for dragging."}
+{"id": "/documentation/appkit/nscollectionview/dropoperation", "law": "These constants specify if acceptance of a drop should be at the item it is dropped on or before the item."}
+{"id": "/documentation/appkit/nscollectionview/frameforitem(at:)", "law": "You can use this method in the method to determine which views are in the visible portion of the enclosing scroll view."}
+{"id": "/documentation/appkit/nscollectionview/frameforitem(at:withnumberofitems:)", "law": "When the collection view is a drag destination, use this method (instead of the method) to get the frame of items."}
+{"id": "/documentation/appkit/nscollectionview/indexpathforitem(at:)", "law": "Hidden items are never returned."}
+{"id": "/documentation/appkit/nscollectionview/insertitems(at:)", "law": "After adding new items to your data source object, use this method to synchronize those changes with the collection view."}
+{"id": "/documentation/appkit/nscollectionview/insertitems(at:)", "law": "Calling this method lets the collection view know that it must update its internal data structures and possibly update its visual appearance."}
+{"id": "/documentation/appkit/nscollectionview/insertitems(at:)", "law": "If the layout object indicates that the new items should appear onscreen, the collection view asks the data source to provide the appropriate content, animating that content into position as needed."}
+{"id": "/documentation/appkit/nscollectionview/insertsections(_:)", "law": "Always update your data source object before calling this method."}
+{"id": "/documentation/appkit/nscollectionview/item(at:)-80xze", "law": "Rather than using the instance returned by this method to determine the frame of the collection item’s view you should use , it is significantly more efficient."}
+{"id": "/documentation/appkit/nscollectionview/itemprototype", "law": "Whenever possible, use a data source object to provide items."}
+{"id": "/documentation/appkit/nscollectionview/layoutattributesforitem(at:)", "law": "Always use this method to retrieve the layout attributes for items in the collection view."}
+{"id": "/documentation/appkit/nscollectionview/layoutattributesforitem(at:)", "law": "Do not query the layout object directly."}
+{"id": "/documentation/appkit/nscollectionview/layoutattributesforsupplementaryelement(ofkind:at:)", "law": "Always use this method to retrieve the layout attributes for supplementary views in the collection view."}
+{"id": "/documentation/appkit/nscollectionview/layoutattributesforsupplementaryelement(ofkind:at:)", "law": "Do not query the layout object directly."}
+{"id": "/documentation/appkit/nscollectionview/maxitemsize", "law": "Setting the size to ( , ) means that there is no maximum grid size."}
+{"id": "/documentation/appkit/nscollectionview/maxitemsize", "law": "If an item’s view is resizable, set the value to the maximum size that the view should use."}
+{"id": "/documentation/appkit/nscollectionview/maxitemsize", "law": "The maximum size (in points) of items in the collection view grid."}
+{"id": "/documentation/appkit/nscollectionview/maxnumberofcolumns", "law": "When the value of this property is , the collection view has no maximum number of columns."}
+{"id": "/documentation/appkit/nscollectionview/maxnumberofcolumns", "law": "It is possible for a collection view to specify both a maximum number of rows and a maximum number of columns."}
+{"id": "/documentation/appkit/nscollectionview/maxnumberofcolumns", "law": "The maximum number of columns that the collection view displays."}
+{"id": "/documentation/appkit/nscollectionview/maxnumberofrows", "law": "When the value of this property is , the collection view has no maximum number of rows."}
+{"id": "/documentation/appkit/nscollectionview/maxnumberofrows", "law": "It is possible for a collection view to specify both a maximum number of rows and a maximum number of columns."}
+{"id": "/documentation/appkit/nscollectionview/maxnumberofrows", "law": "The maximum number of rows that the collection view displays."}
+{"id": "/documentation/appkit/nscollectionview/minitemsize", "law": "If the item’s view is resizable, set the value to the minimum size that the view should use."}
+{"id": "/documentation/appkit/nscollectionview/minitemsize", "law": "The minimum size (in points) of items in the collection view grid."}
+{"id": "/documentation/appkit/nscollectionview/moveitem(at:to:)", "law": "After rearranging items in your data source object, use this method to synchronize those changes with the collection view."}
+{"id": "/documentation/appkit/nscollectionview/moveitem(at:to:)", "law": "Calling this method lets the collection view know that it must update its internal data structures and possibly update its visual appearance."}
+{"id": "/documentation/appkit/nscollectionview/movesection(_:tosection:)", "law": "Use this method to reorganize sections and their contained items."}
+{"id": "/documentation/appkit/nscollectionview/movesection(_:tosection:)", "law": "Always update your data source object before calling this method."}
+{"id": "/documentation/appkit/nscollectionview/newitem(forrepresentedobject:)", "law": "The collection view item should not be autoreleased."}
+{"id": "/documentation/appkit/nscollectionview/numberofitems(insection:)", "law": "Use this method to get the number of items currently displayed by the collection view for the specified section."}
+{"id": "/documentation/appkit/nscollectionview/numberofitems(insection:)", "law": "Do not call the methods of the data source to get this information."}
+{"id": "/documentation/appkit/nscollectionview/numberofsections", "law": "If the collection view does not use a data source object, the value in this property is ."}
+{"id": "/documentation/appkit/nscollectionview/performbatchupdates(_:completionhandler:)", "law": "Use this method to make multiple changes to the collection view in one single animated operation."}
+{"id": "/documentation/appkit/nscollectionview/performbatchupdates(_:completionhandler:)", "law": "(Reloading an item is treated as a delete operation followed by an insert operation at the same location.) As a result, the indexes you specify for each set of operations must reflect the changes made by any preceding operations."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-6s4i", "law": "Use this method to register the classes that represent items in your collection view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-6s4i", "law": "Because items are recycled to improve performance, it is recommended that your custom classes conform to the protocol."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-6s4i", "law": "You can use the methods of that protocol to prepare your classes for reuse."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-6s4i", "law": "Although you can register new items at any time, you must not call the method until after you register the corresponding item."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-6s4i", "law": "Registers a class to use when creating new items in the collection view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-90h1i", "law": "Use this method to register nib files containing prototype items to use in your collection view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-90h1i", "law": "Because items are recycled to improve performance, it is recommended that your custom item classes conform to the protocol."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-90h1i", "law": "You can use the methods of that protocol to prepare your classes for reuse."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-90h1i", "law": "Although you can register new items at any time, you must not call the method until after you register the corresponding item."}
+{"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-90h1i", "law": "Registers a nib file to use when creating items in the collection view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:forsupplementaryviewofkind:withidentifier:)-3dqa", "law": "Use this method to register the classes that represent the supplementary views in your collection view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:forsupplementaryviewofkind:withidentifier:)-3dqa", "law": "Although you can register new views at any time, you must not call the method until after you register the corresponding view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:forsupplementaryviewofkind:withidentifier:)-3dqa", "law": "Registers a class to use when creating new supplementary views in the collection view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:forsupplementaryviewofkind:withidentifier:)-7gvf2", "law": "Use this method to register nib files containing prototype supplementary views in your collection view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:forsupplementaryviewofkind:withidentifier:)-7gvf2", "law": "Although you can register new views at any time, you must not call the method until after you register the corresponding view."}
+{"id": "/documentation/appkit/nscollectionview/register(_:forsupplementaryviewofkind:withidentifier:)-7gvf2", "law": "Registers a nib file to use when creating supplementary views in the collection view."}
+{"id": "/documentation/appkit/nscollectionview/reloaddata()", "law": "Do not call this method in the middle of animation blocks where items are being inserted or deleted."}
+{"id": "/documentation/appkit/nscollectionview/reloadsections(_:)", "law": "Do not call this method in the middle of animation blocks where items are being inserted or deleted."}
+{"id": "/documentation/appkit/nscollectionview/selectall(_:)", "law": "Specifically, it calls the delegate’s method to see if the items should be selected."}
+{"id": "/documentation/appkit/nscollectionview/selectionindexes", "law": "Whenever possible, use the property instead of this one to set selections."}
+{"id": "/documentation/appkit/nscollectionview/selectitems(at:scrollposition:)", "law": "Use this method to extend the current selection."}
+{"id": "/documentation/appkit/nscollectionview/togglesectioncollapse(_:)", "law": "To enable this behavior, your header view must conform to the protocol, because the collection view uses the property to identify the button that controls the collapse action."}
+{"id": "/documentation/appkit/nscollectionviewdatasource/collectionview(_:itemforrepresentedobjectat:)", "law": "You must not return from this method."}
+{"id": "/documentation/appkit/nscollectionviewdatasource/collectionview(_:itemforrepresentedobjectat:)", "law": "All data source objects must implement this method."}
+{"id": "/documentation/appkit/nscollectionviewdatasource/collectionview(_:itemforrepresentedobjectat:)", "law": "You do not need to set the frame of an item’s view from this method."}
+{"id": "/documentation/appkit/nscollectionviewdatasource/collectionview(_:numberofitemsinsection:)", "law": "All data source objects must implement this method."}
+{"id": "/documentation/appkit/nscollectionviewdatasource/collectionview(_:numberofitemsinsection:)", "law": "Your implementation should quickly return the number of items in the specified section."}
+{"id": "/documentation/appkit/nscollectionviewdatasource/collectionview(_:numberofitemsinsection:)", "law": "Make sure the number of items you return is accurate."}
+{"id": "/documentation/appkit/nscollectionviewdatasource/collectionview(_:numberofitemsinsection:)", "law": "The method of your data source object must be able to provide a visual representation for each item in the section."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:acceptdrop:indexpath:dropoperation:)", "law": "if the drop operation should be accepted or if it should be rejected."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:acceptdrop:indexpath:dropoperation:)", "law": "You must implement this method to accept the dropped content and incorporate it into the collection view."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:acceptdrop:indexpath:dropoperation:)", "law": "In your implementation, use the information in the parameter to retrieve the data, update your data source object, and insert the appropriate items into the collection view."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:candragitemsat:with:)-39rjh", "law": "In your implementation, use the provided information to determine whether the drag operation should occur and return the appropriate return value."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:candragitemsat:with:)-39rjh", "law": "If you do not implement this method in your delegate object, the collection view assumes a return value of and begins the drag operation."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:candragitemsat:with:)-49wix", "law": "If you do not implement this method and your collection view has only one section, the collection view calls the legacy method."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:candragitemsat:with:)-49wix", "law": "If you do not implement either method, the collection view assumes a return value of ."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:didchangeitemsat:to:)", "law": "Use this method to respond to the change and to make any necessary adjustments to your content or the collection view."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:diddeselectitemsat:)", "law": "Use this method to respond to the selection change and to make any necessary adjustments to your content or the collection view."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:didenddisplaying:forrepresentedobjectat:)", "law": "You can use this method to track the removal of items and perform related tasks."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:didenddisplayingsupplementaryview:forelementofkind:at:)", "law": "You can use this method to track the removal of views and perform related tasks."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:didselectitemsat:)", "law": "Use this method to respond to the selection change and to make any necessary adjustments to your content or the collection view."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingimageforitemsat:with:offset:)-4yvk5", "law": "The image to use for the dragged items."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingimageforitemsat:with:offset:)-4yvk5", "law": "You do not need to implement this method for your collection view to be a drag source."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingimageforitemsat:with:offset:)-898js", "law": "The image to use for the dragged items."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingimageforitemsat:with:offset:)-898js", "law": "Your implementation of this method should create an appropriate image to use during the drag operation."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingimageforitemsat:with:offset:)-898js", "law": "If you do not implement this method, the collection view uses the drag image returned by the method instead."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingsession:endedat:dragoperation:)", "law": "You can use this method to perform tasks related to the ending of a drag session."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingsession:willbeginat:foritemsat:)-68x2y", "law": "You can use this method to modify the dragging session or to perform other tasks related to the beginning of a drag session."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:draggingsession:willbeginat:foritemsat:)-cpuq", "law": "You can use this method to modify the dragging session or to perform other tasks related to the beginning of a drag session."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:namesofpromisedfilesdroppedatdestination:fordraggeditemsat:)-6yag4", "law": "At the start of a drag operation, your app must provide the data that constitutes the items being dragged."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:namesofpromisedfilesdroppedatdestination:fordraggeditemsat:)-6yag4", "law": "If you specify a file promise, instead of the data itself, use this method to specify the names of the files you promised."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:namesofpromisedfilesdroppedatdestination:fordraggeditemsat:)-6yag4", "law": "If you must create the files first, use this method to specify the names of the files you intend to provide and begin creating those files asynchronously on a background thread."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:namesofpromisedfilesdroppedatdestination:fordraggeditemsat:)-6yag4", "law": "For more information about how to use file promises when dragging content, see ."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:namesofpromisedfilesdroppedatdestination:fordraggeditemsat:)-wwec", "law": "You do not need to implement this delegate method for your collection view to be a drag source."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:pasteboardwriterforitemat:)-5eyyl", "law": "The pasteboard writer object to use for managing the item data."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:pasteboardwriterforitemat:)-5eyyl", "law": "You must implement this method or the method to support drag operations."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:pasteboardwriterforitemat:)-5eyyl", "law": "If your app supports multi-image drag and drop, you must implement this method."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:pasteboardwriterforitemat:)-5eyyl", "law": "The collection view calls this method for each item involved in the drag operation after it has determined that a drag should begin but before the drag operation has started."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:pasteboardwriterforitemat:)-5eyyl", "law": "Your implementation of this method should create and return the pasteboard writer—an object conforming to the protocol—to use for providing the item’s data."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shouldchangeitemsat:to:)", "law": "If you do not want any items to receive the specified highlight state, return an empty set."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shouldchangeitemsat:to:)", "law": "Use this method to approve or modify the set of items targeted to receive the specified highlight state."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shouldchangeitemsat:to:)", "law": "If you do not implement this method, the collection view updates the highlight state for the items specified by the parameter."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shoulddeselectitemsat:)", "law": "If you do not want any items deselected, return an empty set."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shoulddeselectitemsat:)", "law": "Use this method to approve or modify the items that the user tries to deselect."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shoulddeselectitemsat:)", "law": "If you do not implement this method, the collection view deselects the items specified by the parameter."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shouldselectitemsat:)", "law": "If you do not want any items selected, return an empty set."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shouldselectitemsat:)", "law": "Use this method to approve or modify the items that the user tries to select."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:shouldselectitemsat:)", "law": "If you do not implement this method, the collection view selects the items specified by the parameter."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:transitionlayoutforoldlayout:newlayout:)", "law": "The collection view transition layout object to use to perform the transition."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:transitionlayoutforoldlayout:newlayout:)", "law": "When changing layouts for a collection view, you can use this method to customize the transition layout object used to make the change."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:transitionlayoutforoldlayout:newlayout:)", "law": "By returning a custom transition object, you could have those elements follow a nonlinear path, use a different timing algorithm, or move items in response to touch events."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:transitionlayoutforoldlayout:newlayout:)", "law": "If you do not implement this method in your delegate object, the collection view uses a standard object for the transition."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:transitionlayoutforoldlayout:newlayout:)", "law": "In OS X 10.11, this method is never called by the collection view."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:transitionlayoutforoldlayout:newlayout:)", "law": "Returns the transition layout object to use when performing an animated change between different layouts."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:updatedraggingitemsfordrag:)", "law": "You can use this method to update the current drag items while a drag is in progress."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:updatedraggingitemsfordrag:)", "law": "Updating the drag items is optional, but you might use this method to change the image for an item."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:updatedraggingitemsfordrag:)", "law": "Use the method of the parameter to iterate over the drag items and update them as appropriate."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:validatedrop:proposedindexpath:dropoperation:)", "law": "Although implementation of this method is optional, you must implement it to support drops onto the associated collection view."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:validatedrop:proposedindexpath:dropoperation:)", "law": "You must also call the collection view’s method to register the types of drops it supports."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:validatedrop:proposedindexpath:dropoperation:)", "law": "If you do not perform both of these actions, the collection view does not accept drops."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:validatedrop:proposedindexpath:dropoperation:)", "law": "Your implementation should look at the proposed location and return a constant that reflects how the drop would be handled."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:willdisplay:forrepresentedobjectat:)", "law": "You can use this method to track the addition of items and perform related tasks."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:willdisplaysupplementaryview:forelementkind:at:)", "law": "You can use this method to track the addition of those views and perform related tasks."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:writeitemsat:to:)-23ozm", "law": "You must implement this method or the method to support drag operations."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:writeitemsat:to:)-23ozm", "law": "If your app supports multi-image drag and drop, you must implement the method."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:writeitemsat:to:)-23ozm", "law": "The collection view calls this method after it has determined that a drag should begin but before the drag operation has started."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:writeitemsat:to:)-23ozm", "law": "Your implementation of this method should do the following: Declare the pasteboard types you support using the method of the provided object."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:writeitemsat:to:)-a1lk", "law": "To start the drag, you must first declare the pasteboard types that are supported by sending a method."}
+{"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:writeitemsat:to:)-a1lk", "law": "Invoked after it has been determined that a drag should begin, but before the drag has been started."}
+{"id": "/documentation/appkit/nsdraggingitem/draggingframe", "law": "The exact coordinate space of this rectangle depends on where you use it."}
+{"id": "/documentation/appkit/nsdraggingitem/imagecomponents", "law": "An array of dragging image components to use to create the drag image."}
+{"id": "/documentation/appkit/nsview/registerfordraggedtypes(_:)", "law": "As such, it must properly implement some or all of the protocol methods."}
+{"id": "/documentation/appkit/nsfilepromiseproviderdelegate/filepromiseprovider(_:filenamefortype:)", "law": "Don’t start writing the file to the destination directory until the drag process is complete."}
+{"id": "/documentation/appkit/nsfilepromiseproviderdelegate/filepromiseprovider(_:writepromiseto:completionhandler:)", "law": "Be sure to write your file to the input parameter."}
+{"id": "/documentation/appkit/nsfilepromisereceiver/filetypes", "law": "The of should tell you the number of promised files in this item, but that’s not always guaranteed."}
+{"id": "/documentation/appkit/nsfilepromisereceiver/readabledraggedtypes", "law": "A view must register what types it accepts via ."}
+{"id": "/documentation/appkit/nsfilepromisereceiver/readabledraggedtypes", "law": "Use that class method to get the file promise drag types that can accept, in order to register a view to accept promised files."}
+{"id": "/documentation/appkit/nsfilepromisereceiver/readabledraggedtypes", "law": "If you don’t register all these drag types, you might not be notified about some file promise drags."}
+{"id": "/documentation/appkit/nsfilepromisereceiver/receivepromisedfiles(atdestination:options:operationqueue:reader:)", "law": "All file promise receivers in a drag must specify the same destination location."}
+{"id": "/documentation/appkit/nsfilepromisereceiver/receivepromisedfiles(atdestination:options:operationqueue:reader:)", "law": "Avoid blocking the main thread while waiting for the file promise to be written (which can be a long process) by specifying an operation queue other than the main queue."}
+{"id": "/documentation/appkit/nspasteboard/addtypes(_:owner:)", "law": "You use this methods to declare additional types of data for the first pasteboard item in the receiver."}
+{"id": "/documentation/appkit/nspasteboard/addtypes(_:owner:)", "law": "You can also use it to replace existing types added by a previous or message."}
+{"id": "/documentation/appkit/nspasteboard/addtypes(_:owner:)", "law": "The types should be ordered according to the preference of the source application, with the most preferred type coming first (typically, the richest representation)."}
+{"id": "/documentation/appkit/nspasteboard/availabletype(from:)", "law": "You use this method to determine the best representation available on the pasteboard."}
+{"id": "/documentation/appkit/nspasteboard/availabletype(from:)", "law": "You must send a or message before reading any data from an object."}
+{"id": "/documentation/appkit/nspasteboard/availabletype(from:)", "law": "If you need to see if a type in the returned array matches a type string you have stored locally, use the method to perform the comparison."}
+{"id": "/documentation/appkit/nspasteboard/data(fortype:)", "law": "If is returned, the application should put up a panel informing the user that it was unable to carry out the paste operation."}
+{"id": "/documentation/appkit/nspasteboard/declaretypes(_:owner:)", "law": "In macOS 10.5 and earlier, this method is the first step in writing data to the pasteboard and must precede the messages that actually write the data."}
+{"id": "/documentation/appkit/nspasteboard/declaretypes(_:owner:)", "law": "In general, you should not use this method with , since will always write additional items to the pasteboard, and will not affect items already on the pasteboard, including the item implicitly created by this method."}
+{"id": "/documentation/appkit/nspasteboard/detectedmetadata(for:)", "law": "The following example shows how to use this method to find the content type of a file reference in the first item on the pasteboard: Determines available metadata from the specified metadata types for the first pasteboard item, without notifying the person using the app."}
+{"id": "/documentation/appkit/nspasteboard/detectedpatterns(for:)", "law": "The following example shows how to use this method to find calendar events in the first pasteboard item: Determines whether the first pasteboard item matches the specified patterns, without notifying the person using the app."}
+{"id": "/documentation/appkit/nspasteboard/detectedvalues(for:)", "law": "The following example shows how to use this method to find links in the first pasteboard item: When calling this method, if a match is found, the system informs the person using the app that the app is trying to read the contents of the pasteboard."}
+{"id": "/documentation/appkit/nspasteboard/detectmetadatafortypes:completionhandler:", "law": "The following example shows how to use this method to find the content type of a file reference in the first item on the pasteboard: Determines available metadata from the specified metadata types for the first pasteboard item, without notifying the person using the app."}
+{"id": "/documentation/appkit/nspasteboard/detectpatternsforpatterns:completionhandler:", "law": "The following example shows how to use this method to find email and postal addresses in the first pasteboard item: Determines whether the first pasteboard item matches the specified patterns, without notifying the person using the app."}
+{"id": "/documentation/appkit/nspasteboard/detectvaluesforpatterns:completionhandler:", "law": "The following example shows how to use this method to find web URLs and web search terms in the first pasteboard item: If the system finds a match when calling this method, the system informs the person using the app that the app is trying to read the contents of the pasteboard."}
+{"id": "/documentation/appkit/nspasteboard/general", "law": "The shared pasteboard object to use for general content."}
+{"id": "/documentation/appkit/nspasteboard/propertylist(fortype:)", "law": "Although performing this check isn’t required, doing so can help you determine if a result from a reading method is due to something like a pasteboard timeout."}
+{"id": "/documentation/appkit/nspasteboard/readfilecontentstype(_:tofile:)", "law": "Data of any file contents type should only be read using this method."}
+{"id": "/documentation/appkit/nspasteboard/readfilecontentstype(_:tofile:)", "law": "You must send an or message before invoking ."}
+{"id": "/documentation/appkit/nspasteboard/readingoptions", "law": "If you don’t specify an option, the system uses the default ."}
+{"id": "/documentation/appkit/nspasteboard/readobjects(forclasses:options:)", "law": "Classes in must implement the protocol."}
+{"id": "/documentation/appkit/nspasteboard/readobjects(forclasses:options:)", "law": "You can always ensure to receive one object per item on the pasteboard by including the class in the array of classes."}
+{"id": "/documentation/appkit/nspasteboard/releaseglobally()", "law": "After this method is invoked, no other application can use the receiver."}
+{"id": "/documentation/appkit/nspasteboard/releaseglobally()", "law": "Although you must call this method to release a temporary, privately named pasteboard to avoid leaks, you should never call it on a standard pasteboard."}
+{"id": "/documentation/appkit/nspasteboard/string(fortype:)", "law": "Although performing this check isn’t required, doing so can help you determine if a result from a reading method is due to something like a pasteboard timeout."}
+{"id": "/documentation/appkit/nspasteboard/types", "law": "If you need to see if a type in the array matches a type string you have stored locally, use the method to perform the comparison."}
+{"id": "/documentation/appkit/nspasteboard/withuniquename()", "law": "Because the lifetime of a unique pasteboard is not related to the lifetime of the creating app, you must release a unique pasteboard by calling to avoid possible leaks."}
+{"id": "/documentation/appkit/nspasteboardwriting/pasteboardpropertylist(fortype:)", "law": "However, if this method returns either a string, or any other property-list type, the pasteboard will automatically convert these items to the correct data format required for the pasteboard."}
+{"id": "/documentation/appkit/nspasteboardwriting/writabletypes(for:)", "law": "Use the pasteboard argument to provide different types based on the pasteboard name, if desired."}
+{"id": "/documentation/appkit/nspasteboardwriting/writabletypes(for:)", "law": "Do not perform other pasteboard operations in the method implementation."}
+{"id": "/documentation/appkit/nspasteboardwriting/writingoptions(fortype:pasteboard:)", "law": "Do not perform other pasteboard operations in the method implementation."}
+{"id": "/documentation/appkit/nssound", "law": "If you want to play the system beep sound, use the (Swift) or (Objective-C) function."}
+{"id": "/documentation/appkit/nspasteboarditem/collaborationmetadata", "law": "A model object you use for conveying data during a collaboration."}
+{"id": "/documentation/appkit/nspasteboarditem/detectedpatterns(for:)", "law": "The following example shows how to use this method to find calendar events in each item on the pasteboard: Determines whether the pasteboard item matches the specified patterns, without notifying the person using the app."}
+{"id": "/documentation/appkit/nspasteboarditem/detectedvalues(for:)", "law": "The following example shows how to use this method to find links in each item on the pasteboard: If the system finds a match when calling this method, the system informs the person using the app that the app is trying to read the contents of the pasteboard."}
+{"id": "/documentation/appkit/nspasteboarditem/detectpatternsforpatterns:completionhandler:", "law": "The following example shows how to use this method to find email and postal addresses in each item on the pasteboard: Determines whether this pasteboard item matches the specified patterns, without notifying the person using the app."}
+{"id": "/documentation/appkit/nspasteboarditem/detectvaluesforpatterns:completionhandler:", "law": "The following example shows how to use this method to find web URLs and web search terms in each item on the pasteboard: If the system finds a match when calling this method, the system informs the person using the app that the app is trying to read the contents of the pasteboard."}
+{"id": "/documentation/appkit/nscontrol/textdidbegineditingnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nscontrol/textdidchangenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nscontroltexteditingdelegate/control(_:textshouldendediting:)", "law": "if the insertion point should be allowed to end the editing session; otherwise, ."}
+{"id": "/documentation/appkit/nstablecellview/rowsizestyle", "law": "A value of should never be set on the cell view, as it is an appropriate value only for the table as it returns the effective row size style for the table."}
+{"id": "/documentation/appkit/nstableview/beginupdates()", "law": "When using an -based table view, you must surround any insertion, deletion, or move in an update block for animations to occur."}
+{"id": "/documentation/appkit/nstableview/beginupdates()", "law": "The main reason for doing a batch update of changes to a table view is to avoid having the table animate unnecessarily."}
+{"id": "/documentation/appkit/nstableview/beginupdates()", "law": "Note that these methods should be called to reflect changes in your model; they do not make any underlying model changes."}
+{"id": "/documentation/appkit/nstableview/beginupdates()", "law": "For -based table views, it is required to call if you want to animate the , , and ."}
+{"id": "/documentation/appkit/nstableview/clickedcolumn", "law": "You can also use the value to determine which contextual menu to display when the user Control-clicks in a table."}
+{"id": "/documentation/appkit/nstableview/clickedrow", "law": "You can also use the value to determine which contextual menu to display when the user Control-clicks in a table."}
+{"id": "/documentation/appkit/nstableview/clickedrow", "law": "Note that you should check to see if is one of the rows the user selected and if it is, perform the contextual menu operation on all of the selected rows."}
+{"id": "/documentation/appkit/nstableview/column(for:)", "law": "This method is typically called in the action method of an (or ) to find out what row (and column) the action should be performed on."}
+{"id": "/documentation/appkit/nstableview/column(for:)", "law": "The implementation is where n is the number of visible rows, so this method should generally not be called within a loop."}
+{"id": "/documentation/appkit/nstableview/columndidresizenotification", "law": "The dictionary contains the following information: To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nstableview/cornerview", "law": "Your custom corner view should be as wide as a vertical object and as tall as the header view of the table view."}
+{"id": "/documentation/appkit/nstableview/datasource", "law": "The data source for the table view must implement the appropriate methods of the protocol."}
+{"id": "/documentation/appkit/nstableview/delegate", "law": "The delegate must conform to the protocol."}
+{"id": "/documentation/appkit/nstableview/delegate", "law": "Rather than setting the delegate to and listening for notifications (and expecting to still function correctly) you should instead implement the appropriate delegate method."}
+{"id": "/documentation/appkit/nstableview/didadd(_:forrow:)", "law": "Subclasses must be sure to call super."}
+{"id": "/documentation/appkit/nstableview/didremove(_:forrow:)", "law": "The removed may be reused by the table, so any additionally inserted views should be removed at this point."}
+{"id": "/documentation/appkit/nstableview/didremove(_:forrow:)", "law": "Subclasses must be sure to call ."}
+{"id": "/documentation/appkit/nstableview/doubleaction", "law": "If you do not specify a value for this property, the table view begins editing the cell."}
+{"id": "/documentation/appkit/nstableview/dragimageforrows(with:tablecolumns:event:offset:)", "law": "Computes and returns an image to use for dragging."}
+{"id": "/documentation/appkit/nstableview/dragimageforrows:event:dragimageoffset:", "law": "To support multi-item drags, it is highly recommended to implement the delegate method instead."}
+{"id": "/documentation/appkit/nstableview/dragimageforrows:event:dragimageoffset:", "law": "Computes and returns an image to use for dragging."}
+{"id": "/documentation/appkit/nstableview/drawrow(_:cliprect:)", "law": "For -based table views, do not subclass or override this method."}
+{"id": "/documentation/appkit/nstableview/drawrow(_:cliprect:)", "law": "Instead, row drawing customization should be done by subclassing ."}
+{"id": "/documentation/appkit/nstableview/dropoperation", "law": "To specify a drop below the last row, you use a row of and for the operation."}
+{"id": "/documentation/appkit/nstableview/editcolumn(_:row:with:select:)", "law": "This method is invoked automatically in response to user actions; you should rarely need to invoke it directly."}
+{"id": "/documentation/appkit/nstableview/editcolumn(_:row:with:select:)", "law": "This method should not be subclassed or overridden for -based table views."}
+{"id": "/documentation/appkit/nstableview/enumerateavailablerowviews(_:)", "law": "It is preferred to use this method to efficiently make changes over all views that exist in the table."}
+{"id": "/documentation/appkit/nstableview/focusedcolumn()", "law": "The focus interaction will always be on the of the table."}
+{"id": "/documentation/appkit/nstableview/frameofcell(atcolumn:row:)", "law": "You can use this method to update a single cell more efficiently than sending the table view a message using The result of this method is used in a message to the table column’s data cell."}
+{"id": "/documentation/appkit/nstableview/frameofcell(atcolumn:row:)", "law": "However, never return a frame larger than the default implementation returns."}
+{"id": "/documentation/appkit/nstableview/gridstylemask", "law": "Use this property to specify whether lines should be drawn between rows and columns."}
+{"id": "/documentation/appkit/nstableview/hiderows(at:withanimation:)", "law": "Use this method when you no longer want the data to be visible to the user, but you don’t want to permanently remove the data."}
+{"id": "/documentation/appkit/nstableview/highlightselection(incliprect:)", "law": "This method should not be subclassed or overridden for a view-base table view."}
+{"id": "/documentation/appkit/nstableview/highlightselection(incliprect:)", "law": "Instead, row drawing customization should be done by subclassing ."}
+{"id": "/documentation/appkit/nstableview/indicatorimage(in:)", "law": "An example of its use is in Mail to indicate the sorting direction of the currently sorted column in a mailbox."}
+{"id": "/documentation/appkit/nstableview/insertrows(at:withanimation:)", "law": "-based table views must first call before calling this method."}
+{"id": "/documentation/appkit/nstableview/intercellspacing", "law": "An intercell spacing of or greater is required if you want this separation."}
+{"id": "/documentation/appkit/nstableview/makeview(withidentifier:owner:)", "law": "(The owner is useful in setting up outlets and target/actions from the view.) Note that a cell view’s identifier must be the same as its table column’s identifier for bindings to work."}
+{"id": "/documentation/appkit/nstableview/makeview(withidentifier:owner:)", "law": "If you’re using bindings, it’s recommended that you use the Automatic identifier setting in Interface Builder."}
+{"id": "/documentation/appkit/nstableview/moverow(at:to:)", "law": "-based table views must first call before calling this method."}
+{"id": "/documentation/appkit/nstableview/notenumberofrowschanged()", "law": "When using -based table views this method should be avoided."}
+{"id": "/documentation/appkit/nstableview/notenumberofrowschanged()", "law": "This method does not work for , and should not be called."}
+{"id": "/documentation/appkit/nstableview/numberofrows", "law": "Typically you should not ask the table view how many rows it has; instead, interrogate the table view’s data source."}
+{"id": "/documentation/appkit/nstableview/performclickoncell(atcolumn:row:)", "law": "Acquires the , copies it, invokes or (if the cell is an ), and then updates the data source, if required."}
+{"id": "/documentation/appkit/nstableview/preparedcell(atcolumn:row:)", "law": "New subclass instance to use for the specified and ."}
+{"id": "/documentation/appkit/nstableview/preparedcell(atcolumn:row:)", "law": "You can override this method to do any additional cell set up that is required, or invoke it to retrieve a cell that has its contents configured for the specified and ."}
+{"id": "/documentation/appkit/nstableview/preparedcell(atcolumn:row:)", "law": "Returns the fully prepared cell that the table view will use for drawing or processing of the specified row and column."}
+{"id": "/documentation/appkit/nstableview/rect(ofcolumn:)", "law": "You can use this method to update a single column more efficiently than sending the table view a message."}
+{"id": "/documentation/appkit/nstableview/rect(ofrow:)", "law": "You can use this method to update a single row more efficiently than sending the table view a message."}
+{"id": "/documentation/appkit/nstableview/register(_:foridentifier:)", "law": "Use this method to associate one of the NIB’s cell views with so that the table can instantiate this view when requested."}
+{"id": "/documentation/appkit/nstableview/register(_:foridentifier:)", "law": "Registers a NIB for the specified identifier, so that view-based table views can use it to instantiate views."}
+{"id": "/documentation/appkit/nstableview/reloaddata(forrowindexes:columnindexes:)", "law": "For tables that support variable row heights, the row height is not re-queried from the delegate; it is your responsibility to invoke if a row height change is required."}
+{"id": "/documentation/appkit/nstableview/removerows(at:withanimation:)", "law": "The row indexes should be with respect to the current state displayed in the table view, and not the final state, because the specified rows do not exist in the final state."}
+{"id": "/documentation/appkit/nstableview/removerows(at:withanimation:)", "law": "-based table views must first call before calling this method."}
+{"id": "/documentation/appkit/nstableview/row(for:)", "law": "This method is typically called in the action method for an (or ) to find out what row (and column) the action should be performed on."}
+{"id": "/documentation/appkit/nstableview/row(for:)", "law": "The implementation is where n is the number of visible rows, so this method should generally not be called within a loop."}
+{"id": "/documentation/appkit/nstableview/rowsizestyle-swift.property", "law": "The default value of this property is , which tells the table to use the of the table instead of any pre-determined system values."}
+{"id": "/documentation/appkit/nstableview/rowsizestyle-swift.property", "law": "Generally, should always be except for “source lists”."}
+{"id": "/documentation/appkit/nstableview/rowview(atrow:makeifnecessary:)", "law": "In general, should be if you require a resulting view, and if you want to update properties on a view only if it is available (generally this means it is visible)."}
+{"id": "/documentation/appkit/nstableview/rowview(atrow:makeifnecessary:)", "law": "The returned result should generally not be held onto for longer than the current run loop cycle."}
+{"id": "/documentation/appkit/nstableview/rowview(atrow:makeifnecessary:)", "law": "It’s better to call whenever a view is required."}
+{"id": "/documentation/appkit/nstableview/selectiondidchangenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nstableview/selectionischangingnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nstableview/setfocusedcolumn(_:)", "law": "This method will redisplay the previously focused column and (if required) the new ."}
+{"id": "/documentation/appkit/nstableview/setfocusedcolumn(_:)", "law": "You should not override this method."}
+{"id": "/documentation/appkit/nstableview/sizetofit()", "law": "All columns are resized to the same size, up to a column’s maximum size."}
+{"id": "/documentation/appkit/nstableview/textshouldbeginediting:", "law": "if editing of the text should begin, otherwise ."}
+{"id": "/documentation/appkit/nstableview/textshouldbeginediting:", "law": "Queries the delegate to determine if the text should begin editing."}
+{"id": "/documentation/appkit/nstableview/tile()", "law": "For performance reasons, calling this method is generally not recommended."}
+{"id": "/documentation/appkit/nstableview/userinterfacelayoutdirection", "law": "Although this property was introduced in macOS 10.12, in earlier versions the property always returned ."}
+{"id": "/documentation/appkit/nstableview/usesstaticcontents", "law": "Typically, you do not change the contents of a static table view after setting them."}
+{"id": "/documentation/appkit/nstableview/usesstaticcontents", "law": "When adding rows programmatically, your table view delegate must implement the method to provide the corresponding view for any new rows."}
+{"id": "/documentation/appkit/nstableview/usesstaticcontents", "law": "A table with static contents must be an -based table view."}
+{"id": "/documentation/appkit/nstableview/verticalmotioncanbegindrag", "law": "Horizontal motion is always a valid motion to begin a drag."}
+{"id": "/documentation/appkit/nstableview/view(atcolumn:row:makeifnecessary:)", "law": "In general, should be if you require a resulting view, and if you only want to update properties on a view only if it is available (generally this means it is visible)."}
+{"id": "/documentation/appkit/nstableview/view(atcolumn:row:makeifnecessary:)", "law": "The returned result should generally not be held onto for longer than the current run loop cycle."}
+{"id": "/documentation/appkit/nstableview/view(atcolumn:row:makeifnecessary:)", "law": "Instead they should re-query the table view for the row view."}
+{"id": "/documentation/appkit/nstableviewdatasource/numberofrows(in:)", "law": "An instance of uses this method to determine how many rows it should create and display."}
+{"id": "/documentation/appkit/nstableviewdatasource/numberofrows(in:)", "law": "Your implementation is called very frequently, so it must be efficient."}
+{"id": "/documentation/appkit/nstableviewdatasource/numberofrows(in:)", "law": "Both view-based table views and cell-based table views must implement this method."}
+{"id": "/documentation/appkit/nstableviewgridlinestyle/nstableviewgridnone", "law": "Specifies that no grid lines should be displayed."}
+{"id": "/documentation/appkit/specifying-a-custom-row-view-in-a-nib-file", "law": "View-based table view instances use to identify the nib file containing the template row view."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:objectvaluefor:row:)", "law": "is called each time the table cell needs to be redisplayed, so it must be efficient."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:setobjectvalue:for:row:)", "law": "This method is intended for use with cell-based table views, it must not be used with view-based table views."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:setobjectvalue:for:row:)", "law": "In view-based tables, use target/action to set each item in the view cell."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:setobjectvalue:for:row:)", "law": "This method is optional if your application is using Cocoa bindings for providing data to the table view, otherwise it must be implemented."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:updatedraggingitemsfordrag:)", "law": "Required for multi-image dragging."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:updatedraggingitemsfordrag:)", "law": "For view-based table views, you can use the method ."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:updatedraggingitemsfordrag:)", "law": "For cell-based tables, use the method ."}
+{"id": "/documentation/appkit/nstableviewdatasource/tableview(_:writerowswith:to:)", "law": "Called by after it has been determined that a drag should begin, but before the drag has been started."}
+{"id": "/documentation/appkit/nstableviewdiffabledatasource-c5gl", "law": "The object you use to manage data and provide items for a table view."}
+{"id": "/documentation/appkit/nstableviewdiffabledatasourcereference", "law": "If you’re working in a Swift codebase, always use instead of ."}
+{"id": "/documentation/appkit/nstableviewdiffabledatasourcereference", "law": "The object you use to manage data and provide items for a table view."}

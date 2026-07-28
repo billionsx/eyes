@@ -67,3 +67,7 @@
 {"id": "/documentation/appkit/nstextview/iscoalescingundo", "sha": "df38fb713cf73ac5ba49b0dca739d590dbdb39952db9ed6c47ce844b8a6f9859", "t": "isCoalescingUndo", "n": 131, "laws": 0, "ts": "2026-07-28 05:53 UTC"}
 {"id": "/documentation/appkit/nstoolbardelegate/toolbardidremoveitem(_:)", "sha": "782d96be927edc5338070652e21cebf9128dee36bcdbb1f018c155ff9187a270", "t": "toolbarDidRemoveItem(_:)", "n": 150, "laws": 1, "ts": "2026-07-28 05:59 UTC"}
 {"id": "/documentation/appkit/nstoolbaritemgroup/selectionmode-swift.enum", "sha": "b8d54cf2d187a7770aba6ed4888320b04e7616c63b442c2bf5abf82188aaf781", "t": "NSToolbarItemGroup.SelectionMode", "n": 255, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nstreenode/indexpath", "sha": "fe31305bb7b3b4bd534e808702e21b743194d03f1e4f03808ac8e8ea96534db8", "t": "indexPath", "n": 57, "laws": 0, "ts": "2026-07-28 18:40 UTC"}
+{"id": "/documentation/appstoreconnectapi/apppreview", "sha": "bf49d199f93f98dccb0edc962dc6d3978930e5b3c08ce9d5d29784e9ef5c02a2", "t": "AppPreview", "n": 119, "laws": 0, "ts": "2026-07-28 18:56 UTC"}
+{"id": "/documentation/appstoreconnectapi/app-store-version-phased-releases", "sha": "048745800a64216dd094481c2b2b0e87feb0eeea70c6fe7d36e4f7fbb0b0da5c", "t": "App Store Version Phased Releases", "n": 752, "laws": 1, "ts": "2026-07-28 18:56 UTC"}
+{"id": "/documentation/uikit/uiwindowscenedestructionrequestoptions", "sha": "fdecfbdc585eff27c45dbe5198780bb71e143dcf1baff75c0a6f00ef9ccd8d79", "t": "UIWindowSceneDestructionRequestOptions", "n": 381, "laws": 2, "ts": "2026-07-28 18:58 UTC"}

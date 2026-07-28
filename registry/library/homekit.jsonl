@@ -56,3 +56,5 @@
 {"id": "/documentation/homekit/hmcharacteristic", "law": "Some characteristics use plain numbers, Booleans, or strings."}
 {"id": "/documentation/homekit/hmservice", "law": "Accessories have both user-controllable services, like a light, and services that are for the use of the accessory itself, like a firmware update service."}
 {"id": "/documentation/homekit/hmservice", "law": "You don’t create services directly."}
+{"id": "/documentation/HomeKit/HMHomeManager/authorizationStatus", "law": "You don’t make an explicit request for access, but you can modify the behavior of your app based on the current authorization status."}
+{"id": "/documentation/HomeKit/HMHomeManager/authorizationStatus", "law": "Your app has home data authorization only when the bit is present: Users can revoke permission at any time in the Settings app, so your app should always be prepared to handle errors caused by lack of access."}

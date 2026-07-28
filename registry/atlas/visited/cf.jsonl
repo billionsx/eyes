@@ -49,3 +49,9 @@
 {"id": "/documentation/appkit/nstextview/rangesforusertextchange", "sha": "1e2eb9c554e69b938acb44c78b44f275ef07cc16dd1d2ba95bc4609bc0be03b1", "t": "rangesForUserTextChange", "n": 117, "laws": 0, "ts": "2026-07-28 05:54 UTC"}
 {"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "sha": "a19ef2cd2ad73db2e1fd41d468fa33a1ac1104f284ed97d69ad77951f7a937bd", "t": "isEqual(_:)", "n": 669, "laws": 3, "ts": "2026-07-28 06:01 UTC"}
 {"id": "/documentation/appkit/nstreecontroller/insert(_:)", "sha": "27b298f51159352297c9aa72b022848ed09e25dadb4989f1b35467d2bb600a80", "t": "insert(_:)", "n": 568, "laws": 0, "ts": "2026-07-28 06:04 UTC"}
+{"id": "/documentation/appkit/nsstackview/detachedviews", "sha": "f92fef31c018bebc4804215e8c443ebe42e1f9edca84fdc60c213bc58d05824b", "t": "detachedViews", "n": 278, "laws": 0, "ts": "2026-07-28 18:40 UTC"}
+{"id": "/documentation/foundation/nscoder/encode(_:forkey:)-29jyx", "sha": "845aa0ca59eb0f61b00acd9874fc92d6dde0db781a4d55f7c2afccb9aa0dc54c", "t": "encode(_:forKey:)", "n": 236, "laws": 0, "ts": "2026-07-28 18:44 UTC"}
+{"id": "/documentation/appkit/nsdiffabledatasourcesnapshotreference", "sha": "730c66e550ef0e3e3c19ccbfde2cb00d55e9e60881418f5b2ad04c1f78838106", "t": "NSDiffableDataSourceSnapshotReference", "n": 2754, "laws": 5, "ts": "2026-07-28 18:46 UTC"}
+{"id": "/documentation/applearchive/archiveerror", "sha": "629edf1ac8fcd1445b03e0aa2f6ce3316f776c0d7b50513053f2269634e31edd", "t": "ArchiveError", "n": 101, "laws": 0, "ts": "2026-07-28 19:01 UTC"}
+{"id": "/documentation/driverkit/iomemorydescriptor/createmapping", "sha": "a5c6ea02baff92484a9224509bb391521de5f5d7ab4f3376062609affd36a99e", "t": "CreateMapping", "n": 280, "laws": 1, "ts": "2026-07-28 19:03 UTC"}
+{"id": "/documentation/SerialDriverKit/IOUserSerial/Start", "sha": "363561cf85598fde73c2f2a52a020d4b760d542863258d17bdb733667b4c807a", "t": "Start", "n": 764, "laws": 4, "ts": "2026-07-28 19:04 UTC"}

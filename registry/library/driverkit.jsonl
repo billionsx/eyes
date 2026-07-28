@@ -77,3 +77,53 @@
 {"id": "/documentation/DriverKit/IOService/SetPowerState", "law": "Implement this method in your service object and use it to put your driver in a safe state for the new power setting."}
 {"id": "/documentation/DriverKit/driverkit-sample-code", "law": "Use these samples as a starting point to write your own custom drivers."}
 {"id": "/documentation/DriverKit/driverkit-sample-code", "law": "Use your custom driver code to support proprietary features of your hardware devices."}
+{"id": "/documentation/driverkit/iomemorydescriptor", "law": "Use the methods of this class to get information about a memory block and to map a memory block from another process into your driver’s memory space."}
+{"id": "/documentation/driverkit/iomemorydescriptor", "law": "Don’t create instances of this class directly."}
+{"id": "/documentation/driverkit/iomemorydescriptor/createmapping", "law": "Use this method to map a memory buffer created by another process into the address space of the current process."}
+{"id": "/documentation/driverkit/iomemorymap", "law": "Use an object to share an existing block of memory."}
+{"id": "/documentation/driverkit/iomemorymap", "law": "You don’t create instances of this class directly."}
+{"id": "/documentation/driverkit/iomemorymap", "law": "Use the methods of this class to get the address and size of the memory block, relative to the current process."}
+{"id": "/documentation/driverkit/iomemorymap", "law": "An object doesn’t own the memory it references, and you must not attempt to free that memory."}
+{"id": "/documentation/driverkit/ioservice", "law": "Use the methods of this class to do the following: Handle the initialization, setup, and teardown of your driver."}
+{"id": "/documentation/driverkit/ioservice", "law": "Don’t declare custom member variables directly in your subclass."}
+{"id": "/documentation/driverkit/ioservice", "law": "Instead, DriverKit requires you to define all variables in a separate structure."}
+{"id": "/documentation/driverkit/ioservice/create", "law": "Use the key to specify the name of the custom subclass that you want the system to instantiate."}
+{"id": "/documentation/driverkit/ioservice/create", "law": "Use the to specify the name of the custom subclass to return to clients of your service."}
+{"id": "/documentation/driverkit/ioservice/create", "law": "Use the key to specify an array of entitlement strings to match against the process of the new service."}
+{"id": "/documentation/driverkit/ioservice/create", "law": "The new service must contain all of the requested entitlements."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "The delivery of a DriverKit extension requires a macOS app."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "You use the app to deliver the driver to your users."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "The system requires all DriverKit drivers to be in the folder of your app’s bundle, and fails to load drivers that aren’t there."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "If you create your driver separately from your app, be sure to configure your build scripts to place the driver in that specific location."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "The default DriverKit template contains a C++ source file and an IOKit interface generator ( ) header file to use as the starting point for your service."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "The template also contains a default entitlements file for you to populate with the entitlements your driver requires."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "Create interface services for devices that communicate using standards-based protocols, such as USB, but which require interpretation or management of the resulting data."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "You create device services to support custom devices or to configure devices so that the system can use them."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "Your service subclass must not contain any member variables."}
+{"id": "/documentation/driverkit/creating-a-driver-using-the-driverkit-sdk", "law": "Instead, define a structure containing the variables your driver requires, and allocate that structure at initialization time."}
+{"id": "/documentation/driverkit/ioservice/start", "law": "Use this method to configure your driver’s data structures and setup the associated hardware."}
+{"id": "/documentation/driverkit/ioservice/start", "law": "You might also store a reference to the object for later use."}
+{"id": "/documentation/driverkit/ioservice/start", "law": "Always call early in your implementation of this method."}
+{"id": "/documentation/driverkit/ioservice/free", "law": "Use this method to perform any final cleanup of your service, such as deallocating any memory you allocated."}
+{"id": "/documentation/driverkit/ioservice/free", "law": "Always call at the end of your custom implementation."}
+{"id": "/documentation/driverkit/ioservice/init", "law": "Limit the work you do in this method to simple tasks that must occur before your service starts."}
+{"id": "/documentation/driverkit/ioservice/init", "law": "For example, use this method to allocate memory for your structure."}
+{"id": "/documentation/driverkit/ioservice/init", "law": "Always call early in your implementation of this method."}
+{"id": "/documentation/driverkit/ioservice/stop", "law": "Use your implementation of this method to stop all activity and put your driver in a quiescent state."}
+{"id": "/documentation/driverkit/ioservice/stop", "law": "Don’t use this method to release your structure; use the method instead."}
+{"id": "/documentation/driverkit/3242783-clock_types", "law": "Clock types to use when configuring a timer."}
+{"id": "/documentation/driverkit/iodispatchqueue", "law": "An object is a FIFO queue that you use to execute tasks serially in your driver."}
+{"id": "/documentation/driverkit/iodispatchqueue", "law": "Always use an instead of a structure to schedule tasks for your driver."}
+{"id": "/documentation/driverkit/iointerruptdispatchsource", "law": "If your driver handles hardware interrupts, configure this dispatch source and use your action object to provide an appropriat response."}
+{"id": "/documentation/driverkit/iotimerdispatchsource", "law": "There are several timebases you can use to configure the timer, but the most common one is ."}
+{"id": "/documentation/driverkit/iotimerdispatchsource/checkforwork", "law": "Don’t override this method or call it from your own code."}
+{"id": "/documentation/driverkit/iotimerdispatchsource/init", "law": "Don’t call this method directly."}
+{"id": "/documentation/driverkit/iotimerdispatchsource/wakeattime", "law": "Use this method to schedule the execution time for your timer."}
+{"id": "/documentation/driverkit/osaction/aborted", "law": "Don’t call this method directly."}
+{"id": "/documentation/driverkit/osaction/setabortedhandler", "law": "If you want to keep the action object, use your handler to retain it."}
+{"id": "/documentation/driverkit/osaction/setabortedhandler", "law": "If you don’t retain the object, the system releases it shortly after your handler returns."}
+{"id": "/documentation/DriverKit/IOService", "law": "Use the methods of this class to do the following: Handle the initialization, setup, and teardown of your driver."}
+{"id": "/documentation/DriverKit/IOService", "law": "Don’t declare custom member variables directly in your subclass."}
+{"id": "/documentation/DriverKit/IOService", "law": "Instead, DriverKit requires you to define all variables in a separate structure."}
+{"id": "/documentation/DriverKit/IOMemoryDescriptor", "law": "Use the methods of this class to get information about a memory block and to map a memory block from another process into your driver’s memory space."}
+{"id": "/documentation/DriverKit/IOMemoryDescriptor", "law": "Don’t create instances of this class directly."}

@@ -65,3 +65,7 @@
 {"id": "/documentation/appkit/nstoolbar/items", "sha": "5a1d368bcbe093f16e87bf80862c45744c9ad1318fad76d8d78064faf458b476", "t": "items", "n": 271, "laws": 1, "ts": "2026-07-28 05:59 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/image", "sha": "52758cf50ef9cb5afa36eee78e4738e76a088a22acce8fa9e8da1e2834ee0124", "t": "image", "n": 274, "laws": 0, "ts": "2026-07-28 05:59 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/identifier/flexiblespace", "sha": "2d03b6d5c181cb4220f616b356bcfb52d7bb5f8ae4dfeb31c797dd2ed69a7f57", "t": "flexibleSpace", "n": 85, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/UIKit/NSDirectionalEdgeInsetsFromString", "sha": "6367221a9bfbbf9e91b8793b2a2a5317cebea46a5ce858ba894d45d7d2f9c4ac", "t": "NSDirectionalEdgeInsetsFromString", "n": 197, "laws": 0, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/appkit/nspasteboardwriting/writingoptions(fortype:pasteboard:)", "sha": "74b46375c0ea20a93acc81584a25a449adbcb88952718fdc0d889c418d14078c", "t": "writingOptions(forType:pasteboard:)", "n": 266, "laws": 1, "ts": "2026-07-28 18:50 UTC"}
+{"id": "/documentation/appstoreconnectapi/previewframeimage", "sha": "1b34a72b8ec103091265b6e3c9af97eb498dfd44c23e1cf7e9971e8061f632d7", "t": "PreviewFrameImage", "n": 89, "laws": 0, "ts": "2026-07-28 18:56 UTC"}
+{"id": "/documentation/audiotoolbox/scheduledaudioslice", "sha": "ad99a5fa5503ab2d0bf04e9f9b60be1195b1c2906e12cb6b6844dd88b7de30b1", "t": "ScheduledAudioSlice", "n": 264, "laws": 0, "ts": "2026-07-28 19:03 UTC"}

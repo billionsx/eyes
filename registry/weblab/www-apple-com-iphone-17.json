@@ -42,21 +42,22 @@
   "name:faq",
   "name:index"
  ],
- "imgs": 250,
+ "imgs": 254,
  "videos": 11,
- "cta": 139,
+ "cta": 143,
  "h_levels": {
   "2": 38,
   "1": 1,
-  "3": 106,
+  "3": 108,
   "4": 6
  },
  "css": [
   "/api-www/global-elements/global-header/v1/assets/globalheader.css",
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
-  "/v/iphone-17/g/built/styles/overview.built.css",
-  "/ac/ac-films/7.5.1/styles/modal.css"
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/ac/includes/campaigns-seasonal/upgrade-2026/a/built/styles/overview.built.css",
+  "/v/iphone-17/g/built/styles/overview.built.css"
  ],
  "typography_laws": 2
 }

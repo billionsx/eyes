@@ -54,3 +54,28 @@
 {"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "The system sets this KVO-compliant property lets you know when to begin or stop retrieving head tracking data; you don’t have to set it yourself."}
 {"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "Don’t store this value; it isn’t a UUID, despite being a string."}
 {"id": "/documentation/audiotoolbox/rendering-spatial-audio-from-bluetooth-headphones", "law": "When the property becomes non- , use the value to request head orientation data from ."}
+{"id": "/documentation/audiotoolbox/auaudiochannelcount", "law": "This alias is type for impedance-matching with the pervasive use of in the Audio Toolbox framework and the C Audio Unit framework APIs, as well as the data type."}
+{"id": "/documentation/audiotoolbox/auaudioframecount", "law": "This alias is type for impedance-matching with the pervasive use of in the Audio Toolbox framework and the C Audio Unit framework APIs, as well as the data type."}
+{"id": "/documentation/audiotoolbox/audiounitelement", "law": "The Global scope always has exactly one element—element 0."}
+{"id": "/documentation/audiotoolbox/midichannelnumber", "law": "Per the MIDI-CI specification, this is always a single nibble, 0x0~0xF."}
+{"id": "/documentation/audiotoolbox/analyzing-audio-performance-with-instruments", "law": "To have better granularity for a specific track, use your mouse or trackpad to zoom in to the corresponding area of the track for more information."}
+{"id": "/documentation/audiotoolbox/analyzing-audio-performance-with-instruments", "law": "An overload occurs if you don’t deliver data on time, leading to issues in real-time audio playback."}
+{"id": "/documentation/audiotoolbox/analyzing-audio-performance-with-instruments", "law": "If you don’t promptly write audio data to the output buffer, the speakers lack the necessary information for continuous playback and glitch until they receive the missing data."}
+{"id": "/documentation/audiotoolbox/analyzing-audio-performance-with-instruments", "law": "Use Audio Workgroups API to optimize your audio threads’ performance, giving the operating system insight into active real-time threads, including auxiliary ones that other apps and Audio Unit plug-ins created."}
+{"id": "/documentation/audiotoolbox/analyzing-audio-performance-with-instruments", "law": "Ensure a smooth and immersive audio experience in your apps using Audio System Trace."}
+{"id": "/documentation/audiotoolbox/audio-file-stream-services", "law": "To parse streamed audio data, then, a parser must remember data from partially satisfied requests, and must be able to wait for the remainder of that data."}
+{"id": "/documentation/audiotoolbox/audio-file-stream-services", "law": "In other words, a parser must be able to suspend parsing as needed and then resume where it left off."}
+{"id": "/documentation/audiotoolbox/audio-file-stream-services", "law": "To use a parser, you pass data from a streamed audio file, as you acquire it, to the parser."}
+{"id": "/documentation/audiotoolbox/audio-queue-services", "law": "An audio queue is a software object you use for recording or playing audio."}
+{"id": "/documentation/audiotoolbox/audio-queue-services", "law": "Audio Queue Services is recommended for all new development and as a replacement for the Sound Manager in existing Mac apps."}
+{"id": "/documentation/audiotoolbox/audio-services", "law": "You can use System Sound Services to play short (30 seconds or shorter) sounds."}
+{"id": "/documentation/audiotoolbox/audio-services", "law": "You can use System Sound Services to provide audible alerts."}
+{"id": "/documentation/audiotoolbox/audio-session-support", "law": "You also use this API to specify your app’s behavior when it is interrupted, such as by a phone call."}
+{"id": "/documentation/audiotoolbox/audio-session-support", "law": "They do not apply to macOS."}
+{"id": "/documentation/audiotoolbox/audio-toolbox-debugging", "law": "Use these functions during development and debugging."}
+{"id": "/documentation/audiotoolbox/audioconverterfillcomplexbufferrealtimesafe(_:_:_:_:_:_:)", "law": "Such conversions may use this API in order to obtain compiler checks involving the attributes."}
+{"id": "/documentation/audiotoolbox/audioconverterfillcomplexbufferrealtimesafe(_:_:_:_:_:_:)", "law": "At runtime, this function returns if the conversion requires non-realtime-safe functionality."}
+{"id": "/documentation/audiotoolbox/audioconverterfillcomplexbufferwithpacketdependencies(_:_:_:_:_:_:_:)", "law": "For output formats that use packet dependency descriptions, this must be used instead of AudioConverterFillComplexBuffer, which will return an error for such formats."}
+{"id": "/documentation/audiotoolbox/bypassedspatialaudio", "law": "Use this if implementing your own spatial audio rendering or designing an experience that should not have spatial audio."}
+{"id": "/documentation/audiotoolbox/generating-spatial-audio-from-a-multichannel-audio-stream", "law": "To generate spatialized audio from a multichannel audio stream, you use a spatial mixer audio unit (AUSM)."}
+{"id": "/documentation/audiotoolbox/generating-spatial-audio-from-a-multichannel-audio-stream", "law": "Use for an object to render the input signal as a single source, except if rendering in-head with ."}

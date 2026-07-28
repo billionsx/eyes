@@ -57,3 +57,7 @@
 {"id": "/documentation/appkit/nstextview/updatecandidates()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "updateCandidates()", "n": 0, "laws": 0, "ts": "2026-07-28 05:56 UTC"}
 {"id": "/documentation/appkit/nstoolbaritem/maxsize", "sha": "c9bdb003b96724e755f914e4d3490d291aa74754dfa081651a9c3e5d2adafda2", "t": "maxSize", "n": 82, "laws": 1, "ts": "2026-07-28 06:00 UTC"}
 {"id": "/documentation/appkit/nstreecontroller/canaddchild", "sha": "0625ec57b2918148de27a42ab285ccbc792fed0797a1439148cf2f0253cc4ee2", "t": "canAddChild", "n": 259, "laws": 0, "ts": "2026-07-28 06:04 UTC"}
+{"id": "/documentation/appkit/nsgridrow", "sha": "9d44a606d0350b8f5ad3a93578f0c8b0e4f551ab973d638691e5d661ac44405d", "t": "NSGridRow", "n": 319, "laws": 0, "ts": "2026-07-28 18:41 UTC"}
+{"id": "/documentation/appkit/nstableview/datasource", "sha": "8f10b470297270ec1fe849dae313eb536714aec5f40e9f48e5927bbc409ef75e", "t": "dataSource", "n": 435, "laws": 1, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/screen", "sha": "075e8bc04f49c63a4c49eda387756a6f3718ca51122902dc0bd58e3d48cdf862", "t": "screen", "n": 51, "laws": 0, "ts": "2026-07-28 18:58 UTC"}
+{"id": "/documentation/audiotoolbox/audiounit_audiocodec_h", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AudioUnit_AudioCodec_h", "n": 0, "laws": 0, "ts": "2026-07-28 19:09 UTC"}

@@ -58,3 +58,9 @@
 {"id": "/documentation/appkit/nswindow/level-swift.struct", "sha": "a50282de38a66e2620850fa0f2756f6a0fd5824b74d620c11bc6bf9bbc6bc2af", "t": "NSWindow.Level", "n": 531, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
 {"id": "/documentation/appkit/nswindow/viewsneeddisplay", "sha": "63d2f90a07ecbcef8def065342d2f7e64e42c505d1e93a165caeba2b44f27ee4", "t": "viewsNeedDisplay", "n": 294, "laws": 1, "ts": "2026-07-28 05:50 UTC"}
 {"id": "/documentation/appkit/nswindow/willminiaturizenotification", "sha": "4d9ecd33a173ad589b96e5d932505938a2893c68968a0f73d7e0c9adc6213c78", "t": "willMiniaturizeNotification", "n": 245, "laws": 1, "ts": "2026-07-28 05:50 UTC"}
+{"id": "/documentation/UIKit/CGRectFromString", "sha": "958286de62b67bfdc5eab7b5aba37ae93ff752ef6054f5f861164b2b1348cf55", "t": "CGRectFromString", "n": 344, "laws": 1, "ts": "2026-07-28 18:42 UTC"}
+{"id": "/documentation/appkit/nstableview/columnautoresizingstyle-swift.property", "sha": "a27f6ab5415122d65ca65b8c8689ea9540f99986038eccfed4bc5add1b0ae1a3", "t": "columnAutoresizingStyle", "n": 180, "laws": 0, "ts": "2026-07-28 18:51 UTC"}
+{"id": "/documentation/swift/cint", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "CInt", "n": 0, "laws": 0, "ts": "2026-07-28 19:02 UTC"}
+{"id": "/documentation/driverkit/iotimerdispatchsource/checkforwork", "sha": "b19f959d06fea3dbbc43e46ef3f71835729ea911d47951cdc955eaaa558cd741", "t": "CheckForWork", "n": 240, "laws": 1, "ts": "2026-07-28 19:04 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudiodevice/setoutputsafetyoffset", "sha": "173d29bb70dec302d2cbeff4ae497c4e56a49404bd2f1c546b760f543bc16db7", "t": "SetOutputSafetyOffset", "n": 285, "laws": 0, "ts": "2026-07-28 19:06 UTC"}
+{"id": "/documentation/audiodriverkit/iouseraudioobject/setelementcategoryname", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SetElementCategoryName", "n": 0, "laws": 0, "ts": "2026-07-28 19:07 UTC"}

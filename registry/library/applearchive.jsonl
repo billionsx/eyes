@@ -8,3 +8,26 @@
 {"id": "/documentation/applearchive/encrypting-and-decrypting-a-single-file", "law": "Before running the sample code project in Xcode, ensure you have a file in your temporary directory (see: ) named ."}
 {"id": "/documentation/applearchive/encrypting-and-decrypting-a-single-file", "law": "An object contains the parameters, keys, and other data that the Apple Encrypted Archive library requires to open an encrypted archive for encryption and decryption streams."}
 {"id": "/documentation/applearchive/encrypting-and-decrypting-a-single-file", "law": "The options specify that the stream creates the file if it doesn’t exist, and that if the file does exist, it should be truncated to zero bytes before the stream performs any operations."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/authdata", "law": "Use this property, for example, to store a certificate chain for the archive signing entity."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/decryptattributes()", "law": "on success; otherwise, if the credentials and archive prologue don’t match."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/decryptattributes()", "law": "You must have created the current context from an encrypted stream."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/decryptattributes()", "law": "Therefore, you don’t need to call this function before calling either or ."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/init(from:)", "law": "Use this function to either reopen an encrypted stream for writing or open an encrypted stream for reading."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/init(from:)", "law": "If you haven’t set a private key, the context still requires a public key, as it’s tied to the stream."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/mainkey", "law": "Use the main key to append data to an existing AEA archive with the function."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/mainkey", "law": "You can use the original credentials for symmetric key or password encryption."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/password", "law": "Use the function to generate random high entropy passwords."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setpassword(_:)", "law": "Use this function to encrypt or decrypt an archive with the encryption mode."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setrecipientprivatekey(_:)", "law": "Sets the recipient private key that the context requires to decrypt an archive to a specific recipient in ECDHE encryption profiles."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setrecipientpublickey(_:)", "law": "Sets the recipient public key that the context requires to encrypt an archive to a specific recipient in ECDHE encryption profiles."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setsigningprivatekey(_:)", "law": "If you set this on an encryption stream, you don’t need to set the corresponding public key because Apple Archive derives the public key from the private key."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setsigningprivatekey(_:)", "law": "Use a private key that corresponds to the signing public key that you used to create the archive."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setsigningpublickey(_:)", "law": "If you don’t provide a private key when you create a new archive, provide a public key to tie the encryption to the signing identity."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setsigningpublickey(_:)", "law": "Sets the signing public key that the context requires to unlock a signed archive."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setsymmetrickey(_:)", "law": "Use this function to set the encryption key for a context with a symmetric ."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/setsymmetrickey(_:)", "law": "Sets the symmetric encryption key that the context requires for symmetric encryption mode."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/sign(encryptedstream:encryptioncontext:)", "law": "Create the context that you pass to this function from the same archive and it must contain the signature encryption key and the signing private key."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/signatureencryptionkey", "law": "You require the signature encryption key to sign an encrypted archive after you’ve created and sealed it."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/signatureencryptionkey", "law": "The signature encryption key is sufficient, that is, you don’t require the encryption credentials used to encrypt the archive to sign the archive after sealing."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/signatureencryptionkey", "law": "The signature encryption key that the context requires to sign an encrypted archive."}
+{"id": "/documentation/applearchive/archiveencryptioncontext/symmetrickey", "law": "Use the function to generate random keys."}
