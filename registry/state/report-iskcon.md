@@ -296,7 +296,7 @@
 - `apps/web/src/centers/CentersScreen.tsx:175` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/centers/MyCentersScreen.tsx:133` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/player/MiniPlayer.tsx:89` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/player/NowPlaying.tsx:365` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
+- `apps/web/src/player/NowPlaying.tsx:370` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/shop/CartScreen.tsx:73` — движение 700ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/shop/CartScreen.tsx:194` — движение 240ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/ui/nav4.tsx:153` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
