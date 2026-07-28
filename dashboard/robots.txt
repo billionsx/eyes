@@ -1,3 +1,4 @@
 # Billions X Eyes · эфир департамента
 User-agent: *
 Allow: /
+Disallow: /service/

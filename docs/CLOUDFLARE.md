@@ -108,3 +108,21 @@ repository secret**. Всё необязательно — департамен�
 - по понедельникам — Big7-бриф;
 - каждые 6 часов (или сразу после деплоя проекта) — монитор прода;
 - каждая хроника → новая выкладка на `vrajs.com`.
+
+---
+## Реестр службы · закрыть адрес политикой Access (5 кликов, необязательно)
+
+Страница `https://vrajs.com/service/` не индексируется (`X-Robots-Tag` +
+`robots.txt`), но Pages отдаёт её любому, кто знает адрес. Чтобы пускать только
+себя:
+
+1. https://one.dash.cloudflare.com → выбрать аккаунт → **Access** → **Applications**
+2. **Add an application** → **Self-hosted**
+3. Application name: `eyes service`, Session duration: по вкусу
+4. Public hostname: домен `vrajs.com`, path `service`
+5. **Add policy**: Policy name `founder`, Action **Allow**, Include →
+   **Emails** → свой адрес → **Save**
+
+После сохранения Cloudflare будет спрашивать одноразовый код на почту, а
+публичное лицо `vrajs.com` останется открытым. Бесплатный план Zero Trust
+покрывает до 50 пользователей.

@@ -84,11 +84,65 @@ def collect() -> dict:
 GRP = {"bxad": "Департамент BXE", "service": "Служба (трек M)"}
 
 
+def render_service(d: dict, out: Path) -> None:
+    """РЕЕСТР ОБСЛУЖИВАНИЯ (ст. 54.1) — за отдельным адресом.
+
+    Публичное лицо департамента показывает ЧИСЛА ПО APPLE. Кого он обслуживает
+    и с каким результатом — сведения о клиентах, и живут они по адресу
+    `/service/`: без индексации (X-Robots-Tag + robots.txt) и без ссылки из
+    поисковой выдачи. Полное закрытие — политика Cloudflare Access на путь
+    (см. docs/CLOUDFLARE.md §реестр службы).
+    """
+    sv = out / "service"
+    sv.mkdir(parents=True, exist_ok=True)
+    certs = d.get("certificates") or {}
+    ratchet = d.get("ratchet") or {}
+    mon = d.get("monitor") or {}
+    names = sorted(set(certs) | set(ratchet))
+    rows = "".join(
+        f"<tr><td>{n}</td><td>{certs.get(n, '—')}</td><td>{ratchet.get(n, '—')}</td></tr>"
+        for n in names) or "<tr><td colspan=3>подключённых проектов нет</td></tr>"
+    reg = {"ts": d["ts"], "projects": names,
+           "certificates": certs, "ratchet": ratchet, "monitor": mon,
+           "live_pages": (d.get("live") or {}).get("pages", 0)}
+    (sv / "data.json").write_text(json.dumps(reg, ensure_ascii=False, indent=1),
+                                 encoding="utf-8")
+    (sv / "index.html").write_text(f"""<!doctype html><html lang="ru"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Реестр службы · Billions X Eyes</title>
+<style>
+:root{{color-scheme:dark}}
+body{{background:#000;color:#fff;font:16px/1.5 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+margin:0;padding:28px 20px 60px;max-width:900px;margin-inline:auto}}
+h1{{font-size:26px;font-weight:700;letter-spacing:-.4px;margin:0 0 6px}}
+.sub{{color:rgba(255,255,255,.6);font-size:14px;margin-bottom:22px}}
+table{{width:100%;border-collapse:collapse;background:#1C1C1E;border-radius:16px;overflow:hidden}}
+th,td{{padding:11px 14px;text-align:left;font-size:14px;border-top:1px solid #2C2C2E}}
+th{{color:rgba(255,255,255,.6);font-weight:600;border-top:none}}
+a{{color:#0A84FF;text-decoration:none}}
+footer{{margin-top:26px;color:rgba(255,255,255,.45);font-size:13px}}
+</style>
+<h1>Реестр службы</h1>
+<div class="sub">Обслуживаемые проекты и результат · собран {d['ts']} · страница не индексируется</div>
+<table><tr><th>проект</th><th>сертификат</th><th>долг AE (храповик)</th></tr>{rows}</table>
+<p class="sub" style="margin-top:18px">Монитор прода: {('сейчас ' + str(mon.get('now')) + ' · новых ' + str(mon.get('new')) + ' · закрыто ' + str(mon.get('gone')) + ' · ' + str(mon.get('ts',''))) if mon else 'первого снятия не было'}<br>
+Страниц под живым взглядом: {(d.get('live') or {{}}).get('pages', 0)}</p>
+<footer>Подлинность сертификата — по отпечатку sha256 в реестре выдачи
+<code>certificates/&lt;проект&gt;/REGISTER.md</code>.
+Публичное лицо департамента — <a href="/">числа по Apple</a>.</footer>
+</html>""", encoding="utf-8")
+
+
 def render(d: dict):
     groups = [g for g in d["tasks_list"] if not g.startswith("_")]
     out = ROOT / "dashboard"
     out.mkdir(exist_ok=True)
-    (out / "data.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    # Публичный data.json — ТОЛЬКО числа по Apple (ст. 54.1). Сведения о том,
+    # кого департамент обслуживает, живут в /service/data.json.
+    SERVICE_KEYS = ("certificates", "certificate", "ratchet", "monitor")
+    public = {k: v for k, v in d.items() if k not in SERVICE_KEYS}
+    (out / "data.json").write_text(json.dumps(public, ensure_ascii=False, indent=1), encoding="utf-8")
     t = d["tasks"]
 
     def trow(grp):
@@ -109,10 +163,7 @@ def render(d: dict):
           f"| Живой взгляд | страниц в эфире: {d['live']['pages']} |",
           f"| Страж App Store (M5) | {'пунктов ' + str(d['appstore']['points']) + ' · чек-лист готов' if d['appstore']['have'] else 'первый прогон впереди'} |",
           f"| Big7-бриф (M6) | {d['brief'] or 'первый — в понедельник'} |",
-          f"| Сертификат (M3) | {d['certificate'] or 'не выдан'} |",
-          f"| Монитор прода | {('деплой ' + d['monitor'].get('sha','')[:9] + ' · сейчас ' + str(d['monitor'].get('now')) + ' · новых ' + str(d['monitor'].get('new')) + ' · закрыто ' + str(d['monitor'].get('gone'))) if d.get('monitor') else 'первого снятия не было'} |",
           f"| Большая семёрка | страниц {d['big7']['pages']} · положений {d['big7']['laws']} · рамок в карте {d['big7']['frames']} |",
-          f"| Храповик | долг по проектам: " + (" · ".join(f"{k}:{v}" for k, v in d['ratchet'].items()) or "—") + " |",
           "", "## Поручения основателя",
           *[f"- {GRP.get(g, g)}: {trow(g)}" for g in groups], "",
           "| ID | Поручение | Статус | Орган |", "|---|---|---|---|"]
@@ -168,7 +219,8 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
 <div class="c"><div class="n">{d['screens']['frames']}</div><div class="l">кадров кадротеки · {d['screens']['apps']} приложений Apple</div></div>
 <div class="c"><div class="n">{d['appstore']['points']}</div><div class="l">пунктов App Review Guidelines в страже</div></div>
 <div class="c"><div class="n">{d['big7']['laws']}</div><div class="l">положений большой семёрки · {d['big7']['pages']} страниц</div></div>
-<div class="wide">Сертификаты проектов: {projects_row}<br>Храповик долга: {debt}<br>Монитор прода: {mon_s}<br>Бриф недели: {d['brief'] or '—'}</div>
+<div class="wide">Бриф недели: {d['brief'] or '—'}<br>
+Обслуживание подключённых проектов — <a href="/service/">реестр службы</a> (не индексируется).</div>
 </div>
 <h2>Поручения</h2>
 <table>{rows}</table>
@@ -181,6 +233,7 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
     # Статика домена: пишется каждым прогоном, чтобы не могла разойтись.
     # index.html пересобирается постоянно — кэш браузера держим коротким,
     # data.json отдаём как источник чисел для внешних читателей.
+    render_service(d, out)
     (out / "_headers").write_text(
         "/*\n"
         "  X-Content-Type-Options: nosniff\n"
@@ -188,11 +241,15 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
         "  Cache-Control: public, max-age=60, must-revalidate\n"
         "/data.json\n"
         "  Access-Control-Allow-Origin: *\n"
-        "  Cache-Control: public, max-age=60\n", encoding="utf-8")
+        "  Cache-Control: public, max-age=60\n"
+        "/service/*\n"
+        "  X-Robots-Tag: noindex, nofollow\n"
+        "  Cache-Control: private, max-age=60\n", encoding="utf-8")
     (out / "robots.txt").write_text(
         "# Billions X Eyes · эфир департамента\n"
         "User-agent: *\n"
-        "Allow: /\n", encoding="utf-8")
+        "Allow: /\n"
+        "Disallow: /service/\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
