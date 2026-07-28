@@ -84,54 +84,36 @@ def collect() -> dict:
 GRP = {"bxad": "Департамент BXE", "service": "Служба (трек M)"}
 
 
-def render_service(d: dict, out: Path) -> None:
-    """РЕЕСТР ОБСЛУЖИВАНИЯ (ст. 54.1) — за отдельным адресом.
+def write_service_register(d: dict) -> None:
+    """РЕЕСТР ОБСЛУЖИВАНИЯ (ст. 54.1) — файл в реестрах, НЕ страница на домене.
 
-    Публичное лицо департамента показывает ЧИСЛА ПО APPLE. Кого он обслуживает
-    и с каким результатом — сведения о клиентах, и живут они по адресу
-    `/service/`: без индексации (X-Robots-Tag + robots.txt) и без ссылки из
-    поисковой выдачи. Полное закрытие — политика Cloudflare Access на путь
-    (см. docs/CLOUDFLARE.md §реестр службы).
+    Сначала я вынес его отдельным адресом `/service/` и стал придумывать к
+    этому адресу политику Access. Лишний слой: странице неоткуда взяться, если
+    её не публиковать. Реестр живёт там, где живут все прочие реестры
+    департамента — в `registry/state/`, рядом с MONITOR/STUDY/VERIFICATION.
+    В каталог `dashboard/` (его отдаёт домен) он не попадает вообще, поэтому
+    защищать нечего и нажимать ничего не нужно.
     """
-    sv = out / "service"
-    sv.mkdir(parents=True, exist_ok=True)
     certs = d.get("certificates") or {}
     ratchet = d.get("ratchet") or {}
     mon = d.get("monitor") or {}
     names = sorted(set(certs) | set(ratchet))
-    rows = "".join(
-        f"<tr><td>{n}</td><td>{certs.get(n, '—')}</td><td>{ratchet.get(n, '—')}</td></tr>"
-        for n in names) or "<tr><td colspan=3>подключённых проектов нет</td></tr>"
-    reg = {"ts": d["ts"], "projects": names,
-           "certificates": certs, "ratchet": ratchet, "monitor": mon,
-           "live_pages": (d.get("live") or {}).get("pages", 0)}
-    (sv / "data.json").write_text(json.dumps(reg, ensure_ascii=False, indent=1),
-                                 encoding="utf-8")
-    (sv / "index.html").write_text(f"""<!doctype html><html lang="ru"><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<title>Реестр службы · Billions X Eyes</title>
-<style>
-:root{{color-scheme:dark}}
-body{{background:#000;color:#fff;font:16px/1.5 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
-margin:0;padding:28px 20px 60px;max-width:900px;margin-inline:auto}}
-h1{{font-size:26px;font-weight:700;letter-spacing:-.4px;margin:0 0 6px}}
-.sub{{color:rgba(255,255,255,.6);font-size:14px;margin-bottom:22px}}
-table{{width:100%;border-collapse:collapse;background:#1C1C1E;border-radius:16px;overflow:hidden}}
-th,td{{padding:11px 14px;text-align:left;font-size:14px;border-top:1px solid #2C2C2E}}
-th{{color:rgba(255,255,255,.6);font-weight:600;border-top:none}}
-a{{color:#0A84FF;text-decoration:none}}
-footer{{margin-top:26px;color:rgba(255,255,255,.45);font-size:13px}}
-</style>
-<h1>Реестр службы</h1>
-<div class="sub">Обслуживаемые проекты и результат · собран {d['ts']} · страница не индексируется</div>
-<table><tr><th>проект</th><th>сертификат</th><th>долг AE (храповик)</th></tr>{rows}</table>
-<p class="sub" style="margin-top:18px">Монитор прода: {('сейчас ' + str(mon.get('now')) + ' · новых ' + str(mon.get('new')) + ' · закрыто ' + str(mon.get('gone')) + ' · ' + str(mon.get('ts',''))) if mon else 'первого снятия не было'}<br>
-Страниц под живым взглядом: {(d.get('live') or {{}}).get('pages', 0)}</p>
-<footer>Подлинность сертификата — по отпечатку sha256 в реестре выдачи
-<code>certificates/&lt;проект&gt;/REGISTER.md</code>.
-Публичное лицо департамента — <a href="/">числа по Apple</a>.</footer>
-</html>""", encoding="utf-8")
+    rows = [f"| {n} | {certs.get(n, '—')} | {ratchet.get(n, '—')} |" for n in names]
+    md = ["# РЕЕСТР ОБСЛУЖИВАНИЯ", "",
+          f"Собран {d['ts']}. Обслуживаемые проекты и результат. На домене этих",
+          "сведений нет намеренно (ст. 54.1): публичное лицо департамента — числа",
+          "по Apple, а кого он обслуживает, витрине знать незачем.", "",
+          "| проект | сертификат | долг AE (храповик) |", "|---|---|---|"]
+    md += rows or ["| — | подключённых проектов нет | — |"]
+    md += ["",
+           f"Монитор прода: " + (f"сейчас {mon.get('now')} · новых {mon.get('new')} · "
+                                 f"закрыто {mon.get('gone')} · {mon.get('ts','')}"
+                                 if mon else "первого снятия не было"),
+           f"Страниц под живым взглядом: {(d.get('live') or {}).get('pages', 0)}", "",
+           "Подлинность сертификата — по отпечатку sha256 в реестре выдачи",
+           "`certificates/<проект>/REGISTER.md` (ст. 50.1)."]
+    (ROOT / "registry" / "state" / "SERVICE.md").write_text("\n".join(md) + "\n",
+                                                            encoding="utf-8")
 
 
 def render(d: dict):
@@ -219,8 +201,7 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
 <div class="c"><div class="n">{d['screens']['frames']}</div><div class="l">кадров кадротеки · {d['screens']['apps']} приложений Apple</div></div>
 <div class="c"><div class="n">{d['appstore']['points']}</div><div class="l">пунктов App Review Guidelines в страже</div></div>
 <div class="c"><div class="n">{d['big7']['laws']}</div><div class="l">положений большой семёрки · {d['big7']['pages']} страниц</div></div>
-<div class="wide">Бриф недели: {d['brief'] or '—'}<br>
-Обслуживание подключённых проектов — <a href="/service/">реестр службы</a> (не индексируется).</div>
+<div class="wide">Бриф недели: {d['brief'] or '—'}</div>
 </div>
 <h2>Поручения</h2>
 <table>{rows}</table>
@@ -233,7 +214,7 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
     # Статика домена: пишется каждым прогоном, чтобы не могла разойтись.
     # index.html пересобирается постоянно — кэш браузера держим коротким,
     # data.json отдаём как источник чисел для внешних читателей.
-    render_service(d, out)
+    write_service_register(d)
     (out / "_headers").write_text(
         "/*\n"
         "  X-Content-Type-Options: nosniff\n"
@@ -242,14 +223,11 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
         "/data.json\n"
         "  Access-Control-Allow-Origin: *\n"
         "  Cache-Control: public, max-age=60\n"
-        "/service/*\n"
-        "  X-Robots-Tag: noindex, nofollow\n"
-        "  Cache-Control: private, max-age=60\n", encoding="utf-8")
+        "", encoding="utf-8")
     (out / "robots.txt").write_text(
         "# Billions X Eyes · эфир департамента\n"
         "User-agent: *\n"
-        "Allow: /\n"
-        "Disallow: /service/\n", encoding="utf-8")
+        "Allow: /\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

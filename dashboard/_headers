@@ -5,6 +5,3 @@
 /data.json
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
-/service/*
-  X-Robots-Tag: noindex, nofollow
-  Cache-Control: private, max-age=60

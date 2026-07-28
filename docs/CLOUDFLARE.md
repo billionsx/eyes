@@ -110,19 +110,9 @@ repository secret**. Всё необязательно — департамен�
 - каждая хроника → новая выкладка на `vrajs.com`.
 
 ---
-## Реестр службы · закрыть адрес политикой Access (5 кликов, необязательно)
+## Реестр обслуживания — нажимать нечего
 
-Страница `https://vrajs.com/service/` не индексируется (`X-Robots-Tag` +
-`robots.txt`), но Pages отдаёт её любому, кто знает адрес. Чтобы пускать только
-себя:
-
-1. https://one.dash.cloudflare.com → выбрать аккаунт → **Access** → **Applications**
-2. **Add an application** → **Self-hosted**
-3. Application name: `eyes service`, Session duration: по вкусу
-4. Public hostname: домен `vrajs.com`, path `service`
-5. **Add policy**: Policy name `founder`, Action **Allow**, Include →
-   **Emails** → свой адрес → **Save**
-
-После сохранения Cloudflare будет спрашивать одноразовый код на почту, а
-публичное лицо `vrajs.com` останется открытым. Бесплатный план Zero Trust
-покрывает до 50 пользователей.
+Сведения о подключённых проектах на домен не публикуются вообще: они лежат
+файлом `registry/state/SERVICE.md` в репозитории, рядом с прочими реестрами.
+Никакой политики доступа, никаких кнопок — защищать нечего, потому что
+страницы не существует (ст. 54.1).
