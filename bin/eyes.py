@@ -807,6 +807,18 @@ def cmd_selftest(root: Path) -> int:
     check("индекс раскрыт: секция стала заголовком, страницы — строками",
           "Components" in exd["headings"] and "Buttons" in exd["text"] and "Sliders" in exd["text"])
 
+    print("SELFTEST · эфир на домене (ст. 54: свежесть проверяется, а не обещается)")
+    import livecheck as lc_mod
+    lim = 15.0
+    check("совпадение отпечатков → зелёный",
+          lc_mod.verdict(lc_mod.lag_minutes("2026-07-28 06:32 UTC", "2026-07-28 06:32 UTC"), lim)[0] == 0)
+    check("отставание домена за пределом → красный",
+          lc_mod.verdict(lc_mod.lag_minutes("2026-07-28 06:32 UTC", "2026-07-28 05:10 UTC"), lim)[0] == 1)
+    check("домен впереди репозитория → красный (расхождение, не свежесть)",
+          lc_mod.verdict(lc_mod.lag_minutes("2026-07-28 06:00 UTC", "2026-07-28 06:20 UTC"), lim)[0] == 1)
+    check("адрес эфира живёт в реестре, не в коде",
+          "url" in json.loads((root / "registry" / "site.json").read_text(encoding="utf-8")))
+
     if not isinstance(ok, bool):  # мета-страж: вердикт суда перезаписан тенью — это провал сам по себе
         print("SELFTEST: КРАСНЫЙ — вердикт суда был перезаписан (тень переменной ok)")
         return 1

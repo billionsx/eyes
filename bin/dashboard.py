@@ -186,10 +186,10 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
         "/*\n"
         "  X-Content-Type-Options: nosniff\n"
         "  Referrer-Policy: strict-origin-when-cross-origin\n"
-        "  Cache-Control: public, max-age=300, must-revalidate\n"
+        "  Cache-Control: public, max-age=60, must-revalidate\n"
         "/data.json\n"
         "  Access-Control-Allow-Origin: *\n"
-        "  Cache-Control: public, max-age=300\n", encoding="utf-8")
+        "  Cache-Control: public, max-age=60\n", encoding="utf-8")
     (out / "robots.txt").write_text(
         "# Billions X Eyes · эфир департамента\n"
         "User-agent: *\n"

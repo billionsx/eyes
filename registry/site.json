@@ -1,0 +1,9 @@
+{
+ "_суть": "эфир департамента на своём домене (ст. 54). Адрес живёт здесь, а не в коде.",
+ "url": "https://vrajs.com",
+ "pages_project": "eyes",
+ "output_dir": "dashboard",
+ "cf_account": "d5cbe19470dc38599873eabfe148e6d1",
+ "stale_minutes": 15,
+ "_проверка": "bin/livecheck.py смотрит /data.json снаружи и пишет вердикт в registry/state/SITE.md"
+}

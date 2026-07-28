@@ -53,3 +53,18 @@ jobs:
         if: always()
         run: |
           bash bin/chronicle.sh "eyes: урожай (атлас · веб-атлас · кит · живой взгляд)" registry dashboard
+
+      - name: "Эфир снаружи — домен обязан отдавать свежую сборку (ст. 54)"
+        if: always()
+        continue-on-error: true
+        run: |
+          for i in 1 2 3 4 5 6 7 8; do
+            sleep 45
+            python3 bin/livecheck.py && exit 0
+          done
+          echo "домен не догнал репозиторий за 6 минут — вердикт в registry/state/SITE.md"
+
+      - name: "Хроника эфира снаружи"
+        if: always()
+        run: |
+          bash bin/chronicle.sh "eyes — вердикт эфира на домене" registry/state/SITE.md
