@@ -807,6 +807,21 @@ def cmd_selftest(root: Path) -> int:
     check("индекс раскрыт: секция стала заголовком, страницы — строками",
           "Components" in exd["headings"] and "Buttons" in exd["text"] and "Sliders" in exd["text"])
 
+    print("SELFTEST · реестр выданных сертификатов (подлинность в обе стороны)")
+    import certify as cert_mod
+    cd = tmp2 / "certs" / "demo"
+    cd.mkdir(parents=True, exist_ok=True)
+    (cd / "2026-07.html").write_text("<html>сертификат</html>", encoding="utf-8")
+    cert_mod.register(cd, "demo", "2026-07", 91.5, "A", "2026-07-28 00:00 UTC")
+    check("выданное сходится с реестром → чисто", cert_mod.verify_register(cd) == [])
+    (cd / "2026-07.html").write_text("<html>подменено</html>", encoding="utf-8")
+    check("подмена выданного документа поймана", len(cert_mod.verify_register(cd)) == 1)
+    cert_mod.register(cd, "demo", "2026-07", 91.5, "A", "2026-07-28 00:00 UTC")
+    check("перевыдача с новым отпечатком → снова чисто", cert_mod.verify_register(cd) == [])
+    (cd / "2026-08.html").write_text("<html>мимо реестра</html>", encoding="utf-8")
+    check("выдача мимо реестра поймана", len(cert_mod.verify_register(cd)) == 1)
+    (cd / "2026-08.html").unlink()
+
     print("SELFTEST · эфир на домене (ст. 54: свежесть проверяется, а не обещается)")
     import livecheck as lc_mod
     lim = 15.0

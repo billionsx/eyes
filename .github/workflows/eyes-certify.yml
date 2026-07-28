@@ -31,6 +31,21 @@ jobs:
             a=$(basename "$d")
             EYES_PROJECT="$a" PROJECT_ROOT="$d" python3 bin/certify.py --pdf
           done
+      - name: "Подлинность выданного — реестр ↔ файлы (ст. 44)"
+        run: |
+          python3 - <<'PY'
+          import sys; sys.path.insert(0, "bin")
+          import certify
+          from pathlib import Path
+          bad = []
+          for d in sorted(Path("certificates").glob("*")):
+              if d.is_dir():
+                  for p in certify.verify_register(d):
+                      bad.append(f"{d.name}: {p}")
+          print("\n".join(bad) if bad else "реестры сертификатов чисты")
+          sys.exit(1 if bad else 0)
+          PY
+
       - name: "Эфир"
         if: always()
         run: python3 bin/dashboard.py

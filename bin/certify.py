@@ -84,6 +84,68 @@ table{{width:100%;border-collapse:collapse;margin:10px 0 22px}} td,th{{border-to
 <p class="s">BXE — Billions X Eyes · конституция и реестры: github.com/billionsx/eyes</p></html>"""
 
 
+def verify_register(out: Path) -> list:
+    """ПОДЛИННОСТЬ ВЫДАННОГО (ст. 44). Реестр и файлы сверяются в обе стороны:
+    строка без файла — потерянный сертификат; файл без строки — выдача мимо
+    реестра; несовпавший sha256 — подмена выданного документа."""
+    import hashlib, re
+    reg = out / "REGISTER.md"
+    problems = []
+    rows = {}
+    if reg.exists():
+        for line in reg.read_text(encoding="utf-8").split("\n"):
+            m = re.match(r"\|\s*(\d{4}-\d{2})\s*\|.*?\|\s*`([0-9a-f]{16})…`\s*\|", line)
+            if m:
+                rows[m.group(1)] = m.group(2)
+    files = {f.stem for f in out.glob("*.html") if f.stem != "latest"}
+    for month, short in rows.items():
+        f = out / f"{month}.html"
+        if not f.exists():
+            problems.append(f"{month}: строка в реестре есть, файла нет")
+            continue
+        real = hashlib.sha256(f.read_bytes()).hexdigest()[:16]
+        if real != short:
+            problems.append(f"{month}: отпечаток не сходится (реестр {short}, файл {real})")
+    for month in sorted(files - set(rows)):
+        problems.append(f"{month}: файл выдан мимо реестра")
+    return problems
+
+
+def register(out: Path, project: str, month: str, score: float,
+             gr: str, ts: str) -> None:
+    """РЕЕСТР ВЫДАННЫХ СЕРТИФИКАТОВ (ст. 56 · M3).
+
+    Так ведут дело органы сертификации: выданный документ НЕИЗМЕНЕН, а реестр
+    несёт его отпечаток. Копия у клиента не нужна и вредна — она отстанет от
+    следующей выдачи; клиент носит бейдж и адрес проверки, подлинность
+    сверяется отпечатком из этого реестра.
+
+    Строка реестра: месяц · скор · грейд · sha256 файла · размер · дата выдачи.
+    Прошлые строки не переписываются — только дополняются (выдача необратима).
+    """
+    import hashlib
+    f = out / f"{month}.html"
+    digest = hashlib.sha256(f.read_bytes()).hexdigest()
+    reg = out / "REGISTER.md"
+    head = (f"# РЕЕСТР ВЫДАННЫХ СЕРТИФИКАТОВ · {project}\n\n"
+            "Орган выдачи: департамент Billions X Eyes. Выданный сертификат\n"
+            "неизменен; подлинность проверяется отпечатком sha256 этой строки\n"
+            "против файла в этом каталоге. Копий у клиента нет намеренно —\n"
+            "копия отстаёт от следующей выдачи (ЗКН-Э005: одно понятие — один\n"
+            "источник). Клиент носит бейдж `badge.json` и адрес проверки.\n\n"
+            "| месяц | скор | грейд | файл | размер | sha256 | выдан |\n"
+            "|---|---|---|---|---|---|---|\n")
+    rows = {}
+    if reg.exists():
+        for line in reg.read_text(encoding="utf-8").split("\n"):
+            if line.startswith("| 20"):
+                rows[line.split("|")[1].strip()] = line
+    rows[month] = (f"| {month} | {score} | {gr} | `{month}.html` | {f.stat().st_size} | "
+                   f"`{digest[:16]}…` | {ts} |")
+    reg.write_text(head + "\n".join(rows[k] for k in sorted(rows)) + "\n", encoding="utf-8")
+    print(f"реестр: {project} · {month} · {score} · {gr} · sha256 {digest[:16]}…")
+
+
 def run(project_root: Path, pdf: bool = False) -> dict:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     c = collect(project_root)
@@ -97,6 +159,7 @@ def run(project_root: Path, pdf: bool = False) -> dict:
     color = "brightgreen" if score >= 93 else "green" if score >= 85 else "yellow" if score >= 70 else "red"
     (out / "badge.json").write_text(json.dumps(
         {"schemaVersion": 1, "label": "BXE", "message": f"{score} · {grade(score)}", "color": color}), encoding="utf-8")
+    register(out, c["project"], month, score, grade(score), ts)
     if pdf:
         try:
             from playwright.sync_api import sync_playwright
