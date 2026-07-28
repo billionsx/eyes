@@ -1,4 +1,4 @@
-# BXE · ЭФИР — 2026-07-28 06:12 UTC
+# BXE · ЭФИР — 2026-07-28 06:32 UTC
 Живые числа реестров департамента Billions X Eyes; лист пересобирается каждым прогоном.
 
 | Орган | Состояние |
@@ -20,7 +20,7 @@
 | Храповик | долг по проектам: iskcon:327 |
 
 ## Поручения основателя
-- Департамент BXE: done 10 · active 7 · queued 1 · partial 1 · blocked 0
+- Департамент BXE: done 11 · active 7 · queued 0 · partial 1 · blocked 0
 - Проект ISKCON: done 2 · active 1 · queued 6 · partial 0 · blocked 0
 - Служба (трек M): done 0 · active 5 · queued 3 · partial 1 · blocked 0
 
@@ -32,7 +32,7 @@
 | T04 | Ежедневное исследование developer.apple.com + 18 внутренних ресурсов | **active** | bin/crawler.py · 73 источника · ежедневно |
 | T05 | Автономный цикл всей /documentation/ → собственная библиотека законов | **active** | bin/atlas.py · 2 урожая/сутки |
 | T06 | Кит iOS 27 из Figma без аккаунта основателя | **partial** | figkit: Figma-рука спит (KIT-UNLOCK.md); факт: Sketch-кита 27 не существует; компенсация: кадротека + шрифты SF + символы |
-| T07 | Переименование департамента в Billions X Eyes (BXE) | **done** | каталог bxad/ · eyes.yml · брендинг |
+| T07 | Переименование департамента в Billions X Eyes (BXE) | **done** | репозиторий billionsx/eyes · bin/eyes.py · воркфлоу eyes-*.yml · эфир vrajs.com |
 | T08 | Директива №8: Программа-95 — узкие звенья и инструменты | **active** | ст. 52: кадротека·Figma-рука·символы·живой взгляд·атлас·веб-атлас |
 | T09 | Архив кадров приложений Apple → изучить и внести | **done** | bin/screens.py · 195 кадров/10 приложений · паспорта · находки сдвига базы · релиз bxad-screens-v1 |
 | T10 | Мультиплатформенность: iOS·iPadOS·macOS·tvOS·visionOS·watchOS·AppStore·Web — раздельно, по назначению | **done** | standards/platforms/*.json (8 тел) |
@@ -41,7 +41,7 @@
 | T13 | Урожай неубиваем пушами/отменами | **done** | eyes-atlas.yml — своя concurrency-группа |
 | T14 | Все поручения зафиксированы и интегрированы в автономный процесс | **done** | registry/tasks.json + суд целостности |
 | T15 | Отчётность — дашборд в прямом эфире | **done** | bin/dashboard.py → dashboard/DASHBOARD.md + index.html, обновление каждым прогоном |
-| T16 | Перенос BXE: отдельный GitHub + домен + Cloudflare, подключаем к любому проекту | **queued** | MIGRATION-STANDALONE.md; факт: Тильда даёт только TXT/MX (CNAME нет) — пути В1 pages.dev · В2 свой домен CF (рекомендация) · В3 NS-перенос зоны |
+| T16 | Перенос BXE: отдельный GitHub + домен + Cloudflare, подключаем к любому проекту | **done** | исполнено 27–28.07.2026: репозиторий billionsx/eyes (перенос iskcon@ad77d7215 → eyes@fc49b846b) · суверенитет ст. 46 · паспорт проекта ст. 57 · зона vrajs.com в CF (аккаунт d5cbe194…e6d1, free) · Pages-проект eyes из main, build output dashboard, пустой build command · домен vrajs.com отдаёт эфир (проверено: числа страницы совпали с registry/dashboard/data.json 28.07 06:12 UTC) · подключение любого проекта паспортом + templates/eyes-client.yml и ping-eyes.yml · в монорепо bxad/ снят, связь охраняется гейтом tools/eyes-link-lint.py (ЗКН-Д030, У5) |
 | T17 | Живой взгляд: видеть приложения в реальном режиме, не кадрами | **active** | bin/liveview.py --live (Chromium · DOM+computed · AE-сверка); SPA-ожидание в урожае №2 |
 | T18 | Установка приложений Apple для разработчиков | **done** | eyes-macos.yml: Xcode 15.4 (+8 версий) · SF Symbols установлен · опись 9184 символа |
 | T19 | Большая семёрка (Deloitte·PwC·EY·KPMG + McKinsey·BCG·Bain): ежедневное системное познание логики — аналитика · продукт · бизнес-логика | **active** | bin/consult.py · шаг урожая ежедневно · library/big7 + карта фреймворков |

@@ -47,7 +47,7 @@
    "id": "T07",
    "task": "Переименование департамента в Billions X Eyes (BXE)",
    "status": "done",
-   "organ": "каталог bxad/ · eyes.yml · брендинг",
+   "organ": "репозиторий billionsx/eyes · bin/eyes.py · воркфлоу eyes-*.yml · эфир vrajs.com",
    "article": "титул"
   },
   {
@@ -109,9 +109,9 @@
   {
    "id": "T16",
    "task": "Перенос BXE: отдельный GitHub + домен + Cloudflare, подключаем к любому проекту",
-   "status": "queued",
-   "organ": "MIGRATION-STANDALONE.md; факт: Тильда даёт только TXT/MX (CNAME нет) — пути В1 pages.dev · В2 свой домен CF (рекомендация) · В3 NS-перенос зоны",
-   "article": "ст. 46–47"
+   "status": "done",
+   "organ": "исполнено 27–28.07.2026: репозиторий billionsx/eyes (перенос iskcon@ad77d7215 → eyes@fc49b846b) · суверенитет ст. 46 · паспорт проекта ст. 57 · зона vrajs.com в CF (аккаунт d5cbe194…e6d1, free) · Pages-проект eyes из main, build output dashboard, пустой build command · домен vrajs.com отдаёт эфир (проверено: числа страницы совпали с registry/dashboard/data.json 28.07 06:12 UTC) · подключение любого проекта паспортом + templates/eyes-client.yml и ping-eyes.yml · в монорепо bxad/ снят, связь охраняется гейтом tools/eyes-link-lint.py (ЗКН-Д030, У5)",
+   "article": "ст. 46–47 · 57"
   },
   {
    "id": "T17",
