@@ -1,0 +1,69 @@
+name: eyes-screens-import
+
+# ОДНОРАЗОВЫЙ ПЕРЕНОС СЫРЬЯ КАДРОТЕКИ (ст. 40).
+#
+# 195 кадров живых приложений Apple — сырьё ИНСТРУМЕНТА, а не имущество
+# клиента. После выноса департамента архив остался в релизе клиентского
+# репозитория: паспорта замеров уехали в git инструмента, а сам архив нет.
+# Здесь он переезжает в релиз `eyes-screens-v1` этого репозитория.
+#
+# Тождество доказывается снаружи: sha256 считается у источника, после заливки
+# ассет скачивается ИЗ ЭТОГО репозитория и сверяется. Не совпало — красный.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: "Скачать архив из релиза, где он остался"
+        run: |
+          set -e
+          URL=https://github.com/billionsx/iskcon/releases/download/bxad-screens-v1/Apple_Apps_iOS27.zip
+          curl -sL --retry 3 -o /tmp/frames.zip "$URL"
+          SRC_SHA=$(sha256sum /tmp/frames.zip | cut -d' ' -f1)
+          SRC_SIZE=$(stat -c%s /tmp/frames.zip)
+          echo "SRC_SHA=$SRC_SHA" >> $GITHUB_ENV
+          echo "SRC_SIZE=$SRC_SIZE" >> $GITHUB_ENV
+          echo "источник: $SRC_SIZE байт · sha256 $SRC_SHA"
+          unzip -l /tmp/frames.zip | tail -3
+
+      - name: "Опубликовать в своём релизе"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          gh release view eyes-screens-v1 >/dev/null 2>&1 \
+            || gh release create eyes-screens-v1 \
+                 --title "Кадротека · приложения Apple, iOS 27" \
+                 --notes "Сырьё кадротеки департамента: 195 кадров живых приложений Apple. Паспорта замеров — в registry/screens/passports. Перенесено из релиза первого клиента 28.07.2026, тождество проверено sha256 снаружи."
+          gh release upload eyes-screens-v1 /tmp/frames.zip --clobber
+
+      - name: "Сверка снаружи — скачать из СВОЕГО релиза и сравнить"
+        run: |
+          set -e
+          curl -sL --retry 3 -o /tmp/back.zip \
+            https://github.com/${{ github.repository }}/releases/download/eyes-screens-v1/frames.zip \
+            || curl -sL --retry 3 -o /tmp/back.zip \
+               https://github.com/${{ github.repository }}/releases/download/eyes-screens-v1/Apple_Apps_iOS27.zip
+          BACK_SHA=$(sha256sum /tmp/back.zip | cut -d' ' -f1)
+          echo "свой релиз: $(stat -c%s /tmp/back.zip) байт · sha256 $BACK_SHA"
+          if [ "$BACK_SHA" != "$SRC_SHA" ]; then
+            echo "РАСХОЖДЕНИЕ: архив в своём релизе не тождествен источнику"
+            exit 1
+          fi
+          echo "тождество подтверждено снаружи"
+          mkdir -p registry/screens
+          printf '# СЫРЬЁ КАДРОТЕКИ\n\nАрхив кадров приложений Apple: релиз `eyes-screens-v1` этого репозитория,\nфайл `Apple_Apps_iOS27.zip` — %s байт, sha256 `%s`.\nПаспорта замеров живут в git: `registry/screens/passports`.\nПеренесён 28.07.2026 из релиза первого клиента; тождество подтверждено\nповторным скачиванием из своего релиза и сверкой sha256.\n' "$SRC_SIZE" "$SRC_SHA" > registry/screens/SOURCE.md
+
+      - name: "Хроника"
+        if: always()
+        run: |
+          bash bin/chronicle.sh "eyes — сырьё кадротеки в своём релизе" registry/screens/SOURCE.md

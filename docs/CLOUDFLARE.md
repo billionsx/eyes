@@ -79,15 +79,12 @@ repository secret**. Всё необязательно — департамен�
 `GITHUB_TOKEN` выдаётся Actions автоматически — вносить не нужно.
 
 ---
-## Шаг 5 · Кадротека в релиз (1 минута, необязательно)
+## Шаг 5 · Кадротека — ИСПОЛНЕНО МЕХАНИЗМОМ 28.07.2026
 
-Архив кадров приложений Apple (195 кадров, 10 приложений) лежит в релизе
-монорепо. Перенести:
-
-1. Скачать `Apple_Apps_iOS27.zip` из
-   https://github.com/billionsx/iskcon/releases/tag/bxad-screens-v1
-2. **https://github.com/billionsx/eyes/releases** → **Draft a new release**
-   → tag `eyes-screens-v1` → прикрепить файл → **Publish release**.
+Руками ничего не нужно. Воркфлоу `eyes-screens-import` перенёс архив кадров
+(195 кадров приложений Apple) из релиза первого клиента в релиз
+`eyes-screens-v1` ЭТОГО репозитория и подтвердил тождество sha256, скачав файл
+из своего релиза снаружи. Отпечаток — `registry/screens/SOURCE.md`.
 
 ---
 ## Шаг 6 · Проверка, что всё дышит
