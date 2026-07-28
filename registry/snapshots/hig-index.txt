@@ -1,6 +1,6 @@
 # Human Interface Guidelines
 # https://developer.apple.com/design/human-interface-guidelines/
-# снято: 2026-07-23 17:35 UTC
+# снято: 2026-07-28 06:32 UTC
 
 ## Design fundamentals
 ## Foundations of design
@@ -11,4 +11,4 @@ Explore the principles that guide design across Apple platforms. For more, see .
 ## Foundations of design
 Discover key concepts that shape every great experience. For more, see .
 ## New and updated
-Review recent additions and updates to design guidance. For more, see . The HIG contains guidance and best practices that can help you design a great experience for any Apple platform.
+Review recent additions and updates to design guidance. For more, see . The HIG contains guidance and best practices that can help you design a great experience for any Apple platform. Getting started. Foundations. Patterns. Components. Inputs. Technologies.

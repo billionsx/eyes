@@ -815,3 +815,13 @@
 - https://brajs.com/katha: элементов 33 · находок 0
 - https://brajs.com/library: элементов 38 · находок 0
 
+### 2026-07-28 06:32 UTC · `hig-index` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/design/human-interface-guidelines/
+- домены мандата: hig, целостность
+- объём текста: 405 → 479 зн.
+
+### 2026-07-28 06:33 UTC · `hig-app-icons` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/design/human-interface-guidelines/app-icons
+- домены мандата: иконки, динамические-иконки
+- объём текста: 12231 → 12347 зн.
+
