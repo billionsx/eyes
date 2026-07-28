@@ -51,3 +51,7 @@
 {"id": "/documentation/Updates/AppIntents", "sha": "85cfe717e44ad381b29e1e01b1dfa02ac22d34efa9cbf93d9b33b08efb0484f1", "t": "App Intents updates", "n": 4473, "laws": 6, "ts": "2026-07-27 19:00 UTC"}
 {"id": "/documentation/coretransferable/filerepresentation/init(exportedcontenttype:shouldallowtoopeninplace:exporting:)", "sha": "157a4c5dd67f33f00869730906bebd94928b67d4584bb57ddfbffe8f8aa42eca", "t": "init(exportedContentType:shouldAllowToOpenInPlace:exporting:)", "n": 76, "laws": 0, "ts": "2026-07-27 19:02 UTC"}
 {"id": "/documentation/appintents/appschema/photosintent/setsaturation", "sha": "d4c83f5ebc0398318c95a49f1a6cbe1cfeac0ac0d7f06629600866845761f8a0", "t": "setSaturation", "n": 694, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
+{"id": "/documentation/appkit/nstouchbar/templateitems", "sha": "7028c52726206fa5cb9515486196497a70117f4705824cf84586882660132a60", "t": "templateItems", "n": 364, "laws": 0, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nscolor/quaternarylabelcolor", "sha": "c3b604a81a5c9e0a6a3222315d5d4e22d9c53b8290483c2fca2e7fa90bcef744", "t": "quaternaryLabelColor", "n": 312, "laws": 4, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nsdocument/keepbackupfile", "sha": "78f92877c120d95a0a9a74868024d80c0d20493c94f28f27f50ce9f3292d5906", "t": "keepBackupFile", "n": 387, "laws": 0, "ts": "2026-07-28 05:40 UTC"}
+{"id": "/documentation/appkit/nsview/draw(_:)", "sha": "6901fd02e09c3fc8140fd067b66cdbbe518e6633d2dfb01de2b08d7aec209a17", "t": "draw(_:)", "n": 1465, "laws": 10, "ts": "2026-07-28 06:00 UTC"}

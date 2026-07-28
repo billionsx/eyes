@@ -1233,3 +1233,30 @@
 {"id": "/documentation/swiftui/view/appentityuielements(_:)", "law": "To make content that appears in custom views to Apple Intelligence, use structures that act as wrappers for your app entities to provide the system with additional context."}
 {"id": "/documentation/swiftui/view/onappintentexecution(_:perform:)", "law": "Use this view modifier to receive instances in a particular scene within your app."}
 {"id": "/documentation/SwiftUI/View/appEntityUIElements(_:)", "law": "To make content that appears in custom views to Apple Intelligence, use structures that act as wrappers for your app entities to provide the system with additional context."}
+{"id": "/documentation/swiftui/texteditor/init(text:)", "law": "Use a instance to create a view in which users can enter and edit long-form text."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)", "law": "Use a instance to create a view in which users can enter and edit long-form styled text."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)", "law": "If the AttributedString does not have a font and/or foreground color specified for a given range of text, the rich text editor will use the font and/or foreground color inherited from the environment for that range of text, just like ."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)", "law": "To control what formatting options are available in the editor, use the protocol."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)", "law": "For importing RTF documents, which encode formatting using UIKit and AppKit attributes, use to obtain an attributed string compatible with this editor."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)", "law": "Use for implementing custom controls, e.g."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)", "law": "for applying formatting such as boldness: When binding the , always make sure it is updated after you mutate the ."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)-11r0a", "law": "Use a instance to create a view in which users can enter and edit long-form styled text."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)-11r0a", "law": "If the AttributedString does not have a font and/or foreground color specified for a given range of text, the rich text editor will use the font and/or foreground color inherited from the environment for that range of text, just like ."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)-11r0a", "law": "To control what formatting options are available in the editor, use the protocol."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)-11r0a", "law": "For importing RTF documents, which encode formatting using UIKit and AppKit attributes, use to obtain an attributed string compatible with this editor."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)-11r0a", "law": "Use for implementing custom controls, e.g."}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)-11r0a", "law": "for applying formatting such as boldness: When binding the , always make sure it is updated after you mutate the ."}
+{"id": "/documentation/swiftui/view/font(_:)", "law": "Use to apply a specific font to all of the text in a view."}
+{"id": "/documentation/swiftui/view/font(_:)", "law": "The remaining stack and the views contained with it continue to use the 16-point system font set by their containing view: Sets the default font for text in this view."}
+{"id": "/documentation/swiftui/view/linelimit(_:)", "law": "Use this modifier to specify a closed range of lines that a view or a vertical can occupy."}
+{"id": "/documentation/swiftui/view/linespacing(_:)", "law": "Use to set the amount of spacing from the bottom of one line to the top of the next for text elements in the view."}
+{"id": "/documentation/swiftui/view/minimumscalefactor(_:)", "law": "Use the modifier if the text you place in a view doesn’t fit and it’s okay if the text shrinks to accommodate."}
+{"id": "/documentation/swiftui/view/minimumscalefactor(_:)", "law": "For example, a label with a minimum scale factor of draws its text in a font size as small as half of the actual font if needed."}
+{"id": "/documentation/swiftui/view/minimumscalefactor(_:)", "law": "Sets the minimum amount that text in this view scales down to fit in the available space."}
+{"id": "/documentation/swiftui/view/multilinetextalignment(_:)", "law": "Use this modifier to set an alignment for a multiline block of text."}
+{"id": "/documentation/swiftui/view/multilinetextalignment(_:)", "law": "The frame modifier limits the space available to the text view, and by default a text view wraps lines that don’t fit in the available width."}
+{"id": "/documentation/swiftui/view/multilinetextalignment(_:)", "law": "You can use this modifier to control the alignment of a view that you create with the initializer to display localized dates and times, including when the view uses only a single line, but only when that view appears in a widget."}
+{"id": "/documentation/SwiftUI/TextField", "law": "You can set an explicit prompt on the text field to guide users on what text they should provide."}
+{"id": "/documentation/SwiftUI/TextField", "law": "For example, a form on macOS always places the label at the leading edge of the field and uses a prompt, when available, as placeholder text within the field itself."}
+{"id": "/documentation/SwiftUI/TextField", "law": "The following example shows a with two text fields, each of which provides a prompt to indicate that the field is required, and a content builder to provide a label:"}
+{"id": "/documentation/SwiftUI/TextField", "law": "Use these initializers to create a text field that binds to a value of an arbitrary type."}

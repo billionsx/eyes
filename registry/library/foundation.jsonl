@@ -646,3 +646,24 @@
 {"id": "/documentation/foundation/predicateexpressions", "law": "Don’t use this type directly."}
 {"id": "/documentation/foundation/standardpredicateexpression", "law": "Don’t declare new types that conform to the protocol."}
 {"id": "/documentation/foundation/nsusercancellederror-swift.var", "law": "This code is for errors that do not require a dialog displayed and might be candidates for special-casing."}
+{"id": "/documentation/Foundation/NSFilePresenter", "law": "Objects that allow the user to view or edit the content of files or directories should adopt the protocol."}
+{"id": "/documentation/Foundation/NSFilePresenter", "law": "You use file presenters in conjunction with an object to coordinate access to a file or directory among the objects of your application and between your application and other processes."}
+{"id": "/documentation/Foundation/NSFilePresenter", "law": "Use the methods of this protocol to respond to actions about to be taken on the presented file or directory."}
+{"id": "/documentation/Foundation/NSFilePresenter", "law": "Your file presenter must provide this queue."}
+{"id": "/documentation/Foundation/NSFilePresenter", "law": "If your queue supports the concurrent execution of operations, the methods of your presenter object must be thread-safe and able to run in multiple queues simultaneously."}
+{"id": "/documentation/Foundation/NSFilePresenter", "law": "You can use file presenters to coordinate access to a file or directory among your application’s objects."}
+{"id": "/documentation/Foundation/NSFilePresenter", "law": "For information about how to use file presenters with a file coordinator object, see ."}
+{"id": "/documentation/Foundation/NSNotification", "law": "In Swift, this object bridges to ; use when you need reference semantics or other Foundation-specific behavior."}
+{"id": "/documentation/Foundation/NSNotification", "law": "You don’t usually create your own notifications directly, but instead call the methods and ."}
+{"id": "/documentation/Foundation/NSNotification", "law": "Distributed notifications use strings as their objects, and those strings are compared using , because pointer equality doesn’t make sense across process boundaries."}
+{"id": "/documentation/Foundation/NSNotification", "law": "This extra data must be agreed upon between notifiers and observers."}
+{"id": "/documentation/Foundation/NSNotification", "law": "As such, you must subclass and override the primitive methods , , and ."}
+{"id": "/documentation/Foundation/NSNotification", "law": "You can choose any designated initializer you like, but be sure that your initializer does not call on ( is not meant to be instantiated directly, and its method raises an exception)."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "These tasks often require data to be encoded and decoded to and from an intermediate format while the data is being transferred."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "For example, some apps only need to make calls to a remote network API and do not need to decode a response containing the same type."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "When this enumeration is present, its cases serve as the authoritative list of properties that must be included when instances of a codable type are encoded or decoded."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "The names of the enumeration cases should match the names you’ve given to the corresponding properties in your type."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "If the keys used in your serialized data format don’t match the property names from your data type, provide alternative keys by specifying as the raw-value type for the enumeration."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "The string you use as a raw value for each enumeration case is the key name used during encoding and decoding."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "In the example below, the structure is extended to conform to the protocol by implementing its required initializer, : The initializer populates a instance by using methods on the instance it receives as a parameter."}
+{"id": "/documentation/Foundation/encoding-and-decoding-custom-types", "law": "The example below shows how the structure can be extended to conform to the protocol by implementing its required method, : This implementation of the method reverses the decoding operation from the previous example."}

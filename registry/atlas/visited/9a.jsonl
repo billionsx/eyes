@@ -59,3 +59,5 @@
 {"id": "/documentation/appintents/appschema/audiointent/warmupaudioqueue", "sha": "79303b13c4a1d66e18cd84921a273b20c1f00d2db5d41be50ba25cfe0cc9615c", "t": "warmupAudioQueue", "n": 731, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
 {"id": "/documentation/appintents/appschema/photosintent/updatealbum", "sha": "fc858dd0f8b21f0360455481dda25a4f9f1e489d7b0908b1bc83d651ecb96415", "t": "updateAlbum", "n": 688, "laws": 1, "ts": "2026-07-27 19:07 UTC"}
 {"id": "/documentation/CoreSpotlight/CSSearchableIndexDescription", "sha": "46fe19fb65928fb43e0452ea656ae9923416f2323c613a9833369f1f9407b7e1", "t": "CSSearchableIndexDescription", "n": 98, "laws": 0, "ts": "2026-07-27 19:07 UTC"}
+{"id": "/documentation/appkit/nstextview/isautomaticdashsubstitutionenabled", "sha": "b1a9026510a61d3a25d0d3a2af98bbc5beecbe9ec4df373ab302fa0903b9b41e", "t": "isAutomaticDashSubstitutionEnabled", "n": 244, "laws": 0, "ts": "2026-07-28 05:53 UTC"}
+{"id": "/documentation/appkit/nsoutlineview/collapseitem(_:)", "sha": "0333e044d657349ad6abf8379fee6d4df43bb29f1d53a3c83d6e896ebd97e362", "t": "collapseItem(_:)", "n": 149, "laws": 0, "ts": "2026-07-28 06:01 UTC"}

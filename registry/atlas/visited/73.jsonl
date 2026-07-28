@@ -45,3 +45,5 @@
 {"id": "/documentation/corespotlight/cssearchableitemattributeset/pixelheight", "sha": "e4a733a4220a1b915970dfabfd6099bc6ff3daa7b41079a296c2118180085169", "t": "pixelHeight", "n": 71, "laws": 0, "ts": "2026-07-27 18:53 UTC"}
 {"id": "/documentation/appkit/nsresponder/acceptsfirstresponder", "sha": "ad97b8c932fdf98031bf44ee4aab3c2ff5809689fb5e6f974cf8460629bca77e", "t": "acceptsFirstResponder", "n": 328, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
 {"id": "/documentation/appkit/nsresponder/interfacestyle", "sha": "c1d31dfb7fe70cb4de72f2dc9b8e0b022612f76351ace04307bee4954986466e", "t": "interfaceStyle", "n": 294, "laws": 0, "ts": "2026-07-27 19:13 UTC"}
+{"id": "/documentation/appkit/nswindow/miniaturize(_:)", "sha": "c5620439547649659e4f4aae7e85862154b93ae0d971fcd7aba6855962938374", "t": "miniaturize(_:)", "n": 86, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nstextview/quicklookpreviewableitems(inranges:)", "sha": "e7d57d16485d6f48b417be554c580567af6f90c15b998e538a68531859540f88", "t": "quickLookPreviewableItems(inRanges:)", "n": 249, "laws": 1, "ts": "2026-07-28 05:54 UTC"}

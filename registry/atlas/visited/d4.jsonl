@@ -47,3 +47,7 @@
 {"id": "/documentation/corespotlight/cssearchableitemattributeset/associateappentity(_:priority:)", "sha": "5b7ce5583fd54802458e45d96b21355c0214a0dfb61e5d3edc9a610ae2217cd9", "t": "associateAppEntity(_:priority:)", "n": 472, "laws": 2, "ts": "2026-07-27 18:50 UTC"}
 {"id": "/documentation/swift/string/remove(at:)", "sha": "bc0fd550d4de73b66a93a3ad2275be283917c9c685d45f57ce0b255b1eab4a30", "t": "remove(at:)", "n": 317, "laws": 1, "ts": "2026-07-27 18:59 UTC"}
 {"id": "/documentation/foundation/nsexpression", "sha": "3c84d87a5bd598bb3cedb66f735443e596836d5dded5c032f1a17e285e760dae", "t": "NSExpression", "n": 3261, "laws": 4, "ts": "2026-07-27 19:10 UTC"}
+{"id": "/documentation/appkit/nswindow/setframetopleftpoint(_:)", "sha": "67df306387459f38d0cc1d682d6da0df0b48de088a888d45387261c32e89fedf", "t": "setFrameTopLeftPoint(_:)", "n": 281, "laws": 0, "ts": "2026-07-28 05:49 UTC"}
+{"id": "/documentation/appkit/nstextview/toggleautomatictextcompletion(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "toggleAutomaticTextCompletion(_:)", "n": 0, "laws": 0, "ts": "2026-07-28 05:55 UTC"}
+{"id": "/documentation/appkit/nsapplication/mainmenu", "sha": "cf2d3ec0afd1ba6e558d95d73e0365fc21d0641e69fb46551badf8cb16cbc162", "t": "mainMenu", "n": 129, "laws": 1, "ts": "2026-07-28 05:58 UTC"}
+{"id": "/documentation/appkit/nsaccessibilitytable", "sha": "2ea9de1f651408cee8233117f67047a66bae28af2a70efc8e1713cfa59c5f23e", "t": "NSAccessibilityTable", "n": 1207, "laws": 4, "ts": "2026-07-28 06:01 UTC"}

@@ -61,3 +61,6 @@
 {"id": "/documentation/appintents/displayrepresentation", "sha": "dbbbe2821a0b53c4ae02cf53af8453e956b187f4fbf3f729c711134bd22dd2b8", "t": "DisplayRepresentation", "n": 381, "laws": 0, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/appintents/appschema/photosintent/crop", "sha": "b626b582613abe5f3b693b80c639f1f9874b8a3ddc5709ce5c8bf507896d3bdc", "t": "crop", "n": 675, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
 {"id": "/documentation/appkit/nsresponder/menu", "sha": "f08fa1aae091b3894eef5ad88b25950f90bf6a1bc6a643ee9c1654942792cd01", "t": "menu", "n": 107, "laws": 0, "ts": "2026-07-27 19:13 UTC"}
+{"id": "/documentation/appkit/nsdocument/isinviewingmode", "sha": "341afb6efa897334475c966e97234d48ad7441034029b84bcd2747af0ccbf086", "t": "isInViewingMode", "n": 333, "laws": 1, "ts": "2026-07-28 05:40 UTC"}
+{"id": "/documentation/appkit/nsdocument/unblockuserinteraction()", "sha": "b709e31299327cb51a662f1c10c24cba75c619aa2086fc59abe1f80013ba84d9", "t": "unblockUserInteraction()", "n": 871, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nswindow/didchangescreenprofilenotification", "sha": "e0e919347cba5cf361217041584d343e508250ed18d51f572359085c22527d12", "t": "didChangeScreenProfileNotification", "n": 488, "laws": 1, "ts": "2026-07-28 05:45 UTC"}

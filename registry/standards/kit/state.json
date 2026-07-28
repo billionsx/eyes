@@ -2,7 +2,8 @@
  "page_sha": "eaa3d5a9c0f761c12776616b798370a8e6ebe7f8a4945a73fa56675f56200892",
  "done": [
   "tvOS-18-Design-Templates-Sketch.dmg",
-  "tvOS-18-Production-Templates-Sketch.dmg"
+  "tvOS-18-Production-Templates-Sketch.dmg",
+  "visionOS-2-Design-Templates-Sketch.dmg"
  ],
  "kits": [
   {
@@ -17,6 +18,13 @@
    "colors": 0,
    "text_styles": 0,
    "radii": 0,
+   "symbols": 0
+  },
+  {
+   "kit": "visionOS-2-Design-Templates-Sketch.dmg",
+   "colors": 0,
+   "text_styles": 0,
+   "radii": 3,
    "symbols": 0
   }
  ],
@@ -81,5 +89,5 @@
    "cap_sample": 0.7046
   }
  ],
- "ts": "2026-07-27 19:20 UTC"
+ "ts": "2026-07-28 06:12 UTC"
 }

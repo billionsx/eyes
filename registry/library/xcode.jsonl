@@ -551,3 +551,20 @@
 {"id": "/documentation/Xcode/supporting-universal-links-in-your-app", "law": "For example, don’t allow universal links to directly delete content or access sensitive information about the user."}
 {"id": "/documentation/Xcode/supporting-universal-links-in-your-app", "law": "When testing your URL-handling code, make sure your test cases include improperly formatted URLs."}
 {"id": "/documentation/Xcode/supporting-universal-links-in-your-app", "law": "Use APIs to extract the components of the URL."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "Some capabilities use information property list or entitlement keys in your project that contain the main bundle ID."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "If you use , commit your project changes to your remote repository before creating a workflow."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "For example, if you use App Clips, change the associated and keys."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "If you have an app extension, be sure to change the key too."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "Update any other settings in App Store Connect that use the bundle ID, such as in-app purchase settings."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "Re-request any special entitlements from Apple that require approval."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "If you use any third-party services that depend on your app’s bundle ID, notify them to update your app’s bundle ID too."}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "law": "If you use manual provisioning, update the App ID in those provisioning files to match the bundle ID in your project."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "To locate files based on keywords or other criteria, use the filter bar at the bottom of the navigator area: To search for files, enter keywords in the filter bar’s text field."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "You can also use the filter control to search for templates by name."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "Some templates require you to specify additional information for the new file."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "If the file you’re adding requires a target, select at least one target."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "To use RealityKit content that you create using Reality Composer Pro, you can add its folder to your Xcode project and link against the Swift Package it contains."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "You might use groups without folders if you want to manage files in your project without changing the underlying organization of the files on disk."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "Folders have a much smaller representation in the project file, which can result in fewer merge conflicts because when you add or remove files to the project you don’t modify the project file."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "If the groups and underlying directory structures don’t match, Xcode displays a dialog with a Show Details button."}
+{"id": "/documentation/xcode/managing-files-and-folders-in-your-xcode-project", "law": "Add new or existing files to your project, and use groups to organize the files and folders in the Project navigator."}

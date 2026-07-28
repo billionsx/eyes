@@ -49,3 +49,5 @@
 {"id": "/documentation/UIKit/UIViewController/loadView()", "sha": "ed85453592ac91023779dff74f4d14af0ab866a2cd3295da77b288e69d5c838d", "t": "loadView()", "n": 1311, "laws": 4, "ts": "2026-07-27 19:08 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/loadview()", "sha": "865718dd59a7c2b110fcd6180b48232ba41f7aa8fa7df31f71a3e58677f691fe", "t": "loadView()", "n": 1710, "laws": 3, "ts": "2026-07-27 19:11 UTC"}
 {"id": "/documentation/appkit/nsresponder/init()", "sha": "cacb1b385b65090cb1b09e41d3fa02bc4c4e46c1773e2f4fc8932eb6761575d8", "t": "init()", "n": 31, "laws": 0, "ts": "2026-07-27 19:13 UTC"}
+{"id": "/documentation/appkit/nsresponder/willpresenterror(_:)", "sha": "9b9fb43392ee7918136c89951704c92f56da0eaaba7f8f072f3bdb3a7a9c6950", "t": "willPresentError(_:)", "n": 831, "laws": 2, "ts": "2026-07-28 05:34 UTC"}
+{"id": "/documentation/appkit/nsscrubberdatasource", "sha": "a2bc96f29ccf90644e345c73d3843125f76fd41f8bba2de38ef74f302fc4692d", "t": "NSScrubberDataSource", "n": 251, "laws": 0, "ts": "2026-07-28 05:35 UTC"}

@@ -40,3 +40,6 @@
 {"id": "/documentation/appintents/systemshortcut", "sha": "aa4c1d63deaa354ce663658e8d987f6876d410253ec2c72dc520bb598a87c007", "t": "SystemShortcut", "n": 662, "laws": 1, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/appintents/appschema/photosenum/rotationdirection", "sha": "0f41a9e7322b477f64a02c9087a6bd9bbe88223322b9267ce4516902644c7a72", "t": "rotationDirection", "n": 695, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/addchild(_:)", "sha": "377cfcf0197b71c424ac3bb0547ff8129b0df9c51fd27eb81309485e8c281b10", "t": "addChild(_:)", "n": 80, "laws": 0, "ts": "2026-07-27 19:11 UTC"}
+{"id": "/documentation/appkit/nsgesturerecognizer/touchesbegan(with:)", "sha": "746dd1a9f87c375f570f213d1929b3d4849d6783bcf9bbb3a2f199b6d28a46c0", "t": "touchesBegan(with:)", "n": 85, "laws": 0, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nsdocument/runpagelayout(_:)", "sha": "d54dc5d8e3d7735c29bede77b63790844b39e6174d9ce9a8355ae6ecd46f0249", "t": "runPageLayout(_:)", "n": 408, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nsoutlineview/selectionischangingnotification", "sha": "4a0d9cd30b5d05630905f41d4dd18dad25ab3580543218c742bf8528781e785f", "t": "selectionIsChangingNotification", "n": 282, "laws": 1, "ts": "2026-07-28 06:02 UTC"}

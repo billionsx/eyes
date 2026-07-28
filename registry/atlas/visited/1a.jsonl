@@ -65,3 +65,7 @@
 {"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostwillresignactive", "sha": "3f187fb6a708b58b74086d39f675c7bb50c02b99616a30409f295bbdc5b5d5fd", "t": "NSExtensionHostWillResignActive", "n": 369, "laws": 2, "ts": "2026-07-27 19:08 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-27 19:11 UTC"}
 {"id": "/documentation/appkit/nssteppertouchbaritem", "sha": "d88b1237dc7f637ab4783b9e2ca02a7b8c29a99c8625f7ab7134c8b911f38536", "t": "NSStepperTouchBarItem", "n": 345, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsscrubber/init(coder:)", "sha": "59b571d67cb13ef4200d346b932aa082adaddb3ce2e97206782e6f343ba87f72", "t": "init(coder:)", "n": 88, "laws": 0, "ts": "2026-07-28 05:34 UTC"}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:)", "sha": "643f30ed76078bdac73cffb537cf3890f7709fbd455ebd4713539219220d130a", "t": "encodeRestorableState(with:)", "n": 1018, "laws": 5, "ts": "2026-07-28 05:39 UTC"}
+{"id": "/documentation/appkit/nswindow/minfullscreencontentsize", "sha": "77c05d164932bd637c9acffcfef9893892358c635a30f5d88c85e2cde62fe5cf", "t": "minFullScreenContentSize", "n": 706, "laws": 3, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nswindow/saveframe(usingname:)", "sha": "3e3528537dce1f2e0b8d0749aa185029e296a402df2743f4f7fec1fc483da15d", "t": "saveFrame(usingName:)", "n": 303, "laws": 0, "ts": "2026-07-28 05:48 UTC"}

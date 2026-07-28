@@ -57,3 +57,8 @@
 {"id": "/documentation/coretransferable/receivedtransferredfile", "sha": "11b6329a72d9e9e93ce6b8937ec65ef3e3c4ac78690a26ff4a7a33e2c223ee93", "t": "ReceivedTransferredFile", "n": 114, "laws": 0, "ts": "2026-07-27 19:02 UTC"}
 {"id": "/documentation/foundation/nsitemprovider/register(_:)", "sha": "bc34660095e68b5d68d0392ed8e542fe58889a4460c25ecd1b88ad47576aa545", "t": "register(_:)", "n": 74, "laws": 0, "ts": "2026-07-27 19:09 UTC"}
 {"id": "/documentation/appkit/nsevent/gestureaxis", "sha": "48be0e8011faa8f367eae572ffec79e313f6254627c8a2bcb1b82ad520cc2aa9", "t": "NSEvent.GestureAxis", "n": 202, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsgrouptouchbaritem/grouptouchbar", "sha": "dc9828af8a59ee407928bd1ae4fe474ac2f2bae95b7e92b74d1cefd45706827b", "t": "groupTouchBar", "n": 143, "laws": 0, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbarusertemplatename", "sha": "39e5f2594db27c4dce824ffb9adc92274db98606907033dd9f52b7a942ccd156", "t": "touchBarUserTemplateName", "n": 298, "laws": 2, "ts": "2026-07-28 05:38 UTC"}
+{"id": "/documentation/appkit/nsdocument/willnotpresenterror(_:)", "sha": "61b5292f248b4c4ad4522937dcf30ca46453a966e816f95e66666f1dddd703a5", "t": "willNotPresentError(_:)", "n": 642, "laws": 1, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nspersistentdocument/persistentstoretype(forfiletype:)", "sha": "92c57c2b435c9b097875a76c54ca014976ecb44c0f95bbb84b0152b5433e2316", "t": "persistentStoreType(forFileType:)", "n": 251, "laws": 0, "ts": "2026-07-28 05:43 UTC"}
+{"id": "/documentation/appkit/nstextview/turnoffkerning(_:)", "sha": "dc4eb126a74c962631164a352bdc06e4b9b730d6cadf880ab562687c9edcd079", "t": "turnOffKerning(_:)", "n": 135, "laws": 1, "ts": "2026-07-28 05:56 UTC"}

@@ -1,0 +1,10 @@
+{
+ "colors": {},
+ "text_styles": {},
+ "corner_radii": {
+  "22.0": "kit:visionOS-2-Design-Templates-Sketch.dmg:Components/Background",
+  "46.0": "kit:visionOS-2-Design-Templates-Sketch.dmg:Templates/Window Platter",
+  "64.0": "kit:visionOS-2-Design-Templates-Sketch.dmg:Templates/Rectangle"
+ },
+ "symbols": []
+}

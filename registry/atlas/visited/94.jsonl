@@ -58,3 +58,9 @@
 {"id": "/documentation/appintents/appschema/audioentity/podcastcollection", "sha": "94388c085a495d9b84060906d7b15828f194acb05646916f85b9ed54351a57fa", "t": "podcastCollection", "n": 676, "laws": 1, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/appintents/appschema/photosintent/setwarmth", "sha": "367716f8cff7fb0c1b82c860c172fbeeeab7c167141871a1dbacda81e761ed23", "t": "setWarmth", "n": 695, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
 {"id": "/documentation/appkit/nsresponder/mousedown(with:)", "sha": "13c34dfa9b99753d0da76f27ecdcb91cd68e1432b50de27c4c2fabaf0d8e18af", "t": "mouseDown(with:)", "n": 160, "laws": 0, "ts": "2026-07-27 19:13 UTC"}
+{"id": "/documentation/appkit/nsresponder/showwritingtools(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "showWritingTools(_:)", "n": 0, "laws": 0, "ts": "2026-07-28 05:33 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbarrecordstarttemplatename", "sha": "b3646ba4ad7a2636b7942e13f224056c9e89217db8a479c215cd4c897e59a7f5", "t": "touchBarRecordStartTemplateName", "n": 276, "laws": 2, "ts": "2026-07-28 05:37 UTC"}
+{"id": "/documentation/appkit/nsdocument/invalidaterestorablestate()", "sha": "bbb4a034ecab6aacd0cbc3d0c9c9b4c987b2e85a38c142575d364356f43d2bd9", "t": "invalidateRestorableState()", "n": 294, "laws": 1, "ts": "2026-07-28 05:40 UTC"}
+{"id": "/documentation/appkit/nsdocument/presenteditemurl", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "presentedItemURL", "n": 0, "laws": 0, "ts": "2026-07-28 05:40 UTC"}
+{"id": "/documentation/appkit/nswindow/contentview", "sha": "43431d2c23152bb5e3e2f1b8380fff3a83f19f17d0c31570f789e47982798d98", "t": "contentView", "n": 608, "laws": 1, "ts": "2026-07-28 05:44 UTC"}
+{"id": "/documentation/appkit/nstoolbaritem/target", "sha": "8bcf81565656797438928d9cdfdbc2dd7dc29429f3cb7b60a3c6cc50fca287c6", "t": "target", "n": 527, "laws": 0, "ts": "2026-07-28 06:00 UTC"}

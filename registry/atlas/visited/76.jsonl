@@ -59,3 +59,7 @@
 {"id": "/documentation/swift/string/init(contentsoffile:encoding:)", "sha": "6cc0ba7fd36670e1377d30a8ed3975f5fb98ce098dda729d33d0a70a25e8245e", "t": "init(contentsOfFile:encoding:)", "n": 107, "laws": 0, "ts": "2026-07-27 18:57 UTC"}
 {"id": "/documentation/swift/string/intentinputoptions", "sha": "c1f957091773afd646b5152ff372c8f093d2660036fe7d146c8748fd203bd798", "t": "String.IntentInputOptions", "n": 310, "laws": 0, "ts": "2026-07-27 18:58 UTC"}
 {"id": "/documentation/swift/string/standardcomparator", "sha": "ac4c25964c3d8920b7337356644ff7d4391ca87cdd11cda3a8e536d055fb36f6", "t": "String.StandardComparator", "n": 160, "laws": 0, "ts": "2026-07-27 19:00 UTC"}
+{"id": "/documentation/appkit/nsscrubber/insertitems(at:)", "sha": "25b2cc4ec141c932d642146ec3ab823c7ee812fa9c6816a59f2383883f715c13", "t": "insertItems(at:)", "n": 143, "laws": 0, "ts": "2026-07-28 05:34 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbargoforwardtemplatename", "sha": "769bf6ebdfa48a7a3f935cd1dedda9320f148013eaeef100c81072b43f03b7db", "t": "touchBarGoForwardTemplateName", "n": 295, "laws": 2, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nstextview/allowsimageediting", "sha": "71dc56f1c2daaa4dcda2d8cbeba6c1455fc6a5d70ef88ea3242493d07a7ee9c7", "t": "allowsImageEditing", "n": 251, "laws": 2, "ts": "2026-07-28 05:52 UTC"}
+{"id": "/documentation/appkit/nsfilepromiseprovider/delegate", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "delegate", "n": 0, "laws": 0, "ts": "2026-07-28 06:01 UTC"}

@@ -57,3 +57,8 @@
 {"id": "/documentation/swift/string/init(decodingcstring:as:)-2zmjc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(decodingCString:as:)", "n": 0, "laws": 0, "ts": "2026-07-27 18:57 UTC"}
 {"id": "/documentation/Foundation/Decimal", "sha": "9e416a994892ba73c3607ed9127d33be1633e5448c3917d358f161ff45ebc561", "t": "Decimal", "n": 2245, "laws": 0, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/appkit/nsresponder/mouseentered(with:)", "sha": "b41108f3bdf161ce3a085b07228974e96e409be4114ee02601b63627b8722bb2", "t": "mouseEntered(with:)", "n": 161, "laws": 0, "ts": "2026-07-27 19:13 UTC"}
+{"id": "/documentation/appkit/nsscrubber/alignment/trailing", "sha": "514e17c63b4d4a05c63bef3ddc8e8494e0891f37cd596b4046b4fc7d3c394ac8", "t": "NSScrubber.Alignment.trailing", "n": 238, "laws": 0, "ts": "2026-07-28 05:34 UTC"}
+{"id": "/documentation/appkit/nscolor/labelcolor", "sha": "7943bb99156ffcaccc0d1d4c96f2dc187f101cd961620418fc89d0b279210460", "t": "labelColor", "n": 188, "laws": 3, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbarskipaheadtemplatename", "sha": "c695438982ed0f8cc734196001c85bbaf4aac53d68aceffc0eaa897cd8afb960", "t": "touchBarSkipAheadTemplateName", "n": 320, "laws": 2, "ts": "2026-07-28 05:37 UTC"}
+{"id": "/documentation/appkit/nsoutlineview/itemwillexpandmessage", "sha": "0b0e861982f013356403c15f7628578ca8be001f37cc0da5fb93f8f918df31a2", "t": "NSOutlineView.ItemWillExpandMessage", "n": 82, "laws": 0, "ts": "2026-07-28 06:02 UTC"}
+{"id": "/documentation/appkit/nssplitviewitem/allowsfullheightlayout", "sha": "385a2414740d5f4d4a6468e3dbe8ee6d4fd7f9d9852b963fbb267d09d478d264", "t": "allowsFullHeightLayout", "n": 181, "laws": 0, "ts": "2026-07-28 06:03 UTC"}

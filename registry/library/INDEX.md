@@ -4,22 +4,23 @@
 
 | Фреймворк | Законов |
 |---|---|
+| appkit | 1882 |
 | appintents | 1688 |
-| uikit | 1660 |
+| uikit | 1681 |
 | accelerate | 1303 |
-| swiftui | 1235 |
-| appkit | 843 |
+| swiftui | 1262 |
 | metal | 713 |
 | avfoundation | 685 |
-| foundation | 648 |
+| foundation | 669 |
 | technotes | 601 |
 | swift | 596 |
+| xcode | 570 |
 | visionos | 559 |
-| xcode | 553 |
 | arkit | 468 |
 | realitykit | 416 |
-| technologyoverviews | 366 |
+| technologyoverviews | 368 |
 | updates | 302 |
+| web-landings | 264 |
 | foundationmodels | 256 |
 | appclip | 221 |
 | gamekit | 201 |
@@ -27,13 +28,13 @@
 | groupactivities | 191 |
 | storekit | 161 |
 | avfaudio | 159 |
-| web-landings | 157 |
 | mapkit | 151 |
-| coredata | 143 |
-| bundleresources | 142 |
+| bundleresources | 148 |
+| coredata | 145 |
 | sirikit | 141 |
 | avkit | 137 |
 | healthkit | 132 |
+| big7 | 128 |
 | networkextension | 122 |
 | swiftdata | 122 |
 | evaluations | 114 |
@@ -42,7 +43,6 @@
 | cloudkit | 105 |
 | clockkit | 102 |
 | eventkit | 100 |
-| big7 | 97 |
 | corelocation | 93 |
 | security | 92 |
 | corespotlight | 89 |
@@ -96,6 +96,7 @@
 | coreai | 33 |
 | storekittest | 33 |
 | tvservices | 33 |
+| objectivec | 32 |
 | translation | 32 |
 | walletpasses | 31 |
 | watchkit | 31 |
@@ -130,7 +131,6 @@
 | callkit | 20 |
 | coremotion | 20 |
 | musickit | 20 |
-| objectivec | 20 |
 | photosui | 18 |
 | signinwithapple | 18 |
 | visionkit | 18 |
@@ -341,4 +341,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 20829 · фреймворков: 336
+Итого законов: 22114 · фреймворков: 336

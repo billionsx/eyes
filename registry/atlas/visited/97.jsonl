@@ -53,3 +53,9 @@
 {"id": "/documentation/appintents/parametersummary", "sha": "334f3f6409276e9c509361aab801d589000290924bb6e048bc9af97ed50713c4", "t": "ParameterSummary", "n": 207, "laws": 0, "ts": "2026-07-27 19:01 UTC"}
 {"id": "/documentation/appintents/entitycollection/init(entities:)", "sha": "ecbe2339089d4600cfcb47774107ad33847fdd7617cebe30f47cf35efb702dc1", "t": "init(entities:)", "n": 200, "laws": 0, "ts": "2026-07-27 19:01 UTC"}
 {"id": "/documentation/foundation/standardpredicateexpression", "sha": "85b30f5a06cc16ca1f3949cc9e60cadd09cc6df762522c6b7f664d7ade7707f4", "t": "StandardPredicateExpression", "n": 242, "laws": 1, "ts": "2026-07-27 19:10 UTC"}
+{"id": "/documentation/appkit/nsscrubberlayout/prepare()", "sha": "5a0e253970564c133b91dc8d153e54fb6060fec779a34595ac9126fb00b1d1ca", "t": "prepare()", "n": 348, "laws": 1, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/flexiblespace", "sha": "65325f03784feb064d78450b485ae96c637c02acfaa2ff840c8a6f0462330762", "t": "flexibleSpace", "n": 191, "laws": 2, "ts": "2026-07-28 05:38 UTC"}
+{"id": "/documentation/appkit/nsuserdefaultscontroller", "sha": "61434d2a3ba8d5c4e9cd1461104196084b5750d261940c889a474ee22f7dc413", "t": "NSUserDefaultsController", "n": 576, "laws": 0, "ts": "2026-07-28 05:38 UTC"}
+{"id": "/documentation/appkit/nsdocument/duplicate(_:)", "sha": "5ffec341695affe76a8e5823c2ee796b441af971193da8c65b9168f1615e82f5", "t": "duplicate(_:)", "n": 176, "laws": 0, "ts": "2026-07-28 05:39 UTC"}
+{"id": "/documentation/appkit/nsdocument/unlock(_:)", "sha": "bc42d16066336637adffa2cd5c83d4f09a4d783c0c81a1c9d5a46eaabc69d101", "t": "unlock(_:)", "n": 207, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nswindow/willexitversionbrowsernotification", "sha": "a0c2be65bdd83a49e56d972a273a5578b0c1923bf5c3713955f8b6fd49d02e71", "t": "willExitVersionBrowserNotification", "n": 266, "laws": 1, "ts": "2026-07-28 05:50 UTC"}

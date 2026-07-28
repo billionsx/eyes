@@ -60,3 +60,8 @@
 {"id": "/documentation/CoreSpotlight/CSSearchableIndexDelegate", "sha": "e61f02a8efa794b34e1363b13aacb5b6877377124584f63c3ae011d866696c6f", "t": "CSSearchableIndexDelegate", "n": 1250, "laws": 2, "ts": "2026-07-27 19:07 UTC"}
 {"id": "/documentation/foundation/nserror", "sha": "933e9769fecbbf41cdfc131ccd392338855b67b21c87bd32818f608ba872ca3f", "t": "NSError", "n": 2041, "laws": 0, "ts": "2026-07-27 19:07 UTC"}
 {"id": "/documentation/appkit/nscustomtouchbaritem/customizationlabel", "sha": "f649dbb7860a80831bc8df8a3131672f9e6829990ac770f9e0797fbfa78c1c5d", "t": "customizationLabel", "n": 71, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsscrubber/mode-swift.enum/free", "sha": "6e3f3ecc6b03c446cfb265a003126fabcc29df3ccf5c7ae56233c51864b2046f", "t": "NSScrubber.Mode.free", "n": 423, "laws": 1, "ts": "2026-07-28 05:34 UTC"}
+{"id": "/documentation/appkit/nstextview/clicked(onlink:at:)", "sha": "f9d1fbae03dd1b8916719a17eaa9786518a702e221321e5c2cd6b7ee2f8d6e65", "t": "clicked(onLink:at:)", "n": 885, "laws": 2, "ts": "2026-07-28 05:52 UTC"}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/range", "sha": "c89e7ade9ada594ac9c7e761b4c63c1427f344b3b27dd112ffc917d2f1ac7b32", "t": "range", "n": 189, "laws": 1, "ts": "2026-07-28 05:57 UTC"}
+{"id": "/documentation/appkit/nstoolbaritem/style-swift.enum", "sha": "058cd9e8d69620c16623dd69cfdaffa1e6a8960695d1e085a77fb931ab0ce0d2", "t": "NSToolbarItem.Style", "n": 111, "laws": 0, "ts": "2026-07-28 06:00 UTC"}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:numberofchildrenofitem:)", "sha": "8839925e1f62b5677d60db3149cb6aac12877a6e4aa2b8c74056e1e0a21a5e50", "t": "outlineView(_:numberOfChildrenOfItem:)", "n": 465, "laws": 4, "ts": "2026-07-28 06:02 UTC"}

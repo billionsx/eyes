@@ -46,3 +46,8 @@
 {"id": "/documentation/swift/string/write(_:)", "sha": "27456e3e4247292051063164127d2dac4fe67990167e197f313d9a13c666bc5c", "t": "write(_:)", "n": 40, "laws": 0, "ts": "2026-07-27 19:00 UTC"}
 {"id": "/documentation/swift/stringprotocol", "sha": "759fc7d6a7978d4c313bb5479e04d036c67d342efa59f9d1a65ecf03622ad126", "t": "StringProtocol", "n": 2615, "laws": 1, "ts": "2026-07-27 19:00 UTC"}
 {"id": "/documentation/appintents/nscollectionviewappintentsdatasource", "sha": "3ee9f7cb4cc4fac1819ce5343f720b19c3690eac97a35a3f96d3bf6e60c524cb", "t": "NSCollectionViewAppIntentsDataSource", "n": 300, "laws": 1, "ts": "2026-07-27 19:03 UTC"}
+{"id": "/documentation/appkit/nswindow/iszoomed", "sha": "538b29636a617e72bf42e40f6c1a15c420a38dca80a4675643b32aa5f5be0e9f", "t": "isZoomed", "n": 798, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nswindow/willmovenotification", "sha": "5623eb2066c8a7afd73333866df255f7c84cd70b6416bc0d90557aa45aa88e5c", "t": "willMoveNotification", "n": 237, "laws": 1, "ts": "2026-07-28 05:50 UTC"}
+{"id": "/documentation/appkit/nstextinputclient/preferredtextaccessoryplacement()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "preferredTextAccessoryPlacement()", "n": 0, "laws": 0, "ts": "2026-07-28 05:51 UTC"}
+{"id": "/documentation/xcode/changing-the-bundle-identifier", "sha": "146a1294aeaa59b41f5e93caa368ec263dfed09a398c22df3e2e544981bc271a", "t": "Changing the bundle identifier", "n": 3808, "laws": 8, "ts": "2026-07-28 05:57 UTC"}
+{"id": "/documentation/appkit/nstoolbaritem/badge-2b38p", "sha": "f616acf1f5615360b47ba2047c09273674279e86c0ceeae023e810d6faa28f1e", "t": "badge", "n": 208, "laws": 0, "ts": "2026-07-28 05:59 UTC"}

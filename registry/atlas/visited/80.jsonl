@@ -65,3 +65,6 @@
 {"id": "/documentation/appintents/appschema/photosintent/setrotation", "sha": "90879aa26968ef3a1b7d24919f4cc4a347c8364a9365267c8a673be57d28bab3", "t": "setRotation", "n": 677, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
 {"id": "/documentation/foundation/nsitemprovider/completionhandler", "sha": "fe583916261e934aee1c1fe0fc7c5bfa76cdadd441dfd4ec9b386b775188fdfd", "t": "NSItemProvider.CompletionHandler", "n": 162, "laws": 1, "ts": "2026-07-27 19:08 UTC"}
 {"id": "/documentation/foundation/predicateexpressions", "sha": "f6a93ac46ceee3b4003c2fa41a93edbbda77475570b85d5524c0c8dfe984f2a8", "t": "PredicateExpressions", "n": 3022, "laws": 1, "ts": "2026-07-27 19:10 UTC"}
+{"id": "/documentation/appkit/nsdocument/presenteditemdidlose(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "presentedItemDidLose(_:)", "n": 0, "laws": 0, "ts": "2026-07-28 05:40 UTC"}
+{"id": "/documentation/appkit/nsdocumentcontroller/documentforfilename:", "sha": "a90c3467436838605c4441dc8e7add5c0249aa239ec42719da1e4ef35f62f48c", "t": "documentForFileName:", "n": 188, "laws": 0, "ts": "2026-07-28 05:42 UTC"}
+{"id": "/documentation/appkit/nstextview/checktextinselection(_:)", "sha": "11da0302849626389f8610c09dc0bd48f980e45ccbaf7d8fd64ac6503caa3d84", "t": "checkTextInSelection(_:)", "n": 206, "laws": 0, "ts": "2026-07-28 05:52 UTC"}

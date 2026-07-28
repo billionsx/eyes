@@ -55,3 +55,5 @@
 {"id": "/documentation/appintents/entitycollection/resolvedentities()", "sha": "aab1faa7d060ac61ebcc647ed7b3b5e09fd0e5197ea7786b9b0a49b3bcfa1f04", "t": "resolvedEntities()", "n": 539, "laws": 2, "ts": "2026-07-27 19:01 UTC"}
 {"id": "/documentation/appintents/app-schema-domain-notes", "sha": "edd4ca39deeaabfedbf64246c3c3c7c052f54772866fff605cd3d88c75b9b88f", "t": "Notes", "n": 696, "laws": 0, "ts": "2026-07-27 19:03 UTC"}
 {"id": "/documentation/foundation/predicatecodablekeypathproviding", "sha": "9a1c6daea23f8b85b5aa19b3f7213bb09eb8e7d7502c71212f09ab4ad3ab6f2f", "t": "PredicateCodableKeyPathProviding", "n": 123, "laws": 0, "ts": "2026-07-27 19:10 UTC"}
+{"id": "/documentation/appkit/nsbestdepth", "sha": "f9d3b934b6a2924eb9596d5fe5eb4d571688d1716eb169a524ac3f6e8729498e", "t": "NSBestDepth", "n": 900, "laws": 1, "ts": "2026-07-28 05:43 UTC"}
+{"id": "/documentation/appkit/nstoolbaritem/identifier/togglesidebar", "sha": "00e2f8217259a654e5e79ce5f52a28bf5c94eaa1322cc119e6050a65a073882c", "t": "toggleSidebar", "n": 137, "laws": 0, "ts": "2026-07-28 06:00 UTC"}

@@ -1658,3 +1658,24 @@
 {"id": "/documentation/UIKit/UIViewController/loadView()", "law": "If you use Interface Builder to create your views and initialize the view controller, you must not override this method."}
 {"id": "/documentation/UIKit/UIViewController/loadView()", "law": "The views you create should be unique instances and should not be shared with any other view controller object."}
 {"id": "/documentation/UIKit/UIViewController/loadView()", "law": "Your custom implementation of this method should not call ."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "Modern devices collect and store a wealth of sensitive information about people who use them."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "Ensure your app accesses only what it needs to do its job."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "Choose the protected resource you want to add; in this case, it’s “Location (When in Use)”."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "Always provide a valid purpose string in the Signing and Capabilities editor if your app uses a protected resource."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "If you don’t, attempts to access the resource fail, and might cause your app to crash."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "To give people useful, concise information about why you’re requesting access to protected resources, make sure each purpose string you provide is valid by checking the following: The purpose string isn’t blank and doesn’t consist solely of whitespace characters."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "The purpose string has the proper type that the corresponding key requires, typically a string."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "App Review checks for the use of protected resources, and rejects apps that contain code accessing those resources without a purpose string."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "If you’re using external libraries or SDKs, they may reference APIs that require a purpose string."}
+{"id": "/documentation/UIKit/requesting-access-to-protected-resources", "law": "Although your app might not use these APIs, a purpose string is still necessary for App Review."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "Add support for scenes to your app to receive scene-specific life-cycle events that UIKit provides, and use scene objects and methods to manage your user interface."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "For each copy of your app’s UI, you use a scene object to manage the window, views, and view controllers that present the UI onscreen."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "Supporting multiple scenes requires extra work on your part to ensure that your scenes don’t interfere with each other."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "For example, if your scenes use the same shared data structures, they must coordinate access to those structures to preserve the integrity of your app’s data."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "UIKit requires the following information for each scene: The class name of the scene, which is ."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "The class must adopt the protocol."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "Don’t forget to designate an initial view controller in your storyboard."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "You might use this method to adjust the scene configuration based on the options that UIKit provides."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "If you don’t implement or configure scenes dynamically, UIKit uses the information in your app’s file to create your scenes."}
+{"id": "/documentation/UIKit/specifying-the-scenes-your-app-supports", "law": "In an app that doesn’t use the scene life-cycle objects, the app delegate object handles transitions to the foreground or background."}
+{"id": "/documentation/UIKit/drag-and-drop", "law": "You don’t need to perform additional configuration like setting special entitlements or keys."}

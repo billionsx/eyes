@@ -45,3 +45,7 @@
 {"id": "/documentation/appintents/app-extension", "sha": "26658dac22116bcef476f5ac86fedaee3b8d96305db0a1c4d53cc4f0aee0a2cb", "t": "App extension", "n": 433, "laws": 0, "ts": "2026-07-27 19:01 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/init(nibname:bundle:)", "sha": "7e07ac4aa1b0b8694ecde0536f875dfc0d5dede0820e0852a7497b846c71dc28", "t": "init(nibName:bundle:)", "n": 527, "laws": 2, "ts": "2026-07-27 19:11 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/isviewloaded", "sha": "86ca0eb06c6288de78ac6edd2b5b74ed8ead5fe7ab077c66764e65bf5c0bb6a7", "t": "isViewLoaded", "n": 84, "laws": 0, "ts": "2026-07-27 19:11 UTC"}
+{"id": "/documentation/appkit/nsdocument/savetourl:oftype:forsaveoperation:error:", "sha": "f27c10ec7a648e08dea9644debd7e9262c4aaf88097f9b3a585210e9435496ba", "t": "saveToURL:ofType:forSaveOperation:error:", "n": 423, "laws": 1, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nstextview/rangesforusertextchange", "sha": "1e2eb9c554e69b938acb44c78b44f275ef07cc16dd1d2ba95bc4609bc0be03b1", "t": "rangesForUserTextChange", "n": 117, "laws": 0, "ts": "2026-07-28 05:54 UTC"}
+{"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "sha": "a19ef2cd2ad73db2e1fd41d468fa33a1ac1104f284ed97d69ad77951f7a937bd", "t": "isEqual(_:)", "n": 669, "laws": 3, "ts": "2026-07-28 06:01 UTC"}
+{"id": "/documentation/appkit/nstreecontroller/insert(_:)", "sha": "27b298f51159352297c9aa72b022848ed09e25dadb4989f1b35467d2bb600a80", "t": "insert(_:)", "n": 568, "laws": 0, "ts": "2026-07-28 06:04 UTC"}

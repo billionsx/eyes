@@ -47,3 +47,6 @@
 {"id": "/documentation/swift/string/min()", "sha": "af706628b427702ec05169543f1dffe4e60520093809ec1d3580cfc373a5b01a", "t": "min()", "n": 270, "laws": 2, "ts": "2026-07-27 18:59 UTC"}
 {"id": "/documentation/swift/string/starts(with:by:)", "sha": "1a6b5633320f5f4df0a776518c202ad342afb6739ce5bb240bd653cc9c920483", "t": "starts(with:by:)", "n": 655, "laws": 2, "ts": "2026-07-27 19:00 UTC"}
 {"id": "/documentation/appintents/appshortcutoptionscollectionprotocol", "sha": "d3cffd2c87edf6b1524fa7bbbf68db9b5c56694d7204aa8d44641d09f42610a7", "t": "AppShortcutOptionsCollectionProtocol", "n": 100, "laws": 0, "ts": "2026-07-27 19:02 UTC"}
+{"id": "/documentation/appkit/nswindow/inliveresize", "sha": "cdf30ae709e2f85aa0fb38e1011eac4d003f49d14f08449b06315a44012239b2", "t": "inLiveResize", "n": 173, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nswindow/iszoomable", "sha": "4665b27f93ad00767700389b5a294d05739a1c881e1abdf951da353c56650746", "t": "isZoomable", "n": 124, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nstextview/rulerview(_:shouldadd:)", "sha": "0eca2bf55902eef30e29fadb1cda745bb0889cc264bf68bc3d87338e21d3f9d1", "t": "rulerView(_:shouldAdd:)", "n": 277, "laws": 0, "ts": "2026-07-28 05:54 UTC"}

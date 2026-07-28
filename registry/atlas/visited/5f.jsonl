@@ -50,3 +50,9 @@
 {"id": "/documentation/appintents/intentperson", "sha": "980a3a954aaf1bb34a6916df73b35d458212aac1e4039fc33447fac36a009aff", "t": "IntentPerson", "n": 631, "laws": 0, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/foundation/nscompoundpredicate", "sha": "6d8ab0c53ae9f464c432b74b20c5fea1b39438e5fecdfe9264c06cc1124665b3", "t": "NSCompoundPredicate", "n": 729, "laws": 1, "ts": "2026-07-27 19:10 UTC"}
 {"id": "/documentation/playgroundsupport/playgroundliveviewable", "sha": "9f41843c84df3c237a850477617f8e253eee7f810240996522a4d23acda401da", "t": "PlaygroundLiveViewable", "n": 499, "laws": 1, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsspellchecker", "sha": "b38559bb691d21dee6f0021c256c03e4e8f7e16000f6425dc4c0132592077cf4", "t": "NSSpellChecker", "n": 3677, "laws": 0, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbarskiptoendtemplatename", "sha": "6f128084915309d76d59e3944a6ad386059fdcf0be412cdbe3090435b4644dcf", "t": "touchBarSkipToEndTemplateName", "n": 295, "laws": 2, "ts": "2026-07-28 05:37 UTC"}
+{"id": "/documentation/appkit/nsdocument/fileurl", "sha": "f0e230897a625c19a4c5ffde0db5860aadba33b2d555ab22831ff6036a361ab2", "t": "fileURL", "n": 379, "laws": 0, "ts": "2026-07-28 05:39 UTC"}
+{"id": "/documentation/appkit/nswindow/attachedsheet", "sha": "edb2adae446847516b6c40f860c3dd607db1473119876da6fb122025d5ab2040", "t": "attachedSheet", "n": 124, "laws": 0, "ts": "2026-07-28 05:44 UTC"}
+{"id": "/documentation/appkit/nstextview/pasteasplaintext(_:)", "sha": "77b61cf6c2b7bd5d3b863543e519057ce63b0ab08806fb55ca9bb149953c5081", "t": "pasteAsPlainText(_:)", "n": 129, "laws": 0, "ts": "2026-07-28 05:54 UTC"}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/textupdatereason", "sha": "968b91defbda357da9ac84ee079765b127ad77302b8f1cce5b4345e6c74ea43c", "t": "NSWritingToolsCoordinator.TextUpdateReason", "n": 651, "laws": 0, "ts": "2026-07-28 05:58 UTC"}

@@ -65,3 +65,5 @@
 {"id": "/documentation/appintents/appschema/messagesintent/unsendmessage", "sha": "1418c5031e58bbdac934d5a7b520552a5e88e3627400403b565ebd405056e8a7", "t": "unsendMessage", "n": 684, "laws": 1, "ts": "2026-07-27 19:04 UTC"}
 {"id": "/documentation/foundation/filemanager/searchpathdomainmask/networkdomainmask", "sha": "4f64a95e5c7bdc57529df7ff5a4b535d8b5732645b0c25f18521a05a41d416aa", "t": "networkDomainMask", "n": 56, "laws": 0, "ts": "2026-07-27 19:07 UTC"}
 {"id": "/documentation/foundation/nscopying", "sha": "b814b92e9abead1d7145f38f95733888a3c239afc48ba85d1099106354698501", "t": "NSCopying", "n": 1205, "laws": 3, "ts": "2026-07-27 19:08 UTC"}
+{"id": "/documentation/appkit/nsgesturerecognizer/allowedtouchtypes", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "allowedTouchTypes", "n": 0, "laws": 0, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nswindow/invalidatecursorrects(for:)", "sha": "45738e32002631ad2f44377ae5e6b489f09ccc225ad60c6433818cc4c051a0d2", "t": "invalidateCursorRects(for:)", "n": 236, "laws": 0, "ts": "2026-07-28 05:47 UTC"}

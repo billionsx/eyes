@@ -18,3 +18,15 @@
 {"id": "/documentation/ObjectiveC/NSObject-swift.class/dealloc", "law": "You should try to avoid managing the lifetime of limited resources such as file descriptors using ."}
 {"id": "/documentation/ObjectiveC/NSObject-swift.class/dealloc", "law": "You never send a message directly."}
 {"id": "/documentation/ObjectiveC/NSObject-swift.class/dealloc", "law": "When not using ARC, your implementation of must invoke the superclass’s implementation as its last instruction."}
+{"id": "/documentation/ObjectiveC/nskeyvaluebindingcreation", "law": "Bindings are considered to be a property of the object which is bound, and all information related to bindings should be owned by the object."}
+{"id": "/documentation/ObjectiveC/nskeyvaluebindingcreation", "law": "However, there are times it must be done programmatically, such as when establishing a binding between objects in different nib files."}
+{"id": "/documentation/ObjectiveC/nskeyvaluebindingcreation", "law": "A set of methods that you can use to create and remove bindings between view objects and controllers, or between controllers and model objects."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/awakeFromNib()", "law": "You must call the implementation of to give parent classes the opportunity to perform any additional initialization they require."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/awakeFromNib()", "law": "All objects that do not conform to the protocol are initialized using their method."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/awakeFromNib()", "law": "Because the order in which objects are instantiated from an archive is not guaranteed, your initialization methods should not send messages to other objects in the hierarchy."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/awakeFromNib()", "law": "Typically, you implement for objects that require additional set up that cannot be done at design time."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/awakeFromNib()", "law": "For example, you might use this method to customize the default configuration of any controls to match user preferences or the values in other controls."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/awakeFromNib()", "law": "You might also use it to restore individual controls to some previous state of your application."}
+{"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "See the , , , and class specifications for examples of the use of this method."}
+{"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "If two objects are equal, they must have the same hash value."}
+{"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "Make sure you also define in your subclass."}

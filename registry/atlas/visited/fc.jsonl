@@ -60,3 +60,9 @@
 {"id": "/documentation/swift/string/init(_:)-1ip93", "sha": "0a1d3d0205b84100d7237660bcee2c6189dd64c3a7e5bc872190cfa050fa291b", "t": "init(_:)", "n": 77, "laws": 0, "ts": "2026-07-27 18:56 UTC"}
 {"id": "/documentation/Swift/Collection", "sha": "1a0fb0b3d93582685a9366b29b202ba78fb53f9f78b6888ac09df5bc3e3c01df", "t": "Collection", "n": 7370, "laws": 7, "ts": "2026-07-27 19:01 UTC"}
 {"id": "/documentation/appintents/appschema/calendarenum/eventspan", "sha": "f7dc79c19d8ec142ea12cbd985561c759131621e58aac202de4d2055a396685f", "t": "eventSpan", "n": 688, "laws": 1, "ts": "2026-07-27 19:04 UTC"}
+{"id": "/documentation/appkit/nsdocument/saveoperationtype/saveasoperation", "sha": "0e37d4284b2ab017563b9b8ab1fc77f1e9751e95703de9467639b5ca72c90cce", "t": "NSDocument.SaveOperationType.saveAsOperation", "n": 117, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nspersistentdocument/managedobjectcontext", "sha": "0b62ffbe02018f6dea3d7e02bebf8195dde7cf3775ef1fdeb42066924a2971ea", "t": "managedObjectContext", "n": 326, "laws": 1, "ts": "2026-07-28 05:43 UTC"}
+{"id": "/documentation/appkit/nswindow/enablecursorrects()", "sha": "3afc61bbd763039382c6f6212123c3d72094c7c34eb7607c711b4111f88e62b5", "t": "enableCursorRects()", "n": 72, "laws": 0, "ts": "2026-07-28 05:46 UTC"}
+{"id": "/documentation/appkit/nstextinputclient/docommand(by:)", "sha": "afb45bf1883933f6da3839c354f3dd775d0f0b88eed57dffb22d12843dd99d74", "t": "doCommand(by:)", "n": 429, "laws": 2, "ts": "2026-07-28 05:51 UTC"}
+{"id": "/documentation/appkit/nswritingtoolsresultoptions", "sha": "c9964bae37fa123499042010d7176537438b4ed6f7ce5a80f128e5e6d0fe56a5", "t": "NSWritingToolsResultOptions", "n": 560, "laws": 0, "ts": "2026-07-28 05:58 UTC"}
+{"id": "/documentation/appkit/nstoolbar/isvisible", "sha": "c8f1acb905f5f4e33c7658cf3848adcfac21c95e0aeddd4d851be5805aaba026", "t": "isVisible", "n": 199, "laws": 0, "ts": "2026-07-28 05:59 UTC"}

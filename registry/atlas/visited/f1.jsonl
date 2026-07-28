@@ -30,3 +30,5 @@
 {"id": "/documentation/appintents/intentparameter-payments", "sha": "92e69bae0abe6ce0a8a46e74b888db0c08c5a9f7e96a9a23b638aa895185c542", "t": "Payments", "n": 547, "laws": 0, "ts": "2026-07-27 06:36 UTC"}
 {"id": "/documentation/swift/string/init(cstring:)-295hy", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(cString:)", "n": 0, "laws": 0, "ts": "2026-07-27 18:57 UTC"}
 {"id": "/documentation/appkit/nseditor", "sha": "80718218c87c0ea4d532b2b01a047b1638dede5b5c33f4ea9a24761e253a7963", "t": "NSEditor", "n": 145, "laws": 0, "ts": "2026-07-27 19:10 UTC"}
+{"id": "/documentation/appkit/nsdocument/init(type:)", "sha": "713351b231096c0fa49878f4a4cb3b54266bdf8a43b53379c69f9846343e32ec", "t": "init(type:)", "n": 694, "laws": 3, "ts": "2026-07-28 05:40 UTC"}
+{"id": "/documentation/appkit/nswindow/selectkeyview(preceding:)", "sha": "29d5f0a9f423d33828949d99ab36dc470933793c43ccd68aca5abd510e23e495", "t": "selectKeyView(preceding:)", "n": 172, "laws": 0, "ts": "2026-07-28 05:48 UTC"}

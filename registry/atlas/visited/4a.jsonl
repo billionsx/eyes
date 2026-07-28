@@ -49,3 +49,7 @@
 {"id": "/documentation/swift/substring", "sha": "99da80f0025ff9d7ae1050df8bccbc4f8e72a8e344130c726dbafad2240f35ca", "t": "Substring", "n": 2701, "laws": 3, "ts": "2026-07-27 19:00 UTC"}
 {"id": "/documentation/WidgetKit/LiveActivities-Collection", "sha": "e59e6ae0bdb1a47826a663d804d373953dec4b11e7c5d8c0bfc3f49bacf65076", "t": "Live Activities", "n": 724, "laws": 1, "ts": "2026-07-27 19:03 UTC"}
 {"id": "/documentation/appintents/appschema/audioentity/playlist", "sha": "0e83ca851c26d540bab82ae1d3d5083221c17b9715861f746103feb13059f680", "t": "playlist", "n": 666, "laws": 1, "ts": "2026-07-27 19:05 UTC"}
+{"id": "/documentation/appkit/nswindow/collectionbehavior-swift.struct", "sha": "3aba57d355680711d507185f8d5e702b4094d9bc3ecd09ea8e2d70b29b3fda76", "t": "NSWindow.CollectionBehavior", "n": 1172, "laws": 1, "ts": "2026-07-28 05:44 UTC"}
+{"id": "/documentation/appkit/nswindow/hasshadow", "sha": "a8ed0e13b9cd7139a7fe4d1bd53e27ddb8cab37d5a529b0f666c7f08dfe93d51", "t": "hasShadow", "n": 270, "laws": 0, "ts": "2026-07-28 05:46 UTC"}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.property", "sha": "d94c4ea3f0ab6939e512d6ff215a145ba0eb7ae9c0c12b8cac9147110869a32e", "t": "delegate", "n": 287, "laws": 1, "ts": "2026-07-28 05:57 UTC"}
+{"id": "/documentation/appkit/nsoutlineview/itemdidcollapsenotification", "sha": "8738f204a9ea7d0b249454e2bdf0f3a705872c1d843216802bef4e5201f072d2", "t": "itemDidCollapseNotification", "n": 310, "laws": 1, "ts": "2026-07-28 06:01 UTC"}

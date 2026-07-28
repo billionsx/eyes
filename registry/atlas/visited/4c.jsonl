@@ -55,3 +55,10 @@
 {"id": "/documentation/swift/string/collection-implementations", "sha": "cb34b5bfdc629f1a3334a2ea7a962f97dae91887ed3cee53793c39ad15ec8d50", "t": "Collection Implementations", "n": 702, "laws": 0, "ts": "2026-07-27 18:55 UTC"}
 {"id": "/documentation/swift/string/init(_:)-2t931", "sha": "baea3213a99c93ccbf89048fa8f501ad856b2c0e2ad01e70f86ca506d1df18fc", "t": "init(_:)", "n": 257, "laws": 1, "ts": "2026-07-27 18:57 UTC"}
 {"id": "/documentation/appintents/appschema/photosintent/cleanupphoto", "sha": "371b4254843b39d4088c1cf89571a75b710c9ecbf4f5fb5e8d9e7c3e8b31676c", "t": "cleanupPhoto", "n": 700, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbartagicontemplatename", "sha": "148e3327e8298227bedae727b5f8b3f9fb8ac6fc457a87389814684885364069", "t": "touchBarTagIconTemplateName", "n": 283, "laws": 2, "ts": "2026-07-28 05:37 UTC"}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/fixedspacelarge", "sha": "6573691196e3eb8bd72620f86f4e884d241cdcd2774c10196281b740db637e2f", "t": "fixedSpaceLarge", "n": 188, "laws": 2, "ts": "2026-07-28 05:38 UTC"}
+{"id": "/documentation/appkit/nsdocument/backupfileurl", "sha": "0d9363f928a6dab91ea81b9e0ab071976fe73d09fc4fc7c893cf71c1c370649c", "t": "backupFileURL", "n": 1711, "laws": 3, "ts": "2026-07-28 05:39 UTC"}
+{"id": "/documentation/appkit/nstextview/isselectable", "sha": "e8a7ed4319dd788463e896d11dd2b7d2d08fd0f619a669b6e70726ee0ddc0072", "t": "isSelectable", "n": 681, "laws": 2, "ts": "2026-07-28 05:54 UTC"}
+{"id": "/documentation/swiftui/view/foregroundcolor(_:)", "sha": "a36294edbfe8df5056c57f0c077abf558af0f1e991e379f3c95d5629fb4001b5", "t": "foregroundColor(_:)", "n": 131, "laws": 0, "ts": "2026-07-28 05:56 UTC"}
+{"id": "/documentation/appkit/nstoolbar/selecteditemidentifier", "sha": "8aa5dde97556e69d2a270818109878628daefbf770b0da4ec6fae1bb81dbc53f", "t": "selectedItemIdentifier", "n": 145, "laws": 0, "ts": "2026-07-28 05:59 UTC"}
+{"id": "/documentation/appkit/nstoolbaritem/ishidden", "sha": "cdc3b8a111e48d8330d78a4059966455edc813abbab1b3097a733f1474596c03", "t": "isHidden", "n": 473, "laws": 2, "ts": "2026-07-28 05:59 UTC"}

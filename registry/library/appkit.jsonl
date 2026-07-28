@@ -841,3 +841,1042 @@
 {"id": "/documentation/appkit/nsresponder/nextresponder", "law": "The next responder must be an object that inherits, directly or indirectly, from ."}
 {"id": "/documentation/appkit/nsresponder/performkeyequivalent(with:)", "law": "If the character code or codes in match the receiver’s key equivalent, the receiver should respond to the event and return ."}
 {"id": "/documentation/appkit/nsresponder/performkeyequivalent(with:)", "law": "You should extract the characters for a key equivalent using the method ."}
+{"id": "/documentation/appkit/nsresponder/performmnemonic:", "law": "If the character code or codes in s match the receiver’s mnemonic, the receiver should perform the mnemonic and return ."}
+{"id": "/documentation/appkit/nsresponder/performtextfinderaction(_:)", "law": "When an application performs a find action, it should send this message to the responder chain."}
+{"id": "/documentation/appkit/nsresponder/performtextfinderaction(_:)", "law": "Before any other messages are sent to the , you should set its ‘client’ property to an object which implements the protocol."}
+{"id": "/documentation/appkit/nsresponder/performtextfinderaction(_:)", "law": "Whenever possible which you should update your implementation to use this new action."}
+{"id": "/documentation/appkit/nsresponder/presenterror(_:)", "law": "For error recovery to be attempted, an recovery-attempter object (that is, an object conforming to the informal protocol) must be associated with ."}
+{"id": "/documentation/appkit/nsresponder/presenterror(_:)", "law": "It is not recommended that you attempt to override this method."}
+{"id": "/documentation/appkit/nsresponder/presenterror(_:modalfor:delegate:didpresent:contextinfo:)", "law": "It is not recommended that you attempt to override this method."}
+{"id": "/documentation/appkit/nsresponder/quicklook(with:)", "law": "A Quick Look event does not come in through the normal event mechanism; therefore, there is no corresponding event mask for it, nor should you attempt to look for it in a message or with the methods."}
+{"id": "/documentation/appkit/nsresponder/resignfirstresponder()", "law": "Use the method, not this method, to make an object the first responder."}
+{"id": "/documentation/appkit/nsresponder/resignfirstresponder()", "law": "Never invoke this method directly."}
+{"id": "/documentation/appkit/nsresponder/restorablestatekeypaths", "law": "You can use this method instead of, or in addition to, the and methods to save and restore the state of your responder."}
+{"id": "/documentation/appkit/nsresponder/restorablestatekeypaths", "law": "The key paths you return must refer to attributes that are key-value coding and key-value observing compliant."}
+{"id": "/documentation/appkit/nsresponder/rightmousedown(with:)", "law": "To avoid binary compatibility issues, this new behavior is enabled only for applications linked on macOS 10.7 or later."}
+{"id": "/documentation/appkit/nsresponder/setinterfacestyle:", "law": "You should almost never need to invoke or override this method, but if you do override it, your version should always invoke the implementation in ."}
+{"id": "/documentation/appkit/nsresponder/shouldbetreatedasinkevent(_:)", "law": "Returns if the specified event should be treated as an ink event, if it should be treated as a mouse event."}
+{"id": "/documentation/appkit/nsresponder/shouldbetreatedasinkevent(_:)", "law": "This method provides the ability to distinguish when a pen-down event should start inking versus when a pen-down event should be treated as a mouse-down event."}
+{"id": "/documentation/appkit/nsresponder/shouldbetreatedasinkevent(_:)", "law": "A custom view should override this method to get the correct behavior for a pen-down in the view."}
+{"id": "/documentation/appkit/nsresponder/shouldbetreatedasinkevent(_:)", "law": "Indicates whether a pen-down event should be treated as an ink event."}
+{"id": "/documentation/appkit/nsresponder/smartmagnify(with:)", "law": "In response to this event, you should intelligently magnify the content."}
+{"id": "/documentation/appkit/nsresponder/supplementaltarget(foraction:sender:)", "law": "This method should return an object which responds to the action; if this responder does not have a supplemental object that does that, the implementation of this method should call ’s ."}
+{"id": "/documentation/appkit/nsresponder/touchesbegan(with:)", "law": "This isn’t always the point of contact with the touch device."}
+{"id": "/documentation/appkit/nsresponder/touchesended(with:)", "law": "This isn’t always the point of removal with the touch device."}
+{"id": "/documentation/appkit/nsresponder/useractivity", "law": "You should override to write lazily any state data representing the user’s activity to the dictionary."}
+{"id": "/documentation/appkit/nsresponder/useractivity", "law": "You can use this property from any thread, and it’s key-value observable (KVO)."}
+{"id": "/documentation/appkit/nsresponder/validateproposedfirstresponder(_:for:)", "law": "if the control should become first responder, otherwise ."}
+{"id": "/documentation/appkit/nsresponder/validateproposedfirstresponder(_:for:)", "law": "Some controls, such as , should only become first responder when the enclosing NSTableView/NSBrowser indicates that the view can begin editing."}
+{"id": "/documentation/appkit/nsresponder/validateproposedfirstresponder(_:for:)", "law": "It is up to the particular control that wants to be validated to call this method in its method (or perhaps at another time) to determine if it should attempt to become the first responder or not."}
+{"id": "/documentation/appkit/nsresponder/validateproposedfirstresponder(_:for:)", "law": "Allows controls to determine when they should become first responder."}
+{"id": "/documentation/appkit/nsresponder/validrequestor(forsendtype:returntype:)", "law": "If the receiver can place data of on the pasteboard and receive data of , it should return ; otherwise it should return either or , which allows an object higher up in the responder chain to have an opportunity to handle the message."}
+{"id": "/documentation/appkit/nsresponder/validrequestor(forsendtype:returntype:)", "law": "If is empty, the service doesn’t require input from the application requesting the service."}
+{"id": "/documentation/appkit/nsresponder/wantsforwardedscrollevents(for:)", "law": "Returns when forward gesture scroll events should be forwarded up the responder chain when the scrolling content is already at the edge of the scrolled direction at the beginning of the scroll gesture; otherwise."}
+{"id": "/documentation/appkit/nsresponder/willpresenterror(_:)", "law": "If you do this, always use the domain and error code of the object to distinguish between errors whose presentation you want to customize and those you don’t."}
+{"id": "/documentation/appkit/nsresponder/willpresenterror(_:)", "law": "Don’t make decisions based on the localized description, recovery suggestion, or recovery options because parsing localized text is problematic."}
+{"id": "/documentation/appkit/nsscrubber/itemalignment", "law": "Set the value to something other than to ensure that an item is aligned with the specified position when the scrubber comes to rest."}
+{"id": "/documentation/appkit/nsscrubber/mode-swift.enum/free", "law": "To select an item, the user must tap or press it without moving their finger horizontally."}
+{"id": "/documentation/appkit/nsscrubber/register(_:foritemidentifier:)-2rb69", "law": "Registers a class for the scrubber to use when it creates new items."}
+{"id": "/documentation/appkit/nsscrubber/register(_:foritemidentifier:)-6jye0", "law": "Registers a nib file for the scrubber to use when it creates new items in the scrubber."}
+{"id": "/documentation/appkit/nsscrubber/selectedindex", "law": "To use a scrubber’s animator proxy when changing the selected item, employ the protocol, using code like this: The index of the selected item in the scrubber."}
+{"id": "/documentation/appkit/nsscrubber/showsadditionalcontentindicators", "law": "A Boolean value that specifies whether the scrubber should display the existence of additional items beyond the leading and trailing edges."}
+{"id": "/documentation/appkit/nsscrubber/showsarrowbuttons", "law": "A Boolean value that specifies whether arrow buttons should be displayed at the leading and trailing edges of the scrubber."}
+{"id": "/documentation/appkit/nsscrubberflowlayout", "law": "To set the size of items on a per-item basis, ensure that your scrubber delegate conforms to the protocol, and provides an implementation of the method."}
+{"id": "/documentation/appkit/nsscrubberimageitemview/imageview", "law": "Use this property to access and configure the underlying image view used to display the image in the property."}
+{"id": "/documentation/appkit/nsscrubberlayout", "law": "To determine the layout of items in a scrubber, use one of the built-in subclasses ( or ), or create a custom subclass to implement your own layout."}
+{"id": "/documentation/appkit/nsscrubberlayout/invalidatelayout()", "law": "Signals that the layout has been invalidated, and that the scrubber control should perform a new layout pass."}
+{"id": "/documentation/appkit/nsscrubberlayout/prepare()", "law": "Use this method in subclasses to perform layout calculations and caching in advance of rendering the scrubber."}
+{"id": "/documentation/appkit/nsscrubberlayout/scrubbercontentsize", "law": "The size required to contain all elements within the scrubber."}
+{"id": "/documentation/appkit/nsscrubberlayout/shouldinvalidatelayoutforchange(fromvisiblerect:tovisiblerect:)", "law": "Subclasses that rely on the size or origin of the visible region should return ."}
+{"id": "/documentation/appkit/nsscrubberlayout/shouldinvalidatelayoutforchange(fromvisiblerect:tovisiblerect:)", "law": "Determines whether the scrubber should refresh its layout in response to a change of its visible region."}
+{"id": "/documentation/appkit/nsscrubberlayout/shouldinvalidatelayoutforhighlightchange", "law": "Subclasses should return if the highlight state affects the item layout."}
+{"id": "/documentation/appkit/nsscrubberlayout/shouldinvalidatelayoutforhighlightchange", "law": "Determines whether the scrubber should refresh its layout when an item is highlighted."}
+{"id": "/documentation/appkit/nsscrubberlayout/shouldinvalidatelayoutforselectionchange", "law": "Subclasses should return if the selection index affects the item layout."}
+{"id": "/documentation/appkit/nsscrubberlayout/shouldinvalidatelayoutforselectionchange", "law": "Determines whether the scrubber should refresh its layout when the selection changes."}
+{"id": "/documentation/appkit/nsscrubberlayoutattributes", "law": "If you require model attributes in addition to those provided by this class, create a subclass and add appropriate attributes."}
+{"id": "/documentation/appkit/nsscrubberlayoutattributes", "law": "Subclasses must implement , and the protocol."}
+{"id": "/documentation/appkit/nsclickgesturerecognizer", "law": "When configuring this gesture recognizer, you can specify which mouse buttons must be clicked and how many clicks must occur before the action method is called."}
+{"id": "/documentation/appkit/nsclickgesturerecognizer", "law": "The user must click the specified mouse button the required number of times without dragging the mouse for the gesture to be recognized."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "You do not create instances of this class directly."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "In that situation, you can use your action method to perform appropriate tasks, such as creating animations for any mouse-related movements, in addition to handling the final results of the gesture recognition process."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "A gesture recognizer has only one action method and one target object, and the method must conform to one of the following signatures: When your code needs additional information about the particulars of a gesture, define your action method to include the gesture recognizer parameter."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "You almost always want the gesture recognizer object when handling continuous gestures."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "For example, for a rotation gesture, you would use the gesture recognizer object to get the updated rotation value."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "You can also use the gesture recognizer object to get the location of where the gesture occurred."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "You can use these calls to update the state of your app or update any custom animations."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "All gesture recognizers must update the value in the state property at appropriate times."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "Specifically, you must update it for all state transitions."}
+{"id": "/documentation/appkit/nsgesturerecognizer", "law": "For example, you can use the delegate to create dependencies between specific gesture recognizer objects."}
+{"id": "/documentation/appkit/nsgesturerecognizer/location(in:)", "law": "Use this method to determine the location at which the gesture occurred."}
+{"id": "/documentation/appkit/nsimage/touchbaraddtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraddtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarcomposetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarcomposetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbargobacktemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbargobacktemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbargoforwardtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbargoforwardtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsmagnificationgesturerecognizer", "law": "This object tracks pinch gestures on a track pad or other input device and stores the resulting magnification value for you to use in your code."}
+{"id": "/documentation/appkit/nspangesturerecognizer", "law": "Use the pan gesture recognizer object to retrieve the distance traveled during the pan and the location of the mouse as it pans."}
+{"id": "/documentation/appkit/nspangesturerecognizer", "law": "In this gesture recognizer, the method always reports the current mouse point, which changes as the user drags the mouse."}
+{"id": "/documentation/appkit/nspressgesturerecognizer", "law": "Use a press gesture recognizer to configure which button the user must hold and the length of time they must hold it."}
+{"id": "/documentation/appkit/nspressgesturerecognizer", "law": "A discrete gesture recognizer that tracks whether the user holds down a mouse button for a minimum amount of time before releasing it."}
+{"id": "/documentation/appkit/nstextfielddelegate", "law": "A protocol that a text field delegate can use to control its field editor action menu."}
+{"id": "/documentation/appkit/nstextviewdelegate", "law": "A set of optional methods that text view delegates can use to manage selection, set text attributes, work with the spell checker, and more."}
+{"id": "/documentation/appkit/nstouch", "law": "Use the identity property to follow a specific touch across its lifetime."}
+{"id": "/documentation/appkit/nstouch", "law": "Touches do not have a corresponding screen location."}
+{"id": "/documentation/appkit/nstouchbar/customizationalloweditemidentifiers", "law": "Always configure this property for a customizable bar."}
+{"id": "/documentation/appkit/nstouchbar/customizationidentifier-swift.property", "law": "For the identifier string, use reverse-DNS style, such as “ ”."}
+{"id": "/documentation/appkit/nstouchbar/customizationrequireditemidentifiers", "law": "An optional list of identifiers for items you want to always appear in the Touch Bar and which the user can’t remove during customization."}
+{"id": "/documentation/appkit/nstouchbar/defaultitemidentifiers", "law": "Always specify this property for an object, even if you elect to make the bar noncustomizable."}
+{"id": "/documentation/appkit/nstouchbar/defaultitemidentifiers", "law": "Includes a preconfigured bar, containing these items, in the associated customization UI (when you have assigned the bar a property value); the user can drag the default bar into the Touch Bar, should they want to return to the default configuration."}
+{"id": "/documentation/appkit/nstouchbar/defaultitemidentifiers", "law": "A required list of identifiers for items that you want to appear in the Touch Bar after instantiating it."}
+{"id": "/documentation/appkit/nstouchbar/escapekeyreplacementitemidentifier", "law": "You must also include the item instance in the Touch Bar’s array, or return the item when the Touch Bar calls the delegate method."}
+{"id": "/documentation/appkit/nstouchbar/isautomaticcustomizetouchbarmenuitemenabled", "law": "If you prefer to provide a customize menu item, set to , and create the menu item with an action of ."}
+{"id": "/documentation/appkit/nstouchbar/item(foridentifier:)", "law": "Your app never needs to instantiate spacing or proxy items because these are created by the system directly, according to their identifiers, as shown in the table below."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/otheritemsproxy", "law": "Use this identifier in the array of an object, and a special proxy item will be instantiated for you."}
+{"id": "/documentation/appkit/nsview/acceptstouchevents", "law": "By default, views do not accept touch events, so the default value of this property is ."}
+{"id": "/documentation/appkit/nscolor", "law": "Many methods in AppKit require you to specify color data using an object; when drawing you use them to set the current fill and stroke colors."}
+{"id": "/documentation/appkit/nscolor", "law": "Use the semantic colors for custom UI elements, so that they match the appearance of other AppKit views; see ."}
+{"id": "/documentation/appkit/nscolor", "law": "Use the adaptable system colors, such as , when you want a specific tint that looks correct in both light and dark environments."}
+{"id": "/documentation/appkit/nscolor", "law": "Colors can also be created in extended color spaces: When you need to worry about color spaces, use extended color spaces as working color spaces."}
+{"id": "/documentation/appkit/nscolor", "law": "If you have a color object in an unknown color space and you want to extract its components, convert the color object to a known color space and then use the component accessor methods of that color space."}
+{"id": "/documentation/appkit/nscolor/labelcolor", "law": "Use this color in the most important text labels of your user interface."}
+{"id": "/documentation/appkit/nscolor/labelcolor", "law": "You can also use it for other types of primary app content."}
+{"id": "/documentation/appkit/nscolor/labelcolor", "law": "The primary color to use for text labels."}
+{"id": "/documentation/appkit/nscolor/quaternarylabelcolor", "law": "Use this color for the least important text in your interface and for separators between text items."}
+{"id": "/documentation/appkit/nscolor/quaternarylabelcolor", "law": "For example, you would use this color for secondary text that is disabled."}
+{"id": "/documentation/appkit/nscolor/quaternarylabelcolor", "law": "You can also use it for other types of quaternary app content."}
+{"id": "/documentation/appkit/nscolor/quaternarylabelcolor", "law": "The quaternary color to use for text labels and separators."}
+{"id": "/documentation/appkit/nscolor/secondarylabelcolor", "law": "Use this color in text fields that contain less important text in your user interface."}
+{"id": "/documentation/appkit/nscolor/secondarylabelcolor", "law": "For example, you might use this in labels that display subheads or additional information."}
+{"id": "/documentation/appkit/nscolor/secondarylabelcolor", "law": "You can also use it for other types of secondary app content."}
+{"id": "/documentation/appkit/nscolor/secondarylabelcolor", "law": "The secondary color to use for text labels."}
+{"id": "/documentation/appkit/nscolor/tertiarylabelcolor", "law": "Use this color for disabled text and for other less important text in your interface."}
+{"id": "/documentation/appkit/nscolor/tertiarylabelcolor", "law": "You can also use it for other types of tertiary app content."}
+{"id": "/documentation/appkit/nscolor/tertiarylabelcolor", "law": "The tertiary color to use for text labels."}
+{"id": "/documentation/appkit/nsfont", "law": "You don’t create objects using the and methods."}
+{"id": "/documentation/appkit/nsfont", "law": "Instead, you use either or to look up an available font and alter its size or matrix to your needs."}
+{"id": "/documentation/appkit/nsfont/systemfont(ofsize:)", "law": "Use the returned font for standard interface items, including button labels, menu items, and so on that use the default font appearance."}
+{"id": "/documentation/appkit/nsimage/touchbaradddetailtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaradddetailtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaralarmtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaralarmtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaraudioinputmutetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraudioinputmutetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaraudioinputtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraudioinputtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputmutetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputmutetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumehightemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumehightemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumelowtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumelowtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumemediumtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumemediumtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumeofftemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaraudiooutputvolumeofftemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarbookmarkstemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarbookmarkstemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarcolorpickerfillname", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarcolorpickerfillname", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarcolorpickerfontname", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarcolorpickerfontname", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarcolorpickerstrokename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarcolorpickerstrokename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarcommunicationaudiotemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarcommunicationaudiotemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarcommunicationvideotemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarcommunicationvideotemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbardeletetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbardeletetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbardownloadtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbardownloadtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarenterfullscreentemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarenterfullscreentemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarexitfullscreentemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarexitfullscreentemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarfastforwardtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarfastforwardtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarfoldercopytotemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarfoldercopytotemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarfoldermovetotemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarfoldermovetotemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarfoldertemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarfoldertemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbargetinfotemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbargetinfotemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbargodowntemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbargodowntemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbargouptemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbargouptemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarhistorytemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarhistorytemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbariconviewtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbariconviewtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarlistviewtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarlistviewtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarmailtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarmailtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarnewfoldertemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarnewfoldertemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarnewmessagetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarnewmessagetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarnewmessagetemplatename", "law": "A template image for creating a new message, or for denoting the use of messaging."}
+{"id": "/documentation/appkit/nsimage/touchbaropeninbrowsertemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaropeninbrowsertemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarpausetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarpausetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarplayheadtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarplayheadtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarplaypausetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarplaypausetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarplaytemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarplaytemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarquicklooktemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarquicklooktemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarrecordstarttemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarrecordstarttemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarrecordstoptemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarrecordstoptemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarrefreshtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarrefreshtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarrewindtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarrewindtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarrotatelefttemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarrotatelefttemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarrotaterighttemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarrotaterighttemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarsearchtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarsearchtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarsharetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarsharetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarsidebartemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarsidebartemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskipahead15secondstemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskipahead15secondstemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskipahead30secondstemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskipahead30secondstemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskipaheadtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskipaheadtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskipback15secondstemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskipback15secondstemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskipback30secondstemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskipback30secondstemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskipbacktemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskipbacktemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskiptoendtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskiptoendtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarskiptostarttemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarskiptostarttemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarslideshowtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarslideshowtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartagicontemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartagicontemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextboldtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextboldtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextboxtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextboxtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextcenteraligntemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextcenteraligntemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextitalictemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextitalictemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextjustifiedaligntemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextjustifiedaligntemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextleftaligntemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextleftaligntemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextlisttemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextlisttemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextrightaligntemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextrightaligntemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextstrikethroughtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextstrikethroughtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbartextunderlinetemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbartextunderlinetemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbaruseraddtemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbaruseraddtemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarusergrouptemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarusergrouptemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarusertemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarusertemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarvolumedowntemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarvolumedowntemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nsimage/touchbarvolumeuptemplatename", "law": "Touch Bar template images are exclusively for use in objects and not in onscreen windows."}
+{"id": "/documentation/appkit/nsimage/touchbarvolumeuptemplatename", "law": "Use template images for your images because, in the Touch Bar, template images respond automatically to system white-point changes."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.property", "law": "For all items other than spaces, this value must be globally unique."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/fixedspacelarge", "law": "Use this identifier in the array on an object and the system will instantiate the item for you."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/fixedspacelarge", "law": "The identifier of an item appropriate for use as a large space in a Touch Bar."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/fixedspacesmall", "law": "Use this identifier in the array on an object and the system will instantiate the item for you."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/fixedspacesmall", "law": "The identifier of an item appropriate for use as a small space in a Touch Bar."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/flexiblespace", "law": "Use this identifier in the array on an object and the system will instantiate the item for you."}
+{"id": "/documentation/appkit/nstouchbaritem/identifier-swift.struct/flexiblespace", "law": "The identifier of an item appropriate for use as a flexible space in a Touch Bar."}
+{"id": "/documentation/appkit/nstouchbaritem/init(identifier:)", "law": "The identifier must be globally unique for every item, except for space items."}
+{"id": "/documentation/appkit/nstouchbaritem/isvisible", "law": "This property is always for spaces, proxy items, and groups."}
+{"id": "/documentation/appkit/nstouchbaritem/priority", "law": "Use these constants to set the property of an instance."}
+{"id": "/documentation/appkit/nstouchbaritem/visibilitypriority", "law": "Use this property to specify the relative priority of the items in your bar."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "This sample shows how to use to navigate hierarchical data."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "When you use with , your app presents data in a primary-detail format similar to that of the Xcode Project navigator or the Finder."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "For a primary-detail configuration, use , which arranges two or more views in a linear stack running horizontally."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "The class focuses on how to use ."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "In a primary-detail user interface, the list view on the left must remain the same size when the split view grows or shrinks, while the detail view on the right changes size."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "Use the Edit menu to directly affect the contents of the outline view."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "Use the protocol to enable or disable the Delete menu item according to the selection in the outline view."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "Use the window restoration system’s function to save the outline view’s node selection."}
+{"id": "/documentation/appkit/navigating-hierarchical-data-using-outline-and-split-views", "law": "The next time the app launches, use to restore that selection."}
+{"id": "/documentation/appkit/nscontroller", "law": "An abstract class that implements the and informal protocols required for controller classes."}
+{"id": "/documentation/appkit/nsdictionarycontroller", "law": "Similarly, you can specify an array of key names that are always included in the arranged objects, even if they are not present in the content dictionary, using the property."}
+{"id": "/documentation/appkit/nsdictionarycontroller", "law": "You must enable the “Validates Immediately” option for the value binding of all controls that edit the key names or values returned by ."}
+{"id": "/documentation/appkit/nsiscontrollermarker(_:)", "law": "These markers are typed as and only exist for the purpose of indicating a state; they are never archived and cannot be used as object values in controls."}
+{"id": "/documentation/appkit/nsiscontrollermarker(_:)", "law": "You use this function to test whether a given object value is a marker, in which case it is not directly assignable to the object that is bound."}
+{"id": "/documentation/appkit/nsobjectcontroller", "law": "The default content object class can be changed by calling , which subclasses must override."}
+{"id": "/documentation/appkit/nsobjectcontroller", "law": "Your application should use a custom data class that is key-value compliant whenever possible."}
+{"id": "/documentation/appkit/nsobjectcontroller", "law": "This can provide a significant improvement in memory use when a large amount of content is stored on disk but just a subset of that data is required in memory."}
+{"id": "/documentation/appkit/nsobjectcontroller", "law": "When set to use lazy fetching, a controller will fetch objects in batches."}
+{"id": "/documentation/appkit/nsobjectcontroller", "law": "If you have table views bound to an array controller set to use lazy fetching, the size of the controller’s batch size will grow as the table views’ visible row count grows."}
+{"id": "/documentation/appkit/nsobjectcontroller", "law": "Add, Insert, and Remove operations on controllers that use lazy fetching behave similarly to the same operations on a regular controller."}
+{"id": "/documentation/appkit/developing-a-document-based-app", "law": "This sample shows how to use the Cocoa document architecture to manage documents."}
+{"id": "/documentation/appkit/developing-a-document-based-app", "law": "Apps must use Xcode’s Document Types editor to define the types of documents they can open."}
+{"id": "/documentation/appkit/developing-a-document-based-app", "law": "The Cocoa document architecture uses the Objective-C runtime, and document-based apps often use Objective-C technologies such as key-value coding (KVC), key-value observing (KVO), Cocoa bindings, and Cocoa archiving ( )."}
+{"id": "/documentation/appkit/developing-a-document-based-app", "law": "Therefore, the model classes in your app should be Objective-C classes (subclasses of ), and the properties and methods in those classes should be Objective-C compatible (declared )."}
+{"id": "/documentation/appkit/developing-a-document-based-app", "law": "In addition, their properties should be declared in Swift, which tells the compiler to use dynamic dispatch to access that attribute."}
+{"id": "/documentation/appkit/developing-a-document-based-app", "law": "When you create your subclass, you determine which window controller the document will use by implementing the function."}
+{"id": "/documentation/appkit/nspasteboarditemdataprovider", "law": "The data provider must implement this protocol to provide data upon request."}
+{"id": "/documentation/appkit/nspasteboardtypeowner", "law": "An object that serves as a data provider for data types that use lazy data fulfillment from a pasteboard request."}
+{"id": "/documentation/appkit/nsdocument/addwindowcontroller(_:)", "law": "If you create window controllers in or in any other context, such as in apps that present multiple windows per document, you should invoke this method for each window controller created."}
+{"id": "/documentation/appkit/nsdocument/autosave(withdelegate:didautosave:contextinfo:)", "law": "The method selected by must have the same signature as: If an error occurs while autosaving, the method reports it to the user before sending the delegate a message."}
+{"id": "/documentation/appkit/nsdocument/autosave(withimplicitcancellability:completionhandler:)", "law": "If the value is , calls on the class to determine where the autosaved document contents should go."}
+{"id": "/documentation/appkit/nsdocument/autosave(withimplicitcancellability:completionhandler:)", "law": "The method also gets the value in to ensure that the file has an actual URL, because it is not possible to autosave in place if the document does not yet have a permanent location."}
+{"id": "/documentation/appkit/nsdocument/autosave(withimplicitcancellability:completionhandler:)", "law": "The value of the parameter is the location where the file should be saved."}
+{"id": "/documentation/appkit/nsdocument/autosave(withimplicitcancellability:completionhandler:)", "law": "If the file has a URL and the class specifies that autosave should occur in place, this is the URL of the file."}
+{"id": "/documentation/appkit/nsdocument/autosavedcontentsfileurl", "law": "Use this property to specify the location where you want the document to store autosave files."}
+{"id": "/documentation/appkit/nsdocument/autosavedcontentsfileurl", "law": "The URL you specify should specify an absolute path, not a relative path."}
+{"id": "/documentation/appkit/nsdocument/autosavesdrafts", "law": "The system expects that an subclass that returns from this property can properly handle save operations that use the save operation type."}
+{"id": "/documentation/appkit/nsdocument/autosavesdrafts", "law": "Don’t invoke this property to find out whether autosaving of a draft might occur."}
+{"id": "/documentation/appkit/nsdocument/autosavesinplace", "law": "You should not invoke this method to find out whether autosaving in place is actually being done at any particular moment."}
+{"id": "/documentation/appkit/nsdocument/autosavesinplace", "law": "You should instead use the parameter that the system passes to your overrides of save and write methods."}
+{"id": "/documentation/appkit/nsdocument/autosavesinplace", "law": "AppKit invokes this method at a variety of times, and not always on the main thread."}
+{"id": "/documentation/appkit/nsdocument/autosavesinplace", "law": "As another example, the method and the machinery for handling unsaved changes at app termination time both invoke this method as part of determining whether alerts about unsaved changes should be presented to the user."}
+{"id": "/documentation/appkit/nsdocument/autosavingfiletype", "law": "The document type to use for an autosave operation."}
+{"id": "/documentation/appkit/nsdocument/autosavingisimplicitlycancellable", "law": "When the value is , your document-writing code can invoke after recording the fact that changes to the document model made by the user should first cancel the rest of the writing."}
+{"id": "/documentation/appkit/nsdocument/autosavingisimplicitlycancellable", "law": "Your code that makes changes to the document model then must always do that cancellation first."}
+{"id": "/documentation/appkit/nsdocument/autosavingisimplicitlycancellable", "law": "If your writing code is implicitly cancelled in this way, it should set the object passed by reference to the writing method to in ."}
+{"id": "/documentation/appkit/nsdocument/backupfileurl", "law": "This is because an instance is able to use the option when it calls the method."}
+{"id": "/documentation/appkit/nsdocument/backupfileurl", "law": "When you implement the method with the or operation type, you must check this property’s value."}
+{"id": "/documentation/appkit/nsdocument/backupfileurl", "law": "If your custom implementation is unable to keep the backup file, you must override this property and return to ensure that the document’s file gets correctly preserved before it gets overwritten."}
+{"id": "/documentation/appkit/nsdocument/canclose(withdelegate:shouldclose:contextinfo:)", "law": "You should call it before you call if you are closing the document and want to give the user a chance to save any edits."}
+{"id": "/documentation/appkit/nsdocument/canclose(withdelegate:shouldclose:contextinfo:)", "law": "The callback method should have the following signature: Determines whether to close the document, prompting the user as needed to choose a course of action."}
+{"id": "/documentation/appkit/nsdocument/canconcurrentlyreaddocuments(oftype:)", "law": "A subclass override should return only for document types whose reading is thread-safe, as described in ."}
+{"id": "/documentation/appkit/nsdocument/canconcurrentlyreaddocuments(oftype:)", "law": "You should disable undo registration during document reading, which is a good idea even in the absence of concurrency."}
+{"id": "/documentation/appkit/nsdocument/canconcurrentlyreaddocuments(oftype:)", "law": "If you are checking the current Apple Event for a search string, you should not enable concurrent document opening, because code handling a document opening triggered by an Apple Event cannot get the current Apple Event."}
+{"id": "/documentation/appkit/nsdocument/changetype", "law": "These constants indicate how a document should operate on its change count and are passed to the method."}
+{"id": "/documentation/appkit/nsdocument/checkautosavingsafety()", "law": "If the user chooses a recovery option, then invokes this method again until no error is signaled, to make sure that all checks have been done."}
+{"id": "/documentation/appkit/nsdocument/checkautosavingsafety()", "law": "This means that when you signal an error and the user’s choice of recovery option indicates that they have seen and disregarded a safety concern, you must record that fact and not do that particular safety check again."}
+{"id": "/documentation/appkit/nsdocument/checkautosavingsafety()", "law": "So, some of the recovery options the user can choose, like the options Duplicate and Cancel, should indicate failed recovery and cause the document to remain unchanged afterward."}
+{"id": "/documentation/appkit/nsdocument/checkautosavingsafety()", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/close()", "law": "This method may not always be called."}
+{"id": "/documentation/appkit/nsdocument/continueactivity(_:)", "law": "When AppKit calls recursively, it may execute this method with the specified block to avoid a deadlock."}
+{"id": "/documentation/appkit/nsdocument/continueactivity(_:)", "law": "For example, , which uses , uses this around its invocation of or because both of those methods also use ."}
+{"id": "/documentation/appkit/nsdocument/continueactivity(_:)", "law": "Without the use of this method the inner invocation of would wait forever."}
+{"id": "/documentation/appkit/nsdocument/continueasynchronousworkonmainthread(_:)", "law": "Invocations of this method always return before the passed-in block is invoked."}
+{"id": "/documentation/appkit/nsdocument/continueasynchronousworkonmainthread(_:)", "law": "You can invoke this method when work is being done on a non-main thread and part of the work must be continued on the main thread."}
+{"id": "/documentation/appkit/nsdocument/continueasynchronousworkonmainthread(_:)", "law": "For example, uses this method when it has just completed the actual writing of the file during asynchronous saving and, to finish the saving operation, must invoke and other methods on the main thread."}
+{"id": "/documentation/appkit/nsdocument/data(oftype:)", "law": "The default implementation of this method throws an exception because at least one of the writing methods (this method, , , or ) must be overridden."}
+{"id": "/documentation/appkit/nsdocument/data(oftype:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/defaultdraftname()", "law": "Your app should typically return a name that describes the kind of document."}
+{"id": "/documentation/appkit/nsdocument/displayname", "law": "The displayable name also takes into account whether the document’s filename extension should be hidden."}
+{"id": "/documentation/appkit/nsdocument/duplicate()", "law": "You can override this method to customize what is done during document duplication, but if your override does not invoke you must take care to do things that that method does, especially invoking and ."}
+{"id": "/documentation/appkit/nsdocument/duplicate()", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:)", "law": "If you override this method, you must call at some point in your implementation."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:)", "law": "Subclasses can override this method and use it to restore any information that would be needed to restore the document’s window to its current state."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:)", "law": "For example, you could use this method to record references to the data currently managed by the document and displayed by the window."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:)", "law": "(Do not store the actual data itself."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:)", "law": "Store only references to the data so that you can load it later from disk.) You must store enough data to reconfigure the document and its window to their current state during a subsequent launch of the app."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:backgroundqueue:)", "law": "Therefore, if you override this method, always call at some point in your implementation."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:backgroundqueue:)", "law": "Subclasses can override this method and use it to restore any information that would be needed to restore the responder to its current state."}
+{"id": "/documentation/appkit/nsdocument/encoderestorablestate(with:backgroundqueue:)", "law": "You must store enough data to reconfigure the responder and return it to its current state during a subsequent launch of the application."}
+{"id": "/documentation/appkit/nsdocument/fileattributestowrite(to:oftype:for:originalcontentsurl:)", "law": "An override of this method should return a copy of the dictionary returned by its superclass’s version of this method, with appropriate alterations."}
+{"id": "/documentation/appkit/nsdocument/fileattributestowrite(to:oftype:for:originalcontentsurl:)", "law": "The save operation used in this case is never one of the autosaving ones: is used instead."}
+{"id": "/documentation/appkit/nsdocument/fileattributestowrite(to:oftype:for:originalcontentsurl:)", "law": "The and parameters are passed in for completeness; NSDocument’s default implementation doesn’t need to use them."}
+{"id": "/documentation/appkit/nsdocument/fileattributestowrite(to:oftype:for:originalcontentsurl:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/filetype", "law": "You cannot use this property to change the document’s format after it has already been opened or saved."}
+{"id": "/documentation/appkit/nsdocument/filewrapper(oftype:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/init()", "law": "You can override this method to perform initialization that must be done both when creating new empty documents and when opening existing documents."}
+{"id": "/documentation/appkit/nsdocument/init()", "law": "Your override must invoke to initialize private instance variables."}
+{"id": "/documentation/appkit/nsdocument/init(contentsof:oftype:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/init(for:withcontentsof:oftype:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/init(type:)", "law": "You can override this method to perform initialization that must be done when creating new documents but should not be done when opening existing documents."}
+{"id": "/documentation/appkit/nsdocument/init(type:)", "law": "Your override should typically invoke , or at least it must invoke , the designated initializer, to initialize the private instance variables."}
+{"id": "/documentation/appkit/nsdocument/init(type:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/invalidaterestorablestate()", "law": "Do not override this method."}
+{"id": "/documentation/appkit/nsdocument/isdraft", "law": "Only documents with non- values for the property should be considered drafts."}
+{"id": "/documentation/appkit/nsdocument/isentirefileloaded", "law": "may use this value to do things like prevent volume ejection or warn the user when a partially loaded file disappears from the file system."}
+{"id": "/documentation/appkit/nsdocument/isinviewingmode", "law": "You can use this information to prevent certain kinds of user actions or changes when the user is viewing an old document revision."}
+{"id": "/documentation/appkit/nsdocument/islocked", "law": "Do not override this property."}
+{"id": "/documentation/appkit/nsdocument/makewindowcontrollers()", "law": "If you override this method to create your own window controllers, be sure to use to add them to the document after creating them."}
+{"id": "/documentation/appkit/nsdocument/pdfprintoperation", "law": "Your app should maintain a separate instance specifically for creating PDFs and assign it to the property of the operation object."}
+{"id": "/documentation/appkit/nsdocument/pdfprintoperation", "law": "A print operation you can use to create a PDF representation of the document’s current contents."}
+{"id": "/documentation/appkit/nsdocument/performactivity(withsynchronouswaiting:using:)", "law": "The block is passed another block, the activity completion handler, which must be invoked when the activity is complete."}
+{"id": "/documentation/appkit/nsdocument/performactivity(withsynchronouswaiting:using:)", "law": "This method’s primary use is to wait for asynchronous saving."}
+{"id": "/documentation/appkit/nsdocument/performactivity(withsynchronouswaiting:using:)", "law": "If your subclass supports asynchronous saving you should invoke this method around the performance of any work that might cause the presentation of a modal dialog, regardless of whether that work is performed synchronously or asynchronously."}
+{"id": "/documentation/appkit/nsdocument/performactivity(withsynchronouswaiting:using:)", "law": "This method must be invoked on the main thread."}
+{"id": "/documentation/appkit/nsdocument/performactivity(withsynchronouswaiting:using:)", "law": "You should not invoke this method during the invocation of the block passed to or in between the time invokes the block passed to it and the time at which the corresponding file access completion handler is invoked."}
+{"id": "/documentation/appkit/nsdocument/performasynchronousfileaccess(_:)", "law": "This method does the same sort of work as , but without ever blocking the main thread, and may not invoke the block until after the method invocation has returned, though still always on the same thread as the method invocation."}
+{"id": "/documentation/appkit/nsdocument/performasynchronousfileaccess(_:)", "law": "The block is passed another block, the file access completion handler, which must be invoked when the file access is complete, though it can be invoked from any thread."}
+{"id": "/documentation/appkit/nsdocument/performasynchronousfileaccess(_:)", "law": "This method is for use with file access that might begin on one thread but continue on another before it is complete."}
+{"id": "/documentation/appkit/nsdocument/performsynchronousfileaccess(_:)", "law": "Like , this method’s primary use is to wait for asynchronous saving, but in contrast with that method it is only for the part of an asynchronous saving operation that actually touches the document’s file or values in memory that are relative to the document’s file."}
+{"id": "/documentation/appkit/nsdocument/performsynchronousfileaccess(_:)", "law": "In general, you should use this method or around code that gets or sets values in memory that only make sense in the context of the document file’s current state."}
+{"id": "/documentation/appkit/nsdocument/prepare(_:)", "law": "Override this method, as needed, and use it to configure the sharing service picker before AppKit displays it."}
+{"id": "/documentation/appkit/nsdocument/preparepagelayout(_:)", "law": "You might use this method to add a document-related accessory view."}
+{"id": "/documentation/appkit/nsdocument/presenterror(_:)", "law": "You should not override this method but should instead override ."}
+{"id": "/documentation/appkit/nsdocument/presenterror(_:modalfor:delegate:didpresent:contextinfo:)", "law": "You should not override this method but should instead override ."}
+{"id": "/documentation/appkit/nsdocument/presenterror(_:modalfor:delegate:didpresent:contextinfo:)", "law": "The method selected by must have the same signature as: Presents an error alert to the user as a modal panel."}
+{"id": "/documentation/appkit/nsdocument/preservesversions", "law": "You can override it and return to declare that should not preserve old document versions."}
+{"id": "/documentation/appkit/nsdocument/print(withsettings:showprintpanel:delegate:didprint:contextinfo:)", "law": "The method selected by must have the same signature as: The default implementation of this method invokes ."}
+{"id": "/documentation/appkit/nsdocument/printoperation(withsettings:)", "law": "You must override this method to enable printing in your app."}
+{"id": "/documentation/appkit/nsdocument/printoperation(withsettings:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/read(from:oftype:)-1vttv", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/read(from:oftype:)-3rzsi", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/read(from:oftype:)-6g6ai", "law": "The default implementation of this method throws an exception because at least one of the three reading methods (this method, , ), or every method that may invoke , must be overridden."}
+{"id": "/documentation/appkit/nsdocument/read(from:oftype:)-6g6ai", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/restorablestatekeypaths", "law": "You can use this method instead of, or in addition to, the and methods to save and restore the state of your document."}
+{"id": "/documentation/appkit/nsdocument/restorablestatekeypaths", "law": "The key paths must refer to attributes that are and compliant."}
+{"id": "/documentation/appkit/nsdocument/restorestate(with:)", "law": "If you override this method, you must call at some point in your implementation."}
+{"id": "/documentation/appkit/nsdocument/restorestate(with:)", "law": "Subclasses can override this method and use it to restore the document-related information that was saved in the method."}
+{"id": "/documentation/appkit/nsdocument/restorestate(with:)", "law": "You can also use this method to reconfigure the document (or its associated window controller and window) to their previous appearance."}
+{"id": "/documentation/appkit/nsdocument/restorewindow(withidentifier:state:completionhandler:)", "law": "This allows you to use the default document reopening behavior, but intervene at the point of creating the windows."}
+{"id": "/documentation/appkit/nsdocument/revert(tocontentsof:oftype:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/runmodalpagelayout(with:delegate:didrun:contextinfo:)", "law": "The callback method should have the following signature: Runs the modal page layout panel with the receiver’s printing information object."}
+{"id": "/documentation/appkit/nsdocument/runmodalprintoperation(_:delegate:didrun:contextinfo:)", "law": "The callback method should have the following signature: Runs the specified print operation modally."}
+{"id": "/documentation/appkit/nsdocument/runmodalsavepanel(for:delegate:didsave:contextinfo:)", "law": "The method selected by must have the same signature as: Invoked from , and from the and action methods."}
+{"id": "/documentation/appkit/nsdocument/save(to:oftype:for:completionhandler:)", "law": "You can override this method to do things that need to be done before or after any save operation but be sure to invoke ."}
+{"id": "/documentation/appkit/nsdocument/save(to:oftype:for:delegate:didsave:contextinfo:)", "law": "The method selected by must have the same signature as: The default implementation of this method invokes and, if is returned, presents the error to the user in a document-modal panel before messaging the delegate."}
+{"id": "/documentation/appkit/nsdocument/save(withdelegate:didsave:contextinfo:)", "law": "The callback method should have the following signature: Saves the document and delivers the results to the provided delegate object."}
+{"id": "/documentation/appkit/nsdocument/savetopdf(_:)", "law": "Your app should maintain a separate instance specifically for creating PDFs and pass it to the print operation’s method."}
+{"id": "/documentation/appkit/nsdocument/savetourl:oftype:forsaveoperation:error:", "law": "If you override this method, you must call at some point in your implementation."}
+{"id": "/documentation/appkit/nsdocument/setwindow(_:)", "law": "You should not invoke this method directly, and typically you would not override it either."}
+{"id": "/documentation/appkit/nsdocument/share(with:completionhandler:)", "law": "If the document has never been saved, this method prompts the user to save it before proceeding; otherwise, the method initiates an autosave operation to save any outstanding changes."}
+{"id": "/documentation/appkit/nsdocument/share(with:completionhandler:)", "law": "If you override this method, you must ensure that the document is in the proper state before attempting to share it."}
+{"id": "/documentation/appkit/nsdocument/share(with:completionhandler:)", "law": "When your sharing service finishes, you must execute the provided block with the results."}
+{"id": "/documentation/appkit/nsdocument/shouldclosewindowcontroller(_:delegate:shouldclose:contextinfo:)", "law": "The callback method should have the following signature: Determines whether the system should close the document and its associated window."}
+{"id": "/documentation/appkit/nsdocument/updatechangecount(_:)", "law": "If you are implementing undo and redo in an app, you should increment the change count every time you create an undo group and decrement the change count when an undo or redo operation is performed."}
+{"id": "/documentation/appkit/nsdocument/useractivity", "law": "You can use this property from any thread."}
+{"id": "/documentation/appkit/nsdocument/usesubiquitousstorage", "law": "(The primary iCloud container is the one identified by the first container identifier string in the iCloud Containers list in the Xcode target editor.) To indicate that your subclass does not use iCloud storage, override this method to return ."}
+{"id": "/documentation/appkit/nsdocument/willnotpresenterror(_:)", "law": "To make sure that cleanup is always done, you should invoke this method with errors that are not going to be passed to one of the methods."}
+{"id": "/documentation/appkit/nsdocument/willpresenterror(_:)", "law": "The error that should actually be presented."}
+{"id": "/documentation/appkit/nsdocument/willpresenterror(_:)", "law": "When you override this method always check the object’s domain and code to discriminate between errors whose presentation you want to customize and those you don’t."}
+{"id": "/documentation/appkit/nsdocument/willpresenterror(_:)", "law": "For errors you don’t want to customize, call the superclass implementation, passing the original error."}
+{"id": "/documentation/appkit/nsdocument/windowforsheet", "law": "This method searches the document’s window controllers for the most suitable window to use when displaying the sheet."}
+{"id": "/documentation/appkit/nsdocument/windowforsheet", "law": "The value of this property may be , in which case the sender should present an app-modal panel."}
+{"id": "/documentation/appkit/nsdocument/windowforsheet", "law": "Returns the document window to use as the parent of a document-modal sheet."}
+{"id": "/documentation/appkit/nsdocument/windownibname", "law": "If your document has multiple nib files, each with its own single window, or if the default instance is not adequate for your purposes, you should override ."}
+{"id": "/documentation/appkit/nsdocument/windownibname", "law": "Subclasses must override it to specify a nib file name."}
+{"id": "/documentation/appkit/nsdocument/writabletypes(for:)", "law": "For every kind of save operation except , the returned array must only include types for which the app can play the Editor role."}
+{"id": "/documentation/appkit/nsdocument/write(to:oftype:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/write(to:oftype:for:originalcontentsurl:)", "law": "If is , either the document has never been saved or the user deleted the document file since it was opened."}
+{"id": "/documentation/appkit/nsdocument/write(to:oftype:for:originalcontentsurl:)", "law": "For backward binary compatibility with OS X v10.3 and earlier, if is overridden and both URLs use the scheme, the default implementation of this method instead invokes: The save operation used in this case is never ; is used instead."}
+{"id": "/documentation/appkit/nsdocument/write(to:oftype:for:originalcontentsurl:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsdocument/writesafely(to:oftype:for:)", "law": "If you override this method, be sure to invoke the superclass implementation."}
+{"id": "/documentation/appkit/nsdocument/writesafely(to:oftype:for:)", "law": "For , the default implementation of this method uses the value in the property to determine whether or not the old on-disk revision of the document, if there was one, should be preserved after being renamed."}
+{"id": "/documentation/appkit/nsdocument/writesafely(to:oftype:for:)", "law": "The save operation in this case is never ; is used instead."}
+{"id": "/documentation/appkit/nsdocument/writesafely(to:oftype:for:)", "law": "When overriding this method, use the statement to throw an , as described in in and ."}
+{"id": "/documentation/appkit/nsuseractivitydocumenturlkey", "law": "You use this key in the dictionary of an object."}
+{"id": "/documentation/appkit/nsdocumentcontroller/autosavingdelay", "law": "A value of 0 indicates that periodic autosaving should not be done at all."}
+{"id": "/documentation/appkit/nsdocumentcontroller/beginopenpanel(_:fortypes:completionhandler:)", "law": "You typically don’t call this method directly."}
+{"id": "/documentation/appkit/nsdocumentcontroller/beginopenpanel(completionhandler:)", "law": "If you override , you should typically call this method instead of calling or directly, because this method runs the modal panel in a way that is backwards compatible with subclasses that override without overriding ."}
+{"id": "/documentation/appkit/nsdocumentcontroller/beginopenpanel(completionhandler:)", "law": "If you override this method, your method should typically call the underlying method on because of the additional code that it provides for free."}
+{"id": "/documentation/appkit/nsdocumentcontroller/closealldocuments(withdelegate:didcloseallselector:contextinfo:)", "law": "The callback method should have the following signature: Iterates through all the open documents and tries to close them one by one using the specified delegate."}
+{"id": "/documentation/appkit/nsdocumentcontroller/currentdirectory", "law": "The first valid directory from the following list is returned: The directory location where the current document was last saved The last directory visited in the Open panel The user’s home directory The directory path to use as the starting point in the Open dialog."}
+{"id": "/documentation/appkit/nsdocumentcontroller/defaulttype", "law": "Returns the name of the document type that should be used when creating new documents."}
+{"id": "/documentation/appkit/nsdocumentcontroller/documentclassnames", "law": "You can override this property and use it to return the names of document classes that are dynamically loaded from plugins."}
+{"id": "/documentation/appkit/nsdocumentcontroller/makedocumentwithcontentsoffile:oftype:", "law": "Creates and returns an object for document type from the contents of the file , which must be a fully qualified path."}
+{"id": "/documentation/appkit/nsdocumentcontroller/maximumrecentdocumentcount", "law": "The maximum number of items that may be presented in the standard Open Recent menu."}
+{"id": "/documentation/appkit/nsdocumentcontroller/notenewrecentdocumenturl(_:)", "law": "Applications not based on must also implement the method in the application delegate to handle requests from the Open Recent menu command."}
+{"id": "/documentation/appkit/nsdocumentcontroller/opendocument(withcontentsof:display:completionhandler:)", "law": "Its implementation, however, is somewhat complex, so you should generally investigate overriding one of the methods that it calls instead."}
+{"id": "/documentation/appkit/nsdocumentcontroller/opendocument(withcontentsof:display:completionhandler:)", "law": "If you do override this method you should investigate whether you should also override to apply the same customization."}
+{"id": "/documentation/appkit/nsdocumentcontroller/opendocument(withcontentsof:display:completionhandler:)", "law": "In either case, take care to always call the completion handler on the main thread."}
+{"id": "/documentation/appkit/nsdocumentcontroller/opendocumentwithcontentsoffile:display:", "law": "If you override this method, your implementation should be prepared to handle either or ."}
+{"id": "/documentation/appkit/nsdocumentcontroller/openuntitleddocumentoftype:display:", "law": "Returns an object instantiated from the subclass required by document type and displays it if is ."}
+{"id": "/documentation/appkit/nsdocumentcontroller/presenterror(_:)", "law": "You should not override this method but should instead override ."}
+{"id": "/documentation/appkit/nsdocumentcontroller/presenterror(_:modalfor:delegate:didpresent:contextinfo:)", "law": "The method selected by must have the same signature as: The default implementation of this method is equivalent to that of while treating the application object as the next responder and forwarding error presentation messages to it."}
+{"id": "/documentation/appkit/nsdocumentcontroller/presenterror(_:modalfor:delegate:didpresent:contextinfo:)", "law": "You should not override this method but should instead override ."}
+{"id": "/documentation/appkit/nsdocumentcontroller/recentdocumenturls", "law": "Do not override this property."}
+{"id": "/documentation/appkit/nsdocumentcontroller/reopendocument(for:withcontentsof:display:completionhandler:)", "law": "Its implementation, however, is somewhat complex, so you should generally investigate overriding one of the methods that it calls instead."}
+{"id": "/documentation/appkit/nsdocumentcontroller/reopendocument(for:withcontentsof:display:completionhandler:)", "law": "Applications probably do not need to call this method directly."}
+{"id": "/documentation/appkit/nsdocumentcontroller/reviewunsaveddocuments(withalerttitle:cancellable:delegate:didreviewallselector:contextinfo:)", "law": "The callback method should have the following signature: Displays an alert asking if the user wants to review unsaved documents, quit regardless of unsaved documents, or cancel the save operation."}
+{"id": "/documentation/appkit/nsdocumentcontroller/setshouldcreateui:", "law": "Sets whether the window controllers ( instances) of a document should be created when the document is created."}
+{"id": "/documentation/appkit/nsdocumentcontroller/setshouldcreateui:", "law": "Sets whether the window controllers of a document should be created when the document is created."}
+{"id": "/documentation/appkit/nsdocumentcontroller/shared", "law": "Initialization reads in the document types from the property list (in ), registers the instance for s, and turns on the flag indicating that document user interfaces should be visible."}
+{"id": "/documentation/appkit/nsdocumentcontroller/shared", "law": "You should always obtain your application’s using this method."}
+{"id": "/documentation/appkit/nsdocumentcontroller/shouldcreateui", "law": "A Boolean value that indicates whether the window controllers ( instances) of a document should be created when the document is created."}
+{"id": "/documentation/appkit/nsdocumentcontroller/shouldcreateui", "law": "Returns a Boolean value that indicates whether the window controllers of a document should be created when the document is created."}
+{"id": "/documentation/appkit/nsdocumentcontroller/standardsharemenuitem()", "law": "Use this method to perform custom placement of the Share menu if your subclass returns for ."}
+{"id": "/documentation/appkit/nsdocumentcontroller/typeforcontents(of:)", "law": "Returns, for a specified URL, the document type identifier to use when opening the document at that location, if successful."}
+{"id": "/documentation/appkit/nsdocumentcontroller/validateuserinterfaceitem(_:)", "law": "if should be enabled, otherwise ."}
+{"id": "/documentation/appkit/nsdocumentcontroller/validateuserinterfaceitem(_:)", "law": "Subclasses should call the underlying method on in their implementation for items they don’t handle themselves."}
+{"id": "/documentation/appkit/nsdocumentcontroller/validateuserinterfaceitem(_:)", "law": "Returns a Boolean value that indicates whether a given user interface item should be enabled."}
+{"id": "/documentation/appkit/nsdocumentcontroller/willpresenterror(_:)", "law": "When you override this method always check the object’s domain and code to discriminate between errors whose presentation you want to customize and those you don’t."}
+{"id": "/documentation/appkit/nsdocumentcontroller/willpresenterror(_:)", "law": "For errors you don’t want to customize, call the superclass implementation, passing the original error."}
+{"id": "/documentation/appkit/nspersistentdocument/managedobjectcontext", "law": "If you want to customize the creation of the persistence stack, reimplement this property in your custom subclass and use your implementation to create the appropriate objects."}
+{"id": "/documentation/appkit/nspersistentdocument/managedobjectmodel", "law": "You can reimplement this property and return a specific model to use to create persistent stores."}
+{"id": "/documentation/appkit/nsbestdepth", "law": "Use this function to compute window depths."}
+{"id": "/documentation/appkit/nswindow/addchildwindow(_:ordered:)", "law": "Note that you should not create cycles between parent and child windows."}
+{"id": "/documentation/appkit/nswindow/addchildwindow(_:ordered:)", "law": "For example, you should not add window B as child of window A, then add window A as a child of window B."}
+{"id": "/documentation/appkit/nswindow/animationbehavior-swift.enum", "law": "Constants that control the automatic window animation behavior windows use when ordering to the front or out of view."}
+{"id": "/documentation/appkit/nswindow/animationbehavior-swift.property", "law": "By default, a window’s animation behavior is set to , which causes AppKit to determine the style of animation to use automatically based on its inference of a window’s “type” from various window properties."}
+{"id": "/documentation/appkit/nswindow/animationbehavior-swift.property", "law": "The animation behavior can also be set to one of the other non-default values to override AppKit’s automatic inference of appropriate animation behavior based on the window’s apparent type, although this is not recommended."}
+{"id": "/documentation/appkit/nswindow/appearancesource", "law": "Typically, you use this property for child windows shown from a parent window or specific view."}
+{"id": "/documentation/appkit/nswindow/autorecalculateskeyviewloop", "law": "If is , the client code must update the key view loop manually or call to have the window recalculate it."}
+{"id": "/documentation/appkit/nswindow/backingscalefactor", "law": "For almost all common cases, developers should avoid using the value of as an input to layout or drawing calculations."}
+{"id": "/documentation/appkit/nswindow/backingscalefactor", "law": "Developers should instead use the backing coordinate space conversion methods, because the resulting code will more likely work consistently and correctly under both standard and high-resolution operation."}
+{"id": "/documentation/appkit/nswindow/becomekey()", "law": "Never invoke this method directly."}
+{"id": "/documentation/appkit/nswindow/becomemain()", "law": "Never invoke this method directly."}
+{"id": "/documentation/appkit/nswindow/beginsheet(content:completionhandler:)", "law": "The presented view supports the same features as when used in the or view modifier, such as: Automatic dismissal with the Escape key and disabling interactive dismissal with Use of to dismiss the sheet Sheet sizing using Standard sheet toolbars using ."}
+{"id": "/documentation/appkit/nswindow/canrepresent(_:)", "law": "A Boolean value that indicates if the window and its screen use a color space that can represent the specified display gamut."}
+{"id": "/documentation/appkit/nswindow/cascadingreferenceframe", "law": "The frame to use when cascading or sizing a new window based on the receiver’s position or size."}
+{"id": "/documentation/appkit/nswindow/center()", "law": "This method doesn’t put the window onscreen, however; use to do that."}
+{"id": "/documentation/appkit/nswindow/center()", "law": "You typically use this method to place a window—most likely an alert dialog—where the user can’t miss it."}
+{"id": "/documentation/appkit/nswindow/close()", "law": "You can use the property to change the default behavior."}
+{"id": "/documentation/appkit/nswindow/close()", "law": "Use if you need these features."}
+{"id": "/documentation/appkit/nswindow/collectionbehavior-swift.struct", "law": "Use them to specify a preference on how windows behave in window management technologies like Mission Control, Spaces, and Stage Manager."}
+{"id": "/documentation/appkit/nswindow/contentmaxsize", "law": "The maximum size constraint is enforced for resizing by the user as well as for the method and the methods other than and ."}
+{"id": "/documentation/appkit/nswindow/contentmaxsize", "law": "The maximum size of the window’s content view in the window’s base coordinate system."}
+{"id": "/documentation/appkit/nswindow/contentminsize", "law": "The minimum size constraint is enforced for resizing by the user as well as for the method and the methods other than and ."}
+{"id": "/documentation/appkit/nswindow/contentminsize", "law": "The minimum size of the window’s content view in the window’s base coordinate system."}
+{"id": "/documentation/appkit/nswindow/contentrect(forframerect:stylemask:)", "law": "When a instance is available, you should use instead of this method."}
+{"id": "/documentation/appkit/nswindow/contentview", "law": "If you plan to reuse it, be sure to retain it before changing the property value and to release it as appropriate when adding it to another or object."}
+{"id": "/documentation/appkit/nswindow/contentviewcontroller", "law": "Setting causes the window to resize based on the current size of the ; to restrict the size of the window, use Auto Layout (note that the value of this property is encoded in the NIB)."}
+{"id": "/documentation/appkit/nswindow/depth", "law": "Don’t make window depths persistent because they aren’t the same across systems."}
+{"id": "/documentation/appkit/nswindow/depth", "law": "Use the functions , , and to extract info from an value."}
+{"id": "/documentation/appkit/nswindow/depth", "law": "Use to compute window depths."}
+{"id": "/documentation/appkit/nswindow/depth", "law": "Use for to indicate the default, the same as the number of bits per plane: either or * ."}
+{"id": "/documentation/appkit/nswindow/depth", "law": "You may use other values as hints to provide backing stores of different configurations — for instance, 8-bit color."}
+{"id": "/documentation/appkit/nswindow/depth", "law": "You can also use one of the explicit bit depths defined in for the property ."}
+{"id": "/documentation/appkit/nswindow/depthlimit", "law": "You can also use one of the explicit bit depths defined in ( is the default)."}
+{"id": "/documentation/appkit/nswindow/didbecomekeynotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didbecomemainnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didchangebackingpropertiesnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didchangeocclusionstatenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didchangescreennotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didchangescreenprofilenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/diddeminiaturizenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didendliveresizenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didendsheetnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didenterfullscreennotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didenterversionbrowsernotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didexitfullscreennotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didexitversionbrowsernotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didexposenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didminiaturizenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didmovenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didresignkeynotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didresignmainnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didresizenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/didupdatenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/disablecursorrects()", "law": "Use this method when you need to do some special cursor manipulation and you don’t want the Application Kit interfering."}
+{"id": "/documentation/appkit/nswindow/disablescreenupdatesuntilflush()", "law": "To ensure that screen updates are reenabled in a timely manner, it’s crucial that the window is marked as needing display and that the display will occur soon (that is, within the next second)."}
+{"id": "/documentation/appkit/nswindow/disablescreenupdatesuntilflush()", "law": "When you invoke , you can make sure that a marked window gets displayed by returning control to the run loop on the main thread or by sending the window or ."}
+{"id": "/documentation/appkit/nswindow/disablescreenupdatesuntilflush()", "law": "If it’s unclear whether the window is marked as needing display, you can also ensure that a display occurs by using for a view that’s visible in the window."}
+{"id": "/documentation/appkit/nswindow/displayswhenscreenprofilechanges", "law": "The value of this property is when the window context should be updated when the ColorSync profile of the current screen changes or when a majority of the window is moved to a different screen whose profile is different than the previous screen; otherwise, ."}
+{"id": "/documentation/appkit/nswindow/displayswhenscreenprofilechanges", "law": "If you need to update offscreen caches for the window, you should register to receive the notification."}
+{"id": "/documentation/appkit/nswindow/displayswhenscreenprofilechanges", "law": "A Boolean value that indicates whether the window context should be updated when the screen profile changes or when the window moves to a different screen."}
+{"id": "/documentation/appkit/nswindow/drag(_:at:offset:event:pasteboard:source:slideback:)", "law": "This method should be invoked only from within a view’s implementation of the or methods (which overrides the version defined in class)."}
+{"id": "/documentation/appkit/nswindow/endediting(for:)", "law": "The method should be used only as a last resort if the field editor refuses to resign first responder status."}
+{"id": "/documentation/appkit/nswindow/endediting(for:)", "law": "Even in this case, you should always allow the field editor a chance to validate its text and take whatever other action it needs first."}
+{"id": "/documentation/appkit/nswindow/fieldeditor(_:for:)", "law": "Therefore, it shouldn’t be used to display text that demands sophisticated layout (for this you should create a dedicated object)."}
+{"id": "/documentation/appkit/nswindow/fieldeditor(_:for:)", "law": "The field editor may be in use by some view object, so be sure to properly dissociate it from that object before actually using it yourself (the appropriate way to do this is illustrated in the description of )."}
+{"id": "/documentation/appkit/nswindow/fieldeditor(_:for:)", "law": "Other objects continue to use the window’s default field editor."}
+{"id": "/documentation/appkit/nswindow/firstresponder", "law": "You can use the property in custom subclasses of responder classes ( , , , and subclasses) to determine if an instance of the subclass is currently the first responder."}
+{"id": "/documentation/appkit/nswindow/firstresponder", "law": "You can also use it to help locate a text field that currently has first-responder status."}
+{"id": "/documentation/appkit/nswindow/framerect(forcontentrect:stylemask:)", "law": "When a instance is available, you should use instead of this method."}
+{"id": "/documentation/appkit/nswindow/init(contentrect:stylemask:backing:defer:)", "law": "Swift and Automatic Reference Counting (ARC) clients need to set the property to to avoid releasing the window too many times."}
+{"id": "/documentation/appkit/nswindow/init(contentrect:stylemask:backing:defer:screen:)", "law": "Swift and Automatic Reference Counting (ARC) clients need to set the property to to avoid releasing the window too many times."}
+{"id": "/documentation/appkit/nswindow/init(contentviewcontroller:)", "law": "The newly created window has set to , and it must be explicitly retained to keep the window instance alive."}
+{"id": "/documentation/appkit/nswindow/isdocumentedited", "law": "You should set to every time the window’s document changes in such a way that it needs to be saved."}
+{"id": "/documentation/appkit/nswindow/isdocumentedited", "law": "Conversely, when the document is saved, you should set the property to when the window’s document has been edited; otherwise, ."}
+{"id": "/documentation/appkit/nswindow/ismovable", "law": "When the value of is , the window can only be dragged between spaces in F8 mode, and its relative screen position is always preserved."}
+{"id": "/documentation/appkit/nswindow/isreleasedwhenclosed", "law": "Swift and Automatic Reference Counting (ARC) clients need to set this property to to avoid releasing the window too many times."}
+{"id": "/documentation/appkit/nswindow/isrestorable", "law": "Set this property to if you want the window to be preserved or if you do not want it preserved."}
+{"id": "/documentation/appkit/nswindow/isrestorable", "law": "Windows should be preserved between launch cycles to maintain interface continuity for the user."}
+{"id": "/documentation/appkit/nswindow/isrestorable", "law": "If you enable preservation for a given window, you should also specify a restoration class for the window using the property."}
+{"id": "/documentation/appkit/nswindow/layoutifneeded()", "law": "Before displaying a window that uses constraints-based layout the system invokes this method to ensure that the layout of all views is up to date."}
+{"id": "/documentation/appkit/nswindow/layoutifneeded()", "law": "This method updates the layout if needed, first invoking to ensure that all constraints are up to date."}
+{"id": "/documentation/appkit/nswindow/layoutifneeded()", "law": "Subclasses should not override this method."}
+{"id": "/documentation/appkit/nswindow/makefirstresponder(_:)", "law": "The Application Kit framework uses this method to alter the first responder in response to mouse-down events; you can also use it to explicitly set the first responder from within your program."}
+{"id": "/documentation/appkit/nswindow/makefirstresponder(_:)", "law": "If this method is called explicitly, first send to , and do not call if returns ."}
+{"id": "/documentation/appkit/nswindow/makefirstresponder(_:)", "law": "Use to the set the first responder to be used when the window is brought onscreen for the first time."}
+{"id": "/documentation/appkit/nswindow/maxfullscreencontentsize", "law": "By default, the system uses Auto Layout to determine the maximum size, so applications that don’t change window content upon entering full screen should not need to set the value of ."}
+{"id": "/documentation/appkit/nswindow/maxfullscreencontentsize", "law": "You can use this property even if the window does not support full screen, but can be implicitly opted into supporting a full screen tile based on resizing behavior and window properties (for more information, see the property)."}
+{"id": "/documentation/appkit/nswindow/maxfullscreencontentsize", "law": "A maximum size that is used to determine if a window can fit when it is in full screen in a tile."}
+{"id": "/documentation/appkit/nswindow/maxsize", "law": "The maximum size constraint is enforced for resizing by the user as well as for the methods other than and ."}
+{"id": "/documentation/appkit/nswindow/maxsize", "law": "The default maximum size of a window is ( is defined in )."}
+{"id": "/documentation/appkit/nswindow/maxsize", "law": "When the maximum size of a window has been set, there is no way to reset it other than by specifying this default maximum size."}
+{"id": "/documentation/appkit/nswindow/maxsize", "law": "The maximum size to which the window’s frame (including its title bar) can be sized."}
+{"id": "/documentation/appkit/nswindow/minframewidth(withtitle:stylemask:)", "law": "The minimum width of the window’s frame, using , in order to display ."}
+{"id": "/documentation/appkit/nswindow/minframewidth(withtitle:stylemask:)", "law": "Returns the minimum width a window’s frame rectangle must have for it to display a title, with a given window style."}
+{"id": "/documentation/appkit/nswindow/minfullscreencontentsize", "law": "By default, the system uses Auto Layout to determine the minimum size, so applications that don’t change window content upon entering full screen should not need to set the value of ."}
+{"id": "/documentation/appkit/nswindow/minfullscreencontentsize", "law": "You can use this property even if the window does not support full screen, but can be implicitly opted into supporting a full screen tile based on resizing behavior and window properties (for more information, see the property)."}
+{"id": "/documentation/appkit/nswindow/minfullscreencontentsize", "law": "A minimum size that is used to determine if a window can fit when it is in full screen in a tile."}
+{"id": "/documentation/appkit/nswindow/miniwindowimage", "law": "If you do not specify a custom image using this property, the Dock creates one for you automatically."}
+{"id": "/documentation/appkit/nswindow/miniwindowimage", "law": "However, you should not use this property to create complex animations in the Dock."}
+{"id": "/documentation/appkit/nswindow/miniwindowimage", "law": "You must set this key prior to calling the method of , which reads the current value of the key."}
+{"id": "/documentation/appkit/nswindow/minsize", "law": "The minimum size constraint is enforced for resizing by the user as well as for the methods other than and ."}
+{"id": "/documentation/appkit/nswindow/minsize", "law": "The minimum size to which the window’s frame (including its title bar) can be sized."}
+{"id": "/documentation/appkit/nswindow/mouselocationoutsideofeventstream", "law": "For the same information in screen coordinates, use ’s ."}
+{"id": "/documentation/appkit/nswindow/numberlistoptions", "law": "Options to use when retrieving window numbers from the system."}
+{"id": "/documentation/appkit/nswindow/occlusionstate-swift.property", "law": "When the value of this property is , at least part of the window is visible; otherwise, the window is fully occluded."}
+{"id": "/documentation/appkit/nswindow/orderfrontregardless()", "law": "You should rarely need to invoke this method; it’s designed to be used when applications are cooperating in such a way that an active application (with the key window) is using another application to display data."}
+{"id": "/documentation/appkit/nswindow/parent", "law": "This property should be set from a subclass when it is overridden by a subclass’s implementation."}
+{"id": "/documentation/appkit/nswindow/parent", "law": "It should not be set otherwise."}
+{"id": "/documentation/appkit/nswindow/preservescontentduringliveresize", "law": "When live-resize optimization is active, the window redraws only those views that moved (or do not support this optimization) during a live resize operation."}
+{"id": "/documentation/appkit/nswindow/recalculatekeyviewloop()", "law": "If you don’t want to maintain the key view loop of your window manually, you can use this method to do it for you."}
+{"id": "/documentation/appkit/nswindow/removetitlebaraccessoryviewcontroller(at:)", "law": "You can also use to remove a specific title bar accessory view controller."}
+{"id": "/documentation/appkit/nswindow/resignkey()", "law": "Never invoke this method directly."}
+{"id": "/documentation/appkit/nswindow/resignmain()", "law": "Never invoke this method directly."}
+{"id": "/documentation/appkit/nswindow/resizeflags", "law": "You can use this property to constrain the direction or amount of resizing."}
+{"id": "/documentation/appkit/nswindow/resizeflags", "law": "Because of its limited validity, this property should only be accessed from within an implementation of the delegate method ."}
+{"id": "/documentation/appkit/nswindow/resizeincrements", "law": "As the user resizes the window, its size changes by multiples of and , which should be whole numbers, 1.0 or greater."}
+{"id": "/documentation/appkit/nswindow/restorationclass", "law": "The value of this property is a class object that conforms to the protocol corresponding to the class to use to restore the window or if none is set."}
+{"id": "/documentation/appkit/nswindow/restorationclass", "law": "This almost always involves creating a window controller and for multi-window document applications also involves creating a document object."}
+{"id": "/documentation/appkit/nswindow/restorationclass", "law": "Therefore, the restoration class must be able to create (or find existing instances of) all of these objects at launch time in your application."}
+{"id": "/documentation/appkit/nswindow/restorationclass", "law": "If you mark your windows as restorable, you must associate a restoration class with them."}
+{"id": "/documentation/appkit/nswindow/restorationclass", "law": "For other types of windows, you must set the restoration class explicitly."}
+{"id": "/documentation/appkit/nswindow/sendevent(_:)", "law": "Never invoke this method directly."}
+{"id": "/documentation/appkit/nswindow/setautorecalculatescontentborderthickness(_:for:)", "law": "Typically, if you call , you should also call ."}
+{"id": "/documentation/appkit/nswindow/setcontentborderthickness(_:for:)", "law": "Typically, if you call , you should also call ."}
+{"id": "/documentation/appkit/nswindow/setcontentborderthickness(_:for:)", "law": "The does not include the title bar or toolbar, so a textured window that just wants the gradient in the title bar and toolbar should have a of for ."}
+{"id": "/documentation/appkit/nswindow/setcontentsize(_:)", "law": "Note that the window server limits window sizes to 10,000; if necessary, be sure to limit relative to the frame rectangle."}
+{"id": "/documentation/appkit/nswindow/setframe(from:)", "law": "The frame is constrained according to the window’s minimum and maximum size settings."}
+{"id": "/documentation/appkit/nswindow/setframeusingname(_:)", "law": "The frame is constrained according to the window’s minimum and maximum size settings."}
+{"id": "/documentation/appkit/nswindow/togglefullscreen(_:)", "law": "If an application supports fullscreen, it should add a menu item to the View menu with as the action, and as the target."}
+{"id": "/documentation/appkit/nswindow/trackevents(matching:timeout:mode:handler:)", "law": "You can use this method in a tracking loop to get pressure events when you add to the event mask."}
+{"id": "/documentation/appkit/nswindow/trackevents(matching:timeout:mode:handler:)", "law": "Use to prevent timing out."}
+{"id": "/documentation/appkit/nswindow/update()", "law": "A subclass can override this method to perform specialized operations, but it should send an update message to just before returning."}
+{"id": "/documentation/appkit/nswindow/updateconstraintsifneeded()", "law": "When a new layout pass is triggered for a window, the system invokes this method to ensure that any constraints for views in the window are updated with information from the current view hierarchy and its constraints."}
+{"id": "/documentation/appkit/nswindow/updateconstraintsifneeded()", "law": "Subclasses should not override this method."}
+{"id": "/documentation/appkit/nswindow/usertabbingpreference-swift.enum", "law": "NSWindow.UserTabbingPreference.always."}
+{"id": "/documentation/appkit/nswindow/viewsneeddisplay", "law": "You should rarely need to set this property; the method and similar methods set it automatically."}
+{"id": "/documentation/appkit/nswindow/visualizeconstraints(_:)", "law": "This method should only be used for debugging constraint-based layout."}
+{"id": "/documentation/appkit/nswindow/visualizeconstraints(_:)", "law": "No application should ship with calls to this method as part of its operation."}
+{"id": "/documentation/appkit/nswindow/willbeginsheetnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willclosenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willenterfullscreennotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willenterversionbrowsernotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willexitfullscreennotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willexitversionbrowsernotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willminiaturizenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willmovenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/willstartliveresizenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nswindow/windowtitlebarlayoutdirection", "law": "The layout direction may be right to left even in applications that don’t have a right to left language localization."}
+{"id": "/documentation/appkit/nswindow/workswhenmodal", "law": "Only subclasses of should override this default."}
+{"id": "/documentation/appkit/nswindow/zoom(_:)", "law": "If there’s no saved user state because there has been no previous zoom, the size and location of the window don’t change."}
+{"id": "/documentation/appkit/nswindowcontroller/close()", "law": "Because this method closes the window without asking the user for confirmation, you usually do not invoke it when the Close menu command is chosen."}
+{"id": "/documentation/appkit/nswindowcontroller/document", "law": "When a window controller is added to a document’s list of window controllers, the document uses this property to set the window controller’s document; you should not set this property."}
+{"id": "/documentation/appkit/nswindowcontroller/init(windownibpath:owner:)", "law": "Use this method if your nib file is at a fixed location (which is not inside either the file’s owner’s class’s bundle or in the application’s main bundle)."}
+{"id": "/documentation/appkit/nswindowcontroller/loadwindow()", "law": "You should never directly invoke this method."}
+{"id": "/documentation/appkit/nswindowcontroller/setdocumentedited(_:)", "law": "You should not call this method directly for window controllers with an associated document; the document calls this method on its window controllers as needed."}
+{"id": "/documentation/appkit/nswindowcontroller/windowloading", "law": "Use this property wrapper on window controller properties that can be before the window controller’s window loads."}
+{"id": "/documentation/appkit/nswindowcontroller/windowloading", "law": "The following example uses the property wrapper to ensure that loads before referencing it in the of the property observer: After loading , the system can safely access and set the property."}
+{"id": "/documentation/appkit/nswindowcontroller/windowloading", "law": "Use this property wrapper over implicitly unwrapped optionals for as well."}
+{"id": "/documentation/appkit/adopting-the-system-text-cursor-in-custom-text-views", "law": "Set the display mode to always show the text cursor and disable animations."}
+{"id": "/documentation/appkit/adopting-the-system-text-cursor-in-custom-text-views", "law": "When you use the automatic display mode, you can further customize the animation options depending on the needs of your app."}
+{"id": "/documentation/appkit/nstextalternatives", "law": "To support dictation, for example, you might use to present a list of alternative interpretations for a word or phrase the user speaks."}
+{"id": "/documentation/appkit/nstextinputclient/attributedsubstring(forproposedrange:actualrange:)", "law": "An implementation of this method should be prepared for to be out of bounds."}
+{"id": "/documentation/appkit/nstextinputclient/attributedsubstring(forproposedrange:actualrange:)", "law": "In this case, you should return the intersection of the document’s range and ."}
+{"id": "/documentation/appkit/nstextinputclient/docommand(by:)", "law": "If cannot be invoked, then should not pass this message up the responder chain."}
+{"id": "/documentation/appkit/nstextinputclient/docommand(by:)", "law": "also implements this method, and it does forward uninvokable commands up the responder chain, but a text view should not."}
+{"id": "/documentation/appkit/nstextinputclient/fractionofdistancethroughglyph(for:)", "law": "For purposes such as dragging out a selection or placing the insertion point, a partial percentage less than or equal to 0.5 indicates that should be considered as falling before the glyph; a partial percentage greater than 0.5 indicates that it should be considered as falling after the glyph."}
+{"id": "/documentation/appkit/nstextinputclient/fractionofdistancethroughglyph(for:)", "law": "In this case, the should be considered as falling between “A” and “b” for purposes such as dragging out a selection or placing the insertion point."}
+{"id": "/documentation/appkit/nstextinputclient/inserttext(_:replacementrange:)", "law": "Because this method pertains to the actions of the user, the text view must be editable for the insertion to work."}
+{"id": "/documentation/appkit/nstextinputclient/unmarktext()", "law": "The text view should accept the marked text as if it had been inserted normally."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "For example, you might disable Writing Tools in a view that you use to display code listings."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "If you create a custom text view, instead of using the standard system views, use the available APIs to add Writing Tools support to your view."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "The system applies the best available experience to views by default, but you can specify the experience you prefer in your views."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "You can also disable the feature if you don’t want Writing Tools to be active in your view."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "Use those methods to turn off any features that might interfere with Writing Tools while it’s active."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "If you don’t want Writing Tools to modify portions of your object, implement the method in your delegate."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "Use your implementation of the method to specify any subranges of text you want Writing Tools to ignore."}
+{"id": "/documentation/appkit/customizing-writing-tools-behavior-for-system-views", "law": "You might use this method to prevent Writing Tools from changing code listings, proper names, or direct quotes embedded in the text."}
+{"id": "/documentation/appkit/nsaccessibilitynavigablestatictext", "law": "Use this protocol when you want to represent larger blocks of text."}
+{"id": "/documentation/appkit/nsaccessibilitynavigablestatictext", "law": "For shorter pieces of text (for example, labels or headers), use the protocol instead."}
+{"id": "/documentation/appkit/nsaccessibilitynavigablestatictext", "law": "Any class that adopts this protocol must implement all of its methods, and the required methods of any protocol it inherits from."}
+{"id": "/documentation/appkit/nsaccessibilitynavigablestatictext", "law": "The compiler may require you to override some methods that your ancestors have already implemented."}
+{"id": "/documentation/appkit/nsaccessibilitynavigablestatictext", "law": "A role-based protocol that declares the minimum interface necessary for an accessibility element to act as navigable static text."}
+{"id": "/documentation/appkit/nsaccessibilitystatictext", "law": "Use this protocol when you want to represent short pieces of text, such as headers or labels."}
+{"id": "/documentation/appkit/nsaccessibilitystatictext", "law": "For longer blocks of text, use the protocol."}
+{"id": "/documentation/appkit/nsaccessibilitystatictext", "law": "Any class that adopts this protocol must implement all of its methods, and the required methods of any protocol it inherits from."}
+{"id": "/documentation/appkit/nsaccessibilitystatictext", "law": "The compiler may require you to override some methods that your ancestors have already implemented."}
+{"id": "/documentation/appkit/nsaccessibilitystatictext", "law": "A role-based protocol that declares the minimum interface necessary for an accessibility element to act as static text."}
+{"id": "/documentation/appkit/nsignoremisspelledwords", "law": "In order for this action to update the “ignored words” list for the document being checked, the protocol must be implemented."}
+{"id": "/documentation/appkit/nsignoremisspelledwords", "law": "The protocol specifies a method, , which should be implemented like this: The second argument to the method is a tag that the spell checker can use to distinguish the documents being checked."}
+{"id": "/documentation/appkit/nsignoremisspelledwords", "law": "To make the ignored words feature useful, the application must store a document’s ignored words list with the document."}
+{"id": "/documentation/appkit/nslayoutmanager", "law": "Generally speaking, a specific layout manager (and associated objects) should not be used in more than one block, operation, or thread at a time."}
+{"id": "/documentation/appkit/nslayoutmanager", "law": "The most effective way to ensure that no text view is displayed, without knowing deep implementation, is just not to connect a text view to the layout manager."}
+{"id": "/documentation/appkit/nslayoutmanager", "law": "Previously, both glyph generation and layout were always performed, in order, from the beginning to the end of the document."}
+{"id": "/documentation/appkit/nslayoutmanager", "law": "Clients who use only indirectly—for example, those who use without directly calling the underlying layout manager—can usually turn on noncontiguous layout without difficulty."}
+{"id": "/documentation/appkit/nslayoutmanager", "law": "In addition, see the other methods in , many of which enable you to ensure that glyph generation and layout are performed for specified portions of the text."}
+{"id": "/documentation/appkit/nstext/didendeditingnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nstextinput", "law": "Please use the protocol instead."}
+{"id": "/documentation/appkit/nstextlayoutmanager", "law": "The primary class that you use to manage text layout and presentation for custom text displays."}
+{"id": "/documentation/appkit/nstextstorage", "law": "You can access a text storage object from any thread of your app, but your app must guarantee access from only one thread at a time."}
+{"id": "/documentation/appkit/nstextstorage", "law": "Instead, use the text access methods defined by , , , and to perform character-level manipulation."}
+{"id": "/documentation/appkit/nstextstorage", "law": "The one aspect it doesn’t implement is managing the actual attributed string storage, which subclasses manage by overriding the two primitives: Subclasses must also override two primitives: These primitives should perform the change, then call to let the parent class know there are changes."}
+{"id": "/documentation/appkit/nstextview/acceptabledragtypes", "law": "Subclasses should override this value as necessary to add their own types to those returned by ‘s implementation."}
+{"id": "/documentation/appkit/nstextview/acceptabledragtypes", "law": "They must then also override the appropriate methods of the protocol to support import of those types."}
+{"id": "/documentation/appkit/nstextview/allowedinputsourcelocales", "law": "You can use the meta-locale identifier, , to specify input sources that are limited for Roman script editing."}
+{"id": "/documentation/appkit/nstextview/allowsimageediting", "law": "For image editing to be allowed, the text view must be editable and the text attachment cell must support image editing."}
+{"id": "/documentation/appkit/nstextview/allowsimageediting", "law": "Indicates whether image attachments should permit editing of their images."}
+{"id": "/documentation/appkit/nstextview/breakundocoalescing()", "law": "This method should be invoked when saving the receiver’s contents to preserve proper tracking of unsaved changes and the document’s dirty state."}
+{"id": "/documentation/appkit/nstextview/breakundocoalescing()", "law": "Informs the receiver that it should begin coalescing successive typing operations in a new undo grouping."}
+{"id": "/documentation/appkit/nstextview/characterindexforinsertion(at:)", "law": "This method should be used for insertion points associated with mouse clicks, drag events, and so forth."}
+{"id": "/documentation/appkit/nstextview/characterindexforinsertion(at:)", "law": "For other purposes, it is better to use methods."}
+{"id": "/documentation/appkit/nstextview/cleanupafterdragoperation()", "law": "In your overridden method, be sure to invoke ’s implementation of this method."}
+{"id": "/documentation/appkit/nstextview/clicked(onlink:at:)", "law": "If, for instance, you have a special attachment cell that can follow links, you can use this method to ask the text view to follow a link once you decide it should."}
+{"id": "/documentation/appkit/nstextview/clicked(onlink:at:)", "law": "If the user actually physically clicked the link, then it should be the character that was originally clicked."}
+{"id": "/documentation/appkit/nstextview/completions(forpartialwordrange:indexofselecteditem:)", "law": "This method should call the delegate method if the delegate implements such a method."}
+{"id": "/documentation/appkit/nstextview/didchangeselectionnotification", "law": "The dictionary contains the following information: To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nstextview/didchangetext()", "law": "Subclasses implementing methods that change their text should invoke this method at the end of those methods."}
+{"id": "/documentation/appkit/nstextview/didchangetypingattributesnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nstextview/displayslinktooltips", "law": "The default value for this feature is ; clients who do not wish tooltips to be displayed automatically must explicitly disable it."}
+{"id": "/documentation/appkit/nstextview/dragoperation(for:type:)", "law": "The drag operation that should be performed if the image were released now."}
+{"id": "/documentation/appkit/nstextview/dragoperation(for:type:)", "law": "The returned value should be one of the following: If none of the operations is appropriate, this method should return ."}
+{"id": "/documentation/appkit/nstextview/dragoperation(for:type:)", "law": "Returns the type of drag operation that should be performed if the image were released now."}
+{"id": "/documentation/appkit/nstextview/drawinsertionpoint(in:color:turnedon:)", "law": "The focus must be locked on the receiver when this method is invoked."}
+{"id": "/documentation/appkit/nstextview/drawinsertionpoint(in:color:turnedon:)", "law": "You should not need to invoke this method directly."}
+{"id": "/documentation/appkit/nstextview/highlight(_:)", "law": "The sender should be a menu item with a of type ( )."}
+{"id": "/documentation/appkit/nstextview/importsgraphics", "law": "By default, text views don’t accept dragged files but do allow rich text."}
+{"id": "/documentation/appkit/nstextview/init(frame:textcontainer:)", "law": "Unlike , which builds up an entire group of text-handling objects, you use this method after you’ve created the other components of the text-handling system — a text storage object, a layout manager, and a text container."}
+{"id": "/documentation/appkit/nstextview/init(frame:textcontainer:)", "law": "When you use this initializer in macOS 12 and later, you have the option to use which gives you access to newer TextKit functionality and performance improvements."}
+{"id": "/documentation/appkit/nstextview/init(frame:textcontainer:)", "law": "To use the new layout manager create instances of , , and ; these manage the view’s text layout, text regions, and backingstore, respectively."}
+{"id": "/documentation/appkit/nstextview/inserttext(_:)", "law": "Because this method pertains to the actions of the user, the text view must be editable for the insertion to work."}
+{"id": "/documentation/appkit/nstextview/invalidatetextcontainerorigin()", "law": "This method is invoked automatically; you should never need to invoke it directly."}
+{"id": "/documentation/appkit/nstextview/isfieldeditor", "law": "By default, text views don’t behave as field editors."}
+{"id": "/documentation/appkit/nstextview/isrichtext", "law": "Text fields that don’t allow rich text also don’t accept dragged files."}
+{"id": "/documentation/appkit/nstextview/isrichtext", "law": "By default, text views let the user apply multiple attributes to text, but don’t accept dragged files."}
+{"id": "/documentation/appkit/nstextview/isselectable", "law": "Text views are by default both editable and selectable Non-selectable text views do not process any mouse events."}
+{"id": "/documentation/appkit/nstextview/isselectable", "law": "If for some reason it is necessary to disallow user selection changes in a text view that must handle mouse events, you can make the text view selectable but implement the delegate method to disallow selection changes."}
+{"id": "/documentation/appkit/nstextview/linktextattributes", "law": "Candidates include those attributes that do not affect layout."}
+{"id": "/documentation/appkit/nstextview/preferredpasteboardtype(from:restrictedtotypesfrom:)", "law": "You should not need to override this method."}
+{"id": "/documentation/appkit/nstextview/preferredpasteboardtype(from:restrictedtotypesfrom:)", "law": "You should also not need to invoke it unless you are implementing a new type of pasteboard to handle services other than copy/paste or dragging."}
+{"id": "/documentation/appkit/nstextview/quicklookpreviewableitems(inranges:)", "law": "Each preview item must conform to the protocol."}
+{"id": "/documentation/appkit/nstextview/rangeforusercharacterattributechange", "law": "If the receiver isn’t editable or doesn’t use the Font panel, the range has a location of ."}
+{"id": "/documentation/appkit/nstextview/rangeforuserparagraphattributechange", "law": "If the receiver isn’t editable or doesn’t use the Font panel, the range has a location of ."}
+{"id": "/documentation/appkit/nstextview/readselection(from:)", "law": "You should not need to override this method."}
+{"id": "/documentation/appkit/nstextview/readselection(from:type:)", "law": "You should override this method to read pasteboard types other than the default types."}
+{"id": "/documentation/appkit/nstextview/readselection(from:type:)", "law": "Use the method to obtain the range of characters (if any) to be replaced by the new data."}
+{"id": "/documentation/appkit/nstextview/registerforservices()", "law": "This method is invoked automatically when the first instance of a text view is created; you should never need to invoke it directly."}
+{"id": "/documentation/appkit/nstextview/registerforservices()", "law": "Subclasses of that wish to add support for new service types should override to call and then register their own new types."}
+{"id": "/documentation/appkit/nstextview/rulerview(_:shouldmove:)", "law": "Returns whether the marker should be moved."}
+{"id": "/documentation/appkit/nstextview/rulerview(_:shouldremove:)", "law": "Returns whether the marker should be removed."}
+{"id": "/documentation/appkit/nstextview/rulerview(_:willadd:atlocation:)", "law": "The modified location to which the marker should be added."}
+{"id": "/documentation/appkit/nstextview/rulerview(_:willadd:atlocation:)", "law": "Returns a potentially modified location to which the marker should be added."}
+{"id": "/documentation/appkit/nstextview/rulerview(_:willmove:tolocation:)", "law": "The modified location to which the marker should be moved."}
+{"id": "/documentation/appkit/nstextview/rulerview(_:willmove:tolocation:)", "law": "Returns a potentially modified location to which the marker should be moved."}
+{"id": "/documentation/appkit/nstextview/selectiongranularity", "law": "You should always set the selection granularity after setting the selection."}
+{"id": "/documentation/appkit/nstextview/setalignment(_:range:)", "law": "Clients must invoke or to include this method in an undoable action."}
+{"id": "/documentation/appkit/nstextview/setbasewritingdirection(_:range:)", "law": "Clients must invoke or to include this method in an undoable action."}
+{"id": "/documentation/appkit/nstextview/setconstrainedframesize(_:)", "law": "This method respects the receiver’s existing minimum and maximum sizes and by whether resizing is permitted."}
+{"id": "/documentation/appkit/nstextview/shouldchangetext(in:replacementstring:)", "law": "This method must be invoked at the start of any sequence of user-initiated editing changes."}
+{"id": "/documentation/appkit/nstextview/shouldchangetext(in:replacementstring:)", "law": "If your subclass of implements methods that modify the text, make sure to invoke this method to determine whether the change should be made."}
+{"id": "/documentation/appkit/nstextview/shouldchangetext(in:replacementstring:)", "law": "If you override this method, you must call at the beginning of the override."}
+{"id": "/documentation/appkit/nstextview/shouldchangetext(inranges:replacementstrings:)", "law": "This method must be invoked at the start of any sequence of user-initiated editing changes."}
+{"id": "/documentation/appkit/nstextview/shouldchangetext(inranges:replacementstrings:)", "law": "If your subclass of implements that modify the text, make sure to invoke this method to determine whether the change should be made."}
+{"id": "/documentation/appkit/nstextview/shouldchangetext(inranges:replacementstrings:)", "law": "If you override this method, you must call at the beginning of the override."}
+{"id": "/documentation/appkit/nstextview/shoulddrawinsertionpoint", "law": "if the receiver should draw its insertion point, otherwise."}
+{"id": "/documentation/appkit/nstextview/shoulddrawinsertionpoint", "law": "A Boolean value that determines whether the receiver should draw its insertion point."}
+{"id": "/documentation/appkit/nstextview/showfindindicator(for:)", "law": "This method does not itself scroll the specified range to be visible; any desired scrolling should be done before this method is called, first, because the method acts only on the visible portion of the specified range, and, second, because scrolling causes the indicators to disappear."}
+{"id": "/documentation/appkit/nstextview/showfindindicator(for:)", "law": "Calling this method with a zero-length range always removes any existing indicators."}
+{"id": "/documentation/appkit/nstextview/smartdeleterange(forproposedrange:)", "law": "An extended range that includes adjacent whitespace that should be deleted along with the proposed range in order to preserve proper spacing and punctuation of the text surrounding the deletion."}
+{"id": "/documentation/appkit/nstextview/smartdeleterange(forproposedrange:)", "law": "uses this method as necessary; you can also use it in implementing your own methods that delete text, typically when the selection granularity is ."}
+{"id": "/documentation/appkit/nstextview/smartdeleterange(forproposedrange:)", "law": "If placing text on the pasteboard, however, you should put only the characters from the proposed range onto the pasteboard."}
+{"id": "/documentation/appkit/nstextview/smartdeleterange(forproposedrange:)", "law": "Returns an extended range that includes adjacent whitespace that should be deleted along with the proposed range in order to preserve proper spacing and punctuation."}
+{"id": "/documentation/appkit/nstextview/smartinsert(afterstringfor:replacing:)", "law": "Don’t invoke this method directly."}
+{"id": "/documentation/appkit/nstextview/smartinsert(afterstringfor:replacing:)", "law": "Instead, use , which calls this method as part of its implementation."}
+{"id": "/documentation/appkit/nstextview/smartinsert(beforestringfor:replacing:)", "law": "Don’t invoke this method directly."}
+{"id": "/documentation/appkit/nstextview/smartinsert(beforestringfor:replacing:)", "law": "Instead, use , which calls this method as part of its implementation."}
+{"id": "/documentation/appkit/nstextview/smartinsert(for:replacing:before:after:)", "law": "You can also use it in implementing your own methods that insert text."}
+{"id": "/documentation/appkit/nstextview/smartinsertdeleteenabled", "law": "if the receiver should insert or delete space around selected words so as to preserve proper spacing and punctuation, if it should insert and delete exactly what’s selected."}
+{"id": "/documentation/appkit/nstextview/textviewportlayoutcontroller:configurerenderingsurfacefortextlayoutfragment:", "law": "Requires a call to super."}
+{"id": "/documentation/appkit/nstextview/textviewportlayoutcontrollerdidlayout:", "law": "Requires a call to super."}
+{"id": "/documentation/appkit/nstextview/textviewportlayoutcontrollerreceivedsetneedslayout:", "law": "Requires a call to super."}
+{"id": "/documentation/appkit/nstextview/textviewportlayoutcontrollerwilllayout:", "law": "Requires a call to super."}
+{"id": "/documentation/appkit/nstextview/turnoffkerning(_:)", "law": "Sets the receiver to use nominal glyph spacing for the glyphs in its selection, or for all glyphs if the receiver is a plain text view."}
+{"id": "/documentation/appkit/nstextview/turnoffligatures(_:)", "law": "Sets the receiver to use only required ligatures when setting text, for the glyphs in the selection if the receiver is a rich text view, or for all glyphs if it’s a plain text view."}
+{"id": "/documentation/appkit/nstextview/typingattributes", "law": "However, if you add any user actions that change text attributes, the action should use this method to apply those attributes afterwards."}
+{"id": "/documentation/appkit/nstextview/typingattributes", "law": "User actions that change attributes should always set the typing attributes because there might not be a subsequent change in selection before the next typing."}
+{"id": "/documentation/appkit/nstextview/updatedragtyperegistration()", "law": "They should invoke this method when that state changes to perform the necessary update."}
+{"id": "/documentation/appkit/nstextview/updatefontpanel()", "law": "Does nothing if the receiver doesn’t use the Font panel."}
+{"id": "/documentation/appkit/nstextview/updatefontpanel()", "law": "You should never need to invoke this method directly, but you can override it if needed to handle additional font attributes."}
+{"id": "/documentation/appkit/nstextview/updateinsertionpointstateandrestarttimer(_:)", "law": "This method is invoked automatically whenever the insertion point needs to be moved; you should never need to invoke it directly, but you can override it to modify insertion point behavior."}
+{"id": "/documentation/appkit/nstextview/updatequicklookpreviewpanel()", "law": "Notifies the QuickLook panel that an update may be required."}
+{"id": "/documentation/appkit/nstextview/updateruler()", "law": "Does nothing if the ruler isn’t visible or if the receiver doesn’t use the ruler."}
+{"id": "/documentation/appkit/nstextview/updateruler()", "law": "You should never need to invoke this method directly, but you can override this method if needed to handle additional ruler attributes."}
+{"id": "/documentation/appkit/nstextview/useallligatures(_:)", "law": "Sets the receiver to use all ligatures available for the fonts and languages used when setting text, for the glyphs in the selection if the receiver is a rich text view, or for all glyphs if it’s a plain text view."}
+{"id": "/documentation/appkit/nstextview/usesadaptivecolormappingfordarkappearance", "law": "A Boolean value that indicates whether the framework should use adaptive color mapping for dark appearance."}
+{"id": "/documentation/appkit/nstextview/usesfindbar", "law": "A text view can use either a find panel or a find bar."}
+{"id": "/documentation/appkit/nstextview/usesfindbar", "law": "A Boolean value that indicates whether to use the find bar for this text view."}
+{"id": "/documentation/appkit/nstextview/usesfindpanel", "law": "to allow the use of a find panel, otherwise."}
+{"id": "/documentation/appkit/nstextview/usesfindpanel", "law": "A text view can use either a find panel or a find bar."}
+{"id": "/documentation/appkit/nstextview/usesfontpanel", "law": "A Boolean value that controls whether the text views sharing the receiver’s layout manager use the Font panel and Font menu."}
+{"id": "/documentation/appkit/nstextview/usesruler", "law": "A Boolean value that controls whether the text views sharing the receiver’s layout manager use a ruler."}
+{"id": "/documentation/appkit/nstextview/usestandardkerning(_:)", "law": "This data is taken from a font’s AFM file Set the receiver to use pair kerning data for the glyphs in its selection, or for all glyphs if the receiver is a plain text view."}
+{"id": "/documentation/appkit/nstextview/usestandardligatures(_:)", "law": "Sets the receiver to use the standard ligatures available for the fonts and languages used when setting text, for the glyphs in the selection if the receiver is a rich text view, or for all glyphs if it’s a plain text view."}
+{"id": "/documentation/appkit/nstextview/viewportboundsfortextviewportlayoutcontroller:", "law": "Requires a call to super."}
+{"id": "/documentation/appkit/nstextview/writeselection(to:type:)", "law": "The complete set of data types being written to should be declared before invoking this method."}
+{"id": "/documentation/appkit/nstextview/writeselection(to:type:)", "law": "This method should be invoked only from ."}
+{"id": "/documentation/appkit/nstextview/writeselection(to:type:)", "law": "You should invoke ’s implementation of the method to handle any types of data your overridden version does not."}
+{"id": "/documentation/appkit/nstextview/writeselection(to:types:)", "law": "You should not need to override this method."}
+{"id": "/documentation/appkit/enhancing-your-custom-text-engine-with-writing-tools", "law": "The systems provide easy-to-use and highly capable APIs for text editing, such as , , and SwiftUI ."}
+{"id": "/documentation/appkit/enhancing-your-custom-text-engine-with-writing-tools", "law": "Apps generally use these APIs to implement text editing."}
+{"id": "/documentation/appkit/nstextpreview", "law": "An object provides a static image of your view’s text content that the system can use to create animations."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/range", "law": "Use this value to identify the context object within your app."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:finish:for:in:completion:)", "law": "Use this method to clean up any data structures you created to support the specified type of Writing Tools animation."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:finish:for:in:completion:)", "law": "You can also use this method to restore the visibility of any text you hid previously."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:finish:for:in:completion:)", "law": "In your implementation of this method, make sure the actions you take don’t interfere with other in-flight animations."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:preparefor:for:in:completion:)", "law": "Use this method to prepare for the system-provided animations of your view’s content."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:preparefor:for:in:completion:)", "law": "For animations to remove or insert text, you can also use this method to set up animations to reflow your view’s content to match the changes."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:preparefor:for:in:completion:)", "law": "At the end of a given animation, use your delegate’s method to undo any changes you make to your content."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:replace:in:proposedtext:reason:animationparameters:completion:)", "law": "Use this method to update your view’s text storage with the proposed changes."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:replace:in:proposedtext:reason:animationparameters:completion:)", "law": "You can also pass to the completion handler if you don’t incorporate the replacement text."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:replace:in:proposedtext:reason:animationparameters:completion:)", "law": "If you need to modify other parts of your interface to reflect the changes, use the provided object to create additional animations to run at the same time as the system-provided animations."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestscontextsfor:completion:)", "law": "Use this method to create one or more objects with your view’s text."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestscontextsfor:completion:)", "law": "Don’t create multiple context objects if your view has only one text storage object."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestscontextsfor:completion:)", "law": "Writing Tools can use the extra text you provide to improve the results of its evaluation."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestscontextsfor:completion:)", "law": "For example, it might use an entire paragraph, instead of only the selected sentence, to evaluate ways to rewrite that sentence."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestspreviewfor:of:in:completion:)", "law": "To build a preview of your content in macOS, render the specified range of text into an image with a transparent background and use that image to create your object directly."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:select:in:completion:)", "law": "Use this method to update the current selection in your view’s text storage."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:willchangeto:completion:)", "law": "Use state transitions to perform actions related to your view or text storage."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/preferredbehavior", "law": "Use this property to request an inline or panel-based experience, or to disable Writing Tools for your view altogether."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/state-swift.enum", "law": "Making changes to your view requires several different levels of interaction."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/state-swift.enum", "law": "You can use the current state as a guide to making decisions in other parts of your view."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/updateforreflowedtextincontextwithidentifier(_:)", "law": "Use this method to inform Writing Tools when the geometry of your view changes, or when the text that precedes one of your context objects changes."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/updateforreflowedtextincontextwithidentifier(_:)", "law": "Changes to the view’s geometry or text can affect the flow of any remaining text, and require a layout update."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/updateforreflowedtextincontextwithidentifier(_:)", "law": "Informs the coordinator that a change occurred to the view or its text that requires a layout update."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/updaterange(_:with:reason:forcontextwithidentifier:)", "law": "Use this method to report changes that precisely intersect your context object’s text."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/updaterange(_:with:reason:forcontextwithidentifier:)", "law": "Don’t use this method to report changes to text that comes before or after the context object."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/behavior", "law": "The value in this property is never the default option, and is instead one of the specific options such as , , or ."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/canceltextanimations(identifiers:)", "law": "The UUIDs passed in should be those returned when starting the animations."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/canceltextanimations(identifiers:)", "law": "To cancel all ahimations, use instead."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/decorationcontainerview", "law": "Make sure the size of the view is big enough to cover all of the affected text."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/decorationcontainerview", "law": "If you don’t assign a value to this property, the coordinator places its own decoration view behind the subviews in your custom view."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.property", "law": "The object must adopt the protocol, and be capable of modifying your view’s text storage and refreshing the view’s layout and appearance."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/effectcontainerview", "law": "If you don’t assign a value to this property, the coordinator places its own effect view in front of the subviews in your custom view."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/state-swift.property", "law": "Use this property to determine when Writing Tools is actively making changes to your view."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/textanimation", "law": "Use the constants to determine the type of animation that is occurring."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/view", "law": "Use this property to refer to the view that currently owns the coordinator object."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/animationparameters/completionhandler", "law": "The block you provide must have no return value and no parameters."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/animationparameters/progresshandler", "law": "If you have animations you want to run at the same time as the system animations, assign a block to this property and use it to run your animations."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/animationparameters/progresshandler", "law": "The block you provide must have no return value and take a floating-point value as a parameter."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/attributedstring", "law": "Use the methods of your delegate object to integrate those changes back into your view’s text storage."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/attributedstring", "law": "If you initialize this property with a subset of your view’s content, you must adjust any ranges that Writing Tools provides to get the correct location in your text storage."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/identifier", "law": "Use this value to identify the context object within your app."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/init(attributedstring:range:)", "law": "During the evaluation process, Writing Tools can use the additional text you provided to improve the results it delivers."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/init(attributedstring:range:)", "law": "Don’t use the parameter to specify the location of the text in your view’s text storage."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/resolvedrange", "law": "While the Writing Tools operation is active, make sure Writing Tools has exclusive access to the text in this range."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/resolvedrange", "law": "Your object can make changes to the text as part of incorporating Writing Tools results, but don’t allow changes to come from other sources."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/context/resolvedrange", "law": "For example, don’t let someone edit the text in this range directly until Writing Tools finishes."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestsdecorationcontainerviewfor:in:completion:)", "law": "If your view uses multiple objects to draw text in different regions, use this method to provide Writing Tools with the view to use for the specified range of text."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestsdecorationcontainerviewfor:in:completion:)", "law": "If your view has only one text container, use the coordinator’s property to specify the view to use for proofreading marks."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestsgrammarresultsfor:completion:)", "law": "To support the grammar presentation UI, the delegate should provide information about the identified and currently indicated grammar issues in the specified context."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestsgrammarresultsfor:completion:)", "law": "The elements of the results array should be objects of grammar type, of the sort that are returned from grammar checking, with ranges relative to the context."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestsgrammarresultsfor:completion:)", "law": "If you use grammar presentation, you must implement this delegate method to provide them."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestspreviewfor:in:completion:)", "law": "To build a preview of your content in macOS, render the requested portion of your view into an image with a transparent background and use that image to create your object directly."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestsrangeincontextwithidentifierfor:completion:)", "law": "The first character in a context object’s text is always at location , and it’s your responsibility to track the location of the context object’s text in your text storage object."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestssinglecontainersubrangesof:in:completion:)", "law": "If your view uses multiple objects to draw text in different regions, use this method to tell Writing Tools about the containers that display the specified text."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestssinglecontainersubrangesof:in:completion:)", "law": "Your implementation of that method must create a preview suitable for animating the content from the underlying text container."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestsunderlinepathsfor:in:completion:)", "law": "Use those rectangles to create the Bezier paths for your text."}
+{"id": "/documentation/appkit/nswritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:setgrammarcheckingenabled:)", "law": "If you use grammar presentation, you should implement this method to respond to that action."}
+{"id": "/documentation/appkit/nspasteboard/pasteboardtype/rtf", "law": "In macOS 10.6 and later, use instead."}
+{"id": "/documentation/appkit/nspasteboard/pasteboardtype/string", "law": "Instead, use an object, a bookmark, or a filename pasteboard type."}
+{"id": "/documentation/appkit/nsapplication/mainmenu", "law": "Use this property to assign a new menu bar for your app or to access the current menu bar."}
+{"id": "/documentation/appkit/nstoolbar/configuration", "law": "Use this property to retrieve the toolbar’s configuration details so you can save them to disk yourself."}
+{"id": "/documentation/appkit/nstoolbar/customizationpaletteisrunning", "law": "A Boolean value that indicates whether the toolbar’s customization palette is in use."}
+{"id": "/documentation/appkit/nstoolbar/fullscreenaccessoryviewmaxheight", "law": "By default the maximum height gets set to the height of the accessory view’s frame when it’s set."}
+{"id": "/documentation/appkit/nstoolbar/fullscreenaccessoryviewmaxheight", "law": "The maximum height of the toolbar’s full screen accessory view, in points."}
+{"id": "/documentation/appkit/nstoolbar/fullscreenaccessoryviewminheight", "law": "If the minimum height is 0 the accessory view isn’t resized; instead a special transition is used to reveal it with the menu bar."}
+{"id": "/documentation/appkit/nstoolbar/fullscreenaccessoryviewminheight", "law": "The minimum height of the toolbar’s full screen accessory view."}
+{"id": "/documentation/appkit/nstoolbar/identifier-swift.property", "law": "Use this property to distinguish toolbars in your app."}
+{"id": "/documentation/appkit/nstoolbar/identifier-swift.property", "law": "The value you use to identify the toolbar in your app."}
+{"id": "/documentation/appkit/nstoolbar/identifier-swift.typealias", "law": "A string value that you use to differentiate your app’s toolbars."}
+{"id": "/documentation/appkit/nstoolbar/init(identifier:)", "law": "is never seen by users and should not be localized."}
+{"id": "/documentation/appkit/nstoolbar/insertitem(withitemidentifier:at:)", "law": "Typically, you don’t call this method directly from your code."}
+{"id": "/documentation/appkit/nstoolbar/itemidentifiers", "law": "Use this with great caution if is enabled as it will override any customizations the user has made."}
+{"id": "/documentation/appkit/nstoolbar/items", "law": "Use other methods of your delegate object to manage the placement of items in the toolbar."}
+{"id": "/documentation/appkit/nstoolbar/removeitem(at:)", "law": "Typically, you don’t call this method directly from your code."}
+{"id": "/documentation/appkit/nstoolbar/removeitem(identifier:)", "law": "To remove only a single space item, use instead."}
+{"id": "/documentation/appkit/nstoolbar/setconfiguration(_:)", "law": "The dictionary you read from disk must match the format of the dictionary in the property."}
+{"id": "/documentation/appkit/nstoolbar/validatevisibleitems()", "law": "Typically, you override this method and use it to customize the validation process."}
+{"id": "/documentation/appkit/nstoolbardelegate/toolbar(_:itemidentifier:canbeinsertedat:)", "law": "Don’t use the parameter to determine the final location of the toolbar item."}
+{"id": "/documentation/appkit/nstoolbardelegate/toolbardidremoveitem(_:)", "law": "Use this method to update data structures related to your toolbar items."}
+{"id": "/documentation/appkit/nstoolbardelegate/toolbarimmovableitemidentifiers(_:)", "law": "Implement this method in your delegate and return any items you don’t want people to remove or rearrange."}
+{"id": "/documentation/appkit/nstoolbardelegate/toolbarimmovableitemidentifiers(_:)", "law": "If you don’t implement this method, the toolbar lets people rearrange and remove all toolbar items."}
+{"id": "/documentation/appkit/nstoolbardelegate/toolbarselectableitemidentifiers(_:)", "law": "An array of item identifiers, each of which corresponds to an that should display a selection indicator in the specified toolbar."}
+{"id": "/documentation/appkit/nstoolbardelegate/toolbarselectableitemidentifiers(_:)", "law": "Use this method to return the complete list of toolbar items that support selection."}
+{"id": "/documentation/appkit/nsmenutoolbaritem", "law": "If you don’t set an action on the , a simple click invokes the menu, and the indicator is purely decorative."}
+{"id": "/documentation/appkit/nssharingservicepickertoolbaritem", "law": "Use this item to share the selected or focal content from the current window."}
+{"id": "/documentation/appkit/nstoolbaritem/init(itemidentifier:barbuttonitem:)", "law": "Use this method to create and initialize a toolbar item with property values from a , such as , , , and ."}
+{"id": "/documentation/appkit/nstoolbaritem/ishidden", "law": "Because hidden items may be visible during user customization, use the property to determine if an item is currently displayed."}
+{"id": "/documentation/appkit/nstoolbaritem/ishidden", "law": "Use this property to show a toolbar item in one toolbar instance but not another."}
+{"id": "/documentation/appkit/nstoolbaritem/isnavigational", "law": "Mark a toolbar item as navigation if you use it to navigate around your content."}
+{"id": "/documentation/appkit/nstoolbaritem/itemidentifier", "law": "Use this property to distinguish one toolbar item from another on the same toolbar."}
+{"id": "/documentation/appkit/nstoolbaritem/itemidentifier", "law": "The value you use to identify the toolbar item."}
+{"id": "/documentation/appkit/nstoolbaritem/itemmenuformrepresentation", "law": "The menu item to use for the toolbar item is in the overflow menu in a Mac app built with Mac Catalyst."}
+{"id": "/documentation/appkit/nstoolbaritem/maxsize", "law": "The toolbar item’s maximum size."}
+{"id": "/documentation/appkit/nstoolbaritem/menuformrepresentation", "law": "The menu item to use when the toolbar item is in the overflow menu."}
+{"id": "/documentation/appkit/nstoolbaritem/minsize", "law": "The toolbar item’s minimum size."}
+{"id": "/documentation/appkit/nstoolbaritem/palettelabel", "law": "If you support toolbar customizations, you must provide palette labels for your items."}
+{"id": "/documentation/appkit/nstoolbaritem/palettelabel", "law": "However, you might use this property to offer a more descriptive string, or to provide a label string when the property contains an empty string."}
+{"id": "/documentation/appkit/nstoolbaritem/possiblelabels", "law": "Use this property to specify all of the labels you might possibly use for the toolbar item."}
+{"id": "/documentation/appkit/nstoolbaritem/possiblelabels", "law": "To ensure there’s space for the longest label, the item sizes itself using the strings you provide."}
+{"id": "/documentation/appkit/nstoolbaritem/style-swift.property", "law": "If grouped with other items, it moves to its own to avoid tinting other items’ background."}
+{"id": "/documentation/appkit/nstoolbaritem/tag", "law": "The toolbar doesn’t use this value."}
+{"id": "/documentation/appkit/nstoolbaritem/tag", "law": "You can use it for your own custom purposes."}
+{"id": "/documentation/appkit/nstoolbaritem/tag", "law": "An integer tag you can use to identify the toolbar item."}
+{"id": "/documentation/appkit/nstoolbaritem/validate()", "law": "Typically, you don’t call this method directly."}
+{"id": "/documentation/appkit/nstoolbaritem/validate()", "law": "You don’t need to call in your implementation."}
+{"id": "/documentation/appkit/nstoolbaritem/view", "law": "The custom view you use to draw the toolbar item."}
+{"id": "/documentation/appkit/nstoolbaritem/visibilitypriority-swift.struct", "law": "Use these constants to suggest a priority for individual toolbar items."}
+{"id": "/documentation/appkit/nstrackingseparatortoolbaritem", "law": "Use a to divide an into sections that visually align with the views on either side of the divider of the ."}
+{"id": "/documentation/appkit/nstrackingseparatortoolbaritem", "law": "The must be in the same window as the toolbar containing this item before showing the toolbar."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "Use this method to draw the specified portion of your view’s content."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "Your implementation of this method should be as fast as possible and do as little work as possible."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "You should always limit drawing to the content inside this rectangle."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "For even better performance, you can call the method and use the list of rectangles returned by that method to limit drawing even further."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "You can also use the method to test whether objects in a particular rectangle need to be drawn."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "Subclasses should override this method if they do custom drawing."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "Prior to calling this method, AppKit creates an appropriate drawing context and configures it for drawing to the view; you do not need to configure the drawing context yourself."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "If your app manages content using its layer object instead, use to update your layer instead of overriding this method."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "If your custom view is a direct subclass, you do not need to call ."}
+{"id": "/documentation/appkit/nsview/draw(_:)", "law": "If the view’s property is , the view must completely fill the rectangle with opaque content."}
+{"id": "/documentation/appkit/nsview/updateconstraints()", "law": "It is almost always cleaner and easier to update a constraint immediately after the affecting change has occurred."}
+{"id": "/documentation/appkit/nsview/updateconstraints()", "law": "You should only override this method when changing constraints in place is too slow, or when a view is producing a number of redundant changes."}
+{"id": "/documentation/appkit/nsview/updateconstraints()", "law": "Your implementation must be as efficient as possible."}
+{"id": "/documentation/appkit/nsview/updateconstraints()", "law": "Do not deactivate all your constraints, then reactivate the ones you need."}
+{"id": "/documentation/appkit/nsview/updateconstraints()", "law": "Instead, your app must have some way of tracking your constraints, and validating them during each update pass."}
+{"id": "/documentation/appkit/nsview/updateconstraints()", "law": "During each update pass, you must ensure that you have the appropriate constraints for the app’s current state."}
+{"id": "/documentation/appkit/nsview/updateconstraints()", "law": "Do not set the property inside your implementation."}
+{"id": "/documentation/appkit/nsview/updatelayer()", "law": "You use this method to optimize the rendering of your view in situations where you can represent your views contents entirely using a layer object."}
+{"id": "/documentation/appkit/nsview/updatelayer()", "law": "Custom views can override this method and use it to modify the properties of the underlying layer object."}
+{"id": "/documentation/appkit/nsview/updatelayer()", "law": "Your implementation of this method should not call ."}
+{"id": "/documentation/appkit/organize-your-user-interface-with-a-stack-view", "law": "This sample shows how to use with each individual view either disclosed (expanded) or hidden (collapsed)."}
+{"id": "/documentation/appkit/organize-your-user-interface-with-a-stack-view", "law": "For state restoration to work, you must deselect the “Close windows when quitting an app” checkbox on the General Pane in System Preferences."}
+{"id": "/documentation/appkit/organize-your-user-interface-with-a-stack-view", "law": "To reset state restoration, use Command-Option-Quit when quitting the sample."}
+{"id": "/documentation/appkit/organize-your-user-interface-with-a-stack-view", "law": "To restore the stack view’s window on relaunch, use the protocol."}
+{"id": "/documentation/appkit/organize-your-user-interface-with-a-stack-view", "law": "This sample provides two disclosure options: A triangle A rounded button The sample project conditionally decides which type of header disclosure control to use by referencing the compilation flag."}
+{"id": "/documentation/appkit/organize-your-user-interface-with-a-stack-view", "law": "If you prefer the style (a rounded button with up and down arrows), remove the compilation flag from the Xcode target’s build settings."}
+{"id": "/documentation/appkit/updating-views-automatically-with-observation-tracking-in-appkit", "law": "You don’t need to manually invalidate anything — AppKit handles it for you."}
+{"id": "/documentation/appkit/updating-views-automatically-with-observation-tracking-in-appkit", "law": "For example, to show a message list with a status label that displays unread message information, start by creating an model with the properties your view needs: Then, use these properties in your view controller’s method: When the view first appears, AppKit runs and tracks that you read and ."}
+{"id": "/documentation/appkit/updating-views-automatically-with-observation-tracking-in-appkit", "law": "Use Swift Observation and automatic tracking to update your views in response to model data updates."}
+{"id": "/documentation/appkit/nsdragginginfo", "law": "You never need to create a class that implements the protocol."}
+{"id": "/documentation/appkit/nsdraggingitem", "law": "Don’t retain these items because changing outside of the prescribed lifetimes has no impact on the drag."}
+{"id": "/documentation/appkit/nsdraggingitem", "law": "Any further changes to the dragging item associated with the returned must occur with the enumeration method ."}
+{"id": "/documentation/appkit/nsaccessibilitygroup", "law": "However, you must explicitly define these relationships before assistive apps can use them as well."}
+{"id": "/documentation/appkit/nsaccessibilitygroup", "law": "Use this protocol when you want to logically group a collection of accessibility elements."}
+{"id": "/documentation/appkit/nsaccessibilitygroup", "law": "A view that adopts this protocol indicates that an assistive app should treat its content as a group of controls."}
+{"id": "/documentation/appkit/nsaccessibilitygroup", "law": "Any class that adopts this protocol must implement all of its methods, and the required methods of any protocol it inherits from."}
+{"id": "/documentation/appkit/nsaccessibilitygroup", "law": "The compiler may require you to override some methods that your ancestors have already implemented."}
+{"id": "/documentation/appkit/nsaccessibilitygroup", "law": "A role-based protocol that declares the minimum interface necessary to act as a container for other user interface elements."}
+{"id": "/documentation/appkit/nsaccessibilityoutline", "law": "Use this protocol when you want a user interface element to behave like an outline—a view that uses a row-and-column format to display hierarchical data that can expand and collapse—in the accessibility hierarchy."}
+{"id": "/documentation/appkit/nsaccessibilityoutline", "law": "Any class that adopts this protocol must implement all of its methods, and the required methods of any protocol it inherits from."}
+{"id": "/documentation/appkit/nsaccessibilityoutline", "law": "The compiler may require you to override some methods that your ancestors have already implemented."}
+{"id": "/documentation/appkit/nsaccessibilityoutline", "law": "A role-based protocol that declares the minimum interface necessary for an accessibility element to act as an outline view."}
+{"id": "/documentation/appkit/nsaccessibilitytable", "law": "Use this protocol when you want a user interface element to behave like a table—a view that uses a row-and-column format to display a set of related records and their attributes—in the accessibility hierarchy."}
+{"id": "/documentation/appkit/nsaccessibilitytable", "law": "Any class that adopts this protocol must implement all of its methods, and the required methods of any protocol it inherits from."}
+{"id": "/documentation/appkit/nsaccessibilitytable", "law": "The compiler may require you to override some methods that your ancestors have already implemented."}
+{"id": "/documentation/appkit/nsaccessibilitytable", "law": "A role-based protocol that declares the minimum interface necessary for an accessibility element to act as a table view."}
+{"id": "/documentation/appkit/nsoutlineview/columndidresizenotification", "law": "The dictionary contains the following information: To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nsoutlineview/datasource", "law": "The object must implement the appropriate methods of ."}
+{"id": "/documentation/appkit/nsoutlineview/delegate", "law": "The delegate must conform to the protocol."}
+{"id": "/documentation/appkit/nsoutlineview/frameofoutlinecell(atrow:)", "law": "You might do that, for example, so that the disclosure triangle will not be shown for a row that should never be expanded."}
+{"id": "/documentation/appkit/nsoutlineview/indentationmarkerfollowscell", "law": "When the value is , the marker is always displayed left-justified in the column."}
+{"id": "/documentation/appkit/nsoutlineview/indentationmarkerfollowscell", "law": "A Boolean value indicating whether the indentation marker symbol displayed in the outline column should be indented along with the cell contents."}
+{"id": "/documentation/appkit/nsoutlineview/insertitems(at:inparent:withanimation:)", "law": "The actual item values are determined by the data source’s method (which is called only after to ensure data source integrity)."}
+{"id": "/documentation/appkit/nsoutlineview/insertitems(at:inparent:withanimation:)", "law": "-based outline views must first call before calling this method."}
+{"id": "/documentation/appkit/nsoutlineview/itemdidcollapsenotification", "law": "The dictionary contains the following information: To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nsoutlineview/itemdidexpandnotification", "law": "The dictionary contains the following information: To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nsoutlineview/itemwillcollapsenotification", "law": "The dictionary contains the following information: To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nsoutlineview/itemwillexpandnotification", "law": "The dictionary contains the following information: To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nsoutlineview/moveitem(at:inparent:to:inparent:)", "law": "-based outline views must first call before calling this method."}
+{"id": "/documentation/appkit/nsoutlineview/removeitems(at:inparent:withanimation:)", "law": "-based outline views must first call before calling this method."}
+{"id": "/documentation/appkit/nsoutlineview/selectiondidchangenotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nsoutlineview/selectionischangingnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nsoutlineview/shouldcollapseautoexpandeditems(fordeposited:)", "law": "if auto-expanded items should return to their original collapsed state; otherwise ."}
+{"id": "/documentation/appkit/nsoutlineview/shouldcollapseautoexpandeditems(fordeposited:)", "law": "Returns a Boolean value that indicates whether auto-expanded items should return to their original collapsed state."}
+{"id": "/documentation/appkit/nsoutlineview/stronglyreferencesitems", "law": "If you require the legacy behavior and your app links in macOS 10.12 or later, the value of this property must be explicitly set to in code, because it is not encoded in the nib."}
+{"id": "/documentation/appkit/nsoutlineview/stronglyreferencesitems", "law": "In general, this is required if the items themselves create a retain cycle."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource", "law": "While this is true, there are cases were you must implement some methods to achieve required functionality, specifically when working with conventional data sources rather than data that is provided by Cocoa bindings."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource", "law": "If you are using conventional data sources for content you must implement the basic methods that provide the outline view with data: , , , and ."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource", "law": "Applications that acquire their data using Cocoa bindings do not need to implement these methods."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource", "law": "Similarly, when using conventional data sources , if you want to allow the user to edit values, you must implement ."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource", "law": "requires that each item in the outline view be unique."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource", "law": "In order for the collapsed state of an outline view to remain consistent between reloads you must always return the same object for an item."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource", "law": "Some of the methods in this , such as and along with other methods that return data, are called very frequently, so they must be efficient."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:numberofchildrenofitem:)", "law": "If is , this method should return the number of children for the top-level item."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:numberofchildrenofitem:)", "law": "The method is called very frequently, so it must be efficient."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:numberofchildrenofitem:)", "law": "While this method is marked as in the protocol, you must implement this method if you are not providing the data for the outline view using Cocoa bindings."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:numberofchildrenofitem:)", "law": "Do not call from this method."}
+{"id": "/documentation/appkit/nstableview/reloaddata()", "law": "If you want to update the value in a single cell, column, or row, it is more efficient to use , , or in conjunction with the method of ."}
+{"id": "/documentation/appkit/nstableview/reloaddata()", "law": "If you just want to update the scroller, use ; if the height of a set of rows changes, use ."}
+{"id": "/documentation/appkit/outline-view-button-keys", "law": "These keys are backwards compatible to OS X v10.7, however, the symbol is not exported prior to v10.9 and the string value ( ) must be used."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:acceptdrop:item:childindex:)", "law": "The data source should incorporate the data from the dragging pasteboard in the implementation of this method."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:child:ofitem:)", "law": "In order for the collapsed state of the outline view to remain consistent when it is reloaded you must always return the same object for a specified and ."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:child:ofitem:)", "law": "While this method is marked as in the protocol, you must implement this method if you are not providing the data for the outline view using Cocoa bindings."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:child:ofitem:)", "law": "Do not call from this method."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:child:ofitem:)", "law": "The method is called very frequently, so it must be efficient."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:isitemexpandable:)", "law": "This method may be called quite often, so it must be efficient."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:isitemexpandable:)", "law": "While this method is marked as in the protocol, you must implement this method if you are not providing the data for the outline view using Cocoa bindings."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:isitemexpandable:)", "law": "Do not call from this method."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:itemforpersistentobject:)", "law": "You must implement this method if you are automatically saving expanded items (that is, if returns )."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:objectvaluefor:byitem:)", "law": "While this method is marked as in the protocol, you must implement this method if you are not providing the data for the outline view using Cocoa bindings."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:objectvaluefor:byitem:)", "law": "Do not call from this method."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:pasteboardwriterforitem:)", "law": "A custom object that implements protocol (or simply use )."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:setobjectvalue:for:byitem:)", "law": "While this method is marked as in the protocol, you must implement this method if you are not providing the data for the outline view using Cocoa bindings."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:setobjectvalue:for:byitem:)", "law": "Do not call from this method."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:updatedraggingitemsfordrag:)", "law": "Implementing this method is required for multi-image dragging."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:updatedraggingitemsfordrag:)", "law": "For NSView-based table views, you can use the method ."}
+{"id": "/documentation/appkit/nsoutlineviewdatasource/outlineview(_:writeitems:to:)", "law": "Invoked by after it has been determined that a drag should begin, but before the drag has been started."}
+{"id": "/documentation/appkit/nssplitview/adjustsubviews()", "law": "When you call this method, the split view’s subviews resize proportionally; the relative sizes of the subviews don’t change."}
+{"id": "/documentation/appkit/nssplitview/adjustsubviews()", "law": "This method invalidates the cursor when it is over a divider, ensuring the cursor is always of the correct type during and after resizing animations."}
+{"id": "/documentation/appkit/nssplitview/arrangesallsubviews", "law": "If the value of this property is , you must explicitly add a view as an arranged subview to arrange it as a split pane."}
+{"id": "/documentation/appkit/nssplitview/autosavename-swift.property", "law": "The name to use when the system automatically saves the split view’s divider configuration."}
+{"id": "/documentation/appkit/nssplitview/didresizesubviewsnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nssplitview/drawdivider(in:)", "law": "If you override this method to use a custom style for the divider, you may need to change the size of the divider."}
+{"id": "/documentation/appkit/nssplitview/holdingpriorityforsubview(at:)", "law": "The priority is the manner that the split view subviews use to maintain their width (for a vertical split view) or height (for a horizontal split view)."}
+{"id": "/documentation/appkit/nssplitview/maxpossiblepositionofdivider(at:)", "law": "A that specifies the maximum possible position of the divider."}
+{"id": "/documentation/appkit/nssplitview/maxpossiblepositionofdivider(at:)", "law": "Returns the maximum possible position of the divider at the specified index."}
+{"id": "/documentation/appkit/nssplitview/minpossiblepositionofdivider(at:)", "law": "A that specifies the minimum possible position of the divider."}
+{"id": "/documentation/appkit/nssplitview/minpossiblepositionofdivider(at:)", "law": "Returns the minimum possible position of the divider at the specified index."}
+{"id": "/documentation/appkit/nssplitview/setholdingpriority(_:forsubviewat:)", "law": "Calling this method sets the priority that split view subviews use to maintain their width (for a vertical split view) or height (for a horizontal split view)."}
+{"id": "/documentation/appkit/nssplitview/setholdingpriority(_:forsubviewat:)", "law": "Use priorities less than ."}
+{"id": "/documentation/appkit/nssplitview/willresizesubviewsnotification", "law": "To observe this notification using Swift concurrency, use ."}
+{"id": "/documentation/appkit/nssplitviewcontroller-protocol-implementations", "law": "If you override these methods in a subclass, you must call ."}
+{"id": "/documentation/appkit/nssplitviewcontroller/addsplitviewitem(_:)", "law": "This is a convenience method you can use in place of the method when you want to add a split view item to the end of the array."}
+{"id": "/documentation/appkit/nssplitviewcontroller/addsplitviewitem(_:)", "law": "If you subclass the class, don’t call this method in your custom object to add a split view item."}
+{"id": "/documentation/appkit/nssplitviewcontroller/automaticdimension", "law": "Use this constant with any sizing-related property to get the default system behavior."}
+{"id": "/documentation/appkit/nssplitviewcontroller/minimumthicknessforinlinesidebars", "law": "This value describes the minimum thickness in the primary axis of a split view—width if the split view’s value is , height if it’s ."}
+{"id": "/documentation/appkit/nssplitviewcontroller/minimumthicknessforinlinesidebars", "law": "This value is the minimum thickness that sidebars can shrink to before they automatically collapse."}
+{"id": "/documentation/appkit/nssplitviewcontroller/minimumthicknessforinlinesidebars", "law": "Autocollapsed sidebars automatically expand if their thickness increases to or above this minimum thickness threshold."}
+{"id": "/documentation/appkit/nssplitviewcontroller/minimumthicknessforinlinesidebars", "law": "The default value of this property is , which determines the minimum thickness for sidebars using the effective minimum size of the split view item views from the layout constraints in the window."}
+{"id": "/documentation/appkit/nssplitviewcontroller/minimumthicknessforinlinesidebars", "law": "If the system can’t apply the constraints that establish the minimum size for all noncollapsed split panes, all sidebars automatically collapse."}
+{"id": "/documentation/appkit/nssplitviewcontroller/minimumthicknessforinlinesidebars", "law": "The minimum thickness for a sidebar before it automatically collapses."}
+{"id": "/documentation/appkit/nssplitviewcontroller/splitview", "law": "Don’t change the property of a split view through the property of a split view controller, and don’t call any methods on the split view object using this property."}
+{"id": "/documentation/appkit/nssplitviewcontroller/splitview", "law": "The split view isn’t always the same object as that in the split view controller’s inherited property."}
+{"id": "/documentation/appkit/nssplitviewcontroller/splitview", "law": "To access the split view, always use the property."}
+{"id": "/documentation/appkit/nssplitviewcontroller/viewdidload()", "law": "If you override this method in a subclass, you must call ."}
+{"id": "/documentation/appkit/nssplitviewitem/automaticmaximumthickness", "law": "The user can still resize the item up to its absolute maximum size in by dragging the divider."}
+{"id": "/documentation/appkit/nssplitviewitem/automaticmaximumthickness", "law": "The default value of this property is , which means the split view item doesn’t enforce an automatic maximum size."}
+{"id": "/documentation/appkit/nssplitviewitem/automaticmaximumthickness", "law": "The maximum thickness of the split view item when it resizes due to automatic sizing."}
+{"id": "/documentation/appkit/nssplitviewitem/init(contentlistwithviewcontroller:)", "law": "You use a content list to display information like the Mail app’s list of messages or the Notes app’s list of notes."}
+{"id": "/documentation/appkit/nssplitviewitem/init(inspectorwithviewcontroller:)", "law": "In macOS 14.0 and later, inspectors use standard system default values for these properties: is ."}
+{"id": "/documentation/appkit/nssplitviewitem/maximumthickness", "law": "The default value of this property is , which means the split view item doesn’t enforce a maximum size."}
+{"id": "/documentation/appkit/nssplitviewitem/maximumthickness", "law": "However, layout constraints in the contained view hierarchy might specify a maximum size regardless."}
+{"id": "/documentation/appkit/nssplitviewitem/maximumthickness", "law": "The maximum thickness of the split view item."}
+{"id": "/documentation/appkit/nssplitviewitem/minimumthickness", "law": "The default value of this property is , which means the split view item doesn’t enforce a minimum size."}
+{"id": "/documentation/appkit/nssplitviewitem/minimumthickness", "law": "However, layout constraints in the contained view hierarchy might specify a minimum size regardless."}
+{"id": "/documentation/appkit/nssplitviewitem/minimumthickness", "law": "The minimum thickness of the split view item."}
+{"id": "/documentation/appkit/nssplitviewitem/removebottomalignedaccessoryviewcontroller(at:)", "law": "NOTE: you can use this method, or , whichever is easier."}
+{"id": "/documentation/appkit/nssplitviewitem/removetopalignedaccessoryviewcontroller(at:)", "law": "NOTE: you can use this method, or , whichever is easier."}
+{"id": "/documentation/appkit/nssplitviewitem/titlebarseparatorstyle", "law": "To apply this value, you must associate the item’s view with its own title bar section."}
+{"id": "/documentation/appkit/nssplitviewitem/unspecifieddimension", "law": "Use this constant with any sizing-related property to reset its value to the standard system default."}
+{"id": "/documentation/appkit/nssplitviewitem/viewcontroller", "law": "Don’t set this property while adding the split view item to a split view controller."}
+{"id": "/documentation/appkit/nstreecontroller/alwaysusesmultiplevaluesmarker", "law": "A Boolean value that indicates whether the tree controller always returns the multiple values marker when multiple objects are selected, even if the selected items have the same value."}
+{"id": "/documentation/appkit/nstreecontroller/avoidsemptyselection", "law": "A Boolean value that indicates whether the tree controller requires the content array to attempt to maintain a selection at all times, avoiding an empty selection."}

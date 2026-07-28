@@ -58,3 +58,8 @@
 {"id": "/documentation/USDKit/USDValueProtocol", "sha": "a354e1175b5c9cca1eaff59e2f27f17474f661579cdca6ed2c7af043e407b60e", "t": "USDValueProtocol", "n": 242, "laws": 1, "ts": "2026-07-27 18:54 UTC"}
 {"id": "/documentation/CoreSpotlight/CSSearchableItem", "sha": "621eeaf81e7d60ffe5074ae2d25b54150b868fe1796173cdc6268044bbdbf4a0", "t": "CSSearchableItem", "n": 2135, "laws": 3, "ts": "2026-07-27 19:07 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/view", "sha": "734795b2a529e35897694a71a0b8b689a805882fffe7b51c688ae7016a151d80", "t": "view", "n": 387, "laws": 0, "ts": "2026-07-27 19:11 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbaradddetailtemplatename", "sha": "693f831a509b42b9037e71a7e02d4fd45e6a0c750c7ad1fbdba0bc506a0bb428", "t": "touchBarAddDetailTemplateName", "n": 295, "laws": 2, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nstouchbaritem/view", "sha": "9e95b045de6b6eb23eaa8bf3ae061b5fad6034a8ff598d17f860d5997ff863ae", "t": "view", "n": 35, "laws": 0, "ts": "2026-07-28 05:38 UTC"}
+{"id": "/documentation/appkit/nsdocument/windownibname", "sha": "09bfeea4d15d2a3192a97333609713b4cfe62bcf312edbc6db8279c82f3ce23f", "t": "windowNibName", "n": 395, "laws": 2, "ts": "2026-07-28 05:42 UTC"}
+{"id": "/documentation/appkit/nstextview/acceptsglyphinfo", "sha": "f55445c47f8c8bccd4d35da1956a2beec337844f72880fc5484acdbe54b940e1", "t": "acceptsGlyphInfo", "n": 214, "laws": 0, "ts": "2026-07-28 05:52 UTC"}
+{"id": "/documentation/appkit/nstoolbaritem/allowsduplicatesintoolbar", "sha": "973d338589ee80f68560b033ea2028c4e984714727aae8c8667f80ea5ab87eba", "t": "allowsDuplicatesInToolbar", "n": 533, "laws": 0, "ts": "2026-07-28 05:59 UTC"}

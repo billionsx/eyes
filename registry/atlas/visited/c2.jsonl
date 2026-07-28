@@ -50,3 +50,7 @@
 {"id": "/documentation/corespotlight/cssearchableitemattributeset/city", "sha": "82fd404afb1c1b16f2d3f259a9d6137ddf68c9fc965dfbd7bd1c00841247c8ea", "t": "city", "n": 84, "laws": 0, "ts": "2026-07-27 18:50 UTC"}
 {"id": "/documentation/corespotlight/cssearchableitemattributeset/tempo", "sha": "f1a2797f42b7a1d2ad8fc4f8695094a9f766b905b9426235f671c221d6c2cab3", "t": "tempo", "n": 73, "laws": 0, "ts": "2026-07-27 18:53 UTC"}
 {"id": "/documentation/foundation/nsnotification/name-swift.struct/nsextensionhostdidenterbackground", "sha": "39e1bcedb0dea00675754cca0817d553f5a88c4dfdbabeb99d3dbdcbc47fbde3", "t": "NSExtensionHostDidEnterBackground", "n": 442, "laws": 2, "ts": "2026-07-27 19:08 UTC"}
+{"id": "/documentation/appkit/nsdocument/init(for:withcontentsof:oftype:)", "sha": "a444c651dad0937f8d1bd7845c60b61a10c1ebb0dd9c1a6eccc5d4d8615d62d3", "t": "init(for:withContentsOf:ofType:)", "n": 733, "laws": 1, "ts": "2026-07-28 05:39 UTC"}
+{"id": "/documentation/appkit/nswindow/restorationclass", "sha": "3486926ed290f4fe6c76d8a3ffae251ce583373ae167532e70233c03d5f7cec6", "t": "restorationClass", "n": 1283, "laws": 5, "ts": "2026-07-28 05:48 UTC"}
+{"id": "/documentation/appkit/nstextview/pasteasrichtext(_:)", "sha": "153ef2c58b864d5d4d6b703f970a1bf9470d5b74e9e1c02326f376f61b49d297", "t": "pasteAsRichText(_:)", "n": 234, "laws": 0, "ts": "2026-07-28 05:54 UTC"}
+{"id": "/documentation/appkit/nsoutlineview/level(forrow:)", "sha": "75b2dd02b692f93e5a6ce9fb5565fddc1551b13c3eaf42d81d1c05944c5f4d8a", "t": "level(forRow:)", "n": 215, "laws": 0, "ts": "2026-07-28 06:02 UTC"}

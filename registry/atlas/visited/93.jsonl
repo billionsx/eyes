@@ -48,3 +48,5 @@
 {"id": "/documentation/swift/string/init(localized:defaultvalue:options:table:bundle:locale:comment:)", "sha": "c393425724307030b2e79eca9f58ea107b25de025635a500da012e73352b2196", "t": "init(localized:defaultValue:options:table:bundle:locale:comment:)", "n": 938, "laws": 6, "ts": "2026-07-27 18:58 UTC"}
 {"id": "/documentation/swift/string/removelast()", "sha": "5e87451488bb8f81f77d22205ec144d3c5d401579e42a765c7099c8eeb02e783", "t": "removeLast()", "n": 355, "laws": 2, "ts": "2026-07-27 18:59 UTC"}
 {"id": "/documentation/appintents/appschema/photosintent/pasteedits", "sha": "77d33f7ec48e9688fcbcb0179c317efda1e3f6f4af382d632c484de964a3d7c1", "t": "pasteEdits", "n": 691, "laws": 1, "ts": "2026-07-27 19:06 UTC"}
+{"id": "/documentation/appkit/nswindow/displayifneeded()", "sha": "8f30d2666413203f59abc55ee98571edb7390e982a5ad6d2ae7eaa249654fb2f", "t": "displayIfNeeded()", "n": 495, "laws": 0, "ts": "2026-07-28 05:46 UTC"}
+{"id": "/documentation/appkit/nstoolbar/displaymode-swift.enum", "sha": "413395bcfc589c127e6b3da81f5a68acf90ae69ab93bd788d567967ff3514c68", "t": "NSToolbar.DisplayMode", "n": 288, "laws": 0, "ts": "2026-07-28 05:58 UTC"}

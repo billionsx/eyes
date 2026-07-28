@@ -141,3 +141,5 @@
 {"id": "/documentation/CoreData/accessing-data-when-the-store-changes", "law": "Alternatively, use the from another pinned context to align both contexts to the same generation."}
 {"id": "/documentation/CoreData/accessing-data-when-the-store-changes", "law": "Additionally, if you remove a store from the coordinator, don’t try to load data from the deleted store into a context."}
 {"id": "/documentation/CoreData/accessing-data-when-the-store-changes", "law": "Managed objects don’t automatically refresh, as this behavior may not be desirable and is difficult to revert."}
+{"id": "/documentation/CoreData/NSManagedObjectContext/save()", "law": "To commit changes to the external store, you must save changes in the chain of contexts up to and including the context whose parent is the persistent store coordinator."}
+{"id": "/documentation/CoreData/NSManagedObjectContext/save()", "law": "Always verify that the context has uncommitted changes (using the property) before invoking the method."}

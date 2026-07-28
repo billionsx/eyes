@@ -60,3 +60,7 @@
 {"id": "/documentation/swift/string/localizationvalue", "sha": "c35d2fd20f2b3f57f65bc0b8e481ad59190e150a4776d92236ccad342c7ce8f0", "t": "String.LocalizationValue", "n": 778, "laws": 2, "ts": "2026-07-27 18:59 UTC"}
 {"id": "/documentation/appintents/intentdonationmanager/shared", "sha": "9a38bb811ffe3e69019fdf796e939da127fe5d0e82d355273e6826fb2ad28af3", "t": "shared", "n": 171, "laws": 1, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/preferredmaximumsize", "sha": "ced4dabdef9de0a48b878316eb0605e6d7c76956208ca38b097e405d0ec83eda", "t": "preferredMaximumSize", "n": 366, "laws": 1, "ts": "2026-07-27 19:11 UTC"}
+{"id": "/documentation/appkit/nsgesturerecognizer/touchesended(with:)", "sha": "96f3cb503669cdde1376fd61e19a8b217e84509cc80c5cdb1f6401a04de70431", "t": "touchesEnded(with:)", "n": 91, "laws": 0, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nstouch/touchtype", "sha": "3edcde9ccacdd7162bc5e4f2d8049831e8cc354bb5fc160316ca6d7015452ddb", "t": "NSTouch.TouchType", "n": 157, "laws": 0, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nstextinsertionindicator/automaticmodeoptions-swift.struct", "sha": "d0a1fc36ec91f8d2d5a4e3edc18e1ad2c13a8fba7890f29098145a72d9aebbec", "t": "NSTextInsertionIndicator.AutomaticModeOptions", "n": 154, "laws": 0, "ts": "2026-07-28 05:51 UTC"}
+{"id": "/documentation/appkit/nstoolbar/sizemode-swift.property", "sha": "49385c090419d33be33b5a939fcf3c033aff9a220946b097b148196cbb65b3b0", "t": "sizeMode", "n": 160, "laws": 0, "ts": "2026-07-28 05:59 UTC"}

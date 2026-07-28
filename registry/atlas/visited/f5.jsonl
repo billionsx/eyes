@@ -53,3 +53,8 @@
 {"id": "/documentation/appintents/appschema/photosenum/albumtype", "sha": "6a326282389825516983ac62f74c364e1ccd73ef30dee1f96128a6ca0721b0cd", "t": "albumType", "n": 688, "laws": 1, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/appkit/nspagelayout", "sha": "350093c7d3a5a0215f34d89f2c76739ca22c6ff44ffea238467dad2dc09f7f91", "t": "NSPageLayout", "n": 693, "laws": 0, "ts": "2026-07-27 19:10 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/presentedviewcontrollers", "sha": "1d248689357d68c5fffae7c7ed88c0a164bf30bda6f249a876081518f72b245d", "t": "presentedViewControllers", "n": 247, "laws": 0, "ts": "2026-07-27 19:11 UTC"}
+{"id": "/documentation/appkit/nsview/acceptstouchevents", "sha": "7a19a18b657f170d546e54b866ffbac07d2d6038b79c228ad56e2bc08579a080", "t": "acceptsTouchEvents", "n": 339, "laws": 1, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nsdocument/autosave(withdelegate:didautosave:contextinfo:)", "sha": "b665fa8ae3b101c3f10811f8dac47bb6974a7a44cb78a1d88cccb855bd9fabe4", "t": "autosave(withDelegate:didAutosave:contextInfo:)", "n": 352, "laws": 1, "ts": "2026-07-28 05:39 UTC"}
+{"id": "/documentation/appkit/nsdocument/updatechangecount(withtoken:for:)", "sha": "be223fb932c02c0ac8749a3cf05d132fda3667c783273e05f1e0872f8c58d1b1", "t": "updateChangeCount(withToken:for:)", "n": 346, "laws": 0, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nstextview/usesfontpanel", "sha": "70b1acba62b420abb05e2410d8ce0d675fc9effa186cc780320723825e2c8cd3", "t": "usesFontPanel", "n": 375, "laws": 1, "ts": "2026-07-28 05:56 UTC"}
+{"id": "/documentation/appkit/nstoolbaritem/isenabled", "sha": "021a70910d2825e191dfb5201477eb616835aff5488aa1550f9c740b9c1e9e76", "t": "isEnabled", "n": 291, "laws": 0, "ts": "2026-07-28 05:59 UTC"}

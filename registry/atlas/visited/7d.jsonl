@@ -59,3 +59,10 @@
 {"id": "/documentation/Photos/PHAsset", "sha": "058e297e35784f43e6d65707bd84ff0c4c50cbb1d66fc2cc7ca0354acfa43106", "t": "PHAsset", "n": 2514, "laws": 2, "ts": "2026-07-27 19:05 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/children", "sha": "d9af10ec2d056d98989386b4bba4fd0962c213005fcd1ce59036d2158b1a5801", "t": "children", "n": 218, "laws": 0, "ts": "2026-07-27 19:11 UTC"}
 {"id": "/documentation/appkit/nspopovertouchbaritem/collapsedrepresentationimage", "sha": "b5e9d2d2ad3431cba7c224548c4ae6ae50415f4e3b9563431fd18eebbcf8045f", "t": "collapsedRepresentationImage", "n": 181, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsscrubberlayoutattributes", "sha": "9f8cb92dca66c2e69a5fe76d3e12ff4bca85575c02288880c6ced04bda9d98d5", "t": "NSScrubberLayoutAttributes", "n": 448, "laws": 2, "ts": "2026-07-28 05:35 UTC"}
+{"id": "/documentation/appkit/nsfont", "sha": "cb4cea2d6d59b6194c576e8cc4ec094d086246697c15dc7c88123d1958d66c3d", "t": "NSFont", "n": 2712, "laws": 2, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nswindow/didbecomekeymessage", "sha": "35dcf73513f1175438f82ea070aeb83580a5d4b9e8edccec9e237705d74137bd", "t": "NSWindow.DidBecomeKeyMessage", "n": 61, "laws": 0, "ts": "2026-07-28 05:45 UTC"}
+{"id": "/documentation/appkit/nswindow/isopaque", "sha": "6e03eacbe05ed33e8dbbd6fbface057455190d98b35ceae33c269e487e38312d", "t": "isOpaque", "n": 144, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nswindow/mergeallwindows(_:)", "sha": "e5587d980cf15782a5021af58d11570736eb31388a934697e6543cfe40ca73d7", "t": "mergeAllWindows(_:)", "n": 52, "laws": 0, "ts": "2026-07-28 05:47 UTC"}
+{"id": "/documentation/appkit/nswindow/setframe(_:display:animate:)", "sha": "2f9cdfc6fe7360d509191f2db40557f83436db015df0263fbb795d1b86105144", "t": "setFrame(_:display:animate:)", "n": 168, "laws": 0, "ts": "2026-07-28 05:49 UTC"}
+{"id": "/documentation/appkit/nsrefreshcontroller", "sha": "d1eedba8190a4284301a6546563c6dd0dfb5137e2f0aa3e3a1f5b7d561bc7a42", "t": "NSRefreshController", "n": 426, "laws": 0, "ts": "2026-07-28 06:00 UTC"}

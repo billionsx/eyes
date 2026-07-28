@@ -59,3 +59,7 @@
 {"id": "/documentation/swift/string/utf8", "sha": "6ff6d9fd63b1b82aff42c5981f59e7b0b10cb4af3e11d038a095b74e60548894", "t": "utf8", "n": 21, "laws": 0, "ts": "2026-07-27 19:00 UTC"}
 {"id": "/documentation/appintents/deprecated-symbols", "sha": "9bcb8c4e1a88a7fcfd132294d89b3b07adf11ba075ef624adfc8217f2617e0fd", "t": "Deprecated symbols", "n": 245, "laws": 0, "ts": "2026-07-27 19:01 UTC"}
 {"id": "/documentation/appintents/parametersummarydefaultcasecondition", "sha": "c9eee6b13b409a600071b34d467c2431567e43571d273e5123a5fe6c3de669f2", "t": "ParameterSummaryDefaultCaseCondition", "n": 126, "laws": 0, "ts": "2026-07-27 19:01 UTC"}
+{"id": "/documentation/appkit/nsresponder/scrollwheel(with:)", "sha": "7bf0739e74803ef6b3502121021a7871093c34e95a8703f20986040c86709a4d", "t": "scrollWheel(with:)", "n": 145, "laws": 0, "ts": "2026-07-28 05:33 UTC"}
+{"id": "/documentation/appkit/nsdocument/useractivity", "sha": "9fc683597687ba61135c777d80d1254d4ea2098534ad18ce90979aced50db680", "t": "userActivity", "n": 831, "laws": 1, "ts": "2026-07-28 05:41 UTC"}
+{"id": "/documentation/appkit/nstextview/isautomatictextcompletionenabled", "sha": "8106ae6765e5753724ceb43d3f7252bbf644e84f8c6a475cec8c864ad1f9a419", "t": "isAutomaticTextCompletionEnabled", "n": 107, "laws": 0, "ts": "2026-07-28 05:53 UTC"}
+{"id": "/documentation/appkit/nstreecontroller/addchild(_:)", "sha": "801c214dcf1d3547aeffaca6a0443e3232c98e8b014c3912cb24ab84bf832ec5", "t": "addChild(_:)", "n": 531, "laws": 0, "ts": "2026-07-28 06:04 UTC"}

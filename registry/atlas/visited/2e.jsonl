@@ -44,3 +44,8 @@
 {"id": "/documentation/swift/string/init(_:)-11jx3", "sha": "a6e9340dc1b9f4f1baba53ad4544e6e4a7bdea814ccdf667c6d1284e6b52dad1", "t": "init(_:)", "n": 112, "laws": 0, "ts": "2026-07-27 18:56 UTC"}
 {"id": "/documentation/appintents/setfocusfilterintenterror", "sha": "ce8885ce835de5b001203160d2db08c32fa7d71acecc907d0c08c5c1b7f66877", "t": "SetFocusFilterIntentError", "n": 200, "laws": 0, "ts": "2026-07-27 19:03 UTC"}
 {"id": "/documentation/appkit/nscandidatelisttouchbaritem", "sha": "85c525cad96b2bb6f1e27b6e322b363dce5fd0ea34258fbd3c95d82a3e9f85ae", "t": "NSCandidateListTouchBarItem", "n": 565, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsimage/touchbarpausetemplatename", "sha": "3badf415f88171aa8b65ef267633afa56f6af96f900704fd5687bbad98431877", "t": "touchBarPauseTemplateName", "n": 363, "laws": 2, "ts": "2026-07-28 05:37 UTC"}
+{"id": "/documentation/appkit/nsdocument/addwindowcontroller(_:)", "sha": "12446424d6891bfe60f089b96f8bd2c9ebcd7085138d6891b12011577f6cada9", "t": "addWindowController(_:)", "n": 885, "laws": 1, "ts": "2026-07-28 05:39 UTC"}
+{"id": "/documentation/appkit/nstextview/usesfindpanel", "sha": "56acafe2cf5325d507f8a2560742aa0a27a3e2b774902b8d9796e4c972312dfa", "t": "usesFindPanel", "n": 231, "laws": 2, "ts": "2026-07-28 05:56 UTC"}
+{"id": "/documentation/AppKit/NSApplication/AboutPanelOptionKey/credits", "sha": "839f921f46c8d3aaaf08bf11096ec9ae3d85b4d13c9b2cbd12507cc048890def", "t": "credits", "n": 377, "laws": 0, "ts": "2026-07-28 05:57 UTC"}
+{"id": "/documentation/appkit/nssplitviewitem/isspringloaded", "sha": "686153b225208c3256fb22fb854a79a0188477b377b5e7720d1340e1d6990b0b", "t": "isSpringLoaded", "n": 303, "laws": 0, "ts": "2026-07-28 06:04 UTC"}

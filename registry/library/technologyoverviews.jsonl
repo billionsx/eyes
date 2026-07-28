@@ -364,3 +364,5 @@
 {"id": "/documentation/technologyoverviews/adopting-liquid-glass", "law": "Ensure you test your app’s custom elements, colors, and animations with different configurations of these settings."}
 {"id": "/documentation/technologyoverviews/adopting-liquid-glass", "law": "Avoid overusing Liquid Glass effects."}
 {"id": "/documentation/technologyoverviews/adopting-liquid-glass", "law": "Keep elements centered to avoid clipping."}
+{"id": "/documentation/TechnologyOverviews/liquid-glass", "law": "Be judicious with your use of color in controls and navigation so they stay legible and allow your content to infuse them and shine through."}
+{"id": "/documentation/TechnologyOverviews/liquid-glass", "law": "Ensure interface elements fit in with software and hardware design across devices."}

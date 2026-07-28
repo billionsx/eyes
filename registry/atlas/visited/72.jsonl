@@ -48,3 +48,6 @@
 {"id": "/documentation/appintents/entityproperty/init(identifier:title:getsetter:)-3nt3a", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(identifier:title:getSetter:)", "n": 0, "laws": 0, "ts": "2026-07-27 06:26 UTC"}
 {"id": "/documentation/swift/string/istriviallyidentical(to:)", "sha": "9821fd55be1d53d1c73aaef9cbed649fd4f052419fcd88fe0dffe0341f81b73d", "t": "isTriviallyIdentical(to:)", "n": 690, "laws": 1, "ts": "2026-07-27 18:59 UTC"}
 {"id": "/documentation/GeoToolbox/PlaceDescriptor", "sha": "3d6cbf9b879a10ed3d3642cd78fbe46a9cab8bd76e65b813025c384ca421d0c9", "t": "PlaceDescriptor", "n": 1255, "laws": 4, "ts": "2026-07-27 19:05 UTC"}
+{"id": "/documentation/appkit/nstouchbar/init(coder:)", "sha": "a83101e91939859d0303246547f9f879ff8b32b26c1fac7a0e5620b19bfeaf98", "t": "init(coder:)", "n": 189, "laws": 0, "ts": "2026-07-28 05:36 UTC"}
+{"id": "/documentation/appkit/nstouchbaritem/priority", "sha": "ec9f014742179533f25cb9c838682aa9a65e0855212ec35f4a754d3c81d84860", "t": "NSTouchBarItem.Priority", "n": 289, "laws": 1, "ts": "2026-07-28 05:38 UTC"}
+{"id": "/documentation/appkit/nspasteboard/setstring(_:fortype:)", "sha": "00f35f8ef54dfccb50228bc4f1e0ae1736eaa6b6c497a35bf3b9851d635907e5", "t": "setString(_:forType:)", "n": 294, "laws": 0, "ts": "2026-07-28 05:58 UTC"}

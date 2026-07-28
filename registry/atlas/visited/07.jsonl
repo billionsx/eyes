@@ -46,3 +46,8 @@
 {"id": "/documentation/swift/string/init(contentsof:encoding:)", "sha": "e4bac45cf44b3067d4a07844b6e06019a802c143fa631f940b0d33dba4721244", "t": "init(contentsOf:encoding:)", "n": 94, "laws": 0, "ts": "2026-07-27 18:57 UTC"}
 {"id": "/documentation/swift/string/init(validatingutf8:)-208fn", "sha": "2c5a9b007fa65f86ed496ade5d0a5d6b8b0c19a5e8ee9b9f509051d8c06a6fd2", "t": "init(validatingUTF8:)", "n": 510, "laws": 0, "ts": "2026-07-27 18:58 UTC"}
 {"id": "/documentation/appkit/nscolorpickertouchbaritem/colorlist", "sha": "5b275ff5c1c15ef4ea558634406678bb7e2a92c7a832c20b14b6b53eb0d8e752", "t": "colorList", "n": 230, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsdocument/isdocumentedited", "sha": "0a64cb1fc9b675535b36a127eb547fa3dfc51cc9170c3889c83af6ef2da789c1", "t": "isDocumentEdited", "n": 230, "laws": 0, "ts": "2026-07-28 05:40 UTC"}
+{"id": "/documentation/appkit/nswindow/deepestscreen", "sha": "5d92cb54a1ff67a4e5ffb4385a73cfe36ba92e447dfffdac287c3f8130f00f0a", "t": "deepestScreen", "n": 149, "laws": 0, "ts": "2026-07-28 05:45 UTC"}
+{"id": "/documentation/appkit/nswindow/titlebarseparatorstyle", "sha": "3c532ff4adcfee4f326cd4690ee8395acff49bd6d26ceec88b6cf5f7b702ea2d", "t": "titlebarSeparatorStyle", "n": 177, "laws": 0, "ts": "2026-07-28 05:49 UTC"}
+{"id": "/documentation/appkit/nstextview/cleanupafterdragoperation()", "sha": "3cfb1cd4cb2cfaf8edd1350e62879cde9e05c2d2b0f4cc82f9d3b7ef11c47155", "t": "cleanUpAfterDragOperation()", "n": 277, "laws": 1, "ts": "2026-07-28 05:52 UTC"}
+{"id": "/documentation/swiftui/texteditor/init(text:selection:)", "sha": "036815ba37be9d78cd0549263f2c63d69a8ad08b69e841e675f4c28d596b7a47", "t": "init(text:selection:)", "n": 1149, "laws": 6, "ts": "2026-07-28 05:56 UTC"}

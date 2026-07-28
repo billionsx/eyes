@@ -63,3 +63,7 @@
 {"id": "/documentation/foundation/nspredicate", "sha": "3cf22be62416d6ef3f194ccc2043f009d793da1410ee540bfd56e09a84767efa", "t": "NSPredicate", "n": 1253, "laws": 1, "ts": "2026-07-27 19:10 UTC"}
 {"id": "/documentation/appkit/nsviewcontroller/removechild(at:)", "sha": "bf4265b8ab9a8d6b4470b7067cef5dc101f8f000a6dc7d2e6d7f2df3fcf70848", "t": "removeChild(at:)", "n": 324, "laws": 1, "ts": "2026-07-27 19:11 UTC"}
 {"id": "/documentation/appkit/nspopovertouchbaritem/pressandholdtouchbar", "sha": "ee5fc81702e53f19fad0a5a89eb2ef591e6ad8a6da16b102764b306635409e48", "t": "pressAndHoldTouchBar", "n": 354, "laws": 0, "ts": "2026-07-27 19:12 UTC"}
+{"id": "/documentation/appkit/nsevent/foreverduration", "sha": "aae77825cb9219f435385cee0595cc664891d39db8a14b2cb7421dec32bb0cb0", "t": "foreverDuration", "n": 35, "laws": 0, "ts": "2026-07-28 05:43 UTC"}
+{"id": "/documentation/appkit/nstextinputclient", "sha": "26387e3f74c61217025fa0cf87406119c50ccd5449ddbb922144e9ce1fdd0626", "t": "NSTextInputClient", "n": 1087, "laws": 0, "ts": "2026-07-28 05:51 UTC"}
+{"id": "/documentation/appkit/nstextview/smartinsert(afterstringfor:replacing:)", "sha": "85643d09a8a932021401d083368c5e89fce3217748baf4d35ee098a0bdbe22ca", "t": "smartInsert(afterStringFor:replacing:)", "n": 509, "laws": 2, "ts": "2026-07-28 05:55 UTC"}
+{"id": "/documentation/appkit/organize-your-user-interface-with-a-stack-view", "sha": "e516b72c699b97ddc2f0a618699f4379881d381c61ba621bac721a5646fc174c", "t": "Organize Your User Interface with a Stack View", "n": 2840, "laws": 6, "ts": "2026-07-28 06:01 UTC"}
