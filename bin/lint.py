@@ -78,6 +78,31 @@ def strip_comments(text: str, suffix: str) -> str:
 HEX = r"#[0-9A-Fa-f]{6}\b"
 BG_PROP = re.compile(r"(?:background|background-color)\s*:\s*(" + HEX + ")", re.I)
 SHADOW = re.compile(r"\b(?:box-shadow|text-shadow)\s*:\s*(?!\s*none)|drop-shadow\(", re.I)
+# AE2 разбирает ЗНАЧЕНИЕ тени по слоям. Запрет касается тени НАРУЖУ — она
+# подделывает глубину, которой на #000 в 217 кадрах нет. Слой `inset` рисует
+# не тень, а КРОМКУ материала: tokens.json §material определяет стекло как
+# «размытие+насыщение фона · верхний блик кромки · нижняя тень кромки ·
+# волосок», и в CSS верхний блик и нижняя кромка выражаются единственным
+# способом — `box-shadow: inset`. Правило, которое их ловит, ловит собственный
+# канон департамента. Поэтому: объявление красное, если хотя бы один его слой
+# НЕ inset; объявление целиком из inset-слоёв — кромка, не тень.
+SHADOW_DECL = re.compile(r"\b(box-shadow|text-shadow)\s*:\s*([^;{}]*)", re.I)
+DROPSHADOW = re.compile(r"drop-shadow\(", re.I)
+LAYER_SPLIT = re.compile(r",(?![^()]*\))")
+
+
+def _shadow_is_outer(value: str) -> bool:
+    """Есть ли в объявлении хоть один слой, рисующий тень НАРУЖУ."""
+    v = value.strip()
+    if not v or v.lower().startswith("none"):
+        return False
+    for layer in LAYER_SPLIT.split(v):
+        layer = layer.strip()
+        if layer and not layer.lower().startswith("inset"):
+            return True
+    return False
+
+
 RADIUS = re.compile(r"border-radius\s*:\s*([\d.]+)px", re.I)
 SUPER = re.compile(r"clip-path\s*:\s*path\(|corner-shape", re.I)
 LSPX = re.compile(r"letter-spacing\s*:\s*(-?[\d.]+)px", re.I)
@@ -131,7 +156,12 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                         findings.append(("AE1", rel, _line_of(t, m.start()),
                                          f"фон {c} вне лестницы поверхностей ({' → '.join(tokens['surfaces']['ladder'])})"))
             if "AE2" in rules:
-                for m in SHADOW.finditer(t):
+                for m in SHADOW_DECL.finditer(t):
+                    if not _shadow_is_outer(m.group(2)):
+                        continue
+                    findings.append(("AE2", rel, _line_of(t, m.start()),
+                                     "свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности"))
+                for m in DROPSHADOW.finditer(t):
                     findings.append(("AE2", rel, _line_of(t, m.start()),
                                      "свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности"))
             if "AE3" in rules:
