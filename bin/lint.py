@@ -101,7 +101,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     stack_head = tuple(s.lower() for s in tokens["typography"].get("font_stack_head", []))
     press_max = float(tokens.get("motion", {}).get("press_response_ms_max", 120))
 
-    findings, files_n = [], 0
+    findings, files_n, looked = [], 0, []
     first_long, has_prm = None, False
     for g in globs:
         for fp in sorted(glob.glob(str(project_root / g), recursive=True)):
@@ -112,6 +112,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             raw = p.read_text(encoding="utf-8", errors="replace")
             t = strip_comments(raw, p.suffix)
             rel = str(p.relative_to(project_root))
+            looked.append(rel)
 
             if "AE1" in rules:
                 for m in BG_PROP.finditer(t):
@@ -206,7 +207,8 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
         findings.append(("AE13", first_long[0], first_long[1],
                          "в охвате есть движение ≥%gms, но нет ни одного @media (prefers-reduced-motion) — Reduce Motion обязателен (HIG Motion)" % min_ms))
 
-    return {"mode": mode, "files": files_n, "findings": findings, "rules": rules}
+    return {"mode": mode, "files": files_n, "findings": findings,
+            "rules": rules, "paths": looked}
 
 
 def render(res: dict, adapter_name: str) -> str:

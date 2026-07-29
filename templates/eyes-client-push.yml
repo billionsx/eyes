@@ -1,0 +1,18 @@
+# BILLIONS X EYES · НАДЗОР ПО КОММИТАМ (файл кладётся В РЕПОЗИТОРИЙ ПРОЕКТА
+# как .github/workflows/eyes-watch.yml). Для проектов, которые пишут прямо
+# в ветку и не работают через pull request: департамент приходит на каждый
+# пуш и оставляет комментарий к коммиту с адресами находок.
+#
+# Ничего больше делать не нужно: ни submodule, ни GitHub App, ни секретов.
+# Сборку проекта департамент не роняет — находки это речь, а не вето.
+name: eyes-watch
+on:
+  push:
+    branches: [main]
+    paths: ["src/**"]                          # ← где лежит интерфейс
+jobs:
+  watch:
+    uses: billionsx/eyes/.github/workflows/eyes-watch-reusable.yml@main
+    with:
+      project: МОЙ-ПРОЕКТ                       # ← имя проекта
+      globs: "src/**/*.css,src/**/*.tsx"        # ← что смотреть

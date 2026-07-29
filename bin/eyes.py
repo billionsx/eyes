@@ -679,6 +679,15 @@ def cmd_selftest(root: Path) -> int:
                     12: ".later { box-shadow: 0 10px 30px rgba(0,0,0,.5); }"})
     check("пустой патч → пусто", review_mod.parse_added("") == {})
 
+    print("SELFTEST · служба M1-Б (надзор по коммитам)")
+    import watch as watch_mod
+    check("надзор: суд органа зелёный (отбор, порядок, честность области)",
+          watch_mod.selftest() == 0)
+    _diff = {"a.css": {5: "x"}}
+    _f = [("AE1", "a.css", 5, "в диффе"), ("AE2", "a.css", 6, "мимо диффа")]
+    check("ломаю → красный: тронутая строка названа; чиню → зелёный: нетронутая молчит",
+          [h["rule"] for h in watch_mod.pick_hits(_diff, _f)] == ["AE1"])
+
     print("SELFTEST · служба M2 (дифф базовой линии)")
     import monitor as mon
     oldf = [["example-com:AE10", "button", "Arial"], ["example-com:AE2", "div.gtab-bg", "чёрный drop"]]

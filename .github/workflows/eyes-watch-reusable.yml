@@ -1,0 +1,48 @@
+name: eyes-watch-reusable
+# НАДЗОР ПО КОММИТАМ (ст. 56 · M1-Б). Второй путь подключения — для проектов,
+# которые пишут прямо в ветку и не работают через pull request. Тогда M1
+# молчал бы вечно, и молчание читалось бы как чистота (ЗКН-Э001).
+#
+# Клиент кладёт себе 10 строк (templates/eyes-client-push.yml) и получает
+# на каждый пуш комментарий к коммиту: находки с адресами файл:строка.
+# Ни submodule, ни GitHub App, ни секретов.
+#
+# Департамент не роняет чужую сборку: находки — речь, а не вето. Право вето
+# живёт в strict-гейтах паспорта и включается решением основателя (ст. 7.4).
+on:
+  workflow_call:
+    inputs:
+      globs:
+        description: "CSV-глобы файлов клиента (например src/**/*.css,src/**/*.tsx)"
+        required: true
+        type: string
+      project:
+        description: "Имя проекта клиента"
+        required: false
+        type: string
+        default: "client"
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: billionsx/eyes
+          path: __eyes
+          sparse-checkout: |
+            bin
+            adapters
+            registry/standards
+      - name: "BXE · надзор по коммиту, по измеренным законам"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EYES_BEFORE: ${{ github.event.before }}
+          EYES_AFTER: ${{ github.sha }}
+          PROJECT_ROOT: .
+          EYES_CLIENT_GLOBS: ${{ inputs.globs }}
+          EYES_CLIENT_PROJECT: ${{ inputs.project }}
+        run: python3 __eyes/bin/watch.py

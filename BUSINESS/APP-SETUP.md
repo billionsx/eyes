@@ -18,6 +18,10 @@ jobs:
 Ограничение пути А: repo с reusable-workflow должен быть публичным (наш —
 публичный) — выполняется.
 
+**Клиент без PR** (пишет прямо в ветку) кладёт вместо этого файла
+`.github/workflows/eyes-watch.yml` из `templates/eyes-client-push.yml` —
+надзор придёт на каждый пуш и оставит комментарий к коммиту (ст. 57.1).
+
 ## Путь Б — GitHub App (установка в 1 клик, биллинг, приватность)
 1. Открой **https://github.com/settings/apps/new** (или в организации:
    Settings → Developer settings → GitHub Apps → New GitHub App).
