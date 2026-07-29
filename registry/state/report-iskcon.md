@@ -1,7 +1,7 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 327
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 221
 
-## AE1 · 14
+## AE1 · 7
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:203` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:233` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -9,20 +9,13 @@
 - `apps/web/src/music/music.css:254` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:412` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:490` — фон #232325 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:203` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:233` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:244` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:254` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:412` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:490` — фон #232325 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 
 ## AE10 · 3
 - `apps/web/src/ui/globals.css:26` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
 - `apps/web/src/ui/globals.css:32` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
 - `apps/web/src/ui/globals.css:38` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
 
-## AE11 · 83
+## AE11 · 46
 - `apps/web/src/music/music.css:41` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:98` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:145` — border-radius 5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -61,45 +54,8 @@
 - `apps/web/src/music/music.css:583` — border-radius 4.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:613` — border-radius 40px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:617` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:41` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:98` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:145` — border-radius 5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:156` — border-radius 3.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:162` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:173` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:177` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:197` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:208` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:219` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:233` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:243` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:254` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:262` — border-radius 6px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:268` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:282` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:299` — border-radius 26px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:346` — border-radius 7px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:358` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:365` — border-radius 22.3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:398` — border-radius 28px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:422` — border-radius 40px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:425` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:453` — border-radius 19.2px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:455` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:456` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:464` — border-radius 7px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:469` — border-radius 3.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:470` — border-radius 3.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:477` — border-radius 3.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:478` — border-radius 3.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:485` — border-radius 40px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:490` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:542` — border-radius 40px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:579` — border-radius 5.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:583` — border-radius 4.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:613` — border-radius 40px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:617` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/play.css:651` — border-radius 17.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/play/play.css:18` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/play/play.css:26` — border-radius 17.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:936` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:961` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:989` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -107,7 +63,7 @@
 - `apps/web/src/ui/globals.css:1282` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/main.tsx:198` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 
-## AE2 · 55
+## AE2 · 35
 - `apps/web/src/music/music.css:55` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/music/music.css:95` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/music/music.css:101` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
@@ -128,26 +84,6 @@
 - `apps/web/src/music/music.css:491` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/music/music.css:576` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/music/music.css:615` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:55` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:95` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:101` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:233` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:243` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:302` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:344` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:362` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:375` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:390` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:398` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:427` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:431` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:445` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:449` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:455` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:456` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:491` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:576` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/play/play.css:615` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/ui/globals.css:624` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/ui/globals.css:643` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/ui/globals.css:648` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
@@ -166,9 +102,9 @@
 
 ## AE3 · 2
 - `apps/web/src/music/music.css:41` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
-- `apps/web/src/play/play.css:41` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/play/play.css:26` — border-radius 17.5px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 
-## AE4 · 43
+## AE4 · 23
 - `apps/web/src/music/music.css:82` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:112` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:187` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
@@ -189,31 +125,11 @@
 - `apps/web/src/music/music.css:457` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:618` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:619` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:69` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:82` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:112` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:187` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:213` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:229` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:237` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:241` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:242` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:249` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:270` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:283` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:284` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:311` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:394` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:399` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:403` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:428` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:457` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:618` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:619` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/play/play.css:650` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/play/play.css:17` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/play/play.css:25` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/ui/globals.css:1084` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 
-## AE7 · 16
+## AE7 · 8
 - `apps/web/src/music/music.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:440` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
@@ -222,16 +138,8 @@
 - `apps/web/src/music/music.css:449` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:440` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:440` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:449` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:449` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
-- `apps/web/src/play/play.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 
-## AE8 · 68
+## AE8 · 61
 - `apps/web/src/music/music.css:421` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:455` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:470` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -239,13 +147,6 @@
 - `apps/web/src/music/music.css:523` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:549` — движение 280ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:581` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/play/play.css:421` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/play/play.css:455` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/play/play.css:470` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/play/play.css:479` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/play/play.css:523` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/play/play.css:549` — движение 280ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/play/play.css:581` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/ui/globals.css:534` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/ui/globals.css:551` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/ui/globals.css:1070` — движение 280ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -301,7 +202,7 @@
 - `apps/web/src/shop/CartScreen.tsx:209` — движение 240ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/ui/nav4.tsx:187` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 
-## AE9 · 43
+## AE9 · 36
 - `apps/web/src/music/music.css:114` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:248` — opacity 0.92 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:250` — opacity 0.94 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
@@ -309,13 +210,6 @@
 - `apps/web/src/music/music.css:588` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:608` — opacity 0.35 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:641` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/play/play.css:114` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/play/play.css:248` — opacity 0.92 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/play/play.css:250` — opacity 0.94 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/play/play.css:570` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/play/play.css:588` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/play/play.css:608` — opacity 0.35 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/play/play.css:641` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/ui/globals.css:976` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/ui/globals.css:985` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/ui/globals.css:1014` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
