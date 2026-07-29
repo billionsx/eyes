@@ -1,66 +1,97 @@
 # BIG7 · бриф недели 2026-W31
-Кафедра: McKinsey · BCG · Bain · Deloitte · PwC · EY · KPMG. Новые положения: хвост добычи (40 последних записей — ts появится со следующего урожая).
+Кафедра: McKinsey · BCG · Bain · Deloitte · PwC · EY · KPMG. Новые положения: по полю ts (неделя).
 Каждое положение — дословно словами фирмы, адрес page:.
 
-## bcg · 10
-- «Asset management firms need to go beyond performance when it comes to providing best-in-class client experience and asset management services.»  
-  `page:https://www.bcg.com/industries/financial-institutions/asset-management`
-- «Our expertise spans both retail banking and wholesale banking, providing the support that banking leaders need to accelerate performance, capture opportunity, and create value from AI.»  
-  `page:https://www.bcg.com/industries/financial-institutions/banking`
-- «But as markets become more informed and faster paced, fintechs must display new levels of organizational and operational maturity.»  
-  `page:https://www.bcg.com/industries/financial-institutions/fintech`
-- «To capture this growth, incumbents will need to overcome the tough competitive landscape, where nontraditional players are jostling with banks and payments service providers to become the issuer, provider, processor, or partner of choice for customers.»  
-  `page:https://www.bcg.com/industries/financial-institutions/transaction-banking`
-- «Clear communication is paramount: wealth clients want to know exactly what they’re paying for, while firms need to better understand how much clients are willing to pay.»  
-  `page:https://www.bcg.com/industries/financial-institutions/wealth-management`
-- «To thrive in the face of change—and in the postpandemic world—health care industry leaders need to reimagine their strategies, value propositions, and organizational capabilities.»  
-  `page:https://www.bcg.com/industries/health-care/overview`
+## bain · 5
+- «Article Jul 7, 2026 Enterprise Technology Resilience by Design: Preparing Your AI Stack for an Era of Uncertainty As access to critical AI capabilities becomes less predictable, companies need to rethink how they design, operate, and govern their AI stacks.»  
+  `page:https://www.bain.com/insights/`
+- «Dezember 2024 Private Equity Private Equity in 2019: Strong Deal Activity Despite Worsening Macro Conditions With valuations so high, funds must find other levers to drive returns.»  
+  `page:https://www.bain.com/de/publikationen/`
+- «Article lug 7, 2026 AI, Insights, and Solutions Resilience by Design: Preparing Your AI Stack for an Era of Uncertainty As access to critical AI capabilities becomes less predictable, companies need to rethink how they design, operate, and govern their AI stacks.»  
+  `page:https://www.bain.com/it/insights/`
+- «Innovation is our norm and doing what’s right is a must.»  
+  `page:https://www.bain.com/offices/bogota/`
+- «Interactive Brief Full Potential Oil Reﬁning in a Challenging Environment Reﬁners have enjoyed comparatively good times as the rest of the oil industry suffered, but they should prepare for a more competitive season ahead.»  
+  `page:https://www.bain.com/offices/bogota/`
 
-## deloitte · 2
-- «Get access to the latest in-depth reports, articles, videos, podcasts, and more on the topics you need to know.»  
-  `page:https://www.deloitte.com/us/en/insights/deloitte-insights-magazine.html`
-- «juscook@deloitte.com +1 617 437 2071 My Deloitte Subscribe to receive personalized content Don't miss out on the information you need to lead.»  
-  `page:https://www.deloitte.com/us/en/insights/research-centers/consumer-industry-center/food.html`
+## bcg · 15
+- «Since the bets are big, companies need to evaluate prospects and make their investments count.»  
+  `page:https://www.bcg.com/industries/health-care/oncology-solutions`
+- «Regardless of their specific industrial sector—chemicals, construction, machinery, and the like—these companies must think beyond their traditional business and operating models to choose where and how to create value in the future.»  
+  `page:https://www.bcg.com/industries/industrial-goods/overview`
+- «Sustainability Decarbonization in chemicals is rapidly becoming an imperative for the chemical industry.»  
+  `page:https://www.bcg.com/industries/industrial-goods/chemicals`
+- «Each one must adapt to thrive in a challenging environment, with digital communications overpowering print media, pressure to cut costs through optimized operations, and intense attention focused on sustainable business practices and environmental stewardship.»  
+  `page:https://www.bcg.com/industries/industrial-goods/forest-products-paper-packaging`
+- «First, their products must enable other industrial companies to become highly automated, digital, and sustainable businesses.»  
+  `page:https://www.bcg.com/industries/industrial-goods/machinery-industrial-automation`
+- «Learn More Metals and Mining Industry Article February 23, 2026 Great Company, Great Stocks: Miners Must Be Both Mining companies are generating attractive cash flow and reduced leverage.»  
+  `page:https://www.bcg.com/industries/industrial-goods/metals-mining`
 
-## ey · 13
-- «Strategic change focusing on financial and business restructuring or turnaround must be implemented with speed and certainty.»  
-  `page:https://www.ey.com/en_gl/services/strategy/restructuring-turnaround-strategy`
-- «We offer the support you need to meet your key challenges: What are the sustainability and ESG trends that will impact my business?»  
-  `page:https://www.ey.com/en_gl/services/strategy-transactions/sustainability-esg-strategy`
-- «EY Global Five generative AI initiatives leaders should pursue now Learn how to move beyond quick efficiency gains to a cohesive AI strategy that maximizes your growth potential in a fast-changing space.»  
-  `page:https://www.ey.com/en_gl/services/strategy-transactions/sustainability-esg-strategy`
-- «Dan Diasio + 1 ESG and access to capital: Why insurers must stay focused on ratings As ESG funds continue to grow their assets under management, insurers with sub-par ESG scores risk losing a key source of capital.»  
-  `page:https://www.ey.com/en_gl/services/strategy-transactions/sustainability-esg-strategy`
-- «Nigel Moden + 1 Five generative AI initiatives leaders should pursue now Learn how to move beyond quick efficiency gains to a cohesive AI strategy that maximizes your growth potential in a fast-changing space.»  
-  `page:https://www.ey.com/en_gl/services/strategy/ai-strategy-consulting-mergers-acquisitions`
-- «In this complex and ever-evolving environment, consumer companies must shift their focus from protecting what they have, to creating what they need to become.»  
-  `page:https://www.ey.com/en_gl/services/strategy/industry-strategy`
+## deloitte · 5
+- «AI trust and data integrity in hiring Function reinvention in the age of AI Deloitte Insights Magazine Advancing the AI conversation Issue 33 Artificial intelligence has gone from a fringe technology to what many consider to be must-have, market-making and -shaping tech.»  
+  `page:https://www.deloitte.com/us/en/insights.html`
+- «advashishtha@deloitte.com My Deloitte Subscribe to receive personalized content Don't miss out on the information you need to lead.»  
+  `page:https://www.deloitte.com/us/en/insights/research-centers/center-for-integrated-research/environmental-and-social-issues.html`
+- «abarua@deloitte.com +1 678 299 9766 My Deloitte Subscribe to receive personalized content Don't miss out on the information you need to lead.»  
+  `page:https://www.deloitte.com/us/en/insights/research-centers/economics/consumer-spending.html`
+- «dchhugani@deloitte.com My Deloitte Subscribe to receive personalized content Don't miss out on the information you need to lead.»  
+  `page:https://www.deloitte.com/us/en/insights/research-centers/economics/housing.html`
+- «elhung@deloitte.com My Deloitte Subscribe to receive personalized content Don't miss out on the information you need to lead.»  
+  `page:https://www.deloitte.com/us/en/insights/industry/aerospace-defense.html`
 
-## kpmg · 3
-- «Learn more Explore our Client Stories Discover our perspectives across key areas Whether you are transacting or transforming, you need to ensure you are capturing all the value you can from your assets and investments.»  
-  `page:https://kpmg.com/xx/en.html`
-- «</p>\r\n"}}"> call_made Value creation Whether you are transacting or transforming, you need to ensure you are capturing all the value you can from your assets and investments.»  
-  `page:https://kpmg.com/xx/en.html`
-- «Read more Trust, attitudes and use of artificial intelligence: A global study 2025 This study offers a data-driven view of where leadership focus, strategic investment and workforce enablement are most urgently needed and how rising public expectations for strong AI regulation and governance need to be addressed.»  
-  `page:https://kpmg.com/xx/en/our-insights/ai-and-technology.html`
+## ey · 41
+- «We offer the support you need to achieve your objectives across the following areas: Read More Read Less Capital allocation services \r\n<li>Capital allocation is the assessment, planning, review and prioritization of the use of financial resources across an organization.»  
+  `page:https://www.ey.com/en_gl/services/strategy-transactions/corporate-finance`
+- «Amid increasingly volatile business environments, your company must learn to adapt processes and harness technology to efficiently generate accurate forecasts.»  
+  `page:https://www.ey.com/en_gl/services/strategy-transactions/corporate-finance`
+- «Our business modeling professionals also help clients carry out the model review, model support and model-build activities our clients need to make key decisions and improve strategic outcomes.»  
+  `page:https://www.ey.com/en_gl/services/strategy-transactions/valuation-modeling-economics`
+- «Board members need to be diligent, objective and transparent when they evaluate a merger, acquisition, divestiture or other material transaction.»  
+  `page:https://www.ey.com/en_gl/services/strategy-transactions/valuation-modeling-economics`
+- «Private Equity investors must assess not only how a target company uses AI today but also its readiness to react to AI-driven disruption to protect its business and capture growth opportunities.»  
+  `page:https://www.ey.com/en_gl/services/strategy-transactions/mergers-acquisitions-due-diligence`
+- «EY Global Why CFOs should steer strategy and innovation beyond the balance sheet Learn how CFOs are transforming finance with strategic vision, technology adoption and innovation to drive business success and enhance performance.»  
+  `page:https://www.ey.com/en_gl/services/consulting`
 
-## pwc · 12
-- «You need to navigate shifting regulations as you drive operational efficiency.»  
-  `page:https://www.pwc.com/gx/en/industries/energy-utilities-resources/chemicals.html`
-- «You need to adopt sustainable practices as you deliver the high-quality products people and businesses rely on.»  
-  `page:https://www.pwc.com/gx/en/industries/energy-utilities-resources/chemicals.html`
-- «Shift focus to the customer You need to become more customer––and application––centric.»  
-  `page:https://www.pwc.com/gx/en/industries/energy-utilities-resources/chemicals.html`
-- «At the same time, energy costs are up, markets are in flux and value opportunities are shifting—mining companies must adapt.»  
-  `page:https://www.pwc.com/gx/en/industries/energy-utilities-resources/mining-metals.html`
-- «Renewables and green molecules The shift to renewables and ‘green molecules’, such as hydrogen, is accelerating—but so is the need to decarbonise existing fossil fuel operations.»  
-  `page:https://www.pwc.com/gx/en/industries/energy-utilities-resources/oil-gas-energy.html`
-- «Investment strategies must evolve to balance efficiency, affordability and sustainability without leaving traditional assets behind.»  
-  `page:https://www.pwc.com/gx/en/industries/energy-utilities-resources/oil-gas-energy.html`
+## kpmg · 9
+- «Search terms must include 3 or more characters.»  
+  `page:https://kpmg.com/xx/en/our-insights.html`
+- «Previous search terms close Cancel Home Our Insights Value Creation Value Creation Whether you are transacting or transforming, you need to ensure you are capturing all the value you can from your assets and investments.»  
+  `page:https://kpmg.com/xx/en/our-insights/value-creation.html`
+- «Read more KPMG global tech report: Private enterprise insights Why the private organizations should tackle legacy issues and shake off short-termism to reach their full potential.»  
+  `page:https://kpmg.com/xx/en/what-we-do/industries/private-enterprise.html`
+- «Read more From a rapidly evolving technology landscape, to new tax policy developments, geopolitical change, economic fluctuations, and new ways of work, the need to transform the tax function is more important than ever.»  
+  `page:https://kpmg.com/xx/en/what-we-do/services.html`
+- «Equal parts technical specialist, brand ambassador and trusted advisor, tax teams must embrace digital transformation to help drive responsible tax and secure sustainable strategies throughout the business and across borders.»  
+  `page:https://kpmg.com/xx/en/what-we-do/services/tax.html`
+- «KPMG & Workday: Navigating the changing marketplace with strategic workforce planning Ken Reid, Global Head of Alliances, KPMG and Doug Robinson, Co-President, Workday discuss strategic workforce planning in today’s rapidly changing marketplace and what organizations should consider to stay ahead.»  
+  `page:https://kpmg.com/xx/en/what-we-do/alliances.html`
+
+## pwc · 24
+- «The built environment needs to create space for the change.»  
+  `page:https://www.pwc.com/gx/en/industries/financial-services/real-estate.html`
+- «Organisations must integrate emerging tech, modernise procurement and rethink workforce strategies to maintain their operational edge.»  
+  `page:https://www.pwc.com/gx/en/industries/government-public-sector/defence.html`
+- «Empower your workforce The defence sector must compete for top talent.»  
+  `page:https://www.pwc.com/gx/en/industries/government-public-sector/defence.html`
+- «Health systems must expand their focus—integrating primary care, home health, consumer tech and digital platforms.»  
+  `page:https://www.pwc.com/gx/en/industries/healthcare.html`
+- «Organisations must anticipate and manage threats related to technology, regulation and operational security.»  
+  `page:https://www.pwc.com/gx/en/industries/healthcare.html`
+- «Treatments need to be more personalised, preventative and digital.»  
+  `page:https://www.pwc.com/gx/en/industries/pharmaceuticals-life-sciences.html`
 
 ## Движение рамок за неделю
-- снимка прошлой недели не было — зафиксирован текущий (движение появится со следующего брифа)
+- Цепочка ценности: +49 (всего 74)
+- RAPID: +48 (всего 96)
+- ZBB: +30 (всего 59)
+- Кривая опыта: +3 (всего 4)
+- Матрица рост-доля: +3 (всего 4)
+- NPS: +1 (всего 1)
+- Flywheel: +1 (всего 2)
 
 ## Вопросы к продукту (канонические вопросы выросших рамок)
 - **RAPID** — по ключевым решениям недели — кто R·A·P·I·D? нет ли решений без Decide?
 - **ZBB** — какие статьи расходов проекта собрать с нуля, а не от прошлого месяца?
+- **NPS** — что сказали бы промоутеры и детракторы про последний релиз?
