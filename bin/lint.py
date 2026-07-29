@@ -104,6 +104,42 @@ def _shadow_is_outer(value: str) -> bool:
 
 
 RADIUS = re.compile(r"border-radius\s*:\s*([\d.]+)px", re.I)
+
+# ─────────────────── контекст объявления (заголовки блоков) ───────────────────
+# Правила ниже смотрят НЕ на свойство, а на блок, в котором оно стоит: одно и то
+# же свойство законно в одном контексте и незаконно в другом. Текст сюда приходит
+# уже без комментариев (strip_comments сохраняет смещения), поэтому фигурные
+# скобки в тексте — настоящие.
+LIGHT_SCOPE = re.compile(
+    r"""data-theme\s*=\s*['"]?light|prefers-color-scheme\s*:\s*light""", re.I)
+
+
+def _enclosing_headers(text: str, pos: int) -> list:
+    """Заголовки всех блоков, внутрь которых попадает позиция (снаружи внутрь)."""
+    headers, stack, start = [], [], 0
+    for m in re.finditer(r"[{}]", text):
+        if m.start() >= pos:
+            break
+        if m.group() == "{":
+            stack.append(text[start:m.start()])
+            start = m.end()
+        else:
+            if stack:
+                stack.pop()
+            start = m.end()
+    return [h.strip().replace("\n", " ") for h in stack]
+
+
+def _in_font_face(text: str, pos: int) -> bool:
+    """Стоит ли объявление внутри @font-face."""
+    return any(h.lower().lstrip().endswith("@font-face") or "@font-face" in h.lower()
+               for h in _enclosing_headers(text, pos))
+
+
+def _in_light_scope(text: str, pos: int) -> bool:
+    """Объявление адресовано СВЕТЛОЙ теме."""
+    return any(LIGHT_SCOPE.search(h) for h in _enclosing_headers(text, pos))
+
 SUPER = re.compile(r"clip-path\s*:\s*path\(|corner-shape", re.I)
 LSPX = re.compile(r"letter-spacing\s*:\s*(-?[\d.]+)px", re.I)
 FSIZE = re.compile(r"font-size\s*:\s*([\d.]+)px", re.I)
@@ -159,9 +195,18 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                 for m in SHADOW_DECL.finditer(t):
                     if not _shadow_is_outer(m.group(2)):
                         continue
+                    # Запрет AE2 — про ЧЁРНЫЙ холст (в 217 кадрах теней на #000
+                    # нет). Департамент уже проводит эту границу на живом проде
+                    # (selftest: «чёрный drop в light — не AE2, в dark — AE2»).
+                    # Когда селектор САМ называет светлую тему, холст известен
+                    # статически, и файловое правило обязано судить так же.
+                    if _in_light_scope(t, m.start()):
+                        continue
                     findings.append(("AE2", rel, _line_of(t, m.start()),
                                      "свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности"))
                 for m in DROPSHADOW.finditer(t):
+                    if _in_light_scope(t, m.start()):
+                        continue
                     findings.append(("AE2", rel, _line_of(t, m.start()),
                                      "свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности"))
             if "AE3" in rules:
@@ -211,6 +256,13 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                 for m in FFAM.finditer(t):
                     v = m.group(1).strip().strip("'\"").lower()
                     if v.startswith(("var(", "inherit", "monospace")):
+                        continue
+                    # Внутри @font-face `font-family` — это ИМЯ подключаемой
+                    # гарнитуры, а не стек ролей. Системный стек здесь не просто
+                    # не нужен, он синтаксически бессмыслен: описывается файл
+                    # шрифта. Правило про первую позицию стека к дескриптору
+                    # @font-face не относится.
+                    if _in_font_face(t, m.start()):
                         continue
                     if stack_head and not v.startswith(stack_head):
                         findings.append(("AE10", rel, _line_of(t, m.start()),
