@@ -65,3 +65,6 @@
 {"id": "/documentation/audiotoolbox/auparametervaluetolinear(_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUParameterValueToLinear(_:_:)", "n": 0, "laws": 0, "ts": "2026-07-29 05:45 UTC"}
 {"id": "/documentation/audiotoolbox/auaudiounit/intendedspatialexperience-7uqrm", "sha": "56723c1d4ae41f04c592cc7db927d8bc377765dcd1916c386642a4f46b62cd7a", "t": "intendedSpatialExperience", "n": 189, "laws": 0, "ts": "2026-07-29 05:48 UTC"}
 {"id": "/documentation/authenticationservices/aspasswordcredential/user", "sha": "455499b95bcce8318f4c61c34500df1ab70b9252bef906f38e7c23779e816076", "t": "user", "n": 42, "laws": 0, "ts": "2026-07-29 05:54 UTC"}
+{"id": "/documentation/UIKit/UINavigationBar", "sha": "c1369257a96372ae2743ad41eeb0b509ca52838efb5b79634299935a820afac5", "t": "UINavigationBar", "n": 7266, "laws": 10, "ts": "2026-07-29 18:39 UTC"}
+{"id": "/documentation/uikit/uiapplication/canopenurl(_:)", "sha": "c7e54b821c73fb65fd53c610b73402c55177d52f4e3415c9dbb9b79d2562bc51", "t": "canOpenURL(_:)", "n": 1904, "laws": 0, "ts": "2026-07-29 18:40 UTC"}
+{"id": "/documentation/uikit/uiapplicationdelegate/applicationwillresignactive(_:)", "sha": "252aa012891d89492769b7f449731c2c02fe169947a9b95f23e276de1da016ce", "t": "applicationWillResignActive(_:)", "n": 1415, "laws": 2, "ts": "2026-07-29 18:42 UTC"}

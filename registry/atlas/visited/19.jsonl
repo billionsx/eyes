@@ -61,3 +61,4 @@
 {"id": "/documentation/audiotoolbox/auparameterlistenerref", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUParameterListenerRef", "n": 0, "laws": 0, "ts": "2026-07-29 05:45 UTC"}
 {"id": "/documentation/audiotoolbox/kaudiounittype_musiceffect", "sha": "6005589055b443faeee45162f55d2250c031ead71e7ef02cdf76956731c7e0ba", "t": "kAudioUnitType_MusicEffect", "n": 151, "laws": 0, "ts": "2026-07-29 05:51 UTC"}
 {"id": "/documentation/carplay/cplanestatus", "sha": "140b7e59da144220842e033c1113717535198cedfb2cb91539a5eeb596bea6eb", "t": "CPLaneStatus", "n": 174, "laws": 0, "ts": "2026-07-29 06:06 UTC"}
+{"id": "/documentation/accessibility/axopensettingsfeature", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AXOpenSettingsFeature", "n": 0, "laws": 0, "ts": "2026-07-29 18:15 UTC"}

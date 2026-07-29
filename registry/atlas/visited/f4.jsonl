@@ -64,3 +64,6 @@
 {"id": "/documentation/audiotoolbox/auparameterlistenerproc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUParameterListenerProc", "n": 0, "laws": 0, "ts": "2026-07-29 05:45 UTC"}
 {"id": "/documentation/MarketplaceKit/MarketplaceKitURIScheme", "sha": "8a1ca66ecb97ebc48bb1c980423eb62e3a686ecd255caa5f3f846fc954a2b52a", "t": "MarketplaceKitURIScheme", "n": 862, "laws": 0, "ts": "2026-07-29 06:00 UTC"}
 {"id": "/documentation/carplay/cpgridtemplate", "sha": "5711f88cff367a2d15148f9ab8fc8daba0c5d640a5bb4dae16610fa440b184c1", "t": "CPGridTemplate", "n": 778, "laws": 1, "ts": "2026-07-29 06:03 UTC"}
+{"id": "/documentation/Xcode/resetting-access-to-protected-resources-in-macOS", "sha": "66c40785bf535c66571fe11807cff67a4118fdeca4f33e48db4bd43a93000a25", "t": "Resetting access to protected resources in macOS", "n": 1820, "laws": 0, "ts": "2026-07-29 18:21 UTC"}
+{"id": "/documentation/widgetkit/widgetpreviewcontext", "sha": "17f1df4514638ea5e05d83a48b97feb595eeff7c99681f1de2db2a6b8e414a36", "t": "WidgetPreviewContext", "n": 200, "laws": 0, "ts": "2026-07-29 18:23 UTC"}
+{"id": "/documentation/uikit/uiimagepickercontroller/qualitytype", "sha": "0348825372125c8582a4fdadf28a8e28cfe2749202f49ee37e4d874495c900f8", "t": "UIImagePickerController.QualityType", "n": 860, "laws": 0, "ts": "2026-07-29 18:38 UTC"}

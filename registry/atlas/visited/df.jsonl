@@ -84,3 +84,7 @@
 {"id": "/documentation/backgroundtasks/bgtaskscheduler", "sha": "c6f34f698cadc48fdee85d5a031a6054a3e5e751973354f654603b6fbcf6601e", "t": "BGTaskScheduler", "n": 823, "laws": 0, "ts": "2026-07-29 05:59 UTC"}
 {"id": "/documentation/browserenginekit/browserenginekit_has_uiinteraction", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "BROWSERENGINEKIT_HAS_UIINTERACTION", "n": 0, "laws": 0, "ts": "2026-07-29 06:01 UTC"}
 {"id": "/documentation/callkit/cxerror/code", "sha": "04bbc471f8542712739fe76f3639e52bea7ca266b1573d273303611618268a20", "t": "CXError.Code", "n": 224, "laws": 0, "ts": "2026-07-29 06:02 UTC"}
+{"id": "/documentation/xcode/running-your-app-on-simulated-or-physical-devices", "sha": "5313cdef516bead30165e0eb9f01b5fb821905e07620878b54fcd7d1b271403d", "t": "Running your app on simulated or physical devices", "n": 4283, "laws": 1, "ts": "2026-07-29 18:17 UTC"}
+{"id": "/documentation/uikit/uiswitch/ison", "sha": "fd27866ca90b7c14ffcb009e0a328753cbb815cade10e7c388458b06772a7b7c", "t": "isOn", "n": 212, "laws": 0, "ts": "2026-07-29 18:28 UTC"}
+{"id": "/documentation/UIKit/UIScrollView", "sha": "b45492e1491f9aa03c847071f6d411c915bc8f75833e545fa7ca3a0c1cddd513", "t": "UIScrollView", "n": 5086, "laws": 0, "ts": "2026-07-29 18:35 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/ishidden", "sha": "ad38fec2010c0bddca594c0e53a3a740d105ba9f901f7196237dee099771d1d3", "t": "isHidden", "n": 130, "laws": 0, "ts": "2026-07-29 18:36 UTC"}

@@ -78,3 +78,4 @@
 {"id": "/documentation/browserenginekit/beaccessibilityremotehostelement", "sha": "004d8fc09c2cd38f00a64b350df22ab38c328bb8ccc26fe22facaf22c35e49f2", "t": "BEAccessibilityRemoteHostElement", "n": 846, "laws": 1, "ts": "2026-07-29 06:01 UTC"}
 {"id": "/documentation/carplay/cplane", "sha": "27471d935c1c8425f81d977531186288aaae5e02fd9a2212a4ec2ad1ec1ba83f", "t": "CPLane", "n": 290, "laws": 0, "ts": "2026-07-29 06:05 UTC"}
 {"id": "/documentation/carplay/cpbarbuttonproviding/leadingnavigationbarbuttons", "sha": "b029bd2592ea5d35b3b8c0b6a0a7b9c74a4a601010f6d8190240330190b1952f", "t": "leadingNavigationBarButtons", "n": 258, "laws": 0, "ts": "2026-07-29 06:08 UTC"}
+{"id": "/documentation/uikit/uisplitviewcontroller", "sha": "d419f42e1cc415e0f15aa75837c93041b35e23c32aca7dafb9c9a98f478074c6", "t": "UISplitViewController", "n": 10300, "laws": 3, "ts": "2026-07-29 18:32 UTC"}

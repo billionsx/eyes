@@ -59,3 +59,4 @@
 {"id": "/documentation/coreaudiokit/auaudiounitviewconfiguration/width", "sha": "81355582069c1ab6c2badfef3606bff05d898bc955edd5983a435f639d06b047", "t": "width", "n": 21, "laws": 0, "ts": "2026-07-29 05:47 UTC"}
 {"id": "/documentation/audiotoolbox/auaudiounit/deallocaterenderresources()", "sha": "8b1d61668db03a50e6db79e8ea6c72c251b383833ea0527ec923ec6aaf5cf48c", "t": "deallocateRenderResources()", "n": 220, "laws": 3, "ts": "2026-07-29 05:48 UTC"}
 {"id": "/documentation/automaticassessmentconfiguration/aeapplemenuitem/sleep", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "sleep", "n": 0, "laws": 0, "ts": "2026-07-29 05:55 UTC"}
+{"id": "/documentation/watchkit/playing-background-audio", "sha": "edaf0253b5cac0537ab257f2999ee3e91a3eb63c4626564136a55f20795c71a5", "t": "Playing Background Audio", "n": 1887, "laws": 0, "ts": "2026-07-29 18:26 UTC"}

@@ -42,3 +42,6 @@
 {"id": "/documentation/audiotoolbox/auaudiounit/scheduleparameterblock", "sha": "8f7ee7d0cd276c01b73ea7f9a99510c56e2cffb59284080f7250cfb88b5d86d3", "t": "scheduleParameterBlock", "n": 473, "laws": 3, "ts": "2026-07-29 05:49 UTC"}
 {"id": "/documentation/automaticassessmentconfiguration/aemenubaritem/displays", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "displays", "n": 0, "laws": 0, "ts": "2026-07-29 05:55 UTC"}
 {"id": "/documentation/intents/inmediausercontext", "sha": "4120d260a845935e858cb88bb35cd6cbfbfc515ac2e59efb33d9c195df38ee59", "t": "INMediaUserContext", "n": 589, "laws": 0, "ts": "2026-07-29 06:05 UTC"}
+{"id": "/documentation/xcode/bundles-and-frameworks", "sha": "d8ebc535a9792ac3a6a79a003c57b4702a4d39f3ac43bea35445d5d19c6681be", "t": "Bundles and frameworks", "n": 373, "laws": 0, "ts": "2026-07-29 18:18 UTC"}
+{"id": "/documentation/xcode/configuring-command-line-tools-settings", "sha": "4c40d56228e4840077138e76b3b0b9703a0f7b10312885c4443ce360188e0e5d", "t": "Configuring command-line tools settings", "n": 3359, "laws": 0, "ts": "2026-07-29 18:20 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/isediting", "sha": "b12ad166ae3953f85b84a3fd188c5b9e9a649550a71570a915c402bddad9f7ed", "t": "isEditing", "n": 698, "laws": 1, "ts": "2026-07-29 18:33 UTC"}

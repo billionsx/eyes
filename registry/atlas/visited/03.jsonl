@@ -81,3 +81,5 @@
 {"id": "/documentation/audiotoolbox/spatialaudioexperiences", "sha": "919e81c1e554f0a5bdcf07639ae39ee990a1f8b04422c7a40d5e9d4123b3d798", "t": "SpatialAudioExperiences", "n": 98, "laws": 0, "ts": "2026-07-29 05:39 UTC"}
 {"id": "/documentation/audiotoolbox/auaudiounit/fullstatefordocument", "sha": "f74c3034a9732f3fdd67f213b953961f7e0324516729f68fd0006ef4911dd54c", "t": "fullStateForDocument", "n": 567, "laws": 2, "ts": "2026-07-29 05:48 UTC"}
 {"id": "/documentation/carplay/cpplayableitem", "sha": "d26f5c7eef3b74e30ec668259e508ef075fe1903620fa5aff73c7699942387c4", "t": "CPPlayableItem", "n": 45, "laws": 0, "ts": "2026-07-29 06:06 UTC"}
+{"id": "/documentation/UIKit/NSUnderlineStyle", "sha": "cc52fa1fa8fe36e4501afcbaebfd3c4902e5e01f9fd8566a33c4cc775d3d9b97", "t": "NSUnderlineStyle", "n": 320, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller-deprecated-symbols", "sha": "1d333fe3135485d7e0cd988782ba60ff744a0d108e7189f91e2aa03286dea761", "t": "Deprecated symbols", "n": 855, "laws": 0, "ts": "2026-07-29 18:32 UTC"}

@@ -78,3 +78,7 @@
 {"id": "/documentation/backgroundassets/badownloaderextension-qwaw/backgrounddownload(_:failedwitherror:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "backgroundDownload(_:failedWithError:)", "n": 0, "laws": 0, "ts": "2026-07-29 05:58 UTC"}
 {"id": "/documentation/carplay/cplisttemplate/itemcount", "sha": "8dacb72d9787455663336dab202406f93bde38e3a14c291fa7fa4471220aaaca", "t": "itemCount", "n": 266, "laws": 1, "ts": "2026-07-29 06:03 UTC"}
 {"id": "/documentation/carplay/cpgridbutton", "sha": "8bb8a8d73bbf37dcd65090c71c4cdc312b5cb7ab4e3123eafe103e87678adfa3", "t": "CPGridButton", "n": 405, "laws": 0, "ts": "2026-07-29 06:07 UTC"}
+{"id": "/documentation/xcode/configuring-game-controllers", "sha": "3c4e4bfbb04a1a653014c8fa43791233a61e554bddf6456763e753a6e3d337db", "t": "Configuring game controllers", "n": 2687, "laws": 1, "ts": "2026-07-29 18:17 UTC"}
+{"id": "/documentation/xcode/preparing-your-interface-for-localization", "sha": "99c0949109d7701cd13ac97fc6ac225ab3c489e0168324ea197d894db5636b2c", "t": "Preparing your interface for localization", "n": 1202, "laws": 0, "ts": "2026-07-29 18:19 UTC"}
+{"id": "/documentation/WidgetKit/ControlWidgetToggle", "sha": "3d6a6f0b69f9788ce291921a70d6609a73a580837662c14698ad7baafca34105", "t": "ControlWidgetToggle", "n": 347, "laws": 0, "ts": "2026-07-29 18:23 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitemappearance", "sha": "deb3d08d288f624117d91e3e68cf7cae86ebf9793e902767f2b94aa3bd2f0829", "t": "UIBarButtonItemAppearance", "n": 625, "laws": 1, "ts": "2026-07-29 18:37 UTC"}

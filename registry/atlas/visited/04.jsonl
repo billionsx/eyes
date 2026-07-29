@@ -75,3 +75,10 @@
 {"id": "/documentation/authenticationservices/as_extern", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AS_EXTERN", "n": 0, "laws": 0, "ts": "2026-07-29 05:51 UTC"}
 {"id": "/documentation/carplay/cplisttemplate/delegate", "sha": "3e9eeeb69e367bbe8f69cc47974bbd80b930cf714202ead95cf8a4d38cc8566c", "t": "delegate", "n": 60, "laws": 0, "ts": "2026-07-29 06:03 UTC"}
 {"id": "/documentation/carplay/carplay-constants", "sha": "4f2a9d2a5864772657394c57606533589fc697f4434e59aa2796c6d46c30cc5a", "t": "CarPlay Constants", "n": 71, "laws": 0, "ts": "2026-07-29 06:05 UTC"}
+{"id": "/documentation/xcode/configuring-source-control-in-xcode", "sha": "44c3219ce06cbfff4d7b6f7ad847c5e09d964fe3dbe8f42f61ec7abd460af5df", "t": "Configuring source control in Xcode", "n": 3111, "laws": 3, "ts": "2026-07-29 18:20 UTC"}
+{"id": "/documentation/xcode/sharing-your-teams-signing-certificates", "sha": "af049b6b41f9dd5dc5bb6ff492d810a905be8d76f7860f3d99a667d0602da1fb", "t": "Synchronizing code signing identities with your developer account", "n": 4565, "laws": 0, "ts": "2026-07-29 18:21 UTC"}
+{"id": "/documentation/widgetkit/appintentcontrolvalueprovider", "sha": "ebfebcc8f1429bbb5f59342d164331416a53563d64a063b92d860459b8fdb5e3", "t": "AppIntentControlValueProvider", "n": 747, "laws": 0, "ts": "2026-07-29 18:24 UTC"}
+{"id": "/documentation/uikit/uiscene/activationstate-swift.enum", "sha": "cc382d5fc4a2730e7aa39adcc813842fd4f9c55e3eb063cc1083a4b5b09bfd39", "t": "UIScene.ActivationState", "n": 288, "laws": 0, "ts": "2026-07-29 18:27 UTC"}
+{"id": "/documentation/UIKit/NSTextScalingType", "sha": "d6804e2fa3bf229edb2af742065b9d25ab7cd0315ea617bf3116878e4626963d", "t": "NSTextScalingType", "n": 137, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
+{"id": "/documentation/uikit/uirectedge", "sha": "42bad3e182311057a8a5f7b77f64c4e34c8dde63fe64452bb88a99a7075cdb54", "t": "UIRectEdge", "n": 214, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/action", "sha": "d70edd4626846da0225cefb9a8102a60824b6f2d7e7be48c86d7e21ad0419917", "t": "action", "n": 209, "laws": 0, "ts": "2026-07-29 18:35 UTC"}

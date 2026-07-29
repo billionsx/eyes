@@ -64,3 +64,8 @@
 {"id": "/documentation/audiotoolbox/audiounitresetproc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AudioUnitResetProc", "n": 0, "laws": 0, "ts": "2026-07-29 05:44 UTC"}
 {"id": "/documentation/automaticassessmentconfiguration/aeassessmentconfiguration/remove(_:)", "sha": "128884b974668aabc85f553165334f42c84fee2b1d49d550cc3c2329160eac28", "t": "remove(_:)", "n": 291, "laws": 1, "ts": "2026-07-29 05:56 UTC"}
 {"id": "/documentation/carplay/cpsessionconfiguration", "sha": "6ec29a600decd9062d5082655b18b589281e5aec4a3f74ed6c2d0fdf5aa0cb4a", "t": "CPSessionConfiguration", "n": 611, "laws": 1, "ts": "2026-07-29 06:04 UTC"}
+{"id": "/documentation/widgetkit/levelofdetail", "sha": "836c8e5c840ea34e807570566e74540fcb82e75289e8092f5fbc4470df10fd06", "t": "LevelOfDetail", "n": 461, "laws": 0, "ts": "2026-07-29 18:24 UTC"}
+{"id": "/documentation/watchkit/wkextendedruntimesession/requestautolaunchauthorizationstatus(completion:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "requestAutoLaunchAuthorizationStatus(completion:)", "n": 0, "laws": 0, "ts": "2026-07-29 18:26 UTC"}
+{"id": "/documentation/uikit/uidynamicitembehavior", "sha": "05e321094341b6541037414667d94d43d38a1674a9a684d0dab371ea5aa9a1a3", "t": "UIDynamicItemBehavior", "n": 2471, "laws": 2, "ts": "2026-07-29 18:29 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/ispaddingremoved", "sha": "c61f194ef86147b22e195b94423db476699d3f44178a5f5b3200adda69c3d48e", "t": "isPaddingRemoved", "n": 75, "laws": 1, "ts": "2026-07-29 18:36 UTC"}
+{"id": "/documentation/UIKit/UITextField", "sha": "86611f8222dcbcfecdd24a9f7030e2da28451fecec4be1cba29386ba37326885", "t": "UITextField", "n": 10278, "laws": 3, "ts": "2026-07-29 18:39 UTC"}

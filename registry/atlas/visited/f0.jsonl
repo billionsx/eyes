@@ -68,3 +68,8 @@
 {"id": "/documentation/backgroundassets/badownloadmanagerdelegate", "sha": "47919a2afbb67b03601299c2a1cfd06ed192cfdf8a7234634add167431a1f140", "t": "BADownloadManagerDelegate", "n": 374, "laws": 0, "ts": "2026-07-29 05:58 UTC"}
 {"id": "/documentation/sirikit/dispatching-intents-to-handlers", "sha": "2dce3cd52c784abe43bf8e2d2eb827cf381d0c666899fdc621b89baa88e8206c", "t": "Dispatching intents to handlers", "n": 2887, "laws": 3, "ts": "2026-07-29 06:05 UTC"}
 {"id": "/documentation/carplay/cpnavigationalert", "sha": "cfbf0835638f72631e937926d7b0352959b556fe06ea4757764d3dc8d6b3cd50", "t": "CPNavigationAlert", "n": 1727, "laws": 1, "ts": "2026-07-29 06:08 UTC"}
+{"id": "/documentation/WidgetKit/WidgetMountingStyle/elevated", "sha": "b924f5b498e846d48551282c9f4665117033d503e7741080c32fa64d30d5cf16", "t": "elevated", "n": 63, "laws": 0, "ts": "2026-07-29 18:23 UTC"}
+{"id": "/documentation/WatchKit/WKExtensionDelegate/handleActiveWorkoutRecovery()", "sha": "af11d6b47202ff94711d5525d13b60aa87688b206ea037bd29348e5a02ad8646", "t": "handleActiveWorkoutRecovery()", "n": 267, "laws": 0, "ts": "2026-07-29 18:25 UTC"}
+{"id": "/documentation/watchkit/wkapplicationstate/active", "sha": "da042f61e3473727d22f79083c91bb72cfc65012212501e8f61869e40041d259", "t": "WKApplicationState.active", "n": 74, "laws": 0, "ts": "2026-07-29 18:26 UTC"}
+{"id": "/documentation/WatchKit/WKApplicationDelegate", "sha": "f613e317c004976219de1b9451ed718eecf73cf4f5208ab9ef8c85e4764824a1", "t": "WKApplicationDelegate", "n": 1496, "laws": 0, "ts": "2026-07-29 18:27 UTC"}
+{"id": "/documentation/uikit/uitab/image", "sha": "3e2bc0fa1e4ffb81b7603394f8f2c8ea02907a7d5aedd7421b22c5f8af111cf0", "t": "image", "n": 14, "laws": 0, "ts": "2026-07-29 18:38 UTC"}

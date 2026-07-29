@@ -82,3 +82,4 @@
 {"id": "/documentation/callkit/cxproviderconfiguration/maximumcallspercallgroup", "sha": "c7d7a4d0dc19f3a25ceb12bef73ac4c0139a215cc48e8d7e37ea3a7de9b0982f", "t": "maximumCallsPerCallGroup", "n": 93, "laws": 2, "ts": "2026-07-29 06:02 UTC"}
 {"id": "/documentation/callkit/cxproviderconfiguration/supportsvideo", "sha": "9be08ccbd15d0ec6c0a37d91cce0726c58d7341095d1540fe9bcaa98386258d5", "t": "supportsVideo", "n": 140, "laws": 0, "ts": "2026-07-29 06:02 UTC"}
 {"id": "/documentation/sirikit/donating-reservations", "sha": "d10f89e28f79e497333d206875b37d9910cd4ea3c1728e4dea385e2640afd5fc", "t": "Donating Reservations", "n": 2935, "laws": 2, "ts": "2026-07-29 06:05 UTC"}
+{"id": "/documentation/uikit/uicollectionviewcontroller/collectionviewlayout", "sha": "a6931a3bf49017d5ca2d835e1aba00b8f4a3694eda018a07670795b6ad72b5fa", "t": "collectionViewLayout", "n": 358, "laws": 1, "ts": "2026-07-29 18:37 UTC"}

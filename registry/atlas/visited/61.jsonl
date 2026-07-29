@@ -68,3 +68,5 @@
 {"id": "/documentation/driverkit/osactioncancelhandler", "sha": "dfa2a2fbe2f2b9f08022f1136d4335e0dba48f03dc7a4f027e3c8f7651a85a22", "t": "OSActionCancelHandler", "n": 66, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
 {"id": "/documentation/automaticassessmentconfiguration/aeassessmentconfiguration/requiressingleuser", "sha": "9e5af92256b274d4653376909f7c9c4a30b4a93725a66ff7bfd1f617ec86e75d", "t": "requiresSingleUser", "n": 277, "laws": 1, "ts": "2026-07-29 05:56 UTC"}
 {"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:didendzoomgesturewithvelocity:)", "sha": "59f3ac433874f677e65fc2a31c16d474264451be8f0f8c2094c8f7d8654584cc", "t": "mapTemplate(_:didEndZoomGestureWithVelocity:)", "n": 57, "laws": 0, "ts": "2026-07-29 06:07 UTC"}
+{"id": "/documentation/uikit/uiapplication/launchoptionskey", "sha": "c701f5bcd35c9555223082a2142e6c91788d95259d6235c6a9781a27d9a68f05", "t": "UIApplication.LaunchOptionsKey", "n": 555, "laws": 0, "ts": "2026-07-29 18:27 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/menu", "sha": "42ea429cfba6fb1be651a9b08f125ff1381d8fa0fafd6a676c40edbc7f4f19eb", "t": "menu", "n": 115, "laws": 0, "ts": "2026-07-29 18:36 UTC"}

@@ -82,3 +82,5 @@
 {"id": "/documentation/authenticationservices/asimportablefido2hmaccredential", "sha": "55795a36db7072d985c4ab61f755a931e7e8cdaa1f4f01e070be4dbe202f46c9", "t": "ASImportableFIDO2HMACCredential", "n": 264, "laws": 0, "ts": "2026-07-29 05:52 UTC"}
 {"id": "/documentation/automaticassessmentconfiguration/aemenubaritem/clock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "clock", "n": 0, "laws": 0, "ts": "2026-07-29 05:55 UTC"}
 {"id": "/documentation/browserenginekit/bescrollviewscrollupdate", "sha": "b7092555de2b8c72d699b994b616e1efe4b2ff7e8c5179ed8205a3f0952725c8", "t": "BEScrollViewScrollUpdate", "n": 668, "laws": 0, "ts": "2026-07-29 06:01 UTC"}
+{"id": "/documentation/Xcode/preparing-dates-numbers-with-formatters", "sha": "762ebcd303d24639b201476ddac7dc2c2ebb9f1a0dee8d322263202a64a5063c", "t": "Preparing dates, currencies, and numbers for translation", "n": 5846, "laws": 2, "ts": "2026-07-29 18:20 UTC"}
+{"id": "/documentation/uikit/uitabbarcontroller/mode-swift.property", "sha": "bde9231509fe9922170ac23ed490af78fa3b27d11215092ae04eff350d786cb2", "t": "mode", "n": 167, "laws": 0, "ts": "2026-07-29 18:39 UTC"}

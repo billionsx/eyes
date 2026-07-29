@@ -68,3 +68,8 @@
 {"id": "/documentation/backgroundassets/baassetpackmanager", "sha": "8cdf7c9b3fdf10e939fc6b39ccf62494722664826bf21f46475a51fd9a965b5c", "t": "BAAssetPackManager", "n": 1873, "laws": 2, "ts": "2026-07-29 05:57 UTC"}
 {"id": "/documentation/BundleResources/Entitlements", "sha": "9d502a20a83e03d7779d034b13215840d5947bd5203d3e6a1a37ca085ee40c11", "t": "Entitlements", "n": 8896, "laws": 2, "ts": "2026-07-29 05:59 UTC"}
 {"id": "/documentation/carplay/cpnavigationwaypoint", "sha": "3ea0eba00ef1a5ed20f0ad92eb3dce229894e6ef0998675c064961cba76288fc", "t": "CPNavigationWaypoint", "n": 480, "laws": 0, "ts": "2026-07-29 06:06 UTC"}
+{"id": "/documentation/xcode/inspecting-shaders", "sha": "519800a728c971788db508ed65bc239021335df2cce0080c1fb73cb76225f120", "t": "Inspecting shaders", "n": 3627, "laws": 0, "ts": "2026-07-29 18:17 UTC"}
+{"id": "/documentation/xcode/reducing-disk-writes", "sha": "8c0951b9f59b0ec14090c4cd52d827a46e0f6445b11f465da27ad2e94790c057", "t": "Reducing disk writes", "n": 11796, "laws": 2, "ts": "2026-07-29 18:19 UTC"}
+{"id": "/documentation/widgetkit/updating-widgets-with-widgetkit-push-notifications", "sha": "7ad36d5c1b281d1c3965163503e9f11b89d2dbd289c9163049ea9307e76605d9", "t": "Updating widgets with WidgetKit push notifications", "n": 3774, "laws": 0, "ts": "2026-07-29 18:24 UTC"}
+{"id": "/documentation/uikit/uiscreen", "sha": "461040b9a0624cde367340bfd84a53cc1c8fc0f5c299fcc249626557d491b060", "t": "UIScreen", "n": 2167, "laws": 0, "ts": "2026-07-29 18:30 UTC"}
+{"id": "/documentation/uikit/uiimagepickercontroller/cameraflashmode-swift.enum/on", "sha": "4f03880a982715aea9e04138ab5b9e8bc02d26607a8bcdd843d78f51a1b0b532", "t": "UIImagePickerController.CameraFlashMode.on", "n": 96, "laws": 0, "ts": "2026-07-29 18:37 UTC"}

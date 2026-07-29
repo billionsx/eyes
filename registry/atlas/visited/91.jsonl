@@ -72,3 +72,7 @@
 {"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "sha": "b1c0957dabdcea72ad9c89d00173f999678169bc01cd23571ca46310bfba757c", "t": "Handling Resource Representation and Relationships", "n": 5164, "laws": 7, "ts": "2026-07-29 06:03 UTC"}
 {"id": "/documentation/carplay/cpvoicecontroltemplate/backbutton", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "backButton", "n": 0, "laws": 0, "ts": "2026-07-29 06:09 UTC"}
 {"id": "/documentation/carplay/cpvoicecontroltemplate/init(voicecontrolstates:)", "sha": "fa613a18a030f8baafbdc68f7ec1e97008d8836be42bab6a925aa072e7257208", "t": "init(voiceControlStates:)", "n": 339, "laws": 0, "ts": "2026-07-29 06:09 UTC"}
+{"id": "/documentation/widgetkit/controlvalueprovider", "sha": "b02875e4d780f6eb7a4175423da4f42c40bef091c059dd4238ac83b17f97383c", "t": "ControlValueProvider", "n": 586, "laws": 0, "ts": "2026-07-29 18:24 UTC"}
+{"id": "/documentation/uikit/collaborating-and-sharing-copies-of-your-data", "sha": "bec339dd1794df9b18e23a4cb9d916278cc948764719eb583e36d7d6cbabb0d8", "t": "Collaborating and sharing copies of your data", "n": 4085, "laws": 0, "ts": "2026-07-29 18:28 UTC"}
+{"id": "/documentation/uikit/uitab/ishidden", "sha": "b6b58a1a8d21f4301ea97875dd4058e383ee5349b0761c5531183871eeb72b8b", "t": "isHidden", "n": 70, "laws": 0, "ts": "2026-07-29 18:38 UTC"}
+{"id": "/documentation/uikit/uiaction/title", "sha": "f6d01f09949aaea04d7b3f02939f7b1f6e15b3d930b61e5d31d099db3d4c5b4d", "t": "title", "n": 19, "laws": 0, "ts": "2026-07-29 18:43 UTC"}

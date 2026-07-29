@@ -69,3 +69,7 @@
 {"id": "/documentation/BackgroundTasks/BGProcessingTask", "sha": "94910e82e6216695a963ed9e5ad56d11efb77923bbadd60e10d4fd8d67f0a4aa", "t": "BGProcessingTask", "n": 624, "laws": 3, "ts": "2026-07-29 05:59 UTC"}
 {"id": "/documentation/callkit/cxplaydtmfcallaction", "sha": "e55c19d612f55613a534565e9cd879d25d20103da449fc47d854d7a4dddbaa45", "t": "CXPlayDTMFCallAction", "n": 1288, "laws": 0, "ts": "2026-07-29 06:02 UTC"}
 {"id": "/documentation/callkit/cxproviderdelegate/provider(_:perform:)-43atg", "sha": "7a9273eddab55bd561944eb4c67503c7248418ab07e7931863493ae44425088a", "t": "provider(_:perform:)", "n": 71, "laws": 0, "ts": "2026-07-29 06:03 UTC"}
+{"id": "/documentation/xcode/coding-intelligence", "sha": "37cd44934faa5cd162ce4ba9f39357fed3296545b0e92ff1205d323035398223", "t": "Coding intelligence", "n": 1565, "laws": 1, "ts": "2026-07-29 18:18 UTC"}
+{"id": "/documentation/widgetkit/timelineentryrelevance/score", "sha": "d3bdb87ace8484b5f79bed1b7776eeb517a0b46a7009725c5a39d20377f77123", "t": "score", "n": 109, "laws": 0, "ts": "2026-07-29 18:25 UTC"}
+{"id": "/documentation/uikit/uigesturerecognizer", "sha": "0a1dfffe429d9de4635459b493f9e7e1d210d285152bbe88e8bc221394656ef8", "t": "UIGestureRecognizer", "n": 7576, "laws": 3, "ts": "2026-07-29 18:30 UTC"}
+{"id": "/documentation/uikit/customizing-and-resizing-sheets-in-uikit", "sha": "847f8352580885ac32249515a2e39df95b6dcbe1992cec428c16a6f43b2cbefe", "t": "Customizing and resizing sheets in UIKit", "n": 147, "laws": 0, "ts": "2026-07-29 18:32 UTC"}

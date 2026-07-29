@@ -72,3 +72,6 @@
 {"id": "/documentation/audiotoolbox/audiocomponentcopyname(_:_:)", "sha": "171e817590be0a75500ce3c2653673111ceb46c38bca00ddde9757f3bc76c07d", "t": "AudioComponentCopyName(_:_:)", "n": 78, "laws": 0, "ts": "2026-07-29 05:40 UTC"}
 {"id": "/documentation/authenticationservices/assavepasswordrequest", "sha": "45f2d4c1176f61d9e4548f4dde6fb0c4c7cdb45652509494c390de8620a237f7", "t": "ASSavePasswordRequest", "n": 417, "laws": 0, "ts": "2026-07-29 05:52 UTC"}
 {"id": "/documentation/browserenginekit/bescrollview", "sha": "93d6e8d235100e3846300a81042953a9ea4c8234bdb6163fbbeab645c326a074", "t": "BEScrollView", "n": 453, "laws": 0, "ts": "2026-07-29 06:01 UTC"}
+{"id": "/documentation/xcode/conforming-to-mach-ipc-security-restrictions", "sha": "07cc91387682c144735c6a06fb1672e0660a28ab9f282a78c569d098c1d1033d", "t": "Conforming to Mach IPC security restrictions", "n": 1519, "laws": 0, "ts": "2026-07-29 18:20 UTC"}
+{"id": "/documentation/uikit/uiscreen/iscaptured", "sha": "5032c6655ff834c18b8bc32c562ee8801a8cc9eb0edbbab23b9dc2c28d7d5142", "t": "isCaptured", "n": 948, "laws": 0, "ts": "2026-07-29 18:30 UTC"}
+{"id": "/documentation/uikit/uiview/willmove(tosuperview:)", "sha": "16ae4d5ef0d101df27388c0ffc5b397b159ce47347904d4d4c1fc394c06c3b54", "t": "willMove(toSuperview:)", "n": 239, "laws": 0, "ts": "2026-07-29 18:32 UTC"}

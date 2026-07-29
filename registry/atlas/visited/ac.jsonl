@@ -83,3 +83,5 @@
 {"id": "/documentation/audiotoolbox/auaudiounit/isrenderingoffline", "sha": "458b9253883ef49835b1db9fac76787a38e5e3079e40528ef51244ab7034addd", "t": "isRenderingOffline", "n": 435, "laws": 1, "ts": "2026-07-29 05:48 UTC"}
 {"id": "/documentation/callkit/cxcallupdate", "sha": "18913ef39dad9a02243000ff931174b16a3a90713185d05a724ffdd6d5d2da6b", "t": "CXCallUpdate", "n": 1174, "laws": 1, "ts": "2026-07-29 06:02 UTC"}
 {"id": "/documentation/carplay/cpmaptemplatedelegate", "sha": "ac9ca9803aff064629a5b57b81f515f294e8bcff08d55a0657baed51c515b817", "t": "CPMapTemplateDelegate", "n": 2145, "laws": 0, "ts": "2026-07-29 06:07 UTC"}
+{"id": "/documentation/xcode/investigating-gpu-issues-with-ai-agents", "sha": "b67c3d4aa4f867343713cd28e6c9454fb029d2ec578651027c9c9cfdd1585d55", "t": "Investigating GPU issues with AI agents", "n": 1362, "laws": 0, "ts": "2026-07-29 18:17 UTC"}
+{"id": "/documentation/uikit/uidynamicanimatordelegate/dynamicanimatorwillresume(_:)", "sha": "3df3338477e87ddc30aa8c80b82109361b2457ef4848a2eefb6dc0b71b7c0f41", "t": "dynamicAnimatorWillResume(_:)", "n": 109, "laws": 0, "ts": "2026-07-29 18:29 UTC"}

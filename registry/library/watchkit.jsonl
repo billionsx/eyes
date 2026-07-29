@@ -36,3 +36,47 @@
 {"id": "/documentation/WatchKit/WKInterfaceAuthorizationAppleIDButton", "law": "At that point, you can use the object in your outlet to make changes to the button (for example, hiding or disabling the button)."}
 {"id": "/documentation/WatchKit/WKInterfaceAuthorizationAppleIDButton", "law": "To respond to authorization button taps, connect the interface object in the storyboard to an action method in the interface controller: In the action method, create a sign-in request using the authorization provider, and then use an instance of to execute the request."}
 {"id": "/documentation/WatchKit/WKInterfaceAuthorizationAppleIDButton", "law": "A button that you can use to trigger a Sign in with Apple request."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton", "law": "Use the authorization button to initiate Sign in with Apple on Apple Watch."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton", "law": "You can’t use this button to do anything other than initiating sign-in requests."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton", "law": "You must connect this button to an action method to perform the actual request."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton", "law": "At that point, you can use the object in your outlet to make changes to the button (for example, hiding or disabling the button)."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton", "law": "To respond to authorization button taps, connect the interface object in the storyboard to an action method in the interface controller: In the action method, create a sign-in request using the authorization provider, and then use an instance of to execute the request."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton", "law": "A button that you can use to trigger a Sign in with Apple request."}
+{"id": "/documentation/watchkit/wkinterfacebutton", "law": "At that point, you can use the object in your outlet to make changes to the onscreen button."}
+{"id": "/documentation/watchkit/wkinterfacedate", "law": "At runtime, use the date object to configure the appearance of the date and time information being displayed."}
+{"id": "/documentation/watchkit/wkinterfacelabel", "law": "The string you specify can use the default styling you specified at design time, or you can use an attributed string to add custom styling to the text."}
+{"id": "/documentation/watchkit/wkinterfaceobject", "law": "Specifically, you use the methods of this class to change the size, alignment, and visibility of those elements."}
+{"id": "/documentation/watchkit/wkinterfacepaymentbutton", "law": "Use a payment button to initiate an Apple Pay transaction on Apple Watch."}
+{"id": "/documentation/watchkit/wkinterfacepaymentbutton", "law": "You must connect this button to an action method that creates an Apple Pay payment request."}
+{"id": "/documentation/watchkit/wkinterfacepaymentbutton", "law": "At that point, you can use the object in your outlet to make changes to the payment button."}
+{"id": "/documentation/watchkit/wkinterfacepaymentbutton", "law": "A button that you can use to trigger payments through Apple Pay."}
+{"id": "/documentation/watchkit/wkinterfacepaymentbutton/init(target:action:)", "law": "Creates a payment button for use in SwiftUI."}
+{"id": "/documentation/watchkit/wkinterfaceslider", "law": "You configure the appearance of sliders in your storyboard file, including the images to display for the minimum and maximum value."}
+{"id": "/documentation/watchkit/wkinterfaceslider", "law": "At runtime, you use a slider object to enable the slider or set its value."}
+{"id": "/documentation/watchkit/wkinterfaceslider", "law": "At that point, you can use the object in your outlet to make changes to the onscreen slider."}
+{"id": "/documentation/watchkit/wkinterfaceswitch", "law": "At that point, you can use the object in your outlet to make changes to the onscreen switch."}
+{"id": "/documentation/watchkit/wkinterfacetimer", "law": "Use a timer object to configure the amount of time and the appearance of the timer text."}
+{"id": "/documentation/watchkit/using-background-tasks", "law": "When designing your app, don’t expect the system to trigger every background task."}
+{"id": "/documentation/watchkit/using-background-tasks", "law": "To receive timely alerts, your peripheral must use Generic Attribute Profile (GATT) transactions."}
+{"id": "/documentation/watchkit/using-background-tasks", "law": "Use your handler to reconnect to the peripheral and handle the alert."}
+{"id": "/documentation/watchkit/wkbluetoothalertrefreshbackgroundtask", "law": "Use these tasks to reconnect a peripheral and handle a critical alert."}
+{"id": "/documentation/watchkit/wkbluetoothalertrefreshbackgroundtask", "law": "Apps that use timely alerts can also scan for a specific system identifier (UUID) while in the background."}
+{"id": "/documentation/watchkit/wkbluetoothalertrefreshbackgroundtask", "law": "To receive timely alerts, your peripheral must use Generic Attribute Profile (GATT) transactions."}
+{"id": "/documentation/watchkit/wkbluetoothalertrefreshbackgroundtask", "law": "Use this task to reconnect to the peripheral and handle the critical alert."}
+{"id": "/documentation/watchkit/wkbluetoothalertrefreshbackgroundtask", "law": "Your app can only use five timely alerts or background scans within a rolling 24-hour window."}
+{"id": "/documentation/watchkit/interacting-with-bluetooth-peripherals-during-background-app-refresh", "law": "On the watch, to demonstrate the alert when the peripheral moves out of range and comes back in functionality, turn on the “Scan to alert” switch."}
+{"id": "/documentation/watchkit/storyboard-support", "law": "Storyboard-based layouts typically require an interface controller for each scene."}
+{"id": "/documentation/watchkit/storyboard-support", "law": "When you build the user interface for your watchOS app, you can design the interface in a storyboard and use WatchKit classes to connect to the interface elements, or you can use SwiftUI to declare the interface in code."}
+{"id": "/documentation/watchkit/enabling-background-sessions", "law": "Your app must start the session in the foreground, but the session continues to run when your app transitions to the background."}
+{"id": "/documentation/watchkit/handling-common-state-transitions", "law": "When an active app transitions to this state, it should quiet itself and prepare to go to the background."}
+{"id": "/documentation/watchkit/handling-common-state-transitions", "law": "Because the system can purge suspended apps without warning, use SwiftUI’s environment , or your extension delegate’s method to determine when your app transitions from the active state to the background."}
+{"id": "/documentation/watchkit/using_extended_runtime_sessions", "law": "A physical therapy app, for example, might use a for range-of-motion exercises and an for vigorous cross-training."}
+{"id": "/documentation/WatchKit/using-extended-runtime-sessions", "law": "A physical therapy app, for example, might use a for range-of-motion exercises and an for vigorous cross-training."}
+{"id": "/documentation/WatchKit/WKInterfaceTable", "law": "Row controllers that include controls such as switches, sliders, and buttons must use action methods to respond to interactions with those controls."}
+{"id": "/documentation/WatchKit/handling-common-state-transitions", "law": "When an active app transitions to this state, it should quiet itself and prepare to go to the background."}
+{"id": "/documentation/WatchKit/handling-common-state-transitions", "law": "Because the system can purge suspended apps without warning, use SwiftUI’s environment , or your extension delegate’s method to determine when your app transitions from the active state to the background."}
+{"id": "/documentation/WatchKit/using-background-tasks", "law": "When designing your app, don’t expect the system to trigger every background task."}
+{"id": "/documentation/WatchKit/using-background-tasks", "law": "To receive timely alerts, your peripheral must use Generic Attribute Profile (GATT) transactions."}
+{"id": "/documentation/WatchKit/using-background-tasks", "law": "Use your handler to reconnect to the peripheral and handle the alert."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton/init(style:target:action:)", "law": "Creates an authorization button for use in SwiftUI."}
+{"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton/init(target:action:)", "law": "Creates an authorization button for use in SwiftUI."}

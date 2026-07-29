@@ -74,3 +74,6 @@
 {"id": "/documentation/authenticationservices/asauthorizationappleidbutton/buttontype", "sha": "6ac1d1c521aedc2b06696b0ce88490cc43c41334d2a6fe1a27f2c4741b1e2356", "t": "ASAuthorizationAppleIDButton.ButtonType", "n": 250, "laws": 0, "ts": "2026-07-29 05:54 UTC"}
 {"id": "/documentation/carplay/cpnowplayingtemplate/allowsminiplayer", "sha": "ccd3c1c2fb25b8604d84a067a83c16cc489a4120b9b9a718373194d97b5ace7f", "t": "allowsMiniPlayer", "n": 168, "laws": 0, "ts": "2026-07-29 06:04 UTC"}
 {"id": "/documentation/carplay/cpmaptemplate/mapdelegate", "sha": "51d92fe675a7ed81aedee3a3eb0d1d9d5e7b2534c947e18ecdb6859d376eb1e4", "t": "mapDelegate", "n": 59, "laws": 0, "ts": "2026-07-29 06:07 UTC"}
+{"id": "/documentation/UIKit/NSTextHighlightStyle", "sha": "97c9be23d62e0bac93022443d3f833cda0050f7c1ebb169301d870046947f60c", "t": "NSTextHighlightStyle", "n": 340, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
+{"id": "/documentation/uikit/uistoryboard/instantiateviewcontroller(withidentifier:)", "sha": "6344c13bd000d2aece5ac332b2d3c6b00eb913109ad2b7c836cd787eb184592f", "t": "instantiateViewController(withIdentifier:)", "n": 471, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/badge-4sz3f", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "badge", "n": 0, "laws": 0, "ts": "2026-07-29 18:35 UTC"}

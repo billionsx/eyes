@@ -82,3 +82,5 @@
 {"id": "/documentation/AuthenticationServices/ASAuthorizationAppleIDProvider", "sha": "7dea56fb697787cddf2a4d2d0664c491348f269cf8bcff085594eac2f281a91c", "t": "ASAuthorizationAppleIDProvider", "n": 828, "laws": 2, "ts": "2026-07-29 05:54 UTC"}
 {"id": "/documentation/UIKit/UIApplication/defaultStatusForCategory:error:", "sha": "85a7c5ad66ec8b92777c059d510416e8126cb3fa4afac6b8d637a14ded866069", "t": "defaultStatusForCategory:error:", "n": 732, "laws": 0, "ts": "2026-07-29 06:00 UTC"}
 {"id": "/documentation/carplay/cplisttemplate/maximumgridbuttonimagesize", "sha": "b54d14041cffab231a10409ff0c08b6c42a29bf58a340987ba2620a94c441ff7", "t": "maximumGridButtonImageSize", "n": 213, "laws": 1, "ts": "2026-07-29 06:04 UTC"}
+{"id": "/documentation/uikit/uicloudsharingcontrollerdelegate/itemtitle(for:)", "sha": "e541a389e71a4c088a2c4e904469ac9b4d7c275fc075b83963120065091d6eac", "t": "itemTitle(for:)", "n": 318, "laws": 0, "ts": "2026-07-29 18:28 UTC"}
+{"id": "/documentation/uikit/uitabbarcontrollerdelegate", "sha": "cbce128f995170a27e0ee053e51ff3fbc6b417bcab5eeb291429f47485bb9409", "t": "UITabBarControllerDelegate", "n": 1678, "laws": 2, "ts": "2026-07-29 18:39 UTC"}

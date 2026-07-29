@@ -84,3 +84,5 @@
 {"id": "/documentation/backgroundassets/badownloadmanager/fetchcurrentdownloads()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "fetchCurrentDownloads()", "n": 0, "laws": 0, "ts": "2026-07-29 05:58 UTC"}
 {"id": "/documentation/UIKit/UITextInput", "sha": "bb7858781ab6783da8527cb41cbd7db2c004dfb50ebd3af307d7c06e0fb64af4", "t": "UITextInput", "n": 4196, "laws": 2, "ts": "2026-07-29 06:00 UTC"}
 {"id": "/documentation/carplay/cpmessagelistitem", "sha": "62e1f8684e1fbdc9ae819123c9323e22ac3af7a5b13eb4e4e2b598a2765b94a5", "t": "CPMessageListItem", "n": 1773, "laws": 3, "ts": "2026-07-29 06:04 UTC"}
+{"id": "/documentation/uikit/uicollisionbehavior/translatesreferenceboundsintoboundary", "sha": "11e6f18e0d2c31b5b22cd5b7fe835ca2f4147be83da861e30e15ea81138c8384", "t": "translatesReferenceBoundsIntoBoundary", "n": 162, "laws": 0, "ts": "2026-07-29 18:29 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/childviewcontrollerforuserinterfacestyle", "sha": "66f82f2b2e0c6520cf010bcc876991665709fb69cb61494f93f5dce3b7d82ac2", "t": "childViewControllerForUserInterfaceStyle", "n": 312, "laws": 0, "ts": "2026-07-29 18:33 UTC"}

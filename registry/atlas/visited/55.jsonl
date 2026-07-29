@@ -74,3 +74,5 @@
 {"id": "/documentation/authenticationservices/asauthorizationappleidcredential/email", "sha": "563ae64c0fe0d27c6f805aa81d46d84139c78312d662746a8c2d16e63e991c05", "t": "email", "n": 25, "laws": 0, "ts": "2026-07-29 05:54 UTC"}
 {"id": "/documentation/automaticassessmentconfiguration/aeassessmentconfiguration/allowspasswordautofill", "sha": "e1f6ef8636cb02f130ce251c26a3bd964ade646d494ab3d0d89559cfec9457b0", "t": "allowsPasswordAutoFill", "n": 398, "laws": 2, "ts": "2026-07-29 05:56 UTC"}
 {"id": "/documentation/carplay/cpnowplayingmorebutton", "sha": "211eeded7820dd69b43ab3d58abcc1db1cab680390ee76a4c4feb0cba9e886da", "t": "CPNowPlayingMoreButton", "n": 312, "laws": 2, "ts": "2026-07-29 06:04 UTC"}
+{"id": "/documentation/uikit/uiview/willremovesubview(_:)", "sha": "0fb940c3564761f8b70ff65c9b6055ed74f164e9e510001148cab617f01164c1", "t": "willRemoveSubview(_:)", "n": 337, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/initwithimage:menu:", "sha": "1dae2f78dea0c5b6d42543205338de25ecd4e8ee00fbca6d670598593cd185cc", "t": "initWithImage:menu:", "n": 108, "laws": 0, "ts": "2026-07-29 18:36 UTC"}

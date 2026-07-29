@@ -1895,3 +1895,339 @@
 {"id": "/documentation/UIKit/UISceneDelegate", "law": "Use your delegate to provide appropriate behavior when these transitions occur."}
 {"id": "/documentation/UIKit/UISceneDelegate", "law": "Don’t create objects directly."}
 {"id": "/documentation/UIKit/UISceneDelegate", "law": "The core methods you use to respond to life-cycle events occurring within a scene."}
+{"id": "/documentation/uikit/displaying-and-managing-views-with-a-view-controller", "law": "After adding views to a view controller, always add Auto Layout constraints to set the size and position of those views."}
+{"id": "/documentation/uikit/displaying-and-managing-views-with-a-view-controller", "law": "Controls use the target-action design pattern to report user interactions, and some views post notifications or call delegate methods in response to changes."}
+{"id": "/documentation/uikit/displaying-and-managing-views-with-a-view-controller", "law": "For example, don’t start animations or update the values of views."}
+{"id": "/documentation/uikit/displaying-and-managing-views-with-a-view-controller", "law": "Because the system calls only once as part of each appearance transition, changes you make in this method don’t repeat each time the view performs layout."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "You can use this transition when your app navigates from a large cell or thumbnail to increase the sense of continuity in your app."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "To use the zoom transition, set the property to on a new view controller, and pass a closure that returns the view you’re zooming from."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "Because the transition runs on both zoom in and zoom out, use a stable identifier to look up the view in the closure instead of capturing a or instance."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "To look up the correct thumbnail, use the context that the system passes to the closure."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "You can also use the property for other system transitions, such as , , , and ."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "Follow these guidelines to help your transitions run seamlessly and smoothly: Don’t avoid starting a new navigation push or pop based on whether a transition is currently running."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "Keep temporary transition state to a minimum, and avoid making other code dependent on that state."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "If you’re using a navigation control delegate, you can use and to clean up instead of the view controller callback methods."}
+{"id": "/documentation/uikit/enhancing-your-app-with-fluid-transitions", "law": "Use the fluid zoom transition to provide a continuously interactive and responsive experience in your app."}
+{"id": "/documentation/uikit/positioning-content-relative-to-the-safe-area", "law": "Use safe areas as an aid to laying out your content."}
+{"id": "/documentation/uikit/positioning-content-relative-to-the-safe-area", "law": "Each view has its own layout guide (accessible from the property) that you can use to create constraints for items inside the view."}
+{"id": "/documentation/uikit/positioning-content-relative-to-the-safe-area", "law": "Because the child view controller’s content is underneath the custom views, you must extend the bottom and right insets of the child view controller’s safe area to account for those views."}
+{"id": "/documentation/uikit/uiviewcontroller/viewisappearing(_:)", "law": "Use only when: You need a callback before the view transition begins, such as when accessing the to add alongside animations."}
+{"id": "/documentation/uikit/uiviewcontroller/viewisappearing(_:)", "law": "However, the system calls only once during the appearance transition, and calls it even if the view doesn’t require laying out when it appears."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-foreground", "law": "Use foreground transitions to prepare your app’s UI to appear onscreen."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-foreground", "law": "Use a foreground transition to update your app’s UI, acquire resources, and start the services you need to handle user requests."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-foreground", "law": "When transitioning from the background to the foreground, use these methods to load resources from disk and fetch data from the network."}
+{"id": "/documentation/uikit/attaching-gesture-recognizers-to-uikit-controls", "law": "Gesture recognizers attached to your views don’t impact the ability of UIKit controls to handle events."}
+{"id": "/documentation/uikit/attaching-gesture-recognizers-to-uikit-controls", "law": "Always consult the platform-specific human interface guidelines before changing the default behavior of standard controls."}
+{"id": "/documentation/uikit/responding-to-control-based-events-using-target-action", "law": "Use to connect events directly from controls in your UI to methods in your code."}
+{"id": "/documentation/uikit/responding-to-control-based-events-using-target-action", "law": "Use the generic type to allow any control to call the action method, or specify the type when you need more information about the control for event processing."}
+{"id": "/documentation/uikit/responding-to-control-based-events-using-target-action", "law": "In UIKit, use the method to set up target-action programmatically on a control: In AppKit, use the control’s and properties to set target-action programmatically:"}
+{"id": "/documentation/uikit/uiattachmentbehavior", "law": "Do not add the same attachment behavior to multiple animator objects."}
+{"id": "/documentation/uikit/uidynamicanimator", "law": "You can implement this protocol to use a dynamic animator with custom objects for such purposes as reacting to rotation or position changes computed by an animator."}
+{"id": "/documentation/uikit/uidynamicanimator", "law": "To use dynamics, configure one or more dynamic behaviors—including providing each with a set of dynamic items—and then add those behaviors to a dynamic animator."}
+{"id": "/documentation/uikit/uidynamicanimator", "law": "The three ways to initialize an animator, the dynamic items you can then use, and the resulting coordinate system, are as follows: To animate views, create an animator with the method."}
+{"id": "/documentation/uikit/uidynamicanimator", "law": "Each dynamic item you associate with this sort of animator must be a object and must descend from the reference view."}
+{"id": "/documentation/uikit/uidynamicanimator", "law": "The dynamic items in this sort of animator must be objects that are part of the layout."}
+{"id": "/documentation/uikit/uidynamicanimator", "law": "There is no reference boundary to refer to when defining a collision boundary for use with this sort of animator."}
+{"id": "/documentation/uikit/uidynamicbehavior", "law": "You can implement this protocol to use a dynamic animator with custom objects for such purposes as reacting to rotation or position changes computed by an animator—an instance of the class."}
+{"id": "/documentation/uikit/uidynamicbehavior", "law": "To access the dynamic animator that a dynamic behavior is associated with, use the property."}
+{"id": "/documentation/uikit/uidynamicitembehavior", "law": "You can use a custom object as a dynamic item for such purposes as reacting to rotation or position changes computed by a dynamic animator—an instance of the class."}
+{"id": "/documentation/uikit/uidynamicitembehavior", "law": "One notable and common use of a dynamic item behavior is to confer a velocity to a dynamic item to match the ending velocity of a user gesture."}
+{"id": "/documentation/uikit/uigravitybehavior", "law": "(Do not add more than one gravity behavior to an animator.) The gravity behavior derives its coordinate system from the reference view of its associated dynamic animator object."}
+{"id": "/documentation/uikit/uipushbehavior", "law": "You can use a custom object as a dynamic item for such purposes as reacting to rotation or position changes computed by a dynamic animator—an instance of the class."}
+{"id": "/documentation/uikit/uipushbehavior", "law": "The coordinate system that pertains to a push behavior, and the types of dynamic items you can use with the behavior, depend on how you initialized the associated animator."}
+{"id": "/documentation/uikit/uisnapbehavior", "law": "You can use a custom object as a dynamic item for such purposes as reacting to rotation or position changes computed by a dynamic animator—an instance of the class."}
+{"id": "/documentation/uikit/uigesturerecognizer", "law": "The action methods invoked must conform to one of the following signatures: Methods conforming to the latter signature permit the target in some cases to query the gesture recognizer sending the message for additional information."}
+{"id": "/documentation/uikit/uigesturerecognizer", "law": "If you’re going to create such a concrete gesture recognizer, be sure to import the header file (for Objective-C) or the module (for Swift)."}
+{"id": "/documentation/uikit/uigesturerecognizer", "law": "(Note that the constants for Recognized and Ended states are synonymous.) Subclasses must set the property to the appropriate value when they transition between states."}
+{"id": "/documentation/uikit/uilongpressgesturerecognizer/allowablemovement", "law": "The maximum movement of the fingers on the view before the gesture fails."}
+{"id": "/documentation/uikit/uilongpressgesturerecognizer/minimumpressduration", "law": "The minimum time that the user must press on the view for the gesture to be recognized."}
+{"id": "/documentation/uikit/uilongpressgesturerecognizer/numberoftouchesrequired", "law": "The number of fingers that must touch the view for gesture recognition."}
+{"id": "/documentation/UIKit/UIView/draw(_:)", "law": "For example, you don’t need to override this method if your view just displays a background color or if your view sets its content directly using the underlying layer object."}
+{"id": "/documentation/uikit/uiscreen/overscancompensationinsets", "law": "The edge inset values needed to avoid clipping the rectangle."}
+{"id": "/documentation/uikit/uiscreen/snapshotview(afterscreenupdates:)", "law": "For example, you might use a snapshot view to facilitate a full screen animation."}
+{"id": "/documentation/UIKit/UIView/tintColor", "law": "If you attempt to use a pattern color as a tint color, the system raises an exception."}
+{"id": "/documentation/UIKit/UINavigationController", "law": "The navigation bar is always present and is managed by the navigation controller itself, which updates the navigation bar using the content provided by its contained view controllers."}
+{"id": "/documentation/UIKit/UINavigationController", "law": "Although the content of the navigation bar and toolbar views changes, the views themselves don’t."}
+{"id": "/documentation/UIKit/UINavigationController", "law": "Don’t change the navigation bar’s , , or values directly."}
+{"id": "/documentation/UIKit/UINavigationController", "law": "To hide or show the navigation bar, use the property or method."}
+{"id": "/documentation/UIKit/UINavigationController", "law": "Avoid using custom backgrounds and APIs to prevent interfering with Liquid Glass in your navigation bar."}
+{"id": "/documentation/UIKit/UINavigationController", "law": "When your navigation bar displays with Liquid Glass, don’t add a background or apply a tint color."}
+{"id": "/documentation/UIKit/UINavigationController", "law": "If you use custom toolbar and navigation bar subclasses to create a navigation controller, note that you’re responsible for pushing and setting view controllers before presenting the navigation controller onscreen."}
+{"id": "/documentation/UIKit/UILocalNotification", "law": "Although local notifications are similar to remote notifications in that they are used for displaying alerts, playing sounds, and badging app icons, they are composed and delivered locally and do not require connection with remote servers."}
+{"id": "/documentation/UIKit/UILocalNotification", "law": "For example, if a text-messaging app processes all incoming messages after receiving a local notification, it should remove the icon badge by setting the property of the object to 0."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "SF Symbols offers a comprehensive set of consistent, highly configurable symbol images that you can use in your app."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "The template is able to embed information about how a symbol should look in different rendering modes."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "After you locate a symbol image to use as a base for your design, choose File > Duplicate as Custom Symbol."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "Use a static setup if you’re targeting a particular weight and scale, or only plan to design one or two variants of your symbol."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "If you plan on supporting all design variants, this gives you the minimum number of variants necessary for the system to generate the other 24."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "By using three sources — , , and — SF Symbol can dynamically generate the full range of weights and scales you don’t specify."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "SF Symbols treats a symbol as path-based, rather than stroke-based, if all the shapes within it have solid color fills, and don’t have strokes or other graphical features."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "Use the reference glyphs in the template as guides for how a symbol image looks next to text."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "If you don’t specify explicit margin guides, the system uses the next available margins it finds — interpolated margins (if the template is interpolatable), , , and, finally, any available margins the system can use."}
+{"id": "/documentation/UIKit/creating-custom-symbol-images-for-your-app", "law": "Use the following scale factors when designing your variants: The system automatically centers symbols vertically to San Francisco’s cap-height in all the different scales and weights."}
+{"id": "/documentation/uikit/customizing-the-behavior-of-segue-based-presentations", "law": "Use the delegate design pattern to pass data from a presented view controller back to the originating view controller."}
+{"id": "/documentation/UIKit/UIView/frame", "law": "Use this rectangle during layout operations to set the size and position the view."}
+{"id": "/documentation/UIKit/NSAttributedStringDocumentAttributeKey", "law": "Use these attributes to specify metadata about the overall document, including its author or title, page margin details, font-scaling options for cross-platform interchange, and more."}
+{"id": "/documentation/UIKit/NSTextHighlightColorScheme", "law": "That attribute specifies which color to use when drawing the highlight on the text."}
+{"id": "/documentation/UIKit/NSTextHighlightColorScheme", "law": "Constants that specify the highlight color to use with the text."}
+{"id": "/documentation/UIKit/NSWritingDirectionFormatType", "law": "You can use the logical OR operator to combine these constants with or when used with the key in Swift or the key in Objective-C to specify formatting controls defined by the Unicode Bidirectional Algorithm in ."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesBegan(_:with:)", "law": "If the gesture recognizer is interpreting a continuous gesture, it should set its state to upon receiving this message."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesBegan(_:with:)", "law": "If at any point in its handling of the touch objects the gesture recognizer determines that the multi-touch event sequence is not its gesture, it should set it state to ."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesEnded(_:with:)", "law": "If the gesture recognizer is interpreting a continuous gesture, it should set its state to upon receiving this message."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesEnded(_:with:)", "law": "If it is interpreting a discrete gesture, it should set its state to ."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesEnded(_:with:)", "law": "If at any point in its handling of the touch objects the gesture recognizer determines that the multi-touch event sequence is not its gesture, it should set it state to ."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesMoved(_:with:)", "law": "If the gesture recognizer is interpreting a continuous gesture, it should set its state to upon receiving this message."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesMoved(_:with:)", "law": "If at any point in its handling of the touch objects the gesture recognizer determines that the multi-touch event sequence is not its gesture, it should set it state to ."}
+{"id": "/documentation/UIKit/UIGestureRecognizerDelegate/gestureRecognizerShouldBegin(_:)", "law": "Asks the delegate if a gesture recognizer should begin interpreting touches."}
+{"id": "/documentation/uikit/positioning-content-within-layout-margins", "law": "(If you don’t enable that option, Xcode creates your constraints relative to the view’s bounds rectangle.) If the superview’s margins change later, the positions of elements tied to those margins are updated accordingly."}
+{"id": "/documentation/uikit/positioning-content-within-layout-margins", "law": "The property of each view contains the edge inset values to use for the view’s margins."}
+{"id": "/documentation/uikit/positioning-content-within-layout-margins", "law": "(You can also use the Size inspector to set the value of that property at design time."}
+{"id": "/documentation/uikit/positioning-content-within-layout-margins", "law": "In the Layout Margins section, choose the Language Directional option and enter the margin values for each of the view’s edges, as shown in the following image.) For the root view of a view controller, UIKit enforces a set of minimum layout margins to ensure that content is displayed correctly."}
+{"id": "/documentation/uikit/positioning-content-within-layout-margins", "law": "You can get the minimum margin values from the property of the view controller."}
+{"id": "/documentation/uikit/positioning-content-within-layout-margins", "law": "To prevent UIKit from applying the minimum margins altogether, set the property of your view controller to false."}
+{"id": "/documentation/uikit/positioning-content-within-layout-margins", "law": "A view’s margins are affected by the settings of its and properties, which can increase the default margin values to ensure appropriate spacing of your content."}
+{"id": "/documentation/uikit/restoring-your-app-s-state", "law": "To test the sample app’s ability to restore the sample’s state, do not use the app switcher to force quit it during debugging."}
+{"id": "/documentation/uikit/showing-and-hiding-view-controllers", "law": "Use segues and the show methods to handle most transitions."}
+{"id": "/documentation/uikit/showing-and-hiding-view-controllers", "law": "Full-screen presentations always replace the previous content, but sheet-style presentations may leave some of the underlying content visible."}
+{"id": "/documentation/uikit/uicollectionviewcontroller", "law": "When you initialize the controller, using the method, you specify the layout the collection view should have."}
+{"id": "/documentation/uikit/uicontentcontainer/viewwilltransition(to:with:)", "law": "Use the provided object to animate any changes you make."}
+{"id": "/documentation/uikit/uidocumentpickerextensionviewcontroller", "law": "When creating a Document Picker extension, you must subclass to provide the document picker’s user interface."}
+{"id": "/documentation/uikit/uipageviewcontroller", "law": "To support gesture-based navigation, you must provide your view controllers using a data source object."}
+{"id": "/documentation/uikit/uisplitviewcontroller", "law": "A column-style split view controller lets you create an interface with two or three columns by using with the appropriate : Use the style to create a split view interface with a two-column layout."}
+{"id": "/documentation/uikit/uisplitviewcontroller", "law": "Use the style to create a split view interface with a three-column layout."}
+{"id": "/documentation/uikit/uisplitviewcontroller", "law": "Use the inspector column to provide auxiliary information related to the secondary column, or for controls that affect content in the secondary column."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "You should never access the tab bar view of a tab bar controller directly."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "If you don’t provide a custom tab bar item for your view controller, the view controller creates a default item containing no image and the text from the view controller’s property."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "You can use the delegate to prevent specific tab bar items from being selected and to perform additional tasks when tabs are selected."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "You can also use the delegate to monitor changes to the tab bar that are made by the More navigation controller, which is described in more detail in ."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "Although the items in the tab bar and toolbar views can change, the views that manage them don’t."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "Any views you display in a tab bar interface should therefore have their property set to resize the view appropriately under any conditions."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "In iOS, the tab bar always stays pinned at the bottom of the screen."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "In iOS, the tab bar always remains in focus at the bottom of the screen."}
+{"id": "/documentation/uikit/uitabbarcontroller", "law": "Tab bar controllers in tvOS don’t support customization."}
+{"id": "/documentation/uikit/uiviewcontroller/additionalsafeareainsets", "law": "Use this property to adjust the safe area insets of this view controller’s views by the specified amount."}
+{"id": "/documentation/uikit/uiviewcontroller/additionalsafeareainsets", "law": "You might use this property to extend the safe area to include custom content in your interface."}
+{"id": "/documentation/uikit/uiviewcontroller/childforscreenedgesdeferringsystemgestures", "law": "When implementing a container view controller, override this method if one of your child view controllers defines screen-edge gestures that should take precedence over the system gestures."}
+{"id": "/documentation/uikit/uiviewcontroller/childforscreenedgesdeferringsystemgestures", "law": "Returns the child view controller that should be queried to see if its gestures should take precedence."}
+{"id": "/documentation/uikit/uiviewcontroller/didmove(toparent:)", "law": "If you are implementing your own container view controller, it must call the method of the child view controller after the transition to the new controller is complete or, if there is no transition, immediately after calling the method."}
+{"id": "/documentation/uikit/uiviewcontroller/disablesautomatickeyboarddismissal", "law": "Under normal circumstances, when the user taps a control that requires an input view, the system automatically displays that view."}
+{"id": "/documentation/uikit/uiviewcontroller/edgesforextendedlayout", "law": "Instead of this property, use the safe area of your view to determine which parts of your interface are occluded by other content."}
+{"id": "/documentation/uikit/uiviewcontroller/edgesforextendedlayout", "law": "In iOS 10 and earlier, use this property to report which edges of your view controller extend underneath navigation bars or other system-provided views."}
+{"id": "/documentation/uikit/uiviewcontroller/endappearancetransition()", "law": "If you are implementing a custom container controller, use this method to tell the child that the view transition is complete."}
+{"id": "/documentation/uikit/uiviewcontroller/interactionactivitytrackingbasename", "law": "Use this property to customize the tracking name the activity uses in the signpost messages."}
+{"id": "/documentation/uikit/uiviewcontroller/interactionactivitytrackingbasename", "law": "Scroll views that can derive their enclosing view controller also use the tracking name to annotate interactive dragging and programmatic scrolling events."}
+{"id": "/documentation/uikit/uiviewcontroller/isediting", "law": "Use the method as an action method to animate the transition of this state if the view is already displayed."}
+{"id": "/documentation/uikit/uiviewcontroller/modaltransitionstyle", "law": "To change the transition type, you must set this property before presenting the view controller."}
+{"id": "/documentation/uikit/uiviewcontroller/modaltransitionstyle", "law": "The transition style to use when presenting the view controller."}
+{"id": "/documentation/uikit/uiviewcontroller/preferredscreenedgesdeferringsystemgestures", "law": "Whenever possible, you should allow the system gestures to take precedence."}
+{"id": "/documentation/uikit/uiviewcontroller/preferredscreenedgesdeferringsystemgestures", "law": "However, immersive apps can use this property to allow app-defined gestures to take precedence over the system gestures."}
+{"id": "/documentation/uikit/uiviewcontroller/preferredscreenedgesdeferringsystemgestures", "law": "You do that by overriding this property and returning the screen edges for which your gestures should take precedence."}
+{"id": "/documentation/uikit/uiviewcontroller/preferredstatusbarupdateanimation", "law": "The style of status bar animation to use; one of the constants from the enum."}
+{"id": "/documentation/uikit/uiviewcontroller/preferredstatusbarupdateanimation", "law": "Specifies the animation style to use for hiding and showing the status bar for the view controller."}
+{"id": "/documentation/uikit/uiviewcontroller/preferredtransition", "law": "Use this property to define which transition the system uses when you present a view controller."}
+{"id": "/documentation/uikit/uiviewcontroller/preferreduserinterfacestyle", "law": "Use this property to apply a specific appearance in your tvOS app."}
+{"id": "/documentation/uikit/uiviewcontroller/preferspointerlocked", "law": "Use to determine the current pointer lock state."}
+{"id": "/documentation/uikit/uiviewcontroller/preferspointerlocked", "law": "For the system to consider locking the pointer: The scene must be full screen, not in Split View or Slide Over, with no other apps in Slide Over."}
+{"id": "/documentation/uikit/uiviewcontroller/preferspointerlocked", "law": "To enable pointer lock, the user must click in the window."}
+{"id": "/documentation/uikit/uiviewcontroller/preferspointerlocked", "law": "To exit pointer lock, users can use Command-tab to switch to another app, or using Command-tilde."}
+{"id": "/documentation/uikit/uiviewcontroller/prefersstatusbarhidden", "law": "To specify that a child view controller should control preferred status bar hidden/unhidden state, implement the method."}
+{"id": "/documentation/uikit/uiviewcontroller/setediting(_:animated:)", "law": "Subclasses that use an edit-done button must override this method to change their view to an editable state if is and a non-editable state if it is ."}
+{"id": "/documentation/uikit/uiviewcontroller/settoolbaritems(_:animated:)", "law": "View controllers that are managed by a navigation controller can use this method to specify toolbar items for the navigation controller’s built-in toolbar."}
+{"id": "/documentation/uikit/uiviewcontroller/supportedinterfaceorientations", "law": "iOS devices without a Home button, such as iPhone 12, don’t support this orientation."}
+{"id": "/documentation/uikit/uiviewcontroller/systemminimumlayoutmargins", "law": "This property contains the minimum layout margins expected by the system for the view controller’s root view."}
+{"id": "/documentation/uikit/uiviewcontroller/systemminimumlayoutmargins", "law": "To stop considering the system’s minimum layout margins for the root view, set the property to ."}
+{"id": "/documentation/uikit/uiviewcontroller/systemminimumlayoutmargins", "law": "If you assign a custom value to the property of the view controller’s root view, the root view’s actual margins are set to either your custom values or the minimum values defined by this property, whichever values are greater."}
+{"id": "/documentation/uikit/uiviewcontroller/systemminimumlayoutmargins", "law": "For example, if the value for one system minimum margin is points and you specify a value of for the same margin on the view, the view uses the value for the margin."}
+{"id": "/documentation/uikit/uiviewcontroller/systemminimumlayoutmargins", "law": "The minimum layout margins for the view controller’s root view."}
+{"id": "/documentation/uikit/uiviewcontroller/tabbaritem", "law": "Therefore, you should not access this property if you are not using a tab bar controller to display the view controller."}
+{"id": "/documentation/uikit/uiviewcontroller/tabbaritem", "law": "To ensure the tab bar item is configured, you can either override this property and add code to create the bar button items when first accessed or create the items in your view controller’s initialization code."}
+{"id": "/documentation/uikit/uiviewcontroller/tabbarobservedscrollview", "law": "Use this property in your tvOS apps to create an interface where the tab bar scrolls with the rest of your content."}
+{"id": "/documentation/uikit/uiviewcontroller/toolbaritems", "law": "You can set the value of this property explicitly or use the method to animate changes to the visible set of toolbar items."}
+{"id": "/documentation/uikit/uiviewcontroller/updateviewconstraints()", "law": "Instead, your app must have some way of tracking your constraints, and validating them during each update pass."}
+{"id": "/documentation/uikit/uiviewcontroller/viewlayoutmarginsdidchange()", "law": "Use this method to update the position of content based on the new margin values."}
+{"id": "/documentation/uikit/uiviewcontroller/viewrespectssystemminimumlayoutmargins", "law": "A Boolean value indicating whether the view controller’s view uses the system-defined minimum layout margins."}
+{"id": "/documentation/uikit/uiviewcontroller/viewsafeareainsetsdidchange()", "law": "Use this method to update your interface to accommodate the new safe area."}
+{"id": "/documentation/uikit/uiviewcontroller/willanimaterotation(to:duration:)", "law": "You can override this method and use it to configure additional animations that should occur during the view rotation."}
+{"id": "/documentation/uikit/uiviewcontroller/willanimaterotation(to:duration:)", "law": "For example, you could use it to adjust the zoom level of your content, change the scroller position, or modify other animatable properties of your view."}
+{"id": "/documentation/uikit/uiviewcontroller/willanimaterotation(to:duration:)", "law": "Thus, you can perform any additional layout required by your views in this method."}
+{"id": "/documentation/uikit/using-responders-and-the-responder-chain-to-handle-events", "law": "Event types include: Motion events related to the accelerometers, gyroscopes, and magnetometer don’t follow the responder chain."}
+{"id": "/documentation/UIKit/UIGestureRecognizerDelegate", "law": "In this case, you might want all other relevant gesture recognizers associated with that view’s subtree to require the screen-edge gesture recognizer to fail so you can prevent any graphical glitches that might occur when the other recognizers get canceled after starting the recognition process."}
+{"id": "/documentation/UIKit/UIGestureRecognizerDelegate", "law": "To do this, you could use code similar to the following: A set of methods implemented by the delegate of a gesture recognizer to fine-tune an app’s gesture-recognition behavior."}
+{"id": "/documentation/UIKit/UIAccessibilityContentSizeCategoryImageAdjusting", "law": "Objects adopt this protocol when they support scaling image assets to the size required by the accessibility content size categories."}
+{"id": "/documentation/UIKit/UIAccessibilityContentSizeCategoryImageAdjusting", "law": "Typically, an object sets the property to only when its image contains vector data that can scale well to the larger sizes required for accessibility."}
+{"id": "/documentation/UIKit/UIButton", "law": "Buttons use the target-action design pattern to notify your app when the user taps the button."}
+{"id": "/documentation/UIKit/UIButton", "law": "The most commonly used button types are the Custom and System types, but use the other types when appropriate."}
+{"id": "/documentation/UIKit/UIButton", "law": "To configure the appearance of all buttons in your app, use the appearance proxy object."}
+{"id": "/documentation/UIKit/UIButton", "law": "The class implements the class method, which you can use to fetch the appearance proxy for all buttons in your app."}
+{"id": "/documentation/UIKit/UIButton", "law": "In Interface Builder, use the State Config control in the Attributes inspector to choose the appropriate state and then configure the other attributes."}
+{"id": "/documentation/UIKit/UIButton", "law": "When setting the content of a button, you must specify the title, image, and appearance attributes for each state separately."}
+{"id": "/documentation/UIKit/UIButton", "law": "If you don’t customize the content for a particular state, the button uses the values associated with the Default state and adds any appropriate customizations."}
+{"id": "/documentation/UIKit/UIButton", "law": "If you don’t explicitly set a tint color, the button uses its superview’s tint color."}
+{"id": "/documentation/UIKit/UIButton", "law": "Use insets to add or remove space around the content in your custom or system buttons."}
+{"id": "/documentation/UIKit/UIButton", "law": "There should be no reason for you to adjust the edge insets for info, contact, or disclosure buttons."}
+{"id": "/documentation/uikit/getting-the-user-s-attention-with-alerts-and-action-sheets", "law": "Display an alert or action sheet when your app requires additional information or acknowledgment from a person."}
+{"id": "/documentation/uikit/getting-the-user-s-attention-with-alerts-and-action-sheets", "law": "Alerts and action sheets are interruptions to someone’s current task, so use them sparingly and only when absolutely needed."}
+{"id": "/documentation/uikit/getting-the-user-s-attention-with-alerts-and-action-sheets", "law": "For detailed guidance on when to use them, see “Action sheets” and “Alerts” in ."}
+{"id": "/documentation/uikit/getting-the-user-s-attention-with-alerts-and-action-sheets", "law": "Add at least one action — represented by a object — to an alert controller before you present it."}
+{"id": "/documentation/uikit/uibarbuttonitem", "law": "You typically use Interface Builder to create and configure bar button items."}
+{"id": "/documentation/uikit/uibarbuttonitem", "law": "You can use customized buttons in standard places in a object or a instance."}
+{"id": "/documentation/uikit/uibarbuttonitem/identifier", "law": "By default, UIKit uses heuristics based on item position and content to determine which items should be matched for these transitions."}
+{"id": "/documentation/uikit/uibarbuttonitem/identifier", "law": "Set this property with the same value on two different bar button items in different navigation item configurations to indicate that they should be treated as the same item during transitions."}
+{"id": "/documentation/uikit/uibarbuttonitem/identifier", "law": "The default value is , which means UIKit will use its default heuristics for transitions."}
+{"id": "/documentation/uikit/uibarbuttonitem/ispaddingremoved", "law": "Whether the standard padding around the item should be removed."}
+{"id": "/documentation/uikit/uibarbuttonitem/possibletitles", "law": "Use this property to provide a hint to the system on how to correctly size the bar button item to be wide enough to accommodate your widest title."}
+{"id": "/documentation/uikit/uibarbuttonitemappearance", "law": "Use a object to customize the appearance of a bar button item in each of its possible states."}
+{"id": "/documentation/uikit/uibarbuttonitemgroup", "law": "When creating a group with more than one bar button item, it’s recommended that you also provide a representative item to display."}
+{"id": "/documentation/uikit/uibarbuttonitemgroup", "law": "The representative item must be a completely separate bar button item; it must not be one of the items already in the group."}
+{"id": "/documentation/uikit/uibaritem", "law": "You can also specify a custom image and position to use in landscape orientation when using the iPhone appearance idiom using and respectively."}
+{"id": "/documentation/uikit/uitabbar", "law": "Typically, you use tab bars in conjunction with a object, but you can also use them as standalone controls in your app."}
+{"id": "/documentation/uikit/uitabbar", "law": "Tab bars always appear across the bottom edge of the screen and display the contents of one or more objects."}
+{"id": "/documentation/uikit/uitabbar", "law": "A object provides its own tab bar object and you must configure the object provided to you."}
+{"id": "/documentation/uikit/uitabbar", "law": "When creating a tab bar programmatically, use the method or another view initializer method to set its initial configuration."}
+{"id": "/documentation/uikit/uitabbar", "law": "Use the methods of this class to configure the appearance of the tab bar."}
+{"id": "/documentation/uikit/uitabbar", "law": "For tab bars you create yourself, you also use the methods of this class to specify the items displayed by the tab bar."}
+{"id": "/documentation/uikit/uitabbar", "law": "Use tab bars to convey and change your app’s mode."}
+{"id": "/documentation/uikit/uitabbar", "law": "Use toolbars to present the user with a set of actions that are relevant to the currently presented content."}
+{"id": "/documentation/uikit/uitabbar", "law": "For tab bars you create yourself, use the delegate to respond to selections or to the addition, removal, or reordering of items in the tab bar."}
+{"id": "/documentation/uikit/uitabbar", "law": "To configure tab bar items directly, use the method of the tab bar itself."}
+{"id": "/documentation/uikit/uitabbaritem", "law": "The most common approach for displaying a tab bar is to use a tab bar controller."}
+{"id": "/documentation/uikit/uitabbaritem", "law": "You can also use a tab bar independent of a tab bar controller."}
+{"id": "/documentation/uikit/uitabbaritem", "law": "The system provides several tab bar items for common use cases."}
+{"id": "/documentation/uikit/uicollectionviewcontroller/collectionviewlayout", "law": "You can use this property to refer to the layout object you originally configured the collection view to use."}
+{"id": "/documentation/uikit/uiimagepickercontroller/cameraflashmode-swift.enum", "law": "Present a picker interface set to use video capture mode."}
+{"id": "/documentation/uikit/uiimagepickercontroller/delegate", "law": "The delegate also decides when to dismiss the picker interface, so you must provide a delegate to use a picker."}
+{"id": "/documentation/uikit/uiimagepickercontroller/mediatypes", "law": "By default, the value of this property is the (Swift) or (Objective-C) identifier, which designates the still camera interface when capturing media, and specifies that only still images should be displayed in the media picker when browsing saved media."}
+{"id": "/documentation/uikit/uiimagepickercontroller/mediatypes", "law": "To designate all available media types for a source, use a statement like this: An array that indicates the media types to access by the media picker controller."}
+{"id": "/documentation/uikit/uiimagepickercontroller/startvideocapture()", "law": "You can take more than one movie without leaving the interface, but to do so requires you to hide the default image picker controls."}
+{"id": "/documentation/uikit/uiimagepickercontroller/startvideocapture()", "law": "If you require additional options or more control over movie capture, use the movie capture methods in the AVFoundation framework."}
+{"id": "/documentation/uikit/uiimagepickercontroller/videomaximumduration", "law": "The maximum duration, in seconds, for a video recording."}
+{"id": "/documentation/uikit/uiimagepickercontrollerdelegate", "law": "A set of methods that your delegate object must implement to interact with the image picker interface."}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller", "law": "You use instances of this class as-is to configure aspects of the popover appearance and behavior for view controllers whose presentation style is set to ."}
+{"id": "/documentation/uikit/uivideoeditorcontroller", "law": "This class doesn’t support modifications to its appearance by use of overlay views."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:didreceive:)", "law": "If the app is not active in the foreground when the notification fires, the system uses the information in the object to determine whether it should display an alert, badge the app icon, or play a sound."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:didreceive:)", "law": "For example, a calendar app might use local notifications to alert the user to upcoming events."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:didreceiveremotenotification:)", "law": "Although you should not need the information in the dictionary, you can retrieve its contents using the following keys: —The value is either a string for the alert message or a dictionary with two keys: and ."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:didreceiveremotenotification:)", "law": "The absence of a property indicates that any number currently badging the icon should be removed."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:didregister:)", "law": "Apps that use local or remote notifications to alert the user to new information must register the types of notifications they want to use by calling the method of the app object."}
+{"id": "/documentation/UIKit/managing-your-app-s-life-cycle", "law": "By contrast, a background app must do as little work as possible, and preferably nothing, because it’s offscreen."}
+{"id": "/documentation/UIKit/managing-your-app-s-life-cycle", "law": "Use scene transitions to perform the following tasks: When UIKit connects a scene to your app, configure your scene’s initial UI and load the data your scene needs."}
+{"id": "/documentation/UIKit/managing-your-app-s-life-cycle", "law": "Use app transitions to perform the following tasks: At launch, initialize your app’s data structures and UI."}
+{"id": "/documentation/UIKit/customizing-a-document-based-app-s-launch-experience", "law": "If you don’t modify the property, the controller adds a Create Document button as the default primary action."}
+{"id": "/documentation/uikit/supporting-desktop-class-features-in-your-ipad-app", "law": "Optional groups that have set to don’t appear in the navigation bar by default."}
+{"id": "/documentation/uikit/supporting-desktop-class-features-in-your-ipad-app", "law": "A person can use the keyboard and pointer to select tags, and perform a secondary click to open a context menu with relevant actions."}
+{"id": "/documentation/uikit/uitabbarcontrollerdelegate", "law": "You use the protocol when you want to augment the behavior of a tab bar."}
+{"id": "/documentation/uikit/uitabbarcontrollerdelegate", "law": "For more information on how to use and configure tab bar controllers and their delegates, see ."}
+{"id": "/documentation/UIKit/UICornerConfiguration-swift.struct", "law": "The system uses squared corners by default, so you don’t need to set a configuration to get squared corners."}
+{"id": "/documentation/UIKit/UICornerConfiguration-swift.struct", "law": "To configure a rounded corner that’s concentric relative to the containing view, use : Set the parameter to indicate a minimum radius for the rounded corner."}
+{"id": "/documentation/UIKit/UICornerConfiguration-swift.struct", "law": "To configure rounded corners that form a capsule, use : Set the parameter to allow your view to break the capsule paradigm and stretch vertically with an edge if the radius necessary to form a capsule exceeds what you provide."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "You can use a navigation bar as a standalone object or in conjunction with a navigation controller object."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "You most frequently use a navigation bar within a navigation controller."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "You can also use a standalone navigation bar, without using a navigation controller."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "If you use a navigation controller to manage the navigation between different screens of content, the navigation controller creates a navigation bar automatically and pushes and pops navigation items when appropriate."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "Therefore, when using a navigation controller, don’t assign a custom delegate object to the corresponding navigation bar."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "To access the navigation bar associated with a navigation controller, use the property on ."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "In the vast majority of scenarios, you use a navigation bar as part of a navigation controller."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "However, there are situations for which you might want to use the navigation bar UI and implement your own approach to content navigation."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "In these situations, you can use a standalone navigation bar."}
+{"id": "/documentation/UIKit/UINavigationBar", "law": "When you use a navigation bar as a standalone object, you’re responsible for providing its content."}
+{"id": "/documentation/UIKit/UIScrollEdgeElementContainerInteraction", "law": "Any descendants of this view that should affect the shape of the edge effect, such as labels, images, glass views, and controls, will automatically do so."}
+{"id": "/documentation/UIKit/UISegmentedControl", "law": "The disclosure button is always momentary and doesn’t affect the actual selection."}
+{"id": "/documentation/UIKit/UISegmentedControl", "law": "When customizing appearance, in general, you should specify a value for the normal state of a property to be used by other states which don’t have a custom value set."}
+{"id": "/documentation/UIKit/UISplitViewController", "law": "A column-style split view controller lets you create an interface with two or three columns by using with the appropriate : Use the style to create a split view interface with a two-column layout."}
+{"id": "/documentation/UIKit/UISplitViewController", "law": "Use the style to create a split view interface with a three-column layout."}
+{"id": "/documentation/UIKit/UISplitViewController", "law": "Use the inspector column to provide auxiliary information related to the secondary column, or for controls that affect content in the secondary column."}
+{"id": "/documentation/UIKit/UITabBar", "law": "Typically, you use tab bars in conjunction with a object, but you can also use them as standalone controls in your app."}
+{"id": "/documentation/UIKit/UITabBar", "law": "Tab bars always appear across the bottom edge of the screen and display the contents of one or more objects."}
+{"id": "/documentation/UIKit/UITabBar", "law": "A object provides its own tab bar object and you must configure the object provided to you."}
+{"id": "/documentation/UIKit/UITabBar", "law": "When creating a tab bar programmatically, use the method or another view initializer method to set its initial configuration."}
+{"id": "/documentation/UIKit/UITabBar", "law": "Use the methods of this class to configure the appearance of the tab bar."}
+{"id": "/documentation/UIKit/UITabBar", "law": "For tab bars you create yourself, you also use the methods of this class to specify the items displayed by the tab bar."}
+{"id": "/documentation/UIKit/UITabBar", "law": "Use tab bars to convey and change your app’s mode."}
+{"id": "/documentation/UIKit/UITabBar", "law": "Use toolbars to present the user with a set of actions that are relevant to the currently presented content."}
+{"id": "/documentation/UIKit/UITabBar", "law": "For tab bars you create yourself, use the delegate to respond to selections or to the addition, removal, or reordering of items in the tab bar."}
+{"id": "/documentation/UIKit/UITabBar", "law": "To configure tab bar items directly, use the method of the tab bar itself."}
+{"id": "/documentation/UIKit/UITextField", "law": "Use the keyboard notifications to detect the appearance and disappearance of the keyboard and to make necessary changes to your interface."}
+{"id": "/documentation/UIKit/UITextField", "law": "For example, you might use an overlay view to implement a bookmarks button."}
+{"id": "/documentation/UIKit/UITextField", "law": "This button is displayed in the right overlay position, but if you provide a custom right overlay view, use the and properties to define when your custom overlay should be displayed and when the clear button should be displayed."}
+{"id": "/documentation/UIKit/UIToolbar", "law": "To create toolbar items, use the class."}
+{"id": "/documentation/UIKit/UIToolbar", "law": "To add toolbar items to a toolbar, use the method."}
+{"id": "/documentation/UIKit/UIToolbar", "law": "If you need radio button style controls, use the class instead of ."}
+{"id": "/documentation/UIKit/UIToolbar", "law": "When the system presents the toolbar with Liquid Glass: Don’t apply custom backgrounds or appearances to ."}
+{"id": "/documentation/UIKit/UIToolbar", "law": "In iOS 18 and earlier, you use the methods listed in to customize the appearance of toolbars."}
+{"id": "/documentation/UIKit/UIToolbar", "law": "For a button that finalizes or completes a task, set the button’s style to so that the system can avoid visually grouping the button with other buttons."}
+{"id": "/documentation/UIKit/UIAccessibilityTraits/tabBar", "law": "Use this trait to characterize an accessibility element that represents an ordered list of tabs."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/name", "law": "Use this name to distinguish one gesture recognizer from another during debugging, or to specify a relationship between gestures in SwiftUI and UIKit."}
+{"id": "/documentation/UIKit/UIGestureRecognizer/name", "law": "For example, you can assign a SwiftUI gesture a name when you create it using , as the following code shows: Then, you can use this property to refer to the gesture from UIKit."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/applicationWillResignActive(_:)", "law": "An app in the inactive state should do minimal work while it waits to transition to either the active or background state."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/applicationWillResignActive(_:)", "law": "Don’t rely on specific app state transitions to save all of your app’s critical data."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "Supplementary views are optional and their use and placement is defined by the layout object."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "Like supplementary views, they’re optional and their use and placement is defined by the layout object."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "However, the collection view always limits layout to the objects that are visible onscreen."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "Every layout object should implement the following methods: (if your layout supports supplementary views) (if your layout supports decoration views) These methods provide the fundamental layout information that the collection view needs to place contents on the screen."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "If your layout doesn’t support supplementary or decoration views, don’t implement the corresponding methods."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "Specifically, any item that’s moved, added, or deleted must have its layout information updated to reflect its new location."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "For items being inserted or deleted, the collection view calls some different methods, which you should override to provide the appropriate layout information: In addition to these methods, you can also override the to handle any layout-related preparation."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "You can also override the method and use it to add animations to the overall animation block or to implement any final layout-related tasks."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "The layout object can then use that information to minimize the amount of data it recomputes."}
+{"id": "/documentation/UIKit/UICollectionViewLayout", "law": "Your custom implementation of that method can use the information in the invalidation context to recompute only the portions of your layout that changed."}
+{"id": "/documentation/UIKit/UICollectionViewLayoutAttributes", "law": "Because layout attribute objects may be copied by the collection view, make sure your subclass conforms to the protocol by implementing any methods appropriate for copying your custom attributes to new instances of your subclass."}
+{"id": "/documentation/UIKit/UICollectionViewLayoutAttributes", "law": "If you subclass and implement any custom layout attributes, you must also override the inherited method to compare the values of your properties."}
+{"id": "/documentation/uikit/add-home-screen-quick-actions", "law": "Tapping any contact shows a detail screen where you can edit the name and email address, or tap to turn on the Favorite switch."}
+{"id": "/documentation/uikit/uieditmenuconfiguration", "law": "You use this object when calling the method of to provide the configuration details the interaction’s delegate uses to construct the menu that the interaction displays."}
+{"id": "/documentation/uikit/uieditmenuinteraction", "law": "Standard UIKit classes, such as and , are preconfigured to use edit menu interactions."}
+{"id": "/documentation/uikit/uieditmenuinteraction", "law": "You can use the interaction’s delegate to add additional items to the menu and set the target rectangle to display around using methods in the protocol."}
+{"id": "/documentation/uikit/uieditmenuinteractiondelegate", "law": "You use this protocol to customize the actions or presentation of the menu an object displays."}
+{"id": "/documentation/uikit/uipreviewparameters", "law": "Additional parameters to use when animating a preview interface."}
+{"id": "/documentation/uikit/uipreviewtarget", "law": "For example, use this method to animate views to or from a different part of your app’s interface."}
+{"id": "/documentation/uikit/uipreviewtarget", "law": "An object that specifies the container view to use for animations."}
+{"id": "/documentation/uikit/managing-your-app-s-life-cycle", "law": "By contrast, a background app must do as little work as possible, and preferably nothing, because it’s offscreen."}
+{"id": "/documentation/uikit/managing-your-app-s-life-cycle", "law": "Use scene transitions to perform the following tasks: When UIKit connects a scene to your app, configure your scene’s initial UI and load the data your scene needs."}
+{"id": "/documentation/uikit/managing-your-app-s-life-cycle", "law": "Use app transitions to perform the following tasks: At launch, initialize your app’s data structures and UI."}
+{"id": "/documentation/uikit/responding-to-the-launch-of-your-app", "law": "Add views to your launch storyboard and use Auto Layout constraints to size and position them so that they adapt to the underlying environment."}
+{"id": "/documentation/uikit/uiapplication/applicationsupportsshaketoedit", "law": "Set the property to if you don’t want your app to display the Undo and Redo buttons when users shake the device."}
+{"id": "/documentation/uikit/uiapplication/beginreceivingremotecontrolevents()", "law": "In iOS 7.1 and later, use the shared object to register for remote control events."}
+{"id": "/documentation/uikit/uiapplication/beginreceivingremotecontrolevents()", "law": "To stop the reception of remote-control events, you must call ."}
+{"id": "/documentation/uikit/uiapplication/endreceivingremotecontrolevents()", "law": "In iOS 7.1 and later, use the shared object to unregister for remote control events."}
+{"id": "/documentation/uikit/uiapplication/preferredcontentsizecategory", "law": "You can use the value of this property to request a font object of the appropriate size."}
+{"id": "/documentation/uikit/uiapplication/registerforremotenotifications()", "law": "If you want your app’s remote notifications to display alerts, play sounds, or perform other user-facing actions, you must request authorization to do so using the method of ."}
+{"id": "/documentation/uikit/uiapplication/schedulelocalnotification(_:)", "law": "Prior to scheduling any local notifications, you must call the method to let the system know what types of alerts, if any, you plan to display to the user."}
+{"id": "/documentation/uikit/uiapplication/setalternateiconname(_:completionhandler:)", "law": "Use this method to change your app’s icon to its primary icon or to one of its alternate icons."}
+{"id": "/documentation/uikit/uiapplication/setalternateiconname(_:completionhandler:)", "law": "You must configure your app’s primary icon asset in the “App Icons and Launch Images” section of the General pane or set it directly using the “Primary App Icon Set Name” build setting."}
+{"id": "/documentation/uikit/uiscenedestructionrequestoptions", "law": "When destroying a , create a object instead and use it to configure the dismissal animations."}
+{"id": "/documentation/uikit/uitrackingrunloopmode", "law": "You can use this mode to add timers that fire during tracking."}
+{"id": "/documentation/uikit/uiwindow", "law": "Windows don’t have any visual appearance of their own."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/init(contact:)", "law": "When providing a set of contact quick actions, ensure that every one of them has an icon."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/init(templateimagename:)", "law": "Use this method to create icons based on custom artwork that you provide."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/init(type:)", "law": "Use this method to create icons for actions supported by the system."}
+{"id": "/documentation/uikit/uiapplicationdelegate/applicationwillresignactive(_:)", "law": "An app in the inactive state should do minimal work while it waits to transition to either the active or background state."}
+{"id": "/documentation/uikit/uiapplicationdelegate/applicationwillresignactive(_:)", "law": "Don’t rely on specific app state transitions to save all of your app’s critical data."}
+{"id": "/documentation/uikit/uiscene/willdeactivatenotification", "law": "By the time your handler method returns, your app should be doing minimal work while it waits to transition to the background or to the foreground again."}
+{"id": "/documentation/uikit/uiscene/willdeactivatenotification", "law": "Do not rely on specific app transitions to save all of your app’s critical data."}
+{"id": "/documentation/UIKit/UIEventAttributionView", "law": "Event attribution views overlay other UIKit controls to ensure that either handling a tap with or opening an external link with Web AdAttributionKit data only happens as the result of a user tap."}
+{"id": "/documentation/UIKit/UIEventAttributionView", "law": "If multiple views or controls in your app can launch an external link using Web AdAttributionKit, use a separate to overlay each control."}
+{"id": "/documentation/UIKit/UIEventAttributionView", "law": "While you can use a single to validate more than one control, attribution views that cover large portions of the screen may impact performance because the system must validate all user interactions that pass through the attribution view."}
+{"id": "/documentation/UIKit/UIViewControllerTransitioningDelegate", "law": "When you present that view controller, UIKit queries your transitioning delegate for the objects to use when animating the view controller into position."}
+{"id": "/documentation/UIKit/UIViewControllerTransitioningDelegate", "law": "All transitions use a transition animator object —an object that conforms to the protocol—to implement the basic animations."}
+{"id": "/documentation/UIKit/UIViewControllerTransitioningDelegate", "law": "If you want to use touch input or other user interactions to control the timing of the animation, you can also provide an interactive animator object —an object that conforms to the protocol—to update the progress of the animations."}
+{"id": "/documentation/UIKit/UIViewControllerTransitioningDelegate", "law": "Because its existence extends beyond the lifespan of either animator object, you can use the presentation controller to coordinate aspects of the presentation or dismissal process that would be difficult to do otherwise."}
+{"id": "/documentation/UIKit/UIContextMenuConfiguration", "law": "In your method, use the location parameter to determine where the interaction occurred, and use the content at that location to configure your contextual menu and view controller."}
+{"id": "/documentation/uikit/uicollectionreusableview", "law": "You aren’t required to override any of the methods but can do so in cases where you want to respond to changes in the view’s usage or layout."}
+{"id": "/documentation/uikit/uicollectionviewdropcoordinator", "law": "Use the object to let the collection view know how you want to animate the dropped items into position."}
+{"id": "/documentation/uikit/uicollectionviewdropitem", "law": "Use them to retrieve the data for the items being dragged and to plan any animations related to dropping the items."}
+{"id": "/documentation/uikit/adding-headers-and-footers-to-table-sections", "law": "To create custom header or footer views: Use objects to define the appearance of your headers and footers."}
+{"id": "/documentation/uikit/configuring-the-cells-for-your-table", "law": "Design your cells to ensure that the most important information stands out."}
+{"id": "/documentation/uikit/configuring-the-cells-for-your-table", "law": "For appearances other than the standard styles, use the custom cell style."}
+{"id": "/documentation/uikit/configuring-the-cells-for-your-table", "law": "Avoid views that require user interactions such as controls."}
+{"id": "/documentation/uikit/configuring-the-cells-for-your-table", "law": "When setting up constraints, use the “Constrain to margins” option to preserve the gap between the content areas of your cells."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "The project also shows how to use Auto Layout constraints to automatically adjust the spacing surrounding text labels based on the text size."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "However, in order to support Dynamic Type with a custom font, a version of the font must be created that adopts the font metric for a particular text style."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "Before the effects of Dynamic Type can be seen, the property must be set to on each label."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "Setting the body label’s leading and trailing anchors equal to the leading and trailing anchors for the headline label ensures that the left and right edges of each label are always in the same position."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "While this might seem trivial when there are only two labels, setting a label’s leading and trailing anchors equal to the same anchors of another label can save you time when there are many more labels that must align their edges."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "With iOS 11 and later, you can avoid relying on and setting the constant value by using system spacing constraints."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "The constraint ensures that adequate spacing is always applied between the two labels regardless of the text size, without adjusting the constraint’s constant value."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "In order to test how the sample app reacts to different text sizes, run the app in Simulator and use Accessibility Inspector to change the text size."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "To use Accessibility Inspector, follow these steps: Launch Xcode, then run your app."}
+{"id": "/documentation/uikit/creating-self-sizing-table-view-cells", "law": "Create table view cells that support Dynamic Type and use system spacing constraints to adjust the spacing surrounding text labels."}
+{"id": "/documentation/uikit/uitableviewdropcoordinator", "law": "Use the object to let the table view know how you want to animate the dropped items into position."}
+{"id": "/documentation/uikit/uitableviewdropitem", "law": "Use them to retrieve the data for the items being dragged and to plan any animations related to dropping the items."}

@@ -71,3 +71,6 @@
 {"id": "/documentation/authenticationservices/asauthorizationcredential", "sha": "5e48692ed5aa8191bb7af1c988810134ad6bd589cd70e95e5229a24725f69136", "t": "ASAuthorizationCredential", "n": 40, "laws": 0, "ts": "2026-07-29 05:54 UTC"}
 {"id": "/documentation/carplay/using-the-carplay-simulator", "sha": "24ea483b79a8ea1c9f9627f5700e208a210c9999efe6969b9ca3a2955656ffc9", "t": "Using the CarPlay Simulator", "n": 2725, "laws": 10, "ts": "2026-07-29 06:04 UTC"}
 {"id": "/documentation/carplay/cpnowplayingmodesports", "sha": "0d22a8304066a598e4ebc08a0a064e158f10e5768fb4e17c6950bec3b6f5b7f7", "t": "CPNowPlayingModeSports", "n": 299, "laws": 0, "ts": "2026-07-29 06:06 UTC"}
+{"id": "/documentation/accessibility/axmathexpressionprovider", "sha": "588afd828333ece3f520aa4c144fda8c7e6047c0d5ab485362a7dbbd174ee599", "t": "AXMathExpressionProvider", "n": 50, "laws": 0, "ts": "2026-07-29 18:15 UTC"}
+{"id": "/documentation/uikit/uicontentcontainer", "sha": "20a04a845abf028ae283d5fb51d535a661e01da45841e2cd255ed85c5ad35182", "t": "UIContentContainer", "n": 1438, "laws": 0, "ts": "2026-07-29 18:28 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/viewifloaded", "sha": "e3ef80c1f16366a3fbf40bff21c99111c1989236f127c5d9ebc60266957ee0d0", "t": "viewIfLoaded", "n": 226, "laws": 0, "ts": "2026-07-29 18:35 UTC"}

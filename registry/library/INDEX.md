@@ -5,17 +5,17 @@
 | Фреймворк | Законов |
 |---|---|
 | appkit | 2365 |
-| uikit | 1897 |
+| uikit | 2233 |
 | appintents | 1688 |
 | accelerate | 1327 |
 | swiftui | 1262 |
 | foundation | 850 |
+| xcode | 841 |
 | metal | 713 |
 | avfoundation | 685 |
+| visionos | 641 |
 | technotes | 611 |
 | swift | 610 |
-| xcode | 591 |
-| visionos | 559 |
 | arkit | 473 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
@@ -27,10 +27,11 @@
 | carplay | 236 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
+| big7 | 228 |
 | appclip | 221 |
 | gamekit | 201 |
-| big7 | 196 |
 | vision | 195 |
+| widgetkit | 192 |
 | groupactivities | 191 |
 | avfaudio | 162 |
 | storekit | 161 |
@@ -43,9 +44,11 @@
 | driverkit | 129 |
 | networkextension | 122 |
 | swiftdata | 122 |
+| accessibility | 118 |
 | evaluations | 114 |
 | browserenginekit | 111 |
 | virtualization | 106 |
+| watchos-apps | 106 |
 | cloudkit | 105 |
 | security | 105 |
 | clockkit | 102 |
@@ -54,12 +57,10 @@
 | apple-silicon | 94 |
 | corelocation | 93 |
 | corespotlight | 90 |
-| accessibility | 88 |
 | applemapsserverapi | 87 |
 | audiodriverkit | 86 |
-| widgetkit | 86 |
 | coreml | 84 |
-| watchos-apps | 82 |
+| watchkit | 82 |
 | coreimage | 81 |
 | backgroundassets | 77 |
 | exposurenotification | 73 |
@@ -95,7 +96,6 @@
 | usd | 39 |
 | videotoolbox | 39 |
 | corebluetooth | 38 |
-| watchkit | 38 |
 | hiddriverkit | 37 |
 | tipkit | 37 |
 | applemusicapi | 35 |
@@ -343,4 +343,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 24682 · фреймворков: 338
+Итого законов: 25586 · фреймворков: 338

@@ -77,3 +77,10 @@
 {"id": "/documentation/automaticassessmentconfiguration/aeassessmentconfiguration/allowskeyboardshortcuts", "sha": "e79d2ff02277180450335f65857ff7935f8ea94ba08bcef44c8248f3ad138124", "t": "allowsKeyboardShortcuts", "n": 360, "laws": 1, "ts": "2026-07-29 05:56 UTC"}
 {"id": "/documentation/backgroundtasks/bgtaskrequest", "sha": "8c8329e8731ceed32bef4da2d70e5236d04ed2e47bd0738b3c593488001cd0f0", "t": "BGTaskRequest", "n": 110, "laws": 0, "ts": "2026-07-29 05:59 UTC"}
 {"id": "/documentation/carplay/cpnavigationsession", "sha": "53fa4e77d47e0273f88c4ddca716b60a1d56d7785b73ea138d375438c4a79a17", "t": "CPNavigationSession", "n": 1477, "laws": 3, "ts": "2026-07-29 06:08 UTC"}
+{"id": "/documentation/xcode/metal-debugger", "sha": "5f5b8629f90dcb6647e52fb9b7806ab04d4c4cd1544795467d2ef226bb4b1dea", "t": "Metal debugger", "n": 2508, "laws": 0, "ts": "2026-07-29 18:18 UTC"}
+{"id": "/documentation/widgetkit/activitypreviewviewkind", "sha": "73abf43fd5d0d362a16cf11db38c9fe6afa9e517a4631312560df79164eceffe", "t": "ActivityPreviewViewKind", "n": 238, "laws": 0, "ts": "2026-07-29 18:22 UTC"}
+{"id": "/documentation/UIKit/UIView/frame", "sha": "03b06d1e6e12f212a653d98ebc2556b23b6f9b6834dc1479bfd825ae2c6056be", "t": "frame", "n": 1057, "laws": 1, "ts": "2026-07-29 18:31 UTC"}
+{"id": "/documentation/UIKit/UIGestureRecognizer/touchesEnded(_:with:)", "sha": "bca0b0c4176583ef88e7f34282d54e384b6b318b2abe56687a3bcc07e7dec271", "t": "touchesEnded(_:with:)", "n": 1090, "laws": 3, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/uikit/uicontentcontainer/viewwilltransition(to:with:)", "sha": "08b7cc09a059bab49ccaec18d56efa6de2be328633b220a2770c0f636e9e5df4", "t": "viewWillTransition(to:with:)", "n": 821, "laws": 1, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/addkeycommand(_:)", "sha": "fdf907ae1e73760e8de3e1f86eff611c67bd9943375334ead594f3007dc61640", "t": "addKeyCommand(_:)", "n": 437, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/uikit/uiapplication/shared", "sha": "8d5fc8991c7675335ba2aa795688ef27f5aeaee25d3116a4cdd4a3585cf8718e", "t": "shared", "n": 163, "laws": 0, "ts": "2026-07-29 18:41 UTC"}

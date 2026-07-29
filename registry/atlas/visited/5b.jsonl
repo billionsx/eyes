@@ -72,3 +72,7 @@
 {"id": "/documentation/UIKit/UIMenu/Identifier-swift.struct", "sha": "ed9693c24af2ba2149ea973fe42f7581d3b74b2927a2bbc1e03092f9981ac779", "t": "UIMenu.Identifier", "n": 915, "laws": 2, "ts": "2026-07-29 05:57 UTC"}
 {"id": "/documentation/backgroundassets/badownloaderextension-zuvm", "sha": "795093696751f1424a196614f7d3b3e3a4c0f080c3ff6ef055e37e3454864a2e", "t": "BADownloaderExtension", "n": 454, "laws": 0, "ts": "2026-07-29 05:57 UTC"}
 {"id": "/documentation/carplay/cptabbartemplate", "sha": "b1b44201f836968f17e8cbbaa93542727e7e5bcf9e682803fef2215917eca668", "t": "CPTabBarTemplate", "n": 1722, "laws": 5, "ts": "2026-07-29 06:04 UTC"}
+{"id": "/documentation/watchos-apps/customizing-your-long-look-interface", "sha": "7cb4e4c1896cebaabc155514a9b915c78b478ef8da256a93c4ced953445ba3e8", "t": "Customizing your long-look interface", "n": 1287, "laws": 1, "ts": "2026-07-29 18:16 UTC"}
+{"id": "/documentation/uikit/uidynamicanimator/elapsedtime", "sha": "1712d71a072e83f6c0181a8293ce03970320a41709ec2e78c89fcbc5ee8940a7", "t": "elapsedTime", "n": 146, "laws": 0, "ts": "2026-07-29 18:29 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/modalpresentationstyle", "sha": "0265d0f39920e52102e4873acfbb585ea9764a49fffa42697ecaf12e25eb3c83", "t": "modalPresentationStyle", "n": 674, "laws": 0, "ts": "2026-07-29 18:33 UTC"}
+{"id": "/documentation/UIKit/UISegmentedControl", "sha": "f9a5ae9730082efbad3c46864af88a98e2b610626f992756a0ff590b2715de00", "t": "UISegmentedControl", "n": 3317, "laws": 2, "ts": "2026-07-29 18:39 UTC"}

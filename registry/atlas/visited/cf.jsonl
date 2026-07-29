@@ -61,3 +61,5 @@
 {"id": "/documentation/signinwithapplejs/clientconfigi/redirecturi", "sha": "7e4db0525dae58712a9ef06f18282638b35aae1f85d2ea420d43be72f8a0410c", "t": "redirectURI", "n": 171, "laws": 1, "ts": "2026-07-29 05:55 UTC"}
 {"id": "/documentation/carplay/cpchargingstationconnection", "sha": "95bfd4da393eb3a68e3d4f9e61f939272eb34dff72dd6efe98f7a7a09b909137", "t": "CPChargingStationConnection", "n": 166, "laws": 0, "ts": "2026-07-29 06:05 UTC"}
 {"id": "/documentation/carplay/cplistimagerowitemelement", "sha": "e3db43177200eaa9ab7a70a8f42dbadfaf6c0d1b7d23cfdc3f26696dfe5a2d26", "t": "CPListImageRowItemElement", "n": 150, "laws": 0, "ts": "2026-07-29 06:06 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/initwithbarbuttonsystemitem:menu:", "sha": "b3000416a38255c5d16ee1c9faab946dbbe2fa4444f29fb33e912122e06a62e1", "t": "initWithBarButtonSystemItem:menu:", "n": 103, "laws": 0, "ts": "2026-07-29 18:36 UTC"}
+{"id": "/documentation/UIKit/UIPopoverPresentationController/sourceView", "sha": "7d156b232d9c3cf88a81730e3c91829655f601dffa2055f1455c5868af968491", "t": "sourceView", "n": 257, "laws": 0, "ts": "2026-07-29 18:39 UTC"}
