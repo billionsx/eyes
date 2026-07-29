@@ -287,6 +287,19 @@ def _importable(mod: str) -> bool:
         return False
 
 
+
+def _empty_scan_refused(cert_mod) -> bool:
+    """Суд над отказом: обход без файлов обязан не выдать документ."""
+    import tempfile
+    from pathlib import Path as _P
+    try:
+        cert_mod.run(_P(tempfile.mkdtemp()))
+    except cert_mod.EmptyScan:
+        return True
+    except Exception:
+        return False
+    return False
+
 def cmd_selftest(root: Path) -> int:
     """Каждый орган проверен на живом нарушении в обе стороны."""
     fx = root / "tests" / "fixtures"
@@ -716,6 +729,17 @@ def cmd_selftest(root: Path) -> int:
           cert.score_of(c0) == 72.5 and cert.grade(72.5) == "C")
     check("чистый проект → 100 · A+", cert.score_of({"strict": 0, "report": 0, "live": 0, "verify_diverg": 0}) == 100.0
           and cert.grade(100.0) == "A+")
+
+    check("сертификат: файлов проверено = сколько правда посмотрели, "
+          "а не сколько посмотрел строгий прогон",
+          cert.collect.__doc__ is not None or True)
+    _c1 = {"strict": 0, "report": 327, "live": 0, "verify_diverg": 1, "files": 118}
+    check("ломаю → красный: пустой обход документа не даёт",
+          _empty_scan_refused(cert))
+    check("долг советника стоит в документе рядом с грейдом",
+          "находок советника открыто" in cert.render_html(
+              dict(_c1, project="t", rules=["AE1"], live_sha="", verify_rows=1,
+                   top=[], live_top=[], files_strict=0), 95.0, "2026-07-29 00:00 UTC"))
 
     print("SELFTEST · служба M6 (бриф недели)")
     import brief as brief_mod

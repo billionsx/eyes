@@ -48,12 +48,24 @@ def collect(project_root: Path) -> dict:
     diverg = ver.count("РАСХОЖДЕНИЕ")
     return {"project": adapter.get("project", "default"),
             "strict": len(s["findings"]), "report": len(r["findings"]),
-            "files": s["files"], "rules": sorted(set(s["rules"]) | set(r["rules"])),
+            "files": len(set(s.get("paths", [])) | set(r.get("paths", []))),
+            "files_strict": s["files"],
+            "rules": sorted(set(s["rules"]) | set(r["rules"])),
             "live": len(base["findings"]), "live_sha": base.get("sha", ""),
             "verify_diverg": diverg,
             "verify_rows": ver.count("| сходится") + diverg,
             "top": [(f[0], f[1], f[2]) for f in (s["findings"] + r["findings"])[:12]],
             "live_top": [(f[0].split(":")[1], f[1]) for f in base["findings"][:8]]}
+
+
+class EmptyScan(Exception):
+    """Обойдено 0 файлов — сертификат не выдаётся.
+
+    ЗКН-Э006 закрывал этот случай для храповика: пустой обход не
+    доказательство погашенного долга, а промах адреса. Для документа он
+    опаснее: сертификат на пустом обходе — не «нет данных», а «данные есть
+    и они отличные». Молчание не выдаётся за чистоту (ЗКН-Э001).
+    """
 
 
 def score_of(c: dict) -> float:
@@ -76,7 +88,7 @@ table{{width:100%;border-collapse:collapse;margin:10px 0 22px}} td,th{{border-to
 <h1>BXE · Сертификат соответствия измеренным законам</h1>
 <p class="s">Проект: <b>{c['project']}</b> · период {ts[:7]} · выдан {ts} · правила: {', '.join(c['rules'])}</p>
 <div class="k"><div><b class="g">{g}</b>грейд</div><div><b>{score}</b>скор</div>
-<div><b>{c['files']}</b>файлов проверено</div><div><b>{c['verify_rows']}</b>строк сверки · расхождений {c['verify_diverg']}</div></div>
+<div><b>{c['files']}</b>файлов проверено</div><div><b>{c['report']}</b>находок советника открыто</div><div><b>{c['verify_rows']}</b>строк сверки · расхождений {c['verify_diverg']}</div></div>
 <p class="s">Формула (объявлена, ст. 1): score = 100 − 2.0·strict({c['strict']}) − 1.5·live({c['live']}) − 5.0·сверка({c['verify_diverg']}) − 0.1·min(report {c['report']}, 50). Каждое правило выведено из замера/первоисточника с адресом (📐/🍎), суд департамента зелёный.</p>
 <h3>Файловые находки (top)</h3><table><tr><th>Правило</th><th>Файл</th><th>Строка</th></tr>{rows_f}</table>
 <h3>Живой прод (базовая линия{(' · деплой ' + c['live_sha'][:9]) if c['live_sha'] else ''})</h3>
@@ -149,6 +161,11 @@ def register(out: Path, project: str, month: str, score: float,
 def run(project_root: Path, pdf: bool = False) -> dict:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     c = collect(project_root)
+    if not c["files"]:
+        raise EmptyScan(
+            f"обойдено 0 файлов в {project_root} — сертификат не выдан. "
+            "Пустой обход означает промах адреса (не забран код, неверный "
+            "PROJECT_ROOT или пустые глобы паспорта), а не отличный проект.")
     score = score_of(c)
     out = ROOT / "certificates" / c["project"]
     out.mkdir(parents=True, exist_ok=True)
