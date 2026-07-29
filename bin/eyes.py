@@ -694,6 +694,34 @@ def cmd_selftest(root: Path) -> int:
           fk.pick_targets(names, {"tvOS-18-Design-Templates-Sketch.dmg"}) == ["tvOS-18-Production-Templates-Sketch.dmg"]
           and fk.pick_targets(names, set(names)) == [])
 
+    print("SELFTEST · атлас: отбор по предмету департамента")
+    import atlas as atlas_sel
+    _fw = {"uikit": {"v": 100, "d": 40}, "swiftui": {"v": 100, "d": 10},
+           "accelerate": {"v": 100, "d": 0}, "newfw": {"v": 3, "d": 0}}
+    _fr = ["/documentation/accelerate/a", "/documentation/uikit/b",
+           "/documentation/newfw/c", "/documentation/swiftui/d"]
+    _ord = [x.split("/")[2] for x in atlas_sel.order_frontier(_fr, _fw)]
+    check("порядок обхода по урожаю предмета: uikit .37 → swiftui .10 → "
+          "неизученный .08 → пустой .01",
+          _ord == ["uikit", "swiftui", "newfw", "accelerate"])
+    check("просмотренный без единого предметного закона опускается НИЖЕ "
+          "неизученного: о нём известно больше",
+          _ord.index("accelerate") > _ord.index("newfw"))
+    check("ничего не удалено: сколько было в очереди, столько и осталось",
+          len(atlas_sel.order_frontier(_fr, _fw)) == len(_fr))
+    check("изученный и пустой фреймворк виден числом, а не молча",
+          atlas_sel.quarantined(_fr, _fw) == 1)
+    check("не изученный до порога в карантин не идёт",
+          atlas_sel.quarantined(["/documentation/newfw/c"], _fw) == 0)
+    _l, _o = atlas_sel._mine_laws(
+        "Buttons must use a corner radius of 12 pt.\nThe FFT must be 8 elements long.")
+    check("ломаю → красный: числовая проза не по предмету в библиотеку не идёт",
+          _o == 1 and len(_l) == 1 and "corner radius" in _l[0])
+    check("чиню → зелёный: предметное числовое предложение сохраняется",
+          bool(atlas_sel.DESIGN.search("Use a corner radius of 12 pt")))
+    check("порядок детерминирован: тот же вход даёт тот же выход",
+          atlas_sel.order_frontier(_fr, _fw) == atlas_sel.order_frontier(_fr, _fw))
+
     print("SELFTEST · служба M1 (парсер диффа)")
     import review as review_mod
     patch = "@@ -1,2 +1,4 @@\n context\n+.bad { color: #8E8E8E; }\n+.ok { color: var(--x); }\n-old line\n context2\n@@ -10 +12,2 @@\n+.later { box-shadow: 0 10px 30px rgba(0,0,0,.5); }"

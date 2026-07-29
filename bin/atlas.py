@@ -47,6 +47,73 @@ BUDGET = 700
 DELAY = 1.0
 LAWS_PER_PAGE = 10
 RECYCLE_BATCH = 400  # размер переобхода на круге
+PROBE = 25           # с этого числа страниц фреймворк считается изученным
+PRIOR_D, PRIOR_V = 1, 10  # поправка на малое число наблюдений (см. order_frontier)
+
+# ПРЕДМЕТ ДЕПАРТАМЕНТА (ст. 2). Департамент судит интерфейс: цвет, шрифт,
+# геометрию, движение, прозрачность, материал, элементы управления, доступность.
+# Словарь не выдуман — он собран из того, что департамент УЖЕ принуждает
+# правилами AE1..AE13 и хранит в registry/standards/tokens.json.
+#
+# Зачем он здесь. Добытчик считал законом любое предложение с числом или
+# долженствованием — и тащил в библиотеку прозу о разреженных матрицах,
+# аудиокодеках и БПФ. Замер на 29.07.2026: из 23 448 собранных «законов» к
+# предмету относились 3 597, то есть 15%. Девять десятых хода уходило в шум,
+# и этот шум ставил в очередь новый шум: фронтир рос вдвое быстрее чтения
+# (+3 395 против +1 500 за сутки), полных кругов — ноль.
+DESIGN = re.compile(
+    r"\b(?:colou?rs?|contrast|appearances?|dark mode|light mode|tints?|"
+    r"fonts?|typograph\w*|text style|tracking|leading|kerning|type size|dynamic type|"
+    r"layouts?|spacing|margins?|insets?|padding|safe area|alignment|"
+    r"corners?|radius|radii|rounded|shapes?|"
+    r"animat\w*|motion|durations?|easing|transitions?|springs?|"
+    r"opacity|alpha|blurs?|materials?\b|glass|vibranc\w*|shadows?|elevation|"
+    r"buttons?|controls?|navigation bar|tab bar|toolbars?|sheets?|alerts?|menus?|"
+    r"pickers?|sliders?|switch(?:es)?|"
+    r"icons?|symbols?|thumbnails?|"
+    r"gestures?|tappable|touch target|tap target|hit area|pointer|focus\w*|"
+    r"accessib\w*|voiceover|legibil\w*|"
+    r"human interface|designs?\b|designing\b)", re.I)
+
+
+def framework_of(pid: str) -> str:
+    """Фреймворк по адресу: /documentation/<fw>/... → <fw>. Корень → _root."""
+    parts = [x for x in (pid or "").split("/") if x]
+    return (parts[1].lower() if len(parts) > 1 else "_root") or "_root"
+
+
+def order_frontier(frontier: list, fw: dict, probe: int = PROBE) -> list:
+    """Порядок обхода по УРОЖАЮ ПРЕДМЕТА, а не по времени попадания в очередь.
+
+    Вес фреймворка — доля предметных законов на страницу, с поправкой на малое
+    число наблюдений: (d + 1) / (v + 10). Поправка нужна, потому что порог
+    «изучен / не изучен» на 402 фреймворках даёт обрыв: почти всё оказывается
+    «ещё не изучено», и отбор перестаёт действовать. С поправкой шкала
+    непрерывна: неизученный фреймворк получает нейтральный вес 0.10 и будет
+    посмотрен, фреймворк с уликами поднимается или опускается по факту, а
+    просмотренный без единого предметного закона опускается НИЖЕ неизученного —
+    потому что о нём уже известно больше.
+
+    Ничего не удаляется. Отсутствие находок на первых `probe` страницах — не
+    доказательство пустоты фреймворка, а основание смотреть его последним
+    (ЗКН-Э001). Как только у департамента появится причина, хвост будет пройден.
+    """
+    def rank(pid):
+        s = fw.get(framework_of(pid)) or {}
+        d, v = s.get("d", 0), s.get("v", 0)
+        return -(d + PRIOR_D) / (v + PRIOR_V)
+    return [p for _, p in sorted(enumerate(frontier),
+                                 key=lambda ip: (rank(ip[1]), ip[0]))]
+
+
+def quarantined(frontier: list, fw: dict, probe: int = PROBE) -> int:
+    """Сколько адресов в очереди принадлежит изученным и пустым фреймворкам."""
+    n = 0
+    for pid in frontier:
+        s = fw.get(framework_of(pid))
+        if s and s.get("v", 0) >= probe and not s.get("d", 0):
+            n += 1
+    return n
 
 
 def _now():
@@ -84,16 +151,26 @@ def _record(reg: Path, rec: dict):
 
 
 def _mine_laws(text: str):
-    out = []
+    """Законы страницы: нормативное или числовое предложение О ПРЕДМЕТЕ.
+
+    Возврат: (законы, сколько нормативных предложений отсеяно как не по теме).
+    Отсев считается и попадает в хронику — департамент обязан знать, сколько
+    он посмотрел и сколько из этого его не касается.
+    """
+    out, off = [], 0
     for raw in text.splitlines():
         if raw.startswith("## "):
             continue
         for s in _sentences(raw):
-            if NORM.search(s) or QTY.search(s):
-                out.append(s)
-                if len(out) >= LAWS_PER_PAGE:
-                    return out
-    return out
+            if not (NORM.search(s) or QTY.search(s)):
+                continue
+            if not DESIGN.search(s):
+                off += 1
+                continue
+            out.append(s)
+            if len(out) >= LAWS_PER_PAGE:
+                return out, off
+    return out, off
 
 
 def _lib_write(reg: Path, pid: str, laws: list):
@@ -144,6 +221,37 @@ def lib_index(reg: Path) -> dict:
     return {"total": total, "frameworks": len(stats)}
 
 
+def bootstrap_fw(reg: Path) -> dict:
+    """Копилка по фреймворкам из того, что уже пройдено и собрано.
+
+    Считается один раз, чтобы отбор заработал сразу, а не после ещё одного
+    полного обхода: посещённые страницы — из шардов, предметные законы — из
+    библиотеки, пропущенной через тот же словарь предмета.
+    """
+    out = {}
+    for f in sorted((reg / "atlas" / "visited").glob("*.jsonl")):
+        for line in f.read_text(encoding="utf-8", errors="replace").splitlines():
+            if not line.strip():
+                continue
+            try:
+                pid = json.loads(line).get("id", "")
+            except Exception:
+                continue
+            out.setdefault(framework_of(pid), {"v": 0, "d": 0})["v"] += 1
+    for f in sorted((reg / "library").glob("*.jsonl")):
+        s = out.setdefault(f.stem.lower(), {"v": 0, "d": 0})
+        for line in f.read_text(encoding="utf-8", errors="replace").splitlines():
+            if not line.strip():
+                continue
+            try:
+                law = json.loads(line).get("law", "")
+            except Exception:
+                continue
+            if DESIGN.search(law):
+                s["d"] += 1
+    return out
+
+
 def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path = None) -> dict:
     reg = root / "registry"
     stf = reg / "atlas" / "state.json"
@@ -151,6 +259,11 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
     st = json.loads(stf.read_text(encoding="utf-8")) if stf.exists() else {
         "frontier": [SEED], "visited": 0, "laws": 0, "cycles": 0, "started": _now()}
     frontier = st["frontier"]
+    fw = st.setdefault("fw", {})
+    booted = 0
+    if not fw:
+        fw.update(bootstrap_fw(reg))
+        booted = len(fw)
     walked = changed = mined = enq = 0
     log = []
 
@@ -169,6 +282,9 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
         st["cycles"] += 1
         log.append(f"круг {st['cycles']}: фронтир пуст — переобход {len(frontier)} старейших")
 
+    offtopic = 0
+    frontier[:] = order_frontier(frontier, fw)
+    q0 = quarantined(frontier, fw)
     while frontier and walked < budget:
         pid = frontier.pop(0)
         if fixtures is not None:
@@ -197,7 +313,11 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
         sha = ex["sha"]
         if prev and prev.get("sha") == sha:
             continue
-        laws = _mine_laws(ex["text"])
+        laws, off = _mine_laws(ex["text"])
+        offtopic += off
+        s = fw.setdefault(framework_of(pid), {"v": 0, "d": 0})
+        s["v"] += 1
+        s["d"] += len(laws)
         if prev is None:
             for ref in _refs(raw):
                 if ref != pid and _seen(reg, ref) is None and ref not in frontier:
@@ -212,6 +332,13 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
         _record(reg, {"id": pid, "sha": sha, "t": ex["title"][:120],
                       "n": len(ex["text"]), "laws": len(laws), "ts": _now()})
 
+    frontier[:] = order_frontier(frontier, fw)
+    q1 = quarantined(frontier, fw)
+    if booted:
+        log.append(f"копилка фреймворков собрана из пройденного: {booted}")
+    log.append(f"отбор: отсеяно не по предмету {offtopic} · в очереди изученных "
+               f"и пустых фреймворков {q1} из {len(frontier)} (было {q0})")
+    st["fw"] = fw
     st["frontier"] = frontier
     st["visited"] = st.get("visited", 0) + walked
     st["laws"] = st.get("laws", 0) + mined
