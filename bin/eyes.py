@@ -316,6 +316,17 @@ def cmd_selftest(root: Path) -> int:
     adapter["strict"]["globs"] = ["good.css"]
     res_good = lint_mod.run(root, adapter, tokens, "strict", fx)
     check("чиню → зелёный: good.css чист", not res_good["findings"])
+    # ЗКН-Э002: комментарий стирается, но адрес после него не едет.
+    _src = ("a{}\n/* комментарий\n   на три\n   строки */\n"
+            ".z{border-radius:22px}\n")
+    _st = lint_mod.strip_comments(_src, ".css")
+    check("ломаю → красный: комментарий не крадёт переводы строк (5 → 5)",
+          _src.count("\n") == _st.count("\n"))
+    check("адрес после комментария указывает на 5-ю строку, а не на 2-ю",
+          _st.count("\n", 0, _st.index("border-radius")) + 1 == 5)
+    _bad = _st.replace("\n\n\n", "")
+    check("подмена ловится: без переводов строк адрес уезжает на 2-ю",
+          _bad.count("\n", 0, _bad.index("border-radius")) + 1 == 2)
     adapter["strict"]["globs"] = ["commented.css"]
     res_c = lint_mod.run(root, adapter, tokens, "strict", fx)
     check("комментарий срезан до проверки: нарушитель в /* */ не считается", not res_c["findings"])

@@ -56,12 +56,22 @@ import sys
 from pathlib import Path
 
 
+def _blank(m) -> str:
+    """Комментарий стирается, но его переводы строк остаются на месте.
+
+    Иначе номера строк едут вверх: `_line_of` считает их по обрезанному
+    тексту, и каждый адрес после первого многострочного комментария
+    указывает не туда. Это рушит ЗКН-Э002 — число обязано нести адрес.
+    """
+    return " " + "\n" * m.group(0).count("\n")
+
+
 def strip_comments(text: str, suffix: str) -> str:
-    text = re.sub(r"/\*.*?\*/", " ", text, flags=re.S)          # CSS / JS block
+    text = re.sub(r"/\*.*?\*/", _blank, text, flags=re.S)        # CSS / JS block
     if suffix in (".ts", ".tsx", ".js", ".jsx"):
         text = re.sub(r"(?<![:\\])//[^\n]*", " ", text)          # // строка (не https://)
     if suffix in (".html", ".htm"):
-        text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
+        text = re.sub(r"<!--.*?-->", _blank, text, flags=re.S)
     return text
 
 
