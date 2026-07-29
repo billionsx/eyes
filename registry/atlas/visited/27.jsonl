@@ -70,3 +70,5 @@
 {"id": "/documentation/uikit/uiwindowscenedraginteraction", "sha": "f61d49dfedc938eb21f7354286115e0f7789ed0751ef7eac6853d418255aecd4", "t": "UIWindowSceneDragInteraction", "n": 432, "laws": 0, "ts": "2026-07-28 18:58 UTC"}
 {"id": "/documentation/system/filepath/push(_:)", "sha": "90e39bb533439a0cbd9682c2f3f16938fdd34439bb204b7a1cc4eaff1c86c10d", "t": "push(_:)", "n": 318, "laws": 0, "ts": "2026-07-28 19:00 UTC"}
 {"id": "/documentation/coreaudiotypes/mpeg4objectid", "sha": "9bb91adb7d0a1107ee8558f3a1904bf2d4de1cb5821ddc25683234b583e0f39e", "t": "MPEG4ObjectID", "n": 303, "laws": 0, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/callkit/voip-calling-with-callkit", "sha": "d05d4f618324fe1bd9047fa4c6a79b8e707673d4c8495056227ccc098ff7872a", "t": "VoIP calling with CallKit", "n": 359, "laws": 3, "ts": "2026-07-29 06:02 UTC"}
+{"id": "/documentation/callkit/cxprovider/setdelegate(_:queue:)", "sha": "ef9a99a7e12c27e1d498c3528c3b43ef8d61b0fa37064e26fa2e9680b3fbf4e5", "t": "setDelegate(_:queue:)", "n": 92, "laws": 0, "ts": "2026-07-29 06:02 UTC"}

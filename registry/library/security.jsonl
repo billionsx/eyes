@@ -90,3 +90,16 @@
 {"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Ensure your processes have properly-formatted XML, ASCII-encoded entitlements as described in ."}
 {"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "Always review the notary log for any warnings, and test your software before distribution."}
 {"id": "/documentation/Security/notarizing-macos-software-before-distribution", "law": "For plug-ins that aren’t notarized, the user must explicitly approve the plug-in by opening the System Preferences app and navigating to the General tab in Security & Privacy."}
+{"id": "/documentation/Security/password-autofill", "law": "Users don’t even need to know their password; the system handles everything."}
+{"id": "/documentation/Security/password-autofill", "law": "Password AutoFill recommends credentials only for your app’s associated domain, and the user must authenticate using Face ID or Touch ID before accessing these credentials."}
+{"id": "/documentation/Security/password-autofill", "law": "However, to provide the best user experience and ensure your app fully supports Password AutoFill, perform the following steps: Set up your app’s associated domains."}
+{"id": "/documentation/Security/password-autofill", "law": "Password AutoFill streamlines logging into web services at your domain; however, if you need to log into a third-party service, use instead, which supports Password AutoFill when your user hasn’t already logged in."}
+{"id": "/documentation/Security/password-autofill", "law": "When your app integrates with Password AutoFill, users don’t have to copy and paste credentials."}
+{"id": "/documentation/Security/password-autofill", "law": "Instead, they can use password data stored in your app easily because the data will be offered to the user to fill in compatible user name and password fields."}
+{"id": "/documentation/Security/password-autofill", "law": "To integrate a password app with Password AutoFill, use in the framework."}
+{"id": "/documentation/Security/defining-launch-environment-and-library-constraints", "law": "You define launch environment and library constraints in constraint dictionaries that you either save in property list files, or in separate property list files that you use in code signing."}
+{"id": "/documentation/Security/defining-launch-environment-and-library-constraints", "law": "Use facts from the list below in your launch constraint."}
+{"id": "/documentation/Security/defining-launch-environment-and-library-constraints", "law": "Use values from the table below with the fact."}
+{"id": "/documentation/Security/defining-launch-environment-and-library-constraints", "law": "This example of a launch constraint uses a fact to require that an executable’s signed with the Team ID ."}
+{"id": "/documentation/Security/defining-launch-environment-and-library-constraints", "law": "As dictionaries only contain one instance of any particular key, use operators to compose multiple tests that use the same fact."}
+{"id": "/documentation/Security/defining-launch-environment-and-library-constraints", "law": "The launch constraint in the example below uses the operator to require that an executable’s either signed with the Team ID , or is an operating system executable."}

@@ -61,3 +61,10 @@
 {"id": "/documentation/appstoreconnectapi/appmediavideostate", "sha": "89a452fae1431ebc5cd7391a3c1e2d77ab8508aac22a1fc66be161ed2c345f17", "t": "AppMediaVideoState", "n": 76, "laws": 0, "ts": "2026-07-28 18:56 UTC"}
 {"id": "/documentation/Swift/ExpressibleByStringLiteral", "sha": "7f2fd8757c680bd2f721d9c46a310fa8bc05939c23f30c32b941435d75cffc11", "t": "ExpressibleByStringLiteral", "n": 406, "laws": 1, "ts": "2026-07-28 18:59 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudiodriver/stop", "sha": "5f2c7d0a2e0770140d71a8802fcfb275b3fe8eabf8e1bc8f7cefc18c384f13da", "t": "Stop", "n": 804, "laws": 2, "ts": "2026-07-28 19:07 UTC"}
+{"id": "/documentation/audiotoolbox/audiocomponentcopyicon(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AudioComponentCopyIcon(_:)", "n": 0, "laws": 0, "ts": "2026-07-29 05:40 UTC"}
+{"id": "/documentation/audiotoolbox/kaudiounitsubtype_matrixmixer", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "kAudioUnitSubType_MatrixMixer", "n": 0, "laws": 0, "ts": "2026-07-29 05:46 UTC"}
+{"id": "/documentation/avfaudio/avaudiounitcomponent/availablearchitectures", "sha": "4ba103db6909b7c30c6403c7721ee2dfc98633a266ce249efe65bde3bffb06df", "t": "availableArchitectures", "n": 164, "laws": 0, "ts": "2026-07-29 05:46 UTC"}
+{"id": "/documentation/coreaudiokit/aupannerview", "sha": "e5814222c9cbe2a7019e68303c3c1016fa384f83fecfd45d68ade68b220cc399", "t": "AUPannerView", "n": 169, "laws": 0, "ts": "2026-07-29 05:47 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiounit/hostmidiprotocol", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "hostMIDIProtocol", "n": 0, "laws": 0, "ts": "2026-07-29 05:48 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiounitpreset/number", "sha": "34d9cda67be26cf071aca8d361f06f4f7df0846e0e798100528b5bf3133f8777", "t": "number", "n": 39, "laws": 0, "ts": "2026-07-29 05:50 UTC"}
+{"id": "/documentation/browserenginekit/text-interaction", "sha": "af84e5212994a5328d07b0afc2077fd92b6ffd87311d0d249e6f4f18c210ba1a", "t": "Text interaction", "n": 785, "laws": 0, "ts": "2026-07-29 06:01 UTC"}

@@ -139,3 +139,96 @@
 {"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "Use a shared container to store common resources."}
 {"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "Put relevant images and data files into a shared container so your app and app extension can use them."}
 {"id": "/documentation/SiriKit/structuring-your-code-to-support-app-extensions", "law": "Move your back-end services to a private framework so your app and app extensions can use them."}
+{"id": "/documentation/SiriKit/parameter-vocabularies", "law": "When you create a property list file with the name , Xcode knows that the file should contain custom vocabulary, and it makes only the relevant keys available in the property list editor."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "Make sure that you select your app target."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "Make sure the category you select matches your intent’s purpose because the chosen category defines the default Siri dialog, as you will see in a later section."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "Before you can use the intent, you need to define the intent’s parameters such as soup, quantity, and so on."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "Parameter names must start with a lowercase character while custom type names must start with an uppercase character."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "Siri can prompt users to complete shortcuts that require additional input based on the parameter metadata you provide."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "Use relationships between parameters to determine whether certain parameters should be prompted by voice in Siri based on their association with their parent parameter."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "User-configurable shortcuts are shortcuts that the user can configure in the Shortcuts app, and use interactively in Siri."}
+{"id": "/documentation/sirikit/adding-user-interactivity-with-siri-shortcuts-and-the-shortcuts-app", "law": "The output allows the user to use the result of your shortcut with other actions in the Shortcuts editor."}
+{"id": "/documentation/sirikit/confirming-the-details-of-an-intent", "law": "Providing a custom object with your response during confirmation is recommended but not required."}
+{"id": "/documentation/sirikit/confirming-the-details-of-an-intent", "law": "Your app can use any information in the object to take further actions."}
+{"id": "/documentation/sirikit/confirming-the-details-of-an-intent", "law": "For example, you might include custom data in the user activity object that your app can then use to configure its interface."}
+{"id": "/documentation/sirikit/defining-relevant-shortcuts-for-the-siri-watch-face", "law": "Use the shortcut to create an object, and set the to provide a hint to Siri as to the purpose of the shortcut: to perform an action or display information."}
+{"id": "/documentation/sirikit/defining-relevant-shortcuts-for-the-siri-watch-face", "law": "Don’t combine an for a time-based situation with an , like and 8 p.m.; the outcome can be unpredictable."}
+{"id": "/documentation/sirikit/defining-relevant-shortcuts-for-the-siri-watch-face", "law": "Your app should donate an intent or user activity as a shortcut each time the user performs an action in your app, even when your app provides the shortcut as a relevant shortcut."}
+{"id": "/documentation/sirikit/defining-relevant-shortcuts-for-the-siri-watch-face", "law": "The donation helps the system determine when it should suggest the relevant shortcut to the user."}
+{"id": "/documentation/sirikit/defining-relevant-shortcuts-for-the-siri-watch-face", "law": "Instead, you must replace the list by following the same steps previously mentioned: Gather the actions (as user activities or intents) and create an array of objects."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "If your app donated a shortcut containing information that the user has since deleted, your app should delete the donation."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "The app should delete the donations it made that included the contact information."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "There are other times your app should delete donations; for instance, when your app no longer supports the action."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "In general, whenever a donation is no longer appropriate for the user, your app should delete the donation."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "To delete donations made with interaction objects, use one of the class methods on (see Deleting Interactions from the System)."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "To delete specific donations, use , passing in the list of strings for each interaction to delete."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "Or use , passing in the string used to group of two or more interactions."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "If you need to delete all interactions that your app donated—for example, when the user signs out of your app—use ."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "The method you use to delete a donation made with depends on how you set up the user activity."}
+{"id": "/documentation/sirikit/deleting-donated-shortcuts", "law": "If user activity’s property is set to and the property is set to a unique string identifying the activity, then: Use , passing in the list of persistent identifiers, to delete individual activities."}
+{"id": "/documentation/sirikit/dispatching-intents-to-handlers", "law": "Implement the method on your extension object to provide SiriKit with the handlers that you use to handle specific intents."}
+{"id": "/documentation/sirikit/dispatching-intents-to-handlers", "law": "If you’re using SwiftUI, use or to include an app delegate in your app."}
+{"id": "/documentation/sirikit/dispatching-intents-to-handlers", "law": "In iOS 13 and earlier, SiriKit required you resolve and confirm all intents in an Intents app extension, then send long-running intents to your app for the final handling step."}
+{"id": "/documentation/sirikit/donating-reservations", "law": "These apps and features can use the information to remind the user to check-in for a flight, get directions to a hotel reservation, return a rental car, or any of several other options."}
+{"id": "/documentation/sirikit/donating-reservations", "law": "However, don’t make more than one donation for an action at the time the user performs the action."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "Don’t return an exhaustive list of all vehicles available to pick up the user."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "Ride option names should convey information about the ride type and be unique so that you can identify them later."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "So you must be able to identify the ride type from that string."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "Use your objects to specify the pricing information for parties of different sizes."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "Use fare line items to enumerate individual costs."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "If your app must complete the booking, provide an appropriate user activity object."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "Assigning an object to the property of the tells Maps that it must launch your app to complete the booking."}
+{"id": "/documentation/sirikit/generating-a-list-of-ride-options", "law": "Each tier requires a separate object to include the pricing and information about the number of passengers."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "This method creates a response object with a code that indicates SiriKit should launch the app."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "Retrieving ride booking information requires communicating with your service and using the returned information to create an object."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "When handling intents, consider the following: Always include as much information as possible in your responses."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "For most response objects, properties use copy semantics."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "Therefore, you must always set the value of the property only after making your changes."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "Because Siri and Maps are actively communicating with the user, always return your response as quickly as possible."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "Use custom user activity objects to support deep linking into your app."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "You can use that information to display specific information about the task that the user performed in Siri or Maps, which yields a better user experience."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "Always handle user activity objects in your parent app."}
+{"id": "/documentation/sirikit/handling-an-intent", "law": "Response objects create a default object if you do not provide one yourself."}
+{"id": "/documentation/sirikit/handling-the-ride-booking-intents", "law": "A successful implementation of a ride-booking Intents app extension requires supporting all of the intents in the ride-booking domain."}
+{"id": "/documentation/sirikit/handling-the-ride-booking-intents", "law": "Shortcuts and Maps handle ride booking differently, and your extension must be able to support both flows."}
+{"id": "/documentation/sirikit/handling-the-ride-booking-intents", "law": "Use the information in this object to book the ride."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "If your messaging app supports group chats, use the same APIs to donate the in-app names of those group chats."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "To donate the required vocabulary, create instances of ."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "Use the following guidance to determine which method to invoke based on the matches Siri provides: If the array contains a single match and your app successfully identifies that person by their or , use the method to resolve the recipient."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "For example, if there are still two or more matches, use the method to ask the person interacting with Siri to choose."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "If your app doesn’t use handles, simply pass any match to the method."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "Use the method that best describes the outcome of that search."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "If your messaging app allows people to attach a custom image to each of their contacts, use the property on to provide that image when returning an instance of ."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "To support message unsending, create an object that conforms to the protocol and implement the required method."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "Use the values in the object’s property to identify those messages in your app and take the action necessary to unsend them."}
+{"id": "/documentation/sirikit/improving-interactions-between-siri-and-your-messaging-app", "law": "Similarly, to support message editing, create an object that conforms to the protocol and implement the required method."}
+{"id": "/documentation/sirikit/intent-phrases", "law": "When you create a property list file with the name , Xcode knows that the file should contain custom vocabulary, and it makes only the relevant keys available in the property list editor."}
+{"id": "/documentation/sirikit/localizing-your-vocabulary-for-chinese-dialects", "law": "Use the number 5 for the neutral tone."}
+{"id": "/documentation/sirikit/localizing-your-vocabulary-for-chinese-dialects", "law": "Use the number 5 for the neutral tone."}
+{"id": "/documentation/sirikit/localizing-your-vocabulary-for-chinese-dialects", "law": "zh_HK: Hong Kong Cantonese localization: Use the Jyutping 粤语拼音 (粤拼) romanization system for Cantonese."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "Apps must register any vocabulary that’s used in a nonconventional way or that’s completely unique to your app."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "Siri uses your custom vocabulary to improve the speech recognition process and to ensure that your app has correct information."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "You must provide one or more example phrases for engaging your app through Siri."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "Example phrases correspond to the way that users speak about your app and should include any custom vocabulary terms defined by your app."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "You don’t need to register your user-specific or global vocabulary again from your Intents extension in watchOS."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "All apps should provide at least a few phrases that teach users how to use Siri to trigger your intents."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "You may omit this key if you don’t have any custom vocabulary terms."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "You must always associate custom vocabulary terms with a specific property of the corresponding intent object."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "Don’t register terms that are easily understood, such as “My Photo Album” or “My Workout”."}
+{"id": "/documentation/sirikit/registering-custom-vocabulary-with-sirikit", "law": "As a result, each call to that method must include all of the terms that you want to associate with the user."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "You must resolve the parameters of an intent to verify that you have the information you need to fulfill the user’s request."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "In this example, the user must provide a valid drop-off location before the app can fulfill the ride request."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "Each resolvable parameter has a corresponding resolution result class that you use to communicate your results back to SiriKit."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "For example, resolving the object in the preceding example requires the creation of an object."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "When returning a resolution to SiriKit, always include as much information as you can about the actual result."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "If resolution was unsuccessful and SiriKit needs to call your resolution method again, you can use the extra information to reach a resolution more quickly."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "For example, if you find two contacts with the same name during resolution, you might populate the property of each object with a unique string that you can use to look up the selected contact later."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "You must resolve all parameters successfully or let SiriKit know that the parameter is not required."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "All other resolutions require Siri to gather more information from the user."}
+{"id": "/documentation/sirikit/resolving-the-parameters-of-an-intent", "law": "This table lists the resolution types and their meaning: Try to reach a resolution of “Success” or “Not required” as quickly as possible."}
+{"id": "/documentation/sirikit/specifying-synonyms-for-your-app-name", "law": "When engaging your app’s services through Siri, users must include the name of your app in any spoken requests."}
+{"id": "/documentation/sirikit/specifying-synonyms-for-your-app-name", "law": "Alternative names must be either based on your app’s original name or be a legitimate name common to users of the app."}
+{"id": "/documentation/sirikit/specifying-synonyms-for-your-app-name", "law": "(watchOS apps don’t inherit the synonyms of their iOS app, so you must declare them explicitly in both places)."}
+{"id": "/documentation/sirikit/specifying-synonyms-for-your-app-name", "law": "Place this key at the top level of your property list, configure it as an array of dictionaries, and add the following additional keys to each dictionary: If you specify synonyms for your watchOS app, you must build your app for deployment on watchOS 4 or later."}
+{"id": "/documentation/sirikit/specifying-synonyms-for-your-app-name", "law": "In addition, the synonyms you specify must be identical to the ones that you specified for your iOS app."}
+{"id": "/documentation/sirikit/specifying-synonyms-for-your-app-name", "law": "For example, you might set the value of the key to and include an entry in your file such as the following: If you use a variable name for a key, you must provide an entry in your app’s base localization at a minimum."}

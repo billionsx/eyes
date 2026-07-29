@@ -19,3 +19,23 @@
 {"id": "/documentation/backgroundtasks/choosing-background-strategies-for-your-app", "law": "Your app can use to launch in the background and process data for a health research study in which the user participates."}
 {"id": "/documentation/backgroundtasks/choosing-background-strategies-for-your-app", "law": "They don’t display an alert, play a sound, or badge your app’s icon."}
 {"id": "/documentation/backgroundtasks/choosing-background-strategies-for-your-app", "law": "If your app obtains content from a server infrequently or at irregular intervals, use background pushes to notify your app when new content becomes available."}
+{"id": "/documentation/BackgroundTasks/BGAppRefreshTask", "law": "Use app refresh tasks for updating your app with small bits of information, such as the latest stock values."}
+{"id": "/documentation/BackgroundTasks/BGAppRefreshTask", "law": "Executing app refresh tasks requires setting the capability."}
+{"id": "/documentation/BackgroundTasks/BGProcessingTask", "law": "Use processing tasks for long data updates, processing data, and app maintenance."}
+{"id": "/documentation/BackgroundTasks/BGProcessingTask", "law": "Add an expiration handler by setting for any required cleanup."}
+{"id": "/documentation/BackgroundTasks/BGProcessingTask", "law": "Executing processing tasks requires setting the capability."}
+{"id": "/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados", "law": "In the background, continuous background tasks can also use the network and perform intenstive CPU-based operations, for example, image processing with Core Image, Vision, and Accelerate."}
+{"id": "/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados", "law": "Choose a name the system can use to identify the specific job in the parameter of the initializer and prefix it with your app’s bundle ID: Make the portion of the task identifier unique for this specific job."}
+{"id": "/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados", "law": "If your job includes API that can utilize the GPU, enable background GPU use for your task by setting to ."}
+{"id": "/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados", "law": "First, check whether the device supports background GPU use by seeing if contains : The system requires your app to have the entitlement with a value of to use the GPU in the background."}
+{"id": "/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados", "law": "The system cancels a task right away if it can’t begin processing the task immediately, for example, when the system reaches a maximum number of concurrent tasks."}
+{"id": "/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados", "law": "To set progress, use the protocol that conforms to: The system also prioritizes the termination of tasks that reflect minimal progress, if resource constraints occur at run time."}
+{"id": "/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados", "law": "Use a continuous background task to do work that can complete as needed."}
+{"id": "/documentation/backgroundtasks/refreshing-and-maintaining-your-app-using-background-tasks", "law": "This sample code project must be run on a physical device."}
+{"id": "/documentation/backgroundtasks/refreshing-and-maintaining-your-app-using-background-tasks", "law": "Use scheduled background tasks for refreshing your app content and for performing maintenance."}
+{"id": "/documentation/backgroundtasks/starting-and-terminating-tasks-during-development", "law": "While developing your app, you can use two private functions to start a task and to force early termination of the task according to your selected timeline."}
+{"id": "/documentation/backgroundtasks/starting-and-terminating-tasks-during-development", "law": "Use private functions only during development."}
+{"id": "/documentation/backgroundtasks/starting-and-terminating-tasks-during-development", "law": "Use the debugger during development to start tasks and to terminate them before completion."}
+{"id": "/documentation/backgroundtasks/bgtask/expirationhandler", "law": "All expiration handlers must complete before the allocated time."}
+{"id": "/documentation/backgroundtasks/bgtask/settaskcompleted(success:)", "law": "You can reschedule an unsuccessful required task."}
+{"id": "/documentation/backgroundtasks/bgtask/settaskcompleted(success:)", "law": "If you don’t set an expiration handler, the system will mark your task as complete and unsuccessful instead of sending a warning."}

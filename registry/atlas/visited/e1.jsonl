@@ -52,3 +52,4 @@
 {"id": "/documentation/cryptokit/symmetrickey/init(copyingwithzeroing:)", "sha": "7fb0aabb0dca2239a0c0e163a86b16da4cfde7210b6c63a63b15bc566b878262", "t": "init(copyingWithZeroing:)", "n": 67, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
 {"id": "/documentation/applemapsserverapi/directionsavoid", "sha": "c4f2e4fa9040255c4c27ad28a47a9d06ad645c728866e053a7254a0f653fb5a3", "t": "DirectionsAvoid", "n": 95, "laws": 1, "ts": "2026-07-28 19:02 UTC"}
 {"id": "/documentation/audiotoolbox/analyzing-audio-performance-with-instruments", "sha": "8759bea3dc5a5df5a32d306fa356ee293669d1dab6304fb97c41fa8046eb0dab", "t": "Analyzing audio performance with Instruments", "n": 7823, "laws": 5, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/callkit/cxsettranslatingcallaction", "sha": "6240acb14ce1892681d871eeca3b6b83db807b7846e7a812d8f30aac44630b23", "t": "CXSetTranslatingCallAction", "n": 1004, "laws": 1, "ts": "2026-07-29 06:02 UTC"}

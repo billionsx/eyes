@@ -61,3 +61,8 @@
 {"id": "/documentation/driverkit/ioservice", "sha": "4fcdf4665162891010b1ff624f09b5ecd70403b103bce05cf5e01ed4c59074c3", "t": "IOService", "n": 3223, "laws": 3, "ts": "2026-07-28 19:03 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudiobooleancontrol", "sha": "e24c730d9b690009116a2fbd1b302cc15807253f37be2a2a9e7ccc08b6601f8e", "t": "IOUserAudioBooleanControl", "n": 398, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudioobject/init-1ar2z", "sha": "22aa8d2a2748c2c399e74cc9606dffedab5a08e64f026fe93da983d60fa8fe06", "t": "init", "n": 250, "laws": 1, "ts": "2026-07-28 19:07 UTC"}
+{"id": "/documentation/audiotoolbox/kaudiocodeccontentsource_capture_traditional", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "kAudioCodecContentSource_Capture_Traditional", "n": 0, "laws": 0, "ts": "2026-07-29 05:38 UTC"}
+{"id": "/documentation/automaticassessmentconfiguration/ae_hidden", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AE_HIDDEN", "n": 0, "laws": 0, "ts": "2026-07-29 05:55 UTC"}
+{"id": "/documentation/automaticassessmentconfiguration/aeassessmenterror", "sha": "12a935bd5c3b0d510b17afa82e3a6008273bf21e1cd66dd6c45fb808be108814", "t": "AEAssessmentError", "n": 387, "laws": 0, "ts": "2026-07-29 05:55 UTC"}
+{"id": "/documentation/carplay/cproutesegment", "sha": "b77c47338264879d17d6328ebcc0eaa116173209ab1f984a0a9b4c8268c16b00", "t": "CPRouteSegment", "n": 412, "laws": 0, "ts": "2026-07-29 06:06 UTC"}
+{"id": "/documentation/carplay/cpmaptemplate/pandirection", "sha": "003d714e98bf1b9b08bd525cec3caff580aa24499922ca605362c4edce88052c", "t": "CPMapTemplate.PanDirection", "n": 152, "laws": 0, "ts": "2026-07-29 06:07 UTC"}

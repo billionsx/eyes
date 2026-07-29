@@ -71,3 +71,7 @@
 {"id": "/documentation/appstoreconnectapi/certificates", "sha": "bde783b72db48f933e90de4dc17503f5a1a992b1dcca1c455a20dcd7582bc648", "t": "Certificates", "n": 990, "laws": 1, "ts": "2026-07-28 18:54 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudiodriver/setname", "sha": "2aa90b28bff152c1eacc59f379c6ebde1085f3de775008a0d44315d6801f7f7d", "t": "SetName", "n": 316, "laws": 0, "ts": "2026-07-28 19:07 UTC"}
 {"id": "/documentation/audiotoolbox/audiotoolbox-structures", "sha": "bd7b24ffb4fdd14230689eaa4ffc31a7b3b88b7270137f035cc36bfd068bcf2d", "t": "AudioToolbox Structures", "n": 53, "laws": 0, "ts": "2026-07-28 19:09 UTC"}
+{"id": "/documentation/audiotoolbox/audiounitaddrendernotify(_:_:_:)", "sha": "aad8a4453f02d43b4f5b8f3a77ac673f7e05add7d78f5918692ef87b233e55fe", "t": "AudioUnitAddRenderNotify(_:_:_:)", "n": 496, "laws": 1, "ts": "2026-07-29 05:43 UTC"}
+{"id": "/documentation/BundleResources/Information-Property-List/BAInitialDownloadRestrictions/BAEssentialDownloadAllowance", "sha": "0226902b4002c2f31c30f743e4d0582fc889717a286064c625dfbe9fa7c28d48", "t": "BAEssentialDownloadAllowance", "n": 281, "laws": 3, "ts": "2026-07-29 05:58 UTC"}
+{"id": "/documentation/callkit/cxhandle", "sha": "5c02592d541a009a43902048adb98451b0ae39790a057acd98414f3fa2ebc73a", "t": "CXHandle", "n": 733, "laws": 0, "ts": "2026-07-29 06:02 UTC"}
+{"id": "/documentation/carplay/cpmaptemplate/showpanel(_:completion:)", "sha": "256f9c3760b6efcffd1cb8a4997f28b1374e9cd958eb45a14b741c7a5d4551a6", "t": "showPanel(_:completion:)", "n": 42, "laws": 0, "ts": "2026-07-29 06:08 UTC"}

@@ -56,3 +56,7 @@
 {"id": "/documentation/foundation/nscoder/encode(_:forkey:)-2dprz", "sha": "a479c790e5b2d393f47bdf693e557e8f3257ec12cc453056034d34de6d49fe0f", "t": "encode(_:forKey:)", "n": 144, "laws": 1, "ts": "2026-07-28 18:44 UTC"}
 {"id": "/documentation/appkit/nscollectionview/frameforitem(at:)", "sha": "a068e79fcc8603d9ffb206b14bbcc46e08cff859edbfcb4f2ccd4a766e128695", "t": "frameForItem(at:)", "n": 476, "laws": 1, "ts": "2026-07-28 18:47 UTC"}
 {"id": "/documentation/applemapsserverapi/addresscategory", "sha": "2d28dcbb627ee7011280e8449e7c82001d5ee48e01ce0f713880a82e260d0ba1", "t": "AddressCategory", "n": 82, "laws": 0, "ts": "2026-07-28 19:02 UTC"}
+{"id": "/documentation/audiotoolbox/1584155-audio-unit-player-subtypes", "sha": "41c91d98e4d8e183517d3146ba51f19570f3e261ef2c22527cbdfd558d945881", "t": "Audio Unit Player Subtypes", "n": 192, "laws": 0, "ts": "2026-07-29 05:43 UTC"}
+{"id": "/documentation/automaticassessmentconfiguration/aeapplemenuitem/recent", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "recent", "n": 0, "laws": 0, "ts": "2026-07-29 05:55 UTC"}
+{"id": "/documentation/BackgroundTasks/BGAppRefreshTask", "sha": "2f1af801c6dd1133b67e91bb681754c56d58f40a96a3c80dffa5786178a5fbe2", "t": "BGAppRefreshTask", "n": 348, "laws": 2, "ts": "2026-07-29 05:59 UTC"}
+{"id": "/documentation/UIKit/UIWebView", "sha": "365a3028969c39bdd7a140f6053b56e92d82dfadfb069c3855991b1481888a72", "t": "UIWebView", "n": 3575, "laws": 9, "ts": "2026-07-29 06:00 UTC"}

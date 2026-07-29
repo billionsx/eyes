@@ -65,3 +65,10 @@
 {"id": "/documentation/cryptokit/sharedsecret", "sha": "3c159349703fec6f479d26a1c4bf4cdb7feecbdf7f452495f256987e95f5748f", "t": "SharedSecret", "n": 865, "laws": 1, "ts": "2026-07-28 18:59 UTC"}
 {"id": "/documentation/system/filepath/string", "sha": "af1cd261192002271cee803a1cac5784cea88334e8710f31589504c7aa36ec3e", "t": "string", "n": 144, "laws": 0, "ts": "2026-07-28 19:00 UTC"}
 {"id": "/documentation/driverkit/iotimerdispatchsource/free", "sha": "24239c886dec96a39c66c30284ad85af66a6a4eabf2c05fa01c62de282a1949c", "t": "free", "n": 57, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
+{"id": "/documentation/audiotoolbox/auparametervaluefromlinear(_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUParameterValueFromLinear(_:_:)", "n": 0, "laws": 0, "ts": "2026-07-29 05:45 UTC"}
+{"id": "/documentation/audiotoolbox/kaudiounitproperty_spatializationalgorithm", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "kAudioUnitProperty_SpatializationAlgorithm", "n": 0, "laws": 0, "ts": "2026-07-29 05:46 UTC"}
+{"id": "/documentation/UIKit/UIControl", "sha": "0f79006fff69ea3286fdba6bf61271f82d15f3bfa8c05d5607edfd097dd437ca", "t": "UIControl", "n": 7696, "laws": 10, "ts": "2026-07-29 05:53 UTC"}
+{"id": "/documentation/authenticationservices/asauthorizationappleidbutton/init(type:style:)", "sha": "9727a3262938237b6cda8bea60004fc6d6a649b3f7ff6263ffb4463fb2e3dbce", "t": "init(type:style:)", "n": 84, "laws": 0, "ts": "2026-07-29 05:54 UTC"}
+{"id": "/documentation/UIKit/UIMenu/Identifier-swift.struct", "sha": "ed9693c24af2ba2149ea973fe42f7581d3b74b2927a2bbc1e03092f9981ac779", "t": "UIMenu.Identifier", "n": 915, "laws": 2, "ts": "2026-07-29 05:57 UTC"}
+{"id": "/documentation/backgroundassets/badownloaderextension-zuvm", "sha": "795093696751f1424a196614f7d3b3e3a4c0f080c3ff6ef055e37e3454864a2e", "t": "BADownloaderExtension", "n": 454, "laws": 0, "ts": "2026-07-29 05:57 UTC"}
+{"id": "/documentation/carplay/cptabbartemplate", "sha": "b1b44201f836968f17e8cbbaa93542727e7e5bcf9e682803fef2215917eca668", "t": "CPTabBarTemplate", "n": 1722, "laws": 5, "ts": "2026-07-29 06:04 UTC"}

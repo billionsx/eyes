@@ -55,3 +55,5 @@
 {"id": "/documentation/applearchive/archiveencryptioncontext/encryptionmode-swift.property", "sha": "8515871e35aae6f987140e25c20f543861f47e1cc0e634d78c1bb3e5dba51f74", "t": "encryptionMode", "n": 54, "laws": 0, "ts": "2026-07-28 19:01 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudioclockdevice/removecontrol", "sha": "1e69942fa1c1aff147301525fa57dbc6cec56dca0876fe39e51d0c26558045a9", "t": "RemoveControl", "n": 235, "laws": 0, "ts": "2026-07-28 19:05 UTC"}
 {"id": "/documentation/coreaudiotypes/audiostreambasicdescription/msamplerate", "sha": "1ae7f75823ab3fb48c71810e64382d3fd60eb45fb60e98f7dedbbf5c17c095ba", "t": "mSampleRate", "n": 339, "laws": 1, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiounit/starthardware()", "sha": "976631aab93f41a1f103cb191529b4239e72ad036b396f7fe47d2b832ded0641", "t": "startHardware()", "n": 312, "laws": 0, "ts": "2026-07-29 05:49 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiounitbus/isenabled", "sha": "42df35a63a69e4a21b1cab5c900474fb3ef9783240286ea66c7ae05b1487e982", "t": "isEnabled", "n": 309, "laws": 2, "ts": "2026-07-29 05:50 UTC"}

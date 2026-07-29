@@ -51,3 +51,186 @@
 {"id": "/documentation/carplay/cpinformationtemplate", "law": "You can’t use in apps with the audio entitlement."}
 {"id": "/documentation/carplay/cppointofinteresttemplate", "law": "You must create an object that implements the protocol and set it as the template’s delegate using the property."}
 {"id": "/documentation/carplay/cptextbutton", "law": "You use a text button to attach custom actions to an instance of or ."}
+{"id": "/documentation/carplay/cpassistantcellconfiguration", "law": "Your app must include an Intents Extension that handles the intent corresponding to the action you specify in the property; audio apps must support and communication apps must support ."}
+{"id": "/documentation/carplay/cpbarbuttonproviding", "law": "is a protocol that templates use to provide a Back button and leading and trailing buttons for the navigation bar."}
+{"id": "/documentation/carplay/cpbarbuttonproviding", "law": "You don’t adopt this protocol in your own types."}
+{"id": "/documentation/carplay/cpbarbuttonproviding", "law": "If you want to add buttons to the navigation bar, you must use one of the prebuilt templates that already conforms to the protocol, such as or ."}
+{"id": "/documentation/carplay/cpbarbuttonproviding", "law": "The root templates of a tab bar don’t show leading or trailing bar buttons, and the system throws an exception if you attempt to assign bar buttons to the Now Playing template."}
+{"id": "/documentation/carplay/cpbarbuttonproviding", "law": "The methods that templates use to provide buttons for the navigation bar."}
+{"id": "/documentation/carplay/cpgridtemplate", "law": "Use this template to display a grid of items as buttons."}
+{"id": "/documentation/carplay/cpinterfacecontroller/pushtemplate(_:animated:completion:)", "law": "CarPlay throws an exception if it can’t add the template and you don’t provide a closure."}
+{"id": "/documentation/carplay/cplistimagerowitem", "law": "Use to display a series of images as a row in a list template."}
+{"id": "/documentation/carplay/cplistimagerowitem", "law": "At runtime, use to determine the maximum number of images that the row displays."}
+{"id": "/documentation/carplay/cplistimagerowitem", "law": "Instead, use the property to attach a value to the list item that provides additional context, such as specifying a model object that corresponds to the item."}
+{"id": "/documentation/carplay/cplistitem", "law": "The handler receives the item and a closure that you must call after you finish processing the selection."}
+{"id": "/documentation/carplay/cplistitem", "law": "Instead, use the property to attach a value to the list item that provides additional context, such as specifying a model object that corresponds to the item."}
+{"id": "/documentation/carplay/cplistsection", "law": "Alternatively, use if you want to display a header and a section index title."}
+{"id": "/documentation/carplay/cplistsection", "law": "CarPlay doesn’t support custom list items, so you must use one of the types that the framework provides, such as or ."}
+{"id": "/documentation/carplay/cplistsection", "law": "At runtime, use to determine the maximum number of sections that your list can display."}
+{"id": "/documentation/carplay/cplistsection", "law": "When creating items for your sections, use to establish the maximum number of items across all sections that can appear in your list."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "Use the list template to display a list of items, grouped into one or more sections."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "If your list displays hierarchical data, use the handler to add templates to the navigation hierarchy."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "At runtime, use to determine the maximum number of sections your list can display."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "Use to determine the maximum number of items across all sections that your list can display."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "Food-ordering apps must not exceed two levels."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "For audio and communication apps, CarPlay provides an assistant cell to let users interact with your app using Siri_._ To enable the assistant cell, your app must support specific Siri intents: To play audio, audio apps must support ."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "To make phone calls, communication apps must support ."}
+{"id": "/documentation/carplay/cplisttemplate", "law": "To enable the assistant cell in your list template, use and provide the required configuration."}
+{"id": "/documentation/carplay/cplisttemplate/assistantcellconfiguration", "law": "Instead, you configure an Intents Extension to handle the type of intent you specify in the cell’s configuration; audio apps must support and communication apps must support ."}
+{"id": "/documentation/carplay/cplisttemplate/emptyviewsubtitlevariants", "law": "Provide at least one nonzero length subtitle variant."}
+{"id": "/documentation/carplay/cplisttemplate/emptyviewtitlevariants", "law": "Provide at least one nonzero length title variant."}
+{"id": "/documentation/carplay/cplisttemplate/init(title:sections:assistantcellconfiguration:)", "law": "Use the property to update the cell’s configuration after you initialize the template."}
+{"id": "/documentation/carplay/cplisttemplate/init(title:sections:assistantcellconfiguration:)", "law": "Instead, you configure an Intents Extension to handle the type of intent you specify in the cell’s configuration; audio apps must support and communication apps must support ."}
+{"id": "/documentation/carplay/cplisttemplate/itemcount", "law": "This value never exceeds ."}
+{"id": "/documentation/carplay/cplisttemplate/maximumgridbuttonimagesize", "law": "To properly size your list images, your app should size them to the display scale of the car screen."}
+{"id": "/documentation/carplay/cplisttemplate/maximumheadergridbuttoncount", "law": "The maximum number of grid buttons that may appear in a @c CPListTemplate."}
+{"id": "/documentation/carplay/cplisttemplate/maximumitemcount", "law": "At runtime, use this value to determine the maximum number of items, across all sections, that your list can display."}
+{"id": "/documentation/carplay/cplisttemplate/maximumitemcount", "law": "The maximum number of items, across all sections, that the template can display."}
+{"id": "/documentation/carplay/cplisttemplate/maximumsectioncount", "law": "At runtime, use this value to determine the maximum number of sections that your list can display."}
+{"id": "/documentation/carplay/cplisttemplate/maximumsectioncount", "law": "The maximum number of sections that the template can display."}
+{"id": "/documentation/carplay/cplisttemplate/sectioncount", "law": "This value never exceeds ."}
+{"id": "/documentation/carplay/cplisttemplate/sections", "law": "To add new sections to the list, to remove or reorder existing sections, or to update a section’s appearance, use the method."}
+{"id": "/documentation/carplay/cplisttemplate/updatesections(_:)", "law": "Use it to add new sections to the list, to remove or reorder existing sections, and to update a section’s appearance."}
+{"id": "/documentation/carplay/cplisttemplate/updatesections(_:)", "law": "At runtime, use to determine the maximum number of sections the list can display."}
+{"id": "/documentation/carplay/cplisttemplateitem", "law": "You don’t create custom classes that conform to ."}
+{"id": "/documentation/carplay/cplisttemplateitem", "law": "Instead, you use one of the prebuilt list item types that adopt this protocol, such as ."}
+{"id": "/documentation/carplay/cpmessagelistitem", "law": "Use to display information about a conversation or a contact in a list template."}
+{"id": "/documentation/carplay/cpmessagelistitem", "law": "Unlike , you don’t provide a selection handler."}
+{"id": "/documentation/carplay/cpmessagelistitem", "law": "Instead, use the property to attach a value to the list item that provides additional context, such as specifying a model object that corresponds to the item."}
+{"id": "/documentation/carplay/cpselectablelistitem", "law": "You don’t create custom classes that conform to ."}
+{"id": "/documentation/carplay/cpselectablelistitem", "law": "Instead, you use one of the prebuilt list item types that adopt this protocol, such as or ."}
+{"id": "/documentation/carplay/cpsessionconfiguration", "law": "You use a session configuration to determine any user interface limits the vehicle imposes, such as keyboard display and list length, and the content style the vehicle selects according to the ambient light level."}
+{"id": "/documentation/carplay/cptabbartemplate", "law": "At runtime, use to determine the maximum number of tabs that your tab bar can display."}
+{"id": "/documentation/carplay/cptabbartemplate", "law": "When a tab bar template is the of your app’s interface controller and you use the controller to add and remove templates, CarPlay applies those changes to the selected tab’s navigation hierarchy."}
+{"id": "/documentation/carplay/cptabbartemplate", "law": "Instead, use to set the tab bar as your app’s root template."}
+{"id": "/documentation/carplay/cptabbartemplate", "law": "Use a transactional approach when making changes to the tab bar."}
+{"id": "/documentation/carplay/cptabbartemplate", "law": "For example, use the property to update a template’s tab title, or set to to add an indicator to a template’s tab."}
+{"id": "/documentation/carplay/cptemplate", "law": "You don’t use this class directly, or create your own subclasses."}
+{"id": "/documentation/carplay/cptemplate", "law": "Instead, you must use one of the prebuilt templates, such as or ."}
+{"id": "/documentation/carplay/cpnowplayingaddtolibrarybutton", "law": "Use this button to allow a user to add the current playing item to a collection, such as their library."}
+{"id": "/documentation/carplay/cpnowplayingaddtolibrarybutton", "law": "You implement this functionality in the button’s handler, or use the handler to invoke existing code that performs this function."}
+{"id": "/documentation/carplay/cpnowplayingbutton", "law": "You don’t use this class directly, or create your own subclasses."}
+{"id": "/documentation/carplay/cpnowplayingbutton", "law": "Instead, you must use one of the concrete subclasses that the framework provides, such as or ."}
+{"id": "/documentation/carplay/cpnowplayingbutton", "law": "The abstract base class that Now Playing template buttons use."}
+{"id": "/documentation/carplay/cpnowplayingimagebutton", "law": "Use this class when you want to display a button that contains an image."}
+{"id": "/documentation/carplay/cpnowplayingimagebutton", "law": "To properly size your image, use the display scale of the vehicle’s primary screen—see your interface controller’s property—and make sure it is no larger than ."}
+{"id": "/documentation/carplay/cpnowplayingmorebutton", "law": "Use this button to present a , , or another contextual interface for the currently playing item."}
+{"id": "/documentation/carplay/cpnowplayingmorebutton", "law": "For example, if the item is a podcast, use the button’s handler to present a template that displays the episode’s show notes."}
+{"id": "/documentation/carplay/cpnowplayingplaybackratebutton", "law": "Use the button’s handler to invoke your existing functionality for cycling through playback rates, using the same that you provide to ."}
+{"id": "/documentation/carplay/cpnowplayingrepeatbutton", "law": "Use the button’s handler to invoke your existing functionality for cycling through repeat modes, using the same that you provide to ."}
+{"id": "/documentation/carplay/cpnowplayingshufflebutton", "law": "Use the button’s handler to invoke your existing functionality for cycling through shuffle modes, using the same that you provide to ."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/isalbumartistbuttonenabled", "law": "Set this property to to turn the string into a button that you can use to present more information about the current track."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/nowplayingbuttons", "law": "You use the method to provide a maximum of five playback control buttons."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/remove(_:)", "law": "You must register an observer using the method before calling this method."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/shared", "law": "You do not create instances of directly."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/shared", "law": "Instead, use this property to access the shared Now Playing template that CarPlay provides, and then configure its properties accordingly."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/shared", "law": "You must present this shared instance when your app needs to display Now Playing information."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/updatenowplayingbuttons(_:)", "law": "You can provide a maximum of five playback control buttons."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/upnexttitle", "law": "If you display the Up Next button in your app by setting to , use this property to set the button’s title."}
+{"id": "/documentation/carplay/cpnowplayingtemplate/upnexttitle", "law": "If you don’t specify a title, CarPlay uses the system default title."}
+{"id": "/documentation/carplay/cpnowplayingtemplateobserver", "law": "You use a Now Playing template observer to respond when the user interacts with the Album-Artist and Up Next buttons."}
+{"id": "/documentation/carplay/cpnowplayingtemplateobserver", "law": "Use your implementation to provide the appropriate behavior when these events occur."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-music-app", "law": "Update the variable in the file to use the developer token you create."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-music-app", "law": "A good way to ensure an app UI updates automatically in response to changes is to listen for changes in the Now Playing item, as well as in the playing state."}
+{"id": "/documentation/carplay/cptemplateapplicationscene", "law": "Only navigation apps have access to that window, and use it for drawing map content."}
+{"id": "/documentation/carplay/cptemplateapplicationscene", "law": "All other categories of apps use the scene’s interface controller exclusively for constructing their user interfaces."}
+{"id": "/documentation/carplay/cptemplateapplicationscene", "law": "You don’t create scenes directly."}
+{"id": "/documentation/carplay/cptemplateapplicationscenedelegate", "law": "Use your implementation to provide the appropriate behavior for when these events occur."}
+{"id": "/documentation/carplay/cptemplateapplicationscenedelegate", "law": "You don’t create instances of your scene delegate directly."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "Navigation apps are the only app category that have access to this window, and use it to draw their map content."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "All other categories of apps use only the scene’s interface controller to manage their user interface."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "In your scene delegate, implement the method and use the interface controller that it provides to set your root template."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "Make sure that you set your interface controller’s root template."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "Use the window’s root view controller to draw only map content."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "Don’t render alerts, overlays, or any other user interface elements."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "Use only the templates that the framework provides to create your app’s CarPlay user interface."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "If the CarPlay Dashboard doesn’t display your navigation app, make sure that you’re using the correct names."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "Use the window that the method provides to render your map content."}
+{"id": "/documentation/carplay/displaying-content-in-carplay", "law": "Set the dashboard controller’s property to an array of buttons — up to a maximum of two — that the CarPlay Dashboard displays when your app isn’t actively navigating."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "The framework also provides new templates that you can use to build your app’s user interface."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "Using the proper combination of frameworks and entitlements, you can ensure that your app is compatible with iOS 13 and earlier, and iOS 14 and later."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "In iOS 14 and later, the CarPlay framework includes templates that you can use to build your audio app’s user interface."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "To use these templates, include the entitlement."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "To support iOS 13 and earlier, use the framework and this entitlement."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "Audio apps can use the CarPlay framework, the Media Player framework, or both."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "In iOS 14 and later, the CarPlay framework includes templates that you can use to build your communication app’s user interface."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "To use these templates, include the entitlement."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "Your communication app can use the CarPlay, , or framework, or a combination of the three."}
+{"id": "/documentation/carplay/supporting-previous-versions-of-ios", "law": "If you use the CarPlay framework, your app can’t present a custom user interface in iOS 13 or earlier."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "Don’t use Simulator as your sole method of testing."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "If possible, use a device that supports wireless CarPlay."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "This allows you to use Xcode to debug your app while it’s running in a physical CarPlay environment."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "The CarPlay window is 800 x 480 pixels and uses a display scale of @2x, which represents the common configuration of many CarPlay systems."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "Use this flexibility to ensure your map content renders in all recommended configurations."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "Before launching Simulator, open Terminal and enter the following command: Apple recommends that you test your CarPlay-enabled app using the following configurations, at a minimum:"}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "For example, you can’t use Simulator to test: When iOS locks the iPhone ."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "Your CarPlay-enabled app must perform its primary functions when the iPhone is in a locked state."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "Ensure that your CarPlay-enabled app works as you expect throughout these interactions."}
+{"id": "/documentation/carplay/using-the-carplay-simulator", "law": "You CarPlay app must be a good audio citizen."}
+{"id": "/documentation/carplay/cpactionsheettemplate", "law": "You must present action sheets modally by calling the method available on your app’s instance of ."}
+{"id": "/documentation/carplay/cpalertaction", "law": "Use an alert action to display a button on an alert."}
+{"id": "/documentation/carplay/cpalerttemplate", "law": "You must present alerts modally by calling the method available on your app’s instance of ."}
+{"id": "/documentation/carplay/cpimageset", "law": "Use an image set to provide images for both appearances, and CarPlay displays the correct one for the current appearance."}
+{"id": "/documentation/carplay/cpmaneuver", "law": "You use maneuvers to provide turn-by-turn guidance in navigation apps."}
+{"id": "/documentation/carplay/cpmaneuver", "law": "Use the relevant properties to provide context-specific instructions and images."}
+{"id": "/documentation/carplay/cpmaximummessageitemleadingdetailtextimagesize", "law": "Maximum size of an image for the detailed text leading image."}
+{"id": "/documentation/carplay/cproutedetail", "law": "Use route information to differentiate between routing options and provide transparency about journey characteristics."}
+{"id": "/documentation/carplay/cproutedetail", "law": "For example, display toll costs to help users choose between paid expressways and free alternatives, or show battery consumption for electric vehicles to ensure destination reachability."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-navigation-app", "law": "In all navigation apps, the root template must be an instance of and contain no additional graphics or UI elements."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-navigation-app", "law": "All overlays must be a type of template that CarPlay provides."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-navigation-app", "law": "The map must cover the entire screen, which the sample accomplishes using constraints."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "CarPlay quick-ordering apps require a CarPlay quick-ordering entitlement, which you can request ."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "Create an file in the project, if you don’t have one already."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "Make sure that the target project setting has the path of the file."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "Live Activities don’t display in CarPlay, but do provide a glanceable view on the person’s Lock Screen to inform them about updates to their order."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "If your app spends significant amounts of time in the background, such as in a quick-ordering app, you need to use notifications to provide updates to people using the app."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "Your app doesn’t need to support background updates, or use any cycle methods."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "The service app needs a JSON Web Token (JWT) to create push notifications for use with Live Activities."}
+{"id": "/documentation/carplay/integrating-carplay-with-your-quick-ordering-app", "law": "The following code example shows how the sample creates the JWT for use with the payload to send to Apple, which in turn sends a push notification to the associated device: Configure your food-ordering app to work with CarPlay."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "To integrate with CarPlay, you must request the appropriate entitlement for your app’s category at and agree to the CarPlay Entitlement Addendum."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "After you receive the entitlement, you need to configure your Xcode project to use it, which involves several steps."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "Your project’s code signing settings also require minor changes."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "Update the App ID of your CarPlay-enabled app to include the necessary CarPlay capabilities by following these steps: Complete the actions in to create an App ID if you don’t already have one."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "Enable the CarPlay capabilities that your app requires."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "Configure your Xcode project to use the new provisioning profile when it code signs your CarPlay-enabled app by following these steps: In Xcode, select your project in the Project navigator."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "Use an file to specify the entitlements that your CarPlay-enabled app requires."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "They must match the capabilities you add to your App ID."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "Use the search box to find the Code Signing Entitlements setting."}
+{"id": "/documentation/carplay/requesting-carplay-entitlements", "law": "In Xcode, use a simulator to build and run your project."}
+{"id": "/documentation/carplay/cpgridtemplate/maximumgridbuttonimagesize", "law": "To properly size your list images, your app should size them to the display scale of the car screen."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:shouldshownotificationfor:)-4mnm1", "law": "if the system should display the maneuver as a notification; otherwise, ."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:shouldshownotificationfor:)-4mnm1", "law": "Asks the delegate whether the system should display the maneuver as a notification when the app is in the background."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:shouldshownotificationfor:)-5lu8a", "law": "if the system should display the navigation alert as a notification; otherwise, ."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:shouldshownotificationfor:)-5lu8a", "law": "Asks the delegate whether the system should display the navigation alert as a notification when the app is in the background."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:shouldupdatenotificationfor:with:)", "law": "if the system should display the maneuver as a notification; otherwise, ."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:shouldupdatenotificationfor:with:)", "law": "Asks the delegate whether the system should display the maneuver with updated travel estimates as a notification when the app is in the background."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplateshouldprovidemultistoprouting(_:)", "law": "YES if the template should provide multi-stop routing functionalities, otherwise NO Determines if the template should provide UI for multi-stop routing while actively navigating, including the ability to add and remove stops."}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplateshouldprovidenavigationmetadata(_:)", "law": "Asks the delegate whether the template should provide navigation metadata"}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplateshouldprovideroutesharing(_:)", "law": "YES if the template should provide route sharing, otherwise NO Determines if the template should provide route sharing information to the vehicle."}
+{"id": "/documentation/carplay/cpinterfacecontroller/setroottemplate(_:animated:completion:)", "law": "CarPlay throws an exception if the presentation fails and you don’t provide a closure."}
+{"id": "/documentation/carplay/cpmaptemplate/automaticallyhidesnavigationbar", "law": "A Boolean value that indicates whether the template should automatically hide the navigation bar."}
+{"id": "/documentation/carplay/cpmaptemplate/showpanninginterface(animated:)", "law": "Instead, you must provide a map button in the navigation bar that the user taps to dismiss the panning interface."}
+{"id": "/documentation/carplay/cpmaptemplate/showtrippreviews(_:selectedtrip:textconfiguration:)", "law": "Use this method to display upcoming trips or multiple trip options, such as search results."}
+{"id": "/documentation/carplay/cpmaptemplate/showtrippreviews(_:selectedtrip:textconfiguration:)", "law": "The trip you want to select must be a member of the array."}
+{"id": "/documentation/carplay/cpmaptemplate/showtrippreviews(_:textconfiguration:)", "law": "Use this method to display upcoming trips or multiple trip options, such as for search results."}
+{"id": "/documentation/carplay/cpmaptemplate/updateestimates(_:for:)", "law": "To change the color, use the method instead of calling this method."}
+{"id": "/documentation/carplay/cpnavigationalert", "law": "When creating an alert, you must provide a title, action, and duration."}
+{"id": "/documentation/carplay/cpnavigationsession", "law": "Maintain at least one maneuver in the array at all times."}
+{"id": "/documentation/carplay/cpnavigationsession", "law": "You should call regularly to update the remaining time and distance for each maneuver."}
+{"id": "/documentation/carplay/cpnavigationsession", "law": "When CarPlay pauses, finishes, or cancels route guidance, you must call the corresponding method on the active navigation session."}
+{"id": "/documentation/carplay/cptemplateapplicationscenedelegate/templateapplicationscene(_:didconnect:to:)", "law": "Use the interface controller to present your user interface templates."}
+{"id": "/documentation/carplay/cptemplateapplicationscenedelegate/templateapplicationscene(_:didconnect:to:)", "law": "You must set both the window’s root view controller and the scene’s root template before returning from this method."}
+{"id": "/documentation/carplay/cptemplateapplicationscenedelegate/templateapplicationscene(_:didconnect:to:)", "law": "All other categories of apps must implement instead."}
+{"id": "/documentation/carplay/cpsearchtemplatedelegate/searchtemplate(_:selectedresult:completionhandler:)", "law": "Your implementation must call the completion handler after processing the selected result item."}
+{"id": "/documentation/carplay/cpsearchtemplatedelegate/searchtemplate(_:updatedsearchtext:completionhandler:)", "law": "After the method retrieves the search result, the method must call for the system to display the result to the user."}
+{"id": "/documentation/carplay/cpdashboardcontroller", "law": "You don’t create the dashboard controller."}
+{"id": "/documentation/carplay/cpdashboardcontroller", "law": "After receiving the controller, set to an array that contains a maximum of two shortcut buttons."}
+{"id": "/documentation/carplay/cptemplateapplicationdashboardscene/dashboardcontroller", "law": "Use this property to access the controller CarPlay creates when it connects your navigation app’s dashboard scene."}
+{"id": "/documentation/carplay/cptemplateapplicationdashboardscene/dashboardcontroller", "law": "You use this controller to manage the shortcut buttons CarPlay displays in the dashboard when there’s no active navigation session."}
+{"id": "/documentation/carplay/cptemplateapplicationdashboardscene/dashboardwindow", "law": "Use this property to access the window CarPlay creates for your dashboard scene."}
+{"id": "/documentation/carplay/cptemplateapplicationdashboardscene/delegate", "law": "Use this property to access the delegate object CarPlay creates from the class name you provide in the scene manifest of your app’s file."}
+{"id": "/documentation/carplay/cptemplateapplicationdashboardscenedelegate/templateapplicationdashboardscene(_:didconnect:to:)", "law": "Use the dashboard controller to provide up to two shortcut buttons to display instead of your map content when there’s no active navigation session."}
+{"id": "/documentation/carplay/cptemplateapplicationdashboardscenedelegate/templateapplicationdashboardscene(_:diddisconnect:from:)", "law": "You can use it to perform any cleanup."}
+{"id": "/documentation/carplay/cpvoicecontrolstate", "law": "A voice control state containing title variants and images for use by a voice control template."}
+{"id": "/documentation/carplay/cpvoicecontroltemplate/activatevoicecontrolstate(withidentifier:)", "law": "Your app must present the voice control template using its object before the app can activate a new state."}
+{"id": "/documentation/carplay/cpvoicecontroltemplate/leadingnavigationbarbuttons", "law": "The navigation bar may display a maximum of 2 buttons in the leading space."}

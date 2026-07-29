@@ -1,2 +1,23 @@
 {"id": "/documentation/PushKit", "law": "Both PushKit and User Notifications use the Apple Push Notification service (APNs) to deliver push notifications to user devices."}
 {"id": "/documentation/PushKit", "law": "PushKit doesn’t support some special use cases in which access to Apple Push Notification service (APNs) isn’t possible."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "If your app provides Voice-over-IP (VoIP) phone services, you may use PushKit to handle incoming calls on user devices."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "PushKit provides an efficient way to manage calls that doesn’t require your app to be running to receive calls."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "For apps built using the iOS 13 SDK or later, PushKit requires you to use CallKit when handling VoIP calls."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "CallKit ensures that apps providing call-related services on a user’s device work seamlessly together on the user’s device, and respect features like Do Not Disturb."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "Use CallKit to present these interfaces and manage interactions with them."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "If you are unable to support CallKit in your app, you cannot use PushKit to handle push notifications."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "If you need to do work in response to an incoming notification—for example, to decrypt content—use a notification service extension to perform that work."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "VoIP apps must use CallKit to present the system’s call-related interfaces."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "Assign one of your app’s custom objects as a delegate, and use that object to respond to user actions and telephony-related changes."}
+{"id": "/documentation/PushKit/responding-to-voip-notifications-from-pushkit", "law": "Your servers handle most of the call-related work required to connect users."}
+{"id": "/documentation/PushKit/PKPushRegistryDelegate/pushRegistry(_:didReceiveIncomingPushWith:for:completion:)", "law": "Use this method to extract data from the notification’s payload and to perform the relevant task for that data."}
+{"id": "/documentation/PushKit/PKPushRegistryDelegate/pushRegistry(_:didReceiveIncomingPushWith:for:completion:)", "law": "For example, use this method to update the complication data of your watchOS app."}
+{"id": "/documentation/PushKit/PKPushRegistryDelegate/pushRegistry(_:didReceiveIncomingPushWith:for:completion:)", "law": "When linking against the iOS 13 SDK or later, your implementation of this method must report notifications of type to the framework by calling the method of your app’s object."}
+{"id": "/documentation/PushKit/PKPushRegistryDelegate/pushRegistry(_:didReceiveIncomingPushWith:for:completion:)", "law": "For example, the system reports an error if the user enabled Do Not Disturb."}
+{"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "You must configure your app to handle PushKit-related notifications, and you must supply a server to generate those notifications."}
+{"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "You use your server to generate the push notifications that your app receives."}
+{"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "Apps must have the proper entitlements to receive push notifications."}
+{"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "During configuration, always specify a delegate object to receive notifications."}
+{"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "Assigning a value to the property begins the registration process, so always update that property last."}
+{"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "In order to deliver notifications to a user device, your server must know the address of that device."}
+{"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "To ensure the security of the user’s information, always encrypt the token and all user data before sending it over the network."}

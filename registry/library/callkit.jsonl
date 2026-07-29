@@ -18,3 +18,30 @@
 {"id": "/documentation/callkit/cxprovider", "law": "A VoIP app should create only one instance of and store it for use globally."}
 {"id": "/documentation/callkit/cxproviderconfiguration", "law": "A provider configuration can also set the maximum number of call groups and the number of calls in a single call group, determine whether to use emails and phone numbers as handles, and specify whether to support video."}
 {"id": "/documentation/callkit/preparing-your-app-to-be-the-default-calling-app", "law": "For example: Only use the URL scheme as a fallback behavior in response to a person’s explicit action in your app, such as clicking a call button after your app presents the proposed number to call."}
+{"id": "/documentation/CallKit/CXSetTranslatingCallAction", "law": "To avoid interrupting or impeding call translation when a person mutes their audio during a conversation, don’t deactivate the upstream audio."}
+{"id": "/documentation/callkit/cxcall", "law": "You don’t instantiate objects directly."}
+{"id": "/documentation/callkit/cxcall", "law": "You can use the managed by a to access instances for active calls using the property, or provide an object conforming to the protocol to be notified anytime a call is updated."}
+{"id": "/documentation/callkit/cxcallupdate", "law": "Not every property on a object must be set each time, as each object includes only new and changed information."}
+{"id": "/documentation/callkit/cxsettranslatingcallaction", "law": "To avoid interrupting or impeding call translation when a person mutes their audio during a conversation, don’t deactivate the upstream audio."}
+{"id": "/documentation/callkit/identifying-and-blocking-calls", "law": "Use the Call Directory app extension to manage callers by their phone number."}
+{"id": "/documentation/callkit/identifying-and-blocking-calls", "law": "To provide identifying information about incoming callers, you use the method in the implementation of ."}
+{"id": "/documentation/callkit/identifying-and-blocking-calls", "law": "To block incoming calls for a particular phone number, you use the method in the implementation of ."}
+{"id": "/documentation/callkit/sending-end-to-end-encrypted-voip-calls", "law": "Then, on the receiving device, use a notification service extension to decrypt the incoming content."}
+{"id": "/documentation/callkit/sending-end-to-end-encrypted-voip-calls", "law": "It also responds appropriately to system-level behaviors such as Do Not Disturb."}
+{"id": "/documentation/callkit/sending-end-to-end-encrypted-voip-calls", "law": "Only use this approach when your server can’t determine whether an outgoing notification is a request for a VoIP call or some other data (such as a text message) due to metadata encryption."}
+{"id": "/documentation/callkit/sending-end-to-end-encrypted-voip-calls", "law": "Be sure to set the header field to ."}
+{"id": "/documentation/callkit/sending-end-to-end-encrypted-voip-calls", "law": "Specifically, your implementation must call the method to report the call."}
+{"id": "/documentation/callkit/voip-calling-with-callkit", "law": "This sample code project must be run on a physical device."}
+{"id": "/documentation/callkit/voip-calling-with-callkit", "law": "Before you run the sample code project in Xcode, check to be sure your device has iOS 13 or later or iPadOS 13 or later installed."}
+{"id": "/documentation/callkit/voip-calling-with-callkit", "law": "Use the CallKit framework to integrate native VoIP calling."}
+{"id": "/documentation/callkit/cxprovider/configuration", "law": "To change the configuration of the provider, you must set this property to a new object."}
+{"id": "/documentation/callkit/cxprovider/reportnewincomingcall(with:update:completion:)", "law": "An incoming call may be disallowed by the system if, for example, the caller handle is blocked, or the user has Do Not Disturb enabled."}
+{"id": "/documentation/callkit/cxprovider/reportnewincomingvoippushpayload(_:completion:)", "law": "To call this method, your notification service extension must have the entitlement."}
+{"id": "/documentation/callkit/cxprovider/reportoutgoingcall(with:connectedat:)", "law": "An outgoing call should call this method after calling the and after the call is connected."}
+{"id": "/documentation/callkit/cxproviderconfiguration/icontemplateimagedata", "law": "The icon image should be a square with side length of 40 points."}
+{"id": "/documentation/callkit/cxproviderconfiguration/maximumcallgroups", "law": "By default, the maximum number is ."}
+{"id": "/documentation/callkit/cxproviderconfiguration/maximumcallgroups", "law": "The maximum number of call groups."}
+{"id": "/documentation/callkit/cxproviderconfiguration/maximumcallspercallgroup", "law": "By default, the maximum number is ."}
+{"id": "/documentation/callkit/cxproviderconfiguration/maximumcallspercallgroup", "law": "The maximum number of calls per call group."}
+{"id": "/documentation/callkit/cxproviderdelegate/provider(_:execute:)", "law": "Most delegates should not need to provide an implementation for this method."}
+{"id": "/documentation/callkit/cxproviderdelegate/provider(_:timedoutperforming:)", "law": "An action that has already timed out should not be fulfilled or failed by the provider delegate."}

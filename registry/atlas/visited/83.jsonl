@@ -63,3 +63,5 @@
 {"id": "/documentation/applemapsserverapi/place", "sha": "3dac091f46dd01b806e38b5a01de5bfb6d0f96fc9a6ce1b4638352efe8ace15a", "t": "Place", "n": 717, "laws": 1, "ts": "2026-07-28 19:02 UTC"}
 {"id": "/documentation/bundleresources/entitlements/com.apple.developer.system-extension.redistributable", "sha": "3b296e3cd824bba76e9d481fa476a250a8bb1b485a52831bdaeace2384ec5818", "t": "System Extension Redistributable Entitlement", "n": 502, "laws": 1, "ts": "2026-07-28 19:03 UTC"}
 {"id": "/documentation/audiotoolbox/audioservicesplaysystemsoundwithdetails", "sha": "9f28d62da3566050765bb831d6f087a7be1141efd6f24a96b439c2b3fe7b6c38", "t": "AudioServicesPlaySystemSoundWithDetails", "n": 70, "laws": 0, "ts": "2026-07-28 19:09 UTC"}
+{"id": "/documentation/UIKit/UIStateRestoring", "sha": "03d2aaf8d8cb42368f74f09a3e226bdeb3a9c8477e7da431acd061069a3a8e69", "t": "UIStateRestoring", "n": 968, "laws": 2, "ts": "2026-07-29 05:48 UTC"}
+{"id": "/documentation/carplay/cptrippreviewtextconfiguration", "sha": "dd0fa7b09741f2a3c27162846a303df098d79b85abd4228836b2c0a79dc54eb5", "t": "CPTripPreviewTextConfiguration", "n": 308, "laws": 0, "ts": "2026-07-29 06:09 UTC"}

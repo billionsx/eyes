@@ -66,3 +66,5 @@
 {"id": "/documentation/cryptokit/aes", "sha": "aab8d29e94ce8a30e2ca819052c1b6dbce60223cf1dd8572400b67ce61cd81df", "t": "AES", "n": 110, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
 {"id": "/documentation/system/filepath/init(cstring:)-2hetg", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(cString:)", "n": 0, "laws": 0, "ts": "2026-07-28 19:00 UTC"}
 {"id": "/documentation/audiotoolbox/audiounit_aucomponent_h", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AudioUnit_AUComponent_h", "n": 0, "laws": 0, "ts": "2026-07-28 19:09 UTC"}
+{"id": "/documentation/automaticassessmentconfiguration/aeassessmentsession/isactive", "sha": "3db66643657ca8af01e4241d6f5ae38f71af3603bd4021e59cb9394cfd7a6939", "t": "isActive", "n": 66, "laws": 0, "ts": "2026-07-29 05:57 UTC"}
+{"id": "/documentation/carplay/cpmaptemplate/automaticallyhidesnavigationbar", "sha": "74f49fad368f69e78aa35a80126b9bb239b41150de243d64915ded33c905de96", "t": "automaticallyHidesNavigationBar", "n": 128, "laws": 1, "ts": "2026-07-29 06:08 UTC"}

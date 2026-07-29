@@ -825,3 +825,26 @@
 {"id": "/documentation/Foundation/about-apple-file-system", "law": "When you use the class to create a new write handle, a sparse file is created automatically."}
 {"id": "/documentation/Foundation/about-apple-file-system", "law": "You can’t use to create a sparse file from an existing file that has blank data already stored on disk."}
 {"id": "/documentation/Foundation/about-apple-file-system", "law": "Use high-level APIs to get the most out of Apple File System."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "Use Handoff to transfer activities the user starts on one iOS, watchOS, or macOS device to a different device."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "To handoff between apps on different platforms, your apps must share the same developer Team ID."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "This means you must either distribute your apps through the App Store, or sign them with the same credentials."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "Start by identifying which activities make sense to use with Handoff."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "You use your app’s file to declare that your app can receive an activity from Handoff."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "Each member of the array should be a whose value is one of your activity identifiers."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "Also, while watchOS can send user activities, it cannot receive them, so watchOS apps don’t declare an property."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "For example, if a user is working on a document, the activity should indicate the document—and possibly what part of the document—the user is editing."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "Don’t include the document itself as part of the activity, since the user could launch your app without Handoff, such as by tapping or clicking its app icon."}
+{"id": "/documentation/Foundation/implementing-handoff-in-your-app", "law": "Instead, use techniques like iCloud Drive to share documents between the user’s devices."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "You don’t have to do all background network activity with background sessions as described in this article."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "Apps that declare appropriate background modes can use default URL sessions and data tasks, just as if they were in the foreground."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "Because most apps need only a few background sessions (usually one), you can use a fixed string for the identifier, rather than a dynamically generated identifier."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "To have the system to wake up your app when a task completes and the app is in the background, make sure the property is set to (the default)."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "Use the instance to create a instance."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "These values are best-guess upper bounds on the expected byte count, and should account for headers as well as body data."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "In the following example, the task is set to begin at least one hour in the future and is configured to send around 200 bytes of data and receive around 500 KB."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "Because restarting your app’s process is fairly expensive, a few features are unavailable, resulting in the following limitations: The session must provide a delegate for event delivery."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "Redirects are always followed."}
+{"id": "/documentation/Foundation/downloading-files-in-the-background", "law": "Instead, use a small number of background sessions — ideally just one — and use these sessions to start many download tasks at once."}
+{"id": "/documentation/Foundation/URL/stopAccessingSecurityScopedResource()", "law": "You can also use its Core Foundation equivalent, the function."}
+{"id": "/documentation/Foundation/URL/stopAccessingSecurityScopedResource()", "law": "You must balance each call to for a given security-scoped URL with a call to ."}
+{"id": "/documentation/Foundation/URL/stopAccessingSecurityScopedResource()", "law": "If you call this method on a URL whose referenced resource you don’t have access to, nothing happens."}

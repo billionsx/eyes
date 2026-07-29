@@ -65,3 +65,7 @@
 {"id": "/documentation/uikit/uiscenesizerestrictions", "sha": "d7df71f862af35c94d3028636e06c378c3473d0b5878c2d1356b7fb76d281cb1", "t": "UISceneSizeRestrictions", "n": 418, "laws": 3, "ts": "2026-07-28 18:58 UTC"}
 {"id": "/documentation/Foundation/ContiguousBytes", "sha": "51833785d6fa9fe926bdfe7693cbd86d1f137ba1cc3539c7ab5e09fbab981e8f", "t": "ContiguousBytes", "n": 194, "laws": 0, "ts": "2026-07-28 18:59 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudiostream/getcurrentstreamformat", "sha": "82ab7cd503f0ce2824a207a1bd4cd334c274690c3945743661c08e094ab7d430", "t": "GetCurrentStreamFormat", "n": 209, "laws": 0, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/audiotoolbox/auspatialmixerattenuationcurve", "sha": "16e5ed27e75cca8970871693d851a906f985b35972ca3f7c6cc01510f38688e4", "t": "AUSpatialMixerAttenuationCurve", "n": 322, "laws": 0, "ts": "2026-07-29 05:42 UTC"}
+{"id": "/documentation/BackgroundTasks/BGProcessingTask", "sha": "94910e82e6216695a963ed9e5ad56d11efb77923bbadd60e10d4fd8d67f0a4aa", "t": "BGProcessingTask", "n": 624, "laws": 3, "ts": "2026-07-29 05:59 UTC"}
+{"id": "/documentation/callkit/cxplaydtmfcallaction", "sha": "e55c19d612f55613a534565e9cd879d25d20103da449fc47d854d7a4dddbaa45", "t": "CXPlayDTMFCallAction", "n": 1288, "laws": 0, "ts": "2026-07-29 06:02 UTC"}
+{"id": "/documentation/callkit/cxproviderdelegate/provider(_:perform:)-43atg", "sha": "7a9273eddab55bd561944eb4c67503c7248418ab07e7931863493ae44425088a", "t": "provider(_:perform:)", "n": 71, "laws": 0, "ts": "2026-07-29 06:03 UTC"}

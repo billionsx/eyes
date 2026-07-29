@@ -61,3 +61,6 @@
 {"id": "/documentation/audiodriverkit/iouseraudioobject/getownerobjectid", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "GetOwnerObjectID", "n": 0, "laws": 0, "ts": "2026-07-28 19:07 UTC"}
 {"id": "/documentation/Apple-Silicon/porting-your-audio-code-to-apple-silicon", "sha": "b0e45b23f756b73ac1780238f9b42bbdabb16f75050e901596fa8d21c633bd5f", "t": "Porting your audio code to Apple silicon", "n": 4400, "laws": 10, "ts": "2026-07-28 19:08 UTC"}
 {"id": "/documentation/audiotoolbox/audiotoolbox-data-types", "sha": "3d4e8171995be7898cc1c7ee7a5ac476bfaac9bff3f9c34ed7a50789df2d86a6", "t": "AudioToolbox Data Types", "n": 134, "laws": 0, "ts": "2026-07-28 19:09 UTC"}
+{"id": "/documentation/audiotoolbox/auparameterlistenerproc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUParameterListenerProc", "n": 0, "laws": 0, "ts": "2026-07-29 05:45 UTC"}
+{"id": "/documentation/MarketplaceKit/MarketplaceKitURIScheme", "sha": "8a1ca66ecb97ebc48bb1c980423eb62e3a686ecd255caa5f3f846fc954a2b52a", "t": "MarketplaceKitURIScheme", "n": 862, "laws": 0, "ts": "2026-07-29 06:00 UTC"}
+{"id": "/documentation/carplay/cpgridtemplate", "sha": "5711f88cff367a2d15148f9ab8fc8daba0c5d640a5bb4dae16610fa440b184c1", "t": "CPGridTemplate", "n": 778, "laws": 1, "ts": "2026-07-29 06:03 UTC"}

@@ -1,0 +1,3 @@
+{"id": "/documentation/appdistribution/enabling-alternative-distribution-app-installation-in-a-browser", "law": "requires a one-to-one mapping between an alternative distribution app and the domain of the website that distributes it."}
+{"id": "/documentation/appdistribution/enabling-alternative-distribution-app-installation-in-a-browser", "law": "The system requires that your browser app have a specific entitlement to call the installation method."}
+{"id": "/documentation/appdistribution/enabling-alternative-distribution-app-installation-in-a-browser", "law": "Don’t call the method directly."}

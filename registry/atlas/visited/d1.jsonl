@@ -60,3 +60,6 @@
 {"id": "/documentation/appstoreconnectapi/apps", "sha": "a5efc95e5f5f27edfdbf42ace41c02d7a18c08e2c8b18437d3b08c6c68dbc692", "t": "Apps", "n": 8026, "laws": 4, "ts": "2026-07-28 18:55 UTC"}
 {"id": "/documentation/system/filepath/expressiblebystringliteral-implementations", "sha": "ba72e12c3bebe7f4493f8b5e80763ee992deee0bdcffdc69d0f29618400da7c5", "t": "ExpressibleByStringLiteral Implementations", "n": 37, "laws": 0, "ts": "2026-07-28 19:00 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudiolevelcontrol/setdecibelvalue", "sha": "913b12f89511147593f9a66767195eb61d0e3d61717d666ebe29816b43d3923e", "t": "SetDecibelValue", "n": 330, "laws": 0, "ts": "2026-07-28 19:07 UTC"}
+{"id": "/documentation/audiotoolbox/aueventlisteneraddeventtype(_:_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUEventListenerAddEventType(_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-29 05:44 UTC"}
+{"id": "/documentation/avfaudio/avaudiounitcomponentmanager/tagnames", "sha": "a69eb79a42f781e1d1576a8bdf55a51a72cbaec24508a78aa1562fbd85325e57", "t": "tagNames", "n": 113, "laws": 0, "ts": "2026-07-29 05:47 UTC"}
+{"id": "/documentation/audiotoolbox/kaudiounittype_output", "sha": "27a9d193cd85a80267ec769a1747b65682ccce2ded78680dba209bcc98c3465a", "t": "kAudioUnitType_Output", "n": 141, "laws": 0, "ts": "2026-07-29 05:51 UTC"}

@@ -53,3 +53,6 @@
 {"id": "/documentation/appstoreconnectapi/repositories", "sha": "0ff6b397087428ded6e3944e88dc278ff432d7eff4a5dbcf3f020ca6f669e6a5", "t": "Repositories", "n": 977, "laws": 0, "ts": "2026-07-28 18:54 UTC"}
 {"id": "/documentation/applearchive/apple-archive-functions", "sha": "3bf372fcbde2acac569989b9a333ce4d3ddd4e47076ade63653b506d72ef7288", "t": "Apple Archive functions", "n": 5042, "laws": 0, "ts": "2026-07-28 19:01 UTC"}
 {"id": "/documentation/audiodriverkit/audiodriverkit/kiouseraudioobjectiddriver", "sha": "20b336b38f4bffdc59d98e7c9a9a1c0a050ecc0ef029603f86b2c5bd93c104da", "t": "kIOUserAudioObjectIDDriver", "n": 105, "laws": 1, "ts": "2026-07-28 19:06 UTC"}
+{"id": "/documentation/avfaudio/avaudiounitcomponentmanager/components(matching:)-96l2c", "sha": "2048f065a79e0b8e14194c98aff83419f231be22a51c4a911b7fa49db01a05f6", "t": "components(matching:)", "n": 238, "laws": 1, "ts": "2026-07-29 05:47 UTC"}
+{"id": "/documentation/backgroundassets/badownloadmanager/cancel(_:)", "sha": "a5c0cee32ac5ebc1f464bc58cfab1734b2bfe761df5230b5bf2c717d3fb792dd", "t": "cancel(_:)", "n": 26, "laws": 0, "ts": "2026-07-29 05:58 UTC"}
+{"id": "/documentation/callkit/cxcallendedreason", "sha": "19114a89586d187a49f191d5745a79e64ec2554e92345be74b79585254386118", "t": "CXCallEndedReason", "n": 281, "laws": 0, "ts": "2026-07-29 06:02 UTC"}

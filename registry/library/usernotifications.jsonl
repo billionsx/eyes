@@ -56,3 +56,16 @@
 {"id": "/documentation/UserNotifications/pushing-background-updates-to-your-app", "law": "You may include custom keys in the payload, but the dictionary must not contain any keys that would trigger user interactions."}
 {"id": "/documentation/UserNotifications/pushing-background-updates-to-your-app", "law": "Additionally, the notification’s POST request should contain the header field with a value of , and the field with a value of ."}
 {"id": "/documentation/UserNotifications/pushing-background-updates-to-your-app", "law": "The APNs server requires the field when sending push notifications to Apple Watch, and recommends it for all platforms."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "You use this extension to modify the notification’s content or download content related to the extension."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "For example, you could use the extension to decrypt an encrypted data block or to download images associated with the notification."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "You don’t create objects yourself."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "Use the methods of that subclass to implement your app extension’s behavior."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "You use that method to make any changes to the notification’s content."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "If you don’t update the notification content before time expires, the system displays the original content."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "You must implement the method and use it to process incoming notifications."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension", "law": "It’s also strongly recommended that you override the method."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension/didReceive(_:withContentHandler:)", "law": "Override this method and use it to modify the object that the system delivers with the notification."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension/didReceive(_:withContentHandler:)", "law": "You can use this method to download images or movies and add them as attachments to the content."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension/didReceive(_:withContentHandler:)", "law": "You may also modify the alert text as long as you don’t remove it."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension/didReceive(_:withContentHandler:)", "law": "If you don’t execute that block in a timely manner, the system calls your extension’s method to give you one last chance to execute the block."}
+{"id": "/documentation/UserNotifications/UNNotificationServiceExtension/didReceive(_:withContentHandler:)", "law": "If you don’t, the system presents the notification’s original content to the user."}

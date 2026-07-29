@@ -44,3 +44,5 @@
 {"id": "/documentation/bundleresources/entitlements/com.apple.developer.driverkit.family.serial", "sha": "cba59777b57dbb6228c9a3e9adca2fa8c3af69c72fac6a7dc0124e47fdca4294", "t": "com.apple.developer.driverkit.family.serial", "n": 224, "laws": 0, "ts": "2026-07-28 19:03 UTC"}
 {"id": "/documentation/driverkit/osaction/setabortedhandler", "sha": "8128b19341a713c2e46a50acda7c8a119cb9267b826715dcfc84a1031861f566", "t": "SetAbortedHandler", "n": 420, "laws": 2, "ts": "2026-07-28 19:04 UTC"}
 {"id": "/documentation/DriverKit/IOMemoryDescriptor", "sha": "a3a29913e0f3f38beb92c4ad9d4be832471d43b7a486cba2d96d6e2b353ed40d", "t": "IOMemoryDescriptor", "n": 701, "laws": 2, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/audiotoolbox/auimplementorstringfromvaluecallback", "sha": "b3b5c36d44bc538688ba33b24f571c619bcbf9a770d1284ca1571c8502b5bfe6", "t": "AUImplementorStringFromValueCallback", "n": 243, "laws": 0, "ts": "2026-07-29 05:44 UTC"}
+{"id": "/documentation/xcode/projects-and-workspaces", "sha": "92a70da7f5df227022739cbe00d8c9d7ce41ff51fd41b09ced3ba15056e634e8", "t": "Projects and workspaces", "n": 715, "laws": 1, "ts": "2026-07-29 05:55 UTC"}

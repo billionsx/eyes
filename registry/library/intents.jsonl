@@ -104,3 +104,30 @@
 {"id": "/documentation/Intents/INStartWorkoutIntentHandling/resolveWorkoutName(for:with:)", "law": "If you don’t implement this method, SiriKit assumes that you’re able to start the requested workout with the specified name."}
 {"id": "/documentation/Intents/INStartWorkoutIntentResponse", "law": "Use an object to specify whether your app is able to start a workout."}
 {"id": "/documentation/Intents/INStartWorkoutIntentResponseCode/handleInApp", "law": "Use this code when you want SiriKit to launch your app in the background so that you can handle the intent there."}
+{"id": "/documentation/Intents/INStartCallIntentHandling", "law": "Use the methods of the protocol to resolve, confirm, and handle requests to start an audio or video call with the designated users."}
+{"id": "/documentation/Intents/INStartCallIntentHandling", "law": "Use the methods of this protocol to resolve the list of callable contacts and to validate that your app can place the call successfully."}
+{"id": "/documentation/Intents/INStartCallIntent", "law": "To handle this intent, the handler object in your Intents extension must adopt the protocol."}
+{"id": "/documentation/Intents/INStartCallIntent", "law": "Your handler should confirm the request and create an object that indicates it’s possible to begin the call."}
+{"id": "/documentation/Intents/INStartCallIntent", "law": "Don’t try to initiate calls directly from your Intents extension."}
+{"id": "/documentation/Intents/INStartCallIntent", "law": "Instead, SiriKit launches your app and passes it an object that your app must then use to initiate the call."}
+{"id": "/documentation/Intents/INPlayMediaIntent", "law": "Use to donate songs, movies, and other media the user plays in your app, or to recommend upcoming media, such as new TV shows or podcast episodes."}
+{"id": "/documentation/intents/inaddmediaintent", "law": "To handle this intent, the handler object in your Intents extension must adopt the protocol."}
+{"id": "/documentation/intents/inaddmediaintent", "law": "Your handler should confirm the request and create an object that contains the media to add."}
+{"id": "/documentation/intents/ininteraction", "law": "Some system apps use donated interactions to improve search results or to anticipate user actions."}
+{"id": "/documentation/intents/ininteraction", "law": "You can also use the methods of this class to delete interactions when they are no longer relevant."}
+{"id": "/documentation/intents/ininteraction/deleteall(completion:)", "law": "Use to delete only interactions associated with a particular identifier."}
+{"id": "/documentation/intents/inplaymediaintent", "law": "Use to donate songs, movies, and other media the user plays in your app, or to recommend upcoming media, such as new TV shows or podcast episodes."}
+{"id": "/documentation/intents/inplaymediaintentresponsecode/continueinapp", "law": "Because the lifespan of an app extension is short, media playback should happen in your app, not in the Intents app extension."}
+{"id": "/documentation/intents/inplaymediaintentresponsecode/continueinapp", "law": "Your app should be in the foreground when playing a video requested with a media intent shortcut."}
+{"id": "/documentation/intents/inplaymediaintentresponsecode/continueinapp", "law": "The system should launch the app in the foreground to play the media."}
+{"id": "/documentation/intents/inplaymediaintentresponsecode/handleinapp", "law": "Because the lifespan of an app extension is short, media playback should happen in your app, not in the Intents app extension."}
+{"id": "/documentation/intents/inplaymediaintentresponsecode/handleinapp", "law": "The system should launch the app in the background to play the media."}
+{"id": "/documentation/intents/insearchformediaintent", "law": "Your handler should confirm the request and create an object with the media to search for."}
+{"id": "/documentation/intents/inupdatemediaaffinityintent", "law": "To handle this intent, the handler object in your Intents extension must adopt the protocol."}
+{"id": "/documentation/intents/inupdatemediaaffinityintent", "law": "Your handler should confirm the request and create an object with the media to update."}
+{"id": "/documentation/intents/invocabulary", "law": "Include words and phrases only when their use in your app by the current user might differ from everyday usage."}
+{"id": "/documentation/intents/invocabulary", "law": "Don’t register contact names that you retrieved from the user’s Contacts database."}
+{"id": "/documentation/intents/invocabulary", "law": "Don’t use this class to register terms that are common to all users of your app."}
+{"id": "/documentation/intents/invocabulary", "law": "Your Intents extension must support at least one intent that uses the registered terms."}
+{"id": "/documentation/intents/invocabulary", "law": "Use the shared vocabulary object only in your iOS app."}
+{"id": "/documentation/intents/invocabulary", "law": "Don’t try to register vocabulary from your Intents extension or Intents UI extension."}

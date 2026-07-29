@@ -2347,3 +2347,19 @@
 {"id": "/documentation/appkit/nstableviewdiffabledatasource-c5gl", "law": "The object you use to manage data and provide items for a table view."}
 {"id": "/documentation/appkit/nstableviewdiffabledatasourcereference", "law": "If you’re working in a Swift codebase, always use instead of ."}
 {"id": "/documentation/appkit/nstableviewdiffabledatasourcereference", "law": "The object you use to manage data and provide items for a table view."}
+{"id": "/documentation/AppKit/NSSeguePerforming", "law": "To conditionally disallow the performance of a segue, override the method, returning .If you need to programmatically trigger a segue that cannot be expressed in a storyboard file, such as a transition between scenes in different storyboards, use the method in this protocol."}
+{"id": "/documentation/AppKit/NSStandardKeyBindingResponding", "law": "You can create your own methods as well, but use these if the concepts map to functionality in your app."}
+{"id": "/documentation/AppKit/NSUserActivityRestoring", "law": "Don’t conform your classes to , as it’s a marker protocol adopted by and for user activity state restoration."}
+{"id": "/documentation/AppKit/NSViewController", "law": "When the user dismisses a printing dialog, the and classes each send NSEditor messages to each accessory view controller to ensure that the user’s changes have been committed or discarded properly."}
+{"id": "/documentation/AppKit/NSAccessibilityElementProtocol", "law": "They should adopt a more specific, role-based protocol instead."}
+{"id": "/documentation/AppKit/NSAccessibilityElementProtocol", "law": "Any class that adopts this protocol must implement all of its methods, and the required methods of any protocol it inherits from."}
+{"id": "/documentation/AppKit/NSAccessibilityElementProtocol", "law": "The compiler may require you to override some methods that your ancestors have already implemented."}
+{"id": "/documentation/AppKit/NSAccessibilityElementProtocol", "law": "A role-based protocol that declares the minimum interface necessary to interact with an assistive app."}
+{"id": "/documentation/AppKit/NSAnimatablePropertyContainer", "law": "An object’s animator proxy should be treated as if it was the object itself, and may be passed to any code that accepts the object as a parameter."}
+{"id": "/documentation/AppKit/NSAnimatablePropertyContainer", "law": "A set of methods that defines a way to add animation to an existing class with a minimum of API impact."}
+{"id": "/documentation/AppKit/NSAppearanceCustomization", "law": "When an object adopts this protocol, assigning a value to the property causes that object to use the appearance attributes you specified instead of any inherited attributes."}
+{"id": "/documentation/AppKit/NSControl", "law": "The class is abstract and must be subclassed to be used."}
+{"id": "/documentation/AppKit/NSControl", "law": "Although you can subclass it yourself, more often you use one of the subclasses already defined by AppKit."}
+{"id": "/documentation/AppKit/NSControl", "law": "Any subclass that uses these methods must have a delegate and the methods to get and set it."}
+{"id": "/documentation/AppKit/NSControl", "law": "Any subclass that uses these methods must have a delegate and the methods to get and set it."}
+{"id": "/documentation/AppKit/NSDraggingDestination", "law": "A set of methods that the destination object (or recipient) of a dragged image must implement."}

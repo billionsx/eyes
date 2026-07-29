@@ -35,3 +35,5 @@
 {"id": "/documentation/mediaplayer/mpnowplayinginfocenter", "law": "If your app donates media information to , and you choose not to opt-out, the media played may appear as a suggestion in the Journal app, or other apps that use the Journaling Suggestions framework."}
 {"id": "/documentation/mediaplayer/mpnowplayingsession", "law": "If you create an object, don’t attempt to use it with the that an presents."}
 {"id": "/documentation/mediaplayer/mpnowplayingsession", "law": "Create your own instance with custom playback controls to use with your Now Playing session."}
+{"id": "/documentation/MediaPlayer/MPNowPlayingSession", "law": "If you create an object, don’t attempt to use it with the that an presents."}
+{"id": "/documentation/MediaPlayer/MPNowPlayingSession", "law": "Create your own instance with custom playback controls to use with your Now Playing session."}

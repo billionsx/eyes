@@ -1,3 +1,5 @@
 {"id": "/documentation/CoreFoundation/CFString", "law": "CFString objects are immutable—use to create and manage a string that can be changed after it has been created."}
 {"id": "/documentation/CoreFoundation/CFString", "law": "The specified range must not exceed the length of the string."}
 {"id": "/documentation/CoreFoundation/CFString", "law": "You should never, though, store a hash value outside of your application and expect it to be useful if you read it back in later (hash values may change between different releases of the operating system)."}
+{"id": "/documentation/CoreFoundation/CFArray", "law": "(Note that arrays can’t contain pointers; in most cases, though, you can use the constant instead.) Values are not copied but retained using the retain callback provided when an array was created."}
+{"id": "/documentation/CoreFoundation/CFArray", "law": "Recall that a range is defined as , therefore to operate over the entire array the range you supply should be (where is the count of the array)."}

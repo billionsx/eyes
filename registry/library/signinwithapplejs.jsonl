@@ -1,0 +1,2 @@
+{"id": "/documentation/signinwithapplejs/clientconfigi/redirecturi", "law": "The URI provided must redirect to a website under your control."}
+{"id": "/documentation/signinwithapplejs/clientconfigi/scope", "law": "Use space separation when requesting multiple scopes; for example, ."}

@@ -75,3 +75,6 @@
 {"id": "/documentation/appstoreconnectapi/territories", "sha": "dc188d52a9b6467722767ae3c47f722a2e952dae6a9b951b1bb408180daf4252", "t": "Territories", "n": 498, "laws": 1, "ts": "2026-07-28 18:56 UTC"}
 {"id": "/documentation/appstoreconnectapi/apppricepointv3", "sha": "5784902d2e891d96652fe9c24145e6642e8916d2e00f33b113f9dd17f7763a15", "t": "AppPricePointV3", "n": 184, "laws": 0, "ts": "2026-07-28 18:56 UTC"}
 {"id": "/documentation/appstoreconnectapi/appresponse", "sha": "f58f7d06a5477cdabc9f07903bec5a0f96a5780cc92e42719f6b43a9305afbfe", "t": "AppResponse", "n": 144, "laws": 0, "ts": "2026-07-28 18:57 UTC"}
+{"id": "/documentation/audiotoolbox/kaudiounitsubtype_auaudiomix", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "kAudioUnitSubType_AUAudioMix", "n": 0, "laws": 0, "ts": "2026-07-29 05:38 UTC"}
+{"id": "/documentation/audiotoolbox/kauvoiceioproperty_mutedspeechactivityeventlistener", "sha": "79c36a50f30821e8b1db2a3f2219925c281b78f891f6dea70da5949ead842bac", "t": "kAUVoiceIOProperty_MutedSpeechActivityEventListener", "n": 199, "laws": 1, "ts": "2026-07-29 05:46 UTC"}
+{"id": "/documentation/authenticationservices/asauthorizationcustommethod", "sha": "1f7a9aedb70fca3fa3165d1a51083b4ad1080b8283aede0b96a31cbe488caf91", "t": "ASAuthorizationCustomMethod", "n": 283, "laws": 1, "ts": "2026-07-29 05:51 UTC"}

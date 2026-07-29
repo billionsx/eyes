@@ -157,3 +157,6 @@
 {"id": "/documentation/AVFAudio/AVAudioPlayer", "law": "For more advanced playback capabilities, like playing streaming or positional audio, use instead."}
 {"id": "/documentation/AVFAudio/AVSpeechSynthesizer", "law": "You can optionally also retrieve an and set it on the utterance’s property to have the speech synthesizer use that voice when speaking the utterance’s text."}
 {"id": "/documentation/AVFAudio/AVSpeechSynthesizer", "law": "After speech begins, you can use the synthesizer object to pause or stop speech."}
+{"id": "/documentation/avfaudio/avaudiounit/instantiate(with:options:completionhandler:)", "law": "You must create components with flags that include asynchronously through this method if they’re for use with ."}
+{"id": "/documentation/avfaudio/avaudiounitmidiinstrument", "law": "Use an in a chain that processes real-time (live) input and has the general concept of music events; for example, notes."}
+{"id": "/documentation/avfaudio/avaudiounitcomponentmanager/components(matching:)-96l2c", "law": "You use the audio component’s information or tags to build search criteria, such as or ."}

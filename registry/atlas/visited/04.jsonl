@@ -70,3 +70,8 @@
 {"id": "/documentation/appkit/nscollectionview/numberofsections", "sha": "5e569b1eceaa77e9e789986bd08f8c6fbcee8271db72f19f52aa1ad588196784", "t": "numberOfSections", "n": 232, "laws": 1, "ts": "2026-07-28 18:47 UTC"}
 {"id": "/documentation/uikit/uiwindowscene/windows", "sha": "588ef61154702f40a770196c9ba65e91b0950ec018e779795cda9bc4f370a63f", "t": "windows", "n": 242, "laws": 1, "ts": "2026-07-28 18:58 UTC"}
 {"id": "/documentation/system/filepath/stat(followtargetsymlink:retryoninterrupt:)", "sha": "91ec046ad2985192efbcd6c7de1f29f657cbe1bfd55c6181c114a2a266767e79", "t": "stat(followTargetSymlink:retryOnInterrupt:)", "n": 319, "laws": 0, "ts": "2026-07-28 19:00 UTC"}
+{"id": "/documentation/audiotoolbox/audiounitremovepropertylistenerwithuserdata(_:_:_:_:)", "sha": "76ff77d9499f76f3ce8a3fe40413abd17907112074eda4a651038cef37a88c25", "t": "AudioUnitRemovePropertyListenerWithUserData(_:_:_:_:)", "n": 103, "laws": 0, "ts": "2026-07-29 05:44 UTC"}
+{"id": "/documentation/UIKit/UIUserActivityRestoring", "sha": "3171ceedf70463442dc5a869444a07fc8f2761e64dc29bd57cb7f918f47ee2cc", "t": "UIUserActivityRestoring", "n": 136, "laws": 0, "ts": "2026-07-29 05:48 UTC"}
+{"id": "/documentation/authenticationservices/as_extern", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AS_EXTERN", "n": 0, "laws": 0, "ts": "2026-07-29 05:51 UTC"}
+{"id": "/documentation/carplay/cplisttemplate/delegate", "sha": "3e9eeeb69e367bbe8f69cc47974bbd80b930cf714202ead95cf8a4d38cc8566c", "t": "delegate", "n": 60, "laws": 0, "ts": "2026-07-29 06:03 UTC"}
+{"id": "/documentation/carplay/carplay-constants", "sha": "4f2a9d2a5864772657394c57606533589fc697f4434e59aa2796c6d46c30cc5a", "t": "CarPlay Constants", "n": 71, "laws": 0, "ts": "2026-07-29 06:05 UTC"}

@@ -72,3 +72,7 @@
 {"id": "/documentation/driverkit/ioservicename", "sha": "c6d0a3a02d1f7bb4f3a427e97ee81e9fbfd16a27efd95cde91ca267525c52ede", "t": "IOServiceName", "n": 75, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudioclockdevice/getzerotimestampperiod", "sha": "3ccbce317c95b7b8b4a0f996f798de3947634e08c7ed95108589a67fbb919bd6", "t": "GetZeroTimestampPeriod", "n": 427, "laws": 0, "ts": "2026-07-28 19:05 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudioobject/setelementnumbername", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SetElementNumberName", "n": 0, "laws": 0, "ts": "2026-07-28 19:07 UTC"}
+{"id": "/documentation/audiotoolbox/audioconverterreset(_:)", "sha": "d47a0af058df537f737ec22c5ff2aeda50332390546d4fa6e6e2733c0e959f85", "t": "AudioConverterReset(_:)", "n": 214, "laws": 0, "ts": "2026-07-29 05:39 UTC"}
+{"id": "/documentation/audiotoolbox/audiocomponentinstantiationoptions", "sha": "d6be05dc020829bd5aaf7319847ea9b2a51a867209d23303841f2b20bfa4ecd1", "t": "AudioComponentInstantiationOptions", "n": 113, "laws": 0, "ts": "2026-07-29 05:40 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiounit/contextname", "sha": "4f30fa17da7f6fb8fc1f666db9c514b099cce017a2ae3f2af1f463185e733686", "t": "contextName", "n": 313, "laws": 0, "ts": "2026-07-29 05:48 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiounit/midioutputbuffersizehint", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "midiOutputBufferSizeHint", "n": 0, "laws": 0, "ts": "2026-07-29 05:49 UTC"}

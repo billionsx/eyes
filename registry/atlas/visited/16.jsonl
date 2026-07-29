@@ -64,3 +64,7 @@
 {"id": "/documentation/appkit/nstableview/insertrows(at:withanimation:)", "sha": "ae0d397fb2b90a35d63a574d3ea96baffb1516705d00619e1eb65d6679263fde", "t": "insertRows(at:withAnimation:)", "n": 305, "laws": 1, "ts": "2026-07-28 18:52 UTC"}
 {"id": "/documentation/driverkit/osaction/cancel", "sha": "7215bed82daee57f44a0792c33dd7f9208062ea836d69e08f2f27504fad1bb50", "t": "Cancel", "n": 216, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
 {"id": "/documentation/audiotoolbox/audio-file-components", "sha": "13886ac81f09b13374f73989530f9beb0a6599da1c28b406b5e07fcea28c5c8b", "t": "Audio File Components", "n": 2367, "laws": 0, "ts": "2026-07-28 19:08 UTC"}
+{"id": "/documentation/audiotoolbox/audiounitcomplexrenderproc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AudioUnitComplexRenderProc", "n": 0, "laws": 0, "ts": "2026-07-29 05:43 UTC"}
+{"id": "/documentation/audiotoolbox/audiounitremoverendernotifyproc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AudioUnitRemoveRenderNotifyProc", "n": 0, "laws": 0, "ts": "2026-07-29 05:44 UTC"}
+{"id": "/documentation/audiotoolbox/aurendercontextobserver", "sha": "c4df0abbec9ac1f920f2edc110e237449b7d95f04de7694b5c7802abff4b37ed", "t": "AURenderContextObserver", "n": 938, "laws": 3, "ts": "2026-07-29 05:49 UTC"}
+{"id": "/documentation/bundleresources/information-property-list/bausesapplehosting", "sha": "07790bdd5c33b7bb3ea1def1f84d2942f098d216dc0d8ccbc667b2f2c3f93062", "t": "BAUsesAppleHosting", "n": 262, "laws": 3, "ts": "2026-07-29 05:57 UTC"}

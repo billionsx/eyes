@@ -79,3 +79,152 @@
 {"id": "/documentation/audiotoolbox/bypassedspatialaudio", "law": "Use this if implementing your own spatial audio rendering or designing an experience that should not have spatial audio."}
 {"id": "/documentation/audiotoolbox/generating-spatial-audio-from-a-multichannel-audio-stream", "law": "To generate spatialized audio from a multichannel audio stream, you use a spatial mixer audio unit (AUSM)."}
 {"id": "/documentation/audiotoolbox/generating-spatial-audio-from-a-multichannel-audio-stream", "law": "Use for an object to render the input signal as a single source, except if rendering in-head with ."}
+{"id": "/documentation/audiotoolbox/spatializing-sound-from-a-uiscene", "law": "Placing a sound on a specific requires knowledge of the target scene’s ."}
+{"id": "/documentation/audiotoolbox/spatializing-sound-from-a-uiscene", "law": "Besides just , you can also use types with the other playback APIs listed below."}
+{"id": "/documentation/audiotoolbox/spatializing-sound-from-a-uiscene", "law": "Setting a scene identifier on playback APIs that have video content isn’t always necessary as their sound automatically anchors to its visual counterpart."}
+{"id": "/documentation/audiotoolbox/spatializing-sound-from-a-uiscene", "law": "However, if there is no video or if you prefer something besides the automatic behavior, configure the spatial audio experience of these playback APIs using the property on: Provide unique app experiences by attaching sounds to windows and volumes in 3D space."}
+{"id": "/documentation/audiotoolbox/workgroup-management", "law": "Real-time audio rendering often requires coordination between the threads of an app, the system, and the threads of any active Audio Unit plug-ins."}
+{"id": "/documentation/audiotoolbox/workgroup-management", "law": "Workgroups provide the mechanism to coordinate the efforts of these different processes, and ensure that they execute on the same schedule."}
+{"id": "/documentation/audiotoolbox/workgroup-management", "law": "In an Audio Unit, use a render context observer to retrieve the workgroup that the host app uses for real-time audio rendering."}
+{"id": "/documentation/audiotoolbox/workgroup-management", "law": "Use your custom workgroup to set and update the rendering schedule for your threads."}
+{"id": "/documentation/audiotoolbox/audioconvertercomplexinputdataproc", "law": "The audio converter object requests a minimum number of packets in the parameter."}
+{"id": "/documentation/audiotoolbox/audioconvertercomplexinputdataproc", "law": "If the number you provide is less than the minimum requested, the converter will invoke your callback again in the near future."}
+{"id": "/documentation/audiotoolbox/audioconvertercomplexinputdataproc", "law": "You use a single buffer for interleaved PCM data, or multiple buffers for non-interleaved PCM data."}
+{"id": "/documentation/audiotoolbox/audioconvertercomplexinputdataproc", "law": "If your callback returns an error, it must return zero packets of data."}
+{"id": "/documentation/audiotoolbox/audioconvertercomplexinputdataproc", "law": "You can use this mechanism when an input callback has temporarily run out of data but has not yet reached the end of the input audio stream."}
+{"id": "/documentation/audiotoolbox/audioconverterfillbuffer", "law": "Use the function instead."}
+{"id": "/documentation/audiotoolbox/audioconvertergetproperty(_:_:_:_:)", "law": "If you call this function to retrieve a value that is a Core Foundation object, then this function—despite the use of “Get” in its name—duplicates the object."}
+{"id": "/documentation/audiotoolbox/audioconverternew(_:_:_:)", "law": "For a pair of linear PCM formats, the following conversions are supported: Addition and removal of channels, when the input and output format fields do not match."}
+{"id": "/documentation/audiotoolbox/audioconverternew(_:_:_:)", "law": "Interleaving and deinterleaving, when the input and output format values do not match."}
+{"id": "/documentation/audiotoolbox/audioconverternew(_:_:_:)", "law": "When using a codec, you can use any supported PCM format."}
+{"id": "/documentation/audiotoolbox/audioconverterprimeinfo", "law": "You also indicate to the converter which priming option to use by setting the property."}
+{"id": "/documentation/audiotoolbox/audioconverterprimeinfo", "law": "This option requires no preseeking of the input stream."}
+{"id": "/documentation/audiotoolbox/audioconverterprimeinfo", "law": "This option minimizes output latency, but is appropriate only for formats that do not require priming frames."}
+{"id": "/documentation/audiotoolbox/audioconverterprimeinfo", "law": "This is because your application may be able to provide priming frames by preloading them from disk or memory, avoiding latency while still supporting audio formats that require priming."}
+{"id": "/documentation/audiotoolbox/encoding-and-decoding-audio", "law": "Some audio formats have a magic cookie that the converter requires to decompress audio data."}
+{"id": "/documentation/audiotoolbox/encoding-and-decoding-audio", "law": "If one changes, the other must match."}
+{"id": "/documentation/audiotoolbox/encoding-and-decoding-audio", "law": "If the audio format calls for packet descriptions, they should also be consistent with and ."}
+{"id": "/documentation/audiotoolbox/kaudioconvertererr_hardwareinuse", "law": "On receiving this error, your application must stop calling ."}
+{"id": "/documentation/audiotoolbox/kaudioconvertererr_hardwareinuse", "law": "If the converter cannot resume processing after an interruption, then on interruption you must abandon the conversion, re-instantiate the converter, and perform the conversion again."}
+{"id": "/documentation/audiotoolbox/kaudioconvertererr_nohardwarepermission", "law": "Returned from the function if the new converter would use a hardware codec which the application does not have permission to use."}
+{"id": "/documentation/audiotoolbox/audiofilereadbytes(_:_:_:_:_:)", "law": "In most cases, you should use instead of this function."}
+{"id": "/documentation/audiotoolbox/audiofilereadpackets(_:_:_:_:_:_:_:)", "law": "If you do not need to read a fixed duration of audio data, but rather want to use your memory buffer most efficiently, use instead of this function."}
+{"id": "/documentation/audiotoolbox/audiofilereadpackets(_:_:_:_:_:_:_:)", "law": "When reading variable bit-rate (VBR) audio data, using this function requires that you allocate more memory than you would for the function."}
+{"id": "/documentation/audiotoolbox/audiofilereadpackets(_:_:_:_:_:_:_:)", "law": "In addition, this function is less efficient than when reading compressed file formats that do not have packet tables, such as MP3 or ADTS."}
+{"id": "/documentation/audiotoolbox/audiofilereadpackets(_:_:_:_:_:_:_:)", "law": "Use this function only when you need to read a fixed duration of audio data, or when you are reading only uncompressed audio."}
+{"id": "/documentation/audiotoolbox/audiofilewritebytes(_:_:_:_:_:)", "law": "In most cases, you should use instead of this function."}
+{"id": "/documentation/audiotoolbox/kaudioconverterpropertycalculateinputbuffersize", "law": "On output, it holds the size, in bytes, of the input buffer required to generate that much output data."}
+{"id": "/documentation/audiotoolbox/kaudioconverterpropertycalculateoutputbuffersize", "law": "On output, it holds the size, in bytes, of the output buffer required to hold the output data to be generated."}
+{"id": "/documentation/audiotoolbox/kaudioconverterpropertymaximuminputbuffersize", "law": "If fewer are packets are returned than required, then the input proc is called again."}
+{"id": "/documentation/audiotoolbox/kaudioconverterpropertymaximuminputbuffersize", "law": "If more packets are passed than required, they remain in the client’s buffer and are consumed as needed."}
+{"id": "/documentation/audiotoolbox/audiocomponentinstancegetcomponent(_:)", "law": "Use this function to retrieve a reference to the audio component that was used to instantiate a given audio component instance."}
+{"id": "/documentation/audiotoolbox/1389965-aunbandeq_filter_types", "law": "Use these constants with the parameter."}
+{"id": "/documentation/audiotoolbox/1534092-frequency_response_constants", "law": "The maximum number of frequency response bin structures for the property."}
+{"id": "/documentation/audiotoolbox/1387633-aueventsampletime", "law": "Callers of the and blocks can pass the value to indicate that the event should be rendered as soon as possible (in the next cycle)."}
+{"id": "/documentation/audiotoolbox/audiounitaddpropertylistener(_:_:_:_:)", "law": "To unregister a callback, use the function."}
+{"id": "/documentation/audiotoolbox/audiounitaddrendernotify(_:_:_:)", "law": "To remove a render listener, you must pass both these values to the function."}
+{"id": "/documentation/audiotoolbox/audiounitgetproperty(_:_:_:_:_:_:)", "law": "If you call this function to retrieve a value that is a Core Foundation object, then this function—despite the use of “Get” in its name—duplicates the object."}
+{"id": "/documentation/audiotoolbox/audiounitinitialize(_:)", "law": "During initialization, an audio unit allocates memory according to the maximum number of audio frames it can produce in response to a single render call."}
+{"id": "/documentation/audiotoolbox/audiounitparameteroptions", "law": "Audio unit parameter flags, for use in the data structure , serve as a dictionary-like set of information about an audio unit parameter."}
+{"id": "/documentation/audiotoolbox/audiounitreset(_:_:_:)", "law": "Your application should reset the audio unit before adding it back to the render chain so that it does not produce audio from its delay lines that is no longer valid."}
+{"id": "/documentation/audiotoolbox/audiounitscheduleparameters(_:_:_:)", "law": "Use this function to schedule changes to the value of an audio unit parameter."}
+{"id": "/documentation/audiotoolbox/audiounitsetproperty(_:_:_:_:_:_:)", "law": "Clearing properties works only for those properties that do not have a default value."}
+{"id": "/documentation/audiotoolbox/audiounituninitialize(_:)", "law": "Before you change an initialize audio unit’s processing characteristics, such as its input or output audio data format or its sample rate, you must first uninitialize it."}
+{"id": "/documentation/audiotoolbox/auparameteraddress", "law": "Hosts should bind to parameter key paths instead of parameter addresses."}
+{"id": "/documentation/audiotoolbox/aurenderblock", "law": "All realtime operations are implemented using blocks to avoid Objective-C method dispatching and the possibility of blocking."}
+{"id": "/documentation/audiotoolbox/aurenderblock", "law": "If instead an error is returned, the output data should be assumed to be invalid."}
+{"id": "/documentation/audiotoolbox/aurendercallback", "law": "You can use this callback function with both the audio unit render notification API (see the function) and the render input callback (see the property)."}
+{"id": "/documentation/audiotoolbox/aurendercallback", "law": "As a render operation input callback, it is invoked when an audio unit requires input samples for the input bus that the callback is attached to."}
+{"id": "/documentation/audiotoolbox/aurendercallback", "law": "Called by the system when an audio unit requires input samples, or before and after a render operation."}
+{"id": "/documentation/audiotoolbox/aurenderpullinputblock", "law": "The caller must supply valid buffers in the input data’s and fields ( must be consistent with )."}
+{"id": "/documentation/audiotoolbox/aurenderpullinputblock", "law": "If instead an error is returned, the input data should be assumed to be invalid."}
+{"id": "/documentation/audiotoolbox/auparametertree", "law": "An audio unit may choose to dynamically rearrange the tree; when doing so, it must issue a KVO notification on the audio unit’s property."}
+{"id": "/documentation/audiotoolbox/hosting-audio-unit-extensions-using-the-auv2-api", "law": "This bridging is largely transparent to your app, and you’re only required to make minor changes to how you instantiate components and access their user interfaces."}
+{"id": "/documentation/audiotoolbox/hosting-audio-unit-extensions-using-the-auv2-api", "law": "AUv2 is in maintenance mode, and it’s recommended that you adopt the AUv3 API for new development."}
+{"id": "/documentation/audiotoolbox/hosting-audio-unit-extensions-using-the-auv2-api", "law": "AUv3 extensions that provide a user interface require that you instantiate them asynchronously."}
+{"id": "/documentation/audiotoolbox/hosting-audio-unit-extensions-using-the-auv2-api", "law": "If the component requires asynchronous instantiation, call the function, and pass it the component you want to instantiate, the desired instantiation option (in or out of process), and a completion block that’s called when the instantiation completes."}
+{"id": "/documentation/audiotoolbox/hosting-audio-unit-extensions-using-the-auv2-api", "law": "Don’t block the main thread while waiting for the asynchronous instantiation to complete."}
+{"id": "/documentation/audiotoolbox/hosting-audio-unit-extensions-using-the-auv2-api", "law": "Update your existing Audio Unit v2 host app to load and use Audio Unit extensions."}
+{"id": "/documentation/audiotoolbox/incorporating-audio-effects-and-instruments", "law": "This sample app shows you how to use AU plug-ins in your iOS and macOS apps."}
+{"id": "/documentation/audiotoolbox/incorporating-audio-effects-and-instruments", "law": "You must avoid blocking your application’s main thread when instantiating an Audio Unit."}
+{"id": "/documentation/audiotoolbox/incorporating-audio-effects-and-instruments", "law": "However, the interprocess communication required of this model adds some small but potentially significant overhead."}
+{"id": "/documentation/audiotoolbox/incorporating-audio-effects-and-instruments", "law": "In both platforms, these plug-ins are always run as part of the host app’s process."}
+{"id": "/documentation/audiotoolbox/incorporating-audio-effects-and-instruments", "law": "The view configuration object’s property indicates whether the host app should show its control surface for the view configuration."}
+{"id": "/documentation/audiotoolbox/incorporating-audio-effects-and-instruments", "law": "The host app should respect this setting and update its user interface accordingly."}
+{"id": "/documentation/audiotoolbox/incorporating-audio-effects-and-instruments", "law": "To create a new user preset, first create an instance of and give it a user-defined name and a negative value (user presets require a negative value for this property)."}
+{"id": "/documentation/audiotoolbox/migrating-your-audio-unit-host-to-the-auv3-api", "law": "The framework’s bridging layer enables this capability by automatically translating AUv3 calls into their AUv2 equivalents, which means you can use a single API and work with both new and legacy audio units."}
+{"id": "/documentation/audiotoolbox/migrating-your-audio-unit-host-to-the-auv3-api", "law": "You use it to search for audio units by description, predicate, or test case, and the component manager returns an array of objects matching your search criteria."}
+{"id": "/documentation/audiotoolbox/migrating-your-audio-unit-host-to-the-auv3-api", "law": "The following code example shows how to use each approach to find all audio effects available on the system."}
+{"id": "/documentation/audiotoolbox/migrating-your-audio-unit-host-to-the-auv3-api", "law": "Once you’ve found the list of available audio components, the next step is to instantiate the component you want to use."}
+{"id": "/documentation/audiotoolbox/migrating-your-audio-unit-host-to-the-auv3-api", "law": "To instantiate the audio unit, use the class’s method as shown below."}
+{"id": "/documentation/audiotoolbox/migrating-your-audio-unit-host-to-the-auv3-api", "law": "For example, the following code sets the maximum number of frames to render using the AUv2 API."}
+{"id": "/documentation/audiotoolbox/migrating-your-audio-unit-host-to-the-auv3-api", "law": "Using the AUv3 API, you set the maximum number of frames to render as shown below."}
+{"id": "/documentation/audiotoolbox/auvoiceiootheraudioduckingconfiguration", "law": "Use this structure to specify whether to enable advanced ducking and set the ducking level of other non-voice audio in a voice chat."}
+{"id": "/documentation/audiotoolbox/auvoiceiootheraudioduckingconfiguration", "law": "If you don’t set this value, the default ducking configuration disables advanced ducking and sets the ducking level to ."}
+{"id": "/documentation/audiotoolbox/auvoiceiootheraudioduckingconfiguration", "law": "A structure that you use to configure ducking of other non-voice audio in a voice chat."}
+{"id": "/documentation/audiotoolbox/kauvoiceioproperty_mutedspeechactivityeventlistener", "law": "To use this API, your app must implement mute using the property."}
+{"id": "/documentation/audiotoolbox/kaudiounitsubtype_multichannelmixer", "law": "In iOS, the output bus always has two channels."}
+{"id": "/documentation/AudioToolbox/AUAudioUnit/requestViewController(completionHandler:)", "law": "The custom view controller must be a subclass of ."}
+{"id": "/documentation/audiotoolbox/auaudiounit/allocaterenderresources()", "law": "Hosts must call this before beginning to render."}
+{"id": "/documentation/audiotoolbox/auaudiounit/allocaterenderresources()", "law": "Subclasses should call the superclass implementation."}
+{"id": "/documentation/audiotoolbox/auaudiounit/allocaterenderresources()", "law": "Allocates resources required to render audio."}
+{"id": "/documentation/audiotoolbox/auaudiounit/deallocaterenderresources()", "law": "Hosts should call this after finishing rendering."}
+{"id": "/documentation/audiotoolbox/auaudiounit/deallocaterenderresources()", "law": "Subclasses should call the superclass implementation."}
+{"id": "/documentation/audiotoolbox/auaudiounit/deallocaterenderresources()", "law": "Deallocates resources required to render audio."}
+{"id": "/documentation/audiotoolbox/auaudiounit/fullstate", "law": "Hosts may use this property to save and restore the state of an audio unit being used in a user preset or document."}
+{"id": "/documentation/audiotoolbox/auaudiounit/fullstate", "law": "The audio unit should not persist transitory properties such as stream formats, but should save and restore all other properties."}
+{"id": "/documentation/audiotoolbox/auaudiounit/fullstatefordocument", "law": "Hosts may use this property to save and restore the state of an audio unit being used."}
+{"id": "/documentation/audiotoolbox/auaudiounit/fullstatefordocument", "law": "Subclasses that do not implement this property interface with the property instead."}
+{"id": "/documentation/audiotoolbox/auaudiounit/inputbusses", "law": "Subclasses must override this property’s getter."}
+{"id": "/documentation/audiotoolbox/auaudiounit/inputbusses", "law": "The audio unit should return the same object every time it is asked for it, since hosts can install KVO observers on it."}
+{"id": "/documentation/audiotoolbox/auaudiounit/internalrenderblock", "law": "The block which you must provide, via a getter, in order to implement rendering."}
+{"id": "/documentation/audiotoolbox/auaudiounit/isinputenabled", "law": "If your audio unit desires input audio, this property must be set to and the value of must also be ."}
+{"id": "/documentation/audiotoolbox/auaudiounit/isrenderingoffline", "law": "A host should use this property when using an audio unit in a context where there are no realtime deadlines."}
+{"id": "/documentation/audiotoolbox/auaudiounit/latency", "law": "This should reflect the delay due to signal processing (e.g."}
+{"id": "/documentation/audiotoolbox/auaudiounit/latency", "law": "If an algorithm has a variable latency, it should be adjusted upwards to some fixed latency within the audio unit."}
+{"id": "/documentation/audiotoolbox/auaudiounit/maximumframestorender", "law": "This must be set by the host before render resources are allocated."}
+{"id": "/documentation/audiotoolbox/auaudiounit/maximumframestorender", "law": "The maximum number of frames that the audio unit can render at once."}
+{"id": "/documentation/audiotoolbox/auaudiounit/musicalcontextblock", "law": "An audio unit accessing this property should cache it in realtime-safe storage before beginning to render."}
+{"id": "/documentation/audiotoolbox/auaudiounit/outputbusses", "law": "Subclasses must override this property’s getter."}
+{"id": "/documentation/audiotoolbox/auaudiounit/outputbusses", "law": "The audio unit should return the same object every time it is asked for it, since hosts can install KVO observers on it."}
+{"id": "/documentation/audiotoolbox/auaudiounit/outputprovider", "law": "This block must be set if output is enabled."}
+{"id": "/documentation/audiotoolbox/auaudiounit/parametertree", "law": "Subclasses should implement this property to expose parameters to hosts."}
+{"id": "/documentation/audiotoolbox/auaudiounit/parametertree", "law": "They should then cache as much data as possible and send KVO notifications on this property when altering the structure of the tree or the static information of parameters."}
+{"id": "/documentation/audiotoolbox/auaudiounit/renderblock", "law": "Before invoking an audio unit’s rendering functionality, a host should fetch this block and cache the result."}
+{"id": "/documentation/audiotoolbox/auaudiounit/renderblock", "law": "Subclasses should override their implementation, not this property."}
+{"id": "/documentation/audiotoolbox/auaudiounit/renderblock", "law": "The block that hosts use to ask the audio unit to render audio."}
+{"id": "/documentation/audiotoolbox/auaudiounit/rendercontextobserver", "law": "The block you provide is for system use only."}
+{"id": "/documentation/audiotoolbox/auaudiounit/rendercontextobserver", "law": "Audio Unit hosts must not attempt to interact with the audio unit through this block."}
+{"id": "/documentation/audiotoolbox/auaudiounit/requestviewcontroller(completionhandler:)", "law": "The custom view controller must be a subclass of ."}
+{"id": "/documentation/audiotoolbox/auaudiounit/reset()", "law": "Hosts should call this at the point of a discontinuity in the input stream being provided to an audio unit—for example, when seeking forward or backward within a track."}
+{"id": "/documentation/audiotoolbox/auaudiounit/reset()", "law": "In response, audio units should clear delay lines, filters, etc."}
+{"id": "/documentation/audiotoolbox/auaudiounit/reset()", "law": "Subclasses should call the superclass implementation."}
+{"id": "/documentation/audiotoolbox/auaudiounit/schedulemidieventblock", "law": "As with the render block, a host should fetch this block before beginning to render, if it intends to schedule MIDI events."}
+{"id": "/documentation/audiotoolbox/auaudiounit/schedulemidieventblock", "law": "Subclasses should not override this property."}
+{"id": "/documentation/audiotoolbox/auaudiounit/scheduleparameterblock", "law": "As with the render block, a host should fetch this block before beginning to render, if it intends to schedule parameters."}
+{"id": "/documentation/audiotoolbox/auaudiounit/scheduleparameterblock", "law": "Subclasses should not override this; it is implemented in the base class and will schedule the events to be provided to the implementation This version 3 property is bridged to the version 2 API."}
+{"id": "/documentation/audiotoolbox/auaudiounit/scheduleparameterblock", "law": "The block that hosts use to schedule parameters."}
+{"id": "/documentation/audiotoolbox/auaudiounit/setrenderresourcesallocated(_:)", "law": "If the method fails in a subclass, you must use this method to set the value of the property to ."}
+{"id": "/documentation/audiotoolbox/auaudiounit/shouldbypasseffect", "law": "Determines whether an effect should route input directly to output, without any processing."}
+{"id": "/documentation/audiotoolbox/auaudiounit/tailtime", "law": "This should also reflect the duration of an effect (e.g."}
+{"id": "/documentation/audiotoolbox/auaudiounit/token(byaddingrenderobserver:)", "law": "It should not make any blocking calls."}
+{"id": "/documentation/audiotoolbox/auaudiounit/token(byaddingrenderobserver:)", "law": "This method is implemented in the base class and should not be overridden."}
+{"id": "/documentation/audiotoolbox/auaudiounit/transportstateblock", "law": "An audio unit accessing this property should cache it in realtime-safe storage before beginning to render."}
+{"id": "/documentation/audiotoolbox/auinternalrenderblock", "law": "This block is implemented in subclasses and should not be used by hosts."}
+{"id": "/documentation/audiotoolbox/auinternalrenderblock", "law": "If instead an error is returned, the output data should be assumed to be invalid."}
+{"id": "/documentation/audiotoolbox/aurendercontextobserver", "law": "Use the implementation of your block to prepare your Audio Unit’s rendering threads."}
+{"id": "/documentation/audiotoolbox/aurendercontextobserver", "law": "For example, use this block to remove the thread from its previous workgroup and join the new workgroup in the structure passed to the block."}
+{"id": "/documentation/audiotoolbox/aurendercontextobserver", "law": "A custom block that tells the audio unit which thread context to use for the next render cycle."}
+{"id": "/documentation/audiotoolbox/auaudiounitbus/contextpresentationlatency", "law": "A host should set this property on each active bus, since, for example, the audio routing path to each of multiple output busses may differ."}
+{"id": "/documentation/audiotoolbox/auaudiounitbus/isenabled", "law": "Hosts must enable input busses before using them."}
+{"id": "/documentation/audiotoolbox/auaudiounitbus/isenabled", "law": "This allows an audio unit to be prepared to render a large number of inputs, but avoid the work of preparing to pull inputs which are not in use."}
+{"id": "/documentation/audiotoolbox/auaudiounitbus/maximumchannelcount", "law": "The maximum number of channels supported for this bus."}
+{"id": "/documentation/audiotoolbox/auaudiounitfactory/createaudiounit(with:)", "law": "In this scenario, you should return an object with a reference count of 1, but autoreleased."}
+{"id": "/documentation/audiotoolbox/audiocomponentdescription/componentsubtype", "law": "A 4-byte code that you can use to indicate the purpose of a component."}
+{"id": "/documentation/audiotoolbox/audiocomponentdescription/componentsubtype", "law": "For example, you could use or as a mnemonic indication that an audio unit is a low-pass filter."}
+{"id": "/documentation/audiotoolbox/auheadtrackingbinauralrenderer/deviceuid", "law": "The Audio Unit should monitor this property to detect when the host matches the Audio Unit with Bluetooth headphones."}
+{"id": "/documentation/audiotoolbox/auheadtrackingbinauralrenderer/isdisabled", "law": "When NO, the Audio Unit receives input and must render audio when it is matched a Bluetooth headphone device."}
+{"id": "/documentation/audiotoolbox/auheadtrackingbinauralrenderer/isdisabled", "law": "The Audio Unit should monitor this property to detect when the host disables the Audio Unit."}
+{"id": "/documentation/audiotoolbox/auheadtrackingbinauralrenderer/isheadtracking", "law": "When YES, the spatial Audio Unit should use head tracking data to adjust spatialization."}
+{"id": "/documentation/audiotoolbox/auheadtrackingbinauralrenderer/isheadtracking", "law": "The Audio Unit should monitor this property to detect changes in head tracking state."}
+{"id": "/documentation/audiotoolbox/kaudiounittype_offlineeffect", "law": "For example, level normalization requires examination of an entire sound, beginning to end, before the normalization factor can be calculated."}

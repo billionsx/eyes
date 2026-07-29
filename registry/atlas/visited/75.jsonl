@@ -61,3 +61,6 @@
 {"id": "/documentation/appkit/nstextview/toggleautomaticlinkdetection(_:)", "sha": "9b794b08d27f05606ee75dc9c9d0e7f7847c84d96555de942c01cb138715a8ae", "t": "toggleAutomaticLinkDetection(_:)", "n": 227, "laws": 0, "ts": "2026-07-28 05:55 UTC"}
 {"id": "/documentation/audiodriverkit/audiodriverkit/iouseraudioclassid", "sha": "41d79d84b44f0e73aa719531bb475c5f70842837c08f45a5e137ea8ee18a8eb3", "t": "IOUserAudioClassID", "n": 719, "laws": 0, "ts": "2026-07-28 19:05 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudiostream/free", "sha": "a50668e7d5cb6cdfc11c11293bc807ab8d51ccd616486c5eb3b70501d4744f39", "t": "free", "n": 23, "laws": 0, "ts": "2026-07-28 19:07 UTC"}
+{"id": "/documentation/audiotoolbox/audiounitresetproc", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AudioUnitResetProc", "n": 0, "laws": 0, "ts": "2026-07-29 05:44 UTC"}
+{"id": "/documentation/automaticassessmentconfiguration/aeassessmentconfiguration/remove(_:)", "sha": "128884b974668aabc85f553165334f42c84fee2b1d49d550cc3c2329160eac28", "t": "remove(_:)", "n": 291, "laws": 1, "ts": "2026-07-29 05:56 UTC"}
+{"id": "/documentation/carplay/cpsessionconfiguration", "sha": "6ec29a600decd9062d5082655b18b589281e5aec4a3f74ed6c2d0fdf5aa0cb4a", "t": "CPSessionConfiguration", "n": 611, "laws": 1, "ts": "2026-07-29 06:04 UTC"}

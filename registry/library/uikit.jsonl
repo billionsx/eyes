@@ -1789,3 +1789,109 @@
 {"id": "/documentation/UIKit/UIDevice", "law": "Similarly, you can use the instance to obtain information and notifications about changes to the battery’s charge state (described by the property) and charge level (described by the property)."}
 {"id": "/documentation/UIKit/UIDevice", "law": "You can also use the instance method to play keyboard input clicks in custom input and keyboard accessory views."}
 {"id": "/documentation/UIKit/handling-key-presses-made-on-a-physical-keyboard", "law": "Use to determine the text value of the key, and whether the responder should handle the key press or not."}
+{"id": "/documentation/UIKit/UIAppearanceContainer", "law": "Appearance property accessor methods must be of the form: You may have no axes or as many as you like for any property."}
+{"id": "/documentation/UIKit/UIAppearanceContainer", "law": "Axis parameter values must be either or ."}
+{"id": "/documentation/UIKit/UIAppearanceContainer", "law": "For example, defines these methods: A protocol that a class must adopt to allow appearance customization using the API."}
+{"id": "/documentation/UIKit/UIContentContainer", "law": "For example, you might use these methods to adjust the size or position of any child view controllers."}
+{"id": "/documentation/UIKit/UIStateRestoring", "law": "When adopting this protocol in your custom objects, you must also remember to register those objects using the method of the class."}
+{"id": "/documentation/UIKit/UIStateRestoring", "law": "You don’t need to register views or view controllers explicitly because UIKit registers those objects automatically."}
+{"id": "/documentation/UIKit/UITraitChangeObservable-67e94", "law": "Keep your trait registrations focused, and avoid doing work not directly relevant to updated traits."}
+{"id": "/documentation/UIKit/UITraitChangeObservable-67e94", "law": "Traits may change more than once before the system updates a view, so avoid expensive work in response to trait changes."}
+{"id": "/documentation/UIKit/UITraitChangeObservable-67e94", "law": "For example, use the trait change notification to call , and update your view in ."}
+{"id": "/documentation/UIKit/UIAccessibilityIdentification", "law": "You can use the identifiers you define in UI Automation scripts because the value of corresponds to the return value of the name method of ."}
+{"id": "/documentation/UIKit/UIAppearance", "law": "To customize the appearance of all instances of a class, use to get the appearance proxy for the class."}
+{"id": "/documentation/UIKit/UIAppearance", "law": "For example, to modify the bar background tint color for all instances of : To customize the appearances for instances of a class when contained within an instance of a container class, or instances in a hierarchy, use to get the appearance proxy for the class."}
+{"id": "/documentation/UIKit/UIAppearance", "law": "Use the and methods to retrieve the proxy for a class with the specified trait collection."}
+{"id": "/documentation/UIKit/UIAppearance", "law": "To support appearance customization, a class must conform to the protocol and relevant accessor methods must be marked with ."}
+{"id": "/documentation/UIKit/UIContextMenuInteractionDelegate", "law": "Use this protocol to provide UIKit with the contextual menu that you want to display."}
+{"id": "/documentation/UIKit/UIContextMenuInteractionDelegate", "law": "You use that method to specify the basic configuration details for your interface."}
+{"id": "/documentation/UIKit/UIControl", "law": "Controls implement elements such as buttons and sliders, which your app can use to facilitate navigation, gather user input, or manipulate content."}
+{"id": "/documentation/UIKit/UIControl", "law": "Controls use the target-action mechanism to report user interactions to your app."}
+{"id": "/documentation/UIKit/UIControl", "law": "You don’t create instances of this class directly."}
+{"id": "/documentation/UIKit/UIControl", "law": "The target-action mechanism simplifies the code that you write to use controls in your app."}
+{"id": "/documentation/UIKit/UIControl", "law": "When configuring a control, you must specify which events trigger the calling of your method."}
+{"id": "/documentation/UIKit/UIControl", "law": "For a button control, you might use the or event to trigger calls to your action method."}
+{"id": "/documentation/UIKit/UIControl", "law": "Because is an abstract class, you don’t internationalize it specifically."}
+{"id": "/documentation/UIKit/UIControl", "law": "To be useful, an accessible user interface element must provide accurate and helpful information about its screen position, name, behavior, value, and type."}
+{"id": "/documentation/UIKit/UIControl", "law": "Users who are blind or have low vision can rely on VoiceOver to help them use their devices."}
+{"id": "/documentation/UIKit/UIControl", "law": "For example, you might use a combination of the Keyboard Key and the Selected traits to describe an element that behaves like a keyboard key and that’s in a selected state."}
+{"id": "/documentation/UIKit/UICoordinateSpace", "law": "Instead, window and screen coordinates change to match the app’s interface orientation, which typically (but not always) matches the current device orientation."}
+{"id": "/documentation/UIKit/UICoordinateSpace", "law": "In cases where you still need a fixed frame of reference — for example, because you need to store the location of a touch event or onscreen item persistently — you can use the methods of this protocol to convert coordinate values to the fixed coordinate space provided by the object."}
+{"id": "/documentation/UIKit/UICoordinateSpace", "law": "To convert a point from a view’s current coordinate space to the screen’s fixed coordinate space, use code similar to the following: When implementing the methods of this protocol, you must convert coordinate values to or from your local coordinate space."}
+{"id": "/documentation/UIKit/UICoordinateSpace", "law": "When performing such conversions, use the screen coordinate space as an intermediate coordinate space, converting to screen coordinates before converting to the target coordinate space."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:shouldAllowExtensionPointIdentifier:)", "law": "to disallow use of a specified app extension type, or to allow use of the type."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:shouldAllowExtensionPointIdentifier:)", "law": "You can implement this method to reject a specified type of app extension, based on its extension point identifier, from use in your app."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:shouldAllowExtensionPointIdentifier:)", "law": "If you do not implement this method, all app extension types are available for use in your app."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:shouldAllowExtensionPointIdentifier:)", "law": "Asks the delegate to grant permission to use app extensions that are based on a specified extension point identifier."}
+{"id": "/documentation/UIKit/UIMenu/Identifier-swift.struct", "law": "Use these constants to identify objects containing standard configurations."}
+{"id": "/documentation/UIKit/UIMenu/Identifier-swift.struct", "law": "Constants you use to identify an app’s standard menus."}
+{"id": "/documentation/UIKit/UIResponder/buildMenu(with:)", "law": "Use the builder to add and remove objects such as , , and from your app’s menu bar or context menus."}
+{"id": "/documentation/uikit/about-the-app-launch-sequence", "law": "The following illustrates the individual steps of this launch sequence, from when the user or system launches your app to when the sequence completes: The system executes the function that Xcode provides in an Objective-C project, or that’s available when you use in a Swift project."}
+{"id": "/documentation/uikit/about-the-app-launch-sequence", "law": "For tasks that aren’t specific to a scene, such as setting up a database layer or configuring app-wide services, use your app delegate’s or methods."}
+{"id": "/documentation/uikit/about-the-app-launch-sequence", "law": "Use to accurately measure user-driven launch and resume times and identify opportunities for optimization."}
+{"id": "/documentation/uikit/extending-your-app-s-background-execution-time", "law": "For tasks that require more background time, use ."}
+{"id": "/documentation/uikit/extending-your-app-s-background-execution-time", "law": "(You can find out the maximum background time available using the property.) When you finish your tasks, call the method right away to let the system know that you’re done."}
+{"id": "/documentation/uikit/extending-your-app-s-background-execution-time", "law": "If you don’t end your tasks in a timely manner, the system terminates your app."}
+{"id": "/documentation/uikit/extending-your-app-s-background-execution-time", "law": "Don’t wait until your app moves to the background to call the method."}
+{"id": "/documentation/uikit/extending-your-app-s-background-execution-time", "law": "The method returns an identifier that you must save and pass to the method."}
+{"id": "/documentation/uikit/extending-your-app-s-background-execution-time", "law": "Ensure that critical tasks finish when your app moves to the background."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "When your app is in the background, it should do as little as possible, and preferably nothing."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "If your app was previously in the foreground, use the background transition to stop tasks and release any shared resources."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "You can support both types of delegate objects, but UIKit always uses scene delegate objects when they’re available."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "Use deactivation to preserve the user’s data and put your app in a quiet state by pausing all major work; specifically: Save user data to disk and close any open files."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "Don’t schedule any new tasks for execution."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "Don’t commit any new Metal work to be processed."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "Don’t commit any new OpenGL commands."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "Even if your app wasn’t in the foreground, perform checks to ensure that it consumes as few resources as possible."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "Ensure that all Metal command buffers have been scheduled."}
+{"id": "/documentation/uikit/preparing-your-ui-to-run-in-the-background", "law": "Ensure that all OpenGL commands you previously submitted have finished."}
+{"id": "/documentation/uikit/uiapplication/setminimumbackgroundfetchinterval(_:)", "law": "This property has no effect for apps that do not have the key with the value in its file."}
+{"id": "/documentation/uikit/uiapplication/setminimumbackgroundfetchinterval(_:)", "law": "Therefore, you must call this method and set a fetch interval before your app is given background execution time."}
+{"id": "/documentation/uikit/uiapplication/setminimumbackgroundfetchinterval(_:)", "law": "Specifies the minimum amount of time that must elapse between background fetch operations."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:performfetchwithcompletionhandler:)", "law": "Your implementation of this method should download the data, prepare that data for use, and call the block in the parameter."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:performfetchwithcompletionhandler:)", "law": "In practice, your app should call the completion handler block as soon as possible after downloading the needed data."}
+{"id": "/documentation/uikit/uiapplicationdelegate/application(_:performfetchwithcompletionhandler:)", "law": "If you do not call the completion handler in time, your app is terminated."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "You must pass this value to the method to mark the end of this task."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "For background tasks requiring more time, use ."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "For example, don’t call this method at the very end of your method and expect your app to continue running."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "Each call to this method must be balanced by a matching call to the method."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "(You can find out the maximum background time available using the property.) If you don’t call for each task before time expires, the system kills the app."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "However, each task must be ended separately."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "To extend the execution time of an app extension, use the method of instead."}
+{"id": "/documentation/UIKit/UIApplication/beginBackgroundTask(withName:expirationHandler:)", "law": "Marks the start of a task with a custom name that should continue if the app enters the background."}
+{"id": "/documentation/UIKit/UIApplication/endBackgroundTask(_:)", "law": "You must call this method to end a task that was started using the method."}
+{"id": "/documentation/UIKit/UIApplication/endBackgroundTask(_:)", "law": "If you do not, the system may terminate your app."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:didReceiveRemoteNotification:fetchCompletionHandler:)", "law": "Use this method to process incoming remote notifications for your app."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:didReceiveRemoteNotification:fetchCompletionHandler:)", "law": "In that situation, the user must relaunch your app or restart the device before the system attempts to launch your app automatically again."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:didReceiveRemoteNotification:fetchCompletionHandler:)", "law": "As soon as you finish processing the notification, you must call the block in the parameter or your app will be terminated."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:didReceiveRemoteNotification:fetchCompletionHandler:)", "law": "In practice, you should call the handler block as soon as you are done processing the notification."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:didReceiveRemoteNotification:fetchCompletionHandler:)", "law": "Apps that use significant amounts of power when processing remote notifications may not always be woken up early to process future notifications."}
+{"id": "/documentation/UIKit/UIApplication/canOpenURL(_:)", "law": "If you link your app on or after iOS 9.0, you must declare the URL schemes you pass to this method by adding the key to your app’s file."}
+{"id": "/documentation/UIKit/UIApplication/canOpenURL(_:)", "law": "This method always returns for undeclared schemes, even if the device doesn’t have a registered app installed."}
+{"id": "/documentation/UIKit/UIApplication/canOpenURL(_:)", "law": "Apps linked on or after iOS 15 are limited to a maximum of 50 entries in the key."}
+{"id": "/documentation/UIKit/UIApplication/canOpenURL(_:)", "law": "Apps linked on or after iOS 27 are limited to a maximum of 25 entries in the key."}
+{"id": "/documentation/UIKit/UIApplication/canOpenURL(_:)", "law": "After reaching that limit, subsequent calls always return ."}
+{"id": "/documentation/UIKit/UIApplication/canOpenURL(_:)", "law": "Using universal links instead of custom URL schemes removes the need to use this method to validate target links; if no app is available to handle a universal link, iOS routes it to the person’s default browser, allowing the associated website to respond."}
+{"id": "/documentation/UIKit/UITextInput", "law": "The range of marked text always contains a range of selected text, which might be a range of characters or the caret."}
+{"id": "/documentation/UIKit/UITextInput", "law": "You can use an object of the class to obtain a string that represents a phrase the user dictates."}
+{"id": "/documentation/UIKit/UIWebView", "law": "In apps that run in iOS 8 and later, use the class instead of using ."}
+{"id": "/documentation/UIKit/UIWebView", "law": "An iOS app linked on or after iOS 10.0 must include in its file the usage description keys for the types of data it needs to access or it will crash."}
+{"id": "/documentation/UIKit/UIWebView", "law": "To access a user’s photo data specifically, it must include and ."}
+{"id": "/documentation/UIKit/UIWebView", "law": "Use the method to begin loading local HTML files or the method to begin loading web content."}
+{"id": "/documentation/UIKit/UIWebView", "law": "Use the method to stop loading, and the property to find out if a web view is in the process of loading."}
+{"id": "/documentation/UIKit/UIWebView", "law": "If you allow the user to move back and forward through the webpage history, then you can use the and methods as actions for buttons."}
+{"id": "/documentation/UIKit/UIWebView", "law": "Use the and properties to disable the buttons when the user can’t move in a direction."}
+{"id": "/documentation/UIKit/UIWebView", "law": "You can also use the property to programmatically set the scale of web content the first time it’s displayed in a web view."}
+{"id": "/documentation/UIKit/UIWebView", "law": "For the best rendering of plain and rich text in your app, however, you should use instead."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:configurationForConnecting:options:)", "law": "Implement this method if you don’t include scene-configuration data in your app’s file, or if you want to alter the scene configuration data dynamically."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:configurationForConnecting:options:)", "law": "In your implementation, return a object with the scene details, including the type of scene to create, the delegate object you use to manage the scene, and the storyboard containing the initial view controller to display."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:configurationForConnecting:options:)", "law": "If you don’t implement this method, you must provide scene-configuration data in your app’s file."}
+{"id": "/documentation/UIKit/UIApplicationDelegate/application(_:configurationForConnecting:options:)", "law": "Retrieves the configuration data for UIKit to use when creating a new scene."}
+{"id": "/documentation/UIKit/UIScene", "law": "Typically, UIKit creates a object instead of a object, but you use the methods and properties of this class to access information about a scene."}
+{"id": "/documentation/UIKit/UIScene", "law": "Use the delegate object and notifications to respond to changes in the state of the scene."}
+{"id": "/documentation/UIKit/UIScene", "law": "For example, use it to determine when your scene moves to the background."}
+{"id": "/documentation/UIKit/UIScene", "law": "You don’t create scene objects directly."}
+{"id": "/documentation/UIKit/UISceneDelegate", "law": "Use your object to manage life-cycle events in one instance of your app’s user interface."}
+{"id": "/documentation/UIKit/UISceneDelegate", "law": "Use your delegate to provide appropriate behavior when these transitions occur."}
+{"id": "/documentation/UIKit/UISceneDelegate", "law": "Don’t create objects directly."}
+{"id": "/documentation/UIKit/UISceneDelegate", "law": "The core methods you use to respond to life-cycle events occurring within a scene."}

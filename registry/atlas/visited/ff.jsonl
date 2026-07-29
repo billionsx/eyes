@@ -59,3 +59,6 @@
 {"id": "/documentation/appstoreconnectapi/app-info-localizations", "sha": "987f651616a874fec440040a5083122e4f8cd6a93d39cea1deb74b278e71981b", "t": "App Info Localizations", "n": 1158, "laws": 0, "ts": "2026-07-28 18:55 UTC"}
 {"id": "/documentation/appstoreconnectapi/apppreviewset", "sha": "723c402c5e40b3864927b47b72c090828f5ed5c30d862d61358d40f45e8090d1", "t": "AppPreviewSet", "n": 129, "laws": 0, "ts": "2026-07-28 18:55 UTC"}
 {"id": "/documentation/audiotoolbox/auaudioframecount", "sha": "8b06180fc0a1db440350f0c885b62128626eed9cabb8715a85394757e23929d5", "t": "AUAudioFrameCount", "n": 208, "laws": 1, "ts": "2026-07-28 19:03 UTC"}
+{"id": "/documentation/backgroundassets/badownload/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-29 05:58 UTC"}
+{"id": "/documentation/browserenginekit/protecting-code-compiled-just-in-time", "sha": "561c1ddd9807336b884ae53b3d2acc6bac626c713c384af28bb22ed14ef1b128", "t": "Protecting code compiled just in time", "n": 3642, "laws": 10, "ts": "2026-07-29 06:00 UTC"}
+{"id": "/documentation/carplay/cpgridtemplate/title", "sha": "5335a12dbab8de75ce6e749401a0e2fd980c61bfde23669c81abb9f152c081aa", "t": "title", "n": 54, "laws": 0, "ts": "2026-07-29 06:07 UTC"}

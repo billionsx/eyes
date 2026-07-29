@@ -2,3 +2,13 @@
 {"id": "/documentation/SigninwithAppleRESTAPI/Generate-and-validate-tokens", "law": "Use this endpoint to either authorize a user by validating the authorization code received by your app, or by validating an existing refresh token to verify a user session or obtain access tokens."}
 {"id": "/documentation/SigninwithAppleRESTAPI/Generate-and-validate-tokens", "law": "The following is an example authorization validation response: Use the refresh token to verify the user session from the server and obtain access tokens."}
 {"id": "/documentation/SigninwithAppleRESTAPI/Generate-and-validate-tokens", "law": "When performing a validation request, you must include the following form data parameters: The following is an example validation request URL using : After the server validates the refresh token, the endpoint returns the identity token and an access token."}
+{"id": "/documentation/signinwithapplerestapi", "law": "Use this service to generate and validate the identity tokens used to verify a user’s identity."}
+{"id": "/documentation/signinwithapplerestapi", "law": "To sign in from a web app or other platform, like Android, use ."}
+{"id": "/documentation/signinwithapplerestapi", "law": "Alternatively, to let users set up accounts and sign in to your native iOS, macOS, tvOS, and watchOS apps, use the framework."}
+{"id": "/documentation/signinwithapplerestapi/get-a-sign-in-with-apple-button-that-contains-just-the-apple-logo.", "law": "Use this file to customize and embed your button of choice in your application or service."}
+{"id": "/documentation/signinwithapplerestapi/get-a-sign-in-with-apple-button-that-is-center-aligned.", "law": "Use this file to customize and embed your button of choice in your application or service."}
+{"id": "/documentation/signinwithapplerestapi/get-a-sign-in-with-apple-button-that-is-left-aligned.", "law": "The minimum and maximum values are 30 and 64, respectively."}
+{"id": "/documentation/signinwithapplerestapi/get-a-sign-in-with-apple-button-that-is-left-aligned.", "law": "The label auto-adjusts to fit the recommended margins."}
+{"id": "/documentation/signinwithapplerestapi/get-a-sign-in-with-apple-button-that-is-left-aligned.", "law": "The logo auto-adjusts to fit the recommended margins."}
+{"id": "/documentation/signinwithapplerestapi/get-a-sign-in-with-apple-button-that-is-left-aligned.", "law": "The minimum and maximum values are 130 and 375, respectively."}
+{"id": "/documentation/signinwithapplerestapi/get-a-sign-in-with-apple-button-that-is-left-aligned.", "law": "Use this file to customize and embed your button of choice in your application or service."}

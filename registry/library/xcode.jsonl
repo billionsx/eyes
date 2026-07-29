@@ -577,3 +577,15 @@
 {"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "When you use automatic signing, Xcode automatically updates the provisioning profile when you export the app."}
 {"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "To use manual signing, sign in to your developer account, select Certificates, Identifiers, and Profiles, then select Profiles."}
 {"id": "/documentation/Xcode/distributing-your-app-to-registered-devices", "law": "To manually sign your app, select a profile to use from the Provisioning Profile dropdown menu."}
+{"id": "/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content", "law": "Use universal links to link directly to content within your app and share data securely."}
+{"id": "/documentation/xcode/projects-and-workspaces", "law": "Manage the code and resources you use to build apps, libraries, and other software for Apple platforms."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "While custom URL schemes are an acceptable form of deep linking, universal links are strongly recommended."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "URL schemes offer a potential attack vector into your app, so make sure to validate all URL parameters and discard any malformed URLs."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "In addition, limit the available actions to those that don’t risk the user’s data."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "For example, don’t allow other apps to directly delete content or access sensitive information about the user."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "When testing your URL-handling code, make sure your test cases include improperly formatted URLs."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "URLs must start with your custom scheme name."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "In the URL Schemes box, specify the prefix you use for your URLs."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "To ensure uniqueness, specify a reverse DNS string that incorporates your company’s domain and app name."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "Use universal links instead of custom URL schemes to define links that are uniquely associated with your website."}
+{"id": "/documentation/Xcode/defining-a-custom-url-scheme-for-your-app", "law": "Some URL schemes are reserved for system use."}

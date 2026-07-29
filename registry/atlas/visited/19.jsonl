@@ -56,3 +56,8 @@
 {"id": "/documentation/foundation/nscoder/encoderootobject(_:)", "sha": "ff3df6a83730a6c21454d18ad38f19628e03556d6c217e38f5b3c9972606d417", "t": "encodeRootObject(_:)", "n": 233, "laws": 1, "ts": "2026-07-28 18:44 UTC"}
 {"id": "/documentation/appkit/nstableview/frameofcell(atcolumn:row:)", "sha": "620cd0800c0dfb303c491ab4aee969b2c53a4f81c9f5c6045ccc6d8789931443", "t": "frameOfCell(atColumn:row:)", "n": 884, "laws": 2, "ts": "2026-07-28 18:52 UTC"}
 {"id": "/documentation/driverkit/osaction/willwait", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "WillWait", "n": 0, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
+{"id": "/documentation/audiotoolbox/1534109-aunetreceive-properties", "sha": "938889f3e998d5c84b7e0adc1ab4fa9a6db04f9bd61e372c2072afc97a5c0fd5", "t": "AUNetReceive Properties", "n": 76, "laws": 0, "ts": "2026-07-29 05:42 UTC"}
+{"id": "/documentation/audiotoolbox/audiounit", "sha": "9d4e86faedf615bf6900a209b81d29500199379f36b52ec0c1941ae82bebeb84", "t": "AudioUnit", "n": 250, "laws": 0, "ts": "2026-07-29 05:43 UTC"}
+{"id": "/documentation/audiotoolbox/auparameterlistenerref", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AUParameterListenerRef", "n": 0, "laws": 0, "ts": "2026-07-29 05:45 UTC"}
+{"id": "/documentation/audiotoolbox/kaudiounittype_musiceffect", "sha": "6005589055b443faeee45162f55d2250c031ead71e7ef02cdf76956731c7e0ba", "t": "kAudioUnitType_MusicEffect", "n": 151, "laws": 0, "ts": "2026-07-29 05:51 UTC"}
+{"id": "/documentation/carplay/cplanestatus", "sha": "140b7e59da144220842e033c1113717535198cedfb2cb91539a5eeb596bea6eb", "t": "CPLaneStatus", "n": 174, "laws": 0, "ts": "2026-07-29 06:06 UTC"}

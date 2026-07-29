@@ -47,3 +47,5 @@
 {"id": "/documentation/appkit/nscollectionview/register(_:foritemwithidentifier:)-90h1i", "sha": "19f77991669b5176b8f49c01d94f90a11a475a04ee86c84716a48e9033f360f8", "t": "register(_:forItemWithIdentifier:)", "n": 760, "laws": 5, "ts": "2026-07-28 18:47 UTC"}
 {"id": "/documentation/appstoreconnectapi/buildswithoutincludesresponse", "sha": "41580878f754c172265cf88afbf2b2a2e23cda62661d674d716785347f565c1a", "t": "BuildsWithoutIncludesResponse", "n": 66, "laws": 0, "ts": "2026-07-28 18:55 UTC"}
 {"id": "/documentation/audiodriverkit/iouseraudiodevice/create", "sha": "bbf42687ca4366d9f9672f1f2cb4aba1175ca623849a6114c71494579c3ed688", "t": "Create", "n": 263, "laws": 1, "ts": "2026-07-28 19:06 UTC"}
+{"id": "/documentation/backgroundassets/assetpackmanifest", "sha": "928ea63a3b4a2583fdf9b1c5402c99d5c8d96082dccda9122f86da60edf9e09e", "t": "AssetPackManifest", "n": 479, "laws": 0, "ts": "2026-07-29 05:57 UTC"}
+{"id": "/documentation/PhotosUI/PHPickerViewController", "sha": "73b200d4b55333112df635d185f24e7d818e0a35f90711879efe4a678025319e", "t": "PHPickerViewController", "n": 1588, "laws": 1, "ts": "2026-07-29 06:00 UTC"}

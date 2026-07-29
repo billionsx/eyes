@@ -68,3 +68,7 @@
 {"id": "/documentation/appkit/nspasteboard/detectpatternsforpatterns:completionhandler:", "sha": "53830912eec35665faded9375db5886df354715a52e817cc88c957ff2630fb04", "t": "detectPatternsForPatterns:completionHandler:", "n": 521, "laws": 1, "ts": "2026-07-28 18:49 UTC"}
 {"id": "/documentation/appkit/nstableview/init(frame:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(frame:)", "n": 0, "laws": 0, "ts": "2026-07-28 18:52 UTC"}
 {"id": "/documentation/appstoreconnectapi/get-v1-apps-_id_", "sha": "4f43f7729bd6212c2259a65ad364bc20221960cfd0ddf1b9e34226c95e2a2356", "t": "Read app information", "n": 1166, "laws": 0, "ts": "2026-07-28 18:54 UTC"}
+{"id": "/documentation/audiotoolbox/kaudioconverterpropertychannelmixmap", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "kAudioConverterPropertyChannelMixMap", "n": 0, "laws": 0, "ts": "2026-07-29 05:38 UTC"}
+{"id": "/documentation/audiotoolbox/auaudiounit/deviceoutputlatency", "sha": "056b6541144791d96e9a459c3fd21cedc01d73057eacdfbb086ff568c6369564", "t": "deviceOutputLatency", "n": 45, "laws": 0, "ts": "2026-07-29 05:48 UTC"}
+{"id": "/documentation/carplay/cplisttemplate/sections", "sha": "ac7653f3be4315dde86809d44b7bb5be2c4a286e247517f60c9e4e0d0a886b3e", "t": "sections", "n": 176, "laws": 1, "ts": "2026-07-29 06:04 UTC"}
+{"id": "/documentation/carplay/cpmaptemplate/hidetrippreviews()", "sha": "f2b3536f993462b710ff064ab54957da36ee30819a0b516f2f445ac512d97b82", "t": "hideTripPreviews()", "n": 35, "laws": 0, "ts": "2026-07-29 06:08 UTC"}

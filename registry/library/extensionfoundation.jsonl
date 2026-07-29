@@ -1,3 +1,11 @@
 {"id": "/documentation/ExtensionFoundation", "law": "To build app extensions for system features, you typically use a different framework or a dedicated set of types instead of this framework."}
 {"id": "/documentation/ExtensionFoundation", "law": "Host apps use the framework to find and launch available app extensions."}
 {"id": "/documentation/ExtensionFoundation", "law": "App extensions use this framework to communicate with the host app and support non-UI features."}
+{"id": "/documentation/ExtensionFoundation/AppExtension", "law": "This type provides the entry point for an app extension, and every app extension must have a concrete type that adopts it."}
+{"id": "/documentation/ExtensionFoundation/AppExtension", "law": "The protocol provides default implementations of the code required to run the app extension."}
+{"id": "/documentation/ExtensionFoundation/AppExtension", "law": "An interface you use to declare the content, structure, and behavior of an app extension."}
+{"id": "/documentation/ExtensionFoundation/AppExtensionConfiguration", "law": "Adopt this protocol in a custom type, and use that type to finalize the XPC connection to the host app."}
+{"id": "/documentation/ExtensionFoundation/AppExtensionConfiguration", "law": "Use your code to provide the host with the information it needs to communicate with your app extension."}
+{"id": "/documentation/ExtensionFoundation/AppExtensionConfiguration", "law": "This protocol supports app extensions that don’t offer any custom UI."}
+{"id": "/documentation/ExtensionFoundation/AppExtensionConfiguration", "law": "If your app extension provides custom UI, instead use the type from ."}
+{"id": "/documentation/ExtensionFoundation/AppExtensionConfiguration", "law": "An interface you use to configure the XPC connection in your app extension."}

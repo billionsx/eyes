@@ -66,3 +66,5 @@
 {"id": "/documentation/uikit/uititlebar", "sha": "4c6ae214af5cabcae4f44cc9d3a9740eca8c9c5d850d3876b87baeae39a27b6b", "t": "UITitlebar", "n": 880, "laws": 2, "ts": "2026-07-28 18:58 UTC"}
 {"id": "/documentation/SerialDriverKit/IOUserSerial/Stop", "sha": "7295c5cfd7f0a3ddff76ca52c58b409fa1148636acbab063868ea65aaf37c14f", "t": "Stop", "n": 461, "laws": 1, "ts": "2026-07-28 19:04 UTC"}
 {"id": "/documentation/driverkit/osactioncancelhandler", "sha": "dfa2a2fbe2f2b9f08022f1136d4335e0dba48f03dc7a4f027e3c8f7651a85a22", "t": "OSActionCancelHandler", "n": 66, "laws": 0, "ts": "2026-07-28 19:04 UTC"}
+{"id": "/documentation/automaticassessmentconfiguration/aeassessmentconfiguration/requiressingleuser", "sha": "9e5af92256b274d4653376909f7c9c4a30b4a93725a66ff7bfd1f617ec86e75d", "t": "requiresSingleUser", "n": 277, "laws": 1, "ts": "2026-07-29 05:56 UTC"}
+{"id": "/documentation/carplay/cpmaptemplatedelegate/maptemplate(_:didendzoomgesturewithvelocity:)", "sha": "59f3ac433874f677e65fc2a31c16d474264451be8f0f8c2094c8f7d8654584cc", "t": "mapTemplate(_:didEndZoomGestureWithVelocity:)", "n": 57, "laws": 0, "ts": "2026-07-29 06:07 UTC"}

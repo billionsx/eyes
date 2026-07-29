@@ -8,3 +8,28 @@
 {"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "Only use this JWT if the origin header of the request matches one of the values in the array."}
 {"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "This addition helps prevent unauthorized use of the tokens."}
 {"id": "/documentation/AppleMusicAPI/generating-developer-tokens", "law": "If this limit is exceeded, you’ll temporarily receive error responses for requests that use the token."}
+{"id": "/documentation/applemusicapi", "law": "Use Apple Music API to access information about media in the Apple Music Catalog and a user’s personal iCloud Music Library."}
+{"id": "/documentation/applemusicapi", "law": "Use this API to retrieve information about albums, songs, artists, playlists, music videos, Apple Music stations, ratings, charts, recommendations, and the user’s most-recently played content."}
+{"id": "/documentation/applemusicapi", "law": "Use the to access the Apple Music Catalog in bulk."}
+{"id": "/documentation/applemusicapi/fetching-resources-by-page", "law": "If you don’t supply a limit, the API supplies a default one."}
+{"id": "/documentation/applemusicapi/fetching-resources-by-page", "law": "In this case you must make more requests to get the rest of the objects."}
+{"id": "/documentation/applemusicapi/fetching-resources-by-page", "law": "If there are more resource objects than permitted by the fetch limit, the response contains a member whose value is a subpath to use in the next request."}
+{"id": "/documentation/applemusicapi/fetching-resources-by-page", "law": "Similarly, a object may contain a member that you can use to fetch more objects in a relationship."}
+{"id": "/documentation/applemusicapi/fetching-resources-by-page", "law": "Pass the subpath, and optionally, use the parameter again, in the next request."}
+{"id": "/documentation/applemusicapi/fetching-resources-by-page", "law": "Use pagination to fetch the next set of objects."}
+{"id": "/documentation/applemusicapi/handling-requests-and-responses", "law": "When requesting resources from the Apple Music catalog, you must include the storefront in the path."}
+{"id": "/documentation/applemusicapi/handling-requests-and-responses", "law": "Results responses are always unique to the endpoint, such as charts or a search response."}
+{"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "law": "If any relationship or relationship view contains too many related resources, use pagination to fetch the next set of objects."}
+{"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "law": "Use the parameter to specify a set of relationships to include with the resource in the response."}
+{"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "law": "The response never includes relationship views with a resource by default."}
+{"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "law": "Use the parameter to specify a set of relationship views to include with the resource in the response."}
+{"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "law": "To specify the number of objects fetched, use the parameter."}
+{"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "law": "To fetch a relationship view exclusively, you must append the “ ” followed by name of the view to the path parameter."}
+{"id": "/documentation/applemusicapi/handling-resource-representation-and-relationships", "law": "To specify the number of objects fetched, use the parameter."}
+{"id": "/documentation/applemusicapi/managing-content-ratings-alternate-versions-and-equivalencies", "law": "Use equivalencies to find the best-available equivalent match for the requested content from a given storefront."}
+{"id": "/documentation/applemusicapi/managing-content-ratings-alternate-versions-and-equivalencies", "law": "Use equivalencies to find the best-available version in one storefront for an identifier found in another storefront."}
+{"id": "/documentation/applemusicapi/storefronts-and-localization", "law": "Content varies from one geographic region to another, so each request must contain a storefront object ."}
+{"id": "/documentation/applemusicapi/storefronts-and-localization", "law": "The value of that parameter must be one of the values in the attribute of the storefront object."}
+{"id": "/documentation/applemusicapi/user-authentication-for-musickit", "law": "Apple Music API requires the inclusion of a Music User Token for any requests for data specific to an Apple Music subscriber, such as to fetch content from the user’s library."}
+{"id": "/documentation/applemusicapi/user-authentication-for-musickit", "law": "If you’re developing an app for Apple platforms (iOS, tvOS, watchOS, or macOS), use for Swift to integrate with Apple Music."}
+{"id": "/documentation/applemusicapi/user-authentication-for-musickit", "law": "Once you’ve successfully retrieved a Music User Token, make sure to include it in your HTTP requests to Apple Music API with the header."}

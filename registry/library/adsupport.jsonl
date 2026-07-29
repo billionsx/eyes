@@ -4,3 +4,7 @@
 {"id": "/documentation/AdSupport", "law": "Before requesting the advertising identifier for the first time, your app must make a one-time call to ."}
 {"id": "/documentation/AdSupport", "law": "To get the advertising identifier, follow these steps: Use the AdSupport framework to call the class method to retrieve an instance of ."}
 {"id": "/documentation/AdSupport", "law": "Use the property to obtain the UUID."}
+{"id": "/documentation/AdSupport/ASIdentifierManager/advertisingIdentifier", "law": "The is an alphanumeric string that’s unique to each device, and which you only use for advertising."}
+{"id": "/documentation/AdSupport/ASIdentifierManager/advertisingIdentifier", "law": "Use this string for frequency capping, attribution, conversion events, estimating the number of unique users, advertising fraud detection, and debugging."}
+{"id": "/documentation/AdSupport/ASIdentifierManager/advertisingIdentifier", "law": "On devices running iOS 14.5 and later and iPadOS 14.5 and later, your app must request tracking authorization before it can get the advertising identifier."}
+{"id": "/documentation/AdSupport/ASIdentifierManager/advertisingIdentifier", "law": "As a best practice, don’t store the advertising identifier value; access instead."}

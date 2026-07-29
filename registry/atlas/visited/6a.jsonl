@@ -54,3 +54,4 @@
 {"id": "/documentation/appkit/nspasteboarditem/init(pasteboardpropertylist:oftype:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(pasteboardPropertyList:ofType:)", "n": 0, "laws": 0, "ts": "2026-07-28 18:50 UTC"}
 {"id": "/documentation/appkit/nstableview/deselectcolumn(_:)", "sha": "fcfe3752762c076786f409c4552196ee9dd46a9a98d36caca3d99a4cfea0dedd", "t": "deselectColumn(_:)", "n": 531, "laws": 0, "ts": "2026-07-28 18:51 UTC"}
 {"id": "/documentation/appstoreconnectapi/app-store-versions", "sha": "b621b8f334de45e1bfe2841550e85cb3280b0e57f222ac77c6f02a1f6aaf2357", "t": "App Store Versions", "n": 3706, "laws": 0, "ts": "2026-07-28 18:55 UTC"}
+{"id": "/documentation/audiotoolbox/audiocomponentflags", "sha": "fe1132f8768d83fcbe3f5a8f6ed7ace0b8ca95fc8c7e8ba5138c422bbde4f0a6", "t": "AudioComponentFlags", "n": 129, "laws": 0, "ts": "2026-07-29 05:40 UTC"}
