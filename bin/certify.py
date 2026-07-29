@@ -11,7 +11,13 @@ BXE · СЛУЖБА, модуль M3 — пиксель-сертификация
   · суд департамента (количество зелёных проверок).
 
 Формула скоринга ОБЪЯВЛЕНА в самом сертификате (прозрачность, ст. 1):
-  score = max(0, 100 − 2.0·strict − 1.5·live − 5.0·сверка − 0.1·min(report,50))
+  score = max(0, 100 − 2.0·strict − 1.5·live − 5.0·сверка − 0.05·report)
+
+Потолок на долг советника снят 29.07.2026. С потолком 50 проект с 327
+открытыми находками терял те же 5 баллов, что и проект с 50, и получал A.
+Документ, который называет A состояние с 327 нарушениями, не измеряет —
+он успокаивает. Вес снижен до 0.05, чтобы шкала осталась достижимой:
+долг 0 → 100, долг 130 → 93.5 (A), долг 327 → 83.7 (C).
   (report — советники, не нарушения: вес мал и ограничен потолком)
 Грейд: A+ ≥ 98 · A ≥ 93 · B ≥ 85 · C ≥ 70 · D < 70.
 
@@ -29,7 +35,7 @@ import lint  # noqa: E402
 import projects  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-W = {"strict": 2.0, "report": 0.1, "report_cap": 50, "live": 1.5, "verify": 5.0}
+W = {"strict": 2.0, "report": 0.05, "live": 1.5, "verify": 5.0}
 
 
 def grade(score: float) -> str:
@@ -70,7 +76,7 @@ class EmptyScan(Exception):
 
 def score_of(c: dict) -> float:
     return round(max(0.0, 100.0 - W["strict"] * c["strict"]
-                     - W["report"] * min(c["report"], W["report_cap"])
+                     - W["report"] * c["report"]
                      - W["live"] * c["live"] - W["verify"] * c["verify_diverg"]), 1)
 
 
@@ -89,7 +95,7 @@ table{{width:100%;border-collapse:collapse;margin:10px 0 22px}} td,th{{border-to
 <p class="s">Проект: <b>{c['project']}</b> · период {ts[:7]} · выдан {ts} · правила: {', '.join(c['rules'])}</p>
 <div class="k"><div><b class="g">{g}</b>грейд</div><div><b>{score}</b>скор</div>
 <div><b>{c['files']}</b>файлов проверено</div><div><b>{c['report']}</b>находок советника открыто</div><div><b>{c['verify_rows']}</b>строк сверки · расхождений {c['verify_diverg']}</div></div>
-<p class="s">Формула (объявлена, ст. 1): score = 100 − 2.0·strict({c['strict']}) − 1.5·live({c['live']}) − 5.0·сверка({c['verify_diverg']}) − 0.1·min(report {c['report']}, 50). Каждое правило выведено из замера/первоисточника с адресом (📐/🍎), суд департамента зелёный.</p>
+<p class="s">Формула (объявлена, ст. 1): score = 100 − 2.0·strict({c['strict']}) − 1.5·live({c['live']}) − 5.0·сверка({c['verify_diverg']}) − 0.05·report({c['report']}). Каждое правило выведено из замера/первоисточника с адресом (📐/🍎), суд департамента зелёный.</p>
 <h3>Файловые находки (top)</h3><table><tr><th>Правило</th><th>Файл</th><th>Строка</th></tr>{rows_f}</table>
 <h3>Живой прод (базовая линия{(' · деплой ' + c['live_sha'][:9]) if c['live_sha'] else ''})</h3>
 <table><tr><th>Правило</th><th>Селектор</th></tr>{rows_l}</table>

@@ -725,8 +725,13 @@ def cmd_selftest(root: Path) -> int:
     print("SELFTEST · служба M3 (формула объявлена и детерминирована)")
     import certify as cert
     c0 = {"strict": 2, "report": 400, "live": 9, "verify_diverg": 1}
-    check("скор по формуле: 100−4−5−13.5−5 = 72.5 · C",
-          cert.score_of(c0) == 72.5 and cert.grade(72.5) == "C")
+    check("скор по формуле: 100−4−20−13.5−5 = 57.5 · D",
+          cert.score_of(c0) == 57.5 and cert.grade(57.5) == "D")
+    check("долг советника больше не упирается в потолок: 327 и 50 стоят разного",
+          cert.score_of({"strict": 0, "report": 327, "live": 0, "verify_diverg": 0})
+          != cert.score_of({"strict": 0, "report": 50, "live": 0, "verify_diverg": 0}))
+    check("шкала достижима: нулевой долг даёт 100 · A+",
+          cert.score_of({"strict": 0, "report": 0, "live": 0, "verify_diverg": 0}) == 100.0)
     check("чистый проект → 100 · A+", cert.score_of({"strict": 0, "report": 0, "live": 0, "verify_diverg": 0}) == 100.0
           and cert.grade(100.0) == "A+")
 
