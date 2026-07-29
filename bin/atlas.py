@@ -58,7 +58,7 @@ PRIOR_D, PRIOR_V = 1, 10  # поправка на малое число набл
 # Зачем он здесь. Добытчик считал законом любое предложение с числом или
 # долженствованием — и тащил в библиотеку прозу о разреженных матрицах,
 # аудиокодеках и БПФ. Замер на 29.07.2026: из 23 448 собранных «законов» к
-# предмету относились 3 597, то есть 15%. Девять десятых хода уходило в шум,
+# предмету относились 3 333, то есть 14%. Девять десятых хода уходило в шум,
 # и этот шум ставил в очередь новый шум: фронтир рос вдвое быстрее чтения
 # (+3 395 против +1 500 за сутки), полных кругов — ноль.
 DESIGN = re.compile(
@@ -68,7 +68,7 @@ DESIGN = re.compile(
     r"corners?|radius|radii|rounded|shapes?|"
     r"animat\w*|motion|durations?|easing|transitions?|springs?|"
     r"opacity|alpha|blurs?|materials?\b|glass|vibranc\w*|shadows?|elevation|"
-    r"buttons?|controls?|navigation bar|tab bar|toolbars?|sheets?|alerts?|menus?|"
+    r"buttons?\b|controls?\b|navigation bar|tab bar|toolbars?|sheets?|alerts?|menus?|"
     r"pickers?|sliders?|switch(?:es)?|"
     r"icons?|symbols?|thumbnails?|"
     r"gestures?|tappable|touch target|tap target|hit area|pointer|focus\w*|"

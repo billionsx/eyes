@@ -719,6 +719,19 @@ def cmd_selftest(root: Path) -> int:
           _o == 1 and len(_l) == 1 and "corner radius" in _l[0])
     check("чиню → зелёный: предметное числовое предложение сохраняется",
           bool(atlas_sel.DESIGN.search("Use a corner radius of 12 pt")))
+    # Живая ошибка отбора: «controls» без границы слова ловило «controller»,
+    # и железный игровой контроллер поднимался в голову очереди как интерфейс.
+    check("граница слова: элемент управления ловится, игровой контроллер — нет",
+          bool(atlas_sel.DESIGN.search("Place controls at least 44 pt apart."))
+          and not atlas_sel.DESIGN.search("Connect a game controller to the device."))
+    check("множественное число и суффиксы: Buttons, animation, accessibility",
+          all(atlas_sel.DESIGN.search(s) for s in
+              ("Buttons use a corner radius of 12 pt.",
+               "The animation duration is 300 ms.",
+               "Accessibility labels must be provided.")))
+    check("чужая проза не проходит: designated initializer, FFT",
+          not atlas_sel.DESIGN.search("The designated initializer returns nil.")
+          and not atlas_sel.DESIGN.search("The FFT must be 8 elements long."))
     check("порядок детерминирован: тот же вход даёт тот же выход",
           atlas_sel.order_frontier(_fr, _fw) == atlas_sel.order_frontier(_fr, _fw))
 
