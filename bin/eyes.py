@@ -719,6 +719,13 @@ def cmd_selftest(root: Path) -> int:
               ["/documentation/zzz/a", "/documentation/uikit/b"], _fwp)[0]
           == "/documentation/uikit/b")
 
+    print("SELFTEST · добытчик правил-кандидатов")
+    import propose as prop_mod
+    check("суд добытчика зелёный: число, направление, связь с кодом, адреса",
+          prop_mod.court() == 0)
+    check("кандидат без связи с проверяемым свойством не появляется",
+          prop_mod.bind_of("Design with clarity in mind.") is None)
+
     print("SELFTEST · замер геометрии (ст. 36.2)")
     import geoscan as geo_mod
     import geofill as fill_mod
