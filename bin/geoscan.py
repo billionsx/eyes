@@ -168,22 +168,29 @@ def surfaces(img, bg):
     return out
 
 
-def corner_radius_px(img, s, bg):
+def corner_radius_px(img, s, bg, side: str = "top"):
     """Радиус угла поверхности по профилю втягивания её левой кромки.
 
     У прямого угла кромка стоит на месте с первого ряда. У скруглённого она
-    втянута наверху и выходит на место через r рядов — это и есть радиус.
-    Меряется по верхнему левому углу: он не занят полосой прокрутки и реже
-    перекрыт содержимым.
+    втянута и выходит на место через r рядов — это и есть радиус. Меряется по
+    левому краю: он не занят полосой прокрутки и реже перекрыт содержимым.
+
+    `side` — с какого конца идти. Оба конца нужны для проверки добротности:
+    у настоящей карточки верхние и нижние углы одинаковы, а у ОБЛОМКА
+    карточки (её разрезало по цвету содержимого) один конец скруглён, а
+    другой прямой. Без этой проверки обломки давали радиус 0 и забивали
+    совокупность: 28% «карточек» показывали прямой угол, которого на экране
+    нет.
     """
-    y0, x0, x1 = s["y0"], s["x0"], s["x1"]
+    y0, x0, x1 = (s["y0"], s["x0"], s["x1"]) if side == "top" else (s["y1"], s["x0"], s["x1"])
     col = s["color"]
-    depth = min(s["y1"] - y0 + 1, (x1 - x0) // 2, 80)
+    depth = min(s["y1"] - s["y0"] + 1, (x1 - x0) // 2, 80)
     if depth < 3:
         return None
+    step = 1 if side == "top" else -1
     prof = []
     for d in range(depth):
-        row = img[y0 + d]
+        row = img[y0 + step * d]
         x = x0
         while x <= x1 and not _close(row[x], col):
             x += 1
@@ -240,6 +247,24 @@ def separators_px(img, s):
     return out
 
 
+def role_of(rec: dict, screen_pt_w: int) -> str:
+    """Роль элемента по его собственной геометрии. Объявлена, не угадана.
+
+    Роль нужна потому, что радиус — не одно число на экран. У полосы во всю
+    ширину углов нет, у капсулы радиус равен половине высоты и токеном не
+    является вовсе, у плитки он свой. Смешивать их в одну совокупность
+    значит не получить согласия никогда.
+    """
+    ins, w, h = rec["inset_pt"], rec["width_pt"], rec["height_pt"]
+    r = rec.get("radius_pt")
+    if r is not None and h > 0 and abs(r - h / 2) <= max(1.5, h * 0.08):
+        return "capsule"
+    if ins <= 1.0 and w >= screen_pt_w - 2:
+        return "full_bleed"
+    avail = screen_pt_w - 2 * ins
+    return "card" if w >= 0.75 * avail else "tile"
+
+
 def measure(path: Path) -> dict:
     """Замер одного кадра. Отказ — со словами о причине, а не молча."""
     try:
@@ -267,10 +292,15 @@ def measure(path: Path) -> dict:
                "width_pt": round((s["x1"] - s["x0"] + 1) / scale, 2),
                "height_pt": round((s["y1"] - s["y0"] + 1) / scale, 2),
                "at": f"{path.name}:y{s['y0']}-{s['y1']},x{s['x0']}-{s['x1']}"}
-        r = corner_radius_px(arr, s, bg)
-        if r is not None:
-            rec["radius_pt"] = round(r / scale, 2)
-            out["radii_pt"].append(rec["radius_pt"])
+        rt = corner_radius_px(arr, s, bg, "top")
+        rb = corner_radius_px(arr, s, bg, "bottom")
+        if rt is not None and rb is not None:
+            if abs(rt - rb) <= max(1.5, 0.08 * max(rt, rb, 1)):
+                rec["radius_pt"] = round((rt + rb) / 2 / scale, 2)
+                out["radii_pt"].append(rec["radius_pt"])
+            else:
+                rec["radius_unstable"] = [round(rt / scale, 2), round(rb / scale, 2)]
+        rec["role"] = role_of(rec, pt_w)   # роль после радиуса: капсула узнаётся по нему
         out["surfaces"].append(rec)
         for t in separators_px(arr, s):
             out["separators_pt"].append(round(t / scale, 2))

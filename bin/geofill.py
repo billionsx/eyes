@@ -113,14 +113,29 @@ def decide(scan: list) -> dict:
         v, n, sh, _ = mode_of(seps, step=0.01)
         holes["separator.width_pt"] = {"n": len(seps), "lead": v, "share": sh}
 
-    rad = [s["radius_pt"] for s in cards if s.get("radius_pt", 0) > 0]
-    ok_r, vr, nr, shr = by_lead(rad)
+    # Радиус карточки считается ТОЛЬКО по тем поверхностям, которые правда
+    # карточки: роль card, отступ и ширина сомкнулись с экраном, а верхний и
+    # нижний углы сошлись между собой. Всё прочее — обломки и секции.
+    real = [s for s in cards
+            if s.get("role") == "card" and "radius_pt" in s
+            and vi is not None and abs(s["inset_pt"] - vi) <= 0.7
+            and vw is not None and abs(s["width_pt"] - vw) <= 1.0]
+    square = [s for s in real if s["radius_pt"] <= 0.5]
+    round_ = [s["radius_pt"] for s in real if s["radius_pt"] > 0.5]
+    ok_r, vr, nr, shr = by_lead(round_)
     if ok_r:
         closed["geometry.radius_card_pt"] = {
-            "value": vr, "why": f"перевес {nr} замеров ({shr:.0%})"}
+            "value": vr,
+            "why": f"перевес {nr} из {len(round_)} скруглённых карточек ({shr:.0%})"}
     else:
-        v, n, sh, _ = mode_of(rad)
-        holes["geometry.radius_card_pt"] = {"n": len(rad), "lead": v, "share": sh}
+        h = {"n": len(round_), "square": len(square)}
+        if round_:
+            lo, hi = min(round_), max(round_)
+            h.update({"lead": round(sum(round_) / len(round_), 1),
+                      "share": 0.0, "range": [lo, hi]})
+        else:
+            h.update({"lead": None, "share": 0.0, "range": None})
+        holes["geometry.radius_card_pt"] = h
     return {"frames": len(ok), "closed": closed, "holes": holes}
 
 
@@ -145,8 +160,15 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
         if put(k, v["value"]):
             n += 1
     for k, h in dec["holes"].items():
-        mark = (f"🕳 замерено {h['n']}×, ведёт {h['lead']}, доля {h['share']:.0%} — "
-                f"согласия нет")
+        if h.get("range"):
+            mark = (f"🕳 скруглённых карточек {h['n']}, все в "
+                    f"{h['range'][0]}–{h['range'][1]}pt, среднее {h['lead']}; "
+                    f"с прямыми углами {h['square']} (секции, не карточки). "
+                    f"Для закрытия нужно {MIN_SAMPLES} скруглённых — "
+                    f"кадры со сгруппированными списками")
+        else:
+            mark = (f"🕳 замерено {h['n']}×, ведёт {h['lead']}, "
+                    f"доля {h['share']:.0%} — согласия нет")
         if put(k, mark):
             n += 1
     base_path.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -193,6 +215,23 @@ def court() -> int:
           and "geometry.inset_card_pt" not in dbad["closed"])
     check("дыра несёт улики: сколько мерили, что вело, какая доля",
           dbad["holes"]["geometry.inset_card_pt"]["n"] == 40)
+    mixed = [{"ok": True, "screen_pt": [393, 852], "separators_pt": [],
+              "surfaces": [{"inset_pt": 16.0, "width_pt": 361.0, "role": "card",
+                            "radius_pt": 0.0},
+                           {"inset_pt": 16.0, "width_pt": 361.0, "role": "card",
+                            "radius_pt": 24.0}]} for _ in range(20)]
+    dm = decide(mixed)
+    hr = dm["holes"].get("geometry.radius_card_pt", {})
+    check("прямоугольные секции не смешиваются со скруглёнными карточками",
+          hr.get("square") == 20 and hr.get("n") == 20)
+    check("разброс скруглённых назван, а не спрятан за долей",
+          hr.get("range") == [24.0, 24.0] and hr.get("lead") == 24.0)
+    many = [{"ok": True, "screen_pt": [393, 852], "separators_pt": [],
+             "surfaces": [{"inset_pt": 16.0, "width_pt": 361.0, "role": "card",
+                           "radius_pt": 24.0}]} for _ in range(40)]
+    dmany = decide(many)
+    check("чиню → зелёный: сорок скруглённых карточек закрывают радиус",
+          dmany["closed"].get("geometry.radius_card_pt", {}).get("value") == 24.0)
     empty = decide([])
     check("пустой замер базу не трогает (ЗКН-Э006)",
           empty["frames"] == 0 and not empty["closed"])
