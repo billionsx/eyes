@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 120 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 198
+Файлов просмотрено: 121 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 200
 
 ## AE1 · 7
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -82,7 +82,7 @@
 - `apps/web/src/music/music.css:41` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/play/play.css:26` — border-radius 17.5px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 
-## AE4 · 23
+## AE4 · 25
 - `apps/web/src/music/music.css:82` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:112` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:187` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
@@ -105,6 +105,8 @@
 - `apps/web/src/music/music.css:619` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/play/play.css:17` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/play/play.css:25` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/play/play.css:69` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/play/play.css:70` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/ui/globals.css:1085` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 
 ## AE7 · 8

@@ -1089,3 +1089,8 @@
 ### 2026-07-30 14:36 UTC · монитор прода
 - сейчас 0 · новых 0 · закрыто 0 · алерт: эфир
 
+### 2026-07-30 15:54 UTC · `ios-release-notes` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/documentation/ios-ipados-release-notes
+- домены мандата: ios27
+- объём текста: 2588 → 2585 зн.
+
