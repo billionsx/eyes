@@ -42,7 +42,20 @@ from digest import NORM, QTY, _sentences  # noqa: E402
 from crawler import UA, _robots_ok  # noqa: E402
 
 HOST = "https://developer.apple.com"
-SEED = "/documentation"
+# ЗАТРАВКИ ОБХОДА. Первая — сам свод правил интерфейса, вторая — справочник API.
+#
+# Трое суток атлас ходил только по /documentation и накопил 62 466 адресов, из
+# которых к HIG не относился НИ ОДИН. Справочник API описывает классы и методы;
+# нормы дизайна с числами живут в /design/human-interface-guidelines. Департамент,
+# судящий интерфейс, читал документацию по классам и называл это изучением Apple.
+SEEDS = ("/design/human-interface-guidelines", "/documentation")
+SEED = SEEDS[0]
+
+# ПЕРВОИСТОЧНИК. Свод правил интерфейса читается раньше всего остального,
+# пока не измерен: это предмет департамента (ст. 2), а справочник API лишь
+# косвенная улика. Привилегия ограничена порогом PROBE — после него свод
+# соревнуется по урожаю наравне со всеми, как и положено уликам.
+PRIMARY = "/design/"
 BUDGET = 700
 DELAY = 1.0
 LAWS_PER_PAGE = 10
@@ -98,7 +111,16 @@ def order_frontier(frontier: list, fw: dict, probe: int = PROBE) -> list:
     доказательство пустоты фреймворка, а основание смотреть его последним
     (ЗКН-Э001). Как только у департамента появится причина, хвост будет пройден.
     """
+    prim = (fw.get("design") or {}).get("v", 0)
+
     def rank(pid):
+        # Первоисточник идёт вперёд ВСЕГО, пока он не измерен: департамент
+        # обязан прочесть свой предмет прежде косвенных улик. Как только свода
+        # пройдено `probe` страниц, привилегия снимается и дальше решают
+        # улики — иначе на каждом круге переобхода свод занимал бы голову и
+        # глушил обнаружение дрейфа в справочнике (эту регрессию поймал суд).
+        if pid.startswith(PRIMARY) and prim < probe:
+            return -1e9
         s = fw.get(framework_of(pid)) or {}
         d, v = s.get("d", 0), s.get("v", 0)
         return -(d + PRIOR_D) / (v + PRIOR_V)
@@ -191,7 +213,7 @@ def _refs(raw: str):
     out = set()
     for r in (d.get("references") or {}).values():
         u = r.get("url") or ""
-        if u.startswith("/documentation"):
+        if u.startswith("/documentation") or u.startswith("/design/"):
             out.add(u.split("#")[0].split("?")[0].rstrip("/"))
     return sorted(out)
 
@@ -257,7 +279,16 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
     stf = reg / "atlas" / "state.json"
     stf.parent.mkdir(parents=True, exist_ok=True)
     st = json.loads(stf.read_text(encoding="utf-8")) if stf.exists() else {
-        "frontier": [SEED], "visited": 0, "laws": 0, "cycles": 0, "started": _now()}
+        "frontier": list(SEEDS), "visited": 0, "laws": 0, "cycles": 0, "started": _now()}
+    # ДОСЕВ ОДНОКРАТНЫЙ. Живой обход, начатый до появления первоисточника,
+    # обязан его получить — но ровно один раз. Досев на каждом шаге держал бы
+    # очередь вечно непустой, переобход никогда бы не запускался, и дрейф
+    # законов перестал бы замечаться. Эту регрессию поймал суд.
+    if not st.get("seeded"):
+        for s0 in reversed(SEEDS):
+            if s0 not in st["frontier"]:
+                st["frontier"].insert(0, s0)
+        st["seeded"] = True
     frontier = st["frontier"]
     fw = st.setdefault("fw", {})
     booted = 0

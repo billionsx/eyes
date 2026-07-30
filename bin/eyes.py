@@ -488,6 +488,13 @@ def cmd_selftest(root: Path) -> int:
         (tmpa / "registry" / "state").mkdir(parents=True)
         (tmpa / "registry" / "state" / "CHANGELOG.md").write_text("", encoding="utf-8")
         fxa = tmpa / "fx"; fxa.mkdir()
+        # Первоисточник в фикстуре: обход начинается со свода правил, и суд
+        # обязан моделировать тот же мир, что и боевой прогон.
+        (fxa / "design__human-interface-guidelines.json").write_text(json.dumps({
+            "metadata": {"title": "HIG"}, "references": {},
+            "primaryContentSections": [{"content": [{"type": "paragraph", "inlineContent": [
+                {"type": "text", "text": "Use a corner radius of 12 pt for cards."}]}]}]}),
+            encoding="utf-8")
         (fxa / "documentation.json").write_text(json.dumps({
             "metadata": {"title": "Root"},
             "references": {"a": {"url": "/documentation/aaa"}, "b": {"url": "/documentation/bbb"}},
@@ -501,16 +508,18 @@ def cmd_selftest(root: Path) -> int:
             "primaryContentSections": [{"content": [{"type": "paragraph", "inlineContent": [
                 {"type": "text", "text": "A plain descriptive line without prescriptions."}]}]}]}), encoding="utf-8")
         r1 = atlas_mod2.step(tmpa, budget=1, fixtures=fxa)
-        check("бюджет уважается: шаг 1 → пройдена 1, очередь выросла",
-              r1["walked"] == 1 and r1["frontier"] == 2)
+        hig = (tmpa / "registry" / "library" / "human-interface-guidelines.jsonl")
+        check("бюджет уважается, и первым шагом взят СВОД, а не справочник",
+              r1["walked"] == 1 and hig.exists()
+              and "corner radius" in hig.read_text(encoding="utf-8"))
         r2 = atlas_mod2.step(tmpa, budget=10, fixtures=fxa)
         lib = (tmpa / "registry" / "library" / "aaa.jsonl")
         check("цикл сам раскрывает дерево и добывает закон в библиотеку",
-              r2["walked"] == 2 and lib.exists() and "44x44" in lib.read_text(encoding="utf-8")
+              r2["walked"] == 3 and lib.exists() and "44x44" in lib.read_text(encoding="utf-8")
               and (tmpa / "registry" / "library" / "INDEX.md").exists())
         r3 = atlas_mod2.step(tmpa, budget=10, fixtures=fxa)
         check("фронтир пуст → второй круг переобхода, без ложных изменений",
-              r3["walked"] == 3 and r3["changed"] == 0)
+              r3["walked"] == 4 and r3["changed"] == 0)
         (fxa / "documentation__aaa.json").write_text(json.dumps({
             "metadata": {"title": "AAA"}, "references": {},
             "primaryContentSections": [{"content": [{"type": "paragraph", "inlineContent": [
@@ -693,6 +702,22 @@ def cmd_selftest(root: Path) -> int:
     check("очередь: следующий невзятый Sketch-кит, Photoshop/безель мимо, по одному",
           fk.pick_targets(names, {"tvOS-18-Design-Templates-Sketch.dmg"}) == ["tvOS-18-Production-Templates-Sketch.dmg"]
           and fk.pick_targets(names, set(names)) == [])
+
+    import atlas as atlas_sel
+    check("первоисточник в затравке: свод правил интерфейса, а не только "
+          "справочник API",
+          any(s.startswith("/design/human-interface-guidelines")
+              for s in atlas_sel.SEEDS))
+    check("ссылки свода принимаются наравне со справочником",
+          "/design/" in open(atlas_sel.__file__, encoding="utf-8").read())
+    _fwp = {"uikit": {"v": 100, "d": 90}}
+    _frp = ["/documentation/uikit/a", "/design/human-interface-guidelines/color"]
+    check("ломаю → красный: свод идёт ПЕРЕД самым урожайным справочником",
+          atlas_sel.order_frontier(_frp, _fwp)[0].startswith("/design/"))
+    check("чиню → зелёный: внутри справочника порядок по урожаю сохранён",
+          atlas_sel.order_frontier(
+              ["/documentation/zzz/a", "/documentation/uikit/b"], _fwp)[0]
+          == "/documentation/uikit/b")
 
     print("SELFTEST · замер геометрии (ст. 36.2)")
     import geoscan as geo_mod
