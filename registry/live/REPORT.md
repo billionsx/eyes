@@ -1,9 +1,9 @@
 # ЖИВОЙ ВЗГЛЯД · отчёт (советник)
-Снято: 2026-07-30 16:26 UTC · настоящий DOM+computed, не кадры.
+Снято: 2026-07-30 16:44 UTC · настоящий DOM+computed, не кадры.
 
 ## https://brajs.com/
 элементов снято: 38 · находок: 0
-диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "interactive", "htmlLen": 19090, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19090, "bodyChildren": 2}
 
 ## https://brajs.com/katha
 элементов снято: 33 · находок: 0
