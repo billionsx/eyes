@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 201
+Файлов просмотрено: 120 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 198
 
 ## AE1 · 7
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -51,11 +51,11 @@
 - `apps/web/src/music/music.css:617` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:18` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:26` — border-radius 17.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/ui/globals.css:936` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/ui/globals.css:961` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/ui/globals.css:989` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/ui/globals.css:1019` — border-radius 38px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/ui/globals.css:1282` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:937` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:962` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:990` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:1020` — border-radius 38px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:1283` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/main.tsx:198` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 
 ## AE2 · 18
@@ -70,8 +70,8 @@
 - `apps/web/src/music/music.css:491` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/music/music.css:576` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/music/music.css:615` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/ui/globals.css:624` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/ui/globals.css:1249` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
+- `apps/web/src/ui/globals.css:625` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
+- `apps/web/src/ui/globals.css:1250` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/AccountScreen.tsx:134` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/AccountScreen.tsx:136` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/dhama/DhamaMap.tsx:93` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
@@ -105,7 +105,7 @@
 - `apps/web/src/music/music.css:619` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/play/play.css:17` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/play/play.css:25` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/ui/globals.css:1084` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/ui/globals.css:1085` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 
 ## AE7 · 8
 - `apps/web/src/music/music.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
@@ -117,7 +117,7 @@
 - `apps/web/src/music/music.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 
-## AE8 · 61
+## AE8 · 58
 - `apps/web/src/music/music.css:421` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:455` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:470` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -125,9 +125,6 @@
 - `apps/web/src/music/music.css:523` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:549` — движение 280ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:581` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/ui/globals.css:534` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/ui/globals.css:551` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/ui/globals.css:1070` — движение 280ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/App.tsx:1093` — движение 400ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/AudioShowcaseCard.tsx:120` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/BhajanDetailPage.tsx:168` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -161,7 +158,7 @@
 - `apps/web/src/PracticeHub.tsx:120` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/SadhanaScreen.tsx:222` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/SadhanaScreen.tsx:440` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/SadhanaScreen.tsx:532` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
+- `apps/web/src/SadhanaScreen.tsx:540` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/VowScreen.tsx:44` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/VowScreen.tsx:176` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/centers/CenterDeities.tsx:133` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -188,13 +185,13 @@
 - `apps/web/src/music/music.css:588` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:608` — opacity 0.35 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:641` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:976` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:985` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1014` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1116` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1117` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1130` — opacity 0.32 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1159` — opacity 0.9 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:977` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:986` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1015` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1117` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1118` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1131` — opacity 0.32 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1160` — opacity 0.9 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/AcharyaScreen.tsx:118` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/BookDetailPage.tsx:83` — opacity 0.5 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/BookDetailPage.tsx:85` — opacity 0.5 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
