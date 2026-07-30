@@ -95,3 +95,5 @@
 {"id": "/documentation/swiftui/scene/defaultsize(width:height:depth:)", "sha": "02579a3c095ceb067928639a9ccbb247b0bbda3196182b3721fbc5eb1f595c63", "t": "defaultSize(width:height:depth:)", "n": 400, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
 {"id": "/documentation/swiftui/view/compositinggroup()", "sha": "f27e8a33d5f6f0b3f3a16f6d2cddd3be355c9d31a854a975f5b44903531a9336", "t": "compositingGroup()", "n": 603, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/view/defaultfocus(_:_:priority:)", "sha": "8655e9da1d74b4aed7ee406c37a2d334c7bbf9881750770d61cf00f1adb30474", "t": "defaultFocus(_:_:priority:)", "n": 727, "laws": 1, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/watchkit/wkinterfacecontroller/didappear()", "sha": "d9d8ebe11bcb3c531a73203808770ea7bb0681849d11f53779f4fcce504b1f0f", "t": "didAppear()", "n": 362, "laws": 1, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/uikit/uisymboleffectcompletioncontext-c.class", "sha": "8e977cf2ef503d35f45e4f0e86ba3818c88a2db3c26a6c1720115c336d944053", "t": "UISymbolEffectCompletionContext", "n": 134, "laws": 0, "ts": "2026-07-30 19:10 UTC"}

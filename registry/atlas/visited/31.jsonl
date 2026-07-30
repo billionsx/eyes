@@ -91,3 +91,7 @@
 {"id": "/documentation/swiftui/suggesting-search-terms", "sha": "0a4513b9b4e085b2b9664a9b33728ed1511fe5932f11d1b303c3c5ceaf4a6583", "t": "Suggesting search terms", "n": 3590, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
 {"id": "/documentation/swiftui/navigationviewstyle/stack", "sha": "86fd1cae0acaab51731358c4146d7dbee494cbdcf0d3de8f113b1f6325ce583e", "t": "stack", "n": 96, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
 {"id": "/documentation/swiftui/view/contrast(_:)", "sha": "04cffa98b3f214608c793a392f689d869369150af0298fbc50d539db38ee86c3", "t": "contrast(_:)", "n": 801, "laws": 3, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/scenekit/scnphysicshingejoint", "sha": "d16cb0181c0719769cb550897f92c9d48afbfb45e340402c2451c7da8decc49f", "t": "SCNPhysicsHingeJoint", "n": 517, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scnrenderingapi/opengles2", "sha": "1e054b9cb102dff2b9efeed3e23884256d987a3e798f4fa3f25f05f3b5be2e26", "t": "SCNRenderingAPI.openGLES2", "n": 275, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/scenekit/scnbox/heightsegmentcount", "sha": "37ba254ce788750c5699a0d00ad0e6cc8b888099e90fc4123bb0eff62b56eaab", "t": "heightSegmentCount", "n": 684, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uipangesturerecognizer/minimumnumberoftouches", "sha": "f0bd2d7425c06949fae7313fc6890ed315b18f78ed365c46ea2f0abe60428ad5", "t": "minimumNumberOfTouches", "n": 115, "laws": 1, "ts": "2026-07-30 19:11 UTC"}

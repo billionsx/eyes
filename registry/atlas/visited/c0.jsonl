@@ -115,3 +115,7 @@
 {"id": "/documentation/swiftui/defaultlabelstyle", "sha": "3cef81f491d213eee857c327770a3a77ac9fa9f530d2d6d3ad7c86016cfa6ed2", "t": "DefaultLabelStyle", "n": 137, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/swiftui/scrolltargetbehavior/viewaligned(limitbehavior:anchor:)", "sha": "e79ab62e2d348cf0a13f3811de624534255e8a8b0137b8f03e39b8101d05fa85", "t": "viewAligned(limitBehavior:anchor:)", "n": 965, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
 {"id": "/documentation/swiftui/volumeviewpointupdatestrategy", "sha": "1ae5cc89b149aa6209d5d37fb5821439cd5f9f544097bd65c19d10acdab3eb67", "t": "VolumeViewpointUpdateStrategy", "n": 98, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/diffuse", "sha": "e6c13ce47f01712caf82c1912932cbe8d43c68dbeb33a6b7b249b73785a28c5d", "t": "diffuse", "n": 816, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnnode/localfront", "sha": "05db701889ee0796c48ca52a8b0a742b63816ab73bef692a76d4fe350e79d820", "t": "localFront", "n": 385, "laws": 1, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particlelifespan", "sha": "0eac4e7f2e68c5a0bcd20d0bfd527e38225b69aa892c7039de90ca2df0a47247", "t": "particleLifeSpan", "n": 412, "laws": 0, "ts": "2026-07-30 19:01 UTC"}
+{"id": "/documentation/scenekit/scncameracontrolconfiguration", "sha": "d7d03f26bb29c3706f5bb637e8ea02abd84bdb0ba5afe352a5b30e90e377e4cc", "t": "SCNCameraControlConfiguration", "n": 195, "laws": 0, "ts": "2026-07-30 19:03 UTC"}

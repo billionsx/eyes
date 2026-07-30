@@ -86,3 +86,8 @@
 {"id": "/documentation/swiftui/animation/snappy", "sha": "c2b3ed82e82c200790e083d1c2a72932c72a39ebf7a234a2b62453eba289abf2", "t": "snappy", "n": 96, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/view/strikethrough(_:pattern:color:)", "sha": "1bbb1af7cdcdfab4f2d808734e174f38f792a9ffff7d14a96a951043cbc6a35f", "t": "strikethrough(_:pattern:color:)", "n": 114, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
 {"id": "/documentation/swiftui/groupboxstyleconfiguration", "sha": "78d0da37905f3b71660b31c877a1d16963a326641159d7a086611e80c42b1c78", "t": "GroupBoxStyleConfiguration", "n": 177, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/watchkit/wkextension/shared()", "sha": "7796d31f09cefb51addc30f3192221a802465d3c8fef48a52876593330e87309", "t": "shared()", "n": 115, "laws": 0, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/scenekit/scncamera/bloomiterationcount", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "bloomIterationCount", "n": 0, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scncamera/wantshdr", "sha": "d832dd9639106338beee06ccf63c134db2305ef351fd6e98d9d920d6a00a410d", "t": "wantsHDR", "n": 1058, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/lighting-attribute-keys", "sha": "856362f779a2e88fc37f074329f228fd97c09a02aaf2da13dbd9339e79780780", "t": "Lighting Attribute Keys", "n": 513, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnnode/simdworldtransform", "sha": "92736bf0e3715bc5fe5c7b8a69a047418dcfe81c273ad62fbd5c43f6707aa3b1", "t": "simdWorldTransform", "n": 306, "laws": 0, "ts": "2026-07-30 18:59 UTC"}

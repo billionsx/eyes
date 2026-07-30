@@ -90,3 +90,11 @@
 {"id": "/documentation/swiftui/roundedrectangularshapecorners", "sha": "ab3095e70eda1e58b850436d33da598c03d16b518b9dfcdc66319d1e3a752841", "t": "RoundedRectangularShapeCorners", "n": 318, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/tabviewcustomization/init()", "sha": "d68eb376c348a98e4494e1159cac2cc52413cf92875273b5dc7f7bf62ae6f84a", "t": "init()", "n": 577, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/focusedbinding", "sha": "a982d68e53b3fcee221ff7cd8e9fdba47a43fc7af201cf6e89c1a594c61badce", "t": "FocusedBinding", "n": 378, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/watchkit/wkinterfaceslider/setcolor(_:)", "sha": "c4547622f1077e06d0a4122a52a6408617874c53d51ad60949dcab17420f48aa", "t": "setColor(_:)", "n": 33, "laws": 0, "ts": "2026-07-30 18:44 UTC"}
+{"id": "/documentation/watchkit/wkapplication/shared()", "sha": "8d160635c78e685e572186ac0a4c63f70eb348de2ca943ecaf26e5c93779c4f4", "t": "shared()", "n": 103, "laws": 0, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/showsstatistics", "sha": "6c5f985a8a4efe1ce1489341f95d66cd340f0e9de014313072de75557117c196", "t": "showsStatistics", "n": 432, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/clearcoatroughness", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "clearCoatRoughness", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/cullmode", "sha": "083e26ba395bda07f8b3cba7eb3e9f547d96c3cea6a3d7d880dc489bf5efe20b", "t": "cullMode", "n": 900, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnnode/replacechildnode(_:with:)", "sha": "82389a5b57e4c86fc71716351b6e0fb7891d1acd48d8cfa19086a6d01c40d8ee", "t": "replaceChildNode(_:with:)", "n": 398, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnnode/simdorientation", "sha": "5f1bb546a5b53ce08d4522e7805db7554a001144c8bad37d856c55bdfd1f19b0", "t": "simdOrientation", "n": 278, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/uikit/uidropproposal", "sha": "1e3f94901a5419007c15bb32a59c7d776bf11b2da41313b2277423b0a6db51ca", "t": "UIDropProposal", "n": 410, "laws": 0, "ts": "2026-07-30 19:09 UTC"}

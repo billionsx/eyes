@@ -4,7 +4,7 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 2457 |
+| uikit | 2557 |
 | appkit | 2365 |
 | appintents | 1688 |
 | swiftui | 1664 |
@@ -19,12 +19,13 @@
 | arkit | 473 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
+| big7 | 324 |
 | updates | 314 |
-| big7 | 292 |
 | bundleresources | 290 |
 | web-landings | 264 |
 | foundationmodels | 256 |
 | appstoreconnectapi | 248 |
+| scenekit | 245 |
 | carplay | 236 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
@@ -33,19 +34,20 @@
 | gamekit | 201 |
 | vision | 195 |
 | groupactivities | 191 |
+| human-interface-guidelines | 164 |
 | avfaudio | 162 |
 | storekit | 161 |
+| watchkit | 159 |
 | mapkit | 151 |
 | coredata | 145 |
+| avkit | 141 |
 | authenticationservices | 138 |
-| avkit | 137 |
 | healthkit | 134 |
 | intents | 133 |
 | driverkit | 129 |
 | networkextension | 122 |
 | swiftdata | 122 |
 | accessibility | 120 |
-| scenekit | 115 |
 | evaluations | 114 |
 | browserenginekit | 111 |
 | virtualization | 106 |
@@ -61,7 +63,6 @@
 | applemapsserverapi | 87 |
 | audiodriverkit | 86 |
 | coreml | 84 |
-| watchkit | 82 |
 | coreimage | 81 |
 | backgroundassets | 77 |
 | exposurenotification | 73 |
@@ -151,6 +152,7 @@
 | systemextensions | 14 |
 | combine | 13 |
 | simd | 13 |
+| familycontrols | 12 |
 | metalperformanceshadersgraph | 12 |
 | sensitivecontentanalysis | 12 |
 | spatialpreview | 12 |
@@ -185,7 +187,6 @@
 | avsystemrouting | 7 |
 | cloudkitjs | 7 |
 | coremidi | 7 |
-| familycontrols | 7 |
 | fileproviderui | 7 |
 | financekit | 7 |
 | kernel | 7 |
@@ -343,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 26497 · фреймворков: 338
+Итого законов: 27009 · фреймворков: 339

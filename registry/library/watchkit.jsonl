@@ -80,3 +80,80 @@
 {"id": "/documentation/WatchKit/using-background-tasks", "law": "Use your handler to reconnect to the peripheral and handle the alert."}
 {"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton/init(style:target:action:)", "law": "Creates an authorization button for use in SwiftUI."}
 {"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton/init(target:action:)", "law": "Creates an authorization button for use in SwiftUI."}
+{"id": "/documentation/WatchKit/WKExtension/registerForRemoteNotifications()", "law": "To display alerts, play sounds, or perform other user-facing actions, you must also request authorization using the class’s method."}
+{"id": "/documentation/WatchKit/WKExtensionDelegate/applicationWillResignActive()", "law": "An app in the inactive state should do minimal work while it waits to transition to the active or not running state."}
+{"id": "/documentation/WatchKit/WKExtensionDelegate/applicationWillResignActive()", "law": "Don’t rely on specific app state transitions to save all of your app’s critical data."}
+{"id": "/documentation/watchkit/wkextensiondelegate/applicationwillresignactive()", "law": "An app in the inactive state should do minimal work while it waits to transition to the active or not running state."}
+{"id": "/documentation/watchkit/wkextensiondelegate/applicationwillresignactive()", "law": "Don’t rely on specific app state transitions to save all of your app’s critical data."}
+{"id": "/documentation/watchkit/wkextension/schedulesnapshotrefresh(withpreferreddate:userinfo:scheduledcompletion:)", "law": "Use this task to transition to the interface controller you want to display in the snapshot, and to update that controller’s user interface."}
+{"id": "/documentation/watchkit/wkapplicationdelegate/applicationwillresignactive()", "law": "An app in the inactive state should do minimal work while it waits to transition to the active or not running state."}
+{"id": "/documentation/watchkit/wkapplicationdelegate/applicationwillresignactive()", "law": "Don’t rely on specific app state transitions to save all of your app’s critical data."}
+{"id": "/documentation/watchkit/wkinterfacebutton/setattributedtitle(_:)", "law": "If you use styled text in your buttons, you must provide localized versions of the text yourself."}
+{"id": "/documentation/watchkit/wkinterfacebutton/setbackgroundimage(_:)", "law": "The button does not use the background color for full-color images."}
+{"id": "/documentation/watchkit/wkinterfacebutton/setbackgroundimagenamed(_:)", "law": "The button does not use the background color for full-color images."}
+{"id": "/documentation/watchkit/connecting-your-user-interface-to-your-code", "law": "You can configure interface elements in Xcode at design time, or you can use a connected interface object at runtime."}
+{"id": "/documentation/watchkit/connecting-your-user-interface-to-your-code", "law": "For example, the class exposes methods to set the text (or attributed text) and text color at runtime: Additional properties, such as minimum scale, number of lines, and alignment, are only available in the Attributes inspector at design time ( )."}
+{"id": "/documentation/watchkit/connecting-your-user-interface-to-your-code", "law": "To respond to user interactions, you must connect the control to an action method in your scene’s interface controller."}
+{"id": "/documentation/watchkit/wkinterfacelabel/setattributedtext(_:)", "law": "If you do not explicitly specify font or styling information, the default values are used instead."}
+{"id": "/documentation/watchkit/wkinterfacelabel/setattributedtext(_:)", "law": "For example, if you do not specify a text color explicitly, the default text color is used."}
+{"id": "/documentation/watchkit/building-watchos-app-interfaces-using-the-storyboard", "law": "watchOS apps use a simplified, stack-based layout model for their user interfaces."}
+{"id": "/documentation/watchkit/building-watchos-app-interfaces-using-the-storyboard", "law": "Groups don’t have a default visual representation, but you can configure a background color or image as needed."}
+{"id": "/documentation/watchkit/wkaccessibilityimageregion", "law": "Use an accessibility image region object in conjunction with any interface object that displays an image, either as part of its foreground or background content."}
+{"id": "/documentation/watchkit/wkaccessibilityisreducemotionenabled()", "law": "You can use this function to customize your application’s UI when reduced motion is enabled."}
+{"id": "/documentation/watchkit/wkaccessibilityisvoiceoverrunning()", "law": "You can use this function to customize your application’s UI specifically for VoiceOver users."}
+{"id": "/documentation/watchkit/wkalertaction", "law": "Use the defined visual styles to convey the purpose of the button to the user."}
+{"id": "/documentation/watchkit/wkinterfaceimage", "law": "You use objects to specify the image data you want to display and to start and stop animations."}
+{"id": "/documentation/watchkit/wkinterfaceimage", "law": "You can store animated image sequences in your Watch app bundle, but your image files must use specific naming conventions."}
+{"id": "/documentation/watchkit/wkinterfaceimage", "law": "You also use this technique for animated images sequences you create dynamically using the or method."}
+{"id": "/documentation/watchkit/wkinterfaceimage", "law": "Placing them in the Watch app bundle lets you use the method to load the animated image at runtime, which simplifies the loading process."}
+{"id": "/documentation/watchkit/wkinterfaceimage", "law": "For animations you generate dynamically, use the method of to assemble your animation in your WatchKit extension, and then set that animation using the method."}
+{"id": "/documentation/watchkit/wkinterfaceimage", "law": "You cannot use the method of to create an animated image based on images in your Watch app’s bundle."}
+{"id": "/documentation/watchkit/wkinterfaceimage", "law": "To load an animated image sequence from images in your Watch app bundle, you must name your image resources appropriately and use the method of this class."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilityhint(_:)", "law": "Use this method to change the accessibility hint of an object dynamically."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilityhint(_:)", "law": "For example, do not create a hint such as “Row that displays details about the item.” Sets the description of what happens when performing an action on the accessibility element."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilityimageregions(_:)", "law": "Use this method to associate different accessibility labels with different parts of the object’s image."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilityimageregions(_:)", "law": "You might also use this method to assign accessibility information to different parts of a dynamically generated image."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilitylabel(_:)", "law": "Use this method to change the accessibility label of an object dynamically."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilitylabel(_:)", "law": "If you do not set an accessibility label, the system uses the object’s title string, if present."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilitytraits(_:)", "law": "Use this method to change the accessibility traits associated with your interface objects."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setisaccessibilityelement(_:)", "law": "Use this method to change the accessibility status of your interface objects."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setsemanticcontentattribute(_:)", "law": "Some objects should not flip when switching between left-to-right and right-to-left layouts."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setsemanticcontentattribute(_:)", "law": "Typically, this occurs because the object is part of the playback controls or represents physical directions (up, down, left, right) that don’t change."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setsemanticcontentattribute(_:)", "law": "For example, set the semantic content attribute on a object to control whether the group should flip the horizontal ordering of its contents when moving between left-to-right and right-to-left languages."}
+{"id": "/documentation/watchkit/wkinterfaceobject/setsemanticcontentattribute(_:)", "law": "Sets the semantic description of the object’s contents, used to determine whether its content should be flipped when switching between left-to-right and right-to-left layouts."}
+{"id": "/documentation/watchkit/wkinterfacepicker", "law": "At that point, you can use the object in your outlet to make changes to the onscreen picker."}
+{"id": "/documentation/watchkit/wkinterfaceseparator", "law": "Use to manipulate a separator at runtime, such as changing its color."}
+{"id": "/documentation/watchkit/wkinterfacetable", "law": "Row controllers that include controls such as switches, sliders, and buttons must use action methods to respond to interactions with those controls."}
+{"id": "/documentation/watchkit/wkinterfacevolumecontrol", "law": "Use the instance to change the volume’s tint color at runtime."}
+{"id": "/documentation/watchkit/wkinterfacevolumecontrol", "law": "At that point, you can use the object in your outlet to make changes to the onscreen control."}
+{"id": "/documentation/watchkit/wkinterfaceswitch/setattributedtitle(_:)", "law": "If you use styled text in your switches, you must provide localized versions of the text yourself."}
+{"id": "/documentation/watchkit/wkinterfaceswitch/seton(_:)", "law": "Use this method to set the value of a switch."}
+{"id": "/documentation/watchkit/wkinterfaceswitch/seton(_:)", "law": "If you want to know the value of a switch, use a local variable to track that information."}
+{"id": "/documentation/watchkit/wkapplication/schedulesnapshotrefresh(withpreferreddate:userinfo:scheduledcompletion:)", "law": "Use this task to transition to the interface controller you want to display in the snapshot, and to update that controller’s user interface."}
+{"id": "/documentation/watchkit/wksnapshotrefreshbackgroundtask/reasonforsnapshot", "law": "You can use this property to change your application’s appearance before a snapshot is taken."}
+{"id": "/documentation/watchkit/wkaudiofileplayer", "law": "Use a player object to start and stop playback and to control the rate of playback."}
+{"id": "/documentation/watchkit/wkcrownsequencer", "law": "Only one object in your interface can have focus at any given time, so if your interface also contains picker objects or has scrollable scenes, you must coordinate changes in focus accordingly."}
+{"id": "/documentation/watchkit/wkgesturerecognizer", "law": "At runtime, you use the methods of this class to get and set the state of your gesture recognizer."}
+{"id": "/documentation/watchkit/wkgesturerecognizer", "law": "Action methods must conform to one of the following signatures: The gesture recognizer calls your action method whenever the value in the property changes in a significant way."}
+{"id": "/documentation/watchkit/wkgesturerecognizer", "law": "Gesture recognizers do not call your action method for every state change."}
+{"id": "/documentation/watchkit/wkgesturerecognizer", "law": "In your action method, use the gesture recognizer’s property to perform appropriate tasks based on the current state."}
+{"id": "/documentation/watchkit/wkimage", "law": "After creating the object, you can use associate it with a object and use it in your picker interface."}
+{"id": "/documentation/watchkit/wkimage", "law": "A wrapper for images you use with a picker interface."}
+{"id": "/documentation/watchkit/wkimageanimatable", "law": "Existing classes adopt this protocol and you use the methods to control the animation of those images."}
+{"id": "/documentation/watchkit/wkimageanimatable", "law": "A collection of methods you can use to control the playback of animated images."}
+{"id": "/documentation/watchkit/wklongpressgesturerecognizer", "law": "A long-press gesture is essentially a tap where the user’s finger remains on the screen for a minimum amount of time, which is configurable."}
+{"id": "/documentation/watchkit/wkpangesturerecognizer", "law": "In watchOS, a pan gesture must track exactly one touch event, but that touch event may move freely."}
+{"id": "/documentation/watchkit/wkusernotificationinterfacecontroller", "law": "Because the system automatically adds the buttons, don’t manually add your own to your custom notification interface."}
+{"id": "/documentation/watchkit/wkapplication/globaltintcolor", "law": "If you don’t set a global tint color, this property returns the system default tint color."}
+{"id": "/documentation/watchkit/wkapplication/registerforremotenotifications()", "law": "To display alerts, play sounds, or perform other user-facing actions, you must also request authorization using the class’s method."}
+{"id": "/documentation/watchkit/wkextension/globaltintcolor", "law": "If you don’t set a global tint color, this property returns the system default tint color."}
+{"id": "/documentation/watchkit/wkextension/registerforremotenotifications()", "law": "To display alerts, play sounds, or perform other user-facing actions, you must also request authorization using the class’s method."}
+{"id": "/documentation/watchkit/wkinterfacedevice/preferredcontentsizecategory", "law": "When requesting font objects from code, use the value of this property to request a font object of the appropriate size."}
+{"id": "/documentation/watchkit/wkinterfacesemanticcontentattribute", "law": "A semantic description of the view’s contents, used to determine whether the view should be flipped when switching between left-to-right and right-to-left layouts."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/didappear()", "law": "Use this method to configure animations or other interface-related tasks."}
+{"id": "/documentation/watchkit/navigating-between-scenes", "law": "To present these interfaces, use the methods listed below: The standard interfaces have built-in buttons so users can dismiss them at any time."}
+{"id": "/documentation/watchkit/navigating-between-scenes", "law": "Use the controllers’ , , , and methods to track these transitions."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/contextforsegue(withidentifier:in:rowindex:)", "law": "For segues originating from a button, use the method instead."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/pushcontroller(withname:context:)", "law": "Use this method to perform a navigation-style transition to the specified interface controller."}
+{"id": "/documentation/watchkit/wkinterfacetable/curvesatbottom", "law": "If , table rows near the bottom of the screen shrink so that the curved corners don’t clip them."}
+{"id": "/documentation/watchkit/wkinterfacetable/curvesattop", "law": "If , table rows near the top of the screen shrink so that the curved corners don’t clip them."}

@@ -101,3 +101,7 @@
 {"id": "/documentation/swiftui/mixedimmersionstyle", "sha": "36ebf961f804c5214e57f5dc9294db54b475cc41f97d304e97e7c13eb35f5185", "t": "MixedImmersionStyle", "n": 304, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
 {"id": "/documentation/swiftui/view/coordinatespace(_:)", "sha": "63f87144d6210738576d59c862d7b368bce48d64d41bc14a5f828197fc0c6fa7", "t": "coordinateSpace(_:)", "n": 691, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
 {"id": "/documentation/swiftui/scrolltargetbehavior/propertiescontext", "sha": "a47289f018d07e9a66d473228d156ea9fb4e105340ec3cea76f27f82cff57ad3", "t": "ScrollTargetBehavior.PropertiesContext", "n": 44, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/scenekit/scnmaterialproperty/wrapt", "sha": "61275b849fdff02606b1a300a5e8b57317cb6b6f55224d973b8104853e208212", "t": "wrapT", "n": 589, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scnlight/doublesided", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "doubleSided", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/lightingmodel-swift.property", "sha": "5c5fc7f560325d7b5fa18e39336877cfdf4cf8a19f8ba76c688df7be3a55ee22", "t": "lightingModel", "n": 414, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/uikit/uidropinteraction", "sha": "53ecbe86367944cd916704a5a807904d5bb51989ff95685270b44d2a478fce8d", "t": "UIDropInteraction", "n": 324, "laws": 0, "ts": "2026-07-30 19:09 UTC"}

@@ -90,3 +90,9 @@
 {"id": "/documentation/swiftui/buttonrole", "sha": "7cbb021db4d6b05bb08397f0c028b190800820542208e003e8d74004d280764b", "t": "ButtonRole", "n": 299, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
 {"id": "/documentation/swiftui/labeledcontent", "sha": "4429730d69adda0e6c41025793fc57ef7e8a5b7691cb7fced0a64d4b33675b58", "t": "LabeledContent", "n": 2269, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
 {"id": "/documentation/swiftui/formstyle", "sha": "9accc1866d87ed69086bd7cff3118ad45b930ab916d698b5084c01c1c5112105", "t": "FormStyle", "n": 654, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/design/human-interface-guidelines/technologies", "sha": "07b5ee149c919a324ca04685ff675cccfa1cd376a3eeb9f5304da2a1324afba1", "t": "Technologies", "n": 462, "laws": 0, "ts": "2026-07-30 18:41 UTC"}
+{"id": "/documentation/scenekit/scntransformconstraint", "sha": "c71d41a1db37790ca8197f511052fa610c1904f582cff9e4a2ba6e7cf86c9a2a", "t": "SCNTransformConstraint", "n": 934, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scngeometry/geometry", "sha": "5487e727012b45f5132bf1d92628f769dba356e7a4330800d70e733c3996f979", "t": "geometry", "n": 709, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particleintensity", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "particleIntensity", "n": 0, "laws": 0, "ts": "2026-07-30 19:01 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/replace(command:propertylist:with:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "replace(command:propertyList:with:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uideferredmenuelement/identifier-swift.property", "sha": "86901809bb1892b05b2daf934e85fe00d70e27a6ddba6801622cd1f226ae3c9b", "t": "identifier", "n": 45, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

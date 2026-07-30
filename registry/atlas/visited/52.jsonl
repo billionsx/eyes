@@ -98,3 +98,7 @@
 {"id": "/documentation/swiftui/dynamictypesize", "sha": "681c5b32010d5c92fc24bec7e9c9c8227bb96f13433efb264bb1495ac7de9952", "t": "DynamicTypeSize", "n": 589, "laws": 1, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/view/baselineoffset(_:)", "sha": "01a3878cf9367b6e67573fc13e1357231af185d75af61a9bf55e39a754a2b58d", "t": "baselineOffset(_:)", "n": 142, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/tabcontentbuilder/content", "sha": "479e4fc6c0081147b0ddcd8a61e978acfcd12d616ebf2b9894fc1ec67f7ea3e1", "t": "TabContentBuilder.Content", "n": 80, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/watchkit/wkapplication/globaltintcolor", "sha": "25a22c91bdcbf5102ab33fd4091e351881733d4f3e765646162bdfdbf1f04cec", "t": "globalTintColor", "n": 374, "laws": 1, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/scenekit/scnfloor/width", "sha": "51ed550b0060d686099f1031ce50409e13a30772ec098da1bcb662f95e3d77a6", "t": "width", "n": 315, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
+{"id": "/documentation/scenekit/scnvector4/init(x:y:z:w:)-37b3a", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(x:y:z:w:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
+{"id": "/documentation/uikit/uimenuelement/state/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

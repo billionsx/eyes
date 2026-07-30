@@ -99,3 +99,10 @@
 {"id": "/documentation/swiftui/tab/init(value:content:label:)", "sha": "e7370e43373d108ff46ed5af362fcc3cb3c921f080aa89a3721cfb95ebeacde7", "t": "init(value:content:label:)", "n": 62, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/scrollviewreader", "sha": "d010deb5f5f53e202c0a9c39ed2c38618cdc302122414dff43ef0339a7bbb658", "t": "ScrollViewReader", "n": 746, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
 {"id": "/documentation/swiftui/unitpoint/center", "sha": "3b964b820abead7d437867fa5e9d28b499e20613c730024fd6c2139be0923ba2", "t": "center", "n": 157, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/scenekit/scnphysicsworld", "sha": "a8eb26d4b38d12a2c784414af8ac1ee5e35b4b1cea23fc89195df9c0ae894ab6", "t": "SCNPhysicsWorld", "n": 1220, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scn_enable_metal", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCN_ENABLE_METAL", "n": 0, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scnsceneattributeupaxis", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNSceneAttributeUpAxis", "n": 0, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scnlight/attribute(forkey:)", "sha": "d7773f196fe67f3139371a17b79a99ed5e87c1f2cee0e589272e58875c888610", "t": "attribute(forKey:)", "n": 319, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnscene/screenspacereflectionsamplecount", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "screenSpaceReflectionSampleCount", "n": 0, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnscenesource/entries(passingtest:)", "sha": "9ef1d1f96900799db8ba47e526019abd65efdf6c2e9378f7d99028752f979182", "t": "entries(passingTest:)", "n": 857, "laws": 0, "ts": "2026-07-30 19:03 UTC"}
+{"id": "/documentation/scenekit/scntext/init(string:extrusiondepth:)", "sha": "0f2a767d95f990f62cfbb7eaceaa5dc4ab909073655deec7d31e9f9d7f3f4954", "t": "init(string:extrusionDepth:)", "n": 733, "laws": 0, "ts": "2026-07-30 19:06 UTC"}

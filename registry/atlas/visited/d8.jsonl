@@ -96,3 +96,7 @@
 {"id": "/documentation/swiftui/labelstyle/makebody(configuration:)", "sha": "13be3fe4a8fd77767fa2dc021f842de7593925c7f34058e542398d61a1d94b23", "t": "makeBody(configuration:)", "n": 177, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/swiftui/texteditorstyleconfiguration", "sha": "94cc6edb8dcda0591b3cd06e3b20d01b13f82b05e7e3e874b614039a71a7a2e4", "t": "TextEditorStyleConfiguration", "n": 32, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/swiftui/view/focusedvalue(_:)", "sha": "d482cb631806479dc8fc7aa856e307703801eb44121c9e91ab68ed353e984595", "t": "focusedValue(_:)", "n": 240, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/AVKit/AVExperienceController", "sha": "843c0dbf7d82cab1be866e78458c94c1bc7585b61c4ae1460f0d8e679cb48092", "t": "AVExperienceController", "n": 809, "laws": 1, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/fillmode", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "fillMode", "n": 0, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/uikit/uilayoutguide/centeryanchor", "sha": "a0f009f0ddf74770f09b45beef7f74ff94c11a9a5bdca163107e3987d29b2b99", "t": "centerYAnchor", "n": 251, "laws": 1, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uipressesevent", "sha": "5251deb23a708061aebc647fa6a9469cf86ff26e4e6a647747705cd2f0f8d67d", "t": "UIPressesEvent", "n": 217, "laws": 0, "ts": "2026-07-30 19:11 UTC"}

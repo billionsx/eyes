@@ -92,3 +92,7 @@
 {"id": "/documentation/swiftui/visualeffect", "sha": "322c374c04ee613cc5fccb0ec1a9b5db181dadafeaea9a82e9feea2f3e945493", "t": "VisualEffect", "n": 1225, "laws": 1, "ts": "2026-07-30 16:33 UTC"}
 {"id": "/documentation/swiftui/sizedependenttextvariant", "sha": "af53cdf747d1338f286f99aa292cf5cf9751cc0634f4cb22cd07a16b2726bd41", "t": "SizeDependentTextVariant", "n": 132, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/view/textinputsuggestions(_:id:content:)", "sha": "bf0ec09673022241076118db6f430ee51dc259272cb195c125a12c332b3ee473", "t": "textInputSuggestions(_:id:content:)", "n": 496, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/WatchKit/WKExtendedRuntimeSession/invalidate()", "sha": "5081872f920b7827c052be4000ef04ac6726c6c5af0f1b288c8c739be23a294a", "t": "invalidate()", "n": 429, "laws": 0, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/scenekit/scnnode/simdtransform", "sha": "f9af72d14cc52cd3efa209519880c3f23907fcca55a6e29b2b50fb67d97e8889", "t": "simdTransform", "n": 827, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scnnode/clone()", "sha": "5d3aeb41c43e492e36f44d6d517a4d034f8ec64ea9b08bb31384568883fe3ca3", "t": "clone()", "n": 1061, "laws": 2, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnscene/init(url:options:)-2hc8n", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(URL:options:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:02 UTC"}

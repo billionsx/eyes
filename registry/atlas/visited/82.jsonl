@@ -79,3 +79,6 @@
 {"id": "/documentation/swiftui/nsviewrepresentable", "sha": "f509c2e84e316cfeaf0f7544fee203d1107fdcb4f1b5990a9bd567f272a70eaf", "t": "NSViewRepresentable", "n": 1949, "laws": 1, "ts": "2026-07-30 16:18 UTC"}
 {"id": "/documentation/SwiftUI/NewDocumentButton", "sha": "9fe17c389e047bcf9a14c5249f073e59d7a6024a63bb0836ffc173fccc7ca83b", "t": "NewDocumentButton", "n": 910, "laws": 2, "ts": "2026-07-30 16:30 UTC"}
 {"id": "/documentation/swiftui/containervalues", "sha": "892d10980f315008d11c2f4f2beb6592e7c1926a9d704992cab7333d4be1db2d", "t": "ContainerValues", "n": 1574, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/watchkit/wkextendedruntimesessionerrorcode/notapprovedtostartsession", "sha": "630df80b8cfe49f2f6ac344f6fc5058ab4f4a589d8e1a0906320544f991647e3", "t": "WKExtendedRuntimeSessionErrorCode.notApprovedToStartSession", "n": 203, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/AVKit/VideoPlayer", "sha": "289ff30e4d135c860401f146c1f8c25478a49716923b12f2e452dd59e7b88b53", "t": "VideoPlayer", "n": 173, "laws": 0, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/command(for:propertylist:)", "sha": "9a18122105252f2f5ef8b5dc29e2668da3780e7b294ac8231bf2c70751253411", "t": "command(for:propertyList:)", "n": 136, "laws": 0, "ts": "2026-07-30 19:07 UTC"}

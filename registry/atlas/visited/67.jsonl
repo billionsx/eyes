@@ -94,3 +94,7 @@
 {"id": "/documentation/swiftui/newdocumentaction", "sha": "ddbcab2c9a254dc071c373e627fd79c37fef788f4c10e8faa5b643e0de47a0e7", "t": "NewDocumentAction", "n": 613, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/controlgroup", "sha": "5097adeaf0a5856c49a98c919112faae77c958a807c24eb65cf7bf37007630d9", "t": "ControlGroup", "n": 696, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
 {"id": "/documentation/swiftui/disclosuregroupstyle", "sha": "2052e7fb98ac59fff313af39cb4c9f2ab70c070df5711a52bf36aa2e0a2ba062", "t": "DisclosureGroupStyle", "n": 885, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/scenekit/scnaudioplayer/audionode", "sha": "48d56d8bddc6e40ccf0e583f608d1d24d31da8cb66fc50f1867c5c2dca732d5d", "t": "audioNode", "n": 305, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnhittestresult/geometryindex", "sha": "5bab5cff6fb7ed198876db0cf0889f875d837271337577ed1754e86e10d4f041", "t": "geometryIndex", "n": 349, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnhittestresult/modeltransform", "sha": "e796b381dafcaff96f5842fc85faf695c01baa978e9ac33bf5f9c872e72ddbbe", "t": "modelTransform", "n": 250, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particleproperty", "sha": "d8271911d8494337b05455efb155737a88420d1763891561829fc31f6ad4b447", "t": "SCNParticleSystem.ParticleProperty", "n": 307, "laws": 0, "ts": "2026-07-30 19:01 UTC"}

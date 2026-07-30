@@ -84,3 +84,8 @@
 {"id": "/documentation/swiftui/building-a-great-mac-app-with-swiftui", "sha": "52792e7539ce9fc11bf4d06626a96cd6459e6f70a701171f4e9aa8f9a9f5ba97", "t": "Building a great Mac app with SwiftUI", "n": 208, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
 {"id": "/documentation/swiftui/table/init(_:selection:columns:)", "sha": "1c0bc6740ae5543fccd604c967f6477f8da248e155cfcc95f406ab8d50d7f500", "t": "init(_:selection:columns:)", "n": 125, "laws": 0, "ts": "2026-07-30 16:27 UTC"}
 {"id": "/documentation/SwiftUI/URLDocumentConfiguration", "sha": "58fed802a2b52d4df8b7a2a5064753e1d99782c430935122123a99991b4d572f", "t": "URLDocumentConfiguration", "n": 683, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/watchkit/wkextension/applicationdidenterbackgroundnotification", "sha": "2340265af6bfde1572e6bf2848bc97057fd15ff4a5756426936717374ae62a4c", "t": "applicationDidEnterBackgroundNotification", "n": 302, "laws": 0, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/scenekit/scnnode/worldorientation", "sha": "43880ac3e52e72c01f483688f76c3d6953114172094c026bbde2478d22e5ec07", "t": "worldOrientation", "n": 357, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/unprojectpoint(_:)", "sha": "297c05518c887b8c5d1239c588ff9364f1ea1c169024f342cc30c4917c81a376", "t": "unprojectPoint(_:)", "n": 868, "laws": 0, "ts": "2026-07-30 19:03 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/system", "sha": "ffedb65154b9c52fde924a90aae6e2b5c5adf7b3efd5d2346a3444680ce7cb95", "t": "system", "n": 244, "laws": 1, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uimenuelement/title", "sha": "8c4f0d10e221e20d2324d02feafcdb79998aa738e96d8bbb2045b2b236139681", "t": "title", "n": 30, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

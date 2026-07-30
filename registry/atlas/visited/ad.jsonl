@@ -92,3 +92,6 @@
 {"id": "/documentation/swiftui/text/strikethrough(_:pattern:color:)", "sha": "c1ca28879e2eaa612d566f3a78169116fe0c3a81a1a15005230bda4fc55ee607", "t": "strikethrough(_:pattern:color:)", "n": 89, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
 {"id": "/documentation/swiftui/gradient", "sha": "14aa13c7bffd20120c4a669a104e82518ad267f46f6f80a8ad58ce96189f8932", "t": "Gradient", "n": 283, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/borderlessbuttonstyle", "sha": "bf8c2191b3773744a73eb5db468939cc7561da43360f51e36ef870c576cca4f6", "t": "BorderlessButtonStyle", "n": 180, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/watchkit/wkapplicationstate", "sha": "4b1e62f7dd35f5df98419b681dd778685e6108cc36956e6d68dc581260c86165", "t": "WKApplicationState", "n": 169, "laws": 0, "ts": "2026-07-30 18:42 UTC"}
+{"id": "/documentation/scenekit/scnnode/worldtransform", "sha": "9edb215b36661a2eacdb0eebaa0713b0287473213d3337213e1e15364d3f5295", "t": "worldTransform", "n": 405, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/uikit/uiimageview/animationimages", "sha": "d5ba4b005975baa08e7d7e3850f9766a1b24329ed0ff90159e9d3d4be952bc67", "t": "animationImages", "n": 284, "laws": 1, "ts": "2026-07-30 19:09 UTC"}

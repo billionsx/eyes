@@ -82,3 +82,5 @@
 {"id": "/documentation/swiftui/view/typeselectequivalent(_:)", "sha": "e9be7b38cdc8b8b39d2fc0b2d5c32703c399ccbdbff2c4b0140f96bdb9cbd34b", "t": "typeSelectEquivalent(_:)", "n": 785, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
 {"id": "/documentation/swiftui/scene/windowtoolbarlabelstyle(fixed:)", "sha": "1610ad042c0daffbf23389fb29f45c934114b28927fcd73ec54faee54f3ab9f0", "t": "windowToolbarLabelStyle(fixed:)", "n": 163, "laws": 1, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/view/alternatingrowbackgrounds(_:)", "sha": "35d1aef5ff42d22d82d4725a232229690aa27fc14e816f49669d60307b087137", "t": "alternatingRowBackgrounds(_:)", "n": 557, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/scenekit/scnanimatable/removeallanimations()", "sha": "5d20e35e24adcf16b52f2773a5a3f68bf8d5b88d01ad1b48251e174bff922c4f", "t": "removeAllAnimations()", "n": 60, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scncamera/projectiondirection", "sha": "5e51c48a2425372d854379efd349f2c22bc9747cf7392e3ebbbebc894596a3c1", "t": "projectionDirection", "n": 839, "laws": 0, "ts": "2026-07-30 18:53 UTC"}

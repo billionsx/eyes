@@ -73,3 +73,8 @@
 {"id": "/documentation/swiftui/windowresizability", "sha": "5cb25791438a6546ecd322c36f7b0238a01d9b85c040c475ce58efdc5b7db9cd", "t": "WindowResizability", "n": 788, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
 {"id": "/documentation/swiftui/dropconfiguration", "sha": "b23703a4f121378b92a5598d45ae43c3719d0ba0a787f2518448387a78995f15", "t": "DropConfiguration", "n": 152, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
 {"id": "/documentation/swiftui/view/windowdismissbehavior(_:)", "sha": "68f54706b60c3015350b0ce9d5269c812ebdf2dc71828bf343be83af592bb1f1", "t": "windowDismissBehavior(_:)", "n": 346, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/watchkit/wkpangesturerecognizer", "sha": "89d58231a8e8c0d0fc64c2bb0370e97dd6021123a35e20efca9220e2d1a06c34", "t": "WKPanGestureRecognizer", "n": 1864, "laws": 1, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/watchkit/wkextendedruntimesessionstate/invalid", "sha": "24296301074b759be04901aa2d7369dcecd4509d5677e2b9fa657b3538cfae5b", "t": "WKExtendedRuntimeSessionState.invalid", "n": 205, "laws": 0, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/scenekit/scncamera/whitepoint", "sha": "49e0661ef74e2971f7a6d4dc7615c052e55d0372880564d0ed266708a02ac158", "t": "whitePoint", "n": 642, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scnview/init(frame:options:)", "sha": "a055e83edb0c603fe9165695289ad33074e8f7a6ce3528d90a4d2dbc6fd26e37", "t": "init(frame:options:)", "n": 192, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uiimageview/addsymboleffect:", "sha": "042bc875668bd0c39e770276dda40dd9d61c6f00f2e7ba9021720746f364fd2a", "t": "addSymbolEffect:", "n": 74, "laws": 0, "ts": "2026-07-30 19:09 UTC"}

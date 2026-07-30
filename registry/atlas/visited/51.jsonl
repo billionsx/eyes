@@ -98,3 +98,7 @@
 {"id": "/documentation/swiftui/keyframeanimator/init(initialvalue:trigger:content:keyframes:)", "sha": "9f65b6f24c913f2d962d1b16d7aa0eeb10c0b845ccbc486f2a1bd18e6199302d", "t": "init(initialValue:trigger:content:keyframes:)", "n": 765, "laws": 2, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/label/init(_:)", "sha": "b24b76247d28c64764953d6827f3def4daf456894602316f964e7d583499fe39", "t": "init(_:)", "n": 59, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/pagingscrolltargetbehavior", "sha": "c796d8a90fef645ce77c97d92f21b53f5038f53c3868c4e2c592242b51e73b10", "t": "PagingScrollTargetBehavior", "n": 274, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/watchkit/watchkiterror/recordingfailed", "sha": "467a4cb96bf23137e4f9abd19c75bfe6f7eea666ed9c8e740cbeae52e2aef176", "t": "recordingFailed", "n": 137, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/scenekit/scncamera/grainintensity", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "grainIntensity", "n": 0, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scngeometrysource/datastride", "sha": "414eece0e534aac88fa7beeafd7c0358384061d1e4934380cb1da8f0dbb131b4", "t": "dataStride", "n": 238, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnpyramid/height", "sha": "8d09f6fab823aaa831ad9576facce990226d7c9af10f570037e297dd8585822f", "t": "height", "n": 410, "laws": 0, "ts": "2026-07-30 19:05 UTC"}

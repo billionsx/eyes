@@ -97,3 +97,5 @@
 {"id": "/documentation/swiftui/view/offset(z:)", "sha": "cb75e3dc247874939230018bb0cff98369f4ee64eb8eaa265bdeec810b9e49ba", "t": "offset(z:)", "n": 120, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/scrolltargetbehaviorcontext", "sha": "966c49a81c91f11e0edaac35c4bd4c2d663789f944be1a56b6bf7844fd5c40cb", "t": "ScrollTargetBehaviorContext", "n": 230, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
 {"id": "/documentation/swiftui/windowplacement", "sha": "734958218622047f349e7ff88db769bb6748ecfb756710fc1b3e440e5326b3ca", "t": "WindowPlacement", "n": 654, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/scenekit/scnnode/audioplayers", "sha": "82c48560a13d05e499bb78a4c236db391e5246e19ca7dcf5de5d725abbf40d6e", "t": "audioPlayers", "n": 376, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particlecolorvariation", "sha": "af886b9ed5c1065acccd118c2969ad4840daa311fc595f679678f853e86e6071", "t": "particleColorVariation", "n": 1169, "laws": 1, "ts": "2026-07-30 19:00 UTC"}

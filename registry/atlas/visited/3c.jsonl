@@ -78,3 +78,9 @@
 {"id": "/documentation/swiftui/navigationstack/init(path:root:)", "sha": "357049289da751db999d99b0ed604a6f130b8672d3276db5d97de16bcdd9d61c", "t": "init(path:root:)", "n": 152, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
 {"id": "/documentation/swiftui/scene/windowbackgrounddragbehavior(_:)", "sha": "bae9387ad56d79388e64622bf0d79933bff9e25f9474d9c5c44e934b05189423", "t": "windowBackgroundDragBehavior(_:)", "n": 683, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/focusinteractions", "sha": "9f3b3b156579ff6a6b81befa0edba927daf3dc219af916e065c297e8151efea7", "t": "FocusInteractions", "n": 130, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/watchkit/wkapplication/applicationstate", "sha": "78b3a3e7570c3e7a88c6105494c9253971c850781916f1e5f5daba447785977d", "t": "applicationState", "n": 342, "laws": 0, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevice/batterylevel", "sha": "47599f0d6e43214031d731833be1f81cbabd666902340c5e17eb45e01b5f0990", "t": "batteryLevel", "n": 251, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevice/preferredcontentsizecategory", "sha": "a0fd7f649509a5c1073f73e625d7f36289a269a0179fdaf91e883c6e8a294b3a", "t": "preferredContentSizeCategory", "n": 575, "laws": 1, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/scenekit/scnnodefocusbehavior", "sha": "aa0b65f24db8efccf24bffdc3163ee0afb69863d491978ed72930c0a77960b38", "t": "SCNNodeFocusBehavior", "n": 197, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/depthpixelformat", "sha": "c44d1ef8cd4ed8d4ca490ba7507d1b35b79363a29e2320946602342002e08e09", "t": "depthPixelFormat", "n": 545, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/uikit/uimenuelement/state/on", "sha": "0f65b823fdbb8640a4e2910b5e384acdd3aae23df2f375398cfa7fdd2bc04413", "t": "UIMenuElement.State.on", "n": 60, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

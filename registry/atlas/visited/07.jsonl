@@ -82,3 +82,4 @@
 {"id": "/documentation/swiftui/withtransaction(_:_:)", "sha": "ddbe09f6011665b52b56f47cd93d8551fb528c2e1c4c65171b3ecdb583919435", "t": "withTransaction(_:_:)", "n": 157, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/adaptabletabbarplacement/sidebar", "sha": "2a9bf02831595286bcd63ba01668b6db35c1a156002069918f9172f74c16517b", "t": "sidebar", "n": 134, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/SwiftUI/PrimitiveButtonStyle/glass", "sha": "50dbcabe528b747c2552e820f7cefda25c39502a314527b861b0db3d2c94a2d6", "t": "glass", "n": 282, "laws": 1, "ts": "2026-07-30 16:44 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/name", "sha": "82d32c5f81c115c18d11c28b6e93cdad57c9ad27f259490cdeb793503ba7d4aa", "t": "name", "n": 440, "laws": 1, "ts": "2026-07-30 18:57 UTC"}

@@ -99,3 +99,9 @@
 {"id": "/documentation/coremotion/cmfalldetectionevent", "sha": "0799dd2bf67ae977abb1a668f7985df7f712f791d71234fd9e31d378ea5c4408", "t": "CMFallDetectionEvent", "n": 162, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
 {"id": "/documentation/swiftui/emptyanimatabledata", "sha": "ec663ece9c845516d5aec5fd3f142909fcd6607dab299e8bc6505ec8332a25b6", "t": "EmptyAnimatableData", "n": 217, "laws": 1, "ts": "2026-07-30 16:33 UTC"}
 {"id": "/documentation/swiftui/labelstyle/titleonly", "sha": "a3cbbd8e44e86b98412883600552bfabc773f903dbed23b7a74c760aeba1fcbe", "t": "titleOnly", "n": 56, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
+{"id": "/documentation/watchkit/wkinterfacebutton/settitle(_:)", "sha": "421e2616989d550d4eb4d0c00a2d1204e23d60093196c3962c278d07ac94c605", "t": "setTitle(_:)", "n": 518, "laws": 0, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevice/supportsaudiostreaming", "sha": "9b9c6aa77507cf94935fc0be4a92a08c2ad108db26008125f5ce248716df2056", "t": "supportsAudioStreaming", "n": 247, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/watchkit/wkinterfacetable/setnumberofrows(_:withrowtype:)", "sha": "016096ee89840c16708976176610fce7f3393a064c058f77011f0cae1f3adafe", "t": "setNumberOfRows(_:withRowType:)", "n": 602, "laws": 0, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/scenekit/scnlightprobeupdatetype", "sha": "409863f7a191da4c6474dad247ce4129cdfe8638499bd77d9f560c0321d80d77", "t": "SCNLightProbeUpdateType", "n": 118, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scnlight/shadowbias", "sha": "1e84fcd93d27c6a82f0dac86d788c1878ad7ad7366f53231e0e94752281f63bb", "t": "shadowBias", "n": 394, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnnode/removeallparticlesystems()", "sha": "66982697b956cf381c771f397a54a1e70f29dc743e635e91c2cccff7a96c551b", "t": "removeAllParticleSystems()", "n": 59, "laws": 0, "ts": "2026-07-30 18:58 UTC"}

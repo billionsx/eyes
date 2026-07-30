@@ -104,3 +104,5 @@
 {"id": "/documentation/swiftui/scrolltargetbehavior/updatetarget(_:context:)", "sha": "689536566aa5b2d09d6f71d48f7445b70a7f99b9bc60e5d8b354db3a3d937080", "t": "updateTarget(_:context:)", "n": 629, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
 {"id": "/documentation/swiftui/scrollview/content", "sha": "65ea43b215d60eb356bf11e4ed50faab7e5a733bab9679c91b014ebaa12ffd14", "t": "content", "n": 26, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
 {"id": "/documentation/swiftui/view/background(in:fillstyle:)", "sha": "1702c964c06c1df27beb3546a48626849bebbce1723d98f2e1df9e269be4a166", "t": "background(in:fillStyle:)", "n": 669, "laws": 3, "ts": "2026-07-30 16:44 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/stencilpixelformat", "sha": "c7391bfa7ba9499fb6e783659eddfbaf0118090ceda4dbe3434a9b9d412bdf5f", "t": "stencilPixelFormat", "n": 547, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/uikit/uiimageview/addsymboleffect:options:", "sha": "3c5742d6997d9ed834b96857348dedab8637cfecf7cbedddf706e5a0ec4e3941", "t": "addSymbolEffect:options:", "n": 88, "laws": 0, "ts": "2026-07-30 19:09 UTC"}

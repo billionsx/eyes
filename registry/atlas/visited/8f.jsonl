@@ -84,3 +84,4 @@
 {"id": "/documentation/swiftui/view/scaleeffect(x:y:z:anchor:)", "sha": "3138485fb0a2c1cde7fe70a72f28198cd9e75eddad3c4a6dda602a7796143542", "t": "scaleEffect(x:y:z:anchor:)", "n": 334, "laws": 0, "ts": "2026-07-30 16:33 UTC"}
 {"id": "/documentation/swiftui/attributedtextformatting", "sha": "8a5a21d3725f09fb70619a4233b995dcfc7ce4c23b9bab5d92dbd32be8406d85", "t": "AttributedTextFormatting", "n": 399, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/scrollview/body", "sha": "424da2fb733b43385a70f498b36ccd59280592a7cf7ceb00c85e9a800bc7ccc1", "t": "body", "n": 44, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/scenekit/scnlight/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}

@@ -94,3 +94,8 @@
 {"id": "/documentation/swiftui/renamebutton", "sha": "a835b1b2bdc63451325b7b9983c7433c34124270fac2e9d22d8bd3ba28f39108", "t": "RenameButton", "n": 553, "laws": 2, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/anchor", "sha": "f3fd8188f1f20b7bfcfa318452202c991c355ac508023e6c7452fd2995c227b8", "t": "Anchor", "n": 238, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/fillshapestyle", "sha": "7ea331ddf430871cafb204cf27918abd3e029ad4d4d2c8de3e4af852e4d78e5e", "t": "FillShapeStyle", "n": 83, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/scenekit/scncamera/focalblursamplecount", "sha": "0cc50fa311d3794fc35ec6f80f19a8701e3622d2d68e1e999b34ae657a053337", "t": "focalBlurSampleCount", "n": 405, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scnlight/shadowcolor", "sha": "9ac7da09cd9cdf8120e0d17c6f7c973ac2aa5882f7c33c8e1ed088d4bc93687c", "t": "shadowColor", "n": 394, "laws": 1, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnnode/enumeratehierarchy(_:)", "sha": "c3ec4846f956f378f1ab4a4b8b369c8eae354971893685cd2d9c404ff700f4a1", "t": "enumerateHierarchy(_:)", "n": 520, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/menu(for:)", "sha": "f5e77e02aae9524910eee6c6482a8d5ec41a6a49d83b0352fd01b27a62dee807", "t": "menu(for:)", "n": 143, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uideferredmenuelement/init(_:)", "sha": "32f0b2c6983468e11631ec66526abb2d47389b3871fa5759b5d16af855107f5f", "t": "init(_:)", "n": 491, "laws": 1, "ts": "2026-07-30 19:12 UTC"}

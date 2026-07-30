@@ -103,3 +103,6 @@
 {"id": "/documentation/swiftui/list/init(_:id:selection:rowcontent:)", "sha": "0b41535e6d0ee4b5290ed1e6001205ede800ff390e67ef05b404a29bd5e1b7fd", "t": "init(_:id:selection:rowContent:)", "n": 151, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
 {"id": "/documentation/swiftui/placeholdercontentview", "sha": "86dd924a912405378e441882838f1692e9706b514e94b4a8c62494a565a421c4", "t": "PlaceholderContentView", "n": 181, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/tabcontent/badge(_:)", "sha": "aace71e6852369cbe2e1f691eb61c71ff1dca622666da1ffb6ecbf341876cad5", "t": "badge(_:)", "n": 457, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/watchkit/watchkiterror/unknown", "sha": "c6a9fb119933c3529997fe7f2db58e260a7a9f3b17c19e16e499d07c18ddd86e", "t": "unknown", "n": 119, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/selfillumination", "sha": "fa2f3a01c40a2f7a77f324d3e1aeb248f06b0b7f63772a7c8917b9d25ca91440", "t": "selfIllumination", "n": 696, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnnode/setworldtransform(_:)", "sha": "d4c32620aa3160033555e872f32288b8bd50cc155bd188541db0c184a1e6502a", "t": "setWorldTransform(_:)", "n": 311, "laws": 0, "ts": "2026-07-30 18:58 UTC"}

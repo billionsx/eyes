@@ -80,3 +80,8 @@
 {"id": "/documentation/swiftui/keyframetrack/init(content:)", "sha": "42279d53fb64c8f2e620cc91ea308a7ef016e4567d4178525aff422193cd6ee6", "t": "init(content:)", "n": 81, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/focusedvalues", "sha": "95964c749f4bafb5ac353d11e0dd9aa37b7a1a5c7e45ae366f26d95475ef395c", "t": "FocusedValues", "n": 821, "laws": 3, "ts": "2026-07-30 16:42 UTC"}
 {"id": "/documentation/swiftui/scrollviewproxy", "sha": "5f70688012598aae858089b0cdd27fc988e56eb03cfb47818493242bfc058500", "t": "ScrollViewProxy", "n": 382, "laws": 1, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/scenekit/scnmaterialproperty/intensity", "sha": "dce977296f45f1499bec6d65ff3fdad02d72662600239ceb8e4ab7dddc2595a2", "t": "intensity", "n": 728, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scngeometrysource/init(texturecoordinates:)", "sha": "8f04d9a3c52e118d89eb2ec296b3d55a458118f1c1c68ea0bde2cf91b6294075", "t": "init(textureCoordinates:)", "n": 364, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnhittestresult/worldnormal", "sha": "7be68dea9c0b01c2bcf309ae53fbd761e7ea4f77364f31a6ebe68a014cbcbb1a", "t": "worldNormal", "n": 95, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnlight/probeoffset", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "probeOffset", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/uikit/uiimageview/removesymboleffect(oftype:options:animated:completion:)-2boi2", "sha": "e73ff89db66af64309321563df78ca0a92f00da2457d27c2eff126c7f672b2a7", "t": "removeSymbolEffect(ofType:options:animated:completion:)", "n": 125, "laws": 0, "ts": "2026-07-30 19:10 UTC"}

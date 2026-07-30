@@ -72,3 +72,8 @@
 {"id": "/documentation/uikit/uicontrol/menuattachmentpoint(for:)", "sha": "2fb388253ff187a4c4b8ecd2426256f77bfc737082391e62815b5af45e429045", "t": "menuAttachmentPoint(for:)", "n": 100, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uitableview/hasactivedrag", "sha": "ec34a73e886ad20536f3ab31f719a5b9cbcacd5c9d9f6db46fa57cfccdb410cd", "t": "hasActiveDrag", "n": 91, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
 {"id": "/documentation/swiftui/view/modelcontainer(_:)", "sha": "f13557b8e477ee975f95dd7ec684b87b9ba367ba842d6f69795560bfd4aa1b8c", "t": "modelContainer(_:)", "n": 346, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/scenekit/scnmaterialproperty/contentstransform", "sha": "c5b7c1156879299be5ece88df7abfc85cfee7a7366cba161e1185bddd123e943", "t": "contentsTransform", "n": 608, "laws": 1, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnparticlepropertycontroller/inputproperty", "sha": "23860f8cdee41370e0d6ceb09d20c6cc90f14a394385d344920ad0f012b81a56", "t": "inputProperty", "n": 698, "laws": 2, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/isplaying", "sha": "f3a302745af6339bc94f51b65ab6eed03548e8953449e47874dbaac6fb287901", "t": "isPlaying", "n": 282, "laws": 1, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnfloor/reflectionfalloffstart", "sha": "585a3f204f76e6058d2b11ae65343399b46bbf44cb22b800cfddcb2f3bb47b52", "t": "reflectionFalloffStart", "n": 654, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
+{"id": "/documentation/uikit/uitabbaritemstateappearance", "sha": "79e556bd5feb44bd38ae40e78d7cee895f51058ecb2140a35697640be014db16", "t": "UITabBarItemStateAppearance", "n": 706, "laws": 2, "ts": "2026-07-30 19:11 UTC"}

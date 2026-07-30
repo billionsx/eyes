@@ -97,3 +97,11 @@
 {"id": "/documentation/swiftui/view/geometrygroup()", "sha": "24cbd22e24db9f174c394f3011899ccecabc2f79092668e942886e374745b2b9", "t": "geometryGroup()", "n": 1104, "laws": 1, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/viewpoint3d", "sha": "e6bdcbf92dfec304ba75d633e92d9276027637356a719afe07355f746fb3f31d", "t": "Viewpoint3D", "n": 131, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/view/menustyle(_:)", "sha": "13e8190d6aee7d0f7c57e0006ef01c92d213f7b7a582a2bae101121db89751be", "t": "menuStyle(_:)", "n": 136, "laws": 1, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/design/human-interface-guidelines/typography", "sha": "ed10163280ef90cc3ccf2ba23d034ef07d5b6a3fdec0b9c6c2efe649e4ed2faa", "t": "Typography", "n": 14572, "laws": 10, "ts": "2026-07-30 18:41 UTC"}
+{"id": "/documentation/watchkit/wkextension/isapplicationrunningindock", "sha": "86766475c69ab1008c59fd120c1ccdb8ac52bb7b7a5993c2dafc96d1b4a80530", "t": "isApplicationRunningInDock", "n": 355, "laws": 0, "ts": "2026-07-30 18:42 UTC"}
+{"id": "/documentation/scenekit/scnscenesourceloadingoptionanimationimportpolicy", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNSceneSourceLoadingOptionAnimationImportPolicy", "n": 0, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scncamera/contrast", "sha": "6f5b7925d1dbf84a6ca281be3ab6779da7c32d9c82d1c5b0aabab7166e155d99", "t": "contrast", "n": 377, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scnnode/rotation", "sha": "7e6ac8ab33f65c8b394eb35ecc8f7842ed2cabe13fceafdcc38b1fa2ecb1545e", "t": "rotation", "n": 578, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scnhittestresult/simdlocalcoordinates", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "simdLocalCoordinates", "n": 0, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/displacement", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "displacement", "n": 0, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/imagesequenceanimationmode", "sha": "c810e6569bbf254fc132fc09df813ad8ff075a57eec30db8e2544cb886cd1347", "t": "imageSequenceAnimationMode", "n": 175, "laws": 0, "ts": "2026-07-30 19:00 UTC"}

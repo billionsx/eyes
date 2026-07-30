@@ -84,3 +84,9 @@
 {"id": "/documentation/uikit/nsdirectionalrectedge", "sha": "84cf9c02651c2d44197046983b10cc8514cf34029bf8dcad6060db1b77338647", "t": "NSDirectionalRectEdge", "n": 189, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/swiftui/gesture/targetedtoentity(where:)", "sha": "16ec51aa85339888ee7a6d4063ec1eb2f57d93827c4e7d08b5ae9a152706edb4", "t": "targetedToEntity(where:)", "n": 182, "laws": 1, "ts": "2026-07-30 16:20 UTC"}
 {"id": "/documentation/SwiftUI/View/modelContext(_:)", "sha": "576edcee60ab7d2a2b32b1ac79c3bab91694c6a5dc13ecbaadc6017a82cad14a", "t": "modelContext(_:)", "n": 296, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/watchkit/wkinterfacetimer/stop()", "sha": "aae2b39e49d46b9d1fd40849b692691d3cbe731b54ff23239580d3152f7a2dfe", "t": "stop()", "n": 270, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/scenekit/scnconstraint", "sha": "98883608babc9e721f4a4e354bf996ab1cd70f3601a639a3178444563ef15c4d", "t": "SCNConstraint", "n": 724, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnnode/simdlocalright", "sha": "4a93a85cf47c1d582723e55046623da824b61af3248a2516b1fbcaf698a3a939", "t": "simdLocalRight", "n": 443, "laws": 1, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/uikit/uiimageview/imagedynamicrange", "sha": "c0baf348d6db489796f665192409859e63fcc1571f0db6a7c33062f13b421bc1", "t": "imageDynamicRange", "n": 45, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/documentation/uikit/uitabbarappearance", "sha": "a0e38d1539f2a8e7293a3bad7e011b996ae46b700dc2d206c5473a9054c6a396", "t": "UITabBarAppearance", "n": 608, "laws": 2, "ts": "2026-07-30 19:11 UTC"}
+{"id": "/documentation/uikit/uimenuleaf/attributes", "sha": "a2e4dc1e018ad083551e7faf588d7626fb057bb850aef5d2235b11a637ea0c37", "t": "attributes", "n": 60, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

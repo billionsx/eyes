@@ -93,3 +93,10 @@
 {"id": "/documentation/swiftui/alignment3d", "sha": "175cd12c0fa49075c4eb775e1fcee8deadeb9c3ced2771d1c15727124abe05c4", "t": "Alignment3D", "n": 509, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/shapestyle", "sha": "5b987c449651036f6818d3fbde8b8e6c68823236ba75bc80dc65e2b5d97bb1fa", "t": "ShapeStyle", "n": 3163, "laws": 5, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/scrolltarget", "sha": "ecaa97221358e37595c594938e511ce4238f5e6f7817fb36bb6c759b963f484f", "t": "ScrollTarget", "n": 118, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/scenekit/scnlookatconstraint", "sha": "054bf992e6189ce1e46b7231208f5eff6bccd13decb3da7befa2e62e5cf7e30a", "t": "SCNLookAtConstraint", "n": 908, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnnode/light", "sha": "1490388af351700e0f90c70c9ef4da1fb081e0e75fdefbc6f5f67f77773ad035", "t": "light", "n": 213, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scnview/preferredframespersecond", "sha": "1be3f38a0b870d29120db478c2132286747b71934aa278c6e6434455f6fd9cd1", "t": "preferredFramesPerSecond", "n": 763, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/scenekit/scnbox/length", "sha": "ad1c9c0ee29edd317c08ee9623c689c85bd78bc4d4e8a61a276d63b376692991", "t": "length", "n": 311, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/replace(action:with:)", "sha": "4ad5331f10dce95a031df93ff2f23bd36351e656c9ed2d52cf55bbba6e8527a2", "t": "replace(action:with:)", "n": 48, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uidropsession", "sha": "b3951df24fc11ea1ef28eb2063ec55c662dc10ca72c0e18672a790bbe6673a8b", "t": "UIDropSession", "n": 239, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/documentation/uikit/uigesturerecognizer/state-swift.enum/cancelled", "sha": "008b5b4ce5130aa855fbe40965fdd78ebf5bbb8dde29d4cf618572ec8d9a425d", "t": "UIGestureRecognizer.State.cancelled", "n": 234, "laws": 0, "ts": "2026-07-30 19:11 UTC"}

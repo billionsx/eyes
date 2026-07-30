@@ -93,3 +93,6 @@
 {"id": "/documentation/swiftui/environmentvalues/contenttransitionaddsdrawinggroup", "sha": "2cb31f358d7a857d6b336d6ed8d3020482d95c8edae9c5f94fbb63464854d942", "t": "contentTransitionAddsDrawingGroup", "n": 202, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/group/init(sections:transform:)", "sha": "4344aa557b8a3a2d44228b14db78e4fa2933a82d5771a7b020255203e985a348", "t": "init(sections:transform:)", "n": 628, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
 {"id": "/documentation/SwiftUI/SpacerSizing/fixed", "sha": "0414f9fa66bd5b5c26682d3ad0ed4e9ef8f71b9adfd4ee507426989a87361dc1", "t": "fixed", "n": 142, "laws": 0, "ts": "2026-07-30 16:44 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/normal", "sha": "cc621bf369423e14117f18794b2af9580c3b4caae9c7bc5bead07c42e8ed9837", "t": "normal", "n": 1893, "laws": 2, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnhittestresult/localnormal", "sha": "0b96e942d97e15b7be87fb32b747df567bbb3ad47c46ce4481af463b7242738c", "t": "localNormal", "n": 153, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/uikit/uilayoutguide/trailinganchor", "sha": "8c384305bb23cc9d1be0940ce43e3157c36eb1754ecd89c47f33f785d3de5887", "t": "trailingAnchor", "n": 301, "laws": 1, "ts": "2026-07-30 19:08 UTC"}

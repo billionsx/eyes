@@ -93,3 +93,8 @@
 {"id": "/documentation/swiftui/view/foregroundstyle(_:_:)", "sha": "f5881ca9cf12e22ed27bd0bfec5b0d3f3578339765597c2952ae81854064f4b9", "t": "foregroundStyle(_:_:)", "n": 431, "laws": 2, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/worldalignmentbehavior", "sha": "50dcdd2b10dd7df3b1247f51bf4ee5850892acd2aeecedf176081d34822942e1", "t": "WorldAlignmentBehavior", "n": 292, "laws": 1, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/glassprominentbuttonstyle", "sha": "c4527eb845c674bea4fea8ccda55bdaf218f4670605b538a412af0a234eda5e5", "t": "GlassProminentButtonStyle", "n": 213, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/design/human-interface-guidelines/accessibility", "sha": "01fee43b27349051ab43e9d4deb02cdab5574eeadfab778eaadb677a415421d4", "t": "Accessibility", "n": 14719, "laws": 10, "ts": "2026-07-30 18:41 UTC"}
+{"id": "/documentation/scenekit/scnnode/localup", "sha": "08f6e6eca808ff6930a3795bc330aeebad9c9bd326a5a95684e11ea34c08edf9", "t": "localUp", "n": 348, "laws": 1, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnview/stop(_:)", "sha": "c592e070bcdea5ee663c52e465b5600266bebc57d24d1ccd503b3863e74cb2ac", "t": "stop(_:)", "n": 79, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/scenekit/scnvector3/init(_:_:_:)-2hhr6", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/documentation/uikit/uiimage/animatedimage(with:duration:)", "sha": "344f5b1ebd286e7ef990afc789c2a87a81e2491739de5f9be7b42afedfef7621", "t": "animatedImage(with:duration:)", "n": 199, "laws": 1, "ts": "2026-07-30 19:09 UTC"}

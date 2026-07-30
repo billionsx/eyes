@@ -81,3 +81,7 @@
 {"id": "/documentation/swiftui/dismissbehavior", "sha": "bc348ccdf81aae13cb93c9de8d3ca6e55a3d6c9185faf84856cafbaa3b239fa1", "t": "DismissBehavior", "n": 303, "laws": 1, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/scene/windowtoolbarstyle(_:)", "sha": "fc78367bd8f37f66eac9b1216e5bedcf58d6696440ffdb3f497f5a3eb10f785b", "t": "windowToolbarStyle(_:)", "n": 57, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/view/focused(_:equals:)", "sha": "eea10cac4a72f167ab848fe854e55d8fca113e79e94a934aad15c1e8e571e20c", "t": "focused(_:equals:)", "n": 620, "laws": 3, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/watchkit/wkaccessibilityimageregion", "sha": "39611a9f6d53274e1a3f01cf0cf5a4771740ca9a90040d9f980fd7aba0070728", "t": "WKAccessibilityImageRegion", "n": 564, "laws": 1, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/watchkit/watchkiterror/invalidargument", "sha": "68afbb0a68e3d195a776f038b76f5faffc3d7fa3480369cfe928d667952c105a", "t": "invalidArgument", "n": 145, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/scenekit/scngeometryelement/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scntext/chamfersegmentcount", "sha": "549792662aa770a15eef61541969546ad4578b6b6a9eddc4fbbc761ef03865eb", "t": "chamferSegmentCount", "n": 434, "laws": 0, "ts": "2026-07-30 19:06 UTC"}

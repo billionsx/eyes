@@ -104,3 +104,8 @@
 {"id": "/documentation/uikit/uikeyboardhidusage/keypadenter", "sha": "9f24c949f9f09e8fed8a8057e7f1a52b8a15eb90e8b984218845aee76cba8562", "t": "UIKeyboardHIDUsage.keypadEnter", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
 {"id": "/documentation/swiftui/draggesture", "sha": "18cb9b4bc1db85bae186f81e004b927df52cbdc2081064223be1e25a6f6779bd", "t": "DragGesture", "n": 647, "laws": 0, "ts": "2026-07-30 16:19 UTC"}
 {"id": "/documentation/swiftui/windowdraggesture/value", "sha": "c1ffe2575f19d380eb704b5d0aa7413707d8fc447c743dda58794cec116455d5", "t": "WindowDragGesture.Value", "n": 40, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/scenekit/scnhittestresult/simdmodeltransform", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "simdModelTransform", "n": 0, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnnode/localrotate(by:)", "sha": "74c1dd1c006c25633c668e862c236a617c39950cb532f49b00171c88b0f5efc1", "t": "localRotate(by:)", "n": 289, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particlefriction", "sha": "ea0a90994d32c7af16bb48eea5d0c5080f5dd3715a2bd5fc74614bc12e625406", "t": "particleFriction", "n": 468, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/scenekit/scnbox/height", "sha": "845b570d9e9c7a697c0ecc51798b1ee1777fc7ca61c39f3767e0a892940b6d39", "t": "height", "n": 311, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uidragdropsession/hasitemsconforming(totypeidentifiers:)", "sha": "53cf64fc586b68bb7f4bd1c9a20d1d4afb21af10fe5ab879f32fe7edf5380dd9", "t": "hasItemsConforming(toTypeIdentifiers:)", "n": 235, "laws": 0, "ts": "2026-07-30 19:10 UTC"}

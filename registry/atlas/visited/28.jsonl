@@ -83,3 +83,10 @@
 {"id": "/documentation/swiftui/physicalmetricsconverter", "sha": "2ec4c82b9c5eeed614d6dd4983d398c16ea9a0f4b64d1305aa27afeca6e51513", "t": "PhysicalMetricsConverter", "n": 1477, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
 {"id": "/documentation/swiftui/navigationlink/init(_:destination:)", "sha": "88fc3888fa62f3bcb461bcb1bdd8be147ee645cdce9ab18508511f532cd53fb5", "t": "init(_:destination:)", "n": 130, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/view/searchfocused(_:equals:)", "sha": "eb97fe660716281d81e9ab795548a128bea0ebcb82c454bf853d57c744a8f104", "t": "searchFocused(_:equals:)", "n": 331, "laws": 1, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/design/human-interface-guidelines/designing-for-ios", "sha": "5c052d2c01cce2deb9008f9d426c9c6c1bd3ba656d249056e0401cbc5ebf5544", "t": "Designing for iOS", "n": 2797, "laws": 0, "ts": "2026-07-30 18:41 UTC"}
+{"id": "/documentation/watchkit/wkinterfacelabel/setattributedtext(_:)", "sha": "a8875d0f5a7cb6540e4d9b20f98d9ce32a345cd2b16800a8ce38ce7419c15dc0", "t": "setAttributedText(_:)", "n": 506, "laws": 2, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/watchkit/watchkiterror/code/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/scenekit/scnphysicsbehavior", "sha": "388477dded2b6b13f8696d636cc8fceb1dde4abdc54ad797d3e943a4ef29e57d", "t": "SCNPhysicsBehavior", "n": 951, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scncamera/aperturebladecount", "sha": "fc6583c61d79bbd69dae9a70fa46092f447799b8cb77cb5103b17814c5f826eb", "t": "apertureBladeCount", "n": 1081, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnmovabilityhint", "sha": "4505a58361bd36d28fc4ef81ff55704814a496a8c740dbfc16fe3a7e0887b365", "t": "SCNMovabilityHint", "n": 189, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scntext/iswrapped", "sha": "23f86bf1fb54145e865cf67f1b4524e791af68a68f583855af47bbcdfe5329ff", "t": "isWrapped", "n": 469, "laws": 0, "ts": "2026-07-30 19:06 UTC"}

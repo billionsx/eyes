@@ -89,3 +89,10 @@
 {"id": "/documentation/swiftui/matchedtransitionsourceconfiguration", "sha": "641068ae9da6dd31fe74bae5b66b5c2261dee2c74ff4be14154b00eaa6d984cf", "t": "MatchedTransitionSourceConfiguration", "n": 153, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/labelstyle/automatic", "sha": "94c883d90963b018892e657ae6ad6fa57f4a0e3cf624a7203b3033a59d374155", "t": "automatic", "n": 86, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/SwiftUI/GlassEffectContainer", "sha": "a46ecf85834b9b1e9c3e902845808f6669a7eb69b615fa01a90e592a8ac5e973", "t": "GlassEffectContainer", "n": 714, "laws": 0, "ts": "2026-07-30 16:44 UTC"}
+{"id": "/documentation/watchkit/wkswipegesturerecognizer", "sha": "01084f9f72e982f74c5a4c3a45eadc559d3dc5f00128abba9fd147ff1b153ccb", "t": "WKSwipeGestureRecognizer", "n": 1764, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/debugoptions", "sha": "3c3a283c3969f95b78e46b9848da080a942182f65b9cbf6a5c887f3a965cf095", "t": "debugOptions", "n": 641, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scnaudiosource/init(url:)-8cknu", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(URL:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnnode/worldposition", "sha": "e8b7be983c633ec242c39495cb63b175309e5bab503cf703f4b7f311b689a9c2", "t": "worldPosition", "n": 447, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/imagesequenceframerate", "sha": "b7eeb2d5bbcb86375d430a6e5740312a9b29a7f4a7b5ed251f36b3c00d30d45c", "t": "imageSequenceFrameRate", "n": 455, "laws": 1, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particlecolor", "sha": "d5e60a8b3273131dcf8189f59c8bbbbe4269159a5203e14bbc8a54f5e635b5c9", "t": "particleColor", "n": 557, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/uikit/uilayoutguide/leadinganchor", "sha": "72d62173c3a162cc863b9678f4f802748e3608765c3472b564cd6c447658ec83", "t": "leadingAnchor", "n": 299, "laws": 1, "ts": "2026-07-30 19:08 UTC"}

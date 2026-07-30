@@ -94,3 +94,8 @@
 {"id": "/documentation/swiftui/view/blendmode(_:)", "sha": "b2f901ba69b32f2c74f346bb9d11ca528528fec02e61649f7972b9d75b0711d0", "t": "blendMode(_:)", "n": 421, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/timelineviewdefaultcontext", "sha": "b07ec70b0f34e007d612a070d026c8e77f49bed3b1fabe9ab6a34101b69debde", "t": "TimelineViewDefaultContext", "n": 525, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/tabviewstyle/verticalpage", "sha": "20422b4dbe88e77e36da19c954a82c5a7856e31644e2af8c1ecdcd30f8400387", "t": "verticalPage", "n": 164, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/avkit/avplayerviewcontroller/canbegintrimming", "sha": "4bea872fca863a7031cb85ebd022068238ef9cba52c1e75513339d45eef5a189", "t": "canBeginTrimming", "n": 317, "laws": 0, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/idleduration", "sha": "d375296847f8382e38aceccf9aaab8e409bfa462c7b5854b8eca71904369fe17", "t": "idleDuration", "n": 697, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/delegate", "sha": "e94fea1d26068af4761a3e3ff79d0dcfe0ba6820c4454be9c0a93b667af4b110", "t": "delegate", "n": 1271, "laws": 2, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnshape/chamferradius", "sha": "23f53edadb3a58c09726fee1fce770fe144dd221ed2473c8b6b4ffca0bc5ff33", "t": "chamferRadius", "n": 438, "laws": 1, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/documentation/uikit/uiimageview/isuserinteractionenabled", "sha": "51f6aff53114696e933228dfe3e0bedc3ec100e6454034600348b7e56c39ce18", "t": "isUserInteractionEnabled", "n": 220, "laws": 0, "ts": "2026-07-30 19:10 UTC"}

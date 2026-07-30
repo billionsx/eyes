@@ -1,0 +1,164 @@
+{"id": "/design/human-interface-guidelines/accessibility", "law": "An accessible interface allows people to experience your app or game regardless of their capabilities or how they use their devices."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Your interface adapts to how people want to use their device, whether by supporting system accessibility features or letting people personalize settings."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Use to highlight accessibility issues with your interface and to understand how your app represents itself to people using system accessibility features."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "The people who use your interface may be blind, color blind, or have low vision or light sensitivity."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Make sure people can adjust the size of your text or icons to make them more legible, visible, and comfortable to read."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Use recommended defaults for custom type sizes."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "If you’re using a custom font with a thin weight, aim for larger than the recommended sizes to increase legibility."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Strive to meet color contrast minimum standards."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "To ensure all information in your app is legible, it’s important that there’s enough contrast between foreground text and icons and background colors."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Use standard contrast calculators to ensure your UI meets acceptable levels."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "tvOS app icons use between two and five layers to create a sense of dynamism as people bring them into focus."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "You use your favorite design tool to craft the individual foreground layers of your app icon."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "To ensure system-drawn highlights and shadows look best, avoid soft and feathered edges on foreground layer shapes."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "Prefer vector graphics when bringing layers into Icon Composer."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "Keep primary content centered to avoid truncation when the system adjusts corners or applies masking."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "To help with icon placement, use the grids in the app icon production templates, which you can find in ."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "Prefer a simple background, such as a solid color or gradient, that puts the emphasis on your primary design — you don’t need to fill the entire icon canvas with content."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "Photos are full of details that don’t work well when displayed in different appearances, viewed at small sizes, or split into layers."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "Make sure to avoid extremely thin line weights and sharp corners, because they tend to lose detail and crispness in smaller icon sizes at lower resolutions."}
+{"id": "/design/human-interface-guidelines/app-icons", "law": "If your app has an interface that people recognize, don’t just replicate standard UI components or use app screenshots in your icon."}
+{"id": "/design/human-interface-guidelines/color", "law": "You may also want to use custom colors to enhance the visual experience of your app or game and express its unique personality."}
+{"id": "/design/human-interface-guidelines/color", "law": "The following guidelines can help you use color in ways that people appreciate, regardless of whether you use system-defined or custom colors."}
+{"id": "/design/human-interface-guidelines/color", "law": "Avoid using the same color to mean different things."}
+{"id": "/design/human-interface-guidelines/color", "law": "Use color consistently throughout your interface, especially when you use it to help communicate information like status or interactivity."}
+{"id": "/design/human-interface-guidelines/color", "law": "For example, if you use your brand color to indicate that a borderless button is interactive, using the same or similar color to stylize noninteractive text is confusing."}
+{"id": "/design/human-interface-guidelines/color", "law": "Make sure all your app’s colors work well in light, dark, and increased contrast contexts."}
+{"id": "/design/human-interface-guidelines/color", "law": "vary subtly depending on the system appearance, adjusting to ensure proper color differentiation and contrast for text, symbols, and other elements."}
+{"id": "/design/human-interface-guidelines/color", "law": "When possible, use system colors, which already define variants for all these contexts."}
+{"id": "/design/human-interface-guidelines/color", "law": "If you define a custom color, make sure to supply light and dark variants, and an increased contrast option for each variant that provides a significantly higher amount of visual differentiation."}
+{"id": "/design/human-interface-guidelines/color", "law": "Adjust app colors to provide an optimal viewing experience in the majority of use cases."}
+{"id": "/design/human-interface-guidelines/design-principles", "law": "Prioritize your app’s most important features by aligning with how people want to use it, and focus on making those features truly great."}
+{"id": "/design/human-interface-guidelines/design-principles", "law": "Show when controls are available, indicate when content changes, and use system patterns to display alerts and offer choices."}
+{"id": "/design/human-interface-guidelines/design-principles", "law": "Keep content and controls in consistent, predictable positions, and use natural animations to ease transitions."}
+{"id": "/design/human-interface-guidelines/design-principles", "law": "Designing for as many inputs as possible — including voice, touch, keyboard, and more — means more people can use your product the way that works best for them."}
+{"id": "/design/human-interface-guidelines/design-principles", "law": "Think about your overall aesthetic: Some designs benefit from a carefully considered practical touch, while others might prefer some whimsy."}
+{"id": "/design/human-interface-guidelines/design-principles", "law": "It’s the culmination of everything a person experiences as they use it: the freedom to act, the safety to explore, the comfort of familiar metaphors, and the flexibility to transition from one context to another."}
+{"id": "/design/human-interface-guidelines/designing-for-macos", "law": "Use the menu bar to give people easy access to all the commands they need to do things in your app."}
+{"id": "/design/human-interface-guidelines/designing-for-macos", "law": "Support personalization, letting people customize toolbars, configure windows to display the views they use most, and choose the colors and fonts they want to see in the interface."}
+{"id": "/design/human-interface-guidelines/inputs", "law": "Learn about the various methods people use to control your app or game and enter data."}
+{"id": "/design/human-interface-guidelines/layout", "law": "People expect familiar relationships between controls and content to help them use and discover your app’s features, and designing the layout to take advantage of this makes your app feel at home on the platform."}
+{"id": "/design/human-interface-guidelines/layout", "law": "For example, you might use negative space, background shapes, colors, materials, or separator lines to show when elements are related and to separate information into distinct areas."}
+{"id": "/design/human-interface-guidelines/layout", "law": "When you do so, ensure that content and controls remain clearly distinct."}
+{"id": "/design/human-interface-guidelines/layout", "law": "Also ensure that scrollable layouts continue all the way to the bottom and the sides of the device screen."}
+{"id": "/design/human-interface-guidelines/layout", "law": "When your content doesn’t span the full window, use a background extension view to provide the appearance of content behind the control layer on either side of the screen, such as beneath the sidebar or inspector."}
+{"id": "/design/human-interface-guidelines/layout", "law": "Instead of a background, use a scroll edge effect to provide a transition between content and the control area."}
+{"id": "/design/human-interface-guidelines/layout", "law": "Make controls easier to use by providing enough space around them and grouping them in logical sections."}
+{"id": "/design/human-interface-guidelines/layout", "law": "If unrelated controls are too close together — or if other content crowds them — they can be difficult for people to tell apart or understand what they do, which can make your app or game hard to use."}
+{"id": "/design/human-interface-guidelines/layout", "law": "Using SwiftUI or Auto Layout can help you ensure that your interface adapts dynamically to these traits and other context changes; if you don’t use these tools, you need to use alternative methods to do the work."}
+{"id": "/design/human-interface-guidelines/layout", "law": "You can help ensure an adaptable interface by respecting system-defined safe areas, margins, and guides (where available) and specifying layout modifiers to fine-tune the placement of views in your interface."}
+{"id": "/design/human-interface-guidelines/materials", "law": "Don’t use Liquid Glass in the content layer."}
+{"id": "/design/human-interface-guidelines/materials", "law": "Use Liquid Glass effects sparingly."}
+{"id": "/design/human-interface-guidelines/materials", "law": "Only use clear Liquid Glass for components that appear over visually rich backgrounds."}
+{"id": "/design/human-interface-guidelines/materials", "law": "The appearance of these variants can differ in response to certain system settings, like if people choose a preferred look for Liquid Glass in their device’s settings, or turn on accessibility settings that reduce transparency or increase contrast in the interface."}
+{"id": "/design/human-interface-guidelines/materials", "law": "Use the regular variant when background content might create legibility issues, or when components have a significant amount of text, such as alerts, sidebars, or popovers."}
+{"id": "/design/human-interface-guidelines/materials", "law": "For optimal contrast and legibility, determine whether to add a dimming layer behind components with clear Liquid Glass: If the underlying content is bright, consider adding a dark dimming layer of 35% opacity."}
+{"id": "/design/human-interface-guidelines/materials", "law": "If the underlying content is sufficiently dark, or if you use standard media playback controls from AVKit that provide their own dimming layer, you don’t need to apply a dimming layer."}
+{"id": "/design/human-interface-guidelines/materials", "law": "For guidance about the use of color, see ."}
+{"id": "/design/human-interface-guidelines/materials", "law": "Use standard materials and effects — such as , , and — to convey a sense of structure in the content beneath Liquid Glass."}
+{"id": "/design/human-interface-guidelines/materials", "law": "Choose materials and effects based on semantic meaning and recommended usage."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Menus are ubiquitous in apps and games, so most people already know how to use them."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Whether you use system-provided components or custom ones, people expect menus to behave in familiar ways."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Several system-provided components also include menus that support specific use cases."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Depending on menu layout, an iOS, iPadOS, or visionOS app can display a few unlabeled menu items that use only symbols or icons to identify them."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Append an ellipsis to a menu item’s label when the action requires more information before it can complete."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Using standard icons makes your app easier to use and more familiar."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Use menu item icons sparingly and with purpose."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Use an icon to highlight the most common actions and key features of your app, file system locations, connected devices, visual concepts like rotating or flipping an image, and user-generated content like folders and documents."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Don’t display an icon if you can’t find one that clearly represents the menu item."}
+{"id": "/design/human-interface-guidelines/menus", "law": "Organizing menu items in ways that reflect how people use your app or game can make your experience feel straightforward and easy to use."}
+{"id": "/design/human-interface-guidelines/scroll-views", "law": "If you use the soft scroll edge effect style instead, thoroughly test your interface to ensure your controls maintain legibility in a variety of contexts."}
+{"id": "/design/human-interface-guidelines/scroll-views", "law": "They don’t block or darken like overlays; they exist to ensure controls stay visually distinct."}
+{"id": "/design/human-interface-guidelines/scroll-views", "law": "If you show a page control with a scroll view, don’t show the scrolling indicator on the same axis to avoid confusing people with redundant controls."}
+{"id": "/design/human-interface-guidelines/scroll-views", "law": "Be sure to use the same size for all controls in such a panel."}
+{"id": "/design/human-interface-guidelines/scroll-views", "law": "Look to Scroll works in conjunction with existing behavior, so someone can choose whether to use a gesture or their eyes to scroll."}
+{"id": "/design/human-interface-guidelines/scroll-views", "law": "In general, support standard gestures — but not Look to Scroll — in views that contain UI controls or dense information that requires quick, precise scrolling."}
+{"id": "/design/human-interface-guidelines/scroll-views", "law": "Custom effects that use scroll position to change content, such as parallax effects and animations, can cause Look to Scroll to behave unexpectedly."}
+{"id": "/design/human-interface-guidelines/search-fields", "law": "You can place search as a tab in a tab bar, which keeps search visible and always available as people switch between the sections of your app."}
+{"id": "/design/human-interface-guidelines/search-fields", "law": "A dedicated area also ensures search is always available as people navigate and switch sections of your app."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "For many apps, you don’t need to choose between a tab bar or sidebar for navigation; instead, you can adopt a style of tab bar that provides both."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "provides a wide range of customizable symbols you can use to represent items in your app."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "If you need to use a custom icon, consider creating a rather than using a bitmap image."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "For example, in iPadOS, people expect to use the built-in edge swipe gesture; in macOS, you can include a show/hide button or add Show Sidebar and Hide Sidebar commands to your app’s View menu."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "Make sure any sidebar icon colors you choose serve a clear purpose."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "By default, sidebar icons use your app’s ."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "When they do this, they expect all sidebar icons to appear in that color, so make sure your sidebar icons display the color people choose."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "However, if you use them sparingly, fixed colors can help clarify the meaning of an icon or draw attention to it."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "When you use the style of tab view to present a sidebar, you choose whether to display a sidebar or a tab bar when your app opens."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "Both variations include a button that people can use to switch between them."}
+{"id": "/design/human-interface-guidelines/siri", "law": "For example, when someone refers to parts of your app’s content (like buttons or onscreen graphics) during a Siri conversation, Siri can use the annotations your app provides to understand what the person means."}
+{"id": "/design/human-interface-guidelines/siri", "law": "Use appropriate language and respect parental controls."}
+{"id": "/design/human-interface-guidelines/siri", "law": "Many families use parental controls to restrict explicit content and other material that’s based on specific rating levels."}
+{"id": "/design/human-interface-guidelines/snippets", "law": "By contrast, a result snippet provides information — possibly as the outcome of a confirmation — that doesn’t require further action."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Use font sizes that most people can read easily."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Follow the recommended default and minimum text sizes for each platform — for both custom and system fonts — to ensure your text is legible on all devices."}
+{"id": "/design/human-interface-guidelines/typography", "law": "If you use a custom font with a thin weight, aim for larger than the recommended sizes to increase legibility."}
+{"id": "/design/human-interface-guidelines/typography", "law": "In general, avoid light font weights."}
+{"id": "/design/human-interface-guidelines/typography", "law": "For example, if you’re using system-provided fonts, prefer Regular, Medium, Semibold, or Bold font weights, and avoid Ultralight, Thin, and Light font weights, which can be difficult to see, especially when text is small."}
+{"id": "/design/human-interface-guidelines/typography", "law": "The system also offers SF Pro, SF Compact, SF Arabic, SF Armenian, SF Georgian, and SF Hebrew in rounded variants you can use to coordinate text with the appearance of soft or rounded UI elements, or to provide an alternative typographic voice."}
+{"id": "/design/human-interface-guidelines/typography", "law": "With dynamic optical sizes, you don’t need to use discrete optical sizes unless you’re working with a design tool that doesn’t support all the features of the variable font format."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Because SF Symbols use equivalent weights, you can achieve precise weight matching between symbols and adjacent text, regardless of the size or style you choose."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Taken together, the text styles form a typographic hierarchy you can use to express the different levels of importance in your content."}
+{"id": "/design/human-interface-guidelines/typography", "law": "You can also use symbolic traits to adjust leading if you need to improve readability or conserve space."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "You can use a symbol to convey an object or concept wherever interface icons can appear, such as in toolbars, tab bars, context menus, and within text."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "Be sure to understand the terms and conditions for using SF Symbols, including the prohibition against using symbols — or images that are confusingly similar — in app icons, logos, or any other trademarked use."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "For example, you might want to use multiple opacities of your app’s accent color to give symbols depth and emphasis, or specify a palette of contrasting colors to display symbols that coordinate with various color schemes."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "Specifying only two colors for a symbol that defines three levels of hierarchy means the secondary and tertiary layers use the same color."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "You can use the automatic setting to get a symbol’s preferred rendering mode, but it’s still a good idea to check the results for places where a different rendering mode might improve a symbol’s legibility."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "You can use gradients across all rendering modes for both system and custom colors and for custom symbols."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "For example, you could use variable color with the symbol to communicate three different ranges of sound — plus the state where there’s no sound — by mapping the layers that represent the curved wave paths to different ranges of decibel values."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "Use variable color to communicate change — don’t use it to communicate depth."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "To convey depth and visual hierarchy, use Hierarchical rendering mode to elevate certain layers and distinguish foreground and background elements in a symbol."}
+{"id": "/design/Human-Interface-Guidelines/sf-symbols", "law": "For example, you could use the slash variant of a symbol to show that an item or action is unavailable, or use the fill variant to indicate selection."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "An accessible interface allows people to experience your app or game regardless of their capabilities or how they use their devices."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "Your interface adapts to how people want to use their device, whether by supporting system accessibility features or letting people personalize settings."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "Use to highlight accessibility issues with your interface and to understand how your app represents itself to people using system accessibility features."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "The people who use your interface may be blind, color blind, or have low vision or light sensitivity."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "Make sure people can adjust the size of your text or icons to make them more legible, visible, and comfortable to read."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "Use recommended defaults for custom type sizes."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "If you’re using a custom font with a thin weight, aim for larger than the recommended sizes to increase legibility."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "Strive to meet color contrast minimum standards."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "To ensure all information in your app is legible, it’s important that there’s enough contrast between foreground text and icons and background colors."}
+{"id": "/design/Human-Interface-Guidelines/accessibility", "law": "Use standard contrast calculators to ensure your UI meets acceptable levels."}
+{"id": "/design/Human-Interface-Guidelines/spatial-layout", "law": "For example, using depth to make a button’s symbol stand out from its background can make the button less legible and harder to use."}
+{"id": "/design/Human-Interface-Guidelines/spatial-layout", "law": "In contrast, making a direct gesture requires people to touch the virtual object with their finger, which can be tiring, especially when the object is positioned at or above their line of sight."}
+{"id": "/design/Human-Interface-Guidelines/spatial-layout", "law": "In visionOS, people use indirect gestures to perform the standard gestures they already know."}
+{"id": "/design/Human-Interface-Guidelines/spatial-layout", "law": "When you prioritize indirect gestures, people can use them to interact with any object they look at, whatever its distance."}
+{"id": "/design/Human-Interface-Guidelines/spatial-layout", "law": "Also, don’t let controls overlap other interactive elements or views, because doing so can make selecting a single element difficult."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "Dedicated to one experience, an auxiliary window doesn’t allow navigation to other app areas, and it typically includes a button people use to close it after completing the task."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "Avoid making custom window frames or controls, and don’t try to replicate the system-provided appearance."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "Make sure window controls don’t overlap toolbar items."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "Consider letting people use a gesture to open content in a new window."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "For example, people can use the pinch gesture to expand a Notes item into a new window."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "For example, the key window uses color in the title bar options for closing, minimizing, and zooming; inactive windows and main windows that aren’t key use gray in these options."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "Also, inactive windows don’t use (an effect that can pull color into a window from the content underneath it), which makes them appear subdued and seem visually farther away than the main and key windows."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "Some windows — typically, panels like Colors or Fonts — become the key window only when people click the window’s title bar or a component that requires keyboard input, such as a text field."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "Make sure custom windows use the system-defined appearances."}
+{"id": "/design/Human-Interface-Guidelines/windows", "law": "When you use system-provided components, a window’s background and button appearances update automatically when the window changes state; if you use custom implementations, you need to do this work yourself."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "Use a tab bar to support navigation, not to provide actions."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "If you need to provide controls that act on elements in the current view, use a instead."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "Make sure the tab bar is visible when people navigate to different sections of your app."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "Don’t disable or hide tab bar buttons, even when their content is unavailable."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "When you use , tab bar icons automatically adapt to different contexts."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "Prefer filled symbols or icons for consistency with the platform."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "Avoid applying a similar color to tab labels and content layer backgrounds."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "If your app already has bright, colorful content in the content layer, prefer a monochromatic appearance for tab bars, or choose an accent color with sufficient visual differentiation."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "To present a sidebar without the option to convert it to a tab bar, use a instead of a tab view."}
+{"id": "/design/Human-Interface-Guidelines/tab-bars", "law": "Prefer a tab bar for navigation."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "Use font sizes that most people can read easily."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "Follow the recommended default and minimum text sizes for each platform — for both custom and system fonts — to ensure your text is legible on all devices."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "If you use a custom font with a thin weight, aim for larger than the recommended sizes to increase legibility."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "In general, avoid light font weights."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "For example, if you’re using system-provided fonts, prefer Regular, Medium, Semibold, or Bold font weights, and avoid Ultralight, Thin, and Light font weights, which can be difficult to see, especially when text is small."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "The system also offers SF Pro, SF Compact, SF Arabic, SF Armenian, SF Georgian, and SF Hebrew in rounded variants you can use to coordinate text with the appearance of soft or rounded UI elements, or to provide an alternative typographic voice."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "With dynamic optical sizes, you don’t need to use discrete optical sizes unless you’re working with a design tool that doesn’t support all the features of the variable font format."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "Because SF Symbols use equivalent weights, you can achieve precise weight matching between symbols and adjacent text, regardless of the size or style you choose."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "Taken together, the text styles form a typographic hierarchy you can use to express the different levels of importance in your content."}
+{"id": "/design/Human-Interface-Guidelines/typography", "law": "You can also use symbolic traits to adjust leading if you need to improve readability or conserve space."}
+{"id": "/design/Human-Interface-Guidelines/offering-help", "law": "For example, don’t write copy that tells people to click a button on an iPhone or tap a menu item on a Mac."}
+{"id": "/design/Human-Interface-Guidelines/offering-help", "law": "If your experience introduces a unique control or expects people to use an input device in a nonstandard way — such as holding the Siri Remote rotated 90 degrees — orient people quickly, preferring animation or graphics to educate instead of a lengthy description."}
+{"id": "/design/Human-Interface-Guidelines/offering-help", "law": "Use parameter-based or event-based eligibility rules to control when a tip appears, and only display a tip if someone might benefit from its use."}
+{"id": "/design/Human-Interface-Guidelines/offering-help", "law": "If there’s an image or symbol that people associate with the feature, consider including it in the tip, and prefer the filled variant."}
+{"id": "/design/Human-Interface-Guidelines/offering-help", "law": "Use buttons to direct people to information or options."}
+{"id": "/design/Human-Interface-Guidelines/offering-help", "law": "When people want to know how to use a specific control, they don’t want to learn how to use nearby controls or how to perform a larger task."}
+{"id": "/design/Human-Interface-Guidelines/offering-help", "law": "It often works well to begin the description with a verb — for example, “Restore default settings” or “Add or remove a language from the list.” In general, avoid repeating a control’s name in its tooltip."}

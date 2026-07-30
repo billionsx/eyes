@@ -85,3 +85,6 @@
 {"id": "/documentation/swiftui/contentsizecategory", "sha": "f25006590580a1bd63f5951925bae08c6c80672cf45c85718a93ea5865b61c62", "t": "ContentSizeCategory", "n": 677, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/view/toolbar(_:for:)", "sha": "d255437cd3fc7bc75eb9d63ce778020be59a3cc34785932ed380d0699f1bc7b8", "t": "toolbar(_:for:)", "n": 683, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/view/windowminimizebehavior(_:)", "sha": "086f6415f51186579a8acf70cfd994d5d1104071ad25f5a764e83ad33981f077", "t": "windowMinimizeBehavior(_:)", "n": 500, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/watchkit/wkapplicationdelegate/handle(_:completionhandler:)", "sha": "2ddfb3d3eb9f9c574c0a99127dbe6d4fe355fa3074213ba47438f3a9de518c83", "t": "handle(_:completionHandler:)", "n": 215, "laws": 0, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/scenekit/scnnode/removefromparentnode()", "sha": "fa8f1dab4c42944b152ec005975e9b1986c9967c98f73a1af464cf9709551332", "t": "removeFromParentNode()", "n": 464, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/uikit/nsdiffabledatasourcesnapshot-swift.struct/deleteitems(_:)", "sha": "c9982b33c7b69fba44ccfe4cad1d42887583f7d3bb1b1cb33e079e53ceb03c04", "t": "deleteItems(_:)", "n": 67, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

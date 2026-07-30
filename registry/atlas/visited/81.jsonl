@@ -95,3 +95,10 @@
 {"id": "/documentation/swiftui/keyframetrack/init(_:content:)", "sha": "8e6c59e60a111d3f5baae3b5b54016bc8a42d780d9074086ecdcfa522e1d2eeb", "t": "init(_:content:)", "n": 87, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/windowproxy", "sha": "495deb2a18edd94597721869ab98859de6fc6bd5181cbfd960f017b8a8817ac4", "t": "WindowProxy", "n": 74, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
 {"id": "/documentation/swiftui/tabsection/init(content:)", "sha": "dbe60b79f58b911eda06fbd3a76fbadd2772c01e9419dbe5c8382901684ff97a", "t": "init(content:)", "n": 52, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/scenekit/scngeometry/elementcount", "sha": "b2fd645fdc2b005628dc46af28360f1bf5ca7575a12bfb387dc0744090212c7e", "t": "elementCount", "n": 344, "laws": 1, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scnlight/attenuationenddistance", "sha": "414ec9a2f5d23e6493565ec92ea4b5f28aeb475bdd3d0d6ae53fcbfadc4d3c10", "t": "attenuationEndDistance", "n": 703, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/islitperpixel", "sha": "260520e9ecee19f42674045270aec02c15723cf3bd92b20bee2f09713b01c037", "t": "isLitPerPixel", "n": 895, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particleangle", "sha": "6dc44fc41844fc7e62b5006747c8d52d93397bcfa91a30bec6ebe823d6723614", "t": "particleAngle", "n": 700, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/scenekit/scnscene/attribute(forkey:)", "sha": "48ed1287d7a67ffc660c8f5d42eab1bc15086daa3b03d7e793b9bf6b310d8ed6", "t": "attribute(forKey:)", "n": 141, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scene-source-properties", "sha": "22512f6c6703a7eeb6e102460e65521bedea374aaab18324ff3af43be1c1969e", "t": "Scene Source Properties", "n": 251, "laws": 0, "ts": "2026-07-30 19:03 UTC"}
+{"id": "/documentation/uikit/uilayoutguide/centerxanchor", "sha": "a441dd0a8f3f4b2b2b1cf5cc2e298f66ad5554fd21876f37e96945aae4eea616", "t": "centerXAnchor", "n": 255, "laws": 1, "ts": "2026-07-30 19:08 UTC"}

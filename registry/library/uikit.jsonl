@@ -2455,3 +2455,103 @@
 {"id": "/documentation/uikit/uikeycommand/commandwithtitle:image:action:input:modifierflags:propertylist:", "law": "Creates a key command that you can use as a menu element with a shortcut key, or a shortcut key only for a view controller."}
 {"id": "/documentation/uikit/uikeycommand/commandwithtitle:image:action:input:modifierflags:propertylist:alternates:", "law": "Creates a key command with alternatives that you can use as a menu element with a shortcut key, or a shortcut key only for a view controller."}
 {"id": "/documentation/uikit/uikeycommand/init(title:image:action:input:modifierflags:propertylist:alternates:discoverabilitytitle:attributes:state:)", "law": "Creates a key command that you can use as a menu element with a shortcut key, or a shortcut key only for a view controller."}
+{"id": "/documentation/uikit/uimenubuilder/remove(menu:)", "law": "Use this method to remove menus ( objects) from a menu system."}
+{"id": "/documentation/uikit/uimenubuilder/replacechildren(ofmenu:from:)", "law": "Use this method to add, remove, and rearrange the children elements of a menu."}
+{"id": "/documentation/uikit/uimenubuilder/system", "law": "Always check the property to determine which menu system the builder is modifying before you add and remove menus."}
+{"id": "/documentation/uikit/uilayoutguide/bottomanchor", "law": "Use this anchor to create constraints with the layout guide’s bottom edge."}
+{"id": "/documentation/uikit/uilayoutguide/topanchor", "law": "Use this anchor to create constraints with the layout guide’s top edge."}
+{"id": "/documentation/uikit/nslayoutdimension", "law": "Use these constraints to programmatically define your layout using Auto Layout."}
+{"id": "/documentation/uikit/uifocusguide", "law": "The header file, including its related classes and its protocol, creates a single high-level software interface for controlling focus in apps that use focus-based input."}
+{"id": "/documentation/uikit/uilayoutguide/centerxanchor", "law": "Use this anchor to create constraints with the layout guide’s horizontal center."}
+{"id": "/documentation/uikit/uilayoutguide/centeryanchor", "law": "Use this anchor to create constraints with the layout guide’s vertical center."}
+{"id": "/documentation/uikit/uilayoutguide/heightanchor", "law": "Use this anchor to create constraints with the layout guide’s height."}
+{"id": "/documentation/uikit/uilayoutguide/identifier", "law": "You can also use the identifier to find a particular layout guide from among the guides owned by a view."}
+{"id": "/documentation/uikit/uilayoutguide/leadinganchor", "law": "Use this anchor to create constraints with the layout guide’s leading edge."}
+{"id": "/documentation/uikit/uilayoutguide/leftanchor", "law": "Use this anchor to create constraints with the layout guide’s left edge."}
+{"id": "/documentation/uikit/uilayoutguide/owningview", "law": "To participate in Auto Layout, the layout guide must be added to a view by calling its method."}
+{"id": "/documentation/uikit/uilayoutguide/rightanchor", "law": "Use this anchor to create constraints with the layout guide’s right edge."}
+{"id": "/documentation/uikit/uilayoutguide/trailinganchor", "law": "Use this anchor to create constraints with the layout guide’s trailing edge."}
+{"id": "/documentation/uikit/uilayoutguide/widthanchor", "law": "Use this anchor to create constraints with the layout guide’s width."}
+{"id": "/documentation/uikit/nslayoutconstraint", "law": "However, if you switch the order, you must also invert the multiplier and constant."}
+{"id": "/documentation/uikit/nslayoutconstraint", "law": "After solving for the required constraints, Auto Layout tries to solve all the optional constraints in priority order from highest to lowest."}
+{"id": "/documentation/uikit/nslayoutconstraint", "law": "The relationship between two user interface objects that must be satisfied by the constraint-based layout system."}
+{"id": "/documentation/uikit/uidraganimating", "law": "You can use a object to animate your own changes to the preview displayed during system-provided drag and drop animations."}
+{"id": "/documentation/uikit/uiaccessibilitycontentsizecategoryimageadjusting", "law": "Objects adopt this protocol when they support scaling image assets to the size required by the accessibility content size categories."}
+{"id": "/documentation/uikit/uiaccessibilitycontentsizecategoryimageadjusting", "law": "Typically, an object sets the property to only when its image contains vector data that can scale well to the larger sizes required for accessibility."}
+{"id": "/documentation/uikit/uiimage/animatedimage(with:duration:)", "law": "All images included in the animated image should share the same size and scale."}
+{"id": "/documentation/uikit/uiimageview/animationduration", "law": "The default value of this property is , which causes the image view to use a duration equal to the number of images multiplied by 1/30th of a second."}
+{"id": "/documentation/uikit/uiimageview/animationimages", "law": "An array of objects to use for an animation."}
+{"id": "/documentation/uikit/uiimageview/focusedframeguide", "law": "The layout guide to use when the image view is focused."}
+{"id": "/documentation/uikit/uiimageview/highlightedanimationimages", "law": "An array of objects to use for an animation when the view is highlighted."}
+{"id": "/documentation/uikit/uiimageview/ishighlighted", "law": "When is set to , a non-animated image will use the property and an animated image will use the ."}
+{"id": "/documentation/uikit/uiimageview/overlaycontentview", "law": "Add your subviews and use layout constraints to position them within the view."}
+{"id": "/documentation/uikit/uiimageview/preferredsymbolconfiguration", "law": "Use this property to configure the point size, text style, weight, or scale of a symbol image."}
+{"id": "/documentation/uikit/uiimageview/startanimating()", "law": "This method always starts the animation from the first image in the list."}
+{"id": "/documentation/uikit/uitableviewdropcoordinator/drop(_:torowat:)", "law": "Use this method to animate the dragged item to the specific location in the table view."}
+{"id": "/documentation/uikit/uitableviewdatasource/tableview(_:commit:forrowat:)", "law": "To enable the swipe-to-delete feature of table views (wherein a user swipes horizontally across a row to display a Delete button), you must implement this method."}
+{"id": "/documentation/uikit/allowing-the-simultaneous-recognition-of-multiple-gestures", "law": "Learn how to use a delegate object to allow detection of more than one gesture at a time."}
+{"id": "/documentation/uikit/handling-long-press-gestures", "law": "You configure the minimum duration required to recognize the press and the number of times the fingers must be touching the screen."}
+{"id": "/documentation/uikit/handling-long-press-gestures", "law": "(The gesture recognizer is triggered only by the duration of the touches and not by the force associated with them.) You might use a long-press gesture to initiate an action on the object being pressed."}
+{"id": "/documentation/uikit/handling-long-press-gestures", "law": "For example, you might use it to display a context-sensitive menu."}
+{"id": "/documentation/uikit/handling-long-press-gestures", "law": "After a person’s fingers have touched the screen for the minimum amount of time, a long-press gesture recognizer enters the state."}
+{"id": "/documentation/uikit/handling-long-press-gestures", "law": "Detect extended duration taps on the screen, and use them to reveal contextually relevant content."}
+{"id": "/documentation/uikit/handling-pan-gestures", "law": "Use the class for pan gestures and the class for screen-edge pan gestures."}
+{"id": "/documentation/uikit/handling-pan-gestures", "law": "Use pan gesture recognizers for tasks that require you to track the movement of the person’s fingers onscreen."}
+{"id": "/documentation/uikit/handling-pan-gestures", "law": "You might use a pan gesture recognizer to drag objects around in your interface or update their appearance based on the position of the person’s finger."}
+{"id": "/documentation/uikit/handling-pan-gestures", "law": "A pan gesture recognizer enters the state as soon as the required amount of initial movement is achieved."}
+{"id": "/documentation/uikit/handling-pan-gestures", "law": "To simplify tracking, use the pan gesture recognizer’s method to get the distance that the person’s finger has moved from the original touch location."}
+{"id": "/documentation/uikit/handling-pinch-gestures", "law": "Use the class to detect pinch gestures."}
+{"id": "/documentation/uikit/handling-pinch-gestures", "law": "For example, map views use pinch gestures to change the zoom level of the map."}
+{"id": "/documentation/uikit/handling-rotation-gestures", "law": "Use the class to detect rotation gestures."}
+{"id": "/documentation/uikit/handling-rotation-gestures", "law": "Use a rotation gesture recognizer when you want to use rotational movements as input to your app."}
+{"id": "/documentation/uikit/handling-rotation-gestures", "law": "For example, you might use them to rotate a view or update the value of a custom control."}
+{"id": "/documentation/uikit/handling-rotation-gestures", "law": "Measure the relative rotation of two fingers on the screen, and use that motion to rotate your content."}
+{"id": "/documentation/uikit/handling-swipe-gestures", "law": "Use the class to detect swipe gestures."}
+{"id": "/documentation/uikit/handling-swipe-gestures", "law": "(The direction and number of fingers required for the gesture are configurable.) Swipe gestures are discrete, so your action method is called only after the gesture ends successfully."}
+{"id": "/documentation/uikit/handling-swipe-gestures", "law": "Because swipes are discrete, use them only for flicks or quick panning gestures where the resulting action is understood."}
+{"id": "/documentation/uikit/handling-swipe-gestures", "law": "You use a method like this to perform a task when the gesture is recognized."}
+{"id": "/documentation/uikit/handling-swipe-gestures", "law": "Detect a horizontal or vertical swipe motion on the screen, and use it to trigger navigation through your content."}
+{"id": "/documentation/uikit/handling-tap-gestures", "law": "The fingers involved in these gestures must not move significantly from the initial touch points, and you can configure the number of times the fingers must touch the screen."}
+{"id": "/documentation/uikit/handling-tap-gestures", "law": "You can configure a tap gesture recognizer to require any number of taps — for example, single taps or double taps — before your action method is called."}
+{"id": "/documentation/uikit/handling-tap-gestures", "law": "Always check the gesture recognizer’s property before taking any actions, even for a discrete gesture recognizer."}
+{"id": "/documentation/uikit/handling-tap-gestures", "law": "Use brief taps on the screen to implement button-like interactions with your content."}
+{"id": "/documentation/uikit/uigesturerecognizer/state-swift.property", "law": "If, however, they receive a cancellation touch, they should transition to ."}
+{"id": "/documentation/uikit/uipreviewinteractiondelegate", "law": "You should use this method to cancel any UI transitions currently in progress."}
+{"id": "/documentation/uikit/about-the-gesture-recognizer-state-machine", "law": "Gesture recognizers are driven by a state machine, which UIKit uses to ensure the proper handling of events."}
+{"id": "/documentation/uikit/about-the-gesture-recognizer-state-machine", "law": "A gesture recognizer always starts in the state, which indicates that it is ready to start processing events."}
+{"id": "/documentation/uikit/about-the-gesture-recognizer-state-machine", "law": "When events do not match your intended gesture, change the state to as soon as you detect the failure."}
+{"id": "/documentation/uikit/about-the-gesture-recognizer-state-machine", "law": "(Always set the gesture recognizer’s property to for each new event, even if the property is already set to that value."}
+{"id": "/documentation/uikit/about-the-gesture-recognizer-state-machine", "law": "Implement the method and use it to return your gesture recognizer to its initial configuration."}
+{"id": "/documentation/uikit/about-the-gesture-recognizer-state-machine", "law": "For example, use this method to return your gesture recognizer’s custom properties to their starting values."}
+{"id": "/documentation/uikit/uigesturerecognizer/state-swift.enum", "law": "Gesture recognizers recognize a discrete event such as a tap or a swipe but don’t report changes within the gesture."}
+{"id": "/documentation/uikit/uigesturerecognizer/state-swift.enum", "law": "In other words, discrete gestures don’t transition through the Began and Changed states and they can’t fail or be canceled."}
+{"id": "/documentation/uikit/uipangesturerecognizer/maximumnumberoftouches", "law": "The maximum number of fingers that can touch the view for gesture recognition."}
+{"id": "/documentation/uikit/uipangesturerecognizer/minimumnumberoftouches", "law": "The minimum number of fingers that can touch the view for gesture recognition."}
+{"id": "/documentation/uikit/uipangesturerecognizer/translation(in:)", "law": "Apply the translation value to the state of the view when the gesture is first recognized — don’t concatenate the value each time the handler is called."}
+{"id": "/documentation/uikit/uiscreenedgepangesturerecognizer/edges", "law": "This behavior ensures that the gestures always occur from the same place in your user interface, regardless of the device’s current orientation."}
+{"id": "/documentation/uikit/uitapgesturerecognizer/buttonmaskrequired", "law": "The bit mask of the buttons the user must press for gesture recognition."}
+{"id": "/documentation/uikit/uitapgesturerecognizer/numberoftouchesrequired", "law": "The number of fingers that the user must tap for gesture recognition."}
+{"id": "/documentation/uikit/uibarappearance", "law": "However, you may also create a object, configure its properties, and use it to create new bar appearance objects in your app."}
+{"id": "/documentation/uikit/uibarbuttonitemstateappearance", "law": "Use a object to customize the title and background image of your bar button items."}
+{"id": "/documentation/uikit/uibarbuttonitemstateappearance", "law": "Instead, create a object and use its properties to fetch the appearance attributes for the button in a particular state."}
+{"id": "/documentation/uikit/uinavigationbarappearance", "law": "After creating a object, use the methods and properties of this class to specify the appearance you want for items in the navigation bar."}
+{"id": "/documentation/uikit/uinavigationbarappearance", "law": "Use the inherited properties from to configure the background and shadow attributes of the navigation bar itself."}
+{"id": "/documentation/uikit/uiscrolledgeelementcontainerinteraction", "law": "Any descendants of this view that should affect the shape of the edge effect, such as labels, images, glass views, and controls, will automatically do so."}
+{"id": "/documentation/uikit/uitabbarappearance", "law": "After creating a object, use the methods and properties of this class to specify the appearance of items in the tab bar."}
+{"id": "/documentation/uikit/uitabbarappearance", "law": "Use the inherited properties from to configure the background and shadow attributes of the tab bar itself."}
+{"id": "/documentation/uikit/uitabbaritemappearance", "law": "Use a object to customize the appearance of a tab bar item in each of its possible states."}
+{"id": "/documentation/uikit/uitabbaritemstateappearance", "law": "Use a object to customize the appearance of your tab bar items and the badges they display."}
+{"id": "/documentation/uikit/uitabbaritemstateappearance", "law": "Instead, create a object and use its properties to fetch the appearance attributes for tab bar items in a particular state."}
+{"id": "/documentation/uikit/uitoolbarappearance", "law": "After creating a object, use the methods and properties of this class to specify the appearance of items in the toolbar."}
+{"id": "/documentation/uikit/uitoolbarappearance", "law": "Use the inherited properties from to configure the background and shadow attributes of the toolbar itself."}
+{"id": "/documentation/uikit/choosing-a-specific-interface-style-for-your-ios-app", "law": "Setting this key to causes the system to ignore the user’s preference and always apply a light appearance to your app."}
+{"id": "/documentation/uikit/choosing-a-specific-interface-style-for-your-ios-app", "law": "Use the key to opt out only temporarily while you work on improvements to your app’s Dark Mode support."}
+{"id": "/documentation/uikit/uitraitenvironment/traitcollectiondidchange(_:)", "law": "At the beginning of your implementation, call to ensure that interface elements higher in the view hierarchy have an opportunity to adjust their layout first."}
+{"id": "/documentation/uikit/uideferredmenuelement/init(_:)", "law": "You can use to initialize a deferred menu element without caching."}
+{"id": "/documentation/uikit/uideferredmenuelement/uncached(_:)", "law": "When you use this initializer, the system calls each deferred element’s completion closure every time it encounters the element in a menu."}
+{"id": "/documentation/uikit/uimenuelement/highlightstateupdatehandler", "law": "Use this handler to update your app’s UI in response to the user’s attention on a menu element, such as showing a preview of the action’s effect while the user considers the option."}
+{"id": "/documentation/uikit/uimenuelement/attributes/destructive", "law": "When you use this attribute, the menu system displays the menu element in a more prominent style, such as with red text."}
+{"id": "/documentation/uikit/uimenuelement/attributes/disabled", "law": "When you use this attribute, the user can’t select the menu element."}
+{"id": "/documentation/uikit/uimenuelement/attributes/hidden", "law": "When you use this attribute, the menu system doesn’t display the menu element."}
+{"id": "/documentation/uikit/uimenuelement/attributes/keepsmenupresented", "law": "Use this attribute to allow a person to perform a menu action multiple times without dismissing the menu in between."}
+{"id": "/documentation/uikit/uimenuleaf/presentationsourceitem", "law": "Use this property to specify where to anchor popovers when a person taps the menu element, like in the following code."}

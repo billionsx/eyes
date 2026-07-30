@@ -89,3 +89,10 @@
 {"id": "/documentation/swiftui/emptyvisualeffect", "sha": "0d7a8d488ea9ae94a5a71cfb7ba6d662ab6b894f1001b10a88dacd67ed46aa4d", "t": "EmptyVisualEffect", "n": 180, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/view/labelreservediconwidth(_:)", "sha": "63db4707d6d3f5c84f2d2ddbe9327249c5fbc936d8dc5b0acc08c0a05cf8a100", "t": "labelReservedIconWidth(_:)", "n": 262, "laws": 1, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/swiftui/formstyleconfiguration", "sha": "9865082ea3abc3e7b0fc196727bc5e56b2267778f0977bb3c0f877ea025a20e4", "t": "FormStyleConfiguration", "n": 108, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/design/human-interface-guidelines/color", "sha": "9ddfc8c66030648851da9b7677dd9c4231eaa945d7c0ba2de0d675506f7ceee3", "t": "Color", "n": 14363, "laws": 10, "ts": "2026-07-30 18:41 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevice/isbatterymonitoringenabled", "sha": "8346c84f3adf4ee9f7bd6d5fe427cf7cd7327e1cf99d1372e519fbc48a3746ce", "t": "isBatteryMonitoringEnabled", "n": 217, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevice/layoutdirection", "sha": "f9400d045557609fc2dbc4441d119ed44c910c7bbf023ff8fee8d2f8bd4a6a94", "t": "layoutDirection", "n": 94, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/scenekit/scnaction", "sha": "c27391ad3a09b18f9a680321a4c04a21e08b033bbaf64e5eedf06b50ed878038", "t": "SCNAction", "n": 4128, "laws": 1, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scnaudiosource/rate", "sha": "d1c40096bbb4a593b8782b79d71177d9460fede9ba798a034ec422ca3bf9ec79", "t": "rate", "n": 251, "laws": 1, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnnode/addparticlesystem(_:)", "sha": "dd913720dc51c65ad9e39a7531154fbab0e1716a6747e0d42509187993e99587", "t": "addParticleSystem(_:)", "n": 326, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/uikit/uidraginteractiondelegate", "sha": "dc85518466f90b41bd46dcac5bcc4677420710c1cefce3e4bf580dd817bd135f", "t": "UIDragInteractionDelegate", "n": 949, "laws": 0, "ts": "2026-07-30 19:08 UTC"}

@@ -71,3 +71,10 @@
 {"id": "/documentation/uikit/uiaxis", "sha": "13cf479d39b40693ca5fc8ace38960e62d9ab067aaffcc11e246c536002dabd0", "t": "UIAxis", "n": 117, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardhyphen", "sha": "fce8a28f91af32b5c119640a20fb749057bcd9263c61f66962dae853ba1a5a5f", "t": "UIKeyboardHIDUsage.keyboardHyphen", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
 {"id": "/documentation/swiftui/documentgroup/init(viewing:viewer:)", "sha": "2b0b59bbe9144ca986ea6442b2802cf755a67dff8604e472694ce8fbffad1b41", "t": "init(viewing:viewer:)", "n": 716, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/watchkit/wkinterfacebutton/setbackgroundimage(_:)", "sha": "98a1d0eebc40991841ff6c91fa9d0a7527932ebd57709b9d3b131ed0c180f230", "t": "setBackgroundImage(_:)", "n": 228, "laws": 1, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/watchkit/wkinterfacemap/setshowsuserheading(_:)", "sha": "cd608426b8ada9b6da6b0c0a00ed281759800ee6dfe02b916472835d977f9080", "t": "setShowsUserHeading(_:)", "n": 220, "laws": 0, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/scenekit/scnnode/camera", "sha": "9aff7b07808ea4ac7e1ae8e57aef6f4ae5c1f143e8fba102cd33af037319f474", "t": "camera", "n": 483, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scngeometrysource/semantic-swift.property", "sha": "e94e0d15e631d7b3efb6fe38ad89fdc53f8ce577e8838dd96bfc79f0d56ed9d1", "t": "semantic", "n": 243, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnscene/scene", "sha": "5f8b24c351620849ced8d39586aaa4965811eea022c6ed0e8881dde4d41eab81", "t": "scene", "n": 207, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnscenesource/loadingoption", "sha": "61f5cce3ebd7a1e734a4998d73d488626d5545ebcb9931c0b547707a98afe14d", "t": "SCNSceneSource.LoadingOption", "n": 372, "laws": 0, "ts": "2026-07-30 19:03 UTC"}
+{"id": "/documentation/uikit/uiimageview/preferredsymbolconfiguration", "sha": "7ee3d81b33c5454d09575bf9c4708a22e149900df5c842bc7be990fd14961440", "t": "preferredSymbolConfiguration", "n": 263, "laws": 1, "ts": "2026-07-30 19:10 UTC"}

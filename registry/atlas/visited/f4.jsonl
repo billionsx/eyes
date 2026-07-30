@@ -82,3 +82,8 @@
 {"id": "/documentation/SwiftUI/FileDocument", "sha": "206a4ce60b9b3a2c432dba607cf34d65943aaa830f6083a112c05067d344a8ef", "t": "FileDocument", "n": 1363, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/environmentvalues/multilinetextalignment", "sha": "431492d222bf106718f8aa6f264d2bcf112d3dd2c403804b20aabb84b9211ac3", "t": "multilineTextAlignment", "n": 864, "laws": 1, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/gaugestyle", "sha": "dd51f813ce49e17e38d2ef4348df4b3eb0af1f8432faa3313a673d956599c59a", "t": "GaugeStyle", "n": 1054, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/WatchKit/WKTextContentType/newPassword", "sha": "14d5f8f4b3bf27c7ad88e3059804cfb1bf7d98d174f040dd7258170e7a9ec94a", "t": "newPassword", "n": 15, "laws": 0, "ts": "2026-07-30 18:42 UTC"}
+{"id": "/documentation/scenekit/scnanimatable/addanimation(_:forkey:)", "sha": "5be29092a400ec190268c1e4074df51d5d633a02e008c34e202881d776cdf7b3", "t": "addAnimation(_:forKey:)", "n": 376, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnhittestresult/simdlocalnormal", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "simdLocalNormal", "n": 0, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnlight/shadowcascadecount", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "shadowCascadeCount", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnparticlepropertycontroller/inputorigin", "sha": "25b381e58bdfdf85e171c9197975cec228bfbcaff8b950e66af5a803013840dc", "t": "inputOrigin", "n": 928, "laws": 2, "ts": "2026-07-30 18:59 UTC"}

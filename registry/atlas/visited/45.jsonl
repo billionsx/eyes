@@ -94,3 +94,11 @@
 {"id": "/documentation/swiftui/environmentvalues/opendocument", "sha": "198778f9e19c52c3dc53d8c15b59026cfae647f9fdd0566c5a6be184efee2683", "t": "openDocument", "n": 842, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/unitcurve", "sha": "0b63986b07978cbba67a243e683748db65adf37c7858be4686355b611bd936e6", "t": "UnitCurve", "n": 913, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/tabviewcustomization/tabcustomization", "sha": "929be7d0db69981b44582422d278f7db494f4743755996f2397dc029b7ee06a1", "t": "TabViewCustomization.TabCustomization", "n": 101, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/scenekit/scnaccelerationconstraint", "sha": "a5f18e70570675249096a274376bc4f455366fa57ebb72d0db9e325a2ca72b83", "t": "SCNAccelerationConstraint", "n": 103, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scncamera/bloomiterationspread", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "bloomIterationSpread", "n": 0, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnnode/presentation", "sha": "ec7335b3443ed7cd7a73d32b2ed850baf89ae444ad90f4219a86b875715395cb", "t": "presentation", "n": 1197, "laws": 3, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnscene/wantsscreenspacereflection", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "wantsScreenSpaceReflection", "n": 0, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnsceneexportprogresshandler", "sha": "3421764681020e13d5c2e9e160055589f4db749fb83d29b93bde7ca6fa941a31", "t": "SCNSceneExportProgressHandler", "n": 257, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnskinner/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:03 UTC"}
+{"id": "/documentation/uikit/uidraginteraction", "sha": "8789823bad60051435c2e2e02968cdc5a46c23298e22ab9b74eda038bf36e5ec", "t": "UIDragInteraction", "n": 476, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uiglasseffect", "sha": "b55dfdcdd81ca969a81788bcb1cd3288d27b8e94838f4b6ecd455bec26582fe4", "t": "UIGlassEffect", "n": 162, "laws": 0, "ts": "2026-07-30 19:11 UTC"}

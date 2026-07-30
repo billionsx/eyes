@@ -94,3 +94,6 @@
 {"id": "/documentation/swiftui/filedocumentreadconfiguration/file", "sha": "6bec29c038157f247db57580a974db492752fb6530e1224026542272e0d53b16", "t": "file", "n": 49, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
 {"id": "/documentation/swiftui/layoutrotationunarylayout", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "LayoutRotationUnaryLayout", "n": 0, "laws": 0, "ts": "2026-07-30 16:33 UTC"}
 {"id": "/documentation/swiftui/windowvisibilitytoggle", "sha": "6ba3a1b1d088b7ccece5dad55a5009a41070fd711036cc68e3a0cf09362e55df", "t": "WindowVisibilityToggle", "n": 605, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/scenekit/scngeometrysource/geometrysourcewithvertices:count:", "sha": "a4d61454dc13166b08933701310f486293ddb148770210e83358c61340d3702c", "t": "geometrySourceWithVertices:count:", "n": 355, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/uikit/uikeycommand/title", "sha": "b84f1286b866eb0d8bf9a78b70d714482179f7fd649e2666cb51fdc4e2e1c067", "t": "title", "n": 24, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/insertelements(_:afteraction:)", "sha": "8f74b7a6d22e7c6d20245680fe541cf9f19dd2bc7ef094c93fd183cce30bddfb", "t": "insertElements(_:afterAction:)", "n": 43, "laws": 0, "ts": "2026-07-30 19:07 UTC"}

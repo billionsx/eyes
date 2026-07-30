@@ -88,3 +88,5 @@
 {"id": "/documentation/swiftui/windowlayoutroot", "sha": "040339c2f9ea3116a7acb61ba09000ebb4965149ba9a028bbde9cb36d44a8fe8", "t": "WindowLayoutRoot", "n": 369, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
 {"id": "/documentation/swiftui/focusedobject", "sha": "fd3e5ce2278edc84085ddc89adea3dccb62b6f482758929f966be0e90c420e4b", "t": "FocusedObject", "n": 455, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
 {"id": "/documentation/swiftui/view/backgroundextensioneffect(isenabled:)", "sha": "1e556212fa75ee702710a070fb86eb5292080d4940405b4449e6cf9d9002dc81", "t": "backgroundExtensionEffect(isEnabled:)", "n": 873, "laws": 1, "ts": "2026-07-30 16:44 UTC"}
+{"id": "/documentation/scenekit/scnnode/simdposition", "sha": "5b002d4583ecb3a42cfee3fe133132cbce60032a0b244f13caab9b084a80800f", "t": "simdPosition", "n": 359, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scnscene/addparticlesystem(_:transform:)", "sha": "05912dd50cf8cf25f0bd167cf069bbf15a3a6416f90071ad792b3e1907f104ee", "t": "addParticleSystem(_:transform:)", "n": 366, "laws": 0, "ts": "2026-07-30 19:01 UTC"}

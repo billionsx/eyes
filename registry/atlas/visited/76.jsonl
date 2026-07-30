@@ -97,3 +97,8 @@
 {"id": "/documentation/swiftui/view/dragconfiguration(_:)", "sha": "466f14f426c53dda28842f6680960e146c0dd9ec4fdfe6a4201578f092e9062b", "t": "dragConfiguration(_:)", "n": 574, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
 {"id": "/documentation/swiftui/view/position(x:y:)", "sha": "ebd8eac4ca7c63185730d40542ea78cf7c323231026bc094d2e1f6283f6e46a3", "t": "position(x:y:)", "n": 289, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/view/kerning(_:)", "sha": "69bca4ad88ddd95b4533ac56f025ed97b276cee5335b9cd773cf3d9b2335f4f3", "t": "kerning(_:)", "n": 146, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/watchkit/wkaccessibilityisvoiceoverrunning()", "sha": "96a0d733611b245c891b9d296648cad32cee723e73c5ead82ca3398c17ee8be5", "t": "WKAccessibilityIsVoiceOverRunning()", "n": 448, "laws": 1, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/watchkit/wkinterfacecontroller/diddeactivate()", "sha": "7d97eb4146560a027c6b6e98c73a31cb00cf2af4d7de1959daecf9cb32f44ef0", "t": "didDeactivate()", "n": 1175, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/fresnelexponent", "sha": "0db7854d46fbbe14460e6d70fc7dca52f580b76d5ab5bcebee937a7c9dde3c52", "t": "fresnelExponent", "n": 406, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/particlesystem", "sha": "4186c4f7647d07c04b73077c4032986b560524ee47ea75b696e80872d1de1aaf", "t": "particleSystem", "n": 625, "laws": 0, "ts": "2026-07-30 19:01 UTC"}
+{"id": "/documentation/scenekit/scnscene/screenspacereflectionmaximumdistance", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "screenSpaceReflectionMaximumDistance", "n": 0, "laws": 0, "ts": "2026-07-30 19:02 UTC"}

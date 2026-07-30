@@ -87,3 +87,4 @@
 {"id": "/documentation/swiftui/scaledshape", "sha": "9076b452365ceb8b13e23f4f82f071ba25fd25a00682bcb6d284a480e72f6d2f", "t": "ScaledShape", "n": 196, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/view/searchable(text:placement:prompt:)-62e62", "sha": "c73e14190e5babfabc0952217bafaf43e4398050e4965e1ea16010ea562147df", "t": "searchable(text:placement:prompt:)", "n": 153, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
 {"id": "/documentation/swiftui/view/keyboardtype(_:)", "sha": "69ab8e53ef9eb53823cd62f5c41c0da567e224005ef7efc76a99c6b90e72c7ec", "t": "keyboardType(_:)", "n": 558, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/scenekit/scnnode/childnode(withname:recursively:)", "sha": "ffa90d29c3fd40acb1fa1cf54ce8350fca4d97dbe1610c383e11b1c0dba8b96f", "t": "childNode(withName:recursively:)", "n": 424, "laws": 0, "ts": "2026-07-30 18:50 UTC"}

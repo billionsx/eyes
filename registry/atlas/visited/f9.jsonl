@@ -83,3 +83,6 @@
 {"id": "/documentation/swiftui/spatialtapgesture/count", "sha": "27d7072c69a9cf225c8c853dc9800633a8560d64bca88c8d734630183fac9d54", "t": "count", "n": 34, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
 {"id": "/documentation/swiftui/navigationsplitviewvisibility/automatic", "sha": "89c33b84bf8c21ec94659fa478a48996d4001f0cf951a44db8b9866d42d5b3e3", "t": "automatic", "n": 152, "laws": 1, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/view/linelimit(_:reservesspace:)", "sha": "0cf73beb1237de4ca3a3d3c1d02566488aa0494f22b21511404dd73afc5c7c56", "t": "lineLimit(_:reservesSpace:)", "n": 453, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/watchkit/connecting-your-user-interface-to-your-code", "sha": "76e2153c5ebacae8e3c171f2cdfa95ecd1ebf42be81a0e075e2b8708986e59ea", "t": "Connecting Your User Interface to Your Code", "n": 3338, "laws": 3, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/watchkit/wkinterfacetextfield/settextcontenttype(_:)", "sha": "e3f0c40d7cc814a823a31aa3fe261838958532c24679de31eaa00592b9099e07", "t": "setTextContentType(_:)", "n": 541, "laws": 0, "ts": "2026-07-30 18:44 UTC"}
+{"id": "/documentation/scenekit/scnrenderer/updateprobes(_:attime:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "updateProbes(_:atTime:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:01 UTC"}

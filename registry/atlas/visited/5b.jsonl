@@ -89,3 +89,7 @@
 {"id": "/documentation/swiftui/view/windowfullscreenbehavior(_:)", "sha": "67ad67275ca8ccdbfce9721435421026a64a6a9e07f88fa350163f1acf12203e", "t": "windowFullScreenBehavior(_:)", "n": 475, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/focusedvaluekey", "sha": "da879ccb146cc8c7af019223e08d28a73e166a29003c1f7cd38b612866c44946", "t": "FocusedValueKey", "n": 473, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
 {"id": "/documentation/swiftui/view/background(_:in:fillstyle:)", "sha": "6808559689262c14a134a5321402d8f1570e0aba1feff054c5a753a45e8255e1", "t": "background(_:in:fillStyle:)", "n": 561, "laws": 0, "ts": "2026-07-30 16:44 UTC"}
+{"id": "/documentation/scenekit/scnanimatable/animationkeys", "sha": "f38a2ec7585da12a58747f41d0321d97a4fe464ba34fc31ead43c466bb46e74c", "t": "animationKeys", "n": 279, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnreferencenode/init(url:)-9w131", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(URL:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:01 UTC"}
+{"id": "/documentation/scenekit/scnscenerendererdelegate/renderer(_:didrenderscene:attime:)", "sha": "72c2a0003a254490d9c29c61dee2e38be4f2b864b26617379df214ce2398379e", "t": "renderer(_:didRenderScene:atTime:)", "n": 1049, "laws": 0, "ts": "2026-07-30 19:03 UTC"}
+{"id": "/documentation/uikit/uifocusguide", "sha": "cabf1a6cfc07a217087ccb67ba9b61bd8fdb9087d999116701a23ee2ddc2d44c", "t": "UIFocusGuide", "n": 645, "laws": 1, "ts": "2026-07-30 19:08 UTC"}

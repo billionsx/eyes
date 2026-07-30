@@ -90,3 +90,9 @@
 {"id": "/documentation/swiftui/timelineschedule", "sha": "50f06158a0c15d26aa544bb32cedcaabf31f306113221381e9e7c49a63d9a3c6", "t": "TimelineSchedule", "n": 917, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/radialgradient", "sha": "6c7874a506f2d04975cb6aa2fb3767a9df19c59c780a5282d8263af40117251a", "t": "RadialGradient", "n": 504, "laws": 1, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/swiftui/view/fontdesign(_:)", "sha": "72e7f495aaab64ba363dcdcdb66773e287df9d164b59843ba3ead15821eb3297", "t": "fontDesign(_:)", "n": 108, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/transparency", "sha": "981dfa2f84a28b8f5a8f9d3f5f6f360a5eaf48ac63f125a1b948a93bb2f8affe", "t": "transparency", "n": 476, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnnode/focusbehavior", "sha": "7b0d4069cc83191740368893458a04758bc0dec084128789032c2bbfbd6b00c4", "t": "focusBehavior", "n": 30, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scncone/bottomradius", "sha": "6b36ee21982a579d49f814b00d838cb270309ad9547069990dcf8305265c7d2b", "t": "bottomRadius", "n": 676, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
+{"id": "/documentation/uikit/uikeycommand/wantspriorityoversystembehavior", "sha": "5741f522fba60755c47b508be5610bcbf74d47f6633507e8a79faa3e0edf03ee", "t": "wantsPriorityOverSystemBehavior", "n": 903, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
+{"id": "/documentation/uikit/uidragsession", "sha": "0a982732701ad7acc112ca527af198f46e99c006bd709b4f2d53ae83c9f73fad", "t": "UIDragSession", "n": 90, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/documentation/uikit/uidropinteractiondelegate/dropinteraction(_:sessiondidenter:)", "sha": "d71019a509f1242d9616f462862bac77ef87f78ad8c4fd28dac855815665d652", "t": "dropInteraction(_:sessionDidEnter:)", "n": 79, "laws": 0, "ts": "2026-07-30 19:09 UTC"}

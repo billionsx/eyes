@@ -87,3 +87,8 @@
 {"id": "/documentation/swiftui/bindable/subscript(dynamicmember:)", "sha": "22c057752e55fcb4e33eb146b92c9c1171b28088ad58e3ec2d1188061aed51fd", "t": "subscript(dynamicMember:)", "n": 51, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/keyframesbuilder", "sha": "d3a46aec95fea97e26d6c5f227e01cf8fe37f9115c2885fd61771e34f7a13da8", "t": "KeyframesBuilder", "n": 271, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/view/windowresizebehavior(_:)", "sha": "9a5f4c3420dc2d6a89d75caa2ea4d29b7e5713b2f7f825fdf3aa28007663d573", "t": "windowResizeBehavior(_:)", "n": 479, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/scenekit/scnmaterialproperty/magnificationfilter", "sha": "9741a6b2f8dda3e9a751327d9da0581174960ef43bd79f19a8e06db748e5ef13", "t": "magnificationFilter", "n": 619, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scngeometrysource/dataoffset", "sha": "104ac018201bc3fc60215620ac1058c0b6a748103322fff6315dfa14b0b5d800", "t": "dataOffset", "n": 293, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnlight/sphericalharmonicscoefficients", "sha": "55f4b2ae9f2104e10d2aaa053f5e35dd9131c6bc00bce0735ff3770bd77f6e86", "t": "sphericalHarmonicsCoefficients", "n": 575, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/uikit/uideferredmenuelement/init(uncachedprovider:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(uncachedProvider:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/documentation/uikit/uideferredmenuelement/uncached(_:)", "sha": "e4d7d63be8c3647decd88b5ebc20ce8efb94a16987e0f56579124bfba911e938", "t": "uncached(_:)", "n": 314, "laws": 1, "ts": "2026-07-30 19:12 UTC"}

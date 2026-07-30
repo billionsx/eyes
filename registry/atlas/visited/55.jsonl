@@ -89,3 +89,12 @@
 {"id": "/documentation/swiftui/navigationsplitviewstyle", "sha": "4a1a88abac6293aed0971bc5f11e2b8c187cb2cff505ce1b813f5bd906af2fc8", "t": "NavigationSplitViewStyle", "n": 811, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/transition", "sha": "a5ebe503152ad72b61a5f3103c233102d5a75ea5d6dece87d7649d5e2c3263f0", "t": "Transition", "n": 1602, "laws": 2, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/tab/init(value:role:content:)-5jsgo", "sha": "b5c0cccd1b98f184243a0554a850395fe8a81f7d1ae7ea799b5ef64af419247e", "t": "init(value:role:content:)", "n": 54, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/watchkit/wkextendedruntimesessioninvalidationreason", "sha": "9cffb26fee2803466fed0b30dc6a50e2b840b5f14431412c75521d760ef8a572", "t": "WKExtendedRuntimeSessionInvalidationReason", "n": 533, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/scenekit/scn_gl_deprecated", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCN_GL_DEPRECATED", "n": 0, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scncamera/fstop", "sha": "eab715ce1f5a2e84d9ec871ff5d9b04b604a62fc19221037ec6b9a8be7438219", "t": "fStop", "n": 1057, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scngeometryelement/primitivecount", "sha": "1b01dd0fc3eb495bb8c4dbb94ee45b5549a1b31c655099084d9f21e65ad174c3", "t": "primitiveCount", "n": 40, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scnnode/worldfront", "sha": "03946e45177245c38a9a5d6236b1777003c8baec5b8c159c471df77d0dd148eb", "t": "worldFront", "n": 288, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/loops", "sha": "a4cc431399cc91b1f17ccbf25730d909bcadd460d87942fb73f1bb1a04bbefc1", "t": "loops", "n": 651, "laws": 1, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/audioengine", "sha": "9991f47b32fd5c545e6363bc76cc349a89edbc4b4711f8494f40ee45c06ad291", "t": "audioEngine", "n": 441, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnview/allowscameracontrol", "sha": "67c0038e5182a45f1e9007daa2aa04c8f44be9681d7328c6d5f55aad90385bc1", "t": "allowsCameraControl", "n": 1240, "laws": 2, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uigesturerecognizer/state-swift.enum/recognized", "sha": "e06a404da5b1d3602f20c72da83dda3df2cb6ac8ff7618e5e7bcd079514fc272", "t": "recognized", "n": 228, "laws": 0, "ts": "2026-07-30 19:11 UTC"}

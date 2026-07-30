@@ -87,3 +87,11 @@
 {"id": "/documentation/swiftui/compositorcontentbuilder", "sha": "5b54c5c5190dfb0a5dd7f6cb68d0da4d69d472dadfb0b5def611823730ef3a2a", "t": "CompositorContentBuilder", "n": 230, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/transaction/animation", "sha": "7efe87985c87de2a0571652daf15d08ae91a5c60e9a09352967a326f1efbbf26", "t": "animation", "n": 64, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/textfieldstyle", "sha": "41be18d358f6f03af364ce2aa38ecc410758f6994b12d8e63339627bd36427dd", "t": "TextFieldStyle", "n": 307, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/watchkit/wkgesturerecognizer", "sha": "eacd9e4a039c79d4c43870d6afcb057b29582103304e29b014641b4c22360013", "t": "WKGestureRecognizer", "n": 3116, "laws": 4, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/scenekit/scnhittestoption", "sha": "0f456aa051d1f4c4b948a31605559fa6b817ac44654191f72956e07fb5486df6", "t": "SCNHitTestOption", "n": 332, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
+{"id": "/documentation/scenekit/scnmaterial/emission", "sha": "1bf844b56fe2fa7e4e10271356dfdf3b57663355c6564bdc294583417c577afa", "t": "emission", "n": 1183, "laws": 1, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnnode/particlesystems", "sha": "dce8d947a25ca1b9cbe26b7b96d50b6854d4dc8607d392f13423b54fbe644fa1", "t": "particleSystems", "n": 227, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/audioenvironmentnode", "sha": "1f58c39f26f4adbca8d23e59979d36a18d53856da4cd4b3bb10a2060e83ddf94", "t": "audioEnvironmentNode", "n": 344, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnsphere/init(radius:)", "sha": "9d3c6a1f212d2f694fad0bca77df793c4718deb84c60dbf155d84780f746c963", "t": "init(radius:)", "n": 273, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/removecommandforaction:propertylist:", "sha": "6a716dbcd3913d7d407cb27942b0cf2c8d51c78f705bc8e4d576e39a19438698", "t": "removeCommandForAction:propertyList:", "n": 29, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uiimageview/highlightedanimationimages", "sha": "1255477657abba44ccd82e4a8900673959ebdbd0791a55dd8dd1360edfe36f93", "t": "highlightedAnimationImages", "n": 313, "laws": 1, "ts": "2026-07-30 19:09 UTC"}

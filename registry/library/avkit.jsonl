@@ -135,3 +135,7 @@
 {"id": "/documentation/AVKit/trimming-and-exporting-media-in-visionos", "law": "You use to present the system video-player interface in your visionOS app."}
 {"id": "/documentation/AVKit/trimming-and-exporting-media-in-visionos", "law": "This article describes how to adopt this feature in your app, and shows how to use AVFoundation to export the trimmed result."}
 {"id": "/documentation/AVKit/trimming-and-exporting-media-in-visionos", "law": "A convenient way to export your trimmed selection is to use ."}
+{"id": "/documentation/avkit/avplayerviewcontroller/contextualactions", "law": "Use this property to present action controls for a specific time in the presentation, such as showing a Skip Intro button during a title sequence."}
+{"id": "/documentation/AVKit/AVExperienceController", "law": "Use this class to control, observe, and respond to experience changes for an ."}
+{"id": "/documentation/AVKit/AVCaptureEventInteraction", "law": "Adopting this API overrides default hardware button behavior, so apps must always respond appropriately to any events received."}
+{"id": "/documentation/AVKit/AVPlayerView", "law": "Regardless of the selected controls style, the player view always supports the following standard set of keyboard shortcuts to control playback: The Space bar plays and pauses playback."}

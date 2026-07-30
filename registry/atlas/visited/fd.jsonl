@@ -88,3 +88,5 @@
 {"id": "/documentation/swiftui/text/init(timerinterval:pausetime:countsdown:showshours:)", "sha": "167ee1c199e9075b0294ce536086e669312f1904945f05899f1650f7aa960d3a", "t": "init(timerInterval:pauseTime:countsDown:showsHours:)", "n": 212, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
 {"id": "/documentation/swiftui/buttonrole/destructive", "sha": "16504f2af041166adc88e2bb29aa991691142efbcdd1eefdb39adc92c89f98a9", "t": "destructive", "n": 376, "laws": 2, "ts": "2026-07-30 16:28 UTC"}
 {"id": "/documentation/swiftui/transitionproperties", "sha": "9ea058a9f2ef258cf207934b080564e562e883814cc6e59e989bd0dff0f2e097", "t": "TransitionProperties", "n": 289, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
+{"id": "/documentation/scenekit/scnphysicstestoptionsearchmode", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNPhysicsTestOptionSearchMode", "n": 0, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scncamera/screenspaceambientocclusionbias", "sha": "7dccdf33d984cb91ae4d8e392d83ff34ead9f192f7173f23ae33892a635a7c1e", "t": "screenSpaceAmbientOcclusionBias", "n": 801, "laws": 0, "ts": "2026-07-30 18:53 UTC"}

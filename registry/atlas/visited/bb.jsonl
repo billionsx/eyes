@@ -102,3 +102,6 @@
 {"id": "/documentation/swiftui/view/textscale(_:isenabled:)", "sha": "ded8e6b79d8277eaf8b04dbaef37ebfc0ec3034cc15d2d5fc40804dcd815083a", "t": "textScale(_:isEnabled:)", "n": 103, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
 {"id": "/documentation/swiftui/tab/init(_:systemimage:value:content:)-7ight", "sha": "cae8bd9217b22f4d67f6a325c601d97e632066afa91962d7f95d2caee456f0a2", "t": "init(_:systemImage:value:content:)", "n": 180, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/tabcontent/defaultsectionexpansion(_:)", "sha": "c5a74681ad1bd142bfb073ade10bd495e445fc9ef637e108cced2c818b53a338", "t": "defaultSectionExpansion(_:)", "n": 494, "laws": 1, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/scenekit/scnaudiosource/ispositional", "sha": "e13c0cc8ab05a7015cfa0ad8c25882f94fdd0bd0bb9a10c1fcbb503a3021a43e", "t": "isPositional", "n": 640, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnnode/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/uikit/uiimageview/focusedframeguide", "sha": "78f78a39f47fc00f74f10092e55bbbbde1e7b0af9ed9be2312570660f50cd7f0", "t": "focusedFrameGuide", "n": 425, "laws": 1, "ts": "2026-07-30 19:09 UTC"}

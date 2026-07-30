@@ -106,3 +106,6 @@
 {"id": "/documentation/swiftui/tabcontent/sectionactions(content:)", "sha": "346659bcf7122e3b6c682978ba7c8099849a39b5408ed4775146c6f6a6983fcf", "t": "sectionActions(content:)", "n": 317, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/tabview/init(content:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(content:)", "n": 0, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/togglestyle", "sha": "31ffd462ec1e04e5dc3ee922ed17495cf275806c6d2458f02133e392bef7f061", "t": "ToggleStyle", "n": 1400, "laws": 1, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/scenekit/scnlight/intensity", "sha": "08985f971bca968c942111cee3397d9742fea49103c4e3a7d2b3a9530223f3fe", "t": "intensity", "n": 766, "laws": 2, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/uikit/handling-swipe-gestures", "sha": "cb0e18819cc6b47e4114af82742427f776f2c72cef0d1a3a0b9f142f93b47e0d", "t": "Handling swipe gestures", "n": 1922, "laws": 5, "ts": "2026-07-30 19:11 UTC"}
+{"id": "/documentation/uikit/uimenuleaf/sender", "sha": "c05d597df7b8ac3608e236d2f2b0223e53ead79e6bc2795c7a1d933366926dcd", "t": "sender", "n": 201, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

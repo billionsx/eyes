@@ -91,3 +91,8 @@
 {"id": "/documentation/swiftui/tabplacement", "sha": "1fb68c5a3416790c59ad273ca6c271d6ec65061b14eab8c1986cd4b1c91962c5", "t": "TabPlacement", "n": 132, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/documentgrouplaunchscene", "sha": "5f891e047f576676578b1113a4b1fae515544782002cabeb74b80cfb18ff63fe", "t": "DocumentGroupLaunchScene", "n": 1326, "laws": 1, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/view/transition(_:)", "sha": "2a5bec293693ad29ff22509b56076dac24fa9150c6d21024c900c53c1f861c5e", "t": "transition(_:)", "n": 316, "laws": 1, "ts": "2026-07-30 16:35 UTC"}
+{"id": "/documentation/watchkit/wkextension/delegate", "sha": "5fd25733d72d1052ab738aef52493d99f8c3ee0dbb6f7af6a15430e9ceff5029", "t": "delegate", "n": 396, "laws": 0, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/scenekit/scnphysicsconetwistjoint", "sha": "45f7afa261fc3e468af2f607bd2eace882d081fc5c83875fef26f07df3f5f77d", "t": "SCNPhysicsConeTwistJoint", "n": 184, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scngeometry/init(sources:elements:sourcechannels:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(sources:elements:sourceChannels:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scnvector3/init(_:_:_:)-50jm7", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/documentation/scenekit/scnvector4/init(_:_:_:_:)-6otq6", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:07 UTC"}

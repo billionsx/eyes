@@ -73,3 +73,10 @@
 {"id": "/documentation/swiftui/view/animation(_:body:)", "sha": "47648d54acec1ed54a8351916759cfa198a9fcd5f2d110f3224dd307d942f36b", "t": "animation(_:body:)", "n": 379, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/view/textselection(_:)", "sha": "f0ee7c4cec3c101d97d51a6e6a6f09283f3ee78eda2b3c4d17343c9d9c10697c", "t": "textSelection(_:)", "n": 1183, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
 {"id": "/documentation/SwiftUI/NavigationSplitView", "sha": "436e8da7d6c7c96a1bde82cb350d278a1dec8abcf82526125146c926cf9d471b", "t": "NavigationSplitView", "n": 4202, "laws": 1, "ts": "2026-07-30 16:44 UTC"}
+{"id": "/documentation/watchkit/wkapplication/didbecomeactivenotification", "sha": "c065632d4f97ff983ffd475ba79977bf7d31e64ee0e697047fdf792bce734ece", "t": "didBecomeActiveNotification", "n": 284, "laws": 0, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/scenekit/scncamera/grainiscolored", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "grainIsColored", "n": 0, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/fresnelexponent", "sha": "a33227a1ae763b930da7e089b237796eda12f35bb09b76ec1689d519ea6b38ce", "t": "fresnelExponent", "n": 613, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/uikit/uimenusystem/setneedsrevalidate()", "sha": "2f65c94f59e31fa808335084cd8bcd2348bb0267609a302f9526ee52e859590c", "t": "setNeedsRevalidate()", "n": 168, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uitableviewdropcoordinator/drop(_:torowat:)", "sha": "09c0a7b54d1b1083b92b7911ecb4a10600430f00b492ab94cacd933bb16b6b4a", "t": "drop(_:toRowAt:)", "n": 281, "laws": 1, "ts": "2026-07-30 19:10 UTC"}
+{"id": "/documentation/uikit/adopting-ios-dark-mode", "sha": "b2d5216dbdd93238719c583afc6b111da6f3beed039885d875369668d0abe168", "t": "Adopting iOS Dark Mode", "n": 151, "laws": 0, "ts": "2026-07-30 19:11 UTC"}
+{"id": "/documentation/uikit/uitoolbarappearance", "sha": "553e4196e26d857df8e3b83672320b9fc002b1d3715fa6e64ca1b3cc523595c2", "t": "UIToolbarAppearance", "n": 424, "laws": 2, "ts": "2026-07-30 19:12 UTC"}

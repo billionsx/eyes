@@ -88,3 +88,8 @@
 {"id": "/documentation/swiftui/view/navigationdocument(_:preview:)", "sha": "e3a8e3bd3da48185bcbd5eaf2c7eb221552a86dcebd4d8be2c1b3029fbf65fa6", "t": "navigationDocument(_:preview:)", "n": 272, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/navigationtransition", "sha": "7a342f69e44d163d18bba5c9099cd0945b3fa7c1ad568b3b4501b2312360bcbf", "t": "NavigationTransition", "n": 230, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/titleonlylabelstyle", "sha": "799fa4849546a6ce73f8224d18e64eb3c567fdb95d5c75b7f1cf6e3e6042454e", "t": "TitleOnlyLabelStyle", "n": 146, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/AVKit/AVRoutePickerView", "sha": "757e48e76b5b0378b41cf7e1109977e464daec429a8e41fa7f15b879377203fd", "t": "AVRoutePickerView", "n": 1265, "laws": 0, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/scenekit/scnmaterialproperty/texturecomponents", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "textureComponents", "n": 0, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scnnode/opacity", "sha": "2a536ff580a036de0e790ba4239364ab5d703c90f268a2f37b767577fda65e33", "t": "opacity", "n": 197, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnprogramdelegate/program(_:handleerror:)", "sha": "07cea70baa2826222ad3173ad87e5c304db7bf1e204773340376a9131365efb2", "t": "program(_:handleError:)", "n": 178, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uilayoutguide/layoutframe", "sha": "c5c1cd829d0a5bc0cb9ea011f18d0a15e4de8fda70ffb1955f559faece45c4c4", "t": "layoutFrame", "n": 248, "laws": 0, "ts": "2026-07-30 19:08 UTC"}

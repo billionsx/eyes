@@ -99,3 +99,9 @@
 {"id": "/documentation/swiftui/view/contenttransition(_:)", "sha": "f59ad2c8f02fd1ff882bfe36f23117e9f6f02e7bd2baa899a215ba2a9fa63af7", "t": "contentTransition(_:)", "n": 1090, "laws": 2, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/label/init(_:systemimage:)", "sha": "8af1cdc1f86cba7f4595782d3dd73e46efa51d51da50d490bb4394bc9b1ae3a4", "t": "init(_:systemImage:)", "n": 87, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
 {"id": "/documentation/swiftui/environmentvalues/truncationmode", "sha": "8d0d9b17240ffe56f3b6ea5a281830f1cdb221faf67beb696b9b757cdfe3cd13", "t": "truncationMode", "n": 210, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/scenekit/scngeometryelement/minimumpointscreenspaceradius", "sha": "af0655f17c6653d3b1182c9e6f799053176d5512e5e22e4ec983d608e437b95f", "t": "minimumPointScreenSpaceRadius", "n": 1188, "laws": 1, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scnnode/constraints", "sha": "352c39ed8efa4ce40b84b5696785fedd11d4bd000570792ac24a3347c807ae77", "t": "constraints", "n": 399, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnnode/converttransform(_:from:)", "sha": "3fa385eff06029e769efb546885a5502e170b2d8de4022a69f188e24418286a0", "t": "convertTransform(_:from:)", "n": 153, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/scenekit/scnnode/simdlocalfront", "sha": "05db701889ee0796c48ca52a8b0a742b63816ab73bef692a76d4fe350e79d820", "t": "simdLocalFront", "n": 385, "laws": 1, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/scenekit/scnview/play(_:)", "sha": "4ed92509731abbbd6dcc34f675133bf6651b13a4fb70948e392eb40cdda5dfba", "t": "play(_:)", "n": 105, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uiimage/resizingmode-swift.enum/tile", "sha": "437bcb4ed8e256e271e36d9d377aded2b10ab1d1e4bc48a29a98d87a752e13aa", "t": "UIImage.ResizingMode.tile", "n": 172, "laws": 0, "ts": "2026-07-30 19:09 UTC"}

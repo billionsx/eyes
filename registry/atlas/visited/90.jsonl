@@ -80,3 +80,7 @@
 {"id": "/documentation/swiftui/text/init(_:format:)", "sha": "c5c51d89dfb2c2fe2cef10e27ad979324f884d2dace534fad339a8c9b12af136", "t": "init(_:format:)", "n": 484, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
 {"id": "/documentation/swiftui/rotatedshape", "sha": "31b64d353e074712089fc6a42d54f765516511ebe005738ee175eb6ef5bf8a0b", "t": "RotatedShape", "n": 200, "laws": 0, "ts": "2026-07-30 16:33 UTC"}
 {"id": "/documentation/swiftui/anytransition/scale", "sha": "e42480c3222453ff15186e628fdedcf93ec5a1a698471879bac15d438c1ceb49", "t": "scale", "n": 42, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/scenekit/sceneview/options", "sha": "d90b84e0112edba9875339821b08b9a1564bde4a67b49760cbc8f409d96dcdf2", "t": "SceneView.Options", "n": 135, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/init(named:indirectory:)", "sha": "df83a239608ca86632d3c3c3d67de155418077e91c510709e9be8654eadcbdb8", "t": "init(named:inDirectory:)", "n": 305, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/scenekit/scncone/height", "sha": "119cf057b4d2c7d124b52d23a9b6a97ee69223b53bfb2d72036d23ce00dba964", "t": "height", "n": 381, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
+{"id": "/documentation/scenekit/scnvector3/init(x:y:z:)-mn27", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(x:y:z:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}

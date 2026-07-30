@@ -85,3 +85,5 @@
 {"id": "/documentation/swiftui/view/flipsforrighttoleftlayoutdirection(_:)", "sha": "6a667b6fc02bd99bc74ac650ec73a29e3076b239cc8aeda6fb7648bec6c68b6e", "t": "flipsForRightToLeftLayoutDirection(_:)", "n": 488, "laws": 2, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/openwindowaction", "sha": "b0b232cacecdd3e26a914df2d4f642e615f4fa63d90539231817ec2593fdaff5", "t": "OpenWindowAction", "n": 1611, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
 {"id": "/documentation/swiftui/scrollview/axes", "sha": "3e4d242bbe729ac33a90a1cb115c056f06c94c71a0c6c2cbc1a40a5342cd46d5", "t": "axes", "n": 76, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/scenekit/scncamera/exposureoffset", "sha": "bf4a3f0c290589352dc2da338cc38322ad4a9fd1dc4322eb2b1e88e9e492269a", "t": "exposureOffset", "n": 732, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scncone/init(topradius:bottomradius:height:)", "sha": "e701eeacf7384730d3b3599f803565b0b188123cfaf873472918276ae70a47d9", "t": "init(topRadius:bottomRadius:height:)", "n": 548, "laws": 0, "ts": "2026-07-30 19:05 UTC"}

@@ -88,3 +88,6 @@
 {"id": "/documentation/swiftui/fullimmersionstyle", "sha": "36a43364042c7bb386dd933a118825977c64f08d5f2a5b466cacd7be6803c563", "t": "FullImmersionStyle", "n": 283, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
 {"id": "/documentation/swiftui/animation/snappy(duration:extrabounce:)", "sha": "53d1a28f8da871427c8920e53d1d46dfe07800cb7aaaef01ab7de566c12f274b", "t": "snappy(duration:extraBounce:)", "n": 113, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/group/init(subviews:transform:)", "sha": "101cf3abc09a639ecfd1a08b60be5d7694fbba5d6c33a7c7f8683c1fbc69c768", "t": "init(subviews:transform:)", "n": 976, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/scenekit/scnhittestoptionrootnode", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNHitTestOptionRootNode", "n": 0, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
+{"id": "/documentation/scenekit/scntransaction/animationtimingfunction", "sha": "1b1ed6d469138f1fcf9b88a0676f232750060aa6583d5ec4ae4f0ff83a402682", "t": "animationTimingFunction", "n": 439, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/scenekit/scnplane/width", "sha": "a7c746cf8f15c20291dd2b3fc05d8e4280973ac7a82ae3098985863846aa7a89", "t": "width", "n": 324, "laws": 0, "ts": "2026-07-30 19:05 UTC"}

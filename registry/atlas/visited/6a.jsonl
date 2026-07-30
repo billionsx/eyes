@@ -73,3 +73,8 @@
 {"id": "/documentation/swiftui/roundedrectangularshape", "sha": "f97c43a129a65d3ab23a6b3c2bf8cd3df030722eec44b0bce551baa610bfdb2e", "t": "RoundedRectangularShape", "n": 597, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/shapestyle/lineargradient(_:startpoint:endpoint:)", "sha": "deeacaf4ad6427364fb2c5334af74c63c71be2070254f26d038bba1421599c55", "t": "linearGradient(_:startPoint:endPoint:)", "n": 341, "laws": 1, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/swiftui/plateglassbackgroundeffect", "sha": "373f1e50a2bd10f9fc82e3ff9f7c57cd4e72a23525db1109ee0824cbda279a0e", "t": "PlateGlassBackgroundEffect", "n": 113, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/watchkit/watchkiterror/downloadfailed", "sha": "2538c837bce9e58bd69c3c4ef62dca729e15b605136f74022ccdc2557467d34b", "t": "downloadFailed", "n": 96, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevice/iswaterlockenabled", "sha": "5261deb776ff124adbf7d16c09156969e035b3fae219cbbad2cc9a6318a214b2", "t": "isWaterLockEnabled", "n": 65, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevice/screenbounds", "sha": "cf51125a86eaf6162501bb6b436c5a6faa1920537f207169d028ac24897e0c4b", "t": "screenBounds", "n": 181, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
+{"id": "/documentation/scenekit/scngeometry/firstmaterial", "sha": "9742f61292c11835984efd57ecda67dbe4c7a39789cef75a24261b98480bd81b", "t": "firstMaterial", "n": 230, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scnrenderer/render(attime:)", "sha": "5fa9e24431339edb50dfe06afd142a183b664f46da495d523e62865f7bae28d4", "t": "render(atTime:)", "n": 733, "laws": 0, "ts": "2026-07-30 19:01 UTC"}

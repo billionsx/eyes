@@ -85,3 +85,8 @@
 {"id": "/documentation/swiftui/filewrapperdocumentreader", "sha": "557dc9571984b155d2888c67ce852cc5d05782d5b65891ac6c12a17c7eb33e8e", "t": "FileWrapperDocumentReader", "n": 579, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
 {"id": "/documentation/swiftui/tab/init(content:)", "sha": "27c4a8f25ca12412e866b9133aff39caf70c6bc6cff2eae54cf911335db8f5ac", "t": "init(content:)", "n": 70, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/menustyle", "sha": "e136e4e887942569e63456a4a54af66e0d0777a8f3c4c830101a5dd1f3e32f82", "t": "MenuStyle", "n": 757, "laws": 1, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/scenekit/scnaudioplayer/init(avaudionode:)-1xsj6", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(AVAudioNode:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scnlight/shadowcascadesplittingfactor", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "shadowCascadeSplittingFactor", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnscene/fogenddistance", "sha": "a4285513a04ff9b686ea9192e22f58523ecb2b37120dfa455559e715b01c1031", "t": "fogEndDistance", "n": 884, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/commandqueue", "sha": "e03717f4cfd65fcfb80bbedf6c956f4098d4131957c536a985ed6bee800554ce", "t": "commandQueue", "n": 603, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
+{"id": "/documentation/scenekit/scnview/antialiasingmode", "sha": "3a047ae80677e1d5b8418576de81b5d3383ee55a503f17302f5ec416f1492a28", "t": "antialiasingMode", "n": 454, "laws": 0, "ts": "2026-07-30 19:04 UTC"}

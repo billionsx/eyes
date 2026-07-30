@@ -98,3 +98,10 @@
 {"id": "/documentation/swiftui/view/tint(_:)", "sha": "36b4126e5809f9df27c9a407f216f62d238317ca3de46de9f929aa08d75b0a2e", "t": "tint(_:)", "n": 703, "laws": 2, "ts": "2026-07-30 16:33 UTC"}
 {"id": "/documentation/swiftui/keyframetimeline", "sha": "7df45390a0ac04a8e5fde64db3b0ce8cfd64f74a622a2cb4ef5af38557434539", "t": "KeyframeTimeline", "n": 1192, "laws": 2, "ts": "2026-07-30 16:34 UTC"}
 {"id": "/documentation/swiftui/tintshapestyle", "sha": "24caadc2e1c34685037141d49bf14132992b441f80c84ca911839e027857c278", "t": "TintShapeStyle", "n": 261, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/watchkit/wkextensiondelegate/handle(_:completionhandler:)", "sha": "3265803a5e2d53018b16edb1625d8431b800b4604b7811d627e5541ca6762b8d", "t": "handle(_:completionHandler:)", "n": 26, "laws": 0, "ts": "2026-07-30 18:45 UTC"}
+{"id": "/documentation/watchkit/wkextendedruntimesessionstate/notstarted", "sha": "19f9e29aaea51085210a6c68e6afeb94738df6d31ad121787c778b18a0915231", "t": "WKExtendedRuntimeSessionState.notStarted", "n": 165, "laws": 0, "ts": "2026-07-30 18:48 UTC"}
+{"id": "/documentation/scenekit/scngeometry/removematerial(at:)", "sha": "474086b781e6d3b2c3f80547bc931e04d78f44207f6bac8be47e8fb7cea86601", "t": "removeMaterial(at:)", "n": 44, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scngeometryelement/data", "sha": "59382b4b3278fc5f71d87e127f554a8091ad6895dd99c49104ca0d977ac143c2", "t": "data", "n": 248, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
+{"id": "/documentation/scenekit/scnview/option", "sha": "12476a97b47f0678be1c8a3e4ac331dc8557a12ed0f38366605a9e1afa2ab210", "t": "SCNView.Option", "n": 201, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/scenekit/scngeometrysource/semantic-swift.struct/tangent", "sha": "024f1dc0cf25b100164f17a48a300e82d6fb87ef2260f56cbe49454c44cab251", "t": "tangent", "n": 472, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/insertelements(_:beforeaction:)", "sha": "69cca3889bb171b9fc99be2513e546288b728ef228bf14d5e1546053bb1a030b", "t": "insertElements(_:beforeAction:)", "n": 44, "laws": 0, "ts": "2026-07-30 19:07 UTC"}

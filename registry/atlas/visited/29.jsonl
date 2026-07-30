@@ -83,3 +83,8 @@
 {"id": "/documentation/swiftui/shaderfunction", "sha": "f07d163addff9b2a651bbb71e68189e9e4e52b9df2251d7b2fb916cae66c96a1", "t": "ShaderFunction", "n": 177, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
 {"id": "/documentation/swiftui/view/rotation3deffect(_:axis:anchor:)", "sha": "d2a65e5922d48e798f0491917c93195bf6c2bc54c30870cd161bdda73b51ec69", "t": "rotation3DEffect(_:axis:anchor:)", "n": 672, "laws": 1, "ts": "2026-07-30 16:33 UTC"}
 {"id": "/documentation/swiftui/environmentvalues/contenttransition", "sha": "fa24b4e49e555584efd61fd8d2e0d1991a443fb6cc62201b23cff27d890e7be5", "t": "contentTransition", "n": 54, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/watchkit/wkaccessibilityisreducemotionenabled()", "sha": "562446450525ba73c8c3cbb5aec1536638f6d877134d8fdd6d13b89020b0a920", "t": "WKAccessibilityIsReduceMotionEnabled()", "n": 297, "laws": 1, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/scenekit/scnnode/filters", "sha": "a6145607f3840ee9aaede16a8799319d7fedded6f0f6cf3555b281a68f530e0a", "t": "filters", "n": 1053, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnnode/init(geometry:)", "sha": "734148da6460501dea8bbab5adb871c8d0f06d980964b67a7053b418bb78540a", "t": "init(geometry:)", "n": 173, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
+{"id": "/documentation/scenekit/scnnode/simdlocalup", "sha": "08f6e6eca808ff6930a3795bc330aeebad9c9bd326a5a95684e11ea34c08edf9", "t": "simdLocalUp", "n": 348, "laws": 1, "ts": "2026-07-30 18:59 UTC"}
+{"id": "/documentation/uikit/uimenubuilder/replacechildren(ofmenu:from:)", "sha": "fd020e943a8be544436767e64c3ae63a25e2cd3d22048483f068826dc0f68c3e", "t": "replaceChildren(ofMenu:from:)", "n": 301, "laws": 1, "ts": "2026-07-30 19:08 UTC"}

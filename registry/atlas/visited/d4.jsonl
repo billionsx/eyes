@@ -87,3 +87,6 @@
 {"id": "/documentation/swiftui/primitivebuttonstyle", "sha": "482bc019f02b952b273c1aa1518686bec3311ed46287d3f38d1af49e9a9d2d42", "t": "PrimitiveButtonStyle", "n": 1166, "laws": 2, "ts": "2026-07-30 16:28 UTC"}
 {"id": "/documentation/swiftui/view/tabviewsidebarbottombar(content:)", "sha": "38212a409bda14941c0de573a002921d843e4e99cfafe2d0871af8805f498fe3", "t": "tabViewSidebarBottomBar(content:)", "n": 283, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/sidebaradaptabletabviewstyle", "sha": "b44d618e083658adfecb3fdd745efeb909fbf3cac79bf039bddde5eb39d17a58", "t": "SidebarAdaptableTabViewStyle", "n": 515, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/WatchKit/WKInterfaceTextField", "sha": "19ed558a45a3300aa65a1a38562bfe58f3d5aade70b2076516872d58736748e9", "t": "WKInterfaceTextField", "n": 2840, "laws": 0, "ts": "2026-07-30 18:42 UTC"}
+{"id": "/documentation/scenekit/scnlight/parallaxextentsfactor", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "parallaxExtentsFactor", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/documentation/scenekit/scnnode/pivot", "sha": "b9d986902a4c15d66bd020904aaa487947e4dbe02ccccea21b1598e56faab822", "t": "pivot", "n": 1215, "laws": 0, "ts": "2026-07-30 18:58 UTC"}

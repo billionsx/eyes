@@ -85,3 +85,9 @@
 {"id": "/documentation/swiftui/tabsectionexpansion", "sha": "ff206217c9ddb58629d19a5415355d22a571f04bf83bebdf67f16a7e9c3967f5", "t": "TabSectionExpansion", "n": 186, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/tabviewstyle/verticalpage(transitionstyle:)", "sha": "51e2f9016e5f8488fbf2c8fa55914e1ce99580659122acbae7f5ce011bc8f037", "t": "verticalPage(transitionStyle:)", "n": 102, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
 {"id": "/documentation/swiftui/indexviewstyle", "sha": "6c032a949b494f32d25a259ef62d94977bf59a7facdc560cd51547a1d8ee9c0e", "t": "IndexViewStyle", "n": 259, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/watchkit/wkinterfacemap/setregion(_:)", "sha": "d7b6956d8b2b7393c679009cb576f8daf1dd94b2b59f6af0b4ca3ae18e8f0219", "t": "setRegion(_:)", "n": 457, "laws": 0, "ts": "2026-07-30 18:43 UTC"}
+{"id": "/documentation/watchkit/wkinterfaceobject/setaccessibilityhint(_:)", "sha": "db1d264b92315208b068b36c9ee1bc6773206f16f8b305a46896b5569d6c50e7", "t": "setAccessibilityHint(_:)", "n": 907, "laws": 2, "ts": "2026-07-30 18:44 UTC"}
+{"id": "/documentation/scenekit/scncamera/projectiontransform", "sha": "80ee1544b4dca42f109084265b910f7778f8a573f6f79e5261fc36cccd7504ac", "t": "projectionTransform", "n": 1042, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
+{"id": "/documentation/scenekit/scnparticlesystem/imagesequencecolumncount", "sha": "1ad53fa4e657cb6f1069010af0d9632d711e9201642bbc9b872bfe163495ac0c", "t": "imageSequenceColumnCount", "n": 471, "laws": 1, "ts": "2026-07-30 19:00 UTC"}
+{"id": "/documentation/scenekit/scnview/openglcontext", "sha": "8efc6bdc88906407f1d26a1a3908345a4a73f5ffba3b9c1024196f7abb5010b5", "t": "openGLContext", "n": 439, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uimenuelement/state/off", "sha": "0cde6adcf5a50503bce15e23ba718d7576120628c923b2e6194dae3024dfcf0b", "t": "UIMenuElement.State.off", "n": 61, "laws": 0, "ts": "2026-07-30 19:12 UTC"}

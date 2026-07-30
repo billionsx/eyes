@@ -85,3 +85,8 @@
 {"id": "/documentation/swiftui/nsviewrepresentablecontext", "sha": "d5463cc0e94330f42ac4714ba464dfbc55f2afe39deccf7d81532ef7c15d342c", "t": "NSViewRepresentableContext", "n": 693, "laws": 1, "ts": "2026-07-30 16:18 UTC"}
 {"id": "/documentation/SwiftUI/DocumentWriter", "sha": "f8a0f2f11895711c3524b2f8ba32c4582745daa54b8de7cb0c1cd78b7778950f", "t": "DocumentWriter", "n": 433, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
 {"id": "/documentation/swiftui/primitivebuttonstyleconfiguration", "sha": "122c5ef3be5180b152d77917bf57b7adeb09e38eaedd539a96551ae93e1b3de2", "t": "PrimitiveButtonStyleConfiguration", "n": 189, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/design/human-interface-guidelines/sidebars", "sha": "149ff4a48dccae0d1b5214841fafa72e0277dbeb2aa9e64f59dc20adc1341288", "t": "Sidebars", "n": 5532, "laws": 10, "ts": "2026-07-30 18:41 UTC"}
+{"id": "/documentation/scenekit/scnnode/morpher", "sha": "56533e8faf86a40143d98298ba62e4afe2c1d9959e32463847c6c380f25810e9", "t": "morpher", "n": 166, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/scenekit/scncamera/bloomblurradius", "sha": "d5e5b8d861c7c6f37d1a4154d61341ba08dcfa6787f1c17a2a9979d36078c575", "t": "bloomBlurRadius", "n": 713, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
+{"id": "/documentation/scenekit/scntube/height", "sha": "5aaddddaa109e7dfead78558dfc405c44041e97ad93d11a4783a39bd3a9e3b5f", "t": "height", "n": 393, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/documentation/scenekit/scnvector3/y", "sha": "6ab1a2cdfb4a5ba64b3b7c969a2a129e6e815062a97fec6988cff757bb27192c", "t": "y", "n": 35, "laws": 0, "ts": "2026-07-30 19:06 UTC"}

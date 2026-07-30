@@ -84,3 +84,8 @@
 {"id": "/documentation/swiftui/adding-interactivity-with-gestures", "sha": "635be58715a21019c01d525feead41d56ac1be303a7956912ebf971fac9c7d17", "t": "Adding interactivity with gestures", "n": 2382, "laws": 4, "ts": "2026-07-30 16:24 UTC"}
 {"id": "/documentation/swiftui/primitivebuttonstyle/borderedprominent", "sha": "783d3528147008e2a7a096b38510c8917889d0b3503c63a0318c2265df82a293", "t": "borderedProminent", "n": 283, "laws": 1, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/swiftui/view/searchdictationbehavior(_:)", "sha": "8da5eff3b91b67a01aad6e5853f7af31abbff68057a47f0126fd6ec4ecbfeeb6", "t": "searchDictationBehavior(_:)", "n": 382, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/watchkit/wkextension/globaltintcolor", "sha": "25a22c91bdcbf5102ab33fd4091e351881733d4f3e765646162bdfdbf1f04cec", "t": "globalTintColor", "n": 374, "laws": 1, "ts": "2026-07-30 18:46 UTC"}
+{"id": "/documentation/scenekit/scnikconstraint", "sha": "c9a2fdb844719634940341b9438085c927e08982170072d997ecac80e233e39f", "t": "SCNIKConstraint", "n": 2374, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
+{"id": "/documentation/scenekit/scnmorphercalculationmode", "sha": "4ecb469419d1826234b8343e60064a26116849a750aeb91074dcb0070c1e8471", "t": "SCNMorpherCalculationMode", "n": 845, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
+{"id": "/documentation/uikit/uidragdropsession", "sha": "f35b3b92eca7b9895d90640c970cac7af767542963fd5b239d538fab7e1d4e61", "t": "UIDragDropSession", "n": 349, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uimenuleaf/state", "sha": "d4f21e32fd51a6b6ef5299a2b50fb4add23140b20bba833632d3b356c2001262", "t": "state", "n": 35, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
