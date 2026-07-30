@@ -66,3 +66,7 @@
 {"id": "/documentation/uikit/uidynamicanimatordelegate", "sha": "616b06b23e3cf6746b246613b5a9e727f3445caca0f7821ac3a76021fec5212c", "t": "UIDynamicAnimatorDelegate", "n": 338, "laws": 0, "ts": "2026-07-29 18:29 UTC"}
 {"id": "/documentation/uikit/uiviewcontroller/showdetailtargetdidchangenotification", "sha": "367d1f292580a8034ebc739ae3d070c69356b47d5e248ea4b1bb4b7c2a0dcc2c", "t": "showDetailTargetDidChangeNotification", "n": 359, "laws": 0, "ts": "2026-07-29 18:34 UTC"}
 {"id": "/documentation/uikit/uiapplication/cancellocalnotification(_:)", "sha": "8742b3adf3a1478bc8ebf106bf3a5023baec0f8b20a006b931467c97aa832bb0", "t": "cancelLocalNotification(_:)", "n": 190, "laws": 0, "ts": "2026-07-29 18:40 UTC"}
+{"id": "/documentation/scenekit/scnbox", "sha": "1166791b4c196a42f5cef1ea6ac5a35ea9eb8b57b44fa45bc35e189a360207a6", "t": "SCNBox", "n": 1065, "laws": 0, "ts": "2026-07-30 05:32 UTC"}
+{"id": "/documentation/accessibility/axcustomcontentreturnblock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AXCustomContentReturnBlock", "n": 0, "laws": 0, "ts": "2026-07-30 05:35 UTC"}
+{"id": "/documentation/uikit/uitextdocumentproxy", "sha": "60e9e4f5980eefe3a145dc5ccf6328c4c7203e125c264b6d3aaaff46352fb7c2", "t": "UITextDocumentProxy", "n": 855, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/uikit/uikeycommand/action", "sha": "83dc0bbd495eec8600c306fd5f67a8b57bc9e7fa96f551c670383e3d9c8932e9", "t": "action", "n": 37, "laws": 0, "ts": "2026-07-30 05:54 UTC"}

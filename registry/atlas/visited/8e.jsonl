@@ -78,3 +78,7 @@
 {"id": "/documentation/UIKit/apple-pencil-interactions", "sha": "2b09b9578a6d6e5f1fc234992dc66861fe6fb0e4d8f5f4d6e88a3a47c82e79e5", "t": "Apple Pencil interactions", "n": 1247, "laws": 0, "ts": "2026-07-29 18:35 UTC"}
 {"id": "/documentation/uikit/uibarpositioningdelegate", "sha": "9e2e35e51a9eb436231063e44c822868daa0905b4aa6b84959f38aa38d2d97aa", "t": "UIBarPositioningDelegate", "n": 438, "laws": 0, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/uikit/uiapplication/supportsmultiplescenes", "sha": "fa53bbab4ee5a7c5a56448cedfa813d6a3a11d042fb486fbf7d54f87739ee18c", "t": "supportsMultipleScenes", "n": 385, "laws": 0, "ts": "2026-07-29 18:41 UTC"}
+{"id": "/documentation/widgetkit/staticcontrolconfiguration/init(kind:content:)", "sha": "d19a2a63fd612bfdde1e5a168ea620b03083ffaa3fde489b08af54ce3a50ef8b", "t": "init(kind:content:)", "n": 73, "laws": 0, "ts": "2026-07-30 05:29 UTC"}
+{"id": "/documentation/widgetkit/widgetlocation/lockscreen", "sha": "3d50dbc71ba096251d72f24290c1f03b9bd57b8f5a22c36c41820c59f0862969", "t": "lockScreen", "n": 38, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/scenekit/scnshadermodifierentrypoint/surface", "sha": "f0a4178eb43412e134d33d487a588bbb73892af9351f8844d0afd4b70db97c8d", "t": "surface", "n": 980, "laws": 1, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/uikit/nsdirectionalrectedge", "sha": "84cf9c02651c2d44197046983b10cc8514cf34029bf8dcad6060db1b77338647", "t": "NSDirectionalRectEdge", "n": 189, "laws": 0, "ts": "2026-07-30 05:49 UTC"}

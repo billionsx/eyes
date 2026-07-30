@@ -116,3 +116,5 @@
 {"id": "/documentation/accessibility/axbraillemaprenderer", "law": "With this approach, you get more detailed control over what to display, but you must modify the braille map yourself."}
 {"id": "/documentation/accessibility/accessibilitysettings/prefershorizontaltextlayout", "law": "A Boolean value that indicates whether the system setting to prefer horizontal text for languages that support both vertical and horizontal text layout is on."}
 {"id": "/documentation/accessibility/accessibilitysettings/prefershorizontaltextlayoutdidchangenotification", "law": "A notification that posts when the system setting to prefer horizontal text for languages that support both vertical and horizontal text layout changes."}
+{"id": "/documentation/accessibility/accessibilitysettings/opensettings(for:)", "law": "You can use this method to open the Settings app to a specific Accessibility setting to help people turn it on more quickly, as shown in the following code example."}
+{"id": "/documentation/Accessibility/AccessibilitySettings/prefersHeadAnchorAlternative", "law": "For example, a technology might use the person’s head movements to control the current selection."}

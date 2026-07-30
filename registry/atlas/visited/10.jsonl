@@ -87,3 +87,7 @@
 {"id": "/documentation/uikit/uiapplication/willterminatemessage", "sha": "35183a06be7dba8e0cdf1048a9a540e6128cee4521c2fb51128f43f567684280", "t": "UIApplication.WillTerminateMessage", "n": 23, "laws": 0, "ts": "2026-07-29 18:41 UTC"}
 {"id": "/documentation/UIKit/UIContextMenuConfiguration", "sha": "fb051501d3bbcc109f31046ca01c9fca8391bde3b3fb6e8bdf75dbcdcb50c5c7", "t": "UIContextMenuConfiguration", "n": 1092, "laws": 1, "ts": "2026-07-29 18:42 UTC"}
 {"id": "/documentation/uikit/uicollectionview/contextmenuinteraction", "sha": "67b450a5afbeb2416ee167c453a4b269ea2a0f583cf6d9ba935b472f13c37acc", "t": "contextMenuInteraction", "n": 47, "laws": 0, "ts": "2026-07-29 18:44 UTC"}
+{"id": "/documentation/xcode/writing-armv6-code-for-ios", "sha": "5bda837baf7d70b18e7efcc7c55b5c982ab194372275fb5cd3cbe656b3309a6e", "t": "Writing ARMv6 code for iOS", "n": 7083, "laws": 5, "ts": "2026-07-30 05:25 UTC"}
+{"id": "/documentation/uikit/uicontrol/ishighlighted", "sha": "6e9d7183cf55a8f1b16298e98ef36bb4e297537e4ffd61180e318e351e40a704", "t": "isHighlighted", "n": 524, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
+{"id": "/documentation/uikit/uitargetedpreview/retargetedpreview(with:)", "sha": "46c63bd8c5bf8c55bdffdeafa14585dfbfcfc21256c1c73fd0952789b5264363", "t": "retargetedPreview(with:)", "n": 207, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardi", "sha": "60ca3a4f105573521436ddd77e185d09418e5ff67e5829877ffb4853a8181d94", "t": "UIKeyboardHIDUsage.keyboardI", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}

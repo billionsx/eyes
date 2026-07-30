@@ -77,3 +77,5 @@
 {"id": "/documentation/UIKit/NSTextHighlightStyle", "sha": "97c9be23d62e0bac93022443d3f833cda0050f7c1ebb169301d870046947f60c", "t": "NSTextHighlightStyle", "n": 340, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
 {"id": "/documentation/uikit/uistoryboard/instantiateviewcontroller(withidentifier:)", "sha": "6344c13bd000d2aece5ac332b2d3c6b00eb913109ad2b7c836cd787eb184592f", "t": "instantiateViewController(withIdentifier:)", "n": 471, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/uikit/uibarbuttonitem/badge-4sz3f", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "badge", "n": 0, "laws": 0, "ts": "2026-07-29 18:35 UTC"}
+{"id": "/documentation/accessibility/axbrailletable/defaulttable(for:)", "sha": "5dc6db4d066ba54373ba8340463f1d5028d7f6ee86ab9f1723dab4156d5062f5", "t": "defaultTable(for:)", "n": 107, "laws": 0, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/uikit/uicollectionview/isprefetchingenabled", "sha": "0184356585d61fd748675d429d58998bd54139298795c66d313f192477132a7f", "t": "isPrefetchingEnabled", "n": 715, "laws": 1, "ts": "2026-07-30 05:37 UTC"}

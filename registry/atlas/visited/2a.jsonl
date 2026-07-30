@@ -91,3 +91,7 @@
 {"id": "/documentation/uikit/uiviewcontroller/tab", "sha": "34b2dfa3d44bfdbcb474550ad8d84ab741429d87ed806e8eaceedda65777ee91", "t": "tab", "n": 102, "laws": 0, "ts": "2026-07-29 18:34 UTC"}
 {"id": "/documentation/uikit/responding-to-the-launch-of-your-app", "sha": "3059b426a6fbf6d8282d8931af30f407fce88a1901d85f82a7c52b205dd86a09", "t": "Responding to the launch of your app", "n": 5759, "laws": 1, "ts": "2026-07-29 18:40 UTC"}
 {"id": "/documentation/uikit/uitableviewdropdelegate", "sha": "11cdbf40904c08be7d33bb13acb684fc2d7d33226d810b22102e0f0c80c44b22", "t": "UITableViewDropDelegate", "n": 791, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/widgetkit/relevanceentriesprovider/configuration", "sha": "1a9008e5341e638e1ad01558cd8bd1cbb0f81b917de69fcbed769b079e3f9841", "t": "Configuration", "n": 63, "laws": 0, "ts": "2026-07-30 05:29 UTC"}
+{"id": "/documentation/widgetkit/widgetlocation/smartstack", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "smartStack", "n": 0, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/uikit/uicollectionview/isediting", "sha": "cf382e5fc9a9195efc83d54b5cc4803fe87f25ad81cb466b0cb22e2725f21b37", "t": "isEditing", "n": 79, "laws": 0, "ts": "2026-07-30 05:37 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardf9", "sha": "d81172d1776c6fdbb46cb992bcf1c795c155950f1f892533666ac5e2a572e050", "t": "UIKeyboardHIDUsage.keyboardF9", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}

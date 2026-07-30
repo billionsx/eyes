@@ -80,3 +80,4 @@
 {"id": "/documentation/uikit/uicollectionview/indexpathsforvisibleitems", "sha": "83faa86bbe5aef37551cbcaa721e1ef74c66a54887cb970a49c22d9034cf344a", "t": "indexPathsForVisibleItems", "n": 351, "laws": 0, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/UIKit/customizing-a-document-based-app-s-launch-experience", "sha": "eae4e6f1a0cd43838571620f1b65d151a44df19e72f906014bd7d76916a8eb74", "t": "Customizing a document-based app’s launch experience", "n": 3255, "laws": 1, "ts": "2026-07-29 18:38 UTC"}
 {"id": "/documentation/uikit/uitableviewdropproposal", "sha": "4b38fd19b8d31a5bd7d3e46ddb98edb5ba1d3338779867af487e3126de5d56ec", "t": "UITableViewDropProposal", "n": 550, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/uikit/uiview/autoresizessubviews", "sha": "dba8243adae92ecce4b62ac6d2dd89bb6fd091de7d8a70780939f0a85ebb1d9d", "t": "autoresizesSubviews", "n": 232, "laws": 0, "ts": "2026-07-30 05:46 UTC"}

@@ -300,3 +300,15 @@
 {"id": "/documentation/Updates/AppIntents", "law": "Pass a condition to to only require user confirmation if a person’s context meets the provided condition."}
 {"id": "/documentation/Updates/AppIntents", "law": "Use , , and to represent your app intents, app entities, and app enums as universal links that you use to provide deep links to your app’s content."}
 {"id": "/documentation/Updates/AppIntents", "law": "Use it in the app intent that offers actions to change your app’s settings."}
+{"id": "/documentation/Updates/CoreMotion", "law": "Use the class to access motion activity from connected headphones."}
+{"id": "/documentation/Updates/CoreMotion", "law": "You can also use to support AirPods device motion data on watchOS."}
+{"id": "/documentation/Updates/CoreMotion", "law": "Use the class to access batches of high-frequency accelerometer and device motion data during workouts, such as a golf swing or a baseball bat swing."}
+{"id": "/documentation/Updates/Xcode", "law": "Use Icon Composer to adjust the strength of refraction in your icon layers, choose how highlights align with each layer, and preview your icon in previous operating system releases."}
+{"id": "/documentation/Updates/Xcode", "law": "Use Voice Control to instruct Xcode and write Swift code."}
+{"id": "/documentation/Updates/Xcode", "law": "Use Icon Composer to create a single file representation of your app icon for iOS, iPadOS, macOS, and watchOS."}
+{"id": "/documentation/Updates/Xcode", "law": "Cut text from the Source Editor, and then use the New File from Clipboard command while holding the option key in the Project Navigator’s context menu to quickly extract part of a source file into a new file."}
+{"id": "/documentation/Updates/Xcode", "law": "Use the new Integrate menu to stage and commit source code repository changes, and to create and manage your Xcode Cloud workflows."}
+{"id": "/documentation/Updates/Xcode", "law": "Automatically generate symbols for assets in your asset catalogs so you don’t need to reference those assets by string names."}
+{"id": "/documentation/Updates/Xcode", "law": "The initial pairing process and some other tools, such as Console and Accessibility Inspector, still require the watch’s companion phone with a wired connection to a Mac."}
+{"id": "/documentation/Updates/GameController", "law": "Add to your information property list if your app requires access to accessory-tracking data for a spatial game controller or stylus."}
+{"id": "/documentation/Updates/HealthKit", "law": "Use this data to analyze someone’s motion after performing an action, like swinging a golf club."}

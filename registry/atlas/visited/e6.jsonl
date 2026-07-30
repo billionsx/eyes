@@ -67,3 +67,6 @@
 {"id": "/documentation/uikit/uibarbuttonitem/identifier", "sha": "08f4f09ad47a36785172e13221238e896c2295f1f427a45243aa5be2f3515ef5", "t": "identifier", "n": 842, "laws": 3, "ts": "2026-07-29 18:36 UTC"}
 {"id": "/documentation/uikit/uiapplication/beginbackgroundtask(withname:expirationhandler:)", "sha": "ef545bdf25bff2ea50e4bbbf179ccf65ab70e8a2e11f44eb46ac69e943aea0c3", "t": "beginBackgroundTask(withName:expirationHandler:)", "n": 2110, "laws": 0, "ts": "2026-07-29 18:40 UTC"}
 {"id": "/documentation/uikit/uiscene/connectionoptions/useractivities", "sha": "5353b9226a6c91928ebbaeb4ff4a524f3c21d99d673a4625f020f3e39a1428df", "t": "userActivities", "n": 710, "laws": 0, "ts": "2026-07-29 18:42 UTC"}
+{"id": "/documentation/xcode/invalid-variable-length-array", "sha": "3a5f0a544420b92347a1e4423c84d5b1a4eeb6bbcd5bb4111c9e8492e386dde1", "t": "Invalid variable-length array", "n": 458, "laws": 0, "ts": "2026-07-30 05:26 UTC"}
+{"id": "/documentation/uikit/uiaxis", "sha": "13cf479d39b40693ca5fc8ace38960e62d9ab067aaffcc11e246c536002dabd0", "t": "UIAxis", "n": 117, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardhyphen", "sha": "fce8a28f91af32b5c119640a20fb749057bcd9263c61f66962dae853ba1a5a5f", "t": "UIKeyboardHIDUsage.keyboardHyphen", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}

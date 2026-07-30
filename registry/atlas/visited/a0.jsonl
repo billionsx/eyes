@@ -69,3 +69,6 @@
 {"id": "/documentation/watchkit/wkinterfaceactivityring", "sha": "d25ee88aad3622436b235d69c86c71271ec9afe2ca615d5d17481744796047c3", "t": "WKInterfaceActivityRing", "n": 1493, "laws": 0, "ts": "2026-07-29 18:25 UTC"}
 {"id": "/documentation/uikit/uiviewcontroller/setneedsupdateproperties()", "sha": "e0bd998572b996a50159b978a01db4e8481651cd32a339e477db0da1723f26bd", "t": "setNeedsUpdateProperties()", "n": 157, "laws": 0, "ts": "2026-07-29 18:34 UTC"}
 {"id": "/documentation/uikit/uiapplicationshortcuticon/init(systemimagename:)", "sha": "35a667dc9c04f75c89bae8560ac8137012086fd66a5303537559715b117ed908", "t": "init(systemImageName:)", "n": 168, "laws": 0, "ts": "2026-07-29 18:42 UTC"}
+{"id": "/documentation/widgetkit/controlvalueprovider/previewvalue", "sha": "41f77092b90c895602cfe9d4453501cd0cbf6381d56a46128c1fb736437a55ef", "t": "previewValue", "n": 182, "laws": 0, "ts": "2026-07-30 05:29 UTC"}
+{"id": "/documentation/widgetkit/timelineprovider/relevance()-7036j", "sha": "9996d85a129b8848c9f2bb474deca92a05b039ef508ac7348da154b99f06286f", "t": "relevance()", "n": 830, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardvolumeup", "sha": "3bee9947b49ff26ebbb16eafa788f6b08ad23a3b114fdcc3e88cfceb88bc2d85", "t": "UIKeyboardHIDUsage.keyboardVolumeUp", "n": 50, "laws": 0, "ts": "2026-07-30 05:54 UTC"}

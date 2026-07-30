@@ -58,3 +58,9 @@
 {"id": "/documentation/uikit/uiapplication/isdefault(_:)", "sha": "fb26ef20f20d078f3dc1f3299f03d6521c10fbefdfc27c56df473947102c842a", "t": "isDefault(_:)", "n": 692, "laws": 0, "ts": "2026-07-29 18:41 UTC"}
 {"id": "/documentation/uikit/uiapplication/opennotificationsettingsurlstring", "sha": "d57e522a31001d31386bc7ed66e7bfd720d6f349beae34c7b4cf56a99cb2f9cc", "t": "openNotificationSettingsURLString", "n": 249, "laws": 0, "ts": "2026-07-29 18:41 UTC"}
 {"id": "/documentation/uikit/uiaccessibility/notification/layoutchanged", "sha": "0efcac5a95d1faf6ac24b1a05ad5975a9a58d39b9758840a5b69c4d47696b20c", "t": "layoutChanged", "n": 258, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/WidgetKit/WidgetMountingStyle", "sha": "2973ca29b21ad5c04660d8e3eb8974ad43cd00ead3c4a5ae3489364a0c63c969", "t": "WidgetMountingStyle", "n": 96, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/scenekit/scnbindingblock", "sha": "967b2147b8aead4a088ab4915ecad26e65a68f6de1a5776c820604dcf739c423", "t": "SCNBindingBlock", "n": 241, "laws": 0, "ts": "2026-07-30 05:32 UTC"}
+{"id": "/documentation/uikit/uitableview/numberofsections", "sha": "b162509112b2c3207c99e11b0b0252ed62149bd65b741873ca52c668056f792c", "t": "numberOfSections", "n": 123, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
+{"id": "/documentation/uikit/uiview/layoutmarginsdidchange()", "sha": "af1ea82b62c264b06bf8ec8f2028d602296b7a173d002ed585aa179cab8d4722", "t": "layoutMarginsDidChange()", "n": 439, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/uikit/uitextviewdelegate", "sha": "db1e22789f48a45261286b963a625f879a9a0261427887d7e5c4a9538663fadd", "t": "UITextViewDelegate", "n": 1763, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keypadcomma", "sha": "070e62b57f0a46c4a66fae41e247f764ef10a78eddb7063af489d41c34962512", "t": "UIKeyboardHIDUsage.keypadComma", "n": 50, "laws": 0, "ts": "2026-07-30 05:54 UTC"}

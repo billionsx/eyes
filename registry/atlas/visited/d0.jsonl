@@ -79,3 +79,7 @@
 {"id": "/documentation/carplay/cplane", "sha": "27471d935c1c8425f81d977531186288aaae5e02fd9a2212a4ec2ad1ec1ba83f", "t": "CPLane", "n": 290, "laws": 0, "ts": "2026-07-29 06:05 UTC"}
 {"id": "/documentation/carplay/cpbarbuttonproviding/leadingnavigationbarbuttons", "sha": "b029bd2592ea5d35b3b8c0b6a0a7b9c74a4a601010f6d8190240330190b1952f", "t": "leadingNavigationBarButtons", "n": 258, "laws": 0, "ts": "2026-07-29 06:08 UTC"}
 {"id": "/documentation/uikit/uisplitviewcontroller", "sha": "d419f42e1cc415e0f15aa75837c93041b35e23c32aca7dafb9c9a98f478074c6", "t": "UISplitViewController", "n": 10300, "laws": 3, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/scenekit/postprocessing-a-scene-with-custom-symbols", "sha": "1b41c648eeeab18b5d001dc0d666ae7c74f252f2ffbb2a9ad81cb50aed25e848", "t": "Postprocessing a Scene With Custom Symbols", "n": 2544, "laws": 1, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/uikit/uicontrol/endtracking(_:with:)", "sha": "7a3ce829fcab3bcae582e4959e8ac5f65dfc6c0882f6a14a713ecf482a45f3e7", "t": "endTracking(_:with:)", "n": 526, "laws": 1, "ts": "2026-07-30 05:39 UTC"}
+{"id": "/documentation/uikit/uimenu/selectedelements", "sha": "f5b27f8772a94749d7e80f2d03c88d4bcc1259bf78c74bc9723e9a638b540547", "t": "selectedElements", "n": 68, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardhelp", "sha": "579d3bee1d68a44ef33303b7b14efc6ffd5a7929d521edabc2cb34c25d319d30", "t": "UIKeyboardHIDUsage.keyboardHelp", "n": 50, "laws": 0, "ts": "2026-07-30 05:52 UTC"}

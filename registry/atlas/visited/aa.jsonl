@@ -65,3 +65,6 @@
 {"id": "/documentation/uikit/uiscreen/bounds", "sha": "8298c728eb57f66762786e81d5b4aa24997cb328fba2e3194d943b02e93b9adb", "t": "bounds", "n": 325, "laws": 0, "ts": "2026-07-29 18:30 UTC"}
 {"id": "/documentation/uikit/uimodalpresentationstyle", "sha": "409c2f1cac274eed54e351a1e8cdb316022e00f8d435a3e753790ee460130c0c", "t": "UIModalPresentationStyle", "n": 534, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/uikit/uiapplication/defaultstatusforcategory:error:", "sha": "85a7c5ad66ec8b92777c059d510416e8126cb3fa4afac6b8d637a14ded866069", "t": "defaultStatusForCategory:error:", "n": 732, "laws": 0, "ts": "2026-07-29 18:40 UTC"}
+{"id": "/documentation/xcode/configuring-the-environment-of-a-simulated-device", "sha": "cf84d46848d08642b31b30375ddce420da7910e1f48ad276f81b0a42529a85e8", "t": "Configuring the environment of a simulated device", "n": 3399, "laws": 2, "ts": "2026-07-30 05:25 UTC"}
+{"id": "/documentation/widgetkit/controlcenter/reloadcontrols(ofkind:)", "sha": "606c2e2a6763eb2ded6af5b33f9c3d08a708abdfd604cade964edd442d33b79e", "t": "reloadControls(ofKind:)", "n": 60, "laws": 0, "ts": "2026-07-30 05:29 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardt", "sha": "d09be86ec2b659e7413faf90aafe0dd95ffa5f30fd3b170c9a8f6fe8df6b2c19", "t": "UIKeyboardHIDUsage.keyboardT", "n": 49, "laws": 0, "ts": "2026-07-30 05:53 UTC"}

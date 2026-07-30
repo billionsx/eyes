@@ -76,3 +76,9 @@
 {"id": "/documentation/watchkit/handling-common-state-transitions", "sha": "fe9822d00c49ff98d8e36b1dcf2e4b5f233a7cf4255829b656e73a954051c0d6", "t": "Handling Common State Transitions", "n": 5984, "laws": 2, "ts": "2026-07-29 18:26 UTC"}
 {"id": "/documentation/uikit/uidynamicanimator/behaviors", "sha": "61c958e14da89961a0c3bce8a15d763d86c1a01611ba770025dacb9c8b80a676", "t": "behaviors", "n": 52, "laws": 0, "ts": "2026-07-29 18:29 UTC"}
 {"id": "/documentation/uikit/uiaction/discoverabilitytitle", "sha": "97be4182312f3cc5bf9c655ec9e16887932e4f6b6f5d5fcddb3e583191098c4d", "t": "discoverabilityTitle", "n": 382, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/widgetkit/widgettexture/paper", "sha": "61d6980770f7869728fa19589cde4eabd4df0fb6fc89b9abe1a8c659a56be370", "t": "paper", "n": 59, "laws": 0, "ts": "2026-07-30 05:28 UTC"}
+{"id": "/documentation/scenekit/scntube", "sha": "47855d82f8b378297262e7aa67abda1da8f8afa93ee0eefb4f50c410646eea24", "t": "SCNTube", "n": 1374, "laws": 0, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/Updates/Swift", "sha": "ef00b3e04f7552904255c821a4cb3a8ecb8b59b2bc63a337df5cd98e2729922a", "t": "Swift updates", "n": 1180, "laws": 0, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/accessibility/axmathexpressionrow/expressions", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "expressions", "n": 0, "laws": 0, "ts": "2026-07-30 05:35 UTC"}
+{"id": "/documentation/uikit/uiview/hasambiguouslayout", "sha": "06d2a863aabcdd1fc372a7098e807be2d5481895ae23903218c84a4892d6b317", "t": "hasAmbiguousLayout", "n": 817, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/uikit/uiview/systemlayoutsizefitting(_:)", "sha": "659a39dd67046a6e4ae344e72106b7f918ad7615c1b300213482f33d0483b487", "t": "systemLayoutSizeFitting(_:)", "n": 351, "laws": 0, "ts": "2026-07-30 05:48 UTC"}

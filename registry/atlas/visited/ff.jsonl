@@ -66,3 +66,14 @@
 {"id": "/documentation/uikit/uiswitch/init(coder:)", "sha": "ace52b675692991ec85fe8faf8f7c4ea333d3e6aef916459c431df19608234bc", "t": "init(coder:)", "n": 52, "laws": 0, "ts": "2026-07-29 18:28 UTC"}
 {"id": "/documentation/uikit/uiscreen/modedidchangemessage", "sha": "e288aa8de2b8cf8ab3d649c4e11d1c85b73ebc1f03df4f44653f2e073e06f04f", "t": "UIScreen.ModeDidChangeMessage", "n": 61, "laws": 0, "ts": "2026-07-29 18:30 UTC"}
 {"id": "/documentation/uikit/uiuserinterfacestyle", "sha": "79a0891fdf38b113c5d062a920fd765b3f59cd1377294499b1387d5d3ba42bb7", "t": "UIUserInterfaceStyle", "n": 208, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/widgetkit/controlinfo/kind", "sha": "d4500559b3b407518117b660efcb27ad33099f782f57fef63de8d29d1c510c6e", "t": "kind", "n": 68, "laws": 0, "ts": "2026-07-30 05:29 UTC"}
+{"id": "/documentation/widgetkit/widgetpushinfo/token", "sha": "e230d65863f498a898f43220e183579091c8aae96369a9fda485fe4199d1fd12", "t": "token", "n": 186, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/scenekit/scngeometryelement", "sha": "669f343a6adcdb8c9a7f86ce6ff719c5c265a8304cfbb425d989cfb91b195b4f", "t": "SCNGeometryElement", "n": 2148, "laws": 0, "ts": "2026-07-30 05:31 UTC"}
+{"id": "/documentation/accessibility/axdataseriesdescriptor/iscontinuous", "sha": "2db664577d24409cabf2e8747cc94a74f282746a74723cb57dcd03202a56ce5e", "t": "isContinuous", "n": 70, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
+{"id": "/documentation/uikit/uicollectionview/hasactivedrag", "sha": "c0ced15cfa8764243c1f039cbd5bc3ef6f08a57d5348d3dafd1174e1afa2f039", "t": "hasActiveDrag", "n": 112, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
+{"id": "/documentation/uikit/uicontrol/istouchinside", "sha": "445fadd94b97faa2dbfa5799d9990b7996b1e08536035e23e131184fa244dafc", "t": "isTouchInside", "n": 549, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
+{"id": "/documentation/uikit/uitableview/allowsselection", "sha": "ddf62c7d89e9ec8f7a500927d095d575074310812f33a8da806a7b134261d788", "t": "allowsSelection", "n": 350, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
+{"id": "/documentation/uikit/uitableview/insertsections(_:with:)", "sha": "9b6d0ed21c65c3392a38529fa6142f5557f22bb7ef299bd77ec9cef69b29839e", "t": "insertSections(_:with:)", "n": 711, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
+{"id": "/documentation/uikit/uiview/hoverstyle", "sha": "765596f45c9948b79475a73c3213cc3ee11952400087f4ce84f5efce48c21b45", "t": "hoverStyle", "n": 215, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/uikit/uikey/modifierflags", "sha": "2631d30c183f2bb024f0af0fc647834e952c126fcf0f9c9839a18c16211ecb6d", "t": "modifierFlags", "n": 116, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardcopy", "sha": "0ea34a8fd3d8d8ed3d89f52a20987b10292ea133ba93d97b4ac7e4b6d0b0a6cf", "t": "UIKeyboardHIDUsage.keyboardCopy", "n": 50, "laws": 0, "ts": "2026-07-30 05:51 UTC"}

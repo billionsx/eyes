@@ -4,34 +4,34 @@
 
 | Фреймворк | Законов |
 |---|---|
+| uikit | 2457 |
 | appkit | 2365 |
-| uikit | 2233 |
 | appintents | 1688 |
 | accelerate | 1327 |
 | swiftui | 1262 |
+| xcode | 926 |
 | foundation | 850 |
-| xcode | 841 |
 | metal | 713 |
 | avfoundation | 685 |
-| visionos | 641 |
+| visionos | 647 |
 | technotes | 611 |
 | swift | 610 |
 | arkit | 473 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
-| updates | 302 |
+| updates | 314 |
 | bundleresources | 290 |
 | web-landings | 264 |
+| big7 | 258 |
 | foundationmodels | 256 |
 | appstoreconnectapi | 248 |
 | carplay | 236 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
-| big7 | 228 |
 | appclip | 221 |
+| widgetkit | 205 |
 | gamekit | 201 |
 | vision | 195 |
-| widgetkit | 192 |
 | groupactivities | 191 |
 | avfaudio | 162 |
 | storekit | 161 |
@@ -44,7 +44,8 @@
 | driverkit | 129 |
 | networkextension | 122 |
 | swiftdata | 122 |
-| accessibility | 118 |
+| accessibility | 120 |
+| scenekit | 115 |
 | evaluations | 114 |
 | browserenginekit | 111 |
 | virtualization | 106 |
@@ -66,7 +67,6 @@
 | exposurenotification | 73 |
 | safariservices | 73 |
 | usernotifications | 71 |
-| scenekit | 69 |
 | fileprovider | 66 |
 | coregraphics | 64 |
 | network | 63 |
@@ -343,4 +343,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 25586 · фреймворков: 338
+Итого законов: 26004 · фреймворков: 338

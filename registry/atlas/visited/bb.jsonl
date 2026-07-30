@@ -89,3 +89,6 @@
 {"id": "/documentation/uikit/uiviewcontroller/systemminimumlayoutmargins", "sha": "4fca3414eff9c8245f06d3d3b39c043018c261af8964e80bec773f0ec96f8963", "t": "systemMinimumLayoutMargins", "n": 793, "laws": 5, "ts": "2026-07-29 18:34 UTC"}
 {"id": "/documentation/uikit/uiviewcontroller/viewlayoutmarginsdidchange()", "sha": "61980e7042070185f6a737b03bec1d8a14974499fd20549dd8a779badd0fe6c5", "t": "viewLayoutMarginsDidChange()", "n": 182, "laws": 1, "ts": "2026-07-29 18:35 UTC"}
 {"id": "/documentation/uikit/uitableviewrowaction", "sha": "9450afd036d757ab44decb8e859c7ec4589eb6607c42971511b5642267ba80a1", "t": "UITableViewRowAction", "n": 833, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/widgetkit/timeline/entries", "sha": "6d952584b11ca1118e67db8ee4008b99604eadab52174334ba136e5eac89513b", "t": "entries", "n": 29, "laws": 0, "ts": "2026-07-30 05:29 UTC"}
+{"id": "/documentation/accessibility/axbraillemap/present(_:)", "sha": "bc08eea8f23baa7145cd40a67b4854fa58cecd6f61cff7ce3cbad579605d3781", "t": "present(_:)", "n": 215, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
+{"id": "/documentation/uikit/uitableview/separatorinsetreference-swift.property", "sha": "90d85252a3f638703c1431f54da150819384158ec96c10f6d3dbc8e5875ae6e2", "t": "separatorInsetReference", "n": 228, "laws": 0, "ts": "2026-07-30 05:42 UTC"}

@@ -80,3 +80,5 @@
 {"id": "/documentation/callkit/cxproviderdelegate/provider(_:perform:)-947b1", "sha": "72cb8b371a9afd014692bee7de7243cf60d787491014651a771289f4f6e75029", "t": "provider(_:perform:)", "n": 69, "laws": 0, "ts": "2026-07-29 06:03 UTC"}
 {"id": "/documentation/uikit/uiviewcontroller/viewwilldisappear(_:)", "sha": "7e46e54218f75e2fe042265caf487f9578198436a29eb739ff54de42e0ecc640", "t": "viewWillDisappear(_:)", "n": 685, "laws": 0, "ts": "2026-07-29 18:27 UTC"}
 {"id": "/documentation/uikit/uiviewcontroller/nibname", "sha": "fea9ae8080075fddbb82dd7fdcd9dea50c60eb97855884127f8d5df74cfaf1f0", "t": "nibName", "n": 1330, "laws": 0, "ts": "2026-07-29 18:33 UTC"}
+{"id": "/documentation/xcode/null-reference-creation-and-null-pointer-dereference", "sha": "1512f158f6d0331ed70e6b2c55c10fa9d42236d2f745ee9368577e67f6fbf6b8", "t": "Null reference creation and null pointer dereference", "n": 934, "laws": 4, "ts": "2026-07-30 05:26 UTC"}
+{"id": "/documentation/xcode/reaching-of-unreachable-point", "sha": "7327f9575d2b073130a336c9f2009b402a4576a7d663a3e32cb42998bc5cd4a2", "t": "Reaching of unreachable point", "n": 452, "laws": 2, "ts": "2026-07-30 05:26 UTC"}

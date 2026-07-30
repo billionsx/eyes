@@ -78,3 +78,7 @@
 {"id": "/documentation/uikit/uiviewcontroller/viewdidappear(_:)", "sha": "0196b915504fdc2a628698520db3b109dab64db3e1f7d7d13a31d543d6ca13b4", "t": "viewDidAppear(_:)", "n": 444, "laws": 0, "ts": "2026-07-29 18:27 UTC"}
 {"id": "/documentation/uikit/uiview/window", "sha": "de3e1235b1b4cd60e12d6df989cbe61199c39d5d4c80bec19e8ca27445a90299", "t": "window", "n": 127, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/uikit/uicollectionviewplaceholder", "sha": "3dd4a636093bd6b23fe39e6a6308f8599358bcb0e5d57cd94e1dd3da2fb7aad6", "t": "UICollectionViewPlaceholder", "n": 189, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/widgetkit/levelofdetail/simplified", "sha": "4a19b7de20b7ab00addd51fe03245f268f42966a1124c7097781ccf21ac75dcd", "t": "simplified", "n": 229, "laws": 0, "ts": "2026-07-30 05:28 UTC"}
+{"id": "/documentation/accessibility/axfeatureoverridesessionerror-swift.struct/undefined", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "undefined", "n": 0, "laws": 0, "ts": "2026-07-30 05:34 UTC"}
+{"id": "/documentation/uikit/uiview/addconstraint(_:)", "sha": "8bb64ce555533d93242be72a928ffb017614b93e588c98dab6c7821493d05659", "t": "addConstraint(_:)", "n": 665, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardzenkakuhankakukanji", "sha": "8915209164709f4a976ebd4e771890e86c363a69033a1355b48c414dddb1afaa", "t": "keyboardZenkakuHankakuKanji", "n": 58, "laws": 0, "ts": "2026-07-30 05:54 UTC"}

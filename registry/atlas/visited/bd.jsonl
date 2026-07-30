@@ -61,3 +61,7 @@
 {"id": "/documentation/xcode/running-custom-scripts-during-a-build", "sha": "fbc16cd16737b48c31395e8ef59fc942e5fdd6c7562c52552b2356ba303e0531", "t": "Running custom scripts during a build", "n": 5190, "laws": 0, "ts": "2026-07-29 18:20 UTC"}
 {"id": "/documentation/visionOS/presenting-windows-and-spaces", "sha": "414d822f8155b5ee710c6022f9573b849210e458993bdef1d3e1898a01b599e6", "t": "Presenting windows and spaces", "n": 6762, "laws": 0, "ts": "2026-07-29 18:22 UTC"}
 {"id": "/documentation/uikit/restoring-your-app-s-state", "sha": "48b89955ab9e5bddb87ada4066b1d9c68a170caaa366cf21e3d89092a9b32c11", "t": "Restoring your app’s state", "n": 6236, "laws": 1, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/scenekit/scnanimatable", "sha": "0469c30b5b1284f59c874d20f2f7d99df840c4c5230ebaeb0537611c8418e70f", "t": "SCNAnimatable", "n": 1310, "laws": 4, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/scenekit/scenekit-macros", "sha": "353863e35ae8e0dfe15f9021595a6ca3ec392651d3dadfc944e82863a7363a06", "t": "Macros", "n": 46, "laws": 0, "ts": "2026-07-30 05:31 UTC"}
+{"id": "/documentation/scenekit/scngeometrysource/semantic-swift.struct/color", "sha": "5f8f21cb774c87abd9a297dfcd7068559c5a6f8a8f5e395612ec8812b27700d1", "t": "color", "n": 541, "laws": 1, "ts": "2026-07-30 05:32 UTC"}
+{"id": "/documentation/uikit/uicollectionview/reconfigureitems(at:)", "sha": "cafa97dbc57113ada64bc8040ec57889e0944f649b413021b818fec9ffbb3727", "t": "reconfigureItems(at:)", "n": 1291, "laws": 2, "ts": "2026-07-30 05:37 UTC"}

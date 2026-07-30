@@ -84,3 +84,5 @@
 {"id": "/documentation/browserenginekit/bescrollviewscrollupdate", "sha": "b7092555de2b8c72d699b994b616e1efe4b2ff7e8c5179ed8205a3f0952725c8", "t": "BEScrollViewScrollUpdate", "n": 668, "laws": 0, "ts": "2026-07-29 06:01 UTC"}
 {"id": "/documentation/Xcode/preparing-dates-numbers-with-formatters", "sha": "762ebcd303d24639b201476ddac7dc2c2ebb9f1a0dee8d322263202a64a5063c", "t": "Preparing dates, currencies, and numbers for translation", "n": 5846, "laws": 2, "ts": "2026-07-29 18:20 UTC"}
 {"id": "/documentation/uikit/uitabbarcontroller/mode-swift.property", "sha": "bde9231509fe9922170ac23ed490af78fa3b27d11215092ae04eff350d786cb2", "t": "mode", "n": 167, "laws": 0, "ts": "2026-07-29 18:39 UTC"}
+{"id": "/documentation/uikit/uiview/semanticcontentattribute", "sha": "8ca7c0e4fdba5539376072b62f41454f91a384e516d0fbf227b7689282d37777", "t": "semanticContentAttribute", "n": 760, "laws": 3, "ts": "2026-07-30 05:48 UTC"}
+{"id": "/documentation/uikit/uilargecontentviewerinteraction", "sha": "be7c91b6c407214ba809e47a69e7c86e59bc67d4db191d77fe34dd9701c90da0", "t": "UILargeContentViewerInteraction", "n": 936, "laws": 2, "ts": "2026-07-30 05:49 UTC"}

@@ -79,3 +79,7 @@
 {"id": "/documentation/uikit/uiviewcontroller/definespresentationcontext", "sha": "c2212c429a8423450fe6f79c1b6993fed601a9a12807685e4d6d4b79ad764322", "t": "definesPresentationContext", "n": 864, "laws": 0, "ts": "2026-07-29 18:33 UTC"}
 {"id": "/documentation/uikit/uibarbuttonitem/removesymboleffect(oftype:options:animated:)-7m567", "sha": "361c0cbe8433cb82f7c8c242a495126e3c89b478ae222a9f97a9b2ecf8410e46", "t": "removeSymbolEffect(ofType:options:animated:)", "n": 137, "laws": 0, "ts": "2026-07-29 18:36 UTC"}
 {"id": "/documentation/uikit/uicollectionview/deselectitem(at:animated:)", "sha": "f6c07af9689d392266ddba9b9d74f0044aaabdea79a0057e34fcf083205a64be", "t": "deselectItem(at:animated:)", "n": 191, "laws": 0, "ts": "2026-07-29 18:44 UTC"}
+{"id": "/documentation/widgetkit/activityviewcontext/isstale", "sha": "ce3f2cfc5545eca336bdceacfd2ca3d9a359498f455a22d288671c887cee7904", "t": "isStale", "n": 72, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/scenekit/scnvector4", "sha": "d3f48b5130e2143b1c31aa72bde6c01564b31802fd92815c3c277543ef185d2b", "t": "SCNVector4", "n": 1009, "laws": 0, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/uikit/uiview/constraints", "sha": "6d2f12b94330e9e27370ddd10508ea6e72335756bcbdcddcf3bbfb3270538ea8", "t": "constraints", "n": 33, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardf22", "sha": "f84fcad6cc9d4af8e9356b238305e0f2a7b5973689faa87e013a62d489f97fdf", "t": "UIKeyboardHIDUsage.keyboardF22", "n": 50, "laws": 0, "ts": "2026-07-30 05:52 UTC"}

@@ -82,3 +82,8 @@
 {"id": "/documentation/UIKit/NSTextScalingType", "sha": "d6804e2fa3bf229edb2af742065b9d25ab7cd0315ea617bf3116878e4626963d", "t": "NSTextScalingType", "n": 137, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
 {"id": "/documentation/uikit/uirectedge", "sha": "42bad3e182311057a8a5f7b77f64c4e34c8dde63fe64452bb88a99a7075cdb54", "t": "UIRectEdge", "n": 214, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/uikit/uibarbuttonitem/action", "sha": "d70edd4626846da0225cefb9a8102a60824b6f2d7e7be48c86d7e21ad0419917", "t": "action", "n": 209, "laws": 0, "ts": "2026-07-29 18:35 UTC"}
+{"id": "/documentation/widgetkit/dynamicislandexpandedregionposition/bottom", "sha": "4c966e59fca9e5415c4c51759c22accf4b8493db85aa70ebe759a5ca6187c75c", "t": "bottom", "n": 81, "laws": 0, "ts": "2026-07-30 05:27 UTC"}
+{"id": "/documentation/widgetkit/timelineprovidercontext/displaysize", "sha": "ca5b2489cfece765a047c0417139e13dfa0763241eb4e8ce294a6a1abbb2e4cd", "t": "displaySize", "n": 35, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/scenekit/scntechnique/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 05:31 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardleftarrow", "sha": "84cddb14574b4ad78e7a26432d614b4b463b0610152e6d2249b1cb5718b04e8f", "t": "UIKeyboardHIDUsage.keyboardLeftArrow", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardpaste", "sha": "f11272d951f1d27c9377c0d0ffe40e3b92e8226da3fef012a1c1f4e63cc508ef", "t": "UIKeyboardHIDUsage.keyboardPaste", "n": 50, "laws": 0, "ts": "2026-07-30 05:53 UTC"}

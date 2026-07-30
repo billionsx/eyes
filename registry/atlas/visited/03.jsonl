@@ -83,3 +83,8 @@
 {"id": "/documentation/carplay/cpplayableitem", "sha": "d26f5c7eef3b74e30ec668259e508ef075fe1903620fa5aff73c7699942387c4", "t": "CPPlayableItem", "n": 45, "laws": 0, "ts": "2026-07-29 06:06 UTC"}
 {"id": "/documentation/UIKit/NSUnderlineStyle", "sha": "cc52fa1fa8fe36e4501afcbaebfd3c4902e5e01f9fd8566a33c4cc775d3d9b97", "t": "NSUnderlineStyle", "n": 320, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
 {"id": "/documentation/uikit/uiviewcontroller-deprecated-symbols", "sha": "1d333fe3135485d7e0cd988782ba60ff744a0d108e7189f91e2aa03286dea761", "t": "Deprecated symbols", "n": 855, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/widgetkit/widgetpushhandler/pushtokendidchange(_:widgets:)", "sha": "a3d0df9789b44e1ffcb111615a93314c87f250c87766e5362f04959a1b067aea", "t": "pushTokenDidChange(_:widgets:)", "n": 72, "laws": 0, "ts": "2026-07-30 05:28 UTC"}
+{"id": "/documentation/scenekit/scncapsule", "sha": "436ab20db661f254a1914bfde81205f49506d21a91151a1b2257d178449d411f", "t": "SCNCapsule", "n": 1112, "laws": 0, "ts": "2026-07-30 05:32 UTC"}
+{"id": "/documentation/uikit/uiview/accessibilityignoresinvertcolors", "sha": "795177964e4d2a8935e98325882191c906916dae2f945abdb760179d950bc4d2", "t": "accessibilityIgnoresInvertColors", "n": 542, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardf", "sha": "298225521e041fb10ebc00ace867f4ebe594f1e860434ee92da2277fce0f0f92", "t": "UIKeyboardHIDUsage.keyboardF", "n": 48, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keypad9", "sha": "6f6eb11ec798009b4acc6f22b8f1998de1250616f9c94198ac93bfbcb64f8d26", "t": "UIKeyboardHIDUsage.keypad9", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}

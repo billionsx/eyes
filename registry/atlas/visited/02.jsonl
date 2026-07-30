@@ -69,3 +69,7 @@
 {"id": "/documentation/uikit/uitextformattingviewcontroller", "sha": "69bd167616828ca46156cb0bfaaee888417d35b50c24c15a8bd5ab909a3b8a8f", "t": "UITextFormattingViewController", "n": 902, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/uikit/uitab/allowshiding", "sha": "cefb231f74e2f264727913550148c9fda5176d7e60a7578a540a0659d2301661", "t": "allowsHiding", "n": 74, "laws": 0, "ts": "2026-07-29 18:38 UTC"}
 {"id": "/documentation/uikit/uitableviewheaderfooterview", "sha": "3fcc760d9b26efdf633951da0e05c77e2358334b005fc4c329ee5042e66bcfaa", "t": "UITableViewHeaderFooterView", "n": 1577, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/widgetkit/accessorywidgetgroup/init(_:image:content:)-66iys", "sha": "47280b435e52f833db9c352e9e1ea3f61814f8bc91f17aae4509e1217c0ef316", "t": "init(_:image:content:)", "n": 216, "laws": 0, "ts": "2026-07-30 05:28 UTC"}
+{"id": "/documentation/uikit/uitableview/isediting", "sha": "d8c42070361a19c5ae71cb6d008a1606beda5d7017da75bb42128f0597f99828", "t": "isEditing", "n": 459, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
+{"id": "/documentation/uikit/uiview/isfocused", "sha": "548354d4a4cc3fc90766a6b42fdb2b4020c72b67d7a950d2d50307522dad3541", "t": "isFocused", "n": 190, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboard6", "sha": "cb28340a0dba64ecbd1a06e12505d857567f82f2436504e38ce1dc7168f3ff18", "t": "UIKeyboardHIDUsage.keyboard6", "n": 49, "laws": 0, "ts": "2026-07-30 05:51 UTC"}

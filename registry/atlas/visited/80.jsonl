@@ -93,3 +93,8 @@
 {"id": "/documentation/uikit/uiactivity", "sha": "3c2f00cebc509c8782c75153110e9a4e6259b3005e1bd441d606b64424674b66", "t": "UIActivity", "n": 2497, "laws": 0, "ts": "2026-07-29 18:28 UTC"}
 {"id": "/documentation/uikit/uiscreen/wantssoftwaredimming", "sha": "d51840e2c31448aaaf763bdb1bbda25de7420d2f84b299b3a483f8f309c34f62", "t": "wantsSoftwareDimming", "n": 221, "laws": 0, "ts": "2026-07-29 18:30 UTC"}
 {"id": "/documentation/uikit/uibarbuttonitem/initwithprimaryaction:", "sha": "4bc9601ecddec23617b31bdc61ad3721d11b843cdbd7f3a2e05c23428491f3a8", "t": "initWithPrimaryAction:", "n": 100, "laws": 0, "ts": "2026-07-29 18:36 UTC"}
+{"id": "/documentation/accessibility/axmfihearingdevice/ear", "sha": "477496499fd5353fb65788ff93a0249d242a86477a1d8edd7e9f0bd3e51fc684", "t": "AXMFiHearingDevice.Ear", "n": 110, "laws": 0, "ts": "2026-07-30 05:35 UTC"}
+{"id": "/documentation/uikit/uicollectionview/selfsizinginvalidation-swift.property", "sha": "d6d235e9cc5486fce498768aaccfe0f8a514be9cd4a78245723331fd59dd1f92", "t": "selfSizingInvalidation", "n": 115, "laws": 0, "ts": "2026-07-30 05:37 UTC"}
+{"id": "/documentation/uikit/uicontrol/event", "sha": "51b44f378fab1aa763d54db21b236951cde9f9fd3f0cea492ec77e84fa1d686c", "t": "UIControl.Event", "n": 696, "laws": 0, "ts": "2026-07-30 05:39 UTC"}
+{"id": "/documentation/uikit/uitableview/rectforfooter(insection:)", "sha": "3a6250b2d8dcd5e932aa2523f54ad014ffcf44b5fad61e057975bece2c50ad0b", "t": "rectForFooter(inSection:)", "n": 161, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
+{"id": "/documentation/uikit/nsrectalignment", "sha": "1ab6d59c8e2ee7e685571bd95d74b75e7b90a324522563f9b66233a572ef7b75", "t": "NSRectAlignment", "n": 396, "laws": 0, "ts": "2026-07-30 05:49 UTC"}

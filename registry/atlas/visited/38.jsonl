@@ -73,3 +73,8 @@
 {"id": "/documentation/WatchKit/WKExtensionDelegate/handle(_:)-5pyj1", "sha": "8bc7b1fa64eda4dc193d3d0c5bf98da5e7ba2f02effec8794a47a3d9ce71679b", "t": "handle(_:)", "n": 1450, "laws": 0, "ts": "2026-07-29 18:25 UTC"}
 {"id": "/documentation/watchkit/wkinterfaceauthorizationappleidbutton", "sha": "fc1fe395bfba871d501eb7032d404b8bcf80965441ed548d2a79922a387b45ef", "t": "WKInterfaceAuthorizationAppleIDButton", "n": 1410, "laws": 6, "ts": "2026-07-29 18:25 UTC"}
 {"id": "/documentation/uikit/uiview/didaddsubview(_:)", "sha": "0b6533b9e9c1a9333d536a3ea0534e66ecef196a3bcd6f4b87f137afc4db6607", "t": "didAddSubview(_:)", "n": 286, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/visionOS/reducing-the-rendering-cost-of-your-UI-on-visionOS", "sha": "cc0c835c137953b13b96568347bcaa3518c468ddf4e89f5d5e74dac1b9a76f98", "t": "Reducing the rendering cost of your UI on visionOS", "n": 7110, "laws": 6, "ts": "2026-07-30 05:25 UTC"}
+{"id": "/documentation/scenekit/scnview", "sha": "a3a020e4446cba1849f68fa5408a24cfd425daef057a4d3fcc7953d30d3b70e1", "t": "SCNView", "n": 1449, "laws": 0, "ts": "2026-07-30 05:31 UTC"}
+{"id": "/documentation/Updates/HealthKit", "sha": "7366206f7ce1d23f94aa72800bc18700a54716510a272586d5089ea720e3076f", "t": "HealthKit updates", "n": 2513, "laws": 1, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/accessibility/axmathexpressionfenced/closestring", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "closeString", "n": 0, "laws": 0, "ts": "2026-07-30 05:34 UTC"}
+{"id": "/documentation/uikit/uiview/mask", "sha": "001ce851f9e831aa4f74393e64b5aba6c64d2f9e3db1c9470233d1dcdd747e9e", "t": "mask", "n": 308, "laws": 0, "ts": "2026-07-30 05:48 UTC"}

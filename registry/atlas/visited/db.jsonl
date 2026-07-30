@@ -65,3 +65,4 @@
 {"id": "/documentation/uikit/uiresponder/restoreuseractivitystate(_:)", "sha": "b8ac4e12009d2a98a7e152aeb82811501a549797f73bc8e3128c5065eccdb876", "t": "restoreUserActivityState(_:)", "n": 466, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
 {"id": "/documentation/uikit/uibarbuttonitem/tintcolor", "sha": "ae66a8527b7865c537c35b4f0d30c650faa4d3e66a42b7db5767fc8a22b9c586", "t": "tintColor", "n": 255, "laws": 0, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/uikit/uitextsearchoptions", "sha": "864592129563a877e702437e856452582f978ed1c31c4be6688a74388f34f191", "t": "UITextSearchOptions", "n": 164, "laws": 0, "ts": "2026-07-29 18:40 UTC"}
+{"id": "/documentation/widgetkit/controlwidgettoggle/init(_:ison:action:valuelabel:)-5o6bn", "sha": "0da9e75838b3bb453a47d0a3f4505063da45f3d18693014ca4b0f1f92b2a246b", "t": "init(_:isOn:action:valueLabel:)", "n": 40, "laws": 0, "ts": "2026-07-30 05:28 UTC"}

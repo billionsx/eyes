@@ -76,3 +76,5 @@
 {"id": "/documentation/watchkit/wkintentdidrunrefreshbackgroundtask", "sha": "02a7c2f94a1a74d4366f12523a4b4af9adc888d4acfd95fcdd678430e6259531", "t": "WKIntentDidRunRefreshBackgroundTask", "n": 812, "laws": 0, "ts": "2026-07-29 18:26 UTC"}
 {"id": "/documentation/uikit/uiview/willmove(towindow:)", "sha": "eb7b5ed42d5e57f90aa40d458795bc0cf0a82ae208e358c49bb6a3295d682a18", "t": "willMove(toWindow:)", "n": 213, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/uikit/uitextsearchingfindsession", "sha": "9046e2c42d56f07ca6a2f80164485e4c342ce3a3db53795d9b0cc6f34d680b8a", "t": "UITextSearchingFindSession", "n": 699, "laws": 0, "ts": "2026-07-29 18:40 UTC"}
+{"id": "/documentation/widgetkit/dynamicislandexpandedregionposition/leading", "sha": "3d82065e4b34102e4ff01f98e4e1d5a59b016e04cf3f883963f8a9a82b554e8d", "t": "leading", "n": 82, "laws": 0, "ts": "2026-07-30 05:27 UTC"}
+{"id": "/documentation/widgetkit/relevanceentriesprovider/entry", "sha": "345a3a3bee9535e5b8b03dbe6fa3fd62dac3f48ea70896844a22b60adee10262", "t": "Entry", "n": 95, "laws": 0, "ts": "2026-07-30 05:29 UTC"}

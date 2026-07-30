@@ -71,3 +71,8 @@
 {"id": "/documentation/uikit/uiscreen/referencedisplaymodestatus-swift.enum", "sha": "9358e8df90de0e8918c0ea7c4fe3902b315410a90d8af5951a6e10a0ea3d8f1b", "t": "UIScreen.ReferenceDisplayModeStatus", "n": 284, "laws": 0, "ts": "2026-07-29 18:30 UTC"}
 {"id": "/documentation/uikit/uicollectionview/cellforitem(at:)", "sha": "ab25c5a3a1c00efc3a0dc288b28ceec4bfe60370f72bfce82d227455f1a0cd04", "t": "cellForItem(at:)", "n": 921, "laws": 0, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/UIKit/UICornerConfiguration-swift.struct", "sha": "061d29661ad7f8718fa48bd5ee27c3ba5e9de71d1eb50cd2b671fadd262d4d03", "t": "UICornerConfiguration", "n": 2010, "laws": 3, "ts": "2026-07-29 18:39 UTC"}
+{"id": "/documentation/widgetkit/timelineentryrelevance/init(score:duration:)", "sha": "7813a13ba37f7d1ab28fc33a3790efed9876449a5db86653ca1276889d5b24b6", "t": "init(score:duration:)", "n": 150, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/widgetkit/activityviewcontext/activityid", "sha": "7208d567cd930fc4f85fb5a1bef1087addadbeb1bca35751556c3fe68f738f92", "t": "activityID", "n": 42, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
+{"id": "/documentation/scenekit/scnshadermodifierentrypoint/lightingmodel", "sha": "1ea7d3b43d18c17ba68a4641afaab0fc484e0df7e78fa658449f3a8a2a54aac4", "t": "lightingModel", "n": 1104, "laws": 0, "ts": "2026-07-30 05:32 UTC"}
+{"id": "/documentation/uikit/uitableview/reloaddata()", "sha": "82a94d151df4ed36f034a21484c975b6c831af30c2106392401415d10ec3f1c7", "t": "reloadData()", "n": 744, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
+{"id": "/documentation/uikit/uiview/rightanchor", "sha": "2c2da60483b3bf4bc97d25f4a1eebc653a4e02ed98de46e27db0d30d970353eb", "t": "rightAnchor", "n": 279, "laws": 0, "ts": "2026-07-30 05:48 UTC"}

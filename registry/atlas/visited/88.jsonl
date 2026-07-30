@@ -75,3 +75,9 @@
 {"id": "/documentation/uikit/uiscreen/referencedisplaymodestatus-swift.property", "sha": "fc88c3b50098099314420c598ddf714e875707f25a49e1302da26ede67c921b3", "t": "referenceDisplayModeStatus", "n": 167, "laws": 0, "ts": "2026-07-29 18:30 UTC"}
 {"id": "/documentation/uikit/uibaritem", "sha": "41b302a8348513b3cc63553a2f55e474ff0d01783c376a5b19251a2d83263bdf", "t": "UIBarItem", "n": 1013, "laws": 1, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/uikit/uicollectionviewdragdelegate", "sha": "24fe6b3f2bfab5de646020e8146fbc8c35430133c3750beff02d2f6d828a8f28", "t": "UICollectionViewDragDelegate", "n": 856, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
+{"id": "/documentation/scenekit/scnmaterialproperty/contents", "sha": "460ee879bce3bd3090a9cd3f2e3dc611e09113d15b96307d0bbb5431e9e67708", "t": "contents", "n": 2880, "laws": 7, "ts": "2026-07-30 05:32 UTC"}
+{"id": "/documentation/accessibility/axnumericdataaxisdescriptor/scaletype-swift.property", "sha": "78e77b45d2f000d99092edd87e76ef7402ae3a6ba853e5b57c6aecc168620869", "t": "scaleType", "n": 136, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
+{"id": "/documentation/uikit/uicontrol/alltargets", "sha": "7bb4786d476c1903d0e31005122e9d659d1c0c614d0a27c45f8cf486e6065a92", "t": "allTargets", "n": 241, "laws": 0, "ts": "2026-07-30 05:39 UTC"}
+{"id": "/documentation/uikit/uimenu/preferredelementsize", "sha": "943bdbb5c9d942b2d6a441320f7a49428cd5f806a220027e488c5b53a3a99cf0", "t": "preferredElementSize", "n": 716, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
+{"id": "/documentation/uikit/customizing-drawings", "sha": "fa049dfed0bb2f31bc9b787758f1c62a6a46e93ebfa49a17e5277ebe300dc2fa", "t": "Customizing drawings", "n": 954, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
+{"id": "/documentation/uikit/uitextinteraction", "sha": "07d48b10f3a4f2b5e0e8f9261ca833ef6b65c77bdc50b670676d6bb8c630f487", "t": "UITextInteraction", "n": 1091, "laws": 2, "ts": "2026-07-30 05:50 UTC"}

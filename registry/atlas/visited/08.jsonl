@@ -75,3 +75,8 @@
 {"id": "/documentation/uikit/uiimagepickercontroller/availablecapturemodes(for:)", "sha": "a0bdfb19144ed9cf646849ce46a7e972a12c61ae787e0b8ce05bb9f7e068b9d6", "t": "availableCaptureModes(for:)", "n": 188, "laws": 0, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/uikit/uiimagepickercontroller/cameradevice-swift.enum", "sha": "2e7f746f842399f5416a5e9b1383e403f93e5c877086c7b8158cb817d0a1fbbd", "t": "UIImagePickerController.CameraDevice", "n": 286, "laws": 0, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/uikit/uicollectionview/draginteractionenabled", "sha": "de0c2d4bb66d0a4b6a7ed6af0d8ff32a6237e5fe3b469da43d75839d4bc6b4dd", "t": "dragInteractionEnabled", "n": 499, "laws": 0, "ts": "2026-07-29 18:44 UTC"}
+{"id": "/documentation/scenekit/scnscenerenderer/renderingapi", "sha": "e9cec8d8b9f4a8322d6caa65444e3347614d59ca1872ee8ecb2c1ca973645c2f", "t": "renderingAPI", "n": 799, "laws": 1, "ts": "2026-07-30 05:32 UTC"}
+{"id": "/documentation/uikit/uitableview/backgroundview", "sha": "c75a99b2bc0746acd9159f81d2a70abbe78a85d533ec02059290cbf456ff2f2e", "t": "backgroundView", "n": 424, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
+{"id": "/documentation/uikit/uiview/autoresizingmask-swift.property", "sha": "8b371c25334312bdf9212cd7518f3ce95a4670f4762eb6da38248aa4c2aeaf9f", "t": "autoresizingMask", "n": 1379, "laws": 1, "ts": "2026-07-30 05:46 UTC"}
+{"id": "/documentation/uikit/uiview/edgeinsets(for:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "edgeInsets(for:)", "n": 0, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
+{"id": "/documentation/uikit/uiview/layoutifneeded()", "sha": "5c771e38ad52332e7da45568070b48b30cae17f10c47a1f47825ff650cfd6e31", "t": "layoutIfNeeded()", "n": 505, "laws": 1, "ts": "2026-07-30 05:47 UTC"}

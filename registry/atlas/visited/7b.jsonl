@@ -87,3 +87,5 @@
 {"id": "/documentation/Xcode/diagnosing-and-resolving-bugs-in-your-running-app", "sha": "67825a6ca7fdbd24607f84d5bbdaecffda7045d5b5c4437ddfebc03093f1be05", "t": "Diagnosing and resolving bugs in your running app", "n": 13054, "laws": 0, "ts": "2026-07-29 18:18 UTC"}
 {"id": "/documentation/uikit/uibarbuttonitem/target", "sha": "b548bbd72f98ea46f00d52ea3731a5e1502e900b655b1aab4eb21de204e8591c", "t": "target", "n": 272, "laws": 0, "ts": "2026-07-29 18:37 UTC"}
 {"id": "/documentation/uikit/uiapplicationshortcuticon/init(contact:)", "sha": "a77a1534af45045410870bc4db46ed62ee8a438849abb64d52f0149e427308f2", "t": "init(contact:)", "n": 1258, "laws": 1, "ts": "2026-07-29 18:42 UTC"}
+{"id": "/documentation/uikit/uitableviewdelegate/tableview(_:accessorybuttontappedforrowwith:)", "sha": "cd63e74b9c7e6b06cc6b5354b985d86551090442632d3391cc3f385da28155dd", "t": "tableView(_:accessoryButtonTappedForRowWith:)", "n": 252, "laws": 1, "ts": "2026-07-30 05:44 UTC"}
+{"id": "/documentation/uikit/uismartreplysuggestion", "sha": "6854581663c9641a0b78f3b7e977bed9a0e2fccc2f55e1e5eca1546532096085", "t": "UISmartReplySuggestion", "n": 225, "laws": 0, "ts": "2026-07-30 05:50 UTC"}

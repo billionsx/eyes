@@ -86,3 +86,5 @@
 {"id": "/documentation/uikit/uiapplicationdelegate/application(_:handleopen:)", "sha": "570f779eeced1f68a22eac6844f07532c34abd35cb6495440483e53c8714656f", "t": "application(_:handleOpen:)", "n": 792, "laws": 0, "ts": "2026-07-29 18:38 UTC"}
 {"id": "/documentation/uikit/uiapplicationmain(_:_:_:_:)-1yub7", "sha": "447c20fe8a12e352c2130eee07600cd6c322985292850e488986a93d628a27bf", "t": "UIApplicationMain(_:_:_:_:)", "n": 803, "laws": 0, "ts": "2026-07-29 18:41 UTC"}
 {"id": "/documentation/uikit/uibackgroundtaskidentifier", "sha": "5efc5848cd2a969b137a139514e6504b86df7fc19f2f601a5d2673e8f12a8018", "t": "UIBackgroundTaskIdentifier", "n": 122, "laws": 0, "ts": "2026-07-29 18:42 UTC"}
+{"id": "/documentation/Updates/SwiftCharts", "sha": "ff9256e476aaee0cfa75d2e7e0f13686605fe8b225b9dddee4ef0c5dc582bd60", "t": "Swift Charts updates", "n": 443, "laws": 0, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/uikit/uikeyboardhidusage/keyboardf17", "sha": "c926de8cf435bf12bb5dcf5b36ce22cecf9028e55b79d9749678c5ca39ae0250", "t": "UIKeyboardHIDUsage.keyboardF17", "n": 50, "laws": 0, "ts": "2026-07-30 05:51 UTC"}

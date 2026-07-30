@@ -74,3 +74,4 @@
 {"id": "/documentation/watchkit/wkurlsessionrefreshbackgroundtask", "sha": "d43386a7e72df965dccc8a065bd7216b69f0e1bfe17075f514e6599781407ccf", "t": "WKURLSessionRefreshBackgroundTask", "n": 1816, "laws": 0, "ts": "2026-07-29 18:26 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/emailaddress", "sha": "6a04e9c4395ec71c948742ad5cbd1dcbf9eb92db22c0b050ce681f33fcfb9707", "t": "emailAddress", "n": 77, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
 {"id": "/documentation/uikit/uidocumentmenuviewcontroller", "sha": "d7ef8f7c25d878b5fe599b95a2d22efa61befe30e36f349e4f775475569c4869", "t": "UIDocumentMenuViewController", "n": 445, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
+{"id": "/documentation/scenekit/scntext", "sha": "be66c11f0f1a568d28f13d8dfb5bd3e0bcc66052ead2ca0dcfce5596e22bca33", "t": "SCNText", "n": 2778, "laws": 1, "ts": "2026-07-30 05:33 UTC"}
