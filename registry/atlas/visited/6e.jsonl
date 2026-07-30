@@ -106,3 +106,7 @@
 {"id": "/documentation/uikit/uieventattribution", "sha": "1f8f3b7041dcc81c82074040a1b3055433a94447770b38151a1fdd4766cb4959", "t": "UIEventAttribution", "n": 3205, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardinsert", "sha": "bd1a18fd5f538e42ea486dc52c6cbd1f47ce1d07aa8001ac0d9ad8b21e01072f", "t": "UIKeyboardHIDUsage.keyboardInsert", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardm", "sha": "9701b06e4742a080caaede2a333ae397bdbe5e779972279a012f074449f55d74", "t": "UIKeyboardHIDUsage.keyboardM", "n": 49, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/SwiftUI/ContainerBackgroundPlacement/subscriptionStore", "sha": "12e6313d006e68b07568fd1846122c8eb28162fdb784d0df411cb4c18d066678", "t": "subscriptionStore", "n": 85, "laws": 0, "ts": "2026-07-30 16:24 UTC"}
+{"id": "/documentation/swiftui/contentshapekinds/dragpreview", "sha": "4865f887b91e826f0ead113dd0d76dc8f0b375fb05fce97d5b8a018355900bf9", "t": "dragPreview", "n": 188, "laws": 1, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/view/oninapppurchasestart(perform:)", "sha": "46196b82ad118e95b54e6e768623597abd587fe5120eb749e7b8f73bf691332b", "t": "onInAppPurchaseStart(perform:)", "n": 202, "laws": 0, "ts": "2026-07-30 16:27 UTC"}
+{"id": "/documentation/swiftui/textvariantpreference", "sha": "e774a6e18f881a8a81abc4de3401237e71d95bf98edc9b944a070d4fed080272", "t": "TextVariantPreference", "n": 99, "laws": 0, "ts": "2026-07-30 16:38 UTC"}

@@ -83,3 +83,9 @@
 {"id": "/documentation/uikit/uitableview/draginteractionenabled", "sha": "ee1a008c8f647b7ca5b31e900d2da5c8efd3051f4928655f7e6cc0ce9e4ff883", "t": "dragInteractionEnabled", "n": 489, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
 {"id": "/documentation/uikit/uitableviewcell/defaultcontentconfiguration", "sha": "cf322ff50ae7baaddc3a15e859a2c8167cc6398fc5e71501cdc6a11efd989091", "t": "defaultContentConfiguration", "n": 493, "laws": 0, "ts": "2026-07-30 05:43 UTC"}
 {"id": "/documentation/uikit/uiresponder/pressesbegan(_:with:)", "sha": "6603ebaa889d2a5335ca122f814e04841d0ac6a7b928ba42263d41136fadb56b", "t": "pressesBegan(_:with:)", "n": 405, "laws": 1, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/swiftui/section", "sha": "d8a640984348bab454b0874e290943c0c58645552410bcc9a8609f63e77e32f1", "t": "Section", "n": 1049, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/view/productdescription(_:)", "sha": "c8669fd8dedae6a448500f0b51dbbae87a12d9674f14ac25e3266fb6f7f3002d", "t": "productDescription(_:)", "n": 101, "laws": 0, "ts": "2026-07-30 16:27 UTC"}
+{"id": "/documentation/SwiftUI/ReferenceFileDocument", "sha": "daa55707848a9d2ea3619aa55853231735cdfa3b11ed6c347569d7e12d5afa5c", "t": "ReferenceFileDocument", "n": 1235, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/view/windowfullscreenbehavior(_:)", "sha": "67ad67275ca8ccdbfce9721435421026a64a6a9e07f88fa350163f1acf12203e", "t": "windowFullScreenBehavior(_:)", "n": 475, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/swiftui/focusedvaluekey", "sha": "da879ccb146cc8c7af019223e08d28a73e166a29003c1f7cd38b612866c44946", "t": "FocusedValueKey", "n": 473, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/swiftui/view/background(_:in:fillstyle:)", "sha": "6808559689262c14a134a5321402d8f1570e0aba1feff054c5a753a45e8255e1", "t": "background(_:in:fillStyle:)", "n": 561, "laws": 0, "ts": "2026-07-30 16:44 UTC"}

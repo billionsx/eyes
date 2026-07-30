@@ -85,3 +85,11 @@
 {"id": "/documentation/uikit/uitextinputcontext", "sha": "c72e3060d1c462d0348a9388c0c5a6f177b0e96b4e7c35c1b92ee884e2505ced", "t": "UITextInputContext", "n": 666, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboarddeleteorbackspace", "sha": "13e8a8531c8c8a9e7e3ce3c6350a5cbc0e455ec0f157f3fada8011dd8654d3e1", "t": "UIKeyboardHIDUsage.keyboardDeleteOrBackspace", "n": 49, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypadequalsign", "sha": "426520376ffb967f41fcf99440b828b202d11e239412f3fa68f188df7ec6e6b1", "t": "UIKeyboardHIDUsage.keypadEqualSign", "n": 50, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/foreach/content", "sha": "83967c31a222ab555c7c50a705f8d5b508ded5ce218d84e36b9deceecdbe0157", "t": "content", "n": 65, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/button/init(role:action:)", "sha": "d93d6ee2c94d3763857544e0c03aaf4ec11593bb03c414ec0dc12d8f8b9461f2", "t": "init(role:action:)", "n": 150, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
+{"id": "/documentation/swiftui/view/renameaction(_:)", "sha": "6c4b9c2adff27590f2d6e7204aee624281483104942b664c0573116bddfe60bb", "t": "renameAction(_:)", "n": 467, "laws": 1, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d", "sha": "02fb1285c574faa20ce9b58566b51eaf6cac2043bb41c705cd25d788a06008c3", "t": "UnitPoint3D", "n": 2731, "laws": 1, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/spatialcontainer", "sha": "584cb3c36802ad3b752994325710682e0cd57aa8a87fdc23a53315b5b010ccb8", "t": "SpatialContainer", "n": 226, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/contenttransitionaddsdrawinggroup", "sha": "2cb31f358d7a857d6b336d6ed8d3020482d95c8edae9c5f94fbb63464854d942", "t": "contentTransitionAddsDrawingGroup", "n": 202, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/group/init(sections:transform:)", "sha": "4344aa557b8a3a2d44228b14db78e4fa2933a82d5771a7b020255203e985a348", "t": "init(sections:transform:)", "n": 628, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/SwiftUI/SpacerSizing/fixed", "sha": "0414f9fa66bd5b5c26682d3ad0ed4e9ef8f71b9adfd4ee507426989a87361dc1", "t": "fixed", "n": 142, "laws": 0, "ts": "2026-07-30 16:44 UTC"}

@@ -84,3 +84,9 @@
 {"id": "/documentation/uikit/uitableview/sectionheadertoppadding", "sha": "4d64d8e336ae94b917af2d031a7cda8061e6e2c3098612f99313205aa7dfea72", "t": "sectionHeaderTopPadding", "n": 85, "laws": 0, "ts": "2026-07-30 05:42 UTC"}
 {"id": "/documentation/uikit/uiview/centeryanchor", "sha": "e08095bbc83e3a42656024aa24cc7b22a26ae369792f0045f17917a2b3499c77", "t": "centerYAnchor", "n": 235, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypadequalsignas400", "sha": "667e85c06e1c0f72b19fe66dbdaf607c448447ce749a47843403289a88e18060", "t": "UIKeyboardHIDUsage.keypadEqualSignAS400", "n": 50, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/SwiftUI/View/buttonStyle(_:)-7qx1", "sha": "86542cc92ea9d7f1d029ed3e7e64c633155ce6a90ec4b67e9ba87d7fae9c91ff", "t": "buttonStyle(_:)", "n": 677, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/grouping-data-with-lazy-stack-views", "sha": "6863911f06938cb80340f2efb7ecec1c6d512d24b6ba455cc3a3c656f39284b7", "t": "Grouping data with lazy stack views", "n": 2502, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/view/truncationmode(_:)", "sha": "c35ba66e0c7f606c01740d369c5e2508293b324c2ea88e91b9338305d7f67467", "t": "truncationMode(_:)", "n": 628, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/timelineschedule", "sha": "50f06158a0c15d26aa544bb32cedcaabf31f306113221381e9e7c49a63d9a3c6", "t": "TimelineSchedule", "n": 917, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/radialgradient", "sha": "6c7874a506f2d04975cb6aa2fb3767a9df19c59c780a5282d8263af40117251a", "t": "RadialGradient", "n": 504, "laws": 1, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/swiftui/view/fontdesign(_:)", "sha": "72e7f495aaab64ba363dcdcdb66773e287df9d164b59843ba3ead15821eb3297", "t": "fontDesign(_:)", "n": 108, "laws": 0, "ts": "2026-07-30 16:38 UTC"}

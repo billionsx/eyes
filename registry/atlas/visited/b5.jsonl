@@ -80,3 +80,8 @@
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardescape", "sha": "a7e3ecd802608a4f2d6cd17b9031f4ed8e137c10bd5a863686e9d9d29904e41d", "t": "UIKeyboardHIDUsage.keyboardEscape", "n": 49, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardsemicolon", "sha": "312018e5a844d3e3839d418d5596557b1cb7458d32435df68793a94f2121d892", "t": "UIKeyboardHIDUsage.keyboardSemicolon", "n": 49, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardundo", "sha": "e05008853dd451f32b777ab248bc8c78a542c427ceaae65c517564f24548fc7f", "t": "UIKeyboardHIDUsage.keyboardUndo", "n": 50, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/xcode/sigsegv", "sha": "e1df96394ea03d6b293d3ae822e9ef67145d2ce9ddbfe6dafcd78895c0305a72", "t": "EXC_BAD_ACCESS (SIGSEGV)", "n": 331, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/scene/upperlimbvisibility(_:)", "sha": "62de915c8d9be792b83b1ba22dfcbd02aa8a58b278afbb64c9993e11dd3b7815", "t": "upperLimbVisibility(_:)", "n": 473, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/swiftui/nsviewrepresentablecontext", "sha": "d5463cc0e94330f42ac4714ba464dfbc55f2afe39deccf7d81532ef7c15d342c", "t": "NSViewRepresentableContext", "n": 693, "laws": 1, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/SwiftUI/DocumentWriter", "sha": "f8a0f2f11895711c3524b2f8ba32c4582745daa54b8de7cb0c1cd78b7778950f", "t": "DocumentWriter", "n": 433, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/primitivebuttonstyleconfiguration", "sha": "122c5ef3be5180b152d77917bf57b7adeb09e38eaedd539a96551ae93e1b3de2", "t": "PrimitiveButtonStyleConfiguration", "n": 189, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

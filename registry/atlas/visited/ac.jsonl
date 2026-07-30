@@ -93,3 +93,6 @@
 {"id": "/documentation/uikit/uitableviewcell/accessorytype-swift.enum", "sha": "f6ba794f2f121adf2005a47f25f3f526e806fae899fb70ecfe105bdf9489bc76", "t": "UITableViewCell.AccessoryType", "n": 669, "laws": 0, "ts": "2026-07-30 05:42 UTC"}
 {"id": "/documentation/uikit/uiview/cornerconfiguration-3m8ya", "sha": "6550dbe563d81997032716e65e6dd4a38e8688ddd3cf567eeefd695320f0e792", "t": "cornerConfiguration", "n": 128, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboarddeleteforward", "sha": "7fc94519f5fcf70970a428ae6633d2ef83c502b634634167eb826d4a7e9f5769", "t": "UIKeyboardHIDUsage.keyboardDeleteForward", "n": 49, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
+{"id": "/documentation/coremotion/cmmotionmanager/devicemotionupdateinterval", "sha": "17c11654b413a7e9518388c2c79b4e360781b9f7db568cf0bb6b9e71181bb8e3", "t": "deviceMotionUpdateInterval", "n": 592, "laws": 1, "ts": "2026-07-30 16:16 UTC"}
+{"id": "/documentation/swiftui/spatialtapgesture", "sha": "67fbfc717f8addf3671ced71c5476719e6f9dcd1cfea82a18a56557dc3b66224", "t": "SpatialTapGesture", "n": 613, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/placeholdertextshapestyle", "sha": "b0b6ef7cf9464448bac589e48a9b3b0c0e4e5c138bbe259f2d442fe67646667f", "t": "PlaceholderTextShapeStyle", "n": 71, "laws": 0, "ts": "2026-07-30 16:36 UTC"}

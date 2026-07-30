@@ -80,3 +80,4 @@
 {"id": "/documentation/uikit/uiview/convert(_:to:)-1xizt", "sha": "d4c1485712755eee9941530e2eed67d6006d8ea1c136823ceee1db0953e4f090", "t": "convert(_:to:)", "n": 151, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/drawhierarchy(in:afterscreenupdates:)", "sha": "71a55896f0fceae001d657eb65dedd3fc825d33b6975663e1a893425b7ad2fd6", "t": "drawHierarchy(in:afterScreenUpdates:)", "n": 371, "laws": 1, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uicommand/commandwithtitle:image:action:propertylist:", "sha": "86815d02d5bf337cf50d831066f1ff5ccc08b3758efc3fb7c082d7ef500f5e59", "t": "commandWithTitle:image:action:propertyList:", "n": 129, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/windowstyle/volumetric", "sha": "559f11d3728d0959ae64632c11ba9c42a3059b53b51fcbb36c7a47ecb712d7b0", "t": "volumetric", "n": 1118, "laws": 0, "ts": "2026-07-30 16:24 UTC"}

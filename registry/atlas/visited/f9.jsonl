@@ -79,3 +79,7 @@
 {"id": "/documentation/widgetkit/controlwidgettoggle/init(_:ison:action:valuelabel:)-4lk32", "sha": "0da9e75838b3bb453a47d0a3f4505063da45f3d18693014ca4b0f1f92b2a246b", "t": "init(_:isOn:action:valueLabel:)", "n": 40, "laws": 0, "ts": "2026-07-30 05:28 UTC"}
 {"id": "/documentation/accessibility/axdataseriesdescriptor/attributedname", "sha": "e9c14c523aaef817f87cb8c1fca7c9b8ad875a62b374ebad69a31dc601501998", "t": "attributedName", "n": 139, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
 {"id": "/documentation/uikit/uicollectionviewcell/configurationstate-4u37h", "sha": "6bf2cdbe82298010fa4961746c05ebc2e06589ad71c3d10fefda079b09491a1e", "t": "configurationState", "n": 94, "laws": 0, "ts": "2026-07-30 05:37 UTC"}
+{"id": "/documentation/coremotion/cmsensordatalist", "sha": "a5e45031b77ad080700f51aeb9ee8699b91afb64ca9012d012e416f64a2a00e2", "t": "CMSensorDataList", "n": 318, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
+{"id": "/documentation/swiftui/spatialtapgesture/count", "sha": "27d7072c69a9cf225c8c853dc9800633a8560d64bca88c8d734630183fac9d54", "t": "count", "n": 34, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/navigationsplitviewvisibility/automatic", "sha": "89c33b84bf8c21ec94659fa478a48996d4001f0cf951a44db8b9866d42d5b3e3", "t": "automatic", "n": 152, "laws": 1, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/view/linelimit(_:reservesspace:)", "sha": "0cf73beb1237de4ca3a3d3c1d02566488aa0494f22b21511404dd73afc5c7c56", "t": "lineLimit(_:reservesSpace:)", "n": 453, "laws": 0, "ts": "2026-07-30 16:39 UTC"}

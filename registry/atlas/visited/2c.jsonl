@@ -86,3 +86,7 @@
 {"id": "/documentation/uikit/uitableviewcell/userinteractionenabledwhiledragging", "sha": "8c62f4e15f319cbdb42f6fa88fd7b2919382f9bb0799cbaedc5324ccd4a475a3", "t": "userInteractionEnabledWhileDragging", "n": 146, "laws": 0, "ts": "2026-07-30 05:44 UTC"}
 {"id": "/documentation/uikit/uitextinputmode", "sha": "328dee39dc2368c90017dc5101af9dd467abc96b2adfe0bf541a908fd0d234b5", "t": "UITextInputMode", "n": 403, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uicommandtagshare", "sha": "d4ef81e857de7b079481201cc2aab505afd9a8f5f9b7ab0a839126821bb055b1", "t": "UICommandTagShare", "n": 115, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/coremotion/cmmotionmanager/devicemotionbody", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "deviceMotionBody", "n": 0, "laws": 0, "ts": "2026-07-30 16:16 UTC"}
+{"id": "/documentation/swiftui/text/accessibilitylabel(_:)", "sha": "343654654ef94b52d994e868d1541e18cc0e858793066dcfa26089af2fba087b", "t": "accessibilityLabel(_:)", "n": 228, "laws": 1, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/SwiftUI/View/subscriptionStoreButtonLabel(_:)", "sha": "81f27c4d9d3956b3559ceb48881782b572872846f1606ef537273c00e790f6b1", "t": "subscriptionStoreButtonLabel(_:)", "n": 330, "laws": 2, "ts": "2026-07-30 16:24 UTC"}
+{"id": "/documentation/swiftui/shaderlibrary", "sha": "7eae0a62a476d32818a8c598c3f5e3d1e08280a9d2a04059ceeee81ebc6c6692", "t": "ShaderLibrary", "n": 231, "laws": 0, "ts": "2026-07-30 16:32 UTC"}

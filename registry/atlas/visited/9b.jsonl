@@ -104,3 +104,6 @@
 {"id": "/documentation/uikit/uiresponder/touchescancelled(_:with:)", "sha": "e020f81a07061eaa9e63b630a23d031d8c9725b7332553ad773d88179186ebae", "t": "touchesCancelled(_:with:)", "n": 856, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uiview/frame(foralignmentrect:)", "sha": "6606a94f91a465f599dda4ad796af100404c86affb3e47b63135aa28da9c1fc0", "t": "frame(forAlignmentRect:)", "n": 770, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiviewlayoutregion", "sha": "549d84a5eaf550a635ccc5192ff32323c06cbe7ad99de87bb746a37e54d1e8ee", "t": "UIViewLayoutRegion", "n": 150, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
+{"id": "/documentation/swiftui/geometryreader3d", "sha": "ad2d06342bce066db93a88883e552aef8bf9724376a3d6154f28106a91cf238f", "t": "GeometryReader3D", "n": 503, "laws": 1, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/creating-custom-container-views", "sha": "e483f6600ec1de40af115e0247b76237075aa037d899c0bd41947b38bb68f192", "t": "Creating custom container views", "n": 143, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/swiftui/textinputformattingcontrolplacement", "sha": "f7a2ef35bb1f284340d245b56a9ca437d14bb48dc5780f37edcee9696ee36185", "t": "TextInputFormattingControlPlacement", "n": 139, "laws": 0, "ts": "2026-07-30 16:38 UTC"}

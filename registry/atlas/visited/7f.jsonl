@@ -96,3 +96,11 @@
 {"id": "/documentation/uikit/uicontrol/isselected", "sha": "5c1515ada7400953abf7e0cf74cc0825733186df31c3d7b8aa47b804de544129", "t": "isSelected", "n": 472, "laws": 1, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uiview/animationcurve", "sha": "537e037559b305a8be3047637b22795270124468e0bd828fa8c8aec2d1c3e732", "t": "UIView.AnimationCurve", "n": 211, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardf3", "sha": "cbeebaf0ed5fa272674f875c3570567eb294b86b43710bdc7c44c5afaaaf8006", "t": "UIKeyboardHIDUsage.keyboardF3", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/sharelink", "sha": "9f37ce086b3f2a36a00e7dad5665ea18367106579bed16ee7dc7cdfa2c1c08f4", "t": "ShareLink", "n": 2710, "laws": 1, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/swiftui/view/opacity(_:)", "sha": "bfee46a624dd13286167fb27e5cd9440ff8a32b5d3b9ea3e8540e1392133b00c", "t": "opacity(_:)", "n": 554, "laws": 1, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/progressiveimmersionaspectratio/portrait", "sha": "c844a92ebcfa13fc4c940aa517828f08da67cdde7a7eb2a278ffe7ac1e674014", "t": "portrait", "n": 24, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/roundedrectangle", "sha": "f2a8738e5b9587623ddf958582dc7b5fdb0c1c6fda0146523ded0be15fd2114a", "t": "RoundedRectangle", "n": 271, "laws": 0, "ts": "2026-07-30 16:33 UTC"}
+{"id": "/documentation/swiftui/transaction", "sha": "2d5a22ca30b43247c21a76a448e233f74618162e5437f15d868ea6205d37e813", "t": "Transaction", "n": 655, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/view/fontwidth(_:)", "sha": "d55bddcaf57731588fe67a135876a8c90305e33f2f7ff46cef9d39d025904ea4", "t": "fontWidth(_:)", "n": 106, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/toolbarplacement/windowtoolbar", "sha": "b2b825128c6c38f2f12ccec38f45359385a5db5850c466a150e1d1eabbb3c944", "t": "windowToolbar", "n": 322, "laws": 2, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/swiftui/view/background(alignment:content:)", "sha": "2de5bd2db536b180ffef54ca7b50d5a01d995dc0cf2bd9f72951037664a27364", "t": "background(alignment:content:)", "n": 2237, "laws": 3, "ts": "2026-07-30 16:44 UTC"}

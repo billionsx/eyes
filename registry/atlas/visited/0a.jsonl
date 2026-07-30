@@ -80,3 +80,12 @@
 {"id": "/documentation/uikit/uitableview/tablefooterview", "sha": "099a270c9707b763fae02ed0944148cc017a3bd61ca9bfba20f40353d1c5810a", "t": "tableFooterView", "n": 573, "laws": 0, "ts": "2026-07-30 05:42 UTC"}
 {"id": "/documentation/uikit/uitableviewdelegate/tableview(_:viewforfooterinsection:)", "sha": "e43745cb0dbe9c0a97b3d09705b080dd9a50b858782655f9cd946c5bc700482c", "t": "tableView(_:viewForFooterInSection:)", "n": 331, "laws": 0, "ts": "2026-07-30 05:44 UTC"}
 {"id": "/documentation/uikit/uiview/init(frame:)", "sha": "3b281f2e644df2db2a2056f7a889cb5844c92d2dfa64281d0f83da0c0463a43a", "t": "init(frame:)", "n": 829, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/swiftui/font/caption", "sha": "a44f0bf89568d5b9bd31aa8417e6d654d3fad40332bc4e735417bedd4de9f9f2", "t": "caption", "n": 35, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/view/droppreviewsformation(_:)", "sha": "463b9a3df2b439a2cca7dad4383facd41fa94fde4c3ab769db56438c0ce7d78a", "t": "dropPreviewsFormation(_:)", "n": 51, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/tablecolumncontent", "sha": "33667f123304a4c22d5961798e3acae3a74a45937073b580ee0290d02db96a4e", "t": "TableColumnContent", "n": 1073, "laws": 0, "ts": "2026-07-30 16:27 UTC"}
+{"id": "/documentation/swiftui/view/navigationdocument(_:)", "sha": "e3a8e3bd3da48185bcbd5eaf2c7eb221552a86dcebd4d8be2c1b3029fbf65fa6", "t": "navigationDocument(_:)", "n": 272, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/defaultdocumentgrouplaunchactions", "sha": "2fc0d4a5962fc33a7c7688991c4f6f4d0c4973a30c98c17a8f80cc00e9318136", "t": "DefaultDocumentGroupLaunchActions", "n": 189, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/anytransition/slide", "sha": "1f5a2b5d64f609619c4f0b5929bb373e2dd832388b4e29f8dcb8fe1ce4497c25", "t": "slide", "n": 128, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/primitivebuttonstyle/automatic", "sha": "58018f8cdaecc0174d1add61f64bb85ae5afbafa9ab443f12923eb6b37586874", "t": "automatic", "n": 551, "laws": 3, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/swiftui/view/textselectionaffinity(_:)", "sha": "b66b86b94b0b2fba061a60198cc5a50a401b316371bbfbb46b055af07cb82d16", "t": "textSelectionAffinity(_:)", "n": 1200, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/swiftui/view/focusable(_:)", "sha": "7e7c2f9a8b5f356640cbf5096224b30532d15250e59a7cf46256932a00d59ead", "t": "focusable(_:)", "n": 97, "laws": 0, "ts": "2026-07-30 16:42 UTC"}

@@ -77,3 +77,11 @@
 {"id": "/documentation/uikit/uiview/hoverstyle", "sha": "765596f45c9948b79475a73c3213cc3ee11952400087f4ce84f5efce48c21b45", "t": "hoverStyle", "n": 215, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uikey/modifierflags", "sha": "2631d30c183f2bb024f0af0fc647834e952c126fcf0f9c9839a18c16211ecb6d", "t": "modifierFlags", "n": 116, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardcopy", "sha": "0ea34a8fd3d8d8ed3d89f52a20987b10292ea133ba93d97b4ac7e4b6d0b0a6cf", "t": "UIKeyboardHIDUsage.keyboardCopy", "n": 50, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
+{"id": "/documentation/coremotion/cmwatersubmersionevent", "sha": "59bf73e1be3b50a6e20fc33855aac787659453848915ee81fb27e98ef703c714", "t": "CMWaterSubmersionEvent", "n": 164, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
+{"id": "/documentation/swiftui/geometryproxy3d/transform(in:)", "sha": "e20fd6dd784c4835342c0b3eeee2745f87de4249555a69902a1ee2d77314cf08", "t": "transform(in:)", "n": 218, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/SwiftUI/URLDocumentConfiguration/makeFileCoordinator()", "sha": "c2c32df60fa836711deadb6e2f1b4bff5ab81e564960f33ad0ff7cc4e59c5fdc", "t": "makeFileCoordinator()", "n": 460, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/keyframetrackcontent", "sha": "1b2db4c86569b1883bd26a19f4369681e6dccb6aa82b0e92be42551189843504", "t": "KeyframeTrackContent", "n": 121, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/phaseanimator/init(_:trigger:content:animation:)", "sha": "a0646f7370992f4a71dc4e5eec029d4544a33d870aba2554fc0f3052f4c20c47", "t": "init(_:trigger:content:animation:)", "n": 544, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
+{"id": "/documentation/swiftui/commands", "sha": "677eafb5e3f775262bfbcda445d42c3ba2721a13e2633e4c7694bc5f08308759", "t": "Commands", "n": 465, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/swiftui/windowmanagerrole", "sha": "fb618499ff1a259dbe25c62c5e0088748843ca6fea5123fc04a9c8f83827e071", "t": "WindowManagerRole", "n": 416, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/isfocuseffectenabled", "sha": "5d65888a204be0bc63fe571701ed4d4a297b91e8268303c58d1cf1e10dad0634", "t": "isFocusEffectEnabled", "n": 155, "laws": 0, "ts": "2026-07-30 16:42 UTC"}

@@ -65,3 +65,7 @@
 {"id": "/documentation/accessibility/axnumericdataaxisdescriptor/scaletype-swift.enum", "sha": "8aec70476c2b7ff358cde47742263c6a8cb0ece5056a5a1ae519ea4b26b51d08", "t": "AXNumericDataAxisDescriptor.ScaleType", "n": 228, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
 {"id": "/documentation/uikit/uiview/performwithoutanimation(_:)", "sha": "96a88c08efcda5b2aa4ab93a2d441545b24073a144c45302bb9e82fda0779961", "t": "performWithoutAnimation(_:)", "n": 37, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypad1", "sha": "81b2d7f3ce821078bae34c1164ec11b2468f1b9fee1ccd32137d7f838a599ebc", "t": "UIKeyboardHIDUsage.keypad1", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/openimmersivespace", "sha": "a0ac799820265998800bb70b2aa0d67133515d1fe6a8e1b77f79a22cfcf23f74", "t": "openImmersiveSpace", "n": 1651, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/swiftui/text/init(_:tablename:bundle:comment:)", "sha": "d54dc1ceb11e133adafc547a61e1288639d71397659aa776c84015721fa28fd0", "t": "init(_:tableName:bundle:comment:)", "n": 2040, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/text/monospaceddigit()", "sha": "668a2cbe37ccbbf3b26e3b45e840e35d6da503ad366ef507ac3030cabe529398", "t": "monospacedDigit()", "n": 861, "laws": 1, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/shapestyle/blue", "sha": "d47347ed2945e9de9adad6c3af009be064b294c89267bc8ac16449520bd5add6", "t": "blue", "n": 63, "laws": 1, "ts": "2026-07-30 16:29 UTC"}

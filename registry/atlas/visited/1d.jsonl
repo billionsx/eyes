@@ -81,3 +81,8 @@
 {"id": "/documentation/UIKit/customizing-a-document-based-app-s-launch-experience", "sha": "eae4e6f1a0cd43838571620f1b65d151a44df19e72f906014bd7d76916a8eb74", "t": "Customizing a document-based app’s launch experience", "n": 3255, "laws": 1, "ts": "2026-07-29 18:38 UTC"}
 {"id": "/documentation/uikit/uitableviewdropproposal", "sha": "4b38fd19b8d31a5bd7d3e46ddb98edb5ba1d3338779867af487e3126de5d56ec", "t": "UITableViewDropProposal", "n": 550, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
 {"id": "/documentation/uikit/uiview/autoresizessubviews", "sha": "dba8243adae92ecce4b62ac6d2dd89bb6fd091de7d8a70780939f0a85ebb1d9d", "t": "autoresizesSubviews", "n": 232, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
+{"id": "/documentation/swiftui/volumetricwindowstyle", "sha": "e6d4f115c5ab6259d99b341505c5e0c4dd75d6f67b7c16bbf20d02e07b78476a", "t": "VolumetricWindowStyle", "n": 129, "laws": 0, "ts": "2026-07-30 16:24 UTC"}
+{"id": "/documentation/swiftui/bindable/projectedvalue", "sha": "cf3d7d5c083afb8c70dd4d3cd23f5e0ff5a9ef53eb91ade2f2a87a9268665fd2", "t": "projectedValue", "n": 104, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/animation/snappy", "sha": "c2b3ed82e82c200790e083d1c2a72932c72a39ebf7a234a2b62453eba289abf2", "t": "snappy", "n": 96, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/view/strikethrough(_:pattern:color:)", "sha": "1bbb1af7cdcdfab4f2d808734e174f38f792a9ffff7d14a96a951043cbc6a35f", "t": "strikethrough(_:pattern:color:)", "n": 114, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/swiftui/groupboxstyleconfiguration", "sha": "78d0da37905f3b71660b31c877a1d16963a326641159d7a086611e80c42b1c78", "t": "GroupBoxStyleConfiguration", "n": 177, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

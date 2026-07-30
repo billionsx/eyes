@@ -84,3 +84,8 @@
 {"id": "/documentation/uikit/uiview/draw(_:for:)", "sha": "c7f7d7e7309c75e7523f95e7b48662d0590cd6e5cd6ad1f7399a4c78e1efcfc7", "t": "draw(_:for:)", "n": 423, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/motioneffects", "sha": "22cc83ecc18bd857d22529e0905aa8d5bcb05cb1370e8ec37b18078222c93e4d", "t": "motionEffects", "n": 41, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uiview/removeconstraint(_:)", "sha": "eee9d01890bf14dc1378b462a24136719aa98438b5f7fddf2123a9094491e7d9", "t": "removeConstraint(_:)", "n": 254, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
+{"id": "/documentation/swiftui/spatialtapgesture/value", "sha": "6761e5fe1b8fad0f437adfb80fce910454c79de28f26af35913fa0acddf7417d", "t": "SpatialTapGesture.Value", "n": 82, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/foreach/init(sections:content:)", "sha": "9d907ee7ee4fb7300d4e7be494a60144020f3d63cfaa35de2dc9e5e09c180a24", "t": "init(sections:content:)", "n": 116, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/emptyvisualeffect", "sha": "0d7a8d488ea9ae94a5a71cfb7ba6d662ab6b894f1001b10a88dacd67ed46aa4d", "t": "EmptyVisualEffect", "n": 180, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/view/labelreservediconwidth(_:)", "sha": "63db4707d6d3f5c84f2d2ddbe9327249c5fbc936d8dc5b0acc08c0a05cf8a100", "t": "labelReservedIconWidth(_:)", "n": 262, "laws": 1, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/swiftui/formstyleconfiguration", "sha": "9865082ea3abc3e7b0fc196727bc5e56b2267778f0977bb3c0f877ea025a20e4", "t": "FormStyleConfiguration", "n": 108, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

@@ -70,3 +70,4 @@
 {"id": "/documentation/xcode/invalid-variable-length-array", "sha": "3a5f0a544420b92347a1e4423c84d5b1a4eeb6bbcd5bb4111c9e8492e386dde1", "t": "Invalid variable-length array", "n": 458, "laws": 0, "ts": "2026-07-30 05:26 UTC"}
 {"id": "/documentation/uikit/uiaxis", "sha": "13cf479d39b40693ca5fc8ace38960e62d9ab067aaffcc11e246c536002dabd0", "t": "UIAxis", "n": 117, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardhyphen", "sha": "fce8a28f91af32b5c119640a20fb749057bcd9263c61f66962dae853ba1a5a5f", "t": "UIKeyboardHIDUsage.keyboardHyphen", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/documentgroup/init(viewing:viewer:)", "sha": "2b0b59bbe9144ca986ea6442b2802cf755a67dff8604e472694ce8fbffad1b41", "t": "init(viewing:viewer:)", "n": 716, "laws": 0, "ts": "2026-07-30 16:30 UTC"}

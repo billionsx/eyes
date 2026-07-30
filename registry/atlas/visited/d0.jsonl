@@ -83,3 +83,9 @@
 {"id": "/documentation/uikit/uicontrol/endtracking(_:with:)", "sha": "7a3ce829fcab3bcae582e4959e8ac5f65dfc6c0882f6a14a713ecf482a45f3e7", "t": "endTracking(_:with:)", "n": 526, "laws": 1, "ts": "2026-07-30 05:39 UTC"}
 {"id": "/documentation/uikit/uimenu/selectedelements", "sha": "f5b27f8772a94749d7e80f2d03c88d4bcc1259bf78c74bc9723e9a638b540547", "t": "selectedElements", "n": 68, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardhelp", "sha": "579d3bee1d68a44ef33303b7b14efc6ffd5a7929d521edabc2cb34c25d319d30", "t": "UIKeyboardHIDUsage.keyboardHelp", "n": 50, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/nsviewrepresentable/context", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "NSViewRepresentable.Context", "n": 0, "laws": 0, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/swiftui/dropdelegate", "sha": "7b8d3c589c13894394581d227bba59fd45df3b691c490cd20d3edd41161452f8", "t": "DropDelegate", "n": 650, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/defaultnewdocumentbuttonlabel", "sha": "39c89c454b93681991e97e1032e935f1552279b085f023d678f43af0d7a32482", "t": "DefaultNewDocumentButtonLabel", "n": 164, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/matchedtransitionsourceconfiguration", "sha": "641068ae9da6dd31fe74bae5b66b5c2261dee2c74ff4be14154b00eaa6d984cf", "t": "MatchedTransitionSourceConfiguration", "n": 153, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/labelstyle/automatic", "sha": "94c883d90963b018892e657ae6ad6fa57f4a0e3cf624a7203b3033a59d374155", "t": "automatic", "n": 86, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/SwiftUI/GlassEffectContainer", "sha": "a46ecf85834b9b1e9c3e902845808f6669a7eb69b615fa01a90e592a8ac5e973", "t": "GlassEffectContainer", "n": 714, "laws": 0, "ts": "2026-07-30 16:44 UTC"}

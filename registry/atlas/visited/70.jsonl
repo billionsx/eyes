@@ -77,3 +77,7 @@
 {"id": "/documentation/accessibility/axdataaxisdescriptor/attributedtitle", "sha": "88479e7600d8a0772c7216c9664d55db186c45d1a4f16d57105b64d64b263907", "t": "attributedTitle", "n": 133, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
 {"id": "/documentation/accessibility/axdatapoint/additionalvalues", "sha": "5a290a85beb369d1c87c1351ec4a1369339428cfa2dba7f608a76aec7ed129a8", "t": "additionalValues", "n": 147, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
 {"id": "/documentation/uikit/uicollectionview/updateinteractivemovementtargetposition(_:)", "sha": "a62615689a76effab6561d7918203ebfd4822799093c739f371ead8ca21d9845", "t": "updateInteractiveMovementTargetPosition(_:)", "n": 577, "laws": 0, "ts": "2026-07-30 05:37 UTC"}
+{"id": "/documentation/coremotion/cmmotionmanager/gyrodata", "sha": "b89231b69d8e8cf9b88d4a0d61b8ed476bba8602d055fd0a54a19d691331c999", "t": "gyroData", "n": 252, "laws": 0, "ts": "2026-07-30 16:16 UTC"}
+{"id": "/documentation/swiftui/immersionstyle/progressive(aspectratio:)", "sha": "9bc431003a36a1b500039817843c550aa8bce8c1fa892ee1e4a74acc035a539e", "t": "progressive(aspectRatio:)", "n": 781, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/swiftui/scrollphasechangecontext", "sha": "e1546993c0c4da337f0704466a0f87877280bce533dc4d3c2ae9a7a5f69b721f", "t": "ScrollPhaseChangeContext", "n": 243, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/swiftui/tabcontent/disabled(_:)", "sha": "1fea879fe0d153418d21b6a5c6bed5a390dbc959cb554e4367cb2b9b2e0f57df", "t": "disabled(_:)", "n": 131, "laws": 0, "ts": "2026-07-30 16:41 UTC"}

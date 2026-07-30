@@ -7,9 +7,9 @@
 | uikit | 2457 |
 | appkit | 2365 |
 | appintents | 1688 |
+| swiftui | 1664 |
 | accelerate | 1327 |
-| swiftui | 1262 |
-| xcode | 926 |
+| xcode | 941 |
 | foundation | 850 |
 | metal | 713 |
 | avfoundation | 685 |
@@ -20,9 +20,9 @@
 | realitykit | 416 |
 | technologyoverviews | 368 |
 | updates | 314 |
+| big7 | 292 |
 | bundleresources | 290 |
 | web-landings | 264 |
-| big7 | 258 |
 | foundationmodels | 256 |
 | appstoreconnectapi | 248 |
 | carplay | 236 |
@@ -52,10 +52,10 @@
 | watchos-apps | 106 |
 | cloudkit | 105 |
 | security | 105 |
+| apple-silicon | 103 |
 | clockkit | 102 |
 | eventkit | 100 |
 | automaticassessmentconfiguration | 96 |
-| apple-silicon | 94 |
 | corelocation | 93 |
 | corespotlight | 90 |
 | applemapsserverapi | 87 |
@@ -73,6 +73,7 @@
 | homekit | 60 |
 | localauthentication | 60 |
 | gamecontroller | 57 |
+| coremotion | 56 |
 | createml | 56 |
 | cryptokit | 54 |
 | classkit | 53 |
@@ -125,7 +126,6 @@
 | fskit | 25 |
 | corevideo | 24 |
 | pdfkit | 24 |
-| coremotion | 23 |
 | pushkit | 23 |
 | quartzcore | 22 |
 | walletorders | 22 |
@@ -343,4 +343,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 26004 · фреймворков: 338
+Итого законов: 26497 · фреймворков: 338

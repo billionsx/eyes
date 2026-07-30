@@ -82,3 +82,6 @@
 {"id": "/documentation/accessibility/axmathexpressionrow/expressions", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "expressions", "n": 0, "laws": 0, "ts": "2026-07-30 05:35 UTC"}
 {"id": "/documentation/uikit/uiview/hasambiguouslayout", "sha": "06d2a863aabcdd1fc372a7098e807be2d5481895ae23903218c84a4892d6b317", "t": "hasAmbiguousLayout", "n": 817, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiview/systemlayoutsizefitting(_:)", "sha": "659a39dd67046a6e4ae344e72106b7f918ad7615c1b300213482f33d0483b487", "t": "systemLayoutSizeFitting(_:)", "n": 351, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
+{"id": "/documentation/swiftui/contentsizecategory", "sha": "f25006590580a1bd63f5951925bae08c6c80672cf45c85718a93ea5865b61c62", "t": "ContentSizeCategory", "n": 677, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/view/toolbar(_:for:)", "sha": "d255437cd3fc7bc75eb9d63ce778020be59a3cc34785932ed380d0699f1bc7b8", "t": "toolbar(_:for:)", "n": 683, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/swiftui/view/windowminimizebehavior(_:)", "sha": "086f6415f51186579a8acf70cfd994d5d1104071ad25f5a764e83ad33981f077", "t": "windowMinimizeBehavior(_:)", "n": 500, "laws": 0, "ts": "2026-07-30 16:40 UTC"}

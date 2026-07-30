@@ -80,3 +80,11 @@
 {"id": "/documentation/uikit/uitextcursorview", "sha": "78bbf43972252c4b43745c114ae524d35d6c020c4b2aa3dcee916430459137bf", "t": "UITextCursorView", "n": 641, "laws": 1, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardexsel", "sha": "b50bf8c0b417fd708a4e9fe672530e29517e91ec3ebe8d843470416d75f49f4e", "t": "UIKeyboardHIDUsage.keyboardExSel", "n": 50, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypad4", "sha": "0ae8afb2d348d738ab58f4ac07fc0290fb70203e010e388ad8efecc63907f757", "t": "UIKeyboardHIDUsage.keypad4", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/coremotion/cmmotionactivityconfidence", "sha": "a101e225da61420990079dfbb6c15b786014a08467d78203d0489bab36f6f1b2", "t": "CMMotionActivityConfidence", "n": 194, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/grouphovereffect", "sha": "82782babf96603d5f717235cb00b73f4fdd638908b86390f51d4e38a40ede23d", "t": "GroupHoverEffect", "n": 90, "laws": 0, "ts": "2026-07-30 16:19 UTC"}
+{"id": "/documentation/swiftui/foreach/init(_:editactions:content:)", "sha": "b57c1757e93d4a6c57edda6962d60cf58c04a117a5556f412851234640321a40", "t": "init(_:editActions:content:)", "n": 1060, "laws": 1, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/list/body", "sha": "71aa2b0c50f4a9b4ab8f0afd3f01152862e850e6aae2b2bb63538ca2c5d1ead7", "t": "body", "n": 24, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/view/toolbar(removing:)", "sha": "3d20cd96faff0cc101a0497281581e0985cdc2ad8f3d04a1e785d5b4277c6660", "t": "toolbar(removing:)", "n": 189, "laws": 1, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/view/blur(radius:opaque:)", "sha": "2672993f2bd08b721526e509a063bb69f5dc69fc29418ad56dee7239d7c0005c", "t": "blur(radius:opaque:)", "n": 279, "laws": 1, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/vectorarithmetic", "sha": "63d6e0035794c6456f56f61146749754b3be3600ae9f9951c327ad1ad1f9325b", "t": "VectorArithmetic", "n": 386, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/view/formstyle(_:)", "sha": "b5ec687d31f44f69aae6a74d9bc99335fbc483af35655f77a5cf325ef8471009", "t": "formStyle(_:)", "n": 135, "laws": 0, "ts": "2026-07-30 16:38 UTC"}

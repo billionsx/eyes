@@ -95,3 +95,6 @@
 {"id": "/documentation/uikit/uioffset", "sha": "a8befdfad7a16046603a0c8942bc195d607002f51c89ccd3007c69c18330ec60", "t": "UIOffset", "n": 422, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uimailconversationcontext/mailentry", "sha": "e0989a50889605222375a0087beb369cc798effe3bd7eb06864fc1c1261b8e4b", "t": "UIMailConversationContext.MailEntry", "n": 209, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardsysreqorattention", "sha": "8e516b61d060aa261c96fb5994fe3fbb98833448f3c234dd724a304b175370af", "t": "UIKeyboardHIDUsage.keyboardSysReqOrAttention", "n": 50, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/coremotion/cmmotionmanager/startgyroupdates()", "sha": "46bf4309a5cd43b403dce1e7c8d445a2096e49d137184462e187876cb17824f1", "t": "startGyroUpdates()", "n": 194, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/swiftui/gesture/targetedtoanyentity()", "sha": "aa59f421be3785f79f380feff4087e72f33a4b6131d12b9de4f73a80aaa1a8f8", "t": "targetedToAnyEntity()", "n": 136, "laws": 1, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/button/init(_:systemimage:action:)", "sha": "3a01f70c6fd4e80c5c6ac273f576df55a1b8a3d2dc1c658c18973bf7925af3cd", "t": "init(_:systemImage:action:)", "n": 247, "laws": 0, "ts": "2026-07-30 16:28 UTC"}

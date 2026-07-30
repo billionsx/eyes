@@ -64,3 +64,5 @@
 {"id": "/documentation/uikit/uiview/layoutmarginsdidchange()", "sha": "af1ea82b62c264b06bf8ec8f2028d602296b7a173d002ed585aa179cab8d4722", "t": "layoutMarginsDidChange()", "n": 439, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uitextviewdelegate", "sha": "db1e22789f48a45261286b963a625f879a9a0261427887d7e5c4a9538663fadd", "t": "UITextViewDelegate", "n": 1763, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypadcomma", "sha": "070e62b57f0a46c4a66fae41e247f764ef10a78eddb7063af489d41c34962512", "t": "UIKeyboardHIDUsage.keypadComma", "n": 50, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/animationcompletioncriteria", "sha": "1cf88f7112e3edcc4ba3c626d4251f60f82c8776356414d4aa34f0249612fedc", "t": "AnimationCompletionCriteria", "n": 133, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/tabviewstyle/grouped", "sha": "b6bdcd4d02aa9883daca530e302e293f578e28f2e759293f720fb23c1c65c048", "t": "grouped", "n": 176, "laws": 0, "ts": "2026-07-30 16:42 UTC"}

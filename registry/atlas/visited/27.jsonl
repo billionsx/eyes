@@ -79,3 +79,6 @@
 {"id": "/documentation/uikit/uidatasourcemodelassociation", "sha": "6fa41b97919b08e62f4ddfbd713e2044f7305f9b0368754bd7cd4d28bfce5452", "t": "UIDataSourceModelAssociation", "n": 1185, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uitableview/contenthuggingelements", "sha": "a141d33a4c971460c17a386ee4faa6e90fac1284080e273f3765f6238e16d421", "t": "contentHuggingElements", "n": 421, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uiview/setneedsupdateproperties()", "sha": "67349bbb25c462a3b025b2a9d6fa0d1554dcc81a436583da039cdf969eb83e52", "t": "setNeedsUpdateProperties()", "n": 146, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
+{"id": "/documentation/swiftui/strokestyle", "sha": "82c6d8e87612a03756cbc875f013f1a6d4bbeb73b37f1bfdcf62b3da9db145a8", "t": "StrokeStyle", "n": 233, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/tab/init(role:content:)", "sha": "27c4a8f25ca12412e866b9133aff39caf70c6bc6cff2eae54cf911335db8f5ac", "t": "init(role:content:)", "n": 70, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/swiftui/glassbackgroundeffectconfiguration", "sha": "e55e6db03cc17d493a67d34f59baa02940f4bd4e85f7683c6b834c4707577db9", "t": "GlassBackgroundEffectConfiguration", "n": 136, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

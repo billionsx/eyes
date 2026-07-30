@@ -81,3 +81,6 @@
 {"id": "/documentation/uikit/uimenu/menuwithchildren:", "sha": "f197d9206802c5d6516a78f5bd22a8e85f70826d248ec28f85f073584c022bcb", "t": "menuWithChildren:", "n": 53, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uiview/endediting(_:)", "sha": "0dfc882721d9fcd34d48f175e905091b2bea4a8b35950686ca2fed6d845f6b85", "t": "endEditing(_:)", "n": 468, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uihovergesturerecognizer/azimuthunitvector(in:)", "sha": "a3239203b76b4f44f3a45a7f0377e7008ec5b2d141c6a74a0ce8793cc965ddc5", "t": "azimuthUnitVector(in:)", "n": 421, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/view/rotation3deffect(_:anchor:)", "sha": "8b6adc3a5cd24294dd1aa96fd82ab75a167c93ce795c971b049814e77c1c585a", "t": "rotation3DEffect(_:anchor:)", "n": 547, "laws": 0, "ts": "2026-07-30 16:33 UTC"}
+{"id": "/documentation/swiftui/keyframes/value", "sha": "199c4ac0bdfa19d55cfb0931881f2fba03b197de3902e50f242425959ff3b9ca", "t": "Value", "n": 49, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/textselectionaffinity", "sha": "5df6075c9f410d64ec73373ed6cc98f0acced2888767845e804af61b0f783b56", "t": "textSelectionAffinity", "n": 361, "laws": 0, "ts": "2026-07-30 16:38 UTC"}

@@ -88,3 +88,9 @@
 {"id": "/documentation/accessibility/axmathexpressionnumber/init(content:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(content:)", "n": 0, "laws": 0, "ts": "2026-07-30 05:34 UTC"}
 {"id": "/documentation/uikit/uimenu/replacingchildren(_:)", "sha": "be69d52d8dce5f96532edd582752c9e0bd9975657010eb3f44bbf1d7498b9af6", "t": "replacingChildren(_:)", "n": 397, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uicommand/init(coder:)", "sha": "28f4bc9f92f43979c7a006d68f73718e09f908b33d6dee062b69bc54579c116a", "t": "init(coder:)", "n": 45, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/view/gesture(_:isenabled:)", "sha": "34901e54e196f9afea4ea9093dec3c6934769108983c8579f0f09b4111c8db48", "t": "gesture(_:isEnabled:)", "n": 726, "laws": 2, "ts": "2026-07-30 16:19 UTC"}
+{"id": "/documentation/swiftui/coordinatespaceprotocol", "sha": "f9e411e0863b39a5cdfff2586322a900692b46055ccbebc92a0c7e186ed6f4ac", "t": "CoordinateSpaceProtocol", "n": 971, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/SwiftUI/FileWrapperDocumentWriter", "sha": "53ebdea6afc7c20d258bdb4547460c5e23316277b034229a7be3c69d4b897989", "t": "FileWrapperDocumentWriter", "n": 420, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/view/blendmode(_:)", "sha": "b2f901ba69b32f2c74f346bb9d11ca528528fec02e61649f7972b9d75b0711d0", "t": "blendMode(_:)", "n": 421, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/timelineviewdefaultcontext", "sha": "b07ec70b0f34e007d612a070d026c8e77f49bed3b1fabe9ab6a34101b69debde", "t": "TimelineViewDefaultContext", "n": 525, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/tabviewstyle/verticalpage", "sha": "20422b4dbe88e77e36da19c954a82c5a7856e31644e2af8c1ecdcd30f8400387", "t": "verticalPage", "n": 164, "laws": 0, "ts": "2026-07-30 16:42 UTC"}

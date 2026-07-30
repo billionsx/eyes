@@ -69,3 +69,7 @@
 {"id": "/documentation/uikit/uiview/layoutmargins", "sha": "e3a3c0414a6aa7b3573833134b735722f29daf1d21fc59c95e57c93c8bb21bfe", "t": "layoutMargins", "n": 1364, "laws": 3, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiview/setneedsupdateconstraints()", "sha": "a7962c81d3a2a4d9be5ba931ede352ee77b87d932b38ae36e9af649e3c57a86f", "t": "setNeedsUpdateConstraints()", "n": 570, "laws": 1, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardl", "sha": "a820624399c78f20de3f32757e06f9df60d34721e0cc1323a7b87011e0ea8a44", "t": "UIKeyboardHIDUsage.keyboardL", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/spatialtapgesture/init(count:coordinatespace3d:)", "sha": "2b4fa0ae076d8fa43d552e7a7892635f8b02bbf8b25f69954505905fe6d8ec12", "t": "init(count:coordinateSpace3D:)", "n": 106, "laws": 1, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/windowresizability", "sha": "5cb25791438a6546ecd322c36f7b0238a01d9b85c040c475ce58efdc5b7db9cd", "t": "WindowResizability", "n": 788, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/swiftui/dropconfiguration", "sha": "b23703a4f121378b92a5598d45ae43c3719d0ba0a787f2518448387a78995f15", "t": "DropConfiguration", "n": 152, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/view/windowdismissbehavior(_:)", "sha": "68f54706b60c3015350b0ce9d5269c812ebdf2dc71828bf343be83af592bb1f1", "t": "windowDismissBehavior(_:)", "n": 346, "laws": 0, "ts": "2026-07-30 16:40 UTC"}

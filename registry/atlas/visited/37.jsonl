@@ -83,3 +83,8 @@
 {"id": "/documentation/uikit/uiview-deprecated-symbols", "sha": "70bd0aa66fcc7728f72b3a63e54c67a29d893cb57aba68366fba7c2990fd5f40", "t": "Deprecated symbols", "n": 493, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uiview/updateproperties()", "sha": "b640b6309db2ee845f9c6ea213b5bbe3bffaffa97ec321a3d2760a65aca84ac4", "t": "updateProperties()", "n": 307, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uikeycommand/image", "sha": "ce3429c0aaa8bf4ddf1e88a75e78d04606a9dad0de520277c8d83e3b79aef138", "t": "image", "n": 137, "laws": 0, "ts": "2026-07-30 05:55 UTC"}
+{"id": "/documentation/coremotion/cmerror", "sha": "21e9a1dbf976a946c38cbfc11b44fac404e7988845baced17e2e6b3adbc672db", "t": "CMError", "n": 442, "laws": 0, "ts": "2026-07-30 16:16 UTC"}
+{"id": "/documentation/swiftui/toolbaritemplacement", "sha": "3b0634fee71cce7076eea06ee117f04727bef9a6a3377cbd9663a60810e2cbb4", "t": "ToolbarItemPlacement", "n": 1165, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/depthalignmentid", "sha": "29baf2faaf5352d0eb267a512c97b76ed96ca86e6520ae4839fba2960f0fdf1b", "t": "DepthAlignmentID", "n": 34, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/making-fine-adjustments-to-a-view-s-position", "sha": "1fdd12ee74209b4b178dae92ec6f41f4a910a0b72b4ad9791246ea26bdf4c726", "t": "Making fine adjustments to a view’s position", "n": 2466, "laws": 1, "ts": "2026-07-30 16:35 UTC"}
+{"id": "/documentation/swiftui/view/textinputsuggestions(_:content:)", "sha": "bf0ec09673022241076118db6f430ee51dc259272cb195c125a12c332b3ee473", "t": "textInputSuggestions(_:content:)", "n": 496, "laws": 0, "ts": "2026-07-30 16:39 UTC"}

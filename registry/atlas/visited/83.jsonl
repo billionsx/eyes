@@ -76,3 +76,7 @@
 {"id": "/documentation/scenekit/scnprogram/program", "sha": "ab84cb771779be46f256825de1303408dd9672f7857d30fab9ab76a905da7f4e", "t": "program", "n": 330, "laws": 1, "ts": "2026-07-30 05:32 UTC"}
 {"id": "/documentation/uikit/uiview/contentscalefactor", "sha": "2f950b74cd2353c2545d02f7f156f882160263afc87969d5153d620c553bcedf", "t": "contentScaleFactor", "n": 1211, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/focusgroupidentifier", "sha": "6535e4e3f01cfb5cdf055325b2be4aecee7f9e592a428acf79c31728eb7f1d80", "t": "focusGroupIdentifier", "n": 144, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/swiftui/font/title", "sha": "03df8ba4879ed8a899295b5120b14c92b5fe71f6bf55d4255f31fb63383d2265", "t": "title", "n": 33, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/windowstyle/automatic", "sha": "541b26aaa4fa36d1c41bf236ee8a69b9279b893486902ed9039441b40ceabdff", "t": "automatic", "n": 25, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/swiftui/foreach/data", "sha": "93c73c52ea1b18d08f4c00ac93155a223770dbeac388a7d8180f2f46dcdd0f4e", "t": "data", "n": 91, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/state(wrappedvalue:)", "sha": "caff3449d9a7f6e3c9ca30b159057fa0e518e9f11b922282967bbd98fdecd36d", "t": "State(wrappedValue:)", "n": 634, "laws": 0, "ts": "2026-07-30 16:30 UTC"}

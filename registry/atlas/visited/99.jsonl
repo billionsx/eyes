@@ -86,3 +86,8 @@
 {"id": "/documentation/uikit/uiview/leadinganchor", "sha": "afe93c3f0fb43333bf09710f69acfd4846b2b12780e6ee0abbfdb2eee7cb240b", "t": "leadingAnchor", "n": 283, "laws": 1, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uiview/nointrinsicmetric", "sha": "37852ff8e86e2292396aa4231717cee5e2389cf27165fb7454dcbb590ec10e38", "t": "noIntrinsicMetric", "n": 69, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uisearchtextfielddelegate", "sha": "dd9965e4127668b7e128a933aad11b54529ae508339eb78a2a6660a9ab63aeaf", "t": "UISearchTextFieldDelegate", "n": 511, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
+{"id": "/documentation/xcode/sigtrap_sigill", "sha": "7f65415e7a710c950156d779698d1d97c038499f61ecab306c696635c5f868b3", "t": "EXC_BREAKPOINT (SIGTRAP) and EXC_BAD_INSTRUCTION (SIGILL)", "n": 1202, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/immersivespace/init(foveatedstreaming:)", "sha": "8b68ddd4a0de4abca901185a2e5dd7d11c6a71d7ce463df08d2d92dcc9d54270", "t": "init(foveatedStreaming:)", "n": 65, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/swiftui/text/kerning(_:)", "sha": "ae4cb0045fa26ec08c38d8c22b929fb7190d204134be33a446b41eb52183644a", "t": "kerning(_:)", "n": 1018, "laws": 3, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/environment/init(_:)", "sha": "99cf4341f5f9f5a710c8a83a61613dc7d0e8c741e5dc268dfbb133028644365f", "t": "init(_:)", "n": 517, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/icononlylabelstyle", "sha": "62c728e62a86d69c0d8a22f16a8ea94db41fb1b0a8936a248bbe3990ecd3290f", "t": "IconOnlyLabelStyle", "n": 145, "laws": 0, "ts": "2026-07-30 16:36 UTC"}

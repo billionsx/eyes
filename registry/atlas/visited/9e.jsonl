@@ -86,3 +86,5 @@
 {"id": "/documentation/uikit/uiview/layoutfittingcompressedsize", "sha": "02b0b2dd4f9e6208fdcdc264ed215f7af8a4a307b24b5c71cfef15e78176441d", "t": "layoutFittingCompressedSize", "n": 45, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiview/updatepropertiesifneeded()", "sha": "9a3e19c8b993e3a4c945af7c72b6db3571dd9792cc9d2dc99c140a4df4680264", "t": "updatePropertiesIfNeeded()", "n": 166, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uikeycommand/alternates", "sha": "161cb78bc26883aff00e932230483a1a4801c08b5e10d473f0f783615507ce5a", "t": "alternates", "n": 60, "laws": 0, "ts": "2026-07-30 05:55 UTC"}
+{"id": "/documentation/coremotion/cmwatersubmersionmanager", "sha": "a626b664075f0390aa3b843a482d066540defefa0314b0ff9d24aa3afeb94bde", "t": "CMWaterSubmersionManager", "n": 1255, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
+{"id": "/documentation/swiftui/view/scaleeffect(_:anchor:)-pmi7", "sha": "5703d409016c2935e13a84c19b504450dfe46e1a95afae64d169e6eac2ac3cf0", "t": "scaleEffect(_:anchor:)", "n": 217, "laws": 0, "ts": "2026-07-30 16:35 UTC"}

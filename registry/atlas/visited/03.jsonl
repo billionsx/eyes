@@ -88,3 +88,8 @@
 {"id": "/documentation/uikit/uiview/accessibilityignoresinvertcolors", "sha": "795177964e4d2a8935e98325882191c906916dae2f945abdb760179d950bc4d2", "t": "accessibilityIgnoresInvertColors", "n": 542, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardf", "sha": "298225521e041fb10ebc00ace867f4ebe594f1e860434ee92da2277fce0f0f92", "t": "UIKeyboardHIDUsage.keyboardF", "n": 48, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypad9", "sha": "6f6eb11ec798009b4acc6f22b8f1998de1250616f9c94198ac93bfbcb64f8d26", "t": "UIKeyboardHIDUsage.keypad9", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/text/bold()", "sha": "d2a78a5719461b22c88a9425b87b3e1786163e55eee8107cc1174199f6ec0239", "t": "bold()", "n": 485, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/SwiftUI/View/onInAppPurchaseCompletion(perform:)", "sha": "952af047db328b8e21d726c04ea2817ade17ed84781c88c559835f2e3535ba60", "t": "onInAppPurchaseCompletion(perform:)", "n": 460, "laws": 0, "ts": "2026-07-30 16:24 UTC"}
+{"id": "/documentation/swiftui/scrollphase", "sha": "9691fa1dd92908d2855a4240c81777110046b14e5d4a9959c2aa629498759272", "t": "ScrollPhase", "n": 755, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/swiftui/toolbarplacement", "sha": "a17617de7ba7db0dfd2f242d97d3810286eb06d9f61127a71d008b94020acb4e", "t": "ToolbarPlacement", "n": 490, "laws": 1, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/swiftui/glasseffecttransition", "sha": "7bb7981e434175b83d38266b917037272a59610550c4114cf626aa1064c10543", "t": "GlassEffectTransition", "n": 167, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

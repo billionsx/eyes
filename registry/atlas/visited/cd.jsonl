@@ -94,3 +94,9 @@
 {"id": "/documentation/uikit/uiview/autoresizingmask-swift.struct", "sha": "0fafc857daf4f8300348c5a5a3e89046700a70d89688dc530390c00c03012093", "t": "UIView.AutoresizingMask", "n": 195, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/gesturerecognizers", "sha": "c8eca37236a7e9e2d928d72f3f0706dd5c9f2727e85af6295d0646bbc0aa2e7a", "t": "gestureRecognizers", "n": 293, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiview/safeareainsetsdidchange()", "sha": "1fff99b959151ff9be83c8d1f0d0c5051968ede0ef160be120b89166ff2e87b3", "t": "safeAreaInsetsDidChange()", "n": 46, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
+{"id": "/documentation/swiftui/sharelink/init(_:items:subject:message:preview:)", "sha": "f2f7a686c0b2fa285671a0817d1e1b63abeacc298870901054dd6c59ffcc4655", "t": "init(_:items:subject:message:preview:)", "n": 76, "laws": 0, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/swiftui/nsviewrepresentable/makecoordinator()", "sha": "28f2527febfe467126f3a1bfd91db26d13b7937edeea99482ff2add10eb08e2a", "t": "makeCoordinator()", "n": 774, "laws": 0, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/swiftui/view/buttonbordershape(_:)", "sha": "606c35f6427180c300564b11cdac8d8d3df606e5f664ddd7b5bb90fe631252d4", "t": "buttonBorderShape(_:)", "n": 277, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
+{"id": "/documentation/swiftui/glass", "sha": "1903d4375e6409122a6a665ded04e7b77e353ca208ad3c95626ea735a5aa1662", "t": "Glass", "n": 408, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/tab/init(_:image:role:content:)", "sha": "0419a05cb02557d8e425e95b306cbc6668ba6b46cb7cfcbf7914e4936c44eb8c", "t": "init(_:image:role:content:)", "n": 84, "laws": 0, "ts": "2026-07-30 16:40 UTC"}
+{"id": "/documentation/swiftui/groupboxstyle", "sha": "6a0cd244093234536f3778ea73cfaf6cc6c280841e54ee8d6b36440a3d9eb13a", "t": "GroupBoxStyle", "n": 638, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

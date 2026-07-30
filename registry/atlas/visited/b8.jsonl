@@ -77,3 +77,9 @@
 {"id": "/documentation/widgetkit/widgettexture/glass", "sha": "5bf32e8c083aab62a8f0ad228e585dadc54f10cb4325d7fa8e0a43f8e041ca19", "t": "glass", "n": 70, "laws": 0, "ts": "2026-07-30 05:28 UTC"}
 {"id": "/documentation/uikit/uicollectionview/setcollectionviewlayout(_:animated:completion:)", "sha": "8e31488cc35729c464e07cc449611a744cd769f1b9b67ad9d395464229f2cd10", "t": "setCollectionViewLayout(_:animated:completion:)", "n": 319, "laws": 0, "ts": "2026-07-30 05:37 UTC"}
 {"id": "/documentation/uikit/uiview/subviews", "sha": "724649c7f4d358e924c4cba9ae1053b82708706a185b0180408a90a6de3af649", "t": "subviews", "n": 606, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
+{"id": "/documentation/swiftui/text/scale", "sha": "a43e28f6b2934d6173be79f6687d6d31d51deaabd61a2b67588518d81539c5fa", "t": "Text.Scale", "n": 179, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/view/task(name:priority:file:line:_:)", "sha": "bc6f142697d41fadee1363710e8f6fc5c6b67cc77ab7a69666ff9587d1d2e1e7", "t": "task(name:priority:file:line:_:)", "n": 982, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/swiftui/customizabletoolbarcontent", "sha": "6d75fb7addc1ad95142dff021c4d9d80559cafcca60320f1f514767f40e33e75", "t": "CustomizableToolbarContent", "n": 407, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/navigationlink/isdetaillink(_:)", "sha": "eb64b2ece68c523c6bb6dac77b042dbd30467cc26fcda7c8048dabe18d8ca68f", "t": "isDetailLink(_:)", "n": 844, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/color", "sha": "a94a5fed41f95cbf48aa27bc2a5265e792ac94b122d1344be45e9710dbab98b9", "t": "Color", "n": 2038, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/concentricrectangle", "sha": "fc6d19e36e54a3b3f31a4cb0d18897791cac06a070844284491eb920768e0ef7", "t": "ConcentricRectangle", "n": 4800, "laws": 4, "ts": "2026-07-30 16:33 UTC"}

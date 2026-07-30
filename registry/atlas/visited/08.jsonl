@@ -80,3 +80,6 @@
 {"id": "/documentation/uikit/uiview/autoresizingmask-swift.property", "sha": "8b371c25334312bdf9212cd7518f3ce95a4670f4762eb6da38248aa4c2aeaf9f", "t": "autoresizingMask", "n": 1379, "laws": 1, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/edgeinsets(for:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "edgeInsets(for:)", "n": 0, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/layoutifneeded()", "sha": "5c771e38ad52332e7da45568070b48b30cae17f10c47a1f47825ff650cfd6e31", "t": "layoutIfNeeded()", "n": 505, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/swiftui/emptyhovereffectcontent", "sha": "fb1b4235b0d9e9b448d565e8fa400cf9be99c937b83d707a710f787a8f2ae936", "t": "EmptyHoverEffectContent", "n": 57, "laws": 0, "ts": "2026-07-30 16:19 UTC"}
+{"id": "/documentation/swiftui/dragsession", "sha": "c3cc0374169a175efa4b8c6e1edbdbcb5bcd25b1741b43d92599d20f2f38ec89", "t": "DragSession", "n": 208, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/table/init(of:columns:rows:)", "sha": "67f58125eaa171c84a7627daabcfdcb2880b92e75235c5f425ce763cda149325", "t": "init(of:columns:rows:)", "n": 107, "laws": 0, "ts": "2026-07-30 16:27 UTC"}

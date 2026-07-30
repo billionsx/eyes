@@ -94,3 +94,13 @@
 {"id": "/documentation/uikit/uiview/directionaledgeinsets(for:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "directionalEdgeInsets(for:)", "n": 0, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/layoutguideforlayoutregion:", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "layoutGuideForLayoutRegion:", "n": 0, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiview/topanchor", "sha": "f88810ac24ba9734c1144dfbaae99d0287fe3b22b77235c8f9d4c7f8d13fb807", "t": "topAnchor", "n": 221, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
+{"id": "/documentation/xcode/sigbus", "sha": "40b0a77494016ade89dd65f5331d7f208f1c0d6bb0e82cd19459f81f6804a855", "t": "EXC_BAD_ACCESS (SIGBUS)", "n": 407, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/view/itemprovider(_:)", "sha": "c0ddb8e7417b5e7b969103e4e4d300dbb1d5eee129faae2b933fb3f5e3a387a4", "t": "itemProvider(_:)", "n": 95, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/filedocument/filewrapper(configuration:)", "sha": "6b19dcd0fc813a82754ec587947f358d3976b1c581ff775e3fd4db8733504e0e", "t": "fileWrapper(configuration:)", "n": 849, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/readabledocument", "sha": "303a1d1c8b50f33d51b2ebca8e104675cb754abf8654aced436309dea7c2b7a6", "t": "ReadableDocument", "n": 601, "laws": 1, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/backgroundstyle", "sha": "89e63421c769b8632198bbcc2a12df631aa02974039fb4c9f1dd6f22f915ac86", "t": "backgroundStyle", "n": 78, "laws": 0, "ts": "2026-07-30 16:32 UTC"}
+{"id": "/documentation/swiftui/view/scaledtofit()", "sha": "0783ddc154c469cbf19c88efcb43a40304dc393b5dca3650dd5b93d26c2e6bce", "t": "scaledToFit()", "n": 335, "laws": 0, "ts": "2026-07-30 16:33 UTC"}
+{"id": "/documentation/swiftui/primitivebuttonstyle/link", "sha": "ba638cd302c92eeff7d707e69e1d8a0a963b134332828ad1d914aaf81e8d458a", "t": "link", "n": 147, "laws": 1, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/swiftui/view/monospaced(_:)", "sha": "453f245113dbd78ff84a1cc572cb2641792f45c09442e3f4529ad33cbb66e25a", "t": "monospaced(_:)", "n": 331, "laws": 2, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/swiftui/gaugestyleconfiguration", "sha": "96c6c8f7c1bbf9c982834f58aab9b9936c888b716443e77321603be66fa2d5b4", "t": "GaugeStyleConfiguration", "n": 391, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
+{"id": "/documentation/swiftui/view/glasseffecttransition(_:)", "sha": "58dbc37ef605cad641660186caa2c5bf55031edf1df899ed7901af800898d873", "t": "glassEffectTransition(_:)", "n": 452, "laws": 1, "ts": "2026-07-30 16:43 UTC"}

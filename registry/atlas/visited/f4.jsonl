@@ -78,3 +78,7 @@
 {"id": "/documentation/uikit/uiview/convert(_:from:)-8neo1", "sha": "8f6e864a5e559b3714b9967cd5f87de90a3d5a5b7958f0d7250812b8f1c43236", "t": "convert(_:from:)", "n": 177, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/invalidating", "sha": "3a258ffacff1b70b784195d2a3f476625e18aa6fbda5181f30dd15552a6fad18", "t": "UIView.Invalidating", "n": 1485, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardgraveaccentandtilde", "sha": "ecdcd87092a7fefaba52319ef0771bc4e4db0b725067ae15fd37910ffc46e304", "t": "UIKeyboardHIDUsage.keyboardGraveAccentAndTilde", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/view/productviewstyle(_:)", "sha": "c9e59572c63669763a028d0608dc8dc266c9fdfda056a3917681437cb21897e8", "t": "productViewStyle(_:)", "n": 130, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
+{"id": "/documentation/SwiftUI/FileDocument", "sha": "206a4ce60b9b3a2c432dba607cf34d65943aaa830f6083a112c05067d344a8ef", "t": "FileDocument", "n": 1363, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/multilinetextalignment", "sha": "431492d222bf106718f8aa6f264d2bcf112d3dd2c403804b20aabb84b9211ac3", "t": "multilineTextAlignment", "n": 864, "laws": 1, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/gaugestyle", "sha": "dd51f813ce49e17e38d2ef4348df4b3eb0af1f8432faa3313a673d956599c59a", "t": "GaugeStyle", "n": 1054, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

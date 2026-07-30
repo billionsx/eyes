@@ -85,3 +85,6 @@
 {"id": "/documentation/uikit/uitableview/separatorstyle", "sha": "01e190ed91acf3328d6248df4af6ec3407badb1629864d696e72ee7feb703a4a", "t": "separatorStyle", "n": 233, "laws": 0, "ts": "2026-07-30 05:42 UTC"}
 {"id": "/documentation/uikit/uitableviewdelegate/indexpathforpreferredfocusedview(in:)", "sha": "57aa9906ca7ade06cbbc55ee521b91beb64c6f5286c7a347955f8dee9c014035", "t": "indexPathForPreferredFocusedView(in:)", "n": 913, "laws": 0, "ts": "2026-07-30 05:44 UTC"}
 {"id": "/documentation/uikit/uivisualeffectview", "sha": "b28749aaea4e5facdeb3fbad658f4393d3e5abd6faa1c55c7cc58138f0cc4ec6", "t": "UIVisualEffectView", "n": 1988, "laws": 1, "ts": "2026-07-30 05:49 UTC"}
+{"id": "/documentation/coremotion/cmmotionmanager/magnetometerdata", "sha": "fb464207164d2dd86665e61d207c6dc18c6d2e1e2b30974e61e67ccbae298fae", "t": "magnetometerData", "n": 264, "laws": 0, "ts": "2026-07-30 16:16 UTC"}
+{"id": "/documentation/swiftui/scenephase/inactive", "sha": "951077d9ebc97430bf2dabe2e5148e9dd0f650f142d6fb93fa8857283da17c55", "t": "ScenePhase.inactive", "n": 471, "laws": 0, "ts": "2026-07-30 16:19 UTC"}
+{"id": "/documentation/swiftui/liststyle/plain", "sha": "35ae84958753f9192d6eb39105e4bcc6b0adb0e0900afcb0eadd53d6f8962420", "t": "plain", "n": 74, "laws": 0, "ts": "2026-07-30 16:26 UTC"}

@@ -96,3 +96,6 @@
 {"id": "/documentation/uikit/uiview/effectiveuserinterfacelayoutdirection", "sha": "1b86d5d91613edc05ee69bbef0df412e51c1691af0741b6eae7e9d09d3a04d79", "t": "effectiveUserInterfaceLayoutDirection", "n": 318, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/adding-hardware-keyboard-support-to-your-app", "sha": "647c825c784c5a59000594abcdf8fedb04067dbba9562a0e82530d6def5505b3", "t": "Adding hardware keyboard support to your app", "n": 213, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboard9", "sha": "89ea2d08898367271a91f68b2ee8642f14731b3dff68b77249b34afb5f2460e4", "t": "UIKeyboardHIDUsage.keyboard9", "n": 49, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
+{"id": "/documentation/coremotion/cmfalldetectionevent", "sha": "0799dd2bf67ae977abb1a668f7985df7f712f791d71234fd9e31d378ea5c4408", "t": "CMFallDetectionEvent", "n": 162, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
+{"id": "/documentation/swiftui/emptyanimatabledata", "sha": "ec663ece9c845516d5aec5fd3f142909fcd6607dab299e8bc6505ec8332a25b6", "t": "EmptyAnimatableData", "n": 217, "laws": 1, "ts": "2026-07-30 16:33 UTC"}
+{"id": "/documentation/swiftui/labelstyle/titleonly", "sha": "a3cbbd8e44e86b98412883600552bfabc773f903dbed23b7a74c760aeba1fcbe", "t": "titleOnly", "n": 56, "laws": 0, "ts": "2026-07-30 16:35 UTC"}

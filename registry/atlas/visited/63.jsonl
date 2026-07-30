@@ -102,3 +102,5 @@
 {"id": "/documentation/uikit/uiview/intrinsiccontentsize", "sha": "ad9678a2497485958927d69cf79e9c9bf325320fd8c44dcefb27db1ab47e9709", "t": "intrinsicContentSize", "n": 608, "laws": 1, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiview/viewprintformatter()", "sha": "8e5da642d4fb7f62b0320aba79ee2fc5b6f5a9b954f68c8699f043373bc55ec1", "t": "viewPrintFormatter()", "n": 633, "laws": 1, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypadenter", "sha": "9f24c949f9f09e8fed8a8057e7f1a52b8a15eb90e8b984218845aee76cba8562", "t": "UIKeyboardHIDUsage.keypadEnter", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/draggesture", "sha": "18cb9b4bc1db85bae186f81e004b927df52cbdc2081064223be1e25a6f6779bd", "t": "DragGesture", "n": 647, "laws": 0, "ts": "2026-07-30 16:19 UTC"}
+{"id": "/documentation/swiftui/windowdraggesture/value", "sha": "c1ffe2575f19d380eb704b5d0aa7413707d8fc447c743dda58794cec116455d5", "t": "WindowDragGesture.Value", "n": 40, "laws": 0, "ts": "2026-07-30 16:40 UTC"}

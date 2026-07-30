@@ -65,3 +65,8 @@
 {"id": "/documentation/scenekit/scenekit-macros", "sha": "353863e35ae8e0dfe15f9021595a6ca3ec392651d3dadfc944e82863a7363a06", "t": "Macros", "n": 46, "laws": 0, "ts": "2026-07-30 05:31 UTC"}
 {"id": "/documentation/scenekit/scngeometrysource/semantic-swift.struct/color", "sha": "5f8f21cb774c87abd9a297dfcd7068559c5a6f8a8f5e395612ec8812b27700d1", "t": "color", "n": 541, "laws": 1, "ts": "2026-07-30 05:32 UTC"}
 {"id": "/documentation/uikit/uicollectionview/reconfigureitems(at:)", "sha": "cafa97dbc57113ada64bc8040ec57889e0944f649b413021b818fec9ffbb3727", "t": "reconfigureItems(at:)", "n": 1291, "laws": 2, "ts": "2026-07-30 05:37 UTC"}
+{"id": "/documentation/coremotion/cmmotionmanager/ismagnetometeractive", "sha": "94811eaa967013f2ae7cf8f809833d42519fb4c484249abb14347408385d81be", "t": "isMagnetometerActive", "n": 365, "laws": 0, "ts": "2026-07-30 16:16 UTC"}
+{"id": "/documentation/swiftui/filedocument", "sha": "206a4ce60b9b3a2c432dba607cf34d65943aaa830f6083a112c05067d344a8ef", "t": "FileDocument", "n": 1363, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/scrolltargetbehavior/properties", "sha": "e49f446d4caab36fa92f5a229ed705208c886577efbbfb114341a26c7eddb7d4", "t": "ScrollTargetBehavior.Properties", "n": 35, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/swiftui/attributedtextvalueconstraint", "sha": "cfdbbd5f4364aed2929eb18c57829ac632705121e6b9c6d72b2641130bfde49e", "t": "AttributedTextValueConstraint", "n": 1033, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/textselectionaffinity", "sha": "61f8af96d927d8cf7e8ccbdaf244dd3c0901b67720c83ee02ef592b8adcae75d", "t": "TextSelectionAffinity", "n": 1181, "laws": 0, "ts": "2026-07-30 16:38 UTC"}

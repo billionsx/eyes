@@ -924,3 +924,18 @@
 {"id": "/documentation/xcode/configuring-your-xcode-cloud-workflow-s-actions", "law": "Click the Add button (+) next to Actions, choose an action, enter required information, choose from available settings, and save the workflow."}
 {"id": "/documentation/xcode/configuring-your-xcode-cloud-workflow-s-actions", "law": "Add at least one destination by clicking the Add button."}
 {"id": "/documentation/Xcode/customizing-the-build-phases-of-a-target", "law": "For multiplatform targets, use the Filters control to specify which platforms to support."}
+{"id": "/documentation/Xcode/writing-arm64-code-for-apple-platforms", "law": "The frame pointer register ( ) must always address a valid frame record."}
+{"id": "/documentation/Xcode/writing-arm64-code-for-apple-platforms", "law": "User-mode programs can rely on the bytes below the stack pointer to not change unexpectedly, and can potentially make use of the space for local variables."}
+{"id": "/documentation/Xcode/writing-arm64-code-for-apple-platforms", "law": "The stack pointer on Apple platforms follows the ARM64 standard ABI and requires 16-byte alignment."}
+{"id": "/documentation/Xcode/writing-arm64-code-for-apple-platforms", "law": "The following example shows a function whose second argument requires 16-byte alignment."}
+{"id": "/documentation/Xcode/Reporting-feedback-for-xcode-cloud", "law": "To remove an attachment you don’t want to share: Select the trash icon next to the item listed under Attachments."}
+{"id": "/documentation/Xcode/analyzing-responsiveness-issues-in-your-shipping-app", "law": "Then use a version control system to identify the changes between app versions, and focus your testing on those areas."}
+{"id": "/documentation/Xcode/analyzing-the-performance-of-your-shipping-app", "law": "Use the pop-up menus to filter the metric data for different devices and the median or high value."}
+{"id": "/documentation/Xcode/analyzing-the-performance-of-your-shipping-app", "law": "If your app has an App Clip available, use the pop-up menu to filter by app type and switch between viewing metrics for the main app and the App Clip."}
+{"id": "/documentation/Xcode/analyzing-the-performance-of-your-shipping-app", "law": "Use this margin of error to determine the upper and lower bounds of the displayed value."}
+{"id": "/documentation/Xcode/downloading-and-installing-additional-xcode-components", "law": "To remove or disable components you no longer use and recover their storage space, click the information button next to the component."}
+{"id": "/documentation/Xcode/including-notes-for-testers-with-a-beta-release-of-your-app", "law": "Use these notes to focus testing on the areas of your app that need attention."}
+{"id": "/documentation/Xcode/measuring-your-app-s-power-use-with-power-profiler", "law": "Tap the switch next to your app’s name in the list of monitored apps to turn on tracing for your app."}
+{"id": "/documentation/Xcode/measuring-your-app-s-power-use-with-power-profiler", "law": "For example, make sure your app supports the dark appearance."}
+{"id": "/documentation/Xcode/monitoring-your-app-s-storage-metrics", "law": "Use the pop-up menus at the top of the pane to filter the data by device type and percentile of storage use."}
+{"id": "/documentation/Xcode/diagnosing-issues-using-crash-reports-and-device-logs", "law": "This lower available memory limits how quickly a user can switch between apps, because apps can’t resume from memory and must first complete a full app launch."}

@@ -77,3 +77,5 @@
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardf24", "sha": "df74b9ebe488ef9963045e7ade2c700fdf74f9fc3cb6b200e3ad3e45b6836c53", "t": "UIKeyboardHIDUsage.keyboardF24", "n": 50, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardscrolllock", "sha": "f444dbeccee3086c1391736f75ba8a7800c006af73029ffc09874482b7ec4b3d", "t": "UIKeyboardHIDUsage.keyboardScrollLock", "n": 49, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardv", "sha": "40f6bbc398d9383fa379b6088894cdf533a6f4cadba43ac59cba9b2fe2fb014a", "t": "UIKeyboardHIDUsage.keyboardV", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/text/layoutkey", "sha": "5cccfc3055619b946566852ec9c08db4f8ed03b65fc912ff55a3a352a37d9611", "t": "Text.LayoutKey", "n": 129, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/glassbackgroundeffect", "sha": "8b18dd4b279a7776f98b00ab57f03ce0ccc02cb0f723f6e6d7efdc3cf6c614b3", "t": "GlassBackgroundEffect", "n": 282, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

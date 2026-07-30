@@ -91,3 +91,7 @@
 {"id": "/documentation/uikit/uicontrol/ishighlighted", "sha": "6e9d7183cf55a8f1b16298e98ef36bb4e297537e4ffd61180e318e351e40a704", "t": "isHighlighted", "n": 524, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uitargetedpreview/retargetedpreview(with:)", "sha": "46c63bd8c5bf8c55bdffdeafa14585dfbfcfc21256c1c73fd0952789b5264363", "t": "retargetedPreview(with:)", "n": 207, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardi", "sha": "60ca3a4f105573521436ddd77e185d09418e5ff67e5829877ffb4853a8181d94", "t": "UIKeyboardHIDUsage.keyboardI", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/gesture/updating(_:body:)", "sha": "838a694e6d3c61732a020f6b91a43521caf7974f11d95036cad4cb0de7beb02c", "t": "updating(_:body:)", "n": 362, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/swiftui/subviewscollection", "sha": "05b00e507d24db30379fecb35bf17ab35a03fd2c21254e8ce6f76bb94b275ffa", "t": "SubviewsCollection", "n": 417, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/swiftui/view/scrolldismisseskeyboard(_:)", "sha": "8c787b571e5c97c4bfe040bfe90c05604428db743226c0568afa709c815d42ee", "t": "scrollDismissesKeyboard(_:)", "n": 818, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/swiftui/tabsection/init(_:content:)", "sha": "35ffb20fe8a4bfbe6646d4f523c2b0a81bc1ef746f40ee8c8f16c7a53be94567", "t": "init(_:content:)", "n": 44, "laws": 0, "ts": "2026-07-30 16:41 UTC"}

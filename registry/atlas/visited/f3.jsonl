@@ -84,3 +84,7 @@
 {"id": "/documentation/accessibility/axdataaxisdescriptor/title", "sha": "4f6d29c818463707a3fd114f62cdb03abd058c428e0fd97ad318c4c1459dc102", "t": "title", "n": 22, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
 {"id": "/documentation/accessibility/axnumericdataaxisdescriptor/gridlinepositions-5cfmw", "sha": "957bbd1086728ecb599c7b1330b3fab5c9c1ba05a9b93ef4887b63be748a95c3", "t": "gridlinePositions", "n": 46, "laws": 0, "ts": "2026-07-30 05:36 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardlang3", "sha": "fc44da9f91fc992fb4376942669e8779a252b829ce47af368ae3864ea3796e82", "t": "UIKeyboardHIDUsage.keyboardLANG3", "n": 124, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/scene/defaultsize(_:)", "sha": "f6c06a3b64beb7329f91fd64e972e393bbf04f54677efc4cea80d0803ff7afcf", "t": "defaultSize(_:)", "n": 1075, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/swiftui/table/init(of:selection:columncustomization:columns:rows:)", "sha": "f2a5f52d9d70c5480ea1c62cc8d4d3af60ffc290acdb0ab783dd85e17b8b9a06", "t": "init(of:selection:columnCustomization:columns:rows:)", "n": 314, "laws": 0, "ts": "2026-07-30 16:27 UTC"}
+{"id": "/documentation/swiftui/form", "sha": "d38a5a4233a099256bfd1b0be18f2274977dc3f7da528bc5cdb19dc02b03f218", "t": "Form", "n": 960, "laws": 1, "ts": "2026-07-30 16:28 UTC"}
+{"id": "/documentation/swiftui/tabcontent/help(_:)", "sha": "cb646f2257a15b06b941464f87e0718519ec5bf490a21992a05da82305d469ec", "t": "help(_:)", "n": 278, "laws": 0, "ts": "2026-07-30 16:41 UTC"}

@@ -88,3 +88,9 @@
 {"id": "/documentation/uikit/uiview/forlastbaselinelayout", "sha": "791d082ec4516da514c4cb643117f2e92a8293bfa954b3d3dc45b4f6c002509b", "t": "forLastBaselineLayout", "n": 561, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uiview/init(coder:)", "sha": "fe091ca8aff220cb11b0635b71ec1a3da7e230668a666db0ba7164712d71d79d", "t": "init(coder:)", "n": 42, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardcancel", "sha": "8e5b8e087e29ef3c79ebb7266d727b1fb1a37242444e2c0fe20b9d2b883bd58a", "t": "UIKeyboardHIDUsage.keyboardCancel", "n": 50, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
+{"id": "/documentation/swiftui/circle", "sha": "851253da5048e54756fdd13efc2e14672ac9df817d5ea662a152a36718422a4b", "t": "Circle", "n": 181, "laws": 0, "ts": "2026-07-30 16:19 UTC"}
+{"id": "/documentation/swiftui/navigationsplitview/init(columnvisibility:preferredcompactcolumn:sidebar:content:detail:)", "sha": "7d6c3b35f6e4f9f3928c3618b9bd4b8679acc6529b57354e19720d29eb5a71a2", "t": "init(columnVisibility:preferredCompactColumn:sidebar:content:detail:)", "n": 220, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/opendocumentaction", "sha": "18c2a5d6302c16cb5c94eda8057d023d810eef1c941f731a7924b13aa2931715", "t": "OpenDocumentAction", "n": 865, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/renamebutton", "sha": "a835b1b2bdc63451325b7b9983c7433c34124270fac2e9d22d8bd3ba28f39108", "t": "RenameButton", "n": 553, "laws": 2, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/anchor", "sha": "f3fd8188f1f20b7bfcfa318452202c991c355ac508023e6c7452fd2995c227b8", "t": "Anchor", "n": 238, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/fillshapestyle", "sha": "7ea331ddf430871cafb204cf27918abd3e029ad4d4d2c8de3e4af852e4d78e5e", "t": "FillShapeStyle", "n": 83, "laws": 0, "ts": "2026-07-30 16:36 UTC"}

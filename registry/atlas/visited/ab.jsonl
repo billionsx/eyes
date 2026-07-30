@@ -73,3 +73,4 @@
 {"id": "/documentation/uikit/uiview/contenthuggingpriority(for:)", "sha": "b4fce944f986409de40a338a0721c3863910657cdefde3410954792afb462bdf", "t": "contentHuggingPriority(for:)", "n": 426, "laws": 1, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/overrideuserinterfacestyle", "sha": "64fe9ef1210e7b1dc4ea310c66b87a42335985e2db77dc9740104ed1142e1b7d", "t": "overrideUserInterfaceStyle", "n": 725, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uitextinputtokenizer", "sha": "e422bc8b4e14da24c323498338d66cc150048720854d48883113461b81dfb8f7", "t": "UITextInputTokenizer", "n": 934, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/SwiftUI/CompositorContent", "sha": "9cf1644a1b6b4935907d33835a02b5b1e3d1c841c35319194a42a18282c080ed", "t": "CompositorContent", "n": 316, "laws": 0, "ts": "2026-07-30 16:17 UTC"}

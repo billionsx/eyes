@@ -91,3 +91,8 @@
 {"id": "/documentation/uikit/uitableview/deleterows(at:with:)", "sha": "f7150275eb618c4bf3b8d4ec559037af31fe7cfa091836688458ce937e9e9e95", "t": "deleteRows(at:with:)", "n": 589, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardf8", "sha": "4eb24f23a34cc557eaea1e5e049cbaadb942acfd59419a90cc1563f1acb96beb", "t": "UIKeyboardHIDUsage.keyboardF8", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardg", "sha": "ed44b4cc8b670f8e58221411ea5729a9200d0bca8ec74e3d9a21700ecff3b2f3", "t": "UIKeyboardHIDUsage.keyboardG", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/xcode/sigsys", "sha": "a76efd1ffa5494f35387746519bdef234a1e7464bd6dcee3779a1f9be6a4f1f1", "t": "EXC_CRASH (SIGSYS)", "n": 380, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/view/onchange(of:initial:_:)-4psgg", "sha": "87ebc0f09a41ee2c6559f19254f1da0dbb4ebac1b30113d5a46eb180fa5da984", "t": "onChange(of:initial:_:)", "n": 759, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/gesture/onchanged(_:)", "sha": "0d878f6aca61305be349e2914c7e3d305b335d405c6136aa869d3e588be77ab5", "t": "onChanged(_:)", "n": 134, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/swiftui/view/ondrop(of:delegate:)", "sha": "b5fc02f61465edba95d54797ea2a0d22848f9e1d522cb0a354ed2fceb5dd9cad", "t": "onDrop(of:delegate:)", "n": 320, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/typesettinglanguage", "sha": "0ce2b378e2d9a95c53bf2156e05235777e19670fb64cff1b629866d3c56f385a", "t": "TypesettingLanguage", "n": 179, "laws": 0, "ts": "2026-07-30 16:38 UTC"}

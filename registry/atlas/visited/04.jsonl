@@ -87,3 +87,4 @@
 {"id": "/documentation/scenekit/scntechnique/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 05:31 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardleftarrow", "sha": "84cddb14574b4ad78e7a26432d614b4b463b0610152e6d2249b1cb5718b04e8f", "t": "UIKeyboardHIDUsage.keyboardLeftArrow", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardpaste", "sha": "f11272d951f1d27c9377c0d0ffe40e3b92e8226da3fef012a1c1f4e63cc508ef", "t": "UIKeyboardHIDUsage.keyboardPaste", "n": 50, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/swiftui/vstack/init(alignment:spacing:content:)", "sha": "02fe97e83051658d14d5689786e9e7b3ad99e61627e2affed679c56eec58b3f7", "t": "init(alignment:spacing:content:)", "n": 68, "laws": 0, "ts": "2026-07-30 16:44 UTC"}

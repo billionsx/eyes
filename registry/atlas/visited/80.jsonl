@@ -98,3 +98,11 @@
 {"id": "/documentation/uikit/uicontrol/event", "sha": "51b44f378fab1aa763d54db21b236951cde9f9fd3f0cea492ec77e84fa1d686c", "t": "UIControl.Event", "n": 696, "laws": 0, "ts": "2026-07-30 05:39 UTC"}
 {"id": "/documentation/uikit/uitableview/rectforfooter(insection:)", "sha": "3a6250b2d8dcd5e932aa2523f54ad014ffcf44b5fad61e057975bece2c50ad0b", "t": "rectForFooter(inSection:)", "n": 161, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
 {"id": "/documentation/uikit/nsrectalignment", "sha": "1ab6d59c8e2ee7e685571bd95d74b75e7b90a324522563f9b66233a572ef7b75", "t": "NSRectAlignment", "n": 396, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
+{"id": "/documentation/swiftui/immersionstyle/automatic", "sha": "2db99ca44180bf8b050354d55d38a6e207adf389279cd4e52dc3e74db27b5622", "t": "automatic", "n": 288, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/SwiftUI/Animatable", "sha": "f851e67a51b60208cf3d3fad454fb62876851750d1188fb319b29de5dd5278bb", "t": "Animatable", "n": 1124, "laws": 1, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/text/tracking(_:)", "sha": "3d5d0932b9461ec0c0409435a28f1adc48aaac6bfdf5aff55f9397e2f789b717", "t": "tracking(_:)", "n": 761, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/view/textinputcompletion(_:)", "sha": "30aa7efe23b54563dedfbcf8a730ca4c184b7a4a04ed14bc3e63fc2c9b058001", "t": "textInputCompletion(_:)", "n": 361, "laws": 0, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/swiftui/displayproxy", "sha": "8d8d110dc0ef5d3ffb8672d681cadcc1b1971fe1687a5eb3a83383452b03c9f9", "t": "DisplayProxy", "n": 362, "laws": 1, "ts": "2026-07-30 16:39 UTC"}
+{"id": "/documentation/swiftui/tabcontent/sectionactions(content:)", "sha": "346659bcf7122e3b6c682978ba7c8099849a39b5408ed4775146c6f6a6983fcf", "t": "sectionActions(content:)", "n": 317, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/swiftui/tabview/init(content:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(content:)", "n": 0, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/swiftui/togglestyle", "sha": "31ffd462ec1e04e5dc3ee922ed17495cf275806c6d2458f02133e392bef7f061", "t": "ToggleStyle", "n": 1400, "laws": 1, "ts": "2026-07-30 16:43 UTC"}

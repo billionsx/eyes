@@ -80,3 +80,7 @@
 {"id": "/documentation/uikit/uiconversationcontext", "sha": "dd97b6e8a765d56b8744351d3833eafff9296c1a2e2a2b7f00f8218cfd6006c4", "t": "UIConversationContext", "n": 324, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardlang4", "sha": "6beef166443e9502822ee64a56a4bc6ea73f18474563f0d587f5ef7ec9bc902e", "t": "UIKeyboardHIDUsage.keyboardLANG4", "n": 124, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypadperiod", "sha": "e2963da1ab7e6e4dbfc88674d2fcfbb2ff56706cd73edba5d86204f4a742b9fc", "t": "UIKeyboardHIDUsage.keypadPeriod", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/coremotion/cmdyskineticsymptomresult", "sha": "79821171a58cd6bf33ff94d3a8c145b9e4c3ae538d2288649ad77da3d5ecaa6d", "t": "CMDyskineticSymptomResult", "n": 994, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/nsviewrepresentable/sizethatfits(_:nsview:context:)", "sha": "605df235213494755aea0ea2b155161f788bba97d897a60cf0b0839634f8e8f5", "t": "sizeThatFits(_:nsView:context:)", "n": 493, "laws": 0, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/swiftui/view/focusedscenevalue(_:_:)", "sha": "d61a8effd57eebbd72a9989922b83230d8de3d6f6d00168d2f4ef582cb25a270", "t": "focusedSceneValue(_:_:)", "n": 576, "laws": 3, "ts": "2026-07-30 16:42 UTC"}
+{"id": "/documentation/swiftui/view/searchfocused(_:)", "sha": "df17ff42dff1b1e039fda333002a2bd87c1885b15def178aaaf87e85cecda70b", "t": "searchFocused(_:)", "n": 332, "laws": 1, "ts": "2026-07-30 16:42 UTC"}

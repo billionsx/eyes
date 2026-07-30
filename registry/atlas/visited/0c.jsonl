@@ -70,3 +70,7 @@
 {"id": "/documentation/uikit/uiview/anchorpoint", "sha": "43adc79f84f0fa9de6b1ea2edcc2a388b81472b47081f57e8a42d1445863ec99", "t": "anchorPoint", "n": 631, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/customizing-writing-tools-behavior-for-system-views", "sha": "6de95d9a29de33b6c2b414dcf7e6dacdcabd08569dc8b44fbe809dff443545b2", "t": "Customizing Writing Tools behavior for UIKit views", "n": 3077, "laws": 0, "ts": "2026-07-30 05:49 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardmute", "sha": "a9e64153c995b9194b5771b89a84a7eb762b940e57326d9c3c6f896b421a7201", "t": "UIKeyboardHIDUsage.keyboardMute", "n": 50, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/coremotion/cmambientpressuredata", "sha": "c192a0fb5c12d915a8ea7c2ba431d21a7abcfb4a0d7fff95bd9c27ce979b079d", "t": "CMAmbientPressureData", "n": 99, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/ispresented", "sha": "3257a6b7b2ed741c3fe26366a391d328ba3a6e714590e6666297b5d6bc1b6ec0", "t": "isPresented", "n": 609, "laws": 0, "ts": "2026-07-30 16:24 UTC"}
+{"id": "/documentation/swiftui/view/controlgroupstyle(_:)", "sha": "70647d8956251fa5882b4c464105e7b317e31ba8ee83155d040a8773e4ede844", "t": "controlGroupStyle(_:)", "n": 51, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/tab/init(_:image:content:)", "sha": "0419a05cb02557d8e425e95b306cbc6668ba6b46cb7cfcbf7914e4936c44eb8c", "t": "init(_:image:content:)", "n": 84, "laws": 0, "ts": "2026-07-30 16:40 UTC"}

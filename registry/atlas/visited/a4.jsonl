@@ -88,3 +88,4 @@
 {"id": "/documentation/uikit/uieventattributionview", "sha": "297fec0301a5c14868d15ab87eb89cf65ff4bb7d71fb2eedf3a7df87e2d9d58f", "t": "UIEventAttributionView", "n": 2647, "laws": 3, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardf14", "sha": "db17a1a7ba679467c8cbcca1faee3102cfd8c617f3afdbc6d335a497481bb8cb", "t": "UIKeyboardHIDUsage.keyboardF14", "n": 50, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardq", "sha": "54af2e7b17f13f0fa97b0e1003e5596f6f448a7e3799e93518aea64b78024c07", "t": "UIKeyboardHIDUsage.keyboardQ", "n": 49, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/swiftui/table/init(_:children:columncustomization:columns:)", "sha": "5e47b16efda6e1185371b9e27ca851ffc1f7b02623a753ed36908d7999a21348", "t": "init(_:children:columnCustomization:columns:)", "n": 269, "laws": 0, "ts": "2026-07-30 16:27 UTC"}

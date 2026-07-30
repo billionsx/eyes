@@ -89,3 +89,7 @@
 {"id": "/documentation/uikit/uitableview/appintentsdatasource", "sha": "c2cdfab3fa91957daf5e6909b98830f05d2d7a35af0d8ecd07865c4c7d199715", "t": "appIntentsDataSource", "n": 260, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uiview/directionaledgeinsetsforlayoutregion:", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "directionalEdgeInsetsForLayoutRegion:", "n": 0, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiview/hittest(_:with:)", "sha": "1d2b242fba3165806ed849bbb114a177c3af7a7d46e0942ff82090d5e8ea3401", "t": "hitTest(_:with:)", "n": 1488, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
+{"id": "/documentation/swiftui/view/ondisappear(perform:)", "sha": "8ca7c836b1b43af22fc7489c78a7fcef8e615d50da3fe160a47063bab9c41878", "t": "onDisappear(perform:)", "n": 307, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/swiftui/dragconfiguration", "sha": "7d3d8ad67895212175184193695dc7af858a72d67d0d7e4e438a8ac4a17f2c8e", "t": "DragConfiguration", "n": 1288, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/view/onscrollgeometrychange(for:of:action:)", "sha": "9aaaa954355b8e521b4131d173533a505f937b199d787465a608923688ece83d", "t": "onScrollGeometryChange(for:of:action:)", "n": 1035, "laws": 0, "ts": "2026-07-30 16:37 UTC"}
+{"id": "/documentation/swiftui/tabviewcustomization/subscript(sectionid:)", "sha": "ec6e618bee076c21d40553b872b99a9543043d286254e4ed0b5f9391953bc04e", "t": "subscript(sectionID:)", "n": 352, "laws": 0, "ts": "2026-07-30 16:42 UTC"}

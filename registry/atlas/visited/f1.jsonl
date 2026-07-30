@@ -54,3 +54,6 @@
 {"id": "/documentation/uikit/uiview/focusgrouppriority", "sha": "6f978ab5753333dae0eaa3f940855529c50950e236810f1eb609b1cdd6e3ff33", "t": "focusGroupPriority", "n": 651, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboard0", "sha": "f64d89138cc09243f2cde456593d88921660bb6804f20279584fb535e91b51a3", "t": "UIKeyboardHIDUsage.keyboard0", "n": 49, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypad5", "sha": "ff9b2d5451a59e357858579bbed49dea7d314ab3903d096bad968a3462af13c1", "t": "UIKeyboardHIDUsage.keypad5", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/adding-a-search-interface-to-your-app", "sha": "deef6f7cbe4ce3d4276f281e327541cc38d6c3729c3b8c92ad9fd08b089ce85b", "t": "Adding a search interface to your app", "n": 2442, "laws": 0, "ts": "2026-07-30 16:20 UTC"}
+{"id": "/documentation/SwiftUI/View/subscriptionStoreControlBackground(_:)-7ev89", "sha": "2bcc97847fb10a994ef7a2f838cc8675b1607b91e7b86cadeecb454ca2693d63", "t": "subscriptionStoreControlBackground(_:)", "n": 100, "laws": 1, "ts": "2026-07-30 16:24 UTC"}
+{"id": "/documentation/swiftui/compositorcontent", "sha": "9cf1644a1b6b4935907d33835a02b5b1e3d1c841c35319194a42a18282c080ed", "t": "CompositorContent", "n": 316, "laws": 0, "ts": "2026-07-30 16:32 UTC"}

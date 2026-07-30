@@ -81,3 +81,8 @@
 {"id": "/documentation/uikit/uimenu/preferredelementsize", "sha": "943bdbb5c9d942b2d6a441320f7a49428cd5f806a220027e488c5b53a3a99cf0", "t": "preferredElementSize", "n": 716, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/customizing-drawings", "sha": "fa049dfed0bb2f31bc9b787758f1c62a6a46e93ebfa49a17e5277ebe300dc2fa", "t": "Customizing drawings", "n": 954, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uitextinteraction", "sha": "07d48b10f3a4f2b5e0e8f9261ca833ef6b65c77bdc50b670676d6bb8c630f487", "t": "UITextInteraction", "n": 1091, "laws": 2, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/swiftui/shape", "sha": "bb97744b0c57b110eeca6f59c0f5d258e082cbf957e091cf3c65535f1ea52643", "t": "Shape", "n": 1925, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/animationcontext", "sha": "10a400497a9038de7ddf083f1fb99a680a83c0f06ba19552699ac5829b1b9628", "t": "AnimationContext", "n": 1221, "laws": 1, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/foregroundstyle", "sha": "ccc1edbbd879b7e14aa49aac2fd667d05713ea4e8b8856db5fe0322c944fb5a8", "t": "ForegroundStyle", "n": 137, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
+{"id": "/documentation/swiftui/textinputautocapitalization", "sha": "853887ba25dd19f8de385168fa552757c75cfb5b8a594b65bfa2c15e265fbe79", "t": "TextInputAutocapitalization", "n": 244, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/view/disclosuregroupstyle(_:)", "sha": "ec607996cda1a4cde84f74c2a3e1ef4fd2ce8235d3ca09c02df6fd8589609571", "t": "disclosureGroupStyle(_:)", "n": 54, "laws": 0, "ts": "2026-07-30 16:43 UTC"}

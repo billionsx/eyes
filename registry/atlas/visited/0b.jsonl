@@ -80,3 +80,8 @@
 {"id": "/documentation/uikit/uitableviewcell/prepareforreuse()", "sha": "0eacf775b0879e5d84f4f2d92d1890a3bc27a9b6ebdf6edd5893047cfe16b835", "t": "prepareForReuse()", "n": 698, "laws": 1, "ts": "2026-07-30 05:43 UTC"}
 {"id": "/documentation/uikit/uiview/layerclass", "sha": "0f1e471436b6c37e18b37bccf0b00a75629670de1f6cce46236efbee6992329b", "t": "layerClass", "n": 576, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardo", "sha": "7d752a55da57ce582d1fa50a898ad859084e786bb3cee1126b4d6d8c9f6f8f77", "t": "UIKeyboardHIDUsage.keyboardO", "n": 49, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/coremotion/cmmotionactivity/unknown", "sha": "a722f943ef771b9abb7c5fdda3c1cef412ea6beca4fda3038489bf5a26c37829", "t": "unknown", "n": 309, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/asymmetrictransition", "sha": "c88b22b19d4f282514a80d60b8b679ce25d3bfafb4f77d6e1f4ed26ffb6846e4", "t": "AsymmetricTransition", "n": 180, "laws": 0, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/customanimation", "sha": "7ed3678fc625cc76df3b93c1aa25b6886f6e8f7153bf6461d79bd0c0de1e30c2", "t": "CustomAnimation", "n": 1537, "laws": 4, "ts": "2026-07-30 16:34 UTC"}
+{"id": "/documentation/swiftui/tab/init(_:systemimage:value:role:content:)", "sha": "cae8bd9217b22f4d67f6a325c601d97e632066afa91962d7f95d2caee456f0a2", "t": "init(_:systemImage:value:role:content:)", "n": 180, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
+{"id": "/documentation/swiftui/fillstyle", "sha": "d86b2083235e48b855228772b150c487f51dffab2779189422a20f8f08240d5c", "t": "FillStyle", "n": 150, "laws": 0, "ts": "2026-07-30 16:42 UTC"}

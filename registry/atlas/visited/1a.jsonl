@@ -91,3 +91,7 @@
 {"id": "/documentation/uikit/uiview/constraintsaffectinglayout(for:)", "sha": "667e11c0ee04434d80e26d71cebb7a880c8f8890e7a252eed1c2d870f1f86bc8", "t": "constraintsAffectingLayout(for:)", "n": 701, "laws": 1, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uiphotosearchsuggestion", "sha": "90cff3a853c5c942166d0dc5f99bd69f76136b930f02f3cfccddf02174d3861a", "t": "UIPhotoSearchSuggestion", "n": 1032, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
 {"id": "/documentation/uikit/uitextinputstringtokenizer", "sha": "2a3d913313f78f38b9c677296ef93da7d704936e23ebc4938f2f956fb73f129d", "t": "UITextInputStringTokenizer", "n": 831, "laws": 1, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/coremotion/cmheadphoneactivitymanager/authorizationstatus()", "sha": "c1fd234897c35060ed568687ea8d2245efc86f256f3cab2c7c8fdd4f398a52f9", "t": "authorizationStatus()", "n": 67, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
+{"id": "/documentation/swiftui/scene/windowidealsize(_:)", "sha": "361789e53b1f212154772850b3c96bfe58c451dcb9dd21fbec7607e62a4c1954", "t": "windowIdealSize(_:)", "n": 449, "laws": 0, "ts": "2026-07-30 16:23 UTC"}
+{"id": "/documentation/swiftui/toolbaritemplacement/principal", "sha": "ac3a6d73610ba2823ed70ac1cd055d8fae37009cd0b4b9cd4455310d8437b21c", "t": "principal", "n": 472, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/SwiftUI/WritableDocument/writableContentTypes", "sha": "51aa97a385ed7bdc8da481539fbadb16adc88bb9af47133567eaece14ffe6f15", "t": "writableContentTypes", "n": 195, "laws": 0, "ts": "2026-07-30 16:30 UTC"}

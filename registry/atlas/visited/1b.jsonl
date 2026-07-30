@@ -75,3 +75,5 @@
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardf12", "sha": "19798a10de0bdb4f56f8aaba70dea27af00ba9e430e13fc6a6234abab4dc956f", "t": "UIKeyboardHIDUsage.keyboardF12", "n": 49, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardinternational8", "sha": "5cb886fb68f04f1a309387a7a1885f162b0e611cc2578cf0499a5bb04b69cbe2", "t": "UIKeyboardHIDUsage.keyboardInternational8", "n": 50, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keypad3", "sha": "c787406a42edeb48280bc6332ae0e0dc8240210d778edf99aed08bbbd9df2f88", "t": "UIKeyboardHIDUsage.keypad3", "n": 49, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/coremotion/cmrecordedpressuredata", "sha": "6e3b6ef53a7cbb1752641faed8bd7672d68825d9463cb1383d02326603be0ed5", "t": "CMRecordedPressureData", "n": 152, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
+{"id": "/documentation/swiftui/view/huerotation(_:)", "sha": "e7d67392093937493a91f302f9dde57130ee562f3f711e2574aade1491c32e66", "t": "hueRotation(_:)", "n": 407, "laws": 1, "ts": "2026-07-30 16:32 UTC"}

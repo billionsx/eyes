@@ -94,3 +94,5 @@
 {"id": "/documentation/uikit/uitableviewcell/automaticallyupdatesbackgroundconfiguration", "sha": "f366a3dce11ac2e605719d692ab73fe5e15cb7cdc04d113c8ae119c231980b48", "t": "automaticallyUpdatesBackgroundConfiguration", "n": 433, "laws": 0, "ts": "2026-07-30 05:42 UTC"}
 {"id": "/documentation/uikit/uiview/convert(_:from:)-7irzk", "sha": "b87468bddbf0e4349aa77e9cdff28d5e4b1193c9ada5c03f2dfb0aee9dab3b7c", "t": "convert(_:from:)", "n": 129, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboard1", "sha": "5937bbc21fba2cfd476339d99660f805c8d1315a6ef35c31e843d06fd0aaca72", "t": "UIKeyboardHIDUsage.keyboard1", "n": 49, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/coremotion/cmmotionactivity/startdate", "sha": "01539ce13362c0bcf8a9b15a69b51f643de87aad8d8f35e4d72b8b5498d2d024", "t": "startDate", "n": 48, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/swiftui/view/glasseffectunion(id:namespace:)", "sha": "2efc83fcd74d30fabbbeee085b05c52fb48b5b02be192d26db878a8a3f45b9d6", "t": "glassEffectUnion(id:namespace:)", "n": 458, "laws": 1, "ts": "2026-07-30 16:43 UTC"}

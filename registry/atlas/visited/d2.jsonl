@@ -69,3 +69,7 @@
 {"id": "/documentation/uikit/uitargetedpreview/parameters", "sha": "ccb575bbe93eafb6d75c64b607082f301f382729ad62416a30a1f90eb4ce54e9", "t": "parameters", "n": 61, "laws": 1, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uiview/largecontenttitle", "sha": "9dccad363bea0af757e353e31a67500544f0fa269219b94fd5d415c54e63ccbd", "t": "largeContentTitle", "n": 244, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardc", "sha": "4982197b7d8a2302e5cc80a0d9586e5fff606b6ee93badf486bad32d8c72bda2", "t": "UIKeyboardHIDUsage.keyboardC", "n": 48, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
+{"id": "/documentation/swiftui/text/speechspellsoutcharacters(_:)", "sha": "bfdededebb09e03aebceef1869b601cabf5c60cf5d0fcbd81839b271f3f44934", "t": "speechSpellsOutCharacters(_:)", "n": 441, "laws": 2, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/text/typesettinglanguage(_:isenabled:)", "sha": "b18f4f64ecc7e0aaf22a45cdbfb690679485ec1fd420d87f36713ea3ff547cab", "t": "typesettingLanguage(_:isEnabled:)", "n": 438, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/dropproposal", "sha": "8c6ce6094f34c0140679faa7244750292756a78fd4d5bc0d4b3c87ecf675d368", "t": "DropProposal", "n": 193, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/animation/easeinout", "sha": "b306ee17c315dcbd3d6df56cadb485c44be15be15cc63d837e2866b139a982c0", "t": "easeInOut", "n": 690, "laws": 1, "ts": "2026-07-30 16:34 UTC"}

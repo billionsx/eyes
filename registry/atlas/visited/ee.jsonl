@@ -75,3 +75,9 @@
 {"id": "/documentation/uikit/uitextcontenttype/emailaddress", "sha": "6a04e9c4395ec71c948742ad5cbd1dcbf9eb92db22c0b050ce681f33fcfb9707", "t": "emailAddress", "n": 77, "laws": 0, "ts": "2026-07-29 18:31 UTC"}
 {"id": "/documentation/uikit/uidocumentmenuviewcontroller", "sha": "d7ef8f7c25d878b5fe599b95a2d22efa61befe30e36f349e4f775475569c4869", "t": "UIDocumentMenuViewController", "n": 445, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/scenekit/scntext", "sha": "be66c11f0f1a568d28f13d8dfb5bd3e0bcc66052ead2ca0dcfce5596e22bca33", "t": "SCNText", "n": 2778, "laws": 1, "ts": "2026-07-30 05:33 UTC"}
+{"id": "/documentation/swiftui/immersivespace/init(content:)", "sha": "71e86ae6747d3d294591d647f0d09965222dfa48a21c4fc74571eb6de40ae17f", "t": "init(content:)", "n": 107, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/swiftui/nsviewrepresentable/dismantlensview(_:coordinator:)", "sha": "ef1037ebd38a93e3672a521b98b466dee0fa420ca33666254026a41e484ece60", "t": "dismantleNSView(_:coordinator:)", "n": 290, "laws": 0, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/swiftui/navigationview", "sha": "f84ed61a7ede87bcfe46ded266b0270d25e8aed5369396c0ce464db51cd5cec4", "t": "NavigationView", "n": 940, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:)-2iefz", "sha": "430b79f52f39a521f1b81a04067a21f60d493393a46f703e0abdb6829b28466a", "t": "init(_:_:background:)", "n": 243, "laws": 1, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/textcase", "sha": "3f0350707f87a8817f156348977616f7fa46aa887e33723289ba671cfdf9daaa", "t": "textCase", "n": 171, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/view/glassbackgroundeffect(displaymode:)", "sha": "1ed3dc9bd772329711c20341e5b2c281ae0eb8c389c08f7904b0cc892fa9cf54", "t": "glassBackgroundEffect(displayMode:)", "n": 757, "laws": 1, "ts": "2026-07-30 16:43 UTC"}

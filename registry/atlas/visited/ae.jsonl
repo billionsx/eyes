@@ -87,3 +87,7 @@
 {"id": "/documentation/uikit/uicontrol/sendaction(_:)", "sha": "b7b71c0eb3f0f8891fb0cca37c2a668f44b946d35d48dad2caed3fe5ebdd54e2", "t": "sendAction(_:)", "n": 287, "laws": 0, "ts": "2026-07-30 05:40 UTC"}
 {"id": "/documentation/uikit/uitableview/hasuncommittedupdates", "sha": "b8022908009c48536dcde74c1edeae53023918a9734b8bac51cde6c0fd5d2db7", "t": "hasUncommittedUpdates", "n": 503, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
 {"id": "/documentation/uikit/uilistcontentview", "sha": "211a152d4e6b69f04d3be1d7eca54ecd7aa648144ea0edc3213642765094bbef", "t": "UIListContentView", "n": 1062, "laws": 1, "ts": "2026-07-30 05:45 UTC"}
+{"id": "/documentation/swiftui/navigationlink/init(value:label:)", "sha": "121025a73c9c10efa8547e67fbdf984db40c9982d74e748aaa0115b57aa3c9bd", "t": "init(value:label:)", "n": 1171, "laws": 0, "ts": "2026-07-30 16:28 UTC"}
+{"id": "/documentation/swiftui/tabplacement", "sha": "1fb68c5a3416790c59ad273ca6c271d6ec65061b14eab8c1986cd4b1c91962c5", "t": "TabPlacement", "n": 132, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/documentgrouplaunchscene", "sha": "5f891e047f576676578b1113a4b1fae515544782002cabeb74b80cfb18ff63fe", "t": "DocumentGroupLaunchScene", "n": 1326, "laws": 1, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/view/transition(_:)", "sha": "2a5bec293693ad29ff22509b56076dac24fa9150c6d21024c900c53c1f861c5e", "t": "transition(_:)", "n": 316, "laws": 1, "ts": "2026-07-30 16:35 UTC"}

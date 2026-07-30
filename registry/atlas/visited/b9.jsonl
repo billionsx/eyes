@@ -85,3 +85,6 @@
 {"id": "/documentation/uikit/uiview/sendsubviewtoback(_:)", "sha": "f5029f59c8e069a021350845aba6c37d9e3892b0ded7967af49eba2ac9fbce15", "t": "sendSubviewToBack(_:)", "n": 174, "laws": 0, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uiview/setneedsdisplay(_:)", "sha": "6cf82393b334292771e7e26ebd29d3483ae45c3f08fa9cf0ffc51ef43ed7105c", "t": "setNeedsDisplay(_:)", "n": 1011, "laws": 1, "ts": "2026-07-30 05:48 UTC"}
 {"id": "/documentation/uikit/uikey/characters", "sha": "6ca5cad57fbcbc1dad2b91476e2eae598a5b24c49d5665b246b0dadb7ba2252b", "t": "characters", "n": 384, "laws": 0, "ts": "2026-07-30 05:50 UTC"}
+{"id": "/documentation/coremotion/cmmotionmanager/stopmagnetometerupdates()", "sha": "d3b9534c6ac4a0753f13c900591d1017362ee1d604e9ecd383ac61ff64a753db", "t": "stopMagnetometerUpdates()", "n": 27, "laws": 0, "ts": "2026-07-30 16:17 UTC"}
+{"id": "/documentation/swiftui/font", "sha": "e395cd094c283cd9f3d346755f65b1e139fce8677eabfb54d7e6dcac6d99657e", "t": "Font", "n": 1121, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/table/init(_:selection:sortorder:columns:)", "sha": "de599514f13af7b61e681f231e271dfa3a0239027dfbd583e1ef7490f8cbdf27", "t": "init(_:selection:sortOrder:columns:)", "n": 129, "laws": 0, "ts": "2026-07-30 16:27 UTC"}

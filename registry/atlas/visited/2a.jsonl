@@ -95,3 +95,11 @@
 {"id": "/documentation/widgetkit/widgetlocation/smartstack", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "smartStack", "n": 0, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
 {"id": "/documentation/uikit/uicollectionview/isediting", "sha": "cf382e5fc9a9195efc83d54b5cc4803fe87f25ad81cb466b0cb22e2725f21b37", "t": "isEditing", "n": 79, "laws": 0, "ts": "2026-07-30 05:37 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardf9", "sha": "d81172d1776c6fdbb46cb992bcf1c795c155950f1f892533666ac5e2a572e050", "t": "UIKeyboardHIDUsage.keyboardF9", "n": 49, "laws": 0, "ts": "2026-07-30 05:52 UTC"}
+{"id": "/documentation/swiftui/environment/wrappedvalue", "sha": "80f1cb8147cc15268c677458b1ca2274b07559b3e35240517c08ddef935d3d65", "t": "wrappedValue", "n": 243, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/sceneaccessorycontent", "sha": "b2c8b410a2734748ef5b8fe92f98b7dceba29a562d3821a88e00dc3cad91874b", "t": "SceneAccessoryContent", "n": 183, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/tablerowcontent", "sha": "f2706ea89379f11050592f0f7b79f3c693a5df4abbd2c65a0ab4aab8be593f83", "t": "TableRowContent", "n": 1012, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/swiftui/toolbardefaultitemkind/sidebartoggle", "sha": "78e6125862d10c2fe7871f0151e9891c0a5e04f0f74a5db5f0b0df7492b7595f", "t": "sidebarToggle", "n": 50, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
+{"id": "/documentation/swiftui/writabledocument/writer(configuration:)", "sha": "0a749c983369a981b59362ce492405c6311a9d99c39245756b0d446dd77b0296", "t": "writer(configuration:)", "n": 169, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/ellipse", "sha": "b1a9f930dc2b0caafb250a26579d1d574584a5ff92ea43395dfe05c1a0fb5dfa", "t": "Ellipse", "n": 93, "laws": 0, "ts": "2026-07-30 16:33 UTC"}
+{"id": "/documentation/swiftui/view/bold(_:)", "sha": "182c25bf66feaa50b1bac000f1e53be79f66ab5f98c288caa7ac21368153ab82", "t": "bold(_:)", "n": 91, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
+{"id": "/documentation/swiftui/scenelaunchbehavior", "sha": "9c4d6a9c5bace7111e53accbe4409306640d714387721d3f99581d2cb6b934e7", "t": "SceneLaunchBehavior", "n": 458, "laws": 0, "ts": "2026-07-30 16:39 UTC"}

@@ -73,3 +73,8 @@
 {"id": "/documentation/widgetkit/appintentcontrolconfiguration/init(kind:intent:content:)", "sha": "aa26e6f7309320cb6b4700e5ef5ec6a088689b659ab227771fe768655460ae6b", "t": "init(kind:intent:content:)", "n": 105, "laws": 0, "ts": "2026-07-30 05:29 UTC"}
 {"id": "/documentation/uikit/uitableview/moverow(at:to:)", "sha": "6b74997ad253ef49bf5da3a86f5f8367f3b535108c3ceab6df9225b046adffd5", "t": "moveRow(at:to:)", "n": 606, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
 {"id": "/documentation/uikit/uitargetedpreview/size", "sha": "a962f0e945512fe269dd87e6ed12475dd2002027996bb511d07b1461055c57c8", "t": "size", "n": 21, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
+{"id": "/documentation/coremotion/cmheadphoneactivitymanager/isstatusactive", "sha": "ec49d9c0d275ce39e700017d0e23a01bc5cb1bf8b31de0a1c16678673df6f39f", "t": "isStatusActive", "n": 66, "laws": 0, "ts": "2026-07-30 16:15 UTC"}
+{"id": "/documentation/swiftui/sharelink/init(item:subject:message:)", "sha": "27474e80ac508fa79bcba4c6767c1c5c53b647a35d25edcaf963188ef7e1d18a", "t": "init(item:subject:message:)", "n": 140, "laws": 1, "ts": "2026-07-30 16:18 UTC"}
+{"id": "/documentation/swiftui/text/fontdesign(_:)", "sha": "10af507ed5a1e6c5ff009870b0a368e25891c55dd3972d5d90e95674779f9a94", "t": "fontDesign(_:)", "n": 93, "laws": 0, "ts": "2026-07-30 16:21 UTC"}
+{"id": "/documentation/swiftui/foreachsubviewcollection", "sha": "593b836e240d1d163f4fe3164bcf0b5e6d5878d7db4d6b19447ffede09db0899", "t": "ForEachSubviewCollection", "n": 98, "laws": 0, "ts": "2026-07-30 16:25 UTC"}
+{"id": "/documentation/SwiftUI/ContainerBackgroundPlacement", "sha": "76098f4ed85d7d9675e97bef654697d945729c18cdc498335e852787032b0d98", "t": "ContainerBackgroundPlacement", "n": 343, "laws": 0, "ts": "2026-07-30 16:27 UTC"}

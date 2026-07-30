@@ -21,3 +21,36 @@
 {"id": "/documentation/CoreMotion/CMMotionManager", "law": "Use a object to start the services that report movement detected by the device’s onboard sensors."}
 {"id": "/documentation/CoreMotion/CMMotionManager", "law": "Use this object to receive four types of motion data: Accelerometer data , indicating the instantaneous acceleration of the device in three dimensional space."}
 {"id": "/documentation/CoreMotion/CMMotionManager", "law": "This approach is the recommended approach for apps such as games."}
+{"id": "/documentation/coremotion/getting-motion-activity-data-from-headphones", "law": "This sample app demonstrates how to use to request updates when the current type of motion changes."}
+{"id": "/documentation/coremotion/accessing-submersion-data", "law": "Choose an option to use as a placeholder from the Session Type pop-up menu."}
+{"id": "/documentation/coremotion/accessing-submersion-data", "law": "If you don’t explicitly start an extended runtime session, the system automatically starts a runtime session when the wearer dives below 1 meter, and your app transitions to the state."}
+{"id": "/documentation/coremotion/accessing-submersion-data", "law": "To use this session, add a delegate and save it to a variable that remains in scope for the entire dive’s duration."}
+{"id": "/documentation/coremotion/adhering-to-the-movement-disorder-data-collection-requirements", "law": "For each of the following situations, add the specified text: Ensure that your users understand and have control over the data your app collects."}
+{"id": "/documentation/coremotion/cmaltimeter", "law": "For example, a hiking app could use this object to track the user’s elevation change over the course of a hike, or to report their current absolute altitude during the hike."}
+{"id": "/documentation/coremotion/cmaltimeter", "law": "The usage description appears in the prompt that the user must accept the first time the system asks the user to access motion data for your app."}
+{"id": "/documentation/coremotion/cmfalldetectionmanager", "law": "You can either query for samples in HealthKit, or you can use Core Motion’s ."}
+{"id": "/documentation/coremotion/cmheadphonemotionmanager", "law": "Use an instance of the manager to determine if the device supports motion, and to start and stop updates."}
+{"id": "/documentation/coremotion/cmmotionmanager", "law": "Use this object to receive four types of motion data: Accelerometer data , indicating the instantaneous acceleration of the device in three dimensional space."}
+{"id": "/documentation/coremotion/cmmovementdisordermanager", "law": "The usage description appears in the prompt that the user must accept the first time the system asks the user to access motion data for your app."}
+{"id": "/documentation/coremotion/cmpedometer", "law": "The usage description appears in the prompt that the user must accept the first time the system asks the user to access motion data for your app."}
+{"id": "/documentation/coremotion/cmsensorrecorder", "law": "You might use the recorded data to assess specific types of motion and incorporate the results into your app."}
+{"id": "/documentation/coremotion/cmsensorrecorder", "law": "The usage description appears in the prompt that the user must accept the first time the system asks the user to access motion data for your app."}
+{"id": "/documentation/coremotion/getting-processed-device-motion-data", "law": "When you start the device-motion service, you specify which frame of reference you want Core Motion to use."}
+{"id": "/documentation/coremotion/getting-processed-device-motion-data", "law": "If you specify an update frequency greater than what the hardware supports, Core Motion uses the maximum frequency instead."}
+{"id": "/documentation/coremotion/getting-processed-device-motion-data", "law": "To minimize the impact on a device’s battery life, always call the method of your object when you no longer need motion data."}
+{"id": "/documentation/coremotion/getting-raw-accelerometer-events", "law": "If you request a frequency that is greater than what the hardware supports, Core Motion uses the supported maximum instead."}
+{"id": "/documentation/coremotion/getting-raw-accelerometer-events", "law": "If you request a frequency that is greater than what the hardware supports, Core Motion uses the supported maximum instead."}
+{"id": "/documentation/coremotion/getting-raw-gyroscope-events", "law": "If your app requires unbiased rotation values, use the device-motion interfaces instead."}
+{"id": "/documentation/coremotion/getting-raw-gyroscope-events", "law": "The device-motion interfaces use special algorithms to remove any bias and deliver more precise rotation values."}
+{"id": "/documentation/coremotion/getting-raw-gyroscope-events", "law": "If you request a frequency that is greater than what the hardware supports, Core Motion uses the supported maximum instead."}
+{"id": "/documentation/coremotion/getting-raw-gyroscope-events", "law": "If you request a frequency that is greater than what the hardware supports, Core Motion uses the supported maximum instead."}
+{"id": "/documentation/CoreMotion/CMHeadphoneMotionManager", "law": "Use an instance of the manager to determine if the device supports motion, and to start and stop updates."}
+{"id": "/documentation/CoreMotion/accessing-submersion-data", "law": "Choose an option to use as a placeholder from the Session Type pop-up menu."}
+{"id": "/documentation/CoreMotion/accessing-submersion-data", "law": "If you don’t explicitly start an extended runtime session, the system automatically starts a runtime session when the wearer dives below 1 meter, and your app transitions to the state."}
+{"id": "/documentation/CoreMotion/accessing-submersion-data", "law": "To use this session, add a delegate and save it to a variable that remains in scope for the entire dive’s duration."}
+{"id": "/documentation/coremotion/cmmotionmanager/attitudereferenceframe", "law": "If the device-motion service is active, this property returns the reference frame currently in use."}
+{"id": "/documentation/coremotion/cmmotionmanager/devicemotionupdateinterval", "law": "If your app is sensitive to the intervals of device-motion data, it should always check the timestamps of the delivered instances to determine the true update interval."}
+{"id": "/documentation/coremotion/cmmotionmanager/startdevicemotionupdates()", "law": "You must call when you no longer want your app to process device-motion updates."}
+{"id": "/documentation/coremotion/cmmotionmanager/startdevicemotionupdates(to:withhandler:)", "law": "You must call when you no longer want your app to process device-motion updates."}
+{"id": "/documentation/coremotion/cmmotionmanager/startdevicemotionupdates(using:)", "law": "You must call when you no longer want your app to process device-motion updates."}
+{"id": "/documentation/coremotion/cmmotionmanager/startdevicemotionupdates(using:to:withhandler:)", "law": "You must call when you no longer want your app to process device-motion updates."}

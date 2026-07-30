@@ -97,3 +97,6 @@
 {"id": "/documentation/uikit/uipastecontrol", "sha": "3766a57e8bf5b2533f85a0889a4bf13fa8bfa4d1ac144cbb1adb489bd4642bf5", "t": "UIPasteControl", "n": 750, "laws": 0, "ts": "2026-07-30 05:39 UTC"}
 {"id": "/documentation/uikit/uiview/edgeinsetsforlayoutregion:", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "edgeInsetsForLayoutRegion:", "n": 0, "laws": 0, "ts": "2026-07-30 05:46 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboardu", "sha": "7d4e6ad478983d3c2db8094d21de02c0b99c5b0ba5ef2fe077a8de4ecd48e174", "t": "UIKeyboardHIDUsage.keyboardU", "n": 49, "laws": 0, "ts": "2026-07-30 05:53 UTC"}
+{"id": "/documentation/swiftui/view/liststyle(_:)", "sha": "c413227b049a4a3af380dd2814225f42c881c93cbd27859eee7e540dffbd1f6d", "t": "listStyle(_:)", "n": 42, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/view/refreshable(action:)", "sha": "057d9e9b77b5f12e6846db7312e497978cee0d5157892f30413a29a5b70024d3", "t": "refreshable(action:)", "n": 953, "laws": 0, "ts": "2026-07-30 16:26 UTC"}
+{"id": "/documentation/swiftui/axis/set", "sha": "7998a9c98919fff4965b3c61a1511d75e0fb2add2e5535e33fff7a9773b8c478", "t": "Axis.Set", "n": 68, "laws": 0, "ts": "2026-07-30 16:37 UTC"}

@@ -93,3 +93,7 @@
 {"id": "/documentation/uikit/uicornerradius-c.class", "sha": "401d25b12596df4d1058a8b4e76f86f0ec28de89b36b396c70aead151ad03b0e", "t": "UICornerRadius", "n": 169, "laws": 0, "ts": "2026-07-30 05:45 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboard_reserved", "sha": "cb9780e834842a4a5c3c9d0237ccf4b4d8f79234858794dff42780e537f49408", "t": "UIKeyboardHIDUsage.keyboard_Reserved", "n": 54, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
 {"id": "/documentation/uikit/uicommand/title", "sha": "d6f515d9495d1bafa9fbc24df07502a70a7e539f6f2358f71d938ef1ff84ced1", "t": "title", "n": 20, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/coremotion/cmmotionactivity/running", "sha": "442d242eeaafbe734fbc475d53646b4b4ef9ed278e17b01de437a2436783c501", "t": "running", "n": 63, "laws": 0, "ts": "2026-07-30 16:14 UTC"}
+{"id": "/documentation/SwiftUI/View/subscriptionStorePolicyDestination(url:for:)", "sha": "8d5d65c2b52765f5f3450e103cf72b0fcde976d5c2773ab7b0f24fbfbe8a7118", "t": "subscriptionStorePolicyDestination(url:for:)", "n": 628, "laws": 1, "ts": "2026-07-30 16:24 UTC"}
+{"id": "/documentation/swiftui/referencefiledocument", "sha": "daa55707848a9d2ea3619aa55853231735cdfa3b11ed6c347569d7e12d5afa5c", "t": "ReferenceFileDocument", "n": 1235, "laws": 0, "ts": "2026-07-30 16:30 UTC"}
+{"id": "/documentation/swiftui/view/foregroundstyle(_:_:_:)", "sha": "518405d92272bf5d86c1d1902d74452cd89b9622728bc8a1b54b3ff22eba5b7e", "t": "foregroundStyle(_:_:_:)", "n": 424, "laws": 2, "ts": "2026-07-30 16:32 UTC"}

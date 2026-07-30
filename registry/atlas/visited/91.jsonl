@@ -79,3 +79,7 @@
 {"id": "/documentation/scenekit/scnscene/background", "sha": "bd2d366e2de2c504941083d0f26ef9f7b2cef2e369b88fe41c76c3fbff1e45a5", "t": "background", "n": 446, "laws": 0, "ts": "2026-07-30 05:30 UTC"}
 {"id": "/documentation/uikit/uitableviewcell/isediting", "sha": "6434df1f38e45159fa010f140b0dde5b186dd2c00b2f6d68a81019b79339e6c7", "t": "isEditing", "n": 324, "laws": 1, "ts": "2026-07-30 05:43 UTC"}
 {"id": "/documentation/uikit/uicommand/propertylist", "sha": "430e65d0fa47445e678b59526cde8c9717dacb34f85104d0ae99bff49a374ca4", "t": "propertyList", "n": 129, "laws": 0, "ts": "2026-07-30 05:54 UTC"}
+{"id": "/documentation/swiftui/entry()", "sha": "3609ff3f2121f27089908a6545ddeeb2a7b77b4967ec5eb9ba2bba8780fb5aab", "t": "Entry()", "n": 781, "laws": 0, "ts": "2026-07-30 16:22 UTC"}
+{"id": "/documentation/swiftui/documentbasebox", "sha": "47a64f1c1aa520cfb1d40e3f90209b0c09e5e10e70dccf31db4b9a51c9b117f0", "t": "DocumentBaseBox", "n": 191, "laws": 0, "ts": "2026-07-30 16:31 UTC"}
+{"id": "/documentation/swiftui/label/init(_:image:)", "sha": "e9bf2ab57d258c197f4f6c1f6e015e7054e0e4afcc7eab04248f75e96be34cdc", "t": "init(_:image:)", "n": 81, "laws": 0, "ts": "2026-07-30 16:35 UTC"}
+{"id": "/documentation/swiftui/view/listrowbackground(_:)", "sha": "0e153a63ff80a3c61777d68739e568a059432fa4e2e3905c922115b6ec989190", "t": "listRowBackground(_:)", "n": 522, "laws": 0, "ts": "2026-07-30 16:44 UTC"}
