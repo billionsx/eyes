@@ -1,7 +1,7 @@
 {
  "_": "Снимок измеренной базы департамента. КАЖДОЕ число несёт адрес замера (ЗКН-Э002: число без адреса — вкус, выданный за эталон). Адреса N.NN ведут в docs/design/ios26/standards/tokens.json; §T.N — в docs/design/ios26/TOKENS.md; products/music.md — в docs/design/music/products/music.md.md. Источник истины — та база; этот файл — её переносимый снимок, чтобы департамент работал в любом проекте без чужого дерева. Расхождение снимка с базой чинится в сторону базы.",
  "base": "ios27-dark (КАРКАС: ни одно 🕳 не закрыто — база НЕ действует, Э002)",
- "measured_frames": "🕳 замерить (ios26: 217)",
+ "measured_frames": 195,
  "surfaces": {
   "ladder": [
    "#000000",
@@ -40,7 +40,7 @@
  },
  "separator": {
   "color": "#38383A",
-  "width_pt": "🕳 замерить (ios26: 1)",
+  "width_pt": 0.33,
   "refs": "5.33 · 2.4 — НЕ 0.5: полпикселя исчезает",
   "modal": "#38383a — модальный у восьми продуктов (Э002)"
  },
@@ -59,7 +59,7 @@
  "geometry": {
   "corner_form_required_above_pt": "🕳 замерить (ios26: 12)",
   "superellipse_n": "🕳 замерить (ios26: [2.5, 2.6])",
-  "radius_card_pt": "🕳 замерить (ios26: 24)",
+  "radius_card_pt": "🕳 замерено 754×, ведёт 8.0, доля 5% — согласия нет",
   "radius_card_full_pt": "🕳 замерить (ios26: 37.8)",
   "radius_tile_pt": "🕳 замерить (ios26: 29)",
   "button_height_pt": "🕳 замерить (ios26: 32.0)",
@@ -67,9 +67,12 @@
   "button_hit_pad_pt": "🕳 замерить (ios26: 6)",
   "chip_height_pt": "🕳 замерить (ios26: 35.0)",
   "chip_fill": "#2C2C2C",
-  "inset_card_pt": "🕳 замерить (ios26: 16)",
-  "card_width_pt": "🕳 замерить (ios26: 361)",
-  "screen_pt": "🕳 замерить (ios26: [393, 852])",
+  "inset_card_pt": 16.0,
+  "card_width_pt": 361.0,
+  "screen_pt": [
+   393,
+   852
+  ],
   "tabbar_height_pt": "🕳 замерить (ios26: 62)",
   "layer_axis_pt": "🕳 замерить (ios26: 52)",
   "layer_span_pt": "🕳 замерить (ios26: 351)",

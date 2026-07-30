@@ -694,6 +694,16 @@ def cmd_selftest(root: Path) -> int:
           fk.pick_targets(names, {"tvOS-18-Design-Templates-Sketch.dmg"}) == ["tvOS-18-Production-Templates-Sketch.dmg"]
           and fk.pick_targets(names, set(names)) == [])
 
+    print("SELFTEST · замер геометрии (ст. 36.2)")
+    import geoscan as geo_mod
+    import geofill as fill_mod
+    check("суд органа замера зелёный: эталон рисуется и снимается точно",
+          geo_mod.court() == 0)
+    check("суд органа записи зелёный: смыкание, перевес, пустой замер",
+          fill_mod.court() == 0)
+    check("масштаб не угадывается: ширина вне канона отвергается",
+          geo_mod.scale_of(1179) == (3, 393) and geo_mod.scale_of(1000) == (None, None))
+
     print("SELFTEST · атлас: отбор по предмету департамента")
     import atlas as atlas_sel
     _fw = {"uikit": {"v": 100, "d": 40}, "swiftui": {"v": 100, "d": 10},
