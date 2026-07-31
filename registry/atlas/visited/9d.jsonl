@@ -74,3 +74,9 @@
 {"id": "/documentation/uikit/uilayoutguide/owningview", "sha": "1da5b7587550d2b09cefb2bb6ac9cc37ca499c495c761305cfb42609ba0b407a", "t": "owningView", "n": 293, "laws": 1, "ts": "2026-07-30 19:08 UTC"}
 {"id": "/documentation/uikit/uidragpreviewparameters", "sha": "1b3051a98c4b74355664e0e4efd55fe384e2a46c0a408aa573ab652477257eb1", "t": "UIDragPreviewParameters", "n": 378, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
 {"id": "/documentation/uikit/nsdiffabledatasourcesnapshot-swift.struct/appendsections(_:)", "sha": "545feb3c806352f6d7c41673e13db240600f806508bc4fd6816fa2cd9f82f591", "t": "appendSections(_:)", "n": 65, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/sf-symbols", "sha": "d5802233910fa655b0cb50aa6497eed13b48a6892ab02bcaa5722866f2f74dcf", "t": "SF Symbols", "n": 18374, "laws": 10, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/design/Human-Interface-Guidelines/snippets", "sha": "aef626755b0703d39b814cd18fd3c46514ab30b16113c5ff0a7e870a8d9c0621", "t": "Snippets", "n": 3400, "laws": 1, "ts": "2026-07-31 05:53 UTC"}
+{"id": "/documentation/avkit/avplayerviewcontroller/custominfoviewcontroller", "sha": "3676864de4ae404f114a60161805fb78277f4fedbd1852a98cd03016debd059d", "t": "customInfoViewController", "n": 192, "laws": 0, "ts": "2026-07-31 05:54 UTC"}
+{"id": "/documentation/mediaplayer/mp_overload", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_OVERLOAD", "n": 0, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/uikit/uifont/xheight", "sha": "a4791ec001b7ab5b95a5957967ee8d3a534b12b831fa746aeb99e4d6800cda08", "t": "xHeight", "n": 114, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uisheetpresentationcontroller/widthfollowspreferredcontentsizewhenedgeattached", "sha": "351e650b4431e988be47f01d7ef088fdbc7ee8c7eebbf56817e30cbbeb0bd0f1", "t": "widthFollowsPreferredContentSizeWhenEdgeAttached", "n": 436, "laws": 1, "ts": "2026-07-31 06:15 UTC"}

@@ -97,3 +97,9 @@
 {"id": "/documentation/scenekit/scngeometry/insertmaterial(_:at:)", "sha": "44c0b9c9171241039c5b11be183aca79bc99806c98166c357a105d6d7482b565", "t": "insertMaterial(_:at:)", "n": 59, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
 {"id": "/documentation/scenekit/scnview/snapshot()", "sha": "dee1b92f1497bcc92610ff1a5a220447f63f99daf3826eac4abff3e56d3a15fc", "t": "snapshot()", "n": 194, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
 {"id": "/documentation/scenekit/scnvector3/init(_:_:_:)-8cwh7", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/documentation/uikit/uidocumentinteractioncontroller/url", "sha": "8ac95c5abaa6c37c20dda3c9530c86ed07e32a6f13b1d73fa0eaa377947f086a", "t": "url", "n": 60, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/uifont/textstyle/footnote", "sha": "fd2f406569f768db196a8c7637ed1621ec1990215d34b6db6d07fb7325d8534d", "t": "footnote", "n": 23, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uicollectionviewlayout/preparefortransition(from:)", "sha": "1e055421ace19fe549665aa82fd05c02a9a1b4f472608e8e8739b86ce17bdd75", "t": "prepareForTransition(from:)", "n": 284, "laws": 0, "ts": "2026-07-31 06:09 UTC"}
+{"id": "/documentation/uikit/uinavigationbar/popitem(animated:)", "sha": "72624b39c4765e52305d965fbd6149a0152ae6b7eacca9e4545fe52db1f7853f", "t": "popItem(animated:)", "n": 323, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
+{"id": "/documentation/uikit/uinavigationbardelegate", "sha": "1dbfd3df350da6d20af228a3c52f6d4c0a24ab6525ea9334badf34014c06f29d", "t": "UINavigationBarDelegate", "n": 1035, "laws": 1, "ts": "2026-07-31 06:11 UTC"}
+{"id": "/documentation/uikit/nstextlayoutfragment/enumerationoptions", "sha": "401270b1a83d096e86753f05dd6311b0eba6525d479085223692e96f106ec355", "t": "NSTextLayoutFragment.EnumerationOptions", "n": 226, "laws": 0, "ts": "2026-07-31 06:18 UTC"}

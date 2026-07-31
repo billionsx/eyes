@@ -98,3 +98,7 @@
 {"id": "/documentation/swiftui/placeholdertextshapestyle", "sha": "b0b6ef7cf9464448bac589e48a9b3b0c0e4e5c138bbe259f2d442fe67646667f", "t": "PlaceholderTextShapeStyle", "n": 71, "laws": 0, "ts": "2026-07-30 16:36 UTC"}
 {"id": "/documentation/scenekit/scnmaterial/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
 {"id": "/documentation/scenekit/scnreferencenode/unload()", "sha": "d69d6ce50481baa1a46c2168c7f415f3d6df47401e4f986f9074828add9140ea", "t": "unload()", "n": 439, "laws": 0, "ts": "2026-07-30 19:01 UTC"}
+{"id": "/documentation/mediaplayer/mpnowplayingsession/init(players:)", "sha": "ac0f118f5331645d4e034c4647a40170a80df05b0e8f64fb9b4baa2fc73582ee", "t": "init(players:)", "n": 37, "laws": 0, "ts": "2026-07-31 05:59 UTC"}
+{"id": "/documentation/uikit/uimodalpresentationstyle/formsheet", "sha": "0d2455f8b67fe58b39da2ff97e1faf05e5abf7e8384971a6aada3312d08c817a", "t": "UIModalPresentationStyle.formSheet", "n": 815, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
+{"id": "/documentation/uikit/uialertaction", "sha": "e0bae05b2febf782baf948df35197b0be9c3dc054145c143e62f28b56be8d179", "t": "UIAlertAction", "n": 537, "laws": 1, "ts": "2026-07-31 06:14 UTC"}
+{"id": "/documentation/uikit/nstextattachmentlayout", "sha": "429c95f8c354e21905348df26276fdf79e8cf26d277199aa0cf35056af1857a0", "t": "NSTextAttachmentLayout", "n": 440, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

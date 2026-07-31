@@ -85,3 +85,6 @@
 {"id": "/documentation/swiftui/attributedtextformatting", "sha": "8a5a21d3725f09fb70619a4233b995dcfc7ce4c23b9bab5d92dbd32be8406d85", "t": "AttributedTextFormatting", "n": 399, "laws": 0, "ts": "2026-07-30 16:38 UTC"}
 {"id": "/documentation/swiftui/scrollview/body", "sha": "424da2fb733b43385a70f498b36ccd59280592a7cf7ceb00c85e9a800bc7ccc1", "t": "body", "n": 44, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
 {"id": "/documentation/scenekit/scnlight/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
+{"id": "/design/human-interface-guidelines/machine-learning", "sha": "6626ed9307efd6f9119e8c84fdbe58dc1a4ece78c2dea5a41c6c20a13963843b", "t": "Machine learning", "n": 36012, "laws": 7, "ts": "2026-07-31 05:53 UTC"}
+{"id": "/documentation/uikit/uiwindow/screen", "sha": "5dc7f6200c60941177349eec30d5ed3afb6255fa4a7e2f3144dad9ebdfe7a537", "t": "screen", "n": 598, "laws": 0, "ts": "2026-07-31 06:04 UTC"}
+{"id": "/documentation/uikit/uifont/systemfontsize", "sha": "76bf64931ef085054661cfdf2c69eb894afea29d5c7606b800b1944fbf935d3e", "t": "systemFontSize", "n": 49, "laws": 0, "ts": "2026-07-31 06:07 UTC"}

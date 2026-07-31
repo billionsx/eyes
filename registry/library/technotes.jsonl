@@ -609,3 +609,7 @@
 {"id": "/documentation/Technotes/tn3192-Migrating-your-app-from-the-deprecated-UIRequiresFullScreen-key", "law": "This is helpful for games, where multiple assets may require resizing when the scene changes size or if there are elements of your app’s UI that are computationally expensive to draw."}
 {"id": "/documentation/Technotes/tn3192-Migrating-your-app-from-the-deprecated-UIRequiresFullScreen-key", "law": "In SwiftUI, use to adjust how your view behaves when a window is in the process of being resized by the user."}
 {"id": "/documentation/Technotes/tn3192-Migrating-your-app-from-the-deprecated-UIRequiresFullScreen-key", "law": "To express a preferred minimum size of your scene’s content, use ."}
+{"id": "/documentation/Technotes/tn3135-low-level-networking-on-watchOS", "law": "Do not use Control Center for this."}
+{"id": "/documentation/Technotes/tn3151-choosing-the-right-networking-api", "law": "The focus here is on APIs that allow you to use the networking stack."}
+{"id": "/documentation/Technotes/tn3125-inside-code-signing-provisioning-profiles", "law": "In contrast, restricted entitlements must be authorized by a provisioning profile."}
+{"id": "/documentation/Technotes/tn3178-checking-for-and-resolving-build-uuid-problems", "law": "Consider one of the critical use cases for build UUIDs, namely symbolication."}

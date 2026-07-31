@@ -110,3 +110,11 @@
 {"id": "/documentation/uikit/uidropoperation/cancel", "sha": "784edbbfa1e255f26cfd777fecd72ec16e90cbf054340211621fe44840be8d1e", "t": "UIDropOperation.cancel", "n": 217, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
 {"id": "/documentation/uikit/uiimage/scale", "sha": "d10d0287a5034122497524052c533f4c2fc3b8c61a8cfa0b6edfb65d500fe33e", "t": "scale", "n": 440, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
 {"id": "/documentation/uikit/uiimageview/removesymboleffectoftype:options:", "sha": "f715536ac9f66fd1161b46c819fc9036bfd5aa19e34a9333e9a5ef4ea5ce2abe", "t": "removeSymbolEffectOfType:options:", "n": 94, "laws": 0, "ts": "2026-07-30 19:10 UTC"}
+{"id": "/documentation/uikit/uitableviewdiffabledatasource-2euir/index(for:)", "sha": "1b60dc8dc1708db7196a800ebf9123e15ca5e024f52bb3139f4a8fe5d60a7804", "t": "index(for:)", "n": 83, "laws": 0, "ts": "2026-07-31 06:00 UTC"}
+{"id": "/documentation/uikit/uidocument/localizedname", "sha": "64b1c71ac38571caf6355322f5dbab56f689a8879020503435aac0b36f13541c", "t": "localizedName", "n": 589, "laws": 0, "ts": "2026-07-31 06:01 UTC"}
+{"id": "/documentation/uikit/uiimage/symbolscale", "sha": "973fb11255b866ecfc7b057ada275495dea970d3e63f4844eed5c45d457816a3", "t": "UIImage.SymbolScale", "n": 587, "laws": 1, "ts": "2026-07-31 06:04 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutanchor", "sha": "07cc9d81cc0bcce10af0637b5829214e900967566f73a1ba2830bb5d0539531f", "t": "NSCollectionLayoutAnchor", "n": 1941, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
+{"id": "/documentation/uikit/uicolor/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-31 06:14 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/cgglyph(at:)", "sha": "b65fa7cc1eb4bfe65056822e526234b1848d65318f8aa76a689d29e95fd4df9b", "t": "cgGlyph(at:)", "n": 219, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
+{"id": "/documentation/uikit/nstextselectiondatasource", "sha": "7358f86739f54db099671891955513a8ea058748100399d835acfd16f03c329e", "t": "NSTextSelectionDataSource", "n": 721, "laws": 0, "ts": "2026-07-31 06:19 UTC"}
+{"id": "/documentation/uikit/nstextlinefragment/init(string:attributes:range:)", "sha": "ad461d5b884b586f7af4039feb45fb6f0652134a754d17970a61350b5e366afa", "t": "init(string:attributes:range:)", "n": 80, "laws": 0, "ts": "2026-07-31 06:19 UTC"}

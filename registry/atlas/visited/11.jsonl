@@ -95,3 +95,5 @@
 {"id": "/documentation/scenekit/scnsphere/init(radius:)", "sha": "9d3c6a1f212d2f694fad0bca77df793c4718deb84c60dbf155d84780f746c963", "t": "init(radius:)", "n": 273, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
 {"id": "/documentation/uikit/uimenubuilder/removecommandforaction:propertylist:", "sha": "6a716dbcd3913d7d407cb27942b0cf2c8d51c78f705bc8e4d576e39a19438698", "t": "removeCommandForAction:propertyList:", "n": 29, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
 {"id": "/documentation/uikit/uiimageview/highlightedanimationimages", "sha": "1255477657abba44ccd82e4a8900673959ebdbd0791a55dd8dd1360edfe36f93", "t": "highlightedAnimationImages", "n": 313, "laws": 1, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaquery", "sha": "1e5cabeb94fec4b591e904f8d8c2b9e018b2e6d4149a589449f75b697e9ac0f8", "t": "MPMediaQuery", "n": 1649, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/uibezierpath/addclip()", "sha": "b5937bcbc7e6557b81736642d83f498f8e5f0ea2c210159a5c7e3fbde95266ab", "t": "addClip()", "n": 826, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

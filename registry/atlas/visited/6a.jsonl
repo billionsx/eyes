@@ -78,3 +78,11 @@
 {"id": "/documentation/watchkit/wkinterfacedevice/screenbounds", "sha": "cf51125a86eaf6162501bb6b436c5a6faa1920537f207169d028ac24897e0c4b", "t": "screenBounds", "n": 181, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
 {"id": "/documentation/scenekit/scngeometry/firstmaterial", "sha": "9742f61292c11835984efd57ecda67dbe4c7a39789cef75a24261b98480bd81b", "t": "firstMaterial", "n": 230, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
 {"id": "/documentation/scenekit/scnrenderer/render(attime:)", "sha": "5fa9e24431339edb50dfe06afd142a183b664f46da495d523e62865f7bae28d4", "t": "render(atTime:)", "n": 733, "laws": 0, "ts": "2026-07-30 19:01 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaitemanimatedartwork", "sha": "b1c4600d7fdda2ac7f16508f134ecdde13fbf23866e6075a14a26bc323cfa25c", "t": "MPMediaItemAnimatedArtwork", "n": 1151, "laws": 1, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/uidocumentbrowsertransitioncontroller/targetview", "sha": "af864898173148da732543314e817f90159f3b859f50c5b7becc1beb3830a178", "t": "targetView", "n": 1242, "laws": 2, "ts": "2026-07-31 06:04 UTC"}
+{"id": "/documentation/uikit/uifont/fontdescriptor", "sha": "b62278f8f0b08113bc553483339dfd86874d32cd93102e5080ceb98aa202c20c", "t": "fontDescriptor", "n": 226, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uifont/labelfontsize", "sha": "772f750a00d4bbd529a692b5329873674fadd1c9f2fc18f43ca5c6d1809e9627", "t": "labelFontSize", "n": 46, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uitextview/textviewportlayoutcontroller(_:configurerenderingsurfacefor:)", "sha": "4a823554d5a1f7b602675c0dff528653e710c7caa40f807ccab2a861f77a9834", "t": "textViewportLayoutController(_:configureRenderingSurfaceFor:)", "n": 127, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
+{"id": "/documentation/uikit/nstextlist", "sha": "1cbdf944469494651a9ffc2e8b9781c1632e88fa06894d090edf0f9f714b3ceb", "t": "NSTextList", "n": 1516, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
+{"id": "/documentation/uikit/uirectfill(_:)", "sha": "bdd00cf39c99677512aed1fa6a61531b9455730a45c1a8e658f9ce1a4cfef385", "t": "UIRectFill(_:)", "n": 227, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/uikit/uitextview/init(coder:)", "sha": "5ffa3962b38f0adb900d0a611839edbeb68dd61a27fdba907f965e367c7fab92", "t": "init(coder:)", "n": 47, "laws": 0, "ts": "2026-07-31 06:21 UTC"}

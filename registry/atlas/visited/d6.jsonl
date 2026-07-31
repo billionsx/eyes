@@ -111,3 +111,7 @@
 {"id": "/documentation/scenekit/scnanimatable/resumeanimation(forkey:)", "sha": "1cb8fc678eb2440d3c2d807ad35f8df53b3ae08f525573f86622e046456d090b", "t": "resumeAnimation(forKey:)", "n": 244, "laws": 0, "ts": "2026-07-30 18:49 UTC"}
 {"id": "/documentation/scenekit/scnparticlesystem/particleimage", "sha": "be4e27a2a0558ba42203f600c131fe7fb75ecf217d05afbde95810665e85ecd8", "t": "particleImage", "n": 1038, "laws": 1, "ts": "2026-07-30 19:00 UTC"}
 {"id": "/documentation/uikit/uilayoutguide/rightanchor", "sha": "e2812067e4a7ff00970e1dc1fcd6b2dee63787567c62124db60cc2fe08bfd542", "t": "rightAnchor", "n": 295, "laws": 1, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/design/human-interface-guidelines/sliders", "sha": "ec5adf91f3aa26f1933408a3e0f04ff80af0d90647a3d442be5e9db7725660b9", "t": "Sliders", "n": 4676, "laws": 10, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/uikit/uiimage/add", "sha": "2d2792e4a876482bc606609442e7b5c6612996dab2b2afeea1a20e5520ab1d36", "t": "add", "n": 58, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uicollectionviewlayout/initiallayoutattributesforappearingitem(at:)", "sha": "185e7c45c35858bef5b2104df9670472a694ef917d47e4009d933064e6a125f5", "t": "initialLayoutAttributesForAppearingItem(at:)", "n": 782, "laws": 1, "ts": "2026-07-31 06:09 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/delegate", "sha": "14563cf5b06bf631d47c0eaa31a8aed604121a65f285eb0b7f1d3e9d67fb8d48", "t": "delegate", "n": 30, "laws": 0, "ts": "2026-07-31 06:16 UTC"}

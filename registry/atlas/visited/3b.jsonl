@@ -90,3 +90,7 @@
 {"id": "/documentation/scenekit/scnscene/fogenddistance", "sha": "a4285513a04ff9b686ea9192e22f58523ecb2b37120dfa455559e715b01c1031", "t": "fogEndDistance", "n": 884, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
 {"id": "/documentation/scenekit/scnscenerenderer/commandqueue", "sha": "e03717f4cfd65fcfb80bbedf6c956f4098d4131957c536a985ed6bee800554ce", "t": "commandQueue", "n": 603, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
 {"id": "/documentation/scenekit/scnview/antialiasingmode", "sha": "3a047ae80677e1d5b8418576de81b5d3383ee55a503f17302f5ec416f1492a28", "t": "antialiasingMode", "n": 454, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/uikit/uidocumentviewcontroller/launchoptions-swift.class/title", "sha": "45be286956bab87ffe333ffd20aeb420d465f34123d5427fec19470a559bca1b", "t": "title", "n": 104, "laws": 0, "ts": "2026-07-31 06:01 UTC"}
+{"id": "/documentation/uikit/uidocumentinteractioncontroller/presentoptionsmenu(from:animated:)", "sha": "1f5c9af864cba0745399684b54b9b55deda66b25ccc52f508329155f9999b723", "t": "presentOptionsMenu(from:animated:)", "n": 1130, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/uicollectionviewlayoutattributes/frame", "sha": "2a2d8c7587c8f196604a49526a173b9db25da003e4e737438afda1853360d3bb", "t": "frame", "n": 230, "laws": 0, "ts": "2026-07-31 06:09 UTC"}
+{"id": "/documentation/uikit/uinavigationbar/pushitem(_:animated:)", "sha": "50cd474170e637cf065cc020bdbbe709d705fd2b5b0a18a8d52fe801438becfd", "t": "pushItem(_:animated:)", "n": 393, "laws": 0, "ts": "2026-07-31 06:11 UTC"}

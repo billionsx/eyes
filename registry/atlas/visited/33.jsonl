@@ -87,3 +87,9 @@
 {"id": "/documentation/swiftui/scrollview/axes", "sha": "3e4d242bbe729ac33a90a1cb115c056f06c94c71a0c6c2cbc1a40a5342cd46d5", "t": "axes", "n": 76, "laws": 0, "ts": "2026-07-30 16:42 UTC"}
 {"id": "/documentation/scenekit/scncamera/exposureoffset", "sha": "bf4a3f0c290589352dc2da338cc38322ad4a9fd1dc4322eb2b1e88e9e492269a", "t": "exposureOffset", "n": 732, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
 {"id": "/documentation/scenekit/scncone/init(topradius:bottomradius:height:)", "sha": "e701eeacf7384730d3b3599f803565b0b188123cfaf873472918276ae70a47d9", "t": "init(topRadius:bottomRadius:height:)", "n": 548, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
+{"id": "/documentation/mediaplayer/track-navigation-events", "sha": "8dcd953c14c68710887ec7ed7d14d1847e3bcf4de2598f9dbd93eefe596c718f", "t": "Track navigation events", "n": 246, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/managing-content-in-your-app-s-windows", "sha": "160467b6667e9bdd3e875b0a15cbbbb2aba83fc96c44faf6eb5ce2830d7b90e5", "t": "Managing content in your app’s windows", "n": 5809, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/uiimage/preparingthumbnail(of:)", "sha": "de893752b42a62eb53411e523cb1359e26cd90127a3a28a0cbbd93c046614762", "t": "preparingThumbnail(of:)", "n": 577, "laws": 1, "ts": "2026-07-31 06:06 UTC"}
+{"id": "/documentation/uikit/uitextview/viewportbounds(for:)", "sha": "de06f5a2afa5897999e76e6684d7b295139abc4659ff358887837e343fdfdb66", "t": "viewportBounds(for:)", "n": 147, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/init(coder:)", "sha": "f74a59ebaa882c43308ca8160ed107d1fb66fcaef6912d8f8276c029a0d1519c", "t": "init(coder:)", "n": 52, "laws": 0, "ts": "2026-07-31 06:16 UTC"}
+{"id": "/documentation/uikit/uibezierpath/flatness", "sha": "f73254c193c14fb2ca9f0e7c280c7135fd7cbab3f5ed46deb16b33e2051310ee", "t": "flatness", "n": 633, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

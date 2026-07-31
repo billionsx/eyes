@@ -93,3 +93,6 @@
 {"id": "/documentation/scenekit/scnparticlesystem/particlebouncevariation", "sha": "2b0acf593bf71a6594351925a6c6669bfa26ff6a0316e4cc6a19ec392fc01b0f", "t": "particleBounceVariation", "n": 510, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
 {"id": "/documentation/scenekit/scnrenderer/init(context:options:)", "sha": "e4b2226d36e3108bd5c3e223e01319d8f364fb40a3dfe624669abac979bfcb10", "t": "init(context:options:)", "n": 294, "laws": 0, "ts": "2026-07-30 19:01 UTC"}
 {"id": "/documentation/scenekit/scnplane/height", "sha": "a47b6648d7d583a572818da9c1f79d305096a589105f0997365de728b5459831", "t": "height", "n": 325, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
+{"id": "/documentation/uikit/uidocumentinteractioncontroller/dismissmenu(animated:)", "sha": "bae0cefd01e8029ff2420388cb21e40b530e1251f5c9fa0095cde75261237be8", "t": "dismissMenu(animated:)", "n": 207, "laws": 1, "ts": "2026-07-31 06:02 UTC"}
+{"id": "/documentation/uikit/uiimage/symbolconfiguration-swift.property", "sha": "2a177c8fcd32703fb7ef5fd027ba91ba76989bab7742104e535dfdcd4c8efba4", "t": "symbolConfiguration", "n": 740, "laws": 2, "ts": "2026-07-31 06:06 UTC"}
+{"id": "/documentation/uikit/nstextlinefragment/characterrange", "sha": "c52bd1842017baccd5492e50cf501cb6ac90679a9f56d1f9a46448f370ab4ce7", "t": "characterRange", "n": 89, "laws": 0, "ts": "2026-07-31 06:19 UTC"}

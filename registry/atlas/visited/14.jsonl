@@ -94,3 +94,8 @@
 {"id": "/documentation/scenekit/scncullmode", "sha": "45998c5ecb4871de660d9e7621a76f19925d79cbf375cee56869ec6a3343d699", "t": "SCNCullMode", "n": 629, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
 {"id": "/documentation/uikit/uimenusystem/setneedsrebuild()", "sha": "8ec7c20a62a28114458c30c3a4f90e8e7ded42ab48147a52e54600c7196d4d35", "t": "setNeedsRebuild()", "n": 50, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
 {"id": "/documentation/uikit/uipresentationcontroller/containerviewwilllayoutsubviews()", "sha": "f02af80e5ad4d4cf93a1bb8193055f4c7f1112c2a3587b0c211277e4a40bad4e", "t": "containerViewWillLayoutSubviews()", "n": 556, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/camera-control", "sha": "d76f09d2f6fed81fb48f00a42e8fe2792eb68aeaa48f89f85d99f51f57189a82", "t": "Camera Control", "n": 3892, "laws": 5, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/uikit/uiimage/ishighdynamicrange", "sha": "8faf69c2de62dd001c344ccc6de461be7f808dec4b8de531920bd226e32f1d69", "t": "isHighDynamicRange", "n": 78, "laws": 0, "ts": "2026-07-31 06:06 UTC"}
+{"id": "/documentation/uikit/uiimagereader-swift.struct", "sha": "37790ad26dd3cacf0675061714e58d4df6c4a152cbf85d0bc660d4a10747227a", "t": "UIImageReader", "n": 234, "laws": 0, "ts": "2026-07-31 06:06 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/init()", "sha": "79655afed66c6c4d5c938770fe78140094a3fd148a84a5ada620bb8dad3c408d", "t": "init()", "n": 152, "laws": 0, "ts": "2026-07-31 06:16 UTC"}
+{"id": "/documentation/uikit/nstextcontainer/widthtrackstextview", "sha": "d743274ae38762f8b1a5201d1271526f83e85e1663d085964fd3f7ec8e065289", "t": "widthTracksTextView", "n": 339, "laws": 0, "ts": "2026-07-31 06:18 UTC"}

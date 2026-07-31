@@ -102,3 +102,5 @@
 {"id": "/documentation/scenekit/scnfloor/width", "sha": "51ed550b0060d686099f1031ce50409e13a30772ec098da1bcb662f95e3d77a6", "t": "width", "n": 315, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/scenekit/scnvector4/init(x:y:z:w:)-37b3a", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(x:y:z:w:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/documentation/uikit/uimenuelement/state/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/pointing-devices", "sha": "37abab5537e795eb8bd7cb578059112e892e249f63b3695cd6396b6470e4eeda", "t": "Pointing devices", "n": 14295, "laws": 10, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/isvalidglyphindex(_:)", "sha": "ec3e48265fe8b986829f4a4b7d851c777cf5a4bc5748e6ef4f5cfb56948332be", "t": "isValidGlyphIndex(_:)", "n": 132, "laws": 0, "ts": "2026-07-31 06:16 UTC"}

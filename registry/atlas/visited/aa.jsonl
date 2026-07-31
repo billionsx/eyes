@@ -86,3 +86,5 @@
 {"id": "/documentation/scenekit/scnscene/init(url:options:)-7ugvv", "sha": "9a5f080fa8eebc4de8ab6b02566e731209a5c6cfc1748346a8e5f274000a3894", "t": "init(url:options:)", "n": 1026, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
 {"id": "/documentation/scenekit/scnchamfermode", "sha": "4d24b2dbb31420fb0ca9c92f17f6aeaf52ba34e0ab47a3b64d512401aaec2528", "t": "SCNChamferMode", "n": 203, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/uikit/uiscrolltypemask", "sha": "085b11033c54e40725afe800746f27ce49d21339b9c6d62104d14ed1e69ac9ff", "t": "UIScrollTypeMask", "n": 131, "laws": 0, "ts": "2026-07-30 19:11 UTC"}
+{"id": "/documentation/uikit/uifont/leading", "sha": "5aff54726c813d7d09a732007804623d386415d994f1db5c79e47335cee11a19", "t": "leading", "n": 140, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uitextview/textlayoutmanager", "sha": "0399e43820e85f0fb48f56ca024bd8c695116959036657999f5a2bddec2cb8a8", "t": "textLayoutManager", "n": 78, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

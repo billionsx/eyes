@@ -99,3 +99,8 @@
 {"id": "/documentation/scenekit/scnparticlesystem/blendmode", "sha": "3b271b15390b19975f6626f433a9bbb3dd75e8f9302f79bf8f91cb38eebaa361", "t": "blendMode", "n": 251, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
 {"id": "/documentation/scenekit/scnbox/init(width:height:length:chamferradius:)", "sha": "bcf75ad736510057430c9d6b224be55624ab5aa324b98df9396a972d368b2364", "t": "init(width:height:length:chamferRadius:)", "n": 320, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/uikit/uimenuleaf/preferredimagevisibility", "sha": "1aaa07ecddc36b76db4c3abb32bfe24e8be2b3a2a1f5b296d9e466fb096e8909", "t": "preferredImageVisibility", "n": 48, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/inclusion", "sha": "9052c03fb276b973cb7144110cc1b536a642d1d936beb68ce34bd15658e91d89", "t": "Inclusion", "n": 13960, "laws": 6, "ts": "2026-07-31 05:51 UTC"}
+{"id": "/documentation/avkit/avplayerview/player", "sha": "c72336a7371351be3d805e262cecac0fe7c7387208ba059e6fde93086d99aafb", "t": "player", "n": 65, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/uikit/uidocumentinteractioncontroller/name", "sha": "407ac820252e8fd6fedc0e656533d91fce0108f235cce29983efbe6533b88cc6", "t": "name", "n": 316, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/nstextcontainer/maximumnumberoflines", "sha": "f0cbe708a3323c986192d80003a04f823d1071b20d19a656f689b907e0691ab9", "t": "maximumNumberOfLines", "n": 284, "laws": 1, "ts": "2026-07-31 06:18 UTC"}
+{"id": "/documentation/uikit/uibezierpath/removeallpoints()", "sha": "58f62d5866712fab14c19b7e6e9a93785af2e432075a35f8bce9710860072c4b", "t": "removeAllPoints()", "n": 68, "laws": 0, "ts": "2026-07-31 06:21 UTC"}

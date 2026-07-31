@@ -109,3 +109,10 @@
 {"id": "/documentation/scenekit/scnlight/intensity", "sha": "08985f971bca968c942111cee3397d9742fea49103c4e3a7d2b3a9530223f3fe", "t": "intensity", "n": 766, "laws": 2, "ts": "2026-07-30 18:56 UTC"}
 {"id": "/documentation/uikit/handling-swipe-gestures", "sha": "cb0e18819cc6b47e4114af82742427f776f2c72cef0d1a3a0b9f142f93b47e0d", "t": "Handling swipe gestures", "n": 1922, "laws": 5, "ts": "2026-07-30 19:11 UTC"}
 {"id": "/documentation/uikit/uimenuleaf/sender", "sha": "c05d597df7b8ac3608e236d2f2b0223e53ead79e6bc2795c7a1d933366926dcd", "t": "sender", "n": 201, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/spatial-layout", "sha": "cf4c5e2d2b8c8a3b029dcdfd0c16e6a3bee96506d2b5d08389a169f1b6af5615", "t": "Spatial layout", "n": 8109, "laws": 5, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/mediaplayer/mp_swift_main_actor", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_SWIFT_MAIN_ACTOR", "n": 0, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaitempropertyalbumtitle", "sha": "94aa7d19a16ecb3f743a914be9c43024fff026c4f739941284db447b50d73b6a", "t": "MPMediaItemPropertyAlbumTitle", "n": 328, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/uicollectionviewlayoutattributes/init(forcellwith:)", "sha": "98b1877af820fd1eebf2b7067409c1735bb3e12aefea09860cb1b11680ec7595", "t": "init(forCellWith:)", "n": 543, "laws": 1, "ts": "2026-07-31 06:09 UTC"}
+{"id": "/documentation/uikit/uibarstyle", "sha": "bd708c7cbc30cacf3f923657e6f86eff362e42db6f20d48605a34a350a9c2c21", "t": "UIBarStyle", "n": 188, "laws": 0, "ts": "2026-07-31 06:11 UTC"}
+{"id": "/documentation/uikit/uisearchcontroller/searchsuggestions", "sha": "529cab1d0f118a2f402019671ee817739f0e0102750b6f5c167d6fb60bb86587", "t": "searchSuggestions", "n": 1502, "laws": 0, "ts": "2026-07-31 06:13 UTC"}
+{"id": "/documentation/uikit/nstextcontainer/init(size:)", "sha": "aae569103290fcf2e87ebc6d5a069a2b369810759dab3b9c394abe6359848a52", "t": "init(size:)", "n": 359, "laws": 0, "ts": "2026-07-31 06:17 UTC"}

@@ -98,3 +98,8 @@
 {"id": "/documentation/scenekit/scnnode/replacechildnode(_:with:)", "sha": "82389a5b57e4c86fc71716351b6e0fb7891d1acd48d8cfa19086a6d01c40d8ee", "t": "replaceChildNode(_:with:)", "n": 398, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
 {"id": "/documentation/scenekit/scnnode/simdorientation", "sha": "5f1bb546a5b53ce08d4522e7805db7554a001144c8bad37d856c55bdfd1f19b0", "t": "simdOrientation", "n": 278, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
 {"id": "/documentation/uikit/uidropproposal", "sha": "1e3f94901a5419007c15bb32a59c7d776bf11b2da41313b2277423b0a6db51ca", "t": "UIDropProposal", "n": 410, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/documentation/avkit/avplayerview/videogravity", "sha": "fcdd70e5188b9e8fe15b58f8edc2f87f96a4c4eb4c7788e997d2cbf6cb72dae7", "t": "videoGravity", "n": 332, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/mediaplayer/mp_api", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_API", "n": 0, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/mediaplayer/mpmusicplayerqueuedescriptor", "sha": "91a4765dda3df5294dd9c1d2a1df8e3368178d47836ed8d2bae4cd09903cf27a", "t": "MPMusicPlayerQueueDescriptor", "n": 73, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/uinavigationcontroller/init(navigationbarclass:toolbarclass:)", "sha": "213dc313d26cc1954e692a3986cd8f5d30993ebdbd0f97306c498da0d74a0205", "t": "init(navigationBarClass:toolbarClass:)", "n": 528, "laws": 2, "ts": "2026-07-31 06:11 UTC"}
+{"id": "/documentation/uikit/uicolor/prominence-swift.enum", "sha": "f8dc84568b99b36bef605852fce06aa93c961be3771b869ca88fdb43b8d6dcce", "t": "UIColor.Prominence", "n": 621, "laws": 0, "ts": "2026-07-31 06:14 UTC"}

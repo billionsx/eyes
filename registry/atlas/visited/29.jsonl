@@ -88,3 +88,6 @@
 {"id": "/documentation/scenekit/scnnode/init(geometry:)", "sha": "734148da6460501dea8bbab5adb871c8d0f06d980964b67a7053b418bb78540a", "t": "init(geometry:)", "n": 173, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
 {"id": "/documentation/scenekit/scnnode/simdlocalup", "sha": "08f6e6eca808ff6930a3795bc330aeebad9c9bd326a5a95684e11ea34c08edf9", "t": "simdLocalUp", "n": 348, "laws": 1, "ts": "2026-07-30 18:59 UTC"}
 {"id": "/documentation/uikit/uimenubuilder/replacechildren(ofmenu:from:)", "sha": "fd020e943a8be544436767e64c3ae63a25e2cd3d22048483f068826dc0f68c3e", "t": "replaceChildren(ofMenu:from:)", "n": 301, "laws": 1, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/design/human-interface-guidelines/selection-and-input", "sha": "bc3140deadc63f35959a27664a20e0b9b28d8ae3b21391d5011f1a2e5261a6de", "t": "Selection and input", "n": 146, "laws": 0, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaitempropertyplaybackduration", "sha": "dccd0374905c43445b63188d0e7610331a7edc1ab2fc817bb3974503516412cf", "t": "MPMediaItemPropertyPlaybackDuration", "n": 121, "laws": 0, "ts": "2026-07-31 05:58 UTC"}
+{"id": "/documentation/uikit/uipresentationcontroller/shouldremovepresentersview", "sha": "19fc58ce1d74c91c48b8dbcb12d74eb0f24a5ea79adb87a01acc50a89a1e2a34", "t": "shouldRemovePresentersView", "n": 444, "laws": 1, "ts": "2026-07-31 06:15 UTC"}

@@ -4,9 +4,9 @@
 ## Секции (топ-30)
 | Секция | Страниц |
 |---|---|
-| section-hero | 36 |
-| section-welcome | 26 |
-| section-highlights | 22 |
+| section-hero | 35 |
+| section-welcome | 27 |
+| section-highlights | 23 |
 | section-values | 19 |
 | section-index | 17 |
 | section-incentive | 16 |
@@ -24,24 +24,24 @@
 | section-decarbonizing | 7 |
 | section-values-router | 7 |
 | section-product-stories | 6 |
-| section-privacy | 6 |
 | section-siri | 6 |
 | section-more | 6 |
 | section-developers | 6 |
 | section-battery | 5 |
-| section-apps | 5 |
+| section-privacy | 5 |
 | section-improvements | 5 |
 | section-incentive-alt | 5 |
 | section-upgrade | 5 |
 | section-newsroom | 5 |
+| section-macos | 4 |
 
 ## Модули (топ-30)
 | Модуль | Страниц |
 |---|---|
 | name:hero | 59 |
 | name:compare | 26 |
-| name:highlights | 22 |
-| name:values gallery | 22 |
+| name:highlights | 23 |
+| name:values gallery | 23 |
 | name:router | 20 |
 | name:environment gallery | 18 |
 | name:why apple | 16 |
@@ -50,9 +50,9 @@
 | name:accessories | 12 |
 | name:product viewer | 9 |
 | name:why apple gallery | 8 |
-| name:privacy | 7 |
 | name:compatibility | 7 |
 | name:performance intro | 6 |
+| name:privacy | 6 |
 | name:more | 6 |
 | name:developers | 6 |
 | name:index | 6 |

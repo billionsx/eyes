@@ -139,3 +139,13 @@
 {"id": "/documentation/AVKit/AVExperienceController", "law": "Use this class to control, observe, and respond to experience changes for an ."}
 {"id": "/documentation/AVKit/AVCaptureEventInteraction", "law": "Adopting this API overrides default hardware button behavior, so apps must always respond appropriately to any events received."}
 {"id": "/documentation/AVKit/AVPlayerView", "law": "Regardless of the selected controls style, the player view always supports the following standard set of keyboard shortcuts to control playback: The Space bar plays and pauses playback."}
+{"id": "/documentation/avkit/avplayerviewcontroller/transportbarcustommenuitems", "law": "Use this property to display custom pop-up menus in transport bar."}
+{"id": "/documentation/avkit/avplayerviewcontroller/unobscuredcontentguide", "law": "A layout guide that represents an area that fixed-position playback controls don’t obscure when visible."}
+{"id": "/documentation/avkit/avexperiencecontroller/expandedconfiguration", "law": "In this case, you must specify a or the transition result is ."}
+{"id": "/documentation/avkit/avexperiencecontroller/transitiongroup", "law": "Use to create a transition group."}
+{"id": "/documentation/avkit/avexperiencecontroller/withtransitiongroup(body:)", "law": "Use this method when you need to transition multiple instances simultaneously, creating a smooth, coordinated animation."}
+{"id": "/documentation/avkit/avcaptureeventinteraction/defaultcapturesounddisabled", "law": "To use AirPods Camera Control, it must be available in your country or region."}
+{"id": "/documentation/avkit/avcaptureeventinteraction/isenabled", "law": "Set this value to when your app can’t or won’t respond to the action callbacks to avoid non-interactive buttons or UI elements."}
+{"id": "/documentation/avkit/playing-video-content-in-a-standard-user-interface", "law": "This delegate method passes the player view controller and transition coordinator to use for coordinating animations."}
+{"id": "/documentation/avkit/avplayerview", "law": "Regardless of the selected controls style, the player view always supports the following standard set of keyboard shortcuts to control playback: The Space bar plays and pauses playback."}
+{"id": "/documentation/avkit/avplayerview/controlsstyle", "law": "The player view supports several different control styles that you can use to customize the player view’s appearance and behavior."}

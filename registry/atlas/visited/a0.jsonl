@@ -85,3 +85,7 @@
 {"id": "/documentation/scenekit/scnview/pause(_:)", "sha": "cb9b479e25ca5edd09e63053c6a9a132b18daecce6ca5b7b8e18d72a0177ce9a", "t": "pause(_:)", "n": 108, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
 {"id": "/documentation/scenekit/scnvector4make(_:_:_:_:)", "sha": "e52d694d3bb207c62e3ac38eedcb9f2f63d6a7885e4e559d96c6f289fd8268a8", "t": "SCNVector4Make(_:_:_:_:)", "n": 119, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/documentation/uikit/uiimageview/addsymboleffect:options:animated:", "sha": "d800975867186f82d815e14310b0fe2f22bc6627be9f16d9a4e56b6fa411772d", "t": "addSymbolEffect:options:animated:", "n": 80, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/documentation/mediaplayer/deprecated-types", "sha": "315f68ef233dcc7d63a74c47b8d6be412144ebfe6167c049ca0d9c28d63d800e", "t": "Deprecated types", "n": 559, "laws": 1, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/mediaplayer/mp_has_header", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_HAS_HEADER", "n": 0, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/uikit/uigraphicsendpdfcontext()", "sha": "9c9b46d5ce7106049bb206b35abae5ddf238af9e3dc4aad211ab873b9ec6457c", "t": "UIGraphicsEndPDFContext()", "n": 407, "laws": 0, "ts": "2026-07-31 06:04 UTC"}
+{"id": "/documentation/uikit/nstextcontainer/init(coder:)", "sha": "132ba472073fcc94d292957df7ecb89f02e2295dde4a4103cf68ba5fc6883e1d", "t": "init(coder:)", "n": 52, "laws": 0, "ts": "2026-07-31 06:17 UTC"}

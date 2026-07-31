@@ -96,3 +96,8 @@
 {"id": "/documentation/scenekit/scngeometry/init(sources:elements:sourcechannels:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(sources:elements:sourceChannels:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
 {"id": "/documentation/scenekit/scnvector3/init(_:_:_:)-50jm7", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
 {"id": "/documentation/scenekit/scnvector4/init(_:_:_:_:)-6otq6", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
+{"id": "/design/human-interface-guidelines/offering-help", "sha": "fc6d21bd24b4f2ad8d9bc0f796a23f6a88a1ff868177632542371ae9fdf96125", "t": "Offering help", "n": 6087, "laws": 7, "ts": "2026-07-31 05:53 UTC"}
+{"id": "/documentation/familycontrols/authorizationstatus", "sha": "64e9326ed611221d7a840e186523127fa9aba503dc738d407d61353f1edea4aa", "t": "AuthorizationStatus", "n": 257, "laws": 0, "ts": "2026-07-31 05:54 UTC"}
+{"id": "/documentation/avkit/avplayerview/videobounds", "sha": "9b28af358427c28098e0378b2d883ef1afefd661c65a9530409f856bf308eb56", "t": "videoBounds", "n": 345, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/uikit/uidocumentpickerviewcontroller/init(urls:in:)", "sha": "6fbf1af5c8ea40bb2ac08e794f1170f4fabbf5ea27f0d02c95e4c146675ee032", "t": "init(urls:in:)", "n": 531, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/uibezierpath/init(ovalin:)", "sha": "729af54d5ca4768e0db9f7926f1f41ba88ad992df186527ad6e56f487da53a11", "t": "init(ovalIn:)", "n": 427, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

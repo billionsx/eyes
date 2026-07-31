@@ -99,3 +99,7 @@
 {"id": "/documentation/scenekit/scncapsule/heightsegmentcount", "sha": "8645f409d65d7017dc945e2a31f934ffc32bd1b4654f65a0a65c3566ab084cd6", "t": "heightSegmentCount", "n": 608, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/scenekit/scnvector4/init(_:)-6w6mx", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/documentation/uikit/uimenuelement/highlightstateupdatehandler", "sha": "8c791fbde0d19afa9e333f1ac50840cc678e5c2f226174fcf98a8cd93c18f1f8", "t": "highlightStateUpdateHandler", "n": 738, "laws": 1, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/page-controls", "sha": "1b658538e180514dd5857c4c9d049d19bec0d60a45007ed0c04b5999038b449a", "t": "Page controls", "n": 6929, "laws": 10, "ts": "2026-07-31 05:53 UTC"}
+{"id": "/documentation/mediaplayer/mpnowplayinginfocenter/nowplayinginfo", "sha": "3026e0b4bacdb28c7502683fa5f24bc087b6813542accdaf90db1bd314e7c3f8", "t": "nowPlayingInfo", "n": 151, "laws": 0, "ts": "2026-07-31 05:58 UTC"}
+{"id": "/documentation/uikit/uifont/textstyle/extralargetitle2", "sha": "c6c8175ce5a160f2e0eede194968c46c7c936ff920b9f54e91d1d2c7527cafd4", "t": "extraLargeTitle2", "n": 44, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutdimension", "sha": "36142475e20f015e0d24e785e607f1dd1bd602a4ab4cb91a41286a0af1d8060c", "t": "NSCollectionLayoutDimension", "n": 1258, "laws": 1, "ts": "2026-07-31 06:08 UTC"}

@@ -98,3 +98,10 @@
 {"id": "/documentation/scenekit/scnview/stop(_:)", "sha": "c592e070bcdea5ee663c52e465b5600266bebc57d24d1ccd503b3863e74cb2ac", "t": "stop(_:)", "n": 79, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
 {"id": "/documentation/scenekit/scnvector3/init(_:_:_:)-2hhr6", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
 {"id": "/documentation/uikit/uiimage/animatedimage(with:duration:)", "sha": "344f5b1ebd286e7ef990afc789c2a87a81e2491739de5f9be7b42afedfef7621", "t": "animatedImage(with:duration:)", "n": 199, "laws": 1, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/design/human-interface-guidelines/the-menu-bar", "sha": "8b90a72ed2cc2856ee22c2c3dc80c22755d5eff4f077365c4c2919178955963f", "t": "The menu bar", "n": 13797, "laws": 10, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/avkit/avpictureinpicturecontroller/playerlayer", "sha": "3bb32168a0e1c4452cd08464d4f64ab17e55571fbfe69e500c1e9ddade2a6182", "t": "playerLayer", "n": 42, "laws": 0, "ts": "2026-07-31 05:55 UTC"}
+{"id": "/documentation/avkit/avplayerviewtrimresult", "sha": "4a75f7ba99756cbbe5e7db46db353e25c46a628d578a6ab009a29c85a94508b9", "t": "AVPlayerViewTrimResult", "n": 212, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/uikit/uifont/familynames", "sha": "921442fe8b2571b60b0e6c0e9773c2e38eacbe89322c9b171a98466fe6c13645", "t": "familyNames", "n": 418, "laws": 1, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutsize", "sha": "6c635453fb02c95d460efd1225cd14a03640e9179533a5a1e3641e5b0052af79", "t": "NSCollectionLayoutSize", "n": 343, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
+{"id": "/documentation/uikit/uicollectionviewlayout/invalidatelayout(with:)", "sha": "dcc54fb1becb0c147ce95d9a3d8ba1e19ddabc1f8c9cada8557e6f853fc7097a", "t": "invalidateLayout(with:)", "n": 449, "laws": 0, "ts": "2026-07-31 06:09 UTC"}
+{"id": "/documentation/uikit/enriching-your-text-in-text-views", "sha": "2d88157d1548de689c42188bb32337cb31ea43c0e8365d963802a3655cccfda1", "t": "Enriching your text in text views", "n": 255, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

@@ -93,3 +93,5 @@
 {"id": "/documentation/scenekit/scnnode/opacity", "sha": "2a536ff580a036de0e790ba4239364ab5d703c90f268a2f37b767577fda65e33", "t": "opacity", "n": 197, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
 {"id": "/documentation/scenekit/scnprogramdelegate/program(_:handleerror:)", "sha": "07cea70baa2826222ad3173ad87e5c304db7bf1e204773340376a9131365efb2", "t": "program(_:handleError:)", "n": 178, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
 {"id": "/documentation/uikit/uilayoutguide/layoutframe", "sha": "c5c1cd829d0a5bc0cb9ea011f18d0a15e4de8fda70ffb1955f559faece45c4c4", "t": "layoutFrame", "n": 248, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/documentation/uikit/uifont/width", "sha": "135461857d6b11bd455dbdf1a08239d26e29e05c263e10371bd2a0fcb241700b", "t": "UIFont.Width", "n": 100, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uicollectionviewlayout/invalidationcontext(forpreferredlayoutattributes:withoriginalattributes:)", "sha": "3b6db18e6f2982105aa9969e7456a556ff61cf612ee8178e419037f18fa4c553", "t": "invalidationContext(forPreferredLayoutAttributes:withOriginalAttributes:)", "n": 751, "laws": 2, "ts": "2026-07-31 06:09 UTC"}

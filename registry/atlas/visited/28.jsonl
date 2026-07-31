@@ -90,3 +90,10 @@
 {"id": "/documentation/scenekit/scncamera/aperturebladecount", "sha": "fc6583c61d79bbd69dae9a70fa46092f447799b8cb77cb5103b17814c5f826eb", "t": "apertureBladeCount", "n": 1081, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
 {"id": "/documentation/scenekit/scnmovabilityhint", "sha": "4505a58361bd36d28fc4ef81ff55704814a496a8c740dbfc16fe3a7e0887b365", "t": "SCNMovabilityHint", "n": 189, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
 {"id": "/documentation/scenekit/scntext/iswrapped", "sha": "23f86bf1fb54145e865cf67f1b4524e791af68a68f583855af47bbcdfe5329ff", "t": "isWrapped", "n": 469, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/design/human-interface-guidelines/windows", "sha": "3846580079d89f04687faae33fbb1b6982ba497754772a2b4cf2f5bbd1632290", "t": "Windows", "n": 13695, "laws": 10, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/uikit/uidocument/state/closed", "sha": "4be64efa6bda4edd5901e70d43c8db114320efcb1b48fed3b6d2082353a9109e", "t": "closed", "n": 181, "laws": 0, "ts": "2026-07-31 06:01 UTC"}
+{"id": "/documentation/uikit/uidocument/writecontents(_:to:for:originalcontentsurl:)", "sha": "0f71c916285b99e8e53d1a9cc763947b7c0c729680a14b4269ce87ea48aea975", "t": "writeContents(_:to:for:originalContentsURL:)", "n": 809, "laws": 0, "ts": "2026-07-31 06:02 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/controlcharacteraction/zeroadvancement", "sha": "8a937c34e84403766b2e63fb555ad6a70a3045990cc8cd624518d09908ff063e", "t": "zeroAdvancement", "n": 130, "laws": 0, "ts": "2026-07-31 06:17 UTC"}
+{"id": "/documentation/uikit/nscontrolcharacterwhitespaceaction", "sha": "a68368b0ea2b286a89d366890e4653865db9d05b59d7ad0b7cb7f849b72083e0", "t": "NSControlCharacterWhitespaceAction", "n": 223, "laws": 0, "ts": "2026-07-31 06:17 UTC"}
+{"id": "/documentation/uikit/nstextlinefragment/init(coder:)", "sha": "799296db12d5daf012f2822c0ec3e29b9aad0223e42f09f8071a7715559b5854", "t": "init(coder:)", "n": 60, "laws": 0, "ts": "2026-07-31 06:19 UTC"}
+{"id": "/documentation/uikit/uibezierpath/init()", "sha": "170d1cdef7d4f91642d5619806e11257a5988481067d31a3b67a7a85a92ce379", "t": "init()", "n": 83, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

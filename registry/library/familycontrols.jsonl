@@ -10,3 +10,10 @@
 {"id": "/documentation/familycontrols", "law": "Authorizing parental controls for a child requires approval from a parent or guardian in the same Family Sharing group."}
 {"id": "/documentation/familycontrols", "law": "Authorizing parental controls for an individual requires approval from the owner of the device."}
 {"id": "/documentation/familycontrols", "law": "In addition, while a device has at least one app authorized for parental controls by a parent or guardian, the user can’t sign out of iCloud."}
+{"id": "/documentation/familycontrols/authorizationcenter", "law": "You must add the Family Controls capability to your app before you call the or methods."}
+{"id": "/documentation/familycontrols/authorizationcenter", "law": "After your app has been authorized, additional calls to don’t display the authentication sheet or ask to authorize that individual using Face ID or Touch ID."}
+{"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "Before you distribute an app that uses Family Controls, your Apple Developer Account Holder must request permission to use the entitlement, and update your Xcode project to use the entitlement."}
+{"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "You can also use the tab in to request permission to use the Family Controls entitlement for distribution."}
+{"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "When you receive the Family Controls entitlement, update your Xcode project to use it."}
+{"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "If your Xcode project already includes the Family Controls capability for development and you use automatic signing, Xcode automatically updates your app to use this capability for distribution."}
+{"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "Register your app and its Screen Time API app extensions to use Family Controls."}

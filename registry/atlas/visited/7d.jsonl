@@ -99,3 +99,5 @@
 {"id": "/documentation/scenekit/scnviewoptionpreferreddevice", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNViewOptionPreferredDevice", "n": 0, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
 {"id": "/documentation/scenekit/scnmaterial/clearcoat", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "clearCoat", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
 {"id": "/documentation/scenekit/scnbox/chamferradius", "sha": "c3e85064722a08ecc55e9473d628b999c97a178e6c3fa6739863cd23531747f1", "t": "chamferRadius", "n": 721, "laws": 4, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/design/human-interface-guidelines/loading", "sha": "508f6cb398806e1d7480325d4788f334e8a622a658d127ee8223cd1dbedb7960", "t": "Loading", "n": 2819, "laws": 0, "ts": "2026-07-31 05:53 UTC"}
+{"id": "/documentation/avkit/avplayerview/flashchapternumber(_:chaptertitle:)", "sha": "5eff0c20ff71da9741aef4c50ec32b0465270c3ee85684223a404d01f422af70", "t": "flashChapterNumber(_:chapterTitle:)", "n": 76, "laws": 0, "ts": "2026-07-31 05:56 UTC"}

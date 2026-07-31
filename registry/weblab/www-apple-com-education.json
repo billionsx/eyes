@@ -6,7 +6,8 @@
   "section-pillar",
   "section-education-path",
   "section-real-stories",
-  "section-how-to-buy"
+  "section-how-to-buy",
+  "section-values"
  ],
  "modules": [
   "name:hero",
@@ -18,15 +19,16 @@
   "name:ignites bright ideas",
   "name:education path",
   "name:real stories",
-  "name:how to buy"
+  "name:how to buy",
+  "name:values gallery"
  ],
- "imgs": 29,
+ "imgs": 35,
  "videos": 0,
  "cta": 35,
  "h_levels": {
   "1": 1,
-  "2": 8,
-  "3": 25,
+  "2": 9,
+  "3": 28,
   "4": 1
  },
  "css": [
@@ -34,7 +36,7 @@
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
   "/v/ac/includes/campaigns-seasonal/bts-fy26/a/built/styles/overview.built.css",
-  "/v/education/home/al/built/styles/overview.built.css",
+  "/v/education/home/am/built/styles/overview.built.css",
   "/ac/ac-films/7.5.1/styles/modal.css"
  ],
  "typography_laws": 2

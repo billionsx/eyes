@@ -90,3 +90,9 @@
 {"id": "/documentation/scenekit/scnlight/probetype", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "probeType", "n": 0, "laws": 0, "ts": "2026-07-30 18:56 UTC"}
 {"id": "/documentation/scenekit/scnparticlesystem/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
 {"id": "/documentation/uikit/uiimageview/animationrepeatcount", "sha": "ffc5e3d2b4e9540aeab845f64bea75a3e53bfd03a26cdf1cd5aa7efb66eb846b", "t": "animationRepeatCount", "n": 145, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/design/human-interface-guidelines/images", "sha": "61a9c7e54e43122d01c65b7ae077b377e0332389197db9bf990196925618d852", "t": "Images", "n": 11331, "laws": 10, "ts": "2026-07-31 05:51 UTC"}
+{"id": "/documentation/uikit/uidocumentbrowsererror", "sha": "6416bf558b08abe1353c6cc3e478c9effb4d3c06dd9228839ff558a844aad7e9", "t": "UIDocumentBrowserError", "n": 183, "laws": 0, "ts": "2026-07-31 06:02 UTC"}
+{"id": "/documentation/uikit/uidocumentinteractioncontroller/icons", "sha": "a8289695e6639b7eeedd83f8fe5356a497abf9a49ba18ae2fc71bf9a05609af3", "t": "icons", "n": 609, "laws": 0, "ts": "2026-07-31 06:02 UTC"}
+{"id": "/documentation/uikit/uidocumentpickerviewcontroller/init(foropeningcontenttypes:ascopy:)", "sha": "9a74ba31f51079f42a35bd0b6a25cf6ca80f87c66e829ca8b556ec0053bf31dc", "t": "init(forOpeningContentTypes:asCopy:)", "n": 95, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/uinavigationbar/backitem", "sha": "80800e0a55841295a87438dcdcf91d50fe25328c9af43d6a1e20a75d0a50cd96", "t": "backItem", "n": 343, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
+{"id": "/documentation/uikit/nstextlayoutmanager/delegate", "sha": "5bd9fcd5897e8bb7d4873d7f879ab927f2e547a0162c5b8efa9c7a94e8d80fe5", "t": "delegate", "n": 48, "laws": 0, "ts": "2026-07-31 06:18 UTC"}

@@ -88,3 +88,5 @@
 {"id": "/documentation/watchkit/wkapplicationdelegate/handle(_:completionhandler:)", "sha": "2ddfb3d3eb9f9c574c0a99127dbe6d4fe355fa3074213ba47438f3a9de518c83", "t": "handle(_:completionHandler:)", "n": 215, "laws": 0, "ts": "2026-07-30 18:43 UTC"}
 {"id": "/documentation/scenekit/scnnode/removefromparentnode()", "sha": "fa8f1dab4c42944b152ec005975e9b1986c9967c98f73a1af464cf9709551332", "t": "removeFromParentNode()", "n": 464, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
 {"id": "/documentation/uikit/nsdiffabledatasourcesnapshot-swift.struct/deleteitems(_:)", "sha": "c9982b33c7b69fba44ccfe4cad1d42887583f7d3bb1b1cb33e079e53ceb03c04", "t": "deleteItems(_:)", "n": 67, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/documentation/uikit/enabling-document-sharing", "sha": "c88fe6da2c8515a2c964b881bb50acfb5078b3059048f2093ad96fb71fc11e85", "t": "Enabling document sharing", "n": 769, "laws": 0, "ts": "2026-07-31 06:00 UTC"}
+{"id": "/documentation/uikit/uibezierpath/init(roundedrect:cornerradius:)", "sha": "0612c1c9f096bdf61ca4ccdefb40d7a6e4be173d40281086604273db03e22ad8", "t": "init(roundedRect:cornerRadius:)", "n": 332, "laws": 0, "ts": "2026-07-31 06:21 UTC"}

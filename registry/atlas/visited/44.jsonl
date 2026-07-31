@@ -92,3 +92,6 @@
 {"id": "/documentation/scenekit/scngeometry/materials", "sha": "7acc0dbb9a1f2397ca63ca780b0c3ced48a4e7eaa704c8c4f4a9b5189b79be98", "t": "materials", "n": 907, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
 {"id": "/documentation/scenekit/scnnode/addaudioplayer(_:)", "sha": "5507360501d0187006f4880ebf844bcbc39d3e1a803591cf9dc4b1aee5d16e60", "t": "addAudioPlayer(_:)", "n": 301, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
 {"id": "/documentation/uikit/handling-tap-gestures", "sha": "57e82b542b968e6a162380d43ad8f65c76c7fdc0cdbea423e3447cd0b725819d", "t": "Handling tap gestures", "n": 1687, "laws": 4, "ts": "2026-07-30 19:11 UTC"}
+{"id": "/documentation/mediaplayer/mpnowplayinginfopropertyislivestream", "sha": "39dcda7a935f0a7f18b35ae5173e031f84aaae2d72e0f21b039516be41cb6550", "t": "MPNowPlayingInfoPropertyIsLiveStream", "n": 179, "laws": 0, "ts": "2026-07-31 05:58 UTC"}
+{"id": "/documentation/uikit/displaying-transient-content-in-a-popover", "sha": "05067f4e1b65ca7fe40236b9281b9f9f433c797bef781522069fb31c3140cb77", "t": "Displaying transient content in a popover", "n": 1249, "laws": 0, "ts": "2026-07-31 06:04 UTC"}
+{"id": "/documentation/uikit/uiimage/init(ciimage:scale:orientation:)-wlzf", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(CIImage:scale:orientation:)", "n": 0, "laws": 0, "ts": "2026-07-31 06:06 UTC"}

@@ -88,3 +88,6 @@
 {"id": "/documentation/scenekit/scnnode/renderingorder", "sha": "6517766f953d4ea6f2d4cc0f3d48178443b4e0d2ea2b7a1c64568c83c506d25b", "t": "renderingOrder", "n": 160, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
 {"id": "/documentation/scenekit/scnparticleeventblock", "sha": "b7f2edef86fa20e5c20cbbb9a155fae22731f648989bfdbdf117c74ed69e7de2", "t": "SCNParticleEventBlock", "n": 655, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
 {"id": "/documentation/uikit/uitableviewdatasource/tableview(_:commit:forrowat:)", "sha": "5b396e160c8f2aedfb2f0048b56d8d78ade8792ba880695e8c48c2ad25bb5b3b", "t": "tableView(_:commit:forRowAt:)", "n": 800, "laws": 1, "ts": "2026-07-30 19:10 UTC"}
+{"id": "/documentation/watchOS-Apps/setting-the-app-s-accent-color", "sha": "791ac8db55ac85b6066748fda14a638370826fd67e4669a36f82dd2011daa9dd", "t": "Setting the app’s accent color", "n": 1729, "laws": 0, "ts": "2026-07-31 05:54 UTC"}
+{"id": "/documentation/uikit/uipresentationcontroller/presentedview", "sha": "87d26ca1763ea3b5f691ba4b92df43b47478ee4d24871d8593a925e179f808e7", "t": "presentedView", "n": 1017, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
+{"id": "/documentation/uikit/uibezierpath/currentpoint", "sha": "58da2ff436ed3b3150ca318fdf4b62b4dea82b3b162e72f2c93677c30ee22201", "t": "currentPoint", "n": 210, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

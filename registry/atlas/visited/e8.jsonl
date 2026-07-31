@@ -84,3 +84,5 @@
 {"id": "/documentation/scenekit/scncamera/vignettingpower", "sha": "5d93d6fb476bb43571643812109b0de2fed1709aaaf24d7017c95376128cd107", "t": "vignettingPower", "n": 709, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
 {"id": "/documentation/scenekit/scnnode/transform", "sha": "6658571bf3b34851aa637ecc98fde5060d2607e2176ce9cf80b8ca7988f0d65a", "t": "transform", "n": 838, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
 {"id": "/documentation/uikit/uimenuelement/attributes/destructive", "sha": "ef03793fad35d8ae758376b23e567cd457ba9b029b26b3c40c3cdcf47e601b74", "t": "destructive", "n": 181, "laws": 1, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/documentation/mediaplayer/mpremotecommandcenter", "sha": "aeafa5a775d81a628faf7393afecffc6d1de2fc6d24529764fccfd8a9d76430a", "t": "MPRemoteCommandCenter", "n": 1070, "laws": 0, "ts": "2026-07-31 05:59 UTC"}
+{"id": "/documentation/uikit/nstextlayoutmanager/textcontentmanager", "sha": "508f3012b905f3f818a52968edda475de2b6d865435dfb16a4bb4992fc85e9b2", "t": "textContentManager", "n": 74, "laws": 0, "ts": "2026-07-31 06:19 UTC"}

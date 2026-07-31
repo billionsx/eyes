@@ -106,8 +106,8 @@
  },
  "www-apple-com-iphone": {
   "url": "https://www.apple.com/iphone/",
-  "sections": 12,
-  "cta": 138
+  "sections": 11,
+  "cta": 137
  },
  "www-apple-com-iphone-17-pro": {
   "url": "https://www.apple.com/iphone-17-pro/",
@@ -346,12 +346,12 @@
  },
  "www-apple-com-education": {
   "url": "https://www.apple.com/education/",
-  "sections": 6,
+  "sections": 7,
   "cta": 35
  },
  "www-apple-com-education-k12": {
   "url": "https://www.apple.com/education/k12/",
-  "sections": 10,
+  "sections": 7,
   "cta": 35
  },
  "www-apple-com-us-edu-store": {

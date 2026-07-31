@@ -103,3 +103,9 @@
 {"id": "/documentation/scenekit/scnparticlesystem/imagesequenceframeratevariation", "sha": "439def861965da7345acc710e86fda363f3326db5f195979d4985947cc829f96", "t": "imageSequenceFrameRateVariation", "n": 553, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
 {"id": "/documentation/scenekit/scntext/containerframe", "sha": "ec26c590bc358bf481b755dc53f369edea331d6a4c45874d4955046611be0171", "t": "containerFrame", "n": 810, "laws": 2, "ts": "2026-07-30 19:06 UTC"}
 {"id": "/documentation/uikit/uigesturerecognizer/state-swift.property", "sha": "94959cacc5a633745cb32452f6961dec6c32b0846e16047b79ebd663209feea1", "t": "state", "n": 872, "laws": 1, "ts": "2026-07-30 19:11 UTC"}
+{"id": "/design/human-interface-guidelines/augmented-reality", "sha": "175b94a594fa337aacd0bed79bcb6be4e590bf684ab9ff847db36990db2ac1d1", "t": "Augmented reality", "n": 20165, "laws": 10, "ts": "2026-07-31 05:53 UTC"}
+{"id": "/documentation/uikit/uidocumentinteractioncontroller/delegate", "sha": "0d45aaf9f6718ef5fab0c51263b77bfa0a0591bc688045714eaca84d4366238f", "t": "delegate", "n": 279, "laws": 0, "ts": "2026-07-31 06:02 UTC"}
+{"id": "/documentation/uikit/uidocumentpickerviewcontroller/init(url:in:)", "sha": "9a31fde80e0588016fe9ccb39cddca671d2273921e059f0e56636eb890ac6dea", "t": "init(url:in:)", "n": 534, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/uiimage/init(ciimage:)-3kg9b", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(CIImage:)", "n": 0, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uialertcontroller/textfields", "sha": "bba2fa4914205ed6f842245abd6dc5a72e3bc5590130132af985bb53ce43ef01", "t": "textFields", "n": 295, "laws": 1, "ts": "2026-07-31 06:14 UTC"}
+{"id": "/documentation/uikit/uibezierpath/fill()", "sha": "f1488b89dc77fe408e7b86de78495731ee22d502955e80cd7803c0e8d35e12e6", "t": "fill()", "n": 698, "laws": 0, "ts": "2026-07-31 06:20 UTC"}

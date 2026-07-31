@@ -106,3 +106,6 @@
 {"id": "/documentation/swiftui/view/background(in:fillstyle:)", "sha": "1702c964c06c1df27beb3546a48626849bebbce1723d98f2e1df9e269be4a166", "t": "background(in:fillStyle:)", "n": 669, "laws": 3, "ts": "2026-07-30 16:44 UTC"}
 {"id": "/documentation/scenekit/scnscenerenderer/stencilpixelformat", "sha": "c7391bfa7ba9499fb6e783659eddfbaf0118090ceda4dbe3434a9b9d412bdf5f", "t": "stencilPixelFormat", "n": 547, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
 {"id": "/documentation/uikit/uiimageview/addsymboleffect:options:", "sha": "3c5742d6997d9ed834b96857348dedab8637cfecf7cbedddf706e5a0ec4e3941", "t": "addSymbolEffect:options:", "n": 88, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/design/human-interface-guidelines/icons", "sha": "51d1ec63d6216f324d05dcc6a76c68d8d69e5ba78f880db3822cd5b232b17911", "t": "Icons", "n": 9329, "laws": 10, "ts": "2026-07-31 05:51 UTC"}
+{"id": "/documentation/avkit/avexperiencecontroller/availableexperiences", "sha": "337ade1007e2b1c098f2111aeade518442b4a33b0b2d02699ddef42bdeaed1b5", "t": "availableExperiences", "n": 185, "laws": 0, "ts": "2026-07-31 05:55 UTC"}
+{"id": "/documentation/uikit/uicolor/colorwithred:green:blue:alpha:exposure:", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "colorWithRed:green:blue:alpha:exposure:", "n": 0, "laws": 0, "ts": "2026-07-31 06:14 UTC"}

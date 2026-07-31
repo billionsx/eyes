@@ -89,3 +89,10 @@
 {"id": "/documentation/scenekit/scnplane/heightsegmentcount", "sha": "b8f4fd4db77fc2bcc41236ecec5ce7ed62c8905c30ea397c986263130b0bfd4c", "t": "heightSegmentCount", "n": 771, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/scenekit/scnvector3fromfloat3", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNVector3FromFloat3", "n": 0, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/documentation/scenekit/scnvector3zero", "sha": "0e0e4dcf0e010de6a91187166e8462e6dd7ee194aa925d258a5f2fcb96326921", "t": "SCNVector3Zero", "n": 53, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
+{"id": "/documentation/uikit/uiimage/cgimage", "sha": "ca2d8d65083ac8b1cc0fc696b53322443b0c6f074ea807d69d9b788b2dd860d5", "t": "cgImage", "n": 316, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uiimage/draw(in:)", "sha": "fc33730204cc419e5b4db0fb68d007850e11a899e1a76cd1e3e58256bfdf784a", "t": "draw(in:)", "n": 478, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uifontmetrics", "sha": "45b326562ad1225d71216f867fce1b459a0167f3e4581ce23c05117843a8bda2", "t": "UIFontMetrics", "n": 880, "laws": 2, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uicollectionviewlayoutattributes/size", "sha": "12d0afa91d9e01b7575652c38b3ecb78eab6fdc75bb62ae2dff625cb299761f7", "t": "size", "n": 141, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
+{"id": "/documentation/uikit/uinavigationitem/largetitledisplaymode-swift.enum/automatic", "sha": "9e50e98a697b3ee03f0ff6733eecbb149ba33e0c0d82478fb378a686699abe1b", "t": "UINavigationItem.LargeTitleDisplayMode.automatic", "n": 277, "laws": 0, "ts": "2026-07-31 06:13 UTC"}
+{"id": "/documentation/uikit/uisheetpresentationcontroller/detents", "sha": "3826b9eb50f00b426abed801ebb358ea20e20abb0e654139b1d7583cd0200f85", "t": "detents", "n": 243, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/textlayoutorientation/vertical", "sha": "e756593a1583bcc9837b8fbb19df4c8f976af8923cab433b7bb021e0c9e29527", "t": "NSLayoutManager.TextLayoutOrientation.vertical", "n": 77, "laws": 0, "ts": "2026-07-31 06:19 UTC"}

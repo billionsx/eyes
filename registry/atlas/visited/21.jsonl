@@ -89,3 +89,6 @@
 {"id": "/documentation/scenekit/scnviewoptionpreferlowpowerdevice", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNViewOptionPreferLowPowerDevice", "n": 0, "laws": 0, "ts": "2026-07-30 18:52 UTC"}
 {"id": "/documentation/scenekit/scnnode/scale", "sha": "5f24162a1d2498e44dd99e5a2af0e1996f646336fb2e492eb60685642575ff89", "t": "scale", "n": 455, "laws": 0, "ts": "2026-07-30 18:58 UTC"}
 {"id": "/documentation/scenekit/scnvector4/x", "sha": "0e0c229ca0d554c6ba872758625300b0cbb2c4318ae62edae8deefdfe6b1e060", "t": "x", "n": 34, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
+{"id": "/documentation/mediaplayer/using-filters-to-create-specialized-queries", "sha": "14d6e24472eb6c30e7369a6f2388734c3a85336a98f7df358953eba6ee53e64f", "t": "Using filters to create specialized queries", "n": 994, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutdecorationitem", "sha": "da3c14f0b3bab467c417647df8dabeab0f954a19c9d04dcaa81544cdb983100e", "t": "NSCollectionLayoutDecorationItem", "n": 457, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
+{"id": "/documentation/uikit/uitextview/text", "sha": "e9ce3d52990da69ed2e3273b65f84bf17f2223bfa37e285419810c637397736a", "t": "text", "n": 323, "laws": 0, "ts": "2026-07-31 06:22 UTC"}

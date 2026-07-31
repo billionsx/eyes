@@ -85,3 +85,4 @@
 {"id": "/documentation/uikit/uikeycommand/modifierflags", "sha": "f6fedb3bba1481a4447b864e62c104741dbf72749314b6af01e6261c7cb96054", "t": "modifierFlags", "n": 78, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/documentation/uikit/uiimageview/animationduration", "sha": "8597a0fd630aa46d67c65af9d52fff762f54f71f6442c6f0e41c8cfc9b5b35d5", "t": "animationDuration", "n": 332, "laws": 1, "ts": "2026-07-30 19:09 UTC"}
 {"id": "/documentation/uikit/uimenuelement/attributes/keepsmenupresented", "sha": "4018a4c189218c7722ba6d5affe3bba7a4067688dce28f84eab78edd28351b7b", "t": "keepsMenuPresented", "n": 322, "laws": 1, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/right-to-left", "sha": "0c823474070b25fc23384962534e1537049b7ee762f05271a104ce552721647b", "t": "Right to left", "n": 9243, "laws": 10, "ts": "2026-07-31 05:52 UTC"}

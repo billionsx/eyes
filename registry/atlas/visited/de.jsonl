@@ -88,3 +88,9 @@
 {"id": "/documentation/scenekit/scntransaction/disableactions", "sha": "e8d219c68c8a6eae30ebb201ca10f33c0ebe28f02afd6b7d0336951b2a4af494", "t": "disableActions", "n": 782, "laws": 2, "ts": "2026-07-30 19:04 UTC"}
 {"id": "/documentation/scenekit/scnplane/cornersegmentcount", "sha": "6ed2e39a9f332ae4c665faeb5c879236dee71a7244193b654b1f488c8e972941", "t": "cornerSegmentCount", "n": 432, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/uikit/uidragitem/localobject", "sha": "e9e3c941704f498996db81eabc287ce14c8dcb826c8f21de50f720e463ce776c", "t": "localObject", "n": 248, "laws": 0, "ts": "2026-07-30 19:10 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaitemartwork", "sha": "b746005ca5e2c72455a7de45ebdf3fe992df7ccbfbae0e05d4f1f49fa8ae3532", "t": "MPMediaItemArtwork", "n": 258, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/mediaplayer/mpmusicplayercontroller", "sha": "1b6870c4c865c6be7a314821b900db4ccaebd8f11ef301219474d57846bcf926", "t": "MPMusicPlayerController", "n": 3547, "laws": 1, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/mediaplayer/mpvolumeview", "sha": "591baa0af29b90a77f3ad0439255863d5980a0fe0d7ade7bd853846df996a416", "t": "MPVolumeView", "n": 3292, "laws": 5, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaitempropertytitle", "sha": "8bf68c2cf9bf1fb839c425aeaf808d8a95fd305a1e9600442431d9c0b225e48a", "t": "MPMediaItemPropertyTitle", "n": 180, "laws": 0, "ts": "2026-07-31 05:58 UTC"}
+{"id": "/documentation/uikit/uidocument/changecounttoken(for:)", "sha": "59f1e7cc45783597502b45a7ef30c7316f47f87d922112f1e1285425115d961a", "t": "changeCountToken(for:)", "n": 1306, "laws": 1, "ts": "2026-07-31 06:01 UTC"}
+{"id": "/documentation/uikit/uiwindow/canresizetofitcontent", "sha": "1f78af934b052d69dee9f43c491f40c7b5d5479279a09c85004a34eeb483669e", "t": "canResizeToFitContent", "n": 421, "laws": 0, "ts": "2026-07-31 06:04 UTC"}

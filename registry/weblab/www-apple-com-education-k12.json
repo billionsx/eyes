@@ -1,50 +1,42 @@
 {
  "url": "https://www.apple.com/education/k12/",
  "sections": [
-  "section-how-to-buy-module",
-  "section-hero",
-  "section-tools",
-  "section-values",
-  "section-investment",
-  "section-built-in-apps",
-  "section-apps",
-  "section-classrooms",
-  "section-how-to-buy-module",
-  "section-sign-up"
+  "section-welcome",
+  "section-highlights",
+  "section-engage",
+  "section-expression",
+  "section-trust",
+  "section-learning",
+  "section-how-to-buy"
  ],
  "modules": [
   "name:hero",
-  "name:essential tools intro",
-  "name:ipad essential tools",
-  "name:macbook neo spotlight",
-  "name:macbook air tools",
-  "name:responsibly designed",
-  "name:smart investment",
-  "name:built-in apps intro",
-  "name:everyday tasks",
-  "name:projects",
-  "name:personalize learning",
-  "name:apps",
-  "name:classrooms",
-  "name:how to buy",
-  "name:get updates"
+  "name:highlights",
+  "name:designed to engage intro",
+  "name:designed to engage gallery",
+  "name:designed for expression intro",
+  "name:designed for expression gallery",
+  "name:app development banner",
+  "name:designed to last intro",
+  "name:designed to last content",
+  "name:designed to ignite intro",
+  "name:designed to ignite gallery",
+  "name:how to buy"
  ],
- "imgs": 68,
- "videos": 0,
+ "imgs": 88,
+ "videos": 2,
  "cta": 35,
  "h_levels": {
-  "2": 14,
-  "3": 26,
   "1": 1,
+  "2": 13,
+  "3": 50,
   "4": 1
  },
  "css": [
   "/api-www/global-elements/global-header/v1/assets/globalheader.css",
   "/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
   "/ac/localnav/9/styles/ac-localnav.built.css",
-  "/v/education/k12/home/ai/built/styles/main.built.css",
-  "/v/education/k12/home/ai/built/styles/overview.built.css",
-  "/v/markets-shared-form/b/built/styles/main.built.css"
+  "/v/education/k12/overview/a/built/styles/overview.built.css"
  ],
  "typography_laws": 2
 }

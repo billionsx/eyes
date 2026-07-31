@@ -9,7 +9,6 @@
   "section-incentive-alt",
   "section-upgrade",
   "section-consider",
-  "section-privacy",
   "section-essentials",
   "section-image-accordion",
   "section-index"
@@ -23,17 +22,16 @@
   "name:why apple",
   "name:upgrade",
   "name:get to know iphone",
-  "name:privacy",
   "name:iphone essentials",
   "name:iphone compatibility",
   "name:router"
  ],
- "imgs": 217,
+ "imgs": 215,
  "videos": 0,
- "cta": 138,
+ "cta": 137,
  "h_levels": {
   "1": 1,
-  "2": 41,
+  "2": 39,
   "3": 77,
   "4": 56
  },

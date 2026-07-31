@@ -115,3 +115,6 @@
 {"id": "/documentation/scenekit/scnfloor/reflectioncategorybitmask", "sha": "54dde971840eb7798011aa5d3782323137bab1030a2bfdecfd36f1c5e0a57513", "t": "reflectionCategoryBitMask", "n": 84, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/uikit/uikeymodifierflags", "sha": "a0557afd47465ee5123b49fcadce7051b104ffb80e032936adb43735f5c1a23d", "t": "UIKeyModifierFlags", "n": 167, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/documentation/uikit/nsdiffabledatasourcesnapshot-swift.struct/indexofitem(_:)", "sha": "b4f23ecc4877dad618e60c209962408bb514eab8d1a2695bccaa6ee2fa51e6f5", "t": "indexOfItem(_:)", "n": 236, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutsection", "sha": "af8cd46358cebe08ac2512b831c274aae61fa5860db419917486ff203b00e160", "t": "NSCollectionLayoutSection", "n": 1270, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
+{"id": "/documentation/uikit/nstextlayoutfragment/init(textelement:range:)", "sha": "1d788aacc45595faddeee42c7100ce22f0ceebaee9382f9ba7a713a3a5671288", "t": "init(textElement:range:)", "n": 71, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
+{"id": "/documentation/uikit/uiresponder/keyboarddidshownotification", "sha": "0900815b3cc1659af9a67ae0ff241668f85ce71ee736cc1a3cd36ae074d904b4", "t": "keyboardDidShowNotification", "n": 1111, "laws": 0, "ts": "2026-07-31 06:21 UTC"}

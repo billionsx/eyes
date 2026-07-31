@@ -84,3 +84,9 @@
 {"id": "/documentation/scenekit/scnparticlesystem/init(named:indirectory:)", "sha": "df83a239608ca86632d3c3c3d67de155418077e91c510709e9be8654eadcbdb8", "t": "init(named:inDirectory:)", "n": 305, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
 {"id": "/documentation/scenekit/scncone/height", "sha": "119cf057b4d2c7d124b52d23a9b6a97ee69223b53bfb2d72036d23ce00dba964", "t": "height", "n": 381, "laws": 0, "ts": "2026-07-30 19:05 UTC"}
 {"id": "/documentation/scenekit/scnvector3/init(x:y:z:)-mn27", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(x:y:z:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
+{"id": "/documentation/familycontrols/authorizationcenter", "sha": "d1b907cb63753e70652100e26a0d2aa03227abe9822291372b7e1eaaaf2fd871", "t": "AuthorizationCenter", "n": 1830, "laws": 2, "ts": "2026-07-31 05:54 UTC"}
+{"id": "/documentation/mediaplayer/mpnowplayingsession/addplayer(_:)", "sha": "ab3d5eb2fbdb31413f40251e4793fb4c13a78a2e55c80482f299c339a0ac967f", "t": "addPlayer(_:)", "n": 29, "laws": 0, "ts": "2026-07-31 05:59 UTC"}
+{"id": "/documentation/uikit/uigraphicssetpdfcontexturlforrect(_:_:)", "sha": "dee9764ff1543717e0d21da144eb69f671695b89ad19c550fde8333e53d69bd9", "t": "UIGraphicsSetPDFContextURLForRect(_:_:)", "n": 347, "laws": 0, "ts": "2026-07-31 06:04 UTC"}
+{"id": "/documentation/uikit/uiimage/ciimage", "sha": "eae8894ce924fcb6d4f88c9cecb295f95b0be8b2ca060a3abd23c571dfc957a8", "t": "ciImage", "n": 116, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uiimage/imagewithcgimage:scale:orientation:", "sha": "f06c3c482f50b01e1c81c3f6179dc9596a105d25fceae10748d7059f13a3ade9", "t": "imageWithCGImage:scale:orientation:", "n": 386, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uinavigationitem/itemstyle", "sha": "482814c83c2095acef31924b3ff3d195e9b5ecc48bef1dbeb98a727aa293cce1", "t": "UINavigationItem.ItemStyle", "n": 718, "laws": 0, "ts": "2026-07-31 06:12 UTC"}

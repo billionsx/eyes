@@ -109,3 +109,7 @@
 {"id": "/documentation/scenekit/scnparticlesystem/collidernodes", "sha": "7959645a48c246c9f95b1148fb437b169e83be33d696d77a352475c9cd4f3d06", "t": "colliderNodes", "n": 687, "laws": 0, "ts": "2026-07-30 19:00 UTC"}
 {"id": "/documentation/scenekit/scnscenesource/scenesourcewithurl:options:", "sha": "35f36b36aca746dc1c35fa1764edae35c2a0863fc0aedc76a246f03b46aceb07", "t": "sceneSourceWithURL:options:", "n": 339, "laws": 0, "ts": "2026-07-30 19:03 UTC"}
 {"id": "/documentation/scenekit/scntransaction/setvalue(_:forkey:)", "sha": "2ab8be90f0d5f2e0a62ac3ac314fa853c2616c8bbc7e29264188453f841fce5a", "t": "setValue(_:forKey:)", "n": 351, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
+{"id": "/documentation/mediaplayer/mp_unavailable_begin", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_UNAVAILABLE_BEGIN", "n": 0, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/MediaPlayer/MPChangeRepeatModeCommand", "sha": "b5e7b23e9bdb34de74a90d435d7203edd40f0f8f66b0f85502e8260cb4ea5e2d", "t": "MPChangeRepeatModeCommand", "n": 150, "laws": 0, "ts": "2026-07-31 05:59 UTC"}
+{"id": "/documentation/uikit/disabling-the-pull-down-gesture-for-a-sheet", "sha": "de7cad69bff4a39baa379ca1ee2b26601f5ded35f3ed54725e637c625ff13698", "t": "Disabling the pull-down gesture for a sheet", "n": 1074, "laws": 2, "ts": "2026-07-31 06:03 UTC"}
+{"id": "/documentation/uikit/uibezierpath/stroke()", "sha": "4d978b14b5d89dfac1eff378e83181cf4bafec1bf251920df8350555ab6dfa8f", "t": "stroke()", "n": 409, "laws": 0, "ts": "2026-07-31 06:21 UTC"}

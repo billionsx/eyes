@@ -4,22 +4,23 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 2557 |
+| uikit | 2891 |
 | appkit | 2365 |
 | appintents | 1688 |
 | swiftui | 1664 |
 | accelerate | 1327 |
 | xcode | 941 |
 | foundation | 850 |
+| human-interface-guidelines | 803 |
 | metal | 713 |
 | avfoundation | 685 |
 | visionos | 647 |
-| technotes | 611 |
+| technotes | 615 |
 | swift | 610 |
 | arkit | 473 |
 | realitykit | 416 |
+| big7 | 372 |
 | technologyoverviews | 368 |
-| big7 | 324 |
 | updates | 314 |
 | bundleresources | 290 |
 | web-landings | 264 |
@@ -34,13 +35,12 @@
 | gamekit | 201 |
 | vision | 195 |
 | groupactivities | 191 |
-| human-interface-guidelines | 164 |
 | avfaudio | 162 |
 | storekit | 161 |
 | watchkit | 159 |
+| avkit | 151 |
 | mapkit | 151 |
 | coredata | 145 |
-| avkit | 141 |
 | authenticationservices | 138 |
 | healthkit | 134 |
 | intents | 133 |
@@ -73,6 +73,7 @@
 | network | 63 |
 | homekit | 60 |
 | localauthentication | 60 |
+| mediaplayer | 60 |
 | gamecontroller | 57 |
 | coremotion | 56 |
 | createml | 56 |
@@ -93,7 +94,6 @@
 | metalperformanceshaders | 43 |
 | backgroundtasks | 41 |
 | compositorservices | 40 |
-| mediaplayer | 39 |
 | nearbyinteraction | 39 |
 | usd | 39 |
 | videotoolbox | 39 |
@@ -137,6 +137,7 @@
 | metalkit | 21 |
 | musickit | 21 |
 | tvmljs | 21 |
+| familycontrols | 19 |
 | photosui | 19 |
 | visionkit | 18 |
 | mapkitjs | 17 |
@@ -152,7 +153,6 @@
 | systemextensions | 14 |
 | combine | 13 |
 | simd | 13 |
-| familycontrols | 12 |
 | metalperformanceshadersgraph | 12 |
 | sensitivecontentanalysis | 12 |
 | spatialpreview | 12 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 27009 · фреймворков: 339
+Итого законов: 28072 · фреймворков: 339

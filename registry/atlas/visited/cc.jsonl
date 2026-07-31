@@ -89,3 +89,7 @@
 {"id": "/documentation/scenekit/scnmorphercalculationmode", "sha": "4ecb469419d1826234b8343e60064a26116849a750aeb91074dcb0070c1e8471", "t": "SCNMorpherCalculationMode", "n": 845, "laws": 0, "ts": "2026-07-30 18:57 UTC"}
 {"id": "/documentation/uikit/uidragdropsession", "sha": "f35b3b92eca7b9895d90640c970cac7af767542963fd5b239d538fab7e1d4e61", "t": "UIDragDropSession", "n": 349, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
 {"id": "/documentation/uikit/uimenuleaf/state", "sha": "d4f21e32fd51a6b6ef5299a2b50fb4add23140b20bba833632d3b356c2001262", "t": "state", "n": 35, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/design/human-interface-guidelines/id-verifier", "sha": "12de819d4e61323e06cfa3c302f435500a071614b02d0da8f3ad35407aa90b50", "t": "ID Verifier", "n": 3300, "laws": 3, "ts": "2026-07-31 05:53 UTC"}
+{"id": "/documentation/familycontrols/displayingactivitylabels", "sha": "6a6714809a63ceb2d7e11a0bfd5e07597932754c3b1605adebfe19ab327c3f69", "t": "Displaying Activity Labels", "n": 496, "laws": 0, "ts": "2026-07-31 05:54 UTC"}
+{"id": "/documentation/uikit/uinavigationcontroller/barhideontapgesturerecognizer", "sha": "5c3b12988df687ca47106ff196a74aced35df8784554581ecce801aef6a48b1c", "t": "barHideOnTapGestureRecognizer", "n": 642, "laws": 3, "ts": "2026-07-31 06:11 UTC"}
+{"id": "/documentation/uikit/uicolor/setstroke()", "sha": "78a942086f5654b683f6c13e2d234fddfdb6bfa82d755d34a1fe8a1b358d02e3", "t": "setStroke()", "n": 316, "laws": 1, "ts": "2026-07-31 06:14 UTC"}

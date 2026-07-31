@@ -79,3 +79,7 @@
 {"id": "/documentation/scenekit/scncamera/whitebalancetint", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "whiteBalanceTint", "n": 0, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
 {"id": "/documentation/scenekit/scnscenerenderer/loops", "sha": "0a9a0315622ecf0b0985e73af3f54964d18bf2a4da2c87778e90dfbc8373476f", "t": "loops", "n": 397, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
 {"id": "/documentation/uikit/uiimage/imagewithdata:", "sha": "16ccec519dfd66af85c1a068c3a88caf245eee837a245c4562bb791c0e2c444a", "t": "imageWithData:", "n": 262, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/documentation/mediaplayer/mp_unavailable_end", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_UNAVAILABLE_END", "n": 0, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/uiimage/draw(in:blendmode:alpha:)", "sha": "7fc507074aa5845f91b4c6d5c3f8ec05b7b5327abf43f6818715da75219c5a05", "t": "draw(in:blendMode:alpha:)", "n": 495, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uinavigationitem/subtitle", "sha": "317ef0c2b1fca355b839691459e3b8d3d3fc2c37b0a7897cc04ed3ef24c88700", "t": "subtitle", "n": 176, "laws": 0, "ts": "2026-07-31 06:13 UTC"}
+{"id": "/documentation/uikit/uitextview/isselectable", "sha": "85287ecfa4ca69e447dd39ab52e33b40378d60ab77172e5a7e0c11050f17620b", "t": "isSelectable", "n": 214, "laws": 0, "ts": "2026-07-31 06:21 UTC"}

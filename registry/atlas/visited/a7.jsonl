@@ -95,3 +95,8 @@
 {"id": "/documentation/watchkit/wkwaterresistancerating", "sha": "b34d9a8a2e086db3528ba6f63b9b033c7f0cc7520e79ed123817bc63a200d273", "t": "WKWaterResistanceRating", "n": 191, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
 {"id": "/documentation/scenekit/scnscene/lightingenvironment", "sha": "d67c9d939fd79b947ce7095c4c4e20ee2f034b66237f4e5a21fb931539535cde", "t": "lightingEnvironment", "n": 584, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
 {"id": "/documentation/scenekit/scndebugoptions", "sha": "0a3d675068ebcd13fc1857d4a13cdd8091bc6b632b55215fb026b38561acdf64", "t": "SCNDebugOptions", "n": 604, "laws": 0, "ts": "2026-07-30 18:50 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaplaylistcreationmetadata", "sha": "a71b4c354774fb2e5396f6beb3d1bf564454976b39d1ef96d37a9f75f2b2b374", "t": "MPMediaPlaylistCreationMetadata", "n": 384, "laws": 0, "ts": "2026-07-31 05:57 UTC"}
+{"id": "/documentation/uikit/uiimage/actions", "sha": "4f7cc6ea0f0b35e763980c5fb1c6e05600c3587987ff156f262456018db6b7eb", "t": "actions", "n": 57, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
+{"id": "/documentation/uikit/uifontmetrics/scaledfont(for:)", "sha": "92949dea1f7e93d24026f351394c5c9586fa0b82a6e81ed9621097811510d441", "t": "scaledFont(for:)", "n": 227, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutboundarysupplementaryitem", "sha": "65ca0c859336f0295cdd6e52de5c963a279c7450e1cd2a514bc542936724fd65", "t": "NSCollectionLayoutBoundarySupplementaryItem", "n": 798, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
+{"id": "/documentation/uikit/nstextviewportlayoutcontrollerdelegate", "sha": "8b4deec4c7dea3d8b1034665cccf622707ec0ca09b4352dcd7de830de98d8d43", "t": "NSTextViewportLayoutControllerDelegate", "n": 507, "laws": 0, "ts": "2026-07-31 06:15 UTC"}

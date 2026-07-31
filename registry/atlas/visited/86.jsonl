@@ -119,3 +119,7 @@
 {"id": "/documentation/scenekit/scntext/truncationmode", "sha": "6c25e90d0f5ad0446e1bdc949796b4a450a1d4868f99488ac33c7c0afd4b3fd8", "t": "truncationMode", "n": 631, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
 {"id": "/documentation/scenekit/scnvector3/x", "sha": "0e0c229ca0d554c6ba872758625300b0cbb2c4318ae62edae8deefdfe6b1e060", "t": "x", "n": 34, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
 {"id": "/documentation/uikit/nslayoutconstraint", "sha": "9ee77110a39b9fe29f16d6eaed9029907606730679b546ae6032ffc93b5fff68", "t": "NSLayoutConstraint", "n": 3410, "laws": 3, "ts": "2026-07-30 19:08 UTC"}
+{"id": "/design/human-interface-guidelines/action-button", "sha": "100533594ed077b5a7047fb811bcc1b82f9638971faf542340e212482dec0f7d", "t": "Action button", "n": 4206, "laws": 7, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/uikit/uiactionsheetdelegate", "sha": "59532c801cd20477b9b58989073e7f2e31fa879748eef356fb615869199d7329", "t": "UIActionSheetDelegate", "n": 1358, "laws": 2, "ts": "2026-07-31 06:02 UTC"}
+{"id": "/documentation/uikit/uifont/monospacedsystemfont(ofsize:weight:)", "sha": "8682093f9521ecc87e02b22c131f928fce50f2ec6872e8f2afbe82d75fbe1620", "t": "monospacedSystemFont(ofSize:weight:)", "n": 359, "laws": 1, "ts": "2026-07-31 06:07 UTC"}
+{"id": "/documentation/uikit/uisheetpresentationcontroller/sourceview", "sha": "4fbdfe37167a16d7a51b89c26893b473577a62b3c4a06639c6709b770561de80", "t": "sourceView", "n": 487, "laws": 0, "ts": "2026-07-31 06:15 UTC"}

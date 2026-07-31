@@ -99,3 +99,6 @@
 {"id": "/documentation/uikit/uiimageview/init(image:)", "sha": "c989e3590d2aec71d3ee07198a8e2ad1d2103f1992ae2aa8e1671ab472a3841c", "t": "init(image:)", "n": 521, "laws": 0, "ts": "2026-07-30 19:10 UTC"}
 {"id": "/documentation/uikit/uiimageview/removesymboleffectoftype:", "sha": "809cac716ddbe0ae9a492f5ed04db03752b40dc7ba587163adcaf7f9b84bf202", "t": "removeSymbolEffectOfType:", "n": 65, "laws": 0, "ts": "2026-07-30 19:10 UTC"}
 {"id": "/documentation/uikit/uiimageview/setsymbolimage:withcontenttransition:", "sha": "a5446321276dc3fb564004fcc0ba472387db4c98195b1f043ae5779a30b02828", "t": "setSymbolImage:withContentTransition:", "n": 66, "laws": 0, "ts": "2026-07-30 19:10 UTC"}
+{"id": "/documentation/uikit/uidocument/hasunsavedchanges", "sha": "0455231a5db956644af03530a8c2dacb1cafd7d4306ce4c6bc783214a6555596", "t": "hasUnsavedChanges", "n": 487, "laws": 1, "ts": "2026-07-31 06:01 UTC"}
+{"id": "/documentation/uikit/uicollectionviewflowlayout/sectionheaderspintovisiblebounds", "sha": "2d9335614738e4fbb13db067e9977905550053c6be39fbcc3612ca1ba0b736b3", "t": "sectionHeadersPinToVisibleBounds", "n": 454, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
+{"id": "/documentation/uikit/nstextlayoutfragment/textlayoutmanager", "sha": "c54281efcb53adaa74a638c4d269d3980ced10650c234718269671f94658c770", "t": "textLayoutManager", "n": 49, "laws": 0, "ts": "2026-07-31 06:18 UTC"}

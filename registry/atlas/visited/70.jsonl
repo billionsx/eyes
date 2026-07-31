@@ -89,3 +89,6 @@
 {"id": "/documentation/scenekit/scnvector3toglkvector3(_:)", "sha": "8d38d4ace7d40a1dea22d263df85d0a29bad59756af789e9c598b67369538461", "t": "SCNVector3ToGLKVector3(_:)", "n": 200, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/documentation/uikit/uidropoperation", "sha": "d7f85780645cf3b9951162fe25285f0d51cb4ff35ccf8e7c8da8efda8b603339", "t": "UIDropOperation", "n": 253, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
 {"id": "/documentation/uikit/uimenuelement/attributes/hidden", "sha": "3f64904f6d34a02e91d6640d4d26679badac761838623e508094d449ca68b2de", "t": "hidden", "n": 270, "laws": 1, "ts": "2026-07-30 19:12 UTC"}
+{"id": "/documentation/mediaplayer/mpmediaitempropertygenre", "sha": "0a64823fec7c4be23139628ce747606e912f48435abaacbddb9876cae11bc721", "t": "MPMediaItemPropertyGenre", "n": 147, "laws": 0, "ts": "2026-07-31 05:58 UTC"}
+{"id": "/documentation/uikit/uinavigationbar/scrolledgeappearance", "sha": "5a1c330f8983c8dd79829ba9f17c46c86b4fcaa5b43b394c13ab91bab0ca46e0", "t": "scrollEdgeAppearance", "n": 828, "laws": 1, "ts": "2026-07-31 06:11 UTC"}
+{"id": "/documentation/uikit/uinavigationitem/title", "sha": "457bde13cbff30b7e0b6c85c492c740b2a61e38709552ffcb69691fe5c2f6157", "t": "title", "n": 617, "laws": 0, "ts": "2026-07-31 06:13 UTC"}

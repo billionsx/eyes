@@ -105,3 +105,6 @@
 {"id": "/documentation/scenekit/scnnode/simdlocalfront", "sha": "05db701889ee0796c48ca52a8b0a742b63816ab73bef692a76d4fe350e79d820", "t": "simdLocalFront", "n": 385, "laws": 1, "ts": "2026-07-30 18:59 UTC"}
 {"id": "/documentation/scenekit/scnview/play(_:)", "sha": "4ed92509731abbbd6dcc34f675133bf6651b13a4fb70948e392eb40cdda5dfba", "t": "play(_:)", "n": 105, "laws": 0, "ts": "2026-07-30 19:04 UTC"}
 {"id": "/documentation/uikit/uiimage/resizingmode-swift.enum/tile", "sha": "437bcb4ed8e256e271e36d9d377aded2b10ab1d1e4bc48a29a98d87a752e13aa", "t": "UIImage.ResizingMode.tile", "n": 172, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
+{"id": "/design/human-interface-guidelines/eyes", "sha": "b3371d2c703ab7624465d0db4df60901b365368891a6ecfb59bc95feb180a6ca", "t": "Eyes", "n": 8997, "laws": 6, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/familycontrols/familycontrolserror", "sha": "7ba002c9f7337ffcd22e040bcb1e863108b610fe927fa68e6a097f8a50e65b3d", "t": "FamilyControlsError", "n": 481, "laws": 0, "ts": "2026-07-31 05:54 UTC"}
+{"id": "/documentation/uikit/uidocumentpickerviewcontroller/directoryurl", "sha": "cc6aaa9ee513e1929f6220cf294b8ca553a16eaf6e374eddfb81d980c3bfdd05", "t": "directoryURL", "n": 555, "laws": 0, "ts": "2026-07-31 06:01 UTC"}

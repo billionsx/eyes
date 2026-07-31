@@ -90,3 +90,9 @@
 {"id": "/documentation/scenekit/scnnode/simdlocaltranslate(by:)", "sha": "f9945ac8182235557cb76953a43d3915a16076ec5adbb9b2b368424934552b0d", "t": "simdLocalTranslate(by:)", "n": 215, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
 {"id": "/documentation/uikit/uiscreenedgepangesturerecognizer/edges", "sha": "ee740d387c87878c3ca78d8ecd2d9a7993aae5525cdb2be9c264307998b248ae", "t": "edges", "n": 291, "laws": 1, "ts": "2026-07-30 19:11 UTC"}
 {"id": "/documentation/uikit/uitapgesturerecognizer/numberoftouchesrequired", "sha": "212630d879527d776df8a4e8289e0b4c687053dc5f81963e595ddfcd910ccb2b", "t": "numberOfTouchesRequired", "n": 107, "laws": 1, "ts": "2026-07-30 19:11 UTC"}
+{"id": "/design/human-interface-guidelines/dock-menus", "sha": "400c4068c60e014b876c7627733f532ad79a95ac93ee8b375379026578dc8462", "t": "Dock menus", "n": 1534, "laws": 2, "ts": "2026-07-31 05:52 UTC"}
+{"id": "/documentation/avkit/avplayerview/setmagnification(_:centeredat:)", "sha": "eb7c07f88a3f608a5c1edd95bd91d1247e6e7150f8736dd19eb43e217eb9b6bd", "t": "setMagnification(_:centeredAt:)", "n": 252, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/uikit/uirefreshcontrol/tintcolor", "sha": "b0e41d2ca500cd99398acb203d514f20b3dabee9cdb8bc10b380c8331b1b892e", "t": "tintColor", "n": 93, "laws": 0, "ts": "2026-07-31 06:00 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/systemitem/cancel", "sha": "d0fd5d5407ef99ea081b37fe116697afe0e800c2477fdaee488b0817ba93335f", "t": "UIBarButtonItem.SystemItem.cancel", "n": 36, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
+{"id": "/documentation/uikit/uicolor/setfill()", "sha": "370e9d11428ebb72256a665850a63abd4646a1bb74f7ecd19f67f3d9c1cf5e68", "t": "setFill()", "n": 312, "laws": 1, "ts": "2026-07-31 06:14 UTC"}
+{"id": "/documentation/uikit/nslayoutmanager/addtextcontainer(_:)", "sha": "3cc346cf710b0ddd4e6d15073eba688b0c1407955a4bad79731c4791525ba8e2", "t": "addTextContainer(_:)", "n": 212, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
