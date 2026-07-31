@@ -44,6 +44,15 @@ BXE · ИСПОЛНИТЕЛЬНАЯ ВЛАСТЬ. Переносимый лин�
                    канон Apple (HIG Motion/Accessibility): не все могут или
                    хотят переживать движение. Правило проектного уровня.
 
+  AE14 КАСАНИЕ     интерактивный элемент не уже нормы свода 44×44pt по
+                   min-width/height — ПЕРВОЕ правило, рождённое конвейером:
+                   обход живого свода → добытчик кандидатов → правило
+                   (🍎 tokens.tap_target.source, страница живая, не снимок).
+  AE15 КОНТРАСТ    пара color/background одного блока держит ≥4.5:1 по
+                   люминантности WCAG — норма свода dark-mode
+                   (🍎 tokens.contrast.source). Пары с var() не судятся:
+                   значение не видно статически, молчание честнее догадки.
+
 Отступы правилом НЕ проверяются — ключевой замер: точечной сетки НЕТ,
 шаг CSS = ⅓pt при @3x; «линт сетки отступов» противоречил бы измерениям.
 
@@ -149,6 +158,36 @@ MS = re.compile(r"([\d.]+)\s*(ms|s)\b")
 OPACITY = re.compile(r"(?<![-\w])opacity\s*:\s*(0?\.\d+|[01])(?![\d.])", re.I)
 FFAM = re.compile(r"font-family\s*:\s*([^;}\n]+)", re.I)
 ACTIVE_BLOCK = re.compile(r":active[^{]*\{([^}]*)\}", re.I | re.S)
+BLOCK = re.compile(r"([^{}]+)\{([^{}]*)\}", re.S)
+INTERACTIVE = re.compile(r"(button|\bbtn\b|btn-|-btn\b|tappable|clickable|"
+                         r"switch|toggle|segmented|\btab\b|-tab\b|chip)", re.I)
+EXEMPT_SEL = re.compile(r"(icon|badge|\bdot\b|indicator|divider|separator|"
+                        r"thumb|caret|arrow)", re.I)
+SIZEDECL = re.compile(r"\b(?:min-)?(?:width|height)\s*:\s*([\d.]+)px", re.I)
+FG_DECL = re.compile(r"(?<![-\w])color\s*:\s*(#(?:[0-9a-f]{3}|[0-9a-f]{6}))"
+                     r"(?![0-9a-f])", re.I)
+BG_DECL = re.compile(r"background(?:-color)?\s*:\s*(#(?:[0-9a-f]{3}|[0-9a-f]{6}))"
+                     r"(?![0-9a-f])", re.I)
+
+
+def _lum(hexc: str) -> float:
+    """Относительная люминантность по WCAG — та же формула, что в норме 4.5:1."""
+    h = hexc.lstrip("#")
+    if len(h) == 3:
+        h = "".join(c * 2 for c in h)
+    def lin(c):
+        c /= 255.0
+        return c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+    r, g, b = (lin(int(h[k:k + 2], 16)) for k in (0, 2, 4))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def contrast_ratio(a: str, b: str) -> float:
+    la, lb = _lum(a), _lum(b)
+    hi, lo = (la, lb) if la >= lb else (lb, la)
+    return (hi + 0.05) / (lo + 0.05)
+
+
 
 
 def _line_of(text: str, pos: int) -> int:
@@ -171,6 +210,9 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     rad_ladder = {float(v) for v in tokens["geometry"].get("radius_ladder_pt", [])} | {float(v) for v in adapter.get("radius_extra", [])}
     stack_head = tuple(s.lower() for s in tokens["typography"].get("font_stack_head", []))
     press_max = float(tokens.get("motion", {}).get("press_response_ms_max", 120))
+    tap_min = float(tokens.get("tap_target", {}).get("min_pt", 44)) \
+        * float(adapter.get("pt_to_css_px", 1))
+    cr_min = float(tokens.get("contrast", {}).get("min_ratio", 4.5))
 
     findings, files_n, looked = [], 0, []
     first_long, has_prm = None, False
@@ -294,6 +336,32 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     if dur > press_max:
                         findings.append(("AE12", rel, _line_of(t, m.start()),
                                          f":active отвечает {dur:g}ms — нажатие обязано ответить ≤{press_max:g}ms (мёртвая рука)"))
+
+            # AE14/AE15 судят только .css: разбор по блокам selector{body}, а
+            # в TSX фигурные скобки принадлежат JSX и разбор блоков дал бы
+            # ложные пары. Инлайн-стили TSX — отдельная работа, не эта.
+            if p.suffix == ".css" and ("AE14" in rules or "AE15" in rules):
+                for bm in BLOCK.finditer(t):
+                    sel, body = bm.group(1), bm.group(2)
+                    if ("AE14" in rules and INTERACTIVE.search(sel)
+                            and not EXEMPT_SEL.search(sel)):
+                        for sm in SIZEDECL.finditer(body):
+                            v = float(sm.group(1))
+                            if v < tap_min - 1e-9:
+                                findings.append(("AE14", rel,
+                                    _line_of(t, bm.start(2) + sm.start()),
+                                    f"цель касания {v:g}px — норма свода минимум "
+                                    f"{tap_min:g}px (44×44pt, 🍎 живой HIG)"))
+                    if "AE15" in rules:
+                        fg, bg = FG_DECL.search(body), BG_DECL.search(body)
+                        if fg and bg:
+                            ratio = contrast_ratio(fg.group(1), bg.group(1))
+                            if ratio < cr_min - 1e-9:
+                                findings.append(("AE15", rel,
+                                    _line_of(t, bm.start(2) + fg.start()),
+                                    f"контраст {ratio:.2f}:1 ({fg.group(1)} на "
+                                    f"{bg.group(1)}) ниже нормы свода {cr_min:g}:1 "
+                                    f"(🍎 живой HIG)"))
 
     if "AE13" in rules and first_long and not has_prm:
         findings.append(("AE13", first_long[0], first_long[1],

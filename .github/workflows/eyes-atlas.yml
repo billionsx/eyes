@@ -28,6 +28,8 @@ jobs:
         run: python3 bin/eyes.py selftest > /dev/null
       - name: "Атлас — шаг по всей документации (ст. 37.1)"
         run: python3 bin/eyes.py atlas --budget 1500
+      - name: "Добытчик правил-кандидатов (свод → заготовки)"
+        run: python3 bin/propose.py || true
       - name: "Веб-атлас — кит лендингов Apple (ст. 36.3)"
         run: python3 bin/eyes.py weblab || true
       - name: "Большая семёрка — познание бизнес-логики (ст. 55)"

@@ -329,6 +329,40 @@ def cmd_selftest(root: Path) -> int:
     adapter["strict"]["globs"] = ["good.css"]
     res_good = lint_mod.run(root, adapter, tokens, "strict", fx)
     check("чиню → зелёный: good.css чист", not res_good["findings"])
+
+    # AE14/AE15 — первые правила, рождённые конвейером (свод → добытчик →
+    # правило). Испытание на живых нарушениях в обе стороны, эталон пишется
+    # на месте.
+    import tempfile as _tf
+    _gd = Path(_tf.mkdtemp(prefix="eyes-conv-"))
+    (_gd / "tap.css").write_text(
+        ".play-btn{height:32px;min-width:28px}\n"
+        ".play-btn.big{height:44px}\n"
+        ".btn-icon{width:20px}\n"
+        ".note{color:#777777;background:#FFFFFF}\n"
+        ".note-ok{color:#666666;background:#FFFFFF}\n"
+        ".note-var{color:var(--x);background:#FFFFFF}\n", encoding="utf-8")
+    _ad = {"report": {"globs": ["tap.css"], "rules": ["AE14", "AE15"]},
+           "strict": {"globs": [], "rules": []},
+           "allow_extra": [], "sizes_extra": [], "pt_to_css_px": 1}
+    _rr = lint_mod.run(root, _ad, tokens, "report", _gd)
+    _a14 = [x for x in _rr["findings"] if x[0] == "AE14"]
+    _a15 = [x for x in _rr["findings"] if x[0] == "AE15"]
+    check("AE14 ломаю → красный: кнопка 32px и 28px ниже нормы — обе названы "
+          "с числом и 🍎",
+          len(_a14) == 2 and all("норма свода" in x[3] and "🍎" in x[3] for x in _a14))
+    check("AE14 чиню → зелёный: 44px не тронут, иконка внутри кнопки не судится",
+          not any("20" in x[3] or "44px —" in x[3] for x in _a14))
+    check("AE15 ломаю → красный: #777 на #FFF = 4.48:1 ниже 4.5 — названы "
+          "оба цвета",
+          len(_a15) == 1 and "4.48" in _a15[0][3] and "#777777" in _a15[0][3])
+    check("AE15 чиню → зелёный: #666 на #FFF = 5.74:1 чист, var() не судится",
+          not any("#666666" in x[3] or "var" in x[3] for x in _a15))
+    check("люминантность WCAG точна: белое на чёрном = 21:1",
+          abs(lint_mod.contrast_ratio("#FFFFFF", "#000000") - 21.0) < 0.01)
+    check("числа правил несут живые адреса свода (ЗКН-Э002)",
+          "human-interface-guidelines" in tokens["tap_target"]["source"]
+          and tokens["contrast"]["min_ratio"] == 4.5)
     # ЗКН-Э002: комментарий стирается, но адрес после него не едет.
     _src = ("a{}\n/* комментарий\n   на три\n   строки */\n"
             ".z{border-radius:22px}\n")
@@ -714,6 +748,19 @@ def cmd_selftest(root: Path) -> int:
     _frp = ["/documentation/uikit/a", "/design/human-interface-guidelines/color"]
     check("ломаю → красный: свод идёт ПЕРЕД самым урожайным справочником",
           atlas_sel.order_frontier(_frp, _fwp)[0].startswith("/design/"))
+    _fwm = {"uikit": {"v": 100, "d": 90},
+            "human-interface-guidelines": {"v": 145, "d": 0}}
+    check("привилегия ГАСНЕТ: измеренный свод без урожая уступает урожайному "
+          "справочнику — решают улики, а не устав",
+          atlas_sel.order_frontier(
+              ["/design/human-interface-guidelines/color",
+               "/documentation/uikit/a"], _fwm)[0]
+          == "/documentation/uikit/a")
+    check("а неизмеренный свод по-прежнему впереди урожайного справочника",
+          atlas_sel.order_frontier(
+              ["/documentation/uikit/a",
+               "/design/human-interface-guidelines/color"],
+              {"uikit": {"v": 100, "d": 90}})[0].startswith("/design/"))
     check("чиню → зелёный: внутри справочника порядок по урожаю сохранён",
           atlas_sel.order_frontier(
               ["/documentation/zzz/a", "/documentation/uikit/b"], _fwp)[0]
