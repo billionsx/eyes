@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 202
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15 · находок: 208
 
 ## AE1 · 7
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -57,6 +57,14 @@
 - `apps/web/src/ui/globals.css:1020` — border-radius 38px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:1283` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/main.tsx:205` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+
+## AE14 · 6
+- `apps/web/src/music/music.css:366` — цель касания 12px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `apps/web/src/music/music.css:368` — цель касания 43px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `apps/web/src/music/music.css:453` — цель касания 38.3px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `apps/web/src/music/music.css:481` — цель касания 38.3px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `apps/web/src/music/music.css:481` — цель касания 38.3px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `apps/web/src/play/play.css:26` — цель касания 35px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
 
 ## AE2 · 18
 - `apps/web/src/music/music.css:55` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
