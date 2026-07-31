@@ -99,3 +99,9 @@
 {"id": "/documentation/uikit/uiimagereader-swift.struct", "sha": "37790ad26dd3cacf0675061714e58d4df6c4a152cbf85d0bc660d4a10747227a", "t": "UIImageReader", "n": 234, "laws": 0, "ts": "2026-07-31 06:06 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/init()", "sha": "79655afed66c6c4d5c938770fe78140094a3fd148a84a5ada620bb8dad3c408d", "t": "init()", "n": 152, "laws": 0, "ts": "2026-07-31 06:16 UTC"}
 {"id": "/documentation/uikit/nstextcontainer/widthtrackstextview", "sha": "d743274ae38762f8b1a5201d1271526f83e85e1663d085964fd3f7ec8e065289", "t": "widthTracksTextView", "n": 339, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
+{"id": "/documentation/gamecontroller/gcdevicedirectionpad", "sha": "11c85bda2f0aced038ba02722e99c9071c1adebf2bbb094896019fb85895d7bf", "t": "GCDeviceDirectionPad", "n": 82, "laws": 0, "ts": "2026-07-31 07:13 UTC"}
+{"id": "/documentation/gamecontroller/gcmousedidconnectnotification", "sha": "cd5a27fdaa19665141cba57cd81904440b98d241a2d44374b6dff78b93ecb1d7", "t": "GCMouseDidConnectNotification", "n": 195, "laws": 0, "ts": "2026-07-31 07:15 UTC"}
+{"id": "/documentation/uikit/nstextelement/elementrange", "sha": "14bb750cbe860fcb19c5592077f4dc96393b6e98213027dd493ada09336a1b7b", "t": "elementRange", "n": 75, "laws": 0, "ts": "2026-07-31 07:18 UTC"}
+{"id": "/documentation/uikit/uimenucontroller", "sha": "683fdd7f65149e3c99cb6cfaaeed7203dcb6984f8576a2d0bfd26b15c1dddf9d", "t": "UIMenuController", "n": 1635, "laws": 2, "ts": "2026-07-31 07:24 UTC"}
+{"id": "/documentation/uikit/uibackgroundfetchresult", "sha": "e1fc731c6056a1d64486369412ae1bbb9f3414788f779e86c8fc74667a781214", "t": "UIBackgroundFetchResult", "n": 210, "laws": 0, "ts": "2026-07-31 07:31 UTC"}
+{"id": "/documentation/uikit/uisegmentedcontrol/setenabled(_:forsegmentat:)", "sha": "c49223c0f239e9eebc782882f46fc47f28e0fb4edbfcc2e33c9bb4e925f91689", "t": "setEnabled(_:forSegmentAt:)", "n": 32, "laws": 0, "ts": "2026-07-31 07:35 UTC"}

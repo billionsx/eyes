@@ -96,3 +96,8 @@
 {"id": "/documentation/uikit/uibarbuttonitem/systemitem/cancel", "sha": "d0fd5d5407ef99ea081b37fe116697afe0e800c2477fdaee488b0817ba93335f", "t": "UIBarButtonItem.SystemItem.cancel", "n": 36, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
 {"id": "/documentation/uikit/uicolor/setfill()", "sha": "370e9d11428ebb72256a665850a63abd4646a1bb74f7ecd19f67f3d9c1cf5e68", "t": "setFill()", "n": 312, "laws": 1, "ts": "2026-07-31 06:14 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/addtextcontainer(_:)", "sha": "3cc346cf710b0ddd4e6d15073eba688b0c1407955a4bad79731c4791525ba8e2", "t": "addTextContainer(_:)", "n": 212, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
+{"id": "/documentation/gamecontroller/gcspatialaccessory/spatialaccessories", "sha": "326eb27b24cc64ef744bb9ae518670a78569410954ae2a1c4f10fdf89cae901a", "t": "spatialAccessories", "n": 76, "laws": 0, "ts": "2026-07-31 07:16 UTC"}
+{"id": "/documentation/uikit/nstextlistelement/markerattributes", "sha": "5379fff3ba0b3a7de128611cdc225aa01094d6b97cf8cf8c42da20ed10b0100b", "t": "markerAttributes", "n": 91, "laws": 0, "ts": "2026-07-31 07:19 UTC"}
+{"id": "/documentation/uikit/uibutton/currenttitle", "sha": "fedc05fb0d614f6ab9347010ec01916943db3e3041d8af78a77c60e4d469ed1a", "t": "currentTitle", "n": 352, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
+{"id": "/documentation/uikit/uiapplication/extensionpointidentifier/keyboard", "sha": "3492c51cc49a308c091ae67b77f74cf971f013d9cbf7693bd80501711a09c289", "t": "keyboard", "n": 170, "laws": 0, "ts": "2026-07-31 07:31 UTC"}
+{"id": "/documentation/uikit/uiaccessibility/converttoscreencoordinates(_:in:)-6dx4a", "sha": "1bc685e11c12805ae9e64aa0e96d2c1ecacccb2945c43d8c898ac5dd50813de1", "t": "convertToScreenCoordinates(_:in:)", "n": 463, "laws": 2, "ts": "2026-07-31 07:41 UTC"}

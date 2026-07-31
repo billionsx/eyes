@@ -103,3 +103,8 @@
 {"id": "/documentation/uikit/uidragitem/previewprovider", "sha": "d824214b80ee6db8209583d4158aa6674fe1c8ea050849bb6e04a2150de160fb", "t": "previewProvider", "n": 416, "laws": 0, "ts": "2026-07-31 06:13 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/glyphindex(for:in:)", "sha": "3c978b4e9c3a07f29fa7fc945a0fb0a75a26e664e8742e91d9cc7382182c7203", "t": "glyphIndex(for:in:)", "n": 354, "laws": 0, "ts": "2026-07-31 06:16 UTC"}
 {"id": "/documentation/uikit/uitextview/borderstyle-swift.enum", "sha": "0088c89f16bb34a62d536442960b7878be73299b58dc354e9ad1685d9382eb9a", "t": "UITextView.BorderStyle", "n": 159, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/gamecontroller/understanding-game-controller-backward-compatibility", "sha": "b98c811a93f2dcd47df886f593da8fab08597d0d01722a80c5ab4b41da1f385d", "t": "Understanding game controller backward compatibility", "n": 3543, "laws": 0, "ts": "2026-07-31 07:13 UTC"}
+{"id": "/documentation/uikit/uisearchbar/init()", "sha": "dccf4825e85d1368efe64870ac0ccf3240ecd06062e7145c981e82874230b625", "t": "init()", "n": 131, "laws": 0, "ts": "2026-07-31 07:17 UTC"}
+{"id": "/documentation/uikit/uiscene/activationconditions", "sha": "daa2e6c1292c253f571e62fcb298765f12e05c3ec8fe95d345694dfb313ff6c5", "t": "activationConditions", "n": 152, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
+{"id": "/documentation/uikit/uiscenedelegate/scene(_:didupdate:)", "sha": "3ac75140fb4f0e526296b7e826962ea4346174e0b9f66f22122523e91054056d", "t": "scene(_:didUpdate:)", "n": 344, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
+{"id": "/documentation/uikit/uistepper/value", "sha": "efc956c82c1ed27a6243973774143ead7f2ae64956e3aa92d263ce67a00d6b8a", "t": "value", "n": 395, "laws": 0, "ts": "2026-07-31 07:37 UTC"}

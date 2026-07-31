@@ -101,3 +101,6 @@
 {"id": "/documentation/scenekit/scnvector4zero", "sha": "b20f121014590fe10ed61ba4889f5f4ea1d84691544dfc743ec066d4550708bb", "t": "SCNVector4Zero", "n": 52, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
 {"id": "/design/human-interface-guidelines/system-experiences", "sha": "9f8e9a9b3c0884655471204f4cd1d82ae5a21b97436f0d9178082d539b0f2235", "t": "System experiences", "n": 127, "laws": 0, "ts": "2026-07-31 05:52 UTC"}
 {"id": "/documentation/avkit/avexperiencecontroller/expandedconfiguration", "sha": "8869e8c51e04393c677d9d8b938bb0f994dbe9a0a8693b2c7d068b876f00e9e9", "t": "AVExperienceController.ExpandedConfiguration", "n": 560, "laws": 1, "ts": "2026-07-31 05:55 UTC"}
+{"id": "/design/human-interface-guidelines/controls", "sha": "06a0c4979e42c9b4b5d5a9fbc1a54e9abba57fd9b2338fe15413495a633dbd0b", "t": "Controls", "n": 5641, "laws": 5, "ts": "2026-07-31 07:11 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/modalviewcontroller", "sha": "96e514d4faf1a1be0c13d091de8ce1bea1359e2eb9348bed238c12ec88908c3b", "t": "modalViewController", "n": 136, "laws": 0, "ts": "2026-07-31 07:24 UTC"}
+{"id": "/documentation/uikit/uislider/currentminimumtrackimage", "sha": "f21a35237a2934aea500ff8d01cc0f1c5fa5d631000a781bd07295b9ce220898", "t": "currentMinimumTrackImage", "n": 491, "laws": 4, "ts": "2026-07-31 07:35 UTC"}

@@ -28,3 +28,4 @@
 {"id": "/documentation/signinwithapple/configuring-your-environment-for-sign-in-with-apple", "law": "For example, when generating and validating tokens for user authentication, app transfer, and user migration to a newly transferred developer team, you use the private key ID in the token header, and the private key signs the token."}
 {"id": "/documentation/signinwithapple/configuring-your-environment-for-sign-in-with-apple", "law": "To validate your web service, Sign in with Apple requires you to create a JSON web token (JWT) with the key identifier ( ) in the header."}
 {"id": "/documentation/signinwithapple/configuring-your-environment-for-sign-in-with-apple", "law": "Each primary app can have a maximum of two private keys."}
+{"id": "/documentation/signinwithapple/configuring-your-webpage-for-sign-in-with-apple", "law": "If you use the pop-up option, your app sends the authorization information to Apple when the user clicks the Sign in with Apple button."}

@@ -2889,3 +2889,312 @@
 {"id": "/documentation/uikit/uitextview/inputaccessoryview", "law": "For example, you could use this property to attach a custom toolbar to the keyboard."}
 {"id": "/documentation/uikit/uitextview/textalignment", "law": "If you want to apply the alignment to only a portion of the text, you must create a new attributed string with the desired style information and assign it to the property."}
 {"id": "/documentation/uikit/uitextview/textcolor", "law": "If you want to apply the color to only a portion of the text, you must create a new attributed string with the desired style information and assign it to the property."}
+{"id": "/documentation/uikit/uisearchbar/inputassistantitem", "law": "This property contains the object you use to configure the custom bar button items above the keyboard."}
+{"id": "/documentation/uikit/uisearchbar/scopebarbuttonbackgroundimage(for:)", "law": "To adjust the margin use the margin adjustment methods."}
+{"id": "/documentation/uikit/uisearchbar/setpositionadjustment(_:for:)", "law": "Use this method to adjust the position of an icon within the search text field."}
+{"id": "/documentation/uikit/uipointershape-c.class", "law": "If the desired pointer shape can be expressed as a rounded rectangle, use either or for best results."}
+{"id": "/documentation/uikit/uipointerstyle", "law": "When supporting the use of Apple Pencil, effect-based styles, such as a pointer style created using are fully supported, but shape-based pointer styles created using aren’t."}
+{"id": "/documentation/uikit/uibutton/pointerstyleprovider-1d4d2", "law": "A block that returns the pointer style to use when the pointer hovers over the button."}
+{"id": "/documentation/uikit/nstextelementprovider/enumeratetextelements(from:options:using:)", "law": "It enumerates the elements in the sequence, but it can skip a range (it can limit the maximum number of text elements enumerated for a single invocation or hide some elements from the layout)."}
+{"id": "/documentation/uikit/getting-high-fidelity-input-with-coalesced-touches", "law": "If you don’t need the extra precision, continue using the set of touch objects that UIKit passes to the methods of your views or gesture recognizers."}
+{"id": "/documentation/uikit/implementing-a-continuous-gesture-recognizer", "law": "Although continuous gesture recognizers require a little more effort to implement the state machine, they also perform tasks that would be difficult with a discrete gesture recognizer, such as capturing free-form input."}
+{"id": "/documentation/uikit/implementing-a-continuous-gesture-recognizer", "law": "The following image shows a free-form gesture whose input you might use to draw paths onscreen."}
+{"id": "/documentation/uikit/implementing-a-continuous-gesture-recognizer", "law": "Although you could use a pan gesture recognizer to capture the input, your action method would need to handle all of the phases of the capture process, which would add to its complexity."}
+{"id": "/documentation/uikit/implementing-a-continuous-gesture-recognizer", "law": "Clients of the gesture recognizer use their action method to fetch that buffer and apply it temporarily to the app’s content."}
+{"id": "/documentation/uikit/implementing-a-continuous-gesture-recognizer", "law": "Always implement the and methods in your gesture recognizers and use them to perform any cleanup."}
+{"id": "/documentation/uikit/implementing-a-continuous-gesture-recognizer", "law": "For gestures that do not easily match a specific pattern, or when you want to use a gesture recognizer to gather touch input, create a continuous gesture recognizer."}
+{"id": "/documentation/uikit/implementing-a-discrete-gesture-recognizer", "law": "The advantage of discrete gesture recognizers is that they are simpler to implement because they require fewer state transitions."}
+{"id": "/documentation/uikit/implementing-a-discrete-gesture-recognizer", "law": "Because the gesture follows a specific path, it makes sense to use a discrete gesture recognizer."}
+{"id": "/documentation/uikit/implementing-a-discrete-gesture-recognizer", "law": "Before implementing your gesture recognizer code, define the conditions for which recognition should occur."}
+{"id": "/documentation/uikit/uitouch/majorradiustolerance", "law": "Add this value to the radius to get the maximum touch radius."}
+{"id": "/documentation/uikit/uitouch/majorradiustolerance", "law": "Subtract the value to get the minimum touch radius."}
+{"id": "/documentation/uikit/nsdiffabledatasourcesnapshotreference/reconfigureitems(withidentifiers:)", "law": "To avoid animations when setting specific properties, use in your cell configuration logic."}
+{"id": "/documentation/uikit/uicollectionlayoutlistconfiguration-swift.struct", "law": "Use this configuration to create a list section for a compositional layout ( ), or a layout containing only list sections."}
+{"id": "/documentation/uikit/uicollectionlayoutlistconfiguration-swift.struct/headermode-swift.enum/supplementary", "law": "By default, lists that use the and list appearances use pinned headers."}
+{"id": "/documentation/uikit/uicollectionviewdatasource/collectionview(_:cellforitemat:)", "law": "Use the delegate method to make any changes to the appearance of the cell to reflect its visual state such as selection."}
+{"id": "/documentation/uikit/uicollectionviewdatasource/collectionview(_:viewforsupplementaryelementofkind:at:)", "law": "If you do not want a supplementary view in a particular case, your layout object should not create the attributes for that view."}
+{"id": "/documentation/uikit/implementing-peek-and-pop", "law": "Users can toggle whether a color is starred using one of two methods: they can either tap a button in the navigation bar of the detail view, or use 3D Touch to peek at the content."}
+{"id": "/documentation/uikit/uiacceleration", "law": "If you want to detect specific types of motion as gestures—specifically, shaking motions—use the class and its event type."}
+{"id": "/documentation/uikit/uialertviewdelegate", "law": "Use the property of an alert view to specify one of your application objects as the delegate."}
+{"id": "/documentation/uikit/uialertviewdelegate", "law": "If you add your own buttons to an alert view, the delegate must implement the message to respond when those buttons are clicked; otherwise, your custom buttons do nothing."}
+{"id": "/documentation/uikit/uilocalnotification", "law": "Although local notifications are similar to remote notifications in that they are used for displaying alerts, playing sounds, and badging app icons, they are composed and delivered locally and do not require connection with remote servers."}
+{"id": "/documentation/uikit/uilocalnotification", "law": "For example, if a text-messaging app processes all incoming messages after receiving a local notification, it should remove the icon badge by setting the property of the object to 0."}
+{"id": "/documentation/uikit/uimenucontroller", "law": "Be sure to set the tracking rectangle before you make the menu visible."}
+{"id": "/documentation/uikit/uimenucontroller", "law": "When you modify the menu items, you can use the method to force the menu to update its display."}
+{"id": "/documentation/uikit/uimenuitem", "law": "To have custom menu items appear in the editing menu, you must add them to the property of the object."}
+{"id": "/documentation/uikit/uimutableusernotificationaction", "law": "You use this class to configure the details about the button that is displayed and the information your app needs to perform the corresponding action."}
+{"id": "/documentation/uikit/uimutableusernotificationcategory", "law": "Use instances of this class to customize the actions included in an alert when space onscreen is constrained."}
+{"id": "/documentation/uikit/uimutableusernotificationcategory", "law": "The most common use of this class is to specify the subset of actions to display when the size of the alert is relatively small."}
+{"id": "/documentation/uikit/uisearchdisplaycontroller", "law": "Starting in iOS 7.0, you can use a search display controller with a navigation bar (an instance of the class) by configuring the search display controller’s and properties."}
+{"id": "/documentation/uikit/uiusernotificationaction", "law": "You use this class to specify the text that is displayed in the button and the information your app needs to perform the corresponding action."}
+{"id": "/documentation/uikit/uiusernotificationsettings", "law": "Apps that use visible or audible alerts in conjunction with a local or push notification must register the types of alerts they employ."}
+{"id": "/documentation/uikit/uiusernotificationsettings", "law": "In addition to registering your app’s alert types, you can also use this class to register groups of custom actions to display in conjunction with local or push notifications."}
+{"id": "/documentation/uikit/uiviewcontroller/automaticallyadjustsscrollviewinsets", "law": "The default value of this property is , which lets container view controllers know that they should adjust the scroll view insets of this view controller’s view to account for screen areas consumed by a status bar, search bar, navigation bar, toolbar, or tab bar."}
+{"id": "/documentation/uikit/uiviewcontroller/automaticallyadjustsscrollviewinsets", "law": "A Boolean value that indicates whether the view controller should automatically adjust its scroll view insets."}
+{"id": "/documentation/uikit/uiviewcontroller/bottomlayoutguide", "law": "It indicates the lowest vertical extent for content that you don’t want to appear behind a translucent or transparent UIKit bar (such as a tab bar or toolbar)."}
+{"id": "/documentation/uikit/uiviewcontroller/bottomlayoutguide", "law": "As an example of how to programmatically use this property with Auto Layout, say you want to position a control such that its bottom edge is 20 points above the bottom layout guide."}
+{"id": "/documentation/uikit/uiviewcontroller/bottomlayoutguide", "law": "Use code similar to the following: If you define Auto Layout constraints in a storyboard file as well as programmatically, it is your responsibility to ensure the constraints do not conflict."}
+{"id": "/documentation/uikit/uiviewcontroller/bottomlayoutguide", "law": "To use a bottom layout guide without using constraints, obtain the guide’s position relative to the bottom bound of the containing view."}
+{"id": "/documentation/uikit/uiviewcontroller/bottomlayoutguide", "law": "In the case of using a view controller subclass, obtain the numbers you need as follows: In the case of using a view subclass, obtain the numbers you need as follows: Indicates the lowest vertical extent for your onscreen content, for use with Auto Layout constraints."}
+{"id": "/documentation/uikit/uiviewcontroller/interfaceorientation", "law": "Do not use this property for informing layout decisions."}
+{"id": "/documentation/uikit/uiviewcontroller/toplayoutguide", "law": "It indicates the highest vertical extent for content that you don’t want to appear behind a translucent or transparent UIKit bar (such as a status or navigation bar)."}
+{"id": "/documentation/uikit/uiviewcontroller/toplayoutguide", "law": "As an example of how to programmatically use this property with Auto Layout, say you want to position a control such that its top edge is 20 points below the top layout guide."}
+{"id": "/documentation/uikit/uiviewcontroller/toplayoutguide", "law": "Use code similar to the following: If you define Auto Layout constraints in a storyboard file as well as programmatically, it is your responsibility to ensure the constraints do not conflict."}
+{"id": "/documentation/uikit/uiviewcontroller/toplayoutguide", "law": "To use a top layout guide without using constraints, obtain the guide’s position relative to the top bound of the containing view."}
+{"id": "/documentation/uikit/uiviewcontroller/toplayoutguide", "law": "In the case of using a view controller subclass, obtain the numbers you need as follows: In the case of using a view subclass, obtain the numbers you need as follows: Indicates the highest vertical extent for your onscreen content, for use with Auto Layout constraints."}
+{"id": "/documentation/uikit/uiviewcontroller/wantsfullscreenlayout", "law": "Regardless of the value of this property, navigation controllers always allow views to underlap translucent navigation bars."}
+{"id": "/documentation/uikit/uiviewcontroller/didanimatefirsthalfofrotationtointerfaceorientation:", "law": "Subclasses can override this method and use it to adjust their views between the first and second half of the animations."}
+{"id": "/documentation/uikit/uiviewcontroller/setoverridetraitcollection(_:forchild:)", "law": "When implementing a custom container view controller, you can use this method to change the traits of any embedded child view controllers to something more appropriate for your layout."}
+{"id": "/documentation/uikit/uiviewcontrollerpreviewing/previewinggesturerecognizerforfailurerelationship", "law": "Use this gesture recognizer by implementing a delegate object for it that conforms to the protocol."}
+{"id": "/documentation/uikit/uibehavioralstyle", "law": "If you build your app with Mac Catalyst and use the Mac idiom, you can specify the preferred behavior style for a control to change its appearance and behavior."}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct", "law": "Alternatively, you can use a configuration in combination with these other methods and adopt new button behaviors and appearance without rewriting your customized code."}
+{"id": "/documentation/uikit/uibutton/contentedgeinsets", "law": "Use this property to resize and reposition the effective drawing rectangle for the button content."}
+{"id": "/documentation/uikit/uibutton/imageedgeinsets", "law": "Use this property to resize and reposition the effective drawing rectangle for the button image."}
+{"id": "/documentation/uikit/uibutton/imageedgeinsets", "law": "The button does not use this property to determine and ."}
+{"id": "/documentation/uikit/uibutton/imageview", "law": "Use these properties to configure the appearance and behavior of the button’s view."}
+{"id": "/documentation/uikit/uibutton/init(type:)", "law": "Before adding the button to your interface, you should update the frame to a more appropriate value."}
+{"id": "/documentation/uikit/uibutton/isheld", "law": "Buttons that set to present a menu don’t set this property."}
+{"id": "/documentation/uikit/uibutton/pointerstyleprovider-y4eb", "law": "A closure that returns the pointer style to use when the pointer hovers over the button."}
+{"id": "/documentation/uikit/uibutton/preferredbehavioralstyle", "law": "Use this property to specify the behavioral style for the button."}
+{"id": "/documentation/uikit/uibutton/role-swift.property", "law": "Catalyst apps use this role to set the appearance and default key-binding of the buttons."}
+{"id": "/documentation/uikit/uibutton/setattributedtitle(_:for:)", "law": "Use this method to set the title of the button, including any relevant formatting information."}
+{"id": "/documentation/uikit/uibutton/setattributedtitle(_:for:)", "law": "If you set both a title and an attributed title for the button, the button prefers the use of the attributed title."}
+{"id": "/documentation/uikit/uibutton/setbackgroundimage(_:for:)", "law": "Sets the background image to use for the specified button state."}
+{"id": "/documentation/uikit/uibutton/setimage(_:for:)", "law": "At a minimum, always set an image for the state when associating images to a button."}
+{"id": "/documentation/uikit/uibutton/setimage(_:for:)", "law": "If you don’t specify an image for the other states, the button uses the image associated with ."}
+{"id": "/documentation/uikit/uibutton/setimage(_:for:)", "law": "If you don’t specify an image for the state, the button uses a system value."}
+{"id": "/documentation/uikit/uibutton/settitle(_:for:)", "law": "Use this method to set the title for the button."}
+{"id": "/documentation/uikit/uibutton/settitle(_:for:)", "law": "If you set both a title and an attributed title for the button, the button prefers the use of the attributed title over this one."}
+{"id": "/documentation/uikit/uibutton/settitle(_:for:)", "law": "If you don’t specify a title for the other states, the button uses the title associated with the state."}
+{"id": "/documentation/uikit/uibutton/settitlecolor(_:for:)", "law": "Sets the color of the title to use for the specified state."}
+{"id": "/documentation/uikit/uibutton/settitleshadowcolor(_:for:)", "law": "Sets the color of the title shadow to use for the specified state."}
+{"id": "/documentation/uikit/uibutton/tintcolor", "law": "For custom buttons, you must implement any behavior related to yourself."}
+{"id": "/documentation/uikit/uibutton/titleedgeinsets", "law": "Use this property to resize and reposition the effective drawing rectangle for the button title."}
+{"id": "/documentation/uikit/uibutton/titleedgeinsets", "law": "The button does not use this property to determine and ."}
+{"id": "/documentation/uikit/uibutton/titlelabel", "law": "Use these properties primarily to configure the text of the button."}
+{"id": "/documentation/uikit/uibutton/titlelabel", "law": "For example: Do not use the label object to set the text color or the shadow color."}
+{"id": "/documentation/uikit/uibuttonconfiguration", "law": "Alternatively, you can use a configuration in combination with these other methods and adopt new button behaviors and appearance without rewriting your customized code."}
+{"id": "/documentation/uikit/uigesturerecognizerdelegate/gesturerecognizer(_:shouldreceive:)-16fuh", "law": "Asks the delegate if a gesture recognizer should receive an object representing a touch."}
+{"id": "/documentation/uikit/uipointerregion/identifier-1tw1m", "law": "Use this value to identify the in subsequent pointer interaction delegate calls."}
+{"id": "/documentation/uikit/uipointerregion/identifier-9i5wc", "law": "Use this value to identify the in subsequent pointer interaction delegate calls."}
+{"id": "/documentation/uikit/uipointershape-swift.enum/roundedrect(_:radius:)", "law": "If you don’t specify a radius, the rounded rectangle uses the ."}
+{"id": "/documentation/uikit/uigesturerecognizer/pressesbegan(_:with:)", "law": "If the gesture recognizer is interpreting a continuous gesture, it should set its state to upon receiving this message."}
+{"id": "/documentation/uikit/uigesturerecognizer/pressesbegan(_:with:)", "law": "If at any point in its handling of the press objects the gesture recognizer determines that the press event sequence is not its gesture, it should set its state to ."}
+{"id": "/documentation/uikit/uigesturerecognizer/presseschanged(_:with:)", "law": "If the gesture recognizer is interpreting a continuous gesture, it should set its state to upon receiving this message."}
+{"id": "/documentation/uikit/uigesturerecognizer/presseschanged(_:with:)", "law": "If at any point in its handling of the press objects the gesture recognizer determines that the press event sequence is not its gesture, it should set its state to ."}
+{"id": "/documentation/uikit/uigesturerecognizer/pressesended(_:with:)", "law": "If the gesture recognizer is interpreting a continuous gesture, it should set its state to upon receiving this message."}
+{"id": "/documentation/uikit/uigesturerecognizer/pressesended(_:with:)", "law": "If at any point in its handling of the press objects the gesture recognizer determines that the press event sequence is not its gesture, it should set its state to ."}
+{"id": "/documentation/uikit/uigesturerecognizer/reset()", "law": "Subclasses should reset any internal state in preparation for a new attempt at gesture recognition."}
+{"id": "/documentation/uikit/uigesturerecognizer/shouldberequiredtofail(by:)", "law": "Overridden to indicate that the receiver should be required to fail by the specified gesture recognizer."}
+{"id": "/documentation/uikit/uigesturerecognizer/shouldrequirefailure(of:)", "law": "Overridden to indicate that the receiver requires the specified gesture recognizer to fail."}
+{"id": "/documentation/uikit/uigesturerecognizer/touchescancelled(_:with:)", "law": "Upon receiving this message, the gesture recognizer for a continuous gesture should set its state to ; a gesture recognizer for a discrete gesture should set its state to ."}
+{"id": "/documentation/uikit/uifocusitem/canbecomefocused", "law": "Returning in this property means that the item is capable of being focused; it does not guarantee that the item is always focusable."}
+{"id": "/documentation/uikit/creating-custom-navigation-interactions", "law": "For these situations, use the class to create invisible regions that redirect focus."}
+{"id": "/documentation/uikit/creating-custom-navigation-interactions", "law": "Use a focus guide only when absolutely necessary."}
+{"id": "/documentation/uikit/creating-custom-navigation-interactions", "law": "To get focus to move to Button 4 when the user swipes down from Button 2 or Button 3, a focus guide is required."}
+{"id": "/documentation/uikit/creating-custom-navigation-interactions", "law": "When the user swipes down from Button 2 or Button 3, the focus should move to Button 4."}
+{"id": "/documentation/uikit/debugging-focus-issues-in-your-app", "law": "With the use of indirect controls for your tvOS app, it’s imperative that focus works correctly."}
+{"id": "/documentation/uikit/uifocusanimationcoordinator", "law": "instances are always created by the system and vended to your app during a focus update, and are typically discarded after the update is complete; it is not useful to instantiate objects yourself."}
+{"id": "/documentation/uikit/uifocusanimationcoordinator", "law": "The header file, including its related classes and its protocol, creates a single high-level software interface for controlling focus in apps that use focus-based input."}
+{"id": "/documentation/uikit/uifocusanimationcoordinator", "law": "Since the image is expanding, the title should also animate its position to stay a fixed length from the expanding bottom edge of the image, so it also schedules this animation using the coordinator."}
+{"id": "/documentation/uikit/uifocusanimationcoordinator", "law": "Since both animations were scheduled using the coordinator, they will be run together at the end of the update to ensure they are correctly synchronized."}
+{"id": "/documentation/uikit/uifocusanimationcoordinator", "law": "As such, you should never assume a fixed duration across multiple focus updates, nor should you that timing of animations for different views in different branches of the view hierarchy is the same."}
+{"id": "/documentation/uikit/uifocusanimationcoordinator", "law": "If you want to change the timing of the animation, it is recommended that you specify a duration relative to the inherited duration in method, so that your application still benefits from the timing behaviors."}
+{"id": "/documentation/uikit/uifocusanimationcoordinator", "law": "For example, in the below code listing it shows how to add a coordinated animation that should run at half the system-defined duration: However, if you nest animations with different durations, note that the completion block of the method is run only after the main (inherited) animation is complete."}
+{"id": "/documentation/uikit/uifocusenvironment/didupdatefocus(in:with:)", "law": "You should override this method to update your app’s state in response to changes in focus."}
+{"id": "/documentation/uikit/uifocusenvironment/didupdatefocus(in:with:)", "law": "Use the provided animation coordinator to animate changes in visual appearance related to the update."}
+{"id": "/documentation/uikit/uifocusenvironment/preferredfocusedview", "law": "Returning in a focusable view indicates that view should be focused."}
+{"id": "/documentation/uikit/uifocusenvironment/preferredfocusedview", "law": "Specifies the view that should be focused if this environment is focused."}
+{"id": "/documentation/uikit/uifocusenvironment/shouldupdatefocus(in:)", "law": "Returns a Boolean value indicating whether the focus engine should allow the focus update described by the specified context to occur."}
+{"id": "/documentation/uikit/uifocusenvironment/soundidentifierforfocusupdate(in:)", "law": "Use this method to return a custom sound when the focus environment object gains focus."}
+{"id": "/documentation/uikit/uifocusitem/focusitemdeferralmode", "law": "If it returns focus will always be deferred when this item is supposed to be focused."}
+{"id": "/documentation/uikit/uifocusitem/istransparentfocusitem", "law": "The system ignores this value when the item is focusable, in which case the item is never considered transparent."}
+{"id": "/documentation/uikit/uifocusitemcontainer/coordinatespace", "law": "The focus items returned by should report their frames in this coordinate space."}
+{"id": "/documentation/uikit/uifocusitemcontainer/focusitems(in:)", "law": "The found focus items should report their frames in the ."}
+{"id": "/documentation/uikit/uifocussystem/register(_:forsoundidentifier:)", "law": "Use this method to register custom sounds that you want played in response to focus changes."}
+{"id": "/documentation/uikit/uifocussystem/requestfocusupdate(to:)", "law": "Use this method to ask the focus engine to update the focus-related information for the specified object."}
+{"id": "/documentation/uikit/adapting-your-app-when-traits-change", "law": "For example, you might change what your view shows when either the or changes, or you might adjust what colors you use for light or dark appearance."}
+{"id": "/documentation/uikit/adapting-your-app-when-traits-change", "law": "Use this approach when your code that responds to a trait change isn’t appropriate for a method like that the system calls for each layout pass."}
+{"id": "/documentation/uikit/adapting-your-app-when-traits-change", "law": "UIKit provides predefined trait sets that group related traits for common use cases, such as color change or image lookups."}
+{"id": "/documentation/uikit/automatic-observation-tracking", "law": "Use automatic observation tracking to update your views in response to model object changes without manually invalidating views."}
+{"id": "/documentation/uikit/updating-views-automatically-with-observation-tracking-in-uikit", "law": "To get automatic observation tracking in iOS 18, use ."}
+{"id": "/documentation/uikit/updating-views-automatically-with-observation-tracking-in-uikit", "law": "Use for configuring content and styling, such as putting text in labels and adjusting colors based on data."}
+{"id": "/documentation/uikit/updating-views-automatically-with-observation-tracking-in-uikit", "law": "The following example shows a badge view that updates its count without triggering layout: By using instead of , you avoid re-running layout code when the badge count changes."}
+{"id": "/documentation/uikit/updating-views-automatically-with-observation-tracking-in-uikit", "law": "Use Swift Observation and automatic tracking to update your views in response to model data updates."}
+{"id": "/documentation/uikit/updating-your-app-from-32-bit-to-64-bit-architecture", "law": "Eliminate assumptions about type size and alignment in structures, and use explicit data types."}
+{"id": "/documentation/uikit/updating-your-app-from-32-bit-to-64-bit-architecture", "law": "With pointer usage addressed, your app should be stable and you can focus on performance and optimize accordingly: ."}
+{"id": "/documentation/uikit/automatic-trait-tracking", "law": "Automatic trait tracking is a UIKit feature that eliminates the need to manually register for trait changes when you use traits in a supported method or closure."}
+{"id": "/documentation/uikit/automatic-trait-tracking", "law": "These methods support automatic trait tracking, and automatic observation tracking on objects that use the macro."}
+{"id": "/documentation/uikit/automatic-trait-tracking", "law": "Avoid causing excessive updates by avoiding changes in that update properties the object tracks in , or that invalidate the view’s layout."}
+{"id": "/documentation/uikit/automatic-trait-tracking", "law": "Reduce the need to manually register for trait changes when you use traits within a method or closure that supports automatic trait tracking."}
+{"id": "/documentation/uikit/uisceneclosureconfirmation", "law": "Use a with style to replace the “Close” button, or style to replace the “Cancel” button."}
+{"id": "/documentation/uikit/uiscene/title", "law": "Set this property to an empty string if you don’t want the app switcher to display anything for the scene."}
+{"id": "/documentation/uikit/uitooltipconfiguration/sourcerect-8zvo1", "law": "The region of the view or control where the pointer must hover to trigger the appearance of the tooltip."}
+{"id": "/documentation/uikit/uitooltipconfiguration/sourcerect-iltv", "law": "The region of the view or control where the pointer must hover to trigger the appearance of the tooltip."}
+{"id": "/documentation/uikit/uitraitcollection/toolbaritempresentationsize", "law": "Use this trait to make any necessary adjustments to your custom view when the trait collection changes, such as when the toolbar switches to a new display mode."}
+{"id": "/documentation/uikit/uigesturerecognizerdelegate/gesturerecognizer(_:shouldberequiredtofailby:)", "law": "Asks the delegate if a gesture recognizer should be required to fail by another gesture recognizer."}
+{"id": "/documentation/uikit/uigesturerecognizerdelegate/gesturerecognizer(_:shouldrequirefailureof:)", "law": "Asks the delegate if a gesture recognizer should require another gesture recognizer to fail."}
+{"id": "/documentation/uikit/uigesturerecognizerdelegate/gesturerecognizer(_:shouldreceive:)-73vzu", "law": "Asks the delegate if a gesture recognizer should receive an object representing a press."}
+{"id": "/documentation/uikit/uigesturerecognizerdelegate/gesturerecognizer(_:shouldreceive:)-evxd", "law": "Asks the delegate if a gesture recognizer should receive an object representing a touch or press event."}
+{"id": "/documentation/uikit/uigesturerecognizerdelegate/gesturerecognizer(_:shouldrecognizesimultaneouslywith:)", "law": "Asks the delegate if two gesture recognizers should be allowed to recognize gestures simultaneously."}
+{"id": "/documentation/uikit/uigesturerecognizerdelegate/gesturerecognizershouldbegin(_:)", "law": "Asks the delegate if a gesture recognizer should begin interpreting touches."}
+{"id": "/documentation/uikit/uicolorpickerviewcontroller/maximumlinearexposure", "law": "The maximum exposure to apply to a color when returned by the color picker."}
+{"id": "/documentation/uikit/uicolorwell/maximumlinearexposure", "law": "The maximum exposure to apply to a color when returned by the color well."}
+{"id": "/documentation/uikit/uicolorwell/title", "law": "Use this property to explain what kind of color to pick, like “Stroke Color” or “Fill Color”."}
+{"id": "/documentation/uikit/uidatepicker/calendar", "law": "The calendar to use for the date picker."}
+{"id": "/documentation/uikit/uidatepicker/countdownduration", "law": "Use this property to get and set the currently selected value when the date picker’s mode property is set to ."}
+{"id": "/documentation/uikit/uidatepicker/date", "law": "Setting this property animates the date picker by spinning the wheels to the new date and time; if you don’t want any animation to occur when you set the date, use the method, passing for the parameter."}
+{"id": "/documentation/uikit/uidatepicker/datepickermode", "law": "Use this property to change the type of information displayed by the date picker."}
+{"id": "/documentation/uikit/uidatepicker/maximumdate", "law": "Use this property to configure the maximum date that’s selected in the date picker interface."}
+{"id": "/documentation/uikit/uidatepicker/maximumdate", "law": "The maximum date that a date picker can show."}
+{"id": "/documentation/uikit/uidatepicker/minimumdate", "law": "Use this property to configure the minimum date that’s selected in the date picker interface."}
+{"id": "/documentation/uikit/uidatepicker/minimumdate", "law": "The minimum date that a date picker can show."}
+{"id": "/documentation/uikit/uidatepicker/minuteinterval", "law": "The interval at which the date picker should display minutes."}
+{"id": "/documentation/uikit/uidatepicker/mode", "law": "You can also use it to specify the appearance of a countdown timer."}
+{"id": "/documentation/uikit/uidatepicker/mode/countdowntimer", "law": "The application must set a timer to fire at the proper interval and set the date picker as the seconds tick down."}
+{"id": "/documentation/uikit/uidatepicker/timezone", "law": "The default value is , which tells the date picker to use the current time zone as returned by ( ) or the time zone used by the date picker’s calendar."}
+{"id": "/documentation/uikit/uifontpickerviewcontroller/configuration-swift.class/includefaces", "law": "A Boolean value that determines whether the font picker should allow the user to select from font faces, or just font families."}
+{"id": "/documentation/uikit/uifontpickerviewcontroller/configuration-swift.property", "law": "Settings for fonts the font picker should offer to the user and how to display those fonts."}
+{"id": "/documentation/uikit/uifontpickerviewcontroller/selectedfontdescriptor", "law": "This font descriptor does not include a size attribute, so if you want to use this descriptor as a parameter in , you also need a size parameter greater than ."}
+{"id": "/documentation/uikit/uipagecontrol/pageindicatortintcolor", "law": "It is recommended (but not required) that the color you specify for this parameter contains some transparency–i.e."}
+{"id": "/documentation/uikit/uipagecontrol/pageindicatortintcolor", "law": "the alpha value should be less than 1.0."}
+{"id": "/documentation/uikit/uipagecontrol/size(fornumberofpages:)", "law": "Subclasses that customize the appearance of the page control can use this method to resize the page control when the page count changes."}
+{"id": "/documentation/uikit/uipickerviewdatasource", "law": "The data source of a object must adopt this protocol to mediate between the picker view object and your app’s data model for that picker view."}
+{"id": "/documentation/uikit/uipickerviewdelegate", "law": "The delegate of a object must adopt this protocol and implement at least some of its methods to provide the picker view with the data it needs to construct itself."}
+{"id": "/documentation/uikit/uipickerviewdelegate", "law": "However, to use a picker view, you must implement either the or the method to provide the content of component rows."}
+{"id": "/documentation/uikit/uisegmentedcontrol/ismomentary", "law": "If it’s set to , segments in the control don’t show selected state and don’t update the value of after tracking ends."}
+{"id": "/documentation/uikit/uisegmentedcontrol/selectedsegmenttintcolor", "law": "The color to use for highlighting the currently selected segment."}
+{"id": "/documentation/uikit/uisegmentedcontrol/setbackgroundimage(_:for:barmetrics:)", "law": "To adjust the margin, use the margin adjustment methods."}
+{"id": "/documentation/uikit/uisegmentedcontrol/setbackgroundimage(_:for:barmetrics:)", "law": "The segmented control uses this state for other states that don’t have a custom value set."}
+{"id": "/documentation/uikit/uisegmentedcontrol/setcontentpositionadjustment(_:forsegmenttype:barmetrics:)", "law": "You use this method to adjust the position of a title or image within the given segment of a segmented control."}
+{"id": "/documentation/uikit/uislider/currentmaximumtrackimage", "law": "The active control state determines which maximum track image is stored in this property."}
+{"id": "/documentation/uikit/uislider/currentmaximumtrackimage", "law": "To get the maximum track image for a different control state, use the method."}
+{"id": "/documentation/uikit/uislider/currentmaximumtrackimage", "law": "In that situation, the slider uses the default maximum track image for drawing."}
+{"id": "/documentation/uikit/uislider/currentmaximumtrackimage", "law": "Contains the maximum track image currently being used to render the slider."}
+{"id": "/documentation/uikit/uislider/currentminimumtrackimage", "law": "The active control state determines which minimum track image is stored in this property."}
+{"id": "/documentation/uikit/uislider/currentminimumtrackimage", "law": "To get the minimum track image for a different control state, use the method."}
+{"id": "/documentation/uikit/uislider/currentminimumtrackimage", "law": "In that situation, the slider uses the default minimum track image for drawing."}
+{"id": "/documentation/uikit/uislider/currentminimumtrackimage", "law": "The minimum track image currently being used to render the slider."}
+{"id": "/documentation/uikit/uislider/currentthumbimage", "law": "To get the thumb image for a different control state, use the method."}
+{"id": "/documentation/uikit/uislider/maximumtrackimage(for:)", "law": "Returns the maximum track image associated with the specified control state."}
+{"id": "/documentation/uikit/uislider/maximumtracktintcolor", "law": "Setting this property resets the maximum track images back to the slider’s default images; any custom images are released by the slider."}
+{"id": "/documentation/uikit/uislider/maximumtracktintcolor", "law": "Setting this property to resets the tint color to the default and removes any custom maximum track images."}
+{"id": "/documentation/uikit/uislider/maximumtracktintcolor", "law": "The color used to tint the default maximum track images."}
+{"id": "/documentation/uikit/uislider/maximumvalue", "law": "Use this property to set the value that the trailing end of the slider represents."}
+{"id": "/documentation/uikit/uislider/maximumvalue", "law": "If you change the value of this property, and the current value of the slider is above the new maximum, the slider adjusts the property to match the new maximum."}
+{"id": "/documentation/uikit/uislider/maximumvalue", "law": "If you set the maximum value to a value smaller than the minimum, the slider updates the minimum value to equal the maximum."}
+{"id": "/documentation/uikit/uislider/maximumvalue", "law": "The maximum value of the slider."}
+{"id": "/documentation/uikit/uislider/maximumvalueimage", "law": "Because maximum is a semantic concept, in a right-to-left interface, the slider automatically flips the image placement, always placing it at the trailing end of the slider’s track."}
+{"id": "/documentation/uikit/uislider/maximumvalueimage", "law": "The image representing the slider’s maximum value."}
+{"id": "/documentation/uikit/uislider/maximumvalueimagerect(forbounds:)", "law": "If you make x-axis adjustments, be sure to take into account the automatic flipping of in a right-to-left user interface; the maximum image is always shown at the trailing end of the slider’s track."}
+{"id": "/documentation/uikit/uislider/minimumtrackimage(for:)", "law": "Returns the minimum track image associated with the specified control state."}
+{"id": "/documentation/uikit/uislider/minimumtracktintcolor", "law": "Setting this property resets the minimum track images back to the slider’s default images; the slider releases any custom images."}
+{"id": "/documentation/uikit/uislider/minimumtracktintcolor", "law": "Setting this property to resets the tint color to the default and removes any custom minimum track images."}
+{"id": "/documentation/uikit/uislider/minimumtracktintcolor", "law": "The color used to tint the default minimum track images."}
+{"id": "/documentation/uikit/uislider/minimumvalue", "law": "Use this property to set the value that the leading end of the slider represents."}
+{"id": "/documentation/uikit/uislider/minimumvalue", "law": "If you change the value of this property, and the current value of the slider is below the new minimum, the slider adjusts the property to match the new minimum."}
+{"id": "/documentation/uikit/uislider/minimumvalue", "law": "If you set the minimum value to a value larger than the maximum, the slider updates the maximum value to equal the minimum."}
+{"id": "/documentation/uikit/uislider/minimumvalue", "law": "The minimum value of the slider."}
+{"id": "/documentation/uikit/uislider/minimumvalueimage", "law": "Because minimum is a semantic concept, in a right-to-left user interface, the slider automatically flips the image placement, always placing it at the leading end of the slider’s track."}
+{"id": "/documentation/uikit/uislider/minimumvalueimage", "law": "The image that represents the slider’s minimum value."}
+{"id": "/documentation/uikit/uislider/minimumvalueimagerect(forbounds:)", "law": "If you make x-axis adjustments, be sure to take into account the automatic flipping of in a right-to-left user interface; the minimum image is always shown at the leading end of the slider’s track."}
+{"id": "/documentation/uikit/uislider/preferredbehavioralstyle", "law": "Use this property to specify the behavioral style for the slider."}
+{"id": "/documentation/uikit/uislider/setmaximumtrackimage(_:for:)", "law": "Because the movement of the slider’s thumb changes the width of the area occupied by the maximum track image, the image width must change accordingly."}
+{"id": "/documentation/uikit/uislider/setmaximumtrackimage(_:for:)", "law": "When you specify a custom maximum track image, the slider ignores the custom maximum track tint color, if any."}
+{"id": "/documentation/uikit/uislider/setmaximumtrackimage(_:for:)", "law": "If you use images to customize the appearance of the track, then the slider doesn’t apply the dynamic effects or alter the appearance."}
+{"id": "/documentation/uikit/uislider/setmaximumtrackimage(_:for:)", "law": "Assigns a maximum track image to the specified control states."}
+{"id": "/documentation/uikit/uislider/setminimumtrackimage(_:for:)", "law": "Because the movement of the slider’s thumb changes the width of the area occupied by the minimum track image, the image width changes accordingly."}
+{"id": "/documentation/uikit/uislider/setminimumtrackimage(_:for:)", "law": "When you specify a custom minimum track image, the slider ignores the custom minimum track tint color, if any."}
+{"id": "/documentation/uikit/uislider/setminimumtrackimage(_:for:)", "law": "If you use images to customize the appearance of the track, then the slider doesn’t apply the dynamic effects or alter the appearance."}
+{"id": "/documentation/uikit/uislider/setminimumtrackimage(_:for:)", "law": "Assigns a minimum track image to the specified control states."}
+{"id": "/documentation/uikit/uislider/setthumbimage(_:for:)", "law": "If you use images to customize the appearance of the track, then the slider doesn’t apply the dynamic effects or alter the appearance."}
+{"id": "/documentation/uikit/uislider/setvalue(_:animated:)", "law": "If you specify a value that is beyond the minimum or maximum values, the slider limits the value to the minimum or maximum."}
+{"id": "/documentation/uikit/uislider/setvalue(_:animated:)", "law": "For example, if the minimum value is 0.0 and you specify -1.0, the slider sets the property to 0.0."}
+{"id": "/documentation/uikit/uislider/thumbrect(forbounds:trackrect:value:)", "law": "The rectangle you return must reflect the size of your thumb image and its current position on the slider’s track."}
+{"id": "/documentation/uikit/uislider/value", "law": "Use this property to get and set the slider’s current value."}
+{"id": "/documentation/uikit/uislider/value", "law": "To render an animated transition from the current value to the new value, use the method instead."}
+{"id": "/documentation/uikit/uistackview/spacing", "law": "It represents the minimum spacing for the and distributions."}
+{"id": "/documentation/uikit/uistepper/setdecrementimage(_:for:)", "law": "Sets the image to use for the decrement glyph of the control."}
+{"id": "/documentation/uikit/uistepper/setincrementimage(_:for:)", "law": "Sets the image to use for the increment glyph of the control."}
+{"id": "/documentation/uikit/uitextfield/adjustsfontsizetofitwidth", "law": "If this property is set to , however, and the contents in the property exceed the text field’s bounding rectangle, the receiver starts reducing the font size until the string fits or the minimum font size is reached."}
+{"id": "/documentation/uikit/uitextfield/adjustsfontsizetofitwidth", "law": "If you change it to , you should also set an appropriate minimum font size by modifying the property."}
+{"id": "/documentation/uikit/uitextfield/inputaccessoryview", "law": "For example, you could use this property to attach a custom toolbar to the keyboard."}
+{"id": "/documentation/uikit/uitextfield/minimumfontsize", "law": "When drawing text that might not fit within the bounding rectangle of the text field, you can use this property to prevent the receiver from reducing the font size to the point where it is no longer legible."}
+{"id": "/documentation/uikit/uitextfield/minimumfontsize", "law": "If you enable font adjustment for the text field, you should always increase this value."}
+{"id": "/documentation/uikit/uitextfield/minimumfontsize", "law": "If you are using styled text in iOS 6 or later, assigning a new value to this property causes the minimum font size to be applied to the entirety of the string in the property."}
+{"id": "/documentation/uikit/uitextfield/minimumfontsize", "law": "If you want to apply different minimum font sizes to different parts of your string, create a new attributed string with the desired style information and associate it with the text field."}
+{"id": "/documentation/uikit/uitextfield/rightview", "law": "If your right overlay view overlaps a sibling view, such as the clear button, you must use the to implement proper behavior."}
+{"id": "/documentation/uikit/uitextfielddelegate", "law": "You use these methods to validate text that was typed by the user, to respond to specific interactions with the keyboard, and to control the overall editing process."}
+{"id": "/documentation/uikit/uitextfielddelegate/textfieldshouldreturn(_:)", "law": "if the text field should implement its default behavior for the return button; otherwise, ."}
+{"id": "/documentation/uikit/uitextfielddelegate/textfieldshouldreturn(_:)", "law": "You can use this method to implement any custom behavior when the button is tapped."}
+{"id": "/documentation/uikit/uitoolbar-legacy-customizations", "law": "You may continue to use these legacy accessors to customize your toolbar’s appearance directly, but you must update the appearance for different bar configurations yourself."}
+{"id": "/documentation/uikit/uitoolbar/compactappearance", "law": "The appearance settings to use for a compact-height toolbar."}
+{"id": "/documentation/uikit/uitoolbar/items", "law": "Use the method to animate changes."}
+{"id": "/documentation/uikit/uitoolbar/standardappearance", "law": "The appearance settings to use for a standard-height toolbar."}
+{"id": "/documentation/UIKit/UISaveVideoAtPathToSavedPhotosAlbum(_:_:_:_:)", "law": "When you use this function with an image picker controller, you’d typically call it within your delegate method implementation."}
+{"id": "/documentation/UIKit/preserving-your-app-s-ui-across-launches", "law": "If you don’t use storyboards, or if you want more control over the creation and initialization of your view controllers, you can create them yourself."}
+{"id": "/documentation/UIKit/creating-a-custom-keyboard", "law": "If you support multiple languages that require different keyboard layout or functionality, repeat the steps above to add additional custom keyboard targets for each language."}
+{"id": "/documentation/UIKit/creating-a-custom-keyboard", "law": "Use the property on to determine if you should display a button to switch keyboards."}
+{"id": "/documentation/UIKit/creating-a-custom-keyboard", "law": "Your keyboard should also be flexible with the layout because the width of the keyboard can vary, even while it’s currently on screen."}
+{"id": "/documentation/UIKit/creating-a-custom-keyboard", "law": "All keyboards should support both compact and regular widths and allow for transitioning between the two."}
+{"id": "/documentation/UIKit/UIPrintInteractionController", "law": "When users tap a print button on the app’s user interface, a controller object of the app should respond to the action message by obtaining the shared instance of and preparing it for the print job."}
+{"id": "/documentation/UIKit/UIGraphicsImageRenderer", "law": "You can use image renderers to accomplish drawing tasks, without having to handle configuration such as color depth and image scale, or manage Core Graphics contexts."}
+{"id": "/documentation/UIKit/UIImageView", "law": "For animated images, you can also use the methods of this class to start and stop the animation and specify other animation parameters."}
+{"id": "/documentation/UIKit/UIImageView", "law": "The performance impact is further magnified if you use Core Animation shadows, because the shape of the shadow is then based on the contents of the view and must be dynamically computed."}
+{"id": "/documentation/UIKit/UIImageView", "law": "Once assigned, you can use the methods and properties of this class to configure the animation timing and to start and stop the animation."}
+{"id": "/documentation/UIKit/UIImageView", "law": "Consider the following tips when displaying a sequence of animated images: All images in the sequence should have the same size."}
+{"id": "/documentation/UIKit/UIImageView", "law": "After doing that, you can attach gesture recognizers or use any other event handling techniques to respond to touch events or other user-initiated events."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "Wherever your app’s interface uses bitmap images, make sure those images look good in both light and dark appearances."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "An alternative to creating bitmap images is to use template images or symbol images instead."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "Create image assets in Xcode, and use the Appearance attributes to configure which variants you want to supply."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "Use the Any Appearance slots to support older versions of macOS or iOS."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "In iOS, tvOS, and watchOS, use symbol images in places where you would usually combine images and text to form icons."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "A symbol image is a vector-based image that you use in places where you want to display a simple shape or glyph."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "For example, use symbol images in bar button items or in places where you want to combine an icon with a description."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "The system provides a library of images for you to use, and you can create new symbol images for any custom iconography your app requires."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "For information about how to create and use symbol images, see ."}
+{"id": "/documentation/UIKit/providing-images-for-different-appearances", "law": "Typically, you use template images to represent iconic shapes."}
+{"id": "/documentation/UIKit/UIFont", "law": "Use to access your font’s characteristics within your app."}
+{"id": "/documentation/UIKit/UIFont", "law": "Font objects are immutable, so it’s safe to use them from multiple threads in your app."}
+{"id": "/documentation/UIKit/UIFont", "law": "In Objective-C, don’t create font objects using the and methods."}
+{"id": "/documentation/UIKit/UIFont", "law": "Instead, use class methods of , such as , to look up and retrieve the desired font object."}
+{"id": "/documentation/UIKit/UIFontDescriptor", "law": "You can use to find all the available fonts in the system with a matching family name."}
+{"id": "/documentation/UIKit/UIFontDescriptor", "law": "To take advantage of text styles and respect the user’s current content size category, use ."}
+{"id": "/documentation/UIKit/UIFontDescriptor", "law": "You can also use and , , , or to create a font descriptor based on your custom attributes dictionary or on a specific font’s name and size."}
+{"id": "/documentation/UIKit/UIFontPickerViewController", "law": "Use a to provide the user access to all the fonts on their device."}
+{"id": "/documentation/uikit/uigraphicsimagerenderer", "law": "You can use image renderers to accomplish drawing tasks, without having to handle configuration such as color depth and image scale, or manage Core Graphics contexts."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:finish:for:in:completion:)", "law": "Use this method to clean up any data structures you created to support the specified type of Writing Tools animation."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:finish:for:in:completion:)", "law": "In your implementation of this method, make sure the actions you take don’t interfere with other in-flight animations."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:preparefor:for:in:completion:)", "law": "Use this method to prepare for the system-provided animations of your view’s content."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:preparefor:for:in:completion:)", "law": "For animations to remove or insert text, you can also use this method to set up animations to reflow your view’s content to match the changes."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:preparefor:for:in:completion:)", "law": "At the end of a given animation, use your delegate’s method to undo any changes you make to your content."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:replace:in:proposedtext:reason:animationparameters:completion:)", "law": "If you need to modify other parts of your interface to reflect the changes, use the provided object to create additional animations to run at the same time as the system-provided animations."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:willchangeto:completion:)", "law": "Use state transitions to perform actions related to your view or text storage."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/updateforreflowedtextincontextwithidentifier(_:)", "law": "Changes to the view’s geometry or text can affect the flow of any remaining text, and require a layout update."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/updateforreflowedtextincontextwithidentifier(_:)", "law": "Informs the coordinator that a change occurred to the view or its text that requires a layout update."}
+{"id": "/documentation/uikit/encrypting-your-app-s-files", "law": "The file is always accessible."}
+{"id": "/documentation/UIKit/NSCollectionLayoutDimension/uniformAcrossSiblings(estimate:)", "law": "Only use this dimension in layouts where the number of items is relatively small."}
+{"id": "/documentation/UIKit/NSTextViewportRenderingSurfaceKey", "law": "Two types conform to this protocol by default: — Use a layout fragment as a key to cache a rendering surface per fragment."}
+{"id": "/documentation/UIKit/UICollectionLayoutListConfiguration-swift.struct", "law": "Use this configuration to create a list section for a compositional layout ( ), or a layout containing only list sections."}
+{"id": "/documentation/UIKit/UIColorPickerViewController", "law": "Use this class instead of if you need more fine-grained control over the presentation."}
+{"id": "/documentation/UIKit/UIDocumentViewController", "law": "When you aren’t presenting documents from a , displays a button that, when tapped, presents a picker a person can use to choose the document to display."}
+{"id": "/documentation/UIKit/UIDocumentViewController", "law": "If you want undo and redo buttons to appear in your , add a to the navigation bar and ensure that your custom implements an undo manager."}
+{"id": "/documentation/UIKit/UIDragInteraction/allowsPointerDragBeforeLiftDelay", "law": "When this property is , a pointer-initiated drag begins as soon as the pointer crosses the minimum movement threshold, regardless of whether the lift delay has elapsed."}
+{"id": "/documentation/UIKit/UIDragInteraction/allowsPointerDragBeforeLiftDelay", "law": "When this property is , a pointer-initiated drag waits for the lift delay to elapse before checking whether the pointer has crossed the minimum movement threshold."}
+{"id": "/documentation/UIKit/UIDragInteraction/allowsPointerDragBeforeLiftDelay", "law": "For touch-based gesture timing, use ."}
+{"id": "/documentation/UIKit/UIRefreshControl", "law": "You use that notification to update your content and dismiss the refresh control."}
+{"id": "/documentation/UIKit/UIRefreshControl", "law": "Use your action method to update your content, and call the refresh control’s method when you’re done."}
+{"id": "/documentation/UIKit/UITextAttachmentViewProviderReusePolicy", "law": "Use to keep a provider when someone edits the paragraph containing it; on the next layout pass, the text view reuses it instead of creating a new one, which prevents visible flicker when someone types near an attachment."}
+{"id": "/documentation/UIKit/UIUpdateLink", "law": "Use a UI update link when you need precise and predictable control over the UI update process."}
+{"id": "/documentation/UIKit/UIViewController/Transition/zoom(options:sourceViewProvider:)", "law": "In the closure, return the that the animation should zoom in from or zoom back out to, respectively."}
+{"id": "/documentation/UIKit/UIViewController/preferredTransition", "law": "Use this property to define which transition the system uses when you present a view controller."}
+{"id": "/documentation/UIKit/UIViewController/viewIsAppearing(_:)", "law": "Use only when: You need a callback before the view transition begins, such as when accessing the to add alongside animations."}
+{"id": "/documentation/UIKit/UIViewController/viewIsAppearing(_:)", "law": "However, the system calls only once during the appearance transition, and calls it even if the view doesn’t require laying out when it appears."}
+{"id": "/documentation/uikit/uiaccessibility-protocol", "law": "Assistive apps, such as VoiceOver, convey this information to users with disabilities to help them use the app."}
+{"id": "/documentation/uikit/uiaccessibility/converttoscreencoordinates(_:in:)-6dx4a", "law": "This function adjusts the points of the path you provide to values that the accessibility system can use."}
+{"id": "/documentation/uikit/uiaccessibility/converttoscreencoordinates(_:in:)-6dx4a", "law": "You can use it to convert path objects in use by your app’s user interface before handing them to the accessibility system."}
+{"id": "/documentation/uikit/uiaccessibility/converttoscreencoordinates(_:in:)-9ziiu", "law": "Use this function to convert accessibility frame rectangles to screen coordinates."}
+{"id": "/documentation/uikit/uiaccessibility/isvoiceoverrunning", "law": "You can use this function to customize your app’s UI specifically for VoiceOver users."}
+{"id": "/documentation/uikit/uiaccessibility/preferscrossfadetransitions", "law": "A Boolean value that indicates whether the Reduce Motion and the Prefer Cross-Fade Transitions settings are in an enabled state."}
+{"id": "/documentation/uikit/uiaccessibility/registergestureconflictwithzoom()", "law": "Use this function if your application uses multi-finger gestures that conflict with the gestures used by system Zoom (that is, three-finger gestures)."}
+{"id": "/documentation/uikit/uiaccessibilitycontainer", "law": "Provide a set of methods that view subclasses use to make subcomponents accessible as separate elements."}

@@ -90,3 +90,7 @@
 {"id": "/documentation/uikit/uiimage/imagewithcgimage:", "sha": "948868a582aa9d515684f864c51100942e4a267b968ce446590a843efe91a77b", "t": "imageWithCGImage:", "n": 377, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
 {"id": "/documentation/uikit/uicollectionviewlayout/init()", "sha": "2deda890e1fada579f50871df3420fcca146d86af1e63cb23b1e057a3982b4f2", "t": "init()", "n": 102, "laws": 0, "ts": "2026-07-31 06:09 UTC"}
 {"id": "/documentation/uikit/uitextview/selectedranges-3hvsl", "sha": "41d8008ac61b26a4af951f4a501e99d80a4cdae45bce3f18c405a9ab0bd71be2", "t": "selectedRanges", "n": 671, "laws": 0, "ts": "2026-07-31 06:22 UTC"}
+{"id": "/documentation/gamecontroller/gamecontroller_export", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "GAMECONTROLLER_EXPORT", "n": 0, "laws": 0, "ts": "2026-07-31 07:12 UTC"}
+{"id": "/documentation/uikit/uitooltipconfiguration/init(tooltip:in:)", "sha": "4082f64c72a126389b62f5902be9110322045df90aa1e2de555fe6c82379e1c5", "t": "init(toolTip:in:)", "n": 518, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
+{"id": "/documentation/uikit/uimanageddocument/persistentstorename", "sha": "148c1cda56c37ba189274dee98b34e333f43291308cdc56fa6b745d3ff46c278", "t": "persistentStoreName", "n": 275, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
+{"id": "/documentation/uikit/nsadaptiveimageglyphattributename", "sha": "48d38a5c0fc5c0a81f63c50d9ba72536dec834eddc8c7850f4ff334a8cc76238", "t": "NSAdaptiveImageGlyphAttributeName", "n": 184, "laws": 0, "ts": "2026-07-31 07:39 UTC"}

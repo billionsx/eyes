@@ -101,3 +101,7 @@
 {"id": "/documentation/avkit/avplayerview/videobounds", "sha": "9b28af358427c28098e0378b2d883ef1afefd661c65a9530409f856bf308eb56", "t": "videoBounds", "n": 345, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
 {"id": "/documentation/uikit/uidocumentpickerviewcontroller/init(urls:in:)", "sha": "6fbf1af5c8ea40bb2ac08e794f1170f4fabbf5ea27f0d02c95e4c146675ee032", "t": "init(urls:in:)", "n": 531, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
 {"id": "/documentation/uikit/uibezierpath/init(ovalin:)", "sha": "729af54d5ca4768e0db9f7926f1f41ba88ad992df186527ad6e56f487da53a11", "t": "init(ovalIn:)", "n": 427, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
+{"id": "/documentation/uikit/uitextview/textdidbegineditingmessage", "sha": "c248ae0cc74c223a7f0d2d71a42b1e5b3079b39bb980b5ee60840604730244a8", "t": "UITextView.TextDidBeginEditingMessage", "n": 65, "laws": 0, "ts": "2026-07-31 07:16 UTC"}
+{"id": "/documentation/uikit/uicollectionviewdiffabledatasourcereference/sectionidentifier(for:)", "sha": "813bc8f770b9924ddef6b313ba67e36431d5d2fcbc28d911076d2213418c0359", "t": "sectionIdentifier(for:)", "n": 86, "laws": 0, "ts": "2026-07-31 07:23 UTC"}
+{"id": "/documentation/uikit/uitextformattingcoordinator/delegate", "sha": "7a7d59f1249ca74fc2b4ed29ebbfaf3588e38d1ef48162a3aeb98a3d5066b6c6", "t": "delegate", "n": 48, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/uikit/uitoolbar/setitems(_:animated:)", "sha": "57c29496da09dc571e20bdde967ec0cd1ba64cba2f7bc9ed77cc3e15bac27469", "t": "setItems(_:animated:)", "n": 244, "laws": 0, "ts": "2026-07-31 07:38 UTC"}

@@ -107,3 +107,9 @@
 {"id": "/documentation/mediaplayer/mpmediaitempropertyartwork", "sha": "9f8cd6f0a4664d11905fc34b0174174a4e59d9cc61a1466c0d312ff541400451", "t": "MPMediaItemPropertyArtwork", "n": 100, "laws": 0, "ts": "2026-07-31 05:58 UTC"}
 {"id": "/documentation/uikit/uigraphicsgetimagefromcurrentimagecontext()", "sha": "02c33cde257f2b8db38bc247c246339a7f65df72ef7ac976aae40f9ca1676d24", "t": "UIGraphicsGetImageFromCurrentImageContext()", "n": 435, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
 {"id": "/documentation/uikit/uiimage/traitcollection", "sha": "681f6a6433b75909dc62ca9de96aaeea47a3d67c70995f20ba5103f66ef83646", "t": "traitCollection", "n": 69, "laws": 0, "ts": "2026-07-31 06:06 UTC"}
+{"id": "/documentation/uikit/uievent/eventtype", "sha": "41417de34aebd19ab987d1bcdf7d667b67f14619472abafa0b6ce1ca1069c975", "t": "UIEvent.EventType", "n": 471, "laws": 0, "ts": "2026-07-31 07:19 UTC"}
+{"id": "/documentation/uikit/uievent/timestamp", "sha": "9e198ecda2d7156fa17fac0962b5285fe9b12b55384787721dff6272c2d9fb85", "t": "timestamp", "n": 218, "laws": 0, "ts": "2026-07-31 07:19 UTC"}
+{"id": "/documentation/uikit/uifocusguide/preferredfocusenvironments", "sha": "d37bce2d45b63c3cbfaa79e30b330098b8859161765328467c1d8173dc36c5d7", "t": "preferredFocusEnvironments", "n": 378, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
+{"id": "/documentation/uikit/uifocuseffect", "sha": "90e0b75db574399039dc470a262c0da3346466a04f0c7967a0d742c4a5d3ab1e", "t": "UIFocusEffect", "n": 50, "laws": 0, "ts": "2026-07-31 07:28 UTC"}
+{"id": "/documentation/uikit/uiscene/delegate", "sha": "878bd68a10847447464742da54d39b97f83322d8cc6fdbe43dbc1a8340d1f5bd", "t": "delegate", "n": 319, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
+{"id": "/documentation/uikit/uislider/minimumtracktintcolor", "sha": "9813a859ddafc4d8ffd9ebb035b0c607cb800a0a41224cf00f5d41e309d61517", "t": "minimumTrackTintColor", "n": 431, "laws": 3, "ts": "2026-07-31 07:36 UTC"}

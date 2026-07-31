@@ -105,3 +105,6 @@
 {"id": "/documentation/uikit/uiimage/draw(at:)", "sha": "4b3713646cc56cecb6e4ebbceb7937729f9e05ed9de3f315e470e9b9150cb70e", "t": "draw(at:)", "n": 440, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
 {"id": "/documentation/uikit/uifont/ascender", "sha": "3fffa990ae3932f13f32cff74fc4cba2ac0ae7f5c27dbde9da274fb96415b240", "t": "ascender", "n": 135, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
 {"id": "/documentation/uikit/nstextlayoutmanager/limitslayoutforsuspiciouscontents", "sha": "d50fdad2baaa0426b0d14ac74b88aa3543ac34f958b4a4af2e44623eb3f13acf", "t": "limitsLayoutForSuspiciousContents", "n": 276, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
+{"id": "/design/human-interface-guidelines/progress-indicators", "sha": "8ea86cb422f40519df1384bbb4546fbd06206bec05ebf5e83bdb5012f0196482", "t": "Progress indicators", "n": 6159, "laws": 2, "ts": "2026-07-31 07:10 UTC"}
+{"id": "/documentation/uikit/uigesturerecognizer/allowedpresstypes", "sha": "d8390f5ad8b9f0b1aab0e27cfa936c35c9219b947d0617a71a610b197425c543", "t": "allowedPressTypes", "n": 400, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
+{"id": "/documentation/uikit/uifocusitem/frame", "sha": "153059ca56cef7d3d7dfbbd8d225b67abf65cd5e277465e2fd7df398afebdf22", "t": "frame", "n": 130, "laws": 0, "ts": "2026-07-31 07:28 UTC"}

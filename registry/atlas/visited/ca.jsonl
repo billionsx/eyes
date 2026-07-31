@@ -109,3 +109,9 @@
 {"id": "/documentation/uikit/color-creation", "sha": "a4197a1bcfdfb2aa42ec323505231ddf78b277ebc94cd863f56cd4a40dbe760c", "t": "Color creation", "n": 1088, "laws": 2, "ts": "2026-07-31 06:13 UTC"}
 {"id": "/documentation/uikit/uialertcontroller/addaction(_:)", "sha": "287af10347964366566903a447549ba1b1958b5ea08e90deabe29760857f0d99", "t": "addAction(_:)", "n": 209, "laws": 0, "ts": "2026-07-31 06:14 UTC"}
 {"id": "/documentation/uikit/uitextview/iswritingtoolsactive", "sha": "17b95dee5f8291e98fdb280241cbfdd5811f555b07b21292a78e89bde28e5424", "t": "isWritingToolsActive", "n": 638, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/design/human-interface-guidelines/activity-rings", "sha": "d840fb64b1e923bde9c44d8be8893594d0e84718106da553eaa41acc5e4231eb", "t": "Activity rings", "n": 5118, "laws": 10, "ts": "2026-07-31 07:10 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/dismissmodalviewcontrolleranimated:", "sha": "9d144c7d1851d9ecda697ec48f86037f2985cc13e4548f5fac90cb88f177f7b0", "t": "dismissModalViewControllerAnimated:", "n": 1026, "laws": 0, "ts": "2026-07-31 07:24 UTC"}
+{"id": "/documentation/uikit/uibuttonconfiguration", "sha": "44f0f7935613c058831968ff6171aed527a66ca35133f3d63b7968216776080f", "t": "UIButtonConfiguration", "n": 2023, "laws": 1, "ts": "2026-07-31 07:26 UTC"}
+{"id": "/documentation/uikit/uislider/thumbtintcolor", "sha": "ce0f972d3841d310231942409f6304c486b488368b9ce46c5f3289e0a53902a3", "t": "thumbTintColor", "n": 414, "laws": 0, "ts": "2026-07-31 07:36 UTC"}
+{"id": "/documentation/uikit/uitextfield/textcolor", "sha": "90581ffbc9562598fb0f5799a1814757d64fed172ef072b50b8e79cc50f6ef47", "t": "textColor", "n": 554, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/UIKit/UICalendarView", "sha": "d1eaf5b9c02de5e05839f6e6019434aeb50b905d43d025dfd17ab3835c0ff625", "t": "UICalendarView", "n": 3366, "laws": 0, "ts": "2026-07-31 07:40 UTC"}

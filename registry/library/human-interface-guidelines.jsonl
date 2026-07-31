@@ -801,3 +801,171 @@
 {"id": "/design/human-interface-guidelines/notifications", "law": "When you use , you can choose an existing symbol that represents your command or edit a related symbol to create a custom icon."}
 {"id": "/design/human-interface-guidelines/notifications", "law": "Avoid creating a custom image or component that mimics the appearance or behavior of a badge."}
 {"id": "/design/human-interface-guidelines/notifications", "law": "You can use SwiftUI to create engaging, interruptible animations; alternatively, you can use or ."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "You can help make the process easier by providing usage instructions in your app — for example, you might tell people how to choose your keyboard, activate it during text entry, use it, and switch back to the standard keyboard."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "Use the keyboard layout guide to make the keyboard feel like an integrated part of your interface."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "If your app offers custom controls that augment the keyboard, make sure they’re relevant to the current task."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "If other views in your app use Liquid Glass, or if your view looks out of place above the keyboard, apply Liquid Glass to the view that contains your controls to maintain consistency."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "If you use a standard toolbar to contain your controls, it automatically adopts Liquid Glass."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "Use the keyboard layout guide and standard padding to ensure the system positions your controls as expected within the view."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "A grid keyboard screen appears when people use devices other than the Siri Remote, and the layout of content automatically adapts to the keyboard."}
+{"id": "/design/human-interface-guidelines/virtual-keyboards", "law": "You don’t need to account for the location of the keyboard in your layouts."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "For example, you can supply labels that name items like axes, grid lines, ticks, or marks, and accessibility labels that describe chart elements for people who use assistive technologies."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "When needed, you can also create a legend, which describes chart properties that aren’t related to a mark’s position, such as the use of color or shape to denote different value categories."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "Tailor the appearance of grid lines and labels to a chart’s use cases."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "For example, if people can inspect individual data points by interacting with a chart, you might use fewer grid lines and light label colors to ensure the data remains visually prominent."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "Sometimes, chart marks are too small to target with a finger or a pointer, making your chart hard to use for people with reduced motor control and uncomfortable for everyone."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "The first way is to use accessibility APIs (such as ) to specify a logical and predictable path through your chart’s information."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "Animating such changes can help people notice them, but you need to highlight the changes in other ways, too, to ensure that VoiceOver users and people who turn off animations know about them."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "You might also consider shifting the Y axis to the trailing side of the chart so that its tick labels don’t protrude past the chart’s leading edge."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "Avoid relying solely on color to differentiate between different pieces of data or communicate essential information in a chart."}
+{"id": "/design/Human-Interface-Guidelines/charts", "law": "Using meaningful color in a chart works well to highlight differences and elevate key details, but it’s crucial to include alternative ways to convey this information so that people can use your chart regardless of whether they can discern colors."}
+{"id": "/design/human-interface-guidelines/top-shelf", "law": "The system defines several layout templates that you can use to give people a compelling Top Shelf experience when they select your app in the Dock."}
+{"id": "/design/human-interface-guidelines/top-shelf", "law": "Showing purchasable content in the Top Shelf is fine, but prefer putting the focus on new and exciting content, and consider displaying prices only when people show interest."}
+{"id": "/design/human-interface-guidelines/top-shelf", "law": "A static Top Shelf image isn’t focusable, and you don’t want to make people think it’s interactive."}
+{"id": "/design/human-interface-guidelines/top-shelf", "law": "This layout style doesn’t show labels under content, so all text must be part of the image itself."}
+{"id": "/design/human-interface-guidelines/top-shelf", "law": "Use the following size for a scrolling inset banner image:"}
+{"id": "/design/human-interface-guidelines/charts", "law": "For example, you can supply labels that name items like axes, grid lines, ticks, or marks, and accessibility labels that describe chart elements for people who use assistive technologies."}
+{"id": "/design/human-interface-guidelines/charts", "law": "When needed, you can also create a legend, which describes chart properties that aren’t related to a mark’s position, such as the use of color or shape to denote different value categories."}
+{"id": "/design/human-interface-guidelines/charts", "law": "Tailor the appearance of grid lines and labels to a chart’s use cases."}
+{"id": "/design/human-interface-guidelines/charts", "law": "For example, if people can inspect individual data points by interacting with a chart, you might use fewer grid lines and light label colors to ensure the data remains visually prominent."}
+{"id": "/design/human-interface-guidelines/charts", "law": "Sometimes, chart marks are too small to target with a finger or a pointer, making your chart hard to use for people with reduced motor control and uncomfortable for everyone."}
+{"id": "/design/human-interface-guidelines/charts", "law": "The first way is to use accessibility APIs (such as ) to specify a logical and predictable path through your chart’s information."}
+{"id": "/design/human-interface-guidelines/charts", "law": "Animating such changes can help people notice them, but you need to highlight the changes in other ways, too, to ensure that VoiceOver users and people who turn off animations know about them."}
+{"id": "/design/human-interface-guidelines/charts", "law": "You might also consider shifting the Y axis to the trailing side of the chart so that its tick labels don’t protrude past the chart’s leading edge."}
+{"id": "/design/human-interface-guidelines/charts", "law": "Avoid relying solely on color to differentiate between different pieces of data or communicate essential information in a chart."}
+{"id": "/design/human-interface-guidelines/charts", "law": "Using meaningful color in a chart works well to highlight differences and elevate key details, but it’s crucial to include alternative ways to convey this information so that people can use your chart regardless of whether they can discern colors."}
+{"id": "/design/human-interface-guidelines/image-views", "law": "Both symbols and interface icons can use the accent colors people choose."}
+{"id": "/design/human-interface-guidelines/image-views", "law": "To help improve the results, ensure the text contrasts well with the image, and consider ways to make the text object stand out, like adding a text shadow or background layer."}
+{"id": "/design/human-interface-guidelines/image-views", "law": "Aim to use a consistent size for all images in an animated sequence."}
+{"id": "/design/human-interface-guidelines/image-views", "law": "In cases where the system must do the scaling, performance is generally better when all images are the same size and shape."}
+{"id": "/design/human-interface-guidelines/image-views", "law": "Use an image button instead of an image view to make a clickable image."}
+{"id": "/design/human-interface-guidelines/image-views", "law": "Use SwiftUI to create animations when possible."}
+{"id": "/design/human-interface-guidelines/image-views", "law": "Alternatively, you can use WatchKit to animate a sequence of images within an image element if necessary."}
+{"id": "/design/human-interface-guidelines/text-views", "law": "Although you can use multiple fonts, colors, and alignments in creative ways, it’s essential to maintain the readability of your content."}
+{"id": "/design/human-interface-guidelines/text-views", "law": "Be sure to test your content with accessibility options turned on, such as bold text."}
+{"id": "/design/human-interface-guidelines/web-views", "law": "If people are likely to use your web view to visit multiple pages, allow forward and back navigation, and provide corresponding controls to initiate these features."}
+{"id": "/design/human-interface-guidelines/collections", "law": "Use the standard row or grid layout whenever possible."}
+{"id": "/design/human-interface-guidelines/collections", "law": "Avoid creating a custom layout that might confuse people or draw undue attention to itself."}
+{"id": "/design/human-interface-guidelines/collections", "law": "Use adequate padding around images to keep focus or hover effects easy to see and prevent content from overlapping."}
+{"id": "/design/human-interface-guidelines/collections", "law": "If your app requires it, you can add more gestures for performing custom actions."}
+{"id": "/design/human-interface-guidelines/collections", "law": "Collections support standard animations for these actions, and you can also use custom animations."}
+{"id": "/design/human-interface-guidelines/collections", "law": "Use caution when making dynamic layout changes."}
+{"id": "/design/human-interface-guidelines/collections", "law": "If possible, try to avoid changing the layout while people are viewing and interacting with it, unless it’s in response to an explicit action."}
+{"id": "/design/human-interface-guidelines/labels", "law": "If you adjust the style of a label or use custom fonts, make sure the text remains legible."}
+{"id": "/design/human-interface-guidelines/labels", "law": "Use system-provided label colors to communicate relative importance."}
+{"id": "/design/human-interface-guidelines/lists-and-tables", "law": "Use an info button only to reveal more information about a row’s content."}
+{"id": "/design/human-interface-guidelines/lists-and-tables", "law": "If you need to let people drill into a list or table row’s subviews, use a disclosure indicator accessory control."}
+{"id": "/design/human-interface-guidelines/lists-and-tables", "law": "Avoid adding an index to a table that displays controls — like disclosure indicators — in the trailing ends of its rows."}
+{"id": "/design/human-interface-guidelines/lists-and-tables", "law": "Account for this effect as you prepare images, and don’t add your own masks to round the corners."}
+{"id": "/design/human-interface-guidelines/lockups", "law": "A focused lockup expands in size, so leave enough room between lockups to avoid overlapping or displacing other lockups."}
+{"id": "/design/human-interface-guidelines/lockups", "law": "Make sure that when people focus on them, caption buttons tilt with the motion that they swipe."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "When people use touch interactions to reveal the menu, it uses the compact, horizontal appearance."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "In contrast, when people use a keyboard or pointing device to reveal it, the edit menu opens directly in a context menu."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "In visionOS, people use the standard gesture to open the edit menu as a horizontal bar, or they can open it in a context menu."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "Prefer the system-provided edit menu."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "Although the interactions to reveal an edit menu can differ based on platform, people don’t appreciate having to learn a custom interaction to perform a standard task."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "Like all menus, an edit menu doesn’t require confirmation before performing its actions, so people can easily use undo and redo to recover a previous state."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "In general, avoid implementing other controls that perform the same functions as edit menu items."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "People typically expect to choose familiar edit commands in an edit menu, or use standard keyboard shortcuts."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "Ensure your edit menu works well in both styles."}
+{"id": "/design/human-interface-guidelines/edit-menus", "law": "The system displays the compact, horizontal style when people use Multi-Touch gestures to reveal the edit menu, and the vertical style when people use a keyboard or pointing device to reveal it."}
+{"id": "/design/human-interface-guidelines/path-controls", "law": "Use a path control in the window body, not the window frame."}
+{"id": "/design/human-interface-guidelines/path-controls", "law": "Path controls aren’t intended for use in toolbars or status bars."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "When you use SwiftUI, you can offer action sheet functionality in all platforms by specifying a for a confirmation dialog."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "If you use UIKit, you use the to display an action sheet in iOS, iPadOS, and tvOS."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "Use an action sheet — not an alert — to offer choices related to an intentional action."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "More importantly, an alert is usually unexpected, generally telling people about a problem or a change in the current situation that might require them to act."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "Use action sheets sparingly."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "To encourage people to pay attention to action sheets, avoid using them more than necessary."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "Use the destructive style for buttons that perform destructive actions, and place these buttons at the top of the action sheet where they tend to be most noticeable."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "Use an action sheet — not a menu — to provide choices related to an action."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "People are accustomed to having an action sheet appear when they perform an action that might require clarifying choices."}
+{"id": "/design/human-interface-guidelines/action-sheets", "law": "Avoid letting an action sheet scroll."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "Avoid using an alert merely to provide information."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "People don’t appreciate an interruption from an alert that’s informative, but not actionable."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "Avoid displaying alerts for common, undoable actions, even when they’re destructive."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "For example, you don’t need to alert people about data loss every time they delete an email or file because they do so with the intention of discarding data, and they can undo the action."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "Avoid showing an alert when your app starts."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "In all alert copy, be direct, and use a neutral, approachable tone."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "Alerts often describe problems and serious situations, so avoid being oblique or accusatory, or masking the severity of the issue."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "Avoid explaining alert buttons."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "If your alert text and button titles are clear, you don’t need to explain what the buttons do."}
+{"id": "/design/human-interface-guidelines/alerts", "law": "In rare cases where you need to provide guidance on choosing a button, use a term like choose to account for people’s current device and interaction method, and refer to a button using its exact title without quotes."}
+{"id": "/design/human-interface-guidelines/panels", "law": "Use a panel to give people quick access to important controls or information related to the content they’re working with."}
+{"id": "/design/human-interface-guidelines/panels", "law": "For example, you might use a panel to provide controls or settings that affect the selected item in the active document or window."}
+{"id": "/design/human-interface-guidelines/panels", "law": "In contrast, if you need to present an Info window — which always maintains the same contents, even when the selected item changes — use a regular window, not a panel."}
+{"id": "/design/human-interface-guidelines/panels", "law": "Prefer simple adjustment controls in a panel."}
+{"id": "/design/human-interface-guidelines/panels", "law": "As much as possible, avoid including controls that require typing text or selecting items to act upon because these actions can require multiple steps."}
+{"id": "/design/human-interface-guidelines/panels", "law": "For example, macOS provides familiar panels titled “Fonts” and “Colors,” and many apps use the title “Inspector.” Show and hide panels appropriately."}
+{"id": "/design/human-interface-guidelines/panels", "law": "Avoid including panels in the Window menu’s documents list."}
+{"id": "/design/human-interface-guidelines/panels", "law": "It’s fine to include commands for showing or hiding panels in the , but panels aren’t documents or standard app windows, and they don’t belong in the Window menu’s list."}
+{"id": "/design/human-interface-guidelines/panels", "law": "In general, avoid making a panel’s minimize button available."}
+{"id": "/design/human-interface-guidelines/panels", "law": "For example, the title “Inspector” often supplies enough context to stand on its own, whereas it can be clearer to use “Fonts window” and “Colors window” instead of just “Fonts” and “Colors.”"}
+{"id": "/design/human-interface-guidelines/popovers", "law": "Use a Close button for confirmation and guidance only."}
+{"id": "/design/human-interface-guidelines/popovers", "law": "Make sure nothing displays on top of a popover, except for an alert."}
+{"id": "/design/human-interface-guidelines/popovers", "law": "If you adjust the size of a popover, animate the change to avoid giving the impression that a new popover replaced the old one."}
+{"id": "/design/human-interface-guidelines/popovers", "law": "For example, instead of “Select the Show button at the bottom of the popover,” you might write “Select the Show button.” Avoid using a popover to show a warning."}
+{"id": "/design/human-interface-guidelines/popovers", "law": "Reserve popovers for wide views; for compact views, use all available screen space by presenting information in a full-screen modal view like a sheet instead."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "In macOS, tvOS, visionOS, and watchOS, a sheet is always modal ."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "When a nonmodal sheet is onscreen, people use its functionality to affect the parent view without dismissing the sheet."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "To give people access to information and actions they need while continuing to interact with the main window, consider using a in visionOS or a in macOS; in iOS and iPadOS, you can use a nonmodal sheet for this workflow."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "If you provide a Done button, always pair it with a Cancel button to give people a clear way to dismiss the sheet without confirming or saving their changes, or a Back button to move to a previous step in the sheet."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "Avoid showing all three buttons — Cancel, Done, and Back — together."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "If people have unsaved changes in the sheet when they begin swiping to dismiss it, use an action sheet to let them confirm their action."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "Prefer using the page or form sheet presentation styles in an iPadOS app."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "People don’t generally expect to resize sheets, so it’s important to use a size that’s appropriate for the content you display."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "When people want to interact with other windows in your app, make sure they can bring those windows forward even if they haven’t dismissed the sheet yet."}
+{"id": "/design/human-interface-guidelines/sheets", "law": "Use a panel instead of a sheet if people need to repeatedly provide input and observe results."}
+{"id": "/design/human-interface-guidelines/image-wells", "law": "If your image well supports copy and paste, make sure the standard copy and paste menu items are available."}
+{"id": "/design/human-interface-guidelines/image-wells", "law": "People generally expect to choose these menu items — or use the standard keyboard shortcuts — to interact with an image well."}
+{"id": "/design/human-interface-guidelines/pickers", "law": "Avoid switching views to show a picker."}
+{"id": "/design/human-interface-guidelines/pickers", "law": "Use a compact date picker when space is constrained."}
+{"id": "/design/human-interface-guidelines/segmented-controls", "law": "Use a segmented control to provide closely related choices that affect an object, state, or view."}
+{"id": "/design/human-interface-guidelines/segmented-controls", "law": "Don’t assign actions to segments in a control that otherwise represents selection state, and don’t show a selection state for segments in a control that otherwise performs actions."}
+{"id": "/design/human-interface-guidelines/segmented-controls", "law": "Prefer using either text or images — not a mix of both — in a single segmented control."}
+{"id": "/design/human-interface-guidelines/segmented-controls", "law": "For switching between completely separate sections of an app, use a instead."}
+{"id": "/design/human-interface-guidelines/segmented-controls", "law": "Use a tab view in the main window area — instead of a segmented control — for view switching."}
+{"id": "/design/human-interface-guidelines/segmented-controls", "law": "Avoid putting other focusable elements close to segmented controls."}
+{"id": "/design/human-interface-guidelines/steppers", "law": "By contrast, people appreciate the option to use a field to enter specific values, especially when the values they use can vary widely."}
+{"id": "/design/human-interface-guidelines/steppers", "law": "— UIKit — AppKit A stepper is a two-segment control that people use to increase or decrease an incremental value."}
+{"id": "/design/human-interface-guidelines/text-fields", "law": "Stack multiple text fields vertically when possible, and use consistent widths to create a more organized layout."}
+{"id": "/design/human-interface-guidelines/text-fields", "law": "Use images and buttons to provide clarity and functionality in text fields."}
+{"id": "/design/human-interface-guidelines/text-fields", "law": "In general, use the leading end of a text field to indicate a field’s purpose and the trailing end to offer additional features, such as bookmarking."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "In watchOS, the Activity ring element always contains three rings, whose colors and meanings match those the Activity app provides."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "Always keep the visual appearance of Activity rings the same, regardless of where you display them."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "Follow these guidelines to provide a consistent experience: Never change the colors of the rings; for example, don’t use filters or modify opacity."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "If necessary, add a thin, black stroke around the outer edge of the ring, and avoid including a gradient, shadow, or any other visual effect."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "When necessary, design the surrounding interface to blend with the rings; never change the rings to blend with the surrounding interface."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "To display a label or value that’s directly associated with an Activity ring, use the colors that match it."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "To display the ring-specific labels Move , Exercise , and Stand , or to display a person’s current and goal values for each ring, use the following colors, specified as RGB values."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "An Activity ring element must include a minimum outer margin of no less than the distance between rings."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "Never allow other elements to crop, obstruct, or encroach upon this margin or the rings themselves."}
+{"id": "/design/human-interface-guidelines/activity-rings", "law": "If you must include other rings, use padding, lines, or labels to separate them from Activity rings."}
+{"id": "/design/human-interface-guidelines/gauges", "law": "For example, a temperature gauge can use text to identify the highest and lowest temperatures in the range and display a spectrum of colors that visually reinforce the changing values."}
+{"id": "/design/human-interface-guidelines/gauges", "law": "For example, a temperature gauge might use colors that range from red to blue to represent temperatures that range from hot to cold."}
+{"id": "/design/human-interface-guidelines/gauges", "law": "You can change the fill color of the entire indicator or you can use the tiered state to show a sequence of several colors in one indicator, as shown below."}
+{"id": "/design/human-interface-guidelines/progress-indicators", "law": "Don’t switch from the circular style to the bar style."}
+{"id": "/design/human-interface-guidelines/progress-indicators", "law": "Both versions use an animated image to indicate that the app is performing a task."}
+{"id": "/design/human-interface-guidelines/rating-indicators", "law": "Within a rating indicator, symbols are always the same distance apart and don’t expand or shrink to fit the component’s width."}
+{"id": "/design/human-interface-guidelines/rating-indicators", "law": "If you replace the star with a custom symbol, make sure that its purpose is clear."}
+{"id": "/design/human-interface-guidelines/controls", "law": "For example, use the SF Symbols and to represent a control that opens and closes a garage door."}
+{"id": "/design/human-interface-guidelines/controls", "law": "Use symbol animations to highlight state changes."}
+{"id": "/design/human-interface-guidelines/controls", "law": "A person may need to configure a control to perform a desired action — for example, select a specific light in a house to turn on and off."}
+{"id": "/design/human-interface-guidelines/controls", "law": "If a control requires configuration, prompt people to complete this step when they first add it."}
+{"id": "/design/human-interface-guidelines/controls", "law": "For example, require people to unlock their device to access controls to lock or unlock the door to their house or start their car."}
+{"id": "/design/human-interface-guidelines/status-bars", "law": "Prefer using a scroll edge effect to place a blurred view behind the status bar."}
+{"id": "/design/Human-Interface-Guidelines/collaboration-and-sharing", "law": "After a collaboration begins, people can use the Collaboration button in your app to communicate with others, perform custom actions, and manage details."}
+{"id": "/design/Human-Interface-Guidelines/collaboration-and-sharing", "law": "If you use CloudKit, you can add support for sending a copy of a file by passing both the file and your collaboration object to the share sheet."}
+{"id": "/design/Human-Interface-Guidelines/collaboration-and-sharing", "law": "For example, you might write phrases like “Only invited people can edit” or “Everyone can make changes.” The system uses your permission summary in a button that reveals a set of sharing options that people use to define the collaboration."}
+{"id": "/design/Human-Interface-Guidelines/collaboration-and-sharing", "law": "The top section lists collaborators and provides communication buttons that can open Messages or FaceTime, the middle section contains your custom items, and the bottom section displays a button people use to manage the shared file."}
+{"id": "/design/Human-Interface-Guidelines/collaboration-and-sharing", "law": "In your SwiftUI app running in watchOS, use to present the system-provided share sheet."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "People expect familiar relationships between controls and content to help them use and discover your app’s features, and designing the layout to take advantage of this makes your app feel at home on the platform."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "For example, you might use negative space, background shapes, colors, materials, or separator lines to show when elements are related and to separate information into distinct areas."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "When you do so, ensure that content and controls remain clearly distinct."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "Also ensure that scrollable layouts continue all the way to the bottom and the sides of the device screen."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "When your content doesn’t span the full window, use a background extension view to provide the appearance of content behind the control layer on either side of the screen, such as beneath the sidebar or inspector."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "Instead of a background, use a scroll edge effect to provide a transition between content and the control area."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "Make controls easier to use by providing enough space around them and grouping them in logical sections."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "If unrelated controls are too close together — or if other content crowds them — they can be difficult for people to tell apart or understand what they do, which can make your app or game hard to use."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "Using SwiftUI or Auto Layout can help you ensure that your interface adapts dynamically to these traits and other context changes; if you don’t use these tools, you need to use alternative methods to do the work."}
+{"id": "/design/Human-Interface-Guidelines/layout", "law": "You can help ensure an adaptable interface by respecting system-defined safe areas, margins, and guides (where available) and specifying layout modifiers to fine-tune the placement of views in your interface."}

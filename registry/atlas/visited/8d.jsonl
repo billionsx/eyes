@@ -100,3 +100,8 @@
 {"id": "/documentation/uikit/uimenubuilder/menu(for:)", "sha": "f5e77e02aae9524910eee6c6482a8d5ec41a6a49d83b0352fd01b27a62dee807", "t": "menu(for:)", "n": 143, "laws": 0, "ts": "2026-07-30 19:08 UTC"}
 {"id": "/documentation/uikit/uideferredmenuelement/init(_:)", "sha": "32f0b2c6983468e11631ec66526abb2d47389b3871fa5759b5d16af855107f5f", "t": "init(_:)", "n": 491, "laws": 1, "ts": "2026-07-30 19:12 UTC"}
 {"id": "/documentation/mediaplayer/mp_api_end", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_API_END", "n": 0, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/uikit/uievent/eventsubtype", "sha": "e9e3619a73804634b122f5c73ff78300f7993da5480218c0d5dcc9a716522612", "t": "UIEvent.EventSubtype", "n": 741, "laws": 0, "ts": "2026-07-31 07:19 UTC"}
+{"id": "/documentation/uikit/uicollectionlayoutsectionorthogonalscrollingbehavior/continuous", "sha": "8d06a8f0098c306dae7842edd4f9ac387c7efe7032c4190f5ed19cfe9b36426b", "t": "UICollectionLayoutSectionOrthogonalScrollingBehavior.continuous", "n": 86, "laws": 0, "ts": "2026-07-31 07:22 UTC"}
+{"id": "/documentation/uikit/uifocussystem/focusupdatecontextuserinfokey", "sha": "19a0a7c720a7c01b8ef1e8a2d8bad335118d90d060ec8d8b1fe0ebd2ea58c7a5", "t": "focusUpdateContextUserInfoKey", "n": 24, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
+{"id": "/documentation/uikit/uisegmentedcontrol/removeallsegments()", "sha": "c3e3de071f904a963d53caa65d3cd0088af71040f78438954a8850e76d15719f", "t": "removeAllSegments()", "n": 46, "laws": 0, "ts": "2026-07-31 07:35 UTC"}
+{"id": "/documentation/uikit/uistackview/axis", "sha": "573279d27ca91d5361f187fca44067729c416ed98348e07823c2d487b1df0394", "t": "axis", "n": 231, "laws": 0, "ts": "2026-07-31 07:36 UTC"}

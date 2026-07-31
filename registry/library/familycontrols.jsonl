@@ -17,3 +17,7 @@
 {"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "When you receive the Family Controls entitlement, update your Xcode project to use it."}
 {"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "If your Xcode project already includes the Family Controls capability for development and you use automatic signing, Xcode automatically updates your app to use this capability for distribution."}
 {"id": "/documentation/familycontrols/requesting-the-family-controls-entitlement", "law": "Register your app and its Screen Time API app extensions to use Family Controls."}
+{"id": "/documentation/familycontrols/familycontrolsmember/child", "law": "A value indicating that Family Controls is managing a child account, so that a parent or guardian must enter their authorization credentials."}
+{"id": "/documentation/familycontrols/familycontrolserror/authenticationmethodunavailable", "law": "The device must have a passcode set in order for an individual to enroll with parental controls."}
+{"id": "/documentation/familycontrols/familycontrolserror/networkerror", "law": "The device must be connected to the network in order to enroll with parental controls."}
+{"id": "/documentation/familycontrols/familycontrolserror/unauthorized", "law": "The calling app must be authorized to provide parental controls and access data."}

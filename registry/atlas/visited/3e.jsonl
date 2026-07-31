@@ -111,3 +111,7 @@
 {"id": "/documentation/uikit/nsshadowattributename", "sha": "b5cae1b7376f50665b40995bc5f6607ac6ac796f44651c18627efb1be5142c8d", "t": "NSShadowAttributeName", "n": 119, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
 {"id": "/documentation/uikit/uitableviewdragdelegate/tableview(_:dragpreviewparametersforrowat:)", "sha": "acb21810761894a7349659435741449a503ca55eb9a72624af86515319eb2cc6", "t": "tableView(_:dragPreviewParametersForRowAt:)", "n": 804, "laws": 3, "ts": "2026-07-31 06:13 UTC"}
 {"id": "/documentation/uikit/uialertcontroller/message", "sha": "81ecf7bb77e42cf82f1196ff91f6e17a93f30556dd38e77050b344255f3cd283", "t": "message", "n": 291, "laws": 1, "ts": "2026-07-31 06:14 UTC"}
+{"id": "/documentation/uikit/state-restoration-keys", "sha": "a0eab7d424bba9e0337279ba485bb84bc7e26262d5f90cde682f154c65af398a", "t": "State restoration keys", "n": 238, "laws": 0, "ts": "2026-07-31 07:18 UTC"}
+{"id": "/documentation/uikit/uipointerregion/identifier-9i5wc", "sha": "2189b1c37d1cb320339310a2b669dfdb94a4e75cb63b2cc6b3adede99ae3febf", "t": "identifier", "n": 133, "laws": 1, "ts": "2026-07-31 07:26 UTC"}
+{"id": "/documentation/uikit/nsadaptiveimageglyph/imagecontent", "sha": "77426efade676b7edde2ff2c96a56964006afad1f2161413cbe5e7985f33836d", "t": "imageContent", "n": 349, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/uikit/uiwritingtoolsbehavior/none", "sha": "75c1289010e9b0ea7e710bf0e90fe72bb064885196a9320ad1a807a25aa56c39", "t": "UIWritingToolsBehavior.none", "n": 75, "laws": 0, "ts": "2026-07-31 07:40 UTC"}

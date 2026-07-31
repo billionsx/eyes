@@ -55,3 +55,19 @@
 {"id": "/documentation/GameController/GCDevicePhysicalInput/elementValueDidChangeHandler", "law": "The block’s parameters are: To track every element value change, set the property instead and use the method to get all the buffered changes."}
 {"id": "/documentation/GameController/GCDeviceHaptics", "law": "Use this class to create a haptic engine with a specified locality."}
 {"id": "/documentation/GameController/GCDeviceHaptics", "law": "Use the method in this class to determine whether a game controller supports haptics."}
+{"id": "/documentation/gamecontroller/adding-virtual-controls-to-games-that-support-game-controllers-in-ios", "law": "For example, use a to implement a direction pad or a to implement a button."}
+{"id": "/documentation/gamecontroller/gcinputstylusprimarybutton-2dayc", "law": "A spatial stylus has at least two buttons arranged vertically along the barrel."}
+{"id": "/documentation/gamecontroller/gcinputstylussecondarybutton-a8q", "law": "A spatial stylus has at least two buttons arranged vertically along the barrel."}
+{"id": "/documentation/gamecontroller/gcmotion", "law": "Use this profile to get motion input from a controller that measures acceleration and rotation rate."}
+{"id": "/documentation/gamecontroller/gcvirtualcontroller", "law": "Use a virtual controller to display software controls that you can customize over your game."}
+{"id": "/documentation/gamecontroller/handling-input-events", "law": "For example, to get the A button of a controller, use with the property, as in the following example: To get the left thumbstick of a directional pad, use with the property."}
+{"id": "/documentation/gamecontroller/gcstylus/input", "law": "Use this object to discover available inputs on the stylus, including buttons and pressure sensors, and get notified when the state of those inputs change."}
+{"id": "/documentation/gamecontroller/gccontroller/motion", "law": "If the controller supports the motion profile, this property is a object that you use to access the controller’s motion data."}
+{"id": "/documentation/gamecontroller/gccontrollerdirectionpad", "law": "You can use either the and properties to get coordinates, or the , , , and buttons that simulate directional pad buttons."}
+{"id": "/documentation/gamecontroller/gccontrollerelement", "law": "Use the property to check whether the user included an element in a system gesture."}
+{"id": "/documentation/gamecontroller/gckeyboardinput", "law": "Use this profile to get the state of the keyboard buttons that the structure defines."}
+{"id": "/documentation/gamecontroller/gckeyboard/keyboardinput", "law": "Use this object to get the keyboard’s buttons and button states."}
+{"id": "/documentation/gamecontroller/gchapticdurationinfinite", "law": "Use this constant to create a object with an infinite duration."}
+{"id": "/documentation/gamecontroller/gchapticslocality", "law": "Use this symbol to specify the location of the actuators when creating a haptic engine."}
+{"id": "/documentation/GameController/GCControllerElement", "law": "Use the property to check whether the user included an element in a system gesture."}
+{"id": "/documentation/GameController/adding-virtual-controls-to-games-that-support-game-controllers-in-ios", "law": "For example, use a to implement a direction pad or a to implement a button."}

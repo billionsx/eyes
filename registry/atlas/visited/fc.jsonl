@@ -117,3 +117,8 @@
 {"id": "/documentation/uikit/nslayoutmanager/invalidatedisplay(forcharacterrange:)", "sha": "8abfa7f4feb10dec0d12a6268ad22f0a6b10c2bd4f6c3bc45c60b9ebc3fd7ed8", "t": "invalidateDisplay(forCharacterRange:)", "n": 208, "laws": 0, "ts": "2026-07-31 06:16 UTC"}
 {"id": "/documentation/uikit/nstextlayoutfragment/init(coder:)", "sha": "b9157941b4303ab6dc300d354c23cc41f2cfda896a2094c052af1962dcedf8df", "t": "init(coder:)", "n": 57, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
 {"id": "/documentation/uikit/uibezierpath/linecapstyle", "sha": "1943e761e33114f77b25cd9fc67273b2ceaa4b16e329e15efd1a74c055947fc6", "t": "lineCapStyle", "n": 218, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/uikit/uipointershape-c.class", "sha": "91b8d4af2bb3c4b6cfd35e3eb9a351130f6a89badc479298518ad3756e36e053", "t": "UIPointerShape", "n": 517, "laws": 1, "ts": "2026-07-31 07:18 UTC"}
+{"id": "/documentation/uikit/nstextelement/init(textcontentmanager:)", "sha": "9c15ffc10383822eceebb8e2bcf5bd76451fa161f2f3b6cf136304bfba2f3d0f", "t": "init(textContentManager:)", "n": 64, "laws": 0, "ts": "2026-07-31 07:18 UTC"}
+{"id": "/documentation/uikit/uitouch/view", "sha": "545820e37d3fc3770978f65476e765852fd3afef98837bca71dffc343b11c56a", "t": "view", "n": 331, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutdimension/estimated(_:)", "sha": "bcd2377ad2120140f2140614974e1953985db8b0ddd308da9c980237864962a6", "t": "estimated(_:)", "n": 140, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
+{"id": "/documentation/UIKit/UIColorPickerViewController", "sha": "b4ad5f8eb6e4349044d1868ecc329453d069de44247e26e9a77a660b81d13c45", "t": "UIColorPickerViewController", "n": 588, "laws": 1, "ts": "2026-07-31 07:40 UTC"}

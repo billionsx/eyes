@@ -99,3 +99,6 @@
 {"id": "/documentation/uikit/uinavigationitem/attributedsubtitle-4474c", "sha": "559c5fd43119e0436768977cba3ef45835f562513e962e1191df1bd496a7edfb", "t": "attributedSubtitle", "n": 228, "laws": 0, "ts": "2026-07-31 06:12 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/textcontainers", "sha": "adcf6db9e44e71530d9be898220a0fe401b9dc80fc7edd7fda057f180b7d24da", "t": "textContainers", "n": 50, "laws": 0, "ts": "2026-07-31 06:17 UTC"}
 {"id": "/documentation/uikit/nstextlayoutmanager/layoutqueue", "sha": "c8aad743a13bca77705b9c616bae59075052ba026cbfddd192954e43049a8c1b", "t": "layoutQueue", "n": 143, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
+{"id": "/documentation/gamecontroller/gccontroller/withextendedgamepad()", "sha": "e66e286515cfe1e22078e974182e048a266d1be536a1e3d824ed05b048f93f63", "t": "withExtendedGamepad()", "n": 337, "laws": 0, "ts": "2026-07-31 07:14 UTC"}
+{"id": "/documentation/uikit/uisearchbar/istranslucent", "sha": "284c9284b9a23fdefdda1940a43856c6926076760e8198ba96af0822a0300d11", "t": "isTranslucent", "n": 686, "laws": 0, "ts": "2026-07-31 07:17 UTC"}
+{"id": "/documentation/uikit/uisegmentedcontrol/insertsegment(withtitle:at:animated:)", "sha": "e886d0a18c0faa600b64e3dd4b9242ede5a5005b16d2269dc60becb1152f332c", "t": "insertSegment(withTitle:at:animated:)", "n": 78, "laws": 0, "ts": "2026-07-31 07:35 UTC"}

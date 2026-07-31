@@ -102,3 +102,5 @@
 {"id": "/documentation/uikit/uimodalpresentationstyle/formsheet", "sha": "0d2455f8b67fe58b39da2ff97e1faf05e5abf7e8384971a6aada3312d08c817a", "t": "UIModalPresentationStyle.formSheet", "n": 815, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
 {"id": "/documentation/uikit/uialertaction", "sha": "e0bae05b2febf782baf948df35197b0be9c3dc054145c143e62f28b56be8d179", "t": "UIAlertAction", "n": 537, "laws": 1, "ts": "2026-07-31 06:14 UTC"}
 {"id": "/documentation/uikit/nstextattachmentlayout", "sha": "429c95f8c354e21905348df26276fdf79e8cf26d277199aa0cf35056af1857a0", "t": "NSTextAttachmentLayout", "n": 440, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/dismissmovieplayerviewcontrolleranimated()", "sha": "ca37cb3404d1e7a99f4b50d65c73a15ba5fc5d9e677a0ddef2b291decd9a9d6a", "t": "dismissMoviePlayerViewControllerAnimated()", "n": 200, "laws": 0, "ts": "2026-07-31 07:24 UTC"}
+{"id": "/documentation/uikit/uislider/maximumvalueimagerect(forbounds:)", "sha": "479d161b3fdfc5e539b03abe5f62f96216349f23b17c0b9bacf070608b48d572", "t": "maximumValueImageRect(forBounds:)", "n": 587, "laws": 1, "ts": "2026-07-31 07:36 UTC"}

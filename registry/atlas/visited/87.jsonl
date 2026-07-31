@@ -95,3 +95,7 @@
 {"id": "/documentation/scenekit/scnhittestoptionignorechildnodes", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "SCNHitTestOptionIgnoreChildNodes", "n": 0, "laws": 0, "ts": "2026-07-30 18:51 UTC"}
 {"id": "/documentation/uikit/uimenuelement/image", "sha": "2fab06f585f7c8859260370ee849d348b13a0dee1a0bb80e0c350196de3ba16f", "t": "image", "n": 166, "laws": 0, "ts": "2026-07-30 19:12 UTC"}
 {"id": "/documentation/uikit/uicolor/accessibilityname", "sha": "5dee29427c9f00a3e69303ddc6b56efc99ea5c4b2b0aa7ca79030739c0375fbb", "t": "accessibilityName", "n": 66, "laws": 0, "ts": "2026-07-31 06:14 UTC"}
+{"id": "/documentation/uikit/nsdiffabledatasourcesectionsnapshotreference/parent(ofchilditem:)", "sha": "2d1a462ec92b212d0c9ab913733cc0a52a1e6c2d00aa5ce599221a67b654ab2e", "t": "parent(ofChildItem:)", "n": 68, "laws": 0, "ts": "2026-07-31 07:21 UTC"}
+{"id": "/documentation/uikit/uifocusmovementhint/translation", "sha": "6fc901a120a3eda824adc564baaa3da156c62ba3aaffa366623eab6a0538b491", "t": "translation", "n": 153, "laws": 0, "ts": "2026-07-31 07:28 UTC"}
+{"id": "/documentation/uikit/uisearchtextfield/tokens", "sha": "aa56abd2a7785e53b9a8b33a74bf88d92497b90893fae997755e854a74f0e269", "t": "tokens", "n": 199, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/uikit/uisearchtextfield/tokens(in:)", "sha": "6d6afd77b0315d74f0d77cc184508874799475b0604d20cbde534b5176e6f6af", "t": "tokens(in:)", "n": 294, "laws": 0, "ts": "2026-07-31 07:39 UTC"}

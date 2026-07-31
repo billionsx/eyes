@@ -102,3 +102,6 @@
 {"id": "/documentation/uikit/uicolor/init(cicolor:)-5fqhu", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(CIColor:)", "n": 0, "laws": 0, "ts": "2026-07-31 06:14 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/linefragmentrect(forglyphat:effectiverange:)", "sha": "a387edbe941e64047293933dcffa670c5be4a83837f2da605fb77fe34d21c02f", "t": "lineFragmentRect(forGlyphAt:effectiveRange:)", "n": 649, "laws": 0, "ts": "2026-07-31 06:16 UTC"}
 {"id": "/documentation/uikit/nstextlayoutmanager/replacecontents(in:with:)-80j0b", "sha": "61b0471552bf19e8ba35349737fcb79141ad33ae9918a58081ecd7a8f072d0de", "t": "replaceContents(in:with:)", "n": 87, "laws": 0, "ts": "2026-07-31 06:19 UTC"}
+{"id": "/documentation/Xcode/embedding-a-helper-tool-in-a-sandboxed-app", "sha": "5fcb0881b8dbdcce56ca9e6930e55cab5eb1614d1ebea97fa8a7f8148e34f308", "t": "Embedding a command-line tool in a sandboxed app", "n": 9301, "laws": 1, "ts": "2026-07-31 07:11 UTC"}
+{"id": "/documentation/uikit/uipasteboard", "sha": "aa6245641a9ea38c099c4678dd73264de5b7837b5e0fc57386a8ec48dedd23f4", "t": "UIPasteboard", "n": 8249, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
+{"id": "/documentation/UIKit/UIUpdateLink", "sha": "031cb13ff8e6fbae62eab0f64d96cf0d6da5ebb7376d382f2e074f910ae4fe4c", "t": "UIUpdateLink", "n": 1787, "laws": 1, "ts": "2026-07-31 07:41 UTC"}

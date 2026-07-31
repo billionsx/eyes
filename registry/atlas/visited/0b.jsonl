@@ -101,3 +101,5 @@
 {"id": "/documentation/uikit/uinavigationitem/largetitledisplaymode-swift.enum", "sha": "aaf17a898f6ad554ee3f19ec05f1c3eb17cdebcf8579d01c60c38e604df17ba1", "t": "UINavigationItem.LargeTitleDisplayMode", "n": 316, "laws": 0, "ts": "2026-07-31 06:12 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/usesfontleading", "sha": "dbaa7997971f4b972e0c471178ef298ca9d8811534ef7ac1c07a448f9bad12b9", "t": "usesFontLeading", "n": 87, "laws": 0, "ts": "2026-07-31 06:17 UTC"}
 {"id": "/documentation/uikit/uibezierpath/reversing()", "sha": "09d96a31f2c236c705dd49912f9045181477babc48e4cdba8eaaa4fcba1e813a", "t": "reversing()", "n": 824, "laws": 1, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/familycontrols/authorizationcenter/authorizationstatus", "sha": "59b1fa5fd6675938ee145239b5d1e08d213abd907cbe82e7e70ea4f20bc414a1", "t": "authorizationStatus", "n": 631, "laws": 0, "ts": "2026-07-31 07:11 UTC"}
+{"id": "/documentation/gamecontroller/gcinputstylustip-1rhuw", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "GCInputStylusTip", "n": 0, "laws": 0, "ts": "2026-07-31 07:15 UTC"}

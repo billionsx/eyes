@@ -100,3 +100,5 @@
 {"id": "/documentation/familycontrols/familyactivityselection/categorytokens", "sha": "f20c53238f9c88162031a16e9f680932f1b0e5c8231c82a0ce328857e4534cd3", "t": "categoryTokens", "n": 54, "laws": 0, "ts": "2026-07-31 05:54 UTC"}
 {"id": "/documentation/uikit/uicollectionviewtransitionlayout/currentlayout", "sha": "6f1d2d9e9639a1dcc7df8558d18d0814c610e33ec872cce695599766aad9fe01", "t": "currentLayout", "n": 295, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
 {"id": "/documentation/uikit/uitextattachmentviewproviderreusepolicy", "sha": "656e4c6a449a664d1863040d971f64092cd66afe5aa475cc9e099b694738e923", "t": "UITextAttachmentViewProviderReusePolicy", "n": 1604, "laws": 1, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/uikit/uifocusupdatecontext/nextfocusedview", "sha": "48fa5d0c9010002b1a4b0a0fe47be6d5f98a55462c25760b624e7bbd52ffac0d", "t": "nextFocusedView", "n": 186, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
+{"id": "/documentation/uikit/uiaccessibility/isswitchcontrolrunning", "sha": "207894819d616cbc0a68eded341e69e14a06a6a43a57a37b9eff566a60fd99b5", "t": "isSwitchControlRunning", "n": 89, "laws": 0, "ts": "2026-07-31 07:42 UTC"}

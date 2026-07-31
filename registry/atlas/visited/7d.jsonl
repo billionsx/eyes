@@ -101,3 +101,6 @@
 {"id": "/documentation/scenekit/scnbox/chamferradius", "sha": "c3e85064722a08ecc55e9473d628b999c97a178e6c3fa6739863cd23531747f1", "t": "chamferRadius", "n": 721, "laws": 4, "ts": "2026-07-30 19:04 UTC"}
 {"id": "/design/human-interface-guidelines/loading", "sha": "508f6cb398806e1d7480325d4788f334e8a622a658d127ee8223cd1dbedb7960", "t": "Loading", "n": 2819, "laws": 0, "ts": "2026-07-31 05:53 UTC"}
 {"id": "/documentation/avkit/avplayerview/flashchapternumber(_:chaptertitle:)", "sha": "5eff0c20ff71da9741aef4c50ec32b0465270c3ee85684223a404d01f422af70", "t": "flashChapterNumber(_:chapterTitle:)", "n": 76, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
+{"id": "/documentation/appclip/apactivationpayload/url", "sha": "9b5c7d5aca1e36fd89bc425b7a405deacc9a366585b687883438390c03bc2577", "t": "url", "n": 348, "laws": 0, "ts": "2026-07-31 07:12 UTC"}
+{"id": "/documentation/uikit/uicollectionviewdatasource/collectionview(_:moveitemat:to:)", "sha": "4087916f915ec4e219a9b9887f7e581ea2b141f6e49c9ea29aa80460a00d3b99", "t": "collectionView(_:moveItemAt:to:)", "n": 475, "laws": 0, "ts": "2026-07-31 07:22 UTC"}
+{"id": "/documentation/uikit/uibutton/setbackgroundimage(_:for:)", "sha": "5b58aab9569d09d416f10623592214fbe6377e1a3159c9f27ec3fe0ca148540b", "t": "setBackgroundImage(_:for:)", "n": 310, "laws": 1, "ts": "2026-07-31 07:26 UTC"}

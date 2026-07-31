@@ -109,3 +109,7 @@
 {"id": "/documentation/uikit/uinavigationbar/topitem", "sha": "a2024a22e521d444a18de4e101a35447fc8c4963aa5a7dee486655b8885077df", "t": "topItem", "n": 61, "laws": 0, "ts": "2026-07-31 06:11 UTC"}
 {"id": "/documentation/uikit/nstextcontainer/textlayoutmanager", "sha": "edbad6ea3605c0c0551a57ebb4a86f37a051a0944d1bc1e509ef2910895bee92", "t": "textLayoutManager", "n": 81, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
 {"id": "/documentation/uikit/nswritingdirection", "sha": "db5c5f0869d6b3bf781d17a9459774e7f78ce673321fc8e9eba6155c329cbbff", "t": "NSWritingDirection", "n": 183, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
+{"id": "/documentation/gamecontroller/gckeyboard/didconnectmessage", "sha": "aa643d8d438ccc08aa31af1d0578d57d07a92b1594c7a5558102982b190c1f9e", "t": "GCKeyboard.DidConnectMessage", "n": 201, "laws": 0, "ts": "2026-07-31 07:15 UTC"}
+{"id": "/documentation/uikit/uitableviewcontroller/clearsselectiononviewwillappear", "sha": "fba7fa59f832ad531b5770f6b72c3a78ff0d7a0e1654262fe26b0063aab1133b", "t": "clearsSelectionOnViewWillAppear", "n": 291, "laws": 0, "ts": "2026-07-31 07:18 UTC"}
+{"id": "/documentation/uikit/uiscenesession/role-swift.struct/windowexternaldisplaynoninteractive", "sha": "453481892f16b773a40a1602d04efa6a2e0f4871eebe4a1805ea0c46a60ed56d", "t": "windowExternalDisplayNonInteractive", "n": 80, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
+{"id": "/documentation/UIKit/NSTextTableBlock", "sha": "fb9e7b44db2e2852b0f748e5b024268cc70fcbb9b1f599605038f1e2a9fda755", "t": "NSTextTableBlock", "n": 675, "laws": 0, "ts": "2026-07-31 07:40 UTC"}

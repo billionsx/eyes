@@ -103,3 +103,6 @@
 {"id": "/documentation/MediaPlayer/MPMediaLibrary", "sha": "eec532364f9cbf2df0f95f912736fedadebf6c3a9119c68919eb20e3d628170b", "t": "MPMediaLibrary", "n": 900, "laws": 0, "ts": "2026-07-31 05:59 UTC"}
 {"id": "/documentation/uikit/uidocumentbrowserviewcontroller/delegate", "sha": "e0767032957ba30df40611afdc02b9eaa8d10864e94243a26c476aaa2ad925a3", "t": "delegate", "n": 95, "laws": 0, "ts": "2026-07-31 06:02 UTC"}
 {"id": "/documentation/uikit/uipresentationcontroller/adaptivepresentationstyle", "sha": "f916f286e0fcad0f39e19aa66396d57797c44b4a3482f832b08d4771f3516a64", "t": "adaptivePresentationStyle", "n": 1357, "laws": 1, "ts": "2026-07-31 06:14 UTC"}
+{"id": "/documentation/gamecontroller/gcstylus/styli", "sha": "1851cfa2501105327983993aee2ba75eb5570586975f82561ebae183cbb03c07", "t": "styli", "n": 368, "laws": 0, "ts": "2026-07-31 07:13 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/rotatingheaderview()", "sha": "f7e04447e82cf497816548f21f2edda78b594c5d333914118ae38a8a360380aa", "t": "rotatingHeaderView()", "n": 950, "laws": 0, "ts": "2026-07-31 07:24 UTC"}
+{"id": "/documentation/uikit/uitoolbar-legacy-customizations", "sha": "ee1c52a074229455b76d11857796d7577978970be20081b531c274067fdf4ea3", "t": "Legacy customizations", "n": 648, "laws": 1, "ts": "2026-07-31 07:38 UTC"}

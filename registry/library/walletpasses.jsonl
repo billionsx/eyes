@@ -29,3 +29,14 @@
 {"id": "/documentation/WalletPasses/defining-the-metadata-of-your-wallet-pass", "law": "Whereas live performances and sports event tickets may use semantic poster event tickets, other events such as movies, conferences, conventions, workshops, social gatherings, or generic events use pass fields for their layouts."}
 {"id": "/documentation/WalletPasses/defining-the-metadata-of-your-wallet-pass", "law": "Both the generic pass and the generic poster pass use pass fields, but they have slightly different layouts for the fields."}
 {"id": "/documentation/WalletPasses", "law": "Use the Wallet Passes framework to create dynamic, interactive passes that stay up-to-date and provide people with relevant information."}
+{"id": "/documentation/WalletPasses/Pass", "law": "A short description that iOS accessibility technologies use for a pass."}
+{"id": "/documentation/WalletPasses/Pass", "law": "If you don’t provide a value, the system determines the label color."}
+{"id": "/documentation/WalletPasses/Pass", "law": "For example, setting Don’t Disturb mode for the duration of a movie."}
+{"id": "/documentation/WalletPasses/creating-a-coupon-pass", "law": "Someone can hold a device near an NFC reader with the contactless symbol to use their pass."}
+{"id": "/documentation/WalletPasses/creating-a-generic-pass", "law": "You can use the primary pass field for important business information, the thumbnail field for a thumbnail image, and the secondary and auxiliary fields for information like expiration dates, store locations, and contact information."}
+{"id": "/documentation/WalletPasses/creating-a-generic-pass", "law": "Someone can hold a device near an NFC reader with the contactless symbol to use their pass."}
+{"id": "/documentation/WalletPasses/creating-a-store-card-pass", "law": "Someone can hold a device near an NFC reader with the contactless symbol to use their pass."}
+{"id": "/documentation/WalletPasses/creating-an-event-pass-using-semantic-tags", "law": "For the poster event ticket style, the following list of semantic tags is required for the front of the pass and essential designs."}
+{"id": "/documentation/WalletPasses/creating-an-event-pass-using-semantic-tags", "law": "You can display a minimum of one and up to four quick action buttons."}
+{"id": "/documentation/WalletPasses/creating-an-event-pass-using-semantic-tags", "law": "The following list of semantic tags are optional, but recommended for optimal pass design: The following semantic tags are optional:"}
+{"id": "/documentation/WalletPasses/creating-an-event-pass-using-semantic-tags", "law": "Someone can hold a device near an NFC reader with the contactless symbol to use their pass."}

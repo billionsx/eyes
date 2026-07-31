@@ -83,3 +83,5 @@
 {"id": "/documentation/uikit/uiimage/draw(in:blendmode:alpha:)", "sha": "7fc507074aa5845f91b4c6d5c3f8ec05b7b5327abf43f6818715da75219c5a05", "t": "draw(in:blendMode:alpha:)", "n": 495, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
 {"id": "/documentation/uikit/uinavigationitem/subtitle", "sha": "317ef0c2b1fca355b839691459e3b8d3d3fc2c37b0a7897cc04ed3ef24c88700", "t": "subtitle", "n": 176, "laws": 0, "ts": "2026-07-31 06:13 UTC"}
 {"id": "/documentation/uikit/uitextview/isselectable", "sha": "85287ecfa4ca69e447dd39ab52e33b40378d60ab77172e5a7e0c11050f17620b", "t": "isSelectable", "n": 214, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/gamecontroller/gccontroller/issnapshot", "sha": "cc594fed8a9bbb172ba97fd9511cf73938d95313b246e6d3aaa35cd72eb9ff3c", "t": "isSnapshot", "n": 308, "laws": 0, "ts": "2026-07-31 07:14 UTC"}
+{"id": "/documentation/uikit/uistepper/setdecrementimage(_:for:)", "sha": "5af5698a0db2f2158c1f2d4150b735fa131102cea533389322134c655cb55260", "t": "setDecrementImage(_:for:)", "n": 218, "laws": 1, "ts": "2026-07-31 07:37 UTC"}

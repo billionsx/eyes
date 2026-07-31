@@ -115,3 +115,6 @@
 {"id": "/documentation/uikit/uiimage/add", "sha": "2d2792e4a876482bc606609442e7b5c6612996dab2b2afeea1a20e5520ab1d36", "t": "add", "n": 58, "laws": 0, "ts": "2026-07-31 06:05 UTC"}
 {"id": "/documentation/uikit/uicollectionviewlayout/initiallayoutattributesforappearingitem(at:)", "sha": "185e7c45c35858bef5b2104df9670472a694ef917d47e4009d933064e6a125f5", "t": "initialLayoutAttributesForAppearingItem(at:)", "n": 782, "laws": 1, "ts": "2026-07-31 06:09 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/delegate", "sha": "14563cf5b06bf631d47c0eaa31a8aed604121a65f285eb0b7f1d3e9d67fb8d48", "t": "delegate", "n": 30, "laws": 0, "ts": "2026-07-31 06:16 UTC"}
+{"id": "/documentation/uikit/uipopoverbackgroundviewmethods", "sha": "47fb22801db37bea6991a0c3c61e1d6623ba13f7eac895b6d4548164ffacaa8a", "t": "UIPopoverBackgroundViewMethods", "n": 325, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
+{"id": "/documentation/uikit/uiscenesession/userinfo", "sha": "ec56033e1bffffbe5fdad51b03fdd56feb7bf71315fe653ea0fb5cbf9e071d04", "t": "userInfo", "n": 56, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
+{"id": "/documentation/uikit/uipagecontrol/setcurrentpageindicatorimage(_:forpage:)", "sha": "6b06210d8ffb43a67d757e22f6d4294a7dd0fec412327a79737d7d1afcc5eaf6", "t": "setCurrentPageIndicatorImage(_:forPage:)", "n": 81, "laws": 0, "ts": "2026-07-31 07:34 UTC"}

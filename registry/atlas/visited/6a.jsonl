@@ -86,3 +86,8 @@
 {"id": "/documentation/uikit/nstextlist", "sha": "1cbdf944469494651a9ffc2e8b9781c1632e88fa06894d090edf0f9f714b3ceb", "t": "NSTextList", "n": 1516, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
 {"id": "/documentation/uikit/uirectfill(_:)", "sha": "bdd00cf39c99677512aed1fa6a61531b9455730a45c1a8e658f9ce1a4cfef385", "t": "UIRectFill(_:)", "n": 227, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
 {"id": "/documentation/uikit/uitextview/init(coder:)", "sha": "5ffa3962b38f0adb900d0a611839edbeb68dd61a27fdba907f965e367c7fab92", "t": "init(coder:)", "n": 47, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/gamecontroller/gcracingwheelinput", "sha": "c4d71f673522ab33dbce89ef3394f47b78341f1a22eb9d243f668b852efe4fb6", "t": "GCRacingWheelInput", "n": 122, "laws": 0, "ts": "2026-07-31 07:16 UTC"}
+{"id": "/documentation/uikit/uilistcontentconfiguration-c.class", "sha": "4924a4ef7b8cfab903ef8878959c52233e0815ad6a7b6fd7d9faca7a53d5ef9d", "t": "UIListContentConfiguration", "n": 1942, "laws": 0, "ts": "2026-07-31 07:23 UTC"}
+{"id": "/documentation/uikit/uipencilinteraction/isenabled", "sha": "f76b5548bb924684bfcc62a0ef139a55d3921d12834f74dcebf1c7996ba530d7", "t": "isEnabled", "n": 147, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
+{"id": "/documentation/uikit/uicolorpickerviewcontroller/init()", "sha": "9a4909feefdbc3fcfd5929bcde6880cdfc65a5e2ca84590ba84ffdcf128ebee5", "t": "init()", "n": 39, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
+{"id": "/documentation/uikit/notification-dictionary-keys", "sha": "b4261f79157807311b33040285ec552d5ae500084d80d29a2991c0cb72c83035", "t": "Notification dictionary keys", "n": 289, "laws": 0, "ts": "2026-07-31 07:41 UTC"}

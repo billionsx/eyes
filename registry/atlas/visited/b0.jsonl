@@ -114,3 +114,8 @@
 {"id": "/documentation/uikit/uialertcontroller/init(title:message:preferredstyle:)", "sha": "e5e8144673b78be6a702ff031f3f5b65062ca55165e7c3c191a295918e7f1ee2", "t": "init(title:message:preferredStyle:)", "n": 400, "laws": 0, "ts": "2026-07-31 06:14 UTC"}
 {"id": "/documentation/uikit/nslinebreakmode", "sha": "21cc3cece4d148906af7a755173e2825e86b7ecfb5f40c93056adb5a3b6267f2", "t": "NSLineBreakMode", "n": 318, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
 {"id": "/documentation/uikit/nswritingdirection/righttoleft", "sha": "08fe79ffa166dd03c49d592ad18efc37098011a29255528dce4222e3dde92807", "t": "NSWritingDirection.rightToLeft", "n": 39, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
+{"id": "/documentation/familycontrols/familyactivitydata/installedapplications", "sha": "36e5f26a1bc79848da94aac5aeb88691a25cf9f32531b0cc29df94a9ac6c9972", "t": "installedApplications", "n": 227, "laws": 0, "ts": "2026-07-31 07:11 UTC"}
+{"id": "/documentation/uikit/uitouch/window", "sha": "1eab51d6fb68e39ea1001d9c542f2a6a0972143291838ad5613b0e1a4e6a51b1", "t": "window", "n": 219, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
+{"id": "/documentation/uikit/uibutton/configuration-5rlyb", "sha": "330fc9055121c5cbbb3449c83b5db9bcd40d77f7824a8843175390e08b3fca61", "t": "configuration", "n": 866, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
+{"id": "/documentation/uikit/uipointereffect-swift.enum/tintmode", "sha": "2f6318de75c917652abb33ab3b9ad8b3b669ab269f96e0bf2538b006d327eacd", "t": "UIPointerEffect.TintMode", "n": 196, "laws": 0, "ts": "2026-07-31 07:26 UTC"}
+{"id": "/documentation/UIKit/UIWebViewDelegate/webViewDidFinishLoad(_:)", "sha": "5fad0ed472e5bdbc8765a6f67db8a46369b28e7e1f983c87c3055e6a5b03b42b", "t": "webViewDidFinishLoad(_:)", "n": 47, "laws": 0, "ts": "2026-07-31 07:39 UTC"}

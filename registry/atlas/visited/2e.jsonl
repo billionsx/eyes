@@ -87,3 +87,8 @@
 {"id": "/documentation/uikit/nstextlayoutmanager/textlayoutfragment(for:)-68dez", "sha": "4ca763905c441360473a5d4ecac317643ec8314dda193282d12a1e520100fb6b", "t": "textLayoutFragment(for:)", "n": 98, "laws": 0, "ts": "2026-07-31 06:19 UTC"}
 {"id": "/documentation/uikit/nstextlayoutmanager/usesfontleading", "sha": "f14da0ad34fb53014e9e0a2f7fbcbe034647c94fb54d8455cb982c175fcfc4cd", "t": "usesFontLeading", "n": 257, "laws": 0, "ts": "2026-07-31 06:19 UTC"}
 {"id": "/documentation/uikit/uitextview/borderstyle-swift.property", "sha": "63cf3cfb9aa22b502a86b6db5cebfd19844a94236b89e613acd2c862330c8594", "t": "borderStyle", "n": 36, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/gamecontroller/gchapticdurationinfinite", "sha": "bcfacef3492bd1bc75b6cd618fc9ddffb8ec87861fc42ac10226127d8d21e10e", "t": "GCHapticDurationInfinite", "n": 232, "laws": 1, "ts": "2026-07-31 07:16 UTC"}
+{"id": "/documentation/uikit/uitouch/location(in:)-8rd36", "sha": "709be3cd7036ee0b23c42976959dbc4aeeb3c1f5d4e7400c417b12846c0a76d6", "t": "location(in:)", "n": 465, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
+{"id": "/documentation/uikit/uibutton/automaticallyupdatesconfiguration", "sha": "269c3c89ad2908e292faf505ca663f5dad3acc95b59157521c9cad39737979ba", "t": "automaticallyUpdatesConfiguration", "n": 275, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
+{"id": "/documentation/uikit/uisceneerror/code", "sha": "2324347dd1f9dfa887304ee290335aaedec6a37935efbfe2a80eec5032eab1d5", "t": "UISceneError.Code", "n": 249, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
+{"id": "/documentation/uikit/uitextinteraction/delegate", "sha": "5ef2090dece2ded8e569de62da66499402c1692e08731d9a52c6fdea1b2c62e7", "t": "delegate", "n": 58, "laws": 0, "ts": "2026-07-31 07:30 UTC"}

@@ -645,3 +645,11 @@
 {"id": "/documentation/visionOS/reducing-the-rendering-cost-of-your-UI-on-visionOS", "law": "Minimize your use of vector-based media content during active scrolling and animated interactions."}
 {"id": "/documentation/visionOS/reducing-the-rendering-cost-of-your-UI-on-visionOS", "law": "Visual effects, like shadows, masking, rounded rectangles, blurs, and vibrancy increase the number of offscreen passes the system requires to render your content."}
 {"id": "/documentation/visionOS/reducing-the-rendering-cost-of-your-UI-on-visionOS", "law": "To avoid visible hitches and delays while people scroll and resize, reduce time consuming layout and view creations that occur on the app’s main thread."}
+{"id": "/documentation/visionOS/drawing-sharp-layer-based-content", "law": "SwiftUI and UIKit views use Core Animation layers to manage interface content efficiently."}
+{"id": "/documentation/visionOS/drawing-sharp-layer-based-content", "law": "Dynamic content scaling is off by default for all Core Animation layers, and frameworks or apps must turn on this support explicitly."}
+{"id": "/documentation/visionOS/drawing-sharp-layer-based-content", "law": "For other Core Animation layers, you must enable the feature explicitly to take advantage of it."}
+{"id": "/documentation/visionOS/drawing-sharp-layer-based-content", "law": "If your app creates timer-based animations, don’t animate layer changes using your drawing method."}
+{"id": "/documentation/visionOS/drawing-sharp-layer-based-content", "law": "A better option is to animate layer-based properties to achieve the same effect, or use a to animate paths when needed."}
+{"id": "/documentation/visionOS/creating-your-first-visionos-app", "law": "Use this project file to build content from primitive shapes and existing USDZ assets."}
+{"id": "/documentation/visionOS/creating-your-first-visionos-app", "law": "You can also use it to build and test custom RealityKit animations and behaviors for your content."}
+{"id": "/documentation/visionOS/creating-your-first-visionos-app", "law": "Apps don’t control the placement of windows in the space."}

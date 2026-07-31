@@ -124,3 +124,4 @@
 {"id": "/documentation/uikit/nslayoutmanager/usedrect(for:)", "sha": "0025a46f1eb1741c7ae68b461b8a0077bc306ee2e431fc5336ad448ec1730461", "t": "usedRect(for:)", "n": 382, "laws": 0, "ts": "2026-07-31 06:17 UTC"}
 {"id": "/documentation/uikit/uibezierpath/init(arccenter:radius:startangle:endangle:clockwise:)", "sha": "a789dd03b92210b02aa0a898d44878c280b94a6cd36c01a32e3a5e680c82c319", "t": "init(arcCenter:radius:startAngle:endAngle:clockwise:)", "n": 733, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
 {"id": "/documentation/uikit/uitextview/datadetectortypes", "sha": "7acf9be38d42fd37bd828eb5a933c8b1d97b56c17f5cfcb1591f732084dbda72", "t": "dataDetectorTypes", "n": 423, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/uikit/uifocusupdatecontext/focusheading", "sha": "cf961fb681a409d87583d46ef26616722532d78ad2989f95905d188a77129895", "t": "focusHeading", "n": 135, "laws": 0, "ts": "2026-07-31 07:29 UTC"}

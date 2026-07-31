@@ -93,3 +93,7 @@
 {"id": "/documentation/uikit/uipresentationcontroller/presentationstyle", "sha": "cdce383f132521b6b8c7af302343598a6f36bf568b34987e98c4388c18bee944", "t": "presentationStyle", "n": 257, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/setdrawsoutsidelinefragment(_:forglyphat:)", "sha": "246bcf5baf302e2e5c88d180ac9a32b3cffc38fee1f0d56e62a5476741a7efdc", "t": "setDrawsOutsideLineFragment(_:forGlyphAt:)", "n": 643, "laws": 1, "ts": "2026-07-31 06:17 UTC"}
 {"id": "/documentation/uikit/uitextview/textcontainer", "sha": "a82c3c6f1b68f5b698f7131393785e35ddc1ca4005ff6d37db1b03b183b6c555", "t": "textContainer", "n": 85, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
+{"id": "/design/Human-Interface-Guidelines/charts", "sha": "232c0e05d0fee96c1101e3e89c8cdd11238eabb0498de4564af0bd970da4196a", "t": "Charts", "n": 18472, "laws": 10, "ts": "2026-07-31 07:10 UTC"}
+{"id": "/documentation/uikit/uiusernotificationaction", "sha": "aabd23b3df6a8526c3bfd74ad63cd622bf1d8cec9669ee58048e80d027d1ade7", "t": "UIUserNotificationAction", "n": 1637, "laws": 1, "ts": "2026-07-31 07:24 UTC"}
+{"id": "/documentation/uikit/uibutton/titleedgeinsets", "sha": "65d46fcbb5e5e4c733a008786dfb854fd2ca840ebfb4f69a403024fdd66a8a50", "t": "titleEdgeInsets", "n": 807, "laws": 2, "ts": "2026-07-31 07:26 UTC"}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/preferredresultoptions", "sha": "9e8913980b8ae4475edaaa0530a9972dcb33dc0783e4099aad823d165aaaa337", "t": "preferredResultOptions", "n": 414, "laws": 0, "ts": "2026-07-31 07:40 UTC"}

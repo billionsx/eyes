@@ -96,3 +96,9 @@
 {"id": "/documentation/uikit/uibezierpath/bounds", "sha": "71c6b7c043cf14fce02560dd222b06df8736112a5af8aa2d8829e9cb7469dd96", "t": "bounds", "n": 221, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
 {"id": "/documentation/uikit/uibezierpath/close()", "sha": "d1cd734df7dfbca950bb89435b40a3ddbb2bbbcbeaea8da6307facf1adfc5a8f", "t": "close()", "n": 315, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
 {"id": "/documentation/uikit/uibezierpath/linejoinstyle", "sha": "24c63d6db43409e53e2747d1d48de37fd40c30228121d32e1fb309fc745da5ea", "t": "lineJoinStyle", "n": 116, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
+{"id": "/documentation/uikit/uisearchbar/setbackgroundimage(_:for:barmetrics:)", "sha": "d02a2b3c2bc45cc78083b603b6fcaca3b9c1343b5ea0d8ce341ce1dd8671b69e", "t": "setBackgroundImage(_:for:barMetrics:)", "n": 84, "laws": 0, "ts": "2026-07-31 07:17 UTC"}
+{"id": "/documentation/uikit/nstextelementprovider/replacecontents(in:with:)", "sha": "ed7148fa1b64865a65d314ccc964d4605409c75dabeca27abae020d0eb2d43a8", "t": "replaceContents(in:with:)", "n": 300, "laws": 0, "ts": "2026-07-31 07:18 UTC"}
+{"id": "/documentation/uikit/uiviewcontrollerpreviewing/sourcerect", "sha": "7222ad5ec75ceea8a11713b6068b495d430d46152caad346e08ecf08ee204456", "t": "sourceRect", "n": 801, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
+{"id": "/documentation/uikit/uibutton/buttontype-swift.enum/system", "sha": "f39b0d2d600e6626d6b4764a03e1b0dedc9aa9847c25711021ab69ace79dd2b7", "t": "UIButton.ButtonType.system", "n": 75, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
+{"id": "/documentation/uikit/uisceneconfiguration/delegateclass", "sha": "6d56f0c2cb55e217749f44841ca6093affb3c7971109a1e851cbf5543b32e732", "t": "delegateClass", "n": 337, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/preferredbehavior", "sha": "0bef83638da688d54d9baaa4131572de1268c5468b2d68c1a85f818ee8aa9a20", "t": "preferredBehavior", "n": 254, "laws": 0, "ts": "2026-07-31 07:40 UTC"}

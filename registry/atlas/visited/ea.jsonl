@@ -98,3 +98,9 @@
 {"id": "/documentation/uikit/uibarbuttonitem/systemitem/save", "sha": "c7580a469e424349505345a0c919ee75997cf0f725669b93a8a4aef5a411b562", "t": "UIBarButtonItem.SystemItem.save", "n": 34, "laws": 0, "ts": "2026-07-31 06:10 UTC"}
 {"id": "/documentation/uikit/uisheetpresentationcontroller/preferredcornerradius-3mb5", "sha": "d76bcaa1d236b63d6da3142b033aeee45a96299633524b1c7084da1194c74bd4", "t": "preferredCornerRadius", "n": 179, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
 {"id": "/documentation/uikit/nstextlinefragment/locationforcharacter(at:)", "sha": "3ba0f10e1e70f1309618a8911ded7e69192152d08c5f0608b36f402ca5d1127d", "t": "locationForCharacter(at:)", "n": 189, "laws": 0, "ts": "2026-07-31 06:19 UTC"}
+{"id": "/documentation/gamecontroller/gcinputgripbutton", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "GCInputGripButton", "n": 0, "laws": 0, "ts": "2026-07-31 07:13 UTC"}
+{"id": "/documentation/uikit/nsdiffabledatasourcesectionsnapshotreference/level(ofitem:)", "sha": "e36c55be185279fb4bea2893e8707abb35c7a122e1339b1e388b3c82ab7c2649", "t": "level(ofItem:)", "n": 75, "laws": 0, "ts": "2026-07-31 07:21 UTC"}
+{"id": "/documentation/uikit/uipreviewaction/handler", "sha": "fd940a5810af7cb9c56ff0280fda3b92f59fe4c604f7deca85afec4a623f4894", "t": "handler", "n": 162, "laws": 0, "ts": "2026-07-31 07:24 UTC"}
+{"id": "/documentation/uikit/uifocussystem/focussystem(for:)-5htbd", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "focusSystem(for:)", "n": 0, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
+{"id": "/documentation/uikit/uidatepicker/locale", "sha": "7a1a6a072a0635ec6421012ac00c46e87b61d239f5142df7c2cc637b59318316", "t": "locale", "n": 280, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
+{"id": "/documentation/uikit/uislider/value", "sha": "3ee1c418107c0edca13b8b2d05855f45777024a46fc4453315af26a44fd31af6", "t": "value", "n": 358, "laws": 2, "ts": "2026-07-31 07:36 UTC"}

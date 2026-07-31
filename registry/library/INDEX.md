@@ -4,22 +4,22 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 2891 |
+| uikit | 3200 |
 | appkit | 2365 |
 | appintents | 1688 |
 | swiftui | 1664 |
 | accelerate | 1327 |
-| xcode | 941 |
+| human-interface-guidelines | 971 |
+| xcode | 952 |
 | foundation | 850 |
-| human-interface-guidelines | 803 |
 | metal | 713 |
 | avfoundation | 685 |
-| visionos | 647 |
+| visionos | 655 |
 | technotes | 615 |
 | swift | 610 |
 | arkit | 473 |
+| big7 | 428 |
 | realitykit | 416 |
-| big7 | 372 |
 | technologyoverviews | 368 |
 | updates | 314 |
 | bundleresources | 290 |
@@ -28,9 +28,9 @@
 | appstoreconnectapi | 248 |
 | scenekit | 245 |
 | carplay | 236 |
+| appclip | 235 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
-| appclip | 221 |
 | widgetkit | 205 |
 | gamekit | 201 |
 | vision | 195 |
@@ -66,6 +66,7 @@
 | coreimage | 81 |
 | backgroundassets | 77 |
 | exposurenotification | 73 |
+| gamecontroller | 73 |
 | safariservices | 73 |
 | usernotifications | 71 |
 | fileprovider | 66 |
@@ -74,7 +75,6 @@
 | homekit | 60 |
 | localauthentication | 60 |
 | mediaplayer | 60 |
-| gamecontroller | 57 |
 | coremotion | 56 |
 | createml | 56 |
 | cryptokit | 54 |
@@ -92,6 +92,7 @@
 | corehaptics | 44 |
 | imageio | 44 |
 | metalperformanceshaders | 43 |
+| walletpasses | 42 |
 | backgroundtasks | 41 |
 | compositorservices | 40 |
 | nearbyinteraction | 39 |
@@ -110,9 +111,8 @@
 | tvservices | 33 |
 | translation | 32 |
 | coreaudiotypes | 31 |
-| walletpasses | 31 |
+| signinwithapple | 31 |
 | energykit | 30 |
-| signinwithapple | 30 |
 | metrickit | 29 |
 | tabletopkit | 29 |
 | foveatedstreaming | 28 |
@@ -127,6 +127,7 @@
 | fskit | 25 |
 | corevideo | 24 |
 | pdfkit | 24 |
+| familycontrols | 23 |
 | pushkit | 23 |
 | quartzcore | 22 |
 | walletorders | 22 |
@@ -137,7 +138,6 @@
 | metalkit | 21 |
 | musickit | 21 |
 | tvmljs | 21 |
-| familycontrols | 19 |
 | photosui | 19 |
 | visionkit | 18 |
 | mapkitjs | 17 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 28072 · фреймворков: 339
+Итого законов: 28670 · фреймворков: 339

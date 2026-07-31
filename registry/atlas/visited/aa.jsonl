@@ -88,3 +88,8 @@
 {"id": "/documentation/uikit/uiscrolltypemask", "sha": "085b11033c54e40725afe800746f27ce49d21339b9c6d62104d14ed1e69ac9ff", "t": "UIScrollTypeMask", "n": 131, "laws": 0, "ts": "2026-07-30 19:11 UTC"}
 {"id": "/documentation/uikit/uifont/leading", "sha": "5aff54726c813d7d09a732007804623d386415d994f1db5c79e47335cee11a19", "t": "leading", "n": 140, "laws": 0, "ts": "2026-07-31 06:07 UTC"}
 {"id": "/documentation/uikit/uitextview/textlayoutmanager", "sha": "0399e43820e85f0fb48f56ca024bd8c695116959036657999f5a2bddec2cb8a8", "t": "textLayoutManager", "n": 78, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
+{"id": "/documentation/GameController/GCExtendedGamepad", "sha": "edf25a4270a4ba681010057df227d2c5fd8dd566417c7a1a0322f7097e8b9fe5", "t": "GCExtendedGamepad", "n": 1431, "laws": 0, "ts": "2026-07-31 07:16 UTC"}
+{"id": "/documentation/uikit/uitouch/type", "sha": "477e5073a8f9f3cad2537f3c2f68c326cfa428550e9c592d20aa1b0616c6c7fc", "t": "type", "n": 78, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
+{"id": "/documentation/uikit/uiscene/willenterforegroundmessage", "sha": "c15ef3bc735e0394c4c52f4af68388141131ddcf808ab8c0cf401a4cfdf990cc", "t": "UIScene.WillEnterForegroundMessage", "n": 59, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
+{"id": "/documentation/uikit/uiapplication/staterestorationuserinterfaceidiomkey", "sha": "6cec43a23eacec98b789105ad3a9ba987005a91a6df3ed314a778216d703543e", "t": "stateRestorationUserInterfaceIdiomKey", "n": 279, "laws": 0, "ts": "2026-07-31 07:31 UTC"}
+{"id": "/documentation/uikit/uitextformattingcoordinatordelegate", "sha": "8dc67cac2850156b44fd034a6f8217367ee84ab2aa10597128f50a8ae9ab745e", "t": "UITextFormattingCoordinatorDelegate", "n": 199, "laws": 0, "ts": "2026-07-31 07:38 UTC"}

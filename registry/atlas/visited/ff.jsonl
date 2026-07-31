@@ -97,3 +97,6 @@
 {"id": "/documentation/uikit/uisheetpresentationcontroller/preferredcornerradius-358tc", "sha": "d76bcaa1d236b63d6da3142b033aeee45a96299633524b1c7084da1194c74bd4", "t": "preferredCornerRadius", "n": 179, "laws": 0, "ts": "2026-07-31 06:15 UTC"}
 {"id": "/documentation/uikit/nstextlayoutfragment/trailingpadding", "sha": "7ee56d571479bf054661485bae448bebc2a87e6fbeceb1f68b4ee88c83c807c0", "t": "trailingPadding", "n": 242, "laws": 0, "ts": "2026-07-31 06:18 UTC"}
 {"id": "/documentation/uikit/uibezierpath/init(cgpath:)-833n8", "sha": "e0d3603ecde05e51ddfd993e80c141668752391c03f0db6fbba07e21fa1c872e", "t": "init(cgPath:)", "n": 159, "laws": 0, "ts": "2026-07-31 06:20 UTC"}
+{"id": "/documentation/uikit/uisearchbar/showsbookmarkbutton", "sha": "f47180024e18228d0e1dda7790706255ae002e90b0d1e514e506fd08b634dd44", "t": "showsBookmarkButton", "n": 105, "laws": 0, "ts": "2026-07-31 07:17 UTC"}
+{"id": "/documentation/uikit/uigesturerecognizer/ignore(_:for:)-5f685", "sha": "4447491904152ee13ff1afdc290b50195363e3aa32faa60a2ed0c788cd9aa649", "t": "ignore(_:for:)", "n": 295, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
+{"id": "/documentation/uikit/uipagecontroltimerprogressdelegate", "sha": "7513ae41468e7726174ff08cd822df066aa342a7dddede3ddc6ff405741a2e65", "t": "UIPageControlTimerProgressDelegate", "n": 108, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
