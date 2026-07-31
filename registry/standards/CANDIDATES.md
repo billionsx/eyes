@@ -1,11 +1,59 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 26038 · кандидатов: 0 · из них со ссылкой на свод правил: 0
+Норм просмотрено: 28128 · кандидатов: 16 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
 | свойство | норма | направление | страниц | встреч | первоисточник |
 |---|---|---|---|---|---|
+| font-size | 13 pt | none | 1 | 1 | да |
+| font-size | 17 pt | none | 1 | 1 | да |
+| margin / padding | 7 pt | none | 1 | 1 | да |
+| margin / padding | 10 pt | none | 1 | 1 | да |
+| margin / padding | 16 pt | none | 1 | 1 | да |
+| margin / padding | 16 pt | min | 1 | 1 | да |
+| margin / padding | 60 pt | min | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 28 pt | min | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 44 pt | min | 1 | 1 | да |
+| opacity | 35 % | none | 1 | 1 | да |
+| контраст пары цветов | 4.5 :1 | min | 1 | 1 | да |
+| font-size | 44 pt | none | 2 | 2 | нет |
+| margin / padding | 600 ms | none | 2 | 2 | нет |
+| opacity | 50 % | none | 2 | 2 | нет |
+| opacity | 10 % | none | 1 | 1 | нет |
+| контраст пары цветов | 20 % | none | 1 | 1 | нет |
 
 ## Адреса
 
+- **font-size 13 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/mac-catalyst
+  - «For example, the system scales text that uses the iPadOS baseline font size of 17pt down to 13pt in macOS.»
+- **font-size 17 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/mac-catalyst
+  - «For example, the system scales text that uses the iPadOS baseline font size of 17pt down to 13pt in macOS.»
+- **margin / padding 7 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/maps
+  - «For example, it works well to use 7 points of padding on the sides of the elements and 10 points above and below them.»
+- **margin / padding 10 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/maps
+  - «For example, it works well to use 7 points of padding on the sides of the elements and 10 points above and below them.»
+- **margin / padding 16 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/widgets
+  - «Use the standard margin width for widgets — 16 points for most widgets — to avoid crowding their edges and creating a cluttered appearance.»
+- **margin / padding 16 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/eyes
+  - «You can help ensure that there’s enough space between interactive items by using a margin of at least 16 points around the bounds of each item or by p»
+- **margin / padding 60 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/eyes
+  - «You can help ensure that there’s enough space between interactive items by using a margin of at least 16 points around the bounds of each item or by p»
+- **min-width/min-height интерактивного элемента 28 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/game-controls
+  - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
+- **min-width/min-height интерактивного элемента 44 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/game-controls
+  - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
+- **opacity 35 %** (none) — https://developer.apple.com/design/human-interface-guidelines/materials
+  - «For optimal contrast and legibility, determine whether to add a dimming layer behind components with clear Liquid Glass: If the underlying content is »
+- **контраст пары цветов 4.5 :1** (min) — https://developer.apple.com/design/human-interface-guidelines/dark-mode
+  - «At a minimum, make sure the contrast ratio between colors is no lower than 4.5:1.»
+- **font-size 44 pt** (none) — https://developer.apple.com/documentation/appkit/nscollectionlayoutdimension, https://developer.apple.com/documentation/uikit/nscollectionlayoutdimension
+  - «Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at run»
+- **margin / padding 600 ms** (none) — https://developer.apple.com/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time, https://developer.apple.com/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time
+  - «To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel di»
+- **opacity 50 %** (none) — https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor, https://developer.apple.com/documentation/swiftui/view/opacity(_:)
+  - «The default shadow color is black with 50% opacity.»
+- **opacity 10 %** (none) — https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)
+  - «This example shows an image masked by rectangle with a 10% opacity: Masks this view using the alpha channel of the given view.»
+- **контраст пары цветов 20 %** (none) — https://developer.apple.com/documentation/swiftui/view/contrast(_:)
+  - «At each step in the loop, the modifier changes the contrast of the circle/square view in 20% increments.»

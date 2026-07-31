@@ -39,8 +39,19 @@ HOST = "https://developer.apple.com"
 # ЧИСЛО С ЕДИНИЦЕЙ. Только то, что можно сверить с кодом: точки, пиксели,
 # миллисекунды, проценты, кратности контраста. Голое число без единицы
 # кандидатом не считается — его не с чем сравнивать.
+# Единица пишется у Apple тремя способами: сокращением (44 pt), словом
+# (16 points), и парой размеров (44x44 pt — здесь одно pt на оба числа).
+# Все три обязаны читаться: на живом своде форма «44x44 pt» несёт само
+# правило касания, а «16 points» — стандартное поле виджета. Первая версия
+# ловила только сокращение и потеряла оба.
 QTY = re.compile(
-    r"(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>pt\b|px\b|ms\b|s\b|%|:1\b)", re.I)
+    r"(?P<pair>(?P<w>\d+(?:\.\d+)?)\s*[x×]\s*(?P<h>\d+(?:\.\d+)?))?\s*"
+    r"(?(pair)|(?P<num>\d+(?:\.\d+)?))\s*"
+    r"(?P<unit>pt\b|px\b|ms\b|s\b|%|:1\b|points?\b|pixels?\b|milliseconds?\b)",
+    re.I)
+
+_UNIT = {"point": "pt", "points": "pt", "pixel": "px", "pixels": "px",
+         "millisecond": "ms", "milliseconds": "ms"}
 
 # СРАВНЕНИЕ. Норма без направления («44 pt») слабее нормы с направлением
 # («не менее 44 pt»): вторая говорит, что считать нарушением.
@@ -56,7 +67,10 @@ CMP = (
 # умеет увидеть в исходнике клиента. Без такой связи кандидат остаётся
 # знанием, но не становится проверкой.
 BIND = (
-    (re.compile(r"\b(tap|touch|hit)\s*(target|area)|tappable", re.I),
+    (re.compile(r"\b(tap|touch|hit)\s*(target|area)|tappable|"
+                r"controls?\s+are\s+a\s+minimum\s+size|"
+                r"minimum\s+size\s+of\s+\d+\s*[x×]|"
+                r"comfortable\s+minimum\s+(?:size|target)", re.I),
      "min-width/min-height интерактивного элемента"),
     (re.compile(r"\bcorner radius|rounded corner", re.I), "border-radius"),
     (re.compile(r"\bcontrast ratio|contrast of", re.I), "контраст пары цветов"),
@@ -89,11 +103,19 @@ def cmp_of(text: str) -> str:
 
 
 def quantities(text: str) -> list:
-    """Числа с единицами, приведённые к паре (значение, единица)."""
+    """Числа с единицами, приведённые к паре (значение, единица).
+
+    Пара «44x44 pt» возвращается ОДНИМ значением — меньшей стороной: норма
+    касания говорит о минимальном размере, и судить надо по узкому месту.
+    """
     out = []
     for m in QTY.finditer(text):
         unit = m.group("unit").lower().rstrip()
-        out.append((float(m.group("num")), unit))
+        unit = _UNIT.get(unit, unit)
+        if m.group("pair"):
+            out.append((min(float(m.group("w")), float(m.group("h"))), unit))
+        else:
+            out.append((float(m.group("num")), unit))
     return out
 
 
@@ -191,6 +213,16 @@ def court() -> int:
     check("без слов направления — none", cmp_of("the size is 44 pt") == "none")
     check("связь с кодом найдена: касание → размер интерактивного элемента",
           bind_of("Use a minimum tappable area of 44x44 pt.").startswith("min-width"))
+    check("единица словом читается: 16 points → (16, pt)",
+          quantities("a margin of 16 points") == [(16.0, "pt")])
+    check("пара размеров читается меньшей стороной: 44x44 pt → одно 44 pt",
+          quantities("a minimum size of 44x44 pt") == [(44.0, "pt")])
+    _hig = ("Make sure frequently used controls are a minimum size of 44x44 pt, "
+            "and less important controls are a minimum size of 28x28 pt.")
+    check("живая формулировка свода ловится целиком: 44 и 28, минимум, связь",
+          quantities(_hig) == [(44.0, "pt"), (28.0, "pt")]
+          and cmp_of(_hig) == "min"
+          and bind_of(_hig).startswith("min-width"))
     check("связь с кодом найдена: скругление → border-radius",
           bind_of("Use a corner radius of 12 pt for cards.") == "border-radius")
     check("ломаю → красный: норма без связи с кодом кандидатом не становится",
