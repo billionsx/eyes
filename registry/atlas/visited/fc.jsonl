@@ -122,3 +122,8 @@
 {"id": "/documentation/uikit/uitouch/view", "sha": "545820e37d3fc3770978f65476e765852fd3afef98837bca71dffc343b11c56a", "t": "view", "n": 331, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
 {"id": "/documentation/uikit/nscollectionlayoutdimension/estimated(_:)", "sha": "bcd2377ad2120140f2140614974e1953985db8b0ddd308da9c980237864962a6", "t": "estimated(_:)", "n": 140, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
 {"id": "/documentation/UIKit/UIColorPickerViewController", "sha": "b4ad5f8eb6e4349044d1868ecc329453d069de44247e26e9a77a660b81d13c45", "t": "UIColorPickerViewController", "n": 588, "laws": 1, "ts": "2026-07-31 07:40 UTC"}
+{"id": "/documentation/usernotifications/unnotificationsound", "sha": "d85e50a8d508bb3bdbf23ef4e9ad4c6f0248fef965f104c4b5c4792ded2574db", "t": "UNNotificationSound", "n": 2049, "laws": 1, "ts": "2026-07-31 18:44 UTC"}
+{"id": "/documentation/UserNotifications/sending-channel-management-requests-to-apns", "sha": "128d7fb1f346b4942fdb2f2edbe83bc2644a4e0e8d94ca83f2a5f5bdf56d0fdc", "t": "Sending channel management requests to APNs", "n": 5997, "laws": 2, "ts": "2026-07-31 18:44 UTC"}
+{"id": "/documentation/photokit/image-request-identifiers", "sha": "15a46a8cc614626d3bede0b44616e15c08217986c2d82be93b21249ce04a4547", "t": "Image Request Identifiers", "n": 130, "laws": 0, "ts": "2026-07-31 18:45 UTC"}
+{"id": "/documentation/swiftui/path/init(_:)", "sha": "736b116ac355e46dba59fc455533c624dd8536a06228421ccf8623aa5587e9c3", "t": "init(_:)", "n": 75, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/swiftui/exclusivegesture", "sha": "7418e5d5038d2425a01cc0ac51ac58046cf7ef8ae6185a57bb41cc1ee4f287c4", "t": "ExclusiveGesture", "n": 225, "laws": 0, "ts": "2026-07-31 19:06 UTC"}

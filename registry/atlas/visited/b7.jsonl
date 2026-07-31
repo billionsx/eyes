@@ -108,3 +108,11 @@
 {"id": "/documentation/uikit/uidatepicker/countdownduration", "sha": "01cfc5ce485102e2517d7d6aa80cbcc1b0dc618626b55183b98fb590d1356aa7", "t": "countDownDuration", "n": 510, "laws": 1, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uistepper/autorepeat", "sha": "6e44ab9601ccff84ddaddf0b3cf23150b0a6e5aac031238d30ed3a68ee2fdb61", "t": "autorepeat", "n": 253, "laws": 0, "ts": "2026-07-31 07:36 UTC"}
 {"id": "/documentation/uikit/uistepper/incrementimage(for:)", "sha": "c7d2b0866721d12cdbeacd18829ac8542f6b4ee5963e57ff0c49ddd07fc43323", "t": "incrementImage(for:)", "n": 133, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
+{"id": "/documentation/WidgetKit/WidgetFamily/accessoryRectangular", "sha": "62537d085d5c433049af9b21654b45fdd1e5dee351256970b870530bc816026f", "t": "WidgetFamily.accessoryRectangular", "n": 273, "laws": 0, "ts": "2026-07-31 18:43 UTC"}
+{"id": "/documentation/swiftui/viewmodifier/content", "sha": "92a90732193fa2314057f21a7227e81b3f4c160202b52ac8187128fb47645f25", "t": "ViewModifier.Content", "n": 33, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/dismisssearch", "sha": "7aae076bcb7b9b22efcccf8a6eba1ab9aa19ba6b11cb1d231bdf6532e46e6d6f", "t": "dismissSearch", "n": 1735, "laws": 0, "ts": "2026-07-31 18:52 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/findcontext", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "findContext", "n": 0, "laws": 0, "ts": "2026-07-31 18:52 UTC"}
+{"id": "/documentation/swiftui/observedobject/wrapper", "sha": "bf625374304623b4ea1b860c580591cbe22f3149f747d95805582dd5bc176b54", "t": "ObservedObject.Wrapper", "n": 130, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
+{"id": "/documentation/swiftui/graphicscontext/fill(_:with:style:)", "sha": "a21ce8c246d7485ea3b6c8c5ae4440c0216343d80ee52a0ace3e8c1420341d01", "t": "fill(_:with:style:)", "n": 271, "laws": 0, "ts": "2026-07-31 18:56 UTC"}
+{"id": "/documentation/swiftui/view/gridcellanchor(_:)", "sha": "0713b00f9ef7b9c274ec4fef50af89cfabaf0c27301af7e4d758472cf4abf064", "t": "gridCellAnchor(_:)", "n": 2866, "laws": 4, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/swiftui/shape/offset(x:y:)", "sha": "b1b5fc092af5c3324e76d5d36cecee402b4ff95055fdc2aa38b385a3af8039f2", "t": "offset(x:y:)", "n": 370, "laws": 0, "ts": "2026-07-31 19:05 UTC"}

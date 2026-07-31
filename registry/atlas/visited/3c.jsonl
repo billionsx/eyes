@@ -101,3 +101,11 @@
 {"id": "/documentation/uikit/uitextinputtraits/autocorrectiontype", "sha": "4c187f32db28914d3bb0d684e6ceec5cc4c819e8b7ceced23f06ed6cbeed8263", "t": "autocorrectionType", "n": 474, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
 {"id": "/documentation/UIKit/UIPasteboard", "sha": "aa6245641a9ea38c099c4678dd73264de5b7837b5e0fc57386a8ec48dedd23f4", "t": "UIPasteboard", "n": 8249, "laws": 0, "ts": "2026-07-31 07:40 UTC"}
 {"id": "/documentation/UIKit/UIActivityCollaborationMode", "sha": "7dcbacf42cf17ea0cf1a00d1cc6110c135551987a3a9d26e61dce24384bbef09", "t": "UIActivityCollaborationMode", "n": 184, "laws": 0, "ts": "2026-07-31 07:40 UTC"}
+{"id": "/documentation/photokit/uploading-asset-resources-in-the-background", "sha": "c3759860269e5423477f8cc002d9dd1e4a65146a2069124fe73fae15f1516959", "t": "Uploading asset resources in the background", "n": 13451, "laws": 1, "ts": "2026-07-31 18:45 UTC"}
+{"id": "/documentation/SwiftUI/Shader", "sha": "f2e4b33f432ca6e9039d92a48641df39c33bccd365f9797ea2257e44a7848e4c", "t": "Shader", "n": 890, "laws": 1, "ts": "2026-07-31 18:47 UTC"}
+{"id": "/documentation/SwiftUI/TabRole/search", "sha": "6902b92e60ce4e6e128fe13a65f49bb630100c5548f3951370f68578d1352b2c", "t": "search", "n": 258, "laws": 0, "ts": "2026-07-31 18:47 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/widgetfamily", "sha": "72f0b8df69000df209619185e46afe4382837ae30f14ba986c1282e3dc52cdf0", "t": "widgetFamily", "n": 144, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
+{"id": "/documentation/swiftui/scene/onchange(of:initial:_:)", "sha": "a15fe93082a16943c7fd5f7702709fc6315a184a8722c5e962179a8617657624", "t": "onChange(of:initial:_:)", "n": 692, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/graphicscontext/resolve(_:)", "sha": "67224892175a6bd0609be19f8373ca2acb15bd0f6af9874ff62c22a917696f86", "t": "resolve(_:)", "n": 421, "laws": 0, "ts": "2026-07-31 18:56 UTC"}
+{"id": "/documentation/swiftui/view/accessibilityhidden(_:)", "sha": "88071b46d82b52fd8c1eb94c6df722ab5715cfca91ada6cf4abef0d1a8b466e8", "t": "accessibilityHidden(_:)", "n": 71, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/swiftui/automaticnavigationtransition", "sha": "f818b02aeab0da1ca00de48558ff4331e2f5061767168ead80399b7e2b4c479a", "t": "AutomaticNavigationTransition", "n": 99, "laws": 0, "ts": "2026-07-31 18:59 UTC"}

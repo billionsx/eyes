@@ -103,3 +103,4 @@
 {"id": "/documentation/uikit/uifontpickerviewcontroller/init(configuration:)", "sha": "16a583877fd6f28a2cd90b2b29dd358f4125742f08f5733486c0cd19db281a6f", "t": "init(configuration:)", "n": 138, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uipagecontrol/indicatorimage(forpage:)", "sha": "4379d1170b92693fd6074ffebbc1287c4e3bfeaaea55cd02aa85eaf9c6389685", "t": "indicatorImage(forPage:)", "n": 172, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
 {"id": "/documentation/uikit/uiwritingtoolsresultoptions/uiwritingtoolsresultdefault", "sha": "e4b9a8b0e7c65f8fa5f2a608483e0581eefc4f76020a777a2d67861a728f9da0", "t": "UIWritingToolsResultDefault", "n": 23, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/photokit/loading-and-caching-assets-and-thumbnails", "sha": "11d14e578ea3e8c8145e1b1a59468fadd92837c3f5647d222983fef82e7b6277", "t": "Loading and Caching Assets and Thumbnails", "n": 453, "laws": 0, "ts": "2026-07-31 18:45 UTC"}

@@ -99,3 +99,8 @@
 {"id": "/documentation/uikit/uiscene/systemprotectiondidchangenotification", "sha": "3da7a6886ef75e087891d97db206d002c488ecb97de4dcd2eeb537dd22468ea4", "t": "systemProtectionDidChangeNotification", "n": 177, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
 {"id": "/documentation/uikit/uislider/currentthumbimage", "sha": "2ff530579f9f4cc8f5038a64883b39707ce64337ce57669b63d969221838178f", "t": "currentThumbImage", "n": 443, "laws": 1, "ts": "2026-07-31 07:35 UTC"}
 {"id": "/documentation/uikit/uiaccessibility/isonoffswitchlabelsenabled", "sha": "16b1782443505279835aec5cb438d2d9378dc500ddc8f1ad8353531c1c91fd52", "t": "isOnOffSwitchLabelsEnabled", "n": 88, "laws": 0, "ts": "2026-07-31 07:41 UTC"}
+{"id": "/documentation/SwiftUI/View/alert(error:actions:)", "sha": "6ef9ffa579ea9b8070b0ac8134d8fc8ae01948e9c76426b1216b36bf3b529d95", "t": "alert(error:actions:)", "n": 1030, "laws": 1, "ts": "2026-07-31 18:48 UTC"}
+{"id": "/documentation/swiftui/wkinterfaceobjectrepresentable", "sha": "15f11244107823f4f977f60da111b18d54f6590a8c72ff25defe7d02b1a80366", "t": "WKInterfaceObjectRepresentable", "n": 1617, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/togglestyle/automatic", "sha": "80c260de5fdcd8be3253ded787aab2ae96df12959311b1c066d01fbb9a14e700", "t": "automatic", "n": 1158, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/view/navigationtitle(_:)-6jofs", "sha": "bc28e3bfc1fcb2103ba1e5d67282f95fd7a722fdea1a6ddc0e88170f21512552", "t": "navigationTitle(_:)", "n": 562, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/swiftui/symboleffecttransition", "sha": "4e2004cc56e562d7490a90c1a6b7b2955b4e584e68987a8500aca337ce615c39", "t": "SymbolEffectTransition", "n": 262, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

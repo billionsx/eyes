@@ -1,15 +1,15 @@
 # ЖИВОЙ ВЗГЛЯД · отчёт (советник)
-Снято: 2026-07-31 14:40 UTC · настоящий DOM+computed, не кадры.
+Снято: 2026-07-31 19:19 UTC · настоящий DOM+computed, не кадры.
 
 ## https://brajs.com/
 элементов снято: 38 · находок: 0
-диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19090, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19069, "bodyChildren": 2}
 
 ## https://brajs.com/katha
 элементов снято: 33 · находок: 0
-диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 21248, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 21227, "bodyChildren": 2}
 
 ## https://brajs.com/library
 элементов снято: 38 · находок: 0
-диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19097, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19076, "bodyChildren": 2}
 

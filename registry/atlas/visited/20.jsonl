@@ -83,3 +83,5 @@
 {"id": "/documentation/uikit/uipointershape-swift.enum/path(_:)", "sha": "795583b76994c2893bb504bcc25228cb8110e07ac48a6ce880e8374fdb24a968", "t": "UIPointerShape.path(_:)", "n": 46, "laws": 0, "ts": "2026-07-31 07:26 UTC"}
 {"id": "/documentation/uikit/uimanageddocument/managedobjectcontext", "sha": "1243a58a1d60a476c89f3dc1250a396e7204686ba76413001310182d0ada0788", "t": "managedObjectContext", "n": 274, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
 {"id": "/documentation/uikit/uitextfielddelegate", "sha": "ab81dc7b73e9e3bccf33ca73f9c5086e5ae3379f41f2c057b03cfbbd0967178c", "t": "UITextFieldDelegate", "n": 2582, "laws": 1, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/swiftui/view/equatable()", "sha": "08f72c89362ac94b8e25cc512bf8bf611600a8923a6f02c764f93e76a7fee645", "t": "equatable()", "n": 95, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/SwiftUI/Text/DateStyle/timer", "sha": "06d1203d091d34d5d3b208197604ba3c09659fc98932697f232e0bdab406ab2a", "t": "timer", "n": 97, "laws": 0, "ts": "2026-07-31 19:06 UTC"}

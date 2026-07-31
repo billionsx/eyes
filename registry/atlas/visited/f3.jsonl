@@ -110,3 +110,6 @@
 {"id": "/documentation/uikit/uifocussystem/didupdatenotification", "sha": "40f46b4cd773570d7dd405c7926f61716fd295a0071ef97e2eae54efcf9386ec", "t": "didUpdateNotification", "n": 38, "laws": 0, "ts": "2026-07-31 07:28 UTC"}
 {"id": "/documentation/uikit/uiactivityindicatorview/hideswhenstopped", "sha": "f3d7c00b6ea647e589a581a5c12e8849d77ce8f50c11f922308298147d5394cd", "t": "hidesWhenStopped", "n": 361, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
 {"id": "/documentation/uikit/uisearchtextfieldpasteitem", "sha": "8821e51fde3559db9d8b15cafa5d1a1ae995f3a556fcaf0558ad6e257d943021", "t": "UISearchTextFieldPasteItem", "n": 271, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/UserNotifications/UNNotificationContentProviding", "sha": "5e8c16f8aa4920a6a23cdf85e08c2ec0a779706cf271cb71eb709736d2024ffe", "t": "UNNotificationContentProviding", "n": 235, "laws": 0, "ts": "2026-07-31 18:45 UTC"}
+{"id": "/documentation/swiftui/settingslink", "sha": "86cc246958e7e24c494b2998036a9928a165b00408045c472d22fc74b42ddcfa", "t": "SettingsLink", "n": 274, "laws": 0, "ts": "2026-07-31 18:50 UTC"}
+{"id": "/documentation/swiftui/binding/init(projectedvalue:)", "sha": "c6c5babe24dd5ea7977806f205c450903bd2c6b68a48dd831af75eeff42d75ed", "t": "init(projectedValue:)", "n": 52, "laws": 0, "ts": "2026-07-31 18:59 UTC"}

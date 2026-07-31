@@ -91,3 +91,6 @@
 {"id": "/documentation/uikit/uipencilinteraction/isenabled", "sha": "f76b5548bb924684bfcc62a0ef139a55d3921d12834f74dcebf1c7996ba530d7", "t": "isEnabled", "n": 147, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
 {"id": "/documentation/uikit/uicolorpickerviewcontroller/init()", "sha": "9a4909feefdbc3fcfd5929bcde6880cdfc65a5e2ca84590ba84ffdcf128ebee5", "t": "init()", "n": 39, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/notification-dictionary-keys", "sha": "b4261f79157807311b33040285ec552d5ae500084d80d29a2991c0cb72c83035", "t": "Notification dictionary keys", "n": 289, "laws": 0, "ts": "2026-07-31 07:41 UTC"}
+{"id": "/documentation/UserNotifications/UNNotificationAction", "sha": "e68809f77f6bfaad454c24086ade64de9659f88d0c151608f1d9523a1ae82e6b", "t": "UNNotificationAction", "n": 1538, "laws": 0, "ts": "2026-07-31 18:45 UTC"}
+{"id": "/documentation/swiftui/fillshapeview", "sha": "94fbea96899354e083e344b5a309d9dc324d6cf272b97f3815204e4e6913b740", "t": "FillShapeView", "n": 258, "laws": 0, "ts": "2026-07-31 18:50 UTC"}
+{"id": "/documentation/swiftui/view/accessibilityrespondstouserinteraction(_:)", "sha": "fa9cef238c8eac0fd726bf8c9f915946897ee10afecfc00f006a7dce7f9da0a7", "t": "accessibilityRespondsToUserInteraction(_:)", "n": 411, "laws": 0, "ts": "2026-07-31 19:07 UTC"}

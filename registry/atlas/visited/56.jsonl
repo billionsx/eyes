@@ -92,3 +92,9 @@
 {"id": "/documentation/uikit/nstextlayoutmanager/useshyphenation", "sha": "d62483306a26a00829d563c60ded040873b890724308712d9595f2471171becb", "t": "usesHyphenation", "n": 133, "laws": 0, "ts": "2026-07-31 06:19 UTC"}
 {"id": "/documentation/gamecontroller/gcinputstylusprimarybutton-18g2p", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "GCInputStylusPrimaryButton", "n": 0, "laws": 0, "ts": "2026-07-31 07:15 UTC"}
 {"id": "/documentation/uikit/uiscene/openurloptions", "sha": "ce46115be1be5ecd79775567971cf414e9ebfc018b8867e55d2b9474f54459fc", "t": "UIScene.OpenURLOptions", "n": 382, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
+{"id": "/documentation/SwiftUI/View/focusable(_:interactions:)", "sha": "218084bd5bb9c6b9b5ae1d36247683e5c7c7511e16667a4887fb0b3a45589ee9", "t": "focusable(_:interactions:)", "n": 903, "laws": 1, "ts": "2026-07-31 18:48 UTC"}
+{"id": "/documentation/swiftui/datepicker", "sha": "5e4de6ccdc648919dbf5da7e1d66a43f2c4831ce8e5e2e24c93cdd35ceb4fd5b", "t": "DatePicker", "n": 1462, "laws": 1, "ts": "2026-07-31 18:50 UTC"}
+{"id": "/documentation/swiftui/view/popovertip(_:arrowedge:action:)", "sha": "c54b939937e4fd33e02109df64cf2f72e4b4cf584e1f08f9c904b099c9174bc3", "t": "popoverTip(_:arrowEdge:action:)", "n": 169, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/SwiftUI/View/scenePadding(_:)", "sha": "5a379b3231f1e9599967fd41b76d1b6d3b2097676501d51808389b341446d671", "t": "scenePadding(_:)", "n": 1371, "laws": 3, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/swiftui/view/cuttable(for:action:)", "sha": "0a82811451e3d0aa6fb9aff122f49a45a7707e59218a78d52ffc459a93d24d5b", "t": "cuttable(for:action:)", "n": 1065, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/swiftui/pencilsqueezegesturephase", "sha": "c1256e410b8ae5f4e9dc4833f529b7f89486f1539b4f574f88edc442482c97e9", "t": "PencilSqueezeGesturePhase", "n": 311, "laws": 1, "ts": "2026-07-31 19:09 UTC"}

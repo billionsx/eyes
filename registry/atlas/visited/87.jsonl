@@ -99,3 +99,7 @@
 {"id": "/documentation/uikit/uifocusmovementhint/translation", "sha": "6fc901a120a3eda824adc564baaa3da156c62ba3aaffa366623eab6a0538b491", "t": "translation", "n": 153, "laws": 0, "ts": "2026-07-31 07:28 UTC"}
 {"id": "/documentation/uikit/uisearchtextfield/tokens", "sha": "aa56abd2a7785e53b9a8b33a74bf88d92497b90893fae997755e854a74f0e269", "t": "tokens", "n": 199, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
 {"id": "/documentation/uikit/uisearchtextfield/tokens(in:)", "sha": "6d6afd77b0315d74f0d77cc184508874799475b0604d20cbde534b5176e6f6af", "t": "tokens(in:)", "n": 294, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/walletpasses/supporting-semantic-tags-in-wallet-passes", "sha": "7914120a42449788f9bd639567c9119aee5f5392605d93bd2bea54af2c4d70d4", "t": "Supporting semantic tags in Wallet passes", "n": 2100, "laws": 1, "ts": "2026-07-31 18:42 UTC"}
+{"id": "/documentation/SwiftUI/View/padding3D(_:)-6bex4", "sha": "06990877b12925ce07a992e8589d4c2ed5aaaa51e512cbd8f9778deba483fea5", "t": "padding3D(_:)", "n": 127, "laws": 0, "ts": "2026-07-31 18:49 UTC"}
+{"id": "/documentation/SwiftUI/ContainerBackgroundPlacement/tabView", "sha": "65d3b1bbaf5c8cee5490a5ec6c0f20b72e3231f0239df6930f0feca87a26bd09", "t": "tabView", "n": 33, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/swiftui/view/accessibilityscrollaction(_:)", "sha": "591a82faa2281d9da8821962ae4ac1e3138b048733dc49f8c042e5c98cec77e5", "t": "accessibilityScrollAction(_:)", "n": 261, "laws": 0, "ts": "2026-07-31 19:08 UTC"}

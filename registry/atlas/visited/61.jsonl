@@ -97,3 +97,9 @@
 {"id": "/documentation/uikit/uiscenedestructioncondition", "sha": "87b91a7f9af2af7921f694109e10465e3b5141c42fe83320bdfdace663493176", "t": "UISceneDestructionCondition", "n": 109, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
 {"id": "/documentation/uikit/uitextfield/drawtext(in:)", "sha": "b8655594746b8e4f2a2c7d8f8c9f06a1d457deb8f33af09c315ef1845e60157c", "t": "drawText(in:)", "n": 573, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
 {"id": "/documentation/uikit/uitextfield/viewmode", "sha": "f8aee9ee8b64434f59edf662ca18654ef4e5271cad3fffaee2982fd8875020ee", "t": "UITextField.ViewMode", "n": 238, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/swiftui/view-input-and-events", "sha": "1289518525d3fd2364a86ef17491131252ad8e5ddc40f4dec036bb525aff1eda", "t": "Input and event modifiers", "n": 7526, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/toolbaritemgroup", "sha": "cbebab956f8d3c12901b6baf330198a6c5cd08c3ec918bb285afd4a56fbdfa30", "t": "ToolbarItemGroup", "n": 233, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/binding/subscript(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "subscript(_:)", "n": 0, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/swiftui/simultaneousgesture/value", "sha": "c7ef26b81f033ca67d0fbc400332abb25d15f6808a3707fab0f01b72b1082d4a", "t": "SimultaneousGesture.Value", "n": 134, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/swiftui/gesture/simultaneously(with:)", "sha": "bbd4dea0f3988fb556bc6e3eb8a08e5e3baa4218fb4f2dfeee0c2f4c54e184f9", "t": "simultaneously(with:)", "n": 169, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/swiftui/immersivecontentbrightness", "sha": "163aa44d3902593614837523ec9b79b340073af1995c5ed011f58c3e94a50c2c", "t": "ImmersiveContentBrightness", "n": 642, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

@@ -99,3 +99,11 @@
 {"id": "/documentation/uikit/uisearchdisplaycontroller", "sha": "61deaf79fbc72ad9fc26092a3d0088168c6d5dfbe513567e5e485a704e5ad203", "t": "UISearchDisplayController", "n": 2699, "laws": 1, "ts": "2026-07-31 07:24 UTC"}
 {"id": "/documentation/uikit/uipagecontrol/numberofpages", "sha": "a426180df3f8735b5d2b79d4fedc96b2e4ec1b91c3924ebfcd418341cce0d82b", "t": "numberOfPages", "n": 174, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
 {"id": "/documentation/uikit/nsadaptiveimageglyph/contenttype", "sha": "b903c830e79baf795e23ea1a41a50937141a456158318a9437a08353b321b006", "t": "contentType", "n": 253, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/SwiftUI/Animatable()", "sha": "59b8c4334950ab28c45cf0950a40836eac2d1fd9b757d66d0fe8315746f72415", "t": "Animatable()", "n": 577, "laws": 0, "ts": "2026-07-31 18:46 UTC"}
+{"id": "/documentation/SwiftUI/FocusedValues", "sha": "95964c749f4bafb5ac353d11e0dd9aa37b7a1a5c7e45ae366f26d95475ef395c", "t": "FocusedValues", "n": 821, "laws": 3, "ts": "2026-07-31 18:46 UTC"}
+{"id": "/documentation/swiftui/graphicscontext/concatenate(_:)", "sha": "b4983f7eaf31226e56f70a737ef0f75fa0d535dcbd72dad7a3019f6d57853f15", "t": "concatenate(_:)", "n": 168, "laws": 0, "ts": "2026-07-31 18:56 UTC"}
+{"id": "/documentation/SwiftUI/View/scrollBounceBehavior(_:axes:)", "sha": "799f6a7c55887e0da40b9638f98d92f39aada4d0faed7fe776aee027767f3e02", "t": "scrollBounceBehavior(_:axes:)", "n": 979, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/SwiftUI/Widget", "sha": "6bb5166f3d46cb3af86c5706979e165b8826b464f44641958f57ebb5ac9c6adc", "t": "Widget", "n": 1686, "laws": 0, "ts": "2026-07-31 19:02 UTC"}
+{"id": "/documentation/swiftui/color/mix(with:by:in:)", "sha": "0b885619ee8dfd91d6c628bb4c04b6b3b9984aec359f94150da3f212d557fdb0", "t": "mix(with:by:in:)", "n": 102, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
+{"id": "/documentation/swiftui/shape/stroke(_:linewidth:)", "sha": "1a11010e1fbbe7daa1d282fc032b63bba257b95b842d56ece35fe8151426d76b", "t": "stroke(_:lineWidth:)", "n": 164, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
+{"id": "/documentation/swiftui/accessibilityquickactionstyle", "sha": "eb4ff1926d1970552d382705a6901735bfd84d3eee3097434520831275e825d2", "t": "AccessibilityQuickActionStyle", "n": 222, "laws": 0, "ts": "2026-07-31 19:07 UTC"}

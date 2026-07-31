@@ -86,3 +86,12 @@
 {"id": "/documentation/uikit/checking-the-availability-of-3d-touch", "sha": "fc839d9e8322fcd90b6698507056462dab1236459b7764cfd36305b9c334e0d4", "t": "Checking the availability of 3D Touch", "n": 550, "laws": 0, "ts": "2026-07-31 07:19 UTC"}
 {"id": "/documentation/uikit/uigesturerecognizer/pressesbegan(_:with:)", "sha": "b05dbace34354e6386c74c06665c29c9078f50d72c878c49979d66bd2fb11e9c", "t": "pressesBegan(_:with:)", "n": 714, "laws": 2, "ts": "2026-07-31 07:27 UTC"}
 {"id": "/documentation/uikit/uistepper/wraps", "sha": "000d5d0f7cb75f2428b0d0515ba6c5e92c5912e0058c342196614d7fd6232a07", "t": "wraps", "n": 381, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
+{"id": "/documentation/walletpasses/serialnumbers", "sha": "524d9b5a0c7289fe18bb1e93fc9aa3c308d547eed4629c9ff380366bbe841e3b", "t": "SerialNumbers", "n": 350, "laws": 0, "ts": "2026-07-31 18:42 UTC"}
+{"id": "/documentation/swiftui/subscriptionview", "sha": "391b0bc26eedd02a0422d492e7cf80d47ad29bc03b3964d70bff9c4caef672c2", "t": "SubscriptionView", "n": 175, "laws": 0, "ts": "2026-07-31 18:50 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/defaultminlistheaderheight", "sha": "043dd94b2265dfddefce6e7093cc06c35ed86e9d093d7e6591ebd0e961dd401b", "t": "defaultMinListHeaderHeight", "n": 144, "laws": 0, "ts": "2026-07-31 18:52 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/widgetcontentmargins", "sha": "4145380c66cc26b89544660e27b3b344cf7fbfd47ff9b25cab6ab452225dffe5", "t": "widgetContentMargins", "n": 456, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
+{"id": "/documentation/swiftui/tablecolumnalignment", "sha": "f8c84916928240f146368442a555ff99dd9fa648f8716ab4c54f646a1961acb5", "t": "TableColumnAlignment", "n": 280, "laws": 0, "ts": "2026-07-31 18:56 UTC"}
+{"id": "/documentation/swiftui/snapshotdata", "sha": "5f57c74b33e6d7bf629ea58b3276c4e226c78bf7192454d2d0ed2e3892c8d8c3", "t": "SnapshotData", "n": 119, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/swiftui/path/move(to:)", "sha": "9a246e554538923cc1f7eaf560d1eeef2575f7f6c1195382bb1cac7ec9a12790", "t": "move(to:)", "n": 166, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/SwiftUI/DynamicTypeSize", "sha": "681c5b32010d5c92fc24bec7e9c9c8227bb96f13433efb264bb1495ac7de9952", "t": "DynamicTypeSize", "n": 589, "laws": 1, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/swiftui/view/copyable(_:)", "sha": "664a6724e13356dff6a8a2028e2823f408094bbffa42a637f3cba4a8f3610c39", "t": "copyable(_:)", "n": 1775, "laws": 1, "ts": "2026-07-31 19:09 UTC"}

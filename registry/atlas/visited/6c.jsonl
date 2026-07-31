@@ -114,3 +114,4 @@
 {"id": "/documentation/uikit/uifocusupdatecontext/previouslyfocusedview", "sha": "5e3115b638f1d4c41a31f389b2b909a4e71377c15920fe60cdcfc9d9a0646a1c", "t": "previouslyFocusedView", "n": 215, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
 {"id": "/documentation/uikit/uimanageddocument/persistentstoreoptions", "sha": "c7361200e37961ef5c5478e329d6dd0c8fc529af584347fe2829647d736f2e32", "t": "persistentStoreOptions", "n": 203, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
 {"id": "/documentation/uikit/uisegmentedcontrol/init(frame:actions:)", "sha": "4f1b8f151349600440cb7d254a2b55046d79e9d9c0d56b4a6d31f35ad642f6a0", "t": "init(frame:actions:)", "n": 266, "laws": 0, "ts": "2026-07-31 07:35 UTC"}
+{"id": "/documentation/SwiftUI/Anchor/Source/bounds", "sha": "efbdc601fb123d64ce4b4ff07e39f48a78476cd5ac61f50a50165ff0f2d77e34", "t": "bounds", "n": 78, "laws": 0, "ts": "2026-07-31 19:00 UTC"}

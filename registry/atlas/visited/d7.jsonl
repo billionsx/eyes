@@ -116,3 +116,7 @@
 {"id": "/documentation/uikit/uiaccessibility/guidedaccessrestrictionstate(foridentifier:)", "sha": "9d9f46a75459fe20c6913d449abbe17d9eda8ea285b74260e19e9199ba39a2f1", "t": "guidedAccessRestrictionState(forIdentifier:)", "n": 185, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
 {"id": "/documentation/UIKit/NSTextTable", "sha": "9536c1c4e8510b822b30e9790c35af44658f09dd6bc7b3bf3c0c6909c356a098", "t": "NSTextTable", "n": 820, "laws": 0, "ts": "2026-07-31 07:40 UTC"}
 {"id": "/documentation/uikit/uiaccessibility/isinvertcolorsenabled", "sha": "11028336a97c95f303f30571f13cfca8a5ed18860792f8154e563f002ca84873", "t": "isInvertColorsEnabled", "n": 89, "laws": 0, "ts": "2026-07-31 07:41 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/deliveredverificationcodesmanager", "sha": "0495c78c48dbc4ad3f49950e470b39dc26696e953ee756727c272c0b9010b545", "t": "deliveredVerificationCodesManager", "n": 144, "laws": 0, "ts": "2026-07-31 18:52 UTC"}
+{"id": "/documentation/swiftui/path/addellipse(in:transform:)", "sha": "ab4e1fc5f22905bfdaed8b257bc4c12f5a95d934bcdc869141ee26cca3eeb11b", "t": "addEllipse(in:transform:)", "n": 906, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/swiftui/edge3d/set", "sha": "c0e558599be4a31ee388d871455ec97bc2582da798913ea9cfaa62bae886b9ff", "t": "Edge3D.Set", "n": 163, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
+{"id": "/documentation/swiftui/shape/scale(_:anchor:)", "sha": "f7d99f7879574cfd2562e6b10a90bae24061a29147d1e21baba3bad5dcb54630", "t": "scale(_:anchor:)", "n": 99, "laws": 0, "ts": "2026-07-31 19:05 UTC"}

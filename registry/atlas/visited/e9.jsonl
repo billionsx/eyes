@@ -88,3 +88,7 @@
 {"id": "/documentation/uikit/uisearchbar/issearchresultsbuttonselected", "sha": "f8f79696b1476ec7fc8f9a84ac989b0cd43ff0a889058f0fe2c28bbdf68db437", "t": "isSearchResultsButtonSelected", "n": 110, "laws": 0, "ts": "2026-07-31 07:17 UTC"}
 {"id": "/documentation/uikit/uisearchbar/setpositionadjustment(_:for:)", "sha": "c30f954d3f4e932872a3ce950c23201df63f29fbc54719e6d852da2341d52c18", "t": "setPositionAdjustment(_:for:)", "n": 143, "laws": 1, "ts": "2026-07-31 07:17 UTC"}
 {"id": "/documentation/uikit/uistackview/init(arrangedsubviews:)", "sha": "a1e465b2c14106ce856a6f435fbe3f8817dbbce4ff10331e4c27d115c50c98ca", "t": "init(arrangedSubviews:)", "n": 486, "laws": 0, "ts": "2026-07-31 07:36 UTC"}
+{"id": "/documentation/usernotifications/unnotificationattributedmessagecontext", "sha": "a3ccbf0990a25d00bf34f24c81be5ca00dc1f82e6324c2bfc8b50357522638f1", "t": "UNNotificationAttributedMessageContext", "n": 59, "laws": 0, "ts": "2026-07-31 18:44 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/opensettings", "sha": "9075c119777c133eaac46d91782e97ed4e8322b93553fee1f73ac39eed87925c", "t": "openSettings", "n": 369, "laws": 0, "ts": "2026-07-31 18:53 UTC"}
+{"id": "/documentation/swiftui/layout/cache", "sha": "de3bb7cf486efbcf9d12bcf44ade8f8d2dce9ff79e34187d29a5067c8cfb8330", "t": "Cache", "n": 320, "laws": 1, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/swiftui/proposedviewsize/zero", "sha": "2df9351d7771c401bbe804d290e613b75808a7aab2f7a0213ebe29f8c3fabe05", "t": "zero", "n": 252, "laws": 2, "ts": "2026-07-31 18:57 UTC"}

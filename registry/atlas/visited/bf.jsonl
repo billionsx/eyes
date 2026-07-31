@@ -97,3 +97,5 @@
 {"id": "/documentation/uikit/uidatepicker/calendar", "sha": "2908cd47d87308441344dae29cd58a51fc6bf98809343fe7bdea2016b62dfd87", "t": "calendar", "n": 442, "laws": 1, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uipagecontrol/direction-swift.enum", "sha": "ddf269730b24f858612b8ce2948265e6068c059c606c74855349cd58c204f628", "t": "UIPageControl.Direction", "n": 289, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uitextinput/diddismisswritingtools()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "didDismissWritingTools()", "n": 0, "laws": 0, "ts": "2026-07-31 07:40 UTC"}
+{"id": "/documentation/swiftui/reorderdifference/destination-swift.property", "sha": "945a10f5d427e9bc1070cad01efa365c3a1fc49005ee269f6e3c92312cd7a26a", "t": "destination", "n": 64, "laws": 0, "ts": "2026-07-31 18:52 UTC"}
+{"id": "/documentation/swiftui/path/init(roundedrect:cornerradius:style:)", "sha": "4cfa32201fc5d6439033b65690a40be61f17ad3fb993b4730a62c9dc35c454a5", "t": "init(roundedRect:cornerRadius:style:)", "n": 244, "laws": 0, "ts": "2026-07-31 19:01 UTC"}

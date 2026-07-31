@@ -110,3 +110,9 @@
 {"id": "/documentation/uikit/uisegmentedcontrol/titletextattributes(for:)", "sha": "91cbb4f8c8d929316dcb681b14540850a4c2edab9717ca35df771f219ba2ada9", "t": "titleTextAttributes(for:)", "n": 158, "laws": 0, "ts": "2026-07-31 07:35 UTC"}
 {"id": "/documentation/UIKit/UIFeedbackGenerator", "sha": "5a05788895df6554b0c0b9228a6e733d1afb3f890ab216b68c1a6e75ad2f2d5f", "t": "UIFeedbackGenerator", "n": 765, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
 {"id": "/documentation/uikit/nsadaptiveimageglyph/contentdescription", "sha": "154df9678b471ed479f51e7b00d6e01da08cb93b3e3166c4dd00653b7dca5e8b", "t": "contentDescription", "n": 292, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/swiftui/graphicscontext/shadowoptions", "sha": "c18be92d883e6ff2c29038a6f0378fd6c6cd37569d01b4d3840f8d1508926784", "t": "GraphicsContext.ShadowOptions", "n": 285, "laws": 1, "ts": "2026-07-31 18:56 UTC"}
+{"id": "/documentation/swiftui/layoutsubviews/subscript(_:)", "sha": "776fe721fc9a57adfe3986c17889b44d04f49af2d74589f84ae5cde3ee994b64", "t": "subscript(_:)", "n": 48, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/swiftui/path/currentpoint", "sha": "4aff59aa9eb12a724b69905cc1bd0694948400ff88f4e8bb31c79a411532f6aa", "t": "currentPoint", "n": 74, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/SwiftUI/View/transform3DEffect(_:)", "sha": "ca1b8621415d09f035eab4fff0828bf2aa822f06f02d67d85c8225742e4d3426", "t": "transform3DEffect(_:)", "n": 305, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
+{"id": "/documentation/swiftui/color/gradient", "sha": "c8f26655bbe379fac5eda7169c66c1dcd5a3905b86264d00b659f92fdba6521e", "t": "gradient", "n": 146, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
+{"id": "/documentation/swiftui/remotedeviceidentifier", "sha": "222b3084b8e7c85692e44932e10afcdc86296794514881c67543d7648e423bd1", "t": "RemoteDeviceIdentifier", "n": 458, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

@@ -106,3 +106,8 @@
 {"id": "/documentation/uikit/uiviewcontroller/unregisterforpreviewing(withcontext:)", "sha": "3e93561cfc7f2ecd473ee8947f72a19f0783b5c9b35a3304211ce4347c3be14d", "t": "unregisterForPreviewing(withContext:)", "n": 436, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
 {"id": "/documentation/uikit/uibutton/currenttitlecolor", "sha": "f03097d0f22f92cf31825f5ea432040eeb1cdc0bb705718706e93c7fb42702d6", "t": "currentTitleColor", "n": 110, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
 {"id": "/documentation/uikit/uipencilinteraction/init(delegate:)", "sha": "c0a6502e6a93e681ffb310765fb5cce09686f70b6ccf9134ac9f20563403852a", "t": "init(delegate:)", "n": 51, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
+{"id": "/documentation/SwiftUI/View/dialogIcon(_:)", "sha": "5ca0aaa19a3804245b9b4d3445a1a45bfde075d0df36ce2cc89ee0c88fbcee14", "t": "dialogIcon(_:)", "n": 291, "laws": 0, "ts": "2026-07-31 18:48 UTC"}
+{"id": "/documentation/swiftui/viewmodifier/concat(_:)", "sha": "9edb8c6ef7fc639d6947f80f940259dbe949bd9f7fb41650490f225bc2fb162f", "t": "concat(_:)", "n": 65, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/scene/onchange(of:perform:)", "sha": "21a2aa6c0bf8f2d05c650b3bed6ae28229780ceb2b8c885746cbdeba016d06d8", "t": "onChange(of:perform:)", "n": 624, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/securefield/init(text:prompt:label:)", "sha": "9c3c70b1defc542da929637e662fc7d68fff98511912dd819701fdf0cefd0cdd", "t": "init(text:prompt:label:)", "n": 192, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/SwiftUI/View/widgetURL(_:)", "sha": "b34c3a6d4764c0eb045948490626b0860ebd354fc04dc2f0d244ff2caacb1ec7", "t": "widgetURL(_:)", "n": 289, "laws": 0, "ts": "2026-07-31 19:02 UTC"}

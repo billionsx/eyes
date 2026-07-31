@@ -106,3 +106,5 @@
 {"id": "/documentation/uikit/uitextfield/leftview", "sha": "8d8d07b2923898d0da13f2770c5baf1f5c87f34b0d5af5d766282fa5e0aeab3d", "t": "leftView", "n": 664, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
 {"id": "/documentation/uikit/uiwritingtoolsresultoptions/richtext", "sha": "dfa9bc9464c292ebaa589f662fb4d96d446de87a7c79722dc6633e1d643427d7", "t": "richText", "n": 90, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
 {"id": "/documentation/uikit/uiaccessibility/isshaketoundoenabled", "sha": "fd3ee39ba5d899e5cdb79ed41a9a79c96e137da6107b8b4489ed9ad4b8159f80", "t": "isShakeToUndoEnabled", "n": 88, "laws": 0, "ts": "2026-07-31 07:42 UTC"}
+{"id": "/documentation/widgetkit/relevanceentriesprovidercontext/ispreview", "sha": "ee4387cb328511c4e60ca710ae4e7a11e65a512ffe45e26d8c97ebd3bc8972c1", "t": "isPreview", "n": 73, "laws": 0, "ts": "2026-07-31 18:43 UTC"}
+{"id": "/documentation/swiftui/presentationmode", "sha": "e0fc65e6b92f75d7acb41736e85804212d9f4d2c6f5173f9cfaebe10f99d3a16", "t": "PresentationMode", "n": 144, "laws": 0, "ts": "2026-07-31 18:54 UTC"}

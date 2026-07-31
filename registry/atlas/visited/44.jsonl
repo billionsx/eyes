@@ -99,3 +99,7 @@
 {"id": "/documentation/uikit/uiactivityindicatorview/style-swift.property", "sha": "86a795fa087d7749b78fbdf4e7d151c1cb34c24003903c845366659b86b3c6cf", "t": "style", "n": 114, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uidatepicker/mode", "sha": "d8e979f1b05f6ae4b09439c15997b32943aa3188d0297e47091a2c6cc003e11a", "t": "UIDatePicker.Mode", "n": 452, "laws": 1, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uidevice/identifierforvendor", "sha": "5eef945adf01227659aae425475fe6080be126caa88a99c4de3037a2f0c37fed", "t": "identifierForVendor", "n": 1878, "laws": 0, "ts": "2026-07-31 07:40 UTC"}
+{"id": "/documentation/SwiftUI/ForEach/init(subviews:content:)", "sha": "355b1bc8aff8f4df236d10ce1bc6b1080581dd173a2ef916ffb932f87a579b27", "t": "init(subviews:content:)", "n": 615, "laws": 0, "ts": "2026-07-31 18:46 UTC"}
+{"id": "/documentation/swiftui/view/highprioritygesture(_:isenabled:)", "sha": "e12daba1ee4f077e3d2325f68b62ec54a03be77e79b16fbcf0f27ee5787f14d8", "t": "highPriorityGesture(_:isEnabled:)", "n": 672, "laws": 2, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/swiftui/view/digitalcrownrotation(_:)", "sha": "3736f508f25220cdf47ba074e202f8e69c637f7e3bf56503bdaa8c66d54f4ce2", "t": "digitalCrownRotation(_:)", "n": 358, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/swiftui/view/digitalcrownrotation(_:onchange:onidle:)", "sha": "3736f508f25220cdf47ba074e202f8e69c637f7e3bf56503bdaa8c66d54f4ce2", "t": "digitalCrownRotation(_:onChange:onIdle:)", "n": 358, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

@@ -115,3 +115,4 @@
 {"id": "/documentation/uikit/uiactivityindicatorview/isanimating", "sha": "fe707cc167fa95163df27230eacf35710ae02e740745f983e63bba8a372ec204", "t": "isAnimating", "n": 93, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uidatepicker/maximumdate", "sha": "cd485cb144eff0f41438f1ad8dbb9132071766ed4767959b5809a4e340f3ab94", "t": "maximumDate", "n": 484, "laws": 2, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uitextfield/delegate", "sha": "42d2045313784162f7a9748cb8b2ea554e89a461013a672350514fd1a2c9bc6d", "t": "delegate", "n": 344, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
+{"id": "/documentation/SwiftUI/Color/mix(with:by:in:)", "sha": "0b885619ee8dfd91d6c628bb4c04b6b3b9984aec359f94150da3f212d557fdb0", "t": "mix(with:by:in:)", "n": 102, "laws": 0, "ts": "2026-07-31 18:46 UTC"}

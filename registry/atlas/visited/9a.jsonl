@@ -99,3 +99,11 @@
 {"id": "/documentation/uikit/uidatepicker/minuteinterval", "sha": "2caf952d4fa642282b1964b277bd9cc26209a80a5671267aa49eee5472f8f841", "t": "minuteInterval", "n": 325, "laws": 1, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/UIKit/UIWebViewDelegate/webViewDidStartLoad(_:)", "sha": "295cc7eb01734a20e98e468a1da07350b74eb7c1fcb333dd4cc2c500cc1c7c3b", "t": "webViewDidStartLoad(_:)", "n": 45, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
 {"id": "/documentation/UIKit/UITraitHDRHeadroomUsageLimit-swift.struct", "sha": "fc45f348bf6ba43c65da1c5ad8c46bbc5f48ed7077c94cf90d4e0dbd385668a4", "t": "UITraitHDRHeadroomUsageLimit", "n": 60, "laws": 0, "ts": "2026-07-31 07:41 UTC"}
+{"id": "/documentation/WidgetKit/LevelOfDetail/simplified", "sha": "4a19b7de20b7ab00addd51fe03245f268f42966a1124c7097781ccf21ac75dcd", "t": "simplified", "n": 229, "laws": 0, "ts": "2026-07-31 18:43 UTC"}
+{"id": "/documentation/SwiftUI/SurfaceSnappingInfo", "sha": "53a44775fae922f3922ae635ad8aa3067a80a6f84bc2bc929fbe5e14617760b7", "t": "SurfaceSnappingInfo", "n": 389, "laws": 0, "ts": "2026-07-31 18:47 UTC"}
+{"id": "/documentation/swiftui/environmentkey/defaultvalue", "sha": "02056e84cc48b2d2bcf445c4afe82e013cb70d43e3463f6456f6ab285934a906", "t": "defaultValue", "n": 42, "laws": 0, "ts": "2026-07-31 18:52 UTC"}
+{"id": "/documentation/swiftui/state/init()", "sha": "0d962af8e7af242a5222b7ee4496ee0c5391715bf1e95d0786c417c101c4daed", "t": "init()", "n": 172, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/swiftui/binding/transaction(_:)", "sha": "35818875d28b55017518eb582c85e61a973704226b5321a7bcf0cd8f0fa2f4b3", "t": "transaction(_:)", "n": 71, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/SwiftUI/View/unredacted()", "sha": "890be6de1a5b958e85f252fe2593633d9df141992521b69f5b4bbb29a1faa04e", "t": "unredacted()", "n": 63, "laws": 0, "ts": "2026-07-31 19:02 UTC"}
+{"id": "/documentation/swiftui/view/onplaypausecommand(perform:)", "sha": "e41d38f02962e526b3fe8f25c163065e7a082b8648e135fd57567110833afe34", "t": "onPlayPauseCommand(perform:)", "n": 73, "laws": 0, "ts": "2026-07-31 19:11 UTC"}
+{"id": "/documentation/swiftui/view/touchbar(_:)", "sha": "7add41100bd0ed1e1e455b88dcf4cd1d9e181383fd3b8c2e43a56104f97276bf", "t": "touchBar(_:)", "n": 381, "laws": 1, "ts": "2026-07-31 19:11 UTC"}

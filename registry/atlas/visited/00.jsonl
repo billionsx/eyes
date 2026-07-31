@@ -103,3 +103,7 @@
 {"id": "/documentation/gamecontroller/gcstylus/haptics", "sha": "dc7ab92ffb72949dd889701eceea4a5c73119dd8b9fceae2f5783ea76884a909", "t": "haptics", "n": 502, "laws": 0, "ts": "2026-07-31 07:15 UTC"}
 {"id": "/documentation/uikit/uibutton/buttonwithtype:primaryaction:", "sha": "521b92c87053fdfdb3dadf70b6ee2f39c465f305b2b41a9e79dd4ee3b0e216e5", "t": "buttonWithType:primaryAction:", "n": 143, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
 {"id": "/documentation/uikit/uisearchtextfield/inserttoken(_:at:)", "sha": "30d00841f233a9839f83899fdc3f958b05aec1b343e58a14479d4d1d3ce5a899", "t": "insertToken(_:at:)", "n": 127, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/usernotifications/handling-notification-responses-from-apns", "sha": "46c5f65b5219fcfc5a76f45cf5174f8c833cb95e1f99f212d2500363e9e09404", "t": "Handling notification responses from APNs", "n": 1988, "laws": 0, "ts": "2026-07-31 18:44 UTC"}
+{"id": "/documentation/swiftui/scene/dialogseverity(_:)", "sha": "f22b2c9a17a165c2cddeb3aa08824e0fb42e6bfb2b852c1944ca6fecc0327c96", "t": "dialogSeverity(_:)", "n": 196, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
+{"id": "/documentation/swiftui/layoutsubviews/index", "sha": "ad0ac6adafc5bd001d75a7319e0f0f8d10210aced2ddf6e0f3b03179bfd01dc9", "t": "LayoutSubviews.Index", "n": 46, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/swiftui/view/accessibilitychildren(children:)", "sha": "c6122684b64351257c6315fe2f8e8739ee0c0b15b4518094f9d739ed26428aee", "t": "accessibilityChildren(children:)", "n": 930, "laws": 2, "ts": "2026-07-31 18:58 UTC"}

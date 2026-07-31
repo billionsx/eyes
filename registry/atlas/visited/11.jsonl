@@ -100,3 +100,10 @@
 {"id": "/documentation/gamecontroller/gcdevicelight", "sha": "78b000eb6915dce1f6a4237aa869e20380bc51cf540e13ced20ea9bb3c943b8e", "t": "GCDeviceLight", "n": 75, "laws": 0, "ts": "2026-07-31 07:13 UTC"}
 {"id": "/documentation/uikit/uisearchbar/searchtextfield", "sha": "c15a098c01d7f143a782d11de8bcbc459e3bc270e2107957678573fcd68c890d", "t": "searchTextField", "n": 172, "laws": 0, "ts": "2026-07-31 07:17 UTC"}
 {"id": "/documentation/uikit/uibutton/tintcolor", "sha": "18e66db90223d724a28ddd6275b0401ec6da7e6c99717dccfa52dcad1dc3b233", "t": "tintColor", "n": 323, "laws": 1, "ts": "2026-07-31 07:26 UTC"}
+{"id": "/documentation/walletpasses/upcomingpassinformationentrytype", "sha": "df767811e28d50f3ceacf75db064dd2f65717f1e1ac38e5d62e7b247b5f2cdd5", "t": "UpcomingPassInformationEntryType", "n": 355, "laws": 0, "ts": "2026-07-31 18:42 UTC"}
+{"id": "/documentation/usernotifications/unnotification", "sha": "2bbb21e752cdc7f72726934868257d0f45a4d1be02f96886bb04f5952b8c4a7f", "t": "UNNotification", "n": 579, "laws": 0, "ts": "2026-07-31 18:44 UTC"}
+{"id": "/documentation/swiftui/disclosuregroup", "sha": "6a86107132190c6366957cedc0cfc08582414f320229c45e6370d1be09eb98bf", "t": "DisclosureGroup", "n": 769, "laws": 0, "ts": "2026-07-31 18:50 UTC"}
+{"id": "/documentation/swiftui/manipulablerespondermodifier", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "ManipulableResponderModifier", "n": 0, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/snapshotresponse", "sha": "0e3413b171ec15f62ceaa4141065ca192400980e5098bc497c9952be97ce343c", "t": "SnapshotResponse", "n": 149, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/swiftui/path/linesubtraction(_:eofill:)", "sha": "ad1875bc52384a6f299d13fb7b5868239df896ef6c95bce83c4b4ccca1bb2357", "t": "lineSubtraction(_:eoFill:)", "n": 360, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/swiftui/viewpoint3d/squareazimuth", "sha": "0c23bee44b76cb4b95f53c005b505e1b2b4de13ac7e1577322d5bc39b12dede5", "t": "squareAzimuth", "n": 149, "laws": 0, "ts": "2026-07-31 19:02 UTC"}

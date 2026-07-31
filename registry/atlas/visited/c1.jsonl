@@ -106,3 +106,4 @@
 {"id": "/documentation/familycontrols/authorizationstatus/denied", "sha": "46b7a0e8b43126cd1fe6a064a49e7773b150a8249e432f1be6c7ecb70ea0b4b6", "t": "AuthorizationStatus.denied", "n": 69, "laws": 0, "ts": "2026-07-31 07:11 UTC"}
 {"id": "/documentation/gamecontroller/gcmousediddisconnectnotification", "sha": "507644e301335e2f10fc2c16cee3765dae1248aea56c6e5a73231215843fc18f", "t": "GCMouseDidDisconnectNotification", "n": 200, "laws": 0, "ts": "2026-07-31 07:15 UTC"}
 {"id": "/documentation/uikit/uisegmentedcontrol/setbackgroundimage(_:for:barmetrics:)", "sha": "3b2393b48f02443daf7ec855aa4e52c875e969fc70523e63cb2e801a2fe0203c", "t": "setBackgroundImage(_:for:barMetrics:)", "n": 748, "laws": 2, "ts": "2026-07-31 07:35 UTC"}
+{"id": "/documentation/swiftui/simultaneousgesture", "sha": "097c7eb61790552003575428d622849598fa4049a9b3255bde9fab51515c641c", "t": "SimultaneousGesture", "n": 443, "laws": 0, "ts": "2026-07-31 19:06 UTC"}

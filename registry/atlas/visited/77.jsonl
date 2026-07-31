@@ -107,3 +107,4 @@
 {"id": "/documentation/uikit/uitouch/majorradius", "sha": "e8ff7445fd735d8f986db6eadb211338b0cf7af3183d39702217b94910fb794e", "t": "majorRadius", "n": 248, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
 {"id": "/documentation/uikit/uibutton/init(type:primaryaction:)", "sha": "521b92c87053fdfdb3dadf70b6ee2f39c465f305b2b41a9e79dd4ee3b0e216e5", "t": "init(type:primaryAction:)", "n": 143, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
 {"id": "/documentation/uikit/uiprogressview/init(progressviewstyle:)", "sha": "6da877f9b1768324122ecd63de955709995cca91d889da68173db10c97b2dd90", "t": "init(progressViewStyle:)", "n": 244, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/accessibilityreducemotion", "sha": "347434e178205a1c9dc1213e91a2f1756f5d4d69701dce619c647b2a326e9db1", "t": "accessibilityReduceMotion", "n": 193, "laws": 1, "ts": "2026-07-31 18:52 UTC"}

@@ -100,3 +100,11 @@
 {"id": "/documentation/uikit/nstextelementprovider/offset(from:to:)", "sha": "1580a1d1ad60dc20ebff28c5781785424306f0118d107f99ea8f828b65f8a387", "t": "offset(from:to:)", "n": 368, "laws": 0, "ts": "2026-07-31 07:18 UTC"}
 {"id": "/documentation/uikit/uifocusitem/canbecomefocused", "sha": "f107cf13cf9b52eee991cb7f18afe95b1c3519ceb7daa3321b599e288a4c1250", "t": "canBecomeFocused", "n": 728, "laws": 1, "ts": "2026-07-31 07:27 UTC"}
 {"id": "/documentation/uikit/uisceneerror", "sha": "cf1599bb3720556db89497441ab63e4e541377b2754fd95a22bebdef38af4d08", "t": "UISceneError", "n": 249, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
+{"id": "/documentation/widgetkit/previewactivitybuilder/buildarray(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildArray(_:)", "n": 0, "laws": 0, "ts": "2026-07-31 18:43 UTC"}
+{"id": "/documentation/SwiftUI/View/scrollPosition(id:anchor:)", "sha": "c0289a5d14347b5bef58427bfb39e37fa42512ce18e2e9051ee72950456c67e7", "t": "scrollPosition(id:anchor:)", "n": 1642, "laws": 1, "ts": "2026-07-31 18:49 UTC"}
+{"id": "/documentation/swiftui/view-graphics-and-rendering", "sha": "4ca55d9585a7285b866d9a3c0e4c10c19087198ab031fa1e5e043235436f61ba", "t": "Graphics and rendering modifiers", "n": 2390, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/widget", "sha": "6bb5166f3d46cb3af86c5706979e165b8826b464f44641958f57ebb5ac9c6adc", "t": "Widget", "n": 1686, "laws": 0, "ts": "2026-07-31 19:02 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d/top", "sha": "a5d0e32ac503ab7493bb40a654db4f848407ca7978de6fad9f1aa210931667a4", "t": "top", "n": 90, "laws": 0, "ts": "2026-07-31 19:02 UTC"}
+{"id": "/documentation/swiftui/view/rotation3dlayout(_:axis:)", "sha": "ca5e251f7f70728158976a7501c0b20b09e32b22324c0ee23cf9aa7fed4ca552", "t": "rotation3DLayout(_:axis:)", "n": 411, "laws": 1, "ts": "2026-07-31 19:04 UTC"}
+{"id": "/documentation/SwiftUI/EnvironmentValues/scenePhase", "sha": "aa836eb1fd5638df0c005dd9ca20f28ef935ccf2258966693ca91a2dfea24ba1", "t": "scenePhase", "n": 243, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/swiftui/view/oncutcommand(perform:)", "sha": "77b26d1353c9b2598b322dffbe99fc7ccb999cbfd76fa7819b3ad5602266ec76", "t": "onCutCommand(perform:)", "n": 137, "laws": 0, "ts": "2026-07-31 19:09 UTC"}

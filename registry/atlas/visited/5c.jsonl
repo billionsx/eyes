@@ -107,3 +107,6 @@
 {"id": "/documentation/uikit/uigesturerecognizer/touchesestimatedpropertiesupdated(_:)", "sha": "df1963c1ba980c1b6efbab74e8ab156762ac12bdefc3a4708241ae868f0f59f1", "t": "touchesEstimatedPropertiesUpdated(_:)", "n": 953, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
 {"id": "/documentation/uikit/uiapplication/staterestorationtimestampkey", "sha": "daddd24de396485a01ad4fcc92fb57a6c66a1378a7bfe19abfe54de3c261b7ca", "t": "stateRestorationTimestampKey", "n": 221, "laws": 0, "ts": "2026-07-31 07:31 UTC"}
 {"id": "/documentation/uikit/uiprogressview/init(coder:)", "sha": "c4b8d72571fbbdb521a5d09b57092239f69f66295bbfd0a201836479e2101092", "t": "init(coder:)", "n": 51, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
+{"id": "/documentation/SwiftUI/View/gesture(_:isEnabled:)", "sha": "34901e54e196f9afea4ea9093dec3c6934769108983c8579f0f09b4111c8db48", "t": "gesture(_:isEnabled:)", "n": 726, "laws": 2, "ts": "2026-07-31 18:48 UTC"}
+{"id": "/documentation/swiftui/shape/symmetricdifference(_:eofill:)", "sha": "030c0b9ced065ea5f355f6fbb20a41c9ce8c0624f3a7d22a1871aec7d3a0522a", "t": "symmetricDifference(_:eoFill:)", "n": 410, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
+{"id": "/documentation/swiftui/view/onmovecommand(perform:)", "sha": "d965fc59a104c1dc18b4fe511a96a724011cfdaed9ebe68d62bd4cf98bf99efe", "t": "onMoveCommand(perform:)", "n": 181, "laws": 0, "ts": "2026-07-31 19:11 UTC"}

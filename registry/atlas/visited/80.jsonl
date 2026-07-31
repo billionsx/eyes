@@ -120,3 +120,8 @@
 {"id": "/documentation/uikit/uisearchbar/placeholder", "sha": "81c6ad9969fffc587b893c0b8bfa1fcea1867fa8876d3128c4d33c0751c121ed", "t": "placeholder", "n": 104, "laws": 0, "ts": "2026-07-31 07:17 UTC"}
 {"id": "/documentation/uikit/uitouch/properties", "sha": "eb18c684bd9cf41f8a2f0194c87e9ce0170f97f0a3bc5d7cbce94e86175d973b", "t": "UITouch.Properties", "n": 140, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
 {"id": "/documentation/uikit/uitextfield/text", "sha": "d79e2eeb43e4a0c72834c4af6104fde9844af768abe07ec632a0b7df1d0e24e2", "t": "text", "n": 330, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/UserNotifications/UNNotificationActionOptions/foreground", "sha": "c612d23e6837ec9f6a852313f2f095dc6998dd7639e7d8346623373ae98a1da6", "t": "foreground", "n": 369, "laws": 0, "ts": "2026-07-31 18:45 UTC"}
+{"id": "/documentation/SwiftUI/ScrollTargetBehavior", "sha": "4863e1f904d01f9eeaf228f04ddb95749191a1dbf252c2cada316273362b7b47", "t": "ScrollTargetBehavior", "n": 1588, "laws": 1, "ts": "2026-07-31 18:47 UTC"}
+{"id": "/documentation/swiftui/gesturestate", "sha": "5b68982c4c083ff0f50ca4953c19382cdec4b48eba9add380fa7c62ac366c997", "t": "GestureState", "n": 808, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/openurlaction", "sha": "251714695f6a09b09cb7efc6c2b535e4662b8949b8563faefd533cdca9147d92", "t": "OpenURLAction", "n": 1701, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/swiftui/shape/capsule(style:)", "sha": "6cb743030fdea88faca00334b2311e4391388a878eba5ef8e01929cbe7894466", "t": "capsule(style:)", "n": 221, "laws": 0, "ts": "2026-07-31 19:04 UTC"}

@@ -122,3 +122,9 @@
 {"id": "/documentation/uikit/uifocusdebugger", "sha": "92fbe16b05a72fb64229a5ba79757687dd3a90e9a8eba1256fa3db903409935a", "t": "UIFocusDebugger", "n": 500, "laws": 0, "ts": "2026-07-31 07:28 UTC"}
 {"id": "/documentation/uikit/uicolorpickerviewcontroller/selectedcolor", "sha": "213acbf265c29a195f4059555374ea32ef69f4b6c18aa8c4efcd23132c704e68", "t": "selectedColor", "n": 31, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uistackview/spacingusesystem", "sha": "bde2686ba5422c4b99391b04095b542783867596c763aebe4a789aad45279abc", "t": "spacingUseSystem", "n": 51, "laws": 0, "ts": "2026-07-31 07:36 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/imageplaygroundpersonalizationpolicy", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "imagePlaygroundPersonalizationPolicy", "n": 0, "laws": 0, "ts": "2026-07-31 18:53 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/openurl", "sha": "da508a7c99367ec1e25112cbdedbd9a88c1c2a34ac08a4bcb6efb7434f6ef14b", "t": "openURL", "n": 1499, "laws": 0, "ts": "2026-07-31 18:53 UTC"}
+{"id": "/documentation/swiftui/toggle/init(_:systemimage:sources:ison:)", "sha": "53cf0ef34920106752268efc2f39ba3b7ba7421d747e764fa76c6a80c4853059", "t": "init(_:systemImage:sources:isOn:)", "n": 370, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/viewbuilder/buildif(_:)", "sha": "b9feac8f9eaf4698985fff0d6854227a700a4a631934fc679f598e85e046ce33", "t": "buildIf(_:)", "n": 139, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/swiftui/path/element", "sha": "99619f07d4dc8004c1e3286e32bde3f1c7248562a5d353905b4b726999f3cfeb", "t": "Path.Element", "n": 201, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/swiftui/dismissimmersivespaceaction", "sha": "d80b02835042afb26ec6a505fba70f12c245ecc9135e3bc5d1d258a9115a0485", "t": "DismissImmersiveSpaceAction", "n": 838, "laws": 0, "ts": "2026-07-31 19:03 UTC"}

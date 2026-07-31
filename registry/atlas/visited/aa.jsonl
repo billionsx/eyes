@@ -93,3 +93,7 @@
 {"id": "/documentation/uikit/uiscene/willenterforegroundmessage", "sha": "c15ef3bc735e0394c4c52f4af68388141131ddcf808ab8c0cf401a4cfdf990cc", "t": "UIScene.WillEnterForegroundMessage", "n": 59, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
 {"id": "/documentation/uikit/uiapplication/staterestorationuserinterfaceidiomkey", "sha": "6cec43a23eacec98b789105ad3a9ba987005a91a6df3ed314a778216d703543e", "t": "stateRestorationUserInterfaceIdiomKey", "n": 279, "laws": 0, "ts": "2026-07-31 07:31 UTC"}
 {"id": "/documentation/uikit/uitextformattingcoordinatordelegate", "sha": "8dc67cac2850156b44fd034a6f8217367ee84ab2aa10597128f50a8ae9ab745e", "t": "UITextFormattingCoordinatorDelegate", "n": 199, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/WidgetKit/WidgetRenderingMode/vibrant", "sha": "3ece7b6141d201248e643b84fe9e7d1e1bb3695a709b760d16ba599d498da6a4", "t": "vibrant", "n": 194, "laws": 0, "ts": "2026-07-31 18:43 UTC"}
+{"id": "/documentation/SwiftUI/Layout/depthAlignment(_:)", "sha": "c5b68331b2590564266fb1025fd06806826758f86101b7b7f2c2a8159e3ba7a0", "t": "depthAlignment(_:)", "n": 210, "laws": 1, "ts": "2026-07-31 18:46 UTC"}
+{"id": "/documentation/swiftui/tableheaderrowcontent", "sha": "7d673ac65c1fb02cfec148e54bd358677c4447b8bac1328e179c519dbb4ed6c7", "t": "TableHeaderRowContent", "n": 159, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/swiftui/shape/textinputborder", "sha": "6962d7f94636062dafddb3e10be288c513a83cae85f10a8cf9e5d813319acb55", "t": "textInputBorder", "n": 297, "laws": 0, "ts": "2026-07-31 19:05 UTC"}

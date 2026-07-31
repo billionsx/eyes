@@ -87,3 +87,6 @@
 {"id": "/documentation/uikit/nsdiffabledatasourcesectionsnapshot-swift.struct/insert(_:before:)-5o91y", "sha": "a1da291915c83d293b08f38e449d6459a0c2b10b08bead81a2f2f580bf313040", "t": "insert(_:before:)", "n": 109, "laws": 0, "ts": "2026-07-31 07:20 UTC"}
 {"id": "/documentation/uikit/uitooltipconfiguration/sourcerect-iltv", "sha": "879a44680e8ad41176ef083f194318bd1bce0c36d5f75d30c421fce5308e1d08", "t": "sourceRect", "n": 183, "laws": 1, "ts": "2026-07-31 07:30 UTC"}
 {"id": "/documentation/uikit/uisegmentedcontrol/numberofsegments", "sha": "dc4abe88ae9268151a98c2e5bf52a56222da47b6bcd5dc142ae9fd2967531ef5", "t": "numberOfSegments", "n": 57, "laws": 0, "ts": "2026-07-31 07:35 UTC"}
+{"id": "/documentation/usernotifications/unusernotificationcenterdelegate", "sha": "335d2edcca28dac0b5aec08611730652a6706a1749ef1decf1f1049a98a1b23d", "t": "UNUserNotificationCenterDelegate", "n": 1200, "laws": 0, "ts": "2026-07-31 18:43 UTC"}
+{"id": "/documentation/SwiftUI/WindowVisibilityToggle", "sha": "6ba3a1b1d088b7ccece5dad55a5009a41070fd711036cc68e3a0cf09362e55df", "t": "WindowVisibilityToggle", "n": 605, "laws": 0, "ts": "2026-07-31 18:49 UTC"}
+{"id": "/documentation/SwiftUI/NavigationView", "sha": "f84ed61a7ede87bcfe46ded266b0270d25e8aed5369396c0ce464db51cd5cec4", "t": "NavigationView", "n": 940, "laws": 0, "ts": "2026-07-31 19:06 UTC"}

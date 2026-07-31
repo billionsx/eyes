@@ -6,11 +6,11 @@
 |---|---|
 | uikit | 3200 |
 | appkit | 2365 |
+| swiftui | 2027 |
 | appintents | 1688 |
-| swiftui | 1664 |
 | accelerate | 1327 |
 | human-interface-guidelines | 971 |
-| xcode | 952 |
+| xcode | 953 |
 | foundation | 850 |
 | metal | 713 |
 | avfoundation | 685 |
@@ -18,7 +18,7 @@
 | technotes | 615 |
 | swift | 610 |
 | arkit | 473 |
-| big7 | 428 |
+| big7 | 465 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
 | updates | 314 |
@@ -31,7 +31,7 @@
 | appclip | 235 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
-| widgetkit | 205 |
+| widgetkit | 217 |
 | gamekit | 201 |
 | vision | 195 |
 | groupactivities | 191 |
@@ -50,6 +50,7 @@
 | accessibility | 120 |
 | evaluations | 114 |
 | browserenginekit | 111 |
+| usernotifications | 107 |
 | virtualization | 106 |
 | watchos-apps | 106 |
 | cloudkit | 105 |
@@ -68,20 +69,20 @@
 | exposurenotification | 73 |
 | gamecontroller | 73 |
 | safariservices | 73 |
-| usernotifications | 71 |
 | fileprovider | 66 |
 | coregraphics | 64 |
 | network | 63 |
+| walletpasses | 63 |
 | homekit | 60 |
 | localauthentication | 60 |
 | mediaplayer | 60 |
 | coremotion | 56 |
 | createml | 56 |
+| photokit | 55 |
 | cryptokit | 54 |
 | classkit | 53 |
 | modelio | 51 |
 | passkit | 51 |
-| photokit | 50 |
 | accessorysetupkit | 49 |
 | speech | 48 |
 | callkit | 47 |
@@ -92,7 +93,6 @@
 | corehaptics | 44 |
 | imageio | 44 |
 | metalperformanceshaders | 43 |
-| walletpasses | 42 |
 | backgroundtasks | 41 |
 | compositorservices | 40 |
 | nearbyinteraction | 39 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 28670 · фреймворков: 339
+Итого законов: 29145 · фреймворков: 339

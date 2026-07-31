@@ -40,3 +40,24 @@
 {"id": "/documentation/WalletPasses/creating-an-event-pass-using-semantic-tags", "law": "You can display a minimum of one and up to four quick action buttons."}
 {"id": "/documentation/WalletPasses/creating-an-event-pass-using-semantic-tags", "law": "The following list of semantic tags are optional, but recommended for optimal pass design: The following semantic tags are optional:"}
 {"id": "/documentation/WalletPasses/creating-an-event-pass-using-semantic-tags", "law": "Someone can hold a device near an NFC reader with the contactless symbol to use their pass."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "Start with one of the templates provided for inspiration or use your own template to design passes that reflect your business or brand personality."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "When you first open the app and create a new document, Pass Designer presents you with the Template Picker, which you use to select the style of pass you want to build."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "To select the background color for your canvas, use the canvas background setting."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "Ensure the colors you pick for labels are accessible and easy for people to read, especially when using background images in your pass."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "Each style of Wallet pass has different types of images you can use to help create a dynamic pass, ranging from small iconography to large background images."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "Be mindful that you can place text over strip images in your pass design, so ensure there’s good readability and contrast between your text and the strip image."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "If your background has important elements, be mindful that they don’t get covered up by any of the safe areas of the pass overlays."}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "law": "When designing a semantic pass, be sure to also provide text fields to ensure backward compatibility."}
+{"id": "/documentation/walletpasses/creating-the-source-for-a-pass", "law": "All passes require an icon: In notifications, including on the lock screen."}
+{"id": "/documentation/walletpasses/defining-the-metadata-of-your-wallet-pass", "law": "Nonposter event tickets use pass fields for their layout content."}
+{"id": "/documentation/walletpasses/defining-the-metadata-of-your-wallet-pass", "law": "Whereas live performances and sports event tickets may use semantic poster event tickets, other events such as movies, conferences, conventions, workshops, social gatherings, or generic events use pass fields for their layouts."}
+{"id": "/documentation/walletpasses/defining-the-metadata-of-your-wallet-pass", "law": "Both the generic pass and the generic poster pass use pass fields, but they have slightly different layouts for the fields."}
+{"id": "/documentation/walletpasses/defining-the-metadata-of-your-wallet-pass", "law": "They don’t extend across the pass to leave room for the thumbnail image."}
+{"id": "/documentation/walletpasses/defining-the-metadata-of-your-wallet-pass", "law": "Back fields are available for every pass type, but they don’t appear in the layout of the pass itself."}
+{"id": "/documentation/walletpasses/defining-the-metadata-of-your-wallet-pass", "law": "You define your icon from available SF Symbols; be sure to pick one that accurately represents the action and that viewers can easily understand at a glance."}
+{"id": "/documentation/walletpasses/defining-the-metadata-of-your-wallet-pass", "law": "Also, when choosing a symbol, prefer circular, filled icons."}
+{"id": "/documentation/walletpasses/pass", "law": "A short description that iOS accessibility technologies use for a pass."}
+{"id": "/documentation/walletpasses/pass", "law": "If you don’t provide a value, the system determines the label color."}
+{"id": "/documentation/walletpasses/pass", "law": "For example, setting Don’t Disturb mode for the duration of a movie."}
+{"id": "/documentation/walletpasses/pass/boardingpass-data.dictionary", "law": "The system may use the value to display more information, such as showing an airplane icon for the pass on watchOS when the value is set to ."}
+{"id": "/documentation/walletpasses/supporting-semantic-tags-in-wallet-passes", "law": "For example, semantic tags in a movie pass could take effect when the user arrives in the theater at the scheduled time, offering a Siri suggestion to enable Do Not Disturb mode for the duration of the film."}

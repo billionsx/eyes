@@ -117,3 +117,8 @@
 {"id": "/documentation/uikit/uiprogressview/setprogress(_:animated:)", "sha": "4fe5d29aba9b60eacc2e6bcafe62e17f3d299c992a34d2964c9fe0b660148cc3", "t": "setProgress(_:animated:)", "n": 335, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
 {"id": "/documentation/uikit/uisegmentedcontrol/setimage(_:forsegmentat:)", "sha": "f7fdc814cb2457f40d4201320b41e50f04510ad8aa475a21575309ea762f262e", "t": "setImage(_:forSegmentAt:)", "n": 152, "laws": 0, "ts": "2026-07-31 07:35 UTC"}
 {"id": "/documentation/UIKit/NSTextViewportRenderingSurfaceKey", "sha": "9b232e0ff5dac3aafdb44c5c515096c387ebf293a948d79073a7670b9f3f10d5", "t": "NSTextViewportRenderingSurfaceKey", "n": 648, "laws": 1, "ts": "2026-07-31 07:40 UTC"}
+{"id": "/documentation/SwiftUI/PencilHoverPose", "sha": "ac8218546d388e726304e2ee27e95ab68196eab7c9110128ddeb8f28395ccfb8", "t": "PencilHoverPose", "n": 198, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/swiftui/scenelaunchbehavior/suppressed", "sha": "536ec2478631d4d6fe4d6cab095a4b57ca11b8db12b078036932cef1216ef977", "t": "suppressed", "n": 108, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/swiftui/accessibilityactionkind", "sha": "79b2b6141b56c947c7359a5ab3b3eb45721239dece4ab61c9760d57c2abf97e5", "t": "AccessibilityActionKind", "n": 188, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
+{"id": "/documentation/swiftui/view/speechspellsoutcharacters(_:)", "sha": "bfdededebb09e03aebceef1869b601cabf5c60cf5d0fcbd81839b271f3f44934", "t": "speechSpellsOutCharacters(_:)", "n": 441, "laws": 2, "ts": "2026-07-31 19:08 UTC"}
+{"id": "/documentation/swiftui/pointerstyle", "sha": "5da748c2fe83ed3ed5d8ab8176f99b755767a1c0b993eb37d059f528a3a6918e", "t": "PointerStyle", "n": 709, "laws": 1, "ts": "2026-07-31 19:10 UTC"}

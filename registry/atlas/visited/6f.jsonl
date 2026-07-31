@@ -108,3 +108,8 @@
 {"id": "/design/human-interface-guidelines/progress-indicators", "sha": "8ea86cb422f40519df1384bbb4546fbd06206bec05ebf5e83bdb5012f0196482", "t": "Progress indicators", "n": 6159, "laws": 2, "ts": "2026-07-31 07:10 UTC"}
 {"id": "/documentation/uikit/uigesturerecognizer/allowedpresstypes", "sha": "d8390f5ad8b9f0b1aab0e27cfa936c35c9219b947d0617a71a610b197425c543", "t": "allowedPressTypes", "n": 400, "laws": 0, "ts": "2026-07-31 07:27 UTC"}
 {"id": "/documentation/uikit/uifocusitem/frame", "sha": "153059ca56cef7d3d7dfbbd8d225b67abf65cd5e277465e2fd7df398afebdf22", "t": "frame", "n": 130, "laws": 0, "ts": "2026-07-31 07:28 UTC"}
+{"id": "/documentation/swiftui/multidatepicker", "sha": "f342c6925bca1da5b066a48b2ac8a2cc9e86a74c435139ca8c45117f5f6d2098", "t": "MultiDatePicker", "n": 963, "laws": 0, "ts": "2026-07-31 18:50 UTC"}
+{"id": "/documentation/swiftui/alignment/bottomleading", "sha": "79afcaf0b8dc363dadaf729417fc12c518df38c8dbc9a0bd22573f9686704109", "t": "bottomLeading", "n": 143, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/toolbartitledisplaymode/inlinelarge", "sha": "782c5892912ab96d743eb28bf7d9ce1f1d8219c8972cec1a615512d69a933fdc", "t": "inlineLarge", "n": 221, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/swiftui/view/onpencildoubletap(perform:)", "sha": "69bf3e0003c900208cd08db28e60417acfa7b639dff49979b93a27cac82f3f78", "t": "onPencilDoubleTap(perform:)", "n": 1000, "laws": 1, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/swiftui/view/hovereffect(_:isenabled:)", "sha": "469f717d6d1e5da6448777219e234285a268c7b9138e1ac82431cd1bb78865ff", "t": "hoverEffect(_:isEnabled:)", "n": 203, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

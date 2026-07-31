@@ -101,3 +101,11 @@
 {"id": "/documentation/uikit/uicollectionviewdatasource/collectionview(_:cellforitemat:)", "sha": "2857097e06b8b20bd0adfbf4a4c8bc887c39f1d2f1aa5ad78ee3af0677a58487", "t": "collectionView(_:cellForItemAt:)", "n": 1166, "laws": 1, "ts": "2026-07-31 07:22 UTC"}
 {"id": "/documentation/uikit/uitextfield/leftviewmode", "sha": "c57bbbed520b0be85f6a5a268ef9443b3f68a536f91754e2749aea863a1cccea", "t": "leftViewMode", "n": 216, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
 {"id": "/documentation/uikit/uitextfield/textdidchangemessage", "sha": "e730ce1ed0e5696e038484259cb23061c74b41614b6025228e4fe5a7b6133f36", "t": "UITextField.TextDidChangeMessage", "n": 67, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/swiftui/fetchrequest/wrappedvalue", "sha": "9aa9717a05a670c64034ac8b2325f1fa9f0a5055b2a84fd3e8e47c3d0ca4fa02", "t": "wrappedValue", "n": 700, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/swiftui/sectionedfetchrequest/update()", "sha": "a16e040591c16daa2ef7f6279177b38c38134bf0a93a3bbea2a75e39cb17b458", "t": "update()", "n": 152, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/swiftui/binding/transaction", "sha": "23eae5a67ab000f90cc2895a94dd265ad727a1b56bda568c84ec376bc8f1b311", "t": "transaction", "n": 139, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/SwiftUI/Font/body", "sha": "747a1533309e5470c671e8f369aab896ca83d55693c4f0d301b280b99df04ce3", "t": "body", "n": 32, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
+{"id": "/documentation/SwiftUI/Text-input-and-output", "sha": "1acf583ad8dee7eb36bfebbfb272c28f9233a5805d1c4e3b9579ea0fa881bd2c", "t": "Text input and output", "n": 3089, "laws": 1, "ts": "2026-07-31 19:07 UTC"}
+{"id": "/documentation/swiftui/legibilityweight", "sha": "a5613a6b529b7f8c1df44d4db9a9816842ca2ec27af5cce490e1c0a86e2d3144", "t": "LegibilityWeight", "n": 240, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
+{"id": "/documentation/swiftui/pencildoubletapgesturevalue", "sha": "04daf5637412ebc85d053dee19c10f459b255387943567bc7ddf4d91b19620ad", "t": "PencilDoubleTapGestureValue", "n": 99, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/swiftui/view/touchbar(content:)", "sha": "c85b5a97c6f86dac2ecd1b115d809c1e00951da8e78ef9e6043854d3d2475a1f", "t": "touchBar(content:)", "n": 382, "laws": 0, "ts": "2026-07-31 19:11 UTC"}

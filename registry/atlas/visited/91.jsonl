@@ -102,3 +102,7 @@
 {"id": "/documentation/uikit/uibutton/buttontype-swift.enum/system", "sha": "f39b0d2d600e6626d6b4764a03e1b0dedc9aa9847c25711021ab69ace79dd2b7", "t": "UIButton.ButtonType.system", "n": 75, "laws": 0, "ts": "2026-07-31 07:25 UTC"}
 {"id": "/documentation/uikit/uisceneconfiguration/delegateclass", "sha": "6d56f0c2cb55e217749f44841ca6093affb3c7971109a1e851cbf5543b32e732", "t": "delegateClass", "n": 337, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
 {"id": "/documentation/uikit/uiwritingtoolscoordinator/preferredbehavior", "sha": "0bef83638da688d54d9baaa4131572de1268c5468b2d68c1a85f818ee8aa9a20", "t": "preferredBehavior", "n": 254, "laws": 0, "ts": "2026-07-31 07:40 UTC"}
+{"id": "/documentation/SwiftUI/Entry()", "sha": "3609ff3f2121f27089908a6545ddeeb2a7b77b4967ec5eb9ba2bba8780fb5aab", "t": "Entry()", "n": 781, "laws": 0, "ts": "2026-07-31 18:46 UTC"}
+{"id": "/documentation/swiftui/scene/immersivecontentbrightness(_:)", "sha": "140705934321512a55e96bfe39670707daa1d090052e6d69d9c6b1f55ba0046d", "t": "immersiveContentBrightness(_:)", "n": 862, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
+{"id": "/documentation/swiftui/animation/spring(duration:bounce:blendduration:)", "sha": "af28e40a8c4f1e976010af3aa26b8210b5fdd89f40416e6e5a90f4ba3e350a57", "t": "spring(duration:bounce:blendDuration:)", "n": 302, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
+{"id": "/documentation/SwiftUI/ToolbarItemPlacement/primaryAction", "sha": "f23274dbcde401dd6baeb949b8af82c53df98f2a7dfd6a39898f3aa69e5d1be6", "t": "primaryAction", "n": 541, "laws": 0, "ts": "2026-07-31 19:06 UTC"}

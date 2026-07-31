@@ -115,3 +115,7 @@
 {"id": "/documentation/uikit/uisceneconfiguration/role", "sha": "1c6e6ed0889b9dd295153d093d162b99ee9deef474538c1c55c66f61690e64f0", "t": "role", "n": 240, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
 {"id": "/documentation/uikit/uidatepicker/preferreddatepickerstyle", "sha": "fc7db02486616e7d2b585c3633a405be57fcb67fdd98f0adbb4e158a9a1f3372", "t": "preferredDatePickerStyle", "n": 256, "laws": 0, "ts": "2026-07-31 07:33 UTC"}
 {"id": "/documentation/uikit/uitextfield/typingattributes", "sha": "7f8113da03e22e7253340129e6fe396218fc599e61087c5846b1518051cba13d", "t": "typingAttributes", "n": 454, "laws": 0, "ts": "2026-07-31 07:38 UTC"}
+{"id": "/documentation/UserNotifications/UNTextInputNotificationAction", "sha": "bf2f0d7773d9bdbcb2581579c8abddd9893071e76d9511ed93c3aaa459ac9a2a", "t": "UNTextInputNotificationAction", "n": 650, "laws": 0, "ts": "2026-07-31 18:45 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/isenabled", "sha": "e22219d1f315d8fa934c4f1c7e7c795ef87fcc597fad49a477bc042a06182424", "t": "isEnabled", "n": 142, "laws": 0, "ts": "2026-07-31 18:53 UTC"}
+{"id": "/documentation/swiftui/textfieldstyle/roundedborder", "sha": "b7ab94982a3cced6a8cd7b79b0bd79d8411f9516dc1822b5df65cdb4ea53f4ca", "t": "roundedBorder", "n": 126, "laws": 1, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/path/normalized(eofill:)", "sha": "c16a3f0892d323613d59269acf3f0e7d4eac9cb5d5f10e7372c5b7e06d14a744", "t": "normalized(eoFill:)", "n": 283, "laws": 0, "ts": "2026-07-31 19:01 UTC"}

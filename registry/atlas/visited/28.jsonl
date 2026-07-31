@@ -102,3 +102,8 @@
 {"id": "/documentation/uikit/uitextfield/isediting", "sha": "136a4c4c0e9dd2eec5714595ddaad04cd9a04e853f2a158daa4053ec4cdf717e", "t": "isEditing", "n": 281, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
 {"id": "/documentation/UIKit/providing-images-for-different-appearances", "sha": "ce1285902a18670bab02a8b140d4ab9d89eb554417d6104875bfa5a42cd252eb", "t": "Providing images for different appearances", "n": 5040, "laws": 10, "ts": "2026-07-31 07:39 UTC"}
 {"id": "/documentation/uikit/encrypting-your-app-s-files", "sha": "d40d1f0f631e8d4bb9e310af35695f59da7615ba5cee64becab50d050acd6a65", "t": "Encrypting Your App’s Files", "n": 3146, "laws": 1, "ts": "2026-07-31 07:40 UTC"}
+{"id": "/documentation/SwiftUI/HoverEffectGroup", "sha": "df1bbd9dc176c9b7b89c875380747beb7a4354b49258c29e14416f835d01646c", "t": "HoverEffectGroup", "n": 286, "laws": 0, "ts": "2026-07-31 18:46 UTC"}
+{"id": "/documentation/swiftui/toggle/init(_:sources:ison:)", "sha": "9612a1b9707c389a5c47b74f7e4d49d88a517af36100f34f20585338893d10a3", "t": "init(_:sources:isOn:)", "n": 316, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/graphicscontext/gradientoptions", "sha": "014f82dc038ffae01a0e6bfb7636cef02cf5d5f50bb3eb07a71bc6d050fb1611", "t": "GraphicsContext.GradientOptions", "n": 227, "laws": 0, "ts": "2026-07-31 18:56 UTC"}
+{"id": "/documentation/swiftui/layout/callasfunction(_:)", "sha": "53aa5b0aff7bdebdd97a8198c4cd32cbc4fc979ef52c2f45d591f035fcad00e4", "t": "callAsFunction(_:)", "n": 435, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/swiftui/eventmodifiers", "sha": "51ae541d08413224807f8a458a1d190a4dbc2b240988bd52aeda7753c8091080", "t": "EventModifiers", "n": 228, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

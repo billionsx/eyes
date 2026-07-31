@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 28670 · кандидатов: 16 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 29145 · кандидатов: 17 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -20,6 +20,7 @@
 | font-size | 44 pt | none | 2 | 2 | нет |
 | margin / padding | 600 ms | none | 2 | 2 | нет |
 | opacity | 50 % | none | 2 | 2 | нет |
+| line-height | 10 pt | none | 1 | 1 | нет |
 | opacity | 10 % | none | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 1 | 1 | нет |
 
@@ -53,6 +54,8 @@
   - «To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel di»
 - **opacity 50 %** (none) — https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor, https://developer.apple.com/documentation/swiftui/view/opacity(_:)
   - «The default shadow color is black with 50% opacity.»
+- **line-height 10 pt** (none) — https://developer.apple.com/documentation/swiftui/layout/explicitalignment(of:in:proposal:subviews:cache:)
+  - «For example, you can indent the container’s leading edge alignment guide by 10 points: The above example returns for other guides to indicate that the»
 - **opacity 10 %** (none) — https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)
   - «This example shows an image masked by rectangle with a 10% opacity: Masks this view using the alpha channel of the given view.»
 - **контраст пары цветов 20 %** (none) — https://developer.apple.com/documentation/swiftui/view/contrast(_:)

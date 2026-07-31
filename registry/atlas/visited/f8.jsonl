@@ -112,3 +112,7 @@
 {"id": "/documentation/uikit/uistepper/backgroundimage(for:)", "sha": "a8faa709e624cb1cb0db7a41e371cc0d9043198596e3bb4e7142ec874b656005", "t": "backgroundImage(for:)", "n": 165, "laws": 0, "ts": "2026-07-31 07:36 UTC"}
 {"id": "/documentation/uikit/uitextfield/borderstyle-swift.enum", "sha": "e31464e47f086bb9e071ba42e7a4e0450c0884da2d77653a2dc890f3f50822af", "t": "UITextField.BorderStyle", "n": 215, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
 {"id": "/documentation/uikit/uiaccessibility/focusedelement(using:)", "sha": "80c33484863f01de22651d10e5f152664b9a905e5ca446b9921124a0eb139e01", "t": "focusedElement(using:)", "n": 261, "laws": 0, "ts": "2026-07-31 07:41 UTC"}
+{"id": "/documentation/swiftui/scene/dialogsuppressiontoggle(issuppressed:)", "sha": "3a99b34c1931ba06ab0f64a44a4e12c57a9ce52bd23294cb012bf4d179594425", "t": "dialogSuppressionToggle(isSuppressed:)", "n": 533, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
+{"id": "/documentation/swiftui/hstacklayout/alignment", "sha": "b1d0beee10351920b81cb12b46810046f00a5c0491ef7d0ed9849b31d0d253c0", "t": "alignment", "n": 35, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/swiftui/spring/damping", "sha": "d33142c769ab88b885b220f0859c434caa11ea4baabbf6d28eeae62299783658", "t": "damping", "n": 316, "laws": 1, "ts": "2026-07-31 19:03 UTC"}
+{"id": "/documentation/swiftui/view/symboleffect(_:options:isactive:)", "sha": "0eef71fe063ff233173276cd6e1d3ec6ff9fa7ea654e017411ff8ccc6fb35757", "t": "symbolEffect(_:options:isActive:)", "n": 203, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

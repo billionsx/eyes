@@ -119,3 +119,6 @@
 {"id": "/documentation/uikit/uifocusitemcontainer/coordinatespace", "sha": "979bf78053c84cb2f96dde587db58f2af731e419bc46e960de7f6222c93d761a", "t": "coordinateSpace", "n": 173, "laws": 1, "ts": "2026-07-31 07:28 UTC"}
 {"id": "/documentation/uikit/uinavigationitem/itemstyle/navigator", "sha": "8297a64c880d9f378b266a3d3f4fb09103b4190e9264d585182c50734e8dc726", "t": "UINavigationItem.ItemStyle.navigator", "n": 289, "laws": 0, "ts": "2026-07-31 07:31 UTC"}
 {"id": "/documentation/uikit/uitextfield/editingrect(forbounds:)", "sha": "91edf026673af0c4a2284c7cf358859f2ec54409ce5dfba6725feccd4b75ec2c", "t": "editingRect(forBounds:)", "n": 393, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
+{"id": "/documentation/swiftui/tableoutlinegroupcontent", "sha": "818c344fc30a736f503994c36d665007545b0587148ebf67062c7df07026fbd2", "t": "TableOutlineGroupContent", "n": 210, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/swiftui/nsgesturerecognizerrepresentablecontext", "sha": "7a32033db4f02c1163dbcc8e8d062636e0dbd1cfbef3bd01e56cc491d980d158", "t": "NSGestureRecognizerRepresentableContext", "n": 167, "laws": 1, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/swiftui/digitalcrownevent", "sha": "9909afe0e7ad0f8ac195b5a37083beb04f8b1ef7b36a7a2d0f6fad44c4da92f1", "t": "DigitalCrownEvent", "n": 147, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

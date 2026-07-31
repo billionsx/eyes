@@ -94,3 +94,8 @@
 {"id": "/documentation/uikit/uitooltipconfiguration/init(tooltip:in:)", "sha": "4082f64c72a126389b62f5902be9110322045df90aa1e2de555fe6c82379e1c5", "t": "init(toolTip:in:)", "n": 518, "laws": 0, "ts": "2026-07-31 07:30 UTC"}
 {"id": "/documentation/uikit/uimanageddocument/persistentstorename", "sha": "148c1cda56c37ba189274dee98b34e333f43291308cdc56fa6b745d3ff46c278", "t": "persistentStoreName", "n": 275, "laws": 0, "ts": "2026-07-31 07:32 UTC"}
 {"id": "/documentation/uikit/nsadaptiveimageglyphattributename", "sha": "48d38a5c0fc5c0a81f63c50d9ba72536dec834eddc8c7850f4ff334a8cc76238", "t": "NSAdaptiveImageGlyphAttributeName", "n": 184, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/swiftui/fetchrequest/projectedvalue", "sha": "6ac956f8621a0b6c8908552fb74d6c871b2b2572c517c38fe266834359d7f8aa", "t": "projectedValue", "n": 743, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/swiftui/viewbuilder/buildeither(first:)", "sha": "f3a6c33bae0400dabea8aba99c86d3e244a91772e0d6bae90400b1f1af60938f", "t": "buildEither(first:)", "n": 101, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/swiftui/path/addarc(tangent1end:tangent2end:radius:transform:)", "sha": "efa137f5a9d9cce9507554318a36087c7d4976e177715d55c22c425a7f9661a1", "t": "addArc(tangent1End:tangent2End:radius:transform:)", "n": 999, "laws": 2, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/swiftui/path/init()", "sha": "c33ba717177ea1dcf113fd14f47ce00ea3bc97799b7e93a7b9d30b2f4261688b", "t": "init()", "n": 22, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/swiftui/submittriggers", "sha": "ff758a49aa6484692e8be56f8779a0fb9c557627fac67c0a52f17713e1129925", "t": "SubmitTriggers", "n": 309, "laws": 0, "ts": "2026-07-31 19:10 UTC"}

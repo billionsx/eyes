@@ -107,3 +107,8 @@
 {"id": "/documentation/uikit/uipagecontrolprogress", "sha": "4091ee4a9d771e8ec7713ec9580f8eecd0e4fc4502b0e04fcc107ee83ba137e5", "t": "UIPageControlProgress", "n": 68, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
 {"id": "/documentation/uikit/uisearchtoken/init(icon:text:)", "sha": "f7cf43012200855c4d24411eb02451263f32f0a750fea4ed76012578ba329fc4", "t": "init(icon:text:)", "n": 101, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
 {"id": "/documentation/uikit/uiaccessibility/isgrayscaleenabled", "sha": "b9906ed19ecfba819728c5e2c2c249ecc61a0a16b63007947e9243d906f7235a", "t": "isGrayscaleEnabled", "n": 108, "laws": 0, "ts": "2026-07-31 07:41 UTC"}
+{"id": "/documentation/walletpasses/pass/locations-data.dictionary", "sha": "fed25d962bde172b774239862bdd7f2dc5c3ddfe44bfb77e52b323f27ea4902e", "t": "Pass.Locations", "n": 336, "laws": 0, "ts": "2026-07-31 18:42 UTC"}
+{"id": "/documentation/SwiftUI/DynamicViewContent/reorderable()", "sha": "2ad67e2d14a178cdb17d43dbbfa3be311ac021051afacdccd8fb281849b68228", "t": "reorderable()", "n": 577, "laws": 0, "ts": "2026-07-31 18:46 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/isuserauthenticationenabled", "sha": "ceadf8a78bb9d44079721e49aba51451bfaf8d6e5081aabefbfa247e50649b88", "t": "isUserAuthenticationEnabled", "n": 412, "laws": 0, "ts": "2026-07-31 18:53 UTC"}
+{"id": "/documentation/swiftui/shape/containerrelative", "sha": "6b61e83746fe8b109300f049bf9f778b1b0403380b3a1a125bbafc9529605400", "t": "containerRelative", "n": 139, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
+{"id": "/documentation/swiftui/shape/fill(_:style:)", "sha": "ac4f434ce882a2aff5bfd54cf39c55ad19b262edf755dea9d855a50a9c014d68", "t": "fill(_:style:)", "n": 112, "laws": 0, "ts": "2026-07-31 19:04 UTC"}

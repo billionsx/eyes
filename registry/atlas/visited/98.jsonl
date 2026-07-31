@@ -113,3 +113,6 @@
 {"id": "/documentation/uikit/uifocushaloeffect", "sha": "c8a2c3ec35d1ecadf269ce7d59fb1272a59dbc661d691ead7e1310d7ee410528", "t": "UIFocusHaloEffect", "n": 250, "laws": 0, "ts": "2026-07-31 07:28 UTC"}
 {"id": "/documentation/uikit/uitextfield/clearbuttonmode", "sha": "42f233daa1e65fb73a72ab544937f79d00dc99b327f092790e022baec0385128", "t": "clearButtonMode", "n": 362, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
 {"id": "/documentation/uikit/uiaccessibility/isclosedcaptioningenabled", "sha": "d6425d02927b2d17b3bf8ffca6bf0dfddaa87517209f784d21c7a133fbc86a63", "t": "isClosedCaptioningEnabled", "n": 96, "laws": 0, "ts": "2026-07-31 07:41 UTC"}
+{"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "sha": "5b28fbbdb39f3980b4c34827e3c057951189e48fcff011cd35bf0f66ad6e81c8", "t": "Creating a pass with Pass Designer", "n": 11386, "laws": 8, "ts": "2026-07-31 18:42 UTC"}
+{"id": "/documentation/swiftui/anylayout/init(_:)", "sha": "ccfada7c40f4e00bca0af6cb229bb8b7a96c48fc470f6852ecf97db8aa451181", "t": "init(_:)", "n": 159, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/SwiftUI/Image/symbolRenderingMode(_:)", "sha": "644230e719f11453873df10b502c102ad620936a349cce871dfafd7cf53b800a", "t": "symbolRenderingMode(_:)", "n": 123, "laws": 0, "ts": "2026-07-31 19:00 UTC"}

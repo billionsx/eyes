@@ -93,3 +93,5 @@
 {"id": "/documentation/uikit/uisegmentedcontrol/apportionssegmentwidthsbycontent", "sha": "8356091598aa8a4c19255812e13fc940274252842a3c4515a7585025abbf55bd", "t": "apportionsSegmentWidthsByContent", "n": 273, "laws": 0, "ts": "2026-07-31 07:34 UTC"}
 {"id": "/documentation/uikit/uislider/maximumvalue", "sha": "dbe5d39c3fe01f553e5ab6bea1770ba5b65877f78f57bb05c22cb22aeedc871b", "t": "maximumValue", "n": 459, "laws": 4, "ts": "2026-07-31 07:35 UTC"}
 {"id": "/documentation/uikit/uitextfield/didendeditingreasonuserinfokey", "sha": "627da6c4558e0b681f609eee1759c911e5a0d1a969d34dfcbdd4ee40bc5c55b6", "t": "didEndEditingReasonUserInfoKey", "n": 67, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
+{"id": "/documentation/swiftui/scene/keyboardshortcut(_:)", "sha": "16bd326dfad4422812d51eb0065a50ee62b93a4527bb9b988a42eb482be76cb8", "t": "keyboardShortcut(_:)", "n": 810, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/horizontalalignment/trailing", "sha": "6e9b443592d69acceb258cca9fb37a7d9504bf8a45db1ef43e4fb16a98cd2f4c", "t": "trailing", "n": 255, "laws": 0, "ts": "2026-07-31 18:58 UTC"}

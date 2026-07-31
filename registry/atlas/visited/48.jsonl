@@ -118,3 +118,9 @@
 {"id": "/documentation/uikit/uidirectionalrectedge", "sha": "84cf9c02651c2d44197046983b10cc8514cf34029bf8dcad6060db1b77338647", "t": "UIDirectionalRectEdge", "n": 189, "laws": 0, "ts": "2026-07-31 07:24 UTC"}
 {"id": "/documentation/uikit/uisegmentedcontrol/selectedsegmentindex", "sha": "7a2d16ce576b14b156ebb20578c4c5dd82d9e9b515090cf2b53d07c354d82094", "t": "selectedSegmentIndex", "n": 470, "laws": 0, "ts": "2026-07-31 07:35 UTC"}
 {"id": "/documentation/uikit/uiwritingtoolsresultoptions/presentationintent", "sha": "1f79e3acdcc0fbd93b15b2371744e2cb5bee47971f3045a4f8f3034e37d9e00d", "t": "presentationIntent", "n": 158, "laws": 0, "ts": "2026-07-31 07:39 UTC"}
+{"id": "/documentation/SwiftUI/Scene/windowIdealPlacement(_:)", "sha": "980671b9ab5c67955ffa313bc6e7a01f4cbefe78d0040ddfe548825c8bbb07f1", "t": "windowIdealPlacement(_:)", "n": 643, "laws": 0, "ts": "2026-07-31 18:47 UTC"}
+{"id": "/documentation/swiftui/namespace/id", "sha": "482f8a839a7f2eb70eee448bf738c5acb66cfb5a0ac78f71b94d702ea1659804", "t": "Namespace.ID", "n": 70, "laws": 0, "ts": "2026-07-31 18:49 UTC"}
+{"id": "/documentation/swiftui/manipulablemodifier", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "ManipulableModifier", "n": 0, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/toggle/init(_:image:ison:)", "sha": "ce78496c2f32aa86254ff62b60097811ec22f4e0da5f919394be535cb610b6c2", "t": "init(_:image:isOn:)", "n": 207, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
+{"id": "/documentation/swiftui/binding/init(_:)", "sha": "84480b41a8fe13b4a91d1fc1ec27040661a4cb075fa85e06c934a72f3aed423b", "t": "init(_:)", "n": 67, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
+{"id": "/documentation/swiftui/shape/rect(uniformtopcorners:uniformbottomcorners:)", "sha": "98f3c4b881a6b78a9be5a81a0c819565bcd32a5dba094f2fe9ee0a98a95dad68", "t": "rect(uniformTopCorners:uniformBottomCorners:)", "n": 438, "laws": 0, "ts": "2026-07-31 19:05 UTC"}

@@ -105,3 +105,5 @@
 {"id": "/documentation/uikit/uifocussystem/focusupdatecontextuserinfokey", "sha": "19a0a7c720a7c01b8ef1e8a2d8bad335118d90d060ec8d8b1fe0ebd2ea58c7a5", "t": "focusUpdateContextUserInfoKey", "n": 24, "laws": 0, "ts": "2026-07-31 07:29 UTC"}
 {"id": "/documentation/uikit/uisegmentedcontrol/removeallsegments()", "sha": "c3e3de071f904a963d53caa65d3cd0088af71040f78438954a8850e76d15719f", "t": "removeAllSegments()", "n": 46, "laws": 0, "ts": "2026-07-31 07:35 UTC"}
 {"id": "/documentation/uikit/uistackview/axis", "sha": "573279d27ca91d5361f187fca44067729c416ed98348e07823c2d487b1df0394", "t": "axis", "n": 231, "laws": 0, "ts": "2026-07-31 07:36 UTC"}
+{"id": "/documentation/swiftui/environmentvalues/backgroundmaterial", "sha": "91eb201faf656eb81a299e614b15869cd70c0699bacdd8385734b3752b4fec84", "t": "backgroundMaterial", "n": 483, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
+{"id": "/documentation/swiftui/symbolcolorrenderingmode", "sha": "92f21cf440eca97afde259c3b95f27cc1881f37ba134e0e34e461132aa978930", "t": "SymbolColorRenderingMode", "n": 81, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
