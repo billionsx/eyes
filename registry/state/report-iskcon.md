@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 122 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 200
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13 · находок: 202
 
 ## AE1 · 7
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -56,7 +56,7 @@
 - `apps/web/src/ui/globals.css:990` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:1020` — border-radius 38px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:1283` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/main.tsx:198` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/main.tsx:205` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 
 ## AE2 · 18
 - `apps/web/src/music/music.css:55` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
@@ -75,7 +75,7 @@
 - `apps/web/src/AccountScreen.tsx:134` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/AccountScreen.tsx:136` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/dhama/DhamaMap.tsx:93` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
-- `apps/web/src/main.tsx:198` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
+- `apps/web/src/main.tsx:205` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 - `apps/web/src/prasad/covers.tsx:113` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
 
 ## AE3 · 2
@@ -109,7 +109,7 @@
 - `apps/web/src/play/play.css:70` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/ui/globals.css:1085` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 
-## AE7 · 8
+## AE7 · 10
 - `apps/web/src/music/music.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:440` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
@@ -118,6 +118,8 @@
 - `apps/web/src/music/music.css:449` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/music/music.css:455` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
+- `apps/web/src/play/play.css:81` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
+- `apps/web/src/play/play.css:81` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 
 ## AE8 · 58
 - `apps/web/src/music/music.css:421` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
