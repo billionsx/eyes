@@ -143,3 +143,7 @@
 {"id": "/documentation/uikit/uiwebview/loadrequest(_:)", "sha": "2e48151f3a0113778a3846f226a3161f3ed11c71807d1026c7d9fe39f8cca74a", "t": "loadRequest(_:)", "n": 256, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
 {"id": "/documentation/uikit/uiscreen/referencedisplaymodestatus-swift.enum/notsupported", "sha": "52d3f661ab392e1a718d78e8489d9d26a38188c47f59caec188ccba3638e4d68", "t": "UIScreen.ReferenceDisplayModeStatus.notSupported", "n": 76, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/streetaddressline1", "sha": "5fa9f90c6574a5f52e502040e96c0c354dffcd4c24fc207b084b4df36066d57c", "t": "streetAddressLine1", "n": 95, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/swiftui/view/photospickerstyle(_:)", "sha": "032eca2c2a1bc5b43c0047bbde9b35f94cbd51086433edef2948da047cdc1808", "t": "photosPickerStyle(_:)", "n": 97, "laws": 0, "ts": "2026-08-01 18:21 UTC"}
+{"id": "/documentation/SwiftUI/CustomizableToolbarContent", "sha": "6d75fb7addc1ad95142dff021c4d9d80559cafcca60320f1f514767f40e33e75", "t": "CustomizableToolbarContent", "n": 407, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
+{"id": "/documentation/swiftui/immersivespace/init(id:content:)-5keb4", "sha": "8cfc96e17ac035a23c107181f8a6af8a1c36d6429613524ce4d0d08775b7e116", "t": "init(id:content:)", "n": 200, "laws": 0, "ts": "2026-08-01 18:32 UTC"}
+{"id": "/documentation/swiftui/text/init(_:)-60ax7", "sha": "4d0cb7a9784376e420462290659c42a5ad686d01138463eb422d163c510242d8", "t": "init(_:)", "n": 73, "laws": 0, "ts": "2026-08-01 18:38 UTC"}

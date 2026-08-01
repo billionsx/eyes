@@ -107,3 +107,8 @@
 {"id": "/documentation/uikit/uiapplication/endignoringinteractionevents()", "sha": "d932d6209a4853ddf19fbbe406b07c1ce46467d2e374fc4d8b84936152d7a045", "t": "endIgnoringInteractionEvents()", "n": 251, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
 {"id": "/documentation/uikit/uidevice/batterylevel", "sha": "e31eee5c33b893c5df53f9c7a383b42d36fe7edf5b310cc83b2bf47adad81bb1", "t": "batteryLevel", "n": 296, "laws": 0, "ts": "2026-08-01 05:56 UTC"}
 {"id": "/documentation/uikit/uiimage/orientation/down", "sha": "bbd6087907fe18090e8fe0d8381b49d97b4b0c7f5acbfa96e9f8af27129eaae3", "t": "UIImage.Orientation.down", "n": 232, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/photosui/phpickerviewcontroller/zoomout()", "sha": "ae16e08fdbbd8534cdc3820396970b79725caa25186b34beda0aacb84985ae96", "t": "zoomOut()", "n": 86, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/uiviewrepresentablecontext", "sha": "29c1698a36787309baedaa4cae9c4c0049424d2cb8e3a9e8db0c967e56c3bad3", "t": "UIViewRepresentableContext", "n": 691, "laws": 1, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/swiftui/color/primary", "sha": "ab9db4ac69cd7bf940a3c61d3669c5b1c69eb370ddc1663db18273ba817cbaed", "t": "primary", "n": 37, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/windowgroup/init(_:content:)-ulz4", "sha": "028320e827c3a4aa25c1e6946c5b1524d36e538e096d417fd468dd3f7ab4dc1d", "t": "init(_:content:)", "n": 301, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/SwiftUI/View/familyActivityPicker(isPresented:selection:)", "sha": "73cc365bc0a019058584c2e1d48c80ca91a3cdf9d15e365f3805519453a60c72", "t": "familyActivityPicker(isPresented:selection:)", "n": 96, "laws": 0, "ts": "2026-08-01 18:32 UTC"}

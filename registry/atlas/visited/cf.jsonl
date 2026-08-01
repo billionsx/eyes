@@ -108,3 +108,8 @@
 {"id": "/documentation/uikit/uiresponderstandardeditactions/showwritingtools(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "showWritingTools(_:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:50 UTC"}
 {"id": "/documentation/uikit/uidynamicitembehavior/additem(_:)", "sha": "f55a51d02a697b97fd3239f2905ae8af67b738a6025f462adeefcededb9c33e1", "t": "addItem(_:)", "n": 411, "laws": 0, "ts": "2026-08-01 06:03 UTC"}
 {"id": "/documentation/uikit/uicontentunavailableconfiguration-swift.struct/secondaryattributedtext", "sha": "141605fa0da2273cb6043e87292e507a338827f488753f09ee01381000e2dc96", "t": "secondaryAttributedText", "n": 44, "laws": 0, "ts": "2026-08-01 06:11 UTC"}
+{"id": "/documentation/swiftui/view/listitemtint(_:)", "sha": "b20ea0067320ff57ffac56fd5eb9c3ee94ff1102082ee49305477e6570d2e1e6", "t": "listItemTint(_:)", "n": 450, "laws": 1, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/view/onassigneddocumentwillwithdraw(_:)", "sha": "537e6eb85dbf0bd2daad87cba356596229c4682295a963f5a46a15dcd378cb0e", "t": "onAssignedDocumentWillWithdraw(_:)", "n": 319, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
+{"id": "/documentation/swiftui/wheelpickerstyle", "sha": "db3815d61dbb39b16150f1471fb4f8b47b9fb3ea7056b22c22c423a87f1419b4", "t": "WheelPickerStyle", "n": 215, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
+{"id": "/documentation/swiftui/slidertick/init(_:_:)", "sha": "14996c1d5e814e5a95d1016ff2627385e3656548eb492dc1321d8c57b61822ce", "t": "init(_:_:)", "n": 62, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
+{"id": "/documentation/SwiftUI/RadialGradient", "sha": "6c7874a506f2d04975cb6aa2fb3767a9df19c59c780a5282d8263af40117251a", "t": "RadialGradient", "n": 504, "laws": 1, "ts": "2026-08-01 18:31 UTC"}

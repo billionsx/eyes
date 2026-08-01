@@ -95,3 +95,6 @@
 {"id": "/documentation/uikit/uiimage/orientation/right", "sha": "cdcc462b4ad8163b5337096f5547420e819f6ae067d5a70b03c1b59b72a81f73", "t": "UIImage.Orientation.right", "n": 359, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
 {"id": "/documentation/uikit/uikeyboardtype/decimalpad", "sha": "7b28fb8ab4f01910a61991b495035914d482a9485ecdeeb09a595a75fb4c1a16", "t": "UIKeyboardType.decimalPad", "n": 54, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
 {"id": "/documentation/uikit/nsattributedstringdocumentattributekey", "sha": "99efbdc89952918508ade451e5e0c97b79d4a7ccde9f2ecd2e97ef57e5bd608b", "t": "NSAttributedStringDocumentAttributeKey", "n": 1884, "laws": 1, "ts": "2026-08-01 06:08 UTC"}
+{"id": "/documentation/usernotifications/unnotificationcontent/filtercriteria", "sha": "2c696f6da7307c18983787b1975f4d6c5e09fec5180c634c8766b7ee869a3541", "t": "filterCriteria", "n": 142, "laws": 0, "ts": "2026-08-01 18:11 UTC"}
+{"id": "/documentation/photosui/phpickerfilter-swift.struct/panoramas", "sha": "23a673d3767b983841a74fbdc542f1c2d55fd426f1e3d9b108feb3c0e18c02e5", "t": "panoramas", "n": 41, "laws": 0, "ts": "2026-08-01 18:14 UTC"}
+{"id": "/documentation/swiftui/view/statusbarhidden(_:)", "sha": "9fc9d5fc7b2ea658f137cb78e5e217fb8733099903a74a4ee707c9f58fcef39c", "t": "statusBarHidden(_:)", "n": 38, "laws": 0, "ts": "2026-08-01 18:22 UTC"}

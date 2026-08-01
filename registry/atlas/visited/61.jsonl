@@ -107,3 +107,6 @@
 {"id": "/documentation/uikit/uitraitcollection/accessibilitycontrast", "sha": "979b9267d654c314b083958038cca2adffb3f36ed3fd270ec45036294619aa2f", "t": "accessibilityContrast", "n": 267, "laws": 1, "ts": "2026-08-01 05:46 UTC"}
 {"id": "/documentation/uikit/uitextdropeditability", "sha": "0cc86fa1fcd1064d38bfc0ccbe858f6d155fc0a21c97a35c90aef294353e4e56", "t": "UITextDropEditability", "n": 201, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
 {"id": "/documentation/uikit/uidocumentpickerextensionviewcontroller/dismissgrantingaccess(to:)", "sha": "7262d40fbb72b688cd9c336c0d0e4e44f31722af84e7635ce5457fcbc8e86400", "t": "dismissGrantingAccess(to:)", "n": 1632, "laws": 1, "ts": "2026-08-01 06:11 UTC"}
+{"id": "/documentation/swiftui/scenepadding", "sha": "d14aed5097ac93c923b1daebba351267c26c9210929a98bfe52df3a98079081c", "t": "ScenePadding", "n": 169, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/slidertickcontent/body-swift.property", "sha": "c238f5a52c563850ee838679e70bd57500b3090b8ae3cb1c920668c14710ad23", "t": "body", "n": 33, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
+{"id": "/documentation/swiftui/animation/repeatforever(autoreverses:)", "sha": "260010fc5b1b46175a75772309e2ce1a7c24ac7d4fc454efdac1f33019fbcd5d", "t": "repeatForever(autoreverses:)", "n": 387, "laws": 1, "ts": "2026-08-01 18:36 UTC"}

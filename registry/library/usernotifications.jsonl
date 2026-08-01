@@ -105,3 +105,22 @@
 {"id": "/documentation/UserNotifications/UNNotificationDismissActionIdentifier", "law": "For example, the user must tap the Dismiss button or swipe down on the notification interface in watchOS to trigger this action."}
 {"id": "/documentation/UserNotifications/UNNotificationContent/categoryIdentifier", "law": "You use this support primarily to create actionable notifications with custom action buttons, and to redirect your notifications through either your notification service app extension or your notification content app extension."}
 {"id": "/documentation/UserNotifications/UNNotificationSound", "law": "The system sound facility plays custom alert sounds, so they must be in one of the following audio data formats: Linear PCM MA4 (IMA/ADPCM) µLaw aLaw You can package the audio data in an , , or file."}
+{"id": "/documentation/usernotifications/unnotificationsettings/alertsetting", "law": "Authorization does not guarantee that alerts always appear on the user’s screen."}
+{"id": "/documentation/usernotifications/unnotificationsettings/alertstyle", "law": "The user may choose to display alerts as automatically disappearing banners or as modal windows that require explicit dismissal."}
+{"id": "/documentation/usernotifications/unnotificationsettings/criticalalertsetting", "law": "When , this property authorizes the app to play critical sounds that ignore Do Not Disturb and the device’s mute switch."}
+{"id": "/documentation/usernotifications/unnotificationsettings/criticalalertsetting", "law": "Critical alerts require a special entitlement issued by Apple."}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/attachments", "law": "Use this property to include images or movies, or to include playable audio files, with the contents of an alert."}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/badge", "law": "Use this property to specify the number to apply to the app’s icon when the notification arrives."}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/body", "law": "Use this property to specify the body of the notification alert."}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/body", "law": "To include a percent symbol ( ) in the message body, use two percent symbols ( )."}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/categoryidentifier", "law": "You use this support primarily to create actionable notifications with custom action buttons to redirect your notifications through either your notification service app extension or your notification content app extension."}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/title", "law": "Use this property to specify the title of your notification alert."}
+{"id": "/documentation/usernotifications/unnotificationattachmentoptionsthumbnailhiddenkey", "law": "If you don’t include this key, the system shows the thumbnail."}
+{"id": "/documentation/usernotifications/unnotificationattachmentoptionsthumbnailtimekey", "law": "For animated images, the value of this key is an containing the frame number to use as the thumbnail."}
+{"id": "/documentation/usernotifications/unnotificationattachmentoptionsthumbnailtimekey", "law": "The frame number of an animation to use as a thumbnail image."}
+{"id": "/documentation/usernotifications/unnotificationcontent/categoryidentifier", "law": "You use this support primarily to create actionable notifications with custom action buttons, and to redirect your notifications through either your notification service app extension or your notification content app extension."}
+{"id": "/documentation/usernotifications/unnotificationdismissactionidentifier", "law": "For example, the user must tap the Dismiss button or swipe down on the notification interface in watchOS to trigger this action."}
+{"id": "/documentation/usernotifications/unnotificationsound/criticalsoundnamed(_:)", "law": "Critical alerts ignore the mute switch and Do Not Disturb."}
+{"id": "/documentation/usernotifications/unnotificationsound/criticalsoundnamed(_:withaudiovolume:)", "law": "Critical alerts ignore the mute switch and Do Not Disturb."}
+{"id": "/documentation/usernotifications/unnotificationsound/defaultcritical", "law": "Critical alerts ingore the mute switch and Do Not Disturb."}
+{"id": "/documentation/usernotifications/unnotificationsound/defaultcriticalsound(withaudiovolume:)", "law": "Critical alerts ignore the mute switch and Do Not Disturb."}

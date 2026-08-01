@@ -97,3 +97,8 @@
 {"id": "/documentation/UIKit/UITextContentType/username", "sha": "791865483b656a9dd42f6be676fda5907661af8291bbc415db81a4d72509ab94", "t": "username", "n": 85, "laws": 0, "ts": "2026-08-01 05:57 UTC"}
 {"id": "/documentation/uikit/uiattachmentbehavior/attachmentrange", "sha": "090fa802efc14c354b28f526d1711193ad0aef6263f461353d47867cdbbc9607", "t": "attachmentRange", "n": 916, "laws": 0, "ts": "2026-08-01 06:03 UTC"}
 {"id": "/documentation/uikit/uipushbehavior/setangle(_:magnitude:)", "sha": "5ae2fd4b24c67ea5e55ba509f73f755e21aa01abde692639aba030a08c604f00", "t": "setAngle(_:magnitude:)", "n": 240, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/usernotifications/unnotificationsound/defaultcriticalsound(withaudiovolume:)", "sha": "a839e89cf9642fd4140cde004fec8a0673b3372154d9a9b012f1e53fb6950eb8", "t": "defaultCriticalSound(withAudioVolume:)", "n": 320, "laws": 1, "ts": "2026-08-01 18:11 UTC"}
+{"id": "/documentation/swiftui/scrolldismisseskeyboardmode", "sha": "ca8e750c2e2f80fdea00a5b22f96f6b68759ec4e5b5b11c79e56173f4bcf0ac8", "t": "ScrollDismissesKeyboardMode", "n": 243, "laws": 0, "ts": "2026-08-01 18:19 UTC"}
+{"id": "/documentation/swiftui/slidertick/init(_:)", "sha": "c1a7226ade348bbc65933c82b3f124e7ac48c5294989a1689399c853e39b045f", "t": "init(_:)", "n": 49, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
+{"id": "/documentation/SwiftUI/PasteButton", "sha": "3dcd9a0a4722527f11524c9720887f08642421d1cecace6150187bf0580187eb", "t": "PasteButton", "n": 1203, "laws": 2, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/swiftui/rotategesture/init(minimumangledelta:)", "sha": "9fc2ec33ad632e9c5f913206ebf90426dfd8171ea8eed125e29cd7173c440da5", "t": "init(minimumAngleDelta:)", "n": 73, "laws": 1, "ts": "2026-08-01 18:35 UTC"}

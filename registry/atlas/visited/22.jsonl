@@ -133,3 +133,7 @@
 {"id": "/documentation/uikit/uiscreen/referencedisplaymodestatus-swift.enum/enabled", "sha": "177b0823be4fd8e3f96aeee0ee60f5827a0ff0d3b5a1d7c81dc8a200bdd13b0b", "t": "UIScreen.ReferenceDisplayModeStatus.enabled", "n": 75, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/birthdateday", "sha": "ea29c4f4906edefd3bf6c9d710ebc9576e815bcadda02c40c5da9252490170ab", "t": "birthdateDay", "n": 93, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/organizationname", "sha": "3496e4256a23580771943c83718a83e0bac019d5508bc5b5a3e2529f9852de62", "t": "organizationName", "n": 81, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/swiftui/view/presentationdetents(_:selection:)", "sha": "cd82bf6ee6d9e47ae1b03444b980c9b37b2a1d5fbcbdec6dfedf6e80423c1c58", "t": "presentationDetents(_:selection:)", "n": 170, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
+{"id": "/documentation/swiftui/view/transformpreference(_:_:)", "sha": "3ae780846bfd62acba815290a42f51e4cea89374b344aebdc882a14b505047d2", "t": "transformPreference(_:_:)", "n": 47, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
+{"id": "/documentation/swiftui/view/unredacted()", "sha": "890be6de1a5b958e85f252fe2593633d9df141992521b69f5b4bbb29a1faa04e", "t": "unredacted()", "n": 63, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/swiftui/geometryproxy/safeareainsets", "sha": "7ecd11328fd2b3b185cab85ebe59c963c855a8289caee7ef4c2d56727057d1ad", "t": "safeAreaInsets", "n": 42, "laws": 0, "ts": "2026-08-01 18:36 UTC"}

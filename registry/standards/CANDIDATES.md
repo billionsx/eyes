@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 29397 · кандидатов: 17 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 29863 · кандидатов: 17 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -17,9 +17,9 @@
 | min-width/min-height интерактивного элемента | 28 pt | min | 1 | 1 | да |
 | min-width/min-height интерактивного элемента | 44 pt | min | 1 | 1 | да |
 | контраст пары цветов | 4.5 :1 | min | 1 | 1 | да |
+| opacity | 50 % | none | 3 | 3 | нет |
 | font-size | 44 pt | none | 2 | 2 | нет |
 | margin / padding | 600 ms | none | 2 | 2 | нет |
-| opacity | 50 % | none | 2 | 2 | нет |
 | line-height | 10 pt | none | 1 | 1 | нет |
 | opacity | 10 % | none | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 1 | 1 | нет |
@@ -48,12 +48,12 @@
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
 - **контраст пары цветов 4.5 :1** (min) — https://developer.apple.com/design/human-interface-guidelines/dark-mode
   - «At a minimum, make sure the contrast ratio between colors is no lower than 4.5:1.»
+- **opacity 50 %** (none) — https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor, https://developer.apple.com/documentation/swiftui/view/opacity(_:)
+  - «The default shadow color is black with 50% opacity.»
 - **font-size 44 pt** (none) — https://developer.apple.com/documentation/appkit/nscollectionlayoutdimension, https://developer.apple.com/documentation/uikit/nscollectionlayoutdimension
   - «Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at run»
 - **margin / padding 600 ms** (none) — https://developer.apple.com/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time, https://developer.apple.com/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time
   - «To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel di»
-- **opacity 50 %** (none) — https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor, https://developer.apple.com/documentation/swiftui/view/opacity(_:)
-  - «The default shadow color is black with 50% opacity.»
 - **line-height 10 pt** (none) — https://developer.apple.com/documentation/swiftui/layout/explicitalignment(of:in:proposal:subviews:cache:)
   - «For example, you can indent the container’s leading edge alignment guide by 10 points: The above example returns for other guides to indicate that the»
 - **opacity 10 %** (none) — https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)

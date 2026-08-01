@@ -138,3 +138,5 @@
 {"id": "/documentation/uikit/uiupdatelink", "sha": "031cb13ff8e6fbae62eab0f64d96cf0d6da5ebb7376d382f2e074f910ae4fe4c", "t": "UIUpdateLink", "n": 1787, "laws": 1, "ts": "2026-08-01 05:44 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/url", "sha": "346f6ea656b7704d6c92d14a35962f21d0f5dd366916d165ae76566898e6972a", "t": "URL", "n": 66, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/uicontentunavailableconfiguration-swift.struct/empty()", "sha": "c36e7acd5e8217b6158827249d0e03e3808e3201aa84254847f494d871f02efe", "t": "empty()", "n": 273, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
+{"id": "/documentation/swiftui/view/widgeturl(_:)", "sha": "b34c3a6d4764c0eb045948490626b0860ebd354fc04dc2f0d244ff2caacb1ec7", "t": "widgetURL(_:)", "n": 289, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
+{"id": "/documentation/swiftui/appstorage/init(wrappedvalue:_:store:)-9gxnh", "sha": "76bea782665a66b4a7b55c5fd3ef48ac9720bf7df14c82150fd5494c52a8a575", "t": "init(wrappedValue:_:store:)", "n": 71, "laws": 0, "ts": "2026-08-01 18:34 UTC"}

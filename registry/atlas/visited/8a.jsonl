@@ -95,3 +95,7 @@
 {"id": "/documentation/uikit/uitextinput/tokenizer", "sha": "0b0f69448ab4391b747d73c32b11df6671b362a65b5ea14ee9fb396b75ee6556", "t": "tokenizer", "n": 401, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
 {"id": "/documentation/uikit/uiwebview/stoploading()", "sha": "537b71a3c6e229106fec32a6b4671e3a71cc7bc32f91c0e901a12b3dbe6dad37", "t": "stopLoading()", "n": 217, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
 {"id": "/documentation/uikit/uidynamicitembehavior/removeitem(_:)", "sha": "0f4a86f52afa82acff2faae73044e3325e953ca98d81c569bd906e133839155c", "t": "removeItem(_:)", "n": 77, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/swiftui/view/selectiondisabled(_:)", "sha": "f8fc653272cb202fa9e797e83bae02267de50b83a381c95a538a7e43a85ec103", "t": "selectionDisabled(_:)", "n": 430, "laws": 1, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/view/interactionactivitytrackingtag(_:)", "sha": "e4532ebb34434c5e1990a95a1e5b97c3dc64049176454e621b84c5e5f129d213", "t": "interactionActivityTrackingTag(_:)", "n": 391, "laws": 1, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/swiftui/view/privacysensitive(_:)", "sha": "7792454c671c01dba27869aeea6a3e397728043d2f165cbeb7f18e5797c49c59", "t": "privacySensitive(_:)", "n": 157, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/SwiftUI/View/controlWidgetActionHint(_:)", "sha": "2bbbfa8aef0a7a625103fc138a227036834b0f9783122e7f01c42baf617b14db", "t": "controlWidgetActionHint(_:)", "n": 1356, "laws": 0, "ts": "2026-08-01 18:31 UTC"}

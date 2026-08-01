@@ -124,3 +124,6 @@
 {"id": "/documentation/uikit/uiuserinterfacesizeclass", "sha": "d5e384b8b7278b0c1dc98455f9d137f65742740a68c46e09749f1eb5ddfaf431", "t": "UIUserInterfaceSizeClass", "n": 211, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
 {"id": "/documentation/uikit/uicoordinatespace/convert(_:to:)-2ub7a", "sha": "df02bee329553d3ef78ee20091aeb8cd1b27a7149918f523d37583135f2b8d87", "t": "convert(_:to:)", "n": 165, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
 {"id": "/documentation/uikit/uifieldbehavior/additem(_:)", "sha": "172c9578993532ab7fe3a3618fa507b3185cf0a0fc52f80f978657ec9136bdff", "t": "addItem(_:)", "n": 237, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/tvservices/tvtopshelfcontentprovider/loadtopshelfcontent(completionhandler:)", "sha": "ac04470ffbe3ab40dc9ab8e1a893bee781640553c796b378c18bd241dda74dbe", "t": "loadTopShelfContent(completionHandler:)", "n": 1071, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
+{"id": "/documentation/swiftui/titlebarwindowstyle", "sha": "4bbdb3eafc22f83a387d0282d9d0e66aa47bfef813dcbc3bfb4f94728f13e079", "t": "TitleBarWindowStyle", "n": 157, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
+{"id": "/documentation/SwiftUI/EnvironmentValues/authorizationController", "sha": "bd57d2ab3e5f3ebeff7cd53a488c1ef5153e1519169a9ee71a449ce569923a11", "t": "authorizationController", "n": 192, "laws": 1, "ts": "2026-08-01 18:29 UTC"}

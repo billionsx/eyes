@@ -120,3 +120,6 @@
 {"id": "/documentation/uikit/uireturnkeytype/join", "sha": "83fda0e386cbd54919105d11bb8941b6628a24a1816feb49efb5800f60564159", "t": "UIReturnKeyType.join", "n": 90, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/uitextinputtraits/enablesreturnkeyautomatically", "sha": "1d51b4ba014ff71904b8c2109bb72d10201e9d667f9588ad9e48b1e7223ef287", "t": "enablesReturnKeyAutomatically", "n": 346, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
 {"id": "/documentation/uikit/uimodalpresentationstyle/automatic", "sha": "604388edd1ab2e8f21e16ee153bf100bb37220749029c3b8c6d7b14c4e54a6d0", "t": "UIModalPresentationStyle.automatic", "n": 240, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
+{"id": "/documentation/SwiftUI/ControlWidgetTemplate", "sha": "bfd5c2b99e7018d0b1cacfb8becdbf684ceeee334b776915f59118694d4b6301", "t": "ControlWidgetTemplate", "n": 763, "laws": 1, "ts": "2026-08-01 18:27 UTC"}
+{"id": "/documentation/swiftui/windowgroup/init(_:id:for:content:)-1bmnd", "sha": "4edd2ab004db1a5be353658c72d819728d6b5142bd51108212641b9566112bc0", "t": "init(_:id:for:content:)", "n": 653, "laws": 1, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/swiftui/draggesture/value/translation", "sha": "52a58876c924a83fe801b42a6cb1c578858b4c1d4a05aa92cf72423b2cdcae53", "t": "translation", "n": 136, "laws": 0, "ts": "2026-08-01 18:34 UTC"}

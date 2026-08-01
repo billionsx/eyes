@@ -126,3 +126,6 @@
 {"id": "/documentation/uikit/uiactivitysectiontypes/peoplesuggestions", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "peopleSuggestions", "n": 0, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
 {"id": "/documentation/uikit/uiattachmentbehavior/attachedbehaviortype", "sha": "7a42f2034742b4a48573d77feff49c66e7d1367328ead0410ae07b2124085285", "t": "attachedBehaviorType", "n": 122, "laws": 0, "ts": "2026-08-01 06:03 UTC"}
 {"id": "/documentation/uikit/uifieldbehavior/strength", "sha": "273d8535c8bf9453b5a27f2d829e93ab694ba9b99403417049c92d68e5cc3a96", "t": "strength", "n": 298, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/swiftui/view/dialogsuppressiontoggle(_:issuppressed:)", "sha": "5f23d6faf7ba1c4509650e278237d9db915a77601dfebf3af3993e84e435553b", "t": "dialogSuppressionToggle(_:isSuppressed:)", "n": 591, "laws": 0, "ts": "2026-08-01 18:17 UTC"}
+{"id": "/documentation/SwiftUI/Transaction/animation", "sha": "7efe87985c87de2a0571652daf15d08ae91a5c60e9a09352967a326f1efbbf26", "t": "animation", "n": 64, "laws": 0, "ts": "2026-08-01 18:30 UTC"}
+{"id": "/documentation/SwiftUI/GroupBox", "sha": "2ef4a208a7e83fc38d651ab82e8ba65e2818953e96047184a71dece322baf107", "t": "GroupBox", "n": 613, "laws": 0, "ts": "2026-08-01 18:30 UTC"}

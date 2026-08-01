@@ -105,3 +105,8 @@
 {"id": "/documentation/uikit/uitextdragrequest", "sha": "77b03de81e64bde49dc04d482bea373387d87dff26025bf8ed27aa028ca5a06c", "t": "UITextDragRequest", "n": 249, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/preferences", "sha": "3a87ea9f40766182b7107670daa700980e2794140b1e54bbd7c2926390a41322", "t": "preferences", "n": 21, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/toolbar", "sha": "1e829815bc4efc3628013831dbd1f7ac2d8875279f062ec98f71ba08b283c96f", "t": "toolbar", "n": 143, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/swiftui/view/badgeprominence(_:)", "sha": "354044e85bd1ddeacbc7181c6cd70c7be16ad0859127407365a129e527b6cde6", "t": "badgeProminence(_:)", "n": 537, "laws": 0, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/sidebarcommands", "sha": "6caf89944560b9285b5a84ef40c4243b97aedb548256f062ea36edfa2f94e777", "t": "SidebarCommands", "n": 219, "laws": 0, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/view/mapitemdetailsheet(item:displaysmap:)", "sha": "e52f4b0cc60907053360450a8112f399b69f26a7f8c3a1411f930b75a85b34b9", "t": "mapItemDetailSheet(item:displaysMap:)", "n": 33, "laws": 0, "ts": "2026-08-01 18:20 UTC"}
+{"id": "/documentation/swiftui/image/interpolation/none", "sha": "c6f762835d4090f9aaa48fa3dbb89ff34f6904fddd21ab9870e29681d8dce7cd", "t": "Image.Interpolation.none", "n": 62, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
+{"id": "/documentation/swiftui/font/weight", "sha": "c28343a66b249d66e204a1e5e272bde7e4592762ac0dd5d06bbdc5866c5d7808", "t": "Font.Weight", "n": 122, "laws": 1, "ts": "2026-08-01 18:38 UTC"}

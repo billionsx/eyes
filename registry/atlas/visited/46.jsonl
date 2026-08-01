@@ -129,3 +129,7 @@
 {"id": "/documentation/uikit/uiapplication/launchoptionskey/init(rawvalue:)", "sha": "6fbd26d66261d709c62adb4d57efc984ca4273e89ffbe5b39a033178b4346e6e", "t": "init(rawValue:)", "n": 58, "laws": 0, "ts": "2026-08-01 06:01 UTC"}
 {"id": "/documentation/uikit/uireturnkeytype/continue", "sha": "6dc53861749ed1480dbcda1482f654bb12ca7d8aae259847d4d8762216870677", "t": "UIReturnKeyType.continue", "n": 88, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
 {"id": "/documentation/uikit/uicontentunavailableconfiguration-swift.struct/search()", "sha": "4ed950abec42a9051e814c7556ba0548a1c813223338fad00b60947839571624", "t": "search()", "n": 107, "laws": 0, "ts": "2026-08-01 06:11 UTC"}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/badge", "sha": "6820fb2b4250748b013e3ceca586996bd632989f2b8b8d969e159f71b09bdd0a", "t": "badge", "n": 427, "laws": 1, "ts": "2026-08-01 18:10 UTC"}
+{"id": "/documentation/swiftui/textformattingcommands", "sha": "7c4b2c0980d5a67d6b78cceecd021e182cfbd1e4c1ace40a4bfd70a8725471fb", "t": "TextFormattingCommands", "n": 244, "laws": 0, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/immersivespacecontentbuilder/buildblock(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:)", "n": 0, "laws": 0, "ts": "2026-08-01 18:32 UTC"}
+{"id": "/documentation/swiftui/geometryproxy/concentriccornerradii(in:)", "sha": "cd5ded1f588cd37595e225c7b80c157757c485691927f2fe4b250f58d000c064", "t": "concentricCornerRadii(in:)", "n": 701, "laws": 1, "ts": "2026-08-01 18:36 UTC"}

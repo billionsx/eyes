@@ -113,3 +113,6 @@
 {"id": "/documentation/uikit/uiresponderstandardeditactions/toggleunderline(_:)", "sha": "7e678d4de5ec2ca32a3b08e51e9ca0d2284b4a7717fc0f1359a6aafdfde996be", "t": "toggleUnderline(_:)", "n": 163, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
 {"id": "/documentation/uikit/uitextinputtraits/smartdashestype", "sha": "923c1ad456f7e99d890cff7ad074c27989049a3966cb5b799dbc65045fc93758", "t": "smartDashesType", "n": 293, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
 {"id": "/documentation/uikit/nsunderlinepatterndashdot", "sha": "ef85f4cf81ab741c76270b344730a64ada04ffc89f0ebfcb601acd9a80313ec2", "t": "NSUnderlinePatternDashDot", "n": 38, "laws": 0, "ts": "2026-08-01 06:09 UTC"}
+{"id": "/documentation/swiftui/toolbartitlemenu", "sha": "19d04acd98fcfa63083d2794ff0d834981e25cff49089a4a1295d3098e96488b", "t": "ToolbarTitleMenu", "n": 487, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/SwiftUI/View/previewContext(_:)", "sha": "7f952e0bc53eed805eb5a2c81338833a83b61802250e53dc41c066fe0b8f9abf", "t": "previewContext(_:)", "n": 35, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
+{"id": "/documentation/swiftui/appstorage/init(_:store:)-6aj8x", "sha": "a5428876d0d5e7f347c51a1efb06f9c468d7edcf52652a787bdceccd1da64775", "t": "init(_:store:)", "n": 203, "laws": 0, "ts": "2026-08-01 18:34 UTC"}

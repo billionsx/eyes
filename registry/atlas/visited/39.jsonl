@@ -109,3 +109,8 @@
 {"id": "/documentation/uikit/uititlebar/toolbarstyle", "sha": "ea328965123d285ee8798252f565709e92d40d72db55fe5f67f5777437aa74d6", "t": "toolbarStyle", "n": 127, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
 {"id": "/documentation/uikit/uititlebartitlevisibility", "sha": "aa50a8c8ae8e37e755961646b2053a3cab0cf881fa1f11308b2428b642c59e3a", "t": "UITitlebarTitleVisibility", "n": 186, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
 {"id": "/documentation/uikit/uitextinputtraits/conversationcontext", "sha": "7a494c9007b21a8eea0224150c72325a3e0e55fe06973bcca98ad5557da1a41f", "t": "conversationContext", "n": 352, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
+{"id": "/documentation/photosui/phprojectcategory/walldecor", "sha": "c35b41f10ec9c987e258a214f5d62b763ec0bf1544fc99799aa59d7e54a59baf", "t": "wallDecor", "n": 36, "laws": 0, "ts": "2026-08-01 18:14 UTC"}
+{"id": "/documentation/swiftui/pickerstyle/navigationlink", "sha": "d7e42f4e6fb77f85f701e3f79777484c2d2a810fa2b437543c0bf7a500965b76", "t": "navigationLink", "n": 394, "laws": 1, "ts": "2026-08-01 18:25 UTC"}
+{"id": "/documentation/swiftui/view/chartforegroundstylescale(_:)", "sha": "198d275f95655d8b2d0a43f2d9d7b034cdcdcc185021a7ff3f56cff100d844c1", "t": "chartForegroundStyleScale(_:)", "n": 49, "laws": 0, "ts": "2026-08-01 18:32 UTC"}
+{"id": "/documentation/swiftui/draggesture/value/predictedendtranslation", "sha": "e6429d3bfbba914b922f4d997470a3eb54749afa5ec66b59ae97c978a29b47fc", "t": "predictedEndTranslation", "n": 112, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/hovereffectcontent/scaleeffect(x:y:anchor:)", "sha": "9e13617f53ea4f25f91990d5d1531211b97dac26fa1779523d9c83f899402ae0", "t": "scaleEffect(x:y:anchor:)", "n": 174, "laws": 0, "ts": "2026-08-01 18:37 UTC"}

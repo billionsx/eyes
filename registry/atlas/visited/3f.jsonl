@@ -112,3 +112,6 @@
 {"id": "/documentation/uikit/axvoidreturnblock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AXVoidReturnBlock", "n": 0, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
 {"id": "/documentation/uikit/uitraitforcetouchcapability-swift.struct", "sha": "814495f64a7ac8c36564dd8b274d9bcf68c8e8d25e0bb1c8d7edc51fe2ed1a8d", "t": "UITraitForceTouchCapability", "n": 58, "laws": 0, "ts": "2026-08-01 05:52 UTC"}
 {"id": "/documentation/uikit/uitextinputtraits/allowsnumberpadpopover", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "allowsNumberPadPopover", "n": 0, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
+{"id": "/documentation/AppTrackingTransparency/ATTrackingManager/trackingAuthorizationStatus", "sha": "e66a580901aab00687150ef37cad114d81f82a6d14d00bdfbe2813199c46831a", "t": "trackingAuthorizationStatus", "n": 553, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
+{"id": "/documentation/swiftui/color/indigo", "sha": "91f1b9352d23e7bfe184d01f2929553c79294a89364cb20f5f374113f2a84c90", "t": "indigo", "n": 65, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/SwiftUI/WidgetConfiguration/configurationDisplayName(_:)-2c3zv", "sha": "669af343394aaf5e63a9701255a74bfb628e6a894c0397ac0d498f3ce8fe8e8b", "t": "configurationDisplayName(_:)", "n": 177, "laws": 0, "ts": "2026-08-01 18:30 UTC"}

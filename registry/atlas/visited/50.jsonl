@@ -130,3 +130,6 @@
 {"id": "/documentation/uikit/motion-effects", "sha": "1b45e3255c152a3371a37c99d35288e43e42292fb021d98f0bfc47ec21e6e4c5", "t": "Motion effects", "n": 167, "laws": 0, "ts": "2026-08-01 05:43 UTC"}
 {"id": "/documentation/uikit/uitraituserinterfaceidiom-c.class", "sha": "21aa41d875b41291e3901d56c3b7c3c15fc8207874ebb099df18521bda99785b", "t": "UITraitUserInterfaceIdiom", "n": 55, "laws": 0, "ts": "2026-08-01 05:55 UTC"}
 {"id": "/documentation/uikit/nsdefaultfontexcludeddocumentattribute", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "NSDefaultFontExcludedDocumentAttribute", "n": 0, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
+{"id": "/documentation/swiftui/radiogrouppickerstyle", "sha": "df32cc5024c571c09a8ad793d15a554b0589561fad6d45006cb01d77a9ffa891", "t": "RadioGroupPickerStyle", "n": 160, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
+{"id": "/documentation/swiftui/searchfieldplacement/toolbarprincipal", "sha": "2307f4752739cd21fd236465ba54bdabac0686bbb0e20257d87eb71bb4c5699e", "t": "toolbarPrincipal", "n": 105, "laws": 0, "ts": "2026-08-01 18:37 UTC"}
+{"id": "/documentation/swiftui/text/truncationmode/middle", "sha": "e1c114571e2a9b33a1e42eaa3a2fee44fc661d85113b745d103b06bc84157d69", "t": "Text.TruncationMode.middle", "n": 192, "laws": 0, "ts": "2026-08-01 18:39 UTC"}

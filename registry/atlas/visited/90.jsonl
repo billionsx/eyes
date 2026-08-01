@@ -116,3 +116,8 @@
 {"id": "/documentation/uikit/uikeyboardappearance/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
 {"id": "/documentation/uikit/nspapermargindocumentattribute", "sha": "26ace16cca42052d7304b8b151c8aac806cfc7d54c0cb37e47299cca60369f23", "t": "NSPaperMarginDocumentAttribute", "n": 152, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
 {"id": "/documentation/uikit/uicontentunavailabletextproperties", "sha": "70b0c109d79ff571b67a23fb67249ce5eedef09507522c3a6901aa31bdddf69d", "t": "UIContentUnavailableTextProperties", "n": 227, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
+{"id": "/documentation/usernotifications/unerrordomain", "sha": "952f6923f250647303346b4983d0adadb602340d4254844972dc7397631ca319", "t": "UNErrorDomain", "n": 35, "laws": 0, "ts": "2026-08-01 18:09 UTC"}
+{"id": "/documentation/swiftui/view/redacted(reason:)", "sha": "e01237298ffa61b8dfc37195616f263dac08bcada53ee17a3b71bc15de6b7740", "t": "redacted(reason:)", "n": 191, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/swiftui/color/cgcolor", "sha": "63f6abfce123a53293ade6fe618d9d6d34489e55127b3779a62803bc4a2302c5", "t": "cgColor", "n": 449, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/palettepickerstyle", "sha": "5de9406152aebc0e313edcdb36f9c2da88dd0a1a874c060a2adcdef9ba990e28", "t": "PalettePickerStyle", "n": 161, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
+{"id": "/documentation/swiftui/animation/systemoverlaydisappearancedelay", "sha": "eaa9308a71e56f738933db20d14774ca89660ade07b2b3f160316052723e649d", "t": "systemOverlayDisappearanceDelay", "n": 70, "laws": 0, "ts": "2026-08-01 18:36 UTC"}

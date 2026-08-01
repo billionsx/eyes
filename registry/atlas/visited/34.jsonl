@@ -111,3 +111,5 @@
 {"id": "/documentation/uikit/uiwindowscene/geometrypreferences/mac/init(systemframe:)", "sha": "39654ec5054ada8197d411e45975fbcfc50529e9249f5378a6306550886fa597", "t": "init(systemFrame:)", "n": 91, "laws": 0, "ts": "2026-08-01 05:56 UTC"}
 {"id": "/documentation/uikit/uilocalnotification/firedate", "sha": "96eb7dbe179165273330f2dab255bfa3e16feeeb63342422186a188c0fbce74a", "t": "fireDate", "n": 433, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
 {"id": "/documentation/uikit/uikeyboardtype/numberpad", "sha": "3250b9a9a0e1078f5aaf304e5c78a754996c632c4b97c609d4eaefbb3fb1bf0f", "t": "UIKeyboardType.numberPad", "n": 174, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/usernotifications/unnotificationresponse/actionidentifier", "sha": "bb8384f0cf0e3217f366cda9f047eff3f8e72b8c63661dac7ab94899dccc4550", "t": "actionIdentifier", "n": 391, "laws": 0, "ts": "2026-08-01 18:09 UTC"}
+{"id": "/documentation/swiftui/progressiveimmersionaspectratio/automatic", "sha": "256c27593ae81927cc6c09d70d455585df4869060428b321e96582b7f8f3d27d", "t": "automatic", "n": 53, "laws": 0, "ts": "2026-08-01 18:32 UTC"}

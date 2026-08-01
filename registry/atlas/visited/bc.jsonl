@@ -128,3 +128,5 @@
 {"id": "/documentation/uikit/uicontrol/event/touchupoutside", "sha": "edf46acece702808dca298e9bd239cb642f7ec49f3fb20949be6bfc2490bb57b", "t": "touchUpOutside", "n": 86, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/flightnumber", "sha": "c70d11b024b81a775ee38f75e0736c19ef9004aa4325abb0772eb927c1ccaa4a", "t": "flightNumber", "n": 85, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/uitextspellcheckingtype", "sha": "3dc7064b0ca08ea7b66307b0a583df408ae4ffe406238d5890d06e55999bb3ab", "t": "UITextSpellCheckingType", "n": 236, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
+{"id": "/documentation/swiftui/animation/base", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "base", "n": 0, "laws": 0, "ts": "2026-08-01 18:35 UTC"}
+{"id": "/documentation/swiftui/customhovereffect/body", "sha": "134aa9fac5a85e5bdc5a94ece200a57d9aca6c1f05ca19d0db0d188d60673109", "t": "Body", "n": 161, "laws": 0, "ts": "2026-08-01 18:36 UTC"}

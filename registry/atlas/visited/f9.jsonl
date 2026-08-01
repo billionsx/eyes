@@ -111,3 +111,6 @@
 {"id": "/documentation/uikit/uifieldbehavior/falloff", "sha": "266e4436d60cc538ef3e880313ff1c61f896f565feb247f9603843b36bed4aeb", "t": "falloff", "n": 378, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
 {"id": "/documentation/uikit/uilocalnotification/repeatcalendar", "sha": "575cde2f8646e9311dde1c62e65d92ab9824b1208a80a389c88181e752b659de", "t": "repeatCalendar", "n": 243, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
 {"id": "/documentation/uikit/nsunderlinestyle/nsunderlinestylenone", "sha": "95474d46d08f7afcf66940ff27c8dc7189e253d55720e1320c34f3299d10a250", "t": "NSUnderlineStyleNone", "n": 18, "laws": 0, "ts": "2026-08-01 06:09 UTC"}
+{"id": "/documentation/usernotifications/unnotificationinterruptionlevel/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
+{"id": "/documentation/swiftui/opensettingsaction", "sha": "360794b02d597a57724b994d987e9e4e1c429fe5beef975c54cb319808be1a17", "t": "OpenSettingsAction", "n": 416, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
+{"id": "/documentation/swiftui/lazyhstack/init(alignment:spacing:pinnedviews:content:)", "sha": "392253b463db7e9427b19d17c78b34382a5de1aee59a272cebe7523038bb2cac", "t": "init(alignment:spacing:pinnedViews:content:)", "n": 111, "laws": 0, "ts": "2026-08-01 18:28 UTC"}

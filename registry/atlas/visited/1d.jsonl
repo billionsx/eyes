@@ -116,3 +116,7 @@
 {"id": "/documentation/uikit/uiapplicationcategorydefaultstatus/uiapplicationcategorydefaultstatusisdefault", "sha": "abf0cb0e765bbc09bd8b248558fe87c99a0867258a2c855e7def024c9844aa01", "t": "UIApplicationCategoryDefaultStatusIsDefault", "n": 48, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
 {"id": "/documentation/uikit/uiwebview/pagelength", "sha": "fad02949fb3ed848607550c0480a52d357cad21fb01d254ee7854ebec9136728", "t": "pageLength", "n": 437, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
 {"id": "/documentation/uikit/uiviewcontroller/transition/partialcurl", "sha": "c3aef0c9ed7bfc5157e079555ce7e6ca5509d56af16f107de7f80213d499a488", "t": "partialCurl", "n": 94, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
+{"id": "/documentation/swiftui/view/alert(_:ispresented:presenting:actions:)", "sha": "4f1f0cef396dbf62b5b798b21548ebd632ecdf0c4a253dc23e312c54ee70b1cf", "t": "alert(_:isPresented:presenting:actions:)", "n": 1198, "laws": 3, "ts": "2026-08-01 18:17 UTC"}
+{"id": "/documentation/swiftui/color/==(_:_:)", "sha": "7d6047d04200f49e6ec77fea9c75c23c1017703506bcf90fd8f63040eedfbdd2", "t": "==(_:_:)", "n": 108, "laws": 0, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/nsviewcontrollerrepresentable/context", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "NSViewControllerRepresentable.Context", "n": 0, "laws": 0, "ts": "2026-08-01 18:33 UTC"}
+{"id": "/documentation/swiftui/gesturemask/all", "sha": "90457a6144c621153c13647ebca22d7c171cdb89c889df10d3ed919b6687fd71", "t": "all", "n": 89, "laws": 0, "ts": "2026-08-01 18:35 UTC"}

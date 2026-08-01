@@ -122,3 +122,11 @@
 {"id": "/documentation/uikit/uitraitdefinition-64c15", "sha": "b087939bbe02924a4adf1c75b277a2d1bfd3190f6d235d4187fad3ef1c293856", "t": "UITraitDefinition", "n": 1937, "laws": 1, "ts": "2026-08-01 05:46 UTC"}
 {"id": "/documentation/uikit/uitrait-1dbah", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UITrait", "n": 0, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
 {"id": "/documentation/uikit/uiapplication/launchoptionskey/useractivitydictionary", "sha": "de088931dd9e4daa7c95e51421c6a628429a1e32f9772535d940a10b11e7d0b3", "t": "userActivityDictionary", "n": 216, "laws": 0, "ts": "2026-08-01 06:01 UTC"}
+{"id": "/documentation/swiftui/view/managedcontentstyle(_:)", "sha": "fd8f5023c1692f03592a39c9ee29822146b02e4e9aa365627236bb35be09c1a9", "t": "managedContentStyle(_:)", "n": 77, "laws": 0, "ts": "2026-08-01 18:20 UTC"}
+{"id": "/documentation/swiftui/toolbarminimizationsafeareaadjustment", "sha": "49e5d4580eb59ef77a9f2b49a8070191117362e398c0865747cc6e9a8c3f8128", "t": "ToolbarMinimizationSafeAreaAdjustment", "n": 393, "laws": 1, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/swiftui/color/hash(into:)", "sha": "de1029c97253625318a28217d552a320bc8a3f80d29817a8140ee60df4723b16", "t": "hash(into:)", "n": 90, "laws": 0, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/picker/init(_:selection:content:)-5njtq", "sha": "7e966ba77f2169cb32a2f4bcf06f9d93ee288dca2f9ce7a7223446c1036bec00", "t": "init(_:selection:content:)", "n": 169, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
+{"id": "/documentation/swiftui/slidertick/init(_:label:)", "sha": "c1a7226ade348bbc65933c82b3f124e7ac48c5294989a1689399c853e39b045f", "t": "init(_:label:)", "n": 49, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
+{"id": "/documentation/SwiftUI/EnvironmentValues/openURL", "sha": "da508a7c99367ec1e25112cbdedbd9a88c1c2a34ac08a4bcb6efb7434f6ef14b", "t": "openURL", "n": 1499, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/SwiftUI/View/draggable(_:)", "sha": "555d9cd8dc7f606c4fa3347a07bd0ff8022dfd558c246941372d73eaf2fa6373", "t": "draggable(_:)", "n": 535, "laws": 1, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/swiftui/text/datestyle/date", "sha": "78e932a3d47c2582e28898ef9af3f0a5f709c3c14582d0d6e42e8ab229d8730a", "t": "date", "n": 69, "laws": 0, "ts": "2026-08-01 18:38 UTC"}

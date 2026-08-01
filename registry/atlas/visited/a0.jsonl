@@ -110,3 +110,5 @@
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/newitem", "sha": "5c89fe5c80dc0142f5189b44aef50fe1df5afec54c8063a684854e681d4c4817", "t": "newItem", "n": 13, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
 {"id": "/documentation/uikit/uiscreen/applicationframe", "sha": "dcc363ddcf03249173212e49676a635760112ebf0dbd1096adbfeec825079d7f", "t": "applicationFrame", "n": 453, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
 {"id": "/documentation/uikit/uicontentunavailableconfiguration-swift.struct/texttosecondarytextpadding", "sha": "ae229cf24b2a2d31d558477554ca2ba17ca9cc3b618b62d16e4f5ce9d27b8690", "t": "textToSecondaryTextPadding", "n": 51, "laws": 0, "ts": "2026-08-01 06:11 UTC"}
+{"id": "/documentation/swiftui/view/imageplaygroundgenerationstyle(_:in:)", "sha": "6c089543a2ab632c8ee59b9a6b072cdef46e24d170343b950c8387074fe3982e", "t": "imagePlaygroundGenerationStyle(_:in:)", "n": 415, "laws": 1, "ts": "2026-08-01 18:20 UTC"}
+{"id": "/documentation/SwiftUI/View/transition(_:)-2vjb8", "sha": "2a5bec293693ad29ff22509b56076dac24fa9150c6d21024c900c53c1f861c5e", "t": "transition(_:)", "n": 316, "laws": 1, "ts": "2026-08-01 18:30 UTC"}

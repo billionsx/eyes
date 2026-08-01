@@ -118,3 +118,7 @@
 {"id": "/documentation/uikit/uiletterformawaresizingrule", "sha": "9eafebeecef6d9b051f4cee6e00b723e0230ba35eb856e15aecea9a1d176cf11", "t": "UILetterformAwareSizingRule", "n": 331, "laws": 0, "ts": "2026-08-01 05:52 UTC"}
 {"id": "/documentation/uikit/uitextinput/textrange(from:to:)", "sha": "46cbae46d93a5566e6ac341007ccccb7ce3a60c91bee4e3cdc76f483a9695c29", "t": "textRange(from:to:)", "n": 111, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/newpassword", "sha": "b14082999642ce54a447d08eeb5cac9fa876d73d2d32082503d0cea865825fbf", "t": "newPassword", "n": 75, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/photosui/phpickerviewcontroller/init(configuration:)", "sha": "bb71aa41c7799c732fbfbe969b7da57dcb748cb212b75760dd63de3eed45084c", "t": "init(configuration:)", "n": 72, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/view/scenepadding(_:edges:)", "sha": "4987222357b964bf874cfe2e71498280a07eec118e06a2be2f1a5c6902dd9ff1", "t": "scenePadding(_:edges:)", "n": 1535, "laws": 5, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/view/toolbarrole(_:)", "sha": "725f63d893541fc934776c1543915106888fbe863d6160e8768052820e4b2199", "t": "toolbarRole(_:)", "n": 247, "laws": 1, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/swiftui/color/accentcolor", "sha": "3eacff35d6a55eb4b08458674a9886595bedb98f409d54234720ea9a5157a8c1", "t": "accentColor", "n": 456, "laws": 0, "ts": "2026-08-01 18:23 UTC"}

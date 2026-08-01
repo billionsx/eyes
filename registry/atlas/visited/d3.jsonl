@@ -113,3 +113,6 @@
 {"id": "/documentation/uikit/uicontentunavailableconfiguration-c.class/image", "sha": "784c68d0415edb896efeff52df67d4ee5bfbd4b5d794056ac5626275f14624b4", "t": "image", "n": 21, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
 {"id": "/documentation/uikit/uicontentunavailableconfiguration-c.class/secondarytext", "sha": "2173aa99f5af5ccf4ccb06e6dfad8937945fbf9dbd05c715ca40f7e158b6ea04", "t": "secondaryText", "n": 30, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
 {"id": "/documentation/uikit/uicontentconfiguration-9eib5", "sha": "acef57ee2fff356f8c4b70bbaa35dad0b64787ca615036b27c2fd9fb820ab403", "t": "UIContentConfiguration", "n": 508, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
+{"id": "/documentation/swiftui/stepper/init(value:in:step:format:label:oneditingchanged:)", "sha": "ed3d89dd06c4b344a8b54d68b7ad8866165e1a0b35b6c31102c72959184883ec", "t": "init(value:in:step:format:label:onEditingChanged:)", "n": 613, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
+{"id": "/documentation/SwiftUI/TimelineView/Context", "sha": "0232fdc21e36bdae00a4680b17187f7492004fc2eba1a35e023a340cf981a5d4", "t": "TimelineView.Context", "n": 468, "laws": 1, "ts": "2026-08-01 18:29 UTC"}
+{"id": "/documentation/swiftui/hovereffect/init(_:)", "sha": "1e850a983c033f94f907af36f4c03033e2e4356b9c0d00ce17490b550e9bf15e", "t": "init(_:)", "n": 57, "laws": 0, "ts": "2026-08-01 18:36 UTC"}

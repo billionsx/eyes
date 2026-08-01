@@ -108,3 +108,6 @@
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/document", "sha": "0ec9872e15c144aa26267d73c6f9a8411eb231e1a89ab873b4a0ee897b573daa", "t": "document", "n": 18, "laws": 0, "ts": "2026-08-01 05:57 UTC"}
 {"id": "/documentation/uikit/uitextinput/endfloatingcursor()", "sha": "eae3a6219d3d4b97d3fb0b5d9d92b94025cec185db6c41c8366c48617c450e30", "t": "endFloatingCursor()", "n": 365, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
 {"id": "/documentation/uikit/uiscreen/supportsfocus", "sha": "912dbff3b817a4923bb7a60b7cf10e2c5440c52fbd1ef6430278e750dec43274", "t": "supportsFocus", "n": 78, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/photosui/phpickerconfiguration-swift.struct/selection-swift.enum", "sha": "a79f07d910bf42d8b6e1962766ba3bcfffceb1ebdfaab7ca18ecbf139480fd9d", "t": "PHPickerConfiguration.Selection", "n": 359, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/wkextensiondelegateadaptor/wrappedvalue", "sha": "ba3e3ec105922011cf516171a8c964eca8a5428296de8f5906f898aff0ee1550", "t": "wrappedValue", "n": 24, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/swiftui/localizedstringkey/init(stringliteral:)", "sha": "1bda21d25f4bcf86a99ce33a668f28018c91067f82b420cb1ae3d1116bebda5f", "t": "init(stringLiteral:)", "n": 61, "laws": 0, "ts": "2026-08-01 18:37 UTC"}

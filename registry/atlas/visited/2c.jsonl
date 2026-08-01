@@ -116,3 +116,5 @@
 {"id": "/documentation/uikit/uititlebar/representedurl", "sha": "39c595fddb04787e34ae9549a0b1eeaea3c808f9c00eb02bc846a1ec717bd7de", "t": "representedURL", "n": 638, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
 {"id": "/documentation/uikit/uiwindowscene/windowingcontrolstyle/unified", "sha": "1aadb462308d56ff8b85c3ca8293dbfa4f3a6b051d81fe4e970db50d2a5eb084", "t": "unified", "n": 61, "laws": 0, "ts": "2026-08-01 05:56 UTC"}
 {"id": "/documentation/uikit/uiwebview/suppressesincrementalrendering", "sha": "506b10ed39754f38919d04fc50fc801dc27287bec1870dbf2b0a6365ac0cd681", "t": "suppressesIncrementalRendering", "n": 498, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/summaryargumentcount", "sha": "3cd7c9a43e0d4bb1214832f5bc193afb2ed060104898e01fb9f05024e48559e3", "t": "summaryArgumentCount", "n": 103, "laws": 0, "ts": "2026-08-01 18:10 UTC"}
+{"id": "/documentation/swiftui/view/padding(_:)", "sha": "4e197daa9a110d563497f57f814211d947eb4e8d7f1e79d12925f70e7ab460ac", "t": "padding(_:)", "n": 514, "laws": 2, "ts": "2026-08-01 18:15 UTC"}

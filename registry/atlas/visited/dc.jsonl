@@ -122,3 +122,6 @@
 {"id": "/documentation/uikit/uidevice/userinterfaceidiom", "sha": "a2151e69a64b5d066114cf8288235e9d1396486c21ba0e710ffab364cd2c3e3c", "t": "userInterfaceIdiom", "n": 358, "laws": 0, "ts": "2026-08-01 05:53 UTC"}
 {"id": "/documentation/uikit/uiwindowscene/activationrequestoptions/placement", "sha": "8fc88ee72bf7b9ebe848060a7d4ab7aa3f591f548458f6bc0d1fe467cd1ddb11", "t": "placement", "n": 265, "laws": 0, "ts": "2026-08-01 05:55 UTC"}
 {"id": "/documentation/UIKit/NSTextAttachment", "sha": "7fa0e72e6e8e815c57cf9405b6ec7846646ac74ab93059a19b0c8186122d421a", "t": "NSTextAttachment", "n": 1326, "laws": 0, "ts": "2026-08-01 06:01 UTC"}
+{"id": "/documentation/photosui/photospickeritem/init(itemidentifier:)", "sha": "887dbd2ec1cf5da92e7d2c6206c2e813610f4a5bc89e88cf9f6d62dc2d87599d", "t": "init(itemIdentifier:)", "n": 86, "laws": 0, "ts": "2026-08-01 18:13 UTC"}
+{"id": "/documentation/swiftui/colorschemecontrast", "sha": "47330107fb95907fedac8912d6b67f9befc108426500d291c9b72b4ad7323e98", "t": "ColorSchemeContrast", "n": 898, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
+{"id": "/documentation/swiftui/color/yellow", "sha": "746c3934dcca3df689c35dd00cccd55c03a68f666cad07f137c6c11b03e664f8", "t": "yellow", "n": 65, "laws": 1, "ts": "2026-08-01 18:23 UTC"}

@@ -103,3 +103,9 @@
 {"id": "/documentation/uikit/uireturnkeytype/go", "sha": "17435a13ea3e6e41b10c1ab07e17b93fb897ade16f3503988938fd8381596ca2", "t": "UIReturnKeyType.go", "n": 64, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/creditcardexpirationmonth", "sha": "92dc0a3b22e24d0c492cd939c89da36c407c3ccbf31591d540012cdbde88e160", "t": "creditCardExpirationMonth", "n": 119, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/nsviewmodedocumentattribute", "sha": "461df72e5f7a4d0a52bf738601cb51d2dd76cc3dbcb5ad54e3338361c03938e6", "t": "NSViewModeDocumentAttribute", "n": 231, "laws": 1, "ts": "2026-08-01 06:08 UTC"}
+{"id": "/documentation/photosui/phpickerfilter-swift.struct/images", "sha": "dc557f563f48307bc1cc384a182d270524452631cf9db8ceac6d8f9dfc8867c0", "t": "images", "n": 22, "laws": 0, "ts": "2026-08-01 18:13 UTC"}
+{"id": "/documentation/swiftui/color/purple", "sha": "cb883c1cdb727abd4e02b0dd1836513a93977c5cd1a3cd71b7b0aeb016a7d22d", "t": "purple", "n": 65, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/volumetricwindowstyle/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
+{"id": "/documentation/swiftui/stepper/init(_:value:step:oneditingchanged:)", "sha": "a3cd469b60d664e5a1a64d4cb8cf106e98b284557ae6fa5b9f3f7be99b81b284", "t": "init(_:value:step:onEditingChanged:)", "n": 440, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
+{"id": "/documentation/SwiftUI/Text/fontWeight(_:)", "sha": "dea837c0ccccc1688e1784991f25463db982fd2fd33350b924b937f738788978", "t": "fontWeight(_:)", "n": 93, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/text/case/uppercase", "sha": "ef27e07b6b4ae39f000c318382251b2d5513de87a25fbdacc6c86ad010000a27", "t": "Text.Case.uppercase", "n": 108, "laws": 0, "ts": "2026-08-01 18:38 UTC"}

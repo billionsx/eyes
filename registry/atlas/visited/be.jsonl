@@ -127,3 +127,6 @@
 {"id": "/documentation/uikit/uiwebview/pagecount", "sha": "5382b9c0a7ee6d431e10f67218154600eb361307a4847ab4f848a6ba6b955769", "t": "pageCount", "n": 59, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
 {"id": "/documentation/uikit/uiactivityviewcontroller/collaborationmoderestriction", "sha": "6c51441ed6785568265f86c82f3bbc363b81d1e81ba20ba07528367cc61ecde3", "t": "UIActivityViewController.CollaborationModeRestriction", "n": 750, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
 {"id": "/documentation/uikit/uikeyboardtype/websearch", "sha": "73d4473b6b2bf100de7d9bad14fcf5e1dc57bd4852e8028bce01d0381444c158", "t": "UIKeyboardType.webSearch", "n": 149, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/tvservices/tvusermanager/shouldstorepreferenceforcurrentuser(to:completion:)", "sha": "fb2bb0e6fb6b7d2140e2ade1218dd2e902a13025ed1ac0f2779fa6279c538183", "t": "shouldStorePreferenceForCurrentUser(to:completion:)", "n": 615, "laws": 0, "ts": "2026-08-01 18:13 UTC"}
+{"id": "/documentation/swiftui/color/blue", "sha": "d47347ed2945e9de9adad6c3af009be064b294c89267bc8ac16449520bd5add6", "t": "blue", "n": 63, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/appstorage/init(_:store:)-x2f0", "sha": "447871f9971a8aa7509bf482d9b30e6b20147ba11da948ee2b41a09c75514fa3", "t": "init(_:store:)", "n": 133, "laws": 0, "ts": "2026-08-01 18:34 UTC"}

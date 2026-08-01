@@ -119,3 +119,7 @@
 {"id": "/documentation/uikit/uiactivityitemsconfiguration/activityitemsconfigurationwithobjects:", "sha": "f35f03c24cb8c2a6934ae999da838e49d7b7ab3b36c24fb16d58af6da1cb28cd", "t": "activityItemsConfigurationWithObjects:", "n": 67, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/datetime", "sha": "ecf70cb4b5264a220185bb48226443ed3505f91a195acc2d8728c6a8c7892d18", "t": "dateTime", "n": 86, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/uitextcontenttype/familyname", "sha": "c9c84e40cea0011a885e6ff765c5127e3c4bc1a93cde685dd42d0f9df23c9b57", "t": "familyName", "n": 88, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/swiftui/view/menuactiondismissbehavior(_:)", "sha": "cf3236a6b367dfac244f051d1b2193eed97eaa9c44c2fa82289b5b99de2cb750", "t": "menuActionDismissBehavior(_:)", "n": 674, "laws": 3, "ts": "2026-08-01 18:17 UTC"}
+{"id": "/documentation/SwiftUI/ToggleStyleConfiguration/isOn", "sha": "86d3a59334ae8abb79095caa66d265aa32c1f3f50a1340b98a3e33d3ccd7cef2", "t": "isOn", "n": 540, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/swiftui/draggesture/value/predictedendlocation", "sha": "88b916aacf713b3ba89e9482f22cc10708db3bc5357bf24f9607d4cfd33b035a", "t": "predictedEndLocation", "n": 110, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/animation/animate(value:time:context:)", "sha": "577b554e5f4d3967c65f795d0ed8903388ad9df81296e6a3d7544887b07de9fb", "t": "animate(value:time:context:)", "n": 132, "laws": 0, "ts": "2026-08-01 18:35 UTC"}

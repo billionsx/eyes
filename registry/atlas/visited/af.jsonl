@@ -138,3 +138,6 @@
 {"id": "/documentation/uikit/uiscreen/referencedisplaymodestatus-swift.enum/limited", "sha": "53942c1cd8afb07c07c5c0474ce043e2b1798f76763cab16a1fe1bac17736be5", "t": "UIScreen.ReferenceDisplayModeStatus.limited", "n": 195, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
 {"id": "/documentation/uikit/uitextinputpasswordrules", "sha": "57c03bf4d88e83eed3e1dfa7e41a6f3efa3753202727319eff8f851cf8a1d0d9", "t": "UITextInputPasswordRules", "n": 184, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
 {"id": "/documentation/uikit/uidocumentpickerextensionviewcontroller/originalurl", "sha": "2c7d965c02de6a1673bc6266afc6d52cea56fddaf8576d225288f1845222f30e", "t": "originalURL", "n": 196, "laws": 0, "ts": "2026-08-01 06:11 UTC"}
+{"id": "/documentation/photosui/phpickerfilter-swift.struct/videos", "sha": "e78a3a196660e0513d9917d399f8e13eb9f94622476f6cac2d2ed91c56eb1973", "t": "videos", "n": 22, "laws": 0, "ts": "2026-08-01 18:14 UTC"}
+{"id": "/documentation/photosui/phpickerconfiguration-swift.struct/init()", "sha": "cf156939e286065387e724856651fbab533b82c916af596f73426a9350599001", "t": "init()", "n": 169, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/color/cyan", "sha": "4ee331a2344801529ab22a27d660a6ea6b5485b7b6854cc6c3ee247954f435a3", "t": "cyan", "n": 63, "laws": 1, "ts": "2026-08-01 18:23 UTC"}

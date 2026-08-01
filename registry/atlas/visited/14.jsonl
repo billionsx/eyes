@@ -118,3 +118,6 @@
 {"id": "/documentation/uikit/uiletterformawaresizingrule/typographic", "sha": "fedbbe614129e9de7f712b773854af6a62e806b072e6b5b6d39ac10b7ef6d489", "t": "UILetterformAwareSizingRule.typographic", "n": 80, "laws": 0, "ts": "2026-08-01 05:52 UTC"}
 {"id": "/documentation/uikit/uidevice/playinputclick()", "sha": "a43515d4c4a9dd852cecea5c7f4b1353553f402d58a59b890bdbd5382da7ccc7", "t": "playInputClick()", "n": 543, "laws": 0, "ts": "2026-08-01 05:57 UTC"}
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/quit", "sha": "f8fc4366a1341b0da36649dfcd9c5f65ee31b7971b75eabf36adff72fa745ad6", "t": "quit", "n": 14, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/usernotifications/unnotificationactionoptions/destructive", "sha": "ae5122f28f32e0c53af029694aa1f8f7e61a50b2eb21072451acef431ede7db6", "t": "destructive", "n": 240, "laws": 0, "ts": "2026-08-01 18:10 UTC"}
+{"id": "/documentation/photosui/phpickerconfiguration-swift.struct/disabledcapabilities", "sha": "5c9fab6fead7d13a73b99a738d9bc01642e8476c0b96da05bdc8a23fd91dcc5c", "t": "disabledCapabilities", "n": 77, "laws": 0, "ts": "2026-08-01 18:14 UTC"}
+{"id": "/documentation/swiftui/animation/easeout(duration:)", "sha": "ff93c1624bb70124dbf80a49b4c0bf0e4e0be637002bf46479403cfbfc505d31", "t": "easeOut(duration:)", "n": 727, "laws": 2, "ts": "2026-08-01 18:35 UTC"}

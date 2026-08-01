@@ -121,3 +121,6 @@
 {"id": "/documentation/UIKit/UIEdgeInsets", "sha": "56525b9401aa1138881474ddf27062aef90521346583cdc404995ad853956d20", "t": "UIEdgeInsets", "n": 726, "laws": 0, "ts": "2026-08-01 05:53 UTC"}
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/about", "sha": "acf0d5cc3425739f46626ae1768ecaec115754774896508837609d565b1ccaaa", "t": "about", "n": 15, "laws": 0, "ts": "2026-08-01 05:57 UTC"}
 {"id": "/documentation/uikit/uiapplication/launchoptionskey/useractivitytype", "sha": "672c65da7bf9bcfc520acebc29e158641a795b9cd6837a89c8315cea12e50614", "t": "userActivityType", "n": 217, "laws": 0, "ts": "2026-08-01 06:01 UTC"}
+{"id": "/documentation/photosui/phpickerconfiguration-swift.struct/selection-swift.property", "sha": "81aebfaf1655893cb4b66c407c8d2741bb9498b73e709272e5e33df72c3fac98", "t": "selection", "n": 38, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/customhovereffect/hovereffectdisabled(_:)", "sha": "b36887b622c1ef5e76ad989723b839eea510e4917e916770d732acb0852943ef", "t": "hoverEffectDisabled(_:)", "n": 324, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/swiftui/searchsuggestionsplacement/content", "sha": "117c50cf44aad9d5d3a3d5de5e384327d7c7aca337136d783bba72178ecd8fbd", "t": "content", "n": 57, "laws": 0, "ts": "2026-08-01 18:37 UTC"}

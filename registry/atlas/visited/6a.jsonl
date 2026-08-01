@@ -98,3 +98,7 @@
 {"id": "/documentation/uikit/uiresponder/textinputcontextidentifier", "sha": "b8b52e41b68f1bec6132705b8f320986676366526bc43b5f879a0df1e548e3eb", "t": "textInputContextIdentifier", "n": 371, "laws": 0, "ts": "2026-08-01 05:45 UTC"}
 {"id": "/documentation/uikit/uitextinput/offset(from:to:)", "sha": "b6623655a69c4010ae58d87bd0ff871fe15c445e4cb6a8bc0795ee5d8e0a4650", "t": "offset(from:to:)", "n": 154, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
 {"id": "/documentation/uikit/uisnapbehavior/snappoint", "sha": "fd2d99cbd4fa695d0a39cabecbb8ae0c2cf7fe2f901e5d69a26bde979fa9a057", "t": "snapPoint", "n": 337, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/usernotifications/unmutablenotificationcontent/relevancescore", "sha": "d8ff60ab619a11b1c78ade3cb7d3d0e889f47fb6021eb368bd1860d9a7a3fe1f", "t": "relevanceScore", "n": 258, "laws": 0, "ts": "2026-08-01 18:10 UTC"}
+{"id": "/documentation/usernotifications/unnotification/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-08-01 18:10 UTC"}
+{"id": "/documentation/photosui/phprojectextensioncontext/showeditor(for:)", "sha": "6f37b0131b05b9d0b2e2e359d1b2da4c21c06cc52585912447b4eb8c4d06abb5", "t": "showEditor(for:)", "n": 182, "laws": 0, "ts": "2026-08-01 18:14 UTC"}
+{"id": "/documentation/SwiftUI/EnvironmentValues/isActivityFullscreen", "sha": "05bc4c925b66b94dfd1ecbb00727013d89a22f5066cfcbb999f7deebc5654fcc", "t": "isActivityFullscreen", "n": 303, "laws": 0, "ts": "2026-08-01 18:27 UTC"}

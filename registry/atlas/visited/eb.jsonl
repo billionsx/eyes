@@ -116,3 +116,6 @@
 {"id": "/documentation/uikit/uilocalnotification/userinfo", "sha": "1d8937d23e2e626b9edba8e469352d9faecf20535a2bb4dce0f36ddb05c40e3d", "t": "userInfo", "n": 221, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
 {"id": "/documentation/uikit/uitextsmartdashestype", "sha": "bacbfbcb4eae9de3750e3b726924bd5ffbe879acf4ec0be963b0e6fd2b3216b8", "t": "UITextSmartDashesType", "n": 223, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
 {"id": "/documentation/uikit/nswritingdirectionformattype/embedding", "sha": "745da5be8b233d9e41a498238efaa4aa626e531bfd2c3f9743245c65b2988652", "t": "NSWritingDirectionFormatType.embedding", "n": 180, "laws": 0, "ts": "2026-08-01 06:09 UTC"}
+{"id": "/documentation/usernotifications/unnotificationattachment/type", "sha": "d50fd5fe9ce369708fd13caca6ae16c197f420344a62757d91d4c17216f2925f", "t": "type", "n": 117, "laws": 0, "ts": "2026-08-01 18:11 UTC"}
+{"id": "/documentation/swiftui/presentationsizing", "sha": "f821fc5bbdf535c6a4c230fb29cb70a5f384d70fb9d1624804cc02f2dda7da61", "t": "PresentationSizing", "n": 900, "laws": 0, "ts": "2026-08-01 18:17 UTC"}
+{"id": "/documentation/swiftui/searchscopeactivation/onsearchpresentation", "sha": "ee681374237847fdb2c2f442c82ae7591c14acaecbb43501696beef895252645", "t": "onSearchPresentation", "n": 125, "laws": 0, "ts": "2026-08-01 18:25 UTC"}

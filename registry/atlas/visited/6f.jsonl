@@ -120,3 +120,4 @@
 {"id": "/documentation/uikit/uitextinput/setbasewritingdirection(_:for:)", "sha": "2ac26dffb20b9fb6b4c34f782bbeb74d2a1fc36d56b77f234eb61a9f37d9add9", "t": "setBaseWritingDirection(_:for:)", "n": 76, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
 {"id": "/documentation/uikit/uipushbehavior/items", "sha": "7da05ff9aae48739c315d83b72f12eb26a5e336c45431f592c7d0f5eb8ea552e", "t": "items", "n": 67, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
 {"id": "/documentation/uikit/uiscreen/modedidchangemessage/init(screen:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(screen:)", "n": 0, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/swiftui/view/webviewscrollposition(_:)", "sha": "cd7c7732a4fbec68f1a22872b99e51cb7c700c0bc7e37417177faeb74c1d27ef", "t": "webViewScrollPosition(_:)", "n": 193, "laws": 0, "ts": "2026-08-01 18:21 UTC"}

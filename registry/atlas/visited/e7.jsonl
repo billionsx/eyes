@@ -127,3 +127,7 @@
 {"id": "/documentation/uikit/uiscenewindowingbehaviors/isclosable", "sha": "71109ba2668ff95999d1f3258ff273e78903010046bbc5b41852b80ecd2f8c51", "t": "isClosable", "n": 75, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/textstyle", "sha": "1f07fa077d01a7eeb7b99608a8dbe68fe97d31f7d6a38fcfdc68077db9bbea12", "t": "textStyle", "n": 20, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
 {"id": "/documentation/uikit/nswritingdirectionformattype/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 06:09 UTC"}
+{"id": "/documentation/usernotifications/unnotificationsoundname/init(_:)", "sha": "85b9348cc921c598f03b5900860a1747291edfbbc03f97e478b2b308d9a76b93", "t": "init(_:)", "n": 61, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
+{"id": "/documentation/swiftui/view/listrowhovereffect(_:)", "sha": "c51ccc525b9bb6055575557834ed1dd628496fec96c1ad4aa81ace56d1ffb8ce", "t": "listRowHoverEffect(_:)", "n": 668, "laws": 0, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/SwiftUI/TimelineView/Context/Cadence-swift.enum", "sha": "25d9488e8d249bab814b4405766082797c90dde0f2937cfe09a317d1ff31662b", "t": "TimelineView.Context.Cadence", "n": 628, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
+{"id": "/documentation/SwiftUI/FillStyle", "sha": "d86b2083235e48b855228772b150c487f51dffab2779189422a20f8f08240d5c", "t": "FillStyle", "n": 150, "laws": 0, "ts": "2026-08-01 18:30 UTC"}

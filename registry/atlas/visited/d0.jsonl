@@ -122,3 +122,6 @@
 {"id": "/documentation/uikit/uitextcontenttype/creditcardgivenname", "sha": "b361df6f24a25cd78a15ecd8d7d70b11d4fd30a04acde5b8a89bc05f07a254eb", "t": "creditCardGivenName", "n": 90, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/uikit/uistoryboardsegue/perform()", "sha": "68c415c7c5e364cbd0a8d27c943baaa135b3d7ac8da3832833404210ec5d1ab0", "t": "perform()", "n": 892, "laws": 2, "ts": "2026-08-01 06:08 UTC"}
 {"id": "/documentation/uikit/uicontainerbackgroundstyle/hidden", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UIContainerBackgroundStyle.hidden", "n": 0, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
+{"id": "/documentation/swiftui/view/listsectionseparatortint(_:edges:)", "sha": "b7a4944416a22a2c20958ca540abb66e967a437d118ccc5f7e211344013792e8", "t": "listSectionSeparatorTint(_:edges:)", "n": 516, "laws": 1, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/view/oninteractiveresizechange(_:)", "sha": "5aec351f4d5aeeacddd03b18524f63fba9035856421ceff1ffa4c7a7a7eed7e2", "t": "onInteractiveResizeChange(_:)", "n": 398, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
+{"id": "/documentation/swiftui/tapgesture/init(count:inputkinds:)", "sha": "6b64a4d5a8e2fadf38cbfa8ad4529958812f57e10c47e0df92d80f9cd5f507de", "t": "init(count:inputKinds:)", "n": 98, "laws": 1, "ts": "2026-08-01 18:38 UTC"}

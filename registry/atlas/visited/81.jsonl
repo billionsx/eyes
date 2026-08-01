@@ -124,3 +124,8 @@
 {"id": "/documentation/UIKit/UIAccessibility/Notification/pageScrolled", "sha": "65fdf7efd4b3535a9d223fbf1a7dfe0cea6d6219313b7e09880eeb09bf1a2f90", "t": "pageScrolled", "n": 742, "laws": 1, "ts": "2026-08-01 05:49 UTC"}
 {"id": "/documentation/uikit/axrectreturnblock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AXRectReturnBlock", "n": 0, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
 {"id": "/documentation/uikit/uipushbehavior/angle", "sha": "a8c9b2658d689027a6689a84c115289ed93b73f958dfa9f0cffdcab9f6ed5909", "t": "angle", "n": 412, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/tvservices/tvusermanager/currentuseridentifier", "sha": "1bb1e83e8a14df6002811467322c2a054ef9004ac15ea7194408254909804e09", "t": "currentUserIdentifier", "n": 748, "laws": 0, "ts": "2026-08-01 18:13 UTC"}
+{"id": "/documentation/swiftui/presentationdetent", "sha": "336401f83b127ce5df9fec0ac79e82ffb87ea05c0b2676edd83487d318e58cb4", "t": "PresentationDetent", "n": 198, "laws": 0, "ts": "2026-08-01 18:17 UTC"}
+{"id": "/documentation/swiftui/view/onpreferencechange(_:perform:)", "sha": "b2ab4919dd8f74f694917dd42b76553bdcd0c3d5becf0228560a286cb21f2e72", "t": "onPreferenceChange(_:perform:)", "n": 141, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
+{"id": "/documentation/SwiftUI/EnvironmentValues/locale", "sha": "67a1417d511444375ea50f19cdcf978d7ea2b021241544b6ebb7ded56b8f9898", "t": "locale", "n": 41, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
+{"id": "/documentation/swiftui/customhovereffect/empty", "sha": "ca1d45eff4ce3dbd9e070b85c353af68c3fabc5a2c5f0cce8ddb3d3a4c8bce93", "t": "empty", "n": 47, "laws": 0, "ts": "2026-08-01 18:36 UTC"}

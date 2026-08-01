@@ -5,8 +5,8 @@
 | Фреймворк | Законов |
 |---|---|
 | uikit | 3350 |
+| swiftui | 2378 |
 | appkit | 2365 |
-| swiftui | 2027 |
 | appintents | 1688 |
 | accelerate | 1327 |
 | human-interface-guidelines | 1021 |
@@ -17,13 +17,13 @@
 | visionos | 655 |
 | technotes | 615 |
 | swift | 610 |
-| big7 | 503 |
+| big7 | 541 |
 | arkit | 473 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
 | updates | 314 |
+| web-landings | 303 |
 | bundleresources | 290 |
-| web-landings | 264 |
 | foundationmodels | 256 |
 | appstoreconnectapi | 248 |
 | scenekit | 245 |
@@ -45,12 +45,12 @@
 | healthkit | 134 |
 | intents | 133 |
 | driverkit | 129 |
+| usernotifications | 126 |
 | networkextension | 122 |
 | swiftdata | 122 |
 | accessibility | 120 |
 | evaluations | 114 |
 | browserenginekit | 111 |
-| usernotifications | 107 |
 | virtualization | 106 |
 | watchos-apps | 106 |
 | cloudkit | 105 |
@@ -94,6 +94,7 @@
 | imageio | 44 |
 | metalperformanceshaders | 43 |
 | backgroundtasks | 41 |
+| tvservices | 41 |
 | compositorservices | 40 |
 | nearbyinteraction | 39 |
 | usd | 39 |
@@ -108,11 +109,11 @@
 | coreai | 33 |
 | objectivec | 33 |
 | storekittest | 33 |
-| tvservices | 33 |
 | translation | 32 |
 | coreaudiotypes | 31 |
 | signinwithapple | 31 |
 | energykit | 30 |
+| photosui | 30 |
 | metrickit | 29 |
 | tabletopkit | 29 |
 | foveatedstreaming | 28 |
@@ -138,7 +139,6 @@
 | metalkit | 21 |
 | musickit | 21 |
 | tvmljs | 21 |
-| photosui | 19 |
 | visionkit | 18 |
 | mapkitjs | 17 |
 | servicemanagement | 17 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 29397 · фреймворков: 339
+Итого законов: 29863 · фреймворков: 339

@@ -124,3 +124,7 @@
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/spelling", "sha": "90c79daa3b16b3a742a3bbb216f907ef7fd83bbd2c516325872034d91a2a27e1", "t": "spelling", "n": 18, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
 {"id": "/documentation/uikit/uigesturerecognizer/init()", "sha": "e4cc964ce2a77588f19815da2b6e44024029b84740a5819d84c02929ca1f20b4", "t": "init()", "n": 29, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
 {"id": "/documentation/uikit/uigesturerecognizer/numberoftouches", "sha": "e71bdac258af7e7955de2d5ff1b3699cfb35aa7e7f02b583f09ccdc6c15f647f", "t": "numberOfTouches", "n": 368, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/swiftui/layoutdirectionbehavior", "sha": "56dcd6e6a395f3395b0066459bf99c51faf1bac813673b859631fbbc8ec55123", "t": "LayoutDirectionBehavior", "n": 239, "laws": 1, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/prominence", "sha": "dbacc94754ace7f64e6c4f044b08d44b1ee744623262a4c386a4bb2718ddde56", "t": "Prominence", "n": 126, "laws": 0, "ts": "2026-08-01 18:16 UTC"}
+{"id": "/documentation/swiftui/slidertickbuilder/buildblock(_:_:_:_:_:_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:_:_:_:_:_:_:)", "n": 0, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
+{"id": "/documentation/swiftui/windowgroup/init(_:makecontent:)-5682k", "sha": "028320e827c3a4aa25c1e6946c5b1524d36e538e096d417fd468dd3f7ab4dc1d", "t": "init(_:makeContent:)", "n": 301, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
