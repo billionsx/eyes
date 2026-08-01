@@ -94,3 +94,7 @@
 {"id": "/documentation/UserNotifications/UNNotificationAction", "sha": "e68809f77f6bfaad454c24086ade64de9659f88d0c151608f1d9523a1ae82e6b", "t": "UNNotificationAction", "n": 1538, "laws": 0, "ts": "2026-07-31 18:45 UTC"}
 {"id": "/documentation/swiftui/fillshapeview", "sha": "94fbea96899354e083e344b5a309d9dc324d6cf272b97f3815204e4e6913b740", "t": "FillShapeView", "n": 258, "laws": 0, "ts": "2026-07-31 18:50 UTC"}
 {"id": "/documentation/swiftui/view/accessibilityrespondstouserinteraction(_:)", "sha": "fa9cef238c8eac0fd726bf8c9f915946897ee10afecfc00f006a7dce7f9da0a7", "t": "accessibilityRespondsToUserInteraction(_:)", "n": 411, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
+{"id": "/documentation/uikit/uigraphicsimagerenderercontext", "sha": "39c02ceb7c4bfc0dd652ac7a115ac319474219a94af589bb7d53add3153c86bd", "t": "UIGraphicsImageRendererContext", "n": 534, "laws": 0, "ts": "2026-08-01 05:43 UTC"}
+{"id": "/documentation/uikit/uiresponder/textinputcontextidentifier", "sha": "b8b52e41b68f1bec6132705b8f320986676366526bc43b5f879a0df1e548e3eb", "t": "textInputContextIdentifier", "n": 371, "laws": 0, "ts": "2026-08-01 05:45 UTC"}
+{"id": "/documentation/uikit/uitextinput/offset(from:to:)", "sha": "b6623655a69c4010ae58d87bd0ff871fe15c445e4cb6a8bc0795ee5d8e0a4650", "t": "offset(from:to:)", "n": 154, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
+{"id": "/documentation/uikit/uisnapbehavior/snappoint", "sha": "fd2d99cbd4fa695d0a39cabecbb8ae0c2cf7fe2f901e5d69a26bde979fa9a057", "t": "snapPoint", "n": 337, "laws": 0, "ts": "2026-08-01 06:05 UTC"}

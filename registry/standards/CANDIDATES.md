@@ -1,11 +1,12 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 29145 · кандидатов: 17 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 29397 · кандидатов: 17 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
 | свойство | норма | направление | страниц | встреч | первоисточник |
 |---|---|---|---|---|---|
+| opacity | 35 % | none | 2 | 2 | да |
 | font-size | 13 pt | none | 1 | 1 | да |
 | font-size | 17 pt | none | 1 | 1 | да |
 | margin / padding | 7 pt | none | 1 | 1 | да |
@@ -15,7 +16,6 @@
 | margin / padding | 60 pt | min | 1 | 1 | да |
 | min-width/min-height интерактивного элемента | 28 pt | min | 1 | 1 | да |
 | min-width/min-height интерактивного элемента | 44 pt | min | 1 | 1 | да |
-| opacity | 35 % | none | 1 | 1 | да |
 | контраст пары цветов | 4.5 :1 | min | 1 | 1 | да |
 | font-size | 44 pt | none | 2 | 2 | нет |
 | margin / padding | 600 ms | none | 2 | 2 | нет |
@@ -26,6 +26,8 @@
 
 ## Адреса
 
+- **opacity 35 %** (none) — https://developer.apple.com/design/human-interface-guidelines/materials, https://developer.apple.com/design/Human-Interface-Guidelines/materials
+  - «For optimal contrast and legibility, determine whether to add a dimming layer behind components with clear Liquid Glass: If the underlying content is »
 - **font-size 13 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/mac-catalyst
   - «For example, the system scales text that uses the iPadOS baseline font size of 17pt down to 13pt in macOS.»
 - **font-size 17 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/mac-catalyst
@@ -44,8 +46,6 @@
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
 - **min-width/min-height интерактивного элемента 44 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/game-controls
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
-- **opacity 35 %** (none) — https://developer.apple.com/design/human-interface-guidelines/materials
-  - «For optimal contrast and legibility, determine whether to add a dimming layer behind components with clear Liquid Glass: If the underlying content is »
 - **контраст пары цветов 4.5 :1** (min) — https://developer.apple.com/design/human-interface-guidelines/dark-mode
   - «At a minimum, make sure the contrast ratio between colors is no lower than 4.5:1.»
 - **font-size 44 pt** (none) — https://developer.apple.com/documentation/appkit/nscollectionlayoutdimension, https://developer.apple.com/documentation/uikit/nscollectionlayoutdimension

@@ -122,3 +122,9 @@
 {"id": "/documentation/swiftui/accessibilityactionkind", "sha": "79b2b6141b56c947c7359a5ab3b3eb45721239dece4ab61c9760d57c2abf97e5", "t": "AccessibilityActionKind", "n": 188, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
 {"id": "/documentation/swiftui/view/speechspellsoutcharacters(_:)", "sha": "bfdededebb09e03aebceef1869b601cabf5c60cf5d0fcbd81839b271f3f44934", "t": "speechSpellsOutCharacters(_:)", "n": 441, "laws": 2, "ts": "2026-07-31 19:08 UTC"}
 {"id": "/documentation/swiftui/pointerstyle", "sha": "5da748c2fe83ed3ed5d8ab8176f99b755767a1c0b993eb37d059f528a3a6918e", "t": "PointerStyle", "n": 709, "laws": 1, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uiaccessibilitycontrast", "sha": "bb4f23311eb05b0e7133d74d0f5800d9817d21fba625b9cd3b714457425a05fb", "t": "UIAccessibilityContrast", "n": 222, "laws": 0, "ts": "2026-08-01 05:46 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/application", "sha": "735aa32b2a5f7716d9dc8bcb2a5cc10204043bd446052b935c82b9fe38f7e474", "t": "application", "n": 22, "laws": 0, "ts": "2026-08-01 05:57 UTC"}
+{"id": "/documentation/UIKit/UIViewController/didReceiveMemoryWarning()", "sha": "0b9be81a7a52b47a21ab272362f1283aa28aa81024da1406a0f222b57f81a6a8", "t": "didReceiveMemoryWarning()", "n": 408, "laws": 0, "ts": "2026-08-01 06:01 UTC"}
+{"id": "/documentation/uikit/uicontrol/event/touchupoutside", "sha": "edf46acece702808dca298e9bd239cb642f7ec49f3fb20949be6bfc2490bb57b", "t": "touchUpOutside", "n": 86, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
+{"id": "/documentation/uikit/uitextcontenttype/flightnumber", "sha": "c70d11b024b81a775ee38f75e0736c19ef9004aa4325abb0772eb927c1ccaa4a", "t": "flightNumber", "n": 85, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/uikit/uitextspellcheckingtype", "sha": "3dc7064b0ca08ea7b66307b0a583df408ae4ffe406238d5890d06e55999bb3ab", "t": "UITextSpellCheckingType", "n": 236, "laws": 0, "ts": "2026-08-01 06:08 UTC"}

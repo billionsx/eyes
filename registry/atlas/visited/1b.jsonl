@@ -102,3 +102,7 @@
 {"id": "/documentation/swiftui/environmentvalues/sizecategory", "sha": "7b359dcfe2c39a36f150840bdd44d3945901a85c9bfe8e66e10a992d3cca2709", "t": "sizeCategory", "n": 20, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
 {"id": "/documentation/swiftui/scene/commandsremoved()", "sha": "b0f16ef8f153b249ff479fa95f413c43ea9c63516dec81a6667a4ffbea84c0e3", "t": "commandsRemoved()", "n": 542, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
 {"id": "/documentation/SwiftUI/View/webViewBackForwardNavigationGestures(_:)", "sha": "c65e41c67203eecb0fb7f6d3c9f2fc17b63ef6031da499cb1e16b323a9e05c95", "t": "webViewBackForwardNavigationGestures(_:)", "n": 90, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/uikit/uitabbarcontroller/sidebar-swift.class/placement/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:46 UTC"}
+{"id": "/documentation/uikit/uicontrol/event/menuactiontriggered", "sha": "098d11ccecc0016431256b34cf556a5168ce379e6c80f2e6ce4820fa80d8aeea", "t": "menuActionTriggered", "n": 62, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
+{"id": "/documentation/uikit/uicontrol/event/touchdragoutside", "sha": "2fdfbf610ee073bc4fb10a72b169031b90b1353cb809341bb9318a71b763aad2", "t": "touchDragOutside", "n": 74, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
+{"id": "/documentation/uikit/uitextcontenttype/addresscity", "sha": "61437beda0298249d16ee3684976495f3f490d99bee268a4301f6b29382f50d6", "t": "addressCity", "n": 72, "laws": 0, "ts": "2026-08-01 06:07 UTC"}

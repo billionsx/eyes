@@ -119,3 +119,6 @@
 {"id": "/documentation/swiftui/path/symmetricdifference(_:eofill:)", "sha": "f82f36c676768881b52403f65cb9bc7dfaccb085a7a9712da6026cf0907fb02f", "t": "symmetricDifference(_:eoFill:)", "n": 402, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
 {"id": "/documentation/swiftui/font/callout", "sha": "45f340717bed8321ed241b0e38706c0ff091e191e6ab374fcc53acefc7e6417e", "t": "callout", "n": 35, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/shape/rect(uniformleadingcorners:toptrailingcorner:bottomtrailingcorner:)", "sha": "2f561cc4bd0a6dfe44722ce30cfcb04e69a475fb79e2e39f861257c0ddac11f9", "t": "rect(uniformLeadingCorners:topTrailingCorner:bottomTrailingCorner:)", "n": 349, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
+{"id": "/documentation/uikit/uitraitdefinition-64c15", "sha": "b087939bbe02924a4adf1c75b277a2d1bfd3190f6d235d4187fad3ef1c293856", "t": "UITraitDefinition", "n": 1937, "laws": 1, "ts": "2026-08-01 05:46 UTC"}
+{"id": "/documentation/uikit/uitrait-1dbah", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UITrait", "n": 0, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uiapplication/launchoptionskey/useractivitydictionary", "sha": "de088931dd9e4daa7c95e51421c6a628429a1e32f9772535d940a10b11e7d0b3", "t": "userActivityDictionary", "n": 216, "laws": 0, "ts": "2026-08-01 06:01 UTC"}

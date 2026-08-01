@@ -215,3 +215,8 @@
 {"id": "/documentation/WidgetKit/Updating-your-widgets-for-visionOS", "law": "To make sure your widget remains glanceable, respond to a person’s proximity and update its layout accordingly: Use the environment variable to detect a person’s proximity."}
 {"id": "/documentation/WidgetKit/WidgetRenderingMode/accented", "law": "Other faces use system-defined colors for both groups; for example, the Solar Dial face defines both an accent and a default color, and changes these colors based on the time of day."}
 {"id": "/documentation/WidgetKit/optimizing-your-widget-for-accented-rendering-mode-and-liquid-glass", "law": "iPhone, iPad, Mac, and Apple Watch use Liquid Glass, a dynamic, adaptive material that also applies to widgets."}
+{"id": "/documentation/WidgetKit/Updating-controls-locally-and-remotely", "law": "Use the method on the shared to ask the system to reload a control from your app that matches a specific unique identifier."}
+{"id": "/documentation/WidgetKit/Updating-controls-locally-and-remotely", "law": "The following code shows reloading a garage door control toggle from within the app: Use the method to ask the system to reload all controls your app provides."}
+{"id": "/documentation/WidgetKit/Updating-controls-locally-and-remotely", "law": "You don’t need to reload the controls manually."}
+{"id": "/documentation/WidgetKit/Updating-controls-locally-and-remotely", "law": "The following code queries for the current set of controls and gets any push tokens associated with them: Use APNs when your server has a state change to communicate to controls on someone’s devices."}
+{"id": "/documentation/WidgetKit/WidgetFamily", "law": "Use the context’s property to determine the widget’s size and shape."}

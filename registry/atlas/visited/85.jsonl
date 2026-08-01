@@ -116,3 +116,5 @@
 {"id": "/documentation/SwiftUI/Shape/stroke(_:style:antialiased:)", "sha": "947bf7131da5972465fa81bc12ca8ca3dc98d798364241fddec899d6e7a8e521", "t": "stroke(_:style:antialiased:)", "n": 162, "laws": 0, "ts": "2026-07-31 18:47 UTC"}
 {"id": "/documentation/SwiftUI/View/sensoryFeedback(_:trigger:)", "sha": "c93dd391617f610d4766a612efe344f032e503bf1fd2f21998ab86a0e34467b9", "t": "sensoryFeedback(_:trigger:)", "n": 131, "laws": 0, "ts": "2026-07-31 18:49 UTC"}
 {"id": "/documentation/swiftui/scene/commandsreplaced(content:)", "sha": "be2684627690478b0061248eb56b116e284fb37a426f11a645221d2f5d6951a4", "t": "commandsReplaced(content:)", "n": 665, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/standardedit", "sha": "ca31fbfe6286c297e1634d028522b7526f0641f171accccafbee84fb61ae80c6", "t": "standardEdit", "n": 23, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/uikit/style-dictionary-keys", "sha": "4ce7c4c8b9b5ff56941c92bef8f0e7c3892e3241862d86a178fdb08fbd7cab4f", "t": "Style dictionary keys", "n": 349, "laws": 0, "ts": "2026-08-01 05:58 UTC"}

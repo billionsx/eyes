@@ -112,3 +112,6 @@
 {"id": "/documentation/SwiftUI/View/searchFocused(_:equals:)", "sha": "eb97fe660716281d81e9ab795548a128bea0ebcb82c454bf853d57c744a8f104", "t": "searchFocused(_:equals:)", "n": 331, "laws": 1, "ts": "2026-07-31 18:49 UTC"}
 {"id": "/documentation/swiftui/environmentvalues/complicationrenderingmode", "sha": "81679013a93ff6922ee03e2b387db6535f187b85e864048f1fac8521e3e1fd25", "t": "complicationRenderingMode", "n": 60, "laws": 0, "ts": "2026-07-31 18:52 UTC"}
 {"id": "/documentation/swiftui/path/trimmedpath(from:to:)", "sha": "01370c4486fecdf18082a2923f78e1d5dbd85073366297e2da99d53c59889279", "t": "trimmedPath(from:to:)", "n": 208, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
+{"id": "/documentation/uikit/uikit_final", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UIKIT_FINAL", "n": 0, "laws": 0, "ts": "2026-08-01 05:44 UTC"}
+{"id": "/documentation/uikit/uifieldbehavior/turbulencefield(smoothness:animationspeed:)", "sha": "b893eeacaf3c78d4b689a52e9cd95b6bb58dbed3a0cd4ed47d0e30b9f5e20b94", "t": "turbulenceField(smoothness:animationSpeed:)", "n": 292, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/uikit/nspapersizedocumentattribute", "sha": "c292d35a18765d6afe3c4112f46881bd40422d7658ca82efee837c2a96e49ee6", "t": "NSPaperSizeDocumentAttribute", "n": 154, "laws": 0, "ts": "2026-08-01 06:08 UTC"}

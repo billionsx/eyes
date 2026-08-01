@@ -114,3 +114,9 @@
 {"id": "/documentation/swiftui/font/extralargetitle2", "sha": "758040b50f33ed7b55be375f44f7c7499b6479a9565a1312f75caf7171bc3125", "t": "extraLargeTitle2", "n": 65, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/shape/transform(_:)", "sha": "5ecf4fa0f19d77bb758b43cec87edccbbae0d40c26fc94057632b4938b36c64b", "t": "transform(_:)", "n": 251, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/swiftui/keypress", "sha": "8f18e59bddea04e30077813a18272e2b2ce551c80897d3457ccb6f34b25e86ed", "t": "KeyPress", "n": 151, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/walletpasses/creating-a-coupon-pass", "sha": "b6ed5dfe4ae9db9c839c64a3cd4149c4aa875f5b93dc082106d5af09f4015b69", "t": "Creating a coupon pass", "n": 5959, "laws": 1, "ts": "2026-08-01 05:42 UTC"}
+{"id": "/documentation/uikit/nsstringfromcgsize", "sha": "b796354638846f8725b6dafd9fcf4a5d6ac03a8ff6846fe165a8bcc1588a2b43", "t": "NSStringFromCGSize", "n": 164, "laws": 0, "ts": "2026-08-01 05:43 UTC"}
+{"id": "/documentation/uikit/uiresponderstandardeditactions/rename(_:)", "sha": "af661e0c4857acac5ad737f2029019e8af6b761ab822972335925ee6679257c0", "t": "rename(_:)", "n": 16, "laws": 0, "ts": "2026-08-01 05:50 UTC"}
+{"id": "/documentation/uikit/uidevice/isgeneratingdeviceorientationnotifications", "sha": "77f6887dd83fae100108362cb1e9883eb3d06d4ab302ec0ffd4b5b17f77d21e1", "t": "isGeneratingDeviceOrientationNotifications", "n": 361, "laws": 0, "ts": "2026-08-01 05:57 UTC"}
+{"id": "/documentation/uikit/uitextcontenttype/countryname", "sha": "b8773975055271dde27cc605311d8f5fab3a0a26a0f0de6365c8437012765a91", "t": "countryName", "n": 85, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/uikit/nsunderlinestyle/patterndot", "sha": "89056896f0d805a8eb33203f7ddb3524404b87bc89bdc725b03d0a8c4325ed78", "t": "patternDot", "n": 20, "laws": 0, "ts": "2026-08-01 06:09 UTC"}

@@ -99,3 +99,6 @@
 {"id": "/documentation/swiftui/viewpoint3d/standard", "sha": "1c544cd3b8da518d56ed56012c17dc66d1266ab2e0c1f3851469610ed46e3e3e", "t": "standard", "n": 59, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/SwiftUI/WindowPlacement/Position", "sha": "b20daef16a3655b0f720572ae3dbe50841b68fdac5ae645e5fc7e84b6a2070c2", "t": "WindowPlacement.Position", "n": 173, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/spring/snappy(duration:extrabounce:)", "sha": "ddff055872b6ab0db47cd247259ebdcb1736632cdecccfd676a52cdd4e0c4a18", "t": "snappy(duration:extraBounce:)", "n": 103, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
+{"id": "/documentation/uikit/uiresponder/remotecontrolreceived(with:)", "sha": "5cf08b39ed046acc9e63e6fbbc8c533e9b5fcae73965c43122a7fc96181353f0", "t": "remoteControlReceived(with:)", "n": 536, "laws": 1, "ts": "2026-08-01 05:45 UTC"}
+{"id": "/documentation/uikit/appearance-property-selector-tag", "sha": "a70caa0de9c9c9c9e9d8b9211765d71d80258cce0ba03a6bb04f0352b30916a6", "t": "Appearance property selector tag", "n": 106, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
+{"id": "/documentation/uikit/uiactivityitemsconfiguration/previewprovider", "sha": "bb388988f842bdcf92ffc80214b6d4fb6810c0599b1f6212ecd56d9907e91ffc", "t": "previewProvider", "n": 56, "laws": 0, "ts": "2026-08-01 06:02 UTC"}

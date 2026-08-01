@@ -117,3 +117,7 @@
 {"id": "/documentation/swiftui/fetchrequest/configuration", "sha": "ca588f8b03a45b9a0f4a551223ca95ae53f456b15dc2797232901fc10bce9712", "t": "FetchRequest.Configuration", "n": 1825, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
 {"id": "/documentation/swiftui/spring/dampingratio", "sha": "a4e8a1712caa7555c0d59a8b47dd223d0703e41dc0d505ee04fc5ed44f6d771b", "t": "dampingRatio", "n": 285, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
 {"id": "/documentation/SwiftUI/Color/accentColor", "sha": "3eacff35d6a55eb4b08458674a9886595bedb98f409d54234720ea9a5157a8c1", "t": "accentColor", "n": 456, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/systemtraitsaffectingcolorappearance-18zhm", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "systemTraitsAffectingColorAppearance", "n": 0, "laws": 0, "ts": "2026-08-01 05:48 UTC"}
+{"id": "/documentation/uikit/nsparagraphstyle/linebreakstrategy-swift.struct/standard", "sha": "d33abd1afd984a4f4a06f69391b6852d66d451566c4e865192e1bd3d0b9ec7b7", "t": "standard", "n": 263, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/activationconfiguration/preview", "sha": "03afaa1380f4a8e24b4e995d042b8d21c636573a62266bb7c2f789df54d79fd7", "t": "preview", "n": 93, "laws": 0, "ts": "2026-08-01 05:55 UTC"}
+{"id": "/documentation/uikit/nstextlayoutsectionrange", "sha": "a8965dcf0c2dde054acf1b5f1edb398422736e2391ab83c631f716d13334fb25", "t": "NSTextLayoutSectionRange", "n": 147, "laws": 0, "ts": "2026-08-01 06:09 UTC"}

@@ -117,3 +117,7 @@
 {"id": "/documentation/swiftui/graphicscontext/clipboundingrect", "sha": "d832f083a716c70efd91139878d4e4ba5f7716634e1acfacdded705796353050", "t": "clipBoundingRect", "n": 96, "laws": 0, "ts": "2026-07-31 18:56 UTC"}
 {"id": "/documentation/swiftui/shape/rect", "sha": "91850e7b04091655454e1f7eec06942ef1454f52a550e6e8d149d4fa901296bb", "t": "rect", "n": 71, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/swiftui/digitalcrownrotationalsensitivity", "sha": "c0b9b87d8d2a9338feee25238aab3c91ca21ba534388b016051ffc75beaa8a33", "t": "DigitalCrownRotationalSensitivity", "n": 334, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uiresponderstandardeditactions/increasesize(_:)", "sha": "9b11fb101cd4d3e6bbf47dc719e731cc60280d5fba867d6bedd66b2e68a31c24", "t": "increaseSize(_:)", "n": 205, "laws": 0, "ts": "2026-08-01 05:50 UTC"}
+{"id": "/documentation/uikit/uiapplication/registerforremotenotifications(matching:)", "sha": "c6dc4f03efe0e076dcb57dc3df9323d97ab9c87cbdec9923ba24e60371e787fd", "t": "registerForRemoteNotifications(matching:)", "n": 841, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/textcolor", "sha": "300aeba573e254aa10b5daecbf1981a710931fe17b12e1d7add71e557f8f05d1", "t": "textColor", "n": 20, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/uikit/uicontainerbackgroundstyle/glass", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UIContainerBackgroundStyle.glass", "n": 0, "laws": 0, "ts": "2026-08-01 06:10 UTC"}

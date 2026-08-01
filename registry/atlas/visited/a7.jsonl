@@ -113,3 +113,6 @@
 {"id": "/documentation/swiftui/environmentvalues/isscrollenabled", "sha": "2a02012d73a21070c7dfe8c3f88a380d20bdb80f5baa30e63d8ea7fb8b4d12c4", "t": "isScrollEnabled", "n": 196, "laws": 0, "ts": "2026-07-31 18:53 UTC"}
 {"id": "/documentation/swiftui/path/addlines(_:)", "sha": "ce984e5ca1b9ca0c67868de1b1501a36e000005b5599228956a24977b2e44a09", "t": "addLines(_:)", "n": 767, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
 {"id": "/documentation/swiftui/pencilsqueezegesturevalue", "sha": "0205221ea0c7ed29afa88f350be2b73ad78f8e1b1180b640926e55cacb3e4b94", "t": "PencilSqueezeGestureValue", "n": 89, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/uikit/axobjectreturnblock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AXObjectReturnBlock", "n": 0, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
+{"id": "/documentation/uikit/axuitextinputreturnblock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AXUITextInputReturnBlock", "n": 0, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/sidebar", "sha": "cf33d8e46677ed5646f1cba02935ceb05eeef2f56c5c53d74f0a68869c34e7c9", "t": "sidebar", "n": 113, "laws": 0, "ts": "2026-08-01 05:58 UTC"}

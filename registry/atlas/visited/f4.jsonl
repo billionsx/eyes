@@ -101,3 +101,7 @@
 {"id": "/documentation/SwiftUI/EnvironmentValues/imageScale", "sha": "21a067b372e78d484211d391e91aafd11fe47081003901bcd69ef45c0da40cdd", "t": "imageScale", "n": 37, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
 {"id": "/documentation/swiftui/animation/interpolatingspring", "sha": "6b2b0eed489b88d2f0712e64f2c9c365177c11951418560fa19332ef24165426", "t": "interpolatingSpring", "n": 335, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/view/keyboardshortcut(_:)", "sha": "0619a2774d0be9936b2f8e727621bec1c98476bb3c544820af11330e14086a79", "t": "keyboardShortcut(_:)", "n": 675, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uiresponderstandardeditactions/alignjustified(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "alignJustified(_:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:50 UTC"}
+{"id": "/documentation/uikit/uitextdragrequest", "sha": "77b03de81e64bde49dc04d482bea373387d87dff26025bf8ed27aa028ca5a06c", "t": "UITextDragRequest", "n": 249, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/preferences", "sha": "3a87ea9f40766182b7107670daa700980e2794140b1e54bbd7c2926390a41322", "t": "preferences", "n": 21, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/toolbar", "sha": "1e829815bc4efc3628013831dbd1f7ac2d8875279f062ec98f71ba08b283c96f", "t": "toolbar", "n": 143, "laws": 0, "ts": "2026-08-01 05:58 UTC"}

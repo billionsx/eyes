@@ -969,3 +969,53 @@
 {"id": "/design/Human-Interface-Guidelines/layout", "law": "If unrelated controls are too close together — or if other content crowds them — they can be difficult for people to tell apart or understand what they do, which can make your app or game hard to use."}
 {"id": "/design/Human-Interface-Guidelines/layout", "law": "Using SwiftUI or Auto Layout can help you ensure that your interface adapts dynamically to these traits and other context changes; if you don’t use these tools, you need to use alternative methods to do the work."}
 {"id": "/design/Human-Interface-Guidelines/layout", "law": "You can help ensure an adaptable interface by respecting system-defined safe areas, margins, and guides (where available) and specifying layout modifiers to fine-tune the placement of views in your interface."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "People need to be able to distinguish and activate each item, so you don’t want to put too many items in the toolbar."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "Don’t add an overflow menu manually, and avoid layouts that cause toolbar items to overflow by default."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "Toolbar customization is especially useful in apps that provide a lot of items — or that include advanced functionality that not everyone needs — and in apps that people tend to use for long periods of time."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "For example, it works well to make a range of editing actions available for toolbar customization, because people often use different types of editing commands based on their work style and their current project."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "Reduce the use of toolbar backgrounds and tinted controls."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "Any custom backgrounds and appearances you use might overlay or interfere with background effects that the system provides."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "Instead, use the content layer to inform the color and appearance of the toolbar, and use a when necessary to distinguish the toolbar area from the content area."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "Avoid applying a similar color to toolbar item labels and content layer backgrounds."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "If your app already has bright, colorful content in the content layer, prefer using the default monochromatic appearance of toolbars."}
+{"id": "/design/Human-Interface-Guidelines/toolbars", "law": "Prefer using standard components in a toolbar."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "Avoid redefining systemwide trackpad gestures."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "Let people use the pointer to reveal and hide controls that automatically minimize or fade out."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "For example, if people can duplicate an object by pressing and holding the Option key while they drag that object, ensure the result is the same whether they drag using touch or the pointer."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "As people use the pointer in this way, it expands into a visible rectangle that selects the items it encompasses."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "In this scenario, people can drag the playhead using either the pointer or touch, but they can use the pointer to click a precise seek destination."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "Pointer accessories are visual indicators that help people understand how they can use the pointer to interact with the current UI element."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "iPadOS helps people use the pointer to target an element by making the element appear to attract the pointer."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "By default, iPadOS applies magnetism to elements that use the lift effect (like app icons) and the highlight effect (like bar buttons), but not to elements that use hover."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "Use hover for large elements and customize the scale, tint, and shadow attributes as needed (for guidance, see )."}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "law": "Prefer the system-provided pointer appearances for standard buttons and text-entry areas."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "A toggle can have various styles, such as switch and checkbox, and different platforms can use these styles in different ways."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "If you use a button that behaves like a toggle, you generally use an interface icon that communicates its purpose, and you update its appearance — typically by changing the background — based on the current state."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "Avoid relying solely on different colors to communicate state, because not everyone can perceive the differences."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "Use the switch toggle style only in a list row."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "You don’t need to supply a label in this situation because the content in the row provides the context for the state the switch controls."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "The default green color tends to work well in most cases, but you might want to use your app’s accent color instead."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "Be sure to use a color that provides enough contrast with the uncolored appearance to be perceptible."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "Outside of a list, use a button that behaves like a toggle, not a switch."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "Avoid supplying a label that explains the button’s purpose."}
+{"id": "/design/Human-Interface-Guidelines/toggles", "law": "Use switches, checkboxes, and radio buttons in the window body, not the window frame."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "You may also want to use custom colors to enhance the visual experience of your app or game and express its unique personality."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "The following guidelines can help you use color in ways that people appreciate, regardless of whether you use system-defined or custom colors."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "Avoid using the same color to mean different things."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "Use color consistently throughout your interface, especially when you use it to help communicate information like status or interactivity."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "For example, if you use your brand color to indicate that a borderless button is interactive, using the same or similar color to stylize noninteractive text is confusing."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "Make sure all your app’s colors work well in light, dark, and increased contrast contexts."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "vary subtly depending on the system appearance, adjusting to ensure proper color differentiation and contrast for text, symbols, and other elements."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "When possible, use system colors, which already define variants for all these contexts."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "If you define a custom color, make sure to supply light and dark variants, and an increased contrast option for each variant that provides a significantly higher amount of visual differentiation."}
+{"id": "/design/Human-Interface-Guidelines/color", "law": "Adjust app colors to provide an optimal viewing experience in the majority of use cases."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "Don’t use Liquid Glass in the content layer."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "Use Liquid Glass effects sparingly."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "Only use clear Liquid Glass for components that appear over visually rich backgrounds."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "The appearance of these variants can differ in response to certain system settings, like if people choose a preferred look for Liquid Glass in their device’s settings, or turn on accessibility settings that reduce transparency or increase contrast in the interface."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "Use the regular variant when background content might create legibility issues, or when components have a significant amount of text, such as alerts, sidebars, or popovers."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "For optimal contrast and legibility, determine whether to add a dimming layer behind components with clear Liquid Glass: If the underlying content is bright, consider adding a dark dimming layer of 35% opacity."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "If the underlying content is sufficiently dark, or if you use standard media playback controls from AVKit that provide their own dimming layer, you don’t need to apply a dimming layer."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "For guidance about the use of color, see ."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "Use standard materials and effects — such as , , and — to convey a sense of structure in the content beneath Liquid Glass."}
+{"id": "/design/Human-Interface-Guidelines/materials", "law": "Choose materials and effects based on semantic meaning and recommended usage."}

@@ -134,3 +134,7 @@
 {"id": "/documentation/swiftui/spring/smooth", "sha": "9abff4a24f12e64d5056897af4782885657cbfa1b4532027c79f4da1d3a41805", "t": "smooth", "n": 57, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
 {"id": "/documentation/swiftui/shape/rect(cornerradius:style:)", "sha": "08705199eefe0aeb883512d12789fc5a1bc9c25b064457063f7a405cd7f32242", "t": "rect(cornerRadius:style:)", "n": 93, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/SwiftUI/TimelineView", "sha": "758e69f08da5eed4e37984655898d4b25675581452cddbd4d2c2f835b38c26a0", "t": "TimelineView", "n": 1758, "laws": 1, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/uimenuelement/imagevisibility/visible", "sha": "e91dc9b5e75ff57a40cb3a34cc6421c771fcd86e6ae97b05125c285158b2556e", "t": "UIMenuElement.ImageVisibility.visible", "n": 100, "laws": 0, "ts": "2026-08-01 05:45 UTC"}
+{"id": "/documentation/uikit/uiactivity/category", "sha": "8aecaa71297998018fef49ffdd73a26d90ab507fa9d8e935c37c075e1a16695e", "t": "UIActivity.Category", "n": 263, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
+{"id": "/documentation/uikit/nsrtftextdocumenttype", "sha": "6faeb6fb06b80652401f5b66fc766d904673efe40325c8d1d01e25d841350409", "t": "NSRTFTextDocumentType", "n": 28, "laws": 0, "ts": "2026-08-01 06:09 UTC"}
+{"id": "/documentation/uikit/uicontentunavailableconfiguration-swift.struct/secondarytextproperties", "sha": "d898b239cf7c08e3330b7ec32a8806f8a03ee2bc23c204b672199ed186e5b0c7", "t": "secondaryTextProperties", "n": 46, "laws": 0, "ts": "2026-08-01 06:11 UTC"}

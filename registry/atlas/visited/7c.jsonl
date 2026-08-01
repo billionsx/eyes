@@ -95,3 +95,8 @@
 {"id": "/documentation/uikit/uitextfield/didendeditingreasonuserinfokey", "sha": "627da6c4558e0b681f609eee1759c911e5a0d1a969d34dfcbdd4ee40bc5c55b6", "t": "didEndEditingReasonUserInfoKey", "n": 67, "laws": 0, "ts": "2026-07-31 07:37 UTC"}
 {"id": "/documentation/swiftui/scene/keyboardshortcut(_:)", "sha": "16bd326dfad4422812d51eb0065a50ee62b93a4527bb9b988a42eb482be76cb8", "t": "keyboardShortcut(_:)", "n": 810, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
 {"id": "/documentation/swiftui/horizontalalignment/trailing", "sha": "6e9b443592d69acceb258cca9fb37a7d9504bf8a45db1ef43e4fb16a98cd2f4c", "t": "trailing", "n": 255, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/userinterfacestyle", "sha": "4cb39e2d7aee0d5e7863a91e3a5a7db69c768954015dbf359467112e1d60904e", "t": "userInterfaceStyle", "n": 265, "laws": 1, "ts": "2026-08-01 05:49 UTC"}
+{"id": "/documentation/uikit/uiaccessibility", "sha": "48a247019fffa14a9435383a598aa321c9f199016dcbd85729402deac2c8a821", "t": "UIAccessibility", "n": 3914, "laws": 0, "ts": "2026-08-01 05:50 UTC"}
+{"id": "/documentation/uikit/uitextinput/replace(_:withattributedtext:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "replace(_:withAttributedText:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
+{"id": "/documentation/uikit/uiwebview/scalespagetofit", "sha": "652a9b8b14e56adbb796e68db15f56ae6944be2534bf7022d013805f273aee79", "t": "scalesPageToFit", "n": 246, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
+{"id": "/documentation/UIKit/UIView/safeAreaLayoutGuide", "sha": "6b9b02681a08c3e77c14d0a293d0673d56ec3af0f1a489c5d0fe364af71f7a2a", "t": "safeAreaLayoutGuide", "n": 958, "laws": 0, "ts": "2026-08-01 06:01 UTC"}

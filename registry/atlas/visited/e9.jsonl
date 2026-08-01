@@ -92,3 +92,11 @@
 {"id": "/documentation/swiftui/environmentvalues/opensettings", "sha": "9075c119777c133eaac46d91782e97ed4e8322b93553fee1f73ac39eed87925c", "t": "openSettings", "n": 369, "laws": 0, "ts": "2026-07-31 18:53 UTC"}
 {"id": "/documentation/swiftui/layout/cache", "sha": "de3bb7cf486efbcf9d12bcf44ade8f8d2dce9ff79e34187d29a5067c8cfb8330", "t": "Cache", "n": 320, "laws": 1, "ts": "2026-07-31 18:57 UTC"}
 {"id": "/documentation/swiftui/proposedviewsize/zero", "sha": "2df9351d7771c401bbe804d290e613b75808a7aab2f7a0213ebe29f8c3fabe05", "t": "zero", "n": 252, "laws": 2, "ts": "2026-07-31 18:57 UTC"}
+{"id": "/documentation/uikit/uinib", "sha": "265591a0f168d97e467afb1f4e638fba539f15b049e84b14d9a1503aad596c8c", "t": "UINib", "n": 1234, "laws": 0, "ts": "2026-08-01 05:44 UTC"}
+{"id": "/documentation/uikit/uilabelvibrancy/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:52 UTC"}
+{"id": "/documentation/uikit/uiscenesizerestrictions/minimumsize", "sha": "8f723917915f245db14dbd419ad31eb442e0ff8fc92967c6d2d074812f894a25", "t": "minimumSize", "n": 61, "laws": 0, "ts": "2026-08-01 05:53 UTC"}
+{"id": "/documentation/uikit/uititlebartoolbarstyle", "sha": "fdad8de5a3546eb4686520006644743b5a2ac9921e81e36deafde116958fbfb7", "t": "UITitlebarToolbarStyle", "n": 301, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uitextinput/closestposition(to:)", "sha": "43c717eed951385996086e7854d4eeb8fc6a01773383892bf8fb1b283cace58e", "t": "closestPosition(to:)", "n": 153, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
+{"id": "/documentation/uikit/uitextcontenttype/streetaddressline2", "sha": "b5497cd395d24e6e0e4fc539ac0d2904d5475178d790c5a215225561966846f5", "t": "streetAddressLine2", "n": 96, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/uikit/nsunderlinestyle/init(rawvalue:)", "sha": "0312178848dfa4b7c8ad0f992b41175e10e5ae99afcfa1c5fb46db88f8f98308", "t": "init(rawValue:)", "n": 56, "laws": 0, "ts": "2026-08-01 06:09 UTC"}
+{"id": "/documentation/uikit/uimodaltransitionstyle/coververtical", "sha": "45c4f74e6cf873b6c7a258dfc282aee6c56899f44ab4e4cdfd92feafafb8656e", "t": "UIModalTransitionStyle.coverVertical", "n": 181, "laws": 0, "ts": "2026-08-01 06:10 UTC"}

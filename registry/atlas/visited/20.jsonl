@@ -85,3 +85,5 @@
 {"id": "/documentation/uikit/uitextfielddelegate", "sha": "ab81dc7b73e9e3bccf33ca73f9c5086e5ae3379f41f2c057b03cfbbd0967178c", "t": "UITextFieldDelegate", "n": 2582, "laws": 1, "ts": "2026-07-31 07:38 UTC"}
 {"id": "/documentation/swiftui/view/equatable()", "sha": "08f72c89362ac94b8e25cc512bf8bf611600a8923a6f02c764f93e76a7fee645", "t": "equatable()", "n": 95, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
 {"id": "/documentation/SwiftUI/Text/DateStyle/timer", "sha": "06d1203d091d34d5d3b208197604ba3c09659fc98932697f232e0bdab406ab2a", "t": "timer", "n": 97, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/replacing(_:value:)-8z10u", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "replacing(_:value:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:48 UTC"}
+{"id": "/documentation/uikit/uiscene/activationstate-swift.enum/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 06:01 UTC"}

@@ -116,3 +116,6 @@
 {"id": "/documentation/walletpasses/creating-a-pass-with-pass-designer", "sha": "5b28fbbdb39f3980b4c34827e3c057951189e48fcff011cd35bf0f66ad6e81c8", "t": "Creating a pass with Pass Designer", "n": 11386, "laws": 8, "ts": "2026-07-31 18:42 UTC"}
 {"id": "/documentation/swiftui/anylayout/init(_:)", "sha": "ccfada7c40f4e00bca0af6cb229bb8b7a96c48fc470f6852ecf97db8aa451181", "t": "init(_:)", "n": 159, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
 {"id": "/documentation/SwiftUI/Image/symbolRenderingMode(_:)", "sha": "644230e719f11453873df10b502c102ad620936a349cce871dfafd7cf53b800a", "t": "symbolRenderingMode(_:)", "n": 123, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/walletpasses/passfields/backfields-data.dictionary", "sha": "1ec51566b1a71b970d0372165e6823b620c4a83f3e19a2f95c330953e4aae4bd", "t": "PassFields.BackFields", "n": 205, "laws": 0, "ts": "2026-08-01 05:42 UTC"}
+{"id": "/documentation/uikit/uitextformattingviewcontrollerchangetype", "sha": "0d9823a0a40aed4ba4585b8bc0d3af02b61f862a588cef1dc2b5fd6baa5a83f7", "t": "UITextFormattingViewControllerChangeType", "n": 39, "laws": 0, "ts": "2026-08-01 05:44 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/init()", "sha": "f09a87e345bedb63195cfeb62718f14c8f10296cdd5e1c3fe5d5a1a374120ab9", "t": "init()", "n": 160, "laws": 0, "ts": "2026-08-01 05:47 UTC"}

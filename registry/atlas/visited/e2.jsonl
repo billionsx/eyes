@@ -121,3 +121,6 @@
 {"id": "/documentation/swiftui/toolbaritem/init(id:placement:content:)", "sha": "4d963f2fb30de21a19d86e8884226d3086196d7c3d487119ece7c889b665d6a3", "t": "init(id:placement:content:)", "n": 101, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
 {"id": "/documentation/SwiftUI/View/workoutPreview(_:isPresented:)", "sha": "a70c3f25da621c9f984ef1d6523cd70c71a20fd98941c1787fc55abdcae4a3df", "t": "workoutPreview(_:isPresented:)", "n": 73, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
 {"id": "/documentation/swiftui/view/touchbaritempresence(_:)", "sha": "1539ea56c014611fcab00cde8d60df3ac11bf17bfca1af37b9281800121dafd9", "t": "touchBarItemPresence(_:)", "n": 705, "laws": 0, "ts": "2026-07-31 19:11 UTC"}
+{"id": "/documentation/uikit/uiuserinterfacesizeclass", "sha": "d5e384b8b7278b0c1dc98455f9d137f65742740a68c46e09749f1eb5ddfaf431", "t": "UIUserInterfaceSizeClass", "n": 211, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
+{"id": "/documentation/uikit/uicoordinatespace/convert(_:to:)-2ub7a", "sha": "df02bee329553d3ef78ee20091aeb8cd1b27a7149918f523d37583135f2b8d87", "t": "convert(_:to:)", "n": 165, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
+{"id": "/documentation/uikit/uifieldbehavior/additem(_:)", "sha": "172c9578993532ab7fe3a3618fa507b3185cf0a0fc52f80f978657ec9136bdff", "t": "addItem(_:)", "n": 237, "laws": 0, "ts": "2026-08-01 06:04 UTC"}

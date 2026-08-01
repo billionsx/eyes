@@ -4,12 +4,12 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 3200 |
+| uikit | 3350 |
 | appkit | 2365 |
 | swiftui | 2027 |
 | appintents | 1688 |
 | accelerate | 1327 |
-| human-interface-guidelines | 971 |
+| human-interface-guidelines | 1021 |
 | xcode | 953 |
 | foundation | 850 |
 | metal | 713 |
@@ -17,8 +17,8 @@
 | visionos | 655 |
 | technotes | 615 |
 | swift | 610 |
+| big7 | 503 |
 | arkit | 473 |
-| big7 | 465 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
 | updates | 314 |
@@ -31,7 +31,7 @@
 | appclip | 235 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
-| widgetkit | 217 |
+| widgetkit | 222 |
 | gamekit | 201 |
 | vision | 195 |
 | groupactivities | 191 |
@@ -69,10 +69,10 @@
 | exposurenotification | 73 |
 | gamecontroller | 73 |
 | safariservices | 73 |
+| walletpasses | 72 |
 | fileprovider | 66 |
 | coregraphics | 64 |
 | network | 63 |
-| walletpasses | 63 |
 | homekit | 60 |
 | localauthentication | 60 |
 | mediaplayer | 60 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 29145 · фреймворков: 339
+Итого законов: 29397 · фреймворков: 339

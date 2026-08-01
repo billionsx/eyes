@@ -107,3 +107,7 @@
 {"id": "/documentation/uikit/uistackview/axis", "sha": "573279d27ca91d5361f187fca44067729c416ed98348e07823c2d487b1df0394", "t": "axis", "n": 231, "laws": 0, "ts": "2026-07-31 07:36 UTC"}
 {"id": "/documentation/swiftui/environmentvalues/backgroundmaterial", "sha": "91eb201faf656eb81a299e614b15869cd70c0699bacdd8385734b3752b4fec84", "t": "backgroundMaterial", "n": 483, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
 {"id": "/documentation/swiftui/symbolcolorrenderingmode", "sha": "92f21cf440eca97afde259c3b95f27cc1881f37ba134e0e34e461132aa978930", "t": "SymbolColorRenderingMode", "n": 81, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uitextformattingviewcontrollerremoveboldchangetype", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UITextFormattingViewControllerRemoveBoldChangeType", "n": 0, "laws": 0, "ts": "2026-08-01 05:44 UTC"}
+{"id": "/documentation/uikit/uilocalnotification/soundname", "sha": "9f7a22696b66fe0777bd6800981e01b4beeb99bf7479d9d11738b07c84be96c7", "t": "soundName", "n": 584, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/uikit/uitextsmartquotestype", "sha": "1419a6ce972452b0c2896d5a4b24e699e14c7cb478d13050d6fb1532a10fc03a", "t": "UITextSmartQuotesType", "n": 196, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
+{"id": "/documentation/uikit/uicontentunavailableimageproperties", "sha": "ce1b8d59ff27190b463c26d16aca1c098292c68ca100526fb87fff91c470f46b", "t": "UIContentUnavailableImageProperties", "n": 203, "laws": 0, "ts": "2026-08-01 06:10 UTC"}

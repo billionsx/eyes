@@ -119,3 +119,6 @@
 {"id": "/documentation/SwiftUI/WindowIdealSize", "sha": "cf9827ff2cfbfb1f07024fdfb3d8c420c2e7167560829e58ef92e313cc8ed095", "t": "WindowIdealSize", "n": 383, "laws": 0, "ts": "2026-07-31 18:49 UTC"}
 {"id": "/documentation/swiftui/path/addrelativearc(center:radius:startangle:delta:transform:)", "sha": "354896b9b5da7d484292226e144336753a320e55bfece585fd305cb5dc83fc99", "t": "addRelativeArc(center:radius:startAngle:delta:transform:)", "n": 1109, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
 {"id": "/documentation/swiftui/immersionchangecontext", "sha": "378e7269deca87259f94ebf2c0e2814d39ab38c73aea704a8b5cab0115ed8b9f", "t": "ImmersionChangeContext", "n": 225, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uiresponder/pressescancelled(_:with:)", "sha": "efe5e7faa06f1236a4f67ba0a8e82161945d3eeb0d1317a1f3295965b17376d2", "t": "pressesCancelled(_:with:)", "n": 735, "laws": 0, "ts": "2026-08-01 05:45 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/init(_:value:)-59u4e", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:value:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:47 UTC"}
+{"id": "/documentation/uikit/uidynamicitem/collisionboundstype", "sha": "efab608a6eebfecec038384ee428500676c266a95f4d308f06fd776f0aa58d9b", "t": "collisionBoundsType", "n": 537, "laws": 0, "ts": "2026-08-01 05:51 UTC"}

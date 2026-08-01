@@ -93,3 +93,8 @@
 {"id": "/documentation/swiftui/toggle/init(_:ison:intent:)", "sha": "be82b9bdb6cb2241468deb3ff3f84577f97cbafe443b8303d877926713afee35", "t": "init(_:isOn:intent:)", "n": 298, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
 {"id": "/documentation/swiftui/shape/fill(style:)", "sha": "5ed24b37c40c6e9f4c8484b374c07ab0091f885d169e45902be988d8f5309f56", "t": "fill(style:)", "n": 101, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
 {"id": "/documentation/SwiftUI/Text/DateStyle/offset", "sha": "5ba5b985b59fde0b3f25206d2b5ed0e6d07da0ebbb95f432d37780113b19eaaf", "t": "offset", "n": 94, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/substitutions", "sha": "8c96540bd8342d6da8d59328a9ea2089e1a1a92412c1bb4dbe2971532f2e0cf3", "t": "substitutions", "n": 23, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/UIKit/UIAccessibility", "sha": "48a247019fffa14a9435383a598aa321c9f199016dcbd85729402deac2c8a821", "t": "UIAccessibility", "n": 3914, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
+{"id": "/documentation/uikit/uiscreen/didconnectnotification", "sha": "789d08c7a177b382668c433e8b8b30fe881d706e3e48492fb2c017c6999156cc", "t": "didConnectNotification", "n": 366, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/uikit/uilocalnotification/hasaction", "sha": "889e5db4ce4242ec78d41b85111825c6a802755735088740d046cb974c45e3fb", "t": "hasAction", "n": 220, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/uikit/nsdocumenttypedocumentattribute", "sha": "94301c85e7594e5cea019f63571f6cbfe86fcdd1153a91a60b153f77084575a7", "t": "NSDocumentTypeDocumentAttribute", "n": 447, "laws": 0, "ts": "2026-08-01 06:08 UTC"}

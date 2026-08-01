@@ -115,3 +115,7 @@
 {"id": "/documentation/swiftui/view/navigationtitle(_:)-avgj", "sha": "b31db91a6323500c3efeaa202b77f015cc7c605c869e535b129faa6ee1e55948", "t": "navigationTitle(_:)", "n": 630, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
 {"id": "/documentation/swiftui/animation/interactivespring", "sha": "825622e3a120f77d1233c711cac75e6e8578af5f342c9ab278e0284748e459dc", "t": "interactiveSpring", "n": 148, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/view/ondeletecommand(perform:)", "sha": "fafbc25683fa1be3f096642692d55c0e5f6ad1c717c214caf7192fdee8ce3e56", "t": "onDeleteCommand(perform:)", "n": 159, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/init(_:value:)-836bk", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:value:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:47 UTC"}
+{"id": "/documentation/uikit/uicontrol/event/touchdragexit", "sha": "cdcec3b89a81f559e4b95b8d44927eb1af38f834204677f8bbba55bc5b15e374", "t": "touchDragExit", "n": 79, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
+{"id": "/documentation/uikit/uifieldbehavior/direction", "sha": "0a579d1822e2ebb37173a756b8c7f9712b99ae10b6e28ce084024759f9873621", "t": "direction", "n": 230, "laws": 1, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/uikit/uikeyboardtype/default", "sha": "a8850c2f545fb85a8450c93d204343c6da932119e7600f7fc7fdf875a77d6a60", "t": "UIKeyboardType.default", "n": 60, "laws": 0, "ts": "2026-08-01 06:06 UTC"}

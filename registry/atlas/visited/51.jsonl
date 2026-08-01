@@ -118,3 +118,9 @@
 {"id": "/documentation/swiftui/loading_and_displaying_a_large_data_feed", "sha": "1c79e5366fcfe5c4015fcd3ae8895422768aa39878f02a000db175135d94b514", "t": "Loading and displaying a large data feed", "n": 6061, "laws": 1, "ts": "2026-07-31 18:58 UTC"}
 {"id": "/documentation/swiftui/color/headroom(_:)", "sha": "cf9b430ed30c2c2ac477d7f4fb37f81d6ca81f2beecc5b802b511efafa02192f", "t": "headroom(_:)", "n": 762, "laws": 2, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/SwiftUI/EnvironmentValues/isLuminanceReduced", "sha": "b9314674b520429e554ce60033cf2f926f459cfac2bb07a562d1483c70656e68", "t": "isLuminanceReduced", "n": 862, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/cgrectfromstring", "sha": "958286de62b67bfdc5eab7b5aba37ae93ff752ef6054f5f861164b2b1348cf55", "t": "CGRectFromString", "n": 344, "laws": 0, "ts": "2026-08-01 05:43 UTC"}
+{"id": "/documentation/uikit/uitextpasteitem", "sha": "48736c5ed33a5f53256ad8c3e3dc7ee17aeed843c759d0afb3ce10574023536e", "t": "UITextPasteItem", "n": 391, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
+{"id": "/documentation/uikit/uidynamicitem/transform", "sha": "f33f5827b82063ab3d08c9b6dbea55fe46d4914ed30bc36488316ee251a22a65", "t": "transform", "n": 247, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/presentationstyle/prominent", "sha": "67ad2de44e78b8e6d9549ec6eeb3a5182c96b528cec0c51e22489662c521d897", "t": "UIWindowScene.PresentationStyle.prominent", "n": 308, "laws": 1, "ts": "2026-08-01 05:56 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/text", "sha": "1924e531eeab73bb75dfd385fdd9e45fb928cf7075eecda2d0c3808665e0bac9", "t": "text", "n": 14, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/uikit/uipushbehavior/init(items:mode:)", "sha": "697b66c3601ca8e7b0ff4b41425bc3d730c339d5d9e1a11b1155c5fefa4224ae", "t": "init(items:mode:)", "n": 157, "laws": 0, "ts": "2026-08-01 06:04 UTC"}

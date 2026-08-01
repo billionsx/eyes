@@ -107,3 +107,6 @@
 {"id": "/documentation/swiftui/scene/dialogseverity(_:)", "sha": "f22b2c9a17a165c2cddeb3aa08824e0fb42e6bfb2b852c1944ca6fecc0327c96", "t": "dialogSeverity(_:)", "n": 196, "laws": 0, "ts": "2026-07-31 18:54 UTC"}
 {"id": "/documentation/swiftui/layoutsubviews/index", "sha": "ad0ac6adafc5bd001d75a7319e0f0f8d10210aced2ddf6e0f3b03179bfd01dc9", "t": "LayoutSubviews.Index", "n": 46, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
 {"id": "/documentation/swiftui/view/accessibilitychildren(children:)", "sha": "c6122684b64351257c6315fe2f8e8739ee0c0b15b4518094f9d739ed26428aee", "t": "accessibilityChildren(children:)", "n": 930, "laws": 2, "ts": "2026-07-31 18:58 UTC"}
+{"id": "/documentation/uikit/uitextdropproposal/progressmode", "sha": "1be879587eba34d820708049764a87ed87426fb3098e940000349d7c957c77ca", "t": "UITextDropProposal.ProgressMode", "n": 198, "laws": 0, "ts": "2026-08-01 05:51 UTC"}
+{"id": "/documentation/uikit/uitextinput/characterrange(at:)", "sha": "a3d7f58561c0451efb6fefd88b4d2f381e7954c6cb6445ba73d571e565af4172", "t": "characterRange(at:)", "n": 182, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
+{"id": "/documentation/uikit/uitextinputtraits/passwordrules", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "passwordRules", "n": 0, "laws": 0, "ts": "2026-08-01 06:08 UTC"}

@@ -101,3 +101,4 @@
 {"id": "/documentation/walletpasses/passfields/primaryfields-data.dictionary", "sha": "73a0bceadcab7b1b76ec282e6cac4f35ad9ad2d048d24e856c426c54dbeba9fc", "t": "PassFields.PrimaryFields", "n": 321, "laws": 0, "ts": "2026-07-31 18:42 UTC"}
 {"id": "/documentation/swiftui/shape/capsule", "sha": "6cb743030fdea88faca00334b2311e4391388a878eba5ef8e01929cbe7894466", "t": "capsule", "n": 221, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
 {"id": "/documentation/swiftui/section/init(header:footer:content:)", "sha": "80d4892d806c8badf85dae993a977fe5c40affcb537feeff0e651e9ebd6dc211", "t": "init(header:footer:content:)", "n": 74, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/UIKit/UIWindowScene/Geometry/isInteractivelyResizing", "sha": "c0e127847a68a398b6748fc554b77f5322322ebe5ef4b7a6efe4474abc6712f0", "t": "isInteractivelyResizing", "n": 76, "laws": 0, "ts": "2026-08-01 05:53 UTC"}

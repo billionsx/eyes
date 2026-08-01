@@ -120,3 +120,7 @@
 {"id": "/documentation/swiftui/shape/circle", "sha": "dace65684b9de290e5661c7a672c65e25582e5da5fbd524a4d1fd47061672009", "t": "circle", "n": 154, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
 {"id": "/documentation/swiftui/gestureinputkinds", "sha": "8a3749f509484d83e94401448698dfa0a27a960b61937412950c04661be4b114", "t": "GestureInputKinds", "n": 149, "laws": 1, "ts": "2026-07-31 19:09 UTC"}
 {"id": "/documentation/swiftui/magnificationgesture", "sha": "f3b8a5b96e06f45581da4c3d6e95d3f8cf3d03a2ed73d98b35108223a12b41ff", "t": "MagnificationGesture", "n": 157, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/uikit/uiapplication/categorydefaulterror/retryavailabledateerrorkey", "sha": "b8c979723075e64fa66469628d9c34f3242e3ebd564e9bb068a5b9eb54510e42", "t": "retryAvailableDateErrorKey", "n": 77, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
+{"id": "/documentation/uikit/uifieldbehavior/removeitem(_:)", "sha": "461824c4da18f582dadd3e8cfa9b9193bf1c8c8a134fcff9cbab37977c3ce098", "t": "removeItem(_:)", "n": 241, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/uikit/uisnapbehavior/damping", "sha": "68d0188979c404cbcb44ed2cfccb3b9bf1321e03804c5c37aca1f30396c7fe91", "t": "damping", "n": 216, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/uikit/nswritingdirectionattributename", "sha": "1978ccf1aa859bbb901a4d454ea6bfb6397899eb8226ab310ad8d54b2e266164", "t": "NSWritingDirectionAttributeName", "n": 843, "laws": 0, "ts": "2026-08-01 06:09 UTC"}

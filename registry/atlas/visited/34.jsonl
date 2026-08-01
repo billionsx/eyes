@@ -107,3 +107,7 @@
 {"id": "/documentation/swiftui/color/mix(with:by:in:)", "sha": "0b885619ee8dfd91d6c628bb4c04b6b3b9984aec359f94150da3f212d557fdb0", "t": "mix(with:by:in:)", "n": 102, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/shape/stroke(_:linewidth:)", "sha": "1a11010e1fbbe7daa1d282fc032b63bba257b95b842d56ece35fe8151426d76b", "t": "stroke(_:lineWidth:)", "n": 164, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/swiftui/accessibilityquickactionstyle", "sha": "eb4ff1926d1970552d382705a6901735bfd84d3eee3097434520831275e825d2", "t": "AccessibilityQuickActionStyle", "n": 222, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
+{"id": "/documentation/uikit/uiresponderstandardeditactions/toggleitalics(_:)", "sha": "510c518838850136c8c4f739790424923384e756d0c9db37a6c55ef960c0498b", "t": "toggleItalics(_:)", "n": 160, "laws": 0, "ts": "2026-08-01 05:50 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/geometrypreferences/mac/init(systemframe:)", "sha": "39654ec5054ada8197d411e45975fbcfc50529e9249f5378a6306550886fa597", "t": "init(systemFrame:)", "n": 91, "laws": 0, "ts": "2026-08-01 05:56 UTC"}
+{"id": "/documentation/uikit/uilocalnotification/firedate", "sha": "96eb7dbe179165273330f2dab255bfa3e16feeeb63342422186a188c0fbce74a", "t": "fireDate", "n": 433, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/uikit/uikeyboardtype/numberpad", "sha": "3250b9a9a0e1078f5aaf304e5c78a754996c632c4b97c609d4eaefbb3fb1bf0f", "t": "UIKeyboardType.numberPad", "n": 174, "laws": 0, "ts": "2026-08-01 06:06 UTC"}

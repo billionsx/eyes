@@ -125,3 +125,8 @@
 {"id": "/documentation/swiftui/gesturestate", "sha": "5b68982c4c083ff0f50ca4953c19382cdec4b48eba9add380fa7c62ac366c997", "t": "GestureState", "n": 808, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
 {"id": "/documentation/swiftui/openurlaction", "sha": "251714695f6a09b09cb7efc6c2b535e4662b8949b8563faefd533cdca9147d92", "t": "OpenURLAction", "n": 1701, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
 {"id": "/documentation/swiftui/shape/capsule(style:)", "sha": "6cb743030fdea88faca00334b2311e4391388a878eba5ef8e01929cbe7894466", "t": "capsule(style:)", "n": 221, "laws": 0, "ts": "2026-07-31 19:04 UTC"}
+{"id": "/documentation/uikit/uiaccessibility/directtouchoptions", "sha": "55026ded289ba688a198e33fc3c42adabb0f416cca268f3d204e907573c557e6", "t": "UIAccessibility.DirectTouchOptions", "n": 1066, "laws": 2, "ts": "2026-08-01 05:50 UTC"}
+{"id": "/documentation/uikit/uidynamicitembehavior/items", "sha": "a05d7b57f9006d7e5be7aafa5a70131d5218ee0c774b31edc8dd92b7d95f473c", "t": "items", "n": 89, "laws": 0, "ts": "2026-08-01 06:04 UTC"}
+{"id": "/documentation/uikit/uiscreen/main", "sha": "f9eb0e0e5db2e56cb3f03fa9895108f2c65da1253d992a77832b43000a8e79a5", "t": "main", "n": 348, "laws": 1, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/uikit/uiscreen/overscancompensation-swift.enum/insetbounds", "sha": "b7c04f62bcf85e824654bfcedcbb2b2a758fefc03ca2c260b88a4fb7b9cc5eb7", "t": "UIScreen.OverscanCompensation.insetBounds", "n": 102, "laws": 0, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/uikit/uiimage/orientation/downmirrored", "sha": "9dcc2e1e47056991493a25ba2e16a0d456cbe12f78e728782d0be60838fd5adb", "t": "UIImage.Orientation.downMirrored", "n": 318, "laws": 0, "ts": "2026-08-01 06:06 UTC"}

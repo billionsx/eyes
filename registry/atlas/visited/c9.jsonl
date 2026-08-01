@@ -110,3 +110,4 @@
 {"id": "/documentation/SwiftUI/UnitPoint3D", "sha": "02fb1285c574faa20ce9b58566b51eaf6cac2043bb41c705cd25d788a06008c3", "t": "UnitPoint3D", "n": 2731, "laws": 1, "ts": "2026-07-31 18:48 UTC"}
 {"id": "/documentation/swiftui/path/contains(_:eofill:)", "sha": "10935cd3a47ebf40a5595505a1414081fb7ecc37bcc794ffadecfa86a1e5ab52", "t": "contains(_:eoFill:)", "n": 195, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
 {"id": "/documentation/SwiftUI/View/appStoreOverlay(isPresented:configuration:)", "sha": "8677c88ec255cb40de1b0d8b0a59cbc121f6cb394230165b6309213ffb5626e1", "t": "appStoreOverlay(isPresented:configuration:)", "n": 385, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/uiscreen/brightnessdidchangemessage/init(screen:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(screen:)", "n": 0, "laws": 0, "ts": "2026-08-01 06:05 UTC"}

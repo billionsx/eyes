@@ -127,3 +127,7 @@
 {"id": "/documentation/photokit/image-request-identifiers", "sha": "15a46a8cc614626d3bede0b44616e15c08217986c2d82be93b21249ce04a4547", "t": "Image Request Identifiers", "n": 130, "laws": 0, "ts": "2026-07-31 18:45 UTC"}
 {"id": "/documentation/swiftui/path/init(_:)", "sha": "736b116ac355e46dba59fc455533c624dd8536a06228421ccf8623aa5587e9c3", "t": "init(_:)", "n": 75, "laws": 0, "ts": "2026-07-31 19:01 UTC"}
 {"id": "/documentation/swiftui/exclusivegesture", "sha": "7418e5d5038d2425a01cc0ac51ac58046cf7ef8ae6185a57bb41cc1ee4f287c4", "t": "ExclusiveGesture", "n": 225, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/uiresponder/motionended(_:with:)", "sha": "93e1aea50fbce1f89563d79c7001b41cb87c2365c159906cbd1b1d134dfe3772", "t": "motionEnded(_:with:)", "n": 377, "laws": 0, "ts": "2026-08-01 05:45 UTC"}
+{"id": "/documentation/uikit/uitraitforcetouchcapability-c.class", "sha": "ce2149dbef0c06d6d5205ab5f296f519b8ce42ae4fbf5f13d25a0ffaa3cb10a6", "t": "UITraitForceTouchCapability", "n": 57, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uigesturerecognizer/pressescancelled(_:with:)", "sha": "c1aae190c61c06b1be3532c820e564632a8ad9b3f51aec2bc98fda0dce0d0caf", "t": "pressesCancelled(_:with:)", "n": 729, "laws": 2, "ts": "2026-08-01 06:05 UTC"}
+{"id": "/documentation/uikit/uicontentunavailableconfigurationstate-c.class", "sha": "dafcb12a5408e06a2661eb6c0489980fc3e8867847d3eb8adaebba731ac78f5e", "t": "UIContentUnavailableConfigurationState", "n": 578, "laws": 0, "ts": "2026-08-01 06:10 UTC"}

@@ -121,3 +121,7 @@
 {"id": "/documentation/swiftui/scene/transformenvironment(_:transform:)", "sha": "188502c1e9d37da19d7dc428786b59590d66f24cb49e62cacce2317fb7919742", "t": "transformEnvironment(_:transform:)", "n": 83, "laws": 0, "ts": "2026-07-31 18:55 UTC"}
 {"id": "/documentation/swiftui/graphicscontext/drawlayer(content:)", "sha": "34f209a9bcd3794d275aedda0a350e3c4272915aade7e1f6d4b254d5b1cf7239", "t": "drawLayer(content:)", "n": 78, "laws": 0, "ts": "2026-07-31 18:56 UTC"}
 {"id": "/documentation/swiftui/emptycontent", "sha": "07d250b56c0997fdd10f53c3eb314b6d5b5fe14f5d9010c1415813b3b2683cff", "t": "EmptyContent", "n": 634, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/containstraits(in:)", "sha": "3443bf213f7825c0272f92c9f0296e0cae4570aac3578cf38b80d49175872e7b", "t": "containsTraits(in:)", "n": 414, "laws": 0, "ts": "2026-08-01 05:46 UTC"}
+{"id": "/documentation/uikit/uitextinput/position(within:atcharacteroffset:)", "sha": "528cd70a130a75bbdc77cd5ae7204d9d5b9b744857de87830c007b4f2814a475", "t": "position(within:atCharacterOffset:)", "n": 388, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
+{"id": "/documentation/uikit/uifloatrange", "sha": "a59473d722f1609868367a004fc497f264c76840193d2d7c26c19d7427fdd630", "t": "UIFloatRange", "n": 235, "laws": 0, "ts": "2026-08-01 06:03 UTC"}
+{"id": "/documentation/uikit/uilocalnotification/region", "sha": "f8d65705da23aa36164e6eefeb02c4817859be41336c0472ecf844505c101d54", "t": "region", "n": 977, "laws": 0, "ts": "2026-08-01 06:06 UTC"}

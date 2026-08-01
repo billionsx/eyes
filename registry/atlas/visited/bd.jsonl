@@ -100,3 +100,6 @@
 {"id": "/documentation/swiftui/shaperole", "sha": "a1ea20df077a14334862a924606105c366f0455faec0fa85e16d9282f2963bcd", "t": "ShapeRole", "n": 102, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/swiftui/view/accessibilityaction(intent:label:)", "sha": "fbf9a53e0b4771f66e52f97e1157badef526d2f79c0fccef1abb5ca7b224b566", "t": "accessibilityAction(intent:label:)", "n": 230, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
 {"id": "/documentation/swiftui/submitlabel", "sha": "463e94fe441110e9dff8ec017989a512d056e2e81f6cc28e2694014af5718ab4", "t": "SubmitLabel", "n": 282, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uiupdateinfo", "sha": "71eb81a181382bfa6b8eb7f93209f82e59d53a01a6e8e4096c36934d02fb82ea", "t": "UIUpdateInfo", "n": 878, "laws": 0, "ts": "2026-08-01 05:44 UTC"}
+{"id": "/documentation/uikit/uitextinput/unmarktext()", "sha": "2d880314b772f9d0a446bdd44cc65b3178bf574aa88a2d47a7a6a02658eced63", "t": "unmarkText()", "n": 95, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
+{"id": "/documentation/uikit/uicontrol/event/primaryactiontriggered", "sha": "08a47e4d880da5c78bfc660539ad81eb306058beee41fd2c38c0409a33513ded", "t": "primaryActionTriggered", "n": 39, "laws": 0, "ts": "2026-08-01 06:02 UTC"}

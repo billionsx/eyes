@@ -116,3 +116,7 @@
 {"id": "/documentation/SwiftUI/View/transform3DEffect(_:)", "sha": "ca1b8621415d09f035eab4fff0828bf2aa822f06f02d67d85c8225742e4d3426", "t": "transform3DEffect(_:)", "n": 305, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/color/gradient", "sha": "c8f26655bbe379fac5eda7169c66c1dcd5a3905b86264d00b659f92fdba6521e", "t": "gradient", "n": 146, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/remotedeviceidentifier", "sha": "222b3084b8e7c85692e44932e10afcdc86296794514881c67543d7648e423bd1", "t": "RemoteDeviceIdentifier", "n": 458, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/UIKit/positioning-content-relative-to-the-safe-area", "sha": "9eee6b9dfed093f11e8cfca7baa8814f75aaeac1fb11dcd0a50c1a64eba8b5c4", "t": "Positioning content relative to the safe area", "n": 2320, "laws": 3, "ts": "2026-08-01 06:01 UTC"}
+{"id": "/documentation/uikit/uitextcontenttype/birthdateyear", "sha": "bdd1344a41104081ffba8bfad6be671b6c49f49af878152d181007fc60391696", "t": "birthdateYear", "n": 94, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/uikit/textkit-string-attribute-keys", "sha": "61e66425160e843bacb83b56fdf623f27c41f3657c8dbb15af59ae8ec0a19018", "t": "TextKit string attribute keys", "n": 1572, "laws": 0, "ts": "2026-08-01 06:09 UTC"}
+{"id": "/documentation/uikit/uicontentunavailableconfiguration-c.class/button", "sha": "a2f146b116be1294d36cba13c693b1ff4e35c8c97cd5900531507afb34cd68fc", "t": "button", "n": 41, "laws": 0, "ts": "2026-08-01 06:10 UTC"}

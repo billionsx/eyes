@@ -116,3 +116,8 @@
 {"id": "/documentation/swiftui/hstacklayout/alignment", "sha": "b1d0beee10351920b81cb12b46810046f00a5c0491ef7d0ed9849b31d0d253c0", "t": "alignment", "n": 35, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
 {"id": "/documentation/swiftui/spring/damping", "sha": "d33142c769ab88b885b220f0859c434caa11ea4baabbf6d28eeae62299783658", "t": "damping", "n": 316, "laws": 1, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/swiftui/view/symboleffect(_:options:isactive:)", "sha": "0eef71fe063ff233173276cd6e1d3ec6ff9fa7ea654e017411ff8ccc6fb35757", "t": "symbolEffect(_:options:isActive:)", "n": 203, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/UIKit/UISceneConfiguration", "sha": "efcdbfa82b125f4580690258b5a95181bbb88aff1877516ea8edb6e4ddb38f3b", "t": "UISceneConfiguration", "n": 1117, "laws": 0, "ts": "2026-08-01 05:52 UTC"}
+{"id": "/documentation/uikit/uikeyboardappearance/alert", "sha": "e07ea0a31db0c33e56ee29c509fa28091cd92d234eb987fcd12529808a126a71", "t": "alert", "n": 60, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/uikit/uikeyboardtype/emailaddress", "sha": "50e0ab8e0d920ab4213276b40a17ae3df163a9b0914c88d54e277474deef88a8", "t": "UIKeyboardType.emailAddress", "n": 153, "laws": 0, "ts": "2026-08-01 06:06 UTC"}
+{"id": "/documentation/uikit/uitabbarcontroller/viewcontrollers", "sha": "a4c6c58a30fdecf53c4f5f602a353b104adbf7e2486b19e50cc31b41770e0687", "t": "viewControllers", "n": 1437, "laws": 1, "ts": "2026-08-01 06:10 UTC"}
+{"id": "/documentation/uikit/uicontentconfiguration-2raci", "sha": "d0fb115e7657af95ed2709fc5235154a500f176075b28612d73566a87c6e23ac", "t": "UIContentConfiguration", "n": 522, "laws": 0, "ts": "2026-08-01 06:10 UTC"}

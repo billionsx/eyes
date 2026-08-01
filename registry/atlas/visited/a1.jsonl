@@ -118,3 +118,9 @@
 {"id": "/documentation/swiftui/view/gridcellunsizedaxes(_:)", "sha": "bc0ba3ff646b6e287cc66c42c977fdb165b6788d4d59599b983f1d8d631486eb", "t": "gridCellUnsizedAxes(_:)", "n": 818, "laws": 0, "ts": "2026-07-31 18:57 UTC"}
 {"id": "/documentation/swiftui/fetchrequest/update()", "sha": "a16e040591c16daa2ef7f6279177b38c38134bf0a93a3bbea2a75e39cb17b458", "t": "update()", "n": 152, "laws": 0, "ts": "2026-07-31 18:58 UTC"}
 {"id": "/documentation/swiftui/keyboardshortcut", "sha": "ed66f710010ceb8b83af169d92beaa848eefe1b931b8d1bde0cccd89939427e7", "t": "KeyboardShortcut", "n": 356, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uifeedbackgenerator", "sha": "5a05788895df6554b0c0b9228a6e733d1afb3f890ab216b68c1a6e75ad2f2d5f", "t": "UIFeedbackGenerator", "n": 765, "laws": 0, "ts": "2026-08-01 05:43 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/init(_:value:)-59di1", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:value:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:47 UTC"}
+{"id": "/documentation/uikit/uiresponderstandardeditactions/move(_:)", "sha": "c9d9f4f5652fc3ede8e7ba6c15868389d7cb166be6a30f9ff12e0d4d20bdc8bd", "t": "move(_:)", "n": 75, "laws": 0, "ts": "2026-08-01 05:50 UTC"}
+{"id": "/documentation/uikit/uitraitdisplaygamut-c.class", "sha": "0cf70b2654b85f0439139152ab8a573adb7cf2fb703e2af2f10f060fe103409d", "t": "UITraitDisplayGamut", "n": 48, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uiwebview/paginationmode-swift.property", "sha": "dc9b6fe7e3733c1db8f09022bea2c8834b103883698ce37182884e0b5c925704", "t": "paginationMode", "n": 415, "laws": 1, "ts": "2026-08-01 06:00 UTC"}
+{"id": "/documentation/uikit/uiview/contentmode-swift.enum/redraw", "sha": "8b5932417a65e14df72bbe69c1f72af2c180feb6a230dc7253cc89a5a8b1130e", "t": "UIView.ContentMode.redraw", "n": 79, "laws": 0, "ts": "2026-08-01 06:05 UTC"}

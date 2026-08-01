@@ -120,3 +120,7 @@
 {"id": "/documentation/swiftui/view/importsitemproviders(_:onimport:)", "sha": "a53f765a32ce4ecd799fe85d28e3d699af74c839bc82c84ba27ffc7e35aef46d", "t": "importsItemProviders(_:onImport:)", "n": 83, "laws": 0, "ts": "2026-07-31 18:59 UTC"}
 {"id": "/documentation/swiftui/view/tag(_:includeoptional:)", "sha": "4f151e3bdfe2219de2102b49f0196f41734602c1171c0a9d7e5af514eb34d38e", "t": "tag(_:includeOptional:)", "n": 1321, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
 {"id": "/documentation/swiftui/spring/settlingduration", "sha": "ca539bc250a3b67d82b93931ded7233c57e1500d45e0b9e3ce8f2684f8972673", "t": "settlingDuration", "n": 139, "laws": 1, "ts": "2026-07-31 19:04 UTC"}
+{"id": "/design/Human-Interface-Guidelines/pointing-devices", "sha": "37abab5537e795eb8bd7cb578059112e892e249f63b3695cd6396b6470e4eeda", "t": "Pointing devices", "n": 14295, "laws": 10, "ts": "2026-08-01 05:42 UTC"}
+{"id": "/documentation/UIKit/UIAccessibility/Notification/pageScrolled", "sha": "65fdf7efd4b3535a9d223fbf1a7dfe0cea6d6219313b7e09880eeb09bf1a2f90", "t": "pageScrolled", "n": 742, "laws": 1, "ts": "2026-08-01 05:49 UTC"}
+{"id": "/documentation/uikit/axrectreturnblock", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "AXRectReturnBlock", "n": 0, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
+{"id": "/documentation/uikit/uipushbehavior/angle", "sha": "a8c9b2658d689027a6689a84c115289ed93b73f958dfa9f0cffdcab9f6ed5909", "t": "angle", "n": 412, "laws": 0, "ts": "2026-08-01 06:04 UTC"}

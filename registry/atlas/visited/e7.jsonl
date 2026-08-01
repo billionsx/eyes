@@ -123,3 +123,7 @@
 {"id": "/documentation/swiftui/view/accessibilityheading(_:)", "sha": "73b4d2b7600c18c2cb443c28b2a5a46bd7fd7add587e585b9f1aa089d8bd97af", "t": "accessibilityHeading(_:)", "n": 276, "laws": 0, "ts": "2026-07-31 19:08 UTC"}
 {"id": "/documentation/swiftui/view/widgetlabel(label:)", "sha": "043f7f1e63c8a597804e6a3215591a8575f93d109694764ab62a47c992bc46bb", "t": "widgetLabel(label:)", "n": 1174, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
 {"id": "/documentation/swiftui/anygesture", "sha": "a549f4ff2aa1f4ba4dc2ff7862a31710dd3e122fd6e88e91de9df86f27fd83f7", "t": "AnyGesture", "n": 65, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/init(horizontalsizeclass:)", "sha": "0809b19ce8c83696a3f75d28e6072ea4c517de379acbeb7a9cf57441ae514ab6", "t": "init(horizontalSizeClass:)", "n": 176, "laws": 0, "ts": "2026-08-01 05:47 UTC"}
+{"id": "/documentation/uikit/uiscenewindowingbehaviors/isclosable", "sha": "71109ba2668ff95999d1f3258ff273e78903010046bbc5b41852b80ecd2f8c51", "t": "isClosable", "n": 75, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uimenu/identifier-swift.struct/textstyle", "sha": "1f07fa077d01a7eeb7b99608a8dbe68fe97d31f7d6a38fcfdc68077db9bbea12", "t": "textStyle", "n": 20, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/uikit/nswritingdirectionformattype/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 06:09 UTC"}

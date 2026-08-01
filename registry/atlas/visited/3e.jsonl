@@ -124,3 +124,5 @@
 {"id": "/documentation/swiftui/shapestyle/clear", "sha": "1d5e267704fcda3fdf9528617a14c47c0d1afbe16091da527864c40962765c82", "t": "clear", "n": 46, "laws": 1, "ts": "2026-07-31 18:57 UTC"}
 {"id": "/documentation/swiftui/shape/subtracting(_:eofill:)", "sha": "6f40a6af5dfbfdcb4587c3026d4f7eda6a89e3b168be1bd04eff2fff9abfd559", "t": "subtracting(_:eoFill:)", "n": 403, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/swiftui/shape/trim(from:to:)", "sha": "a7476da395fb12c64332704014fb55286397831cb9baf86c5eeb68f65bbfb4b3", "t": "trim(from:to:)", "n": 838, "laws": 1, "ts": "2026-07-31 19:05 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/activationaction/configurationprovider", "sha": "28bddc5ef1ae715f5299370cb9e2eaa9231d422c5c9d282caffb406408654aeb", "t": "UIWindowScene.ActivationAction.ConfigurationProvider", "n": 183, "laws": 0, "ts": "2026-08-01 05:55 UTC"}
+{"id": "/documentation/uikit/uitextinput/compare(_:to:)", "sha": "b56407f0dea4b9dfa7f15fe371fecd1d714f0213079311f6c0db3a6a1fa8b95f", "t": "compare(_:to:)", "n": 184, "laws": 0, "ts": "2026-08-01 05:59 UTC"}

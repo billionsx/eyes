@@ -120,3 +120,7 @@
 {"id": "/documentation/swiftui/ornamenthovercontenteffect", "sha": "bedabd82760a3095c408617de463b7af924bb3bbc63efb86d59c0fc9d684d246", "t": "OrnamentHoverContentEffect", "n": 133, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
 {"id": "/documentation/swiftui/view/touchbarcustomizationlabel(_:)", "sha": "997fa314b457900e1288bce359cf926aa3154df8134ca147f3005ba5f6c243aa", "t": "touchBarCustomizationLabel(_:)", "n": 200, "laws": 0, "ts": "2026-07-31 19:11 UTC"}
 {"id": "/documentation/swiftui/alignmentid", "sha": "a507629eeb3e3315f1829a377b4db4e78468e08f6ef2de3cc3b379fc1902d083", "t": "AlignmentID", "n": 1813, "laws": 2, "ts": "2026-07-31 19:11 UTC"}
+{"id": "/documentation/uikit/uitextalignment", "sha": "31c3b9d6c8f8f1b8892441944dca0b4a0ada46c80b61951b014c210aa198587a", "t": "UITextAlignment", "n": 129, "laws": 0, "ts": "2026-08-01 05:43 UTC"}
+{"id": "/documentation/uikit/uiresponder/pencilkitresponderstate", "sha": "12264435186318f653b59c4e4409546ed897519ee67ab88c87cb6ec4f8558c78", "t": "pencilKitResponderState", "n": 136, "laws": 0, "ts": "2026-08-01 05:45 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/init(verticalsizeclass:)", "sha": "7390325c0ec1016c2ae07ee30fbebc2fa0e63ce964efab11fc2008eb0cf19ddf", "t": "init(verticalSizeClass:)", "n": 172, "laws": 0, "ts": "2026-08-01 05:47 UTC"}
+{"id": "/documentation/uikit/uiwindowscene/resizingrestrictions/uniform", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UIWindowScene.ResizingRestrictions.uniform", "n": 0, "laws": 0, "ts": "2026-08-01 05:56 UTC"}

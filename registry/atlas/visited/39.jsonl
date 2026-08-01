@@ -103,3 +103,9 @@
 {"id": "/documentation/swiftui/view/tipbackground(_:)", "sha": "bd6e5426d28ba99302fc4d36f4e87d98d61efbc2483817cc92f3c5dafe1d57a5", "t": "tipBackground(_:)", "n": 107, "laws": 0, "ts": "2026-07-31 19:00 UTC"}
 {"id": "/documentation/SwiftUI/SensoryFeedback", "sha": "000d9a442cfa30425e99837c2a5e9f37673ad8f10fdb387172dbd1b75981b548", "t": "SensoryFeedback", "n": 658, "laws": 0, "ts": "2026-07-31 19:07 UTC"}
 {"id": "/documentation/swiftui/nshostingsizingoptions", "sha": "38e79e8e91e1c9a5536c9e8053c44d095af5be5c8613c317a27f96a332fe22dd", "t": "NSHostingSizingOptions", "n": 262, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
+{"id": "/documentation/walletpasses/semantictagtype/location-data.dictionary", "sha": "a2b0b65d6ab2672dc62bf1d7ae758c0e4e1529bfa1616cb44c94152fba23adcc", "t": "SemanticTagType.Location", "n": 109, "laws": 0, "ts": "2026-08-01 05:42 UTC"}
+{"id": "/documentation/uikit/uiuserinterfaceactiveappearance", "sha": "db90650ed775e13f6b1dc6bc2b23b01a05323eb922289f86877172140eea5cbb", "t": "UIUserInterfaceActiveAppearance", "n": 249, "laws": 0, "ts": "2026-08-01 05:49 UTC"}
+{"id": "/documentation/uikit/uioffset/zero", "sha": "b0a2fcca13799562de3d16331ddeaab9b7ae5245d71c64718c1b8a99630bd5d3", "t": "zero", "n": 151, "laws": 0, "ts": "2026-08-01 05:53 UTC"}
+{"id": "/documentation/uikit/uititlebar/toolbarstyle", "sha": "ea328965123d285ee8798252f565709e92d40d72db55fe5f67f5777437aa74d6", "t": "toolbarStyle", "n": 127, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uititlebartitlevisibility", "sha": "aa50a8c8ae8e37e755961646b2053a3cab0cf881fa1f11308b2428b642c59e3a", "t": "UITitlebarTitleVisibility", "n": 186, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uitextinputtraits/conversationcontext", "sha": "7a494c9007b21a8eea0224150c72325a3e0e55fe06973bcca98ad5557da1a41f", "t": "conversationContext", "n": 352, "laws": 0, "ts": "2026-08-01 06:08 UTC"}

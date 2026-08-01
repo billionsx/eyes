@@ -2,7 +2,7 @@
  "url": "https://www.apple.com/us-edu/shop/buy-iphone/iphone-16",
  "sections": [],
  "modules": [],
- "imgs": 139,
+ "imgs": 159,
  "videos": 0,
  "cta": 85,
  "h_levels": {
@@ -14,7 +14,7 @@
   "https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-globalelements-2.25.0-4bbf8/dist/ac-globalnav.css",
   "https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-external-1.74.1-85ac2/dist/us/external.css",
   "https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-vendor-1.36.0-38108/dist/common-css@1.3.3/dist/common.css",
-  "https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-iphone-2.40.1-f2668/dist/step1evolution.css",
+  "https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-iphone-2.40.2-9a249/dist/step1evolution.css",
   "https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/Catalog/global/css/dd/buy-flow/iphone.css",
   "https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/Catalog/global/css/web/fee/buy-flow/iphone/as-iphone-16.css"
  ],

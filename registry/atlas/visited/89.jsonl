@@ -117,3 +117,7 @@
 {"id": "/documentation/SwiftUI/View-Accessibility", "sha": "e1729d6e8edb8e66d99424082d9653ccaa0a2420197318e0f7cec1894194c1c6", "t": "Accessibility modifiers", "n": 3307, "laws": 1, "ts": "2026-07-31 19:07 UTC"}
 {"id": "/documentation/swiftui/asyncimagephase", "sha": "5cb4b589ca22c5b5e76e1267e75ba09aaca46b568c4cca8c568d47caf5f0f43f", "t": "AsyncImagePhase", "n": 606, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
 {"id": "/documentation/swiftui/symbolvariablevaluemode", "sha": "cdf89444cca4895c893a4a64cc946635dc58f0261c10b7d5a6c5317f039d64e7", "t": "SymbolVariableValueMode", "n": 91, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/subscript(_:)-6cdgq", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "subscript(_:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:48 UTC"}
+{"id": "/documentation/uikit/uiscreenshotservice/windowscene", "sha": "5e47df59b68ac23cea8f48a439fa0904051507663e3535c712f073b0e122a3f3", "t": "windowScene", "n": 163, "laws": 0, "ts": "2026-08-01 05:54 UTC"}
+{"id": "/documentation/uikit/uitextinput/beginningofdocument", "sha": "df39b90d26c6dba7a3264a3e7faccaa0a42f8702616a4a5b0ee4b4ba159eea3e", "t": "beginningOfDocument", "n": 50, "laws": 0, "ts": "2026-08-01 05:58 UTC"}
+{"id": "/documentation/uikit/nsdefaulttabintervaldocumentattribute", "sha": "80a0cd31872029d48f369e150a73306a3930b9356cecd9e27cfd011d4d8ca531", "t": "NSDefaultTabIntervalDocumentAttribute", "n": 229, "laws": 0, "ts": "2026-08-01 06:08 UTC"}

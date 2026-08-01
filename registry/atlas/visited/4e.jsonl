@@ -116,3 +116,5 @@
 {"id": "/documentation/swiftui/shape/rect(corners:isuniform:)", "sha": "04e72d885fadb6a7766a4ff49992852f40f488d2e10ea5d983c2975dccbbc29e", "t": "rect(corners:isUniform:)", "n": 475, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/swiftui/shape/sizethatfits(_:)", "sha": "eb7af4eb47a5a8e48fe449c8d81dec179cb4a3aa7ca03b7e686bc95847c9b239", "t": "sizeThatFits(_:)", "n": 368, "laws": 0, "ts": "2026-07-31 19:05 UTC"}
 {"id": "/documentation/swiftui/toolbardefaultitemkind", "sha": "de0e4afde953e140aa42af447b706143977389a1344ce8eb9ef2d295158771cd", "t": "ToolbarDefaultItemKind", "n": 363, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
+{"id": "/documentation/uikit/uiwindowscenegeometrypreferencesvision/minimumsize", "sha": "65a180b82e179e04d926708595e8ba374aeba65c1c8c874403d9cec29b5d04e5", "t": "minimumSize", "n": 175, "laws": 0, "ts": "2026-08-01 05:56 UTC"}
+{"id": "/documentation/uikit/uiwindowsceneresizingrestrictions/unspecified", "sha": "fd0da549388a809920a6448cf1489e1fe165ea8c09995e985bc385ed92453b27", "t": "UIWindowSceneResizingRestrictions.unspecified", "n": 36, "laws": 0, "ts": "2026-08-01 05:56 UTC"}

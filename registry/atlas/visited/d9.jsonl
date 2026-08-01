@@ -115,3 +115,7 @@
 {"id": "/documentation/swiftui/viewmodifier/animation(_:)", "sha": "ddf9a368e54aa8663bcba14739c92942141395b796667f024fd8696ec1a05e43", "t": "animation(_:)", "n": 99, "laws": 0, "ts": "2026-07-31 18:51 UTC"}
 {"id": "/documentation/swiftui/view/sensoryfeedback(_:trigger:)", "sha": "c93dd391617f610d4766a612efe344f032e503bf1fd2f21998ab86a0e34467b9", "t": "sensoryFeedback(_:trigger:)", "n": 131, "laws": 0, "ts": "2026-07-31 19:09 UTC"}
 {"id": "/documentation/swiftui/movecommanddirection", "sha": "6eccd545703a2a902fce2d70e6dddf0dcb14034017e87b0e0e0c6d78fd185b59", "t": "MoveCommandDirection", "n": 191, "laws": 0, "ts": "2026-07-31 19:10 UTC"}
+{"id": "/documentation/uikit/uitraitcollection/subscript(_:)-5wwet", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "subscript(_:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:48 UTC"}
+{"id": "/documentation/uikit/uiactivityitemsconfiguration/activityitemsconfigurationwithobjects:", "sha": "f35f03c24cb8c2a6934ae999da838e49d7b7ab3b36c24fb16d58af6da1cb28cd", "t": "activityItemsConfigurationWithObjects:", "n": 67, "laws": 0, "ts": "2026-08-01 06:02 UTC"}
+{"id": "/documentation/uikit/uitextcontenttype/datetime", "sha": "ecf70cb4b5264a220185bb48226443ed3505f91a195acc2d8728c6a8c7892d18", "t": "dateTime", "n": 86, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
+{"id": "/documentation/uikit/uitextcontenttype/familyname", "sha": "c9c84e40cea0011a885e6ff765c5127e3c4bc1a93cde685dd42d0f9df23c9b57", "t": "familyName", "n": 88, "laws": 0, "ts": "2026-08-01 06:07 UTC"}

@@ -105,3 +105,7 @@
 {"id": "/documentation/SwiftUI/View/aspectRatio(_:contentMode:)-771ow", "sha": "90b944d6885ecb4a1ae16752d03ec37d1502d04e31d9f1ab42fc06b5f51be36f", "t": "aspectRatio(_:contentMode:)", "n": 433, "laws": 0, "ts": "2026-07-31 19:03 UTC"}
 {"id": "/documentation/SwiftUI/View/handGestureShortcut(_:isEnabled:)", "sha": "5182212d69ba8cf00b6f84c7bc649c7c42e0e83c49b3eaa11ae4bd0ac4d06b44", "t": "handGestureShortcut(_:isEnabled:)", "n": 476, "laws": 0, "ts": "2026-07-31 19:06 UTC"}
 {"id": "/documentation/swiftui/emptycontrolwidgettemplate", "sha": "98d6d2274cd7cf5882e9e6bbd3cf560835230bc655408e463639a088f4bb89cc", "t": "EmptyControlWidgetTemplate", "n": 57, "laws": 0, "ts": "2026-07-31 19:08 UTC"}
+{"id": "/documentation/uikit/nsshadow", "sha": "69e765a504e6d93b4754e479805bff4d5cf33431307d0e6e956003792e95cc9d", "t": "NSShadow", "n": 1585, "laws": 3, "ts": "2026-08-01 05:43 UTC"}
+{"id": "/documentation/uikit/uiwindowscenegeometrypreferencesvision/resizingrestrictions", "sha": "a51ff63d489c5c1c24ba876958aa35f09aed17da91d9ba9fbdb2254f34340db8", "t": "resizingRestrictions", "n": 91, "laws": 0, "ts": "2026-08-01 05:56 UTC"}
+{"id": "/documentation/uikit/uiattachmentbehavior/frequency", "sha": "659620ef0d3c4c98e60de251a41b748b74305d1fc453bbc3c6f93b440c81aca3", "t": "frequency", "n": 57, "laws": 0, "ts": "2026-08-01 06:03 UTC"}
+{"id": "/documentation/uikit/uicontentunavailableconfiguration-swift.struct/secondarytext", "sha": "2173aa99f5af5ccf4ccb06e6dfad8937945fbf9dbd05c715ca40f7e158b6ea04", "t": "secondaryText", "n": 30, "laws": 0, "ts": "2026-08-01 06:11 UTC"}
