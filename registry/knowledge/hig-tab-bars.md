@@ -1,7 +1,7 @@
 # знание · `hig-tab-bars`
 Источник: https://developer.apple.com/design/human-interface-guidelines/tab-bars
 Домены мандата: динамичные-меню, архитектура-приложений
-Нормативных положений: 22 (детерминированная выжимка, не пересказ)
+Нормативных положений: 23 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -22,6 +22,7 @@
 - A tab bar provides access to the sections of your app that people use most.
 - In apps with a lot of sections that people might want to access, it can be useful to let people select items that they use frequently and add them to the tab bar, or remove items that they use less frequently.
 - When people use the remote to focus on the tab bar, the selected tab includes a drop shadow that emphasizes its selected state.
+- The height of a tab bar is 68 points, and its top edge is 46 points from the top of the screen; you can’t change either of these values.
 - Regardless of a tab’s contents, focus always returns to the tab bar at the top of the page when people press Menu on the remote.
 - In visionOS, a tab bar is always vertical, floating in a position that’s fixed relative to the window’s leading side.
 - A tab’s symbol is always visible in the tab bar.

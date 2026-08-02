@@ -1,7 +1,7 @@
 # знание · `hig-layout`
 Источник: https://developer.apple.com/design/human-interface-guidelines/layout
 Домены мандата: расстояния, минимализм, кроссплатформенность
-Нормативных положений: 42 (детерминированная выжимка, не пересказ)
+Нормативных положений: 43 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -36,6 +36,7 @@
 - Avoid placing controls or critical information at the bottom of a window.
 - Avoid displaying content within the camera housing at the top edge of the window.
 - On Apple TV, layouts don’t automatically adapt to the size of the screen like they do on iPhone or iPad.
+- Inset primary content 60 points from the top and bottom of the screen, and 80 points from the sides.
 - When you use UIKit and the focus APIs, an element gets bigger when it comes into focus.
 - Consider how elements look when they’re focused, and make sure you don’t let them overlap important information.
 - Be sure to use appropriate spacing between unfocused rows and columns to prevent overlap when an item comes into focus.

@@ -1,14 +1,13 @@
 # знание · `hig-live-activities`
 Источник: https://developer.apple.com/design/human-interface-guidelines/live-activities
 Домены мандата: динамические-острова
-Нормативных положений: 69 (детерминированная выжимка, не пересказ)
+Нормативных положений: 70 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
 - As a result, your Live Activity must support: In iOS and iPadOS, your Live Activity appears throughout the system using these presentations.
 - In this presentation, use a layout similar to the expanded presentation.
 - When you alert people about Live Activity updates on devices that don’t support the Dynamic Island, the Lock Screen presentation briefly appears as a banner that overlays the Home Screen or other apps.
-- When someone taps it, it transitions to the Lock Screen presentation, scaled up by 2x to fill the screen.
 - Live Activities work best for tracking short to medium duration activities that don’t exceed eight hours.
 - Don’t use a Live Activity to display ads or promotions .
 - Avoid displaying sensitive information.
@@ -64,6 +63,7 @@
 - If you use a custom background color, choose a color that works well in both modes or a different color for each appearance.
 - Verify your choices on a device with an Always-On display with reduced luminance because the system adapts colors as needed in this appearance.
 - Use standard margins to align your design with notifications.
+- The standard layout margin for Live Activities on the Lock Screen is 14 points.
 - While tighter margins may be appropriate for elements like graphics or buttons, avoid crowding the edges and creating a cluttered appearance.
 - Make sure assets look great at the larger scale, and consider creating a custom layout that makes use of the extra space.
 - Use standard margins and avoid extending graphic elements to the edge of the screen.
@@ -72,5 +72,6 @@
 - Use space in the Smart Stack as efficiently as possible and think of the most useful information that a Live Activity can convey: Progress, like the estimated arrival time of a delivery Interactive elements, like stopwatch or timer controls Significant updates, like sports score changes
 - When you design your Live Activities, use the following values for guidance.
 - Use the listed values to verify your design: Test your designs with the CarPlay simulator and the following configurations for Smart Display Zoom — available in in Settings > Display in CarPlay:
+- The Dynamic Island uses a corner radius of 44 points, and its rounded corner shape matches the TrueDepth camera.
 - Use the provided iOS dimensions.
 - Live Activities in the Smart Stack use the same dimensions as watchOS widgets.

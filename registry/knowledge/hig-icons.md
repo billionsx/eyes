@@ -1,7 +1,7 @@
 # знание · `hig-icons`
 Источник: https://developer.apple.com/design/human-interface-guidelines/icons
 Домены мандата: иконки
-Нормативных положений: 28 (детерминированная выжимка, не пересказ)
+Нормативных положений: 31 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -25,11 +25,14 @@
 - provides a template you can use to create a custom background fill and center image for a document icon.
 - As you use this template, follow the guidelines below.
 - Whether you use a background fill, a center image, or both, prefer uncomplicated shapes and a reduced palette of distinct colors.
+- Your document icon can display as small as 16x16 px, so you want to create designs that remain recognizable at every size.
 - For example, Xcode and TextEdit both use rich background images that don’t include a center image.
 - For example, to ensure that the grid lines in the custom heart document icon remain clear in intermediate sizes, you might use fewer lines and thicken them by aligning them to the reduced pixel grid.
+- In the 16x16 px size, you might remove the lines altogether.
 - Avoid placing important content in the top-right corner of your background fill.
 - 512x512 px @1x, 1024x1024 px @2x 256x256 px @1x, 512x512 px @2x 128x128 px @1x, 256x256 px @2x 32x32 px @1x, 64x64 px @2x 16x16 px @1x, 32x32 px @2x If a familiar object can convey a document’s type or its connection with your app, consider creating a center image that depicts it.
 - For example, to create a center image for a 32x32 px document icon, use an image canvas that measures 16x16 px.
 - You can provide center images in the following sizes: 256x256 px @1x, 512x512 px @2x 128x128 px @1x, 256x256 px @2x 32x32 px @1x, 64x64 px @2x 16x16 px @1x, 32x32 px @2x Define a margin that measures about 10% of the image canvas and keep most of the image within it.
 - Although parts of the image can extend into this margin for optical alignment, it’s best when the image occupies about 80% of the image canvas.
+- For example, most of the center image in a 256x256 px canvas would fit in an area that measures 205x205 px.
 - The system automatically scales the extension text to fit in the document icon, so be sure to use a term that’s short enough to be legible at small sizes.

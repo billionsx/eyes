@@ -1,7 +1,7 @@
 # знание · `hig-buttons`
 Источник: https://developer.apple.com/design/human-interface-guidelines/buttons
 Домены мандата: плашки, капсулы
-Нормативных положений: 58 (детерминированная выжимка, не пересказ)
+Нормативных положений: 59 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -41,6 +41,7 @@
 - Use an image button in a view, not in the window frame.
 - For example, avoid placing an image button in a toolbar or status bar.
 - If you need to use an image as a button in a toolbar, use a toolbar item.
+- Include about 10 pixels of padding between the edges of the image and the button edges.
 - In general, avoid including a system-provided border in an image button; for developer guidance, see .
 - visionOS buttons use different visual styles to communicate four different interaction states.
 - In visionOS, buttons don’t support custom hover effects.

@@ -1,7 +1,7 @@
 # знание · `hig-typography`
 Источник: https://developer.apple.com/design/human-interface-guidelines/typography
 Домены мандата: кернинг, шрифты
-Нормативных положений: 54 (детерминированная выжимка, не пересказ)
+Нормативных положений: 50 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -55,7 +55,3 @@
 - If you don’t rotate text to remain facing the wearer, the text can become impossible to read because people may view it from the side or a highly oblique angle.
 - SF Compact is the system font in watchOS, and apps can also use NY.
 - In SwiftUI, use the modifier; in UIKit, use in the API.
-- Point size based on image resolution of 144 ppi for @2x designs.
-- Point size based on image resolution of 72 ppi for @1x and 144 ppi for @2x designs.
-- Point size based on image resolution of 144 ppi for @2x and 216 ppi for @3x designs.
-- Point size based on image resolution of 144 ppi for @2x and 216 ppi for @3x designs.

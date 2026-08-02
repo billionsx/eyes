@@ -1,7 +1,7 @@
 # знание · `hig-wallet`
 Источник: https://developer.apple.com/design/human-interface-guidelines/wallet
 Домены мандата: apple-wallet
-Нормативных положений: 71 (детерминированная выжимка, не пересказ)
+Нормативных положений: 70 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -31,7 +31,6 @@
 - The poster generic pass style features a full background image and a pass field layout distinct from other pass styles, offering a flexible option that supports a wide range of use cases.
 - It’s not tied to a specific category, so you can use it whenever another pass style doesn’t fit.
 - The generic style is for passes that don’t fit the other categories, such as a gym membership card or coat-check claim ticket.
-- Create pass images in PNG format in @2x and @3x format.
 - Embedded text isn’t accessible and may not be visible if images don’t display on all devices.
 - For text information, use text fields and semantic tags instead.
 - Use Pass Designer or corresponding APIs to add barcodes rather than embedding them in pass images.

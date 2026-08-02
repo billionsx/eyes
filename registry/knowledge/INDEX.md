@@ -34,7 +34,7 @@
 - [`hig-apple-pay`](hig-apple-pay.md) · положений: 74
 
 ## apple-wallet
-- [`hig-wallet`](hig-wallet.md) · положений: 71
+- [`hig-wallet`](hig-wallet.md) · положений: 70
 
 ## apple-watch
 - [`hig-designing-watchos`](hig-designing-watchos.md) · положений: 8
@@ -75,7 +75,7 @@
 - [`reality-composer-pro`](reality-composer-pro.md) · положений: 1
 
 ## анимация
-- [`hig-accessibility`](hig-accessibility.md) · положений: 53
+- [`hig-accessibility`](hig-accessibility.md) · положений: 55
 - [`hig-motion`](hig-motion.md) · положений: 16
 - [`hig-progress-indicators`](hig-progress-indicators.md) · положений: 9
 - [`swiftui-animation`](swiftui-animation.md) · положений: 0
@@ -87,7 +87,7 @@
 
 ## архитектура-приложений
 - [`hig-navigation-bars`](hig-navigation-bars.md) · положений: 34
-- [`hig-tab-bars`](hig-tab-bars.md) · положений: 22
+- [`hig-tab-bars`](hig-tab-bars.md) · положений: 23
 
 ## бейджи
 - [`app-store-marketing`](app-store-marketing.md) · положений: 108
@@ -110,7 +110,7 @@
 - [`hig-charting-data`](hig-charting-data.md) · положений: 14
 
 ## динамика
-- [`hig-accessibility`](hig-accessibility.md) · положений: 53
+- [`hig-accessibility`](hig-accessibility.md) · положений: 55
 - [`swiftui-animation`](swiftui-animation.md) · положений: 0
 - [`swiftui-spring`](swiftui-spring.md) · положений: 1
 
@@ -118,15 +118,15 @@
 - [`hig-app-icons`](hig-app-icons.md) · положений: 30
 
 ## динамические-острова
-- [`hig-live-activities`](hig-live-activities.md) · положений: 69
-- [`hig-widgets`](hig-widgets.md) · положений: 75
+- [`hig-live-activities`](hig-live-activities.md) · положений: 70
+- [`hig-widgets`](hig-widgets.md) · положений: 77
 
 ## динамичные-меню
 - [`hig-menus`](hig-menus.md) · положений: 32
-- [`hig-tab-bars`](hig-tab-bars.md) · положений: 22
+- [`hig-tab-bars`](hig-tab-bars.md) · положений: 23
 
 ## доступность
-- [`hig-accessibility`](hig-accessibility.md) · положений: 53
+- [`hig-accessibility`](hig-accessibility.md) · положений: 55
 
 ## жесты
 - [`hig-gestures`](hig-gestures.md) · положений: 39
@@ -137,7 +137,7 @@
 ## иконки
 - [`design-resources`](design-resources.md) · положений: 10
 - [`hig-app-icons`](hig-app-icons.md) · положений: 30
-- [`hig-icons`](hig-icons.md) · положений: 28
+- [`hig-icons`](hig-icons.md) · положений: 31
 - [`icon-composer`](icon-composer.md) · положений: 2
 - [`sf-symbols`](sf-symbols.md) · положений: 4
 - [`sf-symbols-8`](sf-symbols-8.md) · положений: 4
@@ -149,11 +149,11 @@
 - [`reality-composer-pro`](reality-composer-pro.md) · положений: 1
 
 ## капсулы
-- [`hig-buttons`](hig-buttons.md) · положений: 58
+- [`hig-buttons`](hig-buttons.md) · положений: 59
 
 ## кернинг
 - [`fonts`](fonts.md) · положений: 45
-- [`hig-typography`](hig-typography.md) · положений: 54
+- [`hig-typography`](hig-typography.md) · положений: 50
 
 ## кинетика
 - [`hig-motion`](hig-motion.md) · положений: 16
@@ -169,9 +169,9 @@
 - [`hig-designing-for-macos`](hig-designing-for-macos.md) · положений: 5
 - [`hig-designing-for-tvos`](hig-designing-for-tvos.md) · положений: 1
 - [`hig-designing-watchos`](hig-designing-watchos.md) · положений: 8
-- [`hig-layout`](hig-layout.md) · положений: 42
+- [`hig-layout`](hig-layout.md) · положений: 43
 - [`hig-split-views`](hig-split-views.md) · положений: 18
-- [`hig-widgets`](hig-widgets.md) · положений: 75
+- [`hig-widgets`](hig-widgets.md) · положений: 77
 - [`technologies`](technologies.md) · положений: 1
 
 ## маркетинг
@@ -186,7 +186,7 @@
 - [`hig-toolbars`](hig-toolbars.md) · положений: 34
 
 ## минимализм
-- [`hig-layout`](hig-layout.md) · положений: 42
+- [`hig-layout`](hig-layout.md) · положений: 43
 
 ## многослойность
 - [`hig-materials`](hig-materials.md) · положений: 32
@@ -206,7 +206,7 @@
 - [`hig-toolbars`](hig-toolbars.md) · положений: 34
 
 ## плашки
-- [`hig-buttons`](hig-buttons.md) · положений: 58
+- [`hig-buttons`](hig-buttons.md) · положений: 59
 
 ## ползунки
 - [`hig-sliders`](hig-sliders.md) · положений: 16
@@ -232,7 +232,7 @@
 - [`hig-materials`](hig-materials.md) · положений: 32
 
 ## расстояния
-- [`hig-layout`](hig-layout.md) · положений: 42
+- [`hig-layout`](hig-layout.md) · положений: 43
 
 ## рейтинги
 - [`app-review-guidelines`](app-review-guidelines.md) · положений: 120
@@ -289,12 +289,12 @@
 ## шрифты
 - [`design-resources`](design-resources.md) · положений: 10
 - [`fonts`](fonts.md) · положений: 45
-- [`hig-typography`](hig-typography.md) · положений: 54
+- [`hig-typography`](hig-typography.md) · положений: 50
 
 ## эталоны
 - [`design-awards`](design-awards.md) · положений: 13
 
 ## эффекты
-- [`hig-accessibility`](hig-accessibility.md) · положений: 53
+- [`hig-accessibility`](hig-accessibility.md) · положений: 55
 - [`hig-motion`](hig-motion.md) · положений: 16
 

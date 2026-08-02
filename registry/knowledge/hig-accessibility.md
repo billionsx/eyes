@@ -1,7 +1,7 @@
 # знание · `hig-accessibility`
 Источник: https://developer.apple.com/design/human-interface-guidelines/accessibility
 Домены мандата: динамика, эффекты, анимация, доступность
-Нормативных положений: 53 (детерминированная выжимка, не пересказ)
+Нормативных положений: 55 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -27,6 +27,8 @@
 - In iOS and iPadOS, you can also use and to let people experience music and infographics through vibration and texture.
 - Ensure your interface offers a comfortable experience for people with limited dexterity or mobility.
 - Strive to meet the recommended minimum control size for each platform to ensure controls and menus are comfortable for all when tapping and clicking.
+- In general, it works well to add about 12 points of padding around elements that include a bezel.
+- For elements without a bezel, about 24 points of padding works well around the element’s visible edges.
 - For interactions people do frequently in your app or game, use the simplest gesture possible — avoid custom multifinger and multihand gestures — so repetitive actions are both comfortable and easy to remember.
 - Make sure your UI’s core functionality is accessible through more than one type of physical interaction.
 - For example, if you use a swipe gesture to dismiss a view, also make a button available so people can tap or use an assistive device.

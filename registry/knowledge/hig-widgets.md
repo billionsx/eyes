@@ -1,7 +1,7 @@
 # знание · `hig-widgets`
 Источник: https://developer.apple.com/design/human-interface-guidelines/widgets
 Домены мандата: динамические-острова, кроссплатформенность
-Нормативных положений: 75 (детерминированная выжимка, не пересказ)
+Нормативных положений: 77 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -38,6 +38,8 @@
 - If you use a custom font, do so sparingly, and be sure it’s easy for people to read at a glance.
 - It often works well to use a custom font for the large text in a widget and SF Pro for the smaller text.
 - Avoid very small font sizes.
+- In general, display text using fonts at 11 points or larger.
+- Text in a font that’s smaller than 11 points can be too hard for many people to read.
 - Always use text elements and styles to ensure that your text scales well and to allow VoiceOver to speak your content.
 - In iOS, iPadOS, and visionOS, widgets support Dynamic Type sizes from Large to AX5 when you use to choose a system font or to choose a custom font.
 - Use color to enhance a widget’s appearance without competing with its content.
