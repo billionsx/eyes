@@ -21,3 +21,5 @@
 {"id": "/documentation/familycontrols/familycontrolserror/authenticationmethodunavailable", "law": "The device must have a passcode set in order for an individual to enroll with parental controls."}
 {"id": "/documentation/familycontrols/familycontrolserror/networkerror", "law": "The device must be connected to the network in order to enroll with parental controls."}
 {"id": "/documentation/familycontrols/familycontrolserror/unauthorized", "law": "The calling app must be authorized to provide parental controls and access data."}
+{"id": "/documentation/FamilyControls/AuthorizationCenter", "law": "You must add the Family Controls capability to your app before you call the or methods."}
+{"id": "/documentation/FamilyControls/AuthorizationCenter", "law": "After your app has been authorized, additional calls to don’t display the authentication sheet or ask to authorize that individual using Face ID or Touch ID."}

@@ -125,3 +125,4 @@
 {"id": "/documentation/uikit/uiwindow/didbecomevisiblemessage", "sha": "35dcf73513f1175438f82ea070aeb83580a5d4b9e8edccec9e237705d74137bd", "sieve": 2, "t": "UIWindow.DidBecomeVisibleMessage", "n": 61, "laws": 0, "ts": "2026-08-02 16:30 UTC"}
 {"id": "/documentation/uikit/uiscene/connectionoptions/shortcutitem", "sha": "cdc629da85ae23674d6a88a793df0354315c5bc4efb6d095ffa475972c39b261", "sieve": 2, "t": "shortcutItem", "n": 454, "laws": 1, "ts": "2026-08-02 16:30 UTC"}
 {"id": "/documentation/uikit/uimenu/options-swift.struct/displayaspalette", "sha": "7698931cadd1057e4b6ee84d3c0a6799e26e5ab6ab33e90a4008dc51bcdf679d", "sieve": 2, "t": "displayAsPalette", "n": 134, "laws": 0, "ts": "2026-08-02 16:35 UTC"}
+{"id": "/documentation/coremotion/cmheadphonemotionmanager/stopconnectionstatusupdates()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "stopConnectionStatusUpdates()", "n": 0, "laws": 0, "ts": "2026-08-02 18:11 UTC"}

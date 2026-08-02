@@ -139,3 +139,5 @@
 {"id": "/documentation/uikit/uirectedge/bottom", "sha": "a6220d8f9002e32fdc052b32834edf1106e046d84b3127a484c1d351f61c6f36", "sieve": 2, "t": "bottom", "n": 33, "laws": 0, "ts": "2026-08-02 16:15 UTC"}
 {"id": "/documentation/uikit/uiscenesessionactivationrequest-swift.struct/init(hostingdelegateclass:id:)", "sha": "9734a82de7ac831191c93f1d4f0107ac997e0f56ea2b41ade9df11c42268d7bc", "sieve": 2, "t": "init(hostingDelegateClass:id:)", "n": 537, "laws": 0, "ts": "2026-08-02 16:29 UTC"}
 {"id": "/documentation/uikit/uitableviewheaderfooterview/contentview", "sha": "670ac4483903c53d0b4a7f4311153bc6d9175431e1a9ef7a02955388a2e6e540", "sieve": 2, "t": "contentView", "n": 252, "laws": 0, "ts": "2026-08-02 16:31 UTC"}
+{"id": "/documentation/arkit/cameraframe/sample/pixelbuffer", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "pixelBuffer", "n": 0, "laws": 0, "ts": "2026-08-02 18:15 UTC"}
+{"id": "/documentation/arkit/arbodytrackingconfiguration", "sha": "73e9f7171f75f0fd83233d0afc0d80856c8338898792b90dcf1b7d45c64ccfdf", "sieve": 2, "t": "ARBodyTrackingConfiguration", "n": 1136, "laws": 0, "ts": "2026-08-02 18:22 UTC"}

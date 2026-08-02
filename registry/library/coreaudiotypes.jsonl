@@ -29,3 +29,5 @@
 {"id": "/documentation/coreaudiotypes/kaudiochannellayouttag_mpeg_5_1_c", "law": "Your channels must be laid out in the following order: Left Center Right Left surround Right surround Low-frequency effects An MPEG 5.1-channel, configuration C, audio layout."}
 {"id": "/documentation/coreaudiotypes/kaudiochannellayouttag_mpeg_5_1_d", "law": "Your channels must be laid out in the following order: Center Left Right Left surround Right surround Low-frequency effects An MPEG 5.1-channel, configuration D, audio layout."}
 {"id": "/documentation/coreaudiotypes/kaudiochannellayouttag_mpeg_7_1_a", "law": "Your channels must be laid out in the following order: Left Right Center Low-frequency effects Left surround Right surround Left center Right center An MPEG 7.1-channel, configuration A, audio layout."}
+{"id": "/documentation/coreaudiotypes/audiochannelbitmap", "law": "The supported channel bitmaps to use when defining channel layouts."}
+{"id": "/documentation/coreaudiotypes/audiochannellayout/mchanneldescriptions", "law": "If the field is set to , use this field to describe the layout."}

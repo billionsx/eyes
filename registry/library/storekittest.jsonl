@@ -31,3 +31,4 @@
 {"id": "/documentation/storekittest/skadtestsession", "law": "Use a public/private key pair that you create using an Elliptic Curve Digital Signature Algorithm (ECDSA) with a prime256V1 curve."}
 {"id": "/documentation/storekittest/skadtestsession", "law": "Never share your private keys, store keys in a code repository, or include keys in client-facing code."}
 {"id": "/documentation/storekittest/skadtestsession", "law": "The class you use to test ad impressions and postbacks in Xcode."}
+{"id": "/documentation/storekittest/sktestsession", "law": "The controls and environment configuration you use to test StoreKit transactions in Xcode."}

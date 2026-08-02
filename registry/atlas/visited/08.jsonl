@@ -125,3 +125,4 @@
 {"id": "/documentation/watchkit/wkinterfacecontroller/settitle(_:)", "sha": "7cbd76553632acef3a1d329da320cda299338d8e7d845b0596e2c542f74cf865", "sieve": 2, "t": "setTitle(_:)", "n": 573, "laws": 0, "ts": "2026-08-02 16:10 UTC"}
 {"id": "/documentation/watchkit/wkgesturerecognizer/locationinobject()", "sha": "092db09ad96bdca842c04c8119fe370da0cfd8e4ec9761888d8cdb591a96f96b", "sieve": 2, "t": "locationInObject()", "n": 266, "laws": 0, "ts": "2026-08-02 16:12 UTC"}
 {"id": "/documentation/uikit/uitableviewrowaction/init(style:title:handler:)", "sha": "db5902e39fb3a2805393d2162d018981193f0037cc0b3413d736ed710702bc9c", "sieve": 2, "t": "init(style:title:handler:)", "n": 469, "laws": 0, "ts": "2026-08-02 16:33 UTC"}
+{"id": "/documentation/uikit/uiview/animationoptions/layoutsubviews", "sha": "b29368cf58a13892ccf40201c14c84130cd3b42da0f64ea4af35ed71f4126e34", "sieve": 2, "t": "layoutSubviews", "n": 82, "laws": 0, "ts": "2026-08-02 18:32 UTC"}

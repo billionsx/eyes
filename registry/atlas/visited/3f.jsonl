@@ -126,3 +126,4 @@
 {"id": "/documentation/WatchKit/WKImageAnimatable", "sha": "8a5b4f034f1a3d3fcaaed578e11374f356c400e8e84d5613b2495e49bee84eb2", "sieve": 2, "t": "WKImageAnimatable", "n": 360, "laws": 2, "ts": "2026-08-02 16:14 UTC"}
 {"id": "/documentation/uikit/uicollectionview/cellregistration/init(handler:)", "sha": "920bb64ff8a128dda012cf94a0ab39d06861c2bd825e4a3abe1a89e22fe69593", "sieve": 2, "t": "init(handler:)", "n": 68, "laws": 0, "ts": "2026-08-02 16:33 UTC"}
 {"id": "/documentation/uikit/uicontrol/event/init(rawvalue:)", "sha": "a8b5f7f4e43e169f91b82bc5eb5e8f3b9cd6c7ad7eb6d22067bc6fe02af171f6", "sieve": 2, "t": "init(rawValue:)", "n": 53, "laws": 0, "ts": "2026-08-02 16:35 UTC"}
+{"id": "/documentation/uikit/uiedgeinsets/left", "sha": "78b8bebe0c8bd21435c1878f9b29479c49cbf42394cfd4b5156f1656861d3c28", "sieve": 2, "t": "left", "n": 26, "laws": 0, "ts": "2026-08-02 18:34 UTC"}

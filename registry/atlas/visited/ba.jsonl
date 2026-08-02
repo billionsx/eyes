@@ -136,3 +136,4 @@
 {"id": "/documentation/uikit/uiscrollview/bounceshorizontally", "sha": "96df6a4351e3087911f9405efcba1d8ed95bcae2f18be9b926c1a499a66d5a4b", "sieve": 2, "t": "bouncesHorizontally", "n": 112, "laws": 0, "ts": "2026-08-02 16:19 UTC"}
 {"id": "/documentation/uikit/uieditmenuconfiguration/sourcepoint", "sha": "e7d21ac989a899f738305856b6e32d63b75fcebc5b8fccc121ff408395a8a198", "sieve": 2, "t": "sourcePoint", "n": 286, "laws": 0, "ts": "2026-08-02 16:26 UTC"}
 {"id": "/documentation/uikit/uitableviewheaderfooterview/contentconfiguration-r49e", "sha": "36f6e0da3315322349a391671bc97cf76d818f85fcb77584ddb57259c833c730", "sieve": 2, "t": "contentConfiguration", "n": 774, "laws": 0, "ts": "2026-08-02 16:33 UTC"}
+{"id": "/documentation/uikit/uiactionsheetstyle", "sha": "06f539113d78cc33056eda05d1c97f013c8e29001eb296f96cfb24f10ef7cd3e", "sieve": 2, "t": "UIActionSheetStyle", "n": 212, "laws": 0, "ts": "2026-08-02 18:29 UTC"}

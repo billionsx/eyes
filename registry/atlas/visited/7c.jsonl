@@ -124,3 +124,9 @@
 {"id": "/documentation/uikit/uibaritem/imageinsets", "sha": "1b10951371037d05a393844764fd95e1829878dca332835d92380693d269c438", "sieve": 2, "t": "imageInsets", "n": 77, "laws": 0, "ts": "2026-08-02 16:21 UTC"}
 {"id": "/documentation/uikit/uibarposition", "sha": "57bf7af44403b48bfea6b5ae32a792e18afef456f10267860c2e9e4dc8d9b81e", "sieve": 2, "t": "UIBarPosition", "n": 177, "laws": 0, "ts": "2026-08-02 16:21 UTC"}
 {"id": "/documentation/uikit/uieditmenuarrowdirection", "sha": "02c77ac9d993d529ef40f164fe7010bcd07db04ed6a126e8cc47e6be510289d6", "sieve": 2, "t": "UIEditMenuArrowDirection", "n": 282, "laws": 0, "ts": "2026-08-02 16:26 UTC"}
+{"id": "/documentation/coremotion/cmstepupdatehandler", "sha": "1809c0a8298db8cb3d3d4526f67068a6179ada3898a5186deaacca5d8de5c528", "sieve": 2, "t": "CMStepUpdateHandler", "n": 127, "laws": 0, "ts": "2026-08-02 18:13 UTC"}
+{"id": "/documentation/arkit/arkitsession/run(_:)", "sha": "dac32127b4b5dc626b130a6db51d04884bd412c7724018694893cf117dbf9432", "sieve": 2, "t": "run(_:)", "n": 808, "laws": 0, "ts": "2026-08-02 18:15 UTC"}
+{"id": "/documentation/arkit/roomanchor/==(_:_:)", "sha": "c8b02d9bff1017341f59ae81b34570a3309dfa86a373e0423003e2e741b09faa", "sieve": 2, "t": "==(_:_:)", "n": 134, "laws": 0, "ts": "2026-08-02 18:16 UTC"}
+{"id": "/documentation/arkit/worldtrackingprovider/requiredauthorizations", "sha": "93196bc9073dfd6951fd268100baf047b95662e390bf48bf5ca0fcbb7c75753d", "sieve": 2, "t": "requiredAuthorizations", "n": 65, "laws": 0, "ts": "2026-08-02 18:17 UTC"}
+{"id": "/documentation/arkit/objecttrackingprovider/description", "sha": "ea54f9736ad981d63b673b6d5cc80e41e7c05e494897fd538585757a32f26546", "sieve": 2, "t": "description", "n": 58, "laws": 0, "ts": "2026-08-02 18:18 UTC"}
+{"id": "/documentation/storekittest/sktestfailure", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "SKTestFailure", "n": 0, "laws": 0, "ts": "2026-08-02 18:27 UTC"}

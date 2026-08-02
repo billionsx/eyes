@@ -4,7 +4,7 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 3489 |
+| uikit | 3595 |
 | swiftui | 2594 |
 | appkit | 2365 |
 | appintents | 1688 |
@@ -16,9 +16,9 @@
 | avfoundation | 685 |
 | visionos | 655 |
 | technotes | 615 |
+| big7 | 613 |
 | swift | 610 |
-| big7 | 581 |
-| arkit | 473 |
+| arkit | 506 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
 | updates | 314 |
@@ -72,17 +72,18 @@
 | walletpasses | 72 |
 | fileprovider | 66 |
 | coregraphics | 64 |
+| coremotion | 64 |
 | network | 63 |
 | homekit | 60 |
 | localauthentication | 60 |
 | mediaplayer | 60 |
-| coremotion | 56 |
 | createml | 56 |
 | photokit | 55 |
 | cryptokit | 54 |
 | classkit | 53 |
 | modelio | 51 |
 | passkit | 51 |
+| tvservices | 51 |
 | accessorysetupkit | 49 |
 | speech | 48 |
 | callkit | 47 |
@@ -94,7 +95,6 @@
 | imageio | 44 |
 | metalperformanceshaders | 43 |
 | backgroundtasks | 41 |
-| tvservices | 41 |
 | compositorservices | 40 |
 | nearbyinteraction | 39 |
 | usd | 39 |
@@ -105,12 +105,12 @@
 | applemusicapi | 35 |
 | contacts | 35 |
 | corenfc | 34 |
+| storekittest | 34 |
 | applearchive | 33 |
 | coreai | 33 |
+| coreaudiotypes | 33 |
 | objectivec | 33 |
-| storekittest | 33 |
 | translation | 32 |
-| coreaudiotypes | 31 |
 | signinwithapple | 31 |
 | energykit | 30 |
 | photosui | 30 |
@@ -125,10 +125,10 @@
 | naturallanguage | 26 |
 | wifiaware | 26 |
 | declaredagerange | 25 |
+| familycontrols | 25 |
 | fskit | 25 |
 | corevideo | 24 |
 | pdfkit | 24 |
-| familycontrols | 23 |
 | pushkit | 23 |
 | quartzcore | 22 |
 | walletorders | 22 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 30331 · фреймворков: 339
+Итого законов: 30525 · фреймворков: 339

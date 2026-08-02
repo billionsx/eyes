@@ -54,3 +54,11 @@
 {"id": "/documentation/coremotion/cmmotionmanager/startdevicemotionupdates(to:withhandler:)", "law": "You must call when you no longer want your app to process device-motion updates."}
 {"id": "/documentation/coremotion/cmmotionmanager/startdevicemotionupdates(using:)", "law": "You must call when you no longer want your app to process device-motion updates."}
 {"id": "/documentation/coremotion/cmmotionmanager/startdevicemotionupdates(using:to:withhandler:)", "law": "You must call when you no longer want your app to process device-motion updates."}
+{"id": "/documentation/coremotion/cmmovementdisordermanager/authorizationstatus()", "law": "To request permission, your app must set a motion usage description in its file."}
+{"id": "/documentation/coremotion/cmmovementdisordermanager/monitorkinesias(forduration:)", "law": "The maximum monitoring duration is seven days."}
+{"id": "/documentation/coremotion/cmerrordevicerequiresmovement", "law": "The device must move for a sampling of motion data to occur."}
+{"id": "/documentation/coremotion/cmerrormotionactivitynotauthorized", "law": "The app isn’t currently authorized to use motion activity support."}
+{"id": "/documentation/coremotion/cmerrornotauthorized", "law": "The app isn’t authorized to use the Core Motion framework."}
+{"id": "/documentation/CoreMotion/getting-processed-device-motion-data", "law": "When you start the device-motion service, you specify which frame of reference you want Core Motion to use."}
+{"id": "/documentation/CoreMotion/getting-processed-device-motion-data", "law": "If you specify an update frequency greater than what the hardware supports, Core Motion uses the maximum frequency instead."}
+{"id": "/documentation/CoreMotion/getting-processed-device-motion-data", "law": "To minimize the impact on a device’s battery life, always call the method of your object when you no longer need motion data."}

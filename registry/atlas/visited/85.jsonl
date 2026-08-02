@@ -136,3 +136,5 @@
 {"id": "/documentation/watchkit/wkimage/imagename", "sha": "acaf1e68a75f699efd243b27e123a95dc93b8f1f89c7daee5286f0c01918ad06", "sieve": 2, "t": "imageName", "n": 190, "laws": 0, "ts": "2026-08-02 16:13 UTC"}
 {"id": "/documentation/uikit/uitextdocumentproxy/documentcontextafterinput", "sha": "8f23b9c62275eb7c88bcda9b48aff6685adf4722e30d56c94315452d3845552c", "sieve": 2, "t": "documentContextAfterInput", "n": 75, "laws": 0, "ts": "2026-08-02 16:14 UTC"}
 {"id": "/documentation/uikit/uipageviewcontroller/optionskey", "sha": "17cdecd93e2e1346dcf0e50a837c6ed619b2185708baded5e06c3ba377dc7f06", "sieve": 2, "t": "UIPageViewController.OptionsKey", "n": 125, "laws": 0, "ts": "2026-08-02 16:15 UTC"}
+{"id": "/documentation/arkit/cameravideoformat", "sha": "d21bb4b2caa430bc0ae2b6013710175b5bd06b8cecce108a6f6375a6b07f4c57", "sieve": 2, "t": "CameraVideoFormat", "n": 340, "laws": 0, "ts": "2026-08-02 18:15 UTC"}
+{"id": "/documentation/coreaudiotypes/kaudioformatflagispacked", "sha": "3acad98fa816b722399e6174b5a6c5f2b15b60fe8ee2ac05fad759ad0749f167", "sieve": 2, "t": "kAudioFormatFlagIsPacked", "n": 439, "laws": 0, "ts": "2026-08-02 18:24 UTC"}

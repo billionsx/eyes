@@ -3487,3 +3487,109 @@
 {"id": "/documentation/uikit/uimenudisplaypreferences/maximumnumberoftitlelines", "law": "If you dynamically prepare menu items that might contain more text, set this value to a higher number and use this object as the menu’s ."}
 {"id": "/documentation/uikit/uidatasourcemodelassociation/modelidentifierforelement(at:in:)", "law": "The string you return must not be based on transient information, such as the pointer to the current object in memory; it must instead be tied to the underlying data."}
 {"id": "/documentation/uikit/uitableview/rowanimation/none", "law": "The inserted or deleted rows use the default animations."}
+{"id": "/documentation/uikit/uitableviewcell/accessorytype-swift.enum/detaildisclosurebutton", "law": "Use the delegate’s method to respond to touch events in the detail button."}
+{"id": "/documentation/uikit/uitableviewcell/accessorytype-swift.enum/detailbutton", "law": "Use your delegate’s method to respond to taps in the button."}
+{"id": "/documentation/uikit/uifocusguide/preferredfocusedview", "law": "This view, or at least one view along its chain, must be focusable in order for the guide to be focusable."}
+{"id": "/documentation/uikit/uiactionsheet/cancelbuttonindex", "law": "If you use that method to create a cancel button, you should not change the value of this property."}
+{"id": "/documentation/uikit/uiactionsheet/cancelbuttonindex", "law": "When presenting an action sheet on an iPad, there are times when you should not include a cancel button."}
+{"id": "/documentation/uikit/uiactionsheet/cancelbuttonindex", "law": "For more information on when you should include a cancel button, see the class overview or ."}
+{"id": "/documentation/uikit/uiactionsheet/destructivebuttonindex", "law": "If you use that method to create a destructive button, you should not change the value of this property."}
+{"id": "/documentation/uikit/uiactionsheet/dismiss(withclickedbuttonindex:animated:)", "law": "You can use this method to dismiss the action sheet programmatically as needed."}
+{"id": "/documentation/uikit/uiactionsheet/show(from:)-1p4ap", "law": "Generally, if you want to present an action sheet relative to a toolbar in an iPad application, you should use the method instead."}
+{"id": "/documentation/uikit/uiactionsheet/show(from:)-9i3tw", "law": "Generally, if you want to present an action sheet relative to a tab bar in an iPad application, you should use the method instead."}
+{"id": "/documentation/uikit/uiactionsheet/show(from:animated:)", "law": "If you want the popover to be dismissed when a different toolbar item is tapped, you must implement that behavior in your action handler methods."}
+{"id": "/documentation/uikit/uiactionsheet/show(in:)", "law": "Generally, if you want to present an action sheet in an iPad application, you should use the method to display the action sheet instead."}
+{"id": "/documentation/uikit/uialertcontroller/style/actionsheet", "law": "Use an action sheet to present the user with a set of alternatives for how to proceed with a given task."}
+{"id": "/documentation/uikit/uialertcontroller/style/actionsheet", "law": "This alert style isn’t supported by tvOS; use instead."}
+{"id": "/documentation/uikit/uialertview/addbutton(withtitle:)", "law": "For guidelines on the best ways to use an alert in an app, see ."}
+{"id": "/documentation/uikit/uicornerradius-c.class/containerconcentricradiuswithminimum:", "law": "A dynamic corner radius calculated using the geometry of the view and its container limited to a minimum radius."}
+{"id": "/documentation/uikit/uihoverstyle/shape-21npk", "law": "The shape to use for the hover effect."}
+{"id": "/documentation/uikit/uihoverstyle/shape-55cmq", "law": "The shape to use for the hover effect."}
+{"id": "/documentation/uikit/uipopoverbackgroundview/arrowdirection", "law": "You should use this value during layout to configure the images to use for your view’s content."}
+{"id": "/documentation/uikit/uipopoverbackgroundview/arrowdirection", "law": "In your setter method, you should update to your view’s content and potentially update the layout as well."}
+{"id": "/documentation/uikit/uipopoverbackgroundview/arrowoffset", "law": "Use this value during layout to get the position of the arrow."}
+{"id": "/documentation/uikit/uipopoverbackgroundview/arrowoffset", "law": "In your setter method, you should similarly initiate an update to your view’s layout so that you can reposition your stretchable images accordingly."}
+{"id": "/documentation/uikit/uipopoverbackgroundview/wantsdefaultcontentappearance", "law": "Determines whether the default content appearance should be used for the popover."}
+{"id": "/documentation/uikit/uisemanticcontentattribute/forcelefttoright", "law": "A view that’s always displayed using a left-to-right layout."}
+{"id": "/documentation/uikit/uisemanticcontentattribute/forcerighttoleft", "law": "A view that’s always displayed using a right-to-left layout."}
+{"id": "/documentation/uikit/uiview/beginanimations(_:context:)", "law": "You should use the block-based animation methods to specify your animations instead."}
+{"id": "/documentation/uikit/uiview/commitanimations()", "law": "Animations run in a separate thread to avoid blocking the application."}
+{"id": "/documentation/uikit/uiview/commitanimations()", "law": "You should use the block-based animation methods to specify your animations instead."}
+{"id": "/documentation/uikit/uiview/contentstretch", "law": "You use this property to control how a view’s content is stretched to fill its bounds when the view is resized."}
+{"id": "/documentation/uikit/uiview/contentstretch", "law": "For example, buttons and other controls use stretching to maintain crisp borders while allowing the middle portions of the control to stretch and fill the available space."}
+{"id": "/documentation/uikit/uiview/setanimationbeginsfromcurrentstate(_:)", "law": "Use the class method to start and the class method to end an animation block."}
+{"id": "/documentation/uikit/uiview/setanimationbeginsfromcurrentstate(_:)", "law": "Instead, you should use the method to specify your animations and the animation options."}
+{"id": "/documentation/uikit/uiview/setanimationbeginsfromcurrentstate(_:)", "law": "Sets whether the animation should begin playing from the current state."}
+{"id": "/documentation/uikit/uiview/setanimationcurve(_:)", "law": "If you specify your animations using begin/commit set of methods, you use this method to specify the type of curve you want to use for the animation."}
+{"id": "/documentation/uikit/uiview/setanimationcurve(_:)", "law": "And you must call this method prior to changing the animatable properties of your views."}
+{"id": "/documentation/uikit/uiview/setanimationcurve(_:)", "law": "Instead, you should use the method to specify your animations and the animation curve options."}
+{"id": "/documentation/uikit/uiview/setanimationcurve(_:)", "law": "Sets the curve to use when animating property changes within an animation block."}
+{"id": "/documentation/uikit/uiview/setanimationdelay(_:)", "law": "If you specify your animations using begin/commit set of methods, you use this method to specify the amount of time to wait before starting the animations."}
+{"id": "/documentation/uikit/uiview/setanimationdelay(_:)", "law": "And you must call this method prior to changing the animatable properties of your views."}
+{"id": "/documentation/uikit/uiview/setanimationdelay(_:)", "law": "Instead, you should use the method to specify your animations and the starting delay."}
+{"id": "/documentation/uikit/uiview/setanimationdelegate(_:)", "law": "You primarily use this method to set the delegate for animation blocks created using the begin/commit animation methods."}
+{"id": "/documentation/uikit/uiview/setanimationdidstop(_:)", "law": "If you specify an animation delegate for a begin/commit set of animations, you use this method to specify the selector to call after the animations end."}
+{"id": "/documentation/uikit/uiview/setanimationduration(_:)", "law": "If you specify your animations using begin/commit set of methods, you use this method to specify the duration of the animations."}
+{"id": "/documentation/uikit/uiview/setanimationduration(_:)", "law": "And you must call this method prior to changing the animatable properties of your views."}
+{"id": "/documentation/uikit/uiview/setanimationduration(_:)", "law": "Instead, you should use any of the block-based animation methods to specify your animations and their duration."}
+{"id": "/documentation/uikit/uiview/setanimationrepeatautoreverses(_:)", "law": "Instead, you should use the method to specify your animations and the animation options."}
+{"id": "/documentation/uikit/uiview/setanimationrepeatcount(_:)", "law": "Use this method to specify the number of times to repeat the specified animations."}
+{"id": "/documentation/uikit/uiview/setanimationrepeatcount(_:)", "law": "You can use this method in conjunction with either the block-based methods or the begin/commit methods for defining an animation block."}
+{"id": "/documentation/uikit/uiview/setanimationrepeatcount(_:)", "law": "If you do not explicitly set a repeat count, the animation is not repeated."}
+{"id": "/documentation/uikit/uiview/setanimationsenabled(_:)", "law": "This is true whether you use the block-based animation methods or the begin/commit animation methods."}
+{"id": "/documentation/uikit/uiview/setanimationstart(_:)", "law": "(Do not call this method in conjunction with a block-based animation.) If you do not call this method, the start time is set to the value returned by the function, which begins the animations as soon as possible."}
+{"id": "/documentation/uikit/uiview/setanimationstart(_:)", "law": "You should use the block-based animation methods to specify your animations instead."}
+{"id": "/documentation/uikit/uiview/setanimationtransition(_:for:cache:)", "law": "If you want to change the appearance of a view during a transition—for example, flip from one view to another—then use a container view, an instance of , as follows: Begin an animation block."}
+{"id": "/documentation/uikit/uiview/setanimationtransition(_:for:cache:)", "law": "You should use the method to perform transitions instead."}
+{"id": "/documentation/uikit/uiview/setanimationwillstart(_:)", "law": "If you specify an animation delegate for a begin/commit set of animations, you use this method to specify the selector to call before the animations begin."}
+{"id": "/documentation/uikit/uiview/animationoptions/autoreverse", "law": "Run the animation backwards and forwards (must be combined with the repeat option)."}
+{"id": "/documentation/uikit/uiview/animationoptions/flushupdates", "law": "This animation option implicitly applies to any nested animation scopes, even if they don’t explicitly use this option."}
+{"id": "/documentation/uikit/uiview/animationoptions/overrideinheritedcurve", "law": "Force the animation to use the original curve value specified when the animation was submitted."}
+{"id": "/documentation/uikit/uiview/animationoptions/overrideinheritedduration", "law": "Force the animation to use the original duration value specified when the animation was submitted."}
+{"id": "/documentation/uikit/uiview/keyframeanimationoptions/overrideinheritedduration", "law": "The option to force an animation to use the original duration value specified when the animation was submitted."}
+{"id": "/documentation/uikit/uiviewinvalidating/intrinsiccontentsize", "law": "When you use this type, the constraint-based layout system accounts for the change the next time it updates the layout."}
+{"id": "/documentation/uikit/uiviewinvalidating/layout", "law": "Use this invalidation type to call when a change in property value should cause an update to the layout of the containing view’s subviews."}
+{"id": "/documentation/uikit/uiviewanimating", "law": "Normally, you use the methods of this protocol to manage animations associated with a object."}
+{"id": "/documentation/uikit/uiviewanimating", "law": "Specifically, you use these methods to start and stop your animations, to reverse animations, and to change the completion progress of the animation."}
+{"id": "/documentation/uikit/uiviewanimating", "law": "You might also use these capabilities to implement interactive animations."}
+{"id": "/documentation/uikit/uiviewanimating", "law": "When implementing your own animators, you must respect these state transitions and keep the property updated accurately."}
+{"id": "/documentation/uikit/uiviewanimating", "law": "After calling this method, the animator object moves to the stopped or inactive state and must be reconfigured before it can be used again."}
+{"id": "/documentation/uikit/uiviewanimating/fractioncomplete", "law": "You can use this capability to create interactive animations."}
+{"id": "/documentation/uikit/uiviewanimating/fractioncomplete", "law": "For example, you might use a pan gesture recognizer to update the value based on the completion progress of that gesture."}
+{"id": "/documentation/uikit/uiviewanimating/isreversed", "law": "When implementing this property, changes should cause the animation to reverse direction."}
+{"id": "/documentation/uikit/uiviewanimating/startanimation()", "law": "When implementing a custom animator, use this method to transition your animator to the active state and to run the animations."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/addanimations(_:)", "law": "Use this method to add new animation blocks to the animator."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/addanimations(_:delayfactor:)", "law": "Use this method to add new animation blocks to the animator."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/continueanimation(withtimingparameters:durationfactor:)", "law": "When calling this method, the animator must be active and currently paused."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/delay", "law": "To set a value for this property, use the method when starting your animations."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/flushupdates", "law": "This behavior implicitly applies to any nested animation scopes, even if they don’t explicitly specify this."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:controlpoint1:controlpoint2:animations:)", "law": "Use this method to create an animator object using a cubic timing curve whose starting point is (0, 0) and whose end point is (1, 1)."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:controlpoint1:controlpoint2:animations:)", "law": "You must explicitly start the animations by calling the method."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:curve:animations:)", "law": "Use this method to create an animator object that uses the existing UIKit timing curves to control the animation behavior."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:curve:animations:)", "law": "You must explicitly start the animations by calling the method."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:dampingratio:animations:)", "law": "You must explicitly start the animations by calling the method."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:timingparameters:)", "law": "Use this method to initialize the animator with a custom timing curve."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:timingparameters:)", "law": "After initializing the animator, you must add one or more animation blocks before calling starting the animations."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/init(duration:timingparameters:)", "law": "You must explicitly start the animations by calling the method."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/isinterruptible", "law": "When the value of this property is , you can use the and methods to interrupt the animations and make changes."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/isinterruptible", "law": "If you use a view property animator object to implement an interruptible view controller transition, this property must be ."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/pausesoncompletion", "law": "Because the completion handler is not called when this property is , you cannot use the animator’s completion handler to determine when the animations have finished running."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/runningpropertyanimator(withduration:delay:options:animations:completion:)", "law": "If you don’t specify an animation curve in the options parameter, this method uses the option."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/scrubslinearly", "law": "The default value of this property is , which causes the animator to use a linear timing function during scrubbing."}
+{"id": "/documentation/uikit/uiviewpropertyanimator/scrubslinearly", "law": "Setting the property to causes the animator to use its specified timing curve."}
+{"id": "/documentation/uikit/uilargecontentviewerinteraction/gesturerecognizerforexclusionrelationship", "law": "A gesture recognizer that you can use to set up simultaneous recognition or failure relationships with other gesture recognizers."}
+{"id": "/documentation/uikit/uilargecontentviewerinteractiondelegate/largecontentviewerinteraction(_:didendon:at:)", "law": "If you don’t implement this method and are using standard UIKit controls, the system performs a default action, such as sending a event to the control."}
+{"id": "/documentation/uikit/uiimage/renderingmode-swift.enum/alwaystemplate", "law": "Always draw the image as a template image, ignoring its color information."}
+{"id": "/documentation/uikit/uivibrancyeffect/init(blureffect:)", "law": "When you create a new vibrancy effect, use the same that you used to create the blur view."}
+{"id": "/documentation/uikit/uivibrancyeffect/init(forblureffect:style:)", "law": "The vibrancy effect object to use in your visual effect view."}
+{"id": "/documentation/uikit/uivibrancyeffect/init(forblureffect:style:)", "law": "When you create a new vibrancy effect, use the same that you used to create the blur view."}
+{"id": "/documentation/uikit/uivibrancyeffect/notificationcenter()", "law": "The vibrancy effect that’s appropriate for use in Today widgets in Notification Center."}
+{"id": "/documentation/uikit/uivibrancyeffect/notificationcenter()", "law": "Creates a vibrancy effect for use in Notification Center."}
+{"id": "/documentation/uikit/uivibrancyeffect/widgetprimary()", "law": "Creates a vibrancy effect suitable for use with certain supporting text and template images within a widget."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/canceltextanimations(identifiers:)", "law": "The UUIDs passed in should be those returned when starting the animations."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.property", "law": "The object must adopt the protocol, and be capable of modifying your view’s text storage and refreshing the view’s layout and appearance."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/starttextanimation(_:for:in:writingdirection:)", "law": "Calls delegate methods to prepare for the animation (which should hide the text), request previews (with and without underlines), and finish the animation (which should show the text)."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/animationparameters/progresshandler", "law": "If you have animations you want to run at the same time as the system animations, assign a block to this property and use it to run your animations."}
+{"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestssinglecontainersubrangesof:in:completion:)", "law": "Your implementation of that method must create a preview suitable for animating the content from the underlying text container."}
+{"id": "/documentation/uikit/uitextcursorview/resetblinkanimation()", "law": "Resets the blink animation to avoid glitches while someone is typing."}
+{"id": "/documentation/uikit/uitextinteraction/gesturesforfailurerequirements", "law": "To do this, use the method to relate your gestures to those listed in ."}

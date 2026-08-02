@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 30331 · кандидатов: 19 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 30525 · кандидатов: 20 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -23,6 +23,7 @@
 | margin / padding | 600 ms | none | 2 | 2 | нет |
 | border-radius | 6 pt | none | 1 | 1 | нет |
 | line-height | 10 pt | none | 1 | 1 | нет |
+| margin / padding | 560 pt | none | 1 | 1 | нет |
 | opacity | 10 % | none | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 1 | 1 | нет |
 
@@ -62,6 +63,8 @@
   - «The default corner radius for groups is 6 points.»
 - **line-height 10 pt** (none) — https://developer.apple.com/documentation/swiftui/layout/explicitalignment(of:in:proposal:subviews:cache:)
   - «For example, you can indent the container’s leading edge alignment guide by 10 points: The above example returns for other guides to indicate that the»
+- **margin / padding 560 pt** (none) — https://developer.apple.com/documentation/tvservices/tvtopshelfinsetcontent/imagesize
+  - «The standard image size for inset items is 1740 x 560 points.»
 - **opacity 10 %** (none) — https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)
   - «This example shows an image masked by rectangle with a 10% opacity: Masks this view using the alpha channel of the given view.»
 - **контраст пары цветов 20 %** (none) — https://developer.apple.com/documentation/swiftui/view/contrast(_:)

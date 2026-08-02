@@ -151,3 +151,4 @@
 {"id": "/documentation/uikit/uiscrollview/setzoomscale(_:animated:)", "sha": "639a99ecf5ce0e6578e13fb683ba43f25c3a9e0b6676a1d4a03a802b629d4a39", "sieve": 2, "t": "setZoomScale(_:animated:)", "n": 127, "laws": 0, "ts": "2026-08-02 16:20 UTC"}
 {"id": "/documentation/uikit/uitabbarcontrollerdelegate/tabbarcontrollerwillbeginediting(_:)", "sha": "873e9be970e73e10e035c3c1d8eba4dee8379b80bfe392b21e32770fc7c521f1", "sieve": 2, "t": "tabBarControllerWillBeginEditing(_:)", "n": 76, "laws": 0, "ts": "2026-08-02 16:25 UTC"}
 {"id": "/documentation/uikit/uiscrolledgeelementcontainerinteraction/edge", "sha": "47024016586d166bd98c9b0bd7a14a194cd61b75c155a050b4bddc80f60de337", "sieve": 2, "t": "edge", "n": 37, "laws": 0, "ts": "2026-08-02 16:25 UTC"}
+{"id": "/documentation/coremotion/cmodometerdata/startdate", "sha": "24a2039a78a176aaa8035bb4ab4b90014394151be275b9dd8bd157dacdf27e21", "sieve": 2, "t": "startDate", "n": 60, "laws": 0, "ts": "2026-08-02 18:12 UTC"}

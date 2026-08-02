@@ -39,3 +39,13 @@
 {"id": "/documentation/tvservices/tvusermanager/shouldstorepreferencesforcurrentuser", "law": "To avoid interrupting people with a profile picker each time they launch your app, you can save the current user’s selection on a shared device."}
 {"id": "/documentation/tvservices/tvusermanager/shouldstorepreferencesforcurrentuser", "law": "If the property’s value is , display the profile picker to determine which profile to use for the current session, but don’t save the selected profile."}
 {"id": "/documentation/tvservices/tvusermanager/shouldstorepreferencesforcurrentuser", "law": "If the value is , and there isn’t a saved profile in , display the profile picker and save the selected profile for future use."}
+{"id": "/documentation/tvservices/tvtopshelfitem/displayaction", "law": "The action object you assign to this property provides the title and image to use for that button."}
+{"id": "/documentation/tvservices/tvtopshelfitem/playaction", "law": "The action object you assign to this property provides the title and image to use for that button."}
+{"id": "/documentation/tvservices/tvtopshelfcarouselcontent/style-swift.property", "law": "The appearance to use when displaying items in the top shelf interface."}
+{"id": "/documentation/tvservices/tvtopshelfcarouselcontent/style-swift.enum/actions", "law": "Use this style when you want the user to focus on the play and display action buttons."}
+{"id": "/documentation/tvservices/tvtopshelfcarouselcontent/style-swift.enum/details", "law": "Use this style to display a detailed interface that focuses on the item’s details."}
+{"id": "/documentation/tvservices/tvtopshelfinsetcontent/imagesize", "law": "The standard image size for inset items is 1740 x 560 points."}
+{"id": "/documentation/tvservices/tvtopshelfsectionedcontent/imagesize(for:)", "law": "Returns the dimensions to use for images of the specified shape."}
+{"id": "/documentation/tvservices/tvtopshelfsectioneditem/imageshape-swift.property", "law": "Use this property to specify the shape of the image you use for the item."}
+{"id": "/documentation/tvservices/tvtopshelfsectioneditem/imageshape-swift.property", "law": "The image shape determines the dimensions to use when creating the image."}
+{"id": "/documentation/tvservices/tvcontentitemimageshape", "law": "An enumerated type that identifies the shape in which the content item should be displayed."}

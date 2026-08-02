@@ -147,3 +147,6 @@
 {"id": "/documentation/WatchKit/WKHapticType", "sha": "735057663d2aada0a54472e62ee65abef106753fd82549a1b92774c51936b90e", "sieve": 2, "t": "WKHapticType", "n": 525, "laws": 0, "ts": "2026-08-02 16:14 UTC"}
 {"id": "/documentation/uikit/uitabbarcontroller/contentlayoutguide", "sha": "8cad2a5ef626b595d2122144eb9597262da368105e878c217f472ca92018560b", "sieve": 2, "t": "contentLayoutGuide", "n": 114, "laws": 0, "ts": "2026-08-02 16:17 UTC"}
 {"id": "/documentation/uikit/uibarbuttonitemgroup/ishidden", "sha": "ca032ab671f14125916bfe3494f366b757e82f29577c9a9753de55b099aa77b7", "sieve": 2, "t": "isHidden", "n": 133, "laws": 0, "ts": "2026-08-02 16:21 UTC"}
+{"id": "/documentation/coremotion/cmrecordedpressuredata/startdate", "sha": "1087e11ddbaaa7eb8257c9622362c866ae2114ea702ef24e0b608b732e728309", "sieve": 2, "t": "startDate", "n": 59, "laws": 0, "ts": "2026-08-02 18:12 UTC"}
+{"id": "/documentation/coremotion/cmtremorresult/percentmild", "sha": "1b494145a3f52a91e372a7417da0b76764df83f823970353a39436e5b2a12f82", "sieve": 2, "t": "percentMild", "n": 89, "laws": 0, "ts": "2026-08-02 18:13 UTC"}
+{"id": "/documentation/arkit/visualfidelityprovider/fidelitydataupdates", "sha": "b6e52bf11c91c2f0d6a70a238a6b6a69160501098b2882f684a2437c08ee86b8", "sieve": 2, "t": "fidelityDataUpdates", "n": 102, "laws": 0, "ts": "2026-08-02 18:20 UTC"}
