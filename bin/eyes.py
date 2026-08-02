@@ -808,6 +808,17 @@ def cmd_selftest(root: Path) -> int:
           [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
           == ["AE1"])
 
+    print("SELFTEST · свежесть (департамент сам замечает деплой)")
+    import fresh as fresh_mod
+    check("суд свежести зелёный: опознание воркфлоу, первое знакомство, снимок",
+          fresh_mod.court() == 0)
+    check("клиенту не нужен ключ доступа к департаменту: смотрим публично",
+          fresh_mod.last_deploy(
+              "o/r", "W", None,
+              lambda u, token=None: {"workflows": [{"name": "W", "id": 1}]}
+              if "workflows?" in u else {"workflow_runs": [{"head_sha": "z"}]})
+          == "z")
+
     print("SELFTEST · наставление (цель, а не только упрёк)")
     import guide as guide_mod
     check("суд наставления зелёный: цель у каждого правила из живой базы",
