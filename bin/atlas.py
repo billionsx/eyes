@@ -59,6 +59,16 @@ PRIMARY = "/design/"
 BUDGET = 700
 DELAY = 1.0
 LAWS_PER_PAGE = 10
+
+# ВЕРСИЯ СИТА. Входит в тождество прочтения наравне с sha текста.
+#
+# Родословная (02.08.2026): отпечаток страницы считался только по её тексту.
+# Отсюда следовало, что ЛЮБАЯ починка добытчика не применялась к уже
+# прочитанному: текст не менялся — страница пропускалась. Департамент мог
+# сколько угодно чинить сита, библиотека оставалась прежней. Починка, которая
+# по построению не может вступить в силу, — худший вид долга: она выглядит
+# сделанной. Поднял версию — корпус подлежит перечитыванию. Дорого и верно.
+SIEVE = 2
 RECYCLE_BATCH = 400  # размер переобхода на круге
 PROBE = 25           # с этого числа страниц фреймворк считается изученным
 PRIOR_D, PRIOR_V = 1, 10  # поправка на малое число наблюдений (см. order_frontier)
@@ -84,7 +94,8 @@ DESIGN = re.compile(
     r"buttons?\b|controls?\b|navigation bar|tab bar|toolbars?|sheets?|alerts?|menus?|"
     r"pickers?|sliders?|switch(?:es)?|"
     r"icons?|symbols?|thumbnails?|"
-    r"gestures?|tappable|touch target|tap target|hit area|pointer|focus\w*|"
+    r"gestures?|tappable|touch targets?|tap targets?|hit (?:area|region|target)s?|"
+    r"target size|pointer|focus\w*|"
     r"accessib\w*|voiceover|legibil\w*|"
     r"human interface|designs?\b|designing\b)", re.I)
 
@@ -180,23 +191,36 @@ def _mine_laws(text: str):
     """Законы страницы: нормативное или числовое предложение О ПРЕДМЕТЕ.
 
     Возврат: (законы, сколько нормативных предложений отсеяно как не по теме).
-    Отсев считается и попадает в хронику — департамент обязан знать, сколько
-    он посмотрел и сколько из этого его не касается.
+
+    Отбор ПО ЦЕННОСТИ, а не по порядку следования. Родословная (02.08.2026):
+    здесь стоял потолок в 10 предложений с ДОСРОЧНЫМ ВЫХОДОМ — извлекалось
+    начало страницы, а не её нормы. След обрыва виден в замере: ровно 156
+    страниц HIG по 10 строк каждая. Числовые нормы HIG лежат глубже десятого
+    предложения и терялись все до одной.
+
+    Числовая норма не отбрасывается НИКОГДА: она редка и есть единственное,
+    из чего рождается проверяемое правило. Потолок остаётся для прозы.
     """
-    out, off = [], 0
+    bind, num, norm = [], [], []
+    off = 0
     for raw in text.splitlines():
         if raw.startswith("## "):
             continue
         for s in _sentences(raw):
-            if not (NORM.search(s) or QTY.search(s)):
+            has_q = bool(QTY.search(s))
+            if not (NORM.search(s) or has_q):
                 continue
             if not DESIGN.search(s):
                 off += 1
                 continue
-            out.append(s)
-            if len(out) >= LAWS_PER_PAGE:
-                return out, off
-    return out, off
+            if has_q and NORM.search(s):
+                bind.append(s)
+            elif has_q:
+                num.append(s)
+            else:
+                norm.append(s)
+    room = max(0, LAWS_PER_PAGE - len(bind) - len(num))
+    return bind + num + norm[:room], off
 
 
 def _lib_write(reg: Path, pid: str, laws: list):
@@ -346,7 +370,8 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
             continue
         prev = _seen(reg, pid)
         sha = ex["sha"]
-        if prev and prev.get("sha") == sha:
+        # Пропуск только если И текст тот же, И сито то же.
+        if prev and prev.get("sha") == sha and prev.get("sieve") == SIEVE:
             continue
         laws, off = _mine_laws(ex["text"])
         offtopic += off
@@ -364,7 +389,7 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
         else:
             changed += 1
             log.append(f"закон изменился: {pid} · «{ex['title'][:60]}»")
-        _record(reg, {"id": pid, "sha": sha, "t": ex["title"][:120],
+        _record(reg, {"id": pid, "sha": sha, "sieve": SIEVE, "t": ex["title"][:120],
                       "n": len(ex["text"]), "laws": len(laws), "ts": _now()})
 
     frontier[:] = order_frontier(frontier, fw)

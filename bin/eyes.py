@@ -1092,6 +1092,45 @@ def cmd_selftest(root: Path) -> int:
     check("адрес эфира живёт в реестре, не в коде",
           "url" in json.loads((root / "registry" / "site.json").read_text(encoding="utf-8")))
 
+    print("SELFTEST · добыча: сита, отбор, тождество прочтения")
+    import atlas as _atlas
+    import digest as _digest
+    import grade as _grade
+
+    for phrase in ("a margin of at least 16 points", "corner radius is 12 points",
+                   "a hit region of at least 44x44 points", "1024 \u00d7 1024 pixels",
+                   "animation lasts 300 milliseconds"):
+        check(f"сито количества узнаёт «{phrase[:32]}»", bool(_digest.QTY.search(phrase)))
+    for noise in ("There were 5 people in the room", "See chapter 3 of the guide",
+                  "Released in 2026"):
+        check(f"сито количества молчит на «{noise[:28]}»", not _digest.QTY.search(noise))
+
+    deep = "\n".join(["Buttons should be legible."] * 12
+                      + ["Use a margin of at least 16 points around each control."])
+    laws, _ = _atlas._mine_laws(deep)
+    check("числовая норма глубже потолка страницы всё равно добыта",
+          any("16 points" in x for x in laws))
+    check("потолок страницы соблюдён для прозы",
+          len([x for x in laws if "16 points" not in x]) <= _atlas.LAWS_PER_PAGE)
+
+    check("версия сита объявлена", isinstance(getattr(_atlas, "SIEVE", None), int))
+    _src = (root / "bin" / "atlas.py").read_text(encoding="utf-8")
+    check("пропуск страницы учитывает версию сита", 'prev.get("sieve") == SIEVE' in _src)
+    check("версия сита ложится в след прочтения", '"sieve": SIEVE' in _src)
+
+    print("SELFTEST · честность библиотеки (ЗКН-Э001)")
+    check("СВЯЗЫВАЕМАЯ требует число + предмет + адрес",
+          _grade.grade_line("Use a margin of at least 16 points around each item.",
+                               "/design/human-interface-guidelines/layout") == _grade.BINDABLE)
+    check("проза законом не считается",
+          _grade.grade_line("On iPad, people can use this sample with a second app.",
+                               "/documentation/UIKit/x") == _grade.PROSE)
+    check("строка без адреса не существует",
+          _grade.grade_line("Use 16 points of margin.", "") == _grade.NOADDR)
+    check("обвязка страницы отделена от нормы",
+          _grade.grade_line("To view this video content, you must consent to all cookies",
+                               "page:https://x.example") == _grade.CHROME)
+
     if not isinstance(ok, bool):  # мета-страж: вердикт суда перезаписан тенью — это провал сам по себе
         print("SELFTEST: КРАСНЫЙ — вердикт суда был перезаписан (тень переменной ok)")
         return 1

@@ -21,7 +21,17 @@ from pathlib import Path
 NORM = re.compile(
     r"\b(use|avoid|don[’']t|do not|must|should|always|never|prefer|require[sd]?|"
     r"at least|minimum|maximum|recommended|be sure|make sure|ensure|turn on)\b", re.I)
-QTY = re.compile(r"\b\d+(?:\.\d+)?\s*(?:pt|px|ms|%|×|x\b)", re.I)
+# Единица измерения в прозе Apple пишется СЛОВОМ: «16 points», а не «16pt».
+# Родословная (02.08.2026): сито было построено под CSS-запись и не узнавало
+# ни одного написания словом — «points» начинается на «po», а не на «pt».
+# Замер: из 29 822 добытых строк число с единицей несли 173, связываемых
+# норм — 27. Все числовые нормы HIG терялись именно здесь.
+_UNIT = (r"(?:pts?\b|points?\b|px\b|pixels?\b|dp\b|ms\b|milliseconds?\b|"
+         r"seconds?\b|hz\b|degrees?\b|%)")
+QTY = re.compile(
+    r"(?:\b\d+(?:\.\d+)?\s*[x\u00d7]\s*\d+(?:\.\d+)?\s*" + _UNIT + r")"
+    r"|(?:\b\d+(?:\.\d+)?\s*" + _UNIT + r")"
+    r"|(?:\b\d+\s*[x\u00d7]\s*\d+\b)", re.I)
 HEAD = re.compile(r"^={2,4} (.+)$")           # снимок хранит заголовки как ==/===/====
 SENT_MAX = 120                                 # предложений на источник — кап детерминизма
 LINE_MAX = 300
