@@ -45,6 +45,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lint as lint_mod    # noqa: E402  один закон — одно исполнение
 import law as law_mod      # noqa: E402
 import attest as att_mod   # noqa: E402
+import tally as tally_mod  # noqa: E402  журнал присутствия (только локально)
 
 PROTOCOL = "2025-06-18"
 NAME = "billions-x-eyes"
@@ -183,7 +184,16 @@ def call_tool(name, args):
         code = args.get("code")
         if not isinstance(code, str) or not code.strip():
             return _text({"error": "нужен непустой code"})
-        f = check(code, args.get("language", "css"), args.get("mode", "report"))
+        lang = args.get("language", "css")
+        f = check(code, lang, args.get("mode", "report"))
+        # Журнал жизни правила. Уходят ТОЛЬКО номера правил и язык — ни
+        # строки кода, ни причины находки (причина цитирует значение из
+        # кода). Отказ журнала не имеет права отменить вердикт: клиент
+        # пришёл за судом, а не за статистикой.
+        try:
+            tally_mod.record([x["rule"] for x in f], lang)
+        except Exception:
+            pass
         return _text({"findings": f, "count": len(f),
                       "verdict": "ЧИСТО" if not f else "ЕСТЬ НАРУШЕНИЯ"})
     if name == "eyes_law":
@@ -319,6 +329,25 @@ def court():
     body = json.loads(r["result"]["content"][0]["text"])
     chk("измеренная ступень поверхности нарушением не считается",
         body["verdict"] == "ЧИСТО")
+
+    # Обещание клиенту проверяется машиной, а не декларируется в документе.
+    import tempfile as _tf
+    jr = Path(_tf.mkdtemp(prefix="eyes-jr-")) / "p.jsonl"
+    _save = tally_mod.JOURNAL
+    tally_mod.JOURNAL = jr
+    handle({"jsonrpc": "2.0", "id": 51, "method": "tools/call",
+            "params": {"name": "eyes_check", "arguments": {
+                "code": ".secret{background:#123456;/*КОММЕРЧЕСКАЯ ТАЙНА*/}",
+                "language": "css"}}})
+    written = jr.read_text(encoding="utf-8") if jr.exists() else ""
+    tally_mod.JOURNAL = _save
+    chk("в журнал легло срабатывание правила", '"AE1"' in written)
+    chk("КОД В ЖУРНАЛ НЕ ПОПАЛ: ни тайны, ни цвета, ни причины",
+        "ТАЙНА" not in written and "123456" not in written
+        and "лестниц" not in written)
+    chk("в журнале нет полей сверх разрешённых",
+        tally_mod.leaked(tally_mod.read(jr)) == [])
+    shutil.rmtree(jr.parent, ignore_errors=True)
 
     r = handle({"jsonrpc": "2.0", "id": 6, "method": "tools/call",
                 "params": {"name": "eyes_check", "arguments": {"code": "   "}}})

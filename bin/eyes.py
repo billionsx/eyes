@@ -808,6 +808,17 @@ def cmd_selftest(root: Path) -> int:
           [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
           == ["AE1"])
 
+    print("SELFTEST · жизнь правила (реестр присутствия)")
+    import tally as tally_mod
+    check("суд реестра зелёный: границы записи, охват, сеансы, выключатель",
+          tally_mod.court() == 0)
+    check("в записи журнала нет полей сверх разрешённых",
+          tally_mod.ALLOWED == {"ts", "rule", "lang", "session", "scope", "kind"})
+    check("правило без охвата НЕ идёт на пересмотр: его не спрашивали",
+          "НЕ кандидаты на пересмотр" in tally_mod.render(
+              tally_mod.life([{"rule": "AE1", "session": "s"}]),
+              [{"rule": "AE1", "session": "s"}]))
+
     print("SELFTEST · двойное свидетельство: замер против свода")
     import attest as att_mod
     check("суд сшивки зелёный: якорь, нормативность, единица, допуск",
