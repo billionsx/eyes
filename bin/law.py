@@ -75,10 +75,34 @@ _DIR = re.compile(
 )
 
 
+def _fold(w):
+    """Хвостовая пунктуация и множественное число.
+
+    Точка и дефис нужны ВНУТРИ токена (`0.4`, `-apple-system`), но на конце
+    они — знак предложения: без срезки `touch.` не встречается с `touch`.
+
+    Множественное — только безопасная форма: слово длиннее трёх знаков,
+    кончается на -s и не на -ss/-us/-is. Иначе фолд съедает смысл
+    (`less` → `les`, `status` → `statu`, `axis` → `axi`). `controls` →
+    `control`, `targets` → `target`, `colors` → `color` — это то, ради
+    чего фолд и заводится: норма пишется во множественном, спрашивают
+    в единственном.
+    """
+    w = w.rstrip(".-")
+    if len(w) > 3 and w.endswith("s") and not w.endswith(("ss", "us", "is")):
+        w = w[:-1]
+    return w
+
+
 def tokenize(text):
     """Слова в нижнем регистре без стоп-слов. Дефис и точка живут внутри
     токена: `-apple-system` и `0.4` — это одно слово, а не три."""
-    return [w for w in _WORD.findall(text.lower()) if w not in STOP]
+    out = []
+    for raw in _WORD.findall(text.lower()):
+        w = _fold(raw)
+        if w and w not in STOP:
+            out.append(w)
+    return out
 
 
 def is_bindable(law):
@@ -230,6 +254,14 @@ def court():
           "-apple-system" in tokenize("Use -apple-system first"))
     check("десятичное число — один токен",
           "0.4" in tokenize("letter-spacing 0.4 px"))
+    check("точка конца предложения не приклеивается к слову",
+          tokenize("accommodate touch.") == ["accommodate", "touch"])
+    check("множественное встречается с единственным",
+          tokenize("Controls and targets") == ["control", "target"])
+    check("фолд не съедает смысл: less/status/axis целы",
+          tokenize("less status axis") == ["less", "status", "axis"])
+    check("короткое слово на -s не режется",
+          "gas" in tokenize("gas"))
 
     check("число + направление = связываемый закон",
           is_bindable("Touch targets must be at least 44pt."))

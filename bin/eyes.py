@@ -784,6 +784,21 @@ def cmd_selftest(root: Path) -> int:
               [{"fw": "human-interface-guidelines", "id": "/design/hig/a",
                 "law": "Buttons must be at least 44pt."}], "buttons 44pt")))
 
+    print("SELFTEST · двойное свидетельство: замер против свода")
+    import attest as att_mod
+    check("суд сшивки зелёный: якорь, нормативность, единица, допуск",
+          att_mod.court() == 0)
+    check("общая лексика без якоря свойства согласием не считается",
+          att_mod.verdict(62.0,
+                          [({"fw": "human-interface-guidelines", "id": "/d/t",
+                             "law": "Prefer a tab bar for navigation."}, 15.0)],
+                          r"\btab bar\b(?=.*\bheight\b)", "pt", 0.0)[0] == "НЕМО")
+    check("справочник API согласия не даёт — согласие только из свода норм",
+          att_mod.verdict(120.0,
+                          [({"fw": "uikit", "id": "/documentation/uikit/d",
+                             "law": "The minimum duration of the long press."}, 12.0)],
+                          r"\bpress\b", "ms", 0.0)[0] == "НЕМО")
+
     print("SELFTEST · замер геометрии (ст. 36.2)")
     import geoscan as geo_mod
     import geofill as fill_mod
