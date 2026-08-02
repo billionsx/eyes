@@ -808,6 +808,13 @@ def cmd_selftest(root: Path) -> int:
           [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
           == ["AE1"])
 
+    print("SELFTEST · наставление (цель, а не только упрёк)")
+    import guide as guide_mod
+    check("суд наставления зелёный: цель у каждого правила из живой базы",
+          guide_mod.court() == 0)
+    check("наставление есть на каждое правило департамента",
+          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 16)})
+
     print("SELFTEST · жизнь правила (реестр присутствия)")
     import tally as tally_mod
     check("суд реестра зелёный: границы записи, охват, сеансы, выключатель",

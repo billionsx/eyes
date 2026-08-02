@@ -46,6 +46,7 @@ import lint as lint_mod    # noqa: E402  один закон — одно исп
 import law as law_mod      # noqa: E402
 import attest as att_mod   # noqa: E402
 import tally as tally_mod  # noqa: E402  журнал присутствия (только локально)
+import guide as guide_mod  # noqa: E402  цель берётся из замера
 
 PROTOCOL = "2025-06-18"
 NAME = "billions-x-eyes"
@@ -61,6 +62,40 @@ SUFFIX = {"css": ".css", "html": ".html", "tsx": ".tsx", "ts": ".ts",
           "jsx": ".jsx", "js": ".js"}
 
 TOOLS = [
+    {"name": "eyes_scan",
+     "description": "ГЛАВНЫЙ ИНСТРУМЕНТ. Судит ВЕСЬ проект по пути: обходит "
+                    "дерево сам, паспорт и настройка не нужны. Возвращает "
+                    "балл, грейд, разбивку по правилам с ЦЕЛЬЮ для каждого "
+                    "(что именно поставить вместо нарушения) и худшие файлы. "
+                    "Работает с любым стеком: css, scss, html, ts, tsx, js, "
+                    "jsx, vue, svelte.",
+     "inputSchema": {
+         "type": "object",
+         "properties": {
+             "path": {"type": "string",
+                      "description": "Путь к корню проекта."},
+             "mode": {"type": "string", "enum": ["strict", "report"]}},
+         "required": ["path"]}},
+    {"name": "eyes_guide",
+     "description": "Что делать с находкой. По номеру правила выдаёт "
+                    "проблему, действие и ЦЕЛЬ — измеренное число, которое "
+                    "надо поставить, — плюс слова Apple с адресом, если "
+                    "норма подтверждена двойным свидетельством.",
+     "inputSchema": {
+         "type": "object",
+         "properties": {"rule": {"type": "string",
+                                 "description": "Например AE11."}},
+         "required": ["rule"]}},
+    {"name": "eyes_business",
+     "description": "Норма бизнес-логики Большой семёрки (Deloitte, PwC, EY, "
+                    "KPMG, McKinsey, BCG, Bain) под вопрос стратегии, "
+                    "продукта или аналитики. Отдаёт положение фирмы и АДРЕС "
+                    "страницы первоисточника.",
+     "inputSchema": {
+         "type": "object",
+         "properties": {"query": {"type": "string"},
+                        "limit": {"type": "integer"}},
+         "required": ["query"]}},
     {"name": "eyes_check",
      "description": "Судит фрагмент кода правилами департамента Apple-стандартов "
                     "(AE1–AE15): поверхности, тени, форма угла, трекинг, кегль, "
@@ -141,6 +176,110 @@ def check(code, language="css", mode="report"):
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+# Каталоги, куда департамент не заходит: чужой код не судится по законам
+# проекта, а мусор сборки не является интерфейсом.
+SKIP = {"node_modules", ".git", "dist", "build", "out", ".next", ".nuxt",
+        "vendor", "coverage", "__pycache__", ".venv", "venv", "target",
+        "Pods", "DerivedData", ".cache", "public/assets"}
+SCAN_SUFFIX = (".css", ".scss", ".html", ".htm", ".tsx", ".ts", ".jsx", ".js",
+               ".vue", ".svelte")
+MAX_FILES = 3000
+
+
+def collect_files(root):
+    """Файлы проекта, годные к суду. Обходит ЛЮБОЕ дерево: паспорт не нужен."""
+    root = Path(root)
+    out = []
+    for p in sorted(root.rglob("*")):
+        if len(out) >= MAX_FILES:
+            break
+        if not p.is_file() or p.suffix.lower() not in SCAN_SUFFIX:
+            continue
+        if any(part in SKIP for part in p.parts):
+            continue
+        out.append(p)
+    return out
+
+
+def scan(root, mode="report"):
+    """Судит ПРОЕКТ целиком. Возвращает находки, счёт по правилам и балл.
+
+    Работает без паспорта: дерево обходится само, стек определяется по
+    расширениям. Это и есть «любой проект» — подключение не требует ни
+    настройки, ни присутствия департамента в чужом репозитории.
+
+    Файлы зеркалятся во временное дерево, потому что продуктовый линт ходит
+    по глобам и не умеет исключать чужие каталоги. Зеркало решает это, не
+    трогая линт: один закон — одно исполнение.
+    """
+    root = Path(root).expanduser().resolve()
+    if not root.exists():
+        return {"error": f"нет такого пути: {root}"}
+    files = collect_files(root)
+    if not files:
+        return {"error": "в дереве нет файлов интерфейса "
+                         f"({', '.join(SCAN_SUFFIX)}) — судить нечего",
+                "root": str(root)}
+    tmp = Path(tempfile.mkdtemp(prefix="eyes-scan-"))
+    try:
+        for f in files:
+            rel = f.relative_to(root)
+            dst = tmp / rel
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(f, dst)
+        res = lint_mod.run(tmp, _adapter(), _tokens(),
+                           mode if mode in ("strict", "report") else "report",
+                           tmp)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    findings = [{"rule": r, "file": f, "line": ln, "why": why}
+                for r, f, ln, why in res["findings"]]
+    from collections import Counter
+    by_rule = Counter(x["rule"] for x in findings)
+    by_file = Counter(x["file"] for x in findings)
+    # Балл по объявленной формуле департамента в режиме советника.
+    score = round(max(0.0, 100.0 - 0.05 * len(findings)), 1)
+    gr = ("A" if score >= 93 else "B" if score >= 85 else
+          "C" if score >= 70 else "D" if score >= 50 else "E")
+    return {"root": str(root), "files": res["files"],
+            "findings_total": len(findings),
+            "score": score, "grade": gr,
+            "by_rule": [{"rule": r, "count": n,
+                         **{k: v for k, v in guide_mod.guide(r).items()
+                            if k in ("problem", "action", "target")}}
+                        for r, n in by_rule.most_common()],
+            "worst_files": [{"file": f, "count": n}
+                            for f, n in by_file.most_common(10)],
+            "sample": findings[:40]}
+
+
+def business(query, limit=5):
+    """Норма бизнес-логики Большой семёрки (Deloitte · PwC · EY · KPMG ·
+    McKinsey · BCG · Bain) с адресом страницы фирмы.
+
+    Библиотека семёрки хранится в своих полях (firm/text/at) — приводим к
+    виду дознания, чтобы поиск был ОДИН на департамент, а не два похожих."""
+    src = ROOT / "registry" / "library" / "big7.jsonl"
+    if not src.exists():
+        return []
+    recs = []
+    for line in src.read_text(encoding="utf-8", errors="replace").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            d = json.loads(line)
+        except ValueError:
+            continue
+        if d.get("text"):
+            recs.append({"fw": d.get("firm", "big7"),
+                         "id": d.get("at", ""), "law": d["text"]})
+    return [{"firm": r["fw"], "insight": r["law"], "address": r["id"],
+             "score": round(s, 2)}
+            for r, s in law_mod.rank(recs, query, limit)]
+
+
 def _flatten(tree, prefix=""):
     out = {}
     for k, v in tree.items():
@@ -180,6 +319,25 @@ def _text(payload):
 
 def call_tool(name, args):
     args = args or {}
+    if name == "eyes_scan":
+        path = args.get("path")
+        if not isinstance(path, str) or not path.strip():
+            return _text({"error": "нужен path — корень проекта"})
+        res = scan(path, args.get("mode", "report"))
+        if "error" not in res:
+            try:
+                tally_mod.record([x["rule"] for x in res["sample"]], "project",
+                                 scope=[f"AE{i}" for i in range(1, 16)])
+            except Exception:
+                pass
+        return _text(res)
+    if name == "eyes_guide":
+        return _text(guide_mod.guide(str(args.get("rule", "")).upper()))
+    if name == "eyes_business":
+        q = args.get("query")
+        if not isinstance(q, str) or not q.strip():
+            return _text({"error": "нужен непустой query"})
+        return _text({"insights": business(q, int(args.get("limit", 5) or 5))})
     if name == "eyes_check":
         code = args.get("code")
         if not isinstance(code, str) or not code.strip():
@@ -299,8 +457,11 @@ def court():
 
     r = handle({"jsonrpc": "2.0", "id": 2, "method": "tools/list"})
     names = [t["name"] for t in r["result"]["tools"]]
-    chk("объявлены все четыре инструмента",
-        names == ["eyes_check", "eyes_law", "eyes_token", "eyes_attest"])
+    chk("объявлены все семь инструментов департамента",
+        names == ["eyes_scan", "eyes_guide", "eyes_business", "eyes_check",
+                  "eyes_law", "eyes_token", "eyes_attest"])
+    chk("главный инструмент объявлен ПЕРВЫМ: агент берёт верхний",
+        names[0] == "eyes_scan")
     chk("у каждого инструмента объявлена схема входа",
         all(t.get("inputSchema", {}).get("type") == "object"
             for t in r["result"]["tools"]))
@@ -348,6 +509,49 @@ def court():
     chk("в журнале нет полей сверх разрешённых",
         tally_mod.leaked(tally_mod.read(jr)) == [])
     shutil.rmtree(jr.parent, ignore_errors=True)
+
+    # Проект целиком: сканер обязан работать без паспорта на любом дереве.
+    import tempfile as _tf2
+    proj = Path(_tf2.mkdtemp(prefix="eyes-proj-"))
+    (proj / "src").mkdir()
+    (proj / "src" / "a.css").write_text(
+        ".x{background:#123456;border-radius:20px;}", encoding="utf-8")
+    (proj / "node_modules").mkdir()
+    (proj / "node_modules" / "junk.css").write_text(
+        ".y{background:#abcdef;}", encoding="utf-8")
+    sc = scan(proj)
+    chk("проект судится без паспорта и без настройки",
+        sc.get("findings_total", 0) >= 2 and sc["files"] == 1)
+    chk("чужой код (node_modules) в суд НЕ берётся",
+        all("node_modules" not in f["file"] for f in sc["sample"]))
+    chk("у каждого правила в разбивке есть ЦЕЛЬ, а не только упрёк",
+        all(b.get("target") for b in sc["by_rule"]))
+    chk("балл и грейд выставлены", sc["grade"] in "ABCDE" and sc["score"] <= 100)
+    empty = scan(proj / "node_modules" / "nope")
+    chk("несуществующий путь — внятный отказ, а не пустой отличный отчёт",
+        "error" in empty)
+    (proj / "src2").mkdir()
+    (proj / "src2" / "readme.txt").write_text("нет интерфейса", encoding="utf-8")
+    shutil.rmtree(proj / "src")
+    chk("дерево без интерфейса — ЧЕСТНЫЙ отказ, а не грейд A",
+        "error" in scan(proj))
+    shutil.rmtree(proj, ignore_errors=True)
+
+    g = json.loads(handle({"jsonrpc": "2.0", "id": 61, "method": "tools/call",
+                           "params": {"name": "eyes_guide",
+                                      "arguments": {"rule": "ae11"}}}
+                          )["result"]["content"][0]["text"])
+    chk("наставление отвечает на строчный номер правила и несёт цель",
+        g["rule"] == "AE11" and g["target"])
+
+    b = json.loads(handle({"jsonrpc": "2.0", "id": 62, "method": "tools/call",
+                           "params": {"name": "eyes_business",
+                                      "arguments": {"query": "customer insight",
+                                                    "limit": 2}}}
+                          )["result"]["content"][0]["text"])
+    chk("бизнес-норма приходит с фирмой и адресом первоисточника",
+        b["insights"] and all(x["firm"] and x["address"]
+                              for x in b["insights"]))
 
     r = handle({"jsonrpc": "2.0", "id": 6, "method": "tools/call",
                 "params": {"name": "eyes_check", "arguments": {"code": "   "}}})
