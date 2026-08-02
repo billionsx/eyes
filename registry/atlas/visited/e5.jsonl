@@ -138,3 +138,9 @@
 {"id": "/documentation/swiftui/progressviewstyle/automatic", "sha": "d2a89a06f47431b9eca6dc4e9543a7e4b1c7a308f3d3a3bd82d946cef1a4bfde", "t": "automatic", "n": 274, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
 {"id": "/documentation/swiftui/togglestyle/checkbox", "sha": "0ed44327614dd3f5f55b1bfa48b7aa3f6964ee6987da3070d0fa3e49b14a9d63", "t": "checkbox", "n": 856, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/SwiftUI/UIOrnament", "sha": "139ff54fca6cba88033a1245d5bdf7a39c2dd9d08e6cacd897a33677219ba362", "t": "UIOrnament", "n": 188, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
+{"id": "/documentation/swiftui/physicalmetricsconverter/convert(_:to:)", "sha": "8819fd508f871707d22b370d4d3c9698bb8fa11cea7b4958645a548cdf6baaa2", "t": "convert(_:to:)", "n": 371, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/anyshapestyle/init(_:)", "sha": "b1dcb9ebc7d9db4ad66724eb169eeff132d2f1681bba0d4f8096dc7390d2ceae", "t": "init(_:)", "n": 25, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/keyframetrackcontentbuilder/buildpartialblock(first:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildPartialBlock(first:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/timelineschedule/explicit(_:)", "sha": "2ca9dab51e093edd6a93a1d199426aaf5325663cead6dc5208c64710e1145781", "t": "explicit(_:)", "n": 720, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
+{"id": "/documentation/swiftui/labelstyleconfiguration/title-swift.property", "sha": "9d353c8693b358dabb2db7fa57d0edc2cabde13e41b146a55a037f03c3306f1b", "t": "title", "n": 34, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
+{"id": "/documentation/swiftui/lazyhgrid/init(rows:alignment:spacing:pinnedviews:content:)", "sha": "ea3aa503f487728afdc9584329c641a62aa036b3d57bd476cd4f2a806b25bdcd", "t": "init(rows:alignment:spacing:pinnedViews:content:)", "n": 39, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

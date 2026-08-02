@@ -130,3 +130,7 @@
 {"id": "/documentation/swiftui/picker/init(_:image:selection:content:currentvaluelabel:)-1kpr2", "sha": "fb3e0345c29973b4ff4cd22a8ca749d441c7e36999d55ad2f9f84996641e564e", "t": "init(_:image:selection:content:currentValueLabel:)", "n": 284, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
 {"id": "/documentation/swiftui/stepper/init(value:in:step:oneditingchanged:label:)", "sha": "079e116452817c70297bdcc075e1de636871efad57065b7063b41a26d953040d", "t": "init(value:in:step:onEditingChanged:label:)", "n": 562, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/swiftui/gesturemask/none", "sha": "c4e4c1ef0c004088ea88b7d925148629dc56155348d5a2832a9849385982ad47", "t": "none", "n": 75, "laws": 0, "ts": "2026-08-01 18:35 UTC"}
+{"id": "/documentation/swiftui/font/bold()", "sha": "28639e98e562f7144d3a084f317bd728da298e165943ee243643da9c6d25889f", "t": "bold()", "n": 424, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/projectiontransform/m21", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "m21", "n": 0, "laws": 0, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/geometryeffect/effectvalue(size:)", "sha": "0ffc073bef2c1bbc66dd3b89e56a3f57b3ed1bd9885200c97f3f4ef6447526f9", "t": "effectValue(size:)", "n": 40, "laws": 0, "ts": "2026-08-02 06:03 UTC"}
+{"id": "/documentation/swiftui/anytransition/scale(scale:anchor:)", "sha": "123bbbeba57b2edab2b3bc432d2bd959c22a6bf66b9878cc6ffabaaa86644c70", "t": "scale(scale:anchor:)", "n": 66, "laws": 0, "ts": "2026-08-02 06:06 UTC"}

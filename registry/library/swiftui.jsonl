@@ -2376,3 +2376,219 @@
 {"id": "/documentation/swiftui/font/design", "law": "A design to use for fonts."}
 {"id": "/documentation/swiftui/font/weight", "law": "A weight to use for fonts."}
 {"id": "/documentation/swiftui/font/width", "law": "A width to use for fonts that have multiple widths."}
+{"id": "/documentation/swiftui/view/oncontinuoushover(coordinatespace:perform:)-4ehfq", "law": "Use this modifier to define a region for detecting pointer movement with a view."}
+{"id": "/documentation/swiftui/view/ontapgesture(count:coordinatespace:perform:)-21n4i", "law": "If you create a control that’s functionally equivalent to a , use to create a customized button instead."}
+{"id": "/documentation/swiftui/alignment/init(horizontal:vertical:)", "law": "Use this initializer to create a custom alignment that makes use of a custom horizontal or vertical guide, or both."}
+{"id": "/documentation/swiftui/alignment/init(horizontal:vertical:)", "law": "For example, you can combine a custom vertical guide called with the built-in guide, and use it to configure a : For more information about creating custom guides, including the code that creates the custom alignment in the example above, see ."}
+{"id": "/documentation/swiftui/view/offercoderedemption(ispresented:oncompletion:)", "law": "Customers can only redeem these offers in your app through the redemption sheet; don’t use a custom UI."}
+{"id": "/documentation/swiftui/view/subscriptionpromotionaloffer(offer:signature:)", "law": "Subscription stores within this view uses the specified subscription offer to configure the appearance of the subscription plans displayed, when you use a system-provided to style the in-app subscription store."}
+{"id": "/documentation/swiftui/view/subscriptionstorecontrolbackground(_:)-7ev89", "law": "Set a standard effect to use for the background of subscription store view controls within the view."}
+{"id": "/documentation/swiftui/view/subscriptionstorecontrolbackground(_:)-7jxa9", "law": "Set a shape style to use for the background of subscription store view controls within the view."}
+{"id": "/documentation/swiftui/toolbaritemplacement/destructiveaction", "law": "For example, a button labeled “Don’t Save” that allows the user to discard unsaved changes to a document before quitting."}
+{"id": "/documentation/swiftui/toolbaritemplacement/destructiveaction", "law": "In macOS and in Mac Catalyst apps, the system places items in the leading edge of the sheet and gives them a special appearance to caution against accidental use."}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/contentmarginsremoved(_:)", "law": "Use this modifier to remove the default padding around a toolbar item’s content."}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/customizationbehavior(_:)", "law": "Use this modifier to the customization behavior a user can perform on your toolbar items."}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/defaultcustomization(_:options:)", "law": "Provide a value of to this modifier to specify that items should initially be hidden from the user, and require them to add those items to the toolbar if desired."}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/defaultcustomization(_:options:)", "law": "You can ensure that the user can always use an item with default customizability, even if it’s removed from the customizable toolbar."}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/hidden(_:)", "law": "Use this modifier to conditionally display a toolbar item in the toolbar."}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/matchedtransitionsource(id:in:)", "law": "Use this modifier in conjunction with to provide a source for the transition effect: Identifies this toolbar content as the source of a navigation transition, such as a zoom transition."}
+{"id": "/documentation/swiftui/font/resolved", "law": "A font will always map to the same CTFont on a given platform."}
+{"id": "/documentation/swiftui/font/scaled(by:)", "law": "For example, results in a bold body font 6x its usual size."}
+{"id": "/documentation/swiftui/font/system(_:design:weight:)", "law": "Use this method to create a system font that has the specified properties."}
+{"id": "/documentation/swiftui/font/system(size:weight:design:)", "law": "Use this function to create a system font by specifying the size and weight, and a type design together."}
+{"id": "/documentation/swiftui/font/system(size:weight:design:)", "law": "The following example styles the text as 17 point system font using design, while its weight can depend on the current context: Specifies a system font to use, along with the style, weight, and any design parameters you want applied to the text."}
+{"id": "/documentation/swiftui/font/system(size:weight:design:)-697b2", "law": "Use this function to create a system font by specifying the size and weight, and a type design together."}
+{"id": "/documentation/swiftui/font/system(size:weight:design:)-697b2", "law": "The following example styles the text as 17 point system font using design, while its weight can depend on the current context: Specifies a system font to use, along with the style, weight, and any design parameters you want applied to the text."}
+{"id": "/documentation/swiftui/font/system(size:weight:design:)-73a88", "law": "Use this function to create a system font by specifying the size and weight, and a type design together."}
+{"id": "/documentation/swiftui/font/system(size:weight:design:)-73a88", "law": "The following styles the system font as 17 point, text: While the following styles the text as 17 point , and applies a to the system font: If you want to use the default ( ), you don’t need to specify the in the method."}
+{"id": "/documentation/swiftui/font/system(size:weight:design:)-73a88", "law": "The following example styles the text as 17 point , and uses a system font: Specifies a system font to use, along with the style, weight, and any design parameters you want applied to the text."}
+{"id": "/documentation/swiftui/font/textstyle", "law": "A dynamic text style to use for fonts."}
+{"id": "/documentation/swiftui/tabcontent/accessibilityinputlabels(_:isenabled:)", "law": "Voice Control and Full Keyboard Access use the input labels."}
+{"id": "/documentation/swiftui/tabcontent/accessibilityinputlabels(_:isenabled:)", "law": "If you don’t specify any input labels, the user can still refer to the tab using the accessibility label that you add with the modifier."}
+{"id": "/documentation/swiftui/tabcontent/accessibilitylabel(_:isenabled:)", "law": "Use this method to provide an accessibility label for a tab that contains content like an icon."}
+{"id": "/documentation/swiftui/tabcontent/accessibilityvalue(_:isenabled:)", "law": "Use this method to describe the value represented by a tab, but only if that’s different than the tab’s label such as when an icon represent information about a tab."}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:)", "law": "Use this modifier to add a context menu to a table row."}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:)", "law": "The following example adds a context menu to each row in a table that people can use to send an email to the person represented by that row: If you want to display a preview beside the context menu, use ."}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:)", "law": "If you want to display a context menu that’s based on the current selection, use ."}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:)", "law": "To add context menus to other kinds of views, use ."}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:preview:)", "law": "When you use this modifier to add a context menu to rows in a table, the system shows a preview beside the menu."}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:preview:)", "law": "For example, the following code adds a context menu with a preview to each row in a table that people can use to send an email to the person represented by that row: This view modifier produces a context menu on macOS, but that platform doesn’t display the preview."}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:preview:)", "law": "If you want to display a context menu that’s based on the current selection, use ."}
+{"id": "/documentation/swiftui/tablerowcontent/selectiondisabled(_:)", "law": "Use this modifier to control the selectability of views in selectable containers like or ."}
+{"id": "/documentation/swiftui/toolbarcontent/contentmarginsremoved(_:)", "law": "Use this modifier to remove the default padding around a toolbar item’s content."}
+{"id": "/documentation/swiftui/toolbarcontent/hidden(_:)", "law": "Use this modifier to conditionally display a toolbar item in the toolbar."}
+{"id": "/documentation/swiftui/toolbarcontent/matchedtransitionsource(id:in:)", "law": "Use this modifier in conjunction with to provide a source for the transition effect: Identifies this toolbar content as the source of a navigation transition, such as a zoom transition."}
+{"id": "/documentation/swiftui/liststyle/bordered", "law": "Bordered lists are expected to be inset from their outer containers, but do not have inset style rows or selection."}
+{"id": "/documentation/swiftui/liststyle/bordered(alternatesrowbackgrounds:)", "law": "Bordered lists are expected to be inset from their outer containers, but do not have inset style rows or selection."}
+{"id": "/documentation/swiftui/contentshapekinds/accessibility", "law": "Updating the accessibility shape is only required if the shape or size used to hit-test significantly diverges from the visual shape of the view."}
+{"id": "/documentation/swiftui/contentshapekinds/accessibility", "law": "To control the shape for accessibility and hit-testing, use the kind."}
+{"id": "/documentation/swiftui/contentshapekinds/contextmenupreview", "law": "To control the shape used to hit-test and start the context menu presentation, use the kind."}
+{"id": "/documentation/swiftui/contentshapekinds/hovereffect", "law": "To control the shape used to hit-test and start the effect, use the kind."}
+{"id": "/documentation/swiftui/springloadingbehavior/automatic", "law": "Some components, such as , will default to allowing spring loading; while others do not."}
+{"id": "/documentation/swiftui/tablestyle/bordered", "law": "Bordered tables are expected to be inset from their outer containers, but do not have inset style rows or selection."}
+{"id": "/documentation/swiftui/tablestyle/bordered(alternatesrowbackgrounds:)", "law": "Bordered tables are expected to be inset from their outer containers, but do not have inset style rows or selection."}
+{"id": "/documentation/swiftui/button/init(_:intent:)-1aqo4", "law": "To initialize a button with a localized string key, use instead."}
+{"id": "/documentation/swiftui/button/init(_:intent:)-8y091", "law": "To initialize a button with a string variable, use instead."}
+{"id": "/documentation/swiftui/buttonbordershape/automatic", "law": "Use the view modifier to apply the shape to bordered buttons within a view hierarchy."}
+{"id": "/documentation/swiftui/buttonbordershape/capsule", "law": "Use the view modifier to apply the shape to bordered buttons within a view hierarchy."}
+{"id": "/documentation/swiftui/buttonbordershape/circle", "law": "Use the view modifier to apply the shape to bordered buttons within a view hierarchy."}
+{"id": "/documentation/swiftui/buttonbordershape/roundedrectangle", "law": "Use the view modifier to apply the shape to bordered buttons within a view hierarchy."}
+{"id": "/documentation/swiftui/buttonbordershape/roundedrectangle(radius:)", "law": "Use the view modifier to apply the shape to bordered buttons within a view hierarchy."}
+{"id": "/documentation/swiftui/buttonrole/cancel", "law": "Use this role for a button that cancels the current operation."}
+{"id": "/documentation/swiftui/accessorybaractionbuttonstyle", "law": "Use this style for buttons that perform extra actions relative to the accessory toolbar’s main functions, like adding or editing filters."}
+{"id": "/documentation/swiftui/accessorybaractionbuttonstyle", "law": "A button style that you use for extra actions in an accessory toolbar."}
+{"id": "/documentation/swiftui/accessorybarbuttonstyle", "law": "A button style that you use for actions in an accessory toolbar that narrow the focus of a search or other operation."}
+{"id": "/documentation/swiftui/view/navigationbarhidden(_:)", "law": "Use this method to hide the navigation bar."}
+{"id": "/documentation/swiftui/view/navigationbaritems(leading:)", "law": "Use to add navigation bar items to the leading edge of the navigation bar for this view."}
+{"id": "/documentation/swiftui/view/navigationbaritems(leading:)", "law": "To hide the back button, use ."}
+{"id": "/documentation/swiftui/view/navigationbaritems(leading:trailing:)", "law": "Use to add navigation bar items to the leading and trailing edges of the navigation bar for this view."}
+{"id": "/documentation/swiftui/view/navigationbaritems(leading:trailing:)", "law": "To hide the back button, use ."}
+{"id": "/documentation/swiftui/view/navigationbaritems(trailing:)", "law": "Use to add navigation bar items to the trailing edge of the navigation bar for this view."}
+{"id": "/documentation/swiftui/view/navigationbartitle(_:)", "law": "Use to set the title of the navigation bar."}
+{"id": "/documentation/swiftui/view/navigationbartitle(_:displaymode:)", "law": "Use to set the title of the navigation bar for this view and specify a display mode for the title from one of the styles."}
+{"id": "/documentation/swiftui/view/navigationviewstyle(_:)", "law": "Use this modifier to change the appearance and behavior of navigation views."}
+{"id": "/documentation/swiftui/navigationbaritem/titledisplaymode", "law": "Use one of these values with the view modifier to configure the title of a navigation bar."}
+{"id": "/documentation/swiftui/tabbarminimizebehavior/never", "law": "Never minimize the tab bar."}
+{"id": "/documentation/swiftui/shapestyle/brown", "law": "A context-dependent brown color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/cyan", "law": "A context-dependent cyan color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/gray", "law": "A context-dependent gray color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/indigo", "law": "A context-dependent indigo color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/mint", "law": "A context-dependent mint color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/orange", "law": "A context-dependent orange color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/pink", "law": "A context-dependent pink color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/red", "law": "A context-dependent red color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/teal", "law": "A context-dependent teal color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/white", "law": "A white color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/shapestyle/yellow", "law": "A context-dependent yellow color suitable for use in UI elements."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:)-279hj", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:)-57rmg", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:)-8wgzq", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:)-35rve", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:)-37jlp", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:)-90n2a", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:overlayaccessoryview:)-2jxqm", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:overlayaccessoryview:)-5yu9c", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:overlayaccessoryview:)-6v41w", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:overlayaccessoryview:)-2zk2e", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:overlayaccessoryview:)-5kx3e", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:overlayaccessoryview:)-63ief", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:backgroundstyle:_:backgroundaccessoryview:overlayaccessoryview:)-2q5x6", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:backgroundstyle:_:backgroundaccessoryview:overlayaccessoryview:)-4hjc", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:backgroundstyle:_:backgroundaccessoryview:overlayaccessoryview:)-5d4sl", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:backgroundaccessoryview:overlayaccessoryview:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:_:background:overlayaccessoryview:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:backgroundstyle:_:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:backgroundstyle:_:backgroundaccessoryview:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:backgroundstyle:_:backgroundaccessoryview:overlayaccessoryview:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/documentgrouplaunchscene/init(_:backgroundstyle:_:overlayaccessoryview:)", "law": "If you don’t implement a in the app declaration, you can get the same design by implementing a ."}
+{"id": "/documentation/swiftui/view/renameaction(_:)-324yw", "law": "Use this modifier to customize the action provided to the rename button."}
+{"id": "/documentation/swiftui/anygradient/colorspace(_:)", "law": "Returns a version of the gradient that will use a specified color space for interpolating between its colors."}
+{"id": "/documentation/swiftui/depthalignmentid/defaultvalue(in:)", "law": "Use the method to calculate the default offset of the corresponding alignment guide."}
+{"id": "/documentation/swiftui/glass/clear", "law": "When using clear glass, ensure content remains legible by adding a dimming layer or other treatment beneath the glass."}
+{"id": "/documentation/swiftui/glass/clear", "law": "For example, you could add a transparent black color beneath your glass to ensure content remains legible above the glass."}
+{"id": "/documentation/swiftui/gradient/colorspace(_:)", "law": "Returns a version of the gradient that will use a specified color space for interpolating between its colors."}
+{"id": "/documentation/swiftui/materialactiveappearance/active", "law": "Materials will always appear active."}
+{"id": "/documentation/swiftui/materialactiveappearance/automatic", "law": "Materials always appear as active on all other platforms."}
+{"id": "/documentation/swiftui/materialactiveappearance/inactive", "law": "Materials will always appear inactive."}
+{"id": "/documentation/swiftui/materialactiveappearance/matchwindow", "law": "On non-macOS platforms, materials will always appear as active."}
+{"id": "/documentation/swiftui/meshgradient/smoothscolors", "law": "Whether cubic (smooth) interpolation should be used for the colors in the mesh (rather than only for the shape of the mesh)."}
+{"id": "/documentation/swiftui/shapestyle/angulargradient(_:center:startangle:endangle:)", "law": "For example, an angular gradient used as a background: For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/background", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/body", "law": "As a result, you can use the shape style in a view hierarchy like any other view: A rectangular view that’s filled with the shape style."}
+{"id": "/documentation/swiftui/shapestyle/conicgradient(_:center:angle:)", "law": "For example, a conic gradient used as a background: For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/ellipticalgradient(_:center:startradiusfraction:endradiusfraction:)", "law": "For example, an elliptical gradient used as a background: For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/ellipticalgradient(colors:center:startradiusfraction:endradiusfraction:)", "law": "For example, an elliptical gradient used as a background: For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/ellipticalgradient(stops:center:startradiusfraction:endradiusfraction:)", "law": "For example, an elliptical gradient used as a background: For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/fill", "law": "Use the primary version of this style to fill thin or small shapes, such as the track of a slider on iOS."}
+{"id": "/documentation/swiftui/shapestyle/fill", "law": "Use the secondary version of this style to fill medium-size shapes, such as the background of a switch on iOS."}
+{"id": "/documentation/swiftui/shapestyle/fill", "law": "Use the tertiary version of this style to fill large shapes, such as input fields, search bars, or buttons on iOS."}
+{"id": "/documentation/swiftui/shapestyle/foreground", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/image(_:sourcerect:scale:)", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/lineargradient(colors:startpoint:endpoint:)", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/lineargradient(stops:startpoint:endpoint:)", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/link", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/placeholder", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/primary", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/quaternary-swift.type.property", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/quinary-swift.type.property", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/radialgradient(_:center:startradius:endradius:)", "law": "For example, a radial gradient used as a background: For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/radialgradient(colors:center:startradius:endradius:)", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/radialgradient(stops:center:startradius:endradius:)", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/resolved", "law": "When you create a custom shape style, Swift infers this type from your implementation of the required function."}
+{"id": "/documentation/swiftui/shapestyle/secondary-swift.type.property", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/selection", "law": "On iPhone, this will always fill with the environment’s accent color."}
+{"id": "/documentation/swiftui/shapestyle/selection", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/separator", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/tertiary-swift.type.property", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/shapestyle/windowbackground", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/view/rotation3deffect(_:axis:anchor:)-81jhy", "law": "This example will use spherical linear interpolation during an animation."}
+{"id": "/documentation/swiftui/view/tint(_:)-93mfq", "law": "Use this method to override the default accent color for this view with a given styling."}
+{"id": "/documentation/swiftui/view/tint(_:)-93mfq", "law": "Unlike an app’s accent color, which can be overridden by user preference, tint is always respected and should be used as a way to provide additional meaning to the control."}
+{"id": "/documentation/swiftui/view/tint(_:)-93mfq", "law": "controls which can not style themselves using a gradient will attempt to use the color of the gradient’s first stop)."}
+{"id": "/documentation/swiftui/visualeffect/blur(radius:opaque:)", "law": "Use to apply a gaussian blur effect to the rendering of the view."}
+{"id": "/documentation/swiftui/visualeffect/coloreffect(_:isenabled:)", "law": "For a shader function to act as a color filter it must have a function signature matching: where is the user-space coordinates of the pixel applied to the shader and its source color, as a pre-multiplied color in the destination color space."}
+{"id": "/documentation/swiftui/visualeffect/coloreffect(_:isenabled:)", "law": "The function should return the modified color value."}
+{"id": "/documentation/swiftui/visualeffect/huerotation(_:)", "law": "Use hue rotation effect to shift all of the colors in a view according to the angle you specify."}
+{"id": "/documentation/swiftui/visualeffect/perspectiverotationeffect(_:axis:anchor:perspective:)", "law": "Use the input to control the renderer’s vanishing point."}
+{"id": "/documentation/swiftui/visualeffect/perspectiverotationeffect(_:axis:anchor:perspective:)", "law": "The following example creates the appearance of rotating text 45˚ about the y-axis: To truly rotate content in three dimensions, use a 3D rotation effect without a perspective input like ."}
+{"id": "/documentation/swiftui/visualeffect/rotation3deffect(_:axis:anchor:anchorz:perspective:)", "law": "Use the input to control the renderer’s vanishing point."}
+{"id": "/documentation/swiftui/visualeffect/saturation(_:)", "law": "Use color saturation to increase or decrease the intensity of colors in a view."}
+{"id": "/documentation/swiftui/color/resolved/init(colorspace:red:green:blue:opacity:)", "law": "A standard sRGB color space clamps each color component — , , and — to a range of to , but SwiftUI colors use an extended sRGB color space, so you can use component values outside that range."}
+{"id": "/documentation/swiftui/color/resolved/init(colorspace:red:green:blue:opacity:)", "law": "This makes it possible to create colors using the or color space that make full use of the wider gamut of a diplay that supports ."}
+{"id": "/documentation/swiftui/color/resolved/opacity", "law": "A value of means 100% transparency, while a value of means 100% opacity."}
+{"id": "/documentation/swiftui/color/resolvedhdr/opacity", "law": "A value of means 100% transparency, while a value of means 100% opacity."}
+{"id": "/documentation/swiftui/edge/corner/style/concentric(minimum:)", "law": "If the radius that the system calculates is less than the minimum radius you provide, the system uses the minimum radius."}
+{"id": "/documentation/swiftui/edge/corner/style/concentric(minimum:)", "law": "A rounded corner style where the corner’s radius shares a center point with the container shape’s corner radius, with an optional minimum radius."}
+{"id": "/documentation/swiftui/view/containershape(_:)-3br47", "law": "Sets the container shape to use for any container relative shape or concentric rectangle within this view."}
+{"id": "/documentation/swiftui/edgeinsets/inset(by:edges:)", "law": "When two corner insets diverge in their values for the specified edge, the maximum inset value will be used."}
+{"id": "/documentation/swiftui/geometryeffect/ignoredbylayout()", "law": "Use this method to disable layout changes during transitions."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(inputlabels:)", "law": "Voice Control and Full Keyboard Access use the input labels."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(inputlabels:)", "law": "If you don’t specify any input labels, the user can still refer to the view using the accessibility label that you add with the modifier."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(label:)", "law": "Use this method to provide an accessibility label for a view that doesn’t display text, like an icon."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(label:)", "law": "For example, you could use this method to label a button that plays music with the text “Play”."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(label:)", "law": "For example, don’t use the label “Play button” because a button already has a trait that identifies it as a button."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(selectionidentifier:)", "law": "Picker uses the value to determine what node to use for the accessibility value."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(value:)", "law": "For example, for a slider that you label as “Volume” using , you can provide the current volume setting, like “60%”, using ."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityactivationpoint(_:)", "law": "Use this modifier to ensure that the activation point for a small element remains accurate even if you present a larger version of the element to VoiceOver."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityactivationpoint(_:)", "law": "The activation point for an element is the location assistive technologies use to initiate gestures."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityactivationpoint(_:isenabled:)", "law": "Use this modifier to ensure that the activation point for a small element remains accurate even if you present a larger version of the element to VoiceOver."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityactivationpoint(_:isenabled:)", "law": "The activation point for an element is the location assistive technologies use to initiate gestures."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitycustomcontent(_:_:importance:)", "law": "Use this method to add information you want accessibility users to be able to access about this element, beyond the basics of label, value, and hint."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityinputlabels(_:)", "law": "Voice Control and Full Keyboard Access use the input labels."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityinputlabels(_:)", "law": "If you don’t specify any input labels, the user can still refer to the view using the accessibility label that you add with the modifier."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityinputlabels(_:isenabled:)", "law": "Voice Control and Full Keyboard Access use the input labels."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityinputlabels(_:isenabled:)", "law": "If you don’t specify any input labels, the user can still refer to the view using the accessibility label that you add with the modifier."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitylabel(_:)", "law": "Use this method to provide an accessibility label for a view that doesn’t display text, like an icon."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitylabel(_:)", "law": "For example, you could use this method to label a button that plays music with the text “Play”."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitylabel(_:)", "law": "For example, don’t use the label “Play button” because a button already has a trait that identifies it as a button."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitylabel(_:isenabled:)", "law": "Use this method to provide an accessibility label for a view that doesn’t display text, like an icon."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitylabel(_:isenabled:)", "law": "For example, you could use this method to label a button that plays music with the text “Play”."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitylabel(_:isenabled:)", "law": "For example, don’t use the label “Play button” because a button already has a trait that identifies it as a button."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitytextcontenttype(_:)", "law": "Use this modifier to set the content type of this accessibility element."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityvalue(_:)", "law": "For example, for a slider that you label as “Volume” using accessibilityLabel(), you can provide the current volume setting, like “60%”, using accessibilityValue()."}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityvalue(_:isenabled:)", "law": "For example, for a slider that you label as “Volume” using accessibilityLabel(), you can provide the current volume setting, like “60%”, using accessibilityValue()."}
+{"id": "/documentation/swiftui/roundedrectangularshape/corners(in:)", "law": "If size is not available, return to indicate that the corner should be as round as it could be."}
+{"id": "/documentation/swiftui/roundedrectangularshapecorners/concentric(minimum:)", "law": "Corner styles will be concentric with its container, varying the radius as needed in all four corners but never going below zero, or the provided minimum corner style, if provided."}
+{"id": "/documentation/swiftui/animationcontext/islogicallycomplete", "law": "This should be set to at most once in the life of an animation, changing back to later will be ignored."}
+{"id": "/documentation/swiftui/animationcontext/islogicallycomplete", "law": "If this is never set to , the behavior is equivalent to if this had been set to just as the animation finished (by returning )."}
+{"id": "/documentation/swiftui/animationcontext/state", "law": "Now a custom animation can use the property instead of the property as a convenient way to read and write state values as the animation runs."}
+{"id": "/documentation/swiftui/contenttransition/interpolate", "law": "Any changes that can’t show an interpolated animation use an opacity animation instead."}
+{"id": "/documentation/swiftui/customanimation/shouldmerge(previous:value:time:context:)", "law": "A Boolean value of if the animation should merge with the previous animation; otherwise, ."}
+{"id": "/documentation/swiftui/customanimation/velocity(value:time:context:)", "law": "Should subsequent animations merge with the animation, the system preserves continuity of the velocity between animations."}
+{"id": "/documentation/swiftui/timelineview/context", "law": "The context includes both the from the schedule that triggered the callback, and a that you can use to customize the appearance of your view."}
+{"id": "/documentation/swiftui/transaction/disablesanimations", "law": "A Boolean value that indicates whether views should disable animations."}
+{"id": "/documentation/swiftui/transaction/tracksvelocity", "law": "This property can be enabled in an interactive context to track velocity during a user interaction so that when the interaction ends, an animation can use the accumulated velocities to create animations that preserve them."}
+{"id": "/documentation/swiftui/transitionphase/diddisappear", "law": "In this phase, a transition should show the appearance that will be animated to make the disappearance transition."}
+{"id": "/documentation/swiftui/transitionphase/identity", "law": "In this phase, a transition should show its steady state appearance, which will generally not make any visual change to the view."}
+{"id": "/documentation/swiftui/transitionphase/isidentity", "law": "A Boolean that indicates whether the transition should have an identity effect, i.e."}
+{"id": "/documentation/swiftui/transitionphase/willappear", "law": "In this phase, a transition should show the appearance that will be animated from to make the appearance transition."}
+{"id": "/documentation/swiftui/view/transition(_:)-5h5h0", "law": "The following code will conditionally show MyView, and when it appears or disappears, will use a slide transition to show it."}
+{"id": "/documentation/swiftui/griditem/alignment", "law": "The alignment to use when placing each view."}
+{"id": "/documentation/swiftui/fillshapestyle/init()", "law": "Use the primary version of this style to fill thin or small shapes, such as the track of a slider."}
+{"id": "/documentation/swiftui/fillshapestyle/init()", "law": "Use the secondary version of this style to fill medium-size shapes, such as the background of a switch."}
+{"id": "/documentation/swiftui/fillshapestyle/init()", "law": "Use the tertiary version of this style to fill large shapes, such as input fields, search bars, or buttons."}
+{"id": "/documentation/swiftui/material/materialactiveappearance(_:)", "law": "Materials used as the container background on macOS will automatically appear inactive when their the window appears inactive, but can be made to always appear active by setting the active appearance behavior to be always active: Sets an explicit active appearance for this material."}
+{"id": "/documentation/swiftui/shapestyle/lineargradient(_:startpoint:endpoint:)-753nc", "law": "For information about how to use shape styles, see ."}
+{"id": "/documentation/swiftui/controlgroup/init(_:)", "law": "Use this initializer within the method of a instance to create an instance of the control group being styled."}

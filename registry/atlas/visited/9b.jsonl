@@ -140,3 +140,4 @@
 {"id": "/documentation/uikit/uicontentunavailableconfiguration-swift.struct/empty()", "sha": "c36e7acd5e8217b6158827249d0e03e3808e3201aa84254847f494d871f02efe", "t": "empty()", "n": 273, "laws": 0, "ts": "2026-08-01 06:10 UTC"}
 {"id": "/documentation/swiftui/view/widgeturl(_:)", "sha": "b34c3a6d4764c0eb045948490626b0860ebd354fc04dc2f0d244ff2caacb1ec7", "t": "widgetURL(_:)", "n": 289, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
 {"id": "/documentation/swiftui/appstorage/init(wrappedvalue:_:store:)-9gxnh", "sha": "76bea782665a66b4a7b55c5fd3ef48ac9720bf7df14c82150fd5494c52a8a575", "t": "init(wrappedValue:_:store:)", "n": 71, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/dropinfo/hasitemsconforming(to:)", "sha": "43904fe8eca843a273d65c1af6a5e45d20a36fef2c4cd0565a91a1866a4b508b", "t": "hasItemsConforming(to:)", "n": 166, "laws": 0, "ts": "2026-08-02 05:49 UTC"}

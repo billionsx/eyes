@@ -134,3 +134,12 @@
 {"id": "/documentation/SwiftUI/SecureField", "sha": "3cd181972a06225bf72dce43cf9376055756fc1c3d28a95ae29cb49d724bc6bd", "t": "SecureField", "n": 1906, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/swiftui/appstorage/init(wrappedvalue:_:store:)-93wa7", "sha": "ebf0706a8c6624214e42d1b0e9753647118b62f4b27c96d3bc9cd907439bf381", "t": "init(wrappedValue:_:store:)", "n": 68, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
 {"id": "/documentation/swiftui/draggesture/value/location", "sha": "b2ec40bf59c57dc6ca5ceb4c0ab054bbab26bb80c296cfd5e34d3d8595c43a1e", "t": "location", "n": 49, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/xcuiautomation/xcuiapplication", "sha": "54dc513d8bb0852ecac6bb663fb55ba4021b0e9da41fac4ef6175cbdfb1775c8", "t": "XCUIApplication", "n": 865, "laws": 0, "ts": "2026-08-02 05:42 UTC"}
+{"id": "/documentation/swiftui/view/ondrop(of:istargeted:perform:)-7u51", "sha": "f4a99320b8c3a4770eeb22af3fdb9c220af4d1d142401aeee0046c7f14cc6917", "t": "onDrop(of:isTargeted:perform:)", "n": 271, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/font/monospaced()", "sha": "80e8b146530ff68ea22df0962f7087db82edc7bf24e30d47e17d2468d1b71758", "t": "monospaced()", "n": 972, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/list/init(_:rowcontent:)-9jce2", "sha": "3a6ef42c53c756e7b5d176fda8fdebfe3783dccf03efe2f65f949f804773bd4f", "t": "init(_:rowContent:)", "n": 237, "laws": 0, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/tabcontentbuilder/buildif(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildIf(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/color/resolved/green", "sha": "6c277db8cf4b09f72e4deec1006db85bbc427b1db528daa762833f187b4571ca", "t": "green", "n": 57, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/roundedrectangularshapecorners/init(all:)", "sha": "816b1dafe9fa73f3e69269bddfd4a10dc473ce966c95349786e87fddb1a7488e", "t": "init(all:)", "n": 59, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/swiftui/squarebordertextfieldstyle", "sha": "69bb1de3471b04a85de2307374881285ebebc46b5abc01428f58aa0a7457a6cb", "t": "SquareBorderTextFieldStyle", "n": 150, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
+{"id": "/documentation/swiftui/controlgroup/init(content:)", "sha": "8c65090f9932bd2f7831bf781617e4320d1198e934c063428b63793556ec9c17", "t": "init(content:)", "n": 54, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

@@ -126,3 +126,6 @@
 {"id": "/documentation/swiftui/pickerstyle/automatic", "sha": "ab72f2667acc139cb3dd2e1adb61d948fd936ed046389df56a566155b1313bad", "t": "automatic", "n": 691, "laws": 1, "ts": "2026-08-01 18:25 UTC"}
 {"id": "/documentation/SwiftUI/ScenePhase/active", "sha": "e8286c5d3a6901b53a79461dec4433168099d10883aaa9ba54f0803e3898fa88", "t": "ScenePhase.active", "n": 338, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/appstorage/init(_:store:)-9p0kt", "sha": "5fd0e0cffd375a2b72c15e9e2c6747c77472be9e209b887a7d623a130d8c9886", "t": "init(_:store:)", "n": 134, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/shapestyle/red", "sha": "aa47288933f6f5c10949dde0a189d4a46b8921cc2b966c44e3a6d65689858d6d", "t": "red", "n": 62, "laws": 1, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/documentwriteconfiguration/contenttype", "sha": "b0384348d6b74d0c748359cbedb012ab62f64b74c845eeff95e20df86f160863", "t": "contentType", "n": 43, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/transitionphase/diddisappear", "sha": "7caf9997b61921ecd70407d22f32c9039925de16beece75194a72a6553e2e58b", "t": "TransitionPhase.didDisappear", "n": 233, "laws": 1, "ts": "2026-08-02 06:08 UTC"}

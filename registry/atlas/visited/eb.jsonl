@@ -119,3 +119,9 @@
 {"id": "/documentation/usernotifications/unnotificationattachment/type", "sha": "d50fd5fe9ce369708fd13caca6ae16c197f420344a62757d91d4c17216f2925f", "t": "type", "n": 117, "laws": 0, "ts": "2026-08-01 18:11 UTC"}
 {"id": "/documentation/swiftui/presentationsizing", "sha": "f821fc5bbdf535c6a4c230fb29cb70a5f384d70fb9d1624804cc02f2dda7da61", "t": "PresentationSizing", "n": 900, "laws": 0, "ts": "2026-08-01 18:17 UTC"}
 {"id": "/documentation/swiftui/searchscopeactivation/onsearchpresentation", "sha": "ee681374237847fdb2c2f442c82ae7591c14acaecbb43501696beef895252645", "t": "onSearchPresentation", "n": 125, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
+{"id": "/documentation/adsupport", "sha": "465c486a9da167205c8c01f96ef43ba17b9a429be9d690ed2cf5a75a5b139d39", "t": "AdSupport", "n": 1274, "laws": 1, "ts": "2026-08-02 05:42 UTC"}
+{"id": "/documentation/swiftui/list/init(_:id:rowcontent:)-4s0aj", "sha": "a1e66b5f4c07f2e0d843a52c070fe030460001e3385083cfae1a54fab41bb5e4", "t": "init(_:id:rowContent:)", "n": 101, "laws": 0, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/dropdelegate/dropentered(info:)", "sha": "9541b79ae3249f323ab29b829418c94534a5c895e2afb4430c23b5195e751809", "t": "dropEntered(info:)", "n": 121, "laws": 0, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/tablestyle/configuration", "sha": "56ae2500fa9ba7fa153e9fdac28fc6a3c425ea9ff0b00dadcc718ad9968b4ac0", "t": "TableStyle.Configuration", "n": 26, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/keyframetimeline/duration", "sha": "b249f0fb3a1fae6af0e53548a0a7eebada75380ba47396731357a4b9ccfd9437", "t": "duration", "n": 39, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/toolbarcontentbuilder/buildblock(_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

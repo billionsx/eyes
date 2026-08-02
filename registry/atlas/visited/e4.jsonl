@@ -140,3 +140,9 @@
 {"id": "/documentation/swiftui/color/orange", "sha": "a0072e2f22bbaf30c69c7ca1b2f85819adb5f09b30f622a1823f9e78cf7ea9de", "t": "orange", "n": 65, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
 {"id": "/documentation/SwiftUI/CustomHoverEffect", "sha": "e1a6f784f852e43ade8df46c0412463dff5aebf10a834140719f37e886bd7baf", "t": "CustomHoverEffect", "n": 1313, "laws": 2, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/swiftui/gesturemask/gesture", "sha": "8fc89ec433348bf76c5aca5e71991faaec2615362ca85837c33bebdf237939b6", "t": "gesture", "n": 75, "laws": 0, "ts": "2026-08-01 18:35 UTC"}
+{"id": "/documentation/swiftui/tabviewbottomaccessoryplacement/expanded", "sha": "8100cfb62f2e539363446a296beaa2623d51e75bc66bb8f378f1c05ab1c292b4", "t": "TabViewBottomAccessoryPlacement.expanded", "n": 123, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/angle/radians", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "radians", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/projectiontransform/m32", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "m32", "n": 0, "laws": 0, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilityidentifier(_:)", "sha": "7662c25e667edcbda0f4b2688a01b509f107934adb6b9f435d5688550c5bcb6b", "t": "accessibilityIdentifier(_:)", "n": 121, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/swiftui/scrollgeometry/bounds", "sha": "08d76c34e5a2dba5d6f33c4603c287b95addd4da1b02c46c720c360456d2ab32", "t": "bounds", "n": 134, "laws": 0, "ts": "2026-08-02 06:10 UTC"}
+{"id": "/documentation/swiftui/controlgroup/init(_:image:content:)", "sha": "4424c016e4bd12a4c3741d1588df68d2ed1244d1b6ccb4a1fb4809e6837d5c14", "t": "init(_:image:content:)", "n": 132, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

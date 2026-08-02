@@ -122,3 +122,9 @@
 {"id": "/documentation/swiftui/progressviewstyle/body", "sha": "b767b6c209b8e2ea91642d5288211d672073d1a2164fb51e6e53f945f3eee95e", "t": "Body", "n": 48, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
 {"id": "/documentation/SwiftUI/WidgetConfiguration/disfavoredLocations(_:for:)", "sha": "fb0e120f2ab65719f76cd91688c27f149f3bcec81527b423dbd0decb0d144924", "t": "disfavoredLocations(_:for:)", "n": 1030, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/nsviewrepresentable/makecoordinator()-6l2eg", "sha": "bda39ad95f04041e58b5a04fd9c924f9f195c23c525176dce64b3dcd30f6b96a", "t": "makeCoordinator()", "n": 79, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/font/weight(_:)", "sha": "b35cd33e6094604526679de419e31a52138db083d132863b3c62ee4df846e7e5", "t": "weight(_:)", "n": 28, "laws": 0, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/tabcontent/accessibilityhint(_:isenabled:)", "sha": "ff6ec9551a26b3cd6eb40e54271f55951c9b5d57cc48a4b3239e15b91ee4a43f", "t": "accessibilityHint(_:isEnabled:)", "n": 182, "laws": 0, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/shapestyle/pink", "sha": "c39aa061f6c8ffcee8bcb856bee8cf9bdf8a156672c01c30ac5ae0364426c23a", "t": "pink", "n": 63, "laws": 1, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d/leadingfront", "sha": "cc276ba7138a9e76a9416dedd705748c316943a9e7e9c193b18850df20da59d9", "t": "leadingFront", "n": 211, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/modifiedcontent/modifier", "sha": "90fcf38adf86c6e0ca1328f6b2a00ed344135b026ee56b47c2d3f2baf90db2d1", "t": "modifier", "n": 18, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/swiftui/textinputbordershape/roundedrectangle", "sha": "e1aa096611bfc3cb94dfb4e9513d97a3723e83fd8f256840ce63b61726b0c726", "t": "roundedRectangle", "n": 26, "laws": 0, "ts": "2026-08-02 06:05 UTC"}

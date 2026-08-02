@@ -127,3 +127,7 @@
 {"id": "/documentation/swiftui/image/orientation/left", "sha": "893d4c6c9bee81d54e2cfa5d22fe71a0eccf86590fb2098e73a2edd35e6d68d3", "t": "Image.Orientation.left", "n": 103, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
 {"id": "/documentation/swiftui/windowgroup/init(_:id:for:content:)-90zw1", "sha": "73257d0941aca3d2911d08e488195b994e6c105e4f0002fa3f74389930e579cc", "t": "init(_:id:for:content:)", "n": 440, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
 {"id": "/documentation/swiftui/geometryproxy/size", "sha": "9453e48c7620976670cc6040719377a2eb7af29af212d3252520de6edd2f1b3a", "t": "size", "n": 31, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/swiftui/spatialeventcollection/event/selectionray", "sha": "451b11ee52aa4c9071c8da81ada71b65b4bd4d16a0b9ee91c5ee23cd2575d23e", "t": "selectionRay", "n": 36, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/alignment3d/horizontal", "sha": "6ffe9153de8dbc14efe1a763e1b43aa23220e91dd986c2b78cc39ec994af83b1", "t": "horizontal", "n": 37, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/colormatrix/b1", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "b1", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/offsettransition", "sha": "28baf5eed6671df6fdd72de0a3e76ebec0467821d7a3738198f1c01166104b03", "t": "OffsetTransition", "n": 111, "laws": 0, "ts": "2026-08-02 06:07 UTC"}

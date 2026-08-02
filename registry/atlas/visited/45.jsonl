@@ -135,3 +135,6 @@
 {"id": "/documentation/SwiftUI/TransformedShape", "sha": "f9f2f6287c32b02806090266a6908c2a52e7e3902a71c7966122c21753646263", "t": "TransformedShape", "n": 160, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/mixedimmersionstyle/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-01 18:32 UTC"}
 {"id": "/documentation/swiftui/sharelink/init(_:items:subject:message:)-9fwh5", "sha": "f2f7a686c0b2fa285671a0817d1e1b63abeacc298870901054dd6c59ffcc4655", "t": "init(_:items:subject:message:)", "n": 76, "laws": 0, "ts": "2026-08-01 18:33 UTC"}
+{"id": "/documentation/swiftui/physicalmetricsconverter/worldscalingcompensation", "sha": "1176d6c17e186957f6562c3c6355411b0ae8d4d9e6a792d7d69b5d56a949e673", "t": "worldScalingCompensation", "n": 78, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/animatablevalues/value", "sha": "1e6dd1682c980ba746f7b7c621bc9c85138479877f9aaa71fedf357ee640a76a", "t": "value", "n": 20, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/controlgroup/init(_:)", "sha": "e1a92dc47a32413dc0f806e9f998eda006434616508baea4154b6840ead5477a", "t": "init(_:)", "n": 390, "laws": 1, "ts": "2026-08-02 06:11 UTC"}

@@ -123,3 +123,11 @@
 {"id": "/documentation/swiftui/windowgroup/init(_:makecontent:)-6chgt", "sha": "7040eba662cb42005c667a6a72e5b70ee944ede5609f28fb6b8cc4bca277c665", "t": "init(_:makeContent:)", "n": 294, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
 {"id": "/documentation/SwiftUI/EquatableView", "sha": "522a8b902c3bc37da70367cbf95fd7b103584c41a8906e03ecc82e0579299516", "t": "EquatableView", "n": 193, "laws": 0, "ts": "2026-08-01 18:30 UTC"}
 {"id": "/documentation/swiftui/searchfieldplacement/toolbar", "sha": "2b321832513d2edb656785396762c10677a0186c9c33f325e68649b975fb0457", "t": "toolbar", "n": 329, "laws": 0, "ts": "2026-08-01 18:37 UTC"}
+{"id": "/documentation/swiftui/tupletablecolumncontent", "sha": "0f212af170026f977967244f4d5d40c06a7c4459d6baced5093befc557e8a545", "t": "TupleTableColumnContent", "n": 368, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/shapestyle/white", "sha": "6dd037a2f34d1f3d83b46eedf237d2d1d69569670856c0e605a993111055ed19", "t": "white", "n": 46, "laws": 1, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/filedocumentconfiguration/$document", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "$document", "n": 0, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/alignment3d/trailingfront", "sha": "0122b86c9420648f1b342feec44c9eb6475252f612c903b413282169f671eb54", "t": "trailingFront", "n": 131, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/projectiontransform/m22", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "m22", "n": 0, "laws": 0, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/shapestyle/link", "sha": "1d8694f1663342d3b66dcaabd6322592ec5a168c826aa168d8634cfa70b0569a", "t": "link", "n": 97, "laws": 1, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/everyminutetimelineschedule", "sha": "9258e0437f2be60358d09dc46234c00811ca5c6918bd5e301df30dda3ef48867", "t": "EveryMinuteTimelineSchedule", "n": 248, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
+{"id": "/documentation/swiftui/shapestyle/lineargradient(_:startpoint:endpoint:)-753nc", "sha": "94ee7cf536981e230a6d631acac43830f022acdbf3024ee31f8e5e7bcc16265b", "t": "linearGradient(_:startPoint:endPoint:)", "n": 288, "laws": 1, "ts": "2026-08-02 06:10 UTC"}

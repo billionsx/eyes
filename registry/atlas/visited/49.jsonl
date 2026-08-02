@@ -135,3 +135,5 @@
 {"id": "/documentation/swiftui/wkhostingcontroller", "sha": "7f2c00d02644ed50d172e3e00e21e25003e0600865263dbd6742bb6dcf0c2b5b", "t": "WKHostingController", "n": 582, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/swiftui/view/manipulable(using:)", "sha": "11a2c1c973641f0e86553b228cad57537998019f078b574f6b449e8382232759", "t": "manipulable(using:)", "n": 499, "laws": 0, "ts": "2026-08-01 18:23 UTC"}
 {"id": "/documentation/SwiftUI/EnvironmentKey", "sha": "b30541f96950807de42151a8a9d780f9704a17c4f107b4df690b546936907a6e", "t": "EnvironmentKey", "n": 907, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
+{"id": "/documentation/swiftui/list/init(selection:content:)-4sffx", "sha": "e879298b5566ed01278cdf949829b043625987d82c1d049d3c26f00783b8fadb", "t": "init(selection:content:)", "n": 76, "laws": 0, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/springloadingbehavior/automatic", "sha": "b5d8e4d1a935a3e249ce930dc1f6fb4d5842a0dd85f3ba5e7653002b9fc6be2c", "t": "automatic", "n": 203, "laws": 1, "ts": "2026-08-02 05:49 UTC"}

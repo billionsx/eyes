@@ -123,3 +123,5 @@
 {"id": "/documentation/swiftui/uihostingconfiguration", "sha": "0652f6b199e697f192ac62bafb72d095e9de1b621e6d7a4572ea81b1d1c7ba0b", "t": "UIHostingConfiguration", "n": 811, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/SwiftUI/View/environment(_:_:)", "sha": "9b303d07d3f3685e839f9c8b166ff09a1f1a20f838b9dfb5e31171a0f15f25f0", "t": "environment(_:_:)", "n": 806, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/swiftui/localizedstringkey/stringinterpolation/appendinterpolation(_:)-2cdg2", "sha": "ea096604d2bddfa94f386328b148fbe72c3af2318669af2496fd95deb07a8580", "t": "appendInterpolation(_:)", "n": 217, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/sidebarrowsize/large", "sha": "be9125befc2dcfa29bed9e431c3f6075f072f09b6caa6d98fc9b605495299515", "t": "SidebarRowSize.large", "n": 29, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/projectiontransform/invert()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "invert()", "n": 0, "laws": 0, "ts": "2026-08-02 05:58 UTC"}

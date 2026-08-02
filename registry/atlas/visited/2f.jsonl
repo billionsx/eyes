@@ -124,3 +124,10 @@
 {"id": "/documentation/SwiftUI/View/controlWidgetStatus(_:)", "sha": "5969956e51bf2b475ee4e5d80a2f36bed44d9efe4d960c8959cefd1a8597f806", "t": "controlWidgetStatus(_:)", "n": 226, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/compositorcontent/persistentsystemoverlays(_:)", "sha": "3c4122d5983e81f8468d65c454047f85de12839a9292788ea7a8483cf4c0da4e", "t": "persistentSystemOverlays(_:)", "n": 549, "laws": 1, "ts": "2026-08-01 18:32 UTC"}
 {"id": "/documentation/swiftui/appstorage/init(_:store:)-5eqyh", "sha": "34ae8474249f4fdaafb6702005509cd180eb6dbff5d5766a2ae03cb1e59b8fe6", "t": "init(_:store:)", "n": 204, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/coordinatespace/global", "sha": "067f0c118ad68edefc45d3ed862a182579a77710d27a631eb13bde458801a35e", "t": "CoordinateSpace.global", "n": 62, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/geometryreader/init(content:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(content:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/sceneaccessorycontent/body-swift.property", "sha": "7fea73110a811f69905902b7855784e6759ee6ce3dd203d84d4dde4b555fa347", "t": "body", "n": 63, "laws": 0, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/documentbasebox/document", "sha": "040af910f5c45297c1b8a4707f9e828ae8caaab864d838bc126a7d6c25e0161f", "t": "Document", "n": 29, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/filedocumentconfiguration/creationsource", "sha": "973960ce072ae3d47d2da136bf72b003a81224877d4370fa6a81803f2ed4c8a7", "t": "creationSource", "n": 256, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/alignment3d/topfront", "sha": "6e34d3974bd3a81aa95f0f3440f20bb7a3391e1b415874b4e11f440f735e1190", "t": "topFront", "n": 121, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/shapestyle/ultrathinmaterial", "sha": "629d8569ce566694546832e6bf8fec254eeec57f552c6d92f294c6934c264664", "t": "ultraThinMaterial", "n": 30, "laws": 0, "ts": "2026-08-02 06:00 UTC"}

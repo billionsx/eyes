@@ -141,3 +141,5 @@
 {"id": "/documentation/swiftui/nsviewrepresentable/sizethatfits(_:nsview:context:)-fuqx", "sha": "605df235213494755aea0ea2b155161f788bba97d897a60cf0b0839634f8e8f5", "t": "sizeThatFits(_:nsView:context:)", "n": 493, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
 {"id": "/documentation/swiftui/customhovereffect/highlight", "sha": "03acf01e13c2c64f188b8141d214ad1ab4377aa0ef19c1ec54fdcf0c2f0f96c0", "t": "highlight", "n": 570, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
 {"id": "/documentation/swiftui/font/width", "sha": "39a2f6ca0d6f21a4f4d1f1eba3c1eb2f9cd48a8cdc8f98191ce869cccf8aefe2", "t": "Font.Width", "n": 209, "laws": 1, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/buttonrole/close", "sha": "678398a5988c46b29f736dde2b9e9a2208cfe8cb75ce073dfdbc8446ee664b62", "t": "close", "n": 222, "laws": 0, "ts": "2026-08-02 05:51 UTC"}
+{"id": "/documentation/swiftui/unitpoint/trailing", "sha": "d892a6cb3e6e31e37b2a0a9228a654c59945d20ec91b4c88eb4dc1541da86836", "t": "trailing", "n": 316, "laws": 0, "ts": "2026-08-02 06:00 UTC"}

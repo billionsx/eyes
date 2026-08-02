@@ -137,3 +137,6 @@
 {"id": "/documentation/swiftui/view/transformpreference(_:_:)", "sha": "3ae780846bfd62acba815290a42f51e4cea89374b344aebdc882a14b505047d2", "t": "transformPreference(_:_:)", "n": 47, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
 {"id": "/documentation/swiftui/view/unredacted()", "sha": "890be6de1a5b958e85f252fe2593633d9df141992521b69f5b4bbb29a1faa04e", "t": "unredacted()", "n": 63, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/swiftui/geometryproxy/safeareainsets", "sha": "7ecd11328fd2b3b185cab85ebe59c963c855a8289caee7ef4c2d56727057d1ad", "t": "safeAreaInsets", "n": 42, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/WidgetKit/WidgetPushHandler/pushTokenDidChange(_:widgets:)", "sha": "a3d0df9789b44e1ffcb111615a93314c87f250c87766e5362f04959a1b067aea", "t": "pushTokenDidChange(_:widgets:)", "n": 72, "laws": 0, "ts": "2026-08-02 05:42 UTC"}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/defaultcustomization(_:options:)", "sha": "3bf80610a27c58c9943820b3ce7ce19dd663cb25f7d567408bc3ab9f9c3aac5c", "t": "defaultCustomization(_:options:)", "n": 889, "laws": 2, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/edgeinsets3d/bottom", "sha": "003afcfd666ea250be8e51e57afb070eaec252419e1af8f19f41393bcc4bf233", "t": "bottom", "n": 56, "laws": 0, "ts": "2026-08-02 06:03 UTC"}

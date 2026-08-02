@@ -127,3 +127,9 @@
 {"id": "/documentation/swiftui/picker/init(_:systemimage:selection:content:)-4uaqe", "sha": "4927f7b6d546ae46fe06768dc00ce52b495cf40478428498dae453e1133da8f8", "t": "init(_:systemImage:selection:content:)", "n": 73, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
 {"id": "/documentation/SwiftUI/View/animation(_:value:)", "sha": "66d2a365f0f0e79a1795bee434d303aef89781ce991468c2fde52bfe6701bfe8", "t": "animation(_:value:)", "n": 141, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/SwiftUI/LazyHStack", "sha": "edf711ad7800ce3ccc5b390db5c9445b73cfbb4a30418813607dc5d0219a1ca2", "t": "LazyHStack", "n": 491, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
+{"id": "/documentation/swiftui/toolbaritemplacement/bottomornament", "sha": "09a028bdf6abc844bee41fafb9488ea50a5a6d131a7bbd253eef3119d0c939e8", "t": "bottomOrnament", "n": 54, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/dropsession/phase-swift.enum", "sha": "1013801e7e6969302e6dd8bb00a56452c511460dad47fe1284a9be311c474740", "t": "DropSession.Phase", "n": 210, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/swiftui/newdocumentbutton/init(_:contenttype:)", "sha": "d98ff60581ac18425adaac6137c059b6d705e6713a8f565787eb72e32a2ea371", "t": "init(_:contentType:)", "n": 32, "laws": 0, "ts": "2026-08-02 05:54 UTC"}
+{"id": "/documentation/swiftui/color/resolvedhdr/opacity", "sha": "a065906446ba4ae818cbad37dc954ead709a102daef8cee48134973c5f5974ee", "t": "opacity", "n": 130, "laws": 1, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/keyframetrackcontentbuilder/buildexpression(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildExpression(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/imagepaint/sourcerect", "sha": "e9cbd4891ab5cd144e78ad91e65806809d8d9e0a563828fc1783039ea44019e4", "t": "sourceRect", "n": 175, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

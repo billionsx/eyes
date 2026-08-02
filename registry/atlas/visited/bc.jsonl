@@ -130,3 +130,8 @@
 {"id": "/documentation/uikit/uitextspellcheckingtype", "sha": "3dc7064b0ca08ea7b66307b0a583df408ae4ffe406238d5890d06e55999bb3ab", "t": "UITextSpellCheckingType", "n": 236, "laws": 0, "ts": "2026-08-01 06:08 UTC"}
 {"id": "/documentation/swiftui/animation/base", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "base", "n": 0, "laws": 0, "ts": "2026-08-01 18:35 UTC"}
 {"id": "/documentation/swiftui/customhovereffect/body", "sha": "134aa9fac5a85e5bdc5a94ece200a57d9aca6c1f05ca19d0db0d188d60673109", "t": "Body", "n": 161, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/swiftui/uiviewcontrollerrepresentable/makeuiviewcontroller(context:)", "sha": "e351c4accf59c30b783d8170ccd9a9467822f9b37a14f46210b301027565dcc2", "t": "makeUIViewController(context:)", "n": 490, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/rotatedshape/angle", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "angle", "n": 0, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/swiftui/animationcontext/islogicallycomplete", "sha": "50313ee09bd3522b5976d104d359ee50a1c7c6ea66083c0e32b9e70000974d69", "t": "isLogicallyComplete", "n": 407, "laws": 2, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/transition/content", "sha": "92a90732193fa2314057f21a7227e81b3f4c160202b52ac8187128fb47645f25", "t": "Transition.Content", "n": 33, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
+{"id": "/documentation/swiftui/hierarchicalshapestyle/secondary", "sha": "4e79519823f1a42cca144e9a49167f9adfe7a1ca49c0904cf2275c3663f8354a", "t": "secondary", "n": 73, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

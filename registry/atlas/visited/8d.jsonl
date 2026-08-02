@@ -116,3 +116,6 @@
 {"id": "/documentation/swiftui/view/sceneaccessory(content:)", "sha": "f2ac5424cdc87d0e62d31429842cde40b62603473318bdf448450a7e73ef1967", "t": "sceneAccessory(content:)", "n": 875, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
 {"id": "/documentation/SwiftUI/WidgetConfiguration/contentMarginsDisabled()", "sha": "63032bf0c62b3b986f6f2e9500048d7b34bc7697ba5a959e6810b01bb10ae2a5", "t": "contentMarginsDisabled()", "n": 574, "laws": 2, "ts": "2026-08-01 18:30 UTC"}
 {"id": "/documentation/swiftui/draggesture/value/predictedendlocation3d", "sha": "b1cc8686ee166fc57b2ae8f0e3ef268e8a2aaf2230c2b6947d00e01bf2b97572", "t": "predictedEndLocation3D", "n": 110, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/toolbarcontent/matchedtransitionsource(id:in:)", "sha": "423c4a0ed5da4b1959e20348f2a1c482a1c1969564c3eb1072cb3b850429a82b", "t": "matchedTransitionSource(id:in:)", "n": 199, "laws": 1, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/documentbasebox/base", "sha": "b7149c88f0b61dfcb66e3cae22c05db3827d28ba237dd007ed4becf6e16363d1", "t": "base", "n": 47, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/animationcontext/state", "sha": "b522742981d1c1e3c90d73a2d4db60036918396030fdd3fd0e9fefc47211d03c", "t": "state", "n": 830, "laws": 1, "ts": "2026-08-02 06:05 UTC"}

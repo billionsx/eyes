@@ -132,3 +132,7 @@
 {"id": "/documentation/swiftui/helplink/init(anchor:book:)", "sha": "75915f45686c7018ba851eab59e802fa3b8e1fa4fd3b622652acca906e9aa847", "t": "init(anchor:book:)", "n": 62, "laws": 0, "ts": "2026-08-01 18:33 UTC"}
 {"id": "/documentation/swiftui/appstorage/init(wrappedvalue:_:store:)-v58d", "sha": "3a99df078270264a72ddd2ebf3924556d044b392725fa13d1e78de4aefcf6984", "t": "init(wrappedValue:_:store:)", "n": 69, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
 {"id": "/documentation/swiftui/text/linestyle/single", "sha": "495aa3db95c5994662b3529f3ad589875e810a7b38b80e799ed9a5cc2834dcd5", "t": "single", "n": 25, "laws": 0, "ts": "2026-08-01 18:39 UTC"}
+{"id": "/documentation/swiftui/containerbackgroundplacement/tabview", "sha": "65d3b1bbaf5c8cee5490a5ec6c0f20b72e3231f0239df6930f0feca87a26bd09", "t": "tabView", "n": 33, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/navigationlink/init(_:destination:tag:selection:)", "sha": "395ae0a6e0134aeda8099d8acf753c7c0c0b6658e5bf6c7222c14fba3add634a", "t": "init(_:destination:tag:selection:)", "n": 183, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/glass/identity", "sha": "3c09238dab187d13997a9bb5f8a780a2ed9c513dd9ba5fe1cc60e66b0569cbe9", "t": "identity", "n": 111, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
+{"id": "/documentation/swiftui/shaderlibrary/default", "sha": "904fe8f08f426827e57b5ad09f7ab379a6a76922316e47285866e67d12cddb55", "t": "default", "n": 57, "laws": 0, "ts": "2026-08-02 05:59 UTC"}

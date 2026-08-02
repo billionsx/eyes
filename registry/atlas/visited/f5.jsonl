@@ -139,3 +139,5 @@
 {"id": "/documentation/swiftui/uihostingscenedelegate", "sha": "383d7a8fe7e7eddca2a6cf1cd9b14079be74a7ad51d0aaedb77ac5ebd4f42c7a", "t": "UIHostingSceneDelegate", "n": 589, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/swiftui/gesture/body-swift.property", "sha": "e12a5cf12b2c9b17b837fe3e5a11349456458bc8fdfc80d4ad6188e02392c3e0", "t": "body", "n": 40, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
 {"id": "/documentation/swiftui/customhovereffect/hovereffect(in:isenabled:body:)-swift.type.method", "sha": "137d4957484924dc34f19840aac1e619a2f7d287d23280f4a53099e1eb292334", "t": "hoverEffect(in:isEnabled:body:)", "n": 608, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/swiftui/buttonbordershape/roundedrectangle(radius:)", "sha": "af306874d19fd82dc7aaf7b67172313bc838288930f3e6bddad60dd174e2f276", "t": "roundedRectangle(radius:)", "n": 184, "laws": 1, "ts": "2026-08-02 05:51 UTC"}
+{"id": "/documentation/swiftui/scrollgeometry/visiblerect", "sha": "0c07ecda9aa1751d38eea98651416379514ec6b812c5fe4f8d9cc6a49c1f8fd2", "t": "visibleRect", "n": 152, "laws": 0, "ts": "2026-08-02 06:10 UTC"}

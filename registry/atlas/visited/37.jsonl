@@ -123,3 +123,14 @@
 {"id": "/documentation/swiftui/tabspickerstyle", "sha": "f862245cf54835211e219aec86f9fca382178ef326040dc2a6c68af49aaf851d", "t": "TabsPickerStyle", "n": 522, "laws": 1, "ts": "2026-08-01 18:25 UTC"}
 {"id": "/documentation/swiftui/stepper/init(_:onincrement:ondecrement:oneditingchanged:)", "sha": "3078c5318fce9041addfd66582ec7363dd878f47177ad6a20e1f9db11940c904", "t": "init(_:onIncrement:onDecrement:onEditingChanged:)", "n": 959, "laws": 1, "ts": "2026-08-01 18:26 UTC"}
 {"id": "/documentation/swiftui/sharepreview/init(_:image:)", "sha": "225593b46292ac12fc575041b69df8bc63025d7107cbf4c1776db225f9404e11", "t": "init(_:image:)", "n": 33, "laws": 0, "ts": "2026-08-01 18:33 UTC"}
+{"id": "/documentation/swiftui/chirality/right", "sha": "3c4cf30d266bef998eb7f856b706ca9939365c5d5fb99d112564f7073ae6041f", "t": "Chirality.right", "n": 30, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/toolbaritemplacement/topbarleading", "sha": "2ce7a7e7bdd902b65532270aab438c8a327426be3079ffe9013648839d2c99b8", "t": "topBarLeading", "n": 133, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/font/custom(_:size:)", "sha": "5286594b5276fec36b121b0f5b1e2814f2d86e4d04bc367076e3c452b7fc6f17", "t": "custom(_:size:)", "n": 77, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/font/leading(_:)", "sha": "1565b5f433b2bc91f10ce293007c01c86107349dd9edbad0fb1c58684f3dba2d", "t": "leading(_:)", "n": 518, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/borderedtablestyle/init()", "sha": "a873316b98f05045a0b1dd4b23d3ae7a267215e9588181f493597021fc9c3dfc", "t": "init()", "n": 73, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/swiftui/view/navigationbarhidden(_:)", "sha": "b5feaf8cfe7b91f35ca56a002025147bda6f82f92ddd5b28c6f58b805d506a48", "t": "navigationBarHidden(_:)", "n": 188, "laws": 1, "ts": "2026-08-02 05:51 UTC"}
+{"id": "/documentation/swiftui/urldocumentconfiguration/fileurl", "sha": "bc2d980f4ee8e266554e4da6f40ad6ed17c1f2be8e0c6178693d952314113139", "t": "fileURL", "n": 110, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/alignment3d/depth", "sha": "6fa036b482668abb922dfc01a00f8ed809347f0095dfe6c4d5a10277681ed37f", "t": "depth", "n": 32, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/colormatrix/g1", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "g1", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/vectorarithmetic/magnitudesquared", "sha": "f706f08e3af7a2da85725f79c7d3016f0621f9e1f65bc3ce0dbfedb95cfa337c", "t": "magnitudeSquared", "n": 71, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/icononlylabelstyle/init()", "sha": "499a2c19814f380472f476a2e958e7d791d153abeb3cf3cf08da553afad0c220", "t": "init()", "n": 33, "laws": 0, "ts": "2026-08-02 06:08 UTC"}

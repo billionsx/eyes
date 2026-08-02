@@ -137,3 +137,9 @@
 {"id": "/documentation/swiftui/view/toolbarminimizationrestoration(_:for:)", "sha": "5f31fc930053e7cab61ef4253ab69e0b30af35f298d606fe22b39880ae7ccbb3", "t": "toolbarMinimizationRestoration(_:for:)", "n": 514, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/swiftui/gesturemask/subviews", "sha": "6ab91d9f1eda9b032bc5730156ae25d95edaccea43af24922bb5dd843db59e69", "t": "subviews", "n": 75, "laws": 0, "ts": "2026-08-01 18:35 UTC"}
 {"id": "/documentation/swiftui/text/alignmentstrategy/layoutbased", "sha": "214c83edcc85d048c6e8ad445aa74ad3b430a59d19e849dd94353b61d438ce7c", "t": "layoutBased", "n": 112, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/foreach/init(_:content:)-rsac", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:content:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/tabcontent/accessibilityidentifier(_:isenabled:)", "sha": "2173d5b58ba0c664b2d4f917864e5ef1476d73df34e59bac2dfc61b4a7cb2e40", "t": "accessibilityIdentifier(_:isEnabled:)", "n": 107, "laws": 0, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/toolbarcontent/body-swift.property", "sha": "0fb82a315450d50e079b9cd275bbee06f0ba69b803942a2f48a01d53b0aa5961", "t": "body", "n": 61, "laws": 0, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/glass/tint(_:)", "sha": "40d0880f0f32f747390db402d2b85441b1662d2ea2525655e04100a65e7f5b24", "t": "tint(_:)", "n": 61, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
+{"id": "/documentation/swiftui/visualeffect/opacity(_:)", "sha": "62f1f609e7a55d7e7a06cda9398c0b4d7ec8c599a17ab5ec456f349380be5092", "t": "opacity(_:)", "n": 262, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/scrollgeometry/contentoffset", "sha": "1b9a63378eb54506ce2db35966417b10845bfd901b2155753f66eeb16f1686c5", "t": "contentOffset", "n": 266, "laws": 0, "ts": "2026-08-02 06:10 UTC"}

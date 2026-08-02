@@ -125,3 +125,10 @@
 {"id": "/documentation/photosui/photospickeritem/init(itemidentifier:)", "sha": "887dbd2ec1cf5da92e7d2c6206c2e813610f4a5bc89e88cf9f6d62dc2d87599d", "t": "init(itemIdentifier:)", "n": 86, "laws": 0, "ts": "2026-08-01 18:13 UTC"}
 {"id": "/documentation/swiftui/colorschemecontrast", "sha": "47330107fb95907fedac8912d6b67f9befc108426500d291c9b72b4ad7323e98", "t": "ColorSchemeContrast", "n": 898, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/swiftui/color/yellow", "sha": "746c3934dcca3df689c35dd00cccd55c03a68f666cad07f137c6c11b03e664f8", "t": "yellow", "n": 65, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/list/init(_:children:selection:rowcontent:)-7r7to", "sha": "d5b8bb79c76e00c65bfd723f48eadc00bb241d576ac84f35e4ad0a81fedaefe1", "t": "init(_:children:selection:rowContent:)", "n": 171, "laws": 0, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/tablecolumncontent/disabledcustomizationbehavior(_:)", "sha": "d0659d6371773cf48ca5ad7b48ef527a6b8cdae0b76642910e574af992b8447a", "t": "disabledCustomizationBehavior(_:)", "n": 422, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/meshgradient/locations-swift.property", "sha": "66c32da4a6fa50acfa10a7f736cbab289b9169b7584d7bf00ac6d35504dbdd4c", "t": "locations", "n": 46, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
+{"id": "/documentation/swiftui/animatablepair/magnitudesquared", "sha": "07e8b6979412c0cf69cb53d5c532e17f620e0077f881a8a9d0f216518ffbfded", "t": "magnitudeSquared", "n": 50, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/timelineschedule/everyminute", "sha": "9ad4b1983df0216af87174010e29cdbc1deb532372fcc25fd43b9bdea5b928a0", "t": "everyMinute", "n": 749, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
+{"id": "/documentation/swiftui/scrolltarget/rect", "sha": "3e54892e65071e1d95d490dbecc8ef6d56c288451369df839d4fc1e118912af8", "t": "rect", "n": 62, "laws": 0, "ts": "2026-08-02 06:10 UTC"}
+{"id": "/documentation/swiftui/group/init(content:)-p8cr", "sha": "3125008131c65738907656219fb20ecb98c14f9def5c5f0c67a25d53b746b483", "t": "init(content:)", "n": 31, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

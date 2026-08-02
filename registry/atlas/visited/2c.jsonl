@@ -118,3 +118,5 @@
 {"id": "/documentation/uikit/uiwebview/suppressesincrementalrendering", "sha": "506b10ed39754f38919d04fc50fc801dc27287bec1870dbf2b0a6365ac0cd681", "t": "suppressesIncrementalRendering", "n": 498, "laws": 0, "ts": "2026-08-01 06:00 UTC"}
 {"id": "/documentation/usernotifications/unmutablenotificationcontent/summaryargumentcount", "sha": "3cd7c9a43e0d4bb1214832f5bc193afb2ed060104898e01fb9f05024e48559e3", "t": "summaryArgumentCount", "n": 103, "laws": 0, "ts": "2026-08-01 18:10 UTC"}
 {"id": "/documentation/swiftui/view/padding(_:)", "sha": "4e197daa9a110d563497f57f814211d947eb4e8d7f1e79d12925f70e7ab460ac", "t": "padding(_:)", "n": 514, "laws": 2, "ts": "2026-08-01 18:15 UTC"}
+{"id": "/documentation/swiftui/spatialeventcollection/event/inputdevicepose-swift.property", "sha": "b5a7a6e687e390a1bb10e645dcf9705c2642d806a6a614b9555b4b23aa19ba45", "t": "inputDevicePose", "n": 83, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/timelineview/context/date", "sha": "925341d0e555c286ec6a0f1439d46917542a2bcdbe932ec8eecb5f67974e65d5", "t": "date", "n": 413, "laws": 0, "ts": "2026-08-02 06:07 UTC"}

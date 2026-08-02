@@ -126,3 +126,7 @@
 {"id": "/documentation/swiftui/menuactiondismissbehavior", "sha": "3ca120c4ab5fe975a6c6f4bff2a3d3028bc888d212f75a5020f0c619e6107fe4", "t": "MenuActionDismissBehavior", "n": 198, "laws": 0, "ts": "2026-08-01 18:16 UTC"}
 {"id": "/documentation/swiftui/color/green", "sha": "0fcb961a18bafe620478639bbeeee6699075d985eba138a823b7b4897ecbed7a", "t": "green", "n": 64, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
 {"id": "/documentation/swiftui/picker/init(_:sources:selection:content:currentvaluelabel:)-9crbh", "sha": "9d57c828c54aa82a33b2d09a68c4363f26c1a3416b88c58e28bd8e9ac7e17189", "t": "init(_:sources:selection:content:currentValueLabel:)", "n": 672, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
+{"id": "/documentation/swiftui/contentshapekinds/hovereffect", "sha": "ff65c8f8402b3217392210a5c5a68ca71ff76306333a7c0e7b3fc6797461465c", "t": "hoverEffect", "n": 366, "laws": 1, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/alignment3d/bottomtrailingback", "sha": "a0f1cf6e4d714479da2f4958fedb133205eb9cc594b9e0d7d58507d6815c70a4", "t": "bottomTrailingBack", "n": 130, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/scaledshape/init(shape:scale:anchor:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(shape:scale:anchor:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/transaction/init(animation:)", "sha": "c819559e1f2c8edebe11b8a1c79a471614a4f44161f55447e042f7018e9c0c75", "t": "init(animation:)", "n": 57, "laws": 0, "ts": "2026-08-02 06:07 UTC"}

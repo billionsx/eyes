@@ -114,3 +114,7 @@
 {"id": "/documentation/usernotifications/unnotificationinterruptionlevel/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
 {"id": "/documentation/swiftui/opensettingsaction", "sha": "360794b02d597a57724b994d987e9e4e1c429fe5beef975c54cb319808be1a17", "t": "OpenSettingsAction", "n": 416, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
 {"id": "/documentation/swiftui/lazyhstack/init(alignment:spacing:pinnedviews:content:)", "sha": "392253b463db7e9427b19d17c78b34382a5de1aee59a272cebe7523038bb2cac", "t": "init(alignment:spacing:pinnedViews:content:)", "n": 111, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
+{"id": "/documentation/swiftui/tablestyle/body", "sha": "ad1d1f0f1bdaf1eb73a202a987297a31f66dfed2e113ffdce0df999eb2a6d075", "t": "Body", "n": 43, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/colormatrix/r1", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "r1", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/colormatrix/r2", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "r2", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/visualeffect/transform3deffect(_:)", "sha": "19757cdd1ef2ea5b45ee7f769d6b857e068202e25af2c006c699627ce31f53fa", "t": "transform3DEffect(_:)", "n": 308, "laws": 0, "ts": "2026-08-02 06:01 UTC"}

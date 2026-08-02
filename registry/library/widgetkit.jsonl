@@ -220,3 +220,4 @@
 {"id": "/documentation/WidgetKit/Updating-controls-locally-and-remotely", "law": "You don’t need to reload the controls manually."}
 {"id": "/documentation/WidgetKit/Updating-controls-locally-and-remotely", "law": "The following code queries for the current set of controls and gets any push tokens associated with them: Use APNs when your server has a state change to communicate to controls on someone’s devices."}
 {"id": "/documentation/WidgetKit/WidgetFamily", "law": "Use the context’s property to determine the widget’s size and shape."}
+{"id": "/documentation/WidgetKit/ControlPushHandler/pushTokensDidChange(controls:)", "law": "This function always provides information for all controls that support push updates even if only some of the tokens have changed."}

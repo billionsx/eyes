@@ -113,3 +113,8 @@
 {"id": "/documentation/photosui/phpickerconfiguration-swift.struct/metadataoptions", "sha": "c97eb0590cfdb7ee590837ebb5f4c1045d3df4bec278bec6a20e983507a28b6d", "t": "metadataOptions", "n": 45, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
 {"id": "/documentation/swiftui/stepper/init(label:onincrement:ondecrement:oneditingchanged:)", "sha": "04053da24c140654b5b4f6372c2c740cd9607818f32290e091bedaed74d07d51", "t": "init(label:onIncrement:onDecrement:onEditingChanged:)", "n": 714, "laws": 1, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/swiftui/animation/easeinout(duration:)", "sha": "2367cb9f957a7dd4c88e926019bc2b41925b7da9f337742999a47bceeda701ff", "t": "easeInOut(duration:)", "n": 799, "laws": 2, "ts": "2026-08-01 18:35 UTC"}
+{"id": "/documentation/swiftui/angle/init(degrees:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(degrees:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/shader/function", "sha": "c5adf0fe1e2ebeafb21bfca8e65c99ae52868f27ef52fa3ae150e378295fd404", "t": "function", "n": 41, "laws": 0, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/shapestyle/conicgradient(_:center:angle:)", "sha": "8edb5e206c0e3e5efbf118cf0898f9798b66071167af8c23298ca85da0575064", "t": "conicGradient(_:center:angle:)", "n": 267, "laws": 1, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/visualeffect/offset(_:)", "sha": "f33e879c7943ee9bcb57ca51356d2010eadfc90d634e23727f1f3a0fb6ac5c45", "t": "offset(_:)", "n": 142, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/label/init(_:)-6rpls", "sha": "39630fdc6a961d6fb84f963523971848a738d3bd8909d6d4d5c9f1ef51b3b8c0", "t": "init(_:)", "n": 58, "laws": 0, "ts": "2026-08-02 06:08 UTC"}

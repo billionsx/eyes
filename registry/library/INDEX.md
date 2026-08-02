@@ -5,7 +5,7 @@
 | Фреймворк | Законов |
 |---|---|
 | uikit | 3350 |
-| swiftui | 2378 |
+| swiftui | 2594 |
 | appkit | 2365 |
 | appintents | 1688 |
 | accelerate | 1327 |
@@ -17,7 +17,7 @@
 | visionos | 655 |
 | technotes | 615 |
 | swift | 610 |
-| big7 | 541 |
+| big7 | 561 |
 | arkit | 473 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
@@ -31,7 +31,7 @@
 | appclip | 235 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
-| widgetkit | 222 |
+| widgetkit | 223 |
 | gamekit | 201 |
 | vision | 195 |
 | groupactivities | 191 |
@@ -151,22 +151,22 @@
 | mididriverkit | 14 |
 | signinwithapplerestapi | 14 |
 | systemextensions | 14 |
+| adsupport | 13 |
 | combine | 13 |
 | simd | 13 |
 | metalperformanceshadersgraph | 12 |
 | sensitivecontentanalysis | 12 |
 | spatialpreview | 12 |
+| xcuiautomation | 12 |
 | extensionfoundation | 11 |
 | uniformtypeidentifiers | 11 |
 | accountdatatransfer | 10 |
-| adsupport | 10 |
 | appintentstesting | 10 |
 | dispatch | 10 |
 | livephotoskitjs | 10 |
 | marketplacekit | 10 |
 | mediaintents | 10 |
 | sharedwithyou | 10 |
-| xcuiautomation | 10 |
 | coretelephony | 9 |
 | createmlcomponents | 9 |
 | devicediscoveryui | 9 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 29863 · фреймворков: 339
+Итого законов: 30105 · фреймворков: 339

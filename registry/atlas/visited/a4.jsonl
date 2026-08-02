@@ -133,3 +133,8 @@
 {"id": "/documentation/swiftui/view/disabled(_:)", "sha": "789f0d1226c61f72be15ed4ba3b8ca552a5a52539d37bc73d052842ee3ce0b04", "t": "disabled(_:)", "n": 356, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/swiftui/view/swipeactionscontainer()", "sha": "84322b509468b330df9b2f073040f152b0f95a50767a2b98ecb1f38d33748234", "t": "swipeActionsContainer()", "n": 567, "laws": 1, "ts": "2026-08-01 18:24 UTC"}
 {"id": "/documentation/swiftui/uiapplicationdelegateadaptor/init(_:)", "sha": "fc11ad04051fd4b94612bf11224ae8708576d1d7679ecf91f25b69a095944fd6", "t": "init(_:)", "n": 697, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
+{"id": "/documentation/swiftui/font/italic(_:)", "sha": "64594513c8ee2d31def0f184d6345a7b50d0237b716aff18de196a3e53d72e63", "t": "italic(_:)", "n": 33, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/unitpoint/init()", "sha": "dbfcdff831e95eceecf62027a6b6fbcb15f7d9da5b44260893b2c7295d65bb9d", "t": "init()", "n": 320, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d/bottomtrailingback", "sha": "43078c6d89898ac30a660e32402549ababf98e4f539972be4b634aca29a06fbc", "t": "bottomTrailingBack", "n": 201, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/edgeinsets/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/attributedtextselection/affinity(in:)", "sha": "ae8a14f4767a61261fef537206e268cb086e5ca0fb6d7ec90c5866acaf355029", "t": "affinity(in:)", "n": 47, "laws": 0, "ts": "2026-08-02 06:12 UTC"}

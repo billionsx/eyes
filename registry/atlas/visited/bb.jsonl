@@ -134,3 +134,8 @@
 {"id": "/documentation/usernotifications/unnotificationinterruptionlevel/passive", "sha": "638f88ddf226f9179e60388a52eb8379ebab5fd704dc852d8c1e8f6598dc715a", "t": "UNNotificationInterruptionLevel.passive", "n": 108, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
 {"id": "/documentation/swiftui/presentationbackgroundinteraction", "sha": "0b1e43d2690fc7d3aea6340cb80498bd4bb33f4cca87d3d45ffef857e4ff8043", "t": "PresentationBackgroundInteraction", "n": 201, "laws": 0, "ts": "2026-08-01 18:17 UTC"}
 {"id": "/documentation/swiftui/searchsuggestionsplacement/menu", "sha": "9c802f3c0c2db727de4f9c2f0554b4756a28f709b96fc71067dfc6df293b8c82", "t": "menu", "n": 72, "laws": 0, "ts": "2026-08-01 18:37 UTC"}
+{"id": "/documentation/swiftui/dropoperation/delete", "sha": "a0843771d727456b6c339cb2cdf927eb630d77264cf9162547dbead7e56cdf30", "t": "DropOperation.delete", "n": 111, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/swiftui/alignment3d/toptrailingfront", "sha": "d8b2edb4a3582f626a948924d9103d32823b0c09cc22d5e59f50ffe7b37e61b6", "t": "topTrailingFront", "n": 128, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/shaderlibrary/bundle(_:)", "sha": "0cedad90bf8b248c9182d8ef3674c418cf8273b8c16817837285f7086cff29a6", "t": "bundle(_:)", "n": 59, "laws": 0, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/unevenroundedrectangle/style", "sha": "1652a9eb29f66441e6043abd4b2518c51342bb21a5bdbd15689440a8d93468e6", "t": "style", "n": 52, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/material/ultrathick", "sha": "e416c46eb9c851d9c30a203aaa3c0a410053ef1ce7a6a3ac3b0c864c611ccf0c", "t": "ultraThick", "n": 25, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

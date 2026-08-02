@@ -145,3 +145,7 @@
 {"id": "/documentation/SwiftUI/Text/init(_:tableName:bundle:comment:)", "sha": "d54dc1ceb11e133adafc547a61e1288639d71397659aa776c84015721fa28fd0", "t": "init(_:tableName:bundle:comment:)", "n": 2040, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/swiftui/textfieldlink/init(_:prompt:onsubmit:)", "sha": "b508a41c881e33136d3f44f688fcc89fdcb6dc4435276942684cca4c57117abb", "t": "init(_:prompt:onSubmit:)", "n": 81, "laws": 0, "ts": "2026-08-01 18:33 UTC"}
 {"id": "/documentation/swiftui/draggesture/value/location3d", "sha": "b19f890f3a63776c129a9e51825634338de8046eca2bb93ebcef60e3dffa69b7", "t": "location3D", "n": 36, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/button/init(_:image:role:action:)-5h9p", "sha": "f64a07d84e146b6a1a7a9d9476aab13e9504b2647ffbbb08d0d23d0235bd2daf", "t": "init(_:image:role:action:)", "n": 247, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/view/statusbar(hidden:)", "sha": "ca1832fa420ef9fb200498c8741d7037b4a48ec5f38122ea4307c5c6a73be2e1", "t": "statusBar(hidden:)", "n": 100, "laws": 0, "ts": "2026-08-02 05:51 UTC"}
+{"id": "/documentation/swiftui/transition/body", "sha": "1cb7e21683618c9d47c456afd684cde37642e0f3e3da68fa85e0cfb52c98e91b", "t": "Body", "n": 39, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
+{"id": "/documentation/swiftui/titleonlylabelstyle/init()", "sha": "1bbbf9a8e60749763d7106db44c6f8982946e2b78bc08a8381b450ec34c43a7e", "t": "init()", "n": 33, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

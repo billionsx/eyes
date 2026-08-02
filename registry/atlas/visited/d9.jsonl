@@ -123,3 +123,9 @@
 {"id": "/documentation/SwiftUI/ToggleStyleConfiguration/isOn", "sha": "86d3a59334ae8abb79095caa66d265aa32c1f3f50a1340b98a3e33d3ccd7cef2", "t": "isOn", "n": 540, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
 {"id": "/documentation/swiftui/draggesture/value/predictedendlocation", "sha": "88b916aacf713b3ba89e9482f22cc10708db3bc5357bf24f9607d4cfd33b035a", "t": "predictedEndLocation", "n": 110, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
 {"id": "/documentation/swiftui/animation/animate(value:time:context:)", "sha": "577b554e5f4d3967c65f795d0ed8903388ad9df81296e6a3d7544887b07de9fb", "t": "animate(value:time:context:)", "n": 132, "laws": 0, "ts": "2026-08-01 18:35 UTC"}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/matchedtransitionsource(id:in:)", "sha": "423c4a0ed5da4b1959e20348f2a1c482a1c1969564c3eb1072cb3b850429a82b", "t": "matchedTransitionSource(id:in:)", "n": 199, "laws": 1, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/font/resolved", "sha": "3b057f593b2f0134b1254d511ee6863abad94d35386b4f9d4d46e45ba1afdcf1", "t": "Font.Resolved", "n": 337, "laws": 1, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/colormatrix/b5", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "b5", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/animatablepair/first", "sha": "48baca0ef6456d61723099dc3bc244941bc33d580de0eda4a4cd90c9a4fbb32d", "t": "first", "n": 16, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/keyframetrackcontentbuilder/buildblock()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock()", "n": 0, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/toolbarcontentbuilder/buildlimitedavailability(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildLimitedAvailability(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

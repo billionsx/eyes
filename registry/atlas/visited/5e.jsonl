@@ -127,3 +127,13 @@
 {"id": "/documentation/usernotifications/untextinputnotificationresponse/usertext", "sha": "61d72783846579c4a74ed020f6774f142dab4f6a6a9d5fa37f4e7684335c9b2e", "t": "userText", "n": 132, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
 {"id": "/documentation/SwiftUI/View/padding(_:)", "sha": "4e197daa9a110d563497f57f814211d947eb4e8d7f1e79d12925f70e7ab460ac", "t": "padding(_:)", "n": 514, "laws": 2, "ts": "2026-08-01 18:30 UTC"}
 {"id": "/documentation/swiftui/text/truncationmode/tail", "sha": "fc9e4403cebf6a6a9a89fd0494f737becba3bdcd34c8e3aa6d6ba88a3e5d4e9a", "t": "Text.TruncationMode.tail", "n": 186, "laws": 0, "ts": "2026-08-01 18:39 UTC"}
+{"id": "/documentation/swiftui/alignment/topleading", "sha": "0e12a89f31d621d7eff3c412de6f2928e058a55766980ff74c0af0f9743f3980", "t": "topLeading", "n": 140, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/buttonbordershape/capsule", "sha": "ee09a44c25f796dec5fb844c8e713ca346b24c9c72dc74517c679d5b06577611", "t": "capsule", "n": 174, "laws": 1, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/anytabcontent/init(_:)", "sha": "06b1ef25e10dc4661c23b20fe927a71db6772beec370bec0967fdce482032537", "t": "init(_:)", "n": 37, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/documentgroup/init(viewing:viewer:)-1rgjv", "sha": "52072d46933e93fa108c37f05cc8d36800a8a5e2336906ab825369f4fa86a7ec", "t": "init(viewing:viewer:)", "n": 233, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/view/documentlaunchtitle(_:)-obcp", "sha": "25971f3a39706c16a971ea931ed16c746c9d1c75e6446d72b16dc69c52f652ee", "t": "documentLaunchTitle(_:)", "n": 83, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/animatablevalues/init(_:)", "sha": "0f9f7dcf46949c0843e081397ccfdc13cc52f75d5909dfd0efe73f3d6afbd1c8", "t": "init(_:)", "n": 37, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/keyframes/body-swift.property", "sha": "1f865c923d22c7653fa0ddb3fa864d9c7ac689b58a2c21096a7bdacdbe7a1821", "t": "body", "n": 55, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/material/thick", "sha": "897f058ab90db350d2689718cf2772d3a2bdd88cf37fd58045c46eb35abe6f26", "t": "thick", "n": 47, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
+{"id": "/documentation/swiftui/group/init(content:)-36wa3", "sha": "90eb1729e841608a42b70bbe03d8d602b3564e23df0bb551dc8473af2a353827", "t": "init(content:)", "n": 26, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/swiftui/toolbarcontentbuilder/buildblock(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

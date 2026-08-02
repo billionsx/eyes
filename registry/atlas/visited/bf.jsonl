@@ -112,3 +112,8 @@
 {"id": "/documentation/swiftui/image/orientation/leftmirrored", "sha": "07a7ee87db47cc8c68bf55be77535b6176eb173e94ada03ccc9fb130c9ba8957", "t": "Image.Orientation.leftMirrored", "n": 129, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
 {"id": "/documentation/SwiftUI/ExplicitTimelineSchedule", "sha": "c49c9b3fd30596062f8d538b4aeceabc56589e10af11e399c458b98f11ed1757", "t": "ExplicitTimelineSchedule", "n": 211, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/SwiftUI/Gradient", "sha": "14aa13c7bffd20120c4a669a104e82518ad267f46f6f80a8ad58ce96189f8932", "t": "Gradient", "n": 283, "laws": 0, "ts": "2026-08-01 18:30 UTC"}
+{"id": "/documentation/swiftui/projectiontransform/m33", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "m33", "n": 0, "laws": 0, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/modifiedcontent/accessibility(identifier:)", "sha": "ff6c4dbfeb63f0e89c6efa77545f7b177f629fea65a300e5b4928fd572e703d6", "t": "accessibility(identifier:)", "n": 119, "laws": 0, "ts": "2026-08-02 06:03 UTC"}
+{"id": "/documentation/swiftui/animationcompletioncriteria/removed", "sha": "baf28e6098978f090b4f091ca73a8a34709ddee8f0c8ec5bdc30bb5872b581f0", "t": "removed", "n": 273, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/transition/move(edge:)", "sha": "6eaef67916958e9c1fa1378bd850476281c653dac4cf20c9fee8e9282848f20e", "t": "move(edge:)", "n": 86, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
+{"id": "/documentation/swiftui/attributedtextselection/attributes", "sha": "117ac3dba0dd7183f91d2d20bfb374e12be65cba6d6fd9b12b7ca16a805e2210", "t": "AttributedTextSelection.Attributes", "n": 452, "laws": 0, "ts": "2026-08-02 06:12 UTC"}

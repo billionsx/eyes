@@ -141,3 +141,8 @@
 {"id": "/documentation/photosui/phpickerfilter-swift.struct/videos", "sha": "e78a3a196660e0513d9917d399f8e13eb9f94622476f6cac2d2ed91c56eb1973", "t": "videos", "n": 22, "laws": 0, "ts": "2026-08-01 18:14 UTC"}
 {"id": "/documentation/photosui/phpickerconfiguration-swift.struct/init()", "sha": "cf156939e286065387e724856651fbab533b82c916af596f73426a9350599001", "t": "init()", "n": 169, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
 {"id": "/documentation/swiftui/color/cyan", "sha": "4ee331a2344801529ab22a27d660a6ea6b5485b7b6854cc6c3ee247954f435a3", "t": "cyan", "n": 63, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
+{"id": "/documentation/swiftui/font/italic()", "sha": "f862a85dba9f6f0cbc3d74b54139077de1c9c054567f659bfc4a7621ee067098", "t": "italic()", "n": 25, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/navigationlink/init(_:value:)-91u0d", "sha": "6ca454ba83788a3a8a10cc30ee8c4ce8a61f6d118d0fa6031f3161a08212761b", "t": "init(_:value:)", "n": 1129, "laws": 0, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/blendmode/luminosity", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "BlendMode.luminosity", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/meshgradient/locations-swift.enum", "sha": "bfdb1703b31821b259c99114d999a5d6fa3e5c7b56815ccd70c49310c33929c2", "t": "MeshGradient.Locations", "n": 147, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
+{"id": "/documentation/swiftui/textinputbordershape/capsule", "sha": "fb92bb1963612d98af7bad65328a7a80c2f9fc5e69bc27eee2fad49e70f64bcc", "t": "capsule", "n": 16, "laws": 0, "ts": "2026-08-02 06:05 UTC"}

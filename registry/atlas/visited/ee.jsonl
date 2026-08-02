@@ -117,3 +117,12 @@
 {"id": "/documentation/swiftui/nsviewcontrollerrepresentablecontext/environment", "sha": "0aeb8acf22ca5ab65a741be14343b1f5f8216bb0d6acf8e8aa15500f0cadb936", "t": "environment", "n": 182, "laws": 0, "ts": "2026-08-01 18:33 UTC"}
 {"id": "/documentation/swiftui/appstorage/init(_:store:)-9lku2", "sha": "438aa2b0556da46e348c7e07cb8925f32bec547d14896fa8d85f6453b8cfb5a4", "t": "init(_:store:)", "n": 135, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
 {"id": "/documentation/swiftui/hovereffectgroup/systemoverlays", "sha": "45efc0bd96605e49cd5b55b975be7d0d935c752e39bc801f51b4f48c6fc6d808", "t": "systemOverlays", "n": 369, "laws": 1, "ts": "2026-08-01 18:37 UTC"}
+{"id": "/documentation/swiftui/toolbaritemplacement/keyboard", "sha": "acbde20b21d6fc269a0bf6d2b30dfd786a0b7a674b73ba0399f05b2255036fa8", "t": "keyboard", "n": 455, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/liststyle/insetgrouped", "sha": "b88094beb8baeaf55260e5d3f2649a8e955ec7259ccf43f90bdae0adabefe998", "t": "insetGrouped", "n": 372, "laws": 0, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/gradient/stops", "sha": "485b15484a678d9274a578f86b45a5a8e3b633dfce97c543834211e9951ded5b", "t": "stops", "n": 25, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
+{"id": "/documentation/swiftui/shapestyle/image(_:sourcerect:scale:)", "sha": "25935e9d36a0eb2e6dbc5a95002296e10fb999c8928bd12a7fec9904e3a70d18", "t": "image(_:sourceRect:scale:)", "n": 134, "laws": 1, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d/y", "sha": "d671a4437cfd585d4f7411095615918e8188a643e719134846a146a3881eab5c", "t": "y", "n": 79, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/capsule/style", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "style", "n": 0, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/modifiedcontent/accessibilitydroppoint(_:description:isenabled:)", "sha": "8d2db518ea4f2733ea7f095e9468e11519eb67445fb2d84523f4d998a76dd184", "t": "accessibilityDropPoint(_:description:isEnabled:)", "n": 589, "laws": 0, "ts": "2026-08-02 06:03 UTC"}
+{"id": "/documentation/swiftui/keyframesbuilder/buildarray(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildArray(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/textfieldstyle/automatic", "sha": "179be1eae4e78f385c30dd8e1d2c0d565f2d37ed40e16b17e0b13e571cf91b37", "t": "automatic", "n": 215, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

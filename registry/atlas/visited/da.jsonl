@@ -109,3 +109,6 @@
 {"id": "/documentation/swiftui/preview(_:traits:_:body:)", "sha": "5274f3210dec41aaa53765aaf312432efe1b33a75da6578e52d1d493c8b54e69", "t": "Preview(_:traits:_:body:)", "n": 567, "laws": 0, "ts": "2026-08-01 18:18 UTC"}
 {"id": "/documentation/swiftui/dynamicproperty/update()", "sha": "2eda65b7169b4a1624510f9cb2c1f497729482970b410e643fd05e723b50549e", "t": "update()", "n": 163, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
 {"id": "/documentation/swiftui/view/searchable(text:tokens:placement:prompt:token:)-85ahx", "sha": "ac47ea6df0c7a84bf71cfa0aecc0939bae23a11aedcb8204449626e94084749d", "t": "searchable(text:tokens:placement:prompt:token:)", "n": 126, "laws": 0, "ts": "2026-08-01 18:37 UTC"}
+{"id": "/documentation/swiftui/alignment/trailingfirsttextbaseline", "sha": "ee519e3c3b6160822a6fe963cacaf7bacf4af2c7f12597c6d2c8938a64bdae94", "t": "trailingFirstTextBaseline", "n": 157, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/navigationlink/init(destination:label:)-9dxix", "sha": "e410ed71e72c0bb9be3d074ab58c43935822f399a964cec1044603c87b765bf8", "t": "init(destination:label:)", "n": 61, "laws": 0, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/defaultglasseffectshape/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-02 06:02 UTC"}

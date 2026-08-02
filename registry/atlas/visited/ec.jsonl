@@ -131,3 +131,7 @@
 {"id": "/documentation/usernotifications/unnotificationsoundname/init(rawvalue:)", "sha": "85b9348cc921c598f03b5900860a1747291edfbbc03f97e478b2b308d9a76b93", "t": "init(rawValue:)", "n": 61, "laws": 0, "ts": "2026-08-01 18:12 UTC"}
 {"id": "/documentation/SwiftUI/AnyTransition/push(from:)", "sha": "7ef6357f77cd1fe4c4566e73ad7f47211f24221c3beded26883e923a86b6c4ff", "t": "push(from:)", "n": 301, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/SwiftUI/WidgetConfiguration", "sha": "0d1af39609dcd2e0aed9df86b2c111422cd15a34bb54a1c4f09be8dea8d16528", "t": "WidgetConfiguration", "n": 865, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
+{"id": "/documentation/swiftui/defaultbuttonstyle", "sha": "d4d4e97c91e67d57c29639b1fe6d195b64e2470c2eaab712dec2ee532b85b6ff", "t": "DefaultButtonStyle", "n": 193, "laws": 0, "ts": "2026-08-02 05:51 UTC"}
+{"id": "/documentation/swiftui/shapestyle/quinary-swift.property", "sha": "7770e4cf628778926d43a70a4b4e00549d2d642ff4aacc5469ef553760c65c4e", "t": "quinary", "n": 44, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/unitpoint/y", "sha": "d671a4437cfd585d4f7411095615918e8188a643e719134846a146a3881eab5c", "t": "y", "n": 79, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d/bottomleadingfront", "sha": "0594d770fe705de586f7f5b79948eeb9234b76a7ccbe7961f56c74879ba64cbf", "t": "bottomLeadingFront", "n": 200, "laws": 0, "ts": "2026-08-02 06:00 UTC"}

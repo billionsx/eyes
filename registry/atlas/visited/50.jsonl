@@ -133,3 +133,10 @@
 {"id": "/documentation/swiftui/radiogrouppickerstyle", "sha": "df32cc5024c571c09a8ad793d15a554b0589561fad6d45006cb01d77a9ffa891", "t": "RadioGroupPickerStyle", "n": 160, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
 {"id": "/documentation/swiftui/searchfieldplacement/toolbarprincipal", "sha": "2307f4752739cd21fd236465ba54bdabac0686bbb0e20257d87eb71bb4c5699e", "t": "toolbarPrincipal", "n": 105, "laws": 0, "ts": "2026-08-01 18:37 UTC"}
 {"id": "/documentation/swiftui/text/truncationmode/middle", "sha": "e1c114571e2a9b33a1e42eaa3a2fee44fc661d85113b745d103b06bc84157d69", "t": "Text.TruncationMode.middle", "n": 192, "laws": 0, "ts": "2026-08-01 18:39 UTC"}
+{"id": "/documentation/swiftui/dropsession/location", "sha": "82933490a91e220e5a94c12fcdfb387aaa4d726d35cd9174a52f5dc6a1230f51", "t": "location", "n": 46, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/swiftui/tabcontentbuilder/buildblock(_:_:_:_:_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:_:_:_:_:_:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/referencefiledocument/writeconfiguration", "sha": "fa1b4334251402aa392bba752a72a667548814f202699fbb84f9083e55e032f6", "t": "ReferenceFileDocument.WriteConfiguration", "n": 274, "laws": 0, "ts": "2026-08-02 05:54 UTC"}
+{"id": "/documentation/swiftui/scene/documentlaunchtitle(_:)-3vr6i", "sha": "25971f3a39706c16a971ea931ed16c746c9d1c75e6446d72b16dc69c52f652ee", "t": "documentLaunchTitle(_:)", "n": 83, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/shapestyle/separator", "sha": "52e9418477559d3b1e7e41ecf94edc31c5583004058f3f0828067a2c1f29fdc3", "t": "separator", "n": 128, "laws": 1, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/unitpoint/bottomtrailing", "sha": "c9b4500cbdb75d107217b861bdca39ec8335ec3383f7e6ce59eecf019193581b", "t": "bottomTrailing", "n": 306, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/scrollgeometry/contentsize", "sha": "be7e1f9424e25962b26d82563b7945b197e9483bcd4b0e4db1eba13e58b39365", "t": "contentSize", "n": 224, "laws": 0, "ts": "2026-08-02 06:10 UTC"}

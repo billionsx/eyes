@@ -116,3 +116,8 @@
 {"id": "/documentation/swiftui/stepper/init(value:in:step:format:label:oneditingchanged:)", "sha": "ed3d89dd06c4b344a8b54d68b7ad8866165e1a0b35b6c31102c72959184883ec", "t": "init(value:in:step:format:label:onEditingChanged:)", "n": 613, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/SwiftUI/TimelineView/Context", "sha": "0232fdc21e36bdae00a4680b17187f7492004fc2eba1a35e023a340cf981a5d4", "t": "TimelineView.Context", "n": 468, "laws": 1, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/swiftui/hovereffect/init(_:)", "sha": "1e850a983c033f94f907af36f4c03033e2e4356b9c0d00ce17490b550e9bf15e", "t": "init(_:)", "n": 57, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/swiftui/uiviewcontrollerrepresentable/makecoordinator()", "sha": "2c03ac1827849a7662b83a5c24e12c53a141d0d5cdc45eef5c106434758b6c9e", "t": "makeCoordinator()", "n": 797, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/dropoperation/forbidden", "sha": "23f0aa1cf722117636988b5a7901971b05f621f11861b59617a37d4eb24ff7cc", "t": "DropOperation.forbidden", "n": 58, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/swiftui/navigationsplitviewstyle/body", "sha": "bc8a7f3a1d72f87658fe3ba9adbd4b52c1d71de9e8872e47bb4b793ca13e24b0", "t": "Body", "n": 59, "laws": 0, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/transformedshape/transform", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "transform", "n": 0, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/hierarchicalshapestyle/quaternary", "sha": "c5e7548fab69eace6112069ac6ed0dc392579cf6176f4ea63a2841ce36945185", "t": "quaternary", "n": 73, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

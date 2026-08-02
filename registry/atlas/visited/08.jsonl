@@ -115,3 +115,9 @@
 {"id": "/documentation/SwiftUI/GeometryReader", "sha": "d74bc12187c302ea03ce0dba036508544814f51e65e1cd7d1d617b26d5ce1f34", "t": "GeometryReader", "n": 226, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
 {"id": "/documentation/swiftui/image/orientation/upmirrored", "sha": "a169e9f0836e13a3f9208a49419c88dce09e39733a8666387036ec3e9017681f", "t": "Image.Orientation.upMirrored", "n": 102, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
 {"id": "/documentation/swiftui/geometryproxy/transform(in:)", "sha": "bf494d2c976a7607a8447285d5961a5f07867a46f46393a0f82dc6e551fe7fdd", "t": "transform(in:)", "n": 219, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/swiftui/alignment/leadinglasttextbaseline", "sha": "feaf9fc6afac4de5667d47a896d9c3f8b3ae536cd9cb88a155767146d05dff01", "t": "leadingLastTextBaseline", "n": 159, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/tablestyle/makebody(configuration:)", "sha": "4b0c8426ac6d03ab35590732ecc771eae39604131eaa4f7a5349a44a7dc85a9c", "t": "makeBody(configuration:)", "n": 177, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/button/init(_:action:)-1asy", "sha": "dd430996162452de89f749029f23f6541cb214d0b0d5698811e5ca01b5eaf994", "t": "init(_:action:)", "n": 225, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/alignment3d/topleadingfront", "sha": "3c5bce2c66a6afdad56c87af3535138627f8e4db2c1255a5a3e0398fa7aca3de", "t": "topLeadingFront", "n": 127, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/colorrenderingmode/extendedlinear", "sha": "db30e2e5df325e5f99d63b5773586446466fa27c9032a7f79b49f61685def099", "t": "ColorRenderingMode.extendedLinear", "n": 155, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
+{"id": "/documentation/swiftui/defaulttextfieldstyle", "sha": "989ccb088cb055932d42203fbb047b1f3d0d3573f10bb104b2800a58fa283f66", "t": "DefaultTextFieldStyle", "n": 159, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

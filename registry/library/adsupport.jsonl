@@ -8,3 +8,6 @@
 {"id": "/documentation/AdSupport/ASIdentifierManager/advertisingIdentifier", "law": "Use this string for frequency capping, attribution, conversion events, estimating the number of unique users, advertising fraud detection, and debugging."}
 {"id": "/documentation/AdSupport/ASIdentifierManager/advertisingIdentifier", "law": "On devices running iOS 14.5 and later and iPadOS 14.5 and later, your app must request tracking authorization before it can get the advertising identifier."}
 {"id": "/documentation/AdSupport/ASIdentifierManager/advertisingIdentifier", "law": "As a best practice, don’t store the advertising identifier value; access instead."}
+{"id": "/documentation/adsupport", "law": "The is an alphanumeric string that’s unique to each device, and which you only use for advertising."}
+{"id": "/documentation/adsupport/asidentifiermanager/advertisingidentifier", "law": "The is an alphanumeric string that’s unique to each device, and which you only use for advertising."}
+{"id": "/documentation/adsupport/asidentifiermanager/advertisingidentifier", "law": "On devices running iOS 14.5 and later and iPadOS 14.5 and later, your app must request tracking authorization before it can get the advertising identifier."}

@@ -112,3 +112,7 @@
 {"id": "/documentation/swiftui/color/primary", "sha": "ab9db4ac69cd7bf940a3c61d3669c5b1c69eb370ddc1663db18273ba817cbaed", "t": "primary", "n": 37, "laws": 1, "ts": "2026-08-01 18:23 UTC"}
 {"id": "/documentation/swiftui/windowgroup/init(_:content:)-ulz4", "sha": "028320e827c3a4aa25c1e6946c5b1524d36e538e096d417fd468dd3f7ab4dc1d", "t": "init(_:content:)", "n": 301, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
 {"id": "/documentation/SwiftUI/View/familyActivityPicker(isPresented:selection:)", "sha": "73cc365bc0a019058584c2e1d48c80ca91a3cdf9d15e365f3805519453a60c72", "t": "familyActivityPicker(isPresented:selection:)", "n": 96, "laws": 0, "ts": "2026-08-01 18:32 UTC"}
+{"id": "/documentation/swiftui/tablerowcontent/contextmenu(menuitems:)", "sha": "2705590cad5646f1bda6a2110381259fb2c622ee29ac84f3b05b8798caa2beb8", "t": "contextMenu(menuItems:)", "n": 626, "laws": 4, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/buttonrepeatbehavior/disabled", "sha": "860038c0db28a83b9fe0bc4751f2f28c8a2f8b31523ed8c356134ba185db0d43", "t": "disabled", "n": 42, "laws": 0, "ts": "2026-08-02 05:51 UTC"}
+{"id": "/documentation/swiftui/form/init(content:)", "sha": "ce227bf037d8e021c5861f99ef16fd831fb805ffea99102f6e55623b339c802d", "t": "init(content:)", "n": 41, "laws": 0, "ts": "2026-08-02 05:51 UTC"}
+{"id": "/documentation/swiftui/scrollgeometry/contentinsets", "sha": "b400eacdb41903a5d38cc0c50500b0775639be74c992354a50c2bf8c7898f3f1", "t": "contentInsets", "n": 172, "laws": 0, "ts": "2026-08-02 06:10 UTC"}

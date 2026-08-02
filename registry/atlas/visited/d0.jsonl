@@ -125,3 +125,8 @@
 {"id": "/documentation/swiftui/view/listsectionseparatortint(_:edges:)", "sha": "b7a4944416a22a2c20958ca540abb66e967a437d118ccc5f7e211344013792e8", "t": "listSectionSeparatorTint(_:edges:)", "n": 516, "laws": 1, "ts": "2026-08-01 18:16 UTC"}
 {"id": "/documentation/swiftui/view/oninteractiveresizechange(_:)", "sha": "5aec351f4d5aeeacddd03b18524f63fba9035856421ceff1ffa4c7a7a7eed7e2", "t": "onInteractiveResizeChange(_:)", "n": 398, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
 {"id": "/documentation/swiftui/tapgesture/init(count:inputkinds:)", "sha": "6b64a4d5a8e2fadf38cbfa8ad4529958812f57e10c47e0df92d80f9cd5f507de", "t": "init(count:inputKinds:)", "n": 98, "laws": 1, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/windowidealsize/automatic", "sha": "ededa55d4e6d605dda9a81e7c081636ad7a45b229a17a87935639f2f4c854eea", "t": "automatic", "n": 116, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/tablerowcontent/draggable(_:)", "sha": "699a4555f74bc7b7db01d9e1ee843a15a0cb6cc011766953b1881fe915df0e81", "t": "draggable(_:)", "n": 249, "laws": 0, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/shapestyle/orange", "sha": "a0072e2f22bbaf30c69c7ca1b2f85819adb5f09b30f622a1823f9e78cf7ea9de", "t": "orange", "n": 65, "laws": 1, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/griditem/spacing", "sha": "2f208dff91da3261487112d0a349150a2c076257dfaf7b810b5cd0f20f44ecc5", "t": "spacing", "n": 123, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
+{"id": "/documentation/swiftui/toolbarcontentbuilder/buildblock(_:_:_:_:_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:_:_:_:_:_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

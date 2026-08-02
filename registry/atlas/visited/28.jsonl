@@ -122,3 +122,10 @@
 {"id": "/documentation/SwiftUI/SceneAccessoryContent", "sha": "b2c8b410a2734748ef5b8fe92f98b7dceba29a562d3821a88e00dc3cad91874b", "t": "SceneAccessoryContent", "n": 183, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/swiftui/remoteimmersivespace/init(for:content:)", "sha": "7b9ce91a9d64ed6cde144a05b73edd37b2d5dd8af5dfe6ca79d142f5ffe7bc0f", "t": "init(for:content:)", "n": 248, "laws": 0, "ts": "2026-08-01 18:35 UTC"}
 {"id": "/documentation/swiftui/highlighthovereffect", "sha": "c35f220ec889523ae0bbb36fbdae3be5eb461d40f6878b53d2c658acb9cc82ce", "t": "HighlightHoverEffect", "n": 164, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/swiftui/spatialeventcollection/makeiterator()", "sha": "3c56f8f9a5fcbcb30101fd37ee12d66f483a9f6199282b666665aa69e9e9851a", "t": "makeIterator()", "n": 52, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/spatialeventcollection/event/timestamp", "sha": "aed83b1374b1b82e68097f51d5fbec1bc159641670da30e9549d86d50f7e8cde", "t": "timestamp", "n": 33, "laws": 0, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/editmode/isediting", "sha": "f660981d4f70539e565f4122200badebacdf70a7313ce6a81645e1ea512fb4bc", "t": "isEditing", "n": 123, "laws": 0, "ts": "2026-08-02 05:47 UTC"}
+{"id": "/documentation/swiftui/dropconfiguration/init(operation:destination:)", "sha": "cf7fe3c6c76024346e7990e2f55c5bb576df32ee26c1b9c52f38558703b4f0f1", "t": "init(operation:destination:)", "n": 584, "laws": 0, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/documentlaunchview/body", "sha": "a9992604650b2ad3262922b6c57d7f6e3971993efe9def27e10ec801a1b6e739", "t": "body", "n": 21, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/keyframes/body-swift.associatedtype", "sha": "743fe451b71243cee9a6443faac4f437521fc59cb8432451383855362724937b", "t": "Body", "n": 186, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/transaction/tracksvelocity", "sha": "4fc9278ee871e606eb53a57b6f147ee7a146307d83d208f2168b4917cb293133", "t": "tracksVelocity", "n": 871, "laws": 1, "ts": "2026-08-02 06:07 UTC"}

@@ -116,3 +116,6 @@
 {"id": "/documentation/swiftui/toolbartitlemenu", "sha": "19d04acd98fcfa63083d2794ff0d834981e25cff49089a4a1295d3098e96488b", "t": "ToolbarTitleMenu", "n": 487, "laws": 0, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/SwiftUI/View/previewContext(_:)", "sha": "7f952e0bc53eed805eb5a2c81338833a83b61802250e53dc41c066fe0b8f9abf", "t": "previewContext(_:)", "n": 35, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/appstorage/init(_:store:)-6aj8x", "sha": "a5428876d0d5e7f347c51a1efb06f9c468d7edcf52652a787bdceccd1da64775", "t": "init(_:store:)", "n": 203, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/environment/init(_:)-8slkf", "sha": "6c3fceb250c578f0b2dc358b2b5045f02d06c0a49f7f1cda657e756f8a48a726", "t": "init(_:)", "n": 823, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/navigationsplitviewcolumn/content", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "content", "n": 0, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/animatable/animatabledata-bqi8", "sha": "dcd51fa245d254ed432795dbb09c7511dc563de0e9042c3dd011de5bf275e801", "t": "animatableData", "n": 20, "laws": 0, "ts": "2026-08-02 06:01 UTC"}

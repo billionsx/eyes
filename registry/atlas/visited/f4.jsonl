@@ -110,3 +110,6 @@
 {"id": "/documentation/swiftui/view/mapitemdetailsheet(item:displaysmap:)", "sha": "e52f4b0cc60907053360450a8112f399b69f26a7f8c3a1411f930b75a85b34b9", "t": "mapItemDetailSheet(item:displaysMap:)", "n": 33, "laws": 0, "ts": "2026-08-01 18:20 UTC"}
 {"id": "/documentation/swiftui/image/interpolation/none", "sha": "c6f762835d4090f9aaa48fa3dbb89ff34f6904fddd21ab9870e29681d8dce7cd", "t": "Image.Interpolation.none", "n": 62, "laws": 0, "ts": "2026-08-01 18:25 UTC"}
 {"id": "/documentation/swiftui/font/weight", "sha": "c28343a66b249d66e204a1e5e272bde7e4592762ac0dd5d06bbdc5866c5d7808", "t": "Font.Weight", "n": 122, "laws": 1, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/dropproposal/init(operation:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(operation:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/swiftui/transition/symboleffect(_:options:)", "sha": "5ad31f58aeb3267dd4e42da38a641b78bb11a16c67b30f114dffb7e9d1e7ccc7", "t": "symbolEffect(_:options:)", "n": 198, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
+{"id": "/documentation/swiftui/transitionphase/value", "sha": "8ac15988a09cb7efed75839d0556a52c2c6073d89f660f2a4b07eca394dfe075", "t": "value", "n": 161, "laws": 0, "ts": "2026-08-02 06:08 UTC"}

@@ -122,3 +122,8 @@
 {"id": "/documentation/swiftui/text/init(_:)-1a4oh", "sha": "e5fa453d3e6d217dd2f7f5c2352e529695d9da7665632c37d30a914f8a389e18", "t": "init(_:)", "n": 2668, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/swiftui/view/linelimit(_:)-7ufty", "sha": "81b57f8fd0d8f418bc731cf4146f3a686071be9e68356428b5bdd6b47b853ecd", "t": "lineLimit(_:)", "n": 314, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/SwiftUI/WidgetConfiguration/onBackgroundURLSessionEvents(matching:_:)-2e152", "sha": "15ddfd4bea5bcc311596ef13fa116d0bca969b5e43013178c5b2635bd68c27fd", "t": "onBackgroundURLSessionEvents(matching:_:)", "n": 1120, "laws": 0, "ts": "2026-08-01 18:30 UTC"}
+{"id": "/documentation/swiftui/blendmode/normal", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "BlendMode.normal", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/colormatrix/a5", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "a5", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/roundedrectangle/style", "sha": "1652a9eb29f66441e6043abd4b2518c51342bb21a5bdbd15689440a8d93468e6", "t": "style", "n": 52, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/swiftui/unevenroundedrectangle/init(cornerradii:style:)", "sha": "3f1ec075ada99e7bab4130fc9e4d34ab4baefcdf07e6a3b9637eb7c0a4fc1336", "t": "init(cornerRadii:style:)", "n": 58, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/transition/blurreplace(_:)", "sha": "9cfbf02473bc9b132649fb5c162004abaffe27c3d467a010592dc212e3cec193", "t": "blurReplace(_:)", "n": 104, "laws": 0, "ts": "2026-08-02 06:07 UTC"}

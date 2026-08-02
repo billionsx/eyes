@@ -140,3 +140,5 @@
 {"id": "/documentation/swiftui/view/ondropsessionupdated(_:)", "sha": "c4c2d90bc825c79b63b246247f2c067ce829ca76758e9a73cc5e5c403c540eb3", "t": "onDropSessionUpdated(_:)", "n": 222, "laws": 0, "ts": "2026-08-01 18:24 UTC"}
 {"id": "/documentation/SwiftUI/View/digitalCrownRotation(_:)", "sha": "3736f508f25220cdf47ba074e202f8e69c637f7e3bf56503bdaa8c66d54f4ce2", "t": "digitalCrownRotation(_:)", "n": 358, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/text/layout/typographicbounds", "sha": "9421f88a0c9c7aa8649caf0fbe588f7e5a6a9ddb226b3d191ba09eb7e2a9269f", "t": "Text.Layout.TypographicBounds", "n": 148, "laws": 0, "ts": "2026-08-01 18:39 UTC"}
+{"id": "/documentation/swiftui/imagepaint/init(image:sourcerect:scale:)", "sha": "84e1a34fab25a32ecc24aadb11dcda74a0f83dd1e40a74ba1c2c8539e2abb3ef", "t": "init(image:sourceRect:scale:)", "n": 36, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
+{"id": "/documentation/swiftui/group/init(content:)-1amme", "sha": "7302cd76fdb080625a71908c306f0cd83dd19acb158d4c5202a388ee72382b66", "t": "init(content:)", "n": 31, "laws": 0, "ts": "2026-08-02 06:10 UTC"}

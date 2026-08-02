@@ -123,3 +123,5 @@
 {"id": "/documentation/SwiftUI/ControlWidgetTemplate", "sha": "bfd5c2b99e7018d0b1cacfb8becdbf684ceeee334b776915f59118694d4b6301", "t": "ControlWidgetTemplate", "n": 763, "laws": 1, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/swiftui/windowgroup/init(_:id:for:content:)-1bmnd", "sha": "4edd2ab004db1a5be353658c72d819728d6b5142bd51108212641b9566112bc0", "t": "init(_:id:for:content:)", "n": 653, "laws": 1, "ts": "2026-08-01 18:28 UTC"}
 {"id": "/documentation/swiftui/draggesture/value/translation", "sha": "52a58876c924a83fe801b42a6cb1c578858b4c1d4a05aa92cf72423b2cdcae53", "t": "translation", "n": 136, "laws": 0, "ts": "2026-08-01 18:34 UTC"}
+{"id": "/documentation/swiftui/view/musicpicker(ispresented:title:selection:)-2p1nz", "sha": "04bca5e13d77144a94754cc69f8d06c926521b4681619c53d1192b2f0da306db", "t": "musicPicker(isPresented:title:selection:)", "n": 121, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/meshgradient/background", "sha": "f445a5048d40cf67cb8210ba39eb2cef3efc9010927c49866d52075a75fc4ff5", "t": "background", "n": 76, "laws": 0, "ts": "2026-08-02 05:58 UTC"}

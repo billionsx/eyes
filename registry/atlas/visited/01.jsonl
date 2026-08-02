@@ -122,3 +122,10 @@
 {"id": "/documentation/swiftui/view/confirmationdialog(_:ispresented:titlevisibility:actions:message:)", "sha": "65f1a1c9e46a96fa50e0062daaf5945b0cc6ed54f4635f11b01b54a1567daf12", "t": "confirmationDialog(_:isPresented:titleVisibility:actions:message:)", "n": 1387, "laws": 1, "ts": "2026-08-01 18:17 UTC"}
 {"id": "/documentation/swiftui/handpointerbehavior/inactive", "sha": "1630ac8984157662655dbc4f3fa1867770c9319f813c82a0450d83cb32810739", "t": "inactive", "n": 177, "laws": 1, "ts": "2026-08-01 18:36 UTC"}
 {"id": "/documentation/swiftui/text/init(_:format:)-8sfgg", "sha": "3c77414a7ba4f06d2b46ee6fb67c61c355d1aa394c6402488b92e298a7720d59", "t": "init(_:format:)", "n": 953, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/font/leading", "sha": "76fbab0d7f30b4a111338ef27b379f11f6d79182e06a46e10acf8cb69103b87e", "t": "Font.Leading", "n": 263, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/font/resolve(in:)", "sha": "7aa7d0cb8a74ed8679a68b9ea548373dc680cc4749ff06cb0befdf3c536c3699", "t": "resolve(in:)", "n": 209, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/dragsession/id-swift.property", "sha": "19b048151592749dc4c8263849396ec70faf87c6af6f7c04365d8a662eb6a73f", "t": "id", "n": 35, "laws": 0, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/blendmode/color", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "BlendMode.color", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/unitpoint/zero", "sha": "fc3d818339eaed71de5030b22679d5a26e217aee7fd66a29d3fde4f75c1c2c73", "t": "zero", "n": 306, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/view/containershape(_:)-3br47", "sha": "d28123ffc9c4c4284242a05f8393aeda77bd966d907a8772e1bc94dc3201b466", "t": "containerShape(_:)", "n": 416, "laws": 1, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/group/init(content:)-9cc4k", "sha": "091b15bfa16449e53a46b88ce7edb5193eaa6d67a64eb0259b891cae47ff4451", "t": "init(content:)", "n": 33, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

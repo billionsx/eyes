@@ -135,3 +135,4 @@
 {"id": "/documentation/swiftui/slidertickbuilder/buildblock()", "sha": "bf4ccc99379d6715ad854af2c5607003a24089dc4bc0f9da3649ce7626d7b7d3", "t": "buildBlock()", "n": 39, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
 {"id": "/documentation/swiftui/verticalalignment/firsttextbaseline", "sha": "9eb2c0c4088789a568297c322561be2dbad42d976d4e5589b1f1e51ec54cc615", "t": "firstTextBaseline", "n": 266, "laws": 0, "ts": "2026-08-01 18:28 UTC"}
 {"id": "/documentation/swiftui/spatialtapgesture/value/location", "sha": "487121ec3481b549002d790ee3f5b0a712a0fa151129399d1b79cbc3664225b7", "t": "location", "n": 48, "laws": 0, "ts": "2026-08-01 18:37 UTC"}
+{"id": "/documentation/swiftui/label/init(_:systemimage:)-2z97t", "sha": "ce9d54e3895f51008006bc109cbf62ec78fe266fa6e4e8d21e34abb50990aa44", "t": "init(_:systemImage:)", "n": 77, "laws": 0, "ts": "2026-08-02 06:08 UTC"}

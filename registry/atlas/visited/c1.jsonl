@@ -116,3 +116,8 @@
 {"id": "/documentation/swiftui/view/webviewelementfullscreenbehavior(_:)", "sha": "a0f60c908acbeede818f10f752f1efd6649fe0fa7bb03b088eca9a89398085f9", "t": "webViewElementFullscreenBehavior(_:)", "n": 62, "laws": 0, "ts": "2026-08-01 18:21 UTC"}
 {"id": "/documentation/swiftui/color/resolve(in:)", "sha": "9dcaf8dad57209b7ea838059839577875649bf9db7406f27889dcc93d75b2121", "t": "resolve(in:)", "n": 60, "laws": 0, "ts": "2026-08-01 18:23 UTC"}
 {"id": "/documentation/SwiftUI/ForegroundStyle", "sha": "ccc1edbbd879b7e14aa49aac2fd667d05713ea4e8b8856db5fe0322c944fb5a8", "t": "ForegroundStyle", "n": 137, "laws": 0, "ts": "2026-08-01 18:30 UTC"}
+{"id": "/documentation/swiftui/dropsession/phase-swift.property", "sha": "978e66b97a8043e77e5c0cbf73cfe7836937309fa779687a17055298ab3fd09f", "t": "phase", "n": 38, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/swiftui/blendmode/colordodge", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "BlendMode.colorDodge", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d/z", "sha": "c42a48f1c709568421f2bbb5a667057a3e89aac451996831d5f03a0bd8bfd5d9", "t": "z", "n": 76, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/edge/corner/style/concentric", "sha": "77cd4ce21efecc4dc113eee7278c31d0a6752dfd2f7ee3b453f72e6915217c9a", "t": "concentric", "n": 357, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/swiftui/edgeinsets/trailing", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "trailing", "n": 0, "laws": 0, "ts": "2026-08-02 06:02 UTC"}

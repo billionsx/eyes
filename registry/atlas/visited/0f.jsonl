@@ -148,3 +148,9 @@
 {"id": "/documentation/swiftui/progressview/init(_:)-9dmp3", "sha": "9bd3c1d3043b094946840fcd858f54eb45ca8c289014552b85e59f49d593634a", "t": "init(_:)", "n": 695, "laws": 2, "ts": "2026-08-01 18:26 UTC"}
 {"id": "/documentation/SwiftUI/Commands", "sha": "677eafb5e3f775262bfbcda445d42c3ba2721a13e2633e4c7694bc5f08308759", "t": "Commands", "n": 465, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/swiftui/animation/systemoverlayappearance", "sha": "c68c85e9385b2e52df5b06c3dcf4aad1028e406cffbc38c0dc2b8294bc53652a", "t": "systemOverlayAppearance", "n": 43, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
+{"id": "/documentation/XCUIAutomation/XCUIApplication/launchEnvironment", "sha": "dd846c6f873e1d9417fb37cd8f28e3c29f6d4ad62ebd08c9b09f73f68f34d19c", "t": "launchEnvironment", "n": 441, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
+{"id": "/documentation/swiftui/foreach/init(_:id:content:)-9unpd", "sha": "bb5de744b1c71d5f7d85918c8be11577b82dec21bb9bc99b2f7e08aeb2e90580", "t": "init(_:id:content:)", "n": 403, "laws": 0, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/roundedrectangle/cornersize", "sha": "d4e9814c2176377744d862b955aa73ec173eb9136f95d36f9acb5beb0bc9ab5c", "t": "cornerSize", "n": 56, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/swiftui/zstacklayout/init(alignment:)", "sha": "bb2c0fc240614842f77f80076c564714de1069d4e89684e2ee696e70a25493ad", "t": "init(alignment:)", "n": 45, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/animationstatekey/defaultvalue", "sha": "c9ff2181433d137fa4d0d60325d4751d8d56eb0389235e30d6e939a56288fdd5", "t": "defaultValue", "n": 46, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
+{"id": "/documentation/swiftui/controlgroup/init(_:content:)", "sha": "7e2a58348e14c2677abd9a46d25caa49202f327556b9651952d95fb0809a439b", "t": "init(_:content:)", "n": 94, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

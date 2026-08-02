@@ -125,3 +125,7 @@
 {"id": "/documentation/SwiftUI/WKUserNotificationHostingController/body", "sha": "98a711d15e5a17e776210c41b8f21741ad0023f0c88d2addc374daef206f0516", "t": "body", "n": 295, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/SwiftUI/WidgetConfiguration/pushHandler(_:)", "sha": "1960694332dea131792f8abd46bebe5ca3fefd142f9923fe07293d610023a19c", "t": "pushHandler(_:)", "n": 398, "laws": 0, "ts": "2026-08-01 18:30 UTC"}
 {"id": "/documentation/swiftui/helplink/init(destination:)", "sha": "61e4649c23b1f8a59771a69f6863a6636a10ee06b4438faee130950f5ea705e9", "t": "init(destination:)", "n": 299, "laws": 1, "ts": "2026-08-01 18:33 UTC"}
+{"id": "/documentation/swiftui/contentshapekinds/accessibility", "sha": "b468b1a062d8709b87b552f5788a6f67d666acf19e5ef62d5b2d0611be366327", "t": "accessibility", "n": 578, "laws": 2, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/tabcontentbuilder/buildblock(_:_:_:_:_:_:_:_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:_:_:_:_:_:_:_:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/angle/init(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
+{"id": "/documentation/swiftui/projectiontransform/m13", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "m13", "n": 0, "laws": 0, "ts": "2026-08-02 05:59 UTC"}

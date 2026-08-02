@@ -138,3 +138,8 @@
 {"id": "/documentation/SwiftUI/ControlWidgetConfiguration/pushHandler(_:)", "sha": "269bd57ef6669be1ea2fbea2d12d9ac0a487ef632bcef78a77c206fa729f05b5", "t": "pushHandler(_:)", "n": 374, "laws": 2, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/text/case/lowercase", "sha": "bf6021bc60d4a960769f55a4b579c10dfefd9ab924eb384a093425629daf7bbf", "t": "Text.Case.lowercase", "n": 108, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
 {"id": "/documentation/swiftui/text/layout/line", "sha": "91ad5e772b21220cc022bbd22ca46420068058a69b323a080a7028298928f0ac", "t": "Text.Layout.Line", "n": 120, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/navigationsplitviewstyle/prominentdetail", "sha": "2812d5137a4b116d21baac6d21939376e026553d57416138872a64a84ea7def3", "t": "prominentDetail", "n": 125, "laws": 0, "ts": "2026-08-02 05:53 UTC"}
+{"id": "/documentation/swiftui/readabledocument/apply(snapshot:previous:)", "sha": "82f6bad0dd89e78af8bf55bfc6e355ff569e24dbb78da3fc2792c14cdbba8ad2", "t": "apply(snapshot:previous:)", "n": 244, "laws": 0, "ts": "2026-08-02 05:54 UTC"}
+{"id": "/documentation/swiftui/customanimation/velocity(value:time:context:)", "sha": "0790e12ab7bf2be24c7312f477ac94ebcb53ced4a4048fdb32c317e6a834ca46", "t": "velocity(value:time:context:)", "n": 721, "laws": 1, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/swiftui/hierarchicalshapestyle/primary", "sha": "dffc84dffc4f117b4eed2041005e8a72a5368b33ac59f0188e37ef14f9c823b4", "t": "primary", "n": 72, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
+{"id": "/documentation/swiftui/attributedtextvalueconstraint/attributekey", "sha": "ad760d7bc250e37dc4bb3001a964a8191f95652cc2aa322bbf5139bd10a3b2ee", "t": "AttributeKey", "n": 114, "laws": 0, "ts": "2026-08-02 06:12 UTC"}

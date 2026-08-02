@@ -122,3 +122,8 @@
 {"id": "/documentation/swiftui/view/toolbar(id:content:)", "sha": "f6dd23e9308ffe71afaabb7feacc2f83fafc161ef2c20c054c66ed76f3061357", "t": "toolbar(id:content:)", "n": 1153, "laws": 1, "ts": "2026-08-01 18:22 UTC"}
 {"id": "/documentation/swiftui/gauge/init(value:in:label:)", "sha": "9f173f2a01ada0c2b16ec4025861fdc9ffad902d812ed1cd6dbe32af9718fac0", "t": "init(value:in:label:)", "n": 377, "laws": 0, "ts": "2026-08-01 18:26 UTC"}
 {"id": "/documentation/SwiftUI/RotatedShape", "sha": "31b64d353e074712089fc6a42d54f765516511ebe005738ee175eb6ef5bf8a0b", "t": "RotatedShape", "n": 200, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
+{"id": "/documentation/swiftui/liststyle/bordered(alternatesrowbackgrounds:)", "sha": "b2de153f1124782e743c77d4a507416aa8c2455665af5d554996d3aa8e569057", "t": "bordered(alternatesRowBackgrounds:)", "n": 219, "laws": 1, "ts": "2026-08-02 05:48 UTC"}
+{"id": "/documentation/swiftui/readabledocument/readconfiguration", "sha": "8d2dd6962fb2ffb32063991fc31d980f07f1a3e6a0357b489bb23340ee8b089e", "t": "ReadableDocument.ReadConfiguration", "n": 48, "laws": 0, "ts": "2026-08-02 05:54 UTC"}
+{"id": "/documentation/swiftui/documentwriter/destination", "sha": "ab66c25165a48d8a7b3d632f72e4a257d975e00959df37ab305f656deaa30eaa", "t": "Destination", "n": 124, "laws": 0, "ts": "2026-08-02 05:54 UTC"}
+{"id": "/documentation/swiftui/shapestyle/opacity(_:)-swift.method", "sha": "b4c88cb9a88db415776b868530526e75367941512e9bba67bad1d6af9bae977f", "t": "opacity(_:)", "n": 83, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/movetransition", "sha": "b61a99241fcb62ead8351a145e16fdc0cbf2afe017aad703a57db249eb0a0a02", "t": "MoveTransition", "n": 132, "laws": 0, "ts": "2026-08-02 06:07 UTC"}

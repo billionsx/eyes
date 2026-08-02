@@ -122,3 +122,6 @@
 {"id": "/documentation/swiftui/automatichovereffect", "sha": "920a91f8252f440af277b55fccf9722c0d90e4fb37a5be4996bca745502e0426", "t": "AutomaticHoverEffect", "n": 289, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
 {"id": "/documentation/swiftui/text/accessibilitylabel(_:)-9afwr", "sha": "343654654ef94b52d994e868d1541e18cc0e858793066dcfa26089af2fba087b", "t": "accessibilityLabel(_:)", "n": 228, "laws": 1, "ts": "2026-08-01 18:38 UTC"}
 {"id": "/documentation/SwiftUI/Font/Weight/semibold", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "semibold", "n": 0, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/view/subscriptionstorecontrolbackground(_:)-7jxa9", "sha": "75dd5cf259b3aa74e7212d8e6bf84d3fc1d38d750d23186411eed6debb20ab0b", "t": "subscriptionStoreControlBackground(_:)", "n": 96, "laws": 1, "ts": "2026-08-02 05:44 UTC"}
+{"id": "/documentation/swiftui/font/system(_:design:weight:)", "sha": "fbf3cf954965f036a23f72d3a1dd4e6c8a51944a6f7687909879c9bd324fbbe6", "t": "system(_:design:weight:)", "n": 507, "laws": 1, "ts": "2026-08-02 05:46 UTC"}
+{"id": "/documentation/swiftui/keyframetrackcontent/body-swift.property", "sha": "cdf3415b50dbdc11dcac58e0e660c5cb55e4db5de6c124ab1ca1372d45454938", "t": "body", "n": 60, "laws": 0, "ts": "2026-08-02 06:06 UTC"}

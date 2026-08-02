@@ -139,3 +139,6 @@
 {"id": "/documentation/uikit/uitextcontenttype/creditcardtype", "sha": "ff5e6e1f84275f9d8d3d46d740a9804543ff0f91533fc0adf6bfefb058360c30", "t": "creditCardType", "n": 79, "laws": 0, "ts": "2026-08-01 06:07 UTC"}
 {"id": "/documentation/swiftui/userinterfacesizeclass", "sha": "74f89a25e12b0052923150bd91f74db6222914908755cad0671416cca8396229", "t": "UserInterfaceSizeClass", "n": 1071, "laws": 0, "ts": "2026-08-01 18:15 UTC"}
 {"id": "/documentation/swiftui/hovereffectcontent/transformeffect(_:)", "sha": "e5fbbcb5218f8caa03475ebc56196c37f9c0ba422a9dec28fedbb4c04dc207df", "t": "transformEffect(_:)", "n": 264, "laws": 0, "ts": "2026-08-01 18:37 UTC"}
+{"id": "/documentation/swiftui/blendmode/difference", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "BlendMode.difference", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/shapestyle/background", "sha": "ce677e2776eb7d61ebe750c721fed309413531b961be7ab062dc2ccffe6591c2", "t": "background", "n": 325, "laws": 1, "ts": "2026-08-02 05:59 UTC"}
+{"id": "/documentation/swiftui/scenebuilder/buildblock(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildBlock(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:11 UTC"}

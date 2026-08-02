@@ -121,3 +121,8 @@
 {"id": "/documentation/swiftui/view/linelimit(_:)-251ko", "sha": "9b15d4a9021ed1d38ccdf29eb6dc35decb89f69332f77d6b2dabebf99237d6d6", "t": "lineLimit(_:)", "n": 314, "laws": 0, "ts": "2026-08-01 18:29 UTC"}
 {"id": "/documentation/swiftui/customhovereffect/hovereffectgroup(id:in:behavior:)-swift.type.method", "sha": "53c5f53839e73f436190216981f2bde218e181ef03e8d4b96f9f106dbe59c102", "t": "hoverEffectGroup(id:in:behavior:)", "n": 539, "laws": 0, "ts": "2026-08-01 18:36 UTC"}
 {"id": "/documentation/swiftui/text/init(_:formatter:)-2he2c", "sha": "e63212e550efda0e7f2478a517d880d849da050ecdf64b8587bc31f80ad33550", "t": "init(_:formatter:)", "n": 174, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/customizabletoolbarcontent/defaultcustomization()", "sha": "61992e56f1518cafde1b63ab60a21d3bb92218b3fed7845ed0b5c31c829078d0", "t": "defaultCustomization()", "n": 142, "laws": 0, "ts": "2026-08-02 05:45 UTC"}
+{"id": "/documentation/swiftui/referencefiledocument/writablecontenttypes", "sha": "6d42687c303c9731755eea5c7b9487dcca58d5f2f183ab19f357753d69202cf1", "t": "writableContentTypes", "n": 385, "laws": 0, "ts": "2026-08-02 05:54 UTC"}
+{"id": "/documentation/swiftui/colormatrix/g3", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "g3", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/unitcurve/linear", "sha": "d00371dcc64d7452f53b0290be4ebe4c4790dc9af9bac852f5f1a1f846e77328", "t": "linear", "n": 191, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
+{"id": "/documentation/swiftui/griditem/size-swift.enum", "sha": "39a0f88365af6838d69935aba79c5821ad3b0d3c7e9510e52d00c85878e73ebd", "t": "GridItem.Size", "n": 322, "laws": 0, "ts": "2026-08-02 06:09 UTC"}

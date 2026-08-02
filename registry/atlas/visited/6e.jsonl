@@ -147,3 +147,11 @@
 {"id": "/documentation/SwiftUI/CustomizableToolbarContent", "sha": "6d75fb7addc1ad95142dff021c4d9d80559cafcca60320f1f514767f40e33e75", "t": "CustomizableToolbarContent", "n": 407, "laws": 0, "ts": "2026-08-01 18:27 UTC"}
 {"id": "/documentation/swiftui/immersivespace/init(id:content:)-5keb4", "sha": "8cfc96e17ac035a23c107181f8a6af8a1c36d6429613524ce4d0d08775b7e116", "t": "init(id:content:)", "n": 200, "laws": 0, "ts": "2026-08-01 18:32 UTC"}
 {"id": "/documentation/swiftui/text/init(_:)-60ax7", "sha": "4d0cb7a9784376e420462290659c42a5ad686d01138463eb422d163c510242d8", "t": "init(_:)", "n": 73, "laws": 0, "ts": "2026-08-01 18:38 UTC"}
+{"id": "/documentation/swiftui/button/init(_:role:intent:)-5ncqr", "sha": "2e5266f373cd50993daaf7b55b58524bafa778df36889c10a820ffa7c5204672", "t": "init(_:role:intent:)", "n": 226, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
+{"id": "/documentation/swiftui/view/tabviewbottomaccessory(content:)", "sha": "8c2743029b501aa4a248c93a30027379772f5afdcddd807f25e06def745361cc", "t": "tabViewBottomAccessory(content:)", "n": 423, "laws": 0, "ts": "2026-08-02 05:52 UTC"}
+{"id": "/documentation/swiftui/readabledocument/writablecontenttypes", "sha": "cb8007261790b9dd7147564f6cea4b0f4ab761ea51fb8592144d91be21d93758", "t": "writableContentTypes", "n": 90, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
+{"id": "/documentation/swiftui/blendmode/lighten", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "BlendMode.lighten", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
+{"id": "/documentation/swiftui/shapestyle/resolve(in:)", "sha": "c84179fc6da4f0241af738c434d669cac60e704d8d30669594b64ff24942ef7e", "t": "resolve(in:)", "n": 54, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/unitpoint3d/bottom", "sha": "3e98538518350dc9542a4fe46ecd9b46d1ac9d5f77809f3eb0d74a60c5d168d1", "t": "bottom", "n": 93, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/swiftui/visualeffect/blur(radius:opaque:)", "sha": "cb27df4a2bcd55379084319b2f20ff89e1024de09a5c3007cc73231a5b954bfb", "t": "blur(radius:opaque:)", "n": 163, "laws": 1, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/swiftui/containervalues/tag(for:)", "sha": "40027db0096eeab4ffef2fe59692c5c0f93445496e4f9bc571f73db345878e91", "t": "tag(for:)", "n": 208, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
