@@ -138,3 +138,6 @@
 {"id": "/documentation/swiftui/foregroundstyle/init()", "sha": "7b37399b1b416e7545841771bcc3a5f629c4bced6a9c54a48433e93b60700710", "t": "init()", "n": 36, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
 {"id": "/documentation/swiftui/imagepaint/image", "sha": "84af5170b3a110e56d85e9a784256c8ecc62158218ad4a0204791bdabe13acef", "t": "image", "n": 22, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
 {"id": "/documentation/swiftui/scrollphasechangecontext/geometry", "sha": "c1fb9d2796c958b2c34d2a8038234e61f53707533a28ee938adb926941d1536a", "t": "geometry", "n": 71, "laws": 0, "ts": "2026-08-02 06:10 UTC"}
+{"id": "/documentation/uikit/uisplitviewcontroller/show(_:)", "sha": "a95dbb56e42dd845d36c9220a06fed49c5869cd487d4e0ac3c901b6fb6c587d8", "sieve": 2, "t": "show(_:)", "n": 705, "laws": 1, "ts": "2026-08-02 16:16 UTC"}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct/borderedtinted()", "sha": "097cebbb032bfb16cb5d0e5faa064cc5046bc465f2246d3c62dd4826554c471c", "sieve": 2, "t": "borderedTinted()", "n": 184, "laws": 0, "ts": "2026-08-02 16:25 UTC"}
+{"id": "/documentation/uikit/uiapplication/didfinishlaunchingmessage/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-02 16:28 UTC"}

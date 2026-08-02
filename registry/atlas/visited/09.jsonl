@@ -127,3 +127,7 @@
 {"id": "/documentation/swiftui/dropoperation/set", "sha": "74d398245454bb682d90299b3933c45f7c88fdc020297ecf608e4f83d36b57ee", "t": "DropOperation.Set", "n": 160, "laws": 0, "ts": "2026-08-02 05:49 UTC"}
 {"id": "/documentation/swiftui/symbolrenderingmode/palette", "sha": "bdde0e7abbfce44a606d0a487dd64604e5a2e8d81950a704951be4513f064c80", "t": "palette", "n": 717, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
 {"id": "/documentation/swiftui/asymmetrictransition/insertion", "sha": "060d923805ba8a678feed9c9d93e0190505a65d4c834915788933fb7f5fcb804", "t": "insertion", "n": 37, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/watchkit/wktextcontenttype/location", "sha": "3290fe061f3ee01a75d19bdabb5296ffaaf4de39004bec20d2b27e6922629f4e", "sieve": 2, "t": "location", "n": 61, "laws": 0, "ts": "2026-08-02 16:08 UTC"}
+{"id": "/documentation/watchkit/wkaudiofileasset/url", "sha": "90f4439fff64156a18075a868fcf417b4a2546f88c0f8d081e50a3e68463b623", "sieve": 2, "t": "url", "n": 26, "laws": 0, "ts": "2026-08-02 16:12 UTC"}
+{"id": "/documentation/watchkit/wkinterfacesemanticcontentattribute/forcerighttoleft", "sha": "c860acd7d94081e268438021f38faea0d33cac77fa77c2cc8a7b19406f721079", "sieve": 2, "t": "WKInterfaceSemanticContentAttribute.forceRightToLeft", "n": 61, "laws": 1, "ts": "2026-08-02 16:14 UTC"}
+{"id": "/documentation/uikit/uitabbarcontroller/sidebar-swift.class/preferredlayout", "sha": "0c07a4d3a069857dc3e87fdf28fc9d236c5c86f92c97f1208394e7a1fc85affc", "sieve": 2, "t": "preferredLayout", "n": 99, "laws": 0, "ts": "2026-08-02 16:24 UTC"}

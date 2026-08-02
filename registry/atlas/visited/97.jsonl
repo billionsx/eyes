@@ -132,3 +132,6 @@
 {"id": "/documentation/swiftui/animatablepair/second", "sha": "d098e121d75c1c96550916adc7f688ca8ebafed183f9bdec91089e661103cd16", "t": "second", "n": 17, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
 {"id": "/documentation/swiftui/movekeyframe/init(_:)", "sha": "fe634758a44021b2d428f284ade277edde8ac1839bab538bd01574231809b8ec", "t": "init(_:)", "n": 45, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
 {"id": "/documentation/swiftui/angulargradient/init(stops:center:angle:)", "sha": "cc5796fe6d6f97ec56e9a9688a3293029e49adecac2121991b35468c35329297", "t": "init(stops:center:angle:)", "n": 85, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
+{"id": "/documentation/watchkit/wktextcontenttype/countryname", "sha": "a61c047852e1357a742e199cc99a4c2ab00bb931ac750338a8b53c76b681aa57", "sieve": 2, "t": "countryName", "n": 32, "laws": 0, "ts": "2026-08-02 16:08 UTC"}
+{"id": "/documentation/watchkit/wkinterfacemappincolor/green", "sha": "45c13f101ecf8cfc9ffe89141150e8f2e65e1e537f7a37e1357d44392438e47a", "sieve": 2, "t": "WKInterfaceMapPinColor.green", "n": 12, "laws": 0, "ts": "2026-08-02 16:09 UTC"}
+{"id": "/documentation/watchkit/wkhaptictype/directiondown", "sha": "a12b8ed191ea9e23bda7267594dbca0acfafe590e2871f8ea6a9271057d811f6", "sieve": 2, "t": "WKHapticType.directionDown", "n": 189, "laws": 0, "ts": "2026-08-02 16:13 UTC"}

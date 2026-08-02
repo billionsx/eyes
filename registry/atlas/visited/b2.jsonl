@@ -138,3 +138,8 @@
 {"id": "/documentation/swiftui/shaderfunction/library", "sha": "f5f096f689404cf9882176c5969a6850218ef2150bcdaf988deb897bfe5787b4", "t": "library", "n": 40, "laws": 0, "ts": "2026-08-02 05:59 UTC"}
 {"id": "/documentation/swiftui/color/resolvedhdr/blue", "sha": "8f9d1eada0cd905e7e1e3939b757de2d7b3ba87117c8184d26fc0d71c2a4e0f4", "t": "blue", "n": 65, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
 {"id": "/documentation/swiftui/label/init(_:image:)-7or2", "sha": "e9bf2ab57d258c197f4f6c1f6e015e7054e0e4afcc7eab04248f75e96be34cdc", "t": "init(_:image:)", "n": 81, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
+{"id": "/documentation/xcuiautomation/xcuiscreenshot", "sha": "a6d7ccfaf4ebc8fe92e45b7d6ce85e92f0122448b60755170e00af6fbfbf0e7c", "sieve": 2, "t": "XCUIScreenshot", "n": 710, "laws": 0, "ts": "2026-08-02 16:07 UTC"}
+{"id": "/documentation/watchkit/wktextcontenttype/namesuffix", "sha": "05f80cf80b45109b2874c7bb9d6878642e7f72de0a93ff755034747e334484dc", "sieve": 2, "t": "nameSuffix", "n": 20, "laws": 0, "ts": "2026-08-02 16:08 UTC"}
+{"id": "/documentation/uikit/uipageviewcontroller/navigationdirection", "sha": "a6b9b387b405847f2b089386495383c279eb8b02077d54047fa00b127805f8c7", "sieve": 2, "t": "UIPageViewController.NavigationDirection", "n": 406, "laws": 0, "ts": "2026-08-02 16:15 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitembadge/init", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init", "n": 0, "laws": 0, "ts": "2026-08-02 16:21 UTC"}
+{"id": "/documentation/uikit/uicontentsizecategory/didchangemessage", "sha": "d8a55bc76d6eb0bcc851918c19f8419d919b2d06a5361c45b1f545b4adacb45c", "sieve": 2, "t": "UIContentSizeCategory.DidChangeMessage", "n": 86, "laws": 0, "ts": "2026-08-02 16:29 UTC"}

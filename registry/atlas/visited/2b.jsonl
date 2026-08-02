@@ -119,3 +119,4 @@
 {"id": "/documentation/swiftui/buttonrepeatbehavior/automatic", "sha": "19a382a3adaee79c35c53bc256cb3893d65d3b3509f51a2799f80d1755b67cda", "t": "automatic", "n": 30, "laws": 0, "ts": "2026-08-02 05:51 UTC"}
 {"id": "/documentation/swiftui/slidetransition", "sha": "e6c199d19d48bd9abf1e43c2670b513a16fbe8bd2c9abf37eb175958aae6a698", "t": "SlideTransition", "n": 161, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
 {"id": "/documentation/swiftui/label/init(_:systemimage:)-2veqt", "sha": "8af1cdc1f86cba7f4595782d3dd73e46efa51d51da50d490bb4394bc9b1ae3a4", "t": "init(_:systemImage:)", "n": 87, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
+{"id": "/documentation/uikit/uitabgroup/init(title:image:identifier:children:viewcontrollerprovider:)", "sha": "75c0c5869cd720aa9a8aefc7920cf157ba5f92b6165a532a351ed8d680b4f618", "sieve": 2, "t": "init(title:image:identifier:children:viewControllerProvider:)", "n": 20, "laws": 0, "ts": "2026-08-02 16:25 UTC"}

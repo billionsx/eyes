@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 30125 · кандидатов: 18 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 30331 · кандидатов: 19 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -21,6 +21,7 @@
 | opacity | 100 % | none | 2 | 4 | нет |
 | font-size | 44 pt | none | 2 | 2 | нет |
 | margin / padding | 600 ms | none | 2 | 2 | нет |
+| border-radius | 6 pt | none | 1 | 1 | нет |
 | line-height | 10 pt | none | 1 | 1 | нет |
 | opacity | 10 % | none | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 1 | 1 | нет |
@@ -57,6 +58,8 @@
   - «Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at run»
 - **margin / padding 600 ms** (none) — https://developer.apple.com/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time, https://developer.apple.com/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time
   - «To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel di»
+- **border-radius 6 pt** (none) — https://developer.apple.com/documentation/watchkit/wkinterfacegroup/setcornerradius(_:)
+  - «The default corner radius for groups is 6 points.»
 - **line-height 10 pt** (none) — https://developer.apple.com/documentation/swiftui/layout/explicitalignment(of:in:proposal:subviews:cache:)
   - «For example, you can indent the container’s leading edge alignment guide by 10 points: The above example returns for other guides to indicate that the»
 - **opacity 10 %** (none) — https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)

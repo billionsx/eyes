@@ -141,3 +141,6 @@
 {"id": "/documentation/swiftui/edgeinsets3d/trailing", "sha": "b411b43ef2c65a9c7494cefed5e4ac1b2cffbd2ee9a2c4000c2069d7b08aa735", "t": "trailing", "n": 57, "laws": 0, "ts": "2026-08-02 06:03 UTC"}
 {"id": "/documentation/swiftui/plaintextfieldstyle", "sha": "fe5ca9f04df05acc08042350405655e2eb405a71180aa275efb96d346f61c2a7", "t": "PlainTextFieldStyle", "n": 133, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
 {"id": "/documentation/swiftui/labeledcontent/init(_:value:format:)", "sha": "b4f7d16ae6be85add9eabc6d3fb11c371154ae0eae176bab864cd01645720c28", "t": "init(_:value:format:)", "n": 216, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/watchkit/wkaccessibilityimageregion/frame", "sha": "a5e3028ad15786a8d1c3fb1df4c19f52b6f37d07032331f2856ad5bc5446e732", "sieve": 2, "t": "frame", "n": 169, "laws": 0, "ts": "2026-08-02 16:09 UTC"}
+{"id": "/documentation/uikit/uitabbaritem/init()", "sha": "8caeee397393e45d8d435e8fdd234c124fa3b72cbb1ada7d767894aac2a24fc3", "sieve": 2, "t": "init()", "n": 52, "laws": 0, "ts": "2026-08-02 16:22 UTC"}
+{"id": "/documentation/uikit/uitableview/scrollposition/none", "sha": "fc23efc197f5bb2a8ce6e366332148543c7888702dfea03d19ddc60faff76101", "sieve": 2, "t": "UITableView.ScrollPosition.none", "n": 283, "laws": 0, "ts": "2026-08-02 16:36 UTC"}

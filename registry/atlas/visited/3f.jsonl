@@ -122,3 +122,7 @@
 {"id": "/documentation/swiftui/tablecolumncontent/tablecolumnsortcomparator", "sha": "c7d3df3cbef41dd52761d915330cbccef446959eda414ea17ca325434106ab4e", "t": "TableColumnSortComparator", "n": 70, "laws": 0, "ts": "2026-08-02 05:50 UTC"}
 {"id": "/documentation/swiftui/projectiontransform/init(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
 {"id": "/documentation/swiftui/color/resolvedhdr/lineargreen", "sha": "c110590cbf0c1850e31e9a539326b954aa7a9f8ba830891f1e549b91296e9e75", "t": "linearGreen", "n": 92, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
+{"id": "/documentation/watchkit/wkbackgroundfetchresult/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-02 16:09 UTC"}
+{"id": "/documentation/WatchKit/WKImageAnimatable", "sha": "8a5b4f034f1a3d3fcaaed578e11374f356c400e8e84d5613b2495e49bee84eb2", "sieve": 2, "t": "WKImageAnimatable", "n": 360, "laws": 2, "ts": "2026-08-02 16:14 UTC"}
+{"id": "/documentation/uikit/uicollectionview/cellregistration/init(handler:)", "sha": "920bb64ff8a128dda012cf94a0ab39d06861c2bd825e4a3abe1a89e22fe69593", "sieve": 2, "t": "init(handler:)", "n": 68, "laws": 0, "ts": "2026-08-02 16:33 UTC"}
+{"id": "/documentation/uikit/uicontrol/event/init(rawvalue:)", "sha": "a8b5f7f4e43e169f91b82bc5eb5e8f3b9cd6c7ad7eb6d22067bc6fe02af171f6", "sieve": 2, "t": "init(rawValue:)", "n": 53, "laws": 0, "ts": "2026-08-02 16:35 UTC"}

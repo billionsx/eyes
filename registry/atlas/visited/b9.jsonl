@@ -124,3 +124,5 @@
 {"id": "/documentation/swiftui/alignment3d/center", "sha": "74a2c83426f890fd42a8dde3b8d9c7806674f53fc36d09335fe8f6a7097001a6", "t": "center", "n": 125, "laws": 0, "ts": "2026-08-02 05:56 UTC"}
 {"id": "/documentation/swiftui/edgeinsets3d/back", "sha": "9cbd6aaf44f637f6569f4af0bace24a5c0d44e93382a64c7999d9ed8b965aec0", "t": "back", "n": 53, "laws": 0, "ts": "2026-08-02 06:03 UTC"}
 {"id": "/documentation/swiftui/rectanglecornerradii/bottomtrailing", "sha": "d1e93d3922ea22246fd451f760d0dd5e3c7c8594e3cbb00388e1f94fe865e54a", "t": "bottomTrailing", "n": 41, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/uikit/uistatusbarstyle/uistatusbarstyleblacktranslucent", "sha": "a5687037a09a5200ee7ba9190625c2486efce1727f11f2f2fab9ad0775abbf8e", "sieve": 2, "t": "UIStatusBarStyleBlackTranslucent", "n": 26, "laws": 0, "ts": "2026-08-02 16:17 UTC"}
+{"id": "/documentation/uikit/uisearchtab/init(viewcontrollerprovider:)", "sha": "570a2782708b0552f29b7bdd949a071e712611da3e36211792324b5fb1466bf4", "sieve": 2, "t": "init(viewControllerProvider:)", "n": 61, "laws": 0, "ts": "2026-08-02 16:24 UTC"}

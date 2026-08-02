@@ -125,3 +125,6 @@
 {"id": "/documentation/swiftui/sectionconfiguration/footer", "sha": "8581012d2d5a952b9ffbfce4230f30a6de64fb086279c9f90cbfd36d9d5af09c", "t": "footer", "n": 645, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
 {"id": "/documentation/swiftui/contentsizecategory/accessibilitylarge", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "ContentSizeCategory.accessibilityLarge", "n": 0, "laws": 0, "ts": "2026-08-02 06:12 UTC"}
 {"id": "/documentation/swiftui/attributedtextformattingdefinition/body-swift.associatedtype", "sha": "d5cb8108280b66571d37a10e7f7285c2b1baec665b31b4659856008bd8164f2a", "t": "Body", "n": 194, "laws": 0, "ts": "2026-08-02 06:12 UTC"}
+{"id": "/documentation/watchkit/wkinterfaceinlinemovie/pause()", "sha": "b4aeb19968267bd7e40aa43a4817dcfa434540db4c2951b6e22eecf1fb48da04", "sieve": 2, "t": "pause()", "n": 17, "laws": 0, "ts": "2026-08-02 16:10 UTC"}
+{"id": "/documentation/watchkit/wkinterfacedevicebatterystate/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-02 16:14 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitemvisibilitypriority/low", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "low", "n": 0, "laws": 0, "ts": "2026-08-02 16:21 UTC"}

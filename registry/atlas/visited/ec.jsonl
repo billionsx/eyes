@@ -135,3 +135,6 @@
 {"id": "/documentation/swiftui/shapestyle/quinary-swift.property", "sha": "7770e4cf628778926d43a70a4b4e00549d2d642ff4aacc5469ef553760c65c4e", "t": "quinary", "n": 44, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
 {"id": "/documentation/swiftui/unitpoint/y", "sha": "d671a4437cfd585d4f7411095615918e8188a643e719134846a146a3881eab5c", "t": "y", "n": 79, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
 {"id": "/documentation/swiftui/unitpoint3d/bottomleadingfront", "sha": "0594d770fe705de586f7f5b79948eeb9234b76a7ccbe7961f56c74879ba64cbf", "t": "bottomLeadingFront", "n": 200, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/uikit/uiviewcontroller/viewdidunload", "sha": "ad77bda1f3630ca1f735ee09b914c76347b777361134d83998a7941eb3e78761", "sieve": 2, "t": "viewDidUnload", "n": 904, "laws": 0, "ts": "2026-08-02 16:18 UTC"}
+{"id": "/documentation/uikit/uiscrollviewdelegate/scrollviewdidzoom(_:)", "sha": "b33534ca77c52a307e5ada3c5b42eafac2a4f60c45dd5b58a2e564d33f840436", "sieve": 2, "t": "scrollViewDidZoom(_:)", "n": 62, "laws": 0, "ts": "2026-08-02 16:22 UTC"}
+{"id": "/documentation/uikit/uiapplication/state/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-02 16:28 UTC"}

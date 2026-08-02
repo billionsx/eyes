@@ -3348,3 +3348,142 @@
 {"id": "/documentation/uikit/uidocumentpickerextensionviewcontroller/dismissgrantingaccess(to:)", "law": "The URL must meet all of the following conditions: Import Document Picker mode."}
 {"id": "/documentation/uikit/uidocumentpickerextensionviewcontroller/provideridentifier", "law": "Both the Document Picker View Controller extension and the File Provider extension should pass this identifier to their file coordinator’s method."}
 {"id": "/documentation/uikit/configuring-open-access-for-a-custom-keyboard", "law": "Users must explicitly allow your keyboard to have open access by turning the “Allow Full Access” switch on for your keyboard in Settings."}
+{"id": "/documentation/uikit/uiinputviewcontroller/needsinputmodeswitchkey", "law": "A Boolean value that indicates whether the keyboard must display an input switcher key."}
+{"id": "/documentation/uikit/uimodaltransitionstyle/partialcurl", "law": "This transition style is supported only if the parent view controller is presenting a full-screen view and you use the modal presentation style."}
+{"id": "/documentation/uikit/uisplitviewcontroller/displaymodebuttonitem", "law": "Don’t change the configuration of the returned button."}
+{"id": "/documentation/uikit/uisplitviewcontroller/displaymodebuttonitem", "law": "You must incorporate this button into your user interface yourself."}
+{"id": "/documentation/uikit/uisplitviewcontroller/hide(_:)", "law": "After you call this method, you can use the split view controller’s to coordinate any of your animations alongside the transition animation."}
+{"id": "/documentation/uikit/uisplitviewcontroller/show(_:)", "law": "After you call this method, you can use the split view controller’s to coordinate any of your animations alongside the transition animation."}
+{"id": "/documentation/uikit/uisplitviewcontroller/style-swift.enum", "law": "A column-style split view controller lets you create an interface with two or three columns by using with the appropriate : Use the style to create a split view interface with a two-column layout."}
+{"id": "/documentation/uikit/uisplitviewcontroller/style-swift.enum", "law": "Use the style to create a split view interface with a three-column layout."}
+{"id": "/documentation/uikit/uisplitviewcontrollerdelegate", "law": "If you don’t implement any of the methods, the split view controller provides default behavior to handle the collapsing and expanding transitions."}
+{"id": "/documentation/uikit/uisplitviewcontrollerdelegate", "law": "In a column-style split view interface, you use these delegate methods to customize interface transition behavior:"}
+{"id": "/documentation/uikit/uisplitviewcontrollerdelegate", "law": "In a classic split view interface, you use these delegate methods to customize interface transition behavior: At the end of a collapse transition, the split view controller typically shows only the content from its primary view controller."}
+{"id": "/documentation/uikit/uitabbarcontroller/delegate", "law": "You can use the delegate object to track changes to the items in the tab bar and to monitor the selection of tabs."}
+{"id": "/documentation/uikit/uitabbarcontroller/morenavigationcontroller", "law": "This property always contains a valid More navigation controller, even if a More button is not displayed on the screen."}
+{"id": "/documentation/uikit/uitabbarcontroller/morenavigationcontroller", "law": "You can use the value of this property to select the More navigation controller in the tab bar interface or to compare it against the currently selected view controller."}
+{"id": "/documentation/uikit/uitabbarcontroller/morenavigationcontroller", "law": "Do not add the object stored in this property to your tab bar interface manually."}
+{"id": "/documentation/uikit/uitabbarcontroller/tabbar", "law": "To configure the items for your tab bar interface, you should instead assign one or more custom view controllers to the property."}
+{"id": "/documentation/uikit/uiviewcontroller/willanimatefirsthalfofrotationtointerfaceorientation:duration:", "law": "You can override this method and use it to configure additional animations that should occur during the first half of the view rotation."}
+{"id": "/documentation/uikit/uiviewcontroller/willanimatefirsthalfofrotationtointerfaceorientation:duration:", "law": "For example, you could use it to adjust the zoom level of your content, change the scroller position, or modify other animatable properties of your view."}
+{"id": "/documentation/uikit/uiviewcontroller/willanimatesecondhalfofrotationfrominterfaceorientation:duration:", "law": "You can override this method and use it to configure additional animations that should occur during the second half of the view rotation."}
+{"id": "/documentation/uikit/uiviewcontroller/willanimatesecondhalfofrotationfrominterfaceorientation:duration:", "law": "For example, you could use it to adjust the zoom level of your content, change the scroller position, or modify other animatable properties of your view."}
+{"id": "/documentation/uikit/uiviewcontrollertransition/zoomwithoptions:sourceviewprovider:", "law": "In the closure, return the that the animation should zoom in from or zoom back out to, respectively."}
+{"id": "/documentation/uikit/uiscrollview/bounceszoom", "law": "If the value of this property is and zooming exceeds either the maximum or minimum limits for scaling, the scroll view temporarily animates the content scaling just past these limits before returning to them."}
+{"id": "/documentation/uikit/uiscrollview/bounceszoom", "law": "A Boolean value that determines whether the scroll view animates the content scaling when the scaling exceeds the maximum or minimum limits."}
+{"id": "/documentation/uikit/uiscrollview/cancancelcontenttouches", "law": "A Boolean value that controls whether touches in the content view always lead to tracking."}
+{"id": "/documentation/uikit/uiscrollview/contentlayoutguide", "law": "Use this layout guide when you want to create Auto Layout constraints related to the content area of a scroll view."}
+{"id": "/documentation/uikit/uiscrollview/framelayoutguide", "law": "Use this layout guide when you want to create Auto Layout constraints that explicitly involve the frame rectangle of the scroll view itself, as opposed to its content rectangle."}
+{"id": "/documentation/uikit/uibarbuttonitembadge/font", "law": "The font to use for the badge."}
+{"id": "/documentation/uikit/uibarbuttonitemgroup/barbuttonitems", "law": "You may include any number of bar button items in a group, but you should keep the total number of items relatively small because of space considerations."}
+{"id": "/documentation/uikit/uibarbuttonitemgroup/init(barbuttonitems:representativeitem:)", "law": "When you use this initializer to create a group for a navigation bar, it produces the same result as (Swift) or (Objective-C)."}
+{"id": "/documentation/uikit/uibaritem/landscapeimagephone", "law": "The image to use to represent the item in landscape orientation when using the iPhone appearance idiom."}
+{"id": "/documentation/uikit/uitabbar-legacy-customizations", "law": "You may also continue to use these legacy accessors to customize your tab bar’s appearance directly."}
+{"id": "/documentation/uikit/uitabbar/bartintcolor", "law": "Use this property to specify a custom color for the tab bar’s background."}
+{"id": "/documentation/uikit/uitabbar/begincustomizingitems(_:)", "law": "You cannot use this method to customize a tab bar that is managed by a tab bar controller."}
+{"id": "/documentation/uikit/uitabbar/begincustomizingitems(_:)", "law": "The parameter should include all items currently visible in the tab bar that you allow to be replaced."}
+{"id": "/documentation/uikit/uitabbar/delegate", "law": "Use the delegate to track the selection of tab bar items and to respond to the user customization of the tab bar."}
+{"id": "/documentation/uikit/uitabbar/items", "law": "You must not modify this property if the tab bar is managed by a object, and doing so raises an exception."}
+{"id": "/documentation/uikit/uitabbar/items", "law": "When the tab bar is owned by a tab bar controller, use the tab bar controller’s methods to make changes."}
+{"id": "/documentation/uikit/uitabbar/leadingaccessoryview", "law": "Use this property to integrate a custom view at the leading edge of your tab bar interface."}
+{"id": "/documentation/uikit/uitabbar/setitems(_:animated:)", "law": "When the tab bar is owned by a tab bar controller, use the tab bar controller’s methods to make changes to items."}
+{"id": "/documentation/uikit/uitabbar/shadowimage", "law": "For tab bars with custom backgrounds, you can use this property to specify a custom shadow image for your bar."}
+{"id": "/documentation/uikit/uitabbar/shadowimage", "law": "The shadow image to use for the tab bar."}
+{"id": "/documentation/uikit/uitabbar/tintcolor", "law": "Even if you do not specify a color, the tab bar may tint items using the tint color of one of its ancestor views."}
+{"id": "/documentation/uikit/uitabbar/trailingaccessoryview", "law": "Use this property to integrate a custom view at the trailing edge of your tab bar interface."}
+{"id": "/documentation/uikit/uitabbaritem/init(title:image:selectedimage:)", "law": "To prevent system tinting, use images with the rendering mode."}
+{"id": "/documentation/uikit/uitabbaritem/init(title:image:tag:)", "law": "To prevent system tinting, use images with the rendering mode."}
+{"id": "/documentation/uikit/uitabbaritem/scrolledgeappearance", "law": "Use this property to apply a scroll edge appearance based on the tab bar item stored in the property."}
+{"id": "/documentation/uikit/uitabbaritem/selectedimage", "law": "To prevent system tinting, use images with the rendering mode."}
+{"id": "/documentation/uikit/uitabbaritem/setbadgetextattributes(_:for:)", "law": "Use this method to apply similar customizations to the badge’s value to achieve a consistent appearance."}
+{"id": "/documentation/uikit/uitabbaritem/standardappearance", "law": "Use this property to apply a tab bar appearance based on the tab bar item stored in the property."}
+{"id": "/documentation/uikit/uiscrollviewdelegate/scrollviewdidscrolltotop(_:)", "law": "For the scroll-to-top gesture (a tap on the status bar) to be effective, the property of the must be set to ."}
+{"id": "/documentation/uikit/uiscrollviewdelegate/scrollviewshouldscrolltotop(_:)", "law": "For the scroll-to-top gesture (a tap on the status bar) to be effective, the property of the must be set to ."}
+{"id": "/documentation/uikit/uiimagepickercontroller/qualitytype/typehigh", "law": "If displaying a recorded movie in the image picker, specifies that you do not want to reduce the video quality of the movie."}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/backgroundcolor", "law": "Use this property to customize the background color of your popover."}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/popoverbackgroundviewclass", "law": "The default value of this property is , which causes the presentation controller to use the default popover appearance."}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/popoverlayoutmargins", "law": "The default edge insets are 10 points along each edge."}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/popoverlayoutmargins", "law": "Thus, the top-edge inset always reflects the top edge of the device from the user’s perspective, which changes depending on whether the user is holding the device in a portrait or landscape orientation."}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/popoverlayoutmargins", "law": "The popover presentation controller automatically subtracts the status bar from the viable area when determining where to display the popover, so you do not need to factor the status bar height into your insets."}
+{"id": "/documentation/uikit/uivideoeditorcontroller/videomaximumduration", "law": "The system-enforced maximum duration for a video recording is 10 minutes; you can set this value to 10 minutes or less."}
+{"id": "/documentation/uikit/uivideoeditorcontroller/videomaximumduration", "law": "The maximum duration, in seconds, permitted for trimmed movies saved by the video editor."}
+{"id": "/documentation/uikit/uitabbarcontrollerdelegate/tabbarcontroller(_:animationcontrollerfortransitionfrom:to:)", "law": "Called to allow the delegate to return a delegate object for use during a noninteractive tab bar view controller transition."}
+{"id": "/documentation/uikit/uitabbarcontrollerdelegate/tabbarcontroller(_:didendcustomizing:changed:)", "law": "You can use this method to respond to changes to the order of tabs in the tab bar."}
+{"id": "/documentation/uikit/uitabbarcontrollerdelegate/tabbarcontroller(_:interactioncontrollerfor:)", "law": "Called to allow the delegate to return a delegate object for use during an animated tab bar transition."}
+{"id": "/documentation/uikit/uicontrol/state-swift.struct/application", "law": "Additional control-state flags available for app use."}
+{"id": "/documentation/uikit/uicontrol/state-swift.struct/reserved", "law": "Control-state flags reserved for internal framework use."}
+{"id": "/documentation/uikit/uicontrol/state-swift.struct/selected", "law": "Some subclasses, like the class, use this state to change their appearance."}
+{"id": "/documentation/uikit/uicornerconfiguration-swift.struct/capsule(maximumradius:)", "law": "A configuration that rounds the corners into a capsule shape, scaling with the view’s size up to the maximum radius you provide."}
+{"id": "/documentation/uikit/uicornerconfiguration-swift.struct/corners(radius:)", "law": "Use a container concentric radius to allow each individual corner to resolve to different radii."}
+{"id": "/documentation/uikit/uicornerradius-swift.struct/containerconcentric(minimum:)", "law": "A dynamic corner radius calculated using the geometry of the view and its container limited to a minimum radius."}
+{"id": "/documentation/uikit/uieditmenuinteraction/presenteditmenu(with:)", "law": "You use this method to display the edit menu."}
+{"id": "/documentation/uikit/uieditmenuinteraction/dismissmenu()", "law": "You use this method to dismiss the menu, for example, from an observer callback in your app."}
+{"id": "/documentation/uikit/uieditmenuinteraction/reloadvisiblemenu()", "law": "You use this method to update the actions the menu displays."}
+{"id": "/documentation/uikit/uieditmenuinteraction/updatevisiblemenuposition(animated:)", "law": "You use this method to update the location of the menu."}
+{"id": "/documentation/uikit/uieditmenuinteractiondelegate/editmenuinteraction(_:menufor:suggestedactions:)", "law": "To avoid presenting a menu, return an empty menu."}
+{"id": "/documentation/uikit/uieditmenuinteractiondelegate/editmenuinteraction(_:menufor:suggestedactions:)", "law": "UIKit calls this method when the interaction begins or requires an update to the menu’s actions when calling ."}
+{"id": "/documentation/uikit/uieditmenuinteractiondelegate/editmenuinteraction(_:menufor:suggestedactions:)", "law": "Provides the menu to use when the interaction begins or requires an update."}
+{"id": "/documentation/uikit/uieditmenuinteractiondelegate/editmenuinteraction(_:targetrectfor:)", "law": "UIKit calls this method when the interaction begins or requires an update for the position of the menu when calling ."}
+{"id": "/documentation/uikit/uieditmenuinteractiondelegate/editmenuinteraction(_:targetrectfor:)", "law": "Provides the target rectangle to position the menu relative to when the interaction begins or requires an update."}
+{"id": "/documentation/uikit/uimainmenusystem/setbuildconfiguration:buildhandler:", "law": "Specifies that the main menu system should be built using the specified configuration."}
+{"id": "/documentation/uikit/uimainmenusystem/setbuildconfiguration:buildhandler:", "law": "A build handler can be optionally provided, which the main menu system will use instead of calling ."}
+{"id": "/documentation/uikit/uimainmenusystem/setbuildconfiguration:buildhandler:", "law": "Subsequent rebuilds of the main menu system will continue to use this and ."}
+{"id": "/documentation/uikit/uipreviewparameters/shadowpath", "law": "The path to use for drawing the preview’s shadow."}
+{"id": "/documentation/uikit/uiapplication/statusbarorientationanimationduration", "law": "The animation duration in seconds for the status bar during a 90 degree orientation change."}
+{"id": "/documentation/uikit/uiuserinterfacelayoutdirection/righttoleft", "law": "This value is appropriate when running with localizations such as Arabic or Hebrew that should have the user interface layout origin on the right edge of the coordinate system."}
+{"id": "/documentation/uikit/uikeyboardboundsuserinfokey", "law": "If you want to get the origin of the keyboard on the screen (before or after animation), use the values obtained from the user info dictionary through the or constants."}
+{"id": "/documentation/uikit/uiwindow/safeareaaspectfitlayoutguide", "law": "This layout guide provides a centered region in the window where you can place media content of a particular aspect ratio (width over height) to avoid obscuring the content."}
+{"id": "/documentation/uikit/uiwindow/safeareaaspectfitlayoutguide", "law": "Use this layout guide for full-screen content."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/icontype/audio", "law": "An icon for a quick action that offers use of audio."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/icontype/date", "law": "An icon for a quick action that offers use of a calendar."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/icontype/mail", "law": "An icon for a quick action that offers use of mail."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/icontype/message", "law": "An icon for a quick action that offers use of messaging."}
+{"id": "/documentation/uikit/uiapplicationshortcuticon/icontype/time", "law": "An icon for a quick action that offers use of a clock or timer."}
+{"id": "/documentation/uikit/uiscene/connectionoptions/shortcutitem", "law": "You use quick actions to provide access to frequently used features of your app, and the user accesses those actions through interactions with your app’s icon in the Home Screen."}
+{"id": "/documentation/uikit/uicollectionviewdropcoordinator/drop(_:toitemat:)", "law": "Use this method to animate the dragged item to the specific location in the collection view."}
+{"id": "/documentation/uikit/uicollectionviewdropdelegate/collectionview(_:performdropwith:)", "law": "When incorporating items, use the methods of the object to animate the transition from the drag item’s preview to the corresponding item in your collection view."}
+{"id": "/documentation/uikit/uicollectionviewdropdelegate/collectionview(_:performdropwith:)", "law": "For items that you incorporate immediately, you can use the or method to perform the animation."}
+{"id": "/documentation/uikit/uicollectionreusableview/didtransition(from:to:)", "law": "Subclasses can override this method and use it to finalize any behaviors associated with the change in layouts."}
+{"id": "/documentation/uikit/uicollectionreusableview/preferredlayoutattributesfitting(_:)", "law": "Subclasses can override this method and use it to adjust other layout attributes too."}
+{"id": "/documentation/uikit/uicollectionreusableview/willtransition(from:to:)", "law": "Subclasses can override this method and use it to prepare for the change in layouts."}
+{"id": "/documentation/uikit/uicollectionviewdragdelegate/collectionview(_:dragpreviewparametersforitemat:)", "law": "Use this method to customize the appearance of the item during drags."}
+{"id": "/documentation/uikit/uicollectionviewdragdelegate/collectionview(_:dragpreviewparametersforitemat:)", "law": "Use the parameters to specify the portion of the cell that you want to be included in the drag preview or to change the background color drawn beneath your cell."}
+{"id": "/documentation/uikit/uicollectionviewdropcoordinator/drop(_:intoitemat:rect:)", "law": "Use this method to animate drops where you incorporate the dragged items into another item of your collection view."}
+{"id": "/documentation/uikit/uicollectionviewdropcoordinator/drop(_:intoitemat:rect:)", "law": "For example, when incorporating items into a folder, you’d use this method to animate the items in a way that makes it look like they were placed into the folder."}
+{"id": "/documentation/uikit/uicollectionviewdropcoordinator/drop(_:to:)-7w5rn", "law": "Use this method to animate drops to any view in your app."}
+{"id": "/documentation/uikit/uicollectionviewdropcoordinator/drop(_:to:)-7w5rn", "law": "For example, you might use this method to drop items onto a tab bar or toolbar that’s part of your interface."}
+{"id": "/documentation/uikit/uicollectionviewdropdelegate/collectionview(_:droppreviewparametersforitemat:)", "law": "Use this method to customize the appearance of the item during drops."}
+{"id": "/documentation/uikit/uicollectionviewdropdelegate/collectionview(_:dropsessiondidenter:)", "law": "Use this method to perform any one-time setup associated with tracking dragged content over the collection view."}
+{"id": "/documentation/uikit/uicollectionviewdropitem/previewsize", "law": "You might use this property when configuring animations."}
+{"id": "/documentation/uikit/uitableviewdiffabledatasourcereference/defaultrowanimation", "law": "The default type of animation to use when inserting or deleting rows."}
+{"id": "/documentation/uikit/uitableviewdropcoordinator/drop(_:intorowat:rect:)", "law": "Use this method to animate drops where you incorporate the dragged items into another item of your table view."}
+{"id": "/documentation/uikit/uitableviewdropcoordinator/drop(_:intorowat:rect:)", "law": "For example, when incorporating items into a folder, you would use this method to animate the items in a way that makes it look like they were placed into the folder."}
+{"id": "/documentation/uikit/uitableviewdropcoordinator/drop(_:to:)-57wx", "law": "Use this method to animate drops to any view in your app."}
+{"id": "/documentation/uikit/uitableviewdropcoordinator/drop(_:to:)-57wx", "law": "For example, you might use this method to drop items onto a tab bar or toolbar that is part of your interface."}
+{"id": "/documentation/uikit/uitableviewdropdelegate/tableview(_:droppreviewparametersforrowat:)", "law": "Return to use the default appearance."}
+{"id": "/documentation/uikit/uitableviewdropdelegate/tableview(_:droppreviewparametersforrowat:)", "law": "Use this method to customize the appearance of the row before a drop occurs."}
+{"id": "/documentation/uikit/uitableviewdropdelegate/tableview(_:droppreviewparametersforrowat:)", "law": "Use the parameters to specify the portion of the row that you want to display or to change the background color drawn beneath the row’s contents."}
+{"id": "/documentation/uikit/uitableviewdropdelegate/tableview(_:dropsessiondidenter:)", "law": "Use this method to perform any one-time setup associated with tracking dragged content over the table view."}
+{"id": "/documentation/uikit/uitableviewdropitem/previewsize", "law": "You might use this property when configuring animations."}
+{"id": "/documentation/uikit/uitableviewrowaction/backgroundcolor", "law": "Use this property to specify the background color for your button."}
+{"id": "/documentation/uikit/uitableviewrowaction/backgroundcolor", "law": "If you don’t specify a value for this property, UIKit assigns a default color based on the value in the property."}
+{"id": "/documentation/uikit/uiaccessibility/notification/pagescrolled", "law": "Use this notification to provide custom information about the contents of the screen after a user performs a VoiceOver scroll gesture."}
+{"id": "/documentation/uikit/uibackgroundconfiguration-c.class", "law": "When you use background configurations instead of rendering your own backgrounds, the system provides automatic view hierarchy management, support for interactive and interruptible animations and transitions, and performance optimizations."}
+{"id": "/documentation/uikit/uibackgroundconfiguration-swift.struct", "law": "When you use background configurations instead of rendering your own backgrounds, the system provides automatic view hierarchy management, support for interactive and interruptible animations and transitions, and performance optimizations."}
+{"id": "/documentation/uikit/uicellconfigurationstate-c.class", "law": "You use a cell configuration state with background and content configurations to obtain the default appearance for a specific state."}
+{"id": "/documentation/uikit/uicellconfigurationstate-swift.struct", "law": "You use a cell configuration state with background and content configurations to obtain the default appearance for a specific state."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:insetforsectionat:)", "law": "If you do not implement this method, the flow layout uses the value in its property to set the margins instead."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:minimuminteritemspacingforsectionat:)", "law": "If you do not implement this method, the flow layout uses the value in its property to set the space between items instead."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:minimuminteritemspacingforsectionat:)", "law": "For a vertically scrolling grid, this value represents the minimum spacing between items in the same row."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:minimuminteritemspacingforsectionat:)", "law": "For a horizontally scrolling grid, this value represents the minimum spacing between items in the same column."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:minimumlinespacingforsectionat:)", "law": "If you do not implement this method, the flow layout uses the value in its property to set the space between lines instead."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:minimumlinespacingforsectionat:)", "law": "For a vertically scrolling grid, this value represents the minimum spacing between successive rows."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:minimumlinespacingforsectionat:)", "law": "For a horizontally scrolling grid, this value represents the minimum spacing between successive columns."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:referencesizeforfooterinsection:)", "law": "If you do not implement this method, the flow layout uses the value in its property to set the size of the footer."}
+{"id": "/documentation/uikit/uicollectionviewdelegateflowlayout/collectionview(_:layout:referencesizeforheaderinsection:)", "law": "If you do not implement this method, the flow layout uses the value in its property to set the size of the header."}
+{"id": "/documentation/uikit/uicontrol/event/applicationreserved", "law": "A range of control-event values available for app use."}
+{"id": "/documentation/uikit/uicontrol/event/systemreserved", "law": "A range of control-event values reserved for internal framework use."}
+{"id": "/documentation/uikit/uimenu/options-swift.struct/destructive", "law": "Use the menu’s title to communicate the action to perform, and use the menu’s child menu elements to ask for user confirmation of that action."}
+{"id": "/documentation/uikit/uimenudisplaypreferences/maximumnumberoftitlelines", "law": "If you dynamically prepare menu items that might contain more text, set this value to a higher number and use this object as the menu’s ."}
+{"id": "/documentation/uikit/uidatasourcemodelassociation/modelidentifierforelement(at:in:)", "law": "The string you return must not be based on transient information, such as the pointer to the current object in memory; it must instead be tied to the underlying data."}
+{"id": "/documentation/uikit/uitableview/rowanimation/none", "law": "The inserted or deleted rows use the default animations."}

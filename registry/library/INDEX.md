@@ -4,7 +4,7 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 3350 |
+| uikit | 3489 |
 | swiftui | 2594 |
 | appkit | 2365 |
 | appintents | 1688 |
@@ -17,7 +17,7 @@
 | visionos | 655 |
 | technotes | 615 |
 | swift | 610 |
-| big7 | 561 |
+| big7 | 581 |
 | arkit | 473 |
 | realitykit | 416 |
 | technologyoverviews | 368 |
@@ -31,13 +31,13 @@
 | appclip | 235 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
+| watchkit | 223 |
 | widgetkit | 223 |
 | gamekit | 201 |
 | vision | 195 |
 | groupactivities | 191 |
 | avfaudio | 162 |
 | storekit | 161 |
-| watchkit | 159 |
 | avkit | 151 |
 | mapkit | 151 |
 | coredata | 145 |
@@ -147,6 +147,7 @@
 | screencapturekit | 16 |
 | xpc | 16 |
 | networkingdriverkit | 15 |
+| xcuiautomation | 15 |
 | mediadevice | 14 |
 | mididriverkit | 14 |
 | signinwithapplerestapi | 14 |
@@ -157,7 +158,6 @@
 | metalperformanceshadersgraph | 12 |
 | sensitivecontentanalysis | 12 |
 | spatialpreview | 12 |
-| xcuiautomation | 12 |
 | extensionfoundation | 11 |
 | uniformtypeidentifiers | 11 |
 | accountdatatransfer | 10 |
@@ -344,4 +344,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 30105 · фреймворков: 339
+Итого законов: 30331 · фреймворков: 339

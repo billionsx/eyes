@@ -121,3 +121,6 @@
 {"id": "/documentation/swiftui/visualeffect/rotation3deffect(_:anchor:)", "sha": "279ce8d7750d5b537b2c8806bfbf80c49ab4da8bec83d73796318e3bdb791a85", "t": "rotation3DEffect(_:anchor:)", "n": 527, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
 {"id": "/documentation/swiftui/keyframesbuilder/buildfinalresult(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildFinalResult(_:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
 {"id": "/documentation/swiftui/transition/scale(_:anchor:)", "sha": "123bbbeba57b2edab2b3bc432d2bd959c22a6bf66b9878cc6ffabaaa86644c70", "t": "scale(_:anchor:)", "n": 66, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/delegate", "sha": "db9b05c9c5a4bb0345ce05013b93f36b92859f4161c7a4c1762aa4d33ae65298", "sieve": 2, "t": "delegate", "n": 590, "laws": 0, "ts": "2026-08-02 16:23 UTC"}
+{"id": "/documentation/uikit/uitab/placement/automatic", "sha": "0617212aa3c797f81685616014b89cd3a9505b77ee86141a54d8511365b90f27", "sieve": 2, "t": "UITab.Placement.automatic", "n": 99, "laws": 0, "ts": "2026-08-02 16:24 UTC"}
+{"id": "/documentation/uikit/uitab/placement/movable", "sha": "5ab8c6dc095fc6ced2c27833aed9586a57891163c66a364687d78320bb23ecbb", "sieve": 2, "t": "UITab.Placement.movable", "n": 72, "laws": 0, "ts": "2026-08-02 16:24 UTC"}

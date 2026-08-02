@@ -134,3 +134,5 @@
 {"id": "/documentation/swiftui/visualeffect/contrast(_:)", "sha": "34de3b6256d1586d79daaa39a641d70a86fdcadeeedf8072801039ef288511ac", "t": "contrast(_:)", "n": 249, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
 {"id": "/documentation/swiftui/modifiedcontent/accessibilityinputlabels(_:)", "sha": "126d5b20318dc190ca02632f494a23325350fd5c0dc1979e071a5aa08b32bc73", "t": "accessibilityInputLabels(_:)", "n": 324, "laws": 2, "ts": "2026-08-02 06:04 UTC"}
 {"id": "/documentation/swiftui/rectanglecornerradii/topleading", "sha": "5088c5069cd9492955c68f12604fa3c38adaf5dd4d31bcc4b3833d0e56d40cfb", "t": "topLeading", "n": 37, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
+{"id": "/documentation/watchkit/wkimage/init(coder:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(coder:)", "n": 0, "laws": 0, "ts": "2026-08-02 16:13 UTC"}
+{"id": "/documentation/uikit/uicornerconfiguration-swift.struct/uniformedges(leftradius:rightradius:)", "sha": "498049e1e3128d3c06d97534056f9aef65ee79df768d69267133e817712fe096", "sieve": 2, "t": "uniformEdges(leftRadius:rightRadius:)", "n": 132, "laws": 0, "ts": "2026-08-02 16:25 UTC"}

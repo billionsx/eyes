@@ -122,3 +122,5 @@
 {"id": "/documentation/swiftui/blurreplacetransition", "sha": "fcf03a12836fd9fb7b69803b802eea64864402d97247331531d0cbbc32d2d9c4", "t": "BlurReplaceTransition", "n": 205, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
 {"id": "/documentation/swiftui/transition/push(from:)", "sha": "7ef6357f77cd1fe4c4566e73ad7f47211f24221c3beded26883e923a86b6c4ff", "t": "push(from:)", "n": 301, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
 {"id": "/documentation/swiftui/labeledcontent/init(_:)", "sha": "717311306391a6ce4c843d2f7043bfd7ab3c6de66a934f9aaeada895ccca7e49", "t": "init(_:)", "n": 412, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/watchkit/wkinterfacescnscene/scene", "sha": "2992d21313e7fdab1c711510c2f25d9bfe127313983789db711a8a474d93248d", "sieve": 2, "t": "scene", "n": 26, "laws": 0, "ts": "2026-08-02 16:11 UTC"}
+{"id": "/documentation/uikit/uicontentsizecategory/extralarge", "sha": "d2b7167589322d395d1512cadd6f3f0944f34df0912a2a7775d7da9a262d2a6f", "sieve": 2, "t": "extraLarge", "n": 20, "laws": 0, "ts": "2026-08-02 16:29 UTC"}

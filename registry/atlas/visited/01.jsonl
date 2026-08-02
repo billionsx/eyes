@@ -129,3 +129,8 @@
 {"id": "/documentation/swiftui/unitpoint/zero", "sha": "fc3d818339eaed71de5030b22679d5a26e217aee7fd66a29d3fde4f75c1c2c73", "t": "zero", "n": 306, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
 {"id": "/documentation/swiftui/view/containershape(_:)-3br47", "sha": "d28123ffc9c4c4284242a05f8393aeda77bd966d907a8772e1bc94dc3201b466", "t": "containerShape(_:)", "n": 416, "laws": 1, "ts": "2026-08-02 06:02 UTC"}
 {"id": "/documentation/swiftui/group/init(content:)-9cc4k", "sha": "091b15bfa16449e53a46b88ce7edb5193eaa6d67a64eb0259b891cae47ff4451", "t": "init(content:)", "n": 33, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/watchkit/wkinterfacescrollposition", "sha": "8c6561a0744b6d27baf63e2988550a503b6b21fc9663b4bfd0f121a7bbc11ee0", "sieve": 2, "t": "WKInterfaceScrollPosition", "n": 191, "laws": 0, "ts": "2026-08-02 16:10 UTC"}
+{"id": "/documentation/uikit/uitabbarcontroller/bottomaccessory", "sha": "4b298506c5b3c09317508d8c5be383a33b2e3a9f45f292b22ffff8821ac6c657", "sieve": 2, "t": "bottomAccessory", "n": 110, "laws": 0, "ts": "2026-08-02 16:17 UTC"}
+{"id": "/documentation/uikit/uiscrollview/topedgeeffect", "sha": "bf1b5828f5dff3fb2714f150c271ad6f2c7a996c980fb1ecbc7ee10ef3213b49", "sieve": 2, "t": "topEdgeEffect", "n": 47, "laws": 0, "ts": "2026-08-02 16:20 UTC"}
+{"id": "/documentation/uikit/uitabbaritem/selectedimage", "sha": "a1aa1567c380af0cbdd1e8a33501a0fb5abbcea32ad3ea28953722e724f16a18", "sieve": 2, "t": "selectedImage", "n": 320, "laws": 1, "ts": "2026-08-02 16:22 UTC"}
+{"id": "/documentation/uikit/uitableviewrowaction/title", "sha": "62d2c34e77766b494b101c05c4f83c2e78c351e5cafa31a13c44635398791dce", "sieve": 2, "t": "title", "n": 31, "laws": 0, "ts": "2026-08-02 16:33 UTC"}

@@ -138,3 +138,6 @@
 {"id": "/documentation/swiftui/borderlessbuttonstyle/init()", "sha": "65471e08194568fa0790523e18a3c6078c787eac92f245b65bf140d1d9dcf069", "t": "init()", "n": 34, "laws": 0, "ts": "2026-08-02 06:10 UTC"}
 {"id": "/documentation/swiftui/scrolltargetbehaviorcontext/velocity", "sha": "37fecd4138e0c10297cabdc4f1f11b02c3f2bf9630a05e2336afa9e0e2be1a76", "t": "velocity", "n": 61, "laws": 0, "ts": "2026-08-02 06:10 UTC"}
 {"id": "/documentation/swiftui/attributedtextselection/indices", "sha": "cbbc5c4bbf2cdca3937cad0efa1e23430fa6d37edf643d1094b2624ccefdd47e", "t": "AttributedTextSelection.Indices", "n": 154, "laws": 0, "ts": "2026-08-02 06:12 UTC"}
+{"id": "/documentation/watchkit/wkinterfacecontroller/contextforsegue(withidentifier:)", "sha": "a049fcbe1fe4169ae8bd84f77cbfa0a1089db5f48670425d05306ac3bea21caf", "sieve": 2, "t": "contextForSegue(withIdentifier:)", "n": 1008, "laws": 0, "ts": "2026-08-02 16:10 UTC"}
+{"id": "/documentation/uikit/uistatusbarstyle/default", "sha": "81e920d54cb116c5da2d8de62b06dbc13e3637a2d0c021e419aa2d819627b15a", "sieve": 2, "t": "UIStatusBarStyle.default", "n": 142, "laws": 0, "ts": "2026-08-02 16:16 UTC"}
+{"id": "/documentation/uikit/uicontrol/state-swift.struct/selected", "sha": "7a9ce3293f9a1bca449df0a590ad1368b95cdaab05d25fa846084bddf945b9de", "sieve": 2, "t": "selected", "n": 251, "laws": 1, "ts": "2026-08-02 16:25 UTC"}

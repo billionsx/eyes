@@ -138,3 +138,7 @@
 {"id": "/documentation/swiftui/physicalmetricsconverter/worldscalingcompensation", "sha": "1176d6c17e186957f6562c3c6355411b0ae8d4d9e6a792d7d69b5d56a949e673", "t": "worldScalingCompensation", "n": 78, "laws": 0, "ts": "2026-08-02 05:43 UTC"}
 {"id": "/documentation/swiftui/animatablevalues/value", "sha": "1e6dd1682c980ba746f7b7c621bc9c85138479877f9aaa71fedf357ee640a76a", "t": "value", "n": 20, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
 {"id": "/documentation/swiftui/controlgroup/init(_:)", "sha": "e1a92dc47a32413dc0f806e9f998eda006434616508baea4154b6840ead5477a", "t": "init(_:)", "n": 390, "laws": 1, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/watchkit/wkinterfaceinlinemovie/setloops(_:)", "sha": "e650e81bf0e85b02fc6bd0143592aa786ddeba8290b15af0d2796125ff06dbc2", "sieve": 2, "t": "setLoops(_:)", "n": 77, "laws": 0, "ts": "2026-08-02 16:11 UTC"}
+{"id": "/documentation/watchkit/wkaudiofileplayer/currenttime", "sha": "ac1cbc3bd6ba3ad73072dcc40d668a19d4d47d4a392f0c3e3397ccc769057df3", "sieve": 2, "t": "currentTime", "n": 315, "laws": 0, "ts": "2026-08-02 16:12 UTC"}
+{"id": "/documentation/uikit/uitextformattingviewcontroller/componentkey/lineheight", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "lineHeight", "n": 0, "laws": 0, "ts": "2026-08-02 16:17 UTC"}
+{"id": "/documentation/uikit/uitextformattingviewcontroller/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-02 16:18 UTC"}

@@ -115,3 +115,4 @@
 {"id": "/documentation/swiftui/borderedliststyle", "sha": "732daa671073332692b0c32de4d5afca257190aad6999e542d76b33f71a6efb1", "t": "BorderedListStyle", "n": 211, "laws": 0, "ts": "2026-08-02 05:48 UTC"}
 {"id": "/documentation/swiftui/referencefiledocument/readconfiguration", "sha": "be29045c07e22cc27b71583bba2079edb22df456de84abd727380cfcd27e6ae6", "t": "ReferenceFileDocument.ReadConfiguration", "n": 295, "laws": 0, "ts": "2026-08-02 05:54 UTC"}
 {"id": "/documentation/swiftui/containervalues/subscript(_:)", "sha": "6b2f12a67a616f8429260940b3aa6a09d74b8f1948d005f73188b9f988a645aa", "t": "subscript(_:)", "n": 499, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/uikit/uicontentsizecategory/accessibilityextralarge", "sha": "1f01561864305d5ef6fd0959d2de70838d429d014f2fa96aaa58d949e1d0e0b9", "sieve": 2, "t": "accessibilityExtraLarge", "n": 74, "laws": 0, "ts": "2026-08-02 16:28 UTC"}

@@ -128,3 +128,8 @@
 {"id": "/documentation/swiftui/anygradient/init(_:)", "sha": "3b9596ce5998faa20b90efad34cea9e69d5510b7ec3eb8edfe0db4911ec787ee", "t": "init(_:)", "n": 51, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
 {"id": "/documentation/swiftui/projectiontransform/isaffine", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "isAffine", "n": 0, "laws": 0, "ts": "2026-08-02 05:58 UTC"}
 {"id": "/documentation/swiftui/unitpoint3d/trailingback", "sha": "9b413bcc20dfb118172c97d20561a29dc31b45dbd3b8652405501379b3ad56cc", "t": "trailingBack", "n": 212, "laws": 0, "ts": "2026-08-02 06:01 UTC"}
+{"id": "/documentation/uikit/uitabbarcontroller/customizationidentifier", "sha": "0513fa71699a86e546e69d64ff58508e72a61ca5bf506f1591782405f0d23544", "sieve": 2, "t": "customizationIdentifier", "n": 274, "laws": 0, "ts": "2026-08-02 16:17 UTC"}
+{"id": "/documentation/uikit/uiscrollview/leftedgeeffect", "sha": "db99936eb5b76640c6acdac980834487aa75c604f6a8dfdae049731793111c58", "sieve": 2, "t": "leftEdgeEffect", "n": 48, "laws": 0, "ts": "2026-08-02 16:20 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/badge-swift.struct/indicator()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "indicator()", "n": 0, "laws": 0, "ts": "2026-08-02 16:20 UTC"}
+{"id": "/documentation/uikit/uitabbar/scrolledgeappearance", "sha": "4c440fa383c899242ef7c4d8c1e72e753a67a840e82330b1ec0abb41fe36b823", "sieve": 2, "t": "scrollEdgeAppearance", "n": 694, "laws": 0, "ts": "2026-08-02 16:22 UTC"}
+{"id": "/documentation/uikit/uiscenesessionactivationrequest-c.class/role", "sha": "fa2c5f298e694b44ff32a96db07bd40270b4f884d91adc92b406e8f423781303", "sieve": 2, "t": "role", "n": 110, "laws": 0, "ts": "2026-08-02 16:29 UTC"}

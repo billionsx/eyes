@@ -10,3 +10,6 @@
 {"id": "/documentation/XCUIAutomation/recording-ui-automation-for-testing", "law": "Use this to test that recorded interactions in your app are still possible in updated versions, and that the app doesn’t crash when you interact with it."}
 {"id": "/documentation/xcuiautomation", "law": "Use the XCUIAutomation framework to control your app’s user interface and inspect its state."}
 {"id": "/documentation/xcuiautomation", "law": "Use to write tests that control your app using XCUIAutomation, and check if your app’s state matches your expectations."}
+{"id": "/documentation/xcuiautomation/recording-ui-automation-for-testing", "law": "For example, if you’re likely to move a given button when redesigning your app’s UI, but the name of the button never changes, choose a query that locates it by name instead of its index in its parent element."}
+{"id": "/documentation/xcuiautomation/xcuidevice", "law": "Use the instance to perform the following interactions with a simulated iOS, watchOS, or tvOS device during a UI test: Press the volume, home, camera, and action buttons."}
+{"id": "/documentation/xcuiautomation/xcuielementquery/element(boundby:)", "law": "Uses an index into the query’s results to determine which underlying accessibility element to use."}

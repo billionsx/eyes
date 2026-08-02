@@ -118,3 +118,4 @@
 {"id": "/documentation/swiftui/pushtransition", "sha": "45c3d0b0f9773e89c95a825408a1e6101270c56dedcd3bd345980d86c10ac6ed", "t": "PushTransition", "n": 264, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
 {"id": "/documentation/swiftui/axis/set/horizontal", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "horizontal", "n": 0, "laws": 0, "ts": "2026-08-02 06:10 UTC"}
 {"id": "/documentation/swiftui/sectionconfiguration/content", "sha": "4c5a43a8d0280f2405e02753eb34ac2649b46087ddf49df0dd9946fee89a2958", "t": "content", "n": 610, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/uikit/uicollectionview/elementcategory/cell", "sha": "9a9fbb963f117ecbb66eb4a38ee6aff4f569f8c34876b54321b047982fab46cf", "sieve": 2, "t": "UICollectionView.ElementCategory.cell", "n": 19, "laws": 0, "ts": "2026-08-02 16:33 UTC"}

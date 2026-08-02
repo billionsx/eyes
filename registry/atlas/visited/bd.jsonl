@@ -117,3 +117,6 @@
 {"id": "/documentation/swiftui/newdocumentaction/callasfunction(_:)", "sha": "7bf4baa983eb1105687cbbbbf0c9cc5dcc28a5747cc049925047fde4f6be9f4c", "t": "callAsFunction(_:)", "n": 441, "laws": 0, "ts": "2026-08-02 05:55 UTC"}
 {"id": "/documentation/swiftui/gradient/colorspace(_:)", "sha": "b9517750cc3f7e399649d59e35396c0c8813435a1160a80a686b0ebac8f876e5", "t": "colorSpace(_:)", "n": 213, "laws": 1, "ts": "2026-08-02 05:58 UTC"}
 {"id": "/documentation/swiftui/unitpoint/x", "sha": "ff8b5af405166b7b635c7e32c71553f1e0dc1c9b1fe66bfdf9baecca38b3fcdd", "t": "x", "n": 81, "laws": 0, "ts": "2026-08-02 06:00 UTC"}
+{"id": "/documentation/watchkit/wkinterfaceobjecthorizontalalignment/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-02 16:11 UTC"}
+{"id": "/documentation/uikit/uiimagepickercontroller/qualitytype/type640x480", "sha": "d1231819042d588b53e233ad2dcd1b3dc221aa4683fd7925fdf89fc7c1dc572a", "sieve": 2, "t": "UIImagePickerController.QualityType.type640x480", "n": 250, "laws": 0, "ts": "2026-08-02 16:23 UTC"}
+{"id": "/documentation/uikit/uiconfigurationstatecustomkey", "sha": "362aa55627ed7ce9551a99b5d85c950544e4eec021c71d96c61bd6cdfc06fe72", "sieve": 2, "t": "UIConfigurationStateCustomKey", "n": 215, "laws": 0, "ts": "2026-08-02 16:34 UTC"}

@@ -137,3 +137,6 @@
 {"id": "/documentation/SwiftUI/EnvironmentKey", "sha": "b30541f96950807de42151a8a9d780f9704a17c4f107b4df690b546936907a6e", "t": "EnvironmentKey", "n": 907, "laws": 0, "ts": "2026-08-01 18:31 UTC"}
 {"id": "/documentation/swiftui/list/init(selection:content:)-4sffx", "sha": "e879298b5566ed01278cdf949829b043625987d82c1d049d3c26f00783b8fadb", "t": "init(selection:content:)", "n": 76, "laws": 0, "ts": "2026-08-02 05:48 UTC"}
 {"id": "/documentation/swiftui/springloadingbehavior/automatic", "sha": "b5d8e4d1a935a3e249ce930dc1f6fb4d5842a0dd85f3ba5e7653002b9fc6be2c", "t": "automatic", "n": 203, "laws": 1, "ts": "2026-08-02 05:49 UTC"}
+{"id": "/documentation/uikit/uitabbarcontroller/tabbar", "sha": "598d666d4833cc1f81f07dd6e5edd53cc08287089f7c92694f1a4422f1614c51", "sieve": 2, "t": "tabBar", "n": 562, "laws": 1, "ts": "2026-08-02 16:17 UTC"}
+{"id": "/documentation/uikit/uitextformattingviewcontroller/componentkey/liststyles", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "listStyles", "n": 0, "laws": 0, "ts": "2026-08-02 16:17 UTC"}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/permittedarrowdirections", "sha": "8729bb8cc7da65544c35ff18db49d016fc0d560ab5a4e6a236a36bcfe5a37862", "sieve": 2, "t": "permittedArrowDirections", "n": 290, "laws": 0, "ts": "2026-08-02 16:23 UTC"}

@@ -143,3 +143,6 @@
 {"id": "/documentation/swiftui/roundedrectangularshapecorners/init(all:)", "sha": "816b1dafe9fa73f3e69269bddfd4a10dc473ce966c95349786e87fddb1a7488e", "t": "init(all:)", "n": 59, "laws": 0, "ts": "2026-08-02 06:04 UTC"}
 {"id": "/documentation/swiftui/squarebordertextfieldstyle", "sha": "69bb1de3471b04a85de2307374881285ebebc46b5abc01428f58aa0a7457a6cb", "t": "SquareBorderTextFieldStyle", "n": 150, "laws": 0, "ts": "2026-08-02 06:09 UTC"}
 {"id": "/documentation/swiftui/controlgroup/init(content:)", "sha": "8c65090f9932bd2f7831bf781617e4320d1198e934c063428b63793556ec9c17", "t": "init(content:)", "n": 54, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/uikit/uitextformattingviewcontrollerformattingstyle", "sha": "bfc71a1bf52c20faf66edb112cde7d26981072df5a50339078413cce6644e061", "sieve": 2, "t": "UITextFormattingViewControllerFormattingStyle", "n": 177, "laws": 0, "ts": "2026-08-02 16:18 UTC"}
+{"id": "/documentation/uikit/uifindinteraction/optionsmenuprovider", "sha": "a469ddba1dba4bba5ef581c42cb0d81f242d5b68666a19a1c9f0e16825654d8f", "sieve": 2, "t": "optionsMenuProvider", "n": 174, "laws": 0, "ts": "2026-08-02 16:26 UTC"}
+{"id": "/documentation/uikit/uiwindow/init(frame:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(frame:)", "n": 0, "laws": 0, "ts": "2026-08-02 16:30 UTC"}

@@ -157,3 +157,67 @@
 {"id": "/documentation/watchkit/wkinterfacecontroller/pushcontroller(withname:context:)", "law": "Use this method to perform a navigation-style transition to the specified interface controller."}
 {"id": "/documentation/watchkit/wkinterfacetable/curvesatbottom", "law": "If , table rows near the bottom of the screen shrink so that the curved corners don’t clip them."}
 {"id": "/documentation/watchkit/wkinterfacetable/curvesattop", "law": "If , table rows near the top of the screen shrink so that the curved corners don’t clip them."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/addmenuitem(with:title:action:)-1q2zj", "law": "Use this method to append an action to the interface controller’s context menu."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/addmenuitem(with:title:action:)-6pb4t", "law": "Use this method to append an action to the interface controller’s context menu."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/addmenuitem(withimagenamed:title:action:)", "law": "Use this method to append an action to the interface controller’s context menu."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/clearallmenuitems()", "law": "Use this method to remove all menu items that you added using the or method."}
+{"id": "/documentation/watchkit/wkmenuitemicon", "law": "Use these constants with the method to configure actions for your interface controller’s menu."}
+{"id": "/documentation/watchkit/wkmenuitemicon", "law": "Template images that you can use for menus."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/willdisappear()", "law": "Use this method to stop animations or perform other interface-related tasks prior to deactivation."}
+{"id": "/documentation/watchkit/storyboard_support/building_watchos_app_interfaces_using_the_storyboard/connecting_your_user_interface_to_your_code", "law": "You can configure interface elements in Xcode at design time, or you can use a connected interface object at runtime."}
+{"id": "/documentation/watchkit/storyboard_support/building_watchos_app_interfaces_using_the_storyboard/connecting_your_user_interface_to_your_code", "law": "For example, the class exposes methods to set the text (or attributed text) and text color at runtime: Additional properties, such as minimum scale, number of lines, and alignment, are only available in the Attributes inspector at design time ( )."}
+{"id": "/documentation/watchkit/storyboard_support/building_watchos_app_interfaces_using_the_storyboard/connecting_your_user_interface_to_your_code", "law": "To respond to user interactions, you must connect the control to an action method in your scene’s interface controller."}
+{"id": "/documentation/watchkit/storyboard_support/building_watchos_app_interfaces_using_the_storyboard", "law": "watchOS apps use a simplified, stack-based layout model for their user interfaces."}
+{"id": "/documentation/watchkit/storyboard_support/building_watchos_app_interfaces_using_the_storyboard", "law": "Groups don’t have a default visual representation, but you can configure a background color or image as needed."}
+{"id": "/documentation/watchkit/wkaccessibilityreducemotionstatusdidchangenotification", "law": "Use this notification to customize your application’s user interface for when reduced motion is enabled."}
+{"id": "/documentation/watchkit/wkaccessibilityreducemotionstatusdidchangenotification", "law": "You can also use the function to determine whether reduced motion is enabled."}
+{"id": "/documentation/watchkit/wkaccessibilityvoiceoverstatuschanged", "law": "Use this notification to customize your application’s user interface for VoiceOver users."}
+{"id": "/documentation/watchkit/wkaccessibilityvoiceoverstatuschanged", "law": "You can also use the function to determine whether VoiceOver is currently running."}
+{"id": "/documentation/watchkit/wkalertaction/init(title:style:handler:)", "law": "Use this method to create a button to display in an action sheet."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/presentalert(withtitle:message:preferredstyle:actions:)", "law": "Use action and alert sheets to interrupt the current workflow temporarily and display a message to the user."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/presentalert(withtitle:message:preferredstyle:actions:)", "law": "For the style, this method automatically includes a localized Cancel button at the top of the sheet if you do not specify one in the array."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/animate(withduration:animations:)", "law": "Use this method to animate changes to the following attributes of your interface objects: alpha (opacity) width and height horizontal and vertical alignment background or tint color group content insets Changes to visible items are animated over the specified duration."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/contentsafeareainsets", "law": "The system’s built-in containers and controls automatically use the content-safe area insets; however, if you build a custom user interface with SpriteKit or SceneKit, you should check the and , and lay out your interface accordingly."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/contextsforsegue(withidentifier:in:rowindex:)", "law": "For segues originating from a button, use the method instead."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/crownsequencer", "law": "The object to use when directly tracking crown events."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/init()", "law": "Use the method to start animations or perform tasks that should wait until the interface appears onscreen."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/pickerdidfocus(_:)", "law": "Subclasses can override it and use it to perform actions related to the picker receiving focus."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/pickerdidresignfocus(_:)", "law": "Subclasses can override it and use it to perform actions related to the picker losing focus."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/pickerdidsettle(_:)", "law": "Use this method to perform any expensive operations associated with selecting a picker item."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/pickerdidsettle(_:)", "law": "For inexpensive operations, you can continue to use the picker’s action method, which is called for each change of the selected item."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/pickerdidsettle(_:)", "law": "Subclasses can override it and use it to perform actions related to the picker settling on a value."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/systemminimumlayoutmargins", "law": "The system provides the minimum layout margins to help you align your text content with the status bar."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/systemminimumlayoutmargins", "law": "The system’s built-in containers and controls take the minimum layout margins into account automatically when laying out your interface; however, if you build a custom user interface with SpriteKit or SceneKit, check the and , and lay out your interface accordingly."}
+{"id": "/documentation/watchkit/wkinterfacecontroller/systemminimumlayoutmargins", "law": "Leading and trailing insets that represent the minimum layout margins for text elements."}
+{"id": "/documentation/watchkit/wkinterfacegroup/setbackgroundcolor(_:)", "law": "If you do not specify a custom background color or if you set the custom color to , the group uses the color assigned to the group object in your storyboard file."}
+{"id": "/documentation/watchkit/wkinterfacegroup/setcontentinset(_:)", "law": "Use this method to change the default insets you set in Interface Builder."}
+{"id": "/documentation/watchkit/wkinterfacegroup/setcornerradius(_:)", "law": "The default corner radius for groups is 6 points."}
+{"id": "/documentation/watchkit/wkinterfacegroup/setcornerradius(_:)", "law": "Changes the radius to use when drawing rounded corners for the group."}
+{"id": "/documentation/watchkit/wkinterfaceimage/setimage(_:)", "law": "Use this method to assign either a static image or an animated image that you created using the method."}
+{"id": "/documentation/watchkit/wkinterfaceimage/settintcolor(_:)", "law": "When you display a template image, use this method to set the tint color to apply to that image."}
+{"id": "/documentation/watchkit/wkinterfacepicker/focus()", "law": "For an interface that contains multiple pickers, you might use this method to switch the focus at an appropriate time."}
+{"id": "/documentation/watchkit/wkinterfacepicker/focus()", "law": "Because scrolling in an interface controller causes the picker to lose focus, you can also use this method to select the picker again later."}
+{"id": "/documentation/watchkit/wkinterfacepicker/setcoordinatedanimations(_:)", "law": "Use this method to link other animatable images to the picker."}
+{"id": "/documentation/watchkit/wkinterfacepicker/setcoordinatedanimations(_:)", "law": "Sets the interface objects that should coordinate their own animations with the picker."}
+{"id": "/documentation/watchkit/wkinterfacepicker/setitems(_:)", "law": "The items you specify must be configured appropriate for the picker style."}
+{"id": "/documentation/watchkit/wkinterfacevolumecontrol/init(origin:)", "law": "Creates a volume control for use in SwiftUI."}
+{"id": "/documentation/watchkit/wkcrownsequencer/ishapticfeedbackenabled", "law": "For example, you can use this property to disable haptic feedback if the feedback does not match the screen’s animation."}
+{"id": "/documentation/watchkit/wkgesturerecognizer/state", "law": "Some states apply only to gestures that comprise a continuous sequences of touch events that must be tracked over time, such as pan gestures."}
+{"id": "/documentation/watchkit/wkimage/init(image:)", "law": "Use this method when you already have a UIKit image object and want to use it in your picker."}
+{"id": "/documentation/watchkit/wklongpressgesturerecognizer/allowablemovement", "law": "The maximum movement of the finger on the interface object that allows the gesture to be recognized."}
+{"id": "/documentation/watchkit/wklongpressgesturerecognizer/numberoftapsrequired", "law": "The number of taps on the interface object that are required for the gesture to be recognized."}
+{"id": "/documentation/watchkit/wkinterfacelayoutdirection/righttoleft", "law": "This value is appropriate when your app is running with localizations such as Arabic or Hebrew that should have the user interface layout origin on the right edge of the coordinate system."}
+{"id": "/documentation/watchkit/wkinterfacesemanticcontentattribute/forcelefttoright", "law": "A view that is always displayed using a left-to-right layout."}
+{"id": "/documentation/watchkit/wkinterfacesemanticcontentattribute/forcerighttoleft", "law": "A view that is always displayed using a left-to-right layout."}
+{"id": "/documentation/WatchKit/WKInterfaceImage", "law": "You use objects to specify the image data you want to display and to start and stop animations."}
+{"id": "/documentation/WatchKit/WKInterfaceImage", "law": "You can store animated image sequences in your Watch app bundle, but your image files must use specific naming conventions."}
+{"id": "/documentation/WatchKit/WKInterfaceImage", "law": "You also use this technique for animated images sequences you create dynamically using the or method."}
+{"id": "/documentation/WatchKit/WKInterfaceImage", "law": "Placing them in the Watch app bundle lets you use the method to load the animated image at runtime, which simplifies the loading process."}
+{"id": "/documentation/WatchKit/WKInterfaceImage", "law": "For animations you generate dynamically, use the method of to assemble your animation in your WatchKit extension, and then set that animation using the method."}
+{"id": "/documentation/WatchKit/WKInterfaceImage", "law": "You cannot use the method of to create an animated image based on images in your Watch app’s bundle."}
+{"id": "/documentation/WatchKit/WKInterfaceImage", "law": "To load an animated image sequence from images in your Watch app bundle, you must name your image resources appropriately and use the method of this class."}
+{"id": "/documentation/WatchKit/WKImageAnimatable", "law": "Existing classes adopt this protocol and you use the methods to control the animation of those images."}
+{"id": "/documentation/WatchKit/WKImageAnimatable", "law": "A collection of methods you can use to control the playback of animated images."}
+{"id": "/documentation/WatchKit/WKApplication/registerForRemoteNotifications()", "law": "To display alerts, play sounds, or perform other user-facing actions, you must also request authorization using the class’s method."}
+{"id": "/documentation/WatchKit/WKInterfaceObject", "law": "Specifically, you use the methods of this class to change the size, alignment, and visibility of those elements."}
+{"id": "/documentation/WatchKit/WKUserNotificationInterfaceController", "law": "Because the system automatically adds the buttons, don’t manually add your own to your custom notification interface."}

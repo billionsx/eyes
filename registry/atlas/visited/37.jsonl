@@ -134,3 +134,8 @@
 {"id": "/documentation/swiftui/colormatrix/g1", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "g1", "n": 0, "laws": 0, "ts": "2026-08-02 05:57 UTC"}
 {"id": "/documentation/swiftui/vectorarithmetic/magnitudesquared", "sha": "f706f08e3af7a2da85725f79c7d3016f0621f9e1f65bc3ce0dbfedb95cfa337c", "t": "magnitudeSquared", "n": 71, "laws": 0, "ts": "2026-08-02 06:05 UTC"}
 {"id": "/documentation/swiftui/icononlylabelstyle/init()", "sha": "499a2c19814f380472f476a2e958e7d791d153abeb3cf3cf08da553afad0c220", "t": "init()", "n": 33, "laws": 0, "ts": "2026-08-02 06:08 UTC"}
+{"id": "/documentation/xcuiautomation/xcuiapplication/init()", "sha": "866f9f36d3c40fc044ac978cfc0ec31645c08e4bdb3a9f1eb4559c9a090349a3", "sieve": 2, "t": "init()", "n": 107, "laws": 0, "ts": "2026-08-02 16:07 UTC"}
+{"id": "/documentation/xcuiautomation/xcuiidentifierzoomwindow", "sha": "83de3a486c78e05db88e73d027074c7fe0b51b04f460d0b662a7b53e9c149def", "sieve": 2, "t": "XCUIIdentifierZoomWindow", "n": 42, "laws": 0, "ts": "2026-08-02 16:08 UTC"}
+{"id": "/documentation/uikit/uirectedge/bottom", "sha": "a6220d8f9002e32fdc052b32834edf1106e046d84b3127a484c1d351f61c6f36", "sieve": 2, "t": "bottom", "n": 33, "laws": 0, "ts": "2026-08-02 16:15 UTC"}
+{"id": "/documentation/uikit/uiscenesessionactivationrequest-swift.struct/init(hostingdelegateclass:id:)", "sha": "9734a82de7ac831191c93f1d4f0107ac997e0f56ea2b41ade9df11c42268d7bc", "sieve": 2, "t": "init(hostingDelegateClass:id:)", "n": 537, "laws": 0, "ts": "2026-08-02 16:29 UTC"}
+{"id": "/documentation/uikit/uitableviewheaderfooterview/contentview", "sha": "670ac4483903c53d0b4a7f4311153bc6d9175431e1a9ef7a02955388a2e6e540", "sieve": 2, "t": "contentView", "n": 252, "laws": 0, "ts": "2026-08-02 16:31 UTC"}

@@ -133,3 +133,6 @@
 {"id": "/documentation/swiftui/edgeinsets/bottom", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "bottom", "n": 0, "laws": 0, "ts": "2026-08-02 06:02 UTC"}
 {"id": "/documentation/swiftui/insettableshape/strokeborder(style:antialiased:)", "sha": "d411d2cc8bd4990a9fbff99e2089278888a71f07147c45c2fe6769a9cb616c89", "t": "strokeBorder(style:antialiased:)", "n": 131, "laws": 0, "ts": "2026-08-02 06:03 UTC"}
 {"id": "/documentation/swiftui/keyframesbuilder/buildpartialblock(first:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "buildPartialBlock(first:)", "n": 0, "laws": 0, "ts": "2026-08-02 06:06 UTC"}
+{"id": "/documentation/uikit/uiscrollview/isdragging", "sha": "44935e934e64add7eade436f20bf1a3a75870af57a66330b8108945937416ddd", "sieve": 2, "t": "isDragging", "n": 195, "laws": 0, "ts": "2026-08-02 16:19 UTC"}
+{"id": "/documentation/uikit/uibarbuttonitem/systemitem/trash", "sha": "5df44b8e51f92ce2995756735d3a4a5b4f40e29a3bc5e92046fc295ac12c465d", "sieve": 2, "t": "UIBarButtonItem.SystemItem.trash", "n": 24, "laws": 0, "ts": "2026-08-02 16:20 UTC"}
+{"id": "/documentation/uikit/uicontrol/event/alleditingevents", "sha": "e10430b2dc3bfa6f9b1af3dcde7409900afe3bdebfde61a447f354550c37882c", "sieve": 2, "t": "allEditingEvents", "n": 36, "laws": 0, "ts": "2026-08-02 16:35 UTC"}

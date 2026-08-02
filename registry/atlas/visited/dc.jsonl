@@ -132,3 +132,6 @@
 {"id": "/documentation/swiftui/timelineschedule/everyminute", "sha": "9ad4b1983df0216af87174010e29cdbc1deb532372fcc25fd43b9bdea5b928a0", "t": "everyMinute", "n": 749, "laws": 0, "ts": "2026-08-02 06:07 UTC"}
 {"id": "/documentation/swiftui/scrolltarget/rect", "sha": "3e54892e65071e1d95d490dbecc8ef6d56c288451369df839d4fc1e118912af8", "t": "rect", "n": 62, "laws": 0, "ts": "2026-08-02 06:10 UTC"}
 {"id": "/documentation/swiftui/group/init(content:)-p8cr", "sha": "3125008131c65738907656219fb20ecb98c14f9def5c5f0c67a25d53b746b483", "t": "init(content:)", "n": 31, "laws": 0, "ts": "2026-08-02 06:11 UTC"}
+{"id": "/documentation/xcuiautomation/xcui_ui_testing_available", "sha": "fd31fcb4ed54eab610cbc8fe9a315c374c799d57aaf8dbb4de034d6463fbf0c5", "sieve": 2, "t": "XCUI_UI_TESTING_AVAILABLE", "n": 167, "laws": 0, "ts": "2026-08-02 16:07 UTC"}
+{"id": "/documentation/uikit/uirectedge/left", "sha": "f07891ee5ff64e803894eb31a4226cc305a7c78eddb8912260f27211bb775438", "sieve": 2, "t": "left", "n": 31, "laws": 0, "ts": "2026-08-02 16:15 UTC"}
+{"id": "/documentation/uikit/uipopoverpresentationcontroller/adaptivesheetpresentationcontroller", "sha": "f7b58fd00824de66a7ca9cb7b36fc581da6b149df62ac56670379d202b07a838", "sieve": 2, "t": "adaptiveSheetPresentationController", "n": 158, "laws": 0, "ts": "2026-08-02 16:23 UTC"}
