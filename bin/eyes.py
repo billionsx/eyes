@@ -784,6 +784,22 @@ def cmd_selftest(root: Path) -> int:
               [{"fw": "human-interface-guidelines", "id": "/design/hig/a",
                 "law": "Buttons must be at least 44pt."}], "buttons 44pt")))
 
+    print("SELFTEST · присутствие (MCP) и запись цвета")
+    import mcp as mcp_mod
+    import lint
+    check("суд присутствия зелёный: протокол, уведомления, сбойный кадр",
+          mcp_mod.court() == 0)
+    check("сокращённая запись цвета разворачивается канонически",
+          lint.hex6("#1c1") == "#11CC11" and lint.hex6("#000") == "#000000")
+    check("чиню → зелёный: #1c1 вне лестницы ловится AE1",
+          any(f["rule"] == "AE1"
+              for f in mcp_mod.check(".a{background:#1c1;}", "css")))
+    check("ломаю → красный не даю: #000 = #000000 и нарушением НЕ считается",
+          not mcp_mod.check(".a{background:#000;}", "css"))
+    check("вердикт присутствия равен вердикту продуктового линта",
+          [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
+          == ["AE1"])
+
     print("SELFTEST · двойное свидетельство: замер против свода")
     import attest as att_mod
     check("суд сшивки зелёный: якорь, нормативность, единица, допуск",

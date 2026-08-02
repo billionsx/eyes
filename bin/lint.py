@@ -65,6 +65,19 @@ import sys
 from pathlib import Path
 
 
+def hex6(c: str) -> str:
+    """Цвет к канонической шестизначной форме в верхнем регистре.
+
+    #1c1 → #11CC11. Сравнение цветов идёт ТОЛЬКО через эту форму: две записи
+    одного цвета обязаны давать один вердикт, иначе правило судит запись,
+    а не цвет.
+    """
+    c = c.strip().upper()
+    if len(c) == 4:
+        return "#" + "".join(ch * 2 for ch in c[1:])
+    return c
+
+
 def _blank(m) -> str:
     """Комментарий стирается, но его переводы строк остаются на месте.
 
@@ -84,7 +97,13 @@ def strip_comments(text: str, suffix: str) -> str:
     return text
 
 
-HEX = r"#[0-9A-Fa-f]{6}\b"
+# Цвет в CSS законно пишется ШЕСТЬЮ и ТРЕМЯ знаками: #1c1 — это #11CC11,
+# и лестница поверхностей обязана судить обе записи одинаково. Ловля только
+# шестизначной формы оставляла в гейте дыру, через которую любой цвет
+# проходил молча: `#1c1` не в лестнице, а правило не срабатывало.
+# Шесть знаков идут в чередовании ПЕРВЫМИ — иначе три знака откусят начало
+# шестизначного цвета и сравнение пойдёт с огрызком.
+HEX = r"#(?:[0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})\b"
 BG_PROP = re.compile(r"(?:background|background-color)\s*:\s*(" + HEX + ")", re.I)
 SHADOW = re.compile(r"\b(?:box-shadow|text-shadow)\s*:\s*(?!\s*none)|drop-shadow\(", re.I)
 # AE2 разбирает ЗНАЧЕНИЕ тени по слоям. Запрет касается тени НАРУЖУ — она
@@ -198,8 +217,8 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     scope = adapter.get(mode, {}) or {}
     globs = scope.get("globs", [])
     rules = scope.get("rules", ["AE1", "AE2", "AE3", "AE4", "AE6"])
-    allow = {c.upper() for c in tokens["surfaces"]["allow"]} | {c.upper() for c in adapter.get("allow_extra", [])}
-    forb = {c.upper(): why for c, why in tokens.get("forbidden_colors", {}).items()}
+    allow = {hex6(c) for c in tokens["surfaces"]["allow"]} | {hex6(c) for c in adapter.get("allow_extra", [])}
+    forb = {hex6(c): why for c, why in tokens.get("forbidden_colors", {}).items()}
     cap = float(tokens["typography"]["tracking_cap_px"])
     rad_lim = float(tokens["geometry"]["corner_form_required_above_pt"])
     sizes = {float(s) for s in tokens["typography"]["role_sizes_pt"]} | {float(s) for s in adapter.get("sizes_extra", [])}
@@ -229,7 +248,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
 
             if "AE1" in rules:
                 for m in BG_PROP.finditer(t):
-                    c = m.group(1).upper()
+                    c = hex6(m.group(1))
                     if c not in allow:
                         findings.append(("AE1", rel, _line_of(t, m.start()),
                                          f"фон {c} вне лестницы поверхностей ({' → '.join(tokens['surfaces']['ladder'])})"))
@@ -270,8 +289,11 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                         findings.append(("AE5", rel, _line_of(t, m.start()),
                                          f"font-size {v}px вне шкалы ролей {sorted(sizes)}"))
             if "AE6" in rules:
-                for c, why in forb.items():
-                    for m in re.finditer(re.escape(c), t, re.I):
+                # Двойник ищется по ЛЮБОЙ записи цвета: сокращённая форма —
+                # тот же цвет и то же нарушение.
+                for m in re.finditer(HEX, t):
+                    why = forb.get(hex6(m.group(0)))
+                    if why:
                         findings.append(("AE6", rel, _line_of(t, m.start()), why))
             if "AE7" in rules:
                 for m in BACKDROP.finditer(t):
