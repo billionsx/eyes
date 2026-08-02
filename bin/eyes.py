@@ -773,6 +773,17 @@ def cmd_selftest(root: Path) -> int:
     check("кандидат без связи с проверяемым свойством не появляется",
           prop_mod.bind_of("Design with clarity in mind.") is None)
 
+    print("SELFTEST · дознание по библиотеке законов")
+    import law as law_mod
+    check("суд дознания зелёный: адрес, привилегия свода, близнецы",
+          law_mod.court() == 0)
+    check("закон без числа в кандидаты правил не идёт",
+          not law_mod.is_bindable("Design with clarity in mind."))
+    check("цитата без адреса технически невозможна",
+          all(r["id"] for r, _ in law_mod.rank(
+              [{"fw": "human-interface-guidelines", "id": "/design/hig/a",
+                "law": "Buttons must be at least 44pt."}], "buttons 44pt")))
+
     print("SELFTEST · замер геометрии (ст. 36.2)")
     import geoscan as geo_mod
     import geofill as fill_mod
