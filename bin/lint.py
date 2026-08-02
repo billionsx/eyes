@@ -168,6 +168,23 @@ def _in_light_scope(text: str, pos: int) -> bool:
     """Объявление адресовано СВЕТЛОЙ теме."""
     return any(LIGHT_SCOPE.search(h) for h in _enclosing_headers(text, pos))
 
+
+PRINT_SCOPE = re.compile(r"@media[^{]*\bprint\b", re.I)
+
+
+def _in_print_scope(text: str, pos: int) -> bool:
+    """Объявление адресовано ПЕЧАТИ.
+
+    Лестница поверхностей описывает ХОЛСТ операционной системы: #000000 →
+    #1C1C1E → #2C2C2E. Бумага холстом не является — белый фон на печати не
+    нарушение, а единственно верное решение, и требовать от листа чёрной
+    ступени абсурдно.
+
+    Граница та же, что департамент уже проводит для светлой темы у AE2:
+    правило судит там, где холст известен, и молчит там, где известен другой.
+    """
+    return any(PRINT_SCOPE.search(h) for h in _enclosing_headers(text, pos))
+
 SUPER = re.compile(r"clip-path\s*:\s*path\(|corner-shape", re.I)
 LSPX = re.compile(r"letter-spacing\s*:\s*(-?[\d.]+)px", re.I)
 FSIZE = re.compile(r"font-size\s*:\s*([\d.]+)px", re.I)
@@ -249,7 +266,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             if "AE1" in rules:
                 for m in BG_PROP.finditer(t):
                     c = hex6(m.group(1))
-                    if c not in allow:
+                    if c not in allow and not _in_print_scope(t, m.start()):
                         findings.append(("AE1", rel, _line_of(t, m.start()),
                                          f"фон {c} вне лестницы поверхностей ({' → '.join(tokens['surfaces']['ladder'])})"))
             if "AE2" in rules:

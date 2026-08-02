@@ -796,6 +796,14 @@ def cmd_selftest(root: Path) -> int:
               for f in mcp_mod.check(".a{background:#1c1;}", "css")))
     check("ломаю → красный не даю: #000 = #000000 и нарушением НЕ считается",
           not mcp_mod.check(".a{background:#000;}", "css"))
+    check("бумага не холст: белый фон в @media print — не нарушение",
+          not mcp_mod.check("@media print{body{background:#fff;}}", "css"))
+    check("ломаю → красный: тот же белый фон на экране ловится AE1",
+          any(f["rule"] == "AE1"
+              for f in mcp_mod.check("body{background:#fff;}", "css")))
+    check("@media screen из-под лестницы не выводится",
+          any(f["rule"] == "AE1" for f in
+              mcp_mod.check("@media screen{body{background:#fff;}}", "css")))
     check("вердикт присутствия равен вердикту продуктового линта",
           [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
           == ["AE1"])
