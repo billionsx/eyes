@@ -184,6 +184,24 @@ def u6(organs, ex):
     return bad
 
 
+@lesson("У7", "Выкладываемое обязано разбираться",
+        "Грубое авторазрешение конфликта положило в main орган с маркерами — "
+        "суд на main перестал запускаться вовсе. Реестр был защищён проверкой "
+        "целости json, собственный код органов — нет. Защита симметрична.")
+def u7(organs, ex):
+    import ast as _a
+    bad = []
+    for name, src in organs.items():
+        if re.search(r"^<<<<<<< |^>>>>>>> ", src, re.M):
+            bad.append(name)
+            continue
+        try:
+            _a.parse(src)
+        except SyntaxError:
+            bad.append(name)
+    return bad
+
+
 def audit() -> dict:
     organs, ex = _organs(), _exempt()
     out = []

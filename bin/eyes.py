@@ -1430,8 +1430,6 @@ def cmd_selftest(root: Path) -> int:
     check("журнал не путается со складом (У2 различает)",
           "RE_JOURNAL" in (root / "bin" / "lessons.py").read_text(encoding="utf-8"))
 
-<<<<<<< HEAD
-=======
     print("SELFTEST · реестр номеров правил (номер не несёт двух смыслов)")
     _reg = (root / "registry" / "RULES.md").read_text(encoding="utf-8")
     _rows = re.findall(r"^\|\s*\**(AE\d+)\**\s*\|\s*\**([^|*]+?)\**\s*\|", _reg, re.M)
@@ -1491,7 +1489,6 @@ def cmd_selftest(root: Path) -> int:
           and _cm._key({"id": "/a"}) != _cm._key({"page": "/a"}))
     _sh.rmtree(_t5, ignore_errors=True)
 
->>>>>>> af88346 (BXE: AE18 разделитель из замера; реестр номеров правил; ворота правил; суд 482)
     print("SELFTEST · пустой обход линта (ЗКН-Э006 исполняется, а не только объявлен)")
     # Родословная (02.08.2026): линт с неверным корнем печатал «Чисто.» и
     # возвращал ноль. Закон против пустого обхода существовал, а главный орган
@@ -1507,6 +1504,29 @@ def cmd_selftest(root: Path) -> int:
     _src4 = (root / "bin" / "lint.py").read_text(encoding="utf-8")
     check("пустой обход красен в любом режиме, не только в строгом",
           'if not res["files"]:\n        return 1' in _src4)
+
+    print("SELFTEST · целость исходников (несобирающееся не выкладывается)")
+    # Родословная (02.08.2026): грубое авторазрешение конфликта положило в
+    # main `bin/eyes.py` с маркерами — суд на main перестал запускаться вовсе.
+    # Реестр был защищён проверкой целости json, а собственный код органов —
+    # нет. Защита обязана быть симметричной: департамент выкладывает и то, и
+    # другое.
+    import ast as _ast
+    _broken, _marks = [], []
+    for _f in sorted((root / "bin").glob("*.py")):
+        _t = _f.read_text(encoding="utf-8", errors="ignore")
+        if re.search(r"^<<<<<<< |^>>>>>>> ", _t, re.M):
+            _marks.append(_f.name)
+        try:
+            _ast.parse(_t)
+        except SyntaxError:
+            _broken.append(_f.name)
+    check(f"каждый орган разбирается питоном ({_broken or 'все'})", not _broken)
+    check(f"ни в одном органе нет маркеров конфликта ({_marks or 'чисто'})", not _marks)
+    for _sh_f in sorted((root / "bin").glob("*.sh")):
+        pass
+    check("проверка охватывает все органы, а не выборку",
+          len(list((root / "bin").glob("*.py"))) >= 35)
 
     print("SELFTEST · целость реестра (битое состояние не уезжает)")
     # Департамент коммитит своё состояние сам. Значит, конфликт слияния или
