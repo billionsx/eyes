@@ -1186,6 +1186,24 @@ def cmd_selftest(root: Path) -> int:
           "frontier[:0] = head" in _src2)
     _sh.rmtree(_t, ignore_errors=True)
 
+    # Запись в библиотеку обязана быть идемпотентной ПО АДРЕСУ.
+    # Родословная: запись шла дописыванием — допущение «страница читается
+    # однажды». С перечитыванием по ситу оно перестало быть верным, и 33 691
+    # просроченная страница легла бы вторым слоем поверх первого.
+    _t2 = pathlib.Path(_tf.mkdtemp()); (_t2 / "library").mkdir()
+    _atlas._lib_write(_t2, "/documentation/UIKit/a", ["первый", "второй"])
+    _atlas._lib_write(_t2, "/documentation/UIKit/b", ["чужой"])
+    _n1 = len((_t2 / "library" / "uikit.jsonl").read_text(encoding="utf-8").strip().splitlines())
+    _atlas._lib_write(_t2, "/documentation/UIKit/a", ["первый", "второй"])
+    _n2 = len((_t2 / "library" / "uikit.jsonl").read_text(encoding="utf-8").strip().splitlines())
+    check("перечитывание не удваивает библиотеку", _n1 == _n2)
+    _atlas._lib_write(_t2, "/documentation/UIKit/a", ["новый"])
+    _txt = (_t2 / "library" / "uikit.jsonl").read_text(encoding="utf-8")
+    check("перечитывание ЗАМЕНЯЕТ строки своей страницы",
+          "новый" in _txt and "первый" not in _txt)
+    check("соседняя страница при этом цела", "чужой" in _txt)
+    _sh.rmtree(_t2, ignore_errors=True)
+
     print("SELFTEST · честность библиотеки (ЗКН-Э001)")
     check("СВЯЗЫВАЕМАЯ требует число + предмет + адрес",
           _grade.grade_line("Use a margin of at least 16 points around each item.",

@@ -225,13 +225,35 @@ def _mine_laws(text: str):
 
 
 def _lib_write(reg: Path, pid: str, laws: list):
+    """Записать законы страницы, ЗАМЕНИВ прежние строки этой же страницы.
+
+    Родословная (02.08.2026): запись шла только дописыванием. Пока страницы
+    читались по одному разу, это было безразлично. С введением перечитывания
+    по поднятому ситу то же дописывание удвоило бы всю библиотеку: 33 691
+    просроченная страница легла бы вторым слоем поверх первого.
+
+    Дописывание есть скрытое допущение «страница читается однажды». Допущение
+    перестало быть верным раньше, чем код о нём узнал, — поэтому запись
+    сделана идемпотентной по адресу, а не по времени.
+    """
     fw = (pid.split("/") + ["", ""])[2] or "_root"
     fw = re.sub(r"[^a-z0-9_-]", "", fw.lower()) or "_root"
     f = reg / "library" / f"{fw}.jsonl"
     f.parent.mkdir(parents=True, exist_ok=True)
-    with f.open("a", encoding="utf-8") as fh:
-        for law in laws:
-            fh.write(json.dumps({"id": pid, "law": law}, ensure_ascii=False) + "\n")
+
+    kept = []
+    if f.exists():
+        for ln in f.read_text(encoding="utf-8").splitlines():
+            if not ln.strip():
+                continue
+            try:
+                if json.loads(ln).get("id") == pid:
+                    continue        # прежние строки этой страницы уходят
+            except Exception:
+                pass                # чужой формат не трогаем
+            kept.append(ln)
+    kept += [json.dumps({"id": pid, "law": law}, ensure_ascii=False) for law in laws]
+    f.write_text("\n".join(kept) + "\n", encoding="utf-8")
 
 
 def _refs(raw: str):
