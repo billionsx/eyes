@@ -59,8 +59,9 @@ ADAPTERS = ROOT / "adapters"
 # Расширения, которые линт умеет читать. Фрагмент без объявленного языка
 # кладётся как .css: правила AE поверхностей, теней и трекинга живут в
 # стилях, и это самый частый предмет вопроса.
-SUFFIX = {"css": ".css", "html": ".html", "tsx": ".tsx", "ts": ".ts",
-          "jsx": ".jsx", "js": ".js"}
+SUFFIX = {"css": ".css", "scss": ".scss", "sass": ".sass",
+          "html": ".html", "tsx": ".tsx", "ts": ".ts",
+          "jsx": ".jsx", "js": ".js", "vue": ".vue", "svelte": ".svelte"}
 
 TOOLS = [
     {"name": "eyes_scan",
@@ -197,8 +198,11 @@ def check(code, language="css", mode="report"):
 SKIP = {"node_modules", ".git", "dist", "build", "out", ".next", ".nuxt",
         "vendor", "coverage", "__pycache__", ".venv", "venv", "target",
         "Pods", "DerivedData", ".cache", "public/assets"}
-SCAN_SUFFIX = (".css", ".scss", ".html", ".htm", ".tsx", ".ts", ".jsx", ".js",
-               ".vue", ".svelte")
+# Список обязан совпадать с тем, что ЧИТАЕТ линт. Расхождение стоило
+# дорого: сканер объявлял scss/vue/svelte, линт их пропускал, и проект на
+# SCSS получал грейд A при нуле прочитанных файлов.
+SCAN_SUFFIX = (".css", ".scss", ".sass", ".html", ".htm", ".tsx", ".ts",
+               ".jsx", ".js", ".vue", ".svelte")
 MAX_FILES = 3000
 
 

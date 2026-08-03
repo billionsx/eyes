@@ -102,7 +102,8 @@ def _blank(m) -> str:
 
 def strip_comments(text: str, suffix: str) -> str:
     text = re.sub(r"/\*.*?\*/", _blank, text, flags=re.S)        # CSS / JS block
-    if suffix in (".ts", ".tsx", ".js", ".jsx"):
+    if suffix in (".ts", ".tsx", ".js", ".jsx", ".scss", ".sass",
+                  ".vue", ".svelte"):
         text = re.sub(r"(?<![:\\])//[^\n]*", " ", text)          # // строка (не https://)
     if suffix in (".html", ".htm"):
         text = re.sub(r"<!--.*?-->", _blank, text, flags=re.S)
@@ -411,7 +412,13 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
         нашлось = 0
         for fp in sorted(glob.glob(str(project_root / g), recursive=True)):
             p = Path(fp)
-            if not p.is_file() or p.suffix not in (".css", ".html", ".htm", ".tsx", ".ts", ".jsx", ".js"):
+            # .scss/.sass/.vue/.svelte добавлены не для полноты списка:
+            # сканер их ОБЪЯВЛЯЛ, а линт молча пропускал, и проект на SCSS
+            # получал отличный балл при нуле прочитанных файлов. Инструмент,
+            # который хвалит за непрочитанное, хуже отсутствующего.
+            if not p.is_file() or p.suffix not in (
+                    ".css", ".scss", ".sass", ".html", ".htm",
+                    ".tsx", ".ts", ".jsx", ".js", ".vue", ".svelte"):
                 continue
             files_n += 1
             нашлось += 1

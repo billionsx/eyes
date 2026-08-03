@@ -1029,6 +1029,21 @@ def cmd_selftest(root: Path) -> int:
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE19"))
 
+    print("SELFTEST · охват языков: объявленное = читаемое")
+    import mcp as _mm
+    import lint as _ll
+    _adv = set(_mm.SCAN_SUFFIX)
+    _read = {".css", ".scss", ".sass", ".html", ".htm", ".tsx", ".ts",
+             ".jsx", ".js", ".vue", ".svelte"}
+    check("сканер не обещает того, чего линт не читает",
+          _adv <= _read)
+    check("чиню → красный: нарушение в .scss ловится",
+          any(f["rule"] == "AE2" for f in _mm.check(
+              ".x{background:#000000;box-shadow:0 2px 8px #333;}", "scss")))
+    check("SCSS-комментарий // не ломает разбор",
+          not any(f["rule"] == "AE2" for f in _mm.check(
+              "// box-shadow:0 2px 8px #333;\n.x{background:#000000;}", "scss")))
+
     print("SELFTEST · пересборка (хранимое против выводимого)")
     import rebuild as rb_mod
     check("суд пересборки зелёный: определённость, снос, восстановление",
