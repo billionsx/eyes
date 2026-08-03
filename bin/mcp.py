@@ -270,7 +270,10 @@ def scan(root, mode="report"):
     #
     # Знаменатель — ПРЕДМЕТЫ: сколько объявлений вообще подлежало суду.
     subjects = res.get("subjects", 0)
-    score = round(100.0 * (1.0 - len(findings) / subjects), 1) if subjects else 0.0
+    # Числитель — нарушающие ПРЕДМЕТЫ, а не упрёки: сведённый упрёк за
+    # утилитарный класс весит столько, сколько класс встречается.
+    viol = res.get("violating", len(findings))
+    score = round(100.0 * (1.0 - viol / subjects), 1) if subjects else 0.0
     score = max(0.0, score)
     # СЛАБОЕ СВИДЕТЕЛЬСТВО. Доля, снятая с горстки объявлений, — не оценка
     # проекта, а шум. Департамент называет её, но БУКВЫ не ставит: грейд по
@@ -289,7 +292,7 @@ def scan(root, mode="report"):
                 f"был бы при полном разборе." if unres else None),
             "findings_total": len(findings),
             "score": score, "grade": gr,
-            "subjects": subjects,
+            "subjects": subjects, "violating": viol,
             "evidence": ("СЛАБОЕ: судить было почти нечего "
                          f"({subjects} объявлений на {res['files']} файлов) — "
                          "доля названа, но грейд не ставится"

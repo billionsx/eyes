@@ -1030,6 +1030,47 @@ def cmd_selftest(root: Path) -> int:
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE19"))
 
+    print("SELFTEST · утилитарные классы: проект на именах перестал быть невидимым")
+    import mcp as _mu
+    import tempfile as _t7, shutil as _s7
+    from pathlib import Path as _P7
+
+    def _tw(files):
+        d = _P7(_t7.mkdtemp(prefix="eyes-tw-"))
+        for nm, c in files.items():
+            (d / nm).write_text(c, encoding="utf-8")
+        r = _mu.scan(d)
+        _s7.rmtree(d, ignore_errors=True)
+        return r
+
+    _md = _tw({"a.vue": "\n".join(
+        '<div class="rounded-md opacity-75">x</div>' for _ in range(20))})
+    check("чиню → красный: класс вне лестницы ловится",
+          any(f["rule"] == "AE11" for f in _md["sample"]))
+    check("упрёк ОДИН на класс, а не на каждое вхождение",
+          len([f for f in _md["sample"] if f["rule"] == "AE11"]) == 1)
+    check("число вхождений названо в упрёке",
+          any("20 вхождений" in f["why"] for f in _md["sample"]))
+    check("вес нарушения = число вхождений, а не число упрёков",
+          _md["violating"] >= 40 > _md["findings_total"])
+    _ok = _tw({"a.vue": "\n".join(
+        '<div class="rounded-lg opacity-100">x</div>' for _ in range(20))})
+    check("ломаю → зелёный не даю: классы НА лестнице — тишина",
+          not any(f["rule"] in ("AE11", "AE9") for f in _ok["sample"]))
+    check("класс-капсула нарушением не считается",
+          not any(f["rule"] == "AE11" for f in _tw(
+              {"a.vue": '<div class="rounded-full">x</div>'})["sample"]))
+    check("сторона скругления размером не считается",
+          not any(f["rule"] == "AE11" for f in _tw(
+              {"a.vue": '<div class="rounded-r">x</div>'})["sample"]))
+    check("незнакомое имя класса молчит, а не выдумывает значение",
+          not any(f["rule"] == "AE11" for f in _tw(
+              {"a.vue": '<div class="rounded-щедро">x</div>'})["sample"]))
+    check("утилитарные классы вошли в ЗНАМЕНАТЕЛЬ: проект больше не пуст",
+          _md["subjects"] >= 40)
+    check("источник шкалы назван в упрёке, а не выдан за замер",
+          any("Tailwind" in f["why"] for f in _md["sample"]))
+
     print("SELFTEST · балл — доля соблюдения, а не линейный вычет")
     import mcp as _ms
     import tempfile as _t6, shutil as _s6

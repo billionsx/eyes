@@ -339,9 +339,53 @@ SUBJECTS = (
 )
 
 
+# ── УТИЛИТАРНЫЕ КЛАССЫ ──────────────────────────────────────────────────────
+# Целый класс проектов был департаменту невидим. Замер: Hoppscotch — 1466
+# файлов и 69 объявлений на всё, потому что вёрстка там не объявлениями, а
+# именами классов. Балл 98.4 «A» стоял на пустоте.
+#
+# Но `rounded-md` — то же самое скругление, только названное. Разбор имён
+# возвращает департаменту зрение там, где он видел ноль.
+#
+# ТАБЛИЦА ОБЪЯВЛЕНА, а не выведена, и названа своим источником: шкала
+# Tailwind по умолчанию (v3). Значения в rem пересчитаны при корне 16px —
+# допущение названо вслух, потому что при другом корне числа поедут.
+# Проект, переопределивший шкалу своей конфигурацией, этой таблицей НЕ
+# судится: переопределённое имя в таблице отсутствует и пропускается.
+TW_SOURCE = "шкала Tailwind по умолчанию (v3), корень 16px"
+TW_RADIUS = {"none": 0, "sm": 2, "": 4, "md": 6, "lg": 8, "xl": 12,
+             "2xl": 16, "3xl": 24, "full": 9999}
+TW_OPACITY = {"0": 0.0, "5": 0.05, "10": 0.1, "20": 0.2, "25": 0.25,
+              "30": 0.3, "40": 0.4, "50": 0.5, "60": 0.6, "70": 0.7,
+              "75": 0.75, "80": 0.8, "90": 0.9, "95": 0.95, "100": 1.0}
+
+TW_CLASS = re.compile(r"(?<![\w-])(rounded|opacity)(?:-([a-z0-9]+))?(?![\w-])")
+# Сторона скругления (`rounded-r`, `rounded-tl`) — не размер, а место.
+TW_SIDE = {"t", "r", "b", "l", "tl", "tr", "bl", "br", "s", "e", "ss", "se",
+           "es", "ee"}
+
+
+def _tw_values(text):
+    """Утилитарные классы → [(правило, значение)]. Незнакомое имя молчит."""
+    out = []
+    for m in TW_CLASS.finditer(text):
+        kind, key = m.group(1), (m.group(2) or "")
+        if kind == "rounded":
+            if key in TW_SIDE:
+                continue          # сторона без размера — размер по умолчанию
+            if key in TW_RADIUS:
+                out.append(("AE11", float(TW_RADIUS[key]), m.start()))
+        elif kind == "opacity" and key in TW_OPACITY:
+            out.append(("AE9", TW_OPACITY[key], m.start()))
+    return out
+
+
 def _count_subjects(text):
     """Сколько объявлений в тексте вообще подлежат суду департамента."""
-    return sum(len(rx.findall(text)) for rx in SUBJECTS)
+    # Утилитарный класс — такое же объявление, только названное. Не считать
+    # его значило бы держать знаменатель пустым там, где предметов сотни.
+    return (sum(len(rx.findall(text)) for rx in SUBJECTS)
+            + len(_tw_values(text)))
 
 
 def _judge_var_scales(decls, roles, tokens, rules, resolved=()):
@@ -756,6 +800,12 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # Объявления с темой и ролью — для суда над спорными переменными.
     var_decls, var_roles = _var_decls(project_root, globs)
     subjects = 0
+    tw_seen = {}
+    # ВЕС нарушения. Упрёк за утилитарный класс сведён в один, но нарушает
+    # он столько раз, сколько класс встречается. Считать в числителе один,
+    # а в знаменателе двести девять — значит хвалить проект за то, что он
+    # повторил ошибку много раз. Обе стороны доли меряются одним.
+    violating = 0
 
     for g in globs:
         нашлось = 0
@@ -778,8 +828,21 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             # второй клиент. Проверено судом в обе стороны.
             t = _expand_vars(t, var_defs)
             subjects += _count_subjects(t)
+
             rel = str(p.relative_to(project_root))
             looked.append(rel)
+
+            # Утилитарные классы копятся по ВСЕМУ охвату и сводятся в один
+            # упрёк на класс. `rounded-md` встречается пятьдесят четыре
+            # раза — но это ОДНО решение проекта о своей шкале, а не
+            # пятьдесят четыре дефекта. Упрёк за каждое вхождение утопил бы
+            # отчёт, как утопил бы построчный разбор кеглей (AE18).
+            for rule_tw, val_tw, pos_tw in _tw_values(t):
+                key = (rule_tw, val_tw)
+                node = tw_seen.setdefault(key, {"n": 0, "at": None})
+                node["n"] += 1
+                if node["at"] is None:
+                    node["at"] = (rel, _line_of(t, pos_tw))
 
             if "AE1" in rules:
                 for m in BG_PROP.finditer(t):
@@ -1043,6 +1106,34 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                 f"переменная фона {c_} вне {чья} лестницы поверхностей "
                 f"({' → '.join(лестница)})"))
 
+    # Свод утилитарных классов: один упрёк на класс, с числом вхождений.
+    for (rule_tw, val_tw), node in sorted(
+            tw_seen.items(), key=lambda kv: (-kv[1]["n"], str(kv[0]))):
+        if rule_tw not in rules or not node["at"]:
+            continue
+        rel_tw, ln_tw = node["at"]
+        if rule_tw == "AE11":
+            lad = [float(x) for x in (tokens.get("geometry", {})
+                                      .get("radius_ladder_pt") or [])]
+            cap_tw = float(tokens.get("geometry", {})
+                           .get("capsule_from_pt") or 9999)
+            if lad and val_tw not in lad and val_tw < cap_tw:
+                findings.append((
+                    "AE11", rel_tw, ln_tw,
+                    f"класс скругления даёт {val_tw:g}px вне измеренной "
+                    f"лестницы {sorted(lad)} — {node['n']} вхождений "
+                    f"({TW_SOURCE})"))
+                violating += node["n"]
+        elif rule_tw == "AE9":
+            lad = [float(x) for x in (tokens.get("opacity_ladder", {})
+                                      .get("allow") or [])]
+            if lad and val_tw not in lad:
+                findings.append((
+                    "AE9", rel_tw, ln_tw,
+                    f"класс прозрачности даёт {val_tw:g} вне лестницы {lad} — "
+                    f"{node['n']} вхождений ({TW_SOURCE})"))
+                violating += node["n"]
+
     for rule_, rel_, ln_, why_ in _judge_var_scales(
             var_decls, var_roles, tokens, rules, set(var_defs)):
         findings.append((rule_, rel_, ln_, why_))
@@ -1074,6 +1165,11 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             # за чистое (ЗКН-Э001).
             # Знаменатель балла: сколько объявлений вообще судилось.
             "subjects": subjects,
+            # Нарушающих ПРЕДМЕТОВ, а не упрёков: сведённый упрёк за
+            # утилитарный класс весит столько, сколько класс встречается.
+            "violating": violating + sum(
+                1 for f in findings
+                if not str(f[3]).startswith("класс ")),
             "vars_resolved": len(var_defs),
             "vars_unresolved": var_ambiguous,
             # Глоб, не нашедший НИ ОДНОГО файла, обязан сказать о себе.
