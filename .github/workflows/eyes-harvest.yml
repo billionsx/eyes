@@ -36,6 +36,7 @@ jobs:
           python3 bin/harvest.py --court
           python3 bin/palette.py --court
           python3 bin/typescale.py --court
+          python3 bin/devices.py --court
       - name: "Перемол склада: новые сита по уже пройденному, без сети"
         run: python3 bin/harvest.py --remill || true
       - name: "Жатва по фронту"
@@ -45,6 +46,8 @@ jobs:
         run: python3 bin/palette.py
       - name: "Шкала: ступени Dynamic Type и трекинг из опубликованных таблиц"
         run: python3 bin/typescale.py --write
+      - name: "Устройства: размеры экранов и размерные классы"
+        run: python3 bin/devices.py --write
       - name: "Правки Apple — предъявить, если были"
         if: always()
         run: |
@@ -62,7 +65,8 @@ jobs:
           git config user.name "Billions X Eyes"
           git add registry/standards/palette.json registry/state/harvest.json \
                   registry/corpus/hig registry/library/hig-tables.jsonl \
-                  registry/standards/typescale.json registry/standards/tokens.json \
+                  registry/standards/typescale.json registry/standards/devices.json \
+                  registry/standards/tokens.json \
                   registry/state/APPLE-CHANGES.md || true
           git diff --cached --quiet || git commit -q -m "жатва: урожай первоисточника"
           git pull --rebase -q || true

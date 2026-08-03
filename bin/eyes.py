@@ -891,6 +891,22 @@ def cmd_selftest(root: Path) -> int:
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE18"))
 
+    print("SELFTEST · устройства Apple и основание замера")
+    import devices as dv_mod
+    check("суд устройств зелёный: пункты, классы, платформы, точки",
+          dv_mod.court() == 0)
+    _dv = json.loads((ROOT / "registry" / "standards" / "devices.json")
+                     .read_text(encoding="utf-8"))
+    check("перечень моделей добыт из публикации", len(_dv["screens"]) >= 50)
+    _tk2 = json.loads((ROOT / "registry" / "standards" / "tokens.json")
+                      .read_text(encoding="utf-8"))
+    check("ДВОЙНОЕ СВИДЕТЕЛЬСТВО: ширина кадра замера есть у реальной модели",
+          dv_mod.cross(_dv, _tk2)[0]["verdict"] == "ПОДТВЕРЖДЕНО")
+    check("основание замера перестало быть данностью — у него адрес",
+          "layout" in _tk2["geometry"]["frame_width_at"])
+    check("watchOS и tvOS в перечень iOS не затесались",
+          not any("Watch" in m for m in _dv["screens"]))
+
     print("SELFTEST · шкала Apple и двойное свидетельство типографики")
     import typescale as ts_mod
     check("суд шкалы зелёный: ступени, платформы, трекинг, провенанс",

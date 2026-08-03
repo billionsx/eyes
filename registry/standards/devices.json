@@ -1,0 +1,498 @@
+{
+ "screens": {
+  "iPad Pro 13-inch": {
+   "w": 1032,
+   "h": 1376,
+   "scale": 2
+  },
+  "iPad Pro 12.9-inch": {
+   "w": 1024,
+   "h": 1366,
+   "scale": 2
+  },
+  "iPad Pro 11-inch 5th and 6th generation": {
+   "w": 834,
+   "h": 1210,
+   "scale": 2
+  },
+  "iPad Pro 11-inch 1st–4th generation": {
+   "w": 834,
+   "h": 1194,
+   "scale": 2
+  },
+  "iPad Pro 10.5-inch": {
+   "w": 834,
+   "h": 1112,
+   "scale": 2
+  },
+  "iPad Pro 9.7-inch": {
+   "w": 768,
+   "h": 1024,
+   "scale": 2
+  },
+  "iPad Air 13-inch": {
+   "w": 1024,
+   "h": 1366,
+   "scale": 2
+  },
+  "iPad Air 11-inch": {
+   "w": 820,
+   "h": 1180,
+   "scale": 2
+  },
+  "iPad Air 10.9-inch": {
+   "w": 820,
+   "h": 1180,
+   "scale": 2
+  },
+  "iPad Air 10.5-inch": {
+   "w": 834,
+   "h": 1112,
+   "scale": 2
+  },
+  "iPad Air 9.7-inch": {
+   "w": 768,
+   "h": 1024,
+   "scale": 2
+  },
+  "iPad 11-inch": {
+   "w": 820,
+   "h": 1180,
+   "scale": 2
+  },
+  "iPad 10.2-inch": {
+   "w": 810,
+   "h": 1080,
+   "scale": 2
+  },
+  "iPad 9.7-inch": {
+   "w": 768,
+   "h": 1024,
+   "scale": 2
+  },
+  "iPad mini 8.3-inch": {
+   "w": 744,
+   "h": 1133,
+   "scale": 2
+  },
+  "iPad mini 7.9-inch": {
+   "w": 768,
+   "h": 1024,
+   "scale": 2
+  },
+  "iPhone 17 Pro Max": {
+   "w": 440,
+   "h": 956,
+   "scale": 3
+  },
+  "iPhone 17 Pro": {
+   "w": 402,
+   "h": 874,
+   "scale": 3
+  },
+  "iPhone Air": {
+   "w": 420,
+   "h": 912,
+   "scale": 3
+  },
+  "iPhone 17": {
+   "w": 402,
+   "h": 874,
+   "scale": 3
+  },
+  "iPhone 16 Pro Max": {
+   "w": 440,
+   "h": 956,
+   "scale": 3
+  },
+  "iPhone 16 Pro": {
+   "w": 402,
+   "h": 874,
+   "scale": 3
+  },
+  "iPhone 16 Plus": {
+   "w": 430,
+   "h": 932,
+   "scale": 3
+  },
+  "iPhone 16": {
+   "w": 393,
+   "h": 852,
+   "scale": 3
+  },
+  "iPhone 16e": {
+   "w": 390,
+   "h": 844,
+   "scale": 3
+  },
+  "iPhone 15 Pro Max": {
+   "w": 430,
+   "h": 932,
+   "scale": 3
+  },
+  "iPhone 15 Pro": {
+   "w": 393,
+   "h": 852,
+   "scale": 3
+  },
+  "iPhone 15 Plus": {
+   "w": 430,
+   "h": 932,
+   "scale": 3
+  },
+  "iPhone 15": {
+   "w": 393,
+   "h": 852,
+   "scale": 3
+  },
+  "iPhone 14 Pro Max": {
+   "w": 430,
+   "h": 932,
+   "scale": 3
+  },
+  "iPhone 14 Pro": {
+   "w": 393,
+   "h": 852,
+   "scale": 3
+  },
+  "iPhone 14 Plus": {
+   "w": 428,
+   "h": 926,
+   "scale": 3
+  },
+  "iPhone 14": {
+   "w": 390,
+   "h": 844,
+   "scale": 3
+  },
+  "iPhone 13 Pro Max": {
+   "w": 428,
+   "h": 926,
+   "scale": 3
+  },
+  "iPhone 13 Pro": {
+   "w": 390,
+   "h": 844,
+   "scale": 3
+  },
+  "iPhone 13": {
+   "w": 390,
+   "h": 844,
+   "scale": 3
+  },
+  "iPhone 13 mini": {
+   "w": 360,
+   "h": 780,
+   "scale": 3
+  },
+  "iPhone 12 Pro Max": {
+   "w": 428,
+   "h": 926,
+   "scale": 3
+  },
+  "iPhone 12 Pro": {
+   "w": 390,
+   "h": 844,
+   "scale": 3
+  },
+  "iPhone 12": {
+   "w": 390,
+   "h": 844,
+   "scale": 3
+  },
+  "iPhone 12 mini": {
+   "w": 360,
+   "h": 780,
+   "scale": 3
+  },
+  "iPhone 11 Pro Max": {
+   "w": 414,
+   "h": 896,
+   "scale": 3
+  },
+  "iPhone 11 Pro": {
+   "w": 375,
+   "h": 812,
+   "scale": 3
+  },
+  "iPhone 11": {
+   "w": 414,
+   "h": 896,
+   "scale": 2
+  },
+  "iPhone XS Max": {
+   "w": 414,
+   "h": 896,
+   "scale": 3
+  },
+  "iPhone XS": {
+   "w": 375,
+   "h": 812,
+   "scale": 3
+  },
+  "iPhone XR": {
+   "w": 414,
+   "h": 896,
+   "scale": 2
+  },
+  "iPhone X": {
+   "w": 375,
+   "h": 812,
+   "scale": 3
+  },
+  "iPhone 8 Plus": {
+   "w": 414,
+   "h": 736,
+   "scale": 3
+  },
+  "iPhone 8": {
+   "w": 375,
+   "h": 667,
+   "scale": 2
+  },
+  "iPhone 7 Plus": {
+   "w": 414,
+   "h": 736,
+   "scale": 3
+  },
+  "iPhone 7": {
+   "w": 375,
+   "h": 667,
+   "scale": 2
+  },
+  "iPhone 6s Plus": {
+   "w": 414,
+   "h": 736,
+   "scale": 3
+  },
+  "iPhone 6s": {
+   "w": 375,
+   "h": 667,
+   "scale": 2
+  },
+  "iPhone 6 Plus": {
+   "w": 414,
+   "h": 736,
+   "scale": 3
+  },
+  "iPhone 6": {
+   "w": 375,
+   "h": 667,
+   "scale": 2
+  },
+  "iPhone SE 4.7-inch": {
+   "w": 375,
+   "h": 667,
+   "scale": 2
+  },
+  "iPhone SE 4-inch": {
+   "w": 320,
+   "h": 568,
+   "scale": 2
+  },
+  "iPod touch 5th generation and later": {
+   "w": 320,
+   "h": 568,
+   "scale": 2
+  }
+ },
+ "classes": {
+  "iPad Pro 12.9-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPad Pro 11-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPad Pro 10.5-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPad Air 13-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPad Air 11-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPad 11-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPad 9.7-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPad mini 7.9-inch": {
+   "portrait": "Regular width, regular height",
+   "landscape": "Regular width, regular height"
+  },
+  "iPhone 17 Pro Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 17 Pro": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone Air": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 17": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 16 Pro Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 16 Pro": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 16 Plus": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 16": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 16e": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 15 Pro Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 15 Pro": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 15 Plus": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 15": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 14 Pro Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 14 Pro": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 14 Plus": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 14": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 13 Pro Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 13 Pro": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 13": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 13 mini": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 12 Pro Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 12 Pro": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 12": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 12 mini": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 11 Pro Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 11 Pro": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 11": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone XS Max": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone XS": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone XR": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone X": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 8 Plus": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 8": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 7 Plus": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 7": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone 6s Plus": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Regular width, compact height"
+  },
+  "iPhone 6s": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPhone SE": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  },
+  "iPod touch 5th generation and later": {
+   "portrait": "Compact width, regular height",
+   "landscape": "Compact width, compact height"
+  }
+ },
+ "address": {
+  "screens": "/design/human-interface-guidelines/layout",
+  "classes": "/design/human-interface-guidelines/layout"
+ },
+ "note": "опубликовано Apple; это НЕ замер"
+}
