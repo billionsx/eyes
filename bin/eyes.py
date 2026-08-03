@@ -960,10 +960,10 @@ def cmd_selftest(root: Path) -> int:
     check("суд присутствия зелёный: протокол, уведомления, сбойный кадр",
           mcp_mod.court() == 0)
     check("сокращённая запись цвета разворачивается канонически",
-          lint.hex6("#1c1") == "#11CC11" and lint.hex6("#000") == "#000000")
-    check("чиню → зелёный: #1c1 вне лестницы ловится AE1",
+          lint.hex6("#333") == "#333333" and lint.hex6("#000") == "#000000")
+    check("чиню → зелёный: #333 вне лестницы ловится AE1",
           any(f["rule"] == "AE1"
-              for f in mcp_mod.check(".a{background:#1c1;}", "css")))
+              for f in mcp_mod.check(".a{background:#333;}", "css")))
     check("ломаю → красный не даю: #000 = #000000 и нарушением НЕ считается",
           not mcp_mod.check(".a{background:#000;}", "css"))
     check("бумага не холст: белый фон в @media print — не нарушение",
@@ -975,7 +975,7 @@ def cmd_selftest(root: Path) -> int:
           any(f["rule"] == "AE1" for f in
               mcp_mod.check("@media screen{body{background:#fff;}}", "css")))
     check("вердикт присутствия равен вердикту продуктового линта",
-          [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
+          [f["rule"] for f in mcp_mod.check(".a{background:#333;}", "css")]
           == ["AE1"])
 
     def _ae17_findings(css):
@@ -991,7 +991,8 @@ def cmd_selftest(root: Path) -> int:
                         .read_text(encoding="utf-8"))
         r = _l3.run(d, ad, tk, "report", d)
         _s3.rmtree(d, ignore_errors=True)
-        return [{"rule": x[0], "why": x[3]} for x in r["findings"]]
+        return [{"rule": x[0], "file": x[1], "line": x[2], "why": x[3]}
+                for x in r["findings"]]
 
     def _ae17_why(css):
         import lint as _l2, tempfile as _t2, shutil as _s2, json as _j2
@@ -1028,6 +1029,39 @@ def cmd_selftest(root: Path) -> int:
     check("упрёк опирается на ОПУБЛИКОВАННУЮ шкалу с адресом",
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE19"))
+
+    print("SELFTEST · спорные переменные судятся по ОБЛАСТИ объявления")
+    _THEMED = ("@media(prefers-color-scheme:dark){:root{--s:#1C1C1E;}}\n"
+               "@media(prefers-color-scheme:light){:root{--s:#F2F2F7;}}\n"
+               ".x{background:var(--s);}")
+    _BAD = ("@media(prefers-color-scheme:dark){:root{--s:#222222;}}\n"
+            "@media(prefers-color-scheme:light){:root{--s:#FAFAFA;}}\n"
+            ".x{background:var(--s);}")
+    check("ломаю → зелёный не даю: обе темы законны — тишина",
+          not any(f["rule"] == "AE1" for f in _ae17_findings(_THEMED)))
+    _bad = [f for f in _ae17_findings(_BAD) if f["rule"] == "AE1"]
+    check("чиню → красный: КАЖДОЕ значение судится СВОЕЙ лестницей",
+          len(_bad) == 2)
+    check("тёмное значение названо тёмной лестницей, светлое — светлой",
+          any("тёмной" in f["why"] for f in _bad)
+          and any("СВЕТЛОЙ" in f["why"] for f in _bad))
+    check("адрес — строка ОБЪЯВЛЕНИЯ, а не место применения",
+          sorted(f["line"] for f in _bad) == [1, 2])
+    check("переменная ТЕКСТА поверхностью не судится",
+          not any(f["rule"] == "AE1" for f in _ae17_findings(
+              "@media(prefers-color-scheme:dark){:root{--l:#EBEBF5;}}\n"
+              ".x{color:var(--l);}")))
+    import lint as _ln
+    check("граница нейтральности снята с базы, а не назначена на глаз",
+          _ln._is_surface("#222222") and _ln._is_surface("#363541")
+          and not _ln._is_surface("#5753D0"))
+    check("фирменный акцент фоном НЕ считается нарушением поверхности",
+          not any(f["rule"] == "AE1" for f in _ae17_findings(
+              ":root{--brand:#E64980;}\n.x{background:var(--brand);}")))
+    check("белый фон в ТЁМНОЙ теме остаётся нарушением, хоть и далёк",
+          any(f["rule"] == "AE1" for f in _ae17_findings(
+              "@media(prefers-color-scheme:dark){:root{--s:#FFFFFF;}}\n"
+              ".x{background:var(--s);}")))
 
     print("SELFTEST · словарь переменных: правила видят сквозь var()")
     import lint as _lv

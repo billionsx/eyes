@@ -187,6 +187,142 @@ def _expand_vars(text, defs):
     return "".join(out)
 
 
+# ── ПЕРЕМЕННЫЕ С ОГЛЯДКОЙ НА ОБЛАСТЬ ────────────────────────────────────────
+# Спорная переменная — не тупик, а главная зона работы. Замер по трём чужим
+# проектам: спорных БОЛЬШЕ, чем однозначных (97 против 129 у Excalidraw,
+# 46 против 24 у Hoppscotch). Это не беспорядок, это устройство тем: зрелый
+# проект объявляет одну переменную дважды — значение для светлого, значение
+# для тёмного.
+#
+# Подставить такую в место применения нельзя: там неизвестно, какая тема
+# сработает. Зато у САМОГО ОБЪЯВЛЕНИЯ тема известна точно — она задана
+# областью, в которой объявление стоит. И адрес там настоящий, а не
+# производный от места применения.
+#
+# Поэтому департамент судит объявление: тёмное значение — тёмной лестницей,
+# светлое — светлой. Обе у него есть: тёмная снята с кадров iOS, светлая
+# добыта жатвой из публикации Apple.
+
+VAR_ROLE = re.compile(r"([a-z-]+)\s*:\s*[^;{}]*?var\(\s*(--[\w-]+)", re.I)
+
+
+def _rgb(c):
+    c = c.lstrip("#")
+    return int(c[0:2], 16), int(c[2:4], 16), int(c[4:6], 16)
+
+
+def _dist(a, b):
+    """Расстояние между цветами по худшему каналу."""
+    x, y = _rgb(a), _rgb(b)
+    return max(abs(x[i] - y[i]) for i in range(3))
+
+
+def _sat(c):
+    """Насыщенность: разброс между каналами. У серого он ноль."""
+    r, g, b = _rgb(c)
+    return max(r, g, b) - min(r, g, b)
+
+
+def _is_surface(c, _ladder=None):
+    """Претендует ли цвет быть ПОВЕРХНОСТЬЮ.
+
+    Расстояние до лестницы мерой не годится: белый фон в тёмной теме от
+    тёмной лестницы далёк, но это очевидное нарушение поверхности, а не
+    акцент. Различает не расстояние, а НЕЙТРАЛЬНОСТЬ.
+    
+    Граница снята с базы С ДВУХ СТОРОН, а не назначена:
+      · самая насыщенная ступень тёмной лестницы (замер)      —  2
+      · самая насыщенная ступень лестницы Apple (публикация)  —  5
+      · наименее насыщенный ИЗМЕРЕННЫЙ акцент (#D8AE3C)      — 156
+    Между 5 и 156 лежит пропасть, и порог поставлен у нижнего её края с
+    запасом: до 64 — нейтральный оттенок, то есть кто-то выдумал свою
+    ступень вместо измеренной. Выше — акцент, а акцент по базе
+    департамента принадлежит ПРОДУКТУ (узел `accents`) и нейтральной
+    лестницей не судится. Судить фирменный фиолетовый серой лестницей —
+    ошибка предмета, а не строгость.
+    """
+    return _sat(c) <= NEUTRAL_MAX
+
+
+# Порог нейтральности ВЫВЕДЕН, а не назначен: половина от наименее
+# насыщенного ИЗМЕРЕННОГО акцента (#D8AE3C, насыщенность 156). Цвет, вдвое
+# менее насыщенный, чем самый бледный акцент Apple, акцентом по свидетельству
+# департамента не является — значит претендует быть поверхностью.
+# Наблюдаемые поверхности чужих проектов ложатся до 21, акценты — от 125:
+# порог стоит в пустоте между ними, а не на границе живых данных.
+NEUTRAL_MAX = 78
+
+
+def _scope_of(text, pos):
+    """Тема, в которой стоит объявление: dark · light · contrast · base."""
+    for h in _enclosing_headers(text, pos):
+        if PRINT_SCOPE.search(h):
+            return "print"
+        if re.search(r"prefers-contrast\s*:\s*(more|high)", h, re.I):
+            return "contrast"
+        if LIGHT_SCOPE.search(h):
+            return "light"
+        if re.search(r"prefers-color-scheme\s*:\s*dark|"
+                     r"(?:^|[\s,.:#\[])dark\b", h, re.I):
+            return "dark"
+    return "base"
+
+
+def _var_decls(project_root, globs):
+    """Объявления переменных с ТЕМОЙ и адресом: name → [(значение, тема,
+    файл, строка)]. Роли: name → множество свойств, в которых применяется."""
+    decls, roles = {}, {}
+    for g in globs:
+        for fp in sorted(glob.glob(str(Path(project_root) / g), recursive=True)):
+            p = Path(fp)
+            if not p.is_file() or p.suffix not in (
+                    ".css", ".scss", ".sass", ".html", ".htm",
+                    ".tsx", ".ts", ".jsx", ".js", ".vue", ".svelte"):
+                continue
+            try:
+                t = strip_comments(
+                    p.read_text(encoding="utf-8", errors="replace"), p.suffix)
+            except OSError:
+                continue
+            rel = str(p.relative_to(Path(project_root)))
+            for m in VAR_DEF.finditer(t):
+                val = m.group(2).strip()
+                if not val or len(val) > 120:
+                    continue
+                decls.setdefault(m.group(1), []).append(
+                    (val, _scope_of(t, m.start()), rel, _line_of(t, m.start())))
+            for m in VAR_ROLE.finditer(t):
+                roles.setdefault(m.group(2), set()).add(m.group(1).lower())
+    return decls, roles
+
+
+def _judge_var_surfaces(decls, roles, dark_allow, light_allow):
+    """Находки по объявлениям переменных, применяемых как ФОН.
+
+    Судится каждое объявление своей лестницей. Переменная, которую никогда
+    не применяют фоном, не судится вовсе: цвет текста и цвет фона живут на
+    разных лестницах, и мерить один другой значит выдумывать нарушения.
+    """
+    out = []
+    for name, items in sorted(decls.items()):
+        props = roles.get(name) or set()
+        if not any(p in ("background", "background-color") for p in props):
+            continue
+        for val, scope, rel, line in items:
+            if scope == "print" or not re.fullmatch(HEX, val.strip()):
+                continue
+            c = hex6(val.strip())
+            if scope == "light":
+                if (light_allow and c not in light_allow
+                        and _is_surface(c, light_allow)):
+                    out.append((rel, line, c, "СВЕТЛОЙ", light_allow))
+            elif scope in ("dark", "base"):
+                if (dark_allow and c not in dark_allow
+                        and _is_surface(c, dark_allow)):
+                    out.append((rel, line, c, "тёмной", sorted(dark_allow)))
+    return out
+
+
 def strip_comments(text: str, suffix: str) -> str:
     text = re.sub(r"/\*.*?\*/", _blank, text, flags=re.S)        # CSS / JS block
     if suffix in (".ts", ".tsx", ".js", ".jsx", ".scss", ".sass",
@@ -508,6 +644,8 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # в текст перед разбором — и восемнадцать правил оживают без единой
     # правки в себе.
     var_defs, var_ambiguous = _collect_vars(project_root, globs)
+    # Объявления с темой и ролью — для суда над спорными переменными.
+    var_decls, var_roles = _var_decls(project_root, globs)
 
     for g in globs:
         нашлось = 0
@@ -536,6 +674,12 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                 for m in BG_PROP.finditer(t):
                     c = hex6(m.group(1))
                     if _in_print_scope(t, m.start()):
+                        continue
+                    # Граница предмета ОДНА на оба пути. Иначе фирменный
+                    # акцент прощается через объявление переменной и
+                    # обвиняется через литерал — департамент противоречил бы
+                    # сам себе на одном и том же цвете.
+                    if not _is_surface(c):
                         continue
                     if _in_light_scope(t, m.start()):
                         # СВЕТЛАЯ ТЕМА. Раньше правило здесь молчало: своей
@@ -775,6 +919,18 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             f"🍎 Apple растит кегль от xSmall к xxxLarge на 18 % "
             f"(34→40 pt у Large Title), на ступенях доступности кратно "
             f"(/design/human-interface-guidelines/typography)"))
+
+    if "AE1" in rules:
+        # Спорная переменная судится ПО ОБЪЯВЛЕНИЮ: адрес настоящий, тема
+        # известна из области. Однозначная сюда тоже попадает — и это верно:
+        # объявление вне темы обязано лежать на тёмной лестнице, потому что
+        # база департамента снята с тёмного холста.
+        for rel_, ln_, c_, чья, лестница in _judge_var_surfaces(
+                var_decls, var_roles, allow, light_allow):
+            findings.append((
+                "AE1", rel_, ln_,
+                f"переменная фона {c_} вне {чья} лестницы поверхностей "
+                f"({' → '.join(лестница)})"))
 
     if "AE17" in rules and has_theme and theme_orphans:
         # Правило говорит ТОЛЬКО проектам, которые уже завели темы. Проекту
