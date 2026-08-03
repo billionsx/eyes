@@ -1,19 +1,24 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 219
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 229
 
-## AE1 · 10
+## AE1 · 15
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/music/music.css:125` — фон #D2AA1B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/music/music.css:131` — фон #D2AA1B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:203` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:233` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:244` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:254` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:412` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:490` — фон #232325 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/music/music.css:491` — фон #FA2D4B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:580` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:584` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/play/play.css:27` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/play/play.css:59` — фон #FA2D4B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/ui/globals.css:630` — фон #9C7C15 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 
-## AE11 · 46
+## AE11 · 47
 - `apps/web/src/music/music.css:41` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:98` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:145` — border-radius 5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -54,6 +59,7 @@
 - `apps/web/src/music/music.css:617` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:18` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:26` — border-radius 17.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:743` — border-radius 13px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:937` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:962` — border-radius 31px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:990` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -68,6 +74,11 @@
 - `apps/web/src/music/music.css:481` — цель касания 38.3px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
 - `apps/web/src/music/music.css:481` — цель касания 38.3px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
 - `apps/web/src/play/play.css:26` — цель касания 35px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+
+## AE15 · 3
+- `apps/web/src/music/music.css:229` — контраст 3.68:1 (#FA2D4B на #2C2C2E) ниже нормы свода 4.5:1 (🍎 живой HIG)
+- `apps/web/src/music/music.css:491` — контраст 3.79:1 (#fff на #FA2D4B) ниже нормы свода 4.5:1 (🍎 живой HIG)
+- `apps/web/src/play/play.css:25` — контраст 3.68:1 (#FA2D4B на #2C2C2E) ниже нормы свода 4.5:1 (🍎 живой HIG)
 
 ## AE18 · 5
 - `apps/web/src/music/music.css:329` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
@@ -142,7 +153,7 @@
 - `apps/web/src/play/play.css:81` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/play/play.css:81` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 
-## AE8 · 58
+## AE8 · 59
 - `apps/web/src/music/music.css:421` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:455` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:470` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -150,6 +161,7 @@
 - `apps/web/src/music/music.css:523` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:549` — движение 280ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:581` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
+- `apps/web/src/music/music.css:595` — движение 9000ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/App.tsx:1093` — движение 400ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/AudioShowcaseCard.tsx:120` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/BhajanDetailPage.tsx:168` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
