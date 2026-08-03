@@ -1,22 +1,19 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 229
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 226
 
-## AE1 · 15
+## AE1 · 12
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/music/music.css:125` — фон #D2AA1B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/music/music.css:131` — фон #D2AA1B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:203` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:233` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:244` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:254` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:412` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:490` — фон #232325 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/music/music.css:491` — фон #FA2D4B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:580` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:584` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/play/play.css:27` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/play/play.css:59` — фон #FA2D4B вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
-- `apps/web/src/ui/globals.css:630` — фон #9C7C15 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/ui/globals.css:450` — переменная фона #E5E5EA вне СВЕТЛОЙ лестницы поверхностей (#FFFFFF → #F2F2F7)
+- `apps/web/src/ui/globals.css:85` — переменная фона #FFFFFF вне тёмной лестницы поверхностей (#000000 → #111111 → #181818 → #1C1C1C → #1C1C1E → #2C2C2C → #2C2C2E)
 
 ## AE11 · 47
 - `apps/web/src/music/music.css:41` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
