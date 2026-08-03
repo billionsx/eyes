@@ -571,12 +571,15 @@ def cmd_selftest(root: Path) -> int:
         # AE1 в этом списке больше нет намеренно: светлая лестница СНЯТА
         # (surfaces.allow_light), и правило проснулось само — ровно так, как
         # обещано в ЗКН-Э008. Воздерживаются те, чья ось ещё не измерена.
+        # AE2 в списке больше нет: глубина на светлом холсте СНЯТА (635
+        # кромок, медиана профиля 0.000 — тени нет и там), и правило
+        # проснулось само. Воздерживается только то, чья ось не измерена.
         check("светлый проект: НЕснятая ось воздерживается, а не судит",
-              set(rl["abstained"]) == {"AE2", "AE9"})
+              set(rl["abstained"]) == {"AE9"})
         check("воздержание названо вслух, с причиной",
               all("судить нечем" in w for w in rl["abstained"].values()))
         check("воздержавшееся правило находок не даёт",
-              not any(r in ("AE1", "AE2", "AE9") for r, *_ in rl["findings"]))
+              not any(r == "AE9" for r, *_ in rl["findings"]))
         check("правило вне тёмной оси на светлом проекте судит по-прежнему",
               any(r == "AE11" for r, *_ in rl["findings"]))
         check("снятая светлая ось будит правило само, без правки кода",
@@ -623,7 +626,7 @@ def cmd_selftest(root: Path) -> int:
               "КРАСНЫЙ" in txt and "Чисто" not in txt)
         rall = L.run(ROOT, {"project": "п", "base": "light",
                             "report": {"globs": ["s/**/*.css"],
-                                       "rules": ["AE2", "AE9"]},
+                                       "rules": ["AE9"]},
                             "strict": {"globs": [], "rules": []}},
                      tokens, "report", pr)
         check("все правила воздержались — тоже ОТКАЗ, а не чистота",
@@ -638,6 +641,31 @@ def cmd_selftest(root: Path) -> int:
             "strict": {"globs": [], "rules": []}}, ensure_ascii=False),
             encoding="utf-8")
         lp = pr_mod.live_pages(tmp2)
+        # Освобождение светлой темы у AE2 снято ДАННЫМИ и вернётся данными.
+        без_замера = dict(tokens, shadows={k: v for k, v in
+                                           tokens.get("shadows", {}).items()
+                                           if k != "light_depth"})
+        (pr / "s" / "sh.css").write_text(
+            "@media (prefers-color-scheme: light){.c{box-shadow:0 2px 8px #0002}}\n",
+            encoding="utf-8")
+        ad_sh = {"project": "п",
+                 "report": {"globs": ["s/sh.css"], "rules": ["AE2"]},
+                 "strict": {"globs": [], "rules": []}}
+        check("глубина светлого холста снята — тень судится и в светлой теме",
+              len(L.run(ROOT, ad_sh, tokens, "report", pr)["findings"]) == 1)
+        check("убрать замер из свода — освобождение возвращается САМО",
+              L.run(ROOT, ad_sh, без_замера, "report", pr)["findings"] == [])
+        check("упрёк AE2 называет ОБА холста, на которых замерено",
+              all("на светлом" in f[3] for f in
+                  L.run(ROOT, ad_sh, tokens, "report", pr)["findings"]))
+
+        # Молчаливая перезапись чужой работы: хроника не выбирает сторону.
+        _chr = (ROOT / "bin" / "chronicle.sh").read_text(encoding="utf-8")
+        # Ищем КОМАНДУ, а не слово: собственное объяснение, почему стратегия
+        # запрещена, не должно валить суд — иначе правило нельзя объяснить.
+        check("хроника НЕ решает столкновение за другого писателя",
+              not re.search(r"^[^#\n]*git\s+pull[^\n]*-X\s+theirs", _chr, re.M))
+
         check("запрещённая страница в живой взгляд НЕ попадает",
               "https://x.test/a" in lp and "https://x.test/цена" not in lp)
 
