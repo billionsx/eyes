@@ -568,8 +568,11 @@ def cmd_selftest(root: Path) -> int:
               any(r == "AE11" and "22" in m for r, _, _, m in rd["findings"]))
 
         rl = L.run(ROOT, dict(ad_d, base="light"), tokens, "report", pr)
-        check("светлый проект: тёмная ось ВОЗДЕРЖИВАЕТСЯ, а не судит",
-              set(rl["abstained"]) == {"AE1", "AE2", "AE9"})
+        # AE1 в этом списке больше нет намеренно: светлая лестница СНЯТА
+        # (surfaces.allow_light), и правило проснулось само — ровно так, как
+        # обещано в ЗКН-Э008. Воздерживаются те, чья ось ещё не измерена.
+        check("светлый проект: НЕснятая ось воздерживается, а не судит",
+              set(rl["abstained"]) == {"AE2", "AE9"})
         check("воздержание названо вслух, с причиной",
               all("судить нечем" in w for w in rl["abstained"].values()))
         check("воздержавшееся правило находок не даёт",
@@ -582,6 +585,33 @@ def cmd_selftest(root: Path) -> int:
                                      tokens["surfaces"], allow_light=["#FFFFFF"])),
                                  "report", pr)["abstained"])
 
+        (pr / "s" / "light.css").write_text(
+            ".a{background:#FFFFFF}\n.b{background:#F2F2F7}\n"
+            ".c{background:#F9F9F9}\n.d{background:#1C1C1E}\n", encoding="utf-8")
+        ad_l = {"project": "п", "base": "light",
+                "report": {"globs": ["s/light.css"], "rules": ["AE1"]},
+                "strict": {"globs": [], "rules": []}}
+        rl1 = L.run(ROOT, ad_l, tokens, "report", pr)
+        мимо = {f[3].split()[1] for f in rl1["findings"]}
+        check("светлая лестница снята — AE1 судит, а не воздерживается",
+              "AE1" not in rl1["abstained"])
+        check("снятые ступени светлой оси проходят",
+              "#FFFFFF" not in мимо and "#F2F2F7" not in мимо)
+        check("дрейф рядом со ступенью ловится",
+              "#F9F9F9" in мимо)
+        check("тёмная поверхность в светлом проекте — тоже вне оси",
+              "#1C1C1E" in мимо)
+        check("сообщение называет ЛЕСТНИЦУ, по которой судило",
+              all("#FFFFFF → #F2F2F7" in f[3] for f in rl1["findings"]))
+        check("ЗАМЕР вытесняет цитату: источник назван в сообщении",
+              all("замер" in f[3] for f in rl1["findings"]))
+        без = dict(tokens, surfaces={k: v for k, v in tokens["surfaces"].items()
+                                     if k != "allow_light"})
+        rl2 = L.run(ROOT, ad_l, без, "report", pr)
+        check("замера нет — цитата палитры становится запасным путём",
+              "AE1" not in rl2["abstained"]
+              and all("палитра" in f[3] for f in rl2["findings"]))
+
         rz = L.run(ROOT, {"project": "п",
                           "report": {"globs": ["нету/**"], "rules": ["AE1"]},
                           "strict": {"globs": [], "rules": []}},
@@ -591,7 +621,7 @@ def cmd_selftest(root: Path) -> int:
               "ОТКАЗ" in txt and "Чисто" not in txt)
         rall = L.run(ROOT, {"project": "п", "base": "light",
                             "report": {"globs": ["s/**/*.css"],
-                                       "rules": ["AE1", "AE2", "AE9"]},
+                                       "rules": ["AE2", "AE9"]},
                             "strict": {"globs": [], "rules": []}},
                      tokens, "report", pr)
         check("все правила воздержались — тоже ОТКАЗ, а не чистота",
