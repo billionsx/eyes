@@ -12,3 +12,7 @@
 .glow { text-shadow: 0 0 12px #fff; }
 .press { }
 .press:active { transition: transform 300ms cubic-bezier(.32,.72,0,1); }
+
+/* AE18 · разделитель тоньше замеренного */
+.ae18-bad { border-bottom: 0.5px solid #38383A; }
+.ae18-bad2 { border-top-width: .5px; }

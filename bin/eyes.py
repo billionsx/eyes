@@ -1430,6 +1430,68 @@ def cmd_selftest(root: Path) -> int:
     check("журнал не путается со складом (У2 различает)",
           "RE_JOURNAL" in (root / "bin" / "lessons.py").read_text(encoding="utf-8"))
 
+<<<<<<< HEAD
+=======
+    print("SELFTEST · реестр номеров правил (номер не несёт двух смыслов)")
+    _reg = (root / "registry" / "RULES.md").read_text(encoding="utf-8")
+    _rows = re.findall(r"^\|\s*\**(AE\d+)\**\s*\|\s*\**([^|*]+?)\**\s*\|", _reg, re.M)
+    _nums = [n for n, _ in _rows]
+    check("в реестре нет повторяющихся номеров", len(_nums) == len(set(_nums)))
+    # Каждое правило, включённое хоть одним паспортом, обязано быть в реестре.
+    _inuse = set()
+    for _a in (root / "adapters").glob("*.json"):
+        _d = json.loads(_a.read_text(encoding="utf-8"))
+        for _m in ("report", "strict"):
+            _inuse |= set((_d.get(_m) or {}).get("rules") or [])
+    _missing = sorted(_inuse - set(_nums))
+    check(f"каждое включённое правило есть в реестре ({_missing or 'все'})", not _missing)
+    # Ломаю: несуществующий номер обязан быть пойман.
+    check("подделка ловится: чужой номер в паспорте был бы виден",
+          "AE777" not in _nums)
+
+    print("SELFTEST · AE18 разделитель (новое правило из замера)")
+    _tok16 = json.loads((root / "registry" / "standards" / "tokens.json").read_text(encoding="utf-8"))
+    _ad16 = {"report": {}, "strict": {"globs": ["bad.css"], "rules": ["AE18"]},
+             "allow_extra": [], "sizes_extra": []}
+    _bad16 = lint_mod.run(root, _ad16, _tok16, "strict", fx)
+    _got16 = [f for f in _bad16["findings"] if f[0] == "AE18"]
+    check("AE18 ломаю → красный: 0.5px и .5px пойманы обе формы записи",
+          len(_got16) >= 2)
+    check("AE18 называет число замера и его адрес в базе",
+          all("1pt" in f[3] and "separator" in f[3] for f in _got16))
+    _ad16["strict"]["globs"] = ["good.css"]
+    _good16 = lint_mod.run(root, _ad16, _tok16, "strict", fx)
+    check("AE18 чиню → зелёный: 1px чист, border-radius не судится",
+          not [f for f in _good16["findings"] if f[0] == "AE18"])
+    # Число живёт в базе, а не в коде: подмена базы обязана менять вердикт.
+    _tok_wide = json.loads(json.dumps(_tok16))
+    _tok_wide["separator"]["width_pt"] = 0.25
+    _ad16["strict"]["globs"] = ["bad.css"]
+    check("порог AE18 берётся ИЗ БАЗЫ, а не зашит в код (ЗКН-Э002)",
+          not [f for f in lint_mod.run(root, _ad16, _tok_wide, "strict", fx)["findings"]
+               if f[0] == "AE18"])
+
+    print("SELFTEST · слияние складов (объединение, а не победа)")
+    import corpus_merge as _cm
+    _t5 = pathlib.Path(_tf.mkdtemp())
+    _cm.write(_t5 / "a.gz", {"id:/x": {"id": "/x", "text": "A"},
+                             "id:/y": {"id": "/y", "text": "Y"}})
+    _cm.write(_t5 / "b.gz", {"id:/x": {"id": "/x", "text": "A"},
+                             "id:/z": {"id": "/z", "text": "Z"}})
+    _m, _st = _cm.union(_t5 / "o.gz", _t5 / "a.gz", _t5 / "b.gz")
+    check("страницы обоих писателей уцелели при слиянии",
+          set(_m) == {"id:/x", "id:/y", "id:/z"})
+    check("чужая страница не потеряна (ломаю → было бы 2)", _st["итог"] == 3)
+    _cm.write(_t5 / "c.gz", {"id:/x": {"id": "/x", "text": "A"}})
+    _cm.write(_t5 / "d.gz", {"id:/x": {"id": "/x", "text": "A"}})
+    check("одинаковое содержимое даёт одинаковые байты (mtime=0)",
+          (_t5 / "c.gz").read_bytes() == (_t5 / "d.gz").read_bytes())
+    check("жатва и атлас ключуются каждый своим полем",
+          _cm._key({"id": "/a"}) and _cm._key({"page": "/b"})
+          and _cm._key({"id": "/a"}) != _cm._key({"page": "/a"}))
+    _sh.rmtree(_t5, ignore_errors=True)
+
+>>>>>>> af88346 (BXE: AE18 разделитель из замера; реестр номеров правил; ворота правил; суд 482)
     print("SELFTEST · пустой обход линта (ЗКН-Э006 исполняется, а не только объявлен)")
     # Родословная (02.08.2026): линт с неверным корнем печатал «Чисто.» и
     # возвращал ноль. Закон против пустого обхода существовал, а главный орган

@@ -54,6 +54,7 @@ BXE · ИСПОЛНИТЕЛЬНАЯ ВЛАСТЬ. Переносимый лин�
   AE16 АКТИВНЫЙ ТАБ  активный пункт нижней навигации отличается ТОНОМ,
                      а не заливкой под ним (замер: 37 кадров таб-бара по
                      10 приложениям Apple — заливки нет ни в одном)
+  AE18 РАЗДЕЛИТЕЛЬ линия тоньше замеренной 1pt исчезает на 1x (📐 217 кадров)
   AE15 КОНТРАСТ    пара color/background одного блока держит ≥4.5:1 по
                    люминантности WCAG — норма свода dark-mode
                    (🍎 tokens.contrast.source). Пары с var() не судятся:
@@ -226,6 +227,23 @@ MS = re.compile(r"([\d.]+)\s*(ms|s)\b")
 OPACITY = re.compile(r"(?<![-\w])opacity\s*:\s*(0?\.\d+|[01])(?![\d.])", re.I)
 FFAM = re.compile(r"font-family\s*:\s*([^;}\n]+)", re.I)
 ACTIVE_BLOCK = re.compile(r":active[^{]*\{([^}]*)\}", re.I | re.S)
+# AE18 · РАЗДЕЛИТЕЛЬ. Ищем объявления, задающие толщину линии-разделителя.
+# Не всякое «0.5px» — разделитель: сито знает ОДНУ форму записи и не гадает.
+HAIRLINE = re.compile(
+    r"""(?:border(?:-(?:top|bottom|left|right))?|outline)\s*:\s*"""
+    r"""(?P<v>\d*\.?\d+)px|"""
+    r"""border-(?:top|bottom|left|right)?-?width\s*:\s*(?P<v2>\d*\.?\d+)px""",
+    re.I)
+
+# AE18 · РАЗДЕЛИТЕЛЬ. Сито знает ОДНУ форму записи и не гадает: границу задают
+# либо сокращением `border[-сторона]`, либо явной `border-*-width`.
+HAIRLINE = re.compile(
+    r"(?:^|[;{\s])(?:border(?:-(?:top|bottom|left|right))?|outline)\s*:\s*"
+    r"(?P<v>\d*\.?\d+)px"
+    r"|(?:^|[;{\s])border-(?:top|bottom|left|right)-width\s*:\s*"
+    r"(?P<v2>\d*\.?\d+)px",
+    re.I)
+
 BLOCK = re.compile(r"([^{}]+)\{([^{}]*)\}", re.S)
 INTERACTIVE = re.compile(r"(button|\bbtn\b|btn-|-btn\b|tappable|clickable|"
                          r"switch|toggle|segmented|\btab\b|-tab\b|chip)", re.I)
@@ -281,6 +299,9 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     tap_min = float(tokens.get("tap_target", {}).get("min_pt", 44)) \
         * float(adapter.get("pt_to_css_px", 1))
     cr_min = float(tokens.get("contrast", {}).get("min_ratio", 4.5))
+    # AE18 · разделитель. Число берётся ИЗ БАЗЫ, а не из кода: правило с
+    # зашитым числом стареет молча вместе с базой (ЗКН-Э002).
+    sep_min = float(tokens.get("separator", {}).get("width_pt", 1))
 
     # Светлая лестница берётся из палитры, а не из базы замера: она
     # ОПУБЛИКОВАНА Apple, а не снята департаментом, и смешивать два разных
@@ -483,7 +504,10 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             # AE14/AE15 судят только .css: разбор по блокам selector{body}, а
             # в TSX фигурные скобки принадлежат JSX и разбор блоков дал бы
             # ложные пары. Инлайн-стили TSX — отдельная работа, не эта.
-            if p.suffix == ".css" and ("AE14" in rules or "AE15" in rules):
+            # Ворота перечисляют ВСЕ правила, судящие по блокам css. Правило,
+            # молча зависящее от включённости соседа, не работает у клиента,
+            # который сосед не включил, — и молчит вместо красного.
+            if p.suffix == ".css" and ({"AE14", "AE15", "AE18"} & set(rules)):
                 for bm in BLOCK.finditer(t):
                     sel, body = bm.group(1), bm.group(2)
                     if ("AE14" in rules and INTERACTIVE.search(sel)
@@ -495,6 +519,16 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                                     _line_of(t, bm.start(2) + sm.start()),
                                     f"цель касания {v:g}px — норма свода минимум "
                                     f"{tap_min:g}px (44×44pt, 🍎 живой HIG)"))
+                    if "AE18" in rules:
+                        for hm in HAIRLINE.finditer(body):
+                            v = float(hm.group("v") or hm.group("v2"))
+                            if v < sep_min - 1e-9:
+                                findings.append(("AE18", rel,
+                                    _line_of(t, bm.start(2) + hm.start()),
+                                    f"разделитель {v:g}px тоньше замеренного "
+                                    f"{sep_min:g}pt — полпикселя исчезает на "
+                                    f"экране 1x и на печати (📐 замер 217 кадров, "
+                                    f"registry/standards/tokens.json separator)"))
                     if "AE15" in rules:
                         fg, bg = FG_DECL.search(body), BG_DECL.search(body)
                         if fg and bg:

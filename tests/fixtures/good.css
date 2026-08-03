@@ -13,3 +13,7 @@
 .press:active { transition: transform 90ms cubic-bezier(.32,.72,0,1); }
 
 @media (prefers-reduced-motion: reduce) { .slide { transition: none; } }
+
+/* AE18 · разделитель по замеру */
+.ae18-good { border-bottom: 1px solid #38383A; }
+.ae18-good2 { border-radius: 12px; border-top-width: 1px; }
