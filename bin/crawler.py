@@ -108,6 +108,10 @@ def _robots_ok(url: str) -> bool:
     return True if rp is None else rp.can_fetch(UA, url)
 
 
+# Версия сита извлечения. Поднял — корпус подлежит перечитыванию (У4).
+SIEVE = 1
+
+
 def _now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -207,7 +211,7 @@ def crawl(root: Path, fixtures: Path = None, limit: int = 0, delay: float = DELA
         rec = {"url": url, "last_checked": _now(),
                "etag": etag or prev.get("etag", ""), "last_modified": lm or prev.get("last_modified", "")}
         if status == 304:
-            state[sid] = {**prev, **rec}
+            state[sid] = {**prev, **rec, "sieve": SIEVE}
             unchanged += 1
             continue
         if status != 200:
@@ -224,8 +228,12 @@ def crawl(root: Path, fixtures: Path = None, limit: int = 0, delay: float = DELA
         else:
             ex = extract(html)
         rec["route"] = route
-        if ex["sha"] == prev.get("sha"):
-            state[sid] = {**prev, **rec}
+        # Урок У4 свода: тождество прочтения включает версию сита. Иначе
+        # починка извлечения по построению не вступает в силу на уже
+        # прочитанном — текст не менялся, страница пропускается. Атлас купил
+        # этот урок 02.08.2026; здесь он взят из свода, а не переоткрыт.
+        if ex["sha"] == prev.get("sha") and prev.get("sieve") == SIEVE:
+            state[sid] = {**prev, **rec, "sieve": SIEVE}
             unchanged += 1
             continue
 
@@ -249,7 +257,7 @@ def crawl(root: Path, fixtures: Path = None, limit: int = 0, delay: float = DELA
             entry.append(f"- объём текста: {prev.get('text_len', '?')} → {len(ex['text'])} зн.")
         with changelog.open("a", encoding="utf-8") as f:
             f.write("\n".join(entry) + "\n\n")
-        state[sid] = {**rec, "sha": ex["sha"], "title": ex["title"],
+        state[sid] = {**rec, "sha": ex["sha"], "sieve": SIEVE, "title": ex["title"],
                       "headings": ex["headings"][:60], "text_len": len(ex["text"]),
                       "last_changed": _now(), "domains": src.get("domains", [])}
         changed.append(sid)

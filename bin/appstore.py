@@ -15,6 +15,8 @@ BXE · СЛУЖБА, модуль M5 — страж App Store (ст. 56).
 Остальное — «Ручная проверка»: дословные пункты гайдлайнов без интерпретаций.
 Выход: registry/appstore/CHECKLIST.md · строка эфира.
 """
+import gzip
+import hashlib
 import json
 import re
 import sys
@@ -57,6 +59,38 @@ def repo_check(project_root: Path, words) -> dict:
     return {"ok": False, "at": ""}
 
 
+CORPUS = ROOT / "registry" / "corpus" / "appstore"
+
+
+def corpus_put(url: str, html: str) -> bool:
+    """Сохранить сырую страницу гайдлайнов. Урок У1 свода уроков.
+
+    Орган просеивает ЖИВОЙ текст App Review Guidelines. Пока сырьё не
+    хранилось, любая правка сита `parse_points` требовала снова идти к Apple —
+    та же болезнь, что жатва вылечила 29.07, а атлас 02.08. Урок куплен
+    дважды; на третий раз он взят из свода, а не переоткрыт.
+    """
+    try:
+        CORPUS.mkdir(parents=True, exist_ok=True)
+        f = CORPUS / (hashlib.sha256(url.encode()).hexdigest()[:12] + ".html.gz")
+        with gzip.open(f, "wt", encoding="utf-8") as fh:   # перезапись по адресу
+            fh.write(html)
+        return True
+    except (OSError, ValueError):
+        return False
+
+
+def remill() -> list:
+    """Перемолоть сохранённые гайдлайны текущим ситом. Без сети."""
+    out = []
+    if not CORPUS.is_dir():
+        return out
+    for f in sorted(CORPUS.glob("*.html.gz")):
+        with gzip.open(f, "rt", encoding="utf-8") as fh:
+            out += parse_points(fh.read())
+    return out
+
+
 def run(project_root: Path, fetch: bool = True) -> dict:
     out = ROOT / "registry" / "appstore"
     out.mkdir(exist_ok=True)
@@ -66,7 +100,9 @@ def run(project_root: Path, fetch: bool = True) -> dict:
         try:
             req = urllib.request.Request(GUIDE_URL, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=40) as r:
-                points = parse_points(r.read().decode("utf-8", "replace"))
+                raw = r.read().decode("utf-8", "replace")
+            corpus_put(GUIDE_URL, raw)
+            points = parse_points(raw)
             src = f"живая страница гайдлайнов · пунктов {len(points)}"
         except Exception as e:
             src += f" (сеть: {type(e).__name__})"

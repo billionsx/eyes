@@ -1393,6 +1393,26 @@ def cmd_selftest(root: Path) -> int:
           "44x44" in _txt3 and "legible" not in _txt3)
     _sh.rmtree(_t3, ignore_errors=True)
 
+    print("SELFTEST · свод уроков (купленное однажды обязательно для всех)")
+    import lessons as _les
+    _au = _les.audit()
+    _viol = {L["code"]: L["violators"] for L in _au["lessons"] if L["violators"]}
+    check(f"ни один орган не нарушает свод ({_viol or 'чисто'})", not _viol)
+    check("под проверкой все органы департамента", _au["organs"] >= 35)
+    check("объявленных долгов нет либо они названы",
+          all(isinstance(x, tuple) or isinstance(x, list) for x in _au.get("debts", [])))
+    # Долг не есть освобождение: причина, начинающаяся с 🕳, оставляет
+    # орган нарушителем. Иначе реестр стал бы местом, где прячут долг.
+    check("долг не прикрывается освобождением",
+          _les._is_exempt({"У1": {"a.py": "причина"}}, "У1", "a.py")
+          and not _les._is_exempt({"У1": {"a.py": "🕳 долг"}}, "У1", "a.py"))
+    check("освобождение без причины не действует",
+          not _les._is_exempt({"У1": {}}, "У1", "a.py"))
+    # Урок без машинной проверки в свод не принимается.
+    check("каждый урок несёт проверку", all(callable(L["fn"]) for L in _les.LESSONS))
+    check("журнал не путается со складом (У2 различает)",
+          "RE_JOURNAL" in (root / "bin" / "lessons.py").read_text(encoding="utf-8"))
+
     print("SELFTEST · пустой обход линта (ЗКН-Э006 исполняется, а не только объявлен)")
     # Родословная (02.08.2026): линт с неверным корнем печатал «Чисто.» и
     # возвращал ноль. Закон против пустого обхода существовал, а главный орган
