@@ -1,0 +1,46 @@
+# РАЗОВЫЙ ЗОНД. Департамент строит органы по НАСТОЯЩЕМУ артефакту, а не по
+# догадке о его строении. Здесь скачивается машинный JSON страницы цвета HIG
+# и кладётся в фикстуры, чтобы орган замера образцов писался и судился по
+# нему офлайн — как весь остальной департамент.
+name: "Зонд · JSON страницы цвета HIG"
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: "Скачать машинный JSON Apple"
+        run: |
+          mkdir -p registry/fixtures/apple
+          for P in color dark-mode materials; do
+            U="https://developer.apple.com/tutorials/data/design/human-interface-guidelines/$P.json"
+            CODE=$(curl -sL -o "/tmp/$P.json" -w "%{http_code}" \
+              -H "Accept: application/json" -H "User-Agent: billions-x-eyes" "$U")
+            SZ=$(wc -c < "/tmp/$P.json")
+            echo "$P → HTTP $CODE · $SZ байт"
+            if [ "$CODE" = "200" ] && [ "$SZ" -gt 2000 ]; then
+              cp "/tmp/$P.json" "registry/fixtures/apple/hig-$P.json"
+              echo "  сохранено"
+              python3 - "$P" <<'PY'
+import json,sys,re
+p=sys.argv[1]
+d=json.load(open(f"/tmp/{p}.json",encoding="utf-8"))
+raw=json.dumps(d)
+hexes=sorted(set(re.findall(r"#[0-9A-Fa-f]{6}\b", raw)))
+rgbs=re.findall(r'"red"\s*:\s*[\d.]+', raw)
+print(f"  hex в JSON: {len(hexes)} · первые: {hexes[:8]}")
+print(f"  полей red/green/blue: {len(rgbs)}")
+print(f"  ключи верхнего уровня: {list(d)[:10]}")
+PY
+            fi
+          done
+      - name: "Закрепить фикстуры"
+        run: |
+          git config user.email "eyes@billionsx"; git config user.name "Billions X Eyes"
+          git add registry/fixtures/apple 2>/dev/null || true
+          git diff --cached --quiet || git commit -q -m "зонд: машинный JSON страниц HIG как фикстура для органа замера образцов"
+          git push || echo "нечего пушить"
