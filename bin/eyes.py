@@ -809,6 +809,32 @@ def cmd_selftest(root: Path) -> int:
           [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
           == ["AE1"])
 
+    print("SELFTEST · AE16 · активный таб отличается тоном, а не заливкой")
+    import mcp as _m
+    check("чиню → красный: заливка под активным табом ловится",
+          any(f["rule"] == "AE16" for f in
+              _m.check(".tabbar .tab.active{background:#0A84FF;}", "css")))
+    check("заливка через rgba тоже ловится",
+          any(f["rule"] == "AE16" for f in _m.check(
+              ".bottom-nav a[aria-current]{background-color:rgba(255,255,255,.08);}",
+              "css")))
+    check("ломаю → зелёный не даю: ТОН активного пункта законен",
+          not any(f["rule"] == "AE16" for f in
+                  _m.check(".tabbar .tab.active{color:#0091FF;}", "css")))
+    check("прозрачное заливкой не считается",
+          not any(f["rule"] == "AE16" for f in
+                  _m.check(".tab.active{background:transparent;}", "css")))
+    check("фон САМОЙ панели не судится: это не активный пункт",
+          not any(f["rule"] == "AE16" for f in
+                  _m.check(".tabbar .tab{background:#1C1C1E;}", "css")))
+    check("активная карточка вне навигации не судится",
+          not any(f["rule"] == "AE16" for f in
+                  _m.check(".card.active{background:#0A84FF;}", "css")))
+    _tb = json.loads((ROOT / "registry" / "standards" / "tokens.json")
+                     .read_text(encoding="utf-8"))["tabbar"]
+    check("норма опирается на ЗАМЕР, а не на мнение",
+          _tb["measured_frames"] == 37 and _tb["capsule_found"] == 0)
+
     print("SELFTEST · свежесть (департамент сам замечает деплой)")
     import fresh as fresh_mod
     check("суд свежести зелёный: опознание воркфлоу, первое знакомство, снимок",
@@ -825,7 +851,7 @@ def cmd_selftest(root: Path) -> int:
     check("суд наставления зелёный: цель у каждого правила из живой базы",
           guide_mod.court() == 0)
     check("наставление есть на каждое правило департамента",
-          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 16)})
+          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 17)})
 
     print("SELFTEST · жизнь правила (реестр присутствия)")
     import tally as tally_mod

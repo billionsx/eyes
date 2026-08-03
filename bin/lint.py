@@ -48,6 +48,9 @@ BXE · ИСПОЛНИТЕЛЬНАЯ ВЛАСТЬ. Переносимый лин�
                    min-width/height — ПЕРВОЕ правило, рождённое конвейером:
                    обход живого свода → добытчик кандидатов → правило
                    (🍎 tokens.tap_target.source, страница живая, не снимок).
+  AE16 АКТИВНЫЙ ТАБ  активный пункт нижней навигации отличается ТОНОМ,
+                     а не заливкой под ним (замер: 37 кадров таб-бара по
+                     10 приложениям Apple — заливки нет ни в одном)
   AE15 КОНТРАСТ    пара color/background одного блока держит ≥4.5:1 по
                    люминантности WCAG — норма свода dark-mode
                    (🍎 tokens.contrast.source). Пары с var() не судятся:
@@ -104,6 +107,19 @@ def strip_comments(text: str, suffix: str) -> str:
 # Шесть знаков идут в чередовании ПЕРВЫМИ — иначе три знака откусят начало
 # шестизначного цвета и сравнение пойдёт с огрызком.
 HEX = r"#(?:[0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})\b"
+
+# AE16. Селектор нижней навигации И признак активного состояния в одном
+# правиле. Оба условия обязательны: «.tab{}» — это просто таб, «.active{}» —
+# это что угодно; вместе — активный пункт навигации, и только он судится.
+NAV_SEL = re.compile(r"(?:^|[\s.#\[>+~-])(?:tab-?bar|tabbar|bottom-?nav|"
+                     r"navbar-?bottom|nav-?bar|tabs?|nav)(?:$|[\s.#\[:>,{-])", re.I)
+ACTIVE_SEL = re.compile(r"(?:[.:\[-]|\b)(?:is-)?(?:active|selected|current|"
+                        r"checked|on)\b|aria-current", re.I)
+# Заливка. Прозрачное и none заливкой не являются — тон через background
+# с прозрачностью Apple тоже не применяет, но запрещать нечего: не заливка.
+FILL_DECL = re.compile(r"background(?:-color)?\s*:\s*([^;}]+)", re.I)
+NOFILL = re.compile(r"^\s*(?:none|transparent|inherit|initial|unset|revert|"
+                    r"rgba\([^)]*,\s*0?\.?0+\s*\))\s*$", re.I)
 BG_PROP = re.compile(r"(?:background|background-color)\s*:\s*(" + HEX + ")", re.I)
 SHADOW = re.compile(r"\b(?:box-shadow|text-shadow)\s*:\s*(?!\s*none)|drop-shadow\(", re.I)
 # AE2 разбирает ЗНАЧЕНИЕ тени по слоям. Запрет касается тени НАРУЖУ — она
@@ -348,6 +364,24 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     if stack_head and not v.startswith(stack_head):
                         findings.append(("AE10", rel, _line_of(t, m.start()),
                                          f"font-family не начинается с системного стека {list(stack_head)} — подмена первой позиции ломает метрики и трекинг"))
+            if "AE16" in rules and p.suffix in (".css", ".scss"):
+                # Разбор по блокам: заливка судится только там, где селектор
+                # объявляет активный пункт навигации.
+                for blk in re.finditer(r"([^{}]+)\{([^{}]*)\}", t):
+                    sel, body = blk.group(1), blk.group(2)
+                    if not (NAV_SEL.search(sel) and ACTIVE_SEL.search(sel)):
+                        continue
+                    for d in FILL_DECL.finditer(body):
+                        val = d.group(1).strip()
+                        if NOFILL.match(val):
+                            continue
+                        findings.append((
+                            "AE16", rel,
+                            _line_of(t, blk.start(2) + d.start()),
+                            f"заливка {val} под активным пунктом навигации — "
+                            f"в 37 кадрах таб-бара Apple заливки нет ни одной; "
+                            f"активный отличается ТОНОМ"))
+                        break
             if "AE11" in rules:
                 for m in RADIUS.finditer(t):
                     v = float(m.group(1))
