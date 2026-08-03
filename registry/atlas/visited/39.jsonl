@@ -141,3 +141,7 @@
 {"id": "/documentation/webkit/webviewinsertaction", "sha": "7c285b37136ebff416c594bfb6c5d91cc4ffe5b452e057eb22e22bfeb49e60d9", "sieve": 2, "t": "WebViewInsertAction", "n": 188, "laws": 0, "ts": "2026-08-03 07:50 UTC"}
 {"id": "/documentation/passkit/pkstoredvaluepassproperties", "sha": "da93d04b945c7be97907dd29b2147c27c5918071cd564fed7fd0d55239801207", "sieve": 2, "t": "PKStoredValuePassProperties", "n": 336, "laws": 0, "ts": "2026-08-03 08:00 UTC"}
 {"id": "/documentation/UIKit/UISheetPresentationController/prefersGrabberVisible", "sha": "de028ba5734eaabb8d9e428189892de660eadca89297874df78084695de3eeeb", "sieve": 2, "t": "prefersGrabberVisible", "n": 629, "laws": 0, "ts": "2026-08-03 08:09 UTC"}
+{"id": "/documentation/uikit/uibarappearance/copy()", "sha": "6290a0ce2c650d504e1b1195afd29bad4898fc80d5975871432de6b85e845b76", "sieve": 2, "t": "copy()", "n": 40, "laws": 0, "ts": "2026-08-03 19:10 UTC"}
+{"id": "/documentation/uikit/uifontdescriptor/class", "sha": "1a3d04a3ecd814d2a2ebeba0abf594b1aefc2e36225f266b604f5616d62a1726", "sieve": 2, "t": "UIFontDescriptor.Class", "n": 363, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
+{"id": "/documentation/uikit/uifontdescriptor/init()", "sha": "756dc711b860b7559eead3f82a93aebd11507c02732acbe7bcbb97410032804a", "sieve": 2, "t": "init()", "n": 26, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
+{"id": "/documentation/uikit/uifont/weight/init(_:)", "sha": "97ac33f12bbc0a889f4d55cbac3d0e9a8191138c47b077578b35bcb9bb8a206c", "sieve": 2, "t": "init(_:)", "n": 22, "laws": 0, "ts": "2026-08-03 19:18 UTC"}

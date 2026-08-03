@@ -162,3 +162,7 @@
 {"id": "/documentation/passkit/pkpaymentrequest/currencycode", "sha": "45ec0689f9273ae862f560476158970e54d36f39f568778973b4cac3c15adc55", "sieve": 2, "t": "currencyCode", "n": 563, "laws": 0, "ts": "2026-08-03 08:02 UTC"}
 {"id": "/documentation/UIKit/UIFocusEnvironment/focusGroupIdentifier", "sha": "145c3782bc84f03716497ca1101d12a62ea74f41a8faca4704fc2875916bb737", "sieve": 2, "t": "focusGroupIdentifier", "n": 66, "laws": 0, "ts": "2026-08-03 08:08 UTC"}
 {"id": "/documentation/UIKit/UITouch", "sha": "b343199280e832ad7be4089c137fc02728784957c94a2802ec1881705d9e1703", "sieve": 2, "t": "UITouch", "n": 1921, "laws": 0, "ts": "2026-08-03 08:08 UTC"}
+{"id": "/documentation/activitykit/alertconfiguration/sound", "sha": "6831f4e5c3a533751e960b914fba46d161f3716b67417a69cca67f752eef62e7", "sieve": 2, "t": "sound", "n": 85, "laws": 0, "ts": "2026-08-03 18:58 UTC"}
+{"id": "/documentation/uikit/nslayoutconstraint/multiplier", "sha": "3c60a81ef61841177262d12d9ae21b66afb9fcdce43dee029ebec9ea7c63ea5e", "sieve": 2, "t": "multiplier", "n": 79, "laws": 0, "ts": "2026-08-03 19:07 UTC"}
+{"id": "/documentation/uikit/uiimagereader-c.class/imagewithcontentsoffileurl:", "sha": "f9791eb758621d5e5bbd8c3e128b8032808001ba093ba7d8584beea5860951ec", "sieve": 2, "t": "imageWithContentsOfFileURL:", "n": 105, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
+{"id": "/documentation/uikit/uicolor/systemgray2", "sha": "848a85c55260ce8754f9bd5f513db281515a25693916fcf0bc1a340fdf236d87", "sieve": 2, "t": "systemGray2", "n": 238, "laws": 0, "ts": "2026-08-03 19:23 UTC"}

@@ -4,7 +4,7 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 3686 |
+| uikit | 3859 |
 | swiftui | 2609 |
 | appkit | 2397 |
 | appintents | 1688 |
@@ -14,8 +14,8 @@
 | xcode | 954 |
 | foundation | 850 |
 | metal | 757 |
+| big7 | 730 |
 | avfoundation | 685 |
-| big7 | 683 |
 | visionos | 655 |
 | technotes | 616 |
 | swift | 610 |
@@ -62,7 +62,7 @@
 | automaticassessmentconfiguration | 96 |
 | corelocation | 93 |
 | corespotlight | 90 |
-| activitykit | 87 |
+| activitykit | 89 |
 | applemapsserverapi | 87 |
 | audiodriverkit | 86 |
 | coreml | 84 |
@@ -345,4 +345,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 32625 · фреймворков: 340
+Итого законов: 32847 · фреймворков: 340

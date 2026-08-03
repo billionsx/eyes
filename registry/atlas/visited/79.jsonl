@@ -151,3 +151,6 @@
 {"id": "/documentation/appkit/function-key-unicode-values", "sha": "c46c16b443d5b78103238a51a9dbdbcdd168e2f571b5f009047f49ee3cbffe04", "sieve": 2, "t": "Function-Key Unicode Values", "n": 2075, "laws": 0, "ts": "2026-08-03 06:45 UTC"}
 {"id": "/documentation/webkit/webview-swift.class/changecolor(_:)", "sha": "6b6c338284106dc53a6c4062fd7b71004b063289f2d3c03e6d99e72d802ab74b", "sieve": 2, "t": "changeColor(_:)", "n": 129, "laws": 0, "ts": "2026-08-03 07:47 UTC"}
 {"id": "/documentation/webkit/webview-swift.class/mimetypesshownashtml()", "sha": "f24bc8d03d92b57bf75830dacc638fc97b429ea0f1605262aa247b93cf5ded17", "sieve": 2, "t": "mimeTypesShownAsHTML()", "n": 166, "laws": 0, "ts": "2026-08-03 07:48 UTC"}
+{"id": "/documentation/uikit/uidropoperation/move", "sha": "c19be1a82df5a9c165086748d2a9268d8958fed498827e415da6dc8a92e7b9bd", "sieve": 2, "t": "UIDropOperation.move", "n": 615, "laws": 0, "ts": "2026-08-03 19:08 UTC"}
+{"id": "/documentation/uikit/uiprintinfo/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-03 19:14 UTC"}
+{"id": "/documentation/uikit/uicolor/lightgray", "sha": "d111fe096fa3a6b30037251b654796ecfec08de1cd5219c3bfef80239293f4b4", "sieve": 2, "t": "lightGray", "n": 68, "laws": 0, "ts": "2026-08-03 19:23 UTC"}

@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 32625 · кандидатов: 46 · из них со ссылкой на свод правил: 35
+Норм просмотрено: 32847 · кандидатов: 48 · из них со ссылкой на свод правил: 35
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -46,12 +46,14 @@
 | opacity | 50 % | none | 🌐 universal | 3 | 3 | нет |
 | opacity | 100 % | none | 🌐 universal | 2 | 4 | нет |
 | font-size | 44 pt | none | 🌐 universal | 2 | 2 | нет |
+| line-height | 2 pt | none | 🌐 universal | 2 | 2 | нет |
+| margin / padding | 20 pt | none | 🌐 universal | 2 | 2 | нет |
 | margin / padding | 600 ms | none | 🌐 universal | 2 | 2 | нет |
 | opacity | 2048 px | none | 🌐 universal | 1 | 2 | нет |
 | border-radius | 6 pt | none | ⚠️ watchos | 1 | 1 | нет |
 | line-height | 10 pt | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 8 pt | none | 🌐 universal | 1 | 1 | нет |
-| margin / padding | 20 pt | none | 🌐 universal | 1 | 1 | нет |
+| margin / padding | 20 % | none | 🌐 universal | 1 | 1 | нет |
 | opacity | 10 % | none | 🌐 universal | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 🌐 universal | 1 | 1 | нет |
 
@@ -133,7 +135,7 @@
   - «A value of means 100% transparency, while a value of means 100% opacity.»
 - **font-size 44 pt** (none) — https://developer.apple.com/documentation/appkit/nscollectionlayoutdimension, https://developer.apple.com/documentation/uikit/nscollectionlayoutdimension
   - «Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at run»
-- **margin / padding 600 ms** (none) — https://developer.apple.com/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time, https://developer.apple.com/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time
-  - «To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel di»
-- **opacity 2048 px** (none) — https://developer.apple.com/documentation/realitykit/reducing-gpu-utilization-in-your-realitykit-app
-  - «For example, a texture describing a base color with four channels — one for each of red, green, blue, and alpha — stored in a usdz file as a PNG with »
+- **line-height 2 pt** (none) — https://developer.apple.com/documentation/uikit/uifontdescriptor/symbolictraits-swift.struct/traitlooseleading, https://developer.apple.com/documentation/uikit/uifontdescriptor/symbolictraits-swift.struct/traittightleading
+  - «For fonts that you create using , loose leading adds 2 points to the current leading value.»
+- **margin / padding 20 pt** (none) — https://developer.apple.com/documentation/uikit/nscollectionlayoutcontainer/contentinsets, https://developer.apple.com/documentation/WidgetKit/DynamicIsland/contentMargins(_:_:for:)
+  - «For example, a top content inset of adds 20 points of space between the top of the layout and the top of its container.»

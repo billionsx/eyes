@@ -150,3 +150,7 @@
 {"id": "/documentation/webkit/wk_nullable_result", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "WK_NULLABLE_RESULT", "n": 0, "laws": 0, "ts": "2026-08-03 07:50 UTC"}
 {"id": "/documentation/compositorservices/cp_object_decl_3", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CP_OBJECT_DECL_3", "n": 0, "laws": 0, "ts": "2026-08-03 07:53 UTC"}
 {"id": "/documentation/passkit/pkpaymentrequest/shippingaddress", "sha": "990ea44e5149a0a0371fd85da41f63d4791fb3a8fc31790360a84a0ab395d6ac", "sieve": 2, "t": "shippingAddress", "n": 239, "laws": 0, "ts": "2026-08-03 08:03 UTC"}
+{"id": "/documentation/uikit/uidocument/creationintent/init(rawvalue:)", "sha": "3f6a0b4a51134bb5f5effcb427dd41ebae2a9857dccfc8a719d9ccf189052444", "sieve": 2, "t": "init(rawValue:)", "n": 64, "laws": 0, "ts": "2026-08-03 19:11 UTC"}
+{"id": "/documentation/uikit/uidocument/saveoperation/forcreating", "sha": "761daff0e7aeb6fabb3de14b9bf915911926e7d81b88640b7fa7e0a753ba36b4", "sieve": 2, "t": "UIDocument.SaveOperation.forCreating", "n": 47, "laws": 0, "ts": "2026-08-03 19:11 UTC"}
+{"id": "/documentation/uikit/uiwindow/level/alert", "sha": "5854da38478853f867bc250ce8717fd524fbc20d71e90de28117563952a1bd5b", "sieve": 2, "t": "alert", "n": 97, "laws": 0, "ts": "2026-08-03 19:13 UTC"}
+{"id": "/documentation/uikit/nsuiviewtoolbaritem/uiview", "sha": "af0da03a0a5b94ae6d12f476b1c739ce37ff78801e6e0f23826e76369ba65e20", "sieve": 2, "t": "uiView", "n": 44, "laws": 0, "ts": "2026-08-03 19:15 UTC"}

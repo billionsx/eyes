@@ -158,3 +158,4 @@
 {"id": "/documentation/CompositorServices/LayerRenderer/Drawable", "sha": "fb248dbfa6a927444195c8f5a7fb361c5046cc6a9da8c11f0df48d958060c1c4", "sieve": 2, "t": "LayerRenderer.Drawable", "n": 1850, "laws": 0, "ts": "2026-08-03 07:52 UTC"}
 {"id": "/documentation/compositorservices/cp_object_decl_base", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CP_OBJECT_DECL_BASE", "n": 0, "laws": 0, "ts": "2026-08-03 07:53 UTC"}
 {"id": "/documentation/compositorservices/layerrenderer/drawable/trackingarea/rendervalue-swift.struct/invalid", "sha": "0ecf3b67417932dd066bd395cda60a09fe2e650506bc0a9183d634cf6661cd6a", "sieve": 2, "t": "invalid", "n": 155, "laws": 0, "ts": "2026-08-03 07:55 UTC"}
+{"id": "/documentation/UIKit/UIView/bounds", "sha": "be907b3cf2e1ae61885146fe0982b6587976aa3fc7bda27617d69e8a17c630c6", "sieve": 2, "t": "bounds", "n": 665, "laws": 0, "ts": "2026-08-03 19:06 UTC"}

@@ -1598,3 +1598,36 @@
 ### · big7-бриф 2026-W32
 - положений в брифе 633 · рамок выросло 13
 
+### 2026-08-03 19:26 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 201 · законов добыто 175 · изменилось 333
+- фронтир 69560 · всего пройдено 41200 · библиотека 32847 законов / 340 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 33405)
+- закон изменился: /documentation/visionOS/understanding-the-realitykit-modular-architecture · «Understanding the modular architecture of RealityKit»
+- закон изменился: /documentation/visionOS/designing-no-code-games-in-reality-composer-pro-3 · «Designing no-code games with Reality Composer Pro 3»
+- закон изменился: /documentation/visionOS/displaying-text-in-visionOS · «Displaying text in visionOS»
+- закон изменился: /documentation/visionos/embedding-controls-in-an-immersive-space · «Embedding controls in an immersive space»
+- закон изменился: /documentation/visionOS/working-with-generic-spatial-accessories · «Working with generic spatial accessories»
+- закон изменился: /documentation/visionOS/diorama · «Diorama»
+- закон изменился: /documentation/xcode/capturing-a-metal-workload-in-xcode · «Capturing a Metal workload in Xcode»
+- закон изменился: /documentation/xcode/measuring-the-gpus-use-of-memory-bandwidth · «Measuring the GPU’s use of memory bandwidth»
+- закон изменился: /documentation/xcode/overflow-and-underflow-of-buffers · «Overflow and underflow of buffers»
+- закон изменился: /documentation/xcode/inspecting-shaders · «Inspecting shaders»
+- закон изменился: /documentation/xcode/reducing-disk-writes · «Reducing disk writes»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 59 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 209 · находок 28
+- https://ethnomir.app/steps: элементов 87 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

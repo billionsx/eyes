@@ -143,3 +143,5 @@
 {"id": "/documentation/activitykit/activity/pushtoken", "sha": "b3a052ce2be00a8b4ad7688565708e42bdc3424979d28fa47dc3f5179bb15b24", "sieve": 2, "t": "pushToken", "n": 323, "laws": 0, "ts": "2026-08-03 07:39 UTC"}
 {"id": "/documentation/webkit/wknavigationactionpolicy/allow", "sha": "ceb47fabd7707bfc504ba42c288e648f9ed717700e80ce9ef9a5579df080a5b4", "sieve": 2, "t": "WKNavigationActionPolicy.allow", "n": 33, "laws": 0, "ts": "2026-08-03 07:46 UTC"}
 {"id": "/documentation/webkit/wkpreferences", "sha": "0442fc2b09bb45b5fd231b3a4337e4244edaada67b5ac7a2e1bc174482883a55", "sieve": 2, "t": "WKPreferences", "n": 915, "laws": 1, "ts": "2026-08-03 07:46 UTC"}
+{"id": "/documentation/uikit/uitextselectionhandleview/customshape", "sha": "493bd309767d5f40804ac4a3a3f64a304a32096fd56133487e768fdc619108f6", "sieve": 2, "t": "customShape", "n": 62, "laws": 0, "ts": "2026-08-03 19:05 UTC"}
+{"id": "/documentation/uikit/uiprintformatter/perpagecontentinsets", "sha": "17ce20e5ee7ca082e4edfd9ffbdf0a1ae22774646a2387a043f4bc7c840aff07", "sieve": 2, "t": "perPageContentInsets", "n": 524, "laws": 0, "ts": "2026-08-03 19:14 UTC"}

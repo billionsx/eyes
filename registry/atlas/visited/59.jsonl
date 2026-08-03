@@ -147,3 +147,6 @@
 {"id": "/documentation/webkit/wknavigationdelegate/webview(_:didfinish:)", "sha": "3f7d1ada9c67911e76c8c71e522a069b699e11c6e734fa65c1fd7a5ca48d7eb4", "sieve": 2, "t": "webView(_:didFinish:)", "n": 47, "laws": 0, "ts": "2026-08-03 07:46 UTC"}
 {"id": "/documentation/compositorservices/frames", "sha": "61f1c26cdc78366aabe86efdb8d7d9dfeae3596f594a359af75dabbefedda632", "sieve": 2, "t": "Frames", "n": 1674, "laws": 0, "ts": "2026-08-03 07:54 UTC"}
 {"id": "/documentation/dockkit/dockaccessory/firmwareversion", "sha": "f38b295119dcac36c64b33982c14ec77f4f3113eab21521702e4902e2df6378d", "sieve": 2, "t": "firmwareVersion", "n": 136, "laws": 0, "ts": "2026-08-03 08:05 UTC"}
+{"id": "/documentation/uikit/uitabbaritemappearance/init(coder:)", "sha": "56ab636e34572c7c886103e984e12ad46364057494567b1e202f84d356bd44bf", "sieve": 2, "t": "init(coder:)", "n": 56, "laws": 0, "ts": "2026-08-03 19:10 UTC"}
+{"id": "/documentation/uikit/uifontdescriptor/symbolictraits-swift.struct/classoldstyleserifs", "sha": "badc20766d67ee80e38b442c6c38edbee1b38c677bed6af83a85b51940b4cac8", "sieve": 2, "t": "classOldStyleSerifs", "n": 105, "laws": 0, "ts": "2026-08-03 19:17 UTC"}
+{"id": "/documentation/uikit/uicolor/gray", "sha": "de60846d989945ce4888a8d164c7728a8cac1082a33bbf89513e5ef2cc562746", "sieve": 2, "t": "gray", "n": 64, "laws": 0, "ts": "2026-08-03 19:23 UTC"}

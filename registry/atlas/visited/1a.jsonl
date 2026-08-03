@@ -152,3 +152,5 @@
 {"id": "/documentation/activitykit/activityuidismissalpolicy", "sha": "1f77beaeb921d1d72d66cf93a03ee5e8b14af163c1e07ca4afd9aa224c89537e", "sieve": 2, "t": "ActivityUIDismissalPolicy", "n": 147, "laws": 0, "ts": "2026-08-03 07:40 UTC"}
 {"id": "/documentation/webkit/webview-swift.class/mainframetitle", "sha": "549de928eb6e9e38fbfe5fe7c9246184fd189e651ea6fece09281a1e688a1d6b", "sieve": 2, "t": "mainFrameTitle", "n": 127, "laws": 0, "ts": "2026-08-03 07:48 UTC"}
 {"id": "/documentation/WidgetKit/DynamicIsland/contentMargins(_:_:for:)", "sha": "d6191399882f690aa2316e0d30c239d79d201a57d31991629f42769f897ec90b", "sieve": 2, "t": "contentMargins(_:_:for:)", "n": 817, "laws": 2, "ts": "2026-08-03 07:55 UTC"}
+{"id": "/documentation/uikit/uifontdescriptor/withmatrix(_:)", "sha": "6475500fe2f3840882d7f68d7a4d81caa6809c6f434b790141362e53fdf143ff", "sieve": 2, "t": "withMatrix(_:)", "n": 150, "laws": 0, "ts": "2026-08-03 19:17 UTC"}
+{"id": "/documentation/uikit/nscollectionlayoutenvironment/container", "sha": "8ce7eecf4097cfe919693d0b50b4d007ef2aaebf464e6f4ee0e11a17c3c19c3e", "sieve": 2, "t": "container", "n": 78, "laws": 0, "ts": "2026-08-03 19:19 UTC"}
