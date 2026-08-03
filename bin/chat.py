@@ -107,8 +107,28 @@ def cmd_files(adapter: dict, targets: list) -> int:
         print("в паспорте нет глобов — судить нечего")
         return 2
     # Куда лечь фрагменту, чтобы глобы паспорта его увидели.
-    base = globs[0].split("**")[0].rstrip("/")
+    bases = [g.split("**")[0].rstrip("/") for g in globs]
     tmp = Path(tempfile.mkdtemp())
+
+    def адрес(f: Path) -> Path:
+        """Куда положить файл во временном дереве.
+
+        Подкаталоги сохраняются намеренно. Укладка по одному лишь имени файла
+        врала дважды: печатала адрес находки, указывающий на ЧУЖОЙ файл,
+        и — хуже — затирала однофамильца. В App Router каждый маршрут
+        называется page.tsx, поэтому обход двух маршрутов отчитывался
+        за два файла, а судил один: молчание выдавалось за чистоту.
+        """
+        try:
+            rel = f.resolve().relative_to(Path.cwd().resolve())
+        except ValueError:                       # файл вне рабочего каталога
+            rel = Path(f.name)
+        for base in bases:                       # снять общую часть своего глоба
+            частей = Path(base).parts
+            if rel.parts[:len(частей)] == частей:
+                return tmp / base / Path(*rel.parts[len(частей):])
+        return tmp / bases[0] / rel
+
     try:
         n = 0
         for t in targets:
@@ -119,7 +139,13 @@ def cmd_files(adapter: dict, targets: list) -> int:
                                                        ".jsx", ".js", ".vue",
                                                        ".swift"):
                     continue
-                dst = tmp / base / f.name
+                dst = адрес(f)
+                if dst.exists():
+                    # Затереть — значит засудить один файл вместо двух и
+                    # отчитаться за оба. Лучше остановиться и сказать.
+                    print(f"два файла метят в один адрес обхода: {f} — "
+                          "обход прерван, иначе один был бы пропущен молча")
+                    return 2
                 dst.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(f, dst)
                 n += 1
