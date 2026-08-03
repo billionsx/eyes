@@ -2,9 +2,7 @@
  "done": [
   "/design/human-interface-guidelines/color",
   "/design/human-interface-guidelines/dark-mode",
-  "/design/human-interface-guidelines/materials"
- ],
- "front": [
+  "/design/human-interface-guidelines/materials",
   "/design/human-interface-guidelines/accessibility",
   "/design/human-interface-guidelines/complications",
   "/design/human-interface-guidelines/foundations",
@@ -13,6 +11,40 @@
   "/design/human-interface-guidelines/typography",
   "/design/human-interface-guidelines/sliders",
   "/design/human-interface-guidelines/toggles"
+ ],
+ "front": [
+  "/design/human-interface-guidelines/inclusion",
+  "/design/human-interface-guidelines/keyboards",
+  "/design/human-interface-guidelines/playing-haptics",
+  "/design/human-interface-guidelines/siri",
+  "/design/human-interface-guidelines/voiceover",
+  "/design/human-interface-guidelines/always-on",
+  "/design/human-interface-guidelines/components",
+  "/design/human-interface-guidelines/system-experiences",
+  "/design/human-interface-guidelines/watch-faces",
+  "/design/human-interface-guidelines/widgets",
+  "/design/human-interface-guidelines/app-icons",
+  "/design/human-interface-guidelines/branding",
+  "/design/human-interface-guidelines/icons",
+  "/design/human-interface-guidelines/images",
+  "/design/human-interface-guidelines/immersive-experiences",
+  "/design/human-interface-guidelines/layout",
+  "/design/human-interface-guidelines/motion",
+  "/design/human-interface-guidelines/privacy",
+  "/design/human-interface-guidelines/right-to-left",
+  "/design/human-interface-guidelines/spatial-layout",
+  "/design/human-interface-guidelines/writing",
+  "/design/human-interface-guidelines/disclosure-controls",
+  "/design/human-interface-guidelines/navigation-and-search",
+  "/design/human-interface-guidelines/split-views",
+  "/design/human-interface-guidelines/tab-bars",
+  "/design/human-interface-guidelines/labels",
+  "/design/human-interface-guidelines/pickers",
+  "/design/human-interface-guidelines/playing-audio",
+  "/design/human-interface-guidelines/selection-and-input",
+  "/design/human-interface-guidelines/steppers",
+  "/design/human-interface-guidelines/text-fields",
+  "/design/human-interface-guidelines/pop-up-buttons"
  ],
  "harvested": 0
 }
