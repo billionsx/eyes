@@ -76,3 +76,568 @@
 {"id": "/design/human-interface-guidelines/materials", "law": "Date: August 6, 2024 · Changes: Added platform-specific art."}
 {"id": "/design/human-interface-guidelines/materials", "law": "Date: December 5, 2023 · Changes: Updated descriptions of the various material types, and clarified terms related to vibrancy and material thickness."}
 {"id": "/design/human-interface-guidelines/materials", "law": "Date: June 5, 2023 · Changes: Added guidance on using materials to provide context and orientation in watchOS apps."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: iOS, iPadOS · Default size: 17 pt · Minimum size: 11 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: macOS · Default size: 13 pt · Minimum size: 10 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: tvOS · Default size: 29 pt · Minimum size: 23 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: visionOS · Default size: 17 pt · Minimum size: 12 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: watchOS · Default size: 16 pt · Minimum size: 12 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Text size: Up to 17 pts · Text weight: All · Minimum contrast ratio: 4.5:1"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Text size: 18 pts · Text weight: All · Minimum contrast ratio: 3:1"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Text size: All · Text weight: Bold · Minimum contrast ratio: 3:1"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: iOS, iPadOS · Default control size: 44x44 pt · Minimum control size: 28x28 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: macOS · Default control size: 28x28 pt · Minimum control size: 20x20 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: tvOS · Default control size: 66x66 pt · Minimum control size: 56x56 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: visionOS · Default control size: 60x60 pt · Minimum control size: 28x28 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Platform: watchOS · Default control size: 44x44 pt · Minimum control size: 28x28 pt"}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Date: June 9, 2025 · Changes: Added guidance and links for Assistive Access, Switch Control, and Accessibility Nutrition Labels."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Date: March 7, 2025 · Changes: Expanded and refined all guidance. Moved Dynamic Type guidance to the Typography page, and moved VoiceOver guidance to a new VoiceOver page."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Date: June 10, 2024 · Changes: Added a link to Apple’s Unity plug-ins for supporting Dynamic Type."}
+{"id": "/design/human-interface-guidelines/accessibility", "law": "Date: December 5, 2023 · Changes: Updated visionOS Zoom lens artwork."}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Image · 40mm: 42x42 pt (84x84 px @2x) · 41mm: 44.5x44.5 pt (89x89 px @2x) · 44mm: 47x47 pt (94x94 px @2x) · 45mm/49mm: 50x50 pt (100x100 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Closed gauge · 40mm: 27x27 pt (54x54 px @2x) · 41mm: 28.5x28.5 pt (57x57 px @2x) · 44mm: 31x31 pt (62x62 px @2x) · 45mm/49mm: 32x32 pt (64x64 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Open gauge · 40mm: 11x11 pt (22x22 px @2x) · 41mm: 11.5x11.5 pt (23x23 px @2x) · 44mm: 12x12 pt (24x24 px @2x) · 45mm/49mm: 13x13 pt (26x26 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Stack (not text) · 40mm: 28x14 pt (56x28 px @2x) · 41mm: 29.5x15 pt (59X30 px @2x) · 44mm: 31x16 pt (62x32px @ 2x) · 45mm/49mm: 33.5x16.5 pt (67x33 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Image · 40mm: 120x120 pt (240x240 px @2x) · 41mm: 127x127 pt (254x254 px @2x) · 44mm: 132x132 pt (264x264 px @2x) · 45mm/49mm: 143x143 pt (286x286 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Open gauge · 40mm: 31x31 pt (62x62 px @2x) · 41mm: 33x33 pt (66x66 px @2x) · 44mm: 33x33 pt (66x66 px @2x) · 45mm/49mm: 37x37 pt (74x74 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Closed gauge · 40mm: 77x77 pt (154x154 px @2x) · 41mm: 81.5x81.5 (163x163 px @2x) · 44mm: 87x87 pt (174x174 px @2x) · 45mm/49mm: 91.5x91.5 (183x183 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Stack · 40mm: 80x40 pt (160x80 px @2x) · 41mm: 85x42 (170x84 px @2x) · 44mm: 87x44 pt (174x88 px @2x) · 45mm/49mm: 95x48 pt (190x96 px @2x )"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Layout: Circular · 38mm: – · 40mm/42mm: 42x42 pt (84x84 px @2x) · 41mm: 44.5x44.5 pt (89x89 px @2x) · 44mm: 47x47 pt (94x94 px @2x) · 45mm/49mm: 50x50 pt (100x100 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Layout: Bezel · 38mm: – · 40mm/42mm: 42x42 pt (84x84 px @2x) · 41mm: 44.5x44.5 pt (89x89 px @2x) · 44mm: 47x47 pt (94x94 px @2x) · 45mm/49mm: 50x50 pt (100x100 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Layout: Extra Large · 38mm: – · 40mm/42mm: 120x120 pt (240x240 px @2x) · 41mm: 127x127 pt (254x254 px @2x) · 44mm: 132x132 pt (264x264 px @2x) · 45mm/49mm: 143x143 pt (286x286 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Circular · 40mm: 32x32 pt (64x64 px @2x) · 41mm: 34x34 pt (68x68 px @2x) · 44mm: 36x36 pt (72x72 px @2x) · 45mm/49mm: 38x38 pt (76x76 px @2x )"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Gauge · 40mm: 20x20 pt (40x40 px @2x) · 41mm: 21x21 pt (42x42 px @2x) · 44mm: 22x22 pt (44x44 px @2x) · 45mm/49mm: 24x24 pt (48x48 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Text · 40mm: 20x20 pt (40x40 px @2x) · 41mm: 21x21 pt (42x42 px @2x) · 44mm: 22x22 pt (44x44 px @2x) · 45mm/49mm: 24x24 pt (48x48 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "38mm: – · 40mm/42mm: 20x20 pt (40x40 px @2x) · 41mm: 21x21 pt (42x42 px @2x) · 44mm: 22x22 pt (44x44 px @2x) · 45mm/49mm: 24x24 pt (48x48 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Flat · 38mm: 9-21x9 pt (18-42x18 px @2x) · 40mm/42mm: 10-22x10 pt (20-44x20 px @2x) · 41mm: 10.5-23.5x21 pt (21-47x21 @2x) · 44mm: N/A · 45mm/49mm: 12-26x12 pt (24-52x24 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Ring · 38mm: 14x14 pt (28x28 px @2x) · 40mm/42mm: 14x14 pt (28x28 px @2x) · 41mm: 15x15 pt (30x30 px @2x) · 44mm: 16x16 pt (32x32 px @2x) · 45mm/49mm: 16.5x16.5 pt (33x33 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Square · 38mm: 20x20 pt (40x40 px @2x) · 40mm/42mm: 22x22 pt (44x44 px @2x) · 41mm: 23.5x23.5 pt (47x47 px @2x) · 44mm: 25x25 pt (50x50 px @2x) · 45mm/49mm: 26x26 pt (52x52 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Flat · 38mm: 9-21x9 pt (18-42x18 px @2x) · 40mm/42mm: 10-22x10 pt (20-44x20 px @2x) · 41mm: 10.5-23.5x10.5 pt (21-47x21 px @2x) · 44mm: N/A · 45mm/49mm: 12-26x12 pt (24-52x24 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Large image with title * · 40mm: 150x47 pt (300x94 px @2x) · 41mm: 159x50 pt (318x100 px @2x) · 44mm: 171x54 pt (342x108 px @2x) · 45mm/49mm: 178.5x56 pt (357x112 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Large image without title * · 40mm: 162x69 pt (324x138 px @2x) · 41mm: 171.5x73 pt (343x146 px @2x) · 44mm: 184x78 pt (368x156 px @2x) · 45mm/49mm: 193x82 pt (386x164 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Standard body · 40mm: 12x12 pt (24x24 px @2x) · 41mm: 12.5x12.5 pt (25x25 px @2x) · 44mm: 13.5x13.5 pt (27x27 px @2x) · 45mm/49mm: 14.5x14.5 pt (29x29 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Text gauge · 40mm: 12x12 pt (24x24 px @2x) · 41mm: 12.5x12.5 pt (25x25 px @2x) · 44mm: 13.5x13.5 pt (27x27 px @2x) · 45mm/49mm: 14.5x14.5 pt (29x29 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Ring · 38mm: 20x20 pt (40x40 px @2x) · 40mm/42mm: 22x22 pt (44x44 px @2x) · 41mm: 23.5x23.5 pt (47x47 px @2x) · 44mm: 24x24 pt (48x48 px @2x) · 45mm/49mm: 26x26 pt (52x52 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Simple · 38mm: 16x16 pt (32x32 px @2x) · 40mm/42mm: 18x18 pt (36x36 px @2x) · 41mm: 19x19 pt (38x38 px @2x) · 44mm: 20x20 pt (40x40 px @2x) · 45mm/49mm: 21.5x21.5 pt (43x43 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Stack · 38mm: 16x7 pt (32x14 px @2x) · 40mm/42mm: 17x8 pt (34x16 px @2x) · 41mm: 18x8.5 pt (36x17 px @2x) · 44mm: 19x9 pt (38x18 px @2x) · 45mm/49mm: 19x9.5 pt (38x19 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Placeholder · 38mm: 16x16 pt (32x32 px @2x) · 40mm/42mm: 18x18x pt (36x36 px @2x) · 41mm: 19x19 pt (38x38 px @2x) · 44mm: 20x20 pt (40x40 px @2x) · 45mm/49mm: 21.5x21.5 pt (43x43 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Ring · 38mm: 18x18 pt (36x36 px @2x) · 40mm/42mm: 19x19 pt (38x38 px @2x) · 41mm: 20x20 pt (40x40 px @2x) · 44mm: 21x21 pt (42x42 px @2x) · 45mm/49mm: 22.5x22.5 pt (45x45 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Simple · 38mm: 26x26 pt (52x52 px @2x) · 40mm/42mm: 29x29 pt (58x58 px @2x) · 41mm: 30.5x30.5 pt (61x61 px @2x) · 44mm: 32x32 pt (64x64 px @2x) · 45mm/49mm: 34.5x34.5 pt (69x69 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Stack · 38mm: 26x14 pt (52x28 px @2x) · 40mm/42mm: 29x15 pt (58x30 px @2x) · 41mm: 30.5x16 pt (61x32 px @2x) · 44mm: 32x17 pt (64x34 px @2x) · 45mm/49mm: 34.5x18 pt (69x36 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Placeholder · 38mm: 26x26 pt (52x52 px @2x) · 40mm/42mm: 29x29 pt (58x58 px @2x) · 41mm: 30.5x30.5 pt (61x61 px @2x) · 44mm: 32x32 pt (64x64 px @2x) · 45mm/49mm: 34.5x34.5 pt (69x69 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Columns · 38mm: 11-32x11 pt (22-64x22 px @2x) · 40mm/42mm: 12-37x12 pt (24-74x24 px @2x) · 41mm: 12.5-39x12.5 pt (25-78x25 px @2x) · 44mm: 14-42x14 pt (28-84x28 px @2x) · 45mm/49mm: 14.5-44x14.5 pt (29-88x29 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Standard body · 38mm: 11-32x11 pt (22-64x22 px @2x) · 40mm/42mm: 12-37x12 pt (24-74x24 px @2x) · 41mm: 12.5-39x12.5 pt (25-78x25 px @2x) · 44mm: 14-42x14 pt (28-84x28 px @2x) · 45mm/49mm: 14.5-44x14.5 pt (29-88x29 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Content: Table · 38mm: 11-32x11 pt (22-64x22 px @2x) · 40mm/42mm: 12-37x12 pt (24-74x24 px @2x) · 41mm: 12.5-39x12.5 pt (25-78x25 px @2x) · 44mm: 14-42x14 pt (28-84x28 px @2x) · 45mm/49mm: 14.5-44x14.5 pt (29-88x29 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Ring · 38mm: 63x63 pt (126x126 px @2x) · 40mm/42mm: 66.5x66.5 pt (133x133 px @2x) · 41mm: 70.5x70.5 pt (141x141 px @2x) · 44mm: 73x73 pt (146x146 px @2x) · 45mm/49mm: 79x79 pt (158x158 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Simple · 38mm: 91x91 pt (182x182 px @2x) · 40mm/42mm: 101.5x101.5 pt (203x203 px @2x) · 41mm: 107.5x107.5 pt (215x215 px @2x) · 44mm: 112x112 pt (224x224 px @2x) · 45mm/49mm: 121x121 pt (242x242 px @2x )"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Stack · 38mm: 78x42 pt (156x84 px @2x) · 40mm/42mm: 87x45 pt (174x90 px @2x) · 41mm: 92x47.5 pt (184x95 px @2x) · 44mm: 96x51 pt (192x102 px @2x) · 45mm/49mm: 103.5x53.5 pt (207x107 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Image: Placeholder · 38mm: 91x91 pt (182x182 px @2x) · 40mm/42mm: 101.5x101.5 pt (203x203 px @2x) · 41mm: 107.5x107.5 pt (215x215 px @2x) · 44mm: 112x112 pt (224x224 px @2x) · 45mm/49mm: 121x121 pt (242x242 px @2x)"}
+{"id": "/design/human-interface-guidelines/complications", "law": "Date: October 24, 2023 · Changes: Replaced links to deprecated ClockKit documentation with links to WidgetKit documentation."}
+{"id": "/design/human-interface-guidelines/complications", "law": "Date: June 5, 2023 · Changes: Updated guidance for rectangular complications to support them as widgets in the Smart Stack."}
+{"id": "/design/human-interface-guidelines/complications", "law": "Date: September 14, 2022 · Changes: Added specifications for Apple Watch Ultra."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "Date: June 8, 2026 · Changes: Updated guidance for sidebar icon colors, and clarified guidance for the adaptable sidebar style."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "Date: June 9, 2025 · Changes: Added guidance for extending content beneath the sidebar."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "Date: August 6, 2024 · Changes: Updated guidance to include the SwiftUI adaptable sidebar style."}
+{"id": "/design/human-interface-guidelines/sidebars", "law": "Date: December 5, 2023 · Changes: Added artwork for iPadOS."}
+{"id": "/design/human-interface-guidelines/sf-symbols", "law": "Date: July 28, 2025 · Changes: Updated with guidance for Draw animations and gradient rendering in SF Symbols 7."}
+{"id": "/design/human-interface-guidelines/sf-symbols", "law": "Date: June 10, 2024 · Changes: Updated with guidance for new animations and features of SF Symbols 6."}
+{"id": "/design/human-interface-guidelines/sf-symbols", "law": "Date: June 5, 2023 · Changes: Added a new section on animations. Included animation guidance for custom symbols."}
+{"id": "/design/human-interface-guidelines/sf-symbols", "law": "Date: September 14, 2022 · Changes: Added a new section on variable color. Removed instructions on creating custom symbol paths, exporting templates, and layering paths, deferring to developer articles that cover these topics."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Control content · API: controlContentFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Label · API: labelFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Menu · API: menuFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Menu bar · API: menuBarFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Message · API: messageFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Palette · API: paletteFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Title · API: titleBarFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Tool tips · API: toolTipsFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Document text (user) · API: userFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Monospaced document text (user fixed pitch) · API: userFixedPitchFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: Bold system font · API: boldSystemFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Dynamic font variant: System font · API: systemFont(ofSize:)"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 31 · Leading (points): 38 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 25 · Leading (points): 31 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 19 · Leading (points): 24 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 17 · Leading (points): 22 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 14 · Leading (points): 19 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 14 · Leading (points): 19 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 13 · Leading (points): 18 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 12 · Leading (points): 16 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 12 · Leading (points): 16 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 11 · Leading (points): 13 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 11 · Leading (points): 13 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 32 · Leading (points): 39 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 26 · Leading (points): 32 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 20 · Leading (points): 25 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 18 · Leading (points): 23 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 15 · Leading (points): 20 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 15 · Leading (points): 20 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 14 · Leading (points): 19 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 13 · Leading (points): 18 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 33 · Leading (points): 40 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 27 · Leading (points): 33 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 21 · Leading (points): 26 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 19 · Leading (points): 24 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 16 · Leading (points): 21 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 16 · Leading (points): 21 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 15 · Leading (points): 20 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 14 · Leading (points): 19 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 34 · Leading (points): 41 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 28 · Leading (points): 34 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 22 · Leading (points): 28 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 20 · Leading (points): 25 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 17 · Leading (points): 22 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 17 · Leading (points): 22 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 16 · Leading (points): 21 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 15 · Leading (points): 20 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 13 · Leading (points): 18 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 12 · Leading (points): 16 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 36 · Leading (points): 43 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 30 · Leading (points): 37 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 24 · Leading (points): 30 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 22 · Leading (points): 28 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 19 · Leading (points): 24 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 19 · Leading (points): 24 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 18 · Leading (points): 23 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 17 · Leading (points): 22 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 15 · Leading (points): 20 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 14 · Leading (points): 19 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 13 · Leading (points): 18 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 38 · Leading (points): 46 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 32 · Leading (points): 39 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 26 · Leading (points): 32 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 24 · Leading (points): 30 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 21 · Leading (points): 26 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 21 · Leading (points): 26 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 20 · Leading (points): 25 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 19 · Leading (points): 24 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 17 · Leading (points): 22 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 16 · Leading (points): 21 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 15 · Leading (points): 20 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 40 · Leading (points): 48 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 34 · Leading (points): 41 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 28 · Leading (points): 34 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 26 · Leading (points): 32 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 23 · Leading (points): 29 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 23 · Leading (points): 29 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 22 · Leading (points): 28 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 21 · Leading (points): 28 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 19 · Leading (points): 24 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 18 · Leading (points): 23 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 17 · Leading (points): 22 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 44 · Leading (points): 52 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 38 · Leading (points): 46 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 34 · Leading (points): 41 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 31 · Leading (points): 38 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 28 · Leading (points): 34 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 28 · Leading (points): 34 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 26 · Leading (points): 32 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 25 · Leading (points): 31 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 23 · Leading (points): 29 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 22 · Leading (points): 28 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 20 · Leading (points): 25 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 48 · Leading (points): 57 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 43 · Leading (points): 51 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 39 · Leading (points): 47 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 37 · Leading (points): 44 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 33 · Leading (points): 40 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 33 · Leading (points): 40 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 32 · Leading (points): 39 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 30 · Leading (points): 37 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 27 · Leading (points): 33 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 26 · Leading (points): 32 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 24 · Leading (points): 30 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 52 · Leading (points): 61 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 48 · Leading (points): 57 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 44 · Leading (points): 52 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 43 · Leading (points): 51 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 40 · Leading (points): 48 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 40 · Leading (points): 48 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 38 · Leading (points): 46 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 36 · Leading (points): 43 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 33 · Leading (points): 40 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 32 · Leading (points): 39 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 29 · Leading (points): 35 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 56 · Leading (points): 66 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 53 · Leading (points): 62 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 50 · Leading (points): 59 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 49 · Leading (points): 58 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 47 · Leading (points): 56 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 47 · Leading (points): 56 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 44 · Leading (points): 52 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 42 · Leading (points): 50 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 38 · Leading (points): 46 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 37 · Leading (points): 44 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 34 · Leading (points): 41 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 60 · Leading (points): 70 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 58 · Leading (points): 68 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 56 · Leading (points): 66 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 55 · Leading (points): 65 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 53 · Leading (points): 62 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 53 · Leading (points): 62 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Callout · Weight: Regular · Size (points): 51 · Leading (points): 60 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Subhead · Weight: Regular · Size (points): 49 · Leading (points): 58 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote · Weight: Regular · Size (points): 44 · Leading (points): 52 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 43 · Leading (points): 51 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 40 · Leading (points): 48 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Large Title · Weight: Regular · Size (points): 26 · Line height (points): 32 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Title 1 · Weight: Regular · Size (points): 22 · Line height (points): 26 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Title 2 · Weight: Regular · Size (points): 17 · Line height (points): 22 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Title 3 · Weight: Regular · Size (points): 15 · Line height (points): 20 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Headline · Weight: Bold · Size (points): 13 · Line height (points): 16 · Emphasized weight: Heavy"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Body · Weight: Regular · Size (points): 13 · Line height (points): 16 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Callout · Weight: Regular · Size (points): 12 · Line height (points): 15 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Subheadline · Weight: Regular · Size (points): 11 · Line height (points): 14 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Footnote · Weight: Regular · Size (points): 10 · Line height (points): 13 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Caption 1 · Weight: Regular · Size (points): 10 · Line height (points): 13 · Emphasized weight: Medium"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Caption 2 · Weight: Medium · Size (points): 10 · Line height (points): 13 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Title 1 · Weight: Medium · Size (points): 76 · Leading (points): 96 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Title 2 · Weight: Medium · Size (points): 57 · Leading (points): 66 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Title 3 · Weight: Medium · Size (points): 48 · Leading (points): 56 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Headline · Weight: Medium · Size (points): 38 · Leading (points): 46 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Subtitle 1 · Weight: Regular · Size (points): 38 · Leading (points): 46 · Emphasized weight: Medium"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Callout · Weight: Medium · Size (points): 31 · Leading (points): 38 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Body · Weight: Medium · Size (points): 29 · Leading (points): 36 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Caption 1 · Weight: Medium · Size (points): 25 · Leading (points): 32 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Text style: Caption 2 · Weight: Medium · Size (points): 23 · Leading (points): 30 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 30 · Leading (points): 32.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 28 · Leading (points): 30.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 24 · Leading (points): 26.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 17 · Leading (points): 19.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 14 · Leading (points): 16.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 14 · Leading (points): 16.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 13 · Leading (points): 15.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 12 · Leading (points): 14.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 11 · Leading (points): 13.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 10 · Leading (points): 12.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 32 · Leading (points): 34.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 30 · Leading (points): 32.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 26 · Leading (points): 28.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 18 · Leading (points): 20.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 15 · Leading (points): 17.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 15 · Leading (points): 17.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 14 · Leading (points): 16.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 13 · Leading (points): 15.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 12 · Leading (points): 14.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 11 · Leading (points): 13.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 36 · Leading (points): 38.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 34 · Leading (points): 36.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 28 · Leading (points): 30.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 19 · Leading (points): 21.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 16 · Leading (points): 18.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 16 · Leading (points): 18.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 15 · Leading (points): 17.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 14 · Leading (points): 16.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 13 · Leading (points): 15.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 12 · Leading (points): 14.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 40 · Leading (points): 42.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 38 · Leading (points): 40.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 30 · Leading (points): 32.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 20 · Leading (points): 22.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 17 · Leading (points): 19.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 17 · Leading (points): 19.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 16 · Leading (points): 18.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 15 · Leading (points): 17.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 14 · Leading (points): 16.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 13 · Leading (points): 15.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 41 · Leading (points): 43.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 39 · Leading (points): 41.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 31 · Leading (points): 33.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 21 · Leading (points): 23.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 18 · Leading (points): 20.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 18 · Leading (points): 20.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 17 · Leading (points): 19.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 16 · Leading (points): 18.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 15 · Leading (points): 17.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 14 · Leading (points): 16.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 42 · Leading (points): 44.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 40 · Leading (points): 42.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 32 · Leading (points): 34.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 22 · Leading (points): 24.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 19 · Leading (points): 21.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 19 · Leading (points): 21.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 18 · Leading (points): 20.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 17 · Leading (points): 19.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 16 · Leading (points): 18.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 15 · Leading (points): 17.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 44 · Leading (points): 46.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 42 · Leading (points): 44.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 34 · Leading (points): 41 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 24 · Leading (points): 26.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 21 · Leading (points): 23.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 21 · Leading (points): 23.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 45 · Leading (points): 47.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 43 · Leading (points): 46 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 35 · Leading (points): 37.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 25 · Leading (points): 27.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 22 · Leading (points): 24.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 22 · Leading (points): 24.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 19 · Leading (points): 21.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 18 · Leading (points): 20.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 17 · Leading (points): 19.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 16 · Leading (points): 17.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Large Title · Weight: Regular · Size (points): 46 · Leading (points): 48.5 · Emphasized weight: Bold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 1 · Weight: Regular · Size (points): 44 · Leading (points): 47 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 2 · Weight: Regular · Size (points): 36 · Leading (points): 38.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Title 3 · Weight: Regular · Size (points): 26 · Leading (points): 28.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Headline · Weight: Semibold · Size (points): 23 · Leading (points): 25.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Body · Weight: Regular · Size (points): 23 · Leading (points): 25.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 1 · Weight: Regular · Size (points): 20 · Leading (points): 22.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Caption 2 · Weight: Regular · Size (points): 19 · Leading (points): 21.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 1 · Weight: Regular · Size (points): 18 · Leading (points): 20.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Style: Footnote 2 · Weight: Regular · Size (points): 17 · Leading (points): 19.5 · Emphasized weight: Semibold"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 6 · Tracking (1/1000 em): +41 · Tracking (points): +0.24"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 7 · Tracking (1/1000 em): +34 · Tracking (points): +0.23"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 8 · Tracking (1/1000 em): +26 · Tracking (points): +0.21"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 9 · Tracking (1/1000 em): +19 · Tracking (points): +0.17"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 10 · Tracking (1/1000 em): +12 · Tracking (points): +0.12"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 11 · Tracking (1/1000 em): +6 · Tracking (points): +0.06"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 12 · Tracking (1/1000 em): 0 · Tracking (points): 0.0"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 13 · Tracking (1/1000 em): -6 · Tracking (points): -0.08"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 14 · Tracking (1/1000 em): -11 · Tracking (points): -0.15"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 15 · Tracking (1/1000 em): -16 · Tracking (points): -0.23"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 16 · Tracking (1/1000 em): -20 · Tracking (points): -0.31"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 17 · Tracking (1/1000 em): -26 · Tracking (points): -0.43"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 18 · Tracking (1/1000 em): -25 · Tracking (points): -0.44"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 19 · Tracking (1/1000 em): -24 · Tracking (points): -0.45"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 20 · Tracking (1/1000 em): -23 · Tracking (points): -0.45"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 21 · Tracking (1/1000 em): -18 · Tracking (points): -0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 22 · Tracking (1/1000 em): -12 · Tracking (points): -0.26"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 23 · Tracking (1/1000 em): -4 · Tracking (points): -0.10"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 24 · Tracking (1/1000 em): +3 · Tracking (points): +0.07"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 25 · Tracking (1/1000 em): +6 · Tracking (points): +0.15"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 26 · Tracking (1/1000 em): +8 · Tracking (points): +0.22"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 27 · Tracking (1/1000 em): +11 · Tracking (points): +0.29"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 28 · Tracking (1/1000 em): +14 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 29 · Tracking (1/1000 em): +14 · Tracking (points): +0.40"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 30 · Tracking (1/1000 em): +14 · Tracking (points): +0.40"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 31 · Tracking (1/1000 em): +13 · Tracking (points): +0.39"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 32 · Tracking (1/1000 em): +13 · Tracking (points): +0.41"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 33 · Tracking (1/1000 em): +12 · Tracking (points): +0.40"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 34 · Tracking (1/1000 em): +12 · Tracking (points): +0.40"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 35 · Tracking (1/1000 em): +11 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 36 · Tracking (1/1000 em): +10 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 37 · Tracking (1/1000 em): +10 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 38 · Tracking (1/1000 em): +10 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 39 · Tracking (1/1000 em): +10 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 40 · Tracking (1/1000 em): +10 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 41 · Tracking (1/1000 em): +9 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 42 · Tracking (1/1000 em): +9 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 43 · Tracking (1/1000 em): +9 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 44 · Tracking (1/1000 em): +8 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 45 · Tracking (1/1000 em): +8 · Tracking (points): +0.35"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 46 · Tracking (1/1000 em): +8 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 47 · Tracking (1/1000 em): +8 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 48 · Tracking (1/1000 em): +8 · Tracking (points): +0.35"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 49 · Tracking (1/1000 em): +7 · Tracking (points): +0.33"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 50 · Tracking (1/1000 em): +7 · Tracking (points): +0.34"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 51 · Tracking (1/1000 em): +7 · Tracking (points): +0.35"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 52 · Tracking (1/1000 em): +6 · Tracking (points): +0.33"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 53 · Tracking (1/1000 em): +6 · Tracking (points): +0.31"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 54 · Tracking (1/1000 em): +6 · Tracking (points): +0.32"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 56 · Tracking (1/1000 em): +6 · Tracking (points): +0.30"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 58 · Tracking (1/1000 em): +5 · Tracking (points): +0.28"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 60 · Tracking (1/1000 em): +4 · Tracking (points): +0.26"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 62 · Tracking (1/1000 em): +4 · Tracking (points): +0.24"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 64 · Tracking (1/1000 em): +4 · Tracking (points): +0.22"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 66 · Tracking (1/1000 em): +3 · Tracking (points): +0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 68 · Tracking (1/1000 em): +2 · Tracking (points): +0.17"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 70 · Tracking (1/1000 em): +2 · Tracking (points): +0.14"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 72 · Tracking (1/1000 em): +2 · Tracking (points): +0.14"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 76 · Tracking (1/1000 em): +1 · Tracking (points): +0.07"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 80 · Tracking (1/1000 em): 0 · Tracking (points): 0"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 84 · Tracking (1/1000 em): 0 · Tracking (points): 0"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 88 · Tracking (1/1000 em): 0 · Tracking (points): 0"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 92 · Tracking (1/1000 em): 0 · Tracking (points): 0"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 96 · Tracking (1/1000 em): 0 · Tracking (points): 0"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 6 · Tracking (1/1000 em): +87 · Tracking (points): +0.51"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 7 · Tracking (1/1000 em): +80 · Tracking (points): +0.54"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 8 · Tracking (1/1000 em): +72 · Tracking (points): +0.57"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 9 · Tracking (1/1000 em): +65 · Tracking (points): +0.57"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 10 · Tracking (1/1000 em): +58 · Tracking (points): +0.57"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 11 · Tracking (1/1000 em): +52 · Tracking (points): +0.56"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 12 · Tracking (1/1000 em): +46 · Tracking (points): +0.54"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 13 · Tracking (1/1000 em): +40 · Tracking (points): +0.51"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 14 · Tracking (1/1000 em): +35 · Tracking (points): +0.48"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 15 · Tracking (1/1000 em): +30 · Tracking (points): +0.44"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 16 · Tracking (1/1000 em): +26 · Tracking (points): +0.41"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 17 · Tracking (1/1000 em): +22 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 18 · Tracking (1/1000 em): +21 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 19 · Tracking (1/1000 em): +20 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 20 · Tracking (1/1000 em): +18 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 21 · Tracking (1/1000 em): +17 · Tracking (points): +0.35"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 22 · Tracking (1/1000 em): +16 · Tracking (points): +0.34"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 23 · Tracking (1/1000 em): +16 · Tracking (points): +0.35"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 24 · Tracking (1/1000 em): +15 · Tracking (points): +0.35"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 25 · Tracking (1/1000 em): +14 · Tracking (points): +0.35"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 26 · Tracking (1/1000 em): +14 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 27 · Tracking (1/1000 em): +14 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 28 · Tracking (1/1000 em): +13 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 29 · Tracking (1/1000 em): +13 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 30 · Tracking (1/1000 em): +12 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 31 · Tracking (1/1000 em): +12 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 32 · Tracking (1/1000 em): +12 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 33 · Tracking (1/1000 em): +12 · Tracking (points): +0.39"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 34 · Tracking (1/1000 em): +12 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 36 · Tracking (1/1000 em): +11 · Tracking (points): +0.39"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 37 · Tracking (1/1000 em): +10 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 38 · Tracking (1/1000 em): +10 · Tracking (points): +0.39"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 40 · Tracking (1/1000 em): +10 · Tracking (points): +0.39"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 41 · Tracking (1/1000 em): +10 · Tracking (points): +0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 42 · Tracking (1/1000 em): +10 · Tracking (points): +0.39"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 45 · Tracking (1/1000 em): +8 · Tracking (points): +0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 49 · Tracking (1/1000 em): +8 · Tracking (points): +0.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 51 · Tracking (1/1000 em): +6 · Tracking (points): +0.32"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 58 · Tracking (1/1000 em): +4 · Tracking (points): +0.25"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 60 · Tracking (1/1000 em): +4 · Tracking (points): +0.23"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 62 · Tracking (1/1000 em): +4 · Tracking (points): +0.21"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 64 · Tracking (1/1000 em): +3 · Tracking (points): +0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 66 · Tracking (1/1000 em): +2 · Tracking (points): +0.16"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 68 · Tracking (1/1000 em): +2 · Tracking (points): +0.13"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 72 · Tracking (1/1000 em): +2 · Tracking (points): +0.11"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 80 · Tracking (1/1000 em): 0 · Tracking (points): 0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 84 · Tracking (1/1000 em): 0 · Tracking (points): 0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 88 · Tracking (1/1000 em): 0 · Tracking (points): 0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 92 · Tracking (1/1000 em): 0 · Tracking (points): 0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 96 · Tracking (1/1000 em): 0 · Tracking (points): 0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 6 · Tracking (1/1000 em): +40 · Tracking (points): +0.23"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 7 · Tracking (1/1000 em): +32 · Tracking (points): +0.22"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 8 · Tracking (1/1000 em): +25 · Tracking (points): +0.20"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 9 · Tracking (1/1000 em): +20 · Tracking (points): +0.18"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 10 · Tracking (1/1000 em): +16 · Tracking (points): +0.15"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 11 · Tracking (1/1000 em): +11 · Tracking (points): +.12"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 12 · Tracking (1/1000 em): +6 · Tracking (points): +0.07"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 13 · Tracking (1/1000 em): +4 · Tracking (points): +0.05"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 14 · Tracking (1/1000 em): +2 · Tracking (points): +0.03"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 15 · Tracking (1/1000 em): +0 · Tracking (points): +0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 16 · Tracking (1/1000 em): -2 · Tracking (points): -0.03"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 17 · Tracking (1/1000 em): -4 · Tracking (points): -0.07"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 18 · Tracking (1/1000 em): -6 · Tracking (points): -0.11"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 19 · Tracking (1/1000 em): -8 · Tracking (points): -0.15"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 20 · Tracking (1/1000 em): -10 · Tracking (points): -0.20"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 21 · Tracking (1/1000 em): -10 · Tracking (points): -0.21"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 22 · Tracking (1/1000 em): -10 · Tracking (points): -0.23"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 23 · Tracking (1/1000 em): -11 · Tracking (points): -0.25"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 24 · Tracking (1/1000 em): -11 · Tracking (points): -0.26"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 25 · Tracking (1/1000 em): -11 · Tracking (points): -0.27"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 26 · Tracking (1/1000 em): -12 · Tracking (points): -0.29"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 27 · Tracking (1/1000 em): -12 · Tracking (points): -0.32"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 28 · Tracking (1/1000 em): -12 · Tracking (points): -0.33"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 29 · Tracking (1/1000 em): -12 · Tracking (points): -0.34"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 30 · Tracking (1/1000 em): -12 · Tracking (points): -0.37"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 31 · Tracking (1/1000 em): -13 · Tracking (points): -0.39"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 32 · Tracking (1/1000 em): -13 · Tracking (points): -0.41"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 33 · Tracking (1/1000 em): -13 · Tracking (points): -0.42"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 34 · Tracking (1/1000 em): -14 · Tracking (points): -0.45"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 35 · Tracking (1/1000 em): -14 · Tracking (points): -0.48"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 36 · Tracking (1/1000 em): -14 · Tracking (points): -0.49"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 38 · Tracking (1/1000 em): -14 · Tracking (points): -0.52"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 40 · Tracking (1/1000 em): -14 · Tracking (points): -0.55"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 42 · Tracking (1/1000 em): -14 · Tracking (points): -0.57"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 44 · Tracking (1/1000 em): -14 · Tracking (points): -0.62"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 46 · Tracking (1/1000 em): -14 · Tracking (points): -0.65"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 48 · Tracking (1/1000 em): -14 · Tracking (points): -0.68"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 50 · Tracking (1/1000 em): -14 · Tracking (points): -0.71"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 52 · Tracking (1/1000 em): -14 · Tracking (points): -0.74"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 54 · Tracking (1/1000 em): -15 · Tracking (points): -0.79"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 58 · Tracking (1/1000 em): -15 · Tracking (points): -0.85"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 62 · Tracking (1/1000 em): -15 · Tracking (points): -0.91"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 66 · Tracking (1/1000 em): -15 · Tracking (points): -0.97"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 70 · Tracking (1/1000 em): -16 · Tracking (points): -1.06"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 72 · Tracking (1/1000 em): -16 · Tracking (points): -1.09"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 80 · Tracking (1/1000 em): -16 · Tracking (points): -1.21"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 88 · Tracking (1/1000 em): -16 · Tracking (points): -1.33"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 96 · Tracking (1/1000 em): -16 · Tracking (points): -1.50"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 100 · Tracking (1/1000 em): -16 · Tracking (points): -1.56"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 120 · Tracking (1/1000 em): -16 · Tracking (points): -1.88"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 140 · Tracking (1/1000 em): -16 · Tracking (points): -2.26"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 160 · Tracking (1/1000 em): -16 · Tracking (points): -2.58"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 180 · Tracking (1/1000 em): -17 · Tracking (points): -2.99"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 200 · Tracking (1/1000 em): -17 · Tracking (points): -3.32"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 220 · Tracking (1/1000 em): -18 · Tracking (points): -3.76"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 240 · Tracking (1/1000 em): -18 · Tracking (points): -4.22"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 260 · Tracking (1/1000 em): -18 · Tracking (points): -4.57"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 52 · Tracking (1/1000 em): +6 · Tracking (points): +0.31"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 53 · Tracking (1/1000 em): +6 · Tracking (points): +0.33"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 6 · Tracking (1/1000 em): +50 · Tracking (points): +0.29"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 7 · Tracking (1/1000 em): +30 · Tracking (points): +0.21"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 8 · Tracking (1/1000 em): +30 · Tracking (points): +0.23"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 9 · Tracking (1/1000 em): +30 · Tracking (points): +0.26"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 10 · Tracking (1/1000 em): +30 · Tracking (points): +0.29"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 11 · Tracking (1/1000 em): +24 · Tracking (points): +0.26"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 12 · Tracking (1/1000 em): +20 · Tracking (points): +0.23"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 13 · Tracking (1/1000 em): +16 · Tracking (points): +0.20"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 14 · Tracking (1/1000 em): +14 · Tracking (points): +0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 15 · Tracking (1/1000 em): +4 · Tracking (points): +0.06"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 16 · Tracking (1/1000 em): 0 · Tracking (points): 0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 18 · Tracking (1/1000 em): -8 · Tracking (points): -0.14"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 19 · Tracking (1/1000 em): -12 · Tracking (points): -0.22"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 20 · Tracking (1/1000 em): 0 · Tracking (points): 0.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 21 · Tracking (1/1000 em): -2 · Tracking (points): -0.04"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 22 · Tracking (1/1000 em): -4 · Tracking (points): -0.09"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 23 · Tracking (1/1000 em): -6 · Tracking (points): -0.13"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 24 · Tracking (1/1000 em): -8 · Tracking (points): -0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 25 · Tracking (1/1000 em): -10 · Tracking (points): -0.24"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 26 · Tracking (1/1000 em): -11 · Tracking (points): -0.28"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 27 · Tracking (1/1000 em): -12 · Tracking (points): -0.30"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 28 · Tracking (1/1000 em): -12 · Tracking (points): -0.34"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 29 · Tracking (1/1000 em): -14 · Tracking (points): -0.38"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 30 · Tracking (1/1000 em): -14 · Tracking (points): -0.42"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 31 · Tracking (1/1000 em): -15 · Tracking (points): -0.45"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 32 · Tracking (1/1000 em): -16 · Tracking (points): -0.50"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 33 · Tracking (1/1000 em): -17 · Tracking (points): -0.55"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 34 · Tracking (1/1000 em): -18 · Tracking (points): -0.60"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 35 · Tracking (1/1000 em): -18 · Tracking (points): -0.63"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 36 · Tracking (1/1000 em): -20 · Tracking (points): -0.69"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 37 · Tracking (1/1000 em): -20 · Tracking (points): -0.72"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 38 · Tracking (1/1000 em): -20 · Tracking (points): -0.74"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 39 · Tracking (1/1000 em): -20 · Tracking (points): -0.76"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 40 · Tracking (1/1000 em): -20 · Tracking (points): -0.78"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 41 · Tracking (1/1000 em): -20 · Tracking (points): -0.80"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 42 · Tracking (1/1000 em): -20 · Tracking (points): -0.82"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 43 · Tracking (1/1000 em): -20 · Tracking (points): -0.84"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 44 · Tracking (1/1000 em): -20 · Tracking (points): -0.86"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 45 · Tracking (1/1000 em): -20 · Tracking (points): -0.88"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 46 · Tracking (1/1000 em): -20 · Tracking (points): -0.92"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 47 · Tracking (1/1000 em): -20 · Tracking (points): -0.94"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 48 · Tracking (1/1000 em): -20 · Tracking (points): -0.96"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 49 · Tracking (1/1000 em): -21 · Tracking (points): -1.00"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 50 · Tracking (1/1000 em): -21 · Tracking (points): -1.03"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 51 · Tracking (1/1000 em): -21 · Tracking (points): -1.05"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 52 · Tracking (1/1000 em): -21 · Tracking (points): -1.07"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 53 · Tracking (1/1000 em): -22 · Tracking (points): -1.11"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 54 · Tracking (1/1000 em): -22 · Tracking (points): -1.13"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 56 · Tracking (1/1000 em): -22 · Tracking (points): -1.20"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 58 · Tracking (1/1000 em): -22 · Tracking (points): -1.25"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 60 · Tracking (1/1000 em): -22 · Tracking (points): -1.32"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 62 · Tracking (1/1000 em): -22 · Tracking (points): -1.36"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 64 · Tracking (1/1000 em): -23 · Tracking (points): -1.44"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 66 · Tracking (1/1000 em): -24 · Tracking (points): -1.51"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 68 · Tracking (1/1000 em): -24 · Tracking (points): -1.56"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 70 · Tracking (1/1000 em): -24 · Tracking (points): -1.64"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 72 · Tracking (1/1000 em): -24 · Tracking (points): -1.69"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 76 · Tracking (1/1000 em): -25 · Tracking (points): -1.86"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 80 · Tracking (1/1000 em): -26 · Tracking (points): -1.99"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 84 · Tracking (1/1000 em): -26 · Tracking (points): -2.13"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 88 · Tracking (1/1000 em): -26 · Tracking (points): -2.28"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 92 · Tracking (1/1000 em): -28 · Tracking (points): -2.47"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 96 · Tracking (1/1000 em): -28 · Tracking (points): -2.62"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 6 · Tracking (1/1000 em): +28 · Tracking (points): +0.16"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 7 · Tracking (1/1000 em): +26 · Tracking (points): +0.18"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 8 · Tracking (1/1000 em): +24 · Tracking (points): +0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 9 · Tracking (1/1000 em): +22 · Tracking (points): +0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 10 · Tracking (1/1000 em): +20 · Tracking (points): +0.20"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 11 · Tracking (1/1000 em): +18 · Tracking (points): +0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 12 · Tracking (1/1000 em): +16 · Tracking (points): +0.19"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 13 · Tracking (1/1000 em): +14 · Tracking (points): +0.18"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 14 · Tracking (1/1000 em): +12 · Tracking (points): +0.16"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 15 · Tracking (1/1000 em): +10 · Tracking (points): +0.15"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 16 · Tracking (1/1000 em): +8 · Tracking (points): +0.12"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 17 · Tracking (1/1000 em): +6 · Tracking (points): +0.10"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 18 · Tracking (1/1000 em): +4 · Tracking (points): +0.07"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Size (points): 19 · Tracking (1/1000 em): +2 · Tracking (points): +0.04"}
+{"id": "/design/human-interface-guidelines/typography", "law": "Date: December 16, 2025 · Changes: Added emphasized weights to the Dynamic Type style specifications for each platform."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Date: March 7, 2025 · Changes: Expanded guidance for Dynamic Type."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Date: June 10, 2024 · Changes: Added guidance for using Apple’s Unity plug-ins to support Dynamic Type in a Unity-based game and enhanced guidance on billboarding in a visionOS app or game."}
+{"id": "/design/human-interface-guidelines/typography", "law": "Date: September 12, 2023 · Changes: Added artwork illustrating system font weights, and clarified tvOS specification table descriptions."}
+{"id": "/design/human-interface-guidelines/toggles", "law": "Date: March 29, 2024 · Changes: Enhanced guidance for using switches in macOS apps, clarified when a checkbox has a title, and added artwork for radio buttons."}
+{"id": "/design/human-interface-guidelines/toggles", "law": "Date: September 12, 2023 · Changes: Updated artwork."}
