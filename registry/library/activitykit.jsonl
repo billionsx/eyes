@@ -83,3 +83,5 @@
 {"id": "/documentation/ActivityKit/creating-custom-views-for-live-activities", "law": "Use the modifier to apply a subtle tint color to the border of the Dynamic Island when the device is in Dark Mode and change text color as needed."}
 {"id": "/documentation/ActivityKit/creating-custom-views-for-live-activities", "law": "By default, the Lock Screen presentation — including the banner that appears on devices that don’t support the Dynamic island — uses a solid white background color in Light Mode and a solid black background color in Dark Mode."}
 {"id": "/documentation/ActivityKit/creating-custom-views-for-live-activities", "law": "To set a custom background color for the Lock Screen presentation, use the modifier."}
+{"id": "/documentation/ActivityKit/AlertConfiguration", "law": "A structure you use to configure an alert that appears when you update your Live Activity."}
+{"id": "/documentation/activitykit/alertconfiguration", "law": "A structure you use to configure an alert that appears when you update your Live Activity."}

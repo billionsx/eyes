@@ -4,19 +4,20 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 3630 |
+| uikit | 3686 |
 | swiftui | 2609 |
 | appkit | 2397 |
 | appintents | 1688 |
+| hig-tables | 1553 |
 | accelerate | 1327 |
-| human-interface-guidelines | 1021 |
-| xcode | 953 |
+| human-interface-guidelines | 1022 |
+| xcode | 954 |
 | foundation | 850 |
 | metal | 757 |
 | avfoundation | 685 |
+| big7 | 683 |
 | visionos | 655 |
-| big7 | 649 |
-| technotes | 615 |
+| technotes | 616 |
 | swift | 610 |
 | arkit | 506 |
 | realitykit | 472 |
@@ -31,8 +32,8 @@
 | appclip | 235 |
 | sirikit | 234 |
 | audiotoolbox | 230 |
+| widgetkit | 225 |
 | watchkit | 223 |
-| widgetkit | 223 |
 | gamekit | 201 |
 | vision | 195 |
 | groupactivities | 191 |
@@ -44,7 +45,7 @@
 | authenticationservices | 138 |
 | healthkit | 134 |
 | intents | 133 |
-| accessibility | 130 |
+| accessibility | 131 |
 | driverkit | 129 |
 | networkextension | 127 |
 | usernotifications | 126 |
@@ -61,12 +62,14 @@
 | automaticassessmentconfiguration | 96 |
 | corelocation | 93 |
 | corespotlight | 90 |
+| activitykit | 87 |
 | applemapsserverapi | 87 |
 | audiodriverkit | 86 |
-| activitykit | 85 |
 | coreml | 84 |
 | coreimage | 81 |
 | backgroundassets | 77 |
+| webkit | 77 |
+| passkit | 76 |
 | exposurenotification | 73 |
 | gamecontroller | 73 |
 | safariservices | 73 |
@@ -74,12 +77,11 @@
 | fileprovider | 66 |
 | coregraphics | 64 |
 | coremotion | 64 |
-| webkit | 64 |
 | network | 63 |
+| compositorservices | 60 |
 | homekit | 60 |
 | localauthentication | 60 |
 | mediaplayer | 60 |
-| passkit | 59 |
 | createml | 56 |
 | photokit | 55 |
 | cryptokit | 54 |
@@ -87,7 +89,6 @@
 | modelio | 51 |
 | tvservices | 51 |
 | accessorysetupkit | 49 |
-| compositorservices | 48 |
 | pencilkit | 48 |
 | speech | 48 |
 | callkit | 47 |
@@ -96,7 +97,7 @@
 | imageio | 44 |
 | metalperformanceshaders | 43 |
 | backgroundtasks | 41 |
-| coreai | 39 |
+| coreai | 40 |
 | nearbyinteraction | 39 |
 | usd | 39 |
 | videotoolbox | 39 |
@@ -129,9 +130,9 @@
 | fskit | 25 |
 | corevideo | 24 |
 | pdfkit | 24 |
+| visionkit | 24 |
 | pushkit | 23 |
 | quartzcore | 22 |
-| visionkit | 22 |
 | walletorders | 22 |
 | watchconnectivity | 22 |
 | alarmkit | 21 |
@@ -141,17 +142,18 @@
 | musickit | 21 |
 | tvmljs | 21 |
 | mapkitjs | 17 |
+| mediadevice | 17 |
 | servicemanagement | 17 |
 | distributed | 16 |
+| dockkit | 16 |
 | pcidriverkit | 16 |
 | screencapturekit | 16 |
+| sharedwithyou | 16 |
 | xpc | 16 |
 | networkingdriverkit | 15 |
 | xcuiautomation | 15 |
-| dockkit | 14 |
-| mediadevice | 14 |
+| devicediscoveryui | 14 |
 | mididriverkit | 14 |
-| sharedwithyou | 14 |
 | signinwithapplerestapi | 14 |
 | systemextensions | 14 |
 | adsupport | 13 |
@@ -160,7 +162,6 @@
 | metalperformanceshadersgraph | 12 |
 | sensitivecontentanalysis | 12 |
 | spatialpreview | 12 |
-| devicediscoveryui | 11 |
 | extensionfoundation | 11 |
 | os | 11 |
 | uniformtypeidentifiers | 11 |
@@ -344,4 +345,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 30919 · фреймворков: 339
+Итого законов: 32625 · фреймворков: 340

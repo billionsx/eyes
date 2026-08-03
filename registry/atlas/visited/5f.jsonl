@@ -136,3 +136,6 @@
 {"id": "/documentation/pencilkit/pkink-swift.struct/color-cg6f", "sha": "400b086f293ba7a1c83cda012a21248184c209a2822bc4686f187b2312298741", "sieve": 2, "t": "color", "n": 22, "laws": 0, "ts": "2026-08-03 06:38 UTC"}
 {"id": "/documentation/foundationmodels/updating-prompts-for-new-model-versions", "sha": "9344a4903c577296e75cd7ee0834c91b68983e116ba9a7c4d20ef87fda8c8ad4", "sieve": 2, "t": "Updating prompts for new model versions", "n": 4948, "laws": 0, "ts": "2026-08-03 06:40 UTC"}
 {"id": "/documentation/appkit/tags-of-views-in-the-fontpanel", "sha": "fb0e8cdf917c0838a47ef0dccd5bbedcfdeb6b12a2d659853a7c1e3a96d280aa", "sieve": 2, "t": "Tags of Views in the FontPanel", "n": 52, "laws": 0, "ts": "2026-08-03 06:42 UTC"}
+{"id": "/documentation/webkit/wkwebview/init(coder:)", "sha": "629c3a409eef785aba6935f00c87f7dcb784229876761b3080a544920edddbd4", "sieve": 2, "t": "init(coder:)", "n": 70, "laws": 0, "ts": "2026-08-03 07:43 UTC"}
+{"id": "/documentation/webkit/webpage/exported(as:)", "sha": "1f87500098a9f0b1165252be5139362d38fc721981a469358c56dcee9e1d10d0", "sieve": 2, "t": "exported(as:)", "n": 482, "laws": 0, "ts": "2026-08-03 07:45 UTC"}
+{"id": "/documentation/webkit/webpage/mediatype", "sha": "230663eb8710708aae8edc7a582d174ea9287efff69519e2d0073d2cc65d5d17", "sieve": 2, "t": "mediaType", "n": 433, "laws": 0, "ts": "2026-08-03 07:45 UTC"}

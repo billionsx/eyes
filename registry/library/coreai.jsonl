@@ -37,3 +37,4 @@
 {"id": "/documentation/coreai/monitoring-model-performance-with-the-debug-gauge", "law": "Low: Minimum event duration."}
 {"id": "/documentation/coreai/integrating-on-device-ai-models-in-your-app-with-core-ai", "law": "Start by creating an that matches the shape and type the model expects: Because an is an n -dimensional array, the shape should match what the model expects."}
 {"id": "/documentation/coreai/validating-inference-correctness-against-a-reference-run", "law": "Color indicators are metric-aware, so green always signals a good result regardless of which metric you choose."}
+{"id": "/documentation/coreai/computeunitkind", "law": "You use compute unit kinds with to control which hardware the framework targets when specializing a model."}

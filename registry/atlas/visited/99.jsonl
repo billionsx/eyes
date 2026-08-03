@@ -143,3 +143,5 @@
 {"id": "/documentation/realitykit/physicallybasedmaterial/bentnormal-swift.struct", "sha": "828d28a0151e91f39abe81cb626bff7e49db89a1254616b7fb7a0ec0e722db85", "sieve": 2, "t": "PhysicallyBasedMaterial.BentNormal", "n": 501, "laws": 0, "ts": "2026-08-03 06:26 UTC"}
 {"id": "/documentation/virtualization/vzefisignature-c.class", "sha": "07c1043553c2a437741cc68444353e6eaba477bea5996b6121e26ac0ddd42295", "sieve": 2, "t": "VZEFISignature", "n": 201, "laws": 0, "ts": "2026-08-03 06:40 UTC"}
 {"id": "/documentation/appkit/nsimage/cachemode-swift.enum", "sha": "3f0c50c4a198c9d2eef744ab18bcbcf3634f4999f358bdec5c5fb71591bc7012", "sieve": 2, "t": "NSImage.CacheMode", "n": 376, "laws": 0, "ts": "2026-08-03 06:43 UTC"}
+{"id": "/documentation/passkit/pkpaymentsummaryitemtype", "sha": "e45270c6c4df487f86264cee4f0a96c4d9f3a1c2480ab2792078b70dcc01d364", "sieve": 2, "t": "PKPaymentSummaryItemType", "n": 216, "laws": 0, "ts": "2026-08-03 08:03 UTC"}
+{"id": "/documentation/UIKit/UINavigationBar/prefersLargeTitles", "sha": "a2f0eef3706d9163d4d111433d5343cc0584dc37e6360d84479ad1e82289b3c7", "sieve": 2, "t": "prefersLargeTitles", "n": 494, "laws": 1, "ts": "2026-08-03 08:08 UTC"}

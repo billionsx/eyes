@@ -12,3 +12,6 @@
 {"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Use your protocol’s discovery mechanism to find devices, then report them to the system through ."}
 {"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Don’t call this when no devices are found."}
 {"id": "/documentation/MediaDevice/creating-a-media-device-extension", "law": "Some devices require pairing before activation."}
+{"id": "/documentation/MediaDevice/MediaOutputDevice/volumeControl-swift.property", "law": "Specifies how volume can be adjusted on this device, which determines the available volume control methods and how volume controls should be presented in the user interface."}
+{"id": "/documentation/MediaDevice/MediaOutputDevice/canMute", "law": "When , mute controls should not be presented in the user interface for this device."}
+{"id": "/documentation/MediaDevice/MediaDeviceExtension/connectUsingPairingCode(_:to:session:)", "law": "Use the Security framework’s keychain to store any derived key material."}

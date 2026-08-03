@@ -221,3 +221,5 @@
 {"id": "/documentation/WidgetKit/Updating-controls-locally-and-remotely", "law": "The following code queries for the current set of controls and gets any push tokens associated with them: Use APNs when your server has a state change to communicate to controls on someone’s devices."}
 {"id": "/documentation/WidgetKit/WidgetFamily", "law": "Use the context’s property to determine the widget’s size and shape."}
 {"id": "/documentation/WidgetKit/ControlPushHandler/pushTokensDidChange(controls:)", "law": "This function always provides information for all controls that support push updates even if only some of the tokens have changed."}
+{"id": "/documentation/WidgetKit/DynamicIsland/contentMargins(_:_:for:)", "law": "The following example results in a margin of 8 points for the trailing edge and 20 points for all other edges when the Live Activity appears in the expanded presentation: Overrides default content margins for the provided content modes in the Dynamic Island."}
+{"id": "/documentation/WidgetKit/DynamicIsland/contentMargins(_:_:for:)", "law": "Use this modifier to customize the content margins for a content mode in the Dynamic Island."}

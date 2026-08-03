@@ -46,3 +46,15 @@
 {"id": "/documentation/compositorservices/layerrenderer/configuration-swift.struct", "law": "A type that stores the texture formats, layout information, and other details you use to configure your rendering loop code."}
 {"id": "/documentation/CompositorServices/LayerRenderer/Drawable/TrackingArea/Identifier-swift.struct", "law": "All tracking areas should have a unique value in a frame."}
 {"id": "/documentation/CompositorServices/LayerRenderer/Drawable/TrackingArea/Identifier-swift.struct", "law": "This value should be constant for the same rendered mesh/object across frames to ensure tracking areas are identifiable between frames."}
+{"id": "/documentation/compositorservices/layer-capabilities", "law": "The color formats, depth formats, and features that you can use to configure your rendering engine."}
+{"id": "/documentation/compositorservices/layer-configuration", "law": "When configuring the content for your app’s immersive space, use this type to specify information about the texture layouts, pixel formats, and rendering options you want."}
+{"id": "/documentation/compositorservices/layer-configuration", "law": "The pixel formats, depth mask, texture layout, and other drawing-related settings you use to configure your drawing code."}
+{"id": "/documentation/compositorservices/cp_drawable_get_tracking_areas_texture", "law": "Use the returned texture in your render pipeline to store the tracking areas ID used for hover effects and indirect gestures."}
+{"id": "/documentation/compositorservices/cp_layer_renderer_capabilities_supported_color_formats_count", "law": "To iterate over the color formats, use the function."}
+{"id": "/documentation/compositorservices/cp_layer_renderer_capabilities_supported_color_formats_count_with_options", "law": "To iterate over the color formats, use the function."}
+{"id": "/documentation/compositorservices/cp_layer_renderer_capabilities_supported_tracking_areas_format", "law": "Use this function to determine what tracking areas texture formats the layer supports."}
+{"id": "/documentation/compositorservices/compositorlayerconfiguration/makeconfiguration(capabilities:configuration:)", "law": "In your implementation of this method, modify the parameter to specify the Metal texture formats and layouts you want to use during rendering."}
+{"id": "/documentation/compositorservices/layerrenderer/capabilities", "law": "The color formats, depth formats, and features that you can use to configure your rendering engine."}
+{"id": "/documentation/compositorservices/layerrenderer/configuration-swift.struct/colorformat", "law": "Use this value to determine the pixel format for color textures in a frame."}
+{"id": "/documentation/compositorservices/layerrenderer/configuration-swift.struct/colorformat", "law": "The pixel format to use for color textures."}
+{"id": "/documentation/compositorservices/layerrenderer/configuration-swift.struct/layout", "law": "A layout might use separate textures for each view, or combine the content from multiple views into a single texture."}

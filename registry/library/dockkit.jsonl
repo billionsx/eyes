@@ -12,3 +12,5 @@
 {"id": "/documentation/dockkit/modify-rotation-and-positioning-behavior-programmatically", "law": "Once you identify the accessory of interest use , and to directly control the speed and position of the accessory: The system tracking enabled state isn’t guaranteed to persist across reboots, app launch/termination, or background/foreground states."}
 {"id": "/documentation/dockkit/track-custom-objects-in-a-frame", "law": "Once you’ve applied your machine learning model on a set of video frames, use DockKit to generate and provide tracking vectors."}
 {"id": "/documentation/dockkit/track-custom-objects-in-a-frame", "law": "Use your machine learning model to focus on a specific subject."}
+{"id": "/documentation/dockkit/dockaccessory/camerainformation", "law": "A collection of tracking information about the camera currently in use."}
+{"id": "/documentation/dockkit/dockaccessorymanager/setsystemtrackingenabled(_:)", "law": "Always set this value to before performing your own custom tracking."}

@@ -57,3 +57,20 @@
 {"id": "/documentation/passkit/displaying-a-read-only-pickup-address", "law": "Switching from a noneditable to an editable shipping contact field requires the user to start the payment process over again."}
 {"id": "/documentation/PassKit/displaying-a-read-only-pickup-address", "law": "The code below configures an in-store pickup at Example Company and requires an email for the pickup person: Determine whether to disable editing of the shipping contact field before displaying the payment sheet."}
 {"id": "/documentation/PassKit/displaying-a-read-only-pickup-address", "law": "Switching from a noneditable to an editable shipping contact field requires the user to start the payment process over again."}
+{"id": "/documentation/PassKit/restoring-the-symmetric-key", "law": "After you decrypt it, the plaintext is the symmetric key material that you use to decrypt the payment token."}
+{"id": "/documentation/passkit/restoring-the-symmetric-key", "law": "After you decrypt it, the plaintext is the symmetric key material that you use to decrypt the payment token."}
+{"id": "/documentation/PassKit/PKPaymentButtonType", "law": "The button type you use for payments made with Apple Pay can affect the purchasing experience."}
+{"id": "/documentation/PassKit/PKPaymentError", "law": "The user must resolve any errors that you report on the Apple Pay sheet before they’re able to authorize the transaction."}
+{"id": "/documentation/PassKit/PKAddPassButton", "law": "When you use the class to create a button, you choose the button’s style, and the system provides a control with the correct appearance."}
+{"id": "/documentation/PassKit/VerifyIdentityWithWalletButtonStyle", "law": "A type that represents the style you use with a verify identity button."}
+{"id": "/documentation/passkit/pkaddpassbutton", "law": "When you use the class to create a button, you choose the button’s style, and the system provides a control with the correct appearance."}
+{"id": "/documentation/passkit/pkshareablepassmetadata", "law": "Information that you use to configure the sharing sheet for a pass."}
+{"id": "/documentation/passkit/verifyidentitywithwalletbuttonlabel", "law": "A type that represents the label you use with a verify identity button."}
+{"id": "/documentation/passkit/verifyidentitywithwalletbuttonstyle", "law": "A type that represents the style you use with a verify identity button."}
+{"id": "/documentation/passkit/pkpaymenterror", "law": "The user must resolve any errors that you report on the Apple Pay sheet before they’re able to authorize the transaction."}
+{"id": "/documentation/passkit/pkpaymenterror/code", "law": "The user must resolve any errors that you report on the Apple Pay sheet before they’re able to authorize the transaction."}
+{"id": "/documentation/passkit/pkpaymentbutton/buttonwithtype:style:", "law": "Use the returned button to trigger a purchase through Apple Pay."}
+{"id": "/documentation/passkit/pkpaymentbutton/buttonwithtype:style:", "law": "Do not display a button smaller than its intrinsic content size."}
+{"id": "/documentation/passkit/pkpaymentbutton/buttonwithtype:style:", "law": "You can extend the button’s width to fit your layout, but do not reduce the width or change the button’s height."}
+{"id": "/documentation/passkit/pkpaymentbuttontype", "law": "The button type you use for payments made with Apple Pay can affect the purchasing experience."}
+{"id": "/documentation/passkit/pkpaymentrequest/shippingcontacteditingmode", "law": "Switching from a noneditable to an editable shipping contact field requires the user to restart the payment process."}

@@ -128,3 +128,4 @@
 {"id": "/documentation/Accessibility/switch-control", "law": "With Switch Control, people can use switches to perform actions like selecting, tapping, dragging and dropping, typing, and freehand drawing."}
 {"id": "/documentation/Accessibility/switch-control", "law": "Learn more about testing your app with Switch Control to make sure it works well for people who use this assistive technology."}
 {"id": "/documentation/Accessibility/voice-control", "law": "Learn more about testing your app with Voice Control to make sure it works well for people who use this assistive technology."}
+{"id": "/documentation/Accessibility/voiceover", "law": "Learn more about testing your app with VoiceOver to make sure it works well for people who use this assistive technology."}

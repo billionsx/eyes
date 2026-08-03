@@ -145,3 +145,4 @@
 {"id": "/documentation/uikit/uitextcursordroppositionanimator/textinput", "sha": "cf5adac9c610dd12f4f9bfb926819bf4db309672d84c627cbd722482dc42c414", "sieve": 2, "t": "textInput", "n": 119, "laws": 0, "ts": "2026-08-02 18:38 UTC"}
 {"id": "/documentation/dockkit/dockaccessory/limits-swift.property", "sha": "b634d0b3aed8b01a8e1d69906b791e56a377a1f5405593f01725454554266379", "sieve": 2, "t": "limits", "n": 228, "laws": 0, "ts": "2026-08-03 06:32 UTC"}
 {"id": "/documentation/appkit/movement-codes", "sha": "5bc20b1bdc272c3963b58a86ac20692840c2baea498fc090f7f0ab7daa35fc85", "sieve": 2, "t": "Movement Codes", "n": 624, "laws": 0, "ts": "2026-08-03 06:44 UTC"}
+{"id": "/documentation/activitykit/activity/activities", "sha": "1f252c622a237d6fcd2e09d510ea555c5aa3c5e47c91e539eeba1843bec3b8b4", "sieve": 2, "t": "activities", "n": 47, "laws": 0, "ts": "2026-08-03 07:39 UTC"}

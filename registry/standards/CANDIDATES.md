@@ -1,37 +1,86 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 30919 · кандидатов: 21 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 32625 · кандидатов: 46 · из них со ссылкой на свод правил: 35
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
-| свойство | норма | направление | страниц | встреч | первоисточник |
-|---|---|---|---|---|---|
-| opacity | 35 % | none | 2 | 2 | да |
-| font-size | 13 pt | none | 1 | 1 | да |
-| font-size | 17 pt | none | 1 | 1 | да |
-| margin / padding | 7 pt | none | 1 | 1 | да |
-| margin / padding | 10 pt | none | 1 | 1 | да |
-| margin / padding | 16 pt | none | 1 | 1 | да |
-| margin / padding | 16 pt | min | 1 | 1 | да |
-| margin / padding | 60 pt | min | 1 | 1 | да |
-| min-width/min-height интерактивного элемента | 28 pt | min | 1 | 1 | да |
-| min-width/min-height интерактивного элемента | 44 pt | min | 1 | 1 | да |
-| контраст пары цветов | 4.5 :1 | min | 1 | 1 | да |
-| opacity | 50 % | none | 3 | 3 | нет |
-| opacity | 100 % | none | 2 | 4 | нет |
-| font-size | 44 pt | none | 2 | 2 | нет |
-| margin / padding | 600 ms | none | 2 | 2 | нет |
-| opacity | 2048 px | none | 1 | 2 | нет |
-| border-radius | 6 pt | none | 1 | 1 | нет |
-| line-height | 10 pt | none | 1 | 1 | нет |
-| margin / padding | 560 pt | none | 1 | 1 | нет |
-| opacity | 10 % | none | 1 | 1 | нет |
-| контраст пары цветов | 20 % | none | 1 | 1 | нет |
+**Область обязательна.** Число, верное в своей области, за её пределами становится выдумкой: норма со страницы слежения за взглядом visionOS не есть норма веб-страницы. Кандидат с областью, отличной от `universal`, связывается в правило только для своей области — или не связывается вовсе.
+
+| свойство | норма | направление | область | страниц | встреч | первоисточник |
+|---|---|---|---|---|---|---|
+| margin / padding | 560 pt | none | ⚠️ tvos/universal | 2 | 2 | да |
+| opacity | 35 % | none | 🌐 universal | 2 | 2 | да |
+| контраст пары цветов | 4.5 :1 | min | 🌐 universal | 2 | 2 | да |
+| margin / padding | 40 pt | none | 🌐 universal | 1 | 8 | да |
+| margin / padding | 100 pt | min | 🌐 universal | 1 | 8 | да |
+| контраст пары цветов | 3 :1 | min | 🌐 universal | 1 | 2 | да |
+| border-radius | 30 pt | min | 🌐 universal | 1 | 1 | да |
+| border-radius | 30 px | min | 🌐 universal | 1 | 1 | да |
+| border-radius | 60 px | min | 🌐 universal | 1 | 1 | да |
+| border-radius | 140 pt | min | 🌐 universal | 1 | 1 | да |
+| border-radius | 140 px | min | 🌐 universal | 1 | 1 | да |
+| border-radius | 280 px | min | 🌐 universal | 1 | 1 | да |
+| font-size | 13 pt | none | ⚠️ macos | 1 | 1 | да |
+| font-size | 17 pt | none | ⚠️ macos | 1 | 1 | да |
+| margin / padding | 7 pt | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 10 pt | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 16 pt | none | ⚠️ widget | 1 | 1 | да |
+| margin / padding | 16 pt | min | ⚠️ visionos | 1 | 1 | да |
+| margin / padding | 30 pt | min | 🌐 universal | 1 | 1 | да |
+| margin / padding | 30 px | min | 🌐 universal | 1 | 1 | да |
+| margin / padding | 60 px | min | 🌐 universal | 1 | 1 | да |
+| margin / padding | 60 pt | min | ⚠️ visionos | 1 | 1 | да |
+| margin / padding | 140 pt | min | 🌐 universal | 1 | 1 | да |
+| margin / padding | 140 px | min | 🌐 universal | 1 | 1 | да |
+| margin / padding | 280 px | min | 🌐 universal | 1 | 1 | да |
+| margin / padding | 560 px | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 620 pt | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 620 px | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 692 pt | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 692 px | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 1120 px | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 1240 px | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 1384 px | none | 🌐 universal | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 28 pt | min | ⚠️ game | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 44 pt | min | ⚠️ game | 1 | 1 | да |
+| opacity | 50 % | none | 🌐 universal | 3 | 3 | нет |
+| opacity | 100 % | none | 🌐 universal | 2 | 4 | нет |
+| font-size | 44 pt | none | 🌐 universal | 2 | 2 | нет |
+| margin / padding | 600 ms | none | 🌐 universal | 2 | 2 | нет |
+| opacity | 2048 px | none | 🌐 universal | 1 | 2 | нет |
+| border-radius | 6 pt | none | ⚠️ watchos | 1 | 1 | нет |
+| line-height | 10 pt | none | 🌐 universal | 1 | 1 | нет |
+| margin / padding | 8 pt | none | 🌐 universal | 1 | 1 | нет |
+| margin / padding | 20 pt | none | 🌐 universal | 1 | 1 | нет |
+| opacity | 10 % | none | 🌐 universal | 1 | 1 | нет |
+| контраст пары цветов | 20 % | none | 🌐 universal | 1 | 1 | нет |
 
 ## Адреса
 
+- **margin / padding 560 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf, https://developer.apple.com/documentation/tvservices/tvtopshelfinsetcontent/imagesize
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Unfocused size · Image size: 1740x560 pt (1740x560 px @1x, 3480x1120 px @2x»
 - **opacity 35 %** (none) — https://developer.apple.com/design/human-interface-guidelines/materials, https://developer.apple.com/design/Human-Interface-Guidelines/materials
   - «For optimal contrast and legibility, determine whether to add a dimming layer behind components with clear Liquid Glass: If the underlying content is »
+- **контраст пары цветов 4.5 :1** (min) — https://developer.apple.com/design/human-interface-guidelines/accessibility, https://developer.apple.com/design/human-interface-guidelines/dark-mode
+  - «[Vision] Text size: Up to 17 pts · Text weight: All · Minimum contrast ratio: 4.5:1»
+- **margin / padding 40 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/layout
+  - «[Platform considerations › tvOS › Two-column grid] Attribute: Horizontal spacing · Value: 40 pt»
+- **margin / padding 100 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/layout
+  - «[Platform considerations › tvOS › Two-column grid] Attribute: Minimum vertical spacing · Value: 100 pt»
+- **контраст пары цветов 3 :1** (min) — https://developer.apple.com/design/human-interface-guidelines/accessibility
+  - «[Vision] Text size: 18 pts · Text weight: All · Minimum contrast ratio: 3:1»
+- **border-radius 30 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Using the system-provided buttons › Button size and corner radius] Minimum width: 140pt (140px @1x, 280px @2x) · Minimum height:»
+- **border-radius 30 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Using the system-provided buttons › Button size and corner radius] Minimum width: 140pt (140px @1x, 280px @2x) · Minimum height:»
+- **border-radius 60 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Using the system-provided buttons › Button size and corner radius] Minimum width: 140pt (140px @1x, 280px @2x) · Minimum height:»
+- **border-radius 140 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Using the system-provided buttons › Button size and corner radius] Minimum width: 140pt (140px @1x, 280px @2x) · Minimum height:»
+- **border-radius 140 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Using the system-provided buttons › Button size and corner radius] Minimum width: 140pt (140px @1x, 280px @2x) · Minimum height:»
+- **border-radius 280 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Using the system-provided buttons › Button size and corner radius] Minimum width: 140pt (140px @1x, 280px @2x) · Minimum height:»
 - **font-size 13 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/mac-catalyst
   - «For example, the system scales text that uses the iPadOS baseline font size of 17pt down to 13pt in macOS.»
 - **font-size 17 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/mac-catalyst
@@ -44,14 +93,40 @@
   - «Use the standard margin width for widgets — 16 points for most widgets — to avoid crowding their edges and creating a cluttered appearance.»
 - **margin / padding 16 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/eyes
   - «You can help ensure that there’s enough space between interactive items by using a margin of at least 16 points around the bounds of each item or by p»
+- **margin / padding 30 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Creating a custom Sign in with Apple button › Custom buttons with a logo and text] Minimum width: 140 pt (140 px @1x, 280 px @2x»
+- **margin / padding 30 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Creating a custom Sign in with Apple button › Custom buttons with a logo and text] Minimum width: 140 pt (140 px @1x, 280 px @2x»
+- **margin / padding 60 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Creating a custom Sign in with Apple button › Custom buttons with a logo and text] Minimum width: 140 pt (140 px @1x, 280 px @2x»
 - **margin / padding 60 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/eyes
   - «You can help ensure that there’s enough space between interactive items by using a margin of at least 16 points around the bounds of each item or by p»
+- **margin / padding 140 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Creating a custom Sign in with Apple button › Custom buttons with a logo and text] Minimum width: 140 pt (140 px @1x, 280 px @2x»
+- **margin / padding 140 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Creating a custom Sign in with Apple button › Custom buttons with a logo and text] Minimum width: 140 pt (140 px @1x, 280 px @2x»
+- **margin / padding 280 px** (min) — https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple
+  - «[Displaying buttons › Creating a custom Sign in with Apple button › Custom buttons with a logo and text] Minimum width: 140 pt (140 px @1x, 280 px @2x»
+- **margin / padding 560 px** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Unfocused size · Image size: 1740x560 pt (1740x560 px @1x, 3480x1120 px @2x»
+- **margin / padding 620 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Focused/Safe zone size · Image size: 1740x620 pt (1740x620 px @1x, 3480x124»
+- **margin / padding 620 px** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Focused/Safe zone size · Image size: 1740x620 pt (1740x620 px @1x, 3480x124»
+- **margin / padding 692 pt** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Actual size · Image size: 1940x692 pt (1940x692 px @1x, 3880x1384 px  @2x)»
+- **margin / padding 692 px** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Actual size · Image size: 1940x692 pt (1940x692 px @1x, 3880x1384 px  @2x)»
+- **margin / padding 1120 px** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Unfocused size · Image size: 1740x560 pt (1740x560 px @1x, 3480x1120 px @2x»
+- **margin / padding 1240 px** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Focused/Safe zone size · Image size: 1740x620 pt (1740x620 px @1x, 3480x124»
+- **margin / padding 1384 px** (none) — https://developer.apple.com/design/human-interface-guidelines/top-shelf
+  - «[Dynamic layouts › Sectioned content row › Scrolling inset banner] Aspect: Actual size · Image size: 1940x692 pt (1940x692 px @1x, 3880x1384 px  @2x)»
 - **min-width/min-height интерактивного элемента 28 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/game-controls
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
 - **min-width/min-height интерактивного элемента 44 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/game-controls
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
-- **контраст пары цветов 4.5 :1** (min) — https://developer.apple.com/design/human-interface-guidelines/dark-mode
-  - «At a minimum, make sure the contrast ratio between colors is no lower than 4.5:1.»
 - **opacity 50 %** (none) — https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor, https://developer.apple.com/documentation/swiftui/view/opacity(_:)
   - «The default shadow color is black with 50% opacity.»
 - **opacity 100 %** (none) — https://developer.apple.com/documentation/swiftui/color/resolved/opacity, https://developer.apple.com/documentation/swiftui/color/resolvedhdr/opacity
@@ -62,13 +137,3 @@
   - «To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel di»
 - **opacity 2048 px** (none) — https://developer.apple.com/documentation/realitykit/reducing-gpu-utilization-in-your-realitykit-app
   - «For example, a texture describing a base color with four channels — one for each of red, green, blue, and alpha — stored in a usdz file as a PNG with »
-- **border-radius 6 pt** (none) — https://developer.apple.com/documentation/watchkit/wkinterfacegroup/setcornerradius(_:)
-  - «The default corner radius for groups is 6 points.»
-- **line-height 10 pt** (none) — https://developer.apple.com/documentation/swiftui/layout/explicitalignment(of:in:proposal:subviews:cache:)
-  - «For example, you can indent the container’s leading edge alignment guide by 10 points: The above example returns for other guides to indicate that the»
-- **margin / padding 560 pt** (none) — https://developer.apple.com/documentation/tvservices/tvtopshelfinsetcontent/imagesize
-  - «The standard image size for inset items is 1740 x 560 points.»
-- **opacity 10 %** (none) — https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)
-  - «This example shows an image masked by rectangle with a 10% opacity: Masks this view using the alpha channel of the given view.»
-- **контраст пары цветов 20 %** (none) — https://developer.apple.com/documentation/swiftui/view/contrast(_:)
-  - «At each step in the loop, the modifier changes the contrast of the circle/square view in 20% increments.»

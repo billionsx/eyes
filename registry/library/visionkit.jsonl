@@ -20,3 +20,5 @@
 {"id": "/documentation/visionkit/enabling-live-text-interactions-with-images", "law": "If you want the supplementary interface to use a custom font, set the property."}
 {"id": "/documentation/visionkit/enabling-live-text-interactions-with-images", "law": "Quick actions use the specified font for text and font weight for symbols."}
 {"id": "/documentation/visionkit/scanning-data-with-the-camera", "law": "Use the other parameters of the initializer to disable specific interface features and gestures."}
+{"id": "/documentation/visionkit/imageanalysisinteraction/interactiontypes/textselection", "law": "However, if you set the property to , a person can use a long-press gesture to enable them."}
+{"id": "/documentation/visionkit/imageanalysisinteraction/supplementaryinterfacefont", "law": "The font to use for the supplementary interface."}

@@ -951,3 +951,4 @@
 {"id": "/documentation/Xcode/building-your-app-to-include-debugging-information", "law": "If you don’t include symbols with the upload to the App Store, you still receive the crash reports through the Crashes organizer, but without the symbol names."}
 {"id": "/documentation/Xcode/embedding-a-helper-tool-in-a-sandboxed-app", "law": "The Signing Certificate popup should switch to Development, which is exactly what you want for day-to-day development."}
 {"id": "/documentation/Xcode/acquiring-crash-reports-and-diagnostic-logs", "law": "Always symbolicate your crash report before sharing it, otherwise the report shows hexadecimal addresses instead of function names and line numbers, making diagnosis more difficult."}
+{"id": "/documentation/Xcode/gathering-information-about-memory-use", "law": "Launch your app, and prepare to use the feature under investigation—for example, by navigating to the view with a particular control."}

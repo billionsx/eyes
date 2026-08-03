@@ -1,14 +1,14 @@
 {
- "ts": "2026-08-03 07:55 UTC",
+ "ts": "2026-08-03 08:19 UTC",
  "atlas": {
-  "visited": 38200,
-  "frontier": 68671,
+  "visited": 39700,
+  "frontier": 70259,
   "cycles": 0,
-  "last": "2026-08-03 06:45 UTC"
+  "last": "2026-08-03 08:09 UTC"
  },
  "library": {
-  "laws": 30919,
-  "frameworks": 339
+  "laws": 32625,
+  "frameworks": 340
  },
  "web_laws": 303,
  "knowledge": 1672,
@@ -34,8 +34,8 @@
   "pages": 5
  },
  "big7": {
-  "pages": 1012,
-  "laws": 683,
+  "pages": 1059,
+  "laws": 730,
   "frames": 13
  },
  "base": "ios26.5-dark",

@@ -1,11 +1,9 @@
 {"id": "/documentation/ClockKit/providing-multiple-complications", "sha": "815c6a7a1d8e514346f7037e68ec6a6cacc48896b62c7f01f5a479bc16b19b31", "t": "Providing Multiple Complications", "n": 4506, "laws": 3, "ts": "2026-07-24 17:47 UTC"}
 {"id": "/documentation/GameKit/creating-turn-based-games", "sha": "a6a61f8ea88b48f741b82ec46b10ad40f14eae8fcfcf48e490ffa2ac749234c2", "t": "Creating turn-based games", "n": 7465, "laws": 2, "ts": "2026-07-24 17:49 UTC"}
 {"id": "/documentation/MapKit/annotating-a-map-with-custom-data", "sha": "3a32d728fdcb8b6e4b68e1b65d58765af1eec75af75affcb12cb31d81254a860", "t": "Annotating a Map with Custom Data", "n": 2126, "laws": 6, "ts": "2026-07-24 17:49 UTC"}
-{"id": "/documentation/updates/appkit", "sha": "6a62b5358807c182dfa114629c1f4155f239f0392ab189e7640ea1986f02b877", "t": "AppKit updates", "n": 5834, "laws": 8, "ts": "2026-07-24 18:46 UTC"}
 {"id": "/documentation/AVRouting", "sha": "919455fbeb955418dc26ce55ab2f6c9e910e98cd6cb2991506c085015d5fe3e6", "t": "AVRouting", "n": 1443, "laws": 2, "ts": "2026-07-24 18:48 UTC"}
 {"id": "/documentation/BrowserKit", "sha": "574ae875de35346ac81f988b2d2a45581280b393a1be984ea5b1a18596a1e15e", "t": "BrowserKit", "n": 1327, "laws": 2, "ts": "2026-07-24 18:49 UTC"}
 {"id": "/documentation/Testing", "sha": "94fa043fbf8b51f2fe0a49095a5ca690fbb009983e3c3b9ca7717f472914642f", "t": "Swift Testing", "n": 1421, "laws": 0, "ts": "2026-07-24 18:54 UTC"}
-{"id": "/documentation/WebKit", "sha": "550f5d8040ed1f279316a098266eba90c77c2837fb8cfe33568e222b69d2937d", "t": "WebKit", "n": 1066, "laws": 1, "ts": "2026-07-24 18:54 UTC"}
 {"id": "/documentation/avfaudio/adding-synthesized-speech-to-calls", "sha": "56fdd0df08a1a91ff1d94df2f0ab53fd39868fdcc57f9e857491a28f32d82e78", "t": "Adding synthesized speech to calls", "n": 4451, "laws": 10, "ts": "2026-07-24 19:00 UTC"}
 {"id": "/documentation/appkit/nstreenode", "sha": "fbef4fec474f0ce45b6053dd54b77022b173ed7207741e8055191146cb21cf98", "t": "NSTreeNode", "n": 435, "laws": 0, "ts": "2026-07-25 18:10 UTC"}
 {"id": "/documentation/classkitui", "sha": "f2700ac2874e14ac7357d87e684f7052fdb308e65a2ea91ddfeac91458dc26c5", "t": "ClassKit UI", "n": 1217, "laws": 2, "ts": "2026-07-25 18:16 UTC"}
@@ -63,7 +61,6 @@
 {"id": "/documentation/uikit/uitextformattingviewcontroller", "sha": "69bd167616828ca46156cb0bfaaee888417d35b50c24c15a8bd5ab909a3b8a8f", "t": "UITextFormattingViewController", "n": 902, "laws": 0, "ts": "2026-07-29 18:32 UTC"}
 {"id": "/documentation/uikit/uitab/allowshiding", "sha": "cefb231f74e2f264727913550148c9fda5176d7e60a7578a540a0659d2301661", "t": "allowsHiding", "n": 74, "laws": 0, "ts": "2026-07-29 18:38 UTC"}
 {"id": "/documentation/uikit/uitableviewheaderfooterview", "sha": "3fcc760d9b26efdf633951da0e05c77e2358334b005fc4c329ee5042e66bcfaa", "t": "UITableViewHeaderFooterView", "n": 1577, "laws": 0, "ts": "2026-07-29 18:43 UTC"}
-{"id": "/documentation/widgetkit/accessorywidgetgroup/init(_:image:content:)-66iys", "sha": "47280b435e52f833db9c352e9e1ea3f61814f8bc91f17aae4509e1217c0ef316", "t": "init(_:image:content:)", "n": 216, "laws": 0, "ts": "2026-07-30 05:28 UTC"}
 {"id": "/documentation/uikit/uitableview/isediting", "sha": "d8c42070361a19c5ae71cb6d008a1606beda5d7017da75bb42128f0597f99828", "t": "isEditing", "n": 459, "laws": 0, "ts": "2026-07-30 05:41 UTC"}
 {"id": "/documentation/uikit/uiview/isfocused", "sha": "548354d4a4cc3fc90766a6b42fdb2b4020c72b67d7a950d2d50307522dad3541", "t": "isFocused", "n": 190, "laws": 0, "ts": "2026-07-30 05:47 UTC"}
 {"id": "/documentation/uikit/uikeyboardhidusage/keyboard6", "sha": "cb28340a0dba64ecbd1a06e12505d857567f82f2436504e38ce1dc7168f3ff18", "t": "UIKeyboardHIDUsage.keyboard6", "n": 49, "laws": 0, "ts": "2026-07-30 05:51 UTC"}
@@ -97,7 +94,6 @@
 {"id": "/documentation/uikit/uitextformattingviewcontrollerincreaseindentationchangetype", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "UITextFormattingViewControllerIncreaseIndentationChangeType", "n": 0, "laws": 0, "ts": "2026-08-01 05:44 UTC"}
 {"id": "/documentation/uikit/uiresponder/keyboardislocaluserinfokey", "sha": "05928b2ae49376af27497d05fe76bfad5894e7cbf58b564b3fea1fc085dd2e0e", "t": "keyboardIsLocalUserInfoKey", "n": 440, "laws": 0, "ts": "2026-08-01 05:45 UTC"}
 {"id": "/documentation/uikit/uitextgrammarcheckingtype/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-01 05:46 UTC"}
-{"id": "/documentation/UIKit/NSTextLayoutManager", "sha": "cdbfda5d347c1483685caa74a3a657cca5210fa4beb8b148667eb2d6b8d130ee", "t": "NSTextLayoutManager", "n": 1489, "laws": 1, "ts": "2026-08-01 05:53 UTC"}
 {"id": "/documentation/uikit/uidevice/batterystatedidchangenotification", "sha": "28a92e4ef0e0577f3b703b285c44d199b9190cb0ea84992085f465dcab35710c", "t": "batteryStateDidChangeNotification", "n": 203, "laws": 0, "ts": "2026-08-01 05:56 UTC"}
 {"id": "/documentation/uikit/uimenu/identifier-swift.struct/document", "sha": "0ec9872e15c144aa26267d73c6f9a8411eb231e1a89ab873b4a0ee897b573daa", "t": "document", "n": 18, "laws": 0, "ts": "2026-08-01 05:57 UTC"}
 {"id": "/documentation/uikit/uitextinput/endfloatingcursor()", "sha": "eae3a6219d3d4b97d3fb0b5d9d92b94025cec185db6c41c8366c48617c450e30", "t": "endFloatingCursor()", "n": 365, "laws": 0, "ts": "2026-08-01 05:59 UTC"}
@@ -122,3 +118,11 @@
 {"id": "/documentation/UIKit/supporting-dark-mode-in-your-interface", "sha": "c371d06d217daff5fa635149f1c44933e909eb94908da0d1395846e2ec783d99", "sieve": 2, "t": "Supporting Dark Mode in your interface", "n": 7954, "laws": 10, "ts": "2026-08-03 06:21 UTC"}
 {"id": "/documentation/realitykit/anchoringcomponent/physicssimulation-swift.enum", "sha": "c8127cbd87c0276c17d0cfb24b1a63c516db1ecc116735a3a04b55f0cbfd97c8", "sieve": 2, "t": "AnchoringComponent.PhysicsSimulation", "n": 330, "laws": 0, "ts": "2026-08-03 06:24 UTC"}
 {"id": "/documentation/appkit/nssplitview/autosavename-swift.property", "sha": "f1a401ea79b1952d561b764049ed547d67a2ebdc558a4bb395366d9912740f08", "sieve": 2, "t": "autosaveName", "n": 169, "laws": 0, "ts": "2026-08-03 06:41 UTC"}
+{"id": "/documentation/updates/appkit", "sha": "6a62b5358807c182dfa114629c1f4155f239f0392ab189e7640ea1986f02b877", "sieve": 2, "t": "AppKit updates", "n": 5834, "laws": 5, "ts": "2026-08-03 07:41 UTC"}
+{"id": "/documentation/WebKit", "sha": "550f5d8040ed1f279316a098266eba90c77c2837fb8cfe33568e222b69d2937d", "sieve": 2, "t": "WebKit", "n": 1066, "laws": 0, "ts": "2026-08-03 07:41 UTC"}
+{"id": "/documentation/visionkit/imageanalysisinteraction/issupplementaryinterfacehidden", "sha": "9b8a38cf75529cf1883071f2707b987009bf124d32ccc5d039cb0b4defd6e33e", "sieve": 2, "t": "isSupplementaryInterfaceHidden", "n": 301, "laws": 0, "ts": "2026-08-03 07:51 UTC"}
+{"id": "/documentation/compositorservices/layerrenderer/drawable/trackingarea/identifier-swift.struct/invalid", "sha": "1810bf8f2af1a57bee2f83dea424ae85e771555f7aa29a3d61ff1827583f6819", "sieve": 2, "t": "invalid", "n": 84, "laws": 0, "ts": "2026-08-03 07:55 UTC"}
+{"id": "/documentation/widgetkit/accessorywidgetgroup/init(_:image:content:)-66iys", "sha": "47280b435e52f833db9c352e9e1ea3f61814f8bc91f17aae4509e1217c0ef316", "sieve": 2, "t": "init(_:image:content:)", "n": 216, "laws": 0, "ts": "2026-08-03 07:55 UTC"}
+{"id": "/documentation/sharedwithyou/swhighlightcenter", "sha": "0b7d346bdde39d4666d9042b633ccf2871a3798e95cb82de6e48d2154b964831", "sieve": 2, "t": "SWHighlightCenter", "n": 802, "laws": 0, "ts": "2026-08-03 07:56 UTC"}
+{"id": "/documentation/UIKit/NSTextLayoutManager", "sha": "cdbfda5d347c1483685caa74a3a657cca5210fa4beb8b148667eb2d6b8d130ee", "sieve": 2, "t": "NSTextLayoutManager", "n": 1489, "laws": 1, "ts": "2026-08-03 08:07 UTC"}
+{"id": "/documentation/uikit/uikeycommand/f8", "sha": "bb60dca01d2d65fb484400c4078dc87dbddd0efaa92baa0db73e346934595b8d", "sieve": 2, "t": "f8", "n": 33, "laws": 0, "ts": "2026-08-03 08:07 UTC"}

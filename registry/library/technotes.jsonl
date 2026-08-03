@@ -613,3 +613,4 @@
 {"id": "/documentation/Technotes/tn3151-choosing-the-right-networking-api", "law": "The focus here is on APIs that allow you to use the networking stack."}
 {"id": "/documentation/Technotes/tn3125-inside-code-signing-provisioning-profiles", "law": "In contrast, restricted entitlements must be authorized by a provisioning profile."}
 {"id": "/documentation/Technotes/tn3178-checking-for-and-resolving-build-uuid-problems", "law": "Consider one of the critical use cases for build UUIDs, namely symbolication."}
+{"id": "/documentation/Technotes/tn3137-on-mac-keychains", "law": "If you don’t understand that design, you may find some of its behavior surprising."}

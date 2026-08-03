@@ -12,3 +12,5 @@
 {"id": "/documentation/sharedwithyou/adding-shared-content-collaboration-to-your-app", "law": "If your app uses a custom collaboration infrastructure, you must provide your own manage button."}
 {"id": "/documentation/sharedwithyou/adding-custom-collaboration-to-your-app", "law": "Use to represent a collection of switches, and use to represent mutually exclusive values for a setting."}
 {"id": "/documentation/sharedwithyou/adding-custom-collaboration-to-your-app", "law": "Use the item provider to initialize an object and show the picker relative to a target view."}
+{"id": "/documentation/SharedWithYou/SWAttributionView", "law": "You can constrain this view’s width anchor or set its frame width to control the maximum width of its contents after which truncation may occur."}
+{"id": "/documentation/SharedWithYou/SWAttributionView", "law": "Don’t constrain the view’s height, as the height is dependent on the , and the resulting font size."}

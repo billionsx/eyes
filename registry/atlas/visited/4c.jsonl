@@ -163,3 +163,5 @@
 {"id": "/documentation/storekit/testing-family-sharing", "sha": "d2c6d531b0539430da10a3d4c800a4c9d104ee8c72fad94110f8f63703ad7038", "sieve": 2, "t": "Testing Family Sharing", "n": 3788, "laws": 0, "ts": "2026-08-03 06:35 UTC"}
 {"id": "/documentation/activitykit/creating-custom-views-for-live-activities", "sha": "bdf7f0bc72ebeafe0a84145c1a54f278f77e387a3a91c8619fb54193d4bdb0c8", "sieve": 2, "t": "Creating custom views for Live Activities", "n": 4418, "laws": 10, "ts": "2026-08-03 06:40 UTC"}
 {"id": "/documentation/appkit/nssavepanel-deprecated-symbols", "sha": "126d545dae3a16778caa9b499c568170181122e41a401055aaa66ae47e351f73", "sieve": 2, "t": "Deprecated Symbols", "n": 79, "laws": 0, "ts": "2026-08-03 06:43 UTC"}
+{"id": "/documentation/webkit/webpage/pauseallmediaplayback()", "sha": "5b08389ff313a1ac382354ac398192dc813bda811dcb76f6be36e8e8f5bc2346", "sieve": 2, "t": "pauseAllMediaPlayback()", "n": 45, "laws": 0, "ts": "2026-08-03 07:45 UTC"}
+{"id": "/documentation/webkit/webpage/themecolor", "sha": "9b73cde54372955912ac5144538f142adfd7c186077a7e7c92a8e8e6a6ecd110", "sieve": 2, "t": "themeColor", "n": 82, "laws": 0, "ts": "2026-08-03 07:45 UTC"}

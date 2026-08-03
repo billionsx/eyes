@@ -146,3 +146,4 @@
 {"id": "/design/Human-Interface-Guidelines/materials", "sha": "b8a2b286c9d6d9641a9449bdb8d79708649d819c994fa9fa24a7eae5f229b042", "sieve": 2, "t": "Materials", "n": 9883, "laws": 10, "ts": "2026-08-03 06:17 UTC"}
 {"id": "/documentation/realitykit/particleemittercomponent/particleemitter/sortorder-swift.enum", "sha": "b9fd932f7c92331995a77f95c0a47c0488741cef712fa91eba7e87aeeb757c31", "sieve": 2, "t": "ParticleEmitterComponent.ParticleEmitter.SortOrder", "n": 525, "laws": 0, "ts": "2026-08-03 06:28 UTC"}
 {"id": "/documentation/security/code-signing-services", "sha": "0e5d177f5ead5a4d8b7c4f28b5ab6a29f96b9a05d69dcda9d8c8f583eed350e6", "sieve": 2, "t": "Code Signing Services", "n": 2895, "laws": 0, "ts": "2026-08-03 06:37 UTC"}
+{"id": "/documentation/webkit/wkcontextmenuelementinfo", "sha": "d00b57c50d861c79edc162a0fd5bb0748284f0b2fb065eeb5bb14203471592c6", "sieve": 2, "t": "WKContextMenuElementInfo", "n": 559, "laws": 2, "ts": "2026-08-03 07:42 UTC"}

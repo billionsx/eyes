@@ -3628,3 +3628,59 @@
 {"id": "/documentation/uikit/managing-functions-and-function-pointers", "law": "Ensure that your code correctly handles functions, function pointers, and Objective-C messages."}
 {"id": "/documentation/uikit/updating-data-structures", "law": "If you’re working with an existing structure that includes misaligned 64-bit integers, you can use a pragma to force the proper alignment."}
 {"id": "/documentation/uikit/updating-data-structures", "law": "The following code shows the same data structure, but here it’s forced to use the 32-bit alignment rules."}
+{"id": "/documentation/uikit/uilistseparatorconfiguration-c.class", "law": "To override list separator appearance on a per-item basis, use the property."}
+{"id": "/documentation/UIKit/automatic-trait-tracking", "law": "Automatic trait tracking is a UIKit feature that eliminates the need to manually register for trait changes when you use traits in a supported method or closure."}
+{"id": "/documentation/UIKit/automatic-trait-tracking", "law": "These methods support automatic trait tracking, and automatic observation tracking on objects that use the macro."}
+{"id": "/documentation/UIKit/automatic-trait-tracking", "law": "Avoid causing excessive updates by avoiding changes in that update properties the object tracks in , or that invalidate the view’s layout."}
+{"id": "/documentation/UIKit/automatic-trait-tracking", "law": "Reduce the need to manually register for trait changes when you use traits within a method or closure that supports automatic trait tracking."}
+{"id": "/documentation/UIKit/preparing-your-ui-to-run-in-the-background", "law": "If your app was previously in the foreground, use the background transition to stop tasks and release any shared resources."}
+{"id": "/documentation/UIKit/preparing-your-ui-to-run-in-the-background", "law": "Make sure your app isn’t holding any shared system resources when it transitions to the background."}
+{"id": "/documentation/UIKit/UIColor/opaqueSeparator", "law": "This color is always opaque."}
+{"id": "/documentation/UIKit/UIColor/secondarySystemBackground", "law": "Use this color for standard table views and designs that have a white primary background in a light environment."}
+{"id": "/documentation/UIKit/UIColor/secondarySystemGroupedBackground", "law": "Use this color for grouped content, including table views and platter-based designs."}
+{"id": "/documentation/UIKit/UIColor/systemBackground", "law": "Use this color for standard table views and designs that have a white primary background in a light environment."}
+{"id": "/documentation/UIKit/UIColor/systemGroupedBackground", "law": "Use this color for grouped content, including table views and platter-based designs."}
+{"id": "/documentation/UIKit/UIColor/tertiarySystemBackground", "law": "Use this color for standard table views and designs that have a white primary background in a light environment."}
+{"id": "/documentation/UIKit/UIColor/tertiarySystemGroupedBackground", "law": "Use this color for grouped content, including table views and platter-based designs."}
+{"id": "/documentation/UIKit/UICollectionViewFlowLayout", "law": "Use of the delegate allows you to adjust layout information dynamically."}
+{"id": "/documentation/UIKit/UICollectionViewFlowLayout", "law": "If you don’t provide a delegate, the flow layout uses the default values you set in the properties of this class."}
+{"id": "/documentation/UIKit/UIVibrancyEffect", "law": "The use of a vibrancy effect can help the content placed inside the become more vivid."}
+{"id": "/documentation/UIKit/UISearchBar", "law": "You use a delegate, an object conforming to the protocol, to implement the actions when the user enters text or clicks buttons."}
+{"id": "/documentation/UIKit/UISearchBar", "law": "You can customize the appearance of search bars one at a time, or you can use the appearance proxy ( ) to customize the appearance of all search bars in an app."}
+{"id": "/documentation/UIKit/UILabel/numberOfLines", "law": "This property controls the maximum number of lines to use in order to fit the label’s text into its bounding rectangle."}
+{"id": "/documentation/UIKit/UIImage/SymbolScale", "law": "Constants that indicate which scale variant of a symbol image to use."}
+{"id": "/documentation/UIKit/NSForegroundColorAttributeName", "law": "Use this attribute to specify the color of the text during rendering."}
+{"id": "/documentation/UIKit/UIBezierPath", "law": "After defining the shape, you can use additional methods of this class to render the path in the current drawing context."}
+{"id": "/documentation/UIKit/UIBezierPath", "law": "You can even use the same object to render the same shape multiple times, perhaps changing the rendering options between successive drawing calls."}
+{"id": "/documentation/UIKit/UIBezierPath", "law": "(You set the stroke and fill color using the class.) In addition to using a Bézier path object to draw shapes, you can also use it to define a new clipping region."}
+{"id": "/documentation/UIKit/UIViewController/preferredScreenEdgesDeferringSystemGestures", "law": "Whenever possible, you should allow the system gestures to take precedence."}
+{"id": "/documentation/UIKit/UIViewController/preferredScreenEdgesDeferringSystemGestures", "law": "However, immersive apps can use this property to allow app-defined gestures to take precedence over the system gestures."}
+{"id": "/documentation/UIKit/UIViewController/preferredScreenEdgesDeferringSystemGestures", "law": "You do that by overriding this property and returning the screen edges for which your gestures should take precedence."}
+{"id": "/documentation/UIKit/UINavigationBar/prefersLargeTitles", "law": "Use the property to configure the title’s appearance."}
+{"id": "/documentation/UIKit/UIKeyCommand", "law": "iPad apps that run in macOS can use to create menu elements that have keyboard shortcuts."}
+{"id": "/documentation/UIKit/UIMenuBuilder", "law": "You don’t create a menu builder object."}
+{"id": "/documentation/UIKit/UIMenuBuilder", "law": "To see an example of how to use a menu builder object, see ."}
+{"id": "/documentation/UIKit/UIMenu", "law": "Create objects and use them to construct the menus and submenus your app displays."}
+{"id": "/documentation/UIKit/UIMenu", "law": "You also use menus to display contextual actions in response to specific interactions with one of your views."}
+{"id": "/documentation/UIKit/UIEditMenuInteraction", "law": "Standard UIKit classes, such as and , are preconfigured to use edit menu interactions."}
+{"id": "/documentation/UIKit/UIEditMenuInteraction", "law": "You can use the interaction’s delegate to add additional items to the menu and set the target rectangle to display around using methods in the protocol."}
+{"id": "/documentation/UIKit/UIAlertController/Style/actionSheet", "law": "Use an action sheet to present the user with a set of alternatives for how to proceed with a given task."}
+{"id": "/documentation/UIKit/UIAlertController/Style/actionSheet", "law": "This alert style isn’t supported by tvOS; use instead."}
+{"id": "/documentation/UIKit/UIAlertController", "law": "Use this class to configure alerts and action sheets with the message that you want to display and the actions from which to choose."}
+{"id": "/documentation/UIKit/UIPopoverPresentationController", "law": "You use instances of this class as-is to configure aspects of the popover appearance and behavior for view controllers whose presentation style is set to ."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "You can use a date picker to allow a user to enter either a point in time (calendar date, time value, or both) or a time interval (for example, for a timer)."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "You use a date picker only for handling the selection of times and dates."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "Date pickers use the target-action design pattern to notify your app when the user changes the selected date."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "When debugging issues with date pickers, watch for these common pitfalls: The minimum date must be earlier than the maximum date."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "If the maximum date is less than the minimum date, both properties are ignored, and the date picker allows the selection of any date value."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "You should integrate date pickers in your layout using Auto Layout."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "Although date pickers can be resized, they should be used at their intrinsic content size."}
+{"id": "/documentation/UIKit/UIDatePicker", "law": "Setting the locale changes the language that the date picker uses for display, but also the format of the date and time (for example, certain locales present days before month names, or prefer a 24-hour clock over a 12-hour clock)."}
+{"id": "/documentation/UIKit/UIPickerView", "law": "Use your picker view delegate (an object that adopts the protocol) to provide views for displaying your data and responding to user selections."}
+{"id": "/documentation/UIKit/UISegmentedControl/isMomentary", "law": "If it’s set to , segments in the control don’t show selected state and don’t update the value of after tracking ends."}
+{"id": "/documentation/UIKit/UIGestureRecognizer", "law": "The action methods invoked must conform to one of the following signatures: Methods conforming to the latter signature permit the target in some cases to query the gesture recognizer sending the message for additional information."}
+{"id": "/documentation/UIKit/UIGestureRecognizer", "law": "If you’re going to create such a concrete gesture recognizer, be sure to import the header file (for Objective-C) or the module (for Swift)."}
+{"id": "/documentation/UIKit/UIGestureRecognizer", "law": "(Note that the constants for Recognized and Ended states are synonymous.) Subclasses must set the property to the appropriate value when they transition between states."}
+{"id": "/documentation/UIKit/UIPanGestureRecognizer", "law": "The gesture begins ( ) when the user moves the minimum number of fingers allowed ( ) enough distance for recognition as a pan."}
+{"id": "/documentation/UIKit/UIAccessibility/isVoiceOverRunning", "law": "You can use this function to customize your app’s UI specifically for VoiceOver users."}
+{"id": "/documentation/UIKit/UIImage/RenderingMode-swift.enum/alwaysTemplate", "law": "Always draw the image as a template image, ignoring its color information."}

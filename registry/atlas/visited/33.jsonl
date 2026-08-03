@@ -146,3 +146,6 @@
 {"id": "/documentation/pencilkit/pktoolpicker/selectedtool-2lptq", "sha": "c43f7ed4976178df0b710fe5d63f8e94ab252b34c2672f93787f0e83c0cbebd8", "sieve": 2, "t": "selectedTool", "n": 139, "laws": 0, "ts": "2026-08-03 06:38 UTC"}
 {"id": "/documentation/appkit/nstextfield/bezelstyle-swift.enum", "sha": "658a542170b99a994c3e6a08b020b7790f395e4c6fb9b411a77ba88312105912", "sieve": 2, "t": "NSTextField.BezelStyle", "n": 213, "laws": 0, "ts": "2026-08-03 06:44 UTC"}
 {"id": "/documentation/appkit/nspagecontroller/transitionstyle-swift.property", "sha": "c60f46d9114650fd1b5c35bdbfdd33830c4342f9f3252ec34bd6d4042d814732", "sieve": 2, "t": "transitionStyle", "n": 167, "laws": 0, "ts": "2026-08-03 06:44 UTC"}
+{"id": "/documentation/activitykit/activitystyle/transient", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "ActivityStyle.transient", "n": 0, "laws": 0, "ts": "2026-08-03 07:40 UTC"}
+{"id": "/documentation/webkit/wkhttpcookiestore", "sha": "02e8b48e4de2e90e213d597b930f5911c540030af7ed34c1aef44f9ede00fdf0", "sieve": 2, "t": "WKHTTPCookieStore", "n": 905, "laws": 0, "ts": "2026-08-03 07:46 UTC"}
+{"id": "/documentation/passkit/pkpaymentrequest/applicationdata", "sha": "594094656bc4c0f1b8329b03d95f4b25277140ead34587d582db8d64f3f22a79", "sieve": 2, "t": "applicationData", "n": 346, "laws": 0, "ts": "2026-08-03 08:02 UTC"}
