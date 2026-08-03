@@ -194,6 +194,21 @@ def _in_light_scope(text: str, pos: int) -> bool:
     return any(LIGHT_SCOPE.search(h) for h in _enclosing_headers(text, pos))
 
 
+def _light_exempt(tokens: dict) -> bool:
+    """Освобождает ли светлая тема от запрета тени.
+
+    Освобождение появилось не как поблажка, а как ЧЕСТНОСТЬ: запрет AE2 был
+    снят с ЧЁРНОГО холста (217 кадров), и распространять его на светлый, не
+    измерив светлый, значило бы судить по чужой оси.
+
+    Теперь светлый измерен: 635 чистых кромок холст→карточка, профиль холста
+    наружу от кромки на 0..7 pt даёт медиану РОВНО 0.000 — тени нет и там.
+    Основание освобождения исчезло, и освобождение снимается — данными, а не
+    мнением: появится в своде замер, говорящий обратное, — вернётся само.
+    """
+    return not (tokens.get("shadows", {}) or {}).get("light_depth")
+
+
 # AE17. ОБЛАСТЬ ТЕМЫ. Объявление считается тематическим, если стоит внутри
 # любого механизма смены темы: медиазапрос схемы, атрибут темы, класс темы.
 # Список закрытый и объявленный: угадывать «похоже на тему» нельзя.
@@ -363,6 +378,14 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # ось не снята, такие правила ВОЗДЕРЖИВАЮТСЯ — и говорят об этом вслух.
     # Как только замер появляется в своде, они просыпаются сами.
     base = str(adapter.get("base", "dark")).lower()
+    light_exempt = _light_exempt(tokens)
+    ae2_msg = ("свечение/тень запрещены (box/text-shadow, drop-shadow) — "
+               "глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: "
+               "на чёрном (217 кадров) и на светлом (635 кромок, профиль "
+               "холста у кромки — медиана 0.000)"
+               if not light_exempt else
+               "свечение/тень на чёрном холсте запрещены (box/text-shadow, "
+               "drop-shadow) — глубина = ступень поверхности")
     abstained = {}
     if base == "light":
         allow = set(light_allow) | {hex6(c) for c in adapter.get("allow_extra", [])}
@@ -434,15 +457,13 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     # (selftest: «чёрный drop в light — не AE2, в dark — AE2»).
                     # Когда селектор САМ называет светлую тему, холст известен
                     # статически, и файловое правило обязано судить так же.
-                    if _in_light_scope(t, m.start()):
+                    if light_exempt and _in_light_scope(t, m.start()):
                         continue
-                    findings.append(("AE2", rel, _line_of(t, m.start()),
-                                     "свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности"))
+                    findings.append(("AE2", rel, _line_of(t, m.start()), ae2_msg))
                 for m in DROPSHADOW.finditer(t):
-                    if _in_light_scope(t, m.start()):
+                    if light_exempt and _in_light_scope(t, m.start()):
                         continue
-                    findings.append(("AE2", rel, _line_of(t, m.start()),
-                                     "свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности"))
+                    findings.append(("AE2", rel, _line_of(t, m.start()), ae2_msg))
             if "AE3" in rules:
                 bigs = [(float(m.group(1)), m.start()) for m in RADIUS.finditer(t)
                         if rad_lim < float(m.group(1)) < capsule]
