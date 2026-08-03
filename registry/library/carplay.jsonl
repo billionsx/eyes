@@ -234,3 +234,5 @@
 {"id": "/documentation/carplay/cpvoicecontrolstate", "law": "A voice control state containing title variants and images for use by a voice control template."}
 {"id": "/documentation/carplay/cpvoicecontroltemplate/activatevoicecontrolstate(withidentifier:)", "law": "Your app must present the voice control template using its object before the app can activate a new state."}
 {"id": "/documentation/carplay/cpvoicecontroltemplate/leadingnavigationbarbuttons", "law": "The navigation bar may display a maximum of 2 buttons in the leading space."}
+{"id": "/documentation/CarPlay/displaying-content-in-carplay", "law": "Don’t render alerts, overlays, or any other user interface elements."}
+{"id": "/documentation/CarPlay/displaying-content-in-carplay", "law": "Set the dashboard controller’s property to an array of buttons — up to a maximum of two — that the CarPlay Dashboard displays when your app isn’t actively navigating."}

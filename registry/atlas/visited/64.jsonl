@@ -134,3 +134,4 @@
 {"id": "/documentation/uikit/preview(_:traits:body:)-en9c", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "Preview(_:traits:body:)", "n": 0, "laws": 0, "ts": "2026-08-02 18:36 UTC"}
 {"id": "/documentation/uikit/uitextdocumentproxy/selectedtext", "sha": "33e6e9ee35ad493bf0456994277435b94afcba378baf5f3b7d315e219859da31", "sieve": 2, "t": "selectedText", "n": 44, "laws": 0, "ts": "2026-08-02 18:39 UTC"}
 {"id": "/documentation/uikit/uitextinputassistantitem/trailingbarbuttongroups", "sha": "2a8babd35f46d185cab7e3a3663043dfc5da10e3a574764d1930e743587e4441", "sieve": 2, "t": "trailingBarButtonGroups", "n": 442, "laws": 0, "ts": "2026-08-02 18:39 UTC"}
+{"id": "/documentation/uikit/nstextselection/granularity-swift.property", "sha": "b774f98b7ced20d2140c2ba7a007f0f747b450a8a618021b7f1416565338cf39", "sieve": 2, "t": "granularity", "n": 121, "laws": 0, "ts": "2026-08-03 06:22 UTC"}

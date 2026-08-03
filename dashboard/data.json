@@ -1,13 +1,13 @@
 {
- "ts": "2026-08-03 06:50 UTC",
+ "ts": "2026-08-03 06:53 UTC",
  "atlas": {
-  "visited": 36700,
-  "frontier": 61461,
+  "visited": 38200,
+  "frontier": 68671,
   "cycles": 0,
-  "last": "2026-08-02 18:39 UTC"
+  "last": "2026-08-03 06:45 UTC"
  },
  "library": {
-  "laws": 30525,
+  "laws": 30919,
   "frameworks": 339
  },
  "web_laws": 303,
@@ -31,12 +31,12 @@
  },
  "brief": "BIG7 · бриф недели 2026-W31",
  "live": {
-  "pages": 3
+  "pages": 5
  },
  "big7": {
-  "pages": 965,
-  "laws": 649,
-  "frames": 12
+  "pages": 1012,
+  "laws": 683,
+  "frames": 13
  },
  "base": "ios26.5-dark",
  "tasks": {

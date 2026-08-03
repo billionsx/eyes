@@ -27,3 +27,4 @@
 {"id": "/documentation/metrickit/mxsignpost(_:dso:log:name:signpostid:_:_:)", "law": "Don’t alter the parameters , , or ."}
 {"id": "/documentation/metrickit/statereportingdomain", "law": "Use reverse DNS notation to avoid naming collisions: Pass a set of values to to receive metrics segmented by each domain’s recorded states."}
 {"id": "/documentation/metrickit/statereportingdomain", "law": "Use from the framework to obtain a ."}
+{"id": "/documentation/metrickit/track-performance-by-app-state-using-metrickit", "law": "The person can also change the active variant from the MetricKit Sample settings in the Settings app, which provides a “Use Card Layout” toggle under the “A/B Test” group."}

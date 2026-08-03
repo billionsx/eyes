@@ -104,3 +104,5 @@
 {"id": "/documentation/virtualization/vzvirtualmachine/restoremachinestatefrom(url:completionhandler:)", "law": "Use this method to restore a stopped VM to a state previously saved to file through ."}
 {"id": "/documentation/virtualization/vzvirtualmachine/savemachinestateto(url:completionhandler:)", "law": "Use this method to save a paused VM to a file."}
 {"id": "/documentation/virtualization/vzvirtualmachine/savemachinestateto(url:completionhandler:)", "law": "You can use the contents of this file later to restore the state of the paused VM."}
+{"id": "/documentation/virtualization/adding-the-virtualization-entitlement-to-your-project", "law": "Unless your app requires it in support of another capability, you can remove the app sandbox entitlement key that Xcode creates by default by selecting it and clicking the Remove button (-)."}
+{"id": "/documentation/virtualization/virtualization-enumerations", "law": "These are values you use to control aspects of the operation of the virtual drives for guest VMs and the auxiliary storage of macOS guest VMs."}

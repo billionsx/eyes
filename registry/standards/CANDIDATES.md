@@ -1,33 +1,32 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 30561 · кандидатов: 20 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 30919 · кандидатов: 21 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
-**Область обязательна.** Число, верное в своей области, за её пределами становится выдумкой: норма со страницы слежения за взглядом visionOS не есть норма веб-страницы. Кандидат с областью, отличной от `universal`, связывается в правило только для своей области — или не связывается вовсе.
-
-| свойство | норма | направление | область | страниц | встреч | первоисточник |
-|---|---|---|---|---|---|---|
-| opacity | 35 % | none | 🌐 universal | 2 | 2 | да |
-| font-size | 13 pt | none | ⚠️ macos | 1 | 1 | да |
-| font-size | 17 pt | none | ⚠️ macos | 1 | 1 | да |
-| margin / padding | 7 pt | none | 🌐 universal | 1 | 1 | да |
-| margin / padding | 10 pt | none | 🌐 universal | 1 | 1 | да |
-| margin / padding | 16 pt | none | ⚠️ widget | 1 | 1 | да |
-| margin / padding | 16 pt | min | ⚠️ visionos | 1 | 1 | да |
-| margin / padding | 60 pt | min | ⚠️ visionos | 1 | 1 | да |
-| min-width/min-height интерактивного элемента | 28 pt | min | ⚠️ game | 1 | 1 | да |
-| min-width/min-height интерактивного элемента | 44 pt | min | ⚠️ game | 1 | 1 | да |
-| контраст пары цветов | 4.5 :1 | min | 🌐 universal | 1 | 1 | да |
-| opacity | 50 % | none | 🌐 universal | 3 | 3 | нет |
-| opacity | 100 % | none | 🌐 universal | 2 | 4 | нет |
-| font-size | 44 pt | none | 🌐 universal | 2 | 2 | нет |
-| margin / padding | 600 ms | none | 🌐 universal | 2 | 2 | нет |
-| border-radius | 6 pt | none | ⚠️ watchos | 1 | 1 | нет |
-| line-height | 10 pt | none | 🌐 universal | 1 | 1 | нет |
-| margin / padding | 560 pt | none | ⚠️ tvos | 1 | 1 | нет |
-| opacity | 10 % | none | 🌐 universal | 1 | 1 | нет |
-| контраст пары цветов | 20 % | none | 🌐 universal | 1 | 1 | нет |
+| свойство | норма | направление | страниц | встреч | первоисточник |
+|---|---|---|---|---|---|
+| opacity | 35 % | none | 2 | 2 | да |
+| font-size | 13 pt | none | 1 | 1 | да |
+| font-size | 17 pt | none | 1 | 1 | да |
+| margin / padding | 7 pt | none | 1 | 1 | да |
+| margin / padding | 10 pt | none | 1 | 1 | да |
+| margin / padding | 16 pt | none | 1 | 1 | да |
+| margin / padding | 16 pt | min | 1 | 1 | да |
+| margin / padding | 60 pt | min | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 28 pt | min | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 44 pt | min | 1 | 1 | да |
+| контраст пары цветов | 4.5 :1 | min | 1 | 1 | да |
+| opacity | 50 % | none | 3 | 3 | нет |
+| opacity | 100 % | none | 2 | 4 | нет |
+| font-size | 44 pt | none | 2 | 2 | нет |
+| margin / padding | 600 ms | none | 2 | 2 | нет |
+| opacity | 2048 px | none | 1 | 2 | нет |
+| border-radius | 6 pt | none | 1 | 1 | нет |
+| line-height | 10 pt | none | 1 | 1 | нет |
+| margin / padding | 560 pt | none | 1 | 1 | нет |
+| opacity | 10 % | none | 1 | 1 | нет |
+| контраст пары цветов | 20 % | none | 1 | 1 | нет |
 
 ## Адреса
 
@@ -61,6 +60,8 @@
   - «Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at run»
 - **margin / padding 600 ms** (none) — https://developer.apple.com/documentation/CoreHaptics/updating-continuous-and-transient-haptic-parameters-in-real-time, https://developer.apple.com/documentation/corehaptics/updating-continuous-and-transient-haptic-parameters-in-real-time
   - «To accomplish this spacing, you use a dispatch timer to separate the transient haptic patterns by a time interval of 600 milliseconds, so they feel di»
+- **opacity 2048 px** (none) — https://developer.apple.com/documentation/realitykit/reducing-gpu-utilization-in-your-realitykit-app
+  - «For example, a texture describing a base color with four channels — one for each of red, green, blue, and alpha — stored in a usdz file as a PNG with »
 - **border-radius 6 pt** (none) — https://developer.apple.com/documentation/watchkit/wkinterfacegroup/setcornerradius(_:)
   - «The default corner radius for groups is 6 points.»
 - **line-height 10 pt** (none) — https://developer.apple.com/documentation/swiftui/layout/explicitalignment(of:in:proposal:subviews:cache:)

@@ -42,3 +42,4 @@
 {"id": "/documentation/CoreHaptics/CHHapticPattern", "law": "More complicated patterns also contain key-value pairs for parameter curves, which you can use to modulate parameters over time."}
 {"id": "/documentation/CoreHaptics/CHHapticPattern", "law": "To add haptics to your app, you create an instance of , load a pattern, and use the engine to create a player to play that pattern."}
 {"id": "/documentation/CoreHaptics/CHHapticPattern", "law": "For example, you can use sharpness values to convey an experience that’s crisp, precise, and mechanical, or one that’s soft, rounded, and organic."}
+{"id": "/documentation/corehaptics/playing-a-custom-haptic-pattern-from-a-file", "law": "If you don’t want the layering, your app should wait out the duration of the first haptic before starting subsequent haptic players."}

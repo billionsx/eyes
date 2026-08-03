@@ -6,3 +6,9 @@
 {"id": "/documentation/dockkit/dockaccessory", "law": "Use to perform animations, or explicitly control the position of the dock accessory in three-dimensional space by supplying coordinates in units of radians."}
 {"id": "/documentation/dockkit/dockaccessorymanager", "law": "If you want to customize the tracking behavior of a dock accessory, use to obtain that accessory."}
 {"id": "/documentation/dockkit/dockaccessorymanager", "law": "This class is a singleton, so use to fetch the single instance."}
+{"id": "/documentation/dockkit/controlling-a-dockkit-accessory-using-your-camera-app", "law": "When an accessory connects, DockKit sets it up to use system tracking, and to listen to accessory events and battery states in ."}
+{"id": "/documentation/dockkit/modify-rotation-and-positioning-behavior-programmatically", "law": "To do this, use to prevent system from automatically tracking subjects."}
+{"id": "/documentation/dockkit/modify-rotation-and-positioning-behavior-programmatically", "law": "After disabling tracking, use to iterate through the available accessories and find the one you wish to interact with."}
+{"id": "/documentation/dockkit/modify-rotation-and-positioning-behavior-programmatically", "law": "Once you identify the accessory of interest use , and to directly control the speed and position of the accessory: The system tracking enabled state isn’t guaranteed to persist across reboots, app launch/termination, or background/foreground states."}
+{"id": "/documentation/dockkit/track-custom-objects-in-a-frame", "law": "Once you’ve applied your machine learning model on a set of video frames, use DockKit to generate and provide tracking vectors."}
+{"id": "/documentation/dockkit/track-custom-objects-in-a-frame", "law": "Use your machine learning model to focus on a specific subject."}

@@ -91,8 +91,6 @@
 {"id": "/documentation/scenekit/scncamera/wantshdr", "sha": "d832dd9639106338beee06ccf63c134db2305ef351fd6e98d9d920d6a00a410d", "t": "wantsHDR", "n": 1058, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
 {"id": "/documentation/scenekit/lighting-attribute-keys", "sha": "856362f779a2e88fc37f074329f228fd97c09a02aaf2da13dbd9339e79780780", "t": "Lighting Attribute Keys", "n": 513, "laws": 0, "ts": "2026-07-30 18:55 UTC"}
 {"id": "/documentation/scenekit/scnnode/simdworldtransform", "sha": "92736bf0e3715bc5fe5c7b8a69a047418dcfe81c273ad62fbd5c43f6707aa3b1", "t": "simdWorldTransform", "n": 306, "laws": 0, "ts": "2026-07-30 18:59 UTC"}
-{"id": "/design/human-interface-guidelines/going-full-screen", "sha": "f67bbeef21cb39efb0949073e634c48cd3c11d1594214475f799b6670d954af9", "t": "Going full screen", "n": 5028, "laws": 7, "ts": "2026-07-31 05:52 UTC"}
-{"id": "/design/human-interface-guidelines/notifications", "sha": "dde769805a8473c79b1b28b0200c858f09536ddacf3310efee7d4ac990167c07", "t": "Notifications", "n": 13225, "laws": 10, "ts": "2026-07-31 05:54 UTC"}
 {"id": "/documentation/mediaplayer/mp_swift_error_nullable_result", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "MP_SWIFT_ERROR_NULLABLE_RESULT", "n": 0, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
 {"id": "/documentation/uikit/nscollectionlayoutvisibleitem", "sha": "e61c88a4318de320313db45c2b6d3631d345fe8a57bf8bce0826c750124d7933", "t": "NSCollectionLayoutVisibleItem", "n": 792, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
 {"id": "/documentation/uikit/uinavigationcontroller/hideshowbarduration", "sha": "0486846d55a496f4110fc3f63db787b4a91e1ecc35cae699686d28f415ba79ec", "t": "hideShowBarDuration", "n": 143, "laws": 0, "ts": "2026-07-31 06:11 UTC"}
@@ -133,3 +131,7 @@
 {"id": "/documentation/coreaudiotypes/kaudiochannellayouttag_ogg_5_0", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "kAudioChannelLayoutTag_Ogg_5_0", "n": 0, "laws": 0, "ts": "2026-08-02 18:23 UTC"}
 {"id": "/documentation/coreaudiotypes/kaudioformatilbc", "sha": "d1253385914efdbfd724386648bf46167f3407552ada3bb29f3818e8f465bbb5", "sieve": 2, "t": "kAudioFormatiLBC", "n": 103, "laws": 0, "ts": "2026-08-02 18:24 UTC"}
 {"id": "/documentation/uikit/uicornerradius-c.class/fixedradius:", "sha": "cfdda97da86a217950875713ef5edcf66c13d8b6d6accc9c43d9bfad91e442d4", "sieve": 2, "t": "fixedRadius:", "n": 32, "laws": 0, "ts": "2026-08-02 18:31 UTC"}
+{"id": "/design/human-interface-guidelines/going-full-screen", "sha": "f67bbeef21cb39efb0949073e634c48cd3c11d1594214475f799b6670d954af9", "sieve": 2, "t": "Going full screen", "n": 5028, "laws": 7, "ts": "2026-08-03 06:15 UTC"}
+{"id": "/design/human-interface-guidelines/notifications", "sha": "dde769805a8473c79b1b28b0200c858f09536ddacf3310efee7d4ac990167c07", "sieve": 2, "t": "Notifications", "n": 13225, "laws": 10, "ts": "2026-08-03 06:16 UTC"}
+{"id": "/documentation/uikit/uiprintinfo/duplex-swift.property", "sha": "1b8ad8c85f5f66d016d566c6bd04c71efaf826369ad0d99bbab151f430813628", "sieve": 2, "t": "duplex", "n": 622, "laws": 0, "ts": "2026-08-03 06:21 UTC"}
+{"id": "/documentation/storekit/ad-network-install-validation-keys", "sha": "81a6dba8721dabcec33396a4d48502a7f045e6fdd2644b40611117501fe1cbf0", "sieve": 2, "t": "Ad network install-validation keys", "n": 1074, "laws": 0, "ts": "2026-08-03 06:35 UTC"}

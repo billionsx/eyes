@@ -3593,3 +3593,38 @@
 {"id": "/documentation/uikit/uiwritingtoolscoordinator/delegate-swift.protocol/writingtoolscoordinator(_:requestssinglecontainersubrangesof:in:completion:)", "law": "Your implementation of that method must create a preview suitable for animating the content from the underlying text container."}
 {"id": "/documentation/uikit/uitextcursorview/resetblinkanimation()", "law": "Resets the blink animation to avoid glitches while someone is typing."}
 {"id": "/documentation/uikit/uitextinteraction/gesturesforfailurerequirements", "law": "To do this, use the method to relate your gestures to those listed in ."}
+{"id": "/documentation/UIKit/about-focus-interactions-for-apple-tv", "law": "Use the property to determine if an item is focusable."}
+{"id": "/documentation/UIKit/about-focus-interactions-for-apple-tv", "law": "Focus should almost always be under user control."}
+{"id": "/documentation/uikit/uidraginteraction/liftbehavior-swift.property", "law": "For pointer-initiated drags, use to control whether pointer drags respect the lift delay independently of this property."}
+{"id": "/documentation/uikit/uiconfigurationcolortransformer-c.typealias", "law": "Because color transformers can use the same base input color to produce a number of variants of that color, you can create different appearances for different states of your views."}
+{"id": "/documentation/uikit/uiconfigurationcolortransformer-swift.struct", "law": "Because color transformers can use the same base input color to produce a number of variants of that color, you can create different appearances for different states of your views."}
+{"id": "/documentation/uikit/uiconfigurationstate-1smq1", "law": "You use a configuration state with background and content configurations to obtain the default appearance for a specific state."}
+{"id": "/documentation/uikit/uiconfigurationstate-8d7pd", "law": "You use a configuration state with background and content configurations to obtain the default appearance for a specific state."}
+{"id": "/documentation/uikit/uiviewconfigurationstate-c.class", "law": "You use a view configuration state with background and content configurations to obtain the default appearance for a specific state."}
+{"id": "/documentation/uikit/uiviewconfigurationstate-swift.struct", "law": "You use a view configuration state with background and content configurations to obtain the default appearance for a specific state."}
+{"id": "/documentation/UIKit/pointer-interactions", "law": "As people use an input device, iPadOS automatically adapts the pointer to the current context, providing rich visual feedback and just the right level of precision needed to enhance productivity and simplify common tasks."}
+{"id": "/documentation/UIKit/pointer-interactions", "law": "If you use custom views to display your content, you must define pointer effects and styles yourself."}
+{"id": "/documentation/UIKit/adding-user-focusable-elements-to-a-tvos-app", "law": "On Apple TV, people use a remote or game controller to navigate through interface elements like movie posters, apps, or buttons, highlighting each item as they come to it."}
+{"id": "/documentation/UIKit/adding-user-focusable-elements-to-a-tvos-app", "law": "(In right-to-left languages, the top-right item is initially in focus.) You don’t need to do anything to UIKit elements that are focusable by default."}
+{"id": "/documentation/UIKit/adding-user-focusable-elements-to-a-tvos-app", "law": "The easiest way to ensure that focus moves between focusable items is to arrange the items in a grid pattern."}
+{"id": "/documentation/UIKit/responding-to-the-launch-of-your-app", "law": "Add views to your launch storyboard and use Auto Layout constraints to size and position them so that they adapt to the underlying environment."}
+{"id": "/documentation/UIKit/choosing-a-user-interface-idiom-for-your-mac-app", "law": "However, these properties and methods are available for use in the Mac idiom when the control’s behavioral style is ."}
+{"id": "/documentation/uikit/uicollectionlayoutlistconfiguration-c.class", "law": "Use this configuration to create a list section for a compositional layout ( ), or a layout containing only list sections."}
+{"id": "/documentation/uikit/uilistseparatorconfiguration-swift.struct", "law": "To override list separator appearance on a per-item basis, use the property."}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct/cornerstyle-swift.enum", "law": "Use this property to control how the button uses the property of the button’s ."}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct/indicator-swift.property", "law": "Use this property to control the style of the indicator that appears on the trailing edge of the button."}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct/macidiomstyle-swift.enum", "law": "If you build your app with , you can use these styles to configure how your app displays a button when running on a Mac."}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct/macidiomstyle-swift.property", "law": "Select a specific style to force the button to always use that style."}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct/macidiomstyle-swift.property", "law": "The style to use when this button appears in macOS."}
+{"id": "/documentation/uikit/uibutton/configuration-swift.struct/titlealignment-swift.enum", "law": "If your button displays both and , use this enumeration to configure how the text aligns."}
+{"id": "/documentation/uikit/auditing-pointer-usage", "law": "Avoid casting pointers to other types, such as integers."}
+{"id": "/documentation/uikit/auditing-pointer-usage", "law": "If you print the values of pointers using functions such as or , use properly prescribed macros in your format string to ensure that values are displayed correctly."}
+{"id": "/documentation/uikit/auditing-pointer-usage", "law": "When you cast pointers to an integer type, use pointer types consistently to ensure that all of your variables are large enough to hold an address."}
+{"id": "/documentation/uikit/auditing-pointer-usage", "law": "If you must cast a pointer to an integer type, always use the type to avoid truncation."}
+{"id": "/documentation/uikit/auditing-pointer-usage", "law": "To solve this problem for standard types and pointer-sized integers, use the various macros listed in the following tables."}
+{"id": "/documentation/uikit/auditing-pointer-usage", "law": "Ensure that the pointers in your code are safe for the 64-bit runtime."}
+{"id": "/documentation/uikit/managing-functions-and-function-pointers", "law": "If you pass a function pointer in your code, its calling conventions must take the same set of parameters everywhere in the code."}
+{"id": "/documentation/uikit/managing-functions-and-function-pointers", "law": "The following code shows an example of a problematic function call: Because the function pointer in this example is cast to use a different set of calling conventions, the calling function places the parameters in an order that the called function doesn’t expect."}
+{"id": "/documentation/uikit/managing-functions-and-function-pointers", "law": "Ensure that your code correctly handles functions, function pointers, and Objective-C messages."}
+{"id": "/documentation/uikit/updating-data-structures", "law": "If you’re working with an existing structure that includes misaligned 64-bit integers, you can use a pragma to force the proper alignment."}
+{"id": "/documentation/uikit/updating-data-structures", "law": "The following code shows the same data structure, but here it’s forced to use the 32-bit alignment rules."}

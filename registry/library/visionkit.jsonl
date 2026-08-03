@@ -16,3 +16,7 @@
 {"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "For example, the scanner calls this method when users tap Don’t Allow the first time the system prompt appears, as described in ."}
 {"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "Use the parameters of the enumeration to get details about the item, such as the bounds."}
 {"id": "/documentation/VisionKit/scanning-data-with-the-camera", "law": "To stop scanning, use the method in one of the delegate methods."}
+{"id": "/documentation/visionkit/enabling-live-text-interactions-with-images", "law": "For iOS apps, users can use a long-press gesture (touch and hold) a QR code to follow a link or take another action, depending on the payload."}
+{"id": "/documentation/visionkit/enabling-live-text-interactions-with-images", "law": "If you want the supplementary interface to use a custom font, set the property."}
+{"id": "/documentation/visionkit/enabling-live-text-interactions-with-images", "law": "Quick actions use the specified font for text and font weight for symbols."}
+{"id": "/documentation/visionkit/scanning-data-with-the-camera", "law": "Use the other parameters of the initializer to disable specific interface features and gestures."}

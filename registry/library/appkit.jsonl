@@ -2363,3 +2363,35 @@
 {"id": "/documentation/AppKit/NSControl", "law": "Any subclass that uses these methods must have a delegate and the methods to get and set it."}
 {"id": "/documentation/AppKit/NSControl", "law": "Any subclass that uses these methods must have a delegate and the methods to get and set it."}
 {"id": "/documentation/AppKit/NSDraggingDestination", "law": "A set of methods that the destination object (or recipient) of a dragged image must implement."}
+{"id": "/documentation/AppKit/choosing-a-specific-appearance-for-your-macos-app", "law": "Choose an app-wide appearance only when required by your design."}
+{"id": "/documentation/AppKit/choosing-a-specific-appearance-for-your-macos-app", "law": "For example, a photo editing app might always use a dark appearance so that users can focus on their photos and not the app’s chrome."}
+{"id": "/documentation/AppKit/choosing-a-specific-appearance-for-your-macos-app", "law": "Setting this key to causes the system to ignore the user’s preference and always apply a light appearance to your app."}
+{"id": "/documentation/AppKit/choosing-a-specific-appearance-for-your-macos-app", "law": "Use the key to opt out temporarily only while you work on improvements to your app’s Dark Mode support."}
+{"id": "/documentation/AppKit/choosing-a-specific-appearance-for-your-macos-app", "law": "If you do not plan to support a dark appearance at all, apply a light appearance to your entire app, as described in ."}
+{"id": "/documentation/appkit/nsview/exclusivegesturebehavior-swift.property", "law": "Declares whether gesture recognizers should be exclusive in this view and its subviews."}
+{"id": "/documentation/AppKit/NSImage/SymbolConfiguration-swift.class", "law": "After creating a symbol configuration object, assign it to the property of the object you use to display the image."}
+{"id": "/documentation/appkit/accessibility-functions", "law": "Use these functions to enhance the accessibility experience of your custom view or control."}
+{"id": "/documentation/appkit/accessibility-functions", "law": "Make sure you’re posting any relevant notifications as your control’s state changes."}
+{"id": "/documentation/appkit/managing-ongoing-background-processes-in-your-mac", "law": "People need to have control over when an app runs and how it utilizes the resources on their Mac: a best practice is to ensure apps running in macOS are visible."}
+{"id": "/documentation/appkit/managing-ongoing-background-processes-in-your-mac", "law": "Another strategy is to use a to provide progress updates and include some way to control the action."}
+{"id": "/documentation/appkit/managing-ongoing-background-processes-in-your-mac", "law": "The background termination rules don’t apply to apps which have a visible presence on screen, such as an icon in the upper right part of the menu bar, or a visible window."}
+{"id": "/documentation/appkit/additional-writing-directions", "law": "You can use the logical operator to combine these constants with or when used with to specify formatting controls defined by the Unicode Bidirectional Algorithm in Unicode Standard Annex #9."}
+{"id": "/documentation/appkit/nsevent/buttonmask-swift.struct", "law": "Constants you use to identify the activated tablet buttons in an event."}
+{"id": "/documentation/appkit/ui-element-colors", "law": "Retrieve standard color objects for use with windows, controls, labels, text, selections and other content in your app."}
+{"id": "/documentation/appkit/choosing-a-specific-appearance-for-your-macos-app", "law": "Choose an app-wide appearance only when required by your design."}
+{"id": "/documentation/appkit/choosing-a-specific-appearance-for-your-macos-app", "law": "For example, a photo editing app might always use a dark appearance so that users can focus on their photos and not the app’s chrome."}
+{"id": "/documentation/appkit/choosing-a-specific-appearance-for-your-macos-app", "law": "Setting this key to causes the system to ignore the user’s preference and always apply a light appearance to your app."}
+{"id": "/documentation/appkit/choosing-a-specific-appearance-for-your-macos-app", "law": "Use the key to opt out temporarily only while you work on improvements to your app’s Dark Mode support."}
+{"id": "/documentation/appkit/choosing-a-specific-appearance-for-your-macos-app", "law": "If you do not plan to support a dark appearance at all, apply a light appearance to your entire app, as described in ."}
+{"id": "/documentation/appkit/nsapplication-deprecated-symbols", "law": "Review symbols that are no longer supported, and find the replacements to use instead."}
+{"id": "/documentation/appkit/passing-control-from-one-app-to-another-with-cooperative-activation", "law": "Use if you want the active app to control when the target app activates."}
+{"id": "/documentation/appkit/nsimage-deprecated-symbols", "law": "Review symbols that are no longer supported, and find the replacements to use instead."}
+{"id": "/documentation/appkit/nsimage/name-swift.typealias", "law": "If you use these images in conjunction with an object, however, you can use the property of the cell to control scaling instead."}
+{"id": "/documentation/appkit/nsimage/name-swift.typealias", "law": "Similarly, for an object, you can use the : method to control scaling."}
+{"id": "/documentation/appkit/nsimage/name-swift.typealias", "law": "These images are template images that are appropriate for use as a borderless button—that is, it doesn’t need any extra bezel artwork behind it."}
+{"id": "/documentation/appkit/nsimage/symbolconfiguration-swift.class", "law": "After creating a symbol configuration object, assign it to the property of the object you use to display the image."}
+{"id": "/documentation/appkit/nsimage/symbolconfiguration-swift.property", "law": "Use this property to access the traits and rendering attributes the system uses with the symbol image."}
+{"id": "/documentation/appkit/nsopenpanel-deprecated-symbols", "law": "Review symbols that are no longer supported, and find the replacements to use instead."}
+{"id": "/documentation/appkit/nsvisualeffectview/state-swift.enum", "law": "Constants to specify how the material appearance should reflect window activity state."}
+{"id": "/documentation/appkit/nsgesturerecognizer/state-swift.property", "law": "The default declaration of this property is read-only so that external clients (such as other gesture recognizers) can use the value for informational purposes."}
+{"id": "/documentation/appkit/nsevent/buttonmask-swift.property", "law": "Use one or more of the button-mask constants described in to determine which of the pointing device’s buttons are pressed."}

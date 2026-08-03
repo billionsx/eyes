@@ -159,3 +159,28 @@
 {"id": "/documentation/StoreKit/SKAdNetwork", "law": "Up to five other ad networks receive a postback with a parameter value of if their ad impressions qualify for the attribution, but don’t win."}
 {"id": "/documentation/StoreKit/SKAdNetwork", "law": "The following diagram shows the path of ad impressions that qualify for, but don’t win, the ad attribution."}
 {"id": "/documentation/StoreKit/SKAdNetwork", "law": "Apps don’t need to use before calling SKAdNetwork APIs, and can call these APIs regardless of their tracking authorization status."}
+{"id": "/documentation/storekit/validating-receipts-with-the-app-store", "law": "You can’t build a trusted connection between a user’s device and the App Store directly because you don’t control either end of that connection, which makes it susceptible to a machine-in-the-middle attack."}
+{"id": "/documentation/storekit/validating-receipts-with-the-app-store", "law": "This approach ensures you don’t have to switch between URLs while your app is in testing, in review by App Review, or live in the App Store."}
+{"id": "/documentation/storekit/supporting-subscription-offer-codes-in-your-app", "law": "Including the redemption sheet in your app is recommended, but optional."}
+{"id": "/documentation/storekit/supporting-subscription-offer-codes-in-your-app", "law": "In the secondary configuration view, use the dropdown menu to select an offer code."}
+{"id": "/documentation/storekit/understanding-storekit-workflows", "law": "The design of this sample doesn’t require any special setup, or even the creation of products in App Store Connect; it uses StoreKit Testing in Xcode and the Transaction Manager window in Xcode to test In-App Purchase."}
+{"id": "/documentation/storekit/merchandising-win-back-offers-in-your-app", "law": "You can choose to suppress (or delay) this sheet using the API, present the win-back offer using , or use StoreKit APIs and customize your UI."}
+{"id": "/documentation/storekit/merchandising-win-back-offers-in-your-app", "law": "If a customer is eligible for multiple offers, use the view modifier to control which offer to present."}
+{"id": "/documentation/storekit/merchandising-win-back-offers-in-your-app", "law": "If you choose to fully control the in-app merchandising experience, use the folllowing APIs to get information about the customer’s eligibility for win-back offers and the offer details: Check the in the to get the list of the product’s win-back offers the customer is eligibile for."}
+{"id": "/documentation/storekit/supporting-offer-codes-in-your-app", "law": "Including the redemption sheet in your app is recommended, but optional."}
+{"id": "/documentation/storekit/supporting-offer-codes-in-your-app", "law": "In the secondary configuration view, use the dropdown menu to select an offer code."}
+{"id": "/documentation/storekit/supporting-promoted-in-app-purchases-in-your-app", "law": "To control whether a promoted In-App Purchase appears in the App Store on the device, use any of these methods: Add or remove it from the list."}
+{"id": "/documentation/storekit/supporting-win-back-offers-in-your-app", "law": "You can base eligibility on the duration of the customer’s paid subscription, the time since the subscription expired, and the time that must pass between redeemed offers."}
+{"id": "/documentation/storekit/supporting-win-back-offers-in-your-app", "law": "The win-back offer sheet and the direct link also use the image, if it’s available."}
+{"id": "/documentation/storekit/testing-ask-to-buy-in-xcode", "law": "Use the StoreKit configuration file to set up and control the test case."}
+{"id": "/documentation/storekit/testing-in-app-purchases-in-xcode", "law": "Your app can present an App Store sheet that customers can use to manage their subscriptions."}
+{"id": "/documentation/storekit/testing-in-app-purchases-in-xcode", "law": "When you increase the price of an auto-renewable subscription by an amount that requires user consent, the App Store gives the user an opportunity to consent to the price increase by presenting a sheet in your app."}
+{"id": "/documentation/storekit/testing-in-app-purchases-in-xcode", "law": "Test for the price increase consent sheet presentation: Navigate to a place in your app where you don’t defer presenting the price increase consent sheet."}
+{"id": "/documentation/storekit/unlocking-purchased-content", "law": "You can use the , , and methods of from your UI to let the user control in-progress downloads."}
+{"id": "/documentation/storekit/handling-subscriptions-billing", "law": "Don’t calculate the subscription period by adding a subscription duration to the purchase date."}
+{"id": "/documentation/storekit/implementing-offer-codes-in-your-app", "law": "Including the redemption sheet in your app is recommended, but optional."}
+{"id": "/documentation/storekit/testing-win-back-offers-in-the-sandbox-environment", "law": "Turn on or off the Win-Back Offer Sheet toggle."}
+{"id": "/documentation/storekit/testing-win-back-offers-in-the-sandbox-environment", "law": "On the Account Settings page (Settings > Developer > Sandbox Apple Account > Manage), turn on the Display Win-back Offer Sheet toggle."}
+{"id": "/documentation/StoreKit/original-api-for-in-app-purchase", "law": "Non-renewing subscriptions to services or content provide access over a limited duration and don’t renew automatically."}
+{"id": "/documentation/StoreKit/supporting-offer-codes-in-your-app", "law": "Including the redemption sheet in your app is recommended, but optional."}
+{"id": "/documentation/StoreKit/supporting-offer-codes-in-your-app", "law": "In the secondary configuration view, use the dropdown menu to select an offer code."}

@@ -131,3 +131,4 @@
 {"id": "/documentation/coremotion/cmdyskineticsymptomresult/startdate", "sha": "9fd6bd8e5ade4c35c0b4fcc2193a08780d74244331f10c764def6965f3d16fc8", "sieve": 2, "t": "startDate", "n": 33, "laws": 0, "ts": "2026-08-02 18:11 UTC"}
 {"id": "/documentation/arkit/arconfiguration/videoformat-swift.class", "sha": "cfe2ac8acac8f08b935f8b2f5df781c0b75b76c6cb90a3653fa6287466cb0140", "sieve": 2, "t": "ARConfiguration.VideoFormat", "n": 534, "laws": 0, "ts": "2026-08-02 18:22 UTC"}
 {"id": "/documentation/storekittest/skadtestsession/validate(_:publickey:)", "sha": "3eb47d9bb70ff6f3ff342b7a0e096fc91ce950d544c4140b14b2b1927fd70093", "sieve": 2, "t": "validate(_:publicKey:)", "n": 314, "laws": 0, "ts": "2026-08-02 18:28 UTC"}
+{"id": "/documentation/Accessibility/AXCustomContent/Importance-swift.enum", "sha": "666b62d6add298451a96012215984104b13698ee84da394efc5706f0e368f86c", "sieve": 2, "t": "AXCustomContent.Importance", "n": 211, "laws": 0, "ts": "2026-08-03 06:23 UTC"}

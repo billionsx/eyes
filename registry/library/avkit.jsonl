@@ -149,3 +149,5 @@
 {"id": "/documentation/avkit/playing-video-content-in-a-standard-user-interface", "law": "This delegate method passes the player view controller and transition coordinator to use for coordinating animations."}
 {"id": "/documentation/avkit/avplayerview", "law": "Regardless of the selected controls style, the player view always supports the following standard set of keyboard shortcuts to control playback: The Space bar plays and pauses playback."}
 {"id": "/documentation/avkit/avplayerview/controlsstyle", "law": "The player view supports several different control styles that you can use to customize the player view’s appearance and behavior."}
+{"id": "/documentation/avkit/avexperiencecontroller/expandedconfiguration/automatictransitiontoimmersive-swift.enum", "law": "Use this enum to describe the desired automatic transition behavior into the immersive experience."}
+{"id": "/documentation/avkit/avexperiencecontroller/transitioncontext/status-swift.property", "law": "Use this to update your application state based on the current state of the transition."}

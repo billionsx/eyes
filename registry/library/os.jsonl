@@ -7,3 +7,5 @@
 {"id": "/documentation/os/OSAllocatedUnfairLock", "law": "To use a nonscoped lock, use or ."}
 {"id": "/documentation/os/OSAllocatedUnfairLock", "law": "You can also use with the more traditional lock/unlock approach by calling before executing code that needs protection, and upon completion, like this: When using this approach, you must call from the same thread you use to call ."}
 {"id": "/documentation/os/OSAllocatedUnfairLock", "law": "Because of this, it’s unsafe to use this approach across an suspension point."}
+{"id": "/documentation/os/generating-log-messages-from-your-code", "law": "To log raw bytes from a pointer in Objective-C, use the format modifier."}
+{"id": "/documentation/os/generating-log-messages-from-your-code", "law": "To format binary data types, use the specifier and add the total number of bytes and the pointer as arguments to the function."}

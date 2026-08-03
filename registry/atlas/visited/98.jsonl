@@ -142,3 +142,4 @@
 {"id": "/documentation/uikit/uihoverstyle/stylewithshape:", "sha": "06226637f2e586be59e8ffad798340b2cb49734a0c81fe1dfaeb650e3f8e65a0", "sieve": 2, "t": "styleWithShape:", "n": 46, "laws": 0, "ts": "2026-08-02 18:31 UTC"}
 {"id": "/documentation/uikit/uiview/invalidations/properties", "sha": "35183a06be7dba8e0cdf1048a9a540e6128cee4521c2fb51128f43f567684280", "sieve": 2, "t": "UIView.Invalidations.Properties", "n": 23, "laws": 0, "ts": "2026-08-02 18:34 UTC"}
 {"id": "/documentation/uikit/uitextinputcontext/current()", "sha": "6bd44789ac4915dab1dbd3f4f62652e0a86dce2eb3648754d2a20c8a1d92a7c9", "sieve": 2, "t": "current()", "n": 99, "laws": 0, "ts": "2026-08-02 18:39 UTC"}
+{"id": "/documentation/security/certificate-key-and-trust-services", "sha": "34e6289d99f2293c9fa75a95a12da012a89cdf8525ba587f18c09e4c9d8c700a", "sieve": 2, "t": "Certificate, Key, and Trust Services", "n": 1563, "laws": 0, "ts": "2026-08-03 06:36 UTC"}

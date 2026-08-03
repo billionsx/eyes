@@ -75,7 +75,6 @@
 {"id": "/documentation/swiftui/tabcontentbuilder", "sha": "c0e6c92331d9c55c15fd14ec101a58e26a427a8b7a7e28f82785a30bda6a4c43", "t": "TabContentBuilder", "n": 586, "laws": 0, "ts": "2026-07-30 16:29 UTC"}
 {"id": "/documentation/swiftui/tabsection/init(content:header:)-3lrv1", "sha": "c0e4ecea30b0a9fd443a7dcb4e08589e48bf1df0b622903785da9efc2ad71ba7", "t": "init(content:header:)", "n": 218, "laws": 0, "ts": "2026-07-30 16:41 UTC"}
 {"id": "/documentation/swiftui/progressviewstyleconfiguration", "sha": "63490b97a199489a82e0c9aadb337916698be4fa8fbc2970005cf70688fa0cd7", "t": "ProgressViewStyleConfiguration", "n": 275, "laws": 0, "ts": "2026-07-30 16:43 UTC"}
-{"id": "/design/human-interface-guidelines/getting-started", "sha": "b2966bd734d27403b23eedc9e0b87a92546a2613327862bea1cd363d718310b8", "t": "Getting started", "n": 240, "laws": 0, "ts": "2026-07-30 18:41 UTC"}
 {"id": "/documentation/scenekit/scncamera/whitebalancetint", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "whiteBalanceTint", "n": 0, "laws": 0, "ts": "2026-07-30 18:53 UTC"}
 {"id": "/documentation/scenekit/scnscenerenderer/loops", "sha": "0a9a0315622ecf0b0985e73af3f54964d18bf2a4da2c87778e90dfbc8373476f", "t": "loops", "n": 397, "laws": 0, "ts": "2026-07-30 19:02 UTC"}
 {"id": "/documentation/uikit/uiimage/imagewithdata:", "sha": "16ccec519dfd66af85c1a068c3a88caf245eee837a245c4562bb791c0e2c444a", "t": "imageWithData:", "n": 262, "laws": 0, "ts": "2026-07-30 19:09 UTC"}
@@ -120,3 +119,8 @@
 {"id": "/documentation/arkit/accessory/locationname", "sha": "a2cfc5627bd66ade127345eac87f12ab7402d32ae6142a2ac704d5bade2eea70", "sieve": 2, "t": "Accessory.LocationName", "n": 366, "laws": 0, "ts": "2026-08-02 18:21 UTC"}
 {"id": "/documentation/uikit/uiinputview/init(coder:)", "sha": "ac797938037f753b80f08ec89d4631bee8596acfefcf5ff9d3169e669e03b34a", "sieve": 2, "t": "init(coder:)", "n": 49, "laws": 0, "ts": "2026-08-02 18:31 UTC"}
 {"id": "/documentation/uikit/uilistcontentview/imagelayoutguide", "sha": "924cc47416071cd59e6a64705926f2e82e72c965c4ffeb1a86b7205e88f707fa", "sieve": 2, "t": "imageLayoutGuide", "n": 327, "laws": 0, "ts": "2026-08-02 18:31 UTC"}
+{"id": "/design/human-interface-guidelines/getting-started", "sha": "b2966bd734d27403b23eedc9e0b87a92546a2613327862bea1cd363d718310b8", "sieve": 2, "t": "Getting started", "n": 240, "laws": 0, "ts": "2026-08-03 06:15 UTC"}
+{"id": "/documentation/swiftui/layout/layoutproperties-6h7w0", "sha": "4e06400c990192040cd589923600e7e81687cef5cd24f2f86432d5a63cf403b8", "sieve": 2, "t": "layoutProperties", "n": 345, "laws": 1, "ts": "2026-08-03 06:20 UTC"}
+{"id": "/documentation/uikit/uipress/phase-swift.enum", "sha": "6eb386dd849916e4411567c39138455fd3ce939412bc8db26eeeb31402490b1c", "sieve": 2, "t": "UIPress.Phase", "n": 216, "laws": 0, "ts": "2026-08-03 06:21 UTC"}
+{"id": "/documentation/webkit/building-a-cross-platform-web-browser", "sha": "f25392aae4afee9915f2992a6e004e6ed9545aba7a132f8f1021e4187013db89", "sieve": 2, "t": "Building a cross-platform web browser", "n": 3621, "laws": 1, "ts": "2026-08-03 06:30 UTC"}
+{"id": "/documentation/sharedwithyou/adding-custom-collaboration-to-your-app", "sha": "39828e266023110cefa7855439d4f9654902ca127c9eb207a73961e62bd38613", "sieve": 2, "t": "Adding custom collaboration to your app", "n": 12785, "laws": 2, "ts": "2026-08-03 06:33 UTC"}

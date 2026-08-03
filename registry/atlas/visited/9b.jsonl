@@ -118,8 +118,6 @@
 {"id": "/documentation/uikit/uifont/textstyle/title2", "sha": "3c03930865c2a384096e8b84ea4911d52311a4a2428f1b010ef120616d56a7a4", "t": "title2", "n": 48, "laws": 0, "ts": "2026-07-31 06:08 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/ensureglyphs(forglyphrange:)", "sha": "717b8abded8390a740fcfccd46b31ccdd7447e4808ba0e7775133c8a7454eb53", "t": "ensureGlyphs(forGlyphRange:)", "n": 326, "laws": 1, "ts": "2026-07-31 06:16 UTC"}
 {"id": "/documentation/uikit/uibezierpath/linewidth", "sha": "8cd0da6499820168a8724092d468d72c739c65a7ba892a6aaac2929d028b1435", "t": "lineWidth", "n": 581, "laws": 0, "ts": "2026-07-31 06:21 UTC"}
-{"id": "/design/human-interface-guidelines/pickers", "sha": "87ea986c057910d62c765d4db148602d88414dafc883d5b6cb23858228ec71d3", "t": "Pickers", "n": 4922, "laws": 2, "ts": "2026-07-31 07:10 UTC"}
-{"id": "/design/human-interface-guidelines/status-bars", "sha": "18c7dd2db959ac0a3dcd625698d760a37bb67d2dafaed14ff29c197c21b284c2", "t": "Status bars", "n": 1598, "laws": 1, "ts": "2026-07-31 07:11 UTC"}
 {"id": "/documentation/gamecontroller/gcdevicephysicalinputelementchange/unknownchange", "sha": "234754ad197926fa066cffa3fd37848b312c7a74a520d7e575a4194e90f1d905", "t": "GCDevicePhysicalInputElementChange.unknownChange", "n": 145, "laws": 0, "ts": "2026-07-31 07:16 UTC"}
 {"id": "/documentation/uikit/uiresponder/touchesestimatedpropertiesupdated(_:)", "sha": "e13259d2a9447b09cf993c951b7bf2b3925fe702200a4a05905fa570fbdc12e7", "t": "touchesEstimatedPropertiesUpdated(_:)", "n": 1271, "laws": 0, "ts": "2026-07-31 07:19 UTC"}
 {"id": "/documentation/uikit/uimutableusernotificationaction", "sha": "e26f31d0a9acdea4a22549e58eee52eb145eb484f89c286728e8e04f90380cd2", "t": "UIMutableUserNotificationAction", "n": 1624, "laws": 1, "ts": "2026-07-31 07:24 UTC"}
@@ -155,3 +153,7 @@
 {"id": "/documentation/uikit/uivisualeffectview/init(coder:)", "sha": "10eb0688af29c371bce8394ce7cf2f5b0f20f4beef44b6bd8207bdaad2afc531", "sieve": 2, "t": "init(coder:)", "n": 56, "laws": 0, "ts": "2026-08-02 18:35 UTC"}
 {"id": "/documentation/uikit/nsdirectionaledgeinsets/init()", "sha": "fd522f6c973a4de832d8f89ccdbd3f67d2a87c928a8124c9625ffc0aa9e38144", "sieve": 2, "t": "init()", "n": 175, "laws": 0, "ts": "2026-08-02 18:35 UTC"}
 {"id": "/documentation/uikit/uitextinteraction/textinput", "sha": "d055bcd3f30666dabab974272c2df37e84f02a40f34bd3d3d1446d8f46b44514", "sieve": 2, "t": "textInput", "n": 378, "laws": 0, "ts": "2026-08-02 18:39 UTC"}
+{"id": "/design/human-interface-guidelines/pickers", "sha": "87ea986c057910d62c765d4db148602d88414dafc883d5b6cb23858228ec71d3", "sieve": 2, "t": "Pickers", "n": 4922, "laws": 2, "ts": "2026-08-03 06:17 UTC"}
+{"id": "/design/human-interface-guidelines/status-bars", "sha": "18c7dd2db959ac0a3dcd625698d760a37bb67d2dafaed14ff29c197c21b284c2", "sieve": 2, "t": "Status bars", "n": 1598, "laws": 1, "ts": "2026-08-03 06:17 UTC"}
+{"id": "/documentation/StoreKit/in-app-purchase", "sha": "cea35de71765cc518a4193fb4efe0dd5f025fc6db92290220cf42e4ee33b1083", "sieve": 2, "t": "In-App Purchase", "n": 5215, "laws": 0, "ts": "2026-08-03 06:35 UTC"}
+{"id": "/documentation/appkit/nsevent/modifierflags-swift.property", "sha": "dbe85cbe68781c3a7ffc00457d4e8862248c6ae4b8dc71376d593114b41c1a51", "sieve": 2, "t": "modifierFlags", "n": 275, "laws": 0, "ts": "2026-08-03 06:44 UTC"}

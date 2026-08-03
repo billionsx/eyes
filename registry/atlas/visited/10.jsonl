@@ -138,3 +138,5 @@
 {"id": "/documentation/uikit/uiaxis/both", "sha": "b5cefb50cf59e9a48581aedcbd4a2e3726fc878a523a15ed8a3bb57ef2d3db8a", "sieve": 2, "t": "both", "n": 34, "laws": 0, "ts": "2026-08-02 18:35 UTC"}
 {"id": "/documentation/uikit/uivibrancyeffect/widgetprimary()", "sha": "742ea9fa5004b27422a89038e37b8d8d0d794e16eadf4dcb35a7534ca6dca7e3", "sieve": 2, "t": "widgetPrimary()", "n": 108, "laws": 1, "ts": "2026-08-02 18:37 UTC"}
 {"id": "/documentation/uikit/uiwritingtoolscoordinator/context/init(attributedstring:range:)", "sha": "8de74c94cd94c1f6aefa03c347001466cc2a712872b7152d1167bd110a6aa474", "sieve": 2, "t": "init(attributedString:range:)", "n": 548, "laws": 0, "ts": "2026-08-02 18:37 UTC"}
+{"id": "/documentation/swiftui/controlwidgetconfiguration/body-swift.associatedtype", "sha": "d550d2337846a52bbfd3dafbf24fbc78b766b2c71dc16598c36e6b0e1f2815c1", "sieve": 2, "t": "Body", "n": 85, "laws": 0, "ts": "2026-08-03 06:20 UTC"}
+{"id": "/documentation/compositorservices/layer-renderer", "sha": "4da4bf7af99e2b023319bb03e5faa9c16bf1e5635c053d6dec0ceddc2205e6d3", "sieve": 2, "t": "Layer renderer", "n": 1527, "laws": 0, "ts": "2026-08-03 06:33 UTC"}

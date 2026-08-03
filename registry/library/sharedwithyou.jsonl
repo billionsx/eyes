@@ -8,3 +8,7 @@
 {"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Use to post a notice about content updates or comments."}
 {"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Use to retrieve a collaboration highlight with the URL of the your app used to initiate the collaboration."}
 {"id": "/documentation/SharedWithYou/adding-shared-content-collaboration-to-your-app", "law": "Use the to post a notice when your app moves, renames, or deletes content on the server."}
+{"id": "/documentation/sharedwithyou/adding-shared-content-collaboration-to-your-app", "law": "In SwiftUI, use to support collaboration mode in the share sheet."}
+{"id": "/documentation/sharedwithyou/adding-shared-content-collaboration-to-your-app", "law": "If your app uses a custom collaboration infrastructure, you must provide your own manage button."}
+{"id": "/documentation/sharedwithyou/adding-custom-collaboration-to-your-app", "law": "Use to represent a collection of switches, and use to represent mutually exclusive values for a setting."}
+{"id": "/documentation/sharedwithyou/adding-custom-collaboration-to-your-app", "law": "Use the item provider to initialize an object and show the picker relative to a target view."}

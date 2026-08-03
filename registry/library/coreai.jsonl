@@ -31,3 +31,9 @@
 {"id": "/documentation/CoreAI/inspecting-debugging-and-profiling-core-ai-models", "law": "Use them as needed while authoring a model, after integrating it, or when your app is running."}
 {"id": "/documentation/CoreAI/inspecting-debugging-and-profiling-core-ai-models", "law": "Use it to confirm that your model loads when you expect it to, to spot unusually slow inference, or to find a specific event you want to investigate further."}
 {"id": "/documentation/CoreAI/inspecting-debugging-and-profiling-core-ai-models", "law": "Use it when you need detailed performance information, such as which compute units run your model, whether specialization happens when you expect, and how often your app reloads a model."}
+{"id": "/documentation/coreai/managing-model-specialization-and-caching", "law": "Because the system can automatically delete specialized assets to free up storage, use to control whether the system can remove your app’s cached assets."}
+{"id": "/documentation/coreai/monitoring-model-performance-with-the-debug-gauge", "law": "Each bar represents the maximum activity duration within a one-second interval."}
+{"id": "/documentation/coreai/monitoring-model-performance-with-the-debug-gauge", "law": "The metrics are: High: Maximum event duration."}
+{"id": "/documentation/coreai/monitoring-model-performance-with-the-debug-gauge", "law": "Low: Minimum event duration."}
+{"id": "/documentation/coreai/integrating-on-device-ai-models-in-your-app-with-core-ai", "law": "Start by creating an that matches the shape and type the model expects: Because an is an n -dimensional array, the shape should match what the model expects."}
+{"id": "/documentation/coreai/validating-inference-correctness-against-a-reference-run", "law": "Color indicators are metric-aware, so green always signals a good result regardless of which metric you choose."}

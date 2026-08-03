@@ -7,3 +7,5 @@
 {"id": "/documentation/DeviceDiscoveryUI/DevicePairingView", "law": "A should be used to become discoverable to local devices from the user through a button interface."}
 {"id": "/documentation/DeviceDiscoveryUI/DevicePicker", "law": "Always display the picker as a full-screen, modal view."}
 {"id": "/documentation/DeviceDiscoveryUI/DevicePicker", "law": "Use the DevicePickerSupportedAction environment value to check whether the current device supports device discovery."}
+{"id": "/documentation/devicediscoveryui/connecting-a-tvos-app-to-other-devices-over-the-local-network", "law": "You use DeviceDiscoveryUI to present the device picker view, and then use the framework to create the listeners, create the connections, and send and receive messages."}
+{"id": "/documentation/devicediscoveryui/connecting-a-tvos-app-to-other-devices-over-the-local-network", "law": "If you’re using , use a to present the device picker view."}

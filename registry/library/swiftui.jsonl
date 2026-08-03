@@ -2592,3 +2592,18 @@
 {"id": "/documentation/swiftui/material/materialactiveappearance(_:)", "law": "Materials used as the container background on macOS will automatically appear inactive when their the window appears inactive, but can be made to always appear active by setting the active appearance behavior to be always active: Sets an explicit active appearance for this material."}
 {"id": "/documentation/swiftui/shapestyle/lineargradient(_:startpoint:endpoint:)-753nc", "law": "For information about how to use shape styles, see ."}
 {"id": "/documentation/swiftui/controlgroup/init(_:)", "law": "Use this initializer within the method of a instance to create an instance of the control group being styled."}
+{"id": "/documentation/swiftui/textrenderer/displaypadding-9l6t9", "law": "For example when drawing the text with a shadow this may be used to extend the drawing bounds to avoid clipping the shadow."}
+{"id": "/documentation/swiftui/glassbackgroundeffectconfiguration/content-swift.property", "law": "A view that requires a glass background."}
+{"id": "/documentation/SwiftUI/Scoping-a-search-operation", "law": "When you define a scope, SwiftUI presents a picker that people can use to choose one of them."}
+{"id": "/documentation/SwiftUI/Scoping-a-search-operation", "law": "To ensure that the picker operates correctly, match the type of the scope binding with the type of each view’s tag."}
+{"id": "/documentation/SwiftUI/View-Presentation", "law": "Use presentation modifiers to show different kinds of modal presentations, like alerts, popovers, sheets, and confirmation dialogs."}
+{"id": "/documentation/swiftui/layout/layoutproperties-6h7w0", "law": "If you don’t implement the method in your custom layout, the protocol uses this default implementation instead, which returns a instance with default values."}
+{"id": "/documentation/swiftui/shape/layoutdirectionbehavior-5wfat", "law": "To mirror a path when deploying to earlier releases, either use for a filled or stroked shape or conditionally mirror the points in the path of the shape."}
+{"id": "/documentation/swiftui/shape/layoutdirectionbehavior-5wfat", "law": "Returns the behavior this shape should use for different layout directions."}
+{"id": "/documentation/swiftui/controlwidget/body-swift.associatedtype", "law": "When you create a custom control, Swift infers this type from your implementation of the required property."}
+{"id": "/documentation/swiftui/controlwidgettemplate/body-swift.associatedtype", "law": "When you create a custom control widget, Swift infers this type from your implementation of the required property."}
+{"id": "/documentation/swiftui/symbolvariants/circle-swift.type.property", "law": "Use this variant with a call to the modifier to draw symbols in a circle, for those symbols that have a circle variant: A variant that encapsulates the symbol in a circle."}
+{"id": "/documentation/swiftui/symbolvariants/fill-swift.property", "law": "Use this property to modify a shape variant like so that it’s also filled: A filled version of the variant."}
+{"id": "/documentation/swiftui/symbolvariants/rectangle-swift.type.property", "law": "Use this variant with a call to the modifier to draw symbols in a rectangle, for those symbols that have a rectangle variant: A variant that encapsulates the symbol in a rectangle."}
+{"id": "/documentation/swiftui/symbolvariants/slash-swift.property", "law": "Use this property to modify a shape variant like so that it’s also covered by a slash: A slashed version of the variant."}
+{"id": "/documentation/swiftui/symbolvariants/slash-swift.type.property", "law": "Use this variant with a call to the modifier to draw symbols with a slash, for those symbols that have such a variant: A variant that draws a slash through the symbol."}

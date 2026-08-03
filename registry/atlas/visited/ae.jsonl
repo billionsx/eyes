@@ -96,7 +96,6 @@
 {"id": "/documentation/scenekit/scngeometry/init(sources:elements:sourcechannels:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(sources:elements:sourceChannels:)", "n": 0, "laws": 0, "ts": "2026-07-30 18:54 UTC"}
 {"id": "/documentation/scenekit/scnvector3/init(_:_:_:)-50jm7", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:06 UTC"}
 {"id": "/documentation/scenekit/scnvector4/init(_:_:_:_:)-6otq6", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "t": "init(_:_:_:_:)", "n": 0, "laws": 0, "ts": "2026-07-30 19:07 UTC"}
-{"id": "/design/human-interface-guidelines/offering-help", "sha": "fc6d21bd24b4f2ad8d9bc0f796a23f6a88a1ff868177632542371ae9fdf96125", "t": "Offering help", "n": 6087, "laws": 7, "ts": "2026-07-31 05:53 UTC"}
 {"id": "/documentation/familycontrols/authorizationstatus", "sha": "64e9326ed611221d7a840e186523127fa9aba503dc738d407d61353f1edea4aa", "t": "AuthorizationStatus", "n": 257, "laws": 0, "ts": "2026-07-31 05:54 UTC"}
 {"id": "/documentation/avkit/avplayerview/videobounds", "sha": "9b28af358427c28098e0378b2d883ef1afefd661c65a9530409f856bf308eb56", "t": "videoBounds", "n": 345, "laws": 0, "ts": "2026-07-31 05:56 UTC"}
 {"id": "/documentation/uikit/uidocumentpickerviewcontroller/init(urls:in:)", "sha": "6fbf1af5c8ea40bb2ac08e794f1170f4fabbf5ea27f0d02c95e4c146675ee032", "t": "init(urls:in:)", "n": 531, "laws": 0, "ts": "2026-07-31 06:03 UTC"}
@@ -143,3 +142,5 @@
 {"id": "/documentation/uikit/uipreviewparameters/visiblepath", "sha": "55a02293e6622df0a2bac7c092a643e7b802efa4caab8a003744a37eda4aedea", "sieve": 2, "t": "visiblePath", "n": 142, "laws": 0, "ts": "2026-08-02 16:27 UTC"}
 {"id": "/documentation/coremotion/cmsensorrecorder/isauthorizedforrecording()", "sha": "8d84f3a67de0c96de89fc500a671295ba1edbf43bf25e90bba271cc8e57fe8f0", "sieve": 2, "t": "isAuthorizedForRecording()", "n": 167, "laws": 0, "ts": "2026-08-02 18:13 UTC"}
 {"id": "/documentation/tvservices/tvcontentitem/duration", "sha": "7a74c000b43f77764e3eaafa593d2a43bc9e44712949a7b0052d0fc94c961744", "sieve": 2, "t": "duration", "n": 140, "laws": 0, "ts": "2026-08-02 18:26 UTC"}
+{"id": "/design/human-interface-guidelines/offering-help", "sha": "fc6d21bd24b4f2ad8d9bc0f796a23f6a88a1ff868177632542371ae9fdf96125", "sieve": 2, "t": "Offering help", "n": 6087, "laws": 7, "ts": "2026-08-03 06:17 UTC"}
+{"id": "/documentation/swiftui/attributedtextformattingdefinition/body-48m9l", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "body", "n": 0, "laws": 0, "ts": "2026-08-03 06:20 UTC"}
