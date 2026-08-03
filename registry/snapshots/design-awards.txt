@@ -1,6 +1,6 @@
 # Apple Design Awards - 2026 winners and finalists - Apple Developer
 # https://developer.apple.com/design/awards/
-# снято: 2026-07-23 18:09 UTC
+# снято: 2026-08-03 07:02 UTC
 
 ## h2: Explore Get Started
 ## h2: Stay Updated

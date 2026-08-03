@@ -1,6 +1,6 @@
 # What’s New - App Store - Apple Developer
 # https://developer.apple.com/app-store/whats-new/
-# снято: 2026-07-24 17:43 UTC
+# снято: 2026-08-03 07:03 UTC
 
 ## h2: Explore Get Started
 ## h2: Stay Updated

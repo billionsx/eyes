@@ -1483,3 +1483,75 @@
 Первый прогон свода: 19 нарушений. После уточнения сит (журнал дописывается по природе — требовать от него идемпотентности значит требовать, чтобы он перестал быть журналом) осталось 8, из них поимённо освобождены 6 с причинами, а два оказались настоящими и закрыты **из свода, а не переоткрытием**: `appstore.py` получил склад сырых гайдлайнов и `remill()`, `crawler.py` — версию сита в тождестве прочтения.
 
 Отдельно: реестр освобождений едва не стал местом, где прячут долг. Причина, начинающаяся с 🕳, теперь объявляет ДОЛГ и оставляет орган нарушителем — освобождение закрывает вопрос, долг держит его открытым. Доказано судом.
+### 2026-08-03 07:00 UTC · `sf-symbols` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/sf-symbols/
+- домены мандата: иконки
+- объём текста: 6815 → 6815 зн.
+
+### 2026-08-03 07:01 UTC · `design-resources` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/design/resources/
+- домены мандата: hig, иконки, шрифты
+- объём текста: 7643 → 7643 зн.
+
+### 2026-08-03 07:01 UTC · `dev-news` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/news/
+- домены мандата: ios27, hig
+- появились: h2: Enhancements to help you submit and market your apps and games · h3: Submit additional items to App Review · h3: Create double the number of custom product pages and add keywords · h3: Offer codes expand to all In-App Purchase types · h2: New requirement for apps using Sign in with Apple for account creation · h3: Account change guidance · h3: Resources · h2: New requirements for apps available in Texas · h2: Upcoming Currency Change in Bulgaria · h2: App Store submissions now open for the latest OS releases · h2: Awe dropping. · h2: Tax and Price Updates for Apps, In-App Purchases, and Subscriptions
+- объём текста: 106294 → 106294 зн.
+
+### 2026-08-03 07:02 UTC · `sf-symbols-8` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/sf-symbols/
+- домены мандата: ios27, иконки
+- объём текста: 6815 → 6815 зн.
+
+### 2026-08-03 07:02 UTC · `app-review-guidelines` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/app-store/review/guidelines/
+- домены мандата: маркетинг, рейтинги, отзывы, popup, геймификация
+- объём текста: 95493 → 95493 зн.
+
+### 2026-08-03 07:02 UTC · `design-awards` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/design/awards/
+- домены мандата: UI/UX, эталоны
+- появились: h4: Consume Me · h4: Despelote · h4: Spilled! · h1: Visuals and Graphics · h4: Caradise · h4: (Not Boring) Camera · h4: Cyberpunk 2077 Ultimate Edition · h4: Arknights: Endfield · h4: SILT · h2: Developer Footer · h3: Platforms · h3: Tools
+- объём текста: 25877 → 25877 зн.
+
+### 2026-08-03 07:02 UTC · `wwdc-videos` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/videos/wwdc2026/
+- домены мандата: ios27, анимация, Liquid Glass
+- объём текста: 9164 → 9164 зн.
+
+### 2026-08-03 07:02 UTC · `upcoming-requirements` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/news/upcoming-requirements/
+- домены мандата: требования, релиз-ноты, маркетинг
+- объём текста: 9681 → 9681 зн.
+
+### 2026-08-03 07:02 UTC · `icon-composer` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/icon-composer/
+- домены мандата: иконки, инструменты
+- объём текста: 5470 → 5470 зн.
+
+### 2026-08-03 07:03 UTC · `videos-design` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/videos/design/
+- домены мандата: UI/UX, видео, Liquid Glass
+- объём текста: 11253 → 11253 зн.
+
+### 2026-08-03 07:03 UTC · `appstore-whats-new` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/app-store/whats-new/
+- домены мандата: App Store, маркетинг
+- объём текста: 19344 → 19344 зн.
+
+### 2026-08-03 07:03 UTC · `technologies` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/technologies/
+- домены мандата: технологии, кроссплатформенность
+- объём текста: 4643 → 4643 зн.
+
+### 2026-08-03 07:03 UTC · `dev-download` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/download/
+- домены мандата: загрузки, инструменты, iOS 27
+- объём текста: 4180 → 4180 зн.
+
+### 2026-08-03 07:03 UTC · `dev-help` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/help/
+- домены мандата: справка, правила
+- объём текста: 4498 → 4498 зн.
+

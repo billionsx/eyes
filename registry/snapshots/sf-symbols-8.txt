@@ -1,6 +1,6 @@
 # SF Symbols - Apple Developer
 # https://developer.apple.com/sf-symbols/
-# снято: 2026-07-23 18:08 UTC
+# снято: 2026-08-03 07:02 UTC
 
 ## h2: Explore Get Started
 ## h2: Stay Updated
