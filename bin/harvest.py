@@ -44,6 +44,7 @@ import hashlib
 import json
 import re
 import sys
+from datetime import datetime, timezone
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -352,6 +353,45 @@ def merge(pal, rows):
 
 
 LAWS = ROOT / "registry" / "library" / "hig-tables.jsonl"
+CHANGES = ROOT / "registry" / "state" / "APPLE-CHANGES.md"
+
+
+def record_changes(conflicts, path=None):
+    """ЛЕТОПИСЬ ПРАВОК APPLE. Возвращает число записанных.
+
+    Работник умел замечать, что опубликованное значение изменилось, — и
+    ронял находку в журнал прогона, откуда она исчезала вместе с журналом.
+    Замеченное и не записанное равно незамеченному.
+
+    А находка эта — единственная в своём роде. Конкурент, стоящий на
+    замороженном снимке свода, не может знать, что Apple правит свои числа:
+    у него снимок и есть истина. Департамент, ходящий к первоисточнику
+    ежедневно, видит правку в сутки и хранит обе стороны с датой и адресом.
+    Через год это летопись эволюции норм Apple, которой нет ни у кого.
+    """
+    if not conflicts:
+        return 0
+    f = Path(path) if path else CHANGES
+    day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    lines = []
+    try:
+        if not f.exists():
+            f.parent.mkdir(parents=True, exist_ok=True)
+            lines.append("# ЛЕТОПИСЬ ПРАВОК APPLE\n\n"
+                         "Департамент ходит к первоисточнику ежедневно и "
+                         "хранит обе стороны каждой правки. Инструмент, "
+                         "стоящий на замороженном снимке, этого не видит: "
+                         "у него снимок и есть истина.\n\n"
+                         "| дата | норма | было | стало | адрес |\n"
+                         "|---|---|---|---|---|\n")
+        for c in conflicts:
+            lines.append(f"| {day} | `{c['token']}` | {c['was']} | "
+                         f"{c['now']} | {c['at']} |\n")
+        with f.open("a", encoding="utf-8") as fh:
+            fh.write("".join(lines))
+    except OSError:
+        return 0
+    return len(conflicts)
 
 
 def put_laws(rows, path=None):
@@ -422,6 +462,7 @@ def harvest(pages, getter, pal, state, budget=None):
                 queue.append(u)
     added, changed, conflicts = merge(pal, rows)
     laws_new = put_laws(laws)
+    record_changes(conflicts)
     for p in walked:
         if p not in state["done"]:
             state["done"].append(p)
@@ -588,6 +629,19 @@ def court():
     chk("закон без адреса не пишется",
         put_laws([("закон", "нечто", "")], _lf) == 0)
     _sh.rmtree(_lf.parent, ignore_errors=True)
+
+    _cf = Path(_tf.mkdtemp(prefix="eyes-chg-")) / "CH.md"
+    conf = [{"token": "gray.systemGray6.light", "was": "#F2F2F7",
+             "now": "#F0F0F0", "at": HIG + "color"}]
+    chk("правка записана в летопись", record_changes(conf, _cf) == 1)
+    _txt = _cf.read_text(encoding="utf-8")
+    chk("летопись держит ОБЕ стороны и адрес",
+        "#F2F2F7" in _txt and "#F0F0F0" in _txt and HIG + "color" in _txt)
+    chk("шапка ставится один раз", record_changes(conf, _cf) == 1
+        and _cf.read_text(encoding="utf-8").count("ЛЕТОПИСЬ") == 1)
+    chk("пустой список правок летописи не трогает",
+        record_changes([], _cf) == 0)
+    _sh.rmtree(_cf.parent, ignore_errors=True)
 
     chk("битое состояние читается как пустое", isinstance(read_state(), dict))
 

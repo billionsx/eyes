@@ -915,6 +915,8 @@ def cmd_selftest(root: Path) -> int:
     check("значение без адреса в палитру не попадает",
           hv_mod.merge({"system": {}, "gray": {}, "sources": {}},
                        [("gray", "systemGrayX", "light", "#ABCDEF", "")])[0] == 0)
+    check("правка Apple попадает в ЛЕТОПИСЬ, а не в исчезающий журнал",
+          callable(hv_mod.record_changes))
     check("склад позволяет перемолоть свод новым ситом БЕЗ сети",
           callable(hv_mod.corpus_read) and hv_mod.CORPUS.exists())
 

@@ -45,6 +45,14 @@ jobs:
         run: python3 bin/palette.py
       - name: "Шкала: ступени Dynamic Type и трекинг из опубликованных таблиц"
         run: python3 bin/typescale.py --write
+      - name: "Правки Apple — предъявить, если были"
+        if: always()
+        run: |
+          if [ -s registry/state/APPLE-CHANGES.md ]; then
+            N=$(grep -c "^| 20" registry/state/APPLE-CHANGES.md || echo 0)
+            echo "::notice title=летопись::правок Apple в летописи: $N"
+            tail -3 registry/state/APPLE-CHANGES.md
+          fi
       - name: "Суд департамента после жатвы"
         run: python3 bin/eyes.py selftest | tail -3
       - name: "Хроника жатвы"
@@ -54,7 +62,8 @@ jobs:
           git config user.name "Billions X Eyes"
           git add registry/standards/palette.json registry/state/harvest.json \
                   registry/corpus/hig registry/library/hig-tables.jsonl \
-                  registry/standards/typescale.json registry/standards/tokens.json || true
+                  registry/standards/typescale.json registry/standards/tokens.json \
+                  registry/state/APPLE-CHANGES.md || true
           git diff --cached --quiet || git commit -q -m "жатва: урожай первоисточника"
           git pull --rebase -q || true
           git push || echo "нечего пушить"
