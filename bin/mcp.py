@@ -154,8 +154,8 @@ def _adapter():
     правил ПОЛНЫЙ, потому что вопрос задаётся про кусок, а не про проект:
     сужать нечего и незачем."""
     return {"allow_extra": [],
-            "strict": {"globs": ["**/*"], "rules": [f"AE{i}" for i in range(1, 18)]},
-            "report": {"globs": ["**/*"], "rules": [f"AE{i}" for i in range(1, 18)]}}
+            "strict": {"globs": ["**/*"], "rules": [f"AE{i}" for i in range(1, 19)]},
+            "report": {"globs": ["**/*"], "rules": [f"AE{i}" for i in range(1, 19)]}}
 
 
 def check(code, language="css", mode="report"):
@@ -327,7 +327,7 @@ def call_tool(name, args):
         if "error" not in res:
             try:
                 tally_mod.record([x["rule"] for x in res["sample"]], "project",
-                                 scope=[f"AE{i}" for i in range(1, 18)])
+                                 scope=[f"AE{i}" for i in range(1, 19)])
             except Exception:
                 pass
         return _text(res)

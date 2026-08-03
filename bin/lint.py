@@ -48,6 +48,9 @@ BXE · ИСПОЛНИТЕЛЬНАЯ ВЛАСТЬ. Переносимый лин�
                    min-width/height — ПЕРВОЕ правило, рождённое конвейером:
                    обход живого свода → добытчик кандидатов → правило
                    (🍎 tokens.tap_target.source, страница живая, не снимок).
+  AE18 DYNAMIC TYPE  кегль текста задан МАСШТАБИРУЕМО (rem/em/%/clamp),
+                     а не жёстким px: от xSmall к xxxLarge Apple растит
+                     кегль на 18 %, а на ступенях доступности — кратно
   AE17 ПАРА ТЕМ    поверхность имеет значение для СВЕТЛОЙ и ТЁМНОЙ темы,
                    а не одно жёсткое на обе (только для проектов, где темы
                    уже объявлены)
@@ -202,6 +205,14 @@ def _in_theme_scope(text: str, pos: int) -> bool:
     return any(THEME_SCOPE.search(h) for h in _enclosing_headers(text, pos))
 
 
+# AE18. Кегль задан жёстким пикселем — интерфейс не переживёт Dynamic Type.
+FS_PX = re.compile(r"font-size\s*:\s*(\d*\.?\d+)\s*px", re.I)
+# Масштабируемые формы. var() СЮДА НЕ ВХОДИТ намеренно: во что развернётся
+# переменная, статически неизвестно, и записывать её в заслугу значило бы
+# оправдывать проект за то, чего не видно. Она не считается ни за, ни против.
+FS_SCALE = re.compile(r"font-size\s*:\s*[^;}]*?(\d*\.?\d+\s*(?:rem|em|%)|clamp\()",
+                      re.I)
+
 PRINT_SCOPE = re.compile(r"@media[^{]*\bprint\b", re.I)
 
 
@@ -324,6 +335,9 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # AE17 копит по ВСЕМУ охвату: объявляет ли проект темы вообще и какие
     # поверхности из них выпадают. Один файл этого знать не может.
     has_theme, theme_orphans = False, []
+    # AE18 копит по ВСЕМУ охвату: доля жёстких кеглей — свойство проекта,
+    # а не строки. Построчный упрёк дал бы сотню находок и утопил остальные.
+    fs_px, fs_scale, fs_first = 0, 0, None
     for g in globs:
         for fp in sorted(glob.glob(str(project_root / g), recursive=True)):
             p = Path(fp)
@@ -437,6 +451,17 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     if stack_head and not v.startswith(stack_head):
                         findings.append(("AE10", rel, _line_of(t, m.start()),
                                          f"font-family не начинается с системного стека {list(stack_head)} — подмена первой позиции ломает метрики и трекинг"))
+            if "AE18" in rules and p.suffix in (".css", ".scss", ".tsx",
+                                                ".jsx", ".ts", ".js"):
+                for m in FS_PX.finditer(t):
+                    if _in_print_scope(t, m.start()):
+                        continue
+                    if float(m.group(1)) == 0:
+                        continue
+                    fs_px += 1
+                    if fs_first is None:
+                        fs_first = (rel, _line_of(t, m.start()))
+                fs_scale += len(FS_SCALE.findall(t))
             if "AE17" in rules and p.suffix in (".css", ".scss"):
                 if THEME_SCOPE.search(t):
                     has_theme = True
@@ -539,6 +564,20 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                                     f"контраст {ratio:.2f}:1 ({fg.group(1)} на "
                                     f"{bg.group(1)}) ниже нормы свода {cr_min:g}:1 "
                                     f"(🍎 живой HIG)"))
+
+    if "AE18" in rules and fs_px >= 5 and fs_px > fs_scale and fs_first:
+        # Порог объявлен: пять кеглей — это уже шкала, а не единичный
+        # случай; большинство жёстких — это выбор проекта, а не недосмотр.
+        # Проекту, где масштабируемых больше, правило молчит: он уже решил
+        # задачу, а придираться к остаткам значит наказывать за движение
+        # в верную сторону.
+        findings.append((
+            "AE18", fs_first[0], fs_first[1],
+            f"кегль задан жёстким px в {fs_px} местах против {fs_scale} "
+            f"масштабируемых — интерфейс не переживёт Dynamic Type; "
+            f"🍎 Apple растит кегль от xSmall к xxxLarge на 18 % "
+            f"(34→40 pt у Large Title), на ступенях доступности кратно "
+            f"(/design/human-interface-guidelines/typography)"))
 
     if "AE17" in rules and has_theme and theme_orphans:
         # Правило говорит ТОЛЬКО проектам, которые уже завели темы. Проекту

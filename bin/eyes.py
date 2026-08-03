@@ -848,7 +848,7 @@ def cmd_selftest(root: Path) -> int:
         (d / "a.css").write_text(css, encoding="utf-8")
         ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
               "report": {"globs": ["**/*"],
-                         "rules": [f"AE{i}" for i in range(1, 18)]}}
+                         "rules": [f"AE{i}" for i in range(1, 19)]}}
         tk = json.loads((ROOT / "registry" / "standards" / "tokens.json")
                         .read_text(encoding="utf-8"))
         r = _l3.run(d, ad, tk, "report", d)
@@ -862,12 +862,34 @@ def cmd_selftest(root: Path) -> int:
         (d / "a.css").write_text(css, encoding="utf-8")
         ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
               "report": {"globs": ["**/*"],
-                         "rules": [f"AE{i}" for i in range(1, 18)]}}
+                         "rules": [f"AE{i}" for i in range(1, 19)]}}
         tk = _j2.loads((ROOT / "registry" / "standards" / "tokens.json")
                        .read_text(encoding="utf-8"))
         r = _l2.run(d, ad, tk, "report", d)
         _s2.rmtree(d, ignore_errors=True)
         return [w for rr, _f, _l, w in r["findings"] if rr == "AE17"]
+
+    print("SELFTEST · AE18 · интерфейс переживает Dynamic Type")
+    _PX = "".join(f".c{i}{{font-size:{12 + i}px;}}\n" for i in range(6))
+    check("чиню → красный: шесть жёстких кеглей ловятся",
+          any(f["rule"] == "AE18" for f in _ae17_findings(_PX)))
+    check("вердикт ОДИН на проект, а не на каждую строку",
+          len([f for f in _ae17_findings(_PX) if f["rule"] == "AE18"]) == 1)
+    check("ломаю → зелёный не даю: всё в rem — тишина",
+          not any(f["rule"] == "AE18" for f in _ae17_findings(
+              "".join(f".c{i}{{font-size:1.{i}rem;}}\n" for i in range(6)))))
+    check("ниже порога правило молчит: два кегля — не шкала",
+          not any(f["rule"] == "AE18" for f in _ae17_findings(
+              ".a{font-size:14px;}\n.b{font-size:16px;}")))
+    check("проект, где масштабируемых БОЛЬШЕ, не наказывается за остатки",
+          not any(f["rule"] == "AE18" for f in _ae17_findings(
+              _PX + "".join(f".r{i}{{font-size:1.{i}rem;}}\n" for i in range(7)))))
+    check("печать вне правила", 
+          not any(f["rule"] == "AE18" for f in _ae17_findings(
+              "@media print{" + _PX + "}")))
+    check("упрёк опирается на ОПУБЛИКОВАННУЮ шкалу с адресом",
+          any("typography" in f["why"] for f in _ae17_findings(_PX)
+              if f["rule"] == "AE18"))
 
     print("SELFTEST · шкала Apple и двойное свидетельство типографики")
     import typescale as ts_mod
@@ -931,7 +953,7 @@ def cmd_selftest(root: Path) -> int:
         (d / "a.css").write_text(css, encoding="utf-8")
         ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
               "report": {"globs": ["**/*"],
-                         "rules": [f"AE{i}" for i in range(1, 18)]}}
+                         "rules": [f"AE{i}" for i in range(1, 19)]}}
         tk = _js.loads((ROOT / "registry" / "standards" / "tokens.json")
                        .read_text(encoding="utf-8"))
         r = _l.run(d, ad, tk, "report", d)
@@ -1001,7 +1023,7 @@ def cmd_selftest(root: Path) -> int:
     check("суд наставления зелёный: цель у каждого правила из живой базы",
           guide_mod.court() == 0)
     check("наставление есть на каждое правило департамента",
-          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 18)})
+          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 19)})
 
     print("SELFTEST · жизнь правила (реестр присутствия)")
     import tally as tally_mod
