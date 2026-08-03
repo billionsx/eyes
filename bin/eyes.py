@@ -840,6 +840,21 @@ def cmd_selftest(root: Path) -> int:
           [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
           == ["AE1"])
 
+    def _ae17_findings(css):
+        import tempfile as _t3, shutil as _s3
+        from pathlib import Path as _P3
+        import lint as _l3
+        d = _P3(_t3.mkdtemp(prefix="eyes-f-"))
+        (d / "a.css").write_text(css, encoding="utf-8")
+        ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
+              "report": {"globs": ["**/*"],
+                         "rules": [f"AE{i}" for i in range(1, 18)]}}
+        tk = json.loads((ROOT / "registry" / "standards" / "tokens.json")
+                        .read_text(encoding="utf-8"))
+        r = _l3.run(d, ad, tk, "report", d)
+        _s3.rmtree(d, ignore_errors=True)
+        return [{"rule": x[0], "why": x[3]} for x in r["findings"]]
+
     def _ae17_why(css):
         import lint as _l2, tempfile as _t2, shutil as _s2, json as _j2
         from pathlib import Path as _P2
@@ -853,6 +868,32 @@ def cmd_selftest(root: Path) -> int:
         r = _l2.run(d, ad, tk, "report", d)
         _s2.rmtree(d, ignore_errors=True)
         return [w for rr, _f, _l, w in r["findings"] if rr == "AE17"]
+
+    print("SELFTEST · палитра Apple и светлая тема")
+    import palette as pal_mod
+    check("суд палитры зелёный: альт, темы, высокий контраст, сверка",
+          pal_mod.court() == 0)
+    _pal = json.loads((ROOT / "registry" / "standards" / "palette.json")
+                      .read_text(encoding="utf-8"))
+    check("светлая лестница получена из первоисточника",
+          pal_mod.ladder(_pal, "light")[-1] == "#F2F2F7")
+    check("ДВОЙНОЕ СВИДЕТЕЛЬСТВО: замер и публикация Apple совпали",
+          _pal["gray"]["systemGray6"]["dark"] == "#1C1C1E"
+          and "#1C1C1E" in [c.upper() for c in
+                            json.loads((ROOT / "registry" / "standards" /
+                                        "tokens.json").read_text(encoding="utf-8"))
+                            ["surfaces"]["allow"]])
+    check("палитра объявлена публикацией, а не замером",
+          "НЕ замер" in _pal["note"] and _pal["address"].endswith("/color"))
+    check("чиню → красный: самодельный светлый фон ловится AE1",
+          any(f["rule"] == "AE1" for f in _ae17_findings(
+              "@media(prefers-color-scheme:light){.a{background:#FAFAFA;}}")))
+    check("ломаю → зелёный не даю: ступень Apple законна",
+          not any(f["rule"] == "AE1" for f in _ae17_findings(
+              "@media(prefers-color-scheme:light){.a{background:#F2F2F7;}}")))
+    check("белый холст светлой темы законен",
+          not any(f["rule"] == "AE1" for f in _ae17_findings(
+              "@media(prefers-color-scheme:light){.a{background:#FFFFFF;}}")))
 
     print("SELFTEST · AE17 · поверхность имеет пару тем")
     import lint as _l, tempfile as _tf, shutil as _sh, json as _js

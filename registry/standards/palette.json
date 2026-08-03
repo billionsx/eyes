@@ -1,0 +1,116 @@
+{
+ "system": {
+  "green": {
+   "light": "#34C759",
+   "accessible_dark": "#4AD968",
+   "dark": "#30D158",
+   "accessible_light": "#008932"
+  },
+  "blue": {
+   "accessible_light": "#1E6EF4",
+   "dark": "#0091FF",
+   "light": "#0088FF",
+   "accessible_dark": "#5CB8FF"
+  },
+  "orange": {
+   "dark": "#FF9230",
+   "light": "#FF8D28",
+   "accessible_light": "#C55300",
+   "accessible_dark": "#FFA056"
+  },
+  "purple": {
+   "accessible_light": "#B02FC2",
+   "dark": "#DB34F2",
+   "accessible_dark": "#EA8DFF",
+   "light": "#CB30E0"
+  },
+  "pink": {
+   "light": "#FF2D55",
+   "dark": "#FF375F",
+   "accessible_light": "#E7124D",
+   "accessible_dark": "#FF8AC4"
+  },
+  "red": {
+   "accessible_dark": "#FF6165",
+   "dark": "#FF4245",
+   "accessible_light": "#E9152D",
+   "light": "#FF383C"
+  },
+  "teal": {
+   "accessible_dark": "#3BDDEC",
+   "light": "#00C3D0",
+   "accessible_light": "#008198",
+   "dark": "#00D2E0"
+  },
+  "indigo": {
+   "accessible_dark": "#A7AAFF",
+   "light": "#6155F5",
+   "dark": "#6D7CFF",
+   "accessible_light": "#564ADE"
+  },
+  "brown": {
+   "dark": "#B78A66",
+   "light": "#AC7F5E",
+   "accessible_light": "#956D51",
+   "accessible_dark": "#DBA679"
+  },
+  "mint": {
+   "accessible_dark": "#54DFCB",
+   "dark": "#00DAC3",
+   "light": "#00C8B3",
+   "accessible_light": "#008575"
+  },
+  "cyan": {
+   "light": "#00C0E8",
+   "accessible_dark": "#6DD9FF",
+   "accessible_light": "#007EAE",
+   "dark": "#3CD3FE"
+  },
+  "yellow": {
+   "accessible_dark": "#FEDF43",
+   "accessible_light": "#A16A00",
+   "dark": "#FFD600",
+   "light": "#FFCC00"
+  }
+ },
+ "gray": {
+  "systemGray6": {
+   "light": "#F2F2F7",
+   "dark": "#1C1C1E",
+   "accessible_light": "#EBEBF0",
+   "accessible_dark": "#242426"
+  },
+  "systemGray5": {
+   "dark": "#2C2C2E",
+   "accessible_dark": "#363638",
+   "light": "#E5E5EA",
+   "accessible_light": "#D8D8DC"
+  },
+  "systemGray3": {
+   "accessible_dark": "#545456",
+   "dark": "#48484A",
+   "accessible_light": "#AEAEB2",
+   "light": "#C7C7CC"
+  },
+  "systemGray1": {
+   "light": "#8E8E93",
+   "accessible_dark": "#AEAEB2",
+   "accessible_light": "#6C6C70",
+   "dark": "#8E8E93"
+  },
+  "systemGray4": {
+   "light": "#D1D1D6",
+   "dark": "#3A3A3C",
+   "accessible_dark": "#444446",
+   "accessible_light": "#BCBCC0"
+  },
+  "systemGray2": {
+   "dark": "#636366",
+   "light": "#AEAEB2",
+   "accessible_light": "#8E8E93",
+   "accessible_dark": "#7C7C80"
+  }
+ },
+ "address": "/design/human-interface-guidelines/color",
+ "note": "опубликованные значения Apple из альт-текста образцов; Apple предупреждает, что значения меняются от выпуска к выпуску — это НЕ замер"
+}

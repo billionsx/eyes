@@ -282,6 +282,22 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
         * float(adapter.get("pt_to_css_px", 1))
     cr_min = float(tokens.get("contrast", {}).get("min_ratio", 4.5))
 
+    # Светлая лестница берётся из палитры, а не из базы замера: она
+    # ОПУБЛИКОВАНА Apple, а не снята департаментом, и смешивать два разных
+    # по весу свидетельства в одном поле нельзя. Нет палитры — правило по
+    # светлой теме молчит, как молчало раньше.
+    light_allow = []
+    _pal = Path(__file__).resolve().parents[1] / "registry" / "standards" / "palette.json"
+    if _pal.exists():
+        try:
+            _p = json.loads(_pal.read_text(encoding="utf-8"))
+            light_allow = ["#FFFFFF"] + [
+                v for n in range(6, 0, -1)
+                for v in [_p.get("gray", {}).get(f"systemGray{n}", {}).get("light")]
+                if v]
+        except (ValueError, OSError):
+            light_allow = []
+
     findings, files_n, looked = [], 0, []
     first_long, has_prm = None, False
     # AE17 копит по ВСЕМУ охвату: объявляет ли проект темы вообще и какие
@@ -301,7 +317,24 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             if "AE1" in rules:
                 for m in BG_PROP.finditer(t):
                     c = hex6(m.group(1))
-                    if c not in allow and not _in_print_scope(t, m.start()):
+                    if _in_print_scope(t, m.start()):
+                        continue
+                    if _in_light_scope(t, m.start()):
+                        # СВЕТЛАЯ ТЕМА. Раньше правило здесь молчало: своей
+                        # светлой лестницы у департамента не было, а судить
+                        # светлый холст тёмной лестницей — нелепость.
+                        # Теперь лестница есть — ОПУБЛИКОВАННАЯ Apple в
+                        # альт-тексте образцов страницы цвета. Это не замер,
+                        # и говорится это прямо: провенанс в тексте находки,
+                        # чтобы вес свидетельства был виден.
+                        if light_allow and c not in light_allow:
+                            findings.append((
+                                "AE1", rel, _line_of(t, m.start()),
+                                f"фон {c} вне СВЕТЛОЙ лестницы поверхностей "
+                                f"({' → '.join(light_allow)}) — 🍎 опубликовано "
+                                f"Apple, /design/human-interface-guidelines/color"))
+                        continue
+                    if c not in allow:
                         findings.append(("AE1", rel, _line_of(t, m.start()),
                                          f"фон {c} вне лестницы поверхностей ({' → '.join(tokens['surfaces']['ladder'])})"))
             if "AE2" in rules:
