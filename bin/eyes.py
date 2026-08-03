@@ -1001,6 +1001,20 @@ def cmd_selftest(root: Path) -> int:
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE19"))
 
+    print("SELFTEST · символы (перечень системных глифов)")
+    import symbols as sym_mod
+    check("суд символов зелёный: словарь веба, части имени, языковые варианты",
+          sym_mod.court() == 0)
+    _nm, _at = sym_mod.load()
+    check("перечень снят с настоящего приложения Apple",
+          len(_nm) > 9000 and "name_availability" in _at)
+    check("подсказка точна: search → magnifyingglass",
+          sym_mod.rank(_nm, "search", 1)[0][0] == "magnifyingglass")
+    check("подсказка точна: share → square.and.arrow.up",
+          sym_mod.rank(_nm, "share", 1)[0][0] == "square.and.arrow.up")
+    check("департамент НЕ выдумывает имён под несуществующий предмет",
+          sym_mod.rank(_nm, "квазар") == [])
+
     print("SELFTEST · устройства Apple и основание замера")
     import devices as dv_mod
     check("суд устройств зелёный: пункты, классы, платформы, точки",

@@ -47,6 +47,7 @@ import law as law_mod      # noqa: E402
 import attest as att_mod   # noqa: E402
 import tally as tally_mod  # noqa: E402  журнал присутствия (только локально)
 import guide as guide_mod  # noqa: E402  цель берётся из замера
+import symbols as sym_mod  # noqa: E402  перечень системных глифов
 
 PROTOCOL = "2025-06-18"
 NAME = "billions-x-eyes"
@@ -86,6 +87,21 @@ TOOLS = [
          "properties": {"rule": {"type": "string",
                                  "description": "Например AE11."}},
          "required": ["rule"]}},
+    {"name": "eyes_symbol",
+     "description": "Есть ли у Apple СИСТЕМНЫЙ глиф под этот смысл. Ищет по "
+                    "9184 именам SF Symbols, снятым с настоящего приложения "
+                    "Apple. Понимает словарь веба: search → magnifyingglass, "
+                    "close → xmark, share → square.and.arrow.up. Возвращает "
+                    "точные имена — рисовать свою иконку там, где есть "
+                    "системная, значит разойтись с системой на глазах "
+                    "у пользователя.",
+     "inputSchema": {
+         "type": "object",
+         "properties": {"query": {"type": "string",
+                                  "description": "Смысл иконки: search, "
+                                                 "close, back, share…"},
+                        "limit": {"type": "integer"}},
+         "required": ["query"]}},
     {"name": "eyes_business",
      "description": "Норма бизнес-логики Большой семёрки (Deloitte, PwC, EY, "
                     "KPMG, McKinsey, BCG, Bain) под вопрос стратегии, "
@@ -333,6 +349,19 @@ def call_tool(name, args):
         return _text(res)
     if name == "eyes_guide":
         return _text(guide_mod.guide(str(args.get("rule", "")).upper()))
+    if name == "eyes_symbol":
+        q = args.get("query")
+        if not isinstance(q, str) or not q.strip():
+            return _text({"error": "нужен непустой query"})
+        names, at = sym_mod.load()
+        if not names:
+            return _text({"error": "перечень символов недоступен"})
+        res = sym_mod.rank(names, q, int(args.get("limit", 6) or 6))
+        return _text({"query": q, "source": at, "total": len(names),
+                      "symbols": [{"name": n, "score": round(s2, 1)}
+                                  for n, s2 in res],
+                      "note": ("системного глифа под этот смысл нет — "
+                               "своя иконка оправдана") if not res else None})
     if name == "eyes_business":
         q = args.get("query")
         if not isinstance(q, str) or not q.strip():
@@ -457,9 +486,9 @@ def court():
 
     r = handle({"jsonrpc": "2.0", "id": 2, "method": "tools/list"})
     names = [t["name"] for t in r["result"]["tools"]]
-    chk("объявлены все семь инструментов департамента",
-        names == ["eyes_scan", "eyes_guide", "eyes_business", "eyes_check",
-                  "eyes_law", "eyes_token", "eyes_attest"])
+    chk("объявлены все восемь инструментов департамента",
+        names == ["eyes_scan", "eyes_guide", "eyes_symbol", "eyes_business",
+                  "eyes_check", "eyes_law", "eyes_token", "eyes_attest"])
     chk("главный инструмент объявлен ПЕРВЫМ: агент берёт верхний",
         names[0] == "eyes_scan")
     chk("у каждого инструмента объявлена схема входа",
@@ -543,6 +572,22 @@ def court():
                           )["result"]["content"][0]["text"])
     chk("наставление отвечает на строчный номер правила и несёт цель",
         g["rule"] == "AE11" and g["target"])
+
+    sy = json.loads(handle({"jsonrpc": "2.0", "id": 63, "method": "tools/call",
+                            "params": {"name": "eyes_symbol",
+                                       "arguments": {"query": "search",
+                                                     "limit": 2}}}
+                           )["result"]["content"][0]["text"])
+    chk("системный глиф находится по слову веба",
+        sy["symbols"] and sy["symbols"][0]["name"] == "magnifyingglass")
+    chk("выдача несёт ИСТОЧНИК перечня, а не голые имена",
+        "name_availability" in (sy.get("source") or ""))
+    sy2 = json.loads(handle({"jsonrpc": "2.0", "id": 64, "method": "tools/call",
+                             "params": {"name": "eyes_symbol",
+                                        "arguments": {"query": "квазар"}}}
+                            )["result"]["content"][0]["text"])
+    chk("нет глифа — так и сказано, своя иконка оправдана",
+        sy2["symbols"] == [] and "оправдана" in (sy2["note"] or ""))
 
     b = json.loads(handle({"jsonrpc": "2.0", "id": 62, "method": "tools/call",
                            "params": {"name": "eyes_business",
