@@ -383,10 +383,24 @@ def put_laws(rows, path=None):
     return len(fresh)
 
 
-def harvest(pages, getter, pal, state):
-    """Один заход жатвы. getter(page) → документ или None."""
+def harvest(pages, getter, pal, state, budget=None):
+    """Один заход жатвы. getter(page) → документ или None.
+
+    Фронт берётся ЖИВЫМ. Первая редакция брала срез фронта на входе, и после
+    посева, когда во фронте одна страница, прогон обходил ровно одну — свод
+    в 40 страниц отстраивался бы полтора месяца по странице в сутки.
+    Страницы, найденные ВНУТРИ прогона, доступны тому же прогону, пока не
+    исчерпан бюджет вежливости.
+    """
     rows, laws, walked, dead = [], [], [], []
-    for page in pages:
+    queue = list(pages)
+    limit = budget if budget is not None else len(queue)
+    seen = set()
+    while queue and len(walked) + len(dead) < limit:
+        page = queue.pop(0)
+        if page in seen:
+            continue
+        seen.add(page)
         doc = getter(page)
         if not doc:
             dead.append(page)
@@ -397,8 +411,12 @@ def harvest(pages, getter, pal, state):
             got = sieve(doc, page)
             (laws if kind == "закон" else rows).extend(got)
         for u in links(doc):
-            if u not in state["done"] and u not in state["front"]:
+            if u in state["done"] or u in seen:
+                continue
+            if u not in state["front"]:
                 state["front"].append(u)
+            if u not in queue:
+                queue.append(u)
     added, changed, conflicts = merge(pal, rows)
     laws_new = put_laws(laws)
     for p in walked:
@@ -473,9 +491,26 @@ def court():
 
     st = {"done": [], "front": [], "harvested": 0}
     res = harvest([HIG + "color"], lambda p: doc, {"system": {}, "gray": {},
-                                                   "sources": {}}, st)
+                                                   "sources": {}}, st, budget=1)
     chk("заход целиком: страница пройдена, фронт пополнен",
         res["walked"] == 1 and HIG + "materials" in st["front"])
+
+    # Живой фронт: найденное внутри прогона доступно этому же прогону.
+    st3 = {"done": [], "front": [], "harvested": 0}
+    chain = {HIG + "a": {"references": {"t": {"type": "topic",
+                                              "url": HIG + "b"}}},
+             HIG + "b": {"references": {"t": {"type": "topic",
+                                              "url": HIG + "c"}}},
+             HIG + "c": {"references": {}}}
+    r3 = harvest([HIG + "a"], chain.get, {"system": {}, "gray": {},
+                                          "sources": {}}, st3, budget=3)
+    chk("найденное ВНУТРИ прогона обходится тем же прогоном",
+        r3["walked"] == 3)
+    st4 = {"done": [], "front": [], "harvested": 0}
+    r4 = harvest([HIG + "a"], chain.get, {"system": {}, "gray": {},
+                                          "sources": {}}, st4, budget=2)
+    chk("бюджет вежливости соблюдается: больше не берём",
+        r4["walked"] == 2 and HIG + "c" in st4["front"])
     chk("пройденная страница ушла из фронта в пройденные",
         st["done"] == [HIG + "color"])
 
@@ -600,7 +635,7 @@ def main():
         pages = list(fx)
         getter = fx.get
     else:
-        pages = state["front"][:max(1, a.pages)]
+        pages = list(state["front"])
         getter = fetch
 
     if not pages:
@@ -608,7 +643,8 @@ def main():
         return 0
 
     pal = load_palette()
-    res = harvest(pages, getter, pal, state)
+    res = harvest(pages, getter, pal, state,
+                  budget=None if a.offline else max(1, a.pages))
 
     PALETTE.write_text(json.dumps(pal, ensure_ascii=False, indent=1),
                        encoding="utf-8")
