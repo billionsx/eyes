@@ -840,6 +840,57 @@ def cmd_selftest(root: Path) -> int:
           [f["rule"] for f in mcp_mod.check(".a{background:#1c1;}", "css")]
           == ["AE1"])
 
+    def _ae17_why(css):
+        import lint as _l2, tempfile as _t2, shutil as _s2, json as _j2
+        from pathlib import Path as _P2
+        d = _P2(_t2.mkdtemp(prefix="eyes-ae17w-"))
+        (d / "a.css").write_text(css, encoding="utf-8")
+        ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
+              "report": {"globs": ["**/*"],
+                         "rules": [f"AE{i}" for i in range(1, 18)]}}
+        tk = _j2.loads((ROOT / "registry" / "standards" / "tokens.json")
+                       .read_text(encoding="utf-8"))
+        r = _l2.run(d, ad, tk, "report", d)
+        _s2.rmtree(d, ignore_errors=True)
+        return [w for rr, _f, _l, w in r["findings"] if rr == "AE17"]
+
+    print("SELFTEST · AE17 · поверхность имеет пару тем")
+    import lint as _l, tempfile as _tf, shutil as _sh, json as _js
+    from pathlib import Path as _P
+
+    def _ae17(css):
+        d = _P(_tf.mkdtemp(prefix="eyes-ae17-"))
+        (d / "a.css").write_text(css, encoding="utf-8")
+        ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
+              "report": {"globs": ["**/*"],
+                         "rules": [f"AE{i}" for i in range(1, 18)]}}
+        tk = _js.loads((ROOT / "registry" / "standards" / "tokens.json")
+                       .read_text(encoding="utf-8"))
+        r = _l.run(d, ad, tk, "report", d)
+        _sh.rmtree(d, ignore_errors=True)
+        return [x[0] for x in r["findings"]]
+
+    _DARK = "@media(prefers-color-scheme:dark){.a{background:#000000;}}\n"
+    check("чиню → красный: законная поверхность без пары тем ловится",
+          "AE17" in _ae17(_DARK + ".b{background:#1C1C1E;}"))
+    check("сокращённая запись тоже ловится: #000 = #000000",
+          "AE17" in _ae17(_DARK + ".b{background:#000;}"))
+    check("ломаю → зелёный не даю: обе темы объявлены — тишина",
+          "AE17" not in _ae17(
+              _DARK + "@media(prefers-color-scheme:light){.b{background:#FFFFFF;}}"))
+    check("проекту БЕЗ тем правило молчит: он этого не обещал",
+          "AE17" not in _ae17(".b{background:#1C1C1E;}"))
+    check("переменная — механизм пары, не нарушение",
+          "AE17" not in _ae17(_DARK + ".b{background:var(--surface);}"))
+    check("печать вне тем и вне правила",
+          "AE17" not in _ae17(_DARK + "@media print{.p{background:#FFFFFF;}}"))
+    check("цвет ВНЕ лестницы отдан AE1 — двойного наказания нет",
+          "AE17" not in _ae17(_DARK + ".b{background:#123456;}")
+          and "AE1" in _ae17(_DARK + ".b{background:#123456;}"))
+    check("правило опирается на слова Apple с адресом",
+          any("human-interface-guidelines/color" in w
+              for w in [x for x in _ae17_why(_DARK + ".b{background:#1C1C1E;}")]))
+
     print("SELFTEST · AE16 · активный таб отличается тоном, а не заливкой")
     import mcp as _m
     check("чиню → красный: заливка под активным табом ловится",
@@ -882,7 +933,7 @@ def cmd_selftest(root: Path) -> int:
     check("суд наставления зелёный: цель у каждого правила из живой базы",
           guide_mod.court() == 0)
     check("наставление есть на каждое правило департамента",
-          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 17)})
+          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 18)})
 
     print("SELFTEST · жизнь правила (реестр присутствия)")
     import tally as tally_mod

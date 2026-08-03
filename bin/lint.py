@@ -48,6 +48,9 @@ BXE · ИСПОЛНИТЕЛЬНАЯ ВЛАСТЬ. Переносимый лин�
                    min-width/height — ПЕРВОЕ правило, рождённое конвейером:
                    обход живого свода → добытчик кандидатов → правило
                    (🍎 tokens.tap_target.source, страница живая, не снимок).
+  AE17 ПАРА ТЕМ    поверхность имеет значение для СВЕТЛОЙ и ТЁМНОЙ темы,
+                   а не одно жёсткое на обе (только для проектов, где темы
+                   уже объявлены)
   AE16 АКТИВНЫЙ ТАБ  активный пункт нижней навигации отличается ТОНОМ,
                      а не заливкой под ним (замер: 37 кадров таб-бара по
                      10 приложениям Apple — заливки нет ни в одном)
@@ -185,6 +188,19 @@ def _in_light_scope(text: str, pos: int) -> bool:
     return any(LIGHT_SCOPE.search(h) for h in _enclosing_headers(text, pos))
 
 
+# AE17. ОБЛАСТЬ ТЕМЫ. Объявление считается тематическим, если стоит внутри
+# любого механизма смены темы: медиазапрос схемы, атрибут темы, класс темы.
+# Список закрытый и объявленный: угадывать «похоже на тему» нельзя.
+THEME_SCOPE = re.compile(
+    r"prefers-color-scheme|data-theme|\[data-[a-z-]*theme|"
+    r"(?:^|[\s,.:#])(?:light|dark)(?:-mode|-theme)?\b(?=[^{]*$)", re.I)
+
+
+def _in_theme_scope(text: str, pos: int) -> bool:
+    """Объявление адресовано КОНКРЕТНОЙ теме, а не обеим сразу."""
+    return any(THEME_SCOPE.search(h) for h in _enclosing_headers(text, pos))
+
+
 PRINT_SCOPE = re.compile(r"@media[^{]*\bprint\b", re.I)
 
 
@@ -268,6 +284,9 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
 
     findings, files_n, looked = [], 0, []
     first_long, has_prm = None, False
+    # AE17 копит по ВСЕМУ охвату: объявляет ли проект темы вообще и какие
+    # поверхности из них выпадают. Один файл этого знать не может.
+    has_theme, theme_orphans = False, []
     for g in globs:
         for fp in sorted(glob.glob(str(project_root / g), recursive=True)):
             p = Path(fp)
@@ -364,6 +383,24 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     if stack_head and not v.startswith(stack_head):
                         findings.append(("AE10", rel, _line_of(t, m.start()),
                                          f"font-family не начинается с системного стека {list(stack_head)} — подмена первой позиции ломает метрики и трекинг"))
+            if "AE17" in rules and p.suffix in (".css", ".scss"):
+                if THEME_SCOPE.search(t):
+                    has_theme = True
+                for m in BG_PROP.finditer(t):
+                    # Жёсткий цвет поверхности вне любой темы. var(--…) не
+                    # трогаем: переменная и есть механизм пары.
+                    if _in_theme_scope(t, m.start()) or _in_print_scope(t, m.start()):
+                        continue
+                    col = hex6(m.group(1))
+                    # Цвет ВНЕ лестницы — предмет AE1, и там он уже назван
+                    # вместе с целью. Повторить его здесь значит наказать
+                    # дважды за одну строку и раздуть долг — ровно та ошибка,
+                    # что была в формуле балла. AE17 берёт только ЗАКОННУЮ
+                    # поверхность, у которой нет пары: это и есть новое
+                    # знание, которого не даёт ни одно другое правило.
+                    if col not in allow:
+                        continue
+                    theme_orphans.append((rel, _line_of(t, m.start()), col))
             if "AE16" in rules and p.suffix in (".css", ".scss"):
                 # Разбор по блокам: заливка судится только там, где селектор
                 # объявляет активный пункт навигации.
@@ -435,6 +472,20 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                                     f"контраст {ratio:.2f}:1 ({fg.group(1)} на "
                                     f"{bg.group(1)}) ниже нормы свода {cr_min:g}:1 "
                                     f"(🍎 живой HIG)"))
+
+    if "AE17" in rules and has_theme and theme_orphans:
+        # Правило говорит ТОЛЬКО проектам, которые уже завели темы. Проекту
+        # без тем оно молчит: там нет обязательства, которое нарушено, —
+        # это выбор охвата, а не дефект. Судить проект за отсутствие того,
+        # чего он не обещал, значит завалить его шумом.
+        for rel, ln, col in theme_orphans:
+            findings.append((
+                "AE17", rel, ln,
+                f"поверхность {col} задана одним значением на обе темы — "
+                f"проект темы объявляет, но эта поверхность из них выпадает; "
+                f"🍎 Apple: значения системных цветов меняются от выпуска "
+                f"к выпуску, жёсткое одно на обе темы устаревает молча "
+                f"(/design/human-interface-guidelines/color)"))
 
     if "AE13" in rules and first_long and not has_prm:
         findings.append(("AE13", first_long[0], first_long[1],
