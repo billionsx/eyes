@@ -934,15 +934,19 @@ def cmd_selftest(root: Path) -> int:
 
     print("SELFTEST · служба M3 (формула объявлена и детерминирована)")
     import certify as cert
-    c0 = {"strict": 2, "report": 400, "live": 9, "verify_diverg": 1}
-    check("скор по формуле: 100−4−20−13.5−5 = 57.5 · D",
-          cert.score_of(c0) == 57.5 and cert.grade(57.5) == "D")
+    # Формула v2: долг советника входит ПЛОТНОСТЬЮ (см. certify.DENS_MAX).
+    # 100 − 2.0·2 − 1.5·9 − 5.0·1 − 40·(400/100)/(400/100+1) = 100−4−13.5−5−32 = 45.5
+    c0 = {"strict": 2, "report": 400, "live": 9, "verify_diverg": 1, "files": 100}
+    check("скор по формуле v2: 100−4−13.5−5−32 = 45.5 · D",
+          cert.score_of(c0) == 45.5 and cert.grade(45.5) == "D")
+    check("формула детерминирована: тот же вход — тот же скор",
+          cert.score_of(c0) == cert.score_of(dict(c0)))
     check("долг советника больше не упирается в потолок: 327 и 50 стоят разного",
-          cert.score_of({"strict": 0, "report": 327, "live": 0, "verify_diverg": 0})
-          != cert.score_of({"strict": 0, "report": 50, "live": 0, "verify_diverg": 0}))
+          cert.score_of({"strict": 0, "report": 327, "live": 0, "verify_diverg": 0, "files": 118})
+          != cert.score_of({"strict": 0, "report": 50, "live": 0, "verify_diverg": 0, "files": 118}))
     check("шкала достижима: нулевой долг даёт 100 · A+",
-          cert.score_of({"strict": 0, "report": 0, "live": 0, "verify_diverg": 0}) == 100.0)
-    check("чистый проект → 100 · A+", cert.score_of({"strict": 0, "report": 0, "live": 0, "verify_diverg": 0}) == 100.0
+          cert.score_of({"strict": 0, "report": 0, "live": 0, "verify_diverg": 0, "files": 118}) == 100.0)
+    check("чистый проект → 100 · A+", cert.score_of({"strict": 0, "report": 0, "live": 0, "verify_diverg": 0, "files": 118}) == 100.0
           and cert.grade(100.0) == "A+")
 
     check("сертификат: файлов проверено = сколько правда посмотрели, "
@@ -1092,6 +1096,34 @@ def cmd_selftest(root: Path) -> int:
           lc_mod.verdict(lc_mod.lag_minutes("2026-07-28 06:00 UTC", "2026-07-28 06:20 UTC"), lim)[0] == 1)
     check("адрес эфира живёт в реестре, не в коде",
           "url" in json.loads((root / "registry" / "site.json").read_text(encoding="utf-8")))
+
+    print("SELFTEST · шкала сертификата (плотность, не объём)")
+    import certify as _cert
+    _mk = lambda files, rep, **kw: {"strict": 0, "live": 0, "verify_diverg": 0,
+                                    "files": files, "report": rep, **kw}
+    # Инверсия шкалы. Родословная: малый грязный проект получал A, большой
+    # чистый — C. Для внешней оценки это обратный знак, а не неточность.
+    _dirty_small = _cert.score_of(_mk(10, 50))    # 5.00 находок на файл
+    _clean_big = _cert.score_of(_mk(1000, 50))    # 0.05 находки на файл
+    check("грязный малый оценён ХУЖЕ чистого большого (инверсия снята)",
+          _dirty_small < _clean_big)
+    check("равная плотность → равный скор независимо от размера",
+          _cert.score_of(_mk(10, 5)) == _cert.score_of(_mk(1000, 500)))
+    # монотонность в обе стороны
+    check("больше долга при том же размере → скор падает",
+          _cert.score_of(_mk(100, 200)) < _cert.score_of(_mk(100, 20)))
+    check("больше файлов при том же долге → скор не падает",
+          _cert.score_of(_mk(1000, 50)) >= _cert.score_of(_mk(100, 50)))
+    # ограниченность: советник не топит проект в одиночку
+    check("штраф плотности ограничен сверху",
+          _cert.score_of(_mk(1, 10 ** 6)) >= 100.0 - _cert.DENS_MAX - 0.05)
+    # блокирующее и целостность остаются абсолютными
+    check("расхождение сверки бьёт абсолютно, а не плотностью",
+          _cert.score_of(_mk(1000, 0, verify_diverg=2)) == 90.0)
+    check("пустой обход плотности не даёт", _cert.debt_density(5, 0) == 5.0)
+    check("версия формулы объявлена и стоит в документе",
+          isinstance(_cert.FORMULA, int)
+          and "Формула v" in (root / "bin" / "certify.py").read_text(encoding="utf-8"))
 
     print("SELFTEST · добыча: сита, отбор, тождество прочтения")
     import atlas as _atlas
