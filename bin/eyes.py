@@ -1383,6 +1383,29 @@ def cmd_selftest(root: Path) -> int:
           "44x44" in _txt3 and "legible" not in _txt3)
     _sh.rmtree(_t3, ignore_errors=True)
 
+    print("SELFTEST · чем закрывается дыра базы (сырьё названо)")
+    import needs as _needs
+    check("длительность перехода требует ЗАПИСИ, а не кадра",
+          _needs.feed_of("motion.tab_crossfade_ms")[0] == "ЗАПИСЬ")
+    check("вес начертания берётся из ШРИФТА, а не с кадра",
+          _needs.feed_of("typography.weights.bold")[0] == "ШРИФТ")
+    check("геометрия закрывается КАДРОМ",
+          _needs.feed_of("geometry.radius_tile_pt")[0] == "КАДР")
+    check("прозрачность требует известной подложки",
+          _needs.feed_of("glass.thin")[0] == "КАДР+СЛОЙ")
+    _hs = _needs.holes()
+    check("ни одна дыра не осталась без названного сырья",
+          not [h for h in _hs if h["feed"] == _needs.DEFAULT[0]],
+          )
+    check("девять дыр движения объявлены незакрываемыми кадром",
+          len([h for h in _hs if h["feed"] == "ЗАПИСЬ"]) == 9)
+    # Разбор чисел: потребность не должна читаться как наличие.
+    _rc = [h for h in _hs if h["key"] == "geometry.radius_card_pt"]
+    check("наличие и потребность разобраны раздельно (8 из 30)",
+          bool(_rc) and _rc[0]["have"] == 8 and _rc[0]["need"] == 30)
+    check("число, спорящее с фактом, отвергается",
+          "parse_conflict" in (root / "bin" / "needs.py").read_text(encoding="utf-8"))
+
     print("SELFTEST · область нормы (число вне своей области — выдумка)")
     import propose as _prop
     check("норма слежения за взглядом помечена visionos",
