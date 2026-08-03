@@ -1097,6 +1097,16 @@ def cmd_selftest(root: Path) -> int:
     check("адрес эфира живёт в реестре, не в коде",
           "url" in json.loads((root / "registry" / "site.json").read_text(encoding="utf-8")))
 
+    print("SELFTEST · атрибуция красного (чей именно)")
+    _adv = (root / "bin" / "advise.sh").read_text(encoding="utf-8")
+    check("вердикт по каждому паспорту пишется в реестр", "CLIENTS.md" in _adv)
+    check("рост долга помечается как красный КЛИЕНТА", "🔴 КЛИЕНТ" in _adv)
+    check("неисправность помечается как красный ИНСТРУМЕНТА", "🔴 ИНСТРУМЕНТ" in _adv)
+    check("чистый паспорт получает зелёный вердикт", "🟢 чисто" in _adv)
+    # Ст. 43 ослаблению не подлежит: рост долга обязан валить прогон.
+    check("рост долга по-прежнему валит прогон (ст. 43 не ослаблена)",
+          _adv.count("rc=1") >= 2 and "exit $rc" in _adv)
+
     print("SELFTEST · шкала сертификата (плотность, не объём)")
     import certify as _cert
     _mk = lambda files, rep, **kw: {"strict": 0, "live": 0, "verify_diverg": 0,
