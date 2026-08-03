@@ -1374,10 +1374,24 @@ def cmd_selftest(root: Path) -> int:
     _q = ["/documentation/UIKit/uibutton", "/documentation/UIKit/add-quick-actions",
           "/documentation/UIKit/inittype"]
     _o = _atlas.order_frontier(_q, _fw)
-    check("статья читается раньше заглушки символа",
+    check("внутри фреймворка статья читается раньше заглушки",
           _o.index("/documentation/UIKit/add-quick-actions") == 0)
     check("заглушки уходят в хвост, а НЕ из очереди (ЗКН-Э001)",
           sorted(_o) == sorted(_q))
+
+    # ПРЕДМЕТ ГЛАВНЕЕ ФОРМЫ. Родословная (02.08.2026): форма была введена
+    # множителем поверх предмета, и слабый фреймворк обошёл сильный за счёт
+    # вида адреса. Замер: 100% статей в прогоне, но урожай 0.28 — ниже
+    # заглушек (0.45), потому что 269 страниц пришли из RealityKit.
+    _fw2 = {"webkit": {"v": 100, "d": 73},      # сильный предмет
+            "realitykit": {"v": 100, "d": 21}}  # слабый предмет
+    _q2 = ["/documentation/RealityKit/building-a-scene",   # статья, слабый предмет
+           "/documentation/WebKit/wkwebview"]              # заглушка, сильный предмет
+    _o2 = _atlas.order_frontier(_q2, _fw2)
+    check("статья слабого предмета НЕ обгоняет заглушку сильного",
+          _o2[0] == "/documentation/WebKit/wkwebview")
+    check("порядок детерминирован: тот же вход — тот же выход",
+          _atlas.order_frontier(_q2, _fw2) == _o2)
 
     # Хранение текста: починка сита не должна стоить обхода интернета.
     _t3 = pathlib.Path(_tf.mkdtemp()); _r3 = _t3 / "registry"
