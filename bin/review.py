@@ -69,10 +69,13 @@ def pr_files(repo: str, num: int, token: str) -> dict:
 def review(repo: str, num: int, token: str, project_root: Path) -> dict:
     globs_env = os.environ.get("EYES_CLIENT_GLOBS")
     if globs_env:
-        gl = [g.strip() for g in globs_env.split(",") if g.strip()]
-        adapter = {"project": os.environ.get("EYES_CLIENT_PROJECT", "client"),
-                   "report": {"globs": gl, "rules": ["AE1", "AE2", "AE3", "AE4", "AE5", "AE6", "AE7", "AE9", "AE10", "AE11"]},
-                   "strict": {"globs": gl, "rules": ["AE2", "AE4", "AE6"]}}
+        adapter = projects.client_pick(
+            ROOT, globs=[g.strip() for g in globs_env.split(",") if g.strip()],
+            report_rules=["AE1", "AE2", "AE3", "AE4", "AE5", "AE6", "AE7", "AE9", "AE10", "AE11"],
+            strict_rules=["AE2", "AE4", "AE6"])
+        if adapter.get("_disabled"):
+            print(f"паспорт «{adapter.get('project')}» выключен — департамент проект не обслуживает")
+            return {"checked": 0, "hits": 0, "disabled": True}
     else:
         adapter = projects.pick(ROOT)
     tokens = json.loads((ROOT / "registry" / "standards" / "tokens.json").read_text(encoding="utf-8"))

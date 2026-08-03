@@ -8,6 +8,8 @@
  "prod": "",
  "live_pages": [],
  "deploy_workflow": "",
+ "deploy_source": "actions",
+ "deploy_environment": "Production",
  "allow_extra": [],
  "sizes_extra": [],
  "radius_extra": [],
@@ -40,5 +42,6 @@
   "globs": [],
   "rules": []
  },
- "_порядок": "шаблон паспорта. Новый проект подключается командой `python3 bin/eyes.py attach --project <имя> --repo <owner/name> --prod <url> --globs \"src/**/*.css,src/**/*.tsx\"`. Новый проект всегда начинает в режиме report (советник); правило переводится в strict, когда его долг равен нулю (ст. 7.4)."
+ "_порядок": "шаблон паспорта. Новый проект подключается командой `python3 bin/eyes.py attach --project <имя> --repo <owner/name> --prod <url> --globs \"src/**/*.css,src/**/*.tsx\"`. Новый проект всегда начинает в режиме report (советник); правило переводится в strict, когда его долг равен нулю (ст. 7.4).",
+ "_деплой": "deploy_source: actions — прод собирает воркфлоу GitHub Actions, его имя в deploy_workflow. deploy_source: deployments — прод собирает внешняя площадка (Vercel, Netlify, Render): воркфлоу нет, свежесть берётся из записей Deployments среды deploy_environment. Приватный репозиторий требует секрета EYES_PROJECTS_TOKEN в департаменте."
 }

@@ -84,6 +84,58 @@ def pick(root: Path = None, name: str = None) -> dict:
     return {"project": n, "report": {"globs": [], "rules": []}, "strict": {"globs": [], "rules": []}}
 
 
+def client_pick(root: Path = None, name: str = None, globs: list = None,
+                report_rules: list = None, strict_rules: list = None) -> dict:
+    """Паспорт для КЛИЕНТСКОГО пути (reusable-воркфлоу M1/M7).
+
+    Клиент кладёт себе десять строк, называет себя в `project:` и перечисляет
+    глобы. До сих пор оба входа (ревью PR и надзор по коммиту) синтезировали
+    паспорт на лету из этих двух полей — и паспорт проекта в `adapters/`
+    на клиентском пути НЕ ДЕЙСТВОВАЛ: ни `pt_to_css_px`, ни `allow_extra`,
+    ни свой набор правил, ни строгие гейты. Паспорт был, но не правил.
+
+    Порядок: имя названо и паспорт есть → правит ПАСПОРТ; глобы из воркфлоу
+    лишь уточняют, где смотреть. Имени в реестре нет → синтез как раньше:
+    неизвестный проект подключается без нашего участия и получает совет.
+
+    Строгие глобы синтезом НЕ выдаются и в паспорте не подменяются, если их
+    там нет: право вето включается решением основателя (ст. 7.4), а не тем,
+    что клиент вписал строку в свой воркфлоу.
+
+    `enabled: false` — паспорт есть, но департамент проект не обслуживает.
+    Такой ответ помечается ключом `_disabled`, чтобы вызывающий сказал это
+    вслух: молчание читается как чистота (ЗКН-Э001).
+    """
+    root = root or ROOT
+    if name is None:
+        name = os.environ.get("EYES_CLIENT_PROJECT", "")
+    name = (name or "").strip()
+    if globs is None:
+        globs = [g.strip() for g in
+                 os.environ.get("EYES_CLIENT_GLOBS", "").split(",") if g.strip()]
+    globs = list(globs or [])
+
+    ad = all_adapters(root).get(name) if name and name != "default" else None
+    if ad is not None:
+        ad = json.loads(json.dumps(ad))          # копия: паспорт на диске цел
+        if ad.get("enabled", True) is False:
+            ad["_disabled"] = True
+            ad["report"] = {"globs": [], "rules": []}
+            ad["strict"] = {"globs": [], "rules": []}
+            return ad
+        if globs:
+            ad.setdefault("report", {})["globs"] = list(globs)
+            st = ad.setdefault("strict", {})
+            if st.get("globs"):                  # были строгие — там же и смотрим
+                st["globs"] = list(globs)
+        return ad
+
+    return {"project": name or "client",
+            "report": {"globs": globs, "rules": list(report_rules or [])},
+            "strict": {"globs": list(globs) if strict_rules else [],
+                       "rules": list(strict_rules or [])}}
+
+
 def live_pages(root: Path = None) -> list:
     """Страницы живого взгляда: сначала явный список в live-sources.json
     (совместимость), затем live_pages/prod всех включённых паспортов."""

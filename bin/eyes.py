@@ -513,6 +513,37 @@ def cmd_selftest(root: Path) -> int:
         res_att = lint_mod.run(tmp2, ad, tokens, "report", proj)
         check("адаптер создан и линт по нему видит долг",
               "AE7" in ad["report"]["rules"] and any(r == "AE2" for r, *_ in res_att["findings"]))
+
+        print("SELFTEST · клиентский путь правится ПАСПОРТОМ, а не воркфлоу")
+        import projects as pr_mod
+        (tmp2 / "adapters" / "demo.json").write_text(json.dumps({
+            "project": "demo", "enabled": True, "pt_to_css_px": 2,
+            "allow_extra": ["#123456"],
+            "report": {"globs": ["a/**"], "rules": ["AE2"]},
+            "strict": {"globs": [], "rules": []}}, ensure_ascii=False),
+            encoding="utf-8")
+        (tmp2 / "adapters" / "off.json").write_text(json.dumps({
+            "project": "off", "enabled": False,
+            "report": {"globs": ["a/**"], "rules": ["AE2"]},
+            "strict": {"globs": [], "rules": []}}, ensure_ascii=False),
+            encoding="utf-8")
+        cp = pr_mod.client_pick(tmp2, "demo", ["b/**"], ["AE1", "AE9"], ["AE4"])
+        check("паспорт известного проекта правит: его правила, не воркфлоу",
+              cp["report"]["rules"] == ["AE2"])
+        check("послабления паспорта на клиентском пути ДЕЙСТВУЮТ",
+              cp.get("pt_to_css_px") == 2 and cp.get("allow_extra") == ["#123456"])
+        check("глобы воркфлоу уточняют, ГДЕ смотреть",
+              cp["report"]["globs"] == ["b/**"])
+        check("вето само не заводится: строгих глобов не было — не появились",
+              cp["strict"]["globs"] == [])
+        check("паспорт на диске не тронут копией",
+              json.loads((tmp2 / "adapters" / "demo.json").read_text(
+                  encoding="utf-8"))["report"]["globs"] == ["a/**"])
+        unk = pr_mod.client_pick(tmp2, "чужой", ["c/**"], ["AE1"], ["AE4"])
+        check("незнакомый проект подключается сам: синтез как прежде",
+              unk["report"]["rules"] == ["AE1"] and unk["strict"]["globs"] == ["c/**"])
+        check("выключенный паспорт говорит об этом вслух, а не молчит",
+              pr_mod.client_pick(tmp2, "off", ["c/**"], ["AE1"]).get("_disabled") is True)
     finally:
         shutil.rmtree(tmp2, ignore_errors=True)
 
