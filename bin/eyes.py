@@ -1383,6 +1383,24 @@ def cmd_selftest(root: Path) -> int:
           "44x44" in _txt3 and "legible" not in _txt3)
     _sh.rmtree(_t3, ignore_errors=True)
 
+    print("SELFTEST · целость реестра (битое состояние не уезжает)")
+    # Департамент коммитит своё состояние сам. Значит, конфликт слияния или
+    # оборванная запись способны положить в репозиторий json с маркерами —
+    # и следующий прогон упадёт уже на чтении. Родословная: это случилось
+    # трижды за 02.08.2026 при разборе конфликтов состояний наблюдения.
+    _bad, _marked = [], []
+    for _p in sorted(list((root / "registry").rglob("*.json"))
+                     + list((root / "adapters").glob("*.json"))):
+        _txt = _p.read_text(encoding="utf-8", errors="ignore")
+        if "<<<<<<<" in _txt or ">>>>>>>" in _txt:
+            _marked.append(_p.name)
+        try:
+            json.loads(_txt)
+        except Exception:
+            _bad.append(_p.name)
+    check(f"каждый json реестра разбирается ({_bad or 'все'})", not _bad)
+    check(f"ни в одном json нет маркеров конфликта ({_marked or 'чисто'})", not _marked)
+
     print("SELFTEST · чем закрывается дыра базы (сырьё названо)")
     import needs as _needs
     check("длительность перехода требует ЗАПИСИ, а не кадра",
