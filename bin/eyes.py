@@ -15,6 +15,7 @@ BXE · единая точка входа департамента.
 """
 import argparse
 import json
+import pathlib
 import os
 import re
 import shutil
@@ -1117,6 +1118,31 @@ def cmd_selftest(root: Path) -> int:
     _src = (root / "bin" / "atlas.py").read_text(encoding="utf-8")
     check("пропуск страницы учитывает версию сита", 'prev.get("sieve") == SIEVE' in _src)
     check("версия сита ложится в след прочтения", '"sieve": SIEVE' in _src)
+
+    # Починка сита обязана ВСТУПАТЬ В СИЛУ, а не только быть верной.
+    # Родословная: SIEVE был введён в тождество прочтения, но просроченные
+    # страницы не возвращались в очередь — переобход ждёт пустого фронтира,
+    # а там стояло 62 458 адресов. Верная и полностью инертная починка.
+    import tempfile as _tf, shutil as _sh
+    _t = pathlib.Path(_tf.mkdtemp()); (_t / "atlas" / "visited").mkdir(parents=True)
+    (_t / "atlas" / "visited" / "a.jsonl").write_text(
+        json.dumps({"id": "/documentation/UIKit/x", "sieve": _atlas.SIEVE - 1}) + "\n"
+        + json.dumps({"id": "/design/human-interface-guidelines/layout",
+                      "sieve": _atlas.SIEVE - 1}) + "\n"
+        + json.dumps({"id": "/documentation/UIKit/fresh", "sieve": _atlas.SIEVE}) + "\n",
+        encoding="utf-8")
+    _stale = _atlas._stale_by_sieve(_t)
+    check("страница со старым ситом возвращается на перечитывание",
+          "/documentation/UIKit/x" in _stale)
+    check("страница с текущим ситом не перечитывается",
+          "/documentation/UIKit/fresh" not in _stale)
+    check("первоисточник /design/ перечитывается раньше справочника",
+          _stale.index("/design/human-interface-guidelines/layout")
+          < _stale.index("/documentation/UIKit/x"))
+    _src2 = (root / "bin" / "atlas.py").read_text(encoding="utf-8")
+    check("просроченные встают в НАЧАЛО очереди, а не в конец",
+          "frontier[:0] = head" in _src2)
+    _sh.rmtree(_t, ignore_errors=True)
 
     print("SELFTEST · честность библиотеки (ЗКН-Э001)")
     check("СВЯЗЫВАЕМАЯ требует число + предмет + адрес",

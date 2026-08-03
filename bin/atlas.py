@@ -70,6 +70,7 @@ LAWS_PER_PAGE = 10
 # сделанной. Поднял версию — корпус подлежит перечитыванию. Дорого и верно.
 SIEVE = 2
 RECYCLE_BATCH = 400  # размер переобхода на круге
+REMINE_BATCH = 600   # размер перечитывания по поднятой версии сита
 PROBE = 25           # с этого числа страниц фреймворк считается изученным
 PRIOR_D, PRIOR_V = 1, 10  # поправка на малое число наблюдений (см. order_frontier)
 
@@ -302,6 +303,29 @@ def bootstrap_fw(reg: Path) -> dict:
     return out
 
 
+def _stale_by_sieve(reg: Path) -> list:
+    """Адреса, прочитанные ситом старее текущего. Первоисточник впереди.
+
+    Ст. 2: HIG есть первоисточник норм, справочник API — производное. При
+    равной просрочке первым перечитывается то, из чего рождаются числа.
+    """
+    design, docs = [], []
+    vdir = reg / "atlas" / "visited"
+    if not vdir.is_dir():
+        return []
+    for f in sorted(vdir.glob("*.jsonl")):
+        for ln in f.read_text(encoding="utf-8").splitlines():
+            try:
+                r = json.loads(ln)
+            except Exception:
+                continue
+            if r.get("sieve") == SIEVE:
+                continue
+            pid = r.get("id") or ""
+            (design if pid.lower().startswith("/design/") else docs).append(pid)
+    return design + docs
+
+
 def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path = None) -> dict:
     reg = root / "registry"
     stf = reg / "atlas" / "state.json"
@@ -325,6 +349,26 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
         booted = len(fw)
     walked = changed = mined = enq = 0
     log = []
+
+    # ПЕРЕЧИТЫВАНИЕ ПО ПОДНЯТОМУ СИТУ.
+    #
+    # Родословная (02.08.2026): версия сита была введена в тождество прочтения,
+    # но страницы, прочитанные старым ситом, не ставились обратно в очередь.
+    # Переобход запускается только на пустом фронтире, а во фронтире стояло
+    # 62 458 адресов — то есть починка сита была верной и ПОЛНОСТЬЮ инертной.
+    # Тот же дефект, что и сам SIEVE лечил, только этажом выше.
+    #
+    # Правило: перечитывание чинёным ситом ценнее нового обхода. Страница,
+    # про которую уже известно, что она по предмету, при исправном сите даёт
+    # больше, чем неизвестная новая при любом. Поэтому просроченные по ситу
+    # встают В НАЧАЛО очереди, а первоисточник (/design/) — впереди справочника.
+    stale = _stale_by_sieve(reg)
+    if stale:
+        head = [x for x in stale if x not in frontier][:REMINE_BATCH]
+        if head:
+            frontier[:0] = head
+            log.append(f"перечитывание по ситу v{SIEVE}: возвращено {len(head)} "
+                       f"(просрочено всего {len(stale)})")
 
     if not frontier:  # круг завершён — переобход самых старых
         old = []

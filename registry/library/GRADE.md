@@ -4,30 +4,30 @@
 
 | ступень | строк | доля |
 |---|---|---|
-| СВЯЗЫВАЕМАЯ | 27 | 0.1% |
-| ЧИСЛОВАЯ | 67 | 0.2% |
-| НОРМАТИВНАЯ | 10659 | 35.7% |
-| ПРОЗА | 18883 | 63.3% |
-| ОБВЯЗКА | 186 | 0.6% |
+| СВЯЗЫВАЕМАЯ | 29 | 0.1% |
+| ЧИСЛОВАЯ | 68 | 0.2% |
+| НОРМАТИВНАЯ | 10840 | 35.8% |
+| ПРОЗА | 19127 | 63.2% |
+| ОБВЯЗКА | 194 | 0.6% |
 | БЕЗАДРЕСНАЯ | 0 | 0.0% |
 
-**Связываемых в правило: 27 из 29822.** Это и есть настоящий надзорный запас библиотеки.
+**Связываемых в правило: 29 из 30258.** Это и есть настоящий надзорный запас библиотеки.
 
 ## Обвязка страницы — мусор обходчика
 
 Куки-баннеры, навигация и кнопки, прошедшие извлечение. Опаснее прозы: выглядит как текст источника и раздувает счёт.
 
-- `big7` — 46
+- `big7` — 52
 - `authenticationservices` — 14
 - `signinwithapple` — 12
 - `xcode` — 10
 - `human-interface-guidelines` — 7
 - `appclip` — 6
 - `appstoreconnectapi` — 6
+- `arkit` — 6
 - `swiftui` — 6
 - `combine` — 5
 - `applemapsserverapi` — 4
-- `arkit` — 4
 - `healthkit` — 4
 - `watchkit` — 4
 - `accelerate` — 3
@@ -94,10 +94,14 @@
   The following styles the system font as 17 point, text: While the following styles the text as 17 point , and applies a to the system font: If you want to use the default ( ), you don’t need to specif
 - `/documentation/swiftui/font/system(size:weight:design:)-73a88`  
   The following example styles the text as 17 point , and uses a system font: Specifies a system font to use, along with the style, weight, and any design parameters you want applied to the text.
+- `/documentation/tvservices/tvtopshelfinsetcontent/imagesize`  
+  The standard image size for inset items is 1740 x 560 points.
 - `/documentation/uikit/uiimage/alignmentrectinsets`  
   For example, if you have a 20 x 20 pixel icon that includes a glow effect, you might set the insets to {{2, 2}, {16, 16}} to indicate the position of the underlying icon without the glow effect.
 - `/documentation/uikit/nscollectionlayoutdimension`  
   Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at runtime, such as when data is loaded or in response t
+- `/documentation/watchkit/wkinterfacegroup/setcornerradius(_:)`  
+  The default corner radius for groups is 6 points.
 - `/documentation/Xcode/creating-your-app-icon-using-icon-composer`  
   Otherwise, change the canvas size to match the size that you use in Icon Composer, such as 1024 x 1024 pixels for iPhone, iPad, and Mac, and 1088 x 1088 pixels for Apple Watch.
 - `/documentation/xcode/configuring-your-app-icon`  
