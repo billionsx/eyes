@@ -617,8 +617,10 @@ def cmd_selftest(root: Path) -> int:
                           "strict": {"globs": [], "rules": []}},
                    tokens, "report", pr)
         txt = L.render(rz, "п")
-        check("нулевой обход — ОТКАЗ, а не «Чисто» (ЗКН-Э001)",
-              "ОТКАЗ" in txt and "Чисто" not in txt)
+        # Отказ департамент объявляет словом КРАСНЫЙ (ЗКН-Э006) — важно не
+        # само слово, а что вердиктом чистоты пустой обход НЕ называется.
+        check("нулевой обход — отказ, а не «Чисто» (ЗКН-Э006)",
+              "КРАСНЫЙ" in txt and "Чисто" not in txt)
         rall = L.run(ROOT, {"project": "п", "base": "light",
                             "report": {"globs": ["s/**/*.css"],
                                        "rules": ["AE2", "AE9"]},
@@ -643,14 +645,14 @@ def cmd_selftest(root: Path) -> int:
             ".l{text-transform:uppercase}\n.o{text-transform:none}\n",
             encoding="utf-8")
         rc18 = L.run(ROOT, {"project": "п",
-                            "report": {"globs": ["s/caps.css"], "rules": ["AE19"]},
+                            "report": {"globs": ["s/caps.css"], "rules": ["AE20"]},
                             "strict": {"globs": [], "rules": []}},
                      tokens, "report", pr)
-        check("AE19 ловит капсу объявлением начертания",
-              len([f for f in rc18["findings"] if f[0] == "AE19"]) == 1)
-        check("AE19 не выдумывает: text-transform:none нарушением не считается",
+        check("AE20 ловит капсу объявлением начертания",
+              len([f for f in rc18["findings"] if f[0] == "AE20"]) == 1)
+        check("AE20 не выдумывает: text-transform:none нарушением не считается",
               all("none" not in f[3] for f in rc18["findings"]))
-        check("у AE19 есть адрес нормы в своде",
+        check("у AE20 есть адрес нормы в своде",
               "caps_lock" in json.dumps(tokens["typography"], ensure_ascii=False))
     finally:
         shutil.rmtree(tmp2, ignore_errors=True)
@@ -956,7 +958,7 @@ def cmd_selftest(root: Path) -> int:
         (d / "a.css").write_text(css, encoding="utf-8")
         ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
               "report": {"globs": ["**/*"],
-                         "rules": [f"AE{i}" for i in range(1, 20)]}}
+                         "rules": [f"AE{i}" for i in range(1, 21)]}}
         tk = json.loads((ROOT / "registry" / "standards" / "tokens.json")
                         .read_text(encoding="utf-8"))
         r = _l3.run(d, ad, tk, "report", d)
@@ -970,34 +972,34 @@ def cmd_selftest(root: Path) -> int:
         (d / "a.css").write_text(css, encoding="utf-8")
         ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
               "report": {"globs": ["**/*"],
-                         "rules": [f"AE{i}" for i in range(1, 20)]}}
+                         "rules": [f"AE{i}" for i in range(1, 21)]}}
         tk = _j2.loads((ROOT / "registry" / "standards" / "tokens.json")
                        .read_text(encoding="utf-8"))
         r = _l2.run(d, ad, tk, "report", d)
         _s2.rmtree(d, ignore_errors=True)
         return [w for rr, _f, _l, w in r["findings"] if rr == "AE17"]
 
-    print("SELFTEST · AE18 · интерфейс переживает Dynamic Type")
+    print("SELFTEST · AE19 · интерфейс переживает Dynamic Type")
     _PX = "".join(f".c{i}{{font-size:{12 + i}px;}}\n" for i in range(6))
     check("чиню → красный: шесть жёстких кеглей ловятся",
-          any(f["rule"] == "AE18" for f in _ae17_findings(_PX)))
+          any(f["rule"] == "AE19" for f in _ae17_findings(_PX)))
     check("вердикт ОДИН на проект, а не на каждую строку",
-          len([f for f in _ae17_findings(_PX) if f["rule"] == "AE18"]) == 1)
+          len([f for f in _ae17_findings(_PX) if f["rule"] == "AE19"]) == 1)
     check("ломаю → зелёный не даю: всё в rem — тишина",
-          not any(f["rule"] == "AE18" for f in _ae17_findings(
+          not any(f["rule"] == "AE19" for f in _ae17_findings(
               "".join(f".c{i}{{font-size:1.{i}rem;}}\n" for i in range(6)))))
     check("ниже порога правило молчит: два кегля — не шкала",
-          not any(f["rule"] == "AE18" for f in _ae17_findings(
+          not any(f["rule"] == "AE19" for f in _ae17_findings(
               ".a{font-size:14px;}\n.b{font-size:16px;}")))
     check("проект, где масштабируемых БОЛЬШЕ, не наказывается за остатки",
-          not any(f["rule"] == "AE18" for f in _ae17_findings(
+          not any(f["rule"] == "AE19" for f in _ae17_findings(
               _PX + "".join(f".r{i}{{font-size:1.{i}rem;}}\n" for i in range(7)))))
     check("печать вне правила", 
-          not any(f["rule"] == "AE18" for f in _ae17_findings(
+          not any(f["rule"] == "AE19" for f in _ae17_findings(
               "@media print{" + _PX + "}")))
     check("упрёк опирается на ОПУБЛИКОВАННУЮ шкалу с адресом",
           any("typography" in f["why"] for f in _ae17_findings(_PX)
-              if f["rule"] == "AE18"))
+              if f["rule"] == "AE19"))
 
     print("SELFTEST · устройства Apple и основание замера")
     import devices as dv_mod
@@ -1079,7 +1081,7 @@ def cmd_selftest(root: Path) -> int:
         (d / "a.css").write_text(css, encoding="utf-8")
         ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
               "report": {"globs": ["**/*"],
-                         "rules": [f"AE{i}" for i in range(1, 20)]}}
+                         "rules": [f"AE{i}" for i in range(1, 21)]}}
         tk = _js.loads((ROOT / "registry" / "standards" / "tokens.json")
                        .read_text(encoding="utf-8"))
         r = _l.run(d, ad, tk, "report", d)
@@ -1149,7 +1151,7 @@ def cmd_selftest(root: Path) -> int:
     check("суд наставления зелёный: цель у каждого правила из живой базы",
           guide_mod.court() == 0)
     check("наставление есть на каждое правило департамента",
-          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 20)})
+          set(guide_mod.GUIDE) == {f"AE{i}" for i in range(1, 21)})
 
     print("SELFTEST · жизнь правила (реестр присутствия)")
     import tally as tally_mod
@@ -1591,16 +1593,28 @@ def cmd_selftest(root: Path) -> int:
             _inuse |= set((_d.get(_m) or {}).get("rules") or [])
     _missing = sorted(_inuse - set(_nums))
     check(f"каждое включённое правило есть в реестре ({_missing or 'все'})", not _missing)
+    # Дыра, через которую 03.08.2026 прошло столкновение: сверялись только
+    # номера, включённые ПАСПОРТАМИ. Правило, заведённое в линте и никем не
+    # включённое, реестра не касалось — и заняло чужой номер молча. Теперь
+    # сверяется КАЖДЫЙ номер, который линт умеет выдать.
+    _src = (root / "bin" / "lint.py").read_text(encoding="utf-8")
+    _emitted = set(re.findall(r'findings\.append\(\(\s*\n?\s*"(AE\d+)"', _src))
+    _emitted |= set(re.findall(r'\(\s*\n?\s*"(AE\d+)", rel,', _src))
+    _un = sorted(_emitted - set(_nums))
+    check(f"каждое правило, которое линт УМЕЕТ выдать, есть в реестре ({_un or 'все'})",
+          not _un)
+    check("реестр знает не меньше номеров, чем наставление",
+          not (set(guide_mod.GUIDE) - {"AE99"} - set(_nums)))
     # Ломаю: несуществующий номер обязан быть пойман.
     check("подделка ловится: чужой номер в паспорте был бы виден",
           "AE777" not in _nums)
 
     print("SELFTEST · AE18 разделитель (новое правило из замера)")
     _tok16 = json.loads((root / "registry" / "standards" / "tokens.json").read_text(encoding="utf-8"))
-    _ad16 = {"report": {}, "strict": {"globs": ["bad.css"], "rules": ["AE19"]},
+    _ad16 = {"report": {}, "strict": {"globs": ["bad.css"], "rules": ["AE18"]},
              "allow_extra": [], "sizes_extra": []}
     _bad16 = lint_mod.run(root, _ad16, _tok16, "strict", fx)
-    _got16 = [f for f in _bad16["findings"] if f[0] == "AE19"]
+    _got16 = [f for f in _bad16["findings"] if f[0] == "AE18"]
     check("AE18 ломаю → красный: 0.5px и .5px пойманы обе формы записи",
           len(_got16) >= 2)
     check("AE18 называет число замера и его адрес в базе",
@@ -1608,14 +1622,14 @@ def cmd_selftest(root: Path) -> int:
     _ad16["strict"]["globs"] = ["good.css"]
     _good16 = lint_mod.run(root, _ad16, _tok16, "strict", fx)
     check("AE18 чиню → зелёный: 1px чист, border-radius не судится",
-          not [f for f in _good16["findings"] if f[0] == "AE19"])
+          not [f for f in _good16["findings"] if f[0] == "AE18"])
     # Число живёт в базе, а не в коде: подмена базы обязана менять вердикт.
     _tok_wide = json.loads(json.dumps(_tok16))
     _tok_wide["separator"]["width_pt"] = 0.25
     _ad16["strict"]["globs"] = ["bad.css"]
     check("порог AE18 берётся ИЗ БАЗЫ, а не зашит в код (ЗКН-Э002)",
           not [f for f in lint_mod.run(root, _ad16, _tok_wide, "strict", fx)["findings"]
-               if f[0] == "AE19"])
+               if f[0] == "AE18"])
 
     print("SELFTEST · слияние складов (объединение, а не победа)")
     import corpus_merge as _cm

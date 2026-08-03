@@ -48,10 +48,10 @@ BXE · ИСПОЛНИТЕЛЬНАЯ ВЛАСТЬ. Переносимый лин�
                    min-width/height — ПЕРВОЕ правило, рождённое конвейером:
                    обход живого свода → добытчик кандидатов → правило
                    (🍎 tokens.tap_target.source, страница живая, не снимок).
-  AE18 DYNAMIC TYPE  кегль текста задан МАСШТАБИРУЕМО (rem/em/%/clamp),
+  AE19 DYNAMIC TYPE  кегль текста задан МАСШТАБИРУЕМО (rem/em/%/clamp),
                      а не жёстким px: от xSmall к xxxLarge Apple растит
                      кегль на 18 %, а на ступенях доступности — кратно
-  AE19 КАПСА       text-transform:uppercase — капсы у Apple нет, заголовок
+  AE20 КАПСА       text-transform:uppercase — капсы у Apple нет, заголовок
                    группы Title Case (§3.4); капс это iOS 12
   AE17 ПАРА ТЕМ    поверхность имеет значение для СВЕТЛОЙ и ТЁМНОЙ темы,
                    а не одно жёсткое на обе (только для проектов, где темы
@@ -207,7 +207,7 @@ def _in_theme_scope(text: str, pos: int) -> bool:
     return any(THEME_SCOPE.search(h) for h in _enclosing_headers(text, pos))
 
 
-# AE18. Кегль задан жёстким пикселем — интерфейс не переживёт Dynamic Type.
+# AE19. Кегль задан жёстким пикселем — интерфейс не переживёт Dynamic Type.
 FS_PX = re.compile(r"font-size\s*:\s*(\d*\.?\d+)\s*px", re.I)
 # Масштабируемые формы. var() СЮДА НЕ ВХОДИТ намеренно: во что развернётся
 # переменная, статически неизвестно, и записывать её в заслугу значило бы
@@ -232,7 +232,7 @@ def _in_print_scope(text: str, pos: int) -> bool:
     return any(PRINT_SCOPE.search(h) for h in _enclosing_headers(text, pos))
 
 SUPER = re.compile(r"clip-path\s*:\s*path\(|corner-shape", re.I)
-# AE19. Капса. Свод департамента прямо говорит: капсы у Apple НЕТ — заголовок
+# AE20. Капса. Свод департамента прямо говорит: капсы у Apple НЕТ — заголовок
 # группы идёт Title Case (typography.caps_lock, §3.4); капс это iOS 12. Норма
 # была, правила под неё не было — и заглавные метки не ловились ничем.
 # Ловится ОБЪЯВЛЕНИЕ, а не литерал: `text-transform: uppercase` — решение о
@@ -381,7 +381,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # AE17 копит по ВСЕМУ охвату: объявляет ли проект темы вообще и какие
     # поверхности из них выпадают. Один файл этого знать не может.
     has_theme, theme_orphans = False, []
-    # AE18 копит по ВСЕМУ охвату: доля жёстких кеглей — свойство проекта,
+    # AE19 копит по ВСЕМУ охвату: доля жёстких кеглей — свойство проекта,
     # а не строки. Построчный упрёк дал бы сотню находок и утопил остальные.
     fs_px, fs_scale, fs_first = 0, 0, None
     for g in globs:
@@ -505,7 +505,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     if stack_head and not v.startswith(stack_head):
                         findings.append(("AE10", rel, _line_of(t, m.start()),
                                          f"font-family не начинается с системного стека {list(stack_head)} — подмена первой позиции ломает метрики и трекинг"))
-            if "AE18" in rules and p.suffix in (".css", ".scss", ".tsx",
+            if "AE19" in rules and p.suffix in (".css", ".scss", ".tsx",
                                                 ".jsx", ".ts", ".js"):
                 for m in FS_PX.finditer(t):
                     if _in_print_scope(t, m.start()):
@@ -558,10 +558,10 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     if rad_ladder and v not in rad_ladder and v < capsule:
                         findings.append(("AE11", rel, _line_of(t, m.start()),
                                          f"border-radius {v:g}px вне измеренной лестницы {sorted(rad_ladder)}"))
-            if "AE19" in rules:
+            if "AE20" in rules:
                 for m in UPPERCASE.finditer(t):
                     findings.append((
-                        "AE19", rel, _line_of(t, m.start()),
+                        "AE20", rel, _line_of(t, m.start()),
                         "text-transform: uppercase — капсы у Apple нет: "
                         "заголовок группы идёт Title Case (§3.4), капс это "
                         "iOS 12 (typography.caps_lock)"))
@@ -629,14 +629,14 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
         if not нашлось:
             blind.append(g)
 
-    if "AE18" in rules and fs_px >= 5 and fs_px > fs_scale and fs_first:
+    if "AE19" in rules and fs_px >= 5 and fs_px > fs_scale and fs_first:
         # Порог объявлен: пять кеглей — это уже шкала, а не единичный
         # случай; большинство жёстких — это выбор проекта, а не недосмотр.
         # Проекту, где масштабируемых больше, правило молчит: он уже решил
         # задачу, а придираться к остаткам значит наказывать за движение
         # в верную сторону.
         findings.append((
-            "AE18", fs_first[0], fs_first[1],
+            "AE19", fs_first[0], fs_first[1],
             f"кегль задан жёстким px в {fs_px} местах против {fs_scale} "
             f"масштабируемых — интерфейс не переживёт Dynamic Type; "
             f"🍎 Apple растит кегль от xSmall к xxxLarge на 18 % "
