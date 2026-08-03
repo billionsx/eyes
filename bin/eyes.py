@@ -1030,6 +1030,28 @@ def cmd_selftest(root: Path) -> int:
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE19"))
 
+    print("SELFTEST · спорные переменные ролей судятся по объявлениям")
+    _AMB_R = ".a{--r:20px;}\n.b{--r:5px;}\n.x{border-radius:var(--r);}"
+    _r = [f for f in _ae17_findings(_AMB_R) if f["rule"] == "AE11"]
+    check("чиню → красный: ОБА спорных значения радиуса судятся",
+          len(_r) == 2 and sorted(f["line"] for f in _r) == [1, 2])
+    check("ломаю → зелёный не даю: законные спорные значения — тишина",
+          not any(f["rule"] == "AE11" for f in _ae17_findings(
+              ".a{--r:12px;}\n.b{--r:24px;}\n.x{border-radius:var(--r);}")))
+    check("однозначная переменная судится ОДИН раз, а не дважды",
+          len([f for f in _ae17_findings(
+              ":root{--fs:19px;}\n.x{font-size:var(--fs);}")
+              if f["rule"] == "AE5"]) == 1)
+    check("прозрачность за спорной переменной ловится",
+          any(f["rule"] == "AE9" for f in _ae17_findings(
+              ".a{--o:0.42;}\n.b{--o:0.7;}\n.x{opacity:var(--o);}")))
+    check("масштабируемая форма кегля не судится как пиксель",
+          not any(f["rule"] == "AE5" for f in _ae17_findings(
+              ".a{--fs:1.19rem;}\n.b{--fs:2rem;}\n.x{font-size:var(--fs);}")))
+    check("переменная вне роли не судится её лестницей",
+          not any(f["rule"] == "AE11" for f in _ae17_findings(
+              ".a{--r:20px;}\n.b{--r:5px;}\n.x{margin:var(--r);}")))
+
     print("SELFTEST · спорные переменные судятся по ОБЛАСТИ объявления")
     _THEMED = ("@media(prefers-color-scheme:dark){:root{--s:#1C1C1E;}}\n"
                "@media(prefers-color-scheme:light){:root{--s:#F2F2F7;}}\n"
@@ -1101,11 +1123,15 @@ def cmd_selftest(root: Path) -> int:
     check("кольцо ссылок не вешает разбор",
           _vrun({"a.css": ":root{--a:var(--b);--b:var(--a);}\n"
                           ".x{border-radius:var(--a);}"})["files"] == 1)
-    check("СПОРНАЯ переменная не подставляется: угадывать нельзя",
-          "AE11" not in [x[0] for x in _vrun(
-              {"a.css": "@media(prefers-color-scheme:dark){:root{--r:20px}}\n"
-                        "@media(prefers-color-scheme:light){:root{--r:8px}}\n"
-                        ".x{border-radius:var(--r);}"})["findings"]])
+    # Подстановка по-прежнему НЕ угадывает — но департамент больше не молчит:
+    # спорное значение судится по своему ОБЪЯВЛЕНИЮ, где оно однозначно.
+    _amb = _vrun({"a.css": "@media(prefers-color-scheme:dark){:root{--r:20px}}\n"
+                           "@media(prefers-color-scheme:light){:root{--r:8px}}\n"
+                           ".x{border-radius:var(--r);}"})["findings"]
+    check("спорное значение судится по ОБЪЯВЛЕНИЮ, а не в месте применения",
+          [x[2] for x in _amb if x[0] == "AE11"] == [1])
+    check("законная половина спорной переменной обвинения не получает",
+          len([x for x in _amb if x[0] == "AE11"]) == 1)
     check("спорная переменная НАЗВАНА вслух, а не спрятана",
           _vrun({"a.css": "@media(prefers-color-scheme:dark){:root{--r:20px}}\n"
                           "@media(prefers-color-scheme:light){:root{--r:8px}}"}

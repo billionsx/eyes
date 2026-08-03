@@ -296,7 +296,84 @@ def _var_decls(project_root, globs):
     return decls, roles
 
 
-def _judge_var_surfaces(decls, roles, dark_allow, light_allow):
+# Роли, чья лестница НЕ зависит от темы. Радиус, прозрачность, кегль и
+# трекинг одинаковы в светлом и тёмном интерфейсе, поэтому объявление
+# судится независимо от области — и судится ДАЖЕ спорное, у которого
+# несколько значений: каждое обязано лежать на лестнице.
+#
+# Роль → (правило, свойства CSS, единица). Объявлена, не выведена.
+VAR_ROLES = (
+    ("AE11", ("border-radius", "border-top-left-radius",
+              "border-top-right-radius", "border-bottom-left-radius",
+              "border-bottom-right-radius"), "px"),
+    ("AE9", ("opacity",), ""),
+    ("AE5", ("font-size",), "px"),
+    ("AE4", ("letter-spacing",), "px"),
+)
+
+NUMVAL = re.compile(r"^([-+]?\d*\.?\d+)\s*(px|rem|em|%)?$")
+
+
+def _judge_var_scales(decls, roles, tokens, rules, resolved=()):
+    """Находки по объявлениям переменных ролей с лестницей.
+
+    Зачем отдельно от подстановки. Подстановка молчит на СПОРНОЙ переменной:
+    в месте применения неизвестно, какое из значений сработает. А у самого
+    объявления значение одно и известно точно — и оно обязано лежать на
+    лестнице независимо от того, сколько у переменной соседей.
+    """
+    out = []
+    rad = [float(x) for x in (tokens.get("geometry", {})
+                              .get("radius_ladder_pt") or [])]
+    op = [float(x) for x in (tokens.get("opacity_ladder", {})
+                             .get("allow") or [])]
+    sizes = [float(x) for x in (tokens.get("typography", {})
+                                .get("role_sizes_pt") or [])]
+    cap = tokens.get("typography", {}).get("tracking_cap_px")
+    capsule = float(tokens.get("geometry", {})
+                    .get("capsule_from_pt") or 9999)
+
+    for rule, props, unit in VAR_ROLES:
+        if rule not in rules:
+            continue
+        for name, items in sorted(decls.items()):
+            # ОДНОЗНАЧНУЮ переменную уже подставила подстановка, и правило
+            # сработало в месте применения. Судить её ещё и по объявлению
+            # значит наказать дважды за один дефект — ровно тот грех, за
+            # который департамент разводил AE17 с AE1. Здесь судится только
+            # то, до чего подстановка дотянуться не может: спорное.
+            if name in resolved:
+                continue
+            if not (roles.get(name) or set()) & set(props):
+                continue
+            for val, _scope, rel, line in items:
+                m = NUMVAL.match(val.strip())
+                if not m:
+                    continue
+                v = float(m.group(1))
+                u = m.group(2) or ""
+                if unit == "px" and u not in ("px", ""):
+                    continue          # rem/em/% — масштабируемая форма
+                if rule == "AE11" and rad and v not in rad and v < capsule:
+                    out.append((rule, rel, line,
+                                f"переменная радиуса {v:g}px вне измеренной "
+                                f"лестницы {sorted(rad)}"))
+                elif rule == "AE9" and op and v not in op and 0 <= v <= 1:
+                    out.append((rule, rel, line,
+                                f"переменная прозрачности {v:g} вне лестницы "
+                                f"{op} (метки iOS + измеренное стекло)"))
+                elif rule == "AE5" and sizes and v not in sizes and v >= 8:
+                    out.append((rule, rel, line,
+                                f"переменная кегля {v:g}px вне шкалы ролей "
+                                f"{sorted(sizes)}"))
+                elif rule == "AE4" and cap is not None and abs(v) > float(cap):
+                    out.append((rule, rel, line,
+                                f"переменная трекинга {v:g}px — крышка "
+                                f"поправки ±{cap}px; роль задаётся в em"))
+    return out
+
+
+def _judge_var_surfaces(decls, roles, dark_allow, light_allow, resolved=()):
     """Находки по объявлениям переменных, применяемых как ФОН.
 
     Судится каждое объявление своей лестницей. Переменная, которую никогда
@@ -305,6 +382,8 @@ def _judge_var_surfaces(decls, roles, dark_allow, light_allow):
     """
     out = []
     for name, items in sorted(decls.items()):
+        if name in resolved:
+            continue                  # подстановка уже донесла до правила
         props = roles.get(name) or set()
         if not any(p in ("background", "background-color") for p in props):
             continue
@@ -926,11 +1005,15 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
         # объявление вне темы обязано лежать на тёмной лестнице, потому что
         # база департамента снята с тёмного холста.
         for rel_, ln_, c_, чья, лестница in _judge_var_surfaces(
-                var_decls, var_roles, allow, light_allow):
+                var_decls, var_roles, allow, light_allow, set(var_defs)):
             findings.append((
                 "AE1", rel_, ln_,
                 f"переменная фона {c_} вне {чья} лестницы поверхностей "
                 f"({' → '.join(лестница)})"))
+
+    for rule_, rel_, ln_, why_ in _judge_var_scales(
+            var_decls, var_roles, tokens, rules, set(var_defs)):
+        findings.append((rule_, rel_, ln_, why_))
 
     if "AE17" in rules and has_theme and theme_orphans:
         # Правило говорит ТОЛЬКО проектам, которые уже завели темы. Проекту
