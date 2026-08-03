@@ -35,6 +35,7 @@ jobs:
         run: |
           python3 bin/harvest.py --court
           python3 bin/palette.py --court
+          python3 bin/typescale.py --court
       - name: "Перемол склада: новые сита по уже пройденному, без сети"
         run: python3 bin/harvest.py --remill || true
       - name: "Жатва по фронту"
@@ -42,6 +43,8 @@ jobs:
           python3 bin/harvest.py --pages "${{ inputs.pages || 12 }}" ${{ inputs.seed == 'true' && '--seed' || '' }}
       - name: "Палитра и сверка с замером"
         run: python3 bin/palette.py
+      - name: "Шкала: ступени Dynamic Type и трекинг из опубликованных таблиц"
+        run: python3 bin/typescale.py --write
       - name: "Суд департамента после жатвы"
         run: python3 bin/eyes.py selftest | tail -3
       - name: "Хроника жатвы"
@@ -50,7 +53,8 @@ jobs:
           git config user.email "eyes@billionsx"
           git config user.name "Billions X Eyes"
           git add registry/standards/palette.json registry/state/harvest.json \
-                  registry/corpus/hig registry/library/hig-tables.jsonl || true
+                  registry/corpus/hig registry/library/hig-tables.jsonl \
+                  registry/standards/typescale.json registry/standards/tokens.json || true
           git diff --cached --quiet || git commit -q -m "жатва: урожай первоисточника"
           git pull --rebase -q || true
           git push || echo "нечего пушить"

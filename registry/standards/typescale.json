@@ -1,0 +1,942 @@
+{
+ "dynamic_type": {
+  "xSmall": {
+   "Large Title": {
+    "size": 31.0,
+    "leading": 38.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 1": {
+    "size": 25.0,
+    "leading": 31.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 2": {
+    "size": 19.0,
+    "leading": 24.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 3": {
+    "size": 17.0,
+    "leading": 22.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Headline": {
+    "size": 14.0,
+    "leading": 19.0,
+    "weight": "Semibold",
+    "emphasized": "Semibold"
+   },
+   "Body": {
+    "size": 14.0,
+    "leading": 19.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Callout": {
+    "size": 13.0,
+    "leading": 18.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Subhead": {
+    "size": 12.0,
+    "leading": 16.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Footnote": {
+    "size": 12.0,
+    "leading": 16.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 1": {
+    "size": 11.0,
+    "leading": 13.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 2": {
+    "size": 11.0,
+    "leading": 13.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   }
+  },
+  "Small": {
+   "Large Title": {
+    "size": 32.0,
+    "leading": 39.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 1": {
+    "size": 26.0,
+    "leading": 32.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 2": {
+    "size": 20.0,
+    "leading": 25.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 3": {
+    "size": 18.0,
+    "leading": 23.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Headline": {
+    "size": 15.0,
+    "leading": 20.0,
+    "weight": "Semibold",
+    "emphasized": "Semibold"
+   },
+   "Body": {
+    "size": 15.0,
+    "leading": 20.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Callout": {
+    "size": 14.0,
+    "leading": 19.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Subhead": {
+    "size": 13.0,
+    "leading": 18.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Footnote": {
+    "size": 12.0,
+    "leading": 16.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 1": {
+    "size": 11.0,
+    "leading": 13.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 2": {
+    "size": 11.0,
+    "leading": 13.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   }
+  },
+  "Medium": {
+   "Large Title": {
+    "size": 33.0,
+    "leading": 40.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 1": {
+    "size": 27.0,
+    "leading": 33.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 2": {
+    "size": 21.0,
+    "leading": 26.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 3": {
+    "size": 19.0,
+    "leading": 24.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Headline": {
+    "size": 16.0,
+    "leading": 21.0,
+    "weight": "Semibold",
+    "emphasized": "Semibold"
+   },
+   "Body": {
+    "size": 16.0,
+    "leading": 21.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Callout": {
+    "size": 15.0,
+    "leading": 20.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Subhead": {
+    "size": 14.0,
+    "leading": 19.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Footnote": {
+    "size": 12.0,
+    "leading": 16.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 1": {
+    "size": 11.0,
+    "leading": 13.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 2": {
+    "size": 11.0,
+    "leading": 13.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   }
+  },
+  "Large": {
+   "Large Title": {
+    "size": 34.0,
+    "leading": 41.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 1": {
+    "size": 28.0,
+    "leading": 34.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 2": {
+    "size": 22.0,
+    "leading": 28.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 3": {
+    "size": 20.0,
+    "leading": 25.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Headline": {
+    "size": 17.0,
+    "leading": 22.0,
+    "weight": "Semibold",
+    "emphasized": "Semibold"
+   },
+   "Body": {
+    "size": 17.0,
+    "leading": 22.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Callout": {
+    "size": 16.0,
+    "leading": 21.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Subhead": {
+    "size": 15.0,
+    "leading": 20.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Footnote": {
+    "size": 13.0,
+    "leading": 18.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 1": {
+    "size": 12.0,
+    "leading": 16.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 2": {
+    "size": 11.0,
+    "leading": 13.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   }
+  },
+  "xLarge": {
+   "Large Title": {
+    "size": 36.0,
+    "leading": 43.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 1": {
+    "size": 30.0,
+    "leading": 37.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 2": {
+    "size": 24.0,
+    "leading": 30.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 3": {
+    "size": 22.0,
+    "leading": 28.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Headline": {
+    "size": 19.0,
+    "leading": 24.0,
+    "weight": "Semibold",
+    "emphasized": "Semibold"
+   },
+   "Body": {
+    "size": 19.0,
+    "leading": 24.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Callout": {
+    "size": 18.0,
+    "leading": 23.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Subhead": {
+    "size": 17.0,
+    "leading": 22.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Footnote": {
+    "size": 15.0,
+    "leading": 20.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 1": {
+    "size": 14.0,
+    "leading": 19.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 2": {
+    "size": 13.0,
+    "leading": 18.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   }
+  },
+  "xxLarge": {
+   "Large Title": {
+    "size": 38.0,
+    "leading": 46.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 1": {
+    "size": 32.0,
+    "leading": 39.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 2": {
+    "size": 26.0,
+    "leading": 32.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 3": {
+    "size": 24.0,
+    "leading": 30.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Headline": {
+    "size": 21.0,
+    "leading": 26.0,
+    "weight": "Semibold",
+    "emphasized": "Semibold"
+   },
+   "Body": {
+    "size": 21.0,
+    "leading": 26.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Callout": {
+    "size": 20.0,
+    "leading": 25.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Subhead": {
+    "size": 19.0,
+    "leading": 24.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Footnote": {
+    "size": 17.0,
+    "leading": 22.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 1": {
+    "size": 16.0,
+    "leading": 21.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 2": {
+    "size": 15.0,
+    "leading": 20.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   }
+  },
+  "xxxLarge": {
+   "Large Title": {
+    "size": 40.0,
+    "leading": 48.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 1": {
+    "size": 34.0,
+    "leading": 41.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 2": {
+    "size": 28.0,
+    "leading": 34.0,
+    "weight": "Regular",
+    "emphasized": "Bold"
+   },
+   "Title 3": {
+    "size": 26.0,
+    "leading": 32.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Headline": {
+    "size": 23.0,
+    "leading": 29.0,
+    "weight": "Semibold",
+    "emphasized": "Semibold"
+   },
+   "Body": {
+    "size": 23.0,
+    "leading": 29.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Callout": {
+    "size": 22.0,
+    "leading": 28.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Subhead": {
+    "size": 21.0,
+    "leading": 28.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Footnote": {
+    "size": 19.0,
+    "leading": 24.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 1": {
+    "size": 18.0,
+    "leading": 23.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   },
+   "Caption 2": {
+    "size": 17.0,
+    "leading": 22.0,
+    "weight": "Regular",
+    "emphasized": "Semibold"
+   }
+  }
+ },
+ "tracking": {
+  "SF Pro": {
+   "6": 0.24,
+   "7": 0.23,
+   "8": 0.21,
+   "9": 0.17,
+   "10": 0.12,
+   "11": 0.06,
+   "12": 0.0,
+   "13": -0.08,
+   "14": -0.15,
+   "15": -0.23,
+   "16": -0.31,
+   "17": -0.43,
+   "18": -0.44,
+   "19": -0.45,
+   "20": -0.45,
+   "21": -0.36,
+   "22": -0.26,
+   "23": -0.1,
+   "24": 0.07,
+   "25": 0.15,
+   "26": 0.22,
+   "27": 0.29,
+   "28": 0.38,
+   "29": 0.4,
+   "30": 0.4,
+   "31": 0.39,
+   "32": 0.41,
+   "33": 0.4,
+   "34": 0.4,
+   "35": 0.38,
+   "36": 0.37,
+   "37": 0.36,
+   "38": 0.37,
+   "39": 0.38,
+   "40": 0.37,
+   "41": 0.36,
+   "42": 0.37,
+   "43": 0.38,
+   "44": 0.37,
+   "45": 0.35,
+   "46": 0.36,
+   "47": 0.37,
+   "48": 0.35,
+   "49": 0.33,
+   "50": 0.34,
+   "51": 0.35,
+   "52": 0.33,
+   "53": 0.31,
+   "54": 0.32,
+   "56": 0.3,
+   "58": 0.28,
+   "60": 0.26,
+   "62": 0.24,
+   "64": 0.22,
+   "66": 0.19,
+   "68": 0.17,
+   "70": 0.14,
+   "72": 0.14,
+   "76": 0.07,
+   "80": 0.0,
+   "84": 0.0,
+   "88": 0.0,
+   "92": 0.0,
+   "96": 0.0
+  },
+  "SF Pro Rounded": {
+   "6": 0.51,
+   "7": 0.54,
+   "8": 0.57,
+   "9": 0.57,
+   "10": 0.57,
+   "11": 0.56,
+   "12": 0.54,
+   "13": 0.51,
+   "14": 0.48,
+   "15": 0.44,
+   "16": 0.41,
+   "17": 0.37,
+   "18": 0.37,
+   "19": 0.37,
+   "20": 0.36,
+   "21": 0.35,
+   "22": 0.34,
+   "23": 0.35,
+   "24": 0.35,
+   "25": 0.35,
+   "26": 0.36,
+   "27": 0.36,
+   "28": 0.36,
+   "29": 0.37,
+   "30": 0.37,
+   "31": 0.36,
+   "32": 0.38,
+   "33": 0.39,
+   "34": 0.38,
+   "35": 0.38,
+   "36": 0.39,
+   "37": 0.38,
+   "38": 0.39,
+   "39": 0.38,
+   "40": 0.39,
+   "41": 0.38,
+   "42": 0.39,
+   "43": 0.38,
+   "44": 0.37,
+   "45": 0.37,
+   "46": 0.36,
+   "47": 0.37,
+   "48": 0.35,
+   "49": 0.36,
+   "50": 0.34,
+   "51": 0.32,
+   "52": 0.33,
+   "53": 0.31,
+   "54": 0.32,
+   "56": 0.3,
+   "58": 0.25,
+   "60": 0.23,
+   "62": 0.21,
+   "64": 0.19,
+   "66": 0.16,
+   "68": 0.13,
+   "70": 0.14,
+   "72": 0.11,
+   "76": 0.07,
+   "80": 0.0,
+   "84": 0.0,
+   "88": 0.0,
+   "92": 0.0,
+   "96": 0.0
+  },
+  "New York": {
+   "6": 0.23,
+   "7": 0.22,
+   "8": 0.2,
+   "9": 0.18,
+   "10": 0.15,
+   "11": 12.0,
+   "12": 0.07,
+   "13": 0.05,
+   "14": 0.03,
+   "15": 0.0,
+   "16": -0.03,
+   "17": -0.07,
+   "18": -0.11,
+   "19": -0.15,
+   "20": -0.2,
+   "21": -0.21,
+   "22": -0.23,
+   "23": -0.25,
+   "24": -0.26,
+   "25": -0.27,
+   "26": -0.29,
+   "27": -0.32,
+   "28": -0.33,
+   "29": -0.34,
+   "30": -0.37,
+   "31": -0.39,
+   "32": -0.41,
+   "33": -0.42,
+   "34": -0.45,
+   "35": -0.48,
+   "36": -0.49,
+   "38": -0.52,
+   "40": -0.55,
+   "42": -0.57,
+   "44": -0.62,
+   "46": -0.65,
+   "48": -0.68,
+   "50": -0.71,
+   "52": -0.74,
+   "54": -0.79,
+   "58": -0.85,
+   "62": -0.91,
+   "66": -0.97,
+   "70": -1.06,
+   "72": -1.09,
+   "80": -1.21,
+   "88": -1.33,
+   "96": -1.5,
+   "100": -1.56,
+   "120": -1.88,
+   "140": -2.26,
+   "160": -2.58,
+   "180": -2.99,
+   "200": -3.32,
+   "220": -3.76,
+   "240": -4.22,
+   "260": -4.57
+  },
+  "macOS tracking values": {
+   "6": 0.24,
+   "7": 0.23,
+   "8": 0.21,
+   "9": 0.17,
+   "10": 0.12,
+   "11": 0.06,
+   "12": 0.0,
+   "13": -0.08,
+   "14": -0.15,
+   "15": -0.23,
+   "16": -0.31,
+   "17": -0.43,
+   "18": -0.44,
+   "19": -0.45,
+   "20": -0.45,
+   "21": -0.36,
+   "22": -0.26,
+   "23": -0.1,
+   "24": 0.07,
+   "25": 0.15,
+   "26": 0.22,
+   "27": 0.29,
+   "28": 0.38,
+   "29": 0.4,
+   "30": 0.4,
+   "31": 0.39,
+   "32": 0.41,
+   "33": 0.4,
+   "34": 0.4,
+   "35": 0.38,
+   "36": 0.37,
+   "37": 0.36,
+   "38": 0.37,
+   "39": 0.38,
+   "40": 0.37,
+   "41": 0.36,
+   "42": 0.37,
+   "43": 0.38,
+   "44": 0.37,
+   "45": 0.35,
+   "46": 0.36,
+   "47": 0.37,
+   "48": 0.35,
+   "49": 0.33,
+   "50": 0.34,
+   "51": 0.35,
+   "52": 0.31,
+   "53": 0.33,
+   "54": 0.32,
+   "56": 0.3,
+   "58": 0.28,
+   "60": 0.26,
+   "62": 0.24,
+   "64": 0.22,
+   "66": 0.19,
+   "68": 0.17,
+   "70": 0.14,
+   "72": 0.14,
+   "76": 0.07,
+   "80": 0.0,
+   "84": 0.0,
+   "88": 0.0,
+   "92": 0.0,
+   "96": 0.0
+  },
+  "tvOS tracking values": {
+   "6": 0.24,
+   "7": 0.23,
+   "8": 0.21,
+   "9": 0.17,
+   "10": 0.12,
+   "11": 0.06,
+   "12": 0.0,
+   "13": -0.08,
+   "14": -0.15,
+   "15": -0.23,
+   "16": -0.31,
+   "17": -0.43,
+   "18": -0.44,
+   "19": -0.45,
+   "20": -0.45,
+   "21": -0.36,
+   "22": -0.26,
+   "23": -0.1,
+   "24": 0.07,
+   "25": 0.15,
+   "26": 0.22,
+   "27": 0.29,
+   "28": 0.38,
+   "29": 0.4,
+   "30": 0.4,
+   "31": 0.39,
+   "32": 0.41,
+   "33": 0.4,
+   "34": 0.4,
+   "35": 0.38,
+   "36": 0.37,
+   "37": 0.36,
+   "38": 0.37,
+   "39": 0.38,
+   "40": 0.37,
+   "41": 0.36,
+   "42": 0.37,
+   "43": 0.38,
+   "44": 0.37,
+   "45": 0.35,
+   "46": 0.36,
+   "47": 0.37,
+   "48": 0.35,
+   "49": 0.33,
+   "50": 0.34,
+   "51": 0.35,
+   "52": 0.31,
+   "53": 0.33,
+   "54": 0.32,
+   "56": 0.3,
+   "58": 0.28,
+   "60": 0.26,
+   "62": 0.24,
+   "64": 0.22,
+   "66": 0.19,
+   "68": 0.17,
+   "70": 0.14,
+   "72": 0.14,
+   "76": 0.07,
+   "80": 0.0,
+   "84": 0.0,
+   "88": 0.0,
+   "92": 0.0,
+   "96": 0.0
+  },
+  "SF Compact": {
+   "6": 0.29,
+   "7": 0.21,
+   "8": 0.23,
+   "9": 0.26,
+   "10": 0.29,
+   "11": 0.26,
+   "12": 0.23,
+   "13": 0.2,
+   "14": 0.19,
+   "15": 0.06,
+   "16": 0.0,
+   "17": -0.07,
+   "18": -0.14,
+   "19": -0.22,
+   "20": 0.0,
+   "21": -0.04,
+   "22": -0.09,
+   "23": -0.13,
+   "24": -0.19,
+   "25": -0.24,
+   "26": -0.28,
+   "27": -0.3,
+   "28": -0.34,
+   "29": -0.38,
+   "30": -0.42,
+   "31": -0.45,
+   "32": -0.5,
+   "33": -0.55,
+   "34": -0.6,
+   "35": -0.63,
+   "36": -0.69,
+   "37": -0.72,
+   "38": -0.74,
+   "39": -0.76,
+   "40": -0.78,
+   "41": -0.8,
+   "42": -0.82,
+   "43": -0.84,
+   "44": -0.86,
+   "45": -0.88,
+   "46": -0.92,
+   "47": -0.94,
+   "48": -0.96,
+   "49": -1.0,
+   "50": -1.03,
+   "51": -1.05,
+   "52": -1.07,
+   "53": -1.11,
+   "54": -1.13,
+   "56": -1.2,
+   "58": -1.25,
+   "60": -1.32,
+   "62": -1.36,
+   "64": -1.44,
+   "66": -1.51,
+   "68": -1.56,
+   "70": -1.64,
+   "72": -1.69,
+   "76": -1.86,
+   "80": -1.99,
+   "84": -2.13,
+   "88": -2.28,
+   "92": -2.47,
+   "96": -2.62
+  },
+  "SF Compact Rounded": {
+   "6": 0.16,
+   "7": 0.18,
+   "8": 0.19,
+   "9": 0.19,
+   "10": 0.2,
+   "11": 0.19,
+   "12": 0.19,
+   "13": 0.18,
+   "14": 0.16,
+   "15": 0.15,
+   "16": 0.12,
+   "17": 0.1,
+   "18": 0.07,
+   "19": 0.04,
+   "20": 0.0,
+   "21": -0.04,
+   "22": -0.09,
+   "23": -0.13,
+   "24": -0.19,
+   "25": -0.24,
+   "26": -0.28,
+   "27": -0.3,
+   "28": -0.34,
+   "29": -0.38,
+   "30": -0.42,
+   "31": -0.45,
+   "32": -0.5,
+   "33": -0.55,
+   "34": -0.6,
+   "35": -0.63,
+   "36": -0.69,
+   "37": -0.72,
+   "38": -0.74,
+   "39": -0.76,
+   "40": -0.78,
+   "41": -0.8,
+   "42": -0.82,
+   "43": -0.84,
+   "44": -0.86,
+   "45": -0.88,
+   "46": -0.92,
+   "47": -0.94,
+   "48": -0.96,
+   "49": -1.0,
+   "50": -1.03,
+   "51": -1.05,
+   "52": -1.07,
+   "53": -1.11,
+   "54": -1.13,
+   "56": -1.2,
+   "58": -1.25,
+   "60": -1.32,
+   "62": -1.36,
+   "64": -1.44,
+   "66": -1.51,
+   "68": -1.56,
+   "70": -1.64,
+   "72": -1.69,
+   "76": -1.86,
+   "80": -1.99,
+   "84": -2.13,
+   "88": -2.28,
+   "92": -2.47,
+   "96": -2.62
+  }
+ },
+ "address": {
+  "dynamic_type": "/design/human-interface-guidelines/typography",
+  "tracking": "/design/human-interface-guidelines/typography"
+ },
+ "note": "опубликовано Apple; значения меняются от выпуска к выпуску — это НЕ замер"
+}

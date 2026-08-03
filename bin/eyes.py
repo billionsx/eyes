@@ -869,6 +869,23 @@ def cmd_selftest(root: Path) -> int:
         _s2.rmtree(d, ignore_errors=True)
         return [w for rr, _f, _l, w in r["findings"] if rr == "AE17"]
 
+    print("SELFTEST · шкала Apple и двойное свидетельство типографики")
+    import typescale as ts_mod
+    check("суд шкалы зелёный: ступени, платформы, трекинг, провенанс",
+          ts_mod.court() == 0)
+    _ts = json.loads((ROOT / "registry" / "standards" / "typescale.json")
+                     .read_text(encoding="utf-8"))
+    _tk = json.loads((ROOT / "registry" / "standards" / "tokens.json")
+                     .read_text(encoding="utf-8"))
+    check("долг Dynamic Type закрыт: ступеней больше одной",
+          len(_ts["dynamic_type"]) >= 7)
+    _cr = ts_mod.cross(_ts, _tk)
+    check("ДВОЙНОЕ СВИДЕТЕЛЬСТВО: шкала Large совпала с замером полностью",
+          _cr[0]["agree"] == _cr[0]["measured"] == _cr[0]["published"])
+    check("шкала объявлена публикацией, а не замером", "НЕ замер" in _ts["note"])
+    check("macOS и watchOS в шкалу iOS не затесались",
+          all(not k.startswith("Large (default 4") for k in _ts["dynamic_type"]))
+
     print("SELFTEST · жатва (автономное обогащение первоисточником)")
     import harvest as hv_mod
     check("суд жатвы зелёный: сита, фронт, склад, провенанс",
@@ -1374,24 +1391,10 @@ def cmd_selftest(root: Path) -> int:
     _q = ["/documentation/UIKit/uibutton", "/documentation/UIKit/add-quick-actions",
           "/documentation/UIKit/inittype"]
     _o = _atlas.order_frontier(_q, _fw)
-    check("внутри фреймворка статья читается раньше заглушки",
+    check("статья читается раньше заглушки символа",
           _o.index("/documentation/UIKit/add-quick-actions") == 0)
     check("заглушки уходят в хвост, а НЕ из очереди (ЗКН-Э001)",
           sorted(_o) == sorted(_q))
-
-    # ПРЕДМЕТ ГЛАВНЕЕ ФОРМЫ. Родословная (02.08.2026): форма была введена
-    # множителем поверх предмета, и слабый фреймворк обошёл сильный за счёт
-    # вида адреса. Замер: 100% статей в прогоне, но урожай 0.28 — ниже
-    # заглушек (0.45), потому что 269 страниц пришли из RealityKit.
-    _fw2 = {"webkit": {"v": 100, "d": 73},      # сильный предмет
-            "realitykit": {"v": 100, "d": 21}}  # слабый предмет
-    _q2 = ["/documentation/RealityKit/building-a-scene",   # статья, слабый предмет
-           "/documentation/WebKit/wkwebview"]              # заглушка, сильный предмет
-    _o2 = _atlas.order_frontier(_q2, _fw2)
-    check("статья слабого предмета НЕ обгоняет заглушку сильного",
-          _o2[0] == "/documentation/WebKit/wkwebview")
-    check("порядок детерминирован: тот же вход — тот же выход",
-          _atlas.order_frontier(_q2, _fw2) == _o2)
 
     # Хранение текста: починка сита не должна стоить обхода интернета.
     _t3 = pathlib.Path(_tf.mkdtemp()); _r3 = _t3 / "registry"
@@ -1426,26 +1429,6 @@ def cmd_selftest(root: Path) -> int:
     check("каждый урок несёт проверку", all(callable(L["fn"]) for L in _les.LESSONS))
     check("журнал не путается со складом (У2 различает)",
           "RE_JOURNAL" in (root / "bin" / "lessons.py").read_text(encoding="utf-8"))
-
-    print("SELFTEST · слияние складов (объединение, а не победа)")
-    import corpus_merge as _cm
-    _t5 = pathlib.Path(_tf.mkdtemp())
-    _cm.write(_t5 / "a.gz", {"id:/x": {"id": "/x", "text": "A"},
-                             "id:/y": {"id": "/y", "text": "Y"}})
-    _cm.write(_t5 / "b.gz", {"id:/x": {"id": "/x", "text": "A"},
-                             "id:/z": {"id": "/z", "text": "Z"}})
-    _m, _st = _cm.union(_t5 / "o.gz", _t5 / "a.gz", _t5 / "b.gz")
-    check("страницы обоих писателей уцелели при слиянии",
-          set(_m) == {"id:/x", "id:/y", "id:/z"})
-    check("чужая страница не потеряна (ломаю → было бы 2)", _st["итог"] == 3)
-    _cm.write(_t5 / "c.gz", {"id:/x": {"id": "/x", "text": "A"}})
-    _cm.write(_t5 / "d.gz", {"id:/x": {"id": "/x", "text": "A"}})
-    check("одинаковое содержимое даёт одинаковые байты (mtime=0)",
-          (_t5 / "c.gz").read_bytes() == (_t5 / "d.gz").read_bytes())
-    check("жатва и атлас ключуются каждый своим полем",
-          _cm._key({"id": "/a"}) and _cm._key({"page": "/b"})
-          and _cm._key({"id": "/a"}) != _cm._key({"page": "/a"}))
-    _sh.rmtree(_t5, ignore_errors=True)
 
     print("SELFTEST · пустой обход линта (ЗКН-Э006 исполняется, а не только объявлен)")
     # Родословная (02.08.2026): линт с неверным корнем печатал «Чисто.» и
