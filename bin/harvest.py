@@ -39,6 +39,8 @@ BXE · ЖАТВА. Автономный работник: систематиче
     python3 bin/harvest.py --court
 """
 import argparse
+import gzip
+import hashlib
 import json
 import re
 import sys
@@ -50,6 +52,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FIXTURES = ROOT / "registry" / "fixtures" / "apple"
 PALETTE = ROOT / "registry" / "standards" / "palette.json"
 STATE = ROOT / "registry" / "state" / "harvest.json"
+CORPUS = ROOT / "registry" / "corpus" / "hig"
 HOST = "https://developer.apple.com"
 HIG = "/design/human-interface-guidelines/"
 
@@ -98,7 +101,73 @@ def sieve_swatches(doc, page):
     return out
 
 
-SIEVES = (("образцы цвета", sieve_swatches),)
+def _flat(cell):
+    """Ячейка таблицы → плоский текст. Ссылка отдаёт своё имя: в таблицах
+    Apple третья колонка — это имя API, и оно живёт ссылкой, а не текстом."""
+    parts = []
+
+    def w(o):
+        if isinstance(o, dict):
+            if o.get("type") == "text" and o.get("text"):
+                parts.append(o["text"])
+            elif o.get("type") == "reference" and o.get("identifier"):
+                parts.append(str(o["identifier"]).rstrip("/").split("/")[-1])
+            for v in o.values():
+                w(v)
+        elif isinstance(o, list):
+            for x in o:
+                w(x)
+    w(cell)
+    return " ".join(x.strip() for x in parts if x and x.strip()).strip()
+
+
+def _tables(node):
+    if isinstance(node, dict):
+        if node.get("type") == "table":
+            yield node
+        for v in node.values():
+            yield from _tables(v)
+    elif isinstance(node, list):
+        for x in node:
+            yield from _tables(x)
+
+
+def sieve_tables(doc, page):
+    """Сито таблиц. Возвращает ("закон", текст, адрес).
+
+    Зачем. Текстовый обход расплющивает таблицу в поток слов, и связь
+    «роль → назначение → имя API» распадается. А это и есть самая
+    применимая часть свода: на вопрос «каким цветом вторичный текст»
+    отвечает ИМЕННО строка таблицы, а не абзац рядом с ней.
+
+    Строка склеивается с заголовками колонок, поэтому закон читается
+    отдельно от таблицы и годится в выдачу дознания как есть.
+    """
+    out = []
+    for t in _tables(doc):
+        rows = t.get("rows") or []
+        if len(rows) < 2:
+            continue
+        head = [_flat(c) for c in rows[0]]
+        if not any(head):
+            continue
+        for r in rows[1:]:
+            cells = [_flat(c) for c in r]
+            if not any(cells):
+                continue
+            pairs = [f"{h}: {c}" if h else c
+                     for h, c in zip(head + [""] * len(cells), cells) if c]
+            if len(pairs) < 2:
+                continue
+            out.append(("закон", " · ".join(pairs), page))
+    return out
+
+
+# Сита объявлены с ВИДОМ урожая: одно даёт значения в палитру, другое —
+# законы в библиотеку. Смешивать нельзя: у них разный вес свидетельства и
+# разное место хранения.
+SIEVES = (("образцы цвета", sieve_swatches, "палитра"),
+          ("таблицы свода", sieve_tables, "закон"))
 
 
 # ── ФРОНТ ───────────────────────────────────────────────────────────────────
@@ -119,6 +188,66 @@ def links(doc):
         if u.lower().startswith(HIG.lower()) and u.count("/") == HIG.count("/"):
             out.add(u)
     return sorted(out)
+
+
+def _shard(page):
+    h = hashlib.sha256(page.encode("utf-8")).hexdigest()[:2]
+    return CORPUS / f"{h}.jsonl.gz"
+
+
+def corpus_put(page, doc):
+    """Сохранить СЫРОЙ документ страницы. Идемпотентно по адресу.
+
+    Родословная. Работник просеивал страницу и выбрасывал её. Из этого
+    следовало, что ЛЮБОЕ новое сито требует заново обойти весь свод: сотни
+    страниц и недели вежливого хода ради одной новой формы записи. Инструмент
+    был структурно неспособен улучшать собственное извлечение иначе как
+    повторным хождением к Apple.
+
+    Атлас departamentа прошёл эту же ошибку и закрыл её хранением корпуса.
+    Жатва повторять её не будет: сырьё хранится, сита правятся офлайн,
+    перемол идёт по складу (`--remill`).
+    """
+    keep = {"page": page,
+            "tables": [t for t in _tables(doc)],
+            "references": {k: {"type": v.get("type"), "alt": v.get("alt"),
+                               "url": v.get("url"), "title": v.get("title")}
+                           for k, v in (doc.get("references") or {}).items()}}
+    try:
+        CORPUS.mkdir(parents=True, exist_ok=True)
+        f = _shard(page)
+        old = []
+        if f.exists():
+            with gzip.open(f, "rt", encoding="utf-8") as fh:
+                old = [l for l in fh.read().splitlines()
+                       if l.strip() and json.loads(l).get("page") != page]
+        with gzip.open(f, "wt", encoding="utf-8") as fh:
+            fh.write("\n".join(old + [json.dumps(keep, ensure_ascii=False)]) + "\n")
+        return True
+    except (OSError, ValueError):
+        # Склад — удобство, а не обязанность: невозможность записать не имеет
+        # права отменить жатву.
+        return False
+
+
+def corpus_read():
+    """Весь склад: адрес → документ. Для перемола без сети."""
+    out = {}
+    if not CORPUS.exists():
+        return out
+    for f in sorted(CORPUS.glob("*.jsonl.gz")):
+        try:
+            with gzip.open(f, "rt", encoding="utf-8") as fh:
+                for line in fh:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    d = json.loads(line)
+                    if d.get("page"):
+                        out[d["page"]] = d
+        except (OSError, ValueError):
+            continue
+    return out
 
 
 def read_state():
@@ -188,21 +317,59 @@ def merge(pal, rows):
     return added, changed, conflicts
 
 
+LAWS = ROOT / "registry" / "library" / "hig-tables.jsonl"
+
+
+def put_laws(rows, path=None):
+    """Кладёт законы таблиц в библиотеку. Возвращает число НОВЫХ.
+
+    Дубли схлопываются по тексту: одна и та же таблица встречается на
+    нескольких страницах свода, и цитировать её дважды департамент не будет
+    (та же причина, что у схлопывания близнецов в дознании).
+    """
+    f = Path(path) if path else LAWS
+    have = set()
+    if f.exists():
+        for line in f.read_text(encoding="utf-8", errors="replace").splitlines():
+            try:
+                have.add(json.loads(line).get("law"))
+            except ValueError:
+                continue
+    fresh = []
+    for _kind, text, page in rows:
+        if not page or not text or text in have:
+            continue
+        have.add(text)
+        fresh.append({"id": page, "law": text})
+    if fresh:
+        try:
+            f.parent.mkdir(parents=True, exist_ok=True)
+            with f.open("a", encoding="utf-8") as fh:
+                for r in fresh:
+                    fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+        except OSError:
+            return 0
+    return len(fresh)
+
+
 def harvest(pages, getter, pal, state):
     """Один заход жатвы. getter(page) → документ или None."""
-    rows, walked, dead = [], [], []
+    rows, laws, walked, dead = [], [], [], []
     for page in pages:
         doc = getter(page)
         if not doc:
             dead.append(page)
             continue
         walked.append(page)
-        for _name, sieve in SIEVES:
-            rows.extend(sieve(doc, page))
+        corpus_put(page, doc)
+        for _name, sieve, kind in SIEVES:
+            got = sieve(doc, page)
+            (laws if kind == "закон" else rows).extend(got)
         for u in links(doc):
             if u not in state["done"] and u not in state["front"]:
                 state["front"].append(u)
     added, changed, conflicts = merge(pal, rows)
+    laws_new = put_laws(laws)
     for p in walked:
         if p not in state["done"]:
             state["done"].append(p)
@@ -210,7 +377,8 @@ def harvest(pages, getter, pal, state):
             state["front"].remove(p)
     state["harvested"] = state.get("harvested", 0) + added + changed
     return {"walked": len(walked), "dead": dead, "values": len(rows),
-            "added": added, "changed": changed, "conflicts": conflicts}
+            "added": added, "changed": changed, "conflicts": conflicts,
+            "laws": laws_new}
 
 
 def court():
@@ -286,6 +454,54 @@ def court():
     chk("недоступная страница не роняет жатву, а отмечается",
         res2["walked"] == 0 and res2["dead"] == [HIG + "nope"])
 
+    import tempfile as _tf
+    import shutil as _sh
+    _save = globals()["CORPUS"]
+    globals()["CORPUS"] = Path(_tf.mkdtemp(prefix="eyes-corp-")) / "hig"
+    chk("страница кладётся на склад", corpus_put(HIG + "color", doc) is True)
+    store = corpus_read()
+    chk("склад читается обратно", list(store) == [HIG + "color"])
+    chk("на складе лежат ССЫЛКИ — сырьё для будущих сит",
+        "ios-default-systemgray6.png" in store[HIG + "color"]["references"])
+    corpus_put(HIG + "color", doc)
+    chk("повторная кладка не двоит страницу", len(corpus_read()) == 1)
+    got2 = sieve_swatches(store[HIG + "color"], HIG + "color")
+    chk("сито работает по СКЛАДУ так же, как по живой странице",
+        len(got2) == len(got))
+    _sh.rmtree(globals()["CORPUS"].parent, ignore_errors=True)
+    globals()["CORPUS"] = _save
+
+    # ── сито таблиц ───────────────────────────────────────────────────────
+    def _cell(txt):
+        return [{"type": "paragraph", "inlineContent": [{"type": "text",
+                                                         "text": txt}]}]
+
+    tdoc = {"primaryContentSections": [{"type": "table", "rows": [
+        [_cell("Color"), _cell("Use for…"), _cell("UIKit API")],
+        [_cell("Secondary label"), _cell("Secondary content"),
+         [{"type": "reference", "identifier": "doc://x/UIColor/secondaryLabel"}]],
+        [_cell(""), _cell(""), _cell("")],
+    ]}]}
+    tl = sieve_tables(tdoc, HIG + "color")
+    chk("строка таблицы стала законом с заголовками колонок",
+        len(tl) == 1 and "Color: Secondary label" in tl[0][1]
+        and "UIKit API: secondaryLabel" in tl[0][1])
+    chk("имя API взято из ССЫЛКИ, а не потеряно",
+        "secondaryLabel" in tl[0][1])
+    chk("пустая строка таблицы законом не становится",
+        all(x[1].strip() for x in tl))
+    chk("адрес страницы неотделим от закона таблицы",
+        tl[0][2] == HIG + "color")
+    chk("таблица из одной строки закона не даёт",
+        sieve_tables({"a": {"type": "table", "rows": [[_cell("H")]]}}, "p") == [])
+
+    _lf = Path(_tf.mkdtemp(prefix="eyes-law-")) / "t.jsonl"
+    chk("закон записан в библиотеку", put_laws(tl, _lf) == 1)
+    chk("повтор той же таблицы не плодит закон", put_laws(tl, _lf) == 0)
+    chk("закон без адреса не пишется",
+        put_laws([("закон", "нечто", "")], _lf) == 0)
+    _sh.rmtree(_lf.parent, ignore_errors=True)
+
     chk("битое состояние читается как пустое", isinstance(read_state(), dict))
 
     print("СУД зелёный" if ok else "СУД КРАСНЫЙ")
@@ -298,6 +514,9 @@ def main():
     ap.add_argument("--seed", action="store_true")
     ap.add_argument("--offline", action="store_true",
                     help="жатва по фикстурам: без сети, для суда и починки сит")
+    ap.add_argument("--remill", action="store_true",
+                    help="перемолоть СКЛАД новыми ситами: без сети, без "
+                         "повторного хода к Apple")
     ap.add_argument("--court", action="store_true")
     a = ap.parse_args()
     if a.court:
@@ -307,6 +526,23 @@ def main():
     if a.seed or (not state["done"] and not state["front"]):
         if SEED not in state["front"] and SEED not in state["done"]:
             state["front"].insert(0, SEED)
+
+    if a.remill:
+        store = corpus_read()
+        if not store:
+            print("склад пуст — сначала пройди фронт жатвой")
+            return 1
+        pal = load_palette()
+        st = {"done": list(state["done"]), "front": [], "harvested": 0}
+        res = harvest(list(store), store.get, pal, st)
+        PALETTE.write_text(json.dumps(pal, ensure_ascii=False, indent=1),
+                           encoding="utf-8")
+        print(f"перемолото страниц склада: {res['walked']} · "
+              f"значений {res['values']} · новых {res['added']} · "
+              f"изменившихся {res['changed']}")
+        for c in res["conflicts"]:
+            print(f"  ПРАВКА · {c['token']}: {c['was']} → {c['now']}")
+        return 0
 
     if a.offline:
         fx = {}

@@ -869,6 +869,16 @@ def cmd_selftest(root: Path) -> int:
         _s2.rmtree(d, ignore_errors=True)
         return [w for rr, _f, _l, w in r["findings"] if rr == "AE17"]
 
+    print("SELFTEST · жатва (автономное обогащение первоисточником)")
+    import harvest as hv_mod
+    check("суд жатвы зелёный: сита, фронт, склад, провенанс",
+          hv_mod.court() == 0)
+    check("значение без адреса в палитру не попадает",
+          hv_mod.merge({"system": {}, "gray": {}, "sources": {}},
+                       [("gray", "systemGrayX", "light", "#ABCDEF", "")])[0] == 0)
+    check("склад позволяет перемолоть свод новым ситом БЕЗ сети",
+          callable(hv_mod.corpus_read) and hv_mod.CORPUS.exists())
+
     print("SELFTEST · палитра Apple и светлая тема")
     import palette as pal_mod
     check("суд палитры зелёный: альт, темы, высокий контраст, сверка",

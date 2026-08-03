@@ -35,6 +35,8 @@ jobs:
         run: |
           python3 bin/harvest.py --court
           python3 bin/palette.py --court
+      - name: "Перемол склада: новые сита по уже пройденному, без сети"
+        run: python3 bin/harvest.py --remill || true
       - name: "Жатва по фронту"
         run: |
           python3 bin/harvest.py --pages "${{ inputs.pages || 12 }}" ${{ inputs.seed == 'true' && '--seed' || '' }}
@@ -47,7 +49,8 @@ jobs:
         run: |
           git config user.email "eyes@billionsx"
           git config user.name "Billions X Eyes"
-          git add registry/standards/palette.json registry/state/harvest.json || true
+          git add registry/standards/palette.json registry/state/harvest.json \
+                  registry/corpus/hig registry/library/hig-tables.jsonl || true
           git diff --cached --quiet || git commit -q -m "жатва: урожай первоисточника"
           git pull --rebase -q || true
           git push || echo "нечего пушить"
