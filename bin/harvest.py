@@ -132,6 +132,26 @@ def _tables(node):
             yield from _tables(x)
 
 
+def _walk_ordered(node, state):
+    """Обходит содержимое ПО ПОРЯДКУ, помня последний заголовок каждого
+    уровня. Только порядок и связывает таблицу с её разделом: в JSON
+    таблица не ссылается на заголовок, она просто идёт после него."""
+    if isinstance(node, dict):
+        t = node.get("type")
+        if t == "heading" and node.get("text"):
+            lvl = int(node.get("level") or 2)
+            state["h"] = {k: v for k, v in state["h"].items() if k < lvl}
+            state["h"][lvl] = node["text"].strip()
+        elif t == "table":
+            yield node, [state["h"][k] for k in sorted(state["h"])]
+            return
+        for v in node.values():
+            yield from _walk_ordered(v, state)
+    elif isinstance(node, list):
+        for x in node:
+            yield from _walk_ordered(x, state)
+
+
 def sieve_tables(doc, page):
     """Сито таблиц. Возвращает ("закон", текст, адрес).
 
@@ -144,7 +164,8 @@ def sieve_tables(doc, page):
     отдельно от таблицы и годится в выдачу дознания как есть.
     """
     out = []
-    for t in _tables(doc):
+    body = doc.get("content") or doc.get("primaryContentSections") or doc
+    for t, heads in _walk_ordered(body, {"h": {}}):
         rows = t.get("rows") or []
         if len(rows) < 2:
             continue
@@ -159,7 +180,12 @@ def sieve_tables(doc, page):
                      for h, c in zip(head + [""] * len(cells), cells) if c]
             if len(pairs) < 2:
                 continue
-            out.append(("закон", " · ".join(pairs), page))
+            law = " · ".join(pairs)
+            if heads:
+                # Раздел идёт ПЕРВЫМ: он задаёт платформу и режим, без
+                # которых числа строки не значат ничего.
+                law = "[" + " › ".join(heads) + "] " + law
+            out.append(("закон", law, page))
     return out
 
 
@@ -208,8 +234,13 @@ def corpus_put(page, doc):
     Жатва повторять её не будет: сырьё хранится, сита правятся офлайн,
     перемол идёт по складу (`--remill`).
     """
+    # Хранится СОДЕРЖИМОЕ, а не выжимка из него. Первая кладка держала
+    # только таблицы — и платформа таблицы пропала: страница типографики
+    # покрывает iOS, macOS, watchOS и tvOS, а строка «Large Title · 31 pt»
+    # без раздела неотличима от «Large Title · 34 pt». Число без платформы
+    # ХУЖЕ отсутствующего: оно выглядит как знание.
     keep = {"page": page,
-            "tables": [t for t in _tables(doc)],
+            "content": doc.get("primaryContentSections") or [],
             "references": {k: {"type": v.get("type"), "alt": v.get("alt"),
                                "url": v.get("url"), "title": v.get("title")}
                            for k, v in (doc.get("references") or {}).items()}}
@@ -476,7 +507,10 @@ def court():
         return [{"type": "paragraph", "inlineContent": [{"type": "text",
                                                          "text": txt}]}]
 
-    tdoc = {"primaryContentSections": [{"type": "table", "rows": [
+    tdoc = {"primaryContentSections": [
+        {"type": "heading", "level": 2, "text": "iOS, iPadOS"},
+        {"type": "heading", "level": 3, "text": "Specifications"},
+        {"type": "table", "rows": [
         [_cell("Color"), _cell("Use for…"), _cell("UIKit API")],
         [_cell("Secondary label"), _cell("Secondary content"),
          [{"type": "reference", "identifier": "doc://x/UIColor/secondaryLabel"}]],
@@ -486,6 +520,21 @@ def court():
     chk("строка таблицы стала законом с заголовками колонок",
         len(tl) == 1 and "Color: Secondary label" in tl[0][1]
         and "UIKit API: secondaryLabel" in tl[0][1])
+    chk("РАЗДЕЛ идёт первым: платформа и режим не теряются",
+        tl[0][1].startswith("[iOS, iPadOS › Specifications]"))
+
+    deep = {"primaryContentSections": [
+        {"type": "heading", "level": 2, "text": "iOS"},
+        {"type": "table", "rows": [[_cell("A")], [_cell("1")]]},
+        {"type": "heading", "level": 2, "text": "macOS"},
+        {"type": "table", "rows": [[_cell("A"), _cell("B")],
+                                   [_cell("Large Title"), _cell("31")]]},
+    ]}
+    dl = sieve_tables(deep, "p")
+    chk("следующий заголовок ТОГО ЖЕ уровня вытесняет прежний",
+        dl and dl[-1][1].startswith("[macOS]"))
+    chk("таблица iOS не подписана разделом macOS",
+        all("macOS" not in x[1] for x in dl[:-1]))
     chk("имя API взято из ССЫЛКИ, а не потеряно",
         "secondaryLabel" in tl[0][1])
     chk("пустая строка таблицы законом не становится",
