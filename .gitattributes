@@ -6,3 +6,12 @@ registry/corpus/**/*.jsonl.gz -diff
 # прогоном работника. Слияние их построчно бессмысленно и всегда даёт
 # конфликт: при расхождении верна СВЕЖАЯ версия, а не склеенная.
 registry/corpus/hig/*.jsonl.gz binary merge=ours
+
+# ВЫВОДИМЫЕ СВОДЫ. Пересобираются из склада и библиотеки за секунду
+# (bin/rebuild.py). Своей истины у них нет — вся истина в источнике,
+# поэтому СЛИЯНИЕ их бессмысленно: верный ответ на расхождение —
+# пересобрать, а не склеить. При конфликте берётся свежая сторона,
+# затем контур пересобирает своды заново.
+registry/standards/palette.json    merge=ours
+registry/standards/typescale.json  merge=ours
+registry/standards/devices.json    merge=ours

@@ -37,17 +37,19 @@ jobs:
           python3 bin/palette.py --court
           python3 bin/typescale.py --court
           python3 bin/devices.py --court
+          python3 bin/rebuild.py --court
       - name: "Перемол склада: новые сита по уже пройденному, без сети"
         run: python3 bin/harvest.py --remill || true
       - name: "Жатва по фронту"
         run: |
           python3 bin/harvest.py --pages "${{ inputs.pages || 12 }}" ${{ inputs.seed == 'true' && '--seed' || '' }}
-      - name: "Палитра и сверка с замером"
-        run: python3 bin/palette.py
-      - name: "Шкала: ступени Dynamic Type и трекинг из опубликованных таблиц"
-        run: python3 bin/typescale.py --write
-      - name: "Устройства: размеры экранов и размерные классы"
-        run: python3 bin/devices.py --write
+      - name: "Пересборка выводимых сводов из источника"
+        # Своды выводимы: палитра, шкала, устройства получаются из склада и
+        # библиотеки. Собирать их по одному значило бы держать три места,
+        # где помнят порядок; орган пересборки помнит его один раз.
+        run: |
+          python3 bin/rebuild.py
+          python3 bin/rebuild.py --check
       - name: "Правки Apple — предъявить, если были"
         if: always()
         run: |

@@ -112,25 +112,5 @@
   }
  },
  "address": "/design/human-interface-guidelines/color",
- "note": "опубликованные значения Apple из альт-текста образцов; Apple предупреждает, что значения меняются от выпуска к выпуску — это НЕ замер",
- "sources": {
-  "system.green": "/design/human-interface-guidelines/color",
-  "system.blue": "/design/human-interface-guidelines/color",
-  "system.orange": "/design/human-interface-guidelines/color",
-  "gray.systemGray6": "/design/human-interface-guidelines/color",
-  "system.purple": "/design/human-interface-guidelines/color",
-  "system.pink": "/design/human-interface-guidelines/color",
-  "system.red": "/design/human-interface-guidelines/color",
-  "system.teal": "/design/human-interface-guidelines/color",
-  "system.indigo": "/design/human-interface-guidelines/color",
-  "gray.systemGray5": "/design/human-interface-guidelines/color",
-  "system.brown": "/design/human-interface-guidelines/color",
-  "system.mint": "/design/human-interface-guidelines/color",
-  "system.cyan": "/design/human-interface-guidelines/color",
-  "gray.systemGray3": "/design/human-interface-guidelines/color",
-  "gray.systemGray1": "/design/human-interface-guidelines/color",
-  "system.yellow": "/design/human-interface-guidelines/color",
-  "gray.systemGray4": "/design/human-interface-guidelines/color",
-  "gray.systemGray2": "/design/human-interface-guidelines/color"
- }
+ "note": "опубликованные значения Apple из альт-текста образцов; Apple предупреждает, что значения меняются от выпуска к выпуску — это НЕ замер"
 }
