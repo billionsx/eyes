@@ -73,8 +73,11 @@ def corpus_put(url: str, html: str) -> bool:
     try:
         CORPUS.mkdir(parents=True, exist_ok=True)
         f = CORPUS / (hashlib.sha256(url.encode()).hexdigest()[:12] + ".html.gz")
-        with gzip.open(f, "wt", encoding="utf-8") as fh:   # перезапись по адресу
-            fh.write(html)
+        # Детерминированно (У6 свода уроков): mtime=0, иначе одинаковое
+        # содержимое даёт разные байты и долька конфликтует на пустом месте.
+        with open(f, "wb") as raw, gzip.GzipFile(filename="", mode="wb",
+                                                 fileobj=raw, mtime=0) as fh:
+            fh.write(html.encode("utf-8"))
         return True
     except (OSError, ValueError):
         return False

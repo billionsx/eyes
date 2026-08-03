@@ -1427,6 +1427,26 @@ def cmd_selftest(root: Path) -> int:
     check("журнал не путается со складом (У2 различает)",
           "RE_JOURNAL" in (root / "bin" / "lessons.py").read_text(encoding="utf-8"))
 
+    print("SELFTEST · слияние складов (объединение, а не победа)")
+    import corpus_merge as _cm
+    _t5 = pathlib.Path(_tf.mkdtemp())
+    _cm.write(_t5 / "a.gz", {"id:/x": {"id": "/x", "text": "A"},
+                             "id:/y": {"id": "/y", "text": "Y"}})
+    _cm.write(_t5 / "b.gz", {"id:/x": {"id": "/x", "text": "A"},
+                             "id:/z": {"id": "/z", "text": "Z"}})
+    _m, _st = _cm.union(_t5 / "o.gz", _t5 / "a.gz", _t5 / "b.gz")
+    check("страницы обоих писателей уцелели при слиянии",
+          set(_m) == {"id:/x", "id:/y", "id:/z"})
+    check("чужая страница не потеряна (ломаю → было бы 2)", _st["итог"] == 3)
+    _cm.write(_t5 / "c.gz", {"id:/x": {"id": "/x", "text": "A"}})
+    _cm.write(_t5 / "d.gz", {"id:/x": {"id": "/x", "text": "A"}})
+    check("одинаковое содержимое даёт одинаковые байты (mtime=0)",
+          (_t5 / "c.gz").read_bytes() == (_t5 / "d.gz").read_bytes())
+    check("жатва и атлас ключуются каждый своим полем",
+          _cm._key({"id": "/a"}) and _cm._key({"page": "/b"})
+          and _cm._key({"id": "/a"}) != _cm._key({"page": "/a"}))
+    _sh.rmtree(_t5, ignore_errors=True)
+
     print("SELFTEST · пустой обход линта (ЗКН-Э006 исполняется, а не только объявлен)")
     # Родословная (02.08.2026): линт с неверным корнем печатал «Чисто.» и
     # возвращал ноль. Закон против пустого обхода существовал, а главный орган

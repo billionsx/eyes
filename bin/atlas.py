@@ -304,9 +304,14 @@ def _corpus_put(reg: Path, pid: str, text: str) -> None:
                 except Exception:
                     pass
     rows[pid] = {"id": pid, "text": text}
-    with gzip.open(f, "wt", encoding="utf-8") as fh:
-        for d in rows.values():
-            fh.write(json.dumps(d, ensure_ascii=False) + "\n")
+    # Детерминированно (mtime=0, порядок ключей): gzip кладёт в заголовок
+    # время записи, поэтому одинаковое содержимое давало разные байты — дольки
+    # конфликтовали на пустом месте и раздували репозиторий.
+    body = "".join(json.dumps(rows[k], ensure_ascii=False, sort_keys=True) + "\n"
+                   for k in sorted(rows))
+    with open(f, "wb") as raw, gzip.GzipFile(filename="", mode="wb",
+                                             fileobj=raw, mtime=0) as fh:
+        fh.write(body.encode("utf-8"))
 
 
 def remine(root: Path) -> dict:

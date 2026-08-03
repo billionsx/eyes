@@ -150,6 +150,40 @@ def u4(organs, ex):
     return bad
 
 
+@lesson("У5", "Столкновение складов решается объединением, а не победой",
+        "Хроника делала `git pull --rebase -X theirs`: для журнала терпимо, "
+        "для склада знаний — молчаливая потеря страниц другого писателя. "
+        "Склад ключуется адресом, значит у столкновения есть правильный ответ.")
+def u5(organs, ex):
+    bad = []
+    ch = (BIN.parent / "bin" / "chronicle.sh")
+    txt = ch.read_text(encoding="utf-8", errors="ignore") if ch.exists() else ""
+    if "-X theirs" in txt and "corpusunion" not in txt:
+        bad.append("chronicle.sh")
+    ga = BIN.parent / ".gitattributes"
+    if not ga.exists() or "merge=corpusunion" not in ga.read_text(encoding="utf-8"):
+        bad.append(".gitattributes")
+    return bad
+
+
+@lesson("У6", "Сжатая долька склада пишется детерминированно",
+        "gzip кладёт в заголовок время записи: одинаковое содержимое давало "
+        "разные байты, дольки конфликтовали на пустом месте и раздували "
+        "репозиторий.")
+def u6(organs, ex):
+    bad = []
+    for name, src in organs.items():
+        if "gzip" not in src or name in ("corpus_merge.py", "lessons.py"):
+            continue
+        if not re.search(r"gzip\.(open|GzipFile)\([^)]*[\"']w", src):
+            continue
+        if name in ex.get("У6", {}) or _is_exempt(ex, "У6", name):
+            continue
+        if "mtime=0" not in src:
+            bad.append(name)
+    return bad
+
+
 def audit() -> dict:
     organs, ex = _organs(), _exempt()
     out = []

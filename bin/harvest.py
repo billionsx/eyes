@@ -252,8 +252,11 @@ def corpus_put(page, doc):
             with gzip.open(f, "rt", encoding="utf-8") as fh:
                 old = [l for l in fh.read().splitlines()
                        if l.strip() and json.loads(l).get("page") != page]
-        with gzip.open(f, "wt", encoding="utf-8") as fh:
-            fh.write("\n".join(old + [json.dumps(keep, ensure_ascii=False)]) + "\n")
+        body = "\n".join(sorted(old + [json.dumps(keep, ensure_ascii=False,
+                                                  sort_keys=True)])) + "\n"
+        with open(f, "wb") as raw, gzip.GzipFile(filename="", mode="wb",
+                                                 fileobj=raw, mtime=0) as fh:
+            fh.write(body.encode("utf-8"))
         return True
     except (OSError, ValueError):
         # Склад — удобство, а не обязанность: невозможность записать не имеет
