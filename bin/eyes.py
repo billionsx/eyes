@@ -1029,6 +1029,58 @@ def cmd_selftest(root: Path) -> int:
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE19"))
 
+    print("SELFTEST · словарь переменных: правила видят сквозь var()")
+    import lint as _lv
+    import tempfile as _t5, shutil as _s5
+    from pathlib import Path as _P5
+
+    def _vrun(files):
+        d = _P5(_t5.mkdtemp(prefix="eyes-var-"))
+        for nm, c in files.items():
+            (d / nm).write_text(c, encoding="utf-8")
+        ad = {"allow_extra": [], "strict": {"globs": ["**/*"], "rules": []},
+              "report": {"globs": ["**/*"],
+                         "rules": [f"AE{i}" for i in range(1, 21)]}}
+        tk = json.loads((ROOT / "registry" / "standards" / "tokens.json")
+                        .read_text(encoding="utf-8"))
+        r = _lv.run(d, ad, tk, "report", d)
+        _s5.rmtree(d, ignore_errors=True)
+        return r
+
+    check("чиню → красный: радиус за переменной ловится",
+          "AE11" in [x[0] for x in _vrun(
+              {"a.css": ":root{--r:20px;}\n.x{border-radius:var(--r);}"})["findings"]])
+    check("ломаю → зелёный не даю: законное значение за переменной — тишина",
+          "AE11" not in [x[0] for x in _vrun(
+              {"a.css": ":root{--r:8px;}\n.x{border-radius:var(--r);}"})["findings"]])
+    check("объявление в ДРУГОМ файле охвата находится",
+          "AE11" in [x[0] for x in _vrun(
+              {"t.css": ":root{--r:20px;}",
+               "u.css": ".x{border-radius:var(--r);}"})["findings"]])
+    check("цепочка ссылок проходится",
+          "AE11" in [x[0] for x in _vrun(
+              {"a.css": ":root{--a:var(--b);--b:20px;}\n"
+                        ".x{border-radius:var(--a);}"})["findings"]])
+    check("запасное значение берётся, даже если словарь пуст",
+          "AE11" in [x[0] for x in _vrun(
+              {"a.css": ".x{border-radius:var(--нет,20px);}"})["findings"]])
+    check("кольцо ссылок не вешает разбор",
+          _vrun({"a.css": ":root{--a:var(--b);--b:var(--a);}\n"
+                          ".x{border-radius:var(--a);}"})["files"] == 1)
+    check("СПОРНАЯ переменная не подставляется: угадывать нельзя",
+          "AE11" not in [x[0] for x in _vrun(
+              {"a.css": "@media(prefers-color-scheme:dark){:root{--r:20px}}\n"
+                        "@media(prefers-color-scheme:light){:root{--r:8px}}\n"
+                        ".x{border-radius:var(--r);}"})["findings"]])
+    check("спорная переменная НАЗВАНА вслух, а не спрятана",
+          _vrun({"a.css": "@media(prefers-color-scheme:dark){:root{--r:20px}}\n"
+                          "@media(prefers-color-scheme:light){:root{--r:8px}}"}
+                )["vars_unresolved"] == ["--r"])
+    check("НОМЕР СТРОКИ не уплывает от подстановки",
+          [x[2] for x in _vrun(
+              {"a.css": ":root{--r:20px;}\n\n\n.x{border-radius:var(--r);}"}
+          )["findings"] if x[0] == "AE11"] == [4])
+
     print("SELFTEST · охват языков: объявленное = читаемое")
     import mcp as _mm
     import lint as _ll

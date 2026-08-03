@@ -262,7 +262,14 @@ def scan(root, mode="report"):
     score = round(max(0.0, 100.0 - 0.05 * len(findings)), 1)
     gr = ("A" if score >= 93 else "B" if score >= 85 else
           "C" if score >= 70 else "D" if score >= 50 else "E")
+    unres = res.get("vars_unresolved") or []
     return {"root": str(root), "files": res["files"],
+            "vars_resolved": res.get("vars_resolved", 0),
+            "vars_unresolved": len(unres),
+            "blind_spot": (
+                f"{len(unres)} переменных объявлены по-разному в темах и НЕ "
+                f"разобраны — значения за ними не судились. Балл выше, чем "
+                f"был бы при полном разборе." if unres else None),
             "findings_total": len(findings),
             "score": score, "grade": gr,
             "by_rule": [{"rule": r, "count": n,

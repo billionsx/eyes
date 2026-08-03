@@ -100,6 +100,93 @@ def _blank(m) -> str:
     return " " + "\n" * m.group(0).count("\n")
 
 
+# ── СЛОВАРЬ ПЕРЕМЕННЫХ ──────────────────────────────────────────────────────
+
+# Имя переменной по спецификации CSS может нести любые буквы, не только
+# латиницу: `--отступ` законен. Класс \w в Python юникодный, поэтому имена
+# на кириллице и других письменностях больше не выпадают из разбора.
+VAR_DEF = re.compile(r"(--[\w-]+)\s*:\s*([^;{}]+)", re.UNICODE)
+VAR_USE = re.compile(r"var\(\s*(--[\w-]+)\s*(?:,\s*([^()]*?)\s*)?\)",
+                     re.UNICODE)
+MAX_CHAIN = 8
+
+
+def _collect_vars(project_root, globs):
+    """Собирает объявления переменных по всему охвату.
+
+    Возвращает (однозначные, спорные). Переменная со СПОРНЫМИ значениями —
+    объявленная по-разному в светлой и тёмной теме — не подставляется вовсе:
+    выбрать одну сторону значит судить проект по половине его правды.
+    Промолчать честнее, чем угадать, и число таких переменных department
+    показывает отдельно.
+    """
+    seen = {}
+    for g in globs:
+        for fp in sorted(glob.glob(str(Path(project_root) / g), recursive=True)):
+            p = Path(fp)
+            if not p.is_file() or p.suffix not in (
+                    ".css", ".scss", ".sass", ".html", ".htm",
+                    ".tsx", ".ts", ".jsx", ".js", ".vue", ".svelte"):
+                continue
+            try:
+                t = strip_comments(
+                    p.read_text(encoding="utf-8", errors="replace"), p.suffix)
+            except OSError:
+                continue
+            for m in VAR_DEF.finditer(t):
+                name, val = m.group(1), m.group(2).strip()
+                if not val or len(val) > 120:
+                    continue
+                seen.setdefault(name, set()).add(val)
+    defs = {n: next(iter(v)) for n, v in seen.items() if len(v) == 1}
+    ambiguous = sorted(n for n, v in seen.items() if len(v) > 1)
+    return defs, ambiguous
+
+
+def _resolve(name, defs, depth=0):
+    """Значение переменной с проходом по цепочке ссылок.
+
+    Глубина ограничена: `--a: var(--b)` и `--b: var(--a)` — кольцо, и без
+    предела разбор ушёл бы в бесконечность на чужом коде.
+    """
+    if depth >= MAX_CHAIN or name not in defs:
+        return None
+    val = defs[name]
+    m = VAR_USE.fullmatch(val.strip())
+    if m:
+        return _resolve(m.group(1), defs, depth + 1) or (m.group(2) or None)
+    return None if "var(" in val else val
+
+
+def _expand_vars(text, defs):
+    """Подставляет значения переменных, СОХРАНЯЯ длину текста.
+
+    Длина неприкосновенна: подстановка идёт в тот же отрезок, добивается
+    пробелами либо, если значение длиннее ссылки, не делается вовсе.
+    Иначе смещаются номера строк и адрес находки указывает не туда —
+    ровно та ложь, за которую департамент только что чинил зеркало.
+    """
+    # Пустой словарь выходом не является: `var(--нет, 20px)` несёт запасное
+    # значение в себе, и проект без единого объявления всё равно судим.
+    if "var(" not in text:
+        return text
+    out = []
+    last = 0
+    for m in VAR_USE.finditer(text):
+        val = _resolve(m.group(1), defs)
+        if val is None:
+            val = (m.group(2) or "").strip() or None
+        if val is None or "\n" in val or len(val) > (m.end() - m.start()):
+            continue
+        out.append(text[last:m.start()])
+        out.append(val.ljust(m.end() - m.start()))
+        last = m.end()
+    if not out:
+        return text
+    out.append(text[last:])
+    return "".join(out)
+
+
 def strip_comments(text: str, suffix: str) -> str:
     text = re.sub(r"/\*.*?\*/", _blank, text, flags=re.S)        # CSS / JS block
     if suffix in (".ts", ".tsx", ".js", ".jsx", ".scss", ".sass",
@@ -408,6 +495,20 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # AE19 копит по ВСЕМУ охвату: доля жёстких кеглей — свойство проекта,
     # а не строки. Построчный упрёк дал бы сотню находок и утопил остальные.
     fs_px, fs_scale, fs_first = 0, 0, None
+
+    # ── ПРЕДПРОХОД: словарь переменных проекта ──────────────────────────────
+    # Зачем. Все value-правила читали ЛИТЕРАЛ: `border-radius: 20px`. Зрелый
+    # проект пишет `border-radius: var(--radius-lg)`, и департамент слеп на
+    # него целиком. Проверено на чужих проектах: Hoppscotch получил 98.8 не
+    # потому что близок к Apple, а потому что у него 25 переменных и четыре
+    # литеральных фона. Инструмент мерил «сколько у вас плоского CSS», а не
+    # «насколько вы близки к системе».
+    #
+    # Предпроход собирает объявления по ВСЕМУ охвату, потом подставляет их
+    # в текст перед разбором — и восемнадцать правил оживают без единой
+    # правки в себе.
+    var_defs, var_ambiguous = _collect_vars(project_root, globs)
+
     for g in globs:
         нашлось = 0
         for fp in sorted(glob.glob(str(project_root / g), recursive=True)):
@@ -424,6 +525,10 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             нашлось += 1
             raw = p.read_text(encoding="utf-8", errors="replace")
             t = strip_comments(raw, p.suffix)
+            # Подстановка сохраняет ДЛИНУ текста, иначе номера строк уплывут
+            # и адрес находки укажет не туда — ровно тот дефект, что нашёл
+            # второй клиент. Проверено судом в обе стороны.
+            t = _expand_vars(t, var_defs)
             rel = str(p.relative_to(project_root))
             looked.append(rel)
 
@@ -691,6 +796,13 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
 
     return {"mode": mode, "files": files_n, "findings": findings,
             "rules": rules, "paths": looked,
+            # НЕРАЗОБРАННЫЕ переменные. Объявленные по-разному в темах, они
+            # не подставляются: выбрать одну сторону значит судить проект по
+            # половине его правды. Но и промолчать о них нельзя — иначе балл
+            # выглядит лучше, чем есть, а департамент выдаёт непроверенное
+            # за чистое (ЗКН-Э001).
+            "vars_resolved": len(var_defs),
+            "vars_unresolved": var_ambiguous,
             # Глоб, не нашедший НИ ОДНОГО файла, обязан сказать о себе.
             # Половина охвата, ведущая в несуществующий каталог, до сих пор
             # не сообщала о себе ничем — и её пустота читалась как чистота.
