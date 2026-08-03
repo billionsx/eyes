@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15 · находок: 211
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 216
 
 ## AE1 · 10
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -68,6 +68,13 @@
 - `apps/web/src/music/music.css:481` — цель касания 38.3px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
 - `apps/web/src/music/music.css:481` — цель касания 38.3px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
 - `apps/web/src/play/play.css:26` — цель касания 35px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+
+## AE18 · 5
+- `apps/web/src/music/music.css:329` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
+- `apps/web/src/ui/globals.css:623` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
+- `apps/web/src/ui/globals.css:624` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
+- `apps/web/src/ui/globals.css:643` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
+- `apps/web/src/ui/globals.css:676` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
 
 ## AE2 · 18
 - `apps/web/src/music/music.css:55` — свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности
