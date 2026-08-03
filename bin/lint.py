@@ -531,7 +531,17 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
 def render(res: dict, adapter_name: str) -> str:
     out = [f"# BXE · отчёт линта · адаптер `{adapter_name}` · режим {res['mode']}",
            f"Файлов просмотрено: {res['files']} · правила: {', '.join(res['rules'])} · находок: {len(res['findings'])}", ""]
-    if not res["findings"]:
+    if not res["files"]:
+        # ЗКН-Э006: пустой обход не есть доказательство чистоты.
+        #
+        # Родословная (02.08.2026): линт с неверным корнем печатал «Чисто.» и
+        # возвращал ноль. CI с опечаткой в пути был бы зелёным вечно — то есть
+        # закон против пустого обхода существовал, а главный орган его не
+        # исполнял. Ноль находок при нуле файлов означает промах адреса, а не
+        # порядок в коде.
+        out.append("КРАСНЫЙ · обойдено 0 файлов — промах адреса, а не чистота "
+                   "(ЗКН-Э006). Проверьте PROJECT_ROOT и глобы паспорта.")
+    elif not res["findings"]:
         out.append("Чисто.")
     else:
         by = {}
@@ -556,6 +566,11 @@ def main(root: Path, adapter_name: str, mode: str, out_file: str = None, project
     if out_file:
         Path(out_file).write_text(text, encoding="utf-8")
     print(text)
+    # Пустой обход — красный в ЛЮБОМ режиме (ЗКН-Э006). Ноль находок при нуле
+    # файлов есть промах адреса; вернуть на это ноль значит подтвердить чистоту,
+    # которой никто не видел.
+    if not res["files"]:
+        return 1
     return 1 if (mode == "strict" and res["findings"]) else 0
 
 
