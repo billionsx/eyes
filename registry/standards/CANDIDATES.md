@@ -1,31 +1,33 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 30525 · кандидатов: 20 · из них со ссылкой на свод правил: 11
+Норм просмотрено: 30561 · кандидатов: 20 · из них со ссылкой на свод правил: 11
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
-| свойство | норма | направление | страниц | встреч | первоисточник |
-|---|---|---|---|---|---|
-| opacity | 35 % | none | 2 | 2 | да |
-| font-size | 13 pt | none | 1 | 1 | да |
-| font-size | 17 pt | none | 1 | 1 | да |
-| margin / padding | 7 pt | none | 1 | 1 | да |
-| margin / padding | 10 pt | none | 1 | 1 | да |
-| margin / padding | 16 pt | none | 1 | 1 | да |
-| margin / padding | 16 pt | min | 1 | 1 | да |
-| margin / padding | 60 pt | min | 1 | 1 | да |
-| min-width/min-height интерактивного элемента | 28 pt | min | 1 | 1 | да |
-| min-width/min-height интерактивного элемента | 44 pt | min | 1 | 1 | да |
-| контраст пары цветов | 4.5 :1 | min | 1 | 1 | да |
-| opacity | 50 % | none | 3 | 3 | нет |
-| opacity | 100 % | none | 2 | 4 | нет |
-| font-size | 44 pt | none | 2 | 2 | нет |
-| margin / padding | 600 ms | none | 2 | 2 | нет |
-| border-radius | 6 pt | none | 1 | 1 | нет |
-| line-height | 10 pt | none | 1 | 1 | нет |
-| margin / padding | 560 pt | none | 1 | 1 | нет |
-| opacity | 10 % | none | 1 | 1 | нет |
-| контраст пары цветов | 20 % | none | 1 | 1 | нет |
+**Область обязательна.** Число, верное в своей области, за её пределами становится выдумкой: норма со страницы слежения за взглядом visionOS не есть норма веб-страницы. Кандидат с областью, отличной от `universal`, связывается в правило только для своей области — или не связывается вовсе.
+
+| свойство | норма | направление | область | страниц | встреч | первоисточник |
+|---|---|---|---|---|---|---|
+| opacity | 35 % | none | 🌐 universal | 2 | 2 | да |
+| font-size | 13 pt | none | ⚠️ macos | 1 | 1 | да |
+| font-size | 17 pt | none | ⚠️ macos | 1 | 1 | да |
+| margin / padding | 7 pt | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 10 pt | none | 🌐 universal | 1 | 1 | да |
+| margin / padding | 16 pt | none | ⚠️ widget | 1 | 1 | да |
+| margin / padding | 16 pt | min | ⚠️ visionos | 1 | 1 | да |
+| margin / padding | 60 pt | min | ⚠️ visionos | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 28 pt | min | ⚠️ game | 1 | 1 | да |
+| min-width/min-height интерактивного элемента | 44 pt | min | ⚠️ game | 1 | 1 | да |
+| контраст пары цветов | 4.5 :1 | min | 🌐 universal | 1 | 1 | да |
+| opacity | 50 % | none | 🌐 universal | 3 | 3 | нет |
+| opacity | 100 % | none | 🌐 universal | 2 | 4 | нет |
+| font-size | 44 pt | none | 🌐 universal | 2 | 2 | нет |
+| margin / padding | 600 ms | none | 🌐 universal | 2 | 2 | нет |
+| border-radius | 6 pt | none | ⚠️ watchos | 1 | 1 | нет |
+| line-height | 10 pt | none | 🌐 universal | 1 | 1 | нет |
+| margin / padding | 560 pt | none | ⚠️ tvos | 1 | 1 | нет |
+| opacity | 10 % | none | 🌐 universal | 1 | 1 | нет |
+| контраст пары цветов | 20 % | none | 🌐 universal | 1 | 1 | нет |
 
 ## Адреса
 

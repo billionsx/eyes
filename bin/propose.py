@@ -119,6 +119,44 @@ def quantities(text: str) -> list:
     return out
 
 
+# ОБЛАСТЬ ПРИМЕНЕНИЯ НОРМЫ.
+#
+# Родословная (02.08.2026): кандидат нёс число, направление и адрес — но не
+# нёс области. Из-за этого норма «не менее 16 pt вокруг элемента» со страницы
+# `/design/human-interface-guidelines/eyes` (слежение за взглядом в visionOS)
+# выглядела в списке кандидатов ровно так же, как универсальная норма раскладки.
+# Связать её в правило для веб-страницы было бы категориальной ошибкой, и
+# ничто в органе этому не мешало.
+#
+# Число, верное в своей области, становится выдумкой за её пределами
+# (ЗКН-Э001). Поэтому область извлекается из адреса и едет с кандидатом всегда.
+SCOPE = (
+    ("visionos", ("/eyes", "/spatial", "/immersive", "/visionos", "/hands",
+                  "/gaze", "/entering-", "/eye-")),
+    ("watchos", ("/watch", "/complications", "/digital-crown", "/always-on")),
+    ("widget", ("/widgets", "/live-activities", "/controls-",)),
+    ("macos", ("/mac-catalyst", "/mac-", "/windows", "/menus", "/the-menu-bar",
+               "/pointing-devices")),
+    ("tvos", ("/tv", "/remotes", "/focus-and-selection")),
+    ("carplay", ("/carplay",)),
+    ("printing", ("/printing",)),
+    ("game", ("/game-",)),
+)
+
+
+def scope_of(pid: str) -> str:
+    """Область нормы по адресу страницы. Неопознанное — «universal».
+
+    Осторожность здесь односторонняя: лучше пометить универсальную норму
+    узкой областью, чем узкую выдать за универсальную.
+    """
+    low = (pid or "").lower()
+    for name, marks in SCOPE:
+        if any(m in low for m in marks):
+            return name
+    return "universal"
+
+
 def candidates(rows: list) -> list:
     """Нормы → кандидаты в правила. Один кандидат на (свойство, число, единица).
 
@@ -143,7 +181,10 @@ def candidates(rows: list) -> list:
                 a["texts"].append(law[:200])
     out = []
     for (prop, val, unit, kind), a in acc.items():
+        scopes = sorted({scope_of(x) for x in a["sources"]})
         out.append({"property": prop, "value": val, "unit": unit, "cmp": kind,
+                    "scope": scopes,
+                    "universal": scopes == ["universal"],
                     "hits": a["n"], "pages": len(a["sources"]),
                     "sources": [f"{HOST}{s}" for s in a["sources"][:5]],
                     "texts": a["texts"],
@@ -180,10 +221,16 @@ def render(cands: list, total_rows: int) -> str:
             "Кандидат — не правило. Правилом он становится, когда у него есть "
             "проверяемое свойство кода, однозначное число и испытание в суде "
             "в обе стороны. Принимает основатель (ст. 7.4).", "",
-            "| свойство | норма | направление | страниц | встреч | первоисточник |",
-            "|---|---|---|---|---|---|"]
+            "**Область обязательна.** Число, верное в своей области, за её "
+            "пределами становится выдумкой: норма со страницы слежения за "
+            "взглядом visionOS не есть норма веб-страницы. Кандидат с "
+            "областью, отличной от `universal`, связывается в правило только "
+            "для своей области — или не связывается вовсе.", "",
+            "| свойство | норма | направление | область | страниц | встреч | первоисточник |",
+            "|---|---|---|---|---|---|---|"]
     for c in cands[:80]:
         head.append(f"| {c['property']} | {c['value']:g} {c['unit']} | {c['cmp']} "
+                    f"| {'🌐 universal' if c['universal'] else '⚠️ ' + '/'.join(c['scope'])} "
                     f"| {c['pages']} | {c['hits']} | "
                     f"{'да' if c['primary'] else 'нет'} |")
     head += ["", "## Адреса", ""]
@@ -275,7 +322,7 @@ def main() -> int:
     print(f"норм просмотрено {len(rows)} · кандидатов {len(c)} · из свода {prim}")
     for x in c[:8]:
         print(f"  {x['property']} {x['value']:g} {x['unit']} ({x['cmp']}) · "
-              f"страниц {x['pages']} · {x['sources'][0]}")
+              f"страниц {x['pages']} · [{'/'.join(x['scope'])}] · {x['sources'][0]}")
     print(f"записано: {a.out}")
     return 0
 

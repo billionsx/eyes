@@ -1291,6 +1291,32 @@ def cmd_selftest(root: Path) -> int:
           "44x44" in _txt3 and "legible" not in _txt3)
     _sh.rmtree(_t3, ignore_errors=True)
 
+    print("SELFTEST · область нормы (число вне своей области — выдумка)")
+    import propose as _prop
+    check("норма слежения за взглядом помечена visionos",
+          _prop.scope_of("/design/human-interface-guidelines/eyes") == "visionos")
+    check("норма виджета помечена widget",
+          _prop.scope_of("/design/human-interface-guidelines/widgets") == "widget")
+    check("норма раскладки остаётся universal",
+          _prop.scope_of("/design/human-interface-guidelines/layout") == "universal")
+    check("норма кнопок остаётся universal",
+          _prop.scope_of("/design/human-interface-guidelines/buttons") == "universal")
+    _c = _prop.candidates([
+        ("/design/human-interface-guidelines/eyes",
+         "Use a margin of at least 16 points around the bounds of each item."),
+        ("/design/human-interface-guidelines/layout",
+         "Use a corner radius of at least 12 points for cards."),
+    ])
+    _by = {c["property"] + str(c["value"]): c for c in _c}
+    check("узкая норма НЕ выдаётся за универсальную",
+          all(not c["universal"] for c in _c if "eyes" in c["sources"][0]))
+    check("универсальная норма не помечена узкой ложно",
+          all(c["universal"] for c in _c if "layout" in c["sources"][0]))
+    check("область едет с каждым кандидатом",
+          all(c.get("scope") for c in _c))
+    check("область видна в документе кандидатов",
+          "Область обязательна" in (root / "bin" / "propose.py").read_text(encoding="utf-8"))
+
     print("SELFTEST · честность библиотеки (ЗКН-Э001)")
     check("СВЯЗЫВАЕМАЯ требует число + предмет + адрес",
           _grade.grade_line("Use a margin of at least 16 points around each item.",
