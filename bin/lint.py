@@ -51,6 +51,8 @@ BXE · ИСПОЛНИТЕЛЬНАЯ ВЛАСТЬ. Переносимый лин�
   AE18 DYNAMIC TYPE  кегль текста задан МАСШТАБИРУЕМО (rem/em/%/clamp),
                      а не жёстким px: от xSmall к xxxLarge Apple растит
                      кегль на 18 %, а на ступенях доступности — кратно
+  AE19 КАПСА       text-transform:uppercase — капсы у Apple нет, заголовок
+                   группы Title Case (§3.4); капс это iOS 12
   AE17 ПАРА ТЕМ    поверхность имеет значение для СВЕТЛОЙ и ТЁМНОЙ темы,
                    а не одно жёсткое на обе (только для проектов, где темы
                    уже объявлены)
@@ -230,6 +232,14 @@ def _in_print_scope(text: str, pos: int) -> bool:
     return any(PRINT_SCOPE.search(h) for h in _enclosing_headers(text, pos))
 
 SUPER = re.compile(r"clip-path\s*:\s*path\(|corner-shape", re.I)
+# AE19. Капса. Свод департамента прямо говорит: капсы у Apple НЕТ — заголовок
+# группы идёт Title Case (typography.caps_lock, §3.4); капс это iOS 12. Норма
+# была, правила под неё не было — и заглавные метки не ловились ничем.
+# Ловится ОБЪЯВЛЕНИЕ, а не литерал: `text-transform: uppercase` — решение о
+# начертании, машинно однозначное. Литеральные строки в разметке не судятся:
+# аббревиатура (ФИО, НДС, URL) заглавная по своей природе, и правило,
+# которое их ловит, воспитывает не вкус, а привычку игнорировать отчёт.
+UPPERCASE = re.compile(r"text-transform\s*:\s*uppercase", re.I)
 LSPX = re.compile(r"letter-spacing\s*:\s*(-?[\d.]+)px", re.I)
 FSIZE = re.compile(r"font-size\s*:\s*([\d.]+)px", re.I)
 BACKDROP = re.compile(r"backdrop-filter\s*:\s*([^;}\n]+)", re.I)
@@ -305,6 +315,10 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     op_tol = float(op_l.get("tolerance", 0.005))
     min_ms = float(tokens.get("motion", {}).get("min_ms_for_curve", 200))
     rad_ladder = {float(v) for v in tokens["geometry"].get("radius_ladder_pt", [])} | {float(v) for v in adapter.get("radius_extra", [])}
+    # Капсула — ФОРМА, а не значение лестницы: скругление ≥ порога означает
+    # «скруглить полностью». Судить её лестницей значит требовать выбрать
+    # угол там, где угла не выбирают (geometry.capsule_refs).
+    capsule = float(tokens["geometry"].get("capsule_min_pt", 1e9))
     stack_head = tuple(s.lower() for s in tokens["typography"].get("font_stack_head", []))
     press_max = float(tokens.get("motion", {}).get("press_response_ms_max", 120))
     tap_min = float(tokens.get("tap_target", {}).get("min_pt", 44)) \
@@ -314,23 +328,55 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # зашитым числом стареет молча вместе с базой (ЗКН-Э002).
     sep_min = float(tokens.get("separator", {}).get("width_pt", 1))
 
-    # Светлая лестница берётся из палитры, а не из базы замера: она
-    # ОПУБЛИКОВАНА Apple, а не снята департаментом, и смешивать два разных
-    # по весу свидетельства в одном поле нельзя. Нет палитры — правило по
-    # светлой теме молчит, как молчало раньше.
-    light_allow = []
-    _pal = Path(__file__).resolve().parents[1] / "registry" / "standards" / "palette.json"
-    if _pal.exists():
-        try:
-            _p = json.loads(_pal.read_text(encoding="utf-8"))
-            light_allow = ["#FFFFFF"] + [
-                v for n in range(6, 0, -1)
-                for v in [_p.get("gray", {}).get(f"systemGray{n}", {}).get("light")]
-                if v]
-        except (ValueError, OSError):
-            light_allow = []
+    # ── СВЕТЛАЯ ОСЬ. Два свидетельства разного веса, и они РАНЖИРОВАНЫ.
+    #
+    # Замер (surfaces.allow_light — 89 светлых кадров, точное 16-битное
+    # чтение с покадровой привязкой к белому и переводом P3→sRGB) вытесняет
+    # публикацию: цитата описывает намерение, замер — то, что вышло на экран.
+    # Палитра Apple (registry/standards/palette.json) остаётся ЗАПАСНЫМ
+    # путём — для осей и проектов, где замера ещё нет. Смешивать их в одном
+    # поле нельзя: два свидетельства разного веса под одним именем означают,
+    # что через месяц никто не скажет, откуда взялось число.
+    #
+    # Нет ни замера, ни палитры — правило по светлой теме ВОЗДЕРЖИВАЕТСЯ и
+    # говорит об этом вслух (ЗКН-Э008), а не молчит и не судит чужой осью.
+    light_allow = [hex6(c) for c in (tokens.get("surfaces", {})
+                                     .get("allow_light") or [])]
+    light_src = "замер"
+    if not light_allow:
+        _pal = Path(__file__).resolve().parents[1] / "registry" / "standards" / "palette.json"
+        if _pal.exists():
+            try:
+                _p = json.loads(_pal.read_text(encoding="utf-8"))
+                light_allow = [hex6("#FFFFFF")] + [
+                    hex6(v) for n in range(6, 0, -1)
+                    for v in [_p.get("gray", {}).get(f"systemGray{n}", {}).get("light")]
+                    if v]
+                light_src = "палитра Apple (цитата)"
+            except (ValueError, OSError):
+                light_allow = []
 
-    findings, files_n, looked = [], 0, []
+    findings, files_n, looked, blind = [], 0, [], []
+    # Ось проекта. Лестница поверхностей, запрет тени и лестница прозрачности
+    # сняты с ТЁМНОЙ системы. Светлый проект этими правилами судить нечем:
+    # приговор по чужой оси — это выдумка, а не строгость (ЗКН-Э001). Пока
+    # ось не снята, такие правила ВОЗДЕРЖИВАЮТСЯ — и говорят об этом вслух.
+    # Как только замер появляется в своде, они просыпаются сами.
+    base = str(adapter.get("base", "dark")).lower()
+    abstained = {}
+    if base == "light":
+        allow = set(light_allow) | {hex6(c) for c in adapter.get("allow_extra", [])}
+        for rule, ключ, чем in (
+                ("AE1", light_allow, "лестница светлых поверхностей"),
+                ("AE2", tokens.get("shadows", {}).get("light_depth"),
+                 "норма глубины на светлом холсте"),
+                ("AE9", tokens.get("opacity_ladder", {}).get("allow_light"),
+                 "лестница прозрачности светлого стекла")):
+            if rule in rules and not ключ:
+                abstained[rule] = (f"проект объявлен светлым (base: light), "
+                                   f"а {чем} департаментом не снята — "
+                                   f"судить нечем")
+        rules = [r for r in rules if r not in abstained]
     first_long, has_prm = None, False
     # AE17 копит по ВСЕМУ охвату: объявляет ли проект темы вообще и какие
     # поверхности из них выпадают. Один файл этого знать не может.
@@ -339,11 +385,13 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     # а не строки. Построчный упрёк дал бы сотню находок и утопил остальные.
     fs_px, fs_scale, fs_first = 0, 0, None
     for g in globs:
+        нашлось = 0
         for fp in sorted(glob.glob(str(project_root / g), recursive=True)):
             p = Path(fp)
             if not p.is_file() or p.suffix not in (".css", ".html", ".htm", ".tsx", ".ts", ".jsx", ".js"):
                 continue
             files_n += 1
+            нашлось += 1
             raw = p.read_text(encoding="utf-8", errors="replace")
             t = strip_comments(raw, p.suffix)
             rel = str(p.relative_to(project_root))
@@ -370,8 +418,13 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                                 f"Apple, /design/human-interface-guidelines/color"))
                         continue
                     if c not in allow:
+                        лест = (light_allow if base == "light"
+                                else tokens["surfaces"]["ladder"])
                         findings.append(("AE1", rel, _line_of(t, m.start()),
-                                         f"фон {c} вне лестницы поверхностей ({' → '.join(tokens['surfaces']['ladder'])})"))
+                                         f"фон {c} вне лестницы поверхностей "
+                                         f"({' → '.join(лест)}"
+                                         + (f", {light_src}" if base == "light" else "")
+                                         + ")"))
             if "AE2" in rules:
                 for m in SHADOW_DECL.finditer(t):
                     if not _shadow_is_outer(m.group(2)):
@@ -391,7 +444,8 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                     findings.append(("AE2", rel, _line_of(t, m.start()),
                                      "свечение/тень на чёрном холсте запрещены (box/text-shadow, drop-shadow) — глубина = ступень поверхности"))
             if "AE3" in rules:
-                bigs = [(float(m.group(1)), m.start()) for m in RADIUS.finditer(t) if float(m.group(1)) > rad_lim]
+                bigs = [(float(m.group(1)), m.start()) for m in RADIUS.finditer(t)
+                        if rad_lim < float(m.group(1)) < capsule]
                 if bigs and not SUPER.search(t):
                     v, pos = bigs[0]
                     findings.append(("AE3", rel, _line_of(t, pos),
@@ -501,9 +555,16 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             if "AE11" in rules:
                 for m in RADIUS.finditer(t):
                     v = float(m.group(1))
-                    if rad_ladder and v not in rad_ladder:
+                    if rad_ladder and v not in rad_ladder and v < capsule:
                         findings.append(("AE11", rel, _line_of(t, m.start()),
                                          f"border-radius {v:g}px вне измеренной лестницы {sorted(rad_ladder)}"))
+            if "AE19" in rules:
+                for m in UPPERCASE.finditer(t):
+                    findings.append((
+                        "AE19", rel, _line_of(t, m.start()),
+                        "text-transform: uppercase — капсы у Apple нет: "
+                        "заголовок группы идёт Title Case (§3.4), капс это "
+                        "iOS 12 (typography.caps_lock)"))
             if "AE13" in rules:
                 if "prefers-reduced-motion" in t.lower():
                     has_prm = True
@@ -565,6 +626,9 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                                     f"{bg.group(1)}) ниже нормы свода {cr_min:g}:1 "
                                     f"(🍎 живой HIG)"))
 
+        if not нашлось:
+            blind.append(g)
+
     if "AE18" in rules and fs_px >= 5 and fs_px > fs_scale and fs_first:
         # Порог объявлен: пять кеглей — это уже шкала, а не единичный
         # случай; большинство жёстких — это выбор проекта, а не недосмотр.
@@ -598,12 +662,31 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
                          "в охвате есть движение ≥%gms, но нет ни одного @media (prefers-reduced-motion) — Reduce Motion обязателен (HIG Motion)" % min_ms))
 
     return {"mode": mode, "files": files_n, "findings": findings,
-            "rules": rules, "paths": looked}
+            "rules": rules, "paths": looked,
+            # Глоб, не нашедший НИ ОДНОГО файла, обязан сказать о себе.
+            # Половина охвата, ведущая в несуществующий каталог, до сих пор
+            # не сообщала о себе ничем — и её пустота читалась как чистота.
+            "blind_globs": blind, "abstained": abstained, "base": base}
 
 
 def render(res: dict, adapter_name: str) -> str:
     out = [f"# BXE · отчёт линта · адаптер `{adapter_name}` · режим {res['mode']}",
            f"Файлов просмотрено: {res['files']} · правила: {', '.join(res['rules'])} · находок: {len(res['findings'])}", ""]
+
+    # Воздержавшиеся правила называются ПЕРВЫМИ. Правило, промолчавшее из-за
+    # неснятой оси, и правило, ничего не нашедшее, — разные вещи, и читатель
+    # обязан их различать, не заглядывая в исходники.
+    for rule, why in sorted((res.get("abstained") or {}).items()):
+        out.append(f"⊘ {rule} воздержалось: {why}")
+    if res.get("abstained"):
+        out.append("")
+
+    if res.get("blind_globs"):
+        out.append("⚠ охват смотрит в пустоту — эти глобы не нашли ни одного файла:")
+        for g in res["blind_globs"]:
+            out.append(f"- `{g}`")
+        out.append("")
+
     if not res["files"]:
         # ЗКН-Э006: пустой обход не есть доказательство чистоты.
         #
@@ -611,11 +694,16 @@ def render(res: dict, adapter_name: str) -> str:
         # возвращал ноль. CI с опечаткой в пути был бы зелёным вечно — то есть
         # закон против пустого обхода существовал, а главный орган его не
         # исполнял. Ноль находок при нуле файлов означает промах адреса, а не
-        # порядок в коде.
+        # порядок в коде. Глобы, не нашедшие ничего, названы выше поимённо.
         out.append("КРАСНЫЙ · обойдено 0 файлов — промах адреса, а не чистота "
                    "(ЗКН-Э006). Проверьте PROJECT_ROOT и глобы паспорта.")
+    elif not res["rules"]:
+        # Все правила охвата воздержались (ЗКН-Э008). Находок ноль — но не
+        # потому, что чисто, а потому, что судить было нечем.
+        out.append("ОТКАЗ: все правила охвата воздержались — вердикта нет.")
     elif not res["findings"]:
-        out.append("Чисто.")
+        out.append("Чисто по правилам, которые судили."
+                   if res.get("abstained") else "Чисто.")
     else:
         by = {}
         for r, f, ln, msg in res["findings"]:
@@ -649,9 +737,15 @@ def main(root: Path, adapter_name: str, mode: str, out_file: str = None, project
 
 if __name__ == "__main__":
     import argparse
+    import os
     ap = argparse.ArgumentParser()
     ap.add_argument("--adapter", required=True)
     ap.add_argument("--mode", choices=["strict", "report"], default="report")
     ap.add_argument("--out")
+    # Корень проекта объявлялся только переменной окружения из watch.py, а
+    # CLI молча падал в root.parent — соседний каталог рядом с деревом
+    # департамента. Ручной прогон обходил ноль файлов и печатал «Чисто».
+    ap.add_argument("--project-root", default=os.environ.get("PROJECT_ROOT"))
     a = ap.parse_args()
-    sys.exit(main(Path(__file__).resolve().parents[1], a.adapter, a.mode, a.out))
+    sys.exit(main(Path(__file__).resolve().parents[1], a.adapter, a.mode, a.out,
+                  Path(a.project_root).resolve() if a.project_root else None))

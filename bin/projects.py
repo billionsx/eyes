@@ -138,17 +138,34 @@ def client_pick(root: Path = None, name: str = None, globs: list = None,
 
 def live_pages(root: Path = None) -> list:
     """Страницы живого взгляда: сначала явный список в live-sources.json
-    (совместимость), затем live_pages/prod всех включённых паспортов."""
+    (совместимость), затем live_pages/prod всех включённых паспортов.
+
+    Паспорт может объявить `live_deny` — адреса, куда департамент не смотрит
+    НИКОГДА. Это не забывчивость охвата, а запрет: на таких страницах живут
+    цены и условия договора, и попасть в отчёт они не должны даже тогда,
+    когда охват однажды расширят шаблоном. Запрет сильнее включения:
+    совпадение с deny снимает адрес, откуда бы тот ни пришёл.
+    """
     root = root or ROOT
-    pages, seen = [], set()
+    pages, seen, deny = [], set(), []
+    for a in enabled(root).values():
+        deny += [str(u).rstrip("/") for u in (a.get("live_deny") or [])]
+
+    def взять(u):
+        if u in seen:
+            return
+        b = str(u).rstrip("/")
+        if any(b == d or b.startswith(d + "/") for d in deny):
+            return
+        pages.append(u)
+        seen.add(u)
+
     cfg = _read(root / "registry" / "live-sources.json") or {}
     for u in cfg.get("pages", []) or []:
-        if u not in seen:
-            pages.append(u); seen.add(u)
+        взять(u)
     for a in enabled(root).values():
         for u in (a.get("live_pages") or ([a["prod"]] if a.get("prod") else [])):
-            if u not in seen:
-                pages.append(u); seen.add(u)
+            взять(u)
     return pages
 
 
