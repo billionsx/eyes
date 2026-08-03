@@ -33,6 +33,7 @@ import json
 import re
 import shutil
 import sys
+import os
 import tempfile
 import urllib.error
 import urllib.request
@@ -110,6 +111,26 @@ def cmd_files(adapter: dict, targets: list) -> int:
     bases = [g.split("**")[0].rstrip("/") for g in globs]
     tmp = Path(tempfile.mkdtemp())
 
+    # ОБЩИЙ КОРЕНЬ целей. Нужен для файлов ВНЕ рабочего каталога: без него
+    # адрес сворачивался к одному имени, и два маршрута App Router метили
+    # в одну точку. Обнаружить столкновение и прерваться — честнее, чем
+    # затереть молча, но всё ещё отказ: в App Router КАЖДЫЙ маршрут зовётся
+    # page.tsx, и департамент не смог бы судить ни один такой проект.
+    # Уникальность адреса должна следовать из ПОСТРОЕНИЯ, а не из проверки.
+    def _общий_корень(paths):
+        real = []
+        for t in paths:
+            q = Path(t).resolve()
+            real.append(q if q.is_dir() else q.parent)
+        if not real:
+            return None
+        try:
+            return Path(os.path.commonpath([str(x) for x in real]))
+        except ValueError:            # разные тома — общего корня нет
+            return None
+
+    корень = _общий_корень(targets)
+
     def адрес(f: Path) -> Path:
         """Куда положить файл во временном дереве.
 
@@ -119,15 +140,32 @@ def cmd_files(adapter: dict, targets: list) -> int:
         называется page.tsx, поэтому обход двух маршрутов отчитывался
         за два файла, а судил один: молчание выдавалось за чистоту.
         """
-        try:
-            rel = f.resolve().relative_to(Path.cwd().resolve())
-        except ValueError:                       # файл вне рабочего каталога
-            rel = Path(f.name)
+        q = f.resolve()
+        rel = None
+        for якорь in (Path.cwd().resolve(), корень):
+            if якорь is None:
+                continue
+            try:
+                rel = q.relative_to(якорь)
+                break
+            except ValueError:
+                continue
+        if rel is None or not rel.parts:
+            # Последнее прибежище: путь целиком без ведущей косой. Длинно,
+            # зато однозначно — двух файлов по одному абсолютному пути
+            # не бывает, и молчаливого затирания не случится никогда.
+            rel = Path(*q.parts[1:]) if len(q.parts) > 1 else Path(q.name)
         for base in bases:                       # снять общую часть своего глоба
             частей = Path(base).parts
             if rel.parts[:len(частей)] == частей:
                 return tmp / base / Path(*rel.parts[len(частей):])
         return tmp / bases[0] / rel
+
+    # Обратная карта: адрес в зеркале → адрес, который назвал человек.
+    # Печатать зеркало значит указывать на файл, которого у клиента нет:
+    # он не сможет ни открыть его, ни поправить. Зеркало — механика
+    # департамента, а не место работы разработчика.
+    обратно = {}
 
     try:
         n = 0
@@ -141,19 +179,25 @@ def cmd_files(adapter: dict, targets: list) -> int:
                     continue
                 dst = адрес(f)
                 if dst.exists():
-                    # Затереть — значит засудить один файл вместо двух и
-                    # отчитаться за оба. Лучше остановиться и сказать.
+                    # Сюда после общего корня попасть уже нельзя: адрес
+                    # уникален по построению. Проверка оставлена сторожем —
+                    # если однажды правка вернёт схлопывание, департамент
+                    # остановится, а не отчитается за непросуженный файл.
                     print(f"два файла метят в один адрес обхода: {f} — "
                           "обход прерван, иначе один был бы пропущен молча")
                     return 2
                 dst.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(f, dst)
+                обратно[str(dst.relative_to(tmp))] = str(f)
                 n += 1
         if not n:
             print("файлов под правила паспорта не нашлось — "
                   "пустой обход это промах адреса, а не чистота")
             return 2
-        return говорить(judge(adapter, tmp),
+        находки = judge(adapter, tmp)
+        for f in находки:
+            f["path"] = обратно.get(f.get("path"), f.get("path"))
+        return говорить(находки,
                         f"BXE · {adapter.get('project')} · обойдено файлов: {n}")
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
@@ -234,6 +278,40 @@ def court() -> int:
           "strict": {"globs": [], "rules": []}}
     tmp = Path(tempfile.mkdtemp())
     try:
+
+        # ── коллизия App Router ────────────────────────────────────────────────
+        # Дефект найден ВТОРЫМ клиентом (Ethnomir), а не департаментом: два
+        # маршрута page.tsx метили в один адрес зеркала, обход отчитывался за
+        # два файла и судил один. Молчание выдавалось за чистоту.
+        rt = Path(tempfile.mkdtemp(prefix="eyes-router-"))
+        (rt / "app" / "steps").mkdir(parents=True)
+        (rt / "app" / "way").mkdir(parents=True)
+        (rt / "app" / "steps" / "page.tsx").write_text(
+            ".a{background:#f2f2f5;}", encoding="utf-8")
+        (rt / "app" / "way" / "page.tsx").write_text(
+            ".b{background:#123456;}", encoding="utf-8")
+        import io as _io
+        import contextlib as _ctx
+        # Паспорт с глобом на .tsx: маршруты App Router — это tsx, и судить
+        # их набором для .css бессмысленно.
+        ad_rt = {"project": "суд", "pt_to_css_px": 1,
+                 "report": {"globs": ["s/**/*.tsx"], "rules": ["AE1"]},
+                 "strict": {"globs": [], "rules": []}}
+        буфер = _io.StringIO()
+        with _ctx.redirect_stdout(буфер):
+            cmd_files(ad_rt, [str(rt / "app" / "steps" / "page.tsx"),
+                              str(rt / "app" / "way" / "page.tsx")])
+        вывод = буфер.getvalue()
+        chk("однофамильцы App Router СУДЯТСЯ оба, а не затирают друг друга",
+              вывод.count("AE1") >= 2 and "#F2F2F5" in вывод and "#123456" in вывод)
+        chk("обход не прерывается: адрес уникален по построению",
+              "обход прерван" not in вывод)
+        chk("адрес находки — НАСТОЯЩИЙ путь, а не зеркало департамента",
+              "steps/page.tsx" in вывод and "s/app/steps" not in вывод)
+        chk("оба маршрута различимы в выводе",
+              "steps/page.tsx" in вывод and "way/page.tsx" in вывод)
+        shutil.rmtree(rt, ignore_errors=True)
+
         (tmp / "s").mkdir()
         (tmp / "s" / "a.css").write_text(".x{box-shadow:0 0 4px #000}",
                                          encoding="utf-8")
