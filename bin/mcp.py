@@ -259,8 +259,25 @@ def scan(root, mode="report"):
     by_rule = Counter(x["rule"] for x in findings)
     by_file = Counter(x["file"] for x in findings)
     # Балл по объявленной формуле департамента в режиме советника.
-    score = round(max(0.0, 100.0 - 0.05 * len(findings)), 1)
-    gr = ("A" if score >= 93 else "B" if score >= 85 else
+    # БАЛЛ — ДОЛЯ СОБЛЮДЕНИЯ, а не линейный вычет.
+    #
+    # Старая формула вычитала 0.05 за находку и не знала знаменателя: 204
+    # находки на 740 файлах давали 89.8, а 300 на 195 — 85.0, хотя второй
+    # проект вчетверо гуще. Хуже: Hoppscotch получал A с 1466 файлами, где
+    # судить оказалось нечего — почти вся вёрстка там утилитарными классами,
+    # и департамент видел 69 объявлений на весь проект. Отличный балл за
+    # невидимое — то же враньё, что грейд A при нуле прочитанных файлов.
+    #
+    # Знаменатель — ПРЕДМЕТЫ: сколько объявлений вообще подлежало суду.
+    subjects = res.get("subjects", 0)
+    score = round(100.0 * (1.0 - len(findings) / subjects), 1) if subjects else 0.0
+    score = max(0.0, score)
+    # СЛАБОЕ СВИДЕТЕЛЬСТВО. Доля, снятая с горстки объявлений, — не оценка
+    # проекта, а шум. Департамент называет её, но БУКВЫ не ставит: грейд по
+    # неполным уликам был бы приговором по догадке (ЗКН-Э008).
+    thin = subjects < 100
+    gr = ("—" if thin else
+          "A" if score >= 93 else "B" if score >= 85 else
           "C" if score >= 70 else "D" if score >= 50 else "E")
     unres = res.get("vars_unresolved") or []
     return {"root": str(root), "files": res["files"],
@@ -272,6 +289,11 @@ def scan(root, mode="report"):
                 f"был бы при полном разборе." if unres else None),
             "findings_total": len(findings),
             "score": score, "grade": gr,
+            "subjects": subjects,
+            "evidence": ("СЛАБОЕ: судить было почти нечего "
+                         f"({subjects} объявлений на {res['files']} файлов) — "
+                         "доля названа, но грейд не ставится"
+                         if thin else None),
             "by_rule": [{"rule": r, "count": n,
                          **{k: v for k, v in guide_mod.guide(r).items()
                             if k in ("problem", "action", "target")}}
@@ -566,7 +588,10 @@ def court():
         all("node_modules" not in f["file"] for f in sc["sample"]))
     chk("у каждого правила в разбивке есть ЦЕЛЬ, а не только упрёк",
         all(b.get("target") for b in sc["by_rule"]))
-    chk("балл и грейд выставлены", sc["grade"] in "ABCDE" and sc["score"] <= 100)
+    chk("балл и грейд выставлены",
+        sc["grade"] in ("A", "B", "C", "D", "E", "—") and sc["score"] <= 100)
+    chk("малый знаменатель — грейд НЕ ставится, свидетельство названо слабым",
+        sc["grade"] == "—" and "СЛАБОЕ" in (sc.get("evidence") or ""))
     empty = scan(proj / "node_modules" / "nope")
     chk("несуществующий путь — внятный отказ, а не пустой отличный отчёт",
         "error" in empty)

@@ -1030,6 +1030,44 @@ def cmd_selftest(root: Path) -> int:
           any("typography" in f["why"] for f in _ae17_findings(_PX)
               if f["rule"] == "AE19"))
 
+    print("SELFTEST · балл — доля соблюдения, а не линейный вычет")
+    import mcp as _ms
+    import tempfile as _t6, shutil as _s6
+    from pathlib import Path as _P6
+
+    def _proj(files):
+        d = _P6(_t6.mkdtemp(prefix="eyes-score-"))
+        for nm, c in files.items():
+            (d / nm).parent.mkdir(parents=True, exist_ok=True)
+            (d / nm).write_text(c, encoding="utf-8")
+        r = _ms.scan(d)
+        _s6.rmtree(d, ignore_errors=True)
+        return r
+
+    _чисто = {"a.css": "".join(
+        f".c{i}{{border-radius:12px;font-size:17px;opacity:0.3;"
+        f"background:#1C1C1E;font-family:-apple-system;}}\n"
+        for i in range(30))}
+    _грязно = {"a.css": "".join(
+        f".c{i}{{border-radius:{7 + i}px;font-size:{19 + i}px;opacity:0.4{i};"
+        f"background:#3{i}3{i}3{i};font-family:Arial;}}\n"
+        for i in range(30))}
+    r1, r2 = _proj(_чисто), _proj(_грязно)
+    check("знаменатель считается: предметы суда есть",
+          r1["subjects"] >= 100 and r2["subjects"] >= 100)
+    check("ломаю → зелёный не даю: чистый проект держит высокую долю",
+          r1["score"] >= 93 and r1["grade"] == "A")
+    check("чиню → красный: грязный проект получает низкую долю",
+          r2["score"] < r1["score"] - 20)
+    check("балл ЗАВИСИТ от плотности, а не от числа файлов",
+          _proj({"a.css": _грязно["a.css"],
+                 "b.css": _чисто["a.css"]})["score"] > r2["score"])
+    _тонко = _proj({"a.css": ".x{border-radius:7px;}"})
+    check("малый знаменатель: доля названа, но БУКВА не ставится",
+          _тонко["grade"] == "—" and "СЛАБОЕ" in (_тонко["evidence"] or ""))
+    check("слабое свидетельство не выдаётся за отличный балл",
+          "СЛАБОЕ" in (_тонко["evidence"] or ""))
+
     print("SELFTEST · спорные переменные ролей судятся по объявлениям")
     _AMB_R = ".a{--r:20px;}\n.b{--r:5px;}\n.x{border-radius:var(--r);}"
     _r = [f for f in _ae17_findings(_AMB_R) if f["rule"] == "AE11"]

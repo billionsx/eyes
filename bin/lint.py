@@ -313,6 +313,36 @@ VAR_ROLES = (
 
 NUMVAL = re.compile(r"^([-+]?\d*\.?\d+)\s*(px|rem|em|%)?$")
 
+# ── ПРЕДМЕТЫ СУДА ───────────────────────────────────────────────────────────
+# Балл вычитал за находку линейно, и потому не различал плотность: 204
+# находки на 740 файлах давали 89.8, а 300 на 195 — 85.0, хотя второй проект
+# вчетверо гуще. Знаменателя не было вовсе.
+#
+# Знаменатель у правила есть всегда: сколько раз его ПРЕДМЕТ вообще
+# встретился. Правило скруглений судит скругления, а не файлы. Отсюда балл
+# как ДОЛЯ СОБЛЮДЕНИЯ: из N просуженных объявлений M нарушают.
+#
+# Список объявлен. Предмет, у которого счёт не берётся статикой (цель
+# касания, контраст пары), в знаменатель не входит — считать то, чего не
+# считаешь, значит подгонять балл.
+SUBJECTS = (
+    re.compile(r"(?:background|background-color)\s*:\s*[^;{}]+", re.I),
+    re.compile(r"\b(?:box-shadow|text-shadow)\s*:\s*[^;{}]+|drop-shadow\(", re.I),
+    re.compile(r"border-radius\s*:\s*[^;{}]+", re.I),
+    re.compile(r"letter-spacing\s*:\s*[^;{}]+", re.I),
+    re.compile(r"font-size\s*:\s*[^;{}]+", re.I),
+    re.compile(r"font-family\s*:\s*[^;{}]+", re.I),
+    re.compile(r"\bopacity\s*:\s*[^;{}]+", re.I),
+    re.compile(r"\b(?:transition|animation)(?:-duration)?\s*:\s*[^;{}]+", re.I),
+    re.compile(r"backdrop-filter\s*:\s*[^;{}]+", re.I),
+    re.compile(r"text-transform\s*:\s*[^;{}]+", re.I),
+)
+
+
+def _count_subjects(text):
+    """Сколько объявлений в тексте вообще подлежат суду департамента."""
+    return sum(len(rx.findall(text)) for rx in SUBJECTS)
+
 
 def _judge_var_scales(decls, roles, tokens, rules, resolved=()):
     """Находки по объявлениям переменных ролей с лестницей.
@@ -725,6 +755,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
     var_defs, var_ambiguous = _collect_vars(project_root, globs)
     # Объявления с темой и ролью — для суда над спорными переменными.
     var_decls, var_roles = _var_decls(project_root, globs)
+    subjects = 0
 
     for g in globs:
         нашлось = 0
@@ -746,6 +777,7 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             # и адрес находки укажет не туда — ровно тот дефект, что нашёл
             # второй клиент. Проверено судом в обе стороны.
             t = _expand_vars(t, var_defs)
+            subjects += _count_subjects(t)
             rel = str(p.relative_to(project_root))
             looked.append(rel)
 
@@ -1040,6 +1072,8 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             # половине его правды. Но и промолчать о них нельзя — иначе балл
             # выглядит лучше, чем есть, а департамент выдаёт непроверенное
             # за чистое (ЗКН-Э001).
+            # Знаменатель балла: сколько объявлений вообще судилось.
+            "subjects": subjects,
             "vars_resolved": len(var_defs),
             "vars_unresolved": var_ambiguous,
             # Глоб, не нашедший НИ ОДНОГО файла, обязан сказать о себе.
