@@ -1204,6 +1204,36 @@ def cmd_selftest(root: Path) -> int:
     check("соседняя страница при этом цела", "чужой" in _txt)
     _sh.rmtree(_t2, ignore_errors=True)
 
+    # Порядок очереди по форме адреса. Замер: заглушка символа API даёт 0.45
+    # строки, статья — 2.38, свод — 5.43. Заглушки составляли 87% очереди.
+    check("форма адреса различается до загрузки",
+          _atlas.shape_of("/design/human-interface-guidelines/layout") == "design"
+          and _atlas.shape_of("/documentation/UIKit/add-home-screen-quick-actions") == "article"
+          and _atlas.shape_of("/documentation/UIKit/uibutton") == "symbol"
+          and _atlas.shape_of("/documentation/UIKit/init(frame:)") == "symbol")
+    _fw = {"uikit": {"v": 100, "d": 100}}
+    _q = ["/documentation/UIKit/uibutton", "/documentation/UIKit/add-quick-actions",
+          "/documentation/UIKit/inittype"]
+    _o = _atlas.order_frontier(_q, _fw)
+    check("статья читается раньше заглушки символа",
+          _o.index("/documentation/UIKit/add-quick-actions") == 0)
+    check("заглушки уходят в хвост, а НЕ из очереди (ЗКН-Э001)",
+          sorted(_o) == sorted(_q))
+
+    # Хранение текста: починка сита не должна стоить обхода интернета.
+    _t3 = pathlib.Path(_tf.mkdtemp()); _r3 = _t3 / "registry"
+    (_r3 / "library").mkdir(parents=True)
+    _atlas._corpus_put(_r3, "/design/hig/x", "Buttons should be legible.")
+    _atlas._corpus_put(_r3, "/design/hig/x",
+                       "Use a minimum tappable area of 44x44 points for controls.")
+    _rm = _atlas.remine(_t3)
+    check("перемол идёт офлайн по сохранённому корпусу", _rm["pages"] == 1)
+    _lib = list((_r3 / "library").glob("*.jsonl"))
+    _txt3 = _lib[0].read_text(encoding="utf-8") if _lib else ""
+    check("корпус хранит последнее прочтение страницы, а не все подряд",
+          "44x44" in _txt3 and "legible" not in _txt3)
+    _sh.rmtree(_t3, ignore_errors=True)
+
     print("SELFTEST · честность библиотеки (ЗКН-Э001)")
     check("СВЯЗЫВАЕМАЯ требует число + предмет + адрес",
           _grade.grade_line("Use a margin of at least 16 points around each item.",
@@ -1261,6 +1291,7 @@ def main() -> int:
     at.add_argument("--deploy-workflow", default="", help="имя воркфлоу деплоя проекта")
     sub.add_parser("projects")
     sub.add_parser("selftest")
+    sub.add_parser("remine")
     a = ap.parse_args()
 
     if a.cmd == "status":
@@ -1338,6 +1369,11 @@ def main() -> int:
                   f"globs={len((v.get('report') or {}).get('globs', []))} "
                   f"strict={len((v.get('strict') or {}).get('rules', []))}")
         print("страниц живого взгляда:", len(projects_mod.live_pages(ROOT)))
+        return 0
+    if a.cmd == "remine":
+        import atlas as _a
+        r = _a.remine(ROOT)
+        print(f"перемол офлайн: страниц {r['pages']:,} · строк {r.get('laws', 0):,}")
         return 0
     if a.cmd == "selftest":
         return cmd_selftest(ROOT)

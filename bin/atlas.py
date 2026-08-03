@@ -27,6 +27,7 @@ BXE · АТЛАС. Автономный цикл по ВСЕЙ документ�
 Граница прежняя (устав ст. 3): атлас пишет ТЕКСТ законов и адреса, числа
 базы стандартов рождаются только замером или официальным китом с адресом.
 """
+import gzip
 import hashlib
 import json
 import re
@@ -107,6 +108,39 @@ def framework_of(pid: str) -> str:
     return (parts[1].lower() if len(parts) > 1 else "_root") or "_root"
 
 
+# УРОЖАЙ ПО ФОРМЕ АДРЕСА. Замер 02.08.2026 на 36 691 прочитанной странице:
+#
+#   форма адреса          страниц   медиана символов   строк со страницы
+#   /design/                  188              6 094               5.43
+#   статья (через дефис)    4 973              1 498               2.38
+#   прочее                  2 244                740               1.48
+#   символ слитно          16 002                224               0.48
+#   символ с сигнатурой    13 284                180               0.43
+#
+# Заглушка символа API — это сигнатура и одна строка описания; норм в ней нет
+# по построению. При этом заглушки составляли 87% очереди: департамент читал
+# телефонную книгу и удивлялся, что в ней нет стихов.
+#
+# Множители — измеренный урожай, делённый на средний по корпусу (0.81). Не
+# выдуманы и подлежат пересчёту, когда замер изменится (ЗКН-Э001).
+SHAPE = {"design": 6.7, "article": 2.9, "other": 1.8, "symbol": 0.55}
+
+
+def shape_of(pid: str) -> str:
+    """Форма адреса. Различима ДО загрузки — в этом вся её ценность."""
+    seg = [x for x in (pid or "").split("/") if x]
+    last = seg[-1] if seg else ""
+    if pid.lower().startswith("/design"):
+        return "design"
+    if "(" in last or ")" in last or ":" in last:
+        return "symbol"
+    if "-" in last:
+        return "article"
+    if last.islower() and len(last) > 2:
+        return "symbol"
+    return "other"
+
+
 def order_frontier(frontier: list, fw: dict, probe: int = PROBE) -> list:
     """Порядок обхода по УРОЖАЮ ПРЕДМЕТА, а не по времени попадания в очередь.
 
@@ -139,7 +173,9 @@ def order_frontier(frontier: list, fw: dict, probe: int = PROBE) -> list:
         if pid.startswith(PRIMARY) and s.get("v", 0) < probe:
             return -1e9
         d, v = s.get("d", 0), s.get("v", 0)
-        return -(d + PRIOR_D) / (v + PRIOR_V)
+        # Вес фреймворка × вес формы адреса. Ничего не удаляется: заглушки
+        # уходят в хвост, а не из очереди (ЗКН-Э001).
+        return -((d + PRIOR_D) / (v + PRIOR_V)) * SHAPE[shape_of(pid)]
     return [p for _, p in sorted(enumerate(frontier),
                                  key=lambda ip: (rank(ip[1]), ip[0]))]
 
@@ -222,6 +258,73 @@ def _mine_laws(text: str):
                 norm.append(s)
     room = max(0, LAWS_PER_PAGE - len(bind) - len(num))
     return bind + num + norm[:room], off
+
+
+def _corpus_path(reg: Path, pid: str) -> Path:
+    h = hashlib.sha256(pid.encode()).hexdigest()[:2]
+    return reg / "corpus" / f"{h}.jsonl.gz"
+
+
+def _corpus_put(reg: Path, pid: str, text: str) -> None:
+    """Сохранить текст страницы. Идемпотентно по адресу.
+
+    Родословная (02.08.2026): департамент хранил только отпечаток страницы, но
+    не её текст. Из этого следовало, что ЛЮБАЯ починка сита требовала заново
+    обойти интернет: 33 691 просроченная страница = 106 суток обхода. Инструмент
+    был структурно неспособен улучшить собственное извлечение иначе как
+    месяцами хождения.
+
+    Цена вопроса оказалась 8.5 МБ сжатого текста на весь нынешний корпус.
+    Теперь перемол чинёным ситом идёт офлайн за минуты и повторяем сколько
+    угодно раз.
+    """
+    f = _corpus_path(reg, pid)
+    f.parent.mkdir(parents=True, exist_ok=True)
+    rows = {}
+    if f.exists():
+        with gzip.open(f, "rt", encoding="utf-8") as fh:
+            for ln in fh:
+                ln = ln.strip()
+                if not ln:
+                    continue
+                try:
+                    d = json.loads(ln)
+                    rows[d["id"]] = d
+                except Exception:
+                    pass
+    rows[pid] = {"id": pid, "text": text}
+    with gzip.open(f, "wt", encoding="utf-8") as fh:
+        for d in rows.values():
+            fh.write(json.dumps(d, ensure_ascii=False) + "\n")
+
+
+def remine(root: Path) -> dict:
+    """ПЕРЕМОЛ ОФЛАЙН. Перечитать сохранённый корпус текущими ситами.
+
+    Ни одного сетевого запроса. Стоимость починки сита падает со 106 суток
+    до минут — а значит, сито можно чинить столько раз, сколько нужно.
+    """
+    reg = root / "registry"
+    cdir = reg / "corpus"
+    pages = mined = 0
+    if not cdir.is_dir():
+        return {"pages": 0, "laws": 0, "note": "корпус пуст — нечего перемалывать"}
+    for f in sorted(cdir.glob("*.jsonl.gz")):
+        with gzip.open(f, "rt", encoding="utf-8") as fh:
+            for ln in fh:
+                ln = ln.strip()
+                if not ln:
+                    continue
+                try:
+                    d = json.loads(ln)
+                except Exception:
+                    continue
+                laws, _ = _mine_laws(d.get("text", ""))
+                pages += 1
+                if laws:
+                    _lib_write(reg, d["id"], laws)
+                    mined += len(laws)
+    return {"pages": pages, "laws": mined}
 
 
 def _lib_write(reg: Path, pid: str, laws: list):
@@ -449,6 +552,7 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
                 if ref != pid and _seen(reg, ref) is None and ref not in frontier:
                     frontier.append(ref)
                     enq += 1
+            _corpus_put(reg, pid, ex["text"])
             if laws:
                 _lib_write(reg, pid, laws)
                 mined += len(laws)
