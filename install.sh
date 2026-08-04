@@ -19,7 +19,19 @@ fi
 
 echo "· проверяю исправность"
 python3 "$DIR/bin/mcp.py" --court >/dev/null || { echo "СУД КРАСНЫЙ — не ставлю"; exit 1; }
+python3 "$DIR/bin/loop.py" --court >/dev/null || { echo "СУД ПЕТЛИ КРАСНЫЙ — не ставлю"; exit 1; }
 echo "  суд зелёный"
+
+# Навык петли ревью (ст. 58) кладётся туда, где агент читает навыки сам.
+# Каталог создаётся, только если у агента уже есть свой дом: плодить чужие
+# папки в $HOME département не вправе.
+for AGENT in "$HOME/.claude" "$HOME/.codex" "$HOME/.agents"; do
+  [ -d "$AGENT" ] || continue
+  mkdir -p "$AGENT/skills"
+  rm -rf "$AGENT/skills/loop-code-review-bxe"
+  cp -R "$DIR/skills/loop-code-review-bxe" "$AGENT/skills/"
+  echo "  навык петли ревью → $AGENT/skills/loop-code-review-bxe"
+done
 
 cat <<JSON
 

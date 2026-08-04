@@ -16,6 +16,8 @@ Cursor, Windsurf) получает четыре инструмента:
   eyes_law      ищет норму Apple под вопрос — с адресом страницы
   eyes_token    выдаёт измеренное число базы — с адресом замера
   eyes_attest   показывает, подтверждён ли замер словами свода
+  eyes_loop     область задачи + гейт + промпт свежему ревьюеру (ст. 58)
+  eyes_verdict  таблица приёмки петли: балл не отменяет находку (ЗКН-Э009)
 
 ГЛАВНОЕ РЕШЕНИЕ. eyes_check не имеет собственных правил. Он кладёт фрагмент
 во временное дерево и зовёт bin/lint.py — тот самый орган, что стоит в
@@ -48,6 +50,7 @@ import attest as att_mod   # noqa: E402
 import tally as tally_mod  # noqa: E402  журнал присутствия (только локально)
 import guide as guide_mod  # noqa: E402  цель берётся из замера
 import symbols as sym_mod  # noqa: E402  перечень системных глифов
+import loop as loop_mod    # noqa: E402  петля ревью (ст. 58)
 
 PROTOCOL = "2025-06-18"
 NAME = "billions-x-eyes"
@@ -159,6 +162,57 @@ TOOLS = [
          "properties": {
              "path": {"type": "string", "description": "Предмет, например "
                                                        "tap_target."}}}},
+    {"name": "eyes_loop",
+     "description": "ПЕТЛЯ РЕВЬЮ (ст. 58). Готовит круг ревью для изменений "
+                    "ТЕКУЩЕЙ задачи: отделяет их от чужих правок в дереве, "
+                    "прогоняет гейт департамента по ДОБАВЛЕННЫМ строкам и "
+                    "выдаёт самодостаточный промпт для СВЕЖЕГО ревьюера без "
+                    "родительской истории. При красном гейте промпт не "
+                    "выдаётся: сначала чинится названное машиной. Пути задачи "
+                    "объявляются явно — принадлежность не угадывается.",
+     "inputSchema": {
+         "type": "object",
+         "properties": {
+             "root": {"type": "string",
+                      "description": "Корень репозитория проекта."},
+             "paths": {"type": "array", "items": {"type": "string"},
+                       "description": "Пути, принадлежащие текущей задаче."},
+             "exclude": {"type": "array", "items": {"type": "string"},
+                         "description": "Пути, которые задаче НЕ принадлежат."},
+             "validated": {"type": "array", "items": {"type": "string"},
+                           "description": "Прогнанные внешние проверки с кодом "
+                                          "возврата: \"npm test=0\"."},
+             "project": {"type": "string",
+                         "description": "Имя паспорта в adapters/, если есть."}},
+         "required": ["root", "paths"]}},
+    {"name": "eyes_verdict",
+     "description": "ТАБЛИЦА ПРИЁМКИ петли ревью. Принимает балл ревьюера, "
+                    "перечень неснятых находок и состояние гейта, возвращает "
+                    "решение: ПРИЁМ, ПРОДОЛЖИТЬ или НЕПОЛНО. Любая неснятая "
+                    "находка и любая красная проверка сильнее любого балла "
+                    "(ЗКН-Э009). Исчерпание пяти проходов и застой закрывают "
+                    "петлю как НЕПОЛНУЮ, а не как успех.",
+     "inputSchema": {
+         "type": "object",
+         "properties": {
+             "score": {"type": "number",
+                       "description": "Числовая оценка ревьюера от 1 до 10."},
+             "findings": {"type": "array", "items": {"type": "string"},
+                          "description": "Неснятые действенные находки. "
+                                         "Пустой список = находок нет."},
+             "no_actionable": {"type": "boolean",
+                               "description": "Ревьюер ЯВНО сказал, что "
+                                              "действенных замечаний нет."},
+             "gate_green": {"type": "boolean",
+                            "description": "Проверки затронутой поверхности "
+                                           "зелёные. По умолчанию да."},
+             "root": {"type": "string", "description": "Корень проекта."},
+             "paths": {"type": "array", "items": {"type": "string"},
+                       "description": "Пути задачи — для отпечатка "
+                                      "поверхности (ловля застоя)."},
+             "persist": {"type": "boolean",
+                         "description": "Дожимать без предела проходов. "
+                                        "Планку не опускает."}}}},
 ]
 
 
@@ -383,6 +437,57 @@ def call_tool(name, args):
             except Exception:
                 pass
         return _text(res)
+    if name == "eyes_loop":
+        root = args.get("root")
+        paths = args.get("paths") or []
+        if not isinstance(root, str) or not root.strip():
+            return _text({"error": "нужен root — корень репозитория"})
+        if not paths:
+            return _text({"error": "нужны paths — пути текущей задачи. "
+                                   "Принадлежность изменений не угадывается: "
+                                   "если она неясна, спроси пользователя"})
+        proot = Path(root).expanduser().resolve()
+        passport = None
+        pn = (args.get("project") or "").strip()
+        if pn and (ADAPTERS / f"{pn}.json").exists():
+            passport = json.loads((ADAPTERS / f"{pn}.json").read_text(encoding="utf-8"))
+        sc = loop_mod.scope(proot, paths=paths, exclude=args.get("exclude") or [])
+        g = loop_mod.gate(ROOT, proot, sc, validated=args.get("validated") or [],
+                          passport=passport)
+        out = {"scope": {k: v for k, v in sc.items() if k != "root"},
+               "gate": {"green": g["green"], "blocking": g["blocking"],
+                        "inherited": g["inherited"], "external": g["external"],
+                        "commands": g["commands"],
+                        "not_lintable": g["not_lintable"]}}
+        if not g["green"]:
+            out["prompt"] = None
+            out["next"] = ("Промпт не выдан: свежего ревьюера зовут по зелёной "
+                           "проверке. Почини блокирующие находки и повтори.")
+            return _text(out)
+        try:
+            out["prompt"] = loop_mod.prompt(sc, g)
+        except (loop_mod.ScopeError, loop_mod.LeakError) as e:
+            return _text({"error": str(e)})
+        out["next"] = ("Отдай promt СВЕЖЕМУ агенту с чистым контекстом в режиме "
+                       "только чтения. Ничего своего к нему не добавляй. "
+                       "Ответ ревьюера внеси через eyes_verdict.")
+        return _text(out)
+    if name == "eyes_verdict":
+        st = loop_mod.load_state()
+        sh = None
+        if args.get("root") and args.get("paths"):
+            sh = loop_mod.surface(Path(args["root"]).expanduser().resolve(),
+                                  args["paths"])
+        r = loop_mod.verdict(
+            st, score=args.get("score"), findings=args.get("findings") or [],
+            no_actionable=bool(args.get("no_actionable")),
+            gate_green=bool(args.get("gate_green", True)), surface_hash=sh,
+            persist=args.get("persist"))
+        loop_mod.save_state(st)
+        return _text({"decision": r["decision"], "why": r["why"],
+                      "pass": r["n"], "limit": st.get("limit"),
+                      "ask_once": r.get("ask_once", False),
+                      "stagnant": r.get("stagnant", False)})
     if name == "eyes_guide":
         return _text(guide_mod.guide(str(args.get("rule", "")).upper()))
     if name == "eyes_symbol":
@@ -522,9 +627,10 @@ def court():
 
     r = handle({"jsonrpc": "2.0", "id": 2, "method": "tools/list"})
     names = [t["name"] for t in r["result"]["tools"]]
-    chk("объявлены все восемь инструментов департамента",
+    chk("объявлены все десять инструментов департамента",
         names == ["eyes_scan", "eyes_guide", "eyes_symbol", "eyes_business",
-                  "eyes_check", "eyes_law", "eyes_token", "eyes_attest"])
+                  "eyes_check", "eyes_law", "eyes_token", "eyes_attest",
+                  "eyes_loop", "eyes_verdict"])
     chk("главный инструмент объявлен ПЕРВЫМ: агент берёт верхний",
         names[0] == "eyes_scan")
     chk("у каждого инструмента объявлена схема входа",
@@ -658,6 +764,40 @@ def court():
                 "params": {"name": "eyes_token", "arguments": {"path": "geometry"}}})
     chk("узел раскрывается списком своих замеров",
         "under" in json.loads(r["result"]["content"][0]["text"]))
+
+    # Петля ревью через присутствие. Состояние петли на время суда уводится
+    # во временный файл: суд не имеет права дописывать журнал департамента.
+    _keep = loop_mod.STATE
+    loop_mod.STATE = Path(tempfile.mkdtemp(prefix="eyes-mcp-loop-")) / "s.json"
+    try:
+        r = handle({"jsonrpc": "2.0", "id": 11, "method": "tools/call",
+                    "params": {"name": "eyes_loop",
+                               "arguments": {"root": str(ROOT)}}})
+        d = json.loads(r["result"]["content"][0]["text"])
+        chk("петля без объявленных путей отказывает и говорит почему",
+            "error" in d and "не угадыва" in d["error"])
+
+        r = handle({"jsonrpc": "2.0", "id": 12, "method": "tools/call",
+                    "params": {"name": "eyes_verdict", "arguments": {
+                        "score": 9.9, "findings": ["утечка ключа в лог"]}}})
+        d = json.loads(r["result"]["content"][0]["text"])
+        chk("ЗКН-Э009 действует и через присутствие: 9.9 при находке — не приём",
+            d["decision"] == "ПРОДОЛЖИТЬ")
+
+        r = handle({"jsonrpc": "2.0", "id": 13, "method": "tools/call",
+                    "params": {"name": "eyes_verdict", "arguments": {
+                        "score": 9.9, "findings": [], "gate_green": False}}})
+        chk("красный гейт через присутствие тоже сильнее балла",
+            json.loads(r["result"]["content"][0]["text"])["decision"]
+            == "ПРОДОЛЖИТЬ")
+
+        r = handle({"jsonrpc": "2.0", "id": 14, "method": "tools/call",
+                    "params": {"name": "eyes_verdict", "arguments": {
+                        "score": 9.6, "findings": [], "gate_green": True}}})
+        chk("чистый проход при зелёном гейте принимается",
+            json.loads(r["result"]["content"][0]["text"])["decision"] == "ПРИЁМ")
+    finally:
+        loop_mod.STATE = _keep
 
     r = handle({"jsonrpc": "2.0", "id": 10, "method": "tools/call",
                 "params": {"name": "нетинструмента", "arguments": {}}})

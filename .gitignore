@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .DS_Store
 var/
+registry/state/loop-review.json

@@ -5,14 +5,15 @@
 
 Эфир: **[vrajs.com](https://vrajs.com)** · лист в Markdown:
 [`dashboard/DASHBOARD.md`](dashboard/DASHBOARD.md) · устав:
-[`CONSTITUTION.md`](CONSTITUTION.md) редакция 7.
+[`CONSTITUTION.md`](CONSTITUTION.md) редакция 8.
 
 Органы: **разведка** официальных источников Apple без ИИ · **атлас** всей
 документации · **библиотека** законов с адресом каждого числа · **знание**
 (нормативные выжимки) · **кит** (величины официальных design kit) ·
 **кадротека** (кадры приложений Apple) · **живой взгляд** (настоящий DOM
 и computed-styles прода) · **советник и храповик** (долг только падает) ·
-**суд** (selftest на живых нарушениях в обе стороны) · **дозор iOS 27**
+**петля ревью** (круг «свежий ревьюер → правки → проверка» до подписи,
+ст. 58) · **суд** (selftest на живых нарушениях в обе стороны) · **дозор iOS 27**
 с протоколом смены базы · **служба** (ревью PR, монитор прода,
 пиксель-сертификация, страж App Store, Big7-бриф).
 
@@ -46,6 +47,7 @@ python3 bin/eyes.py projects          # проверить реестр
 ```
 python3 bin/eyes.py status      # сводка департамента
 python3 bin/eyes.py selftest    # суд: ломаю → красный, чиню → зелёный
+python3 bin/eyes.py loop start --root . --paths "src/a.css"   # петля ревью
 python3 bin/eyes.py projects    # реестр подключённых проектов
 python3 bin/eyes.py crawl       # разведка (живая сеть)
 python3 bin/eyes.py atlas       # шаг по документации

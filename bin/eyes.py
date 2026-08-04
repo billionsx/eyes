@@ -8,6 +8,8 @@ BXE · единая точка входа департамента.
   ios27     — дозор iOS 27 по снимкам; --issue-on-detect открывает issue
   lint      — исполнительная власть по адаптеру проекта
   attach    — подключить департамент к новому проекту (создать адаптер)
+  loop      — петля ревью (ст. 58): область задачи → гейт → промпт
+              свежему ревьюеру → вердикт. Балл не отменяет находку.
   selftest  — батарея живых нарушений в обе стороны (ломаю → красный,
               чиню → зелёный). Гейт живёт вместе со своим тестом.
 
@@ -37,6 +39,7 @@ import weblab as weblab_mod  # noqa: E402
 import consult as consult_mod  # noqa: E402
 import verify as verify_mod  # noqa: E402
 import lint as lint_mod  # noqa: E402
+import loop as loop_mod  # noqa: E402
 
 IOS27 = re.compile(r"\b(?:iOS|iPadOS)\s*27\b")
 
@@ -378,6 +381,11 @@ def cmd_selftest(root: Path) -> int:
     adapter["strict"]["globs"] = ["commented.css"]
     res_c = lint_mod.run(root, adapter, tokens, "strict", fx)
     check("комментарий срезан до проверки: нарушитель в /* */ не считается", not res_c["findings"])
+
+    print("SELFTEST · петля ревью (ст. 58)")
+    _loop_rc = loop_mod.court()
+    check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
+          _loop_rc == 0)
 
     print("SELFTEST · разведка (crawler, офлайн)")
     tmp = Path(tempfile.mkdtemp(prefix="eyes-"))
@@ -2138,6 +2146,11 @@ def cmd_selftest(root: Path) -> int:
 
 # ─────────────────────────────── main ──────────────────────────────────
 def main() -> int:
+    # Петля разбирает свой вход сама. Пропускать её ключи через argparse
+    # родителя нельзя: REMAINDER не ловит ведущий «--ключ», и подкоманда
+    # молча падает на разборе вместо работы.
+    if sys.argv[1:2] == ["loop"]:
+        return loop_mod.main(sys.argv[2:])
     ap = argparse.ArgumentParser(prog="bxad")
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("status")
@@ -2174,6 +2187,7 @@ def main() -> int:
     sub.add_parser("projects")
     sub.add_parser("selftest")
     sub.add_parser("remine")
+    sub.add_parser("loop")
     a = ap.parse_args()
 
     if a.cmd == "status":
