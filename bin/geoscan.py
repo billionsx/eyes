@@ -221,6 +221,50 @@ def corner_radius_px(img, s, bg, side: str = "top"):
     return round(est[len(est) // 2], 2)
 
 
+MIN_ROW_PT = 8.0      # ниже — это пара линеек, а не строка списка
+
+
+def separator_runs(img, s):
+    """Разделители внутри поверхности: [(y начала, длина прогона)] в пикселях.
+
+    Возвращается ПОЛОЖЕНИЕ, а не только толщина, потому что положение несёт
+    второе число: расстояние между соседними разделителями и есть шаг строки
+    списка. Толщину мерили и раньше, а шаг — нет, и семь дыр `rows.*` стояли
+    незакрытыми при том, что улика лежала в тех же кадрах.
+    """
+    col = s["color"]
+    half = (s["x1"] - s["x0"] + 1) // 2
+    marks = []
+    for y in range(s["y0"], s["y1"] + 1):
+        seg = img[y][s["x0"]:s["x1"] + 1]
+        _, _, c, ln = longest_run(seg)
+        marks.append(bool(c and not _close(c, col) and ln >= half))
+    out, run, start = [], 0, 0
+    for i, m in enumerate(marks):
+        if m:
+            if not run:
+                start = s["y0"] + i
+            run += 1
+        elif run:
+            out.append((start, run))
+            run = 0
+    if run:
+        out.append((start, run))
+    return out
+
+
+def row_pitches_px(img, s):
+    """Шаги строк внутри поверхности: расстояния между началами разделителей.
+
+    Порог MIN_ROW_PT объявлен, а не подобран: две линейки, стоящие в пикселе
+    друг от друга, — это рамка, а не две строки. Всё, что выше порога, идёт
+    в совокупность как есть, и решение о согласии принимает geofill, а не
+    этот порог.
+    """
+    ys = [y for y, _ in separator_runs(img, s)]
+    return [ys[i + 1] - ys[i] for i in range(len(ys) - 1)]
+
+
 def separators_px(img, s):
     """Толщина разделителей внутри поверхности, в пикселях.
 
@@ -228,23 +272,7 @@ def separators_px(img, s):
     больше половины её ширины. Считается ДЛИНА НЕПРЕРЫВНОГО ПРОГОНА таких
     рядов: три пикселя подряд — это три, а не один.
     """
-    col = s["color"]
-    half = (s["x1"] - s["x0"] + 1) // 2
-    marks = []
-    for y in range(s["y0"], s["y1"] + 1):
-        seg = img[y][s["x0"]:s["x1"] + 1]
-        x0, x1, c, ln = longest_run(seg)
-        marks.append(bool(c and not _close(c, col) and ln >= half))
-    out, run = [], 0
-    for m in marks:
-        if m:
-            run += 1
-        elif run:
-            out.append(run)
-            run = 0
-    if run:
-        out.append(run)
-    return out
+    return [ln for _, ln in separator_runs(img, s)]
 
 
 def role_of(rec: dict, screen_pt_w: int) -> str:
@@ -286,7 +314,8 @@ def measure(path: Path) -> dict:
     surf = surfaces(arr, bg)
     out = {"frame": path.name, "ok": True, "scale": scale,
            "screen_pt": [pt_w, round(h / scale)], "canvas": bg,
-           "surfaces": [], "separators_pt": [], "radii_pt": []}
+           "surfaces": [], "separators_pt": [], "radii_pt": [],
+           "rows_pt": [], "bottom_bars_pt": [], "capsules_pt": []}
     for s in surf:
         rec = {"inset_pt": round(s["x0"] / scale, 2),
                "width_pt": round((s["x1"] - s["x0"] + 1) / scale, 2),
@@ -304,6 +333,16 @@ def measure(path: Path) -> dict:
         out["surfaces"].append(rec)
         for t in separators_px(arr, s):
             out["separators_pt"].append(round(t / scale, 2))
+        for d in row_pitches_px(arr, s):
+            v = round(d / scale, 2)
+            if v >= MIN_ROW_PT:
+                out["rows_pt"].append(v)
+        # Нижняя панель: поверхность, ДОХОДЯЩАЯ до низа кадра. Признак
+        # объявлен геометрией, а не догадкой по цвету или содержимому.
+        if s["y1"] >= h - 2 and rec["width_pt"] >= 0.9 * pt_w:
+            out["bottom_bars_pt"].append(rec["height_pt"])
+        if rec.get("role") == "capsule":
+            out["capsules_pt"].append(rec["height_pt"])
     return out
 
 
