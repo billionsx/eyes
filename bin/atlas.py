@@ -191,6 +191,87 @@ def order_frontier(frontier: list, fw: dict, probe: int = PROBE) -> list:
                                  key=lambda ip: (rank(ip[1]), ip[0]))]
 
 
+
+# ─────────────────── ПРИЁМ В ОЧЕРЕДЬ (ст. 46.1) ───────────────────
+#
+# Порядок обхода у департамента был давно (order_frontier), а РОСТА очереди он
+# не лечит: страница добавляла в конец ВСЕ свои ссылки без разбора. Заглушка
+# символа API ссылается на десятки таких же заглушек — очередь размножалась
+# сама. Замер 04.08.2026 по 41 641 прочитанной странице и 342 файлам
+# библиотеки:
+#
+#   класс адреса                страниц   строк с ЧИСЛОМ   на страницу
+#   /design/human-interface-…       189            1 195         6.32
+#   /documentation/<фреймворк>      559               58         0.10
+#   /documentation/<символ>      40 892            1 321         0.032
+#
+# Департамент отдал 98% хода классу, который даёт связываемое число в ДВЕСТИ
+# раз реже первоисточника. Итог виден в состоянии: очередь 69 000 против
+# 42 700 пройденных, полных кругов — ноль. Очередь, растущая быстрее чтения,
+# делает разведку бесконечной по построению: до предмета она не дойдёт никогда.
+#
+# Правило приёма. Ссылка встаёт в очередь, если про её класс ЕЩЁ НЕ ИЗВЕСТНО,
+# что он пуст. Не встаёт только тогда, когда сошлись три улики разом:
+# фреймворк пройден не меньше PROBE страниц, предметных законов в нём ноль,
+# и сама ссылка — заглушка символа. Первоисточник не отклоняется никогда.
+#
+# Отклонение — НЕ удаление. Отклонённое считается по фреймворкам и лежит в
+# `registry/atlas/deferred.json`. Сами адреса не дублируются: они выводятся
+# заново из корпуса прочитанных страниц (ЗКН-Э005 — одно понятие, один
+# источник), значит отложенное возвращается в очередь в любой момент и без
+# потерь. Молчание о непройденном было бы ложью (ЗКН-Э001); счёт с причиной —
+# знание.
+# ПОРОГ ДОХОДНОСТИ. Первая редакция правила отклоняла только фреймворк с
+# НУЛЁМ предметных законов — и отложила 3% очереди: измеренно пустых
+# фреймворков всего 8 из 405. Один закон на пятьсот страниц проходил как
+# «улика». Существование улики и доходность — разные вещи.
+#
+# Замер 04.08.2026 по 110 измеренным фреймворкам:
+#   доходность первоисточника (HIG)   5.42 закона/страницу
+#   медиана по справочнику            0.14  — в 39 раз ниже
+#   квартили                          0.06 · 0.14 · 0.22
+#
+# Порог взят не подбором, а по ПЛАТО. Отложенная доля очереди при пороге
+# 10% от первоисточника (0.54 зак./стр.) — 80%, и она НЕ МЕНЯЕТСЯ вплоть до
+# порога 50% (2.71). Распределение двугорбое: всё либо далеко ниже 0.54, либо
+# сильно выше. Число, стоящее на плато, не есть ручка, подкрученная под
+# желаемый ответ, — и подлежит пересчёту, когда замер изменится (ЗКН-Э001).
+YIELD_FLOOR_FRAC = 0.10
+PRIMARY_FW = "human-interface-guidelines"
+
+
+def yield_floor(fw: dict, probe: int = PROBE):
+    """Порог доходности в законах на страницу. None — шкалы ещё нет.
+
+    Шкала берётся ТОЛЬКО от измеренного первоисточника: сравнивать справочник
+    со средним по справочнику значило бы мерить телефонную книгу телефонной
+    книгой. Пока свод не пройден на probe страниц, порога нет, и отклоняется
+    лишь доказанно пустое.
+    """
+    s = fw.get(PRIMARY_FW) or {}
+    if s.get("v", 0) < probe:
+        return None
+    return YIELD_FLOOR_FRAC * (s["d"] / s["v"])
+
+
+def admit(pid: str, fw: dict, probe: int = PROBE) -> tuple:
+    """Пускать ли ссылку в очередь. Возврат: (пускать, причина отказа)."""
+    if (pid or "").startswith(PRIMARY):
+        return True, ""
+    s = fw.get(framework_of(pid)) or {}
+    if s.get("v", 0) < probe:
+        return True, ""            # о классе ещё ничего не известно — смотрим
+    if shape_of(pid) != "symbol":
+        return True, ""            # статья слабого фреймворка ещё может нести норму
+    floor = yield_floor(fw, probe)
+    if floor is None:
+        # Шкалы нет — отклоняется только доказанно пустое.
+        return (s.get("d", 0) > 0), ("" if s.get("d", 0) > 0 else framework_of(pid))
+    if s["d"] / s["v"] >= floor:
+        return True, ""            # доходность держит порог — смотрим
+    return False, framework_of(pid)
+
+
 def quarantined(frontier: list, fw: dict, probe: int = PROBE) -> int:
     """Сколько адресов в очереди принадлежит изученным и пустым фреймворкам."""
     n = 0
@@ -529,6 +610,22 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
     offtopic = 0
     frontier[:] = order_frontier(frontier, fw)
     q0 = quarantined(frontier, fw)
+    deferred, dropped = {}, 0
+    # Приём применяется и к УЖЕ набранной очереди. Иначе адреса, попавшие туда
+    # до правила, простоят вечно, и правило вылечит только будущее — а лечить
+    # надо настоящее: очередь 69 000 против 42 700 пройденных, кругов ноль.
+    keep = []
+    for pid in frontier:
+        ok, why = admit(pid, fw)
+        if ok:
+            keep.append(pid)
+        else:
+            deferred[why] = deferred.get(why, 0) + 1
+            dropped += 1
+    if dropped:
+        log.append(f"очередь просеяна приёмом: было {len(frontier)}, "
+                   f"осталось {len(keep)} (отложено {dropped})")
+        frontier[:] = keep
     while frontier and walked < budget:
         pid = frontier.pop(0)
         if fixtures is not None:
@@ -565,9 +662,15 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
         s["d"] += len(laws)
         if prev is None:
             for ref in _refs(raw):
-                if ref != pid and _seen(reg, ref) is None and ref not in frontier:
+                if ref == pid or _seen(reg, ref) is not None or ref in frontier:
+                    continue
+                ok, why = admit(ref, fw)
+                if ok:
                     frontier.append(ref)
                     enq += 1
+                else:
+                    deferred[why] = deferred.get(why, 0) + 1
+                    dropped += 1
             _corpus_put(reg, pid, ex["text"])
             if laws:
                 _lib_write(reg, pid, laws)
@@ -580,6 +683,30 @@ def step(root: Path, budget: int = BUDGET, delay: float = DELAY, fixtures: Path 
 
     frontier[:] = order_frontier(frontier, fw)
     q1 = quarantined(frontier, fw)
+    if dropped:
+        dfile = reg / "atlas" / "deferred.json"
+        dfile.parent.mkdir(parents=True, exist_ok=True)
+        old = {}
+        if dfile.exists():
+            try:
+                old = json.loads(dfile.read_text(encoding="utf-8")).get("frameworks", {})
+            except (ValueError, OSError):
+                old = {}
+        for k, v in deferred.items():
+            old[k] = old.get(k, 0) + v
+        dfile.write_text(json.dumps(
+            {"_смысл": "Ссылки, НЕ поставленные в очередь: фреймворк пройден и "
+                       "пуст по предмету, а ссылка — заглушка символа (ст. 46.1). "
+                       "Не удалены: адреса выводятся заново из корпуса "
+                       "прочитанных страниц, поэтому отложенное возвращается "
+                       "без потерь.",
+             "frameworks": dict(sorted(old.items(), key=lambda kv: -kv[1]))},
+            ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        top = ", ".join(f"{k}×{v}" for k, v in
+                        sorted(deferred.items(), key=lambda kv: -kv[1])[:3])
+        log.append(f"приём: отложено {dropped} ссылок пустых фреймворков ({top}) "
+                   f"— счёт в registry/atlas/deferred.json, адреса восстановимы "
+                   f"из корпуса")
     if booted:
         log.append(f"копилка фреймворков собрана из пройденного: {booted}")
     log.append(f"отбор: отсеяно не по предмету {offtopic} · в очереди изученных "

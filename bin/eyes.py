@@ -1152,6 +1152,48 @@ def cmd_selftest(root: Path) -> int:
               ["/documentation/zzz/a", "/documentation/uikit/b"], _fwp)[0]
           == "/documentation/uikit/b")
 
+    # ПРИЁМ В ОЧЕРЕДЬ (ст. 46.1). Порядок обхода не лечит РОСТА очереди:
+    # заглушка символа ссылается на десятки таких же, и очередь размножается
+    # сама. Отклоняется только то, про что уже ИЗМЕРЕНО, что оно пусто.
+    _empty = {"zzz": {"v": 40, "d": 0}}
+    _ok, _why = atlas_sel.admit("/documentation/zzz/foo(bar:)", _empty)
+    check("ломаю → красный: заглушка символа измеренно пустого фреймворка "
+          "в очередь НЕ идёт", not _ok and _why == "zzz")
+    check("чиню → зелёный: статья того же пустого фреймворка идёт — "
+          "статья ещё может нести норму",
+          atlas_sel.admit("/documentation/zzz/choosing-a-layout", _empty)[0])
+    check("неизученный фреймворк не отклоняется: о нём ничего не известно "
+          "(ЗКН-Э001)",
+          atlas_sel.admit("/documentation/newfw/foo(bar:)", {})[0])
+    check("фреймворк с уликами не отклоняется даже заглушкой",
+          atlas_sel.admit("/documentation/uikit/foo(bar:)",
+                          {"uikit": {"v": 100, "d": 90}})[0])
+    check("первоисточник не отклоняется НИКОГДА, даже измеренно пустой",
+          atlas_sel.admit("/design/human-interface-guidelines/x",
+                          {"human-interface-guidelines": {"v": 300, "d": 0}})[0])
+    check("отклонение считается по фреймворку, а не молча теряется",
+          atlas_sel.admit("/documentation/zzz/a(b:)", _empty)[1] == "zzz")
+    # ПОРОГ ДОХОДНОСТИ. Существование улики и доходность — разные вещи: один
+    # закон на пятьсот страниц проходил как «улика», и правило отложило 3%
+    # очереди вместо 80%.
+    _scale = {"human-interface-guidelines": {"v": 189, "d": 1024},
+              "слабый": {"v": 300, "d": 3},
+              "сильный": {"v": 300, "d": 300}}
+    check("шкала берётся ТОЛЬКО от измеренного первоисточника",
+          abs(atlas_sel.yield_floor(_scale) - 0.10 * 1024 / 189) < 1e-9)
+    check("без измеренного первоисточника шкалы нет — порога тоже",
+          atlas_sel.yield_floor({"uikit": {"v": 999, "d": 999}}) is None)
+    check("ломаю → красный: заглушка фреймворка с доходностью 0.01 при пороге "
+          "0.54 откладывается, хотя улики у него ЕСТЬ",
+          not atlas_sel.admit("/documentation/слабый/foo(bar:)", _scale)[0])
+    check("чиню → зелёный: заглушка доходного фреймворка проходит",
+          atlas_sel.admit("/documentation/сильный/foo(bar:)", _scale)[0])
+    check("статья слабого фреймворка проходит и при пороге — "
+          "откладываются только заглушки",
+          atlas_sel.admit("/documentation/слабый/choosing-a-color", _scale)[0])
+    check("порог стоит на ПЛАТО: доля отложенного не меняется от 10% до 50%",
+          atlas_sel.YIELD_FLOOR_FRAC == 0.10)
+
     print("SELFTEST · добытчик правил-кандидатов")
     import propose as prop_mod
     check("суд добытчика зелёный: число, направление, связь с кодом, адреса",
