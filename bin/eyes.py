@@ -42,6 +42,7 @@ import verify as verify_mod  # noqa: E402
 import lint as lint_mod  # noqa: E402
 import loop as loop_mod  # noqa: E402
 import vision as vision_mod  # noqa: E402
+import wfcheck as wf_mod  # noqa: E402
 
 IOS27 = re.compile(r"\b(?:iOS|iPadOS)\s*27\b")
 
@@ -470,6 +471,29 @@ def cmd_selftest(root: Path) -> int:
     _loop_rc = loop_mod.court()
     check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
           _loop_rc == 0)
+
+    print("SELFTEST · права подключения клиента (ст. 56)")
+    import tempfile as _tf3
+    check("права вызывающего покрывают права вызываемого во всех шаблонах",
+          not wf_mod.check(root))
+    _wd = Path(_tf3.mkdtemp(prefix="eyes-wf-"))
+    (_wd / ".github" / "workflows").mkdir(parents=True)
+    (_wd / "templates").mkdir()
+    shutil.copy(root / ".github" / "workflows" / "eyes-review-reusable.yml",
+                _wd / ".github" / "workflows")
+    _tpl = (root / "templates" / "eyes-client.yml").read_text(encoding="utf-8")
+    (_wd / "templates" / "eyes-client.yml").write_text(
+        _tpl.replace("  pull-requests: write\n", ""), encoding="utf-8")
+    _b = wf_mod.check(_wd)
+    check("ломаю → красный: шаблон без pull-requests: write назван с причиной "
+          "(прогон умрёт до первого шага)",
+          len(_b) == 1 and "startup_failure" in _b[0])
+    (_wd / "templates" / "eyes-client.yml").write_text(_tpl, encoding="utf-8")
+    check("чиню → зелёный: право возвращено — нарушений нет",
+          not wf_mod.check(_wd))
+    check("уровни сравниваются, а не строки: read не покрывает write",
+          wf_mod.LEVEL["read"] < wf_mod.LEVEL["write"]
+          and wf_mod.LEVEL["none"] < wf_mod.LEVEL["read"])
 
     print("SELFTEST · адресат роста долга (ст. 43)")
     import tempfile as _tf2

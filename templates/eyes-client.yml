@@ -6,6 +6,14 @@ name: eyes
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+# ПРАВА. Без этого блока прогон умирает ДО первого шага: с 2023 года
+# GitHub по умолчанию выдаёт токену только чтение, а вызываемый контур
+# просит больше — превышение гасит запуск целиком (startup_failure),
+# и надзор молчит так, будто код чист. Права вызывающего обязаны
+# покрывать права вызываемого.
+permissions:
+  contents: read
+  pull-requests: write
 jobs:
   review:
     uses: billionsx/eyes/.github/workflows/eyes-review-reusable.yml@main

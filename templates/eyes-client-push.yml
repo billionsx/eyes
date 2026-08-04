@@ -10,6 +10,13 @@ on:
   push:
     branches: [main]
     paths: ["src/**"]                          # ← где лежит интерфейс
+# ПРАВА. Без этого блока прогон умирает ДО первого шага: с 2023 года
+# GitHub по умолчанию выдаёт токену только чтение, а вызываемый контур
+# просит больше — превышение гасит запуск целиком (startup_failure),
+# и надзор молчит так, будто код чист. Права вызывающего обязаны
+# покрывать права вызываемого.
+permissions:
+  contents: write
 jobs:
   watch:
     uses: billionsx/eyes/.github/workflows/eyes-watch-reusable.yml@main
