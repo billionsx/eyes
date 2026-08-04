@@ -358,7 +358,22 @@ def separators_px(img, s):
     return [ln for _, ln in separator_runs(img, s)]
 
 
-def role_of(rec: dict, screen_pt_w: int) -> str:
+def page_inset_of(recs: list):
+    """Отступ СТРАНИЦЫ: самый частый отступ поверхностей кадра.
+
+    Нужен потому, что отступ элемента и отступ страницы — разные вещи, а роль
+    обязана считаться от страницы. Возврат None, если частого отступа нет:
+    тогда точки отсчёта у кадра просто не существует, и выдумывать её нельзя.
+    """
+    from collections import Counter
+    q = Counter(round(r["inset_pt"] * 2) / 2 for r in recs if r["inset_pt"] > 1.0)
+    if not q:
+        return None
+    v, n = q.most_common(1)[0]
+    return v if n >= 2 else None
+
+
+def role_of(rec: dict, screen_pt_w: int, page_inset=None) -> str:
     """Роль элемента по его собственной геометрии. Объявлена, не угадана.
 
     Роль нужна потому, что радиус — не одно число на экран. У полосы во всю
@@ -372,7 +387,24 @@ def role_of(rec: dict, screen_pt_w: int) -> str:
         return "capsule"
     if ins <= 1.0 and w >= screen_pt_w - 2:
         return "full_bleed"
-    avail = screen_pt_w - 2 * ins
+    # ТОЧКА ОТСЧЁТА — СТРАНИЦА, А НЕ САМ ЭЛЕМЕНТ.
+    #
+    # Родословная (04.08.2026). Свободная ширина считалась от отступа САМОГО
+    # элемента: avail = экран − 2·его_отступ. Отсюда следовало, что ЛЮБОЙ
+    # элемент, заполняющий свою строку, объявлялся карточкой, — миниатюра при
+    # отступе 103pt считала свободной шириной 187pt и проходила как карточка.
+    # Совокупность радиуса карточки набивалась вложенными элементами: она
+    # оказалась трёхгорбой не потому, что у карточек разные радиусы, а потому,
+    # что в ней лежали не только карточки.
+    #
+    # Карточка — то, что стоит НА отступе страницы и занимает её ширину.
+    # Стоящее глубже — вложенный элемент, и своё имя у него своё.
+    if page_inset is None:
+        avail = screen_pt_w - 2 * ins          # точки отсчёта нет — старое правило
+        return "card" if w >= 0.75 * avail else "tile"
+    if ins > page_inset + 1.5:
+        return "nested"
+    avail = screen_pt_w - 2 * page_inset
     return "card" if w >= 0.75 * avail else "tile"
 
 
@@ -422,8 +454,16 @@ def measure(path: Path) -> dict:
             rec["radius_pt"] = round(good / scale, 2)
             rec["radius_one_end"] = "верх" if rt is not None else "низ"
             out["radii_pt"].append(rec["radius_pt"])
-        rec["role"] = role_of(rec, pt_w)   # роль после радиуса: капсула узнаётся по нему
         out["surfaces"].append(rec)
+        rec["_s"] = s
+    # Роли назначаются ПОСЛЕ обхода: отступ страницы виден только по всем
+    # поверхностям кадра, а роль считается от него.
+    pin = page_inset_of(out["surfaces"])
+    out["page_inset_pt"] = pin
+    for rec in out["surfaces"]:
+        rec["role"] = role_of(rec, pt_w, pin)
+    for rec in out["surfaces"]:
+        s = rec.pop("_s")
         for t in separators_px(arr, s):
             out["separators_pt"].append(round(t / scale, 2))
         for d in row_pitches_px(arr, s):

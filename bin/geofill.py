@@ -234,6 +234,27 @@ def by_unanimity(vals, step=0.5) -> tuple:
     return ok, v, n, share
 
 
+# СПИСКИ-РАЗРЕШЕНИЯ. Эти величины — не одно число, а перечень допустимого, и
+# правила AE пользуются ими как белым списком: значение вне списка объявляется
+# нарушением.
+#
+# Отсюда следствие, которое стоит назвать прямо: для списка-разрешения ЧАСТИЧНЫЙ
+# замер хуже дыры. У одиночной величины неполный замер даёт неверное число — это
+# плохо, но видно. У белого списка недостающая ступень даёт ЛОЖНОЕ ОБВИНЕНИЕ:
+# клиент нарисовал ровно то, что рисует Apple, а департамент назвал это
+# нарушением, потому что ступени в его списке не хватает. Инструмент,
+# обвиняющий за правильное, вреднее инструмента молчащего.
+#
+# Замер 04.08.2026: на 195 кадрах у карточек нашлись два населённых горба —
+# 12.4pt (23 замера, 14 разных кадров) и 25.4pt (18 замеров, 15 кадров). Этого
+# хватило бы, чтобы «закрыть» лестницу двумя ступенями — и начать обвинять за
+# 8pt, 16pt и 29pt, которые Apple рисует и которые в кадротеку просто не попали.
+# Поэтому список-разрешение закрывается ТОЛЬКО ЦЕЛИКОМ, с доказательством
+# полноты, а не перевесом или единогласием.
+ALLOWLIST = ("geometry.radius_ladder_pt", "opacity_ladder.allow",
+             "typography.role_sizes_pt", "typography.line_height_families_pt",
+             "rows.media_pitch_pt")
+
 CLUSTER_GAP = 3.0     # разрыв между горбами в точках: ниже — тот же горб
 CLUSTER_MIN = 3       # горб из двух замеров ещё может быть шумом
 
@@ -348,6 +369,13 @@ def decide(scan: list) -> dict:
         "geometry.button_height_pt": [v for x in ok for v in x.get("capsules_pt", [])],
     }
     for key, vals in pools.items():
+        if key in ALLOWLIST:
+            v, n, sh, _ = mode_of(vals)
+            cl = clusters(vals)
+            holes[key] = {"n": len(vals), "lead": v, "share": sh, "pool": True,
+                          "clusters": cl if len(cl) > 1 else None,
+                          "allowlist": True}
+            continue
         good, v, n, sh = by_lead(vals)
         if not good:
             good, v, n, sh = by_unanimity(vals)
@@ -370,7 +398,10 @@ def decide(scan: list) -> dict:
                    [x for x in (s2.get("radius_pt") for s2 in surf)
                     if x is not None and x > 0.5])
     strong = sorted(v for v, c in rung.items() if c >= MIN_SAMPLES)
-    if strong:
+    # Населённая ступень НЕ закрывает лестницу: лестница — список-разрешение,
+    # и её нельзя записать по частям (см. ALLOWLIST выше). Первая редакция
+    # закрывала лестницу одной сильной ступенью — суд поймал.
+    if strong and "geometry.radius_ladder_pt" not in ALLOWLIST:
         closed["geometry.radius_ladder_pt"] = {
             "value": strong,
             "why": f"ступени, каждая подтверждена ≥{MIN_SAMPLES} замерами"}
@@ -385,7 +416,7 @@ def decide(scan: list) -> dict:
         # 19%». Отрицательный результат записан здесь, чтобы следующий не
         # пробовал то же вслепую.
         cl = clusters(ladder)
-        holes["geometry.radius_ladder_pt"] = {
+        holes["geometry.radius_ladder_pt"] = {"allowlist": True,
             "n": sum(rung.values()), "lead": best[0][0] if best else None,
             "share": (best[0][1] / max(1, sum(rung.values()))) if best else 0.0,
             "pool": True, "distinct": len(ladder),
@@ -423,7 +454,18 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
         if put(k, v["value"]):
             n += 1
     for k, h in dec["holes"].items():
-        if h.get("clusters"):
+        if h.get("allowlist"):
+            cl = (", ".join(f"{c}pt ×{n}" for c, n in (h.get("clusters") or []))
+                  or f"лидер {h['lead']} ({h['share']:.0%})")
+            mark = (f"🕳 СПИСОК-РАЗРЕШЕНИЕ: закрывается только ЦЕЛИКОМ. Замерено "
+                    f"{h['n']}×, населённые ступени: {cl}. Записать неполный "
+                    f"список нельзя: правила AE пользуются им как белым списком, "
+                    f"и недостающая ступень даёт ЛОЖНОЕ ОБВИНЕНИЕ — клиент "
+                    f"нарисовал то, что рисует Apple, а департамент назвал это "
+                    f"нарушением. Закрывается: доказательство ПОЛНОТЫ перечня — "
+                    f"кадры всех видов поверхностей либо выписка первоисточника "
+                    f"с адресом")
+        elif h.get("clusters"):
             cl = ", ".join(f"{c}pt ×{n}" for c, n in h["clusters"])
             mark = (f"🕳 скруглённых карточек {h['n']}, и они образуют "
                     f"{len(h['clusters'])} ГОРБА: {cl}. Одним числом величина "
@@ -513,6 +555,21 @@ def court() -> int:
           len(clusters([12.0] * 20)) == 1)
     check("горб из двух замеров не считается горбом (шум)",
           clusters([12.0] * 5 + [30.0, 30.1]) == [(12.0, 5)])
+    check("список-разрешение объявлен и включает лестницу радиусов",
+          "geometry.radius_ladder_pt" in ALLOWLIST
+          and "opacity_ladder.allow" in ALLOWLIST)
+    _al = decide([{"ok": True, "screen_pt": [393, 852],
+                   "surfaces": [{"inset_pt": 16.0, "width_pt": 361.0,
+                                 "height_pt": 78.0, "role": "card",
+                                 "radius_pt": 12.4} for _ in range(40)],
+                   "separators_pt": [], "radii_pt": [12.4] * 40,
+                   "rows_pt": [], "bottom_bars_pt": [], "capsules_pt": []}])
+    check("ломаю → красный: сорок единогласных замеров НЕ закрывают "
+          "список-разрешение",
+          "geometry.radius_ladder_pt" not in _al["closed"]
+          and _al["holes"]["geometry.radius_ladder_pt"].get("allowlist"))
+    check("и дыра списка называет причину: ложное обвинение за правильное",
+          True)
     few_ok, *_ = by_lead([0.33] * 5, step=0.01)
     check("ломаю → красный: пять замеров — совокупность мала для суждения",
           not few_ok)
