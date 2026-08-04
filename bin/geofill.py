@@ -41,6 +41,18 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "registry" / "standards" / "ios27" / "tokens.next.json"
 
 MIN_SAMPLES = 30      # меньше — совокупность слишком мала для суждения
+# ЕДИНОГЛАСИЕ — третье основание закрытия, рядом со СМЫКАНИЕМ и ПЕРЕВЕСОМ.
+#
+# Зачем оно понадобилось (04.08.2026). После починки склейки поверхностей
+# нижняя панель нашлась на 17 кадрах, и 16 из них дали РОВНО одно значение.
+# Порог в 30 замеров отклонял это как «совокупность мала» — и был прав для
+# смеси ролей, где лидер держит 35%: там малое число вводит в заблуждение. Но
+# шестнадцать кадров из десяти РАЗНЫХ приложений Apple, сошедшиеся до десятой
+# доли точки, — улика иного рода. Ослаблять общий порог нельзя: это ухудшило
+# бы каждое прочее суждение. Поэтому вводится отдельное основание со своими
+# условиями, а не подкручивается старое.
+MIN_UNANIMOUS = 12    # ниже этого единогласие ещё может быть совпадением
+UNANIMOUS_SHARE = 0.90
 LEAD_SHARE = 0.35     # доля лидера для перевеса
 LEAD_RATIO = 1.5      # во сколько раз лидер обязан опережать следующего
 CLOSURE_TOL = 1.0     # допуск смыкания в точках
@@ -152,9 +164,14 @@ NEEDS = {
         "светлая тема, Dynamic Type кроме Large, состояния кнопки, заливка "
         "активного таба — каждое требует своего кадра или записи"),
     "geometry.tabbar_height_pt": (
-        "восемь замеров — совокупность мала для суждения",
-        "кадры с нижней панелью во всю ширину, не перекрытой листом, плеером "
-        "или клавиатурой"),
+        "нижняя поверхность замерена единогласно (78.0pt на 16 кадрах из 17), "
+        "но это высота панели ВМЕСТЕ с безопасной зоной — под именем «высота "
+        "таб-бара» такое число было бы подменой смысла, а она хуже дыры",
+        "кадр, где панель видна НАД содержимым и безопасная зона отделяется: "
+        "78.0 минус измеренная зона и есть высота панели. Само измеренное "
+        "число уже стоит в geometry.bottom_bar_with_safe_area_pt"),
+    "geometry.bottom_bar_with_safe_area_pt": (
+        "не замерено", "кадры с нижней панелью во всю ширину экрана"),
     "geometry.button_height_pt": (
         "двенадцать капсул — мало; вдобавок лидер 49pt совпадает с шагом "
         "строки списка, то есть капсула по одной геометрии от строки не "
@@ -207,6 +224,13 @@ def by_lead(vals, step=0.5) -> tuple:
     v, n, share, nxt = mode_of(vals, step)
     ok = bool(vals) and len(vals) >= MIN_SAMPLES and share >= LEAD_SHARE \
         and (nxt == 0 or n >= LEAD_RATIO * nxt)
+    return ok, v, n, share
+
+
+def by_unanimity(vals, step=0.5) -> tuple:
+    """Единогласие: небольшая совокупность, сошедшаяся почти в одно значение."""
+    v, n, share, _ = mode_of(vals, step)
+    ok = bool(vals) and len(vals) >= MIN_UNANIMOUS and share >= UNANIMOUS_SHARE
     return ok, v, n, share
 
 
@@ -286,11 +310,19 @@ def decide(scan: list) -> dict:
     # в базу идёт улика, а не число.
     pools = {
         "rows.list_pt": [v for x in ok for v in x.get("rows_pt", [])],
-        "geometry.tabbar_height_pt": [v for x in ok for v in x.get("bottom_bars_pt", [])],
+        "geometry.bottom_bar_with_safe_area_pt":
+            [v for x in ok for v in x.get("bottom_bars_pt", [])],
         "geometry.button_height_pt": [v for x in ok for v in x.get("capsules_pt", [])],
     }
     for key, vals in pools.items():
         good, v, n, sh = by_lead(vals)
+        if not good:
+            good, v, n, sh = by_unanimity(vals)
+            if good:
+                closed[key] = {"value": v,
+                               "why": f"единогласие {n} из {len(vals)} замеров "
+                                      f"({sh:.0%}), совокупность мала но однородна"}
+                continue
         if good:
             closed[key] = {"value": v,
                            "why": f"перевес {n} замеров из {len(vals)} ({sh:.0%}), лидер один"}
@@ -367,13 +399,18 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
         if isinstance(o, dict):
             for k2, v2 in o.items():
                 yield from walk(v2, f"{pre}.{k2}" if pre else k2)
-        elif isinstance(o, str) and o.startswith("🕳") and "Закрывается:" not in o:
+        elif isinstance(o, str) and o.startswith("🕳"):
             yield pre, o
 
+    fresh = set(dec.get("holes") or {})
     for path, cur in list(walk(d)):
         nd = need_for(path)
-        if not nd:
+        if not nd or path in fresh:
             continue
+        # Улика прошлого прогона ПЕРЕЗАПИСЫВАЕТСЯ, если в этом прогоне её нет.
+        # Числа, снятые прежним — сломанным — измерителем, остаются в базе как
+        # достоверные и лгут дважды: и значением, и своей уверенностью. Дыра с
+        # названным доказательством честнее устаревшей улики (ЗКН-Э002).
         if put(path, evidence_text(path, nd[0], nd[1])):
             n += 1
     base_path.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -397,6 +434,15 @@ def court() -> int:
           lead_ok and abs(v - 0.33) < 0.01)
     tie_ok, *_ = by_lead([0.33] * 30 + [1.0] * 28 + [3.0] * 12, step=0.01)
     check("ломаю → красный: два близких лидера — согласия нет", not tie_ok)
+    u_ok, u_v, u_n, u_sh = by_unanimity([78.0] * 16 + [97.0])
+    check("единогласие: 16 из 17 в одно значение → принято при малой "
+          "совокупности", u_ok and abs(u_v - 78.0) < 0.01)
+    check("ломаю → красный: 11 замеров — единогласия не хватает числом",
+          not by_unanimity([78.0] * 11)[0])
+    check("ломаю → красный: 14 из 20 (70%) — не единогласие, а перевес",
+          not by_unanimity([78.0] * 14 + [60.0] * 6)[0])
+    check("единогласие НЕ подменяет перевес: общий порог остался 30",
+          MIN_SAMPLES == 30 and MIN_UNANIMOUS == 12)
     few_ok, *_ = by_lead([0.33] * 5, step=0.01)
     check("ломаю → красный: пять замеров — совокупность мала для суждения",
           not few_ok)
