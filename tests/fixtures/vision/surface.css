@@ -1,0 +1,5 @@
+/* ЭТАЛОННЫЙ КОРПУС ЗРЕНИЯ. Не править без пересчёта отпечатка. */
+.card{background:#123456;box-shadow:0 2px 8px rgba(0,0,0,.4);border-radius:7px}
+.title{font-size:19px;letter-spacing:0.9px;font-family:Arial,sans-serif}
+.veil{opacity:0.44}
+.move{transition:transform 900ms linear}

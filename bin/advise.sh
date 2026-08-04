@@ -9,36 +9,58 @@
 # красного при росте долга и ослаблению не подлежит — поэтому вводится не
 # поблажка, а РАЗДЕЛЕНИЕ: кто именно красен и почему.
 #   registry/state/CLIENTS.md — построчный вердикт по каждому паспорту.
+#
+# ТРЕТИЙ АДРЕСАТ (04.08.2026). Разделение было двоичным: инструмент или
+# клиент. Обнаружилось третье состояние — рост долга, который НЕЛЬЗЯ
+# приписать никому: департамент стал видеть больше, а код клиента не
+# менялся (измерено: ISKCON от 01.08 и от 04.08 — одинаковые 774 находки).
+# Храповик возвращает на это код 2 и отказывается обвинять; строка в реестре
+# получает пометку БАЗА и требует осознанного пересчёта (bin/eyes.py rebase).
 set -u
 cd "$(dirname "$0")/.." || exit 2
 rc=0
 CL=registry/state/CLIENTS.md
 { echo "# ВЕРДИКТЫ ПО ПАСПОРТАМ"; echo;
-  echo "Красный инструмента и красный клиента — разные вещи. Здесь сказано, чей.";
+  echo "Красный инструмента, красный клиента и устаревшая база — разные вещи.";
+  echo "Здесь сказано, чей.";
   echo; echo "| паспорт | вердикт | причина |"; echo "|---|---|---|"; } > "$CL"
 for f in adapters/*.json; do
   a=$(basename "$f" .json)
   [ "$a" = "default" ] && continue
   python3 -c "import json,sys;sys.exit(0 if json.load(open('$f')).get('enabled',True) else 3)" || continue
   if [ ! -d "_projects/$a" ]; then
-    echo "$a: код не забран — советник не судит пустоту (ЗКН-Э006)"
-    echo "| $a | 🔴 ИНСТРУМЕНТ | код не забран — обход пустоты запрещён (ЗКН-Э006) |" >> "$CL"
+    # Диагноз забора берётся из реестра, а не угадывается по пустой папке.
+    WHY=$(python3 -c "
+import json,pathlib
+p=pathlib.Path('registry/state/fetch.json')
+d=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+e=d.get('$a') or {}
+print((e.get('state') or 'код не забран') + (' · ' + e['repo'] if e.get('repo') else ''))
+" 2>/dev/null || echo "код не забран")
+    echo "$a: $WHY — советник не судит пустоту (ЗКН-Э006)"
+    echo "| $a | 🔴 ИНСТРУМЕНТ | $WHY (ЗКН-Э006) |" >> "$CL"
     rc=1
     continue
   fi
-  if PROJECT_ROOT="_projects/$a" python3 bin/eyes.py lint --adapter "$a" --mode report \
+  PROJECT_ROOT="_projects/$a" python3 bin/eyes.py lint --adapter "$a" --mode report \
        --out "registry/state/report-$a.md" \
-       --ratchet registry/state/ae-baseline.json > /tmp/lint-"$a".out 2>&1; then
-    echo "| $a | 🟢 чисто | долг не вырос |" >> "$CL"
-  else
-    echo "=== $a: храповик красный ==="
-    tail -20 /tmp/lint-"$a".out
-    echo "| $a | 🔴 КЛИЕНТ | долг вырос — ст. 43, инструмент исправен |" >> "$CL"
-    rc=1
-  fi
+       --ratchet registry/state/ae-baseline.json > /tmp/lint-"$a".out 2>&1
+  code=$?
+  case $code in
+    0) echo "| $a | 🟢 чисто | долг не вырос |" >> "$CL" ;;
+    2) echo "=== $a: база долга устарела, обвинять некого ==="
+       tail -8 /tmp/lint-"$a".out
+       echo "| $a | 🟠 БАЗА | зрение департамента изменилось — рост долга не принадлежит клиенту (ст. 43), нужен осознанный пересчёт |" >> "$CL"
+       rc=1 ;;
+    *) echo "=== $a: храповик красный ==="
+       tail -20 /tmp/lint-"$a".out
+       echo "| $a | 🔴 КЛИЕНТ | долг вырос при том же зрении — ст. 43, инструмент исправен |" >> "$CL"
+       rc=1 ;;
+  esac
   [ -f "registry/state/report-$a.md" ] && sed -n '2p' "registry/state/report-$a.md"
 done
 { echo; echo "Красный с пометкой КЛИЕНТ означает, что инструмент исправен и";
   echo "поймал регрессию проекта. Красный с пометкой ИНСТРУМЕНТ — что не в";
-  echo "порядке сам департамент."; } >> "$CL"
+  echo "порядке сам департамент. Оранжевый БАЗА — что выросло зрение, а не";
+  echo "долг клиента: обвинять некого, база пересчитывается осознанно."; } >> "$CL"
 exit $rc

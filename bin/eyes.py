@@ -8,6 +8,7 @@ BXE · единая точка входа департамента.
   ios27     — дозор iOS 27 по снимкам; --issue-on-detect открывает issue
   lint      — исполнительная власть по адаптеру проекта
   attach    — подключить департамент к новому проекту (создать адаптер)
+  rebase    — осознанный пересчёт базы долга с записью в хронику (ст. 43)
   loop      — петля ревью (ст. 58): область задачи → гейт → промпт
               свежему ревьюеру → вердикт. Балл не отменяет находку.
   selftest  — батарея живых нарушений в обе стороны (ломаю → красный,
@@ -40,6 +41,7 @@ import consult as consult_mod  # noqa: E402
 import verify as verify_mod  # noqa: E402
 import lint as lint_mod  # noqa: E402
 import loop as loop_mod  # noqa: E402
+import vision as vision_mod  # noqa: E402
 
 IOS27 = re.compile(r"\b(?:iOS|iPadOS)\s*27\b")
 
@@ -227,7 +229,20 @@ def cmd_ios27(root: Path, issue: bool) -> int:
 # ─────────────────────────────── ratchet ───────────────────────────────
 def apply_ratchet(root: Path, adapter_name: str, res: dict, baseline_file: Path) -> int:
     """Храповик советника: долг по каждому правилу может только уменьшаться.
-    Рост = красный даже в report-режиме; улучшение само ужимает базу."""
+    Рост = красный даже в report-режиме; улучшение само ужимает базу.
+
+    АДРЕСАТ РОСТА (ст. 43). Долг растёт по двум разным причинам: клиент
+    написал новое нарушение — или департамент стал видеть больше. Раньше обе
+    давали один вердикт «виноват клиент», и 04.08.2026 это поймали на живом:
+    код ISKCON от 01.08 и от 04.08 дал ОДИНАКОВЫЕ 774 находки, а храповик
+    третьи сутки объявлял регрессию клиента. Поэтому рядом с базой долга
+    теперь лежит отпечаток зрения (bin/vision.py):
+
+      отпечаток тот же → рост принадлежит клиенту, красный по адресу;
+      отпечаток другой → приписывать некому. Храповик ОТКАЗЫВАЕТСЯ обвинять
+                         и требует осознанного пересчёта базы с записью в
+                         хронике — ровно то, чего ст. 43 и требует.
+    """
     if not res.get("findings") and int(res.get("files", 0)) == 0:
         # ЗКН-Э006: пустой обход — не доказательство погашенного долга, а промах
         # адреса (неверный project_root, не забранный код). База неприкосновенна.
@@ -240,10 +255,31 @@ def apply_ratchet(root: Path, adapter_name: str, res: dict, baseline_file: Path)
     mine = base.get(adapter_name, {})
     worse = {r: (mine.get(r), counts.get(r, 0)) for r in set(mine) | set(counts)
              if r in mine and counts.get(r, 0) > mine[r]}
+    fp_now = vision_mod.fingerprint(root)
+    fp_was = vision_mod.known(adapter_name)
+    if worse and fp_was != fp_now:
+        for r, (b, n) in sorted(worse.items()):
+            print(f"  зрение: {r} было {b} → стало {n}")
+        if fp_was:
+            print(f"  ХРАПОВИК: ЗРЕНИЕ ИЗМЕНИЛОСЬ {fp_was} → {fp_now}. Рост долга "
+                  f"НЕ приписывается клиенту: его код мог не измениться вовсе "
+                  f"(ст. 43). Нужен осознанный пересчёт базы:")
+        else:
+            print(f"  ХРАПОВИК: отпечаток зрения для паспорта не записан "
+                  f"(сейчас {fp_now}) — приписывать рост НЕ НА ЧЕМ. Обвинение "
+                  f"без основания хуже молчания (ЗКН-Э001). Пересчитай базу "
+                  f"осознанно:")
+        print(f"      python3 bin/eyes.py rebase --adapter {adapter_name} "
+              f"--why \"<чем расширилось зрение>\"")
+        return 2
     if worse:
         for r, (b, n) in sorted(worse.items()):
             print(f"  ХРАПОВИК {r}: было {b} → стало {n} (долг растёт — красный)")
         return 1
+    if fp_was != fp_now:
+        # Зрение изменилось, но долг не вырос — обвинять не в чем, отпечаток
+        # догоняет базу молча.
+        vision_mod.remember(adapter_name, fp_now)
     tightened = {r: n for r, n in counts.items() if mine.get(r, 10**9) > n}
     new_mine = {r: counts.get(r, 0) for r in sorted(set(mine) | set(counts))}
     if new_mine != mine:
@@ -251,6 +287,53 @@ def apply_ratchet(root: Path, adapter_name: str, res: dict, baseline_file: Path)
         baseline_file.write_text(json.dumps(base, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
         if tightened:
             print("  храповик ужат: " + " · ".join(f"{r}→{n}" for r, n in sorted(tightened.items())))
+    return 0
+
+
+
+def cmd_rebase(root: Path, adapter_name: str, why: str, project_root: Path,
+               baseline_file: Path) -> int:
+    """Осознанный пересчёт базы долга (ст. 43).
+
+    Расширение зрения поднимает базу ТОЛЬКО так: с названной причиной и
+    записью в хронике. Молчаливый пересчёт неотличим от списания долга
+    клиента, и через месяц никто не скажет, почему цифра выросла.
+    """
+    why = (why or "").strip()
+    if len(why) < 12:
+        print("ОТКАЗ: нужна причина (--why): чем именно расширилось зрение. "
+              "База, поднятая без причины, неотличима от списанного долга.")
+        return 2
+    adapter = json.loads((root / "adapters" / f"{adapter_name}.json").read_text(encoding="utf-8"))
+    tokens = json.loads((root / "registry" / "standards" / "tokens.json").read_text(encoding="utf-8"))
+    res = lint_mod.run(root, adapter, tokens, "report", project_root)
+    if not res.get("findings") and int(res.get("files", 0)) == 0:
+        print("ОТКАЗ: обойдено 0 файлов — пересчитывать нечего (ЗКН-Э006)")
+        return 2
+    counts = {r: 0 for r in res.get("rules", [])}
+    for r, *_ in res["findings"]:
+        counts[r] = counts.get(r, 0) + 1
+    base = json.loads(baseline_file.read_text(encoding="utf-8")) if baseline_file.exists() else {}
+    mine = base.get(adapter_name, {})
+    new_mine = {r: counts.get(r, 0) for r in sorted(set(mine) | set(counts))}
+    moved = {r: (mine.get(r), new_mine[r]) for r in new_mine if mine.get(r) != new_mine[r]}
+    fp_was, fp_now = vision_mod.known(adapter_name), vision_mod.fingerprint(root)
+    base[adapter_name] = new_mine
+    baseline_file.write_text(json.dumps(base, ensure_ascii=False, indent=1, sort_keys=True),
+                             encoding="utf-8")
+    vision_mod.remember(adapter_name, fp_now)
+    log = root / "registry" / "state" / "CHANGELOG.md"
+    rows = " · ".join(f"{r} {a}→{b}" for r, (a, b) in sorted(moved.items())) or "без сдвига"
+    rec = (f"### {_now()} · ПЕРЕСЧЁТ БАЗЫ ДОЛГА · паспорт `{adapter_name}` (ст. 43)\n"
+           f"- причина: {why}\n"
+           f"- отпечаток зрения: {fp_was or '—'} → {fp_now}\n"
+           f"- файлов обойдено: {res.get('files')} · находок: {len(res['findings'])}\n"
+           f"- сдвиг базы: {rows}\n"
+           f"- рост долга по этой записи НЕ является регрессией клиента\n\n")
+    log.write_text(rec + (log.read_text(encoding="utf-8") if log.exists() else ""),
+                   encoding="utf-8")
+    print(f"база паспорта «{adapter_name}» пересчитана: {rows}")
+    print(f"отпечаток зрения записан: {fp_now} · причина легла в хронику")
     return 0
 
 
@@ -386,6 +469,72 @@ def cmd_selftest(root: Path) -> int:
     _loop_rc = loop_mod.court()
     check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
           _loop_rc == 0)
+
+    print("SELFTEST · адресат роста долга (ст. 43)")
+    import tempfile as _tf2
+    _vd = Path(_tf2.mkdtemp(prefix="eyes-vision-"))
+    (_vd / "a.css").write_text(".x{border-radius:7px}\n", encoding="utf-8")
+    _fp_base = vision_mod.fingerprint(root)
+    check("отпечаток зрения снимается и повторяем",
+          bool(_fp_base) and _fp_base == vision_mod.fingerprint(root))
+    _tk2 = json.loads((root / "registry" / "standards" / "tokens.json")
+                      .read_text(encoding="utf-8"))
+    _tk2["geometry"]["radius_ladder_pt"] = list(_tk2["geometry"]["radius_ladder_pt"]) + [7]
+    check("ломаю → красный: сдвиг ИЗМЕРЕННОЙ базы меняет отпечаток "
+          "(вердикт несёт число)",
+          vision_mod.fingerprint(root, tokens=_tk2) != _fp_base)
+    check("чиню → зелёный: та же база — тот же отпечаток",
+          vision_mod.fingerprint(root, tokens=json.loads(
+              (root / "registry" / "standards" / "tokens.json").read_text(
+                  encoding="utf-8"))) == _fp_base)
+    _corp2 = Path(_tf2.mkdtemp(prefix="eyes-corp-"))
+    for _f in (root / "tests" / "fixtures" / "vision").iterdir():
+        shutil.copy(_f, _corp2 / _f.name)
+    check("подмена эталонного корпуса ловится отпечатком",
+          vision_mod.fingerprint(root, corpus=_corp2) == _fp_base)
+    (_corp2 / "surface.css").write_text(".q{border-radius:3px}\n", encoding="utf-8")
+    check("правка корпуса меняет отпечаток — заморозка не бутафорская",
+          vision_mod.fingerprint(root, corpus=_corp2) != _fp_base)
+
+    # Храповик: три разных адресата на одних и тех же цифрах.
+    _rd = Path(_tf2.mkdtemp(prefix="eyes-ratchet-"))
+    _bl = _rd / "base.json"
+    _res_hi = {"rules": ["AE11"], "files": 3,
+               "findings": [("AE11", "a.css", i, "радиус") for i in range(1, 6)]}
+    _res_lo = {"rules": ["AE11"], "files": 3,
+               "findings": [("AE11", "a.css", 1, "радиус")]}
+    _keep_vf = vision_mod.VISION_FILE
+    vision_mod.VISION_FILE = _rd / "vision.json"
+    try:
+        _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
+        _rc_noфп = apply_ratchet(root, "проба", _res_hi, _bl)
+        check("ломаю → красный: рост без записанного отпечатка НЕ обвиняет "
+              "клиента (код 2, а не 1)", _rc_noфп == 2)
+        vision_mod.remember("проба", vision_mod.fingerprint(root))
+        _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
+        check("чиню → зелёный: рост при ТОМ ЖЕ зрении — красный по адресу "
+              "клиента (код 1)", apply_ratchet(root, "проба", _res_hi, _bl) == 1)
+        vision_mod.remember("проба", "старыйотпечаток")
+        _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
+        check("зрение изменилось + рост → обвинения нет, требуется пересчёт "
+              "(код 2)", apply_ratchet(root, "проба", _res_hi, _bl) == 2)
+        vision_mod.remember("проба", "старыйотпечаток")
+        _bl.write_text(json.dumps({"проба": {"AE11": 5}}), encoding="utf-8")
+        _rc_ok = apply_ratchet(root, "проба", _res_lo, _bl)
+        check("зрение изменилось, но долг УПАЛ → зелёный, отпечаток догоняет "
+              "молча",
+              _rc_ok == 0 and vision_mod.known("проба") == vision_mod.fingerprint(root))
+        check("храповик ужал базу по факту улучшения",
+              json.loads(_bl.read_text(encoding="utf-8"))["проба"]["AE11"] == 1)
+        _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
+        check("пустой обход по-прежнему красный и базу не трогает (ЗКН-Э006)",
+              apply_ratchet(root, "проба", {"rules": ["AE11"], "files": 0,
+                                            "findings": []}, _bl) == 1
+              and json.loads(_bl.read_text(encoding="utf-8"))["проба"]["AE11"] == 2)
+    finally:
+        vision_mod.VISION_FILE = _keep_vf
+    check("пересчёт без названной причины отклоняется (ст. 43)",
+          cmd_rebase(root, "iskcon", "  ", _rd, _bl) == 2)
 
     print("SELFTEST · разведка (crawler, офлайн)")
     tmp = Path(tempfile.mkdtemp(prefix="eyes-"))
@@ -2188,6 +2337,10 @@ def main() -> int:
     sub.add_parser("selftest")
     sub.add_parser("remine")
     sub.add_parser("loop")
+    rb = sub.add_parser("rebase")
+    rb.add_argument("--adapter", required=True)
+    rb.add_argument("--why", default="")
+    rb.add_argument("--project-root", default="")
     a = ap.parse_args()
 
     if a.cmd == "status":
@@ -2271,6 +2424,10 @@ def main() -> int:
         r = _a.remine(ROOT)
         print(f"перемол офлайн: страниц {r['pages']:,} · строк {r.get('laws', 0):,}")
         return 0
+    if a.cmd == "rebase":
+        pr = a.project_root or os.environ.get("PROJECT_ROOT", "") or f"_projects/{a.adapter}"
+        return cmd_rebase(ROOT, a.adapter, a.why, Path(pr).resolve(),
+                          ROOT / "registry" / "state" / "ae-baseline.json")
     if a.cmd == "selftest":
         return cmd_selftest(ROOT)
     return 2
