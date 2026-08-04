@@ -234,6 +234,37 @@ def by_unanimity(vals, step=0.5) -> tuple:
     return ok, v, n, share
 
 
+CLUSTER_GAP = 3.0     # разрыв между горбами в точках: ниже — тот же горб
+CLUSTER_MIN = 3       # горб из двух замеров ещё может быть шумом
+
+
+def clusters(vals, gap=CLUSTER_GAP, least=CLUSTER_MIN) -> list:
+    """Горбы совокупности: [(центр, число замеров)] по убыванию числа.
+
+    Зачем орган. Дыра радиуса карточки сообщала «мерили 25×, ведёт 19.9». 19.9
+    не встречается НИ В ОДНОМ замере: пул трёхгорбый — 11.8 (5), 15.2 (9),
+    25.3 (11), — и среднее легло между горбами. Такое число хуже дыры: дыра
+    честно молчит, а среднее по двугорбому пулу выглядит почти найденным
+    ответом и приглашает себя вписать.
+
+    Многогорбость — это не «согласия нет», это ЗНАНИЕ: у величины не одно
+    значение, и единственное число под её именем было бы подменой смысла.
+    """
+    v = sorted(float(x) for x in vals)
+    if not v:
+        return []
+    groups, cur = [], [v[0]]
+    for x in v[1:]:
+        if x - cur[-1] <= gap:
+            cur.append(x)
+        else:
+            groups.append(cur)
+            cur = [x]
+    groups.append(cur)
+    out = [(round(sum(g) / len(g), 1), len(g)) for g in groups if len(g) >= least]
+    return sorted(out, key=lambda t: -t[1])
+
+
 def closes(screen_w, inset, width, tol=CLOSURE_TOL) -> bool:
     """Смыкание: отступ + ширина + отступ = ширина экрана."""
     if None in (screen_w, inset, width):
@@ -300,8 +331,10 @@ def decide(scan: list) -> dict:
         h = {"n": len(round_), "square": len(square)}
         if round_:
             lo, hi = min(round_), max(round_)
+            cl = clusters(round_)
             h.update({"lead": round(sum(round_) / len(round_), 1),
-                      "share": 0.0, "range": [lo, hi]})
+                      "share": 0.0, "range": [lo, hi],
+                      "clusters": cl if len(cl) > 1 else None})
         else:
             h.update({"lead": None, "share": 0.0, "range": None})
         holes["geometry.radius_card_pt"] = h
@@ -328,7 +361,9 @@ def decide(scan: list) -> dict:
                            "why": f"перевес {n} замеров из {len(vals)} ({sh:.0%}), лидер один"}
         else:
             v, n, sh, _ = mode_of(vals)
-            holes[key] = {"n": len(vals), "lead": v, "share": sh, "pool": True}
+            cl = clusters(vals)
+            holes[key] = {"n": len(vals), "lead": v, "share": sh, "pool": True,
+                          "clusters": cl if len(cl) > 1 else None}
     ladder = sorted({r for r in (s2.get("radius_pt") for s2 in surf)
                      if r is not None and r > 0.5})
     rung = Counter(round(r / 0.5) * 0.5 for r in
@@ -341,10 +376,20 @@ def decide(scan: list) -> dict:
             "why": f"ступени, каждая подтверждена ≥{MIN_SAMPLES} замерами"}
     else:
         best = rung.most_common(1)
+        # Лестница многогорба ПО ОПРЕДЕЛЕНИЮ: её горбы и есть её ступени.
+        # Проверено на живом замере (04.08.2026) и НЕ РАБОТАЕТ на нынешнем
+        # объёме: 35 различных радиусов на 8–28pt лежат плотнее разрыва в 3pt,
+        # и связная склейка стягивает их в один горб из 33 — классическое
+        # сцепление одиночной связью. То есть ступени лестницы этим объёмом не
+        # разрешаются, и улика остаётся прежней: «54 замера, ведёт 15.0, доля
+        # 19%». Отрицательный результат записан здесь, чтобы следующий не
+        # пробовал то же вслепую.
+        cl = clusters(ladder)
         holes["geometry.radius_ladder_pt"] = {
             "n": sum(rung.values()), "lead": best[0][0] if best else None,
             "share": (best[0][1] / max(1, sum(rung.values()))) if best else 0.0,
-            "pool": True, "distinct": len(ladder)}
+            "pool": True, "distinct": len(ladder),
+            "clusters": cl if len(cl) > 1 else None}
     return {"frames": len(ok), "closed": closed, "holes": holes}
 
 
@@ -378,12 +423,24 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
         if put(k, v["value"]):
             n += 1
     for k, h in dec["holes"].items():
-        if h.get("range"):
-            mark = (f"🕳 скруглённых карточек {h['n']}, все в "
-                    f"{h['range'][0]}–{h['range'][1]}pt, среднее {h['lead']}; "
-                    f"с прямыми углами {h['square']} (секции, не карточки). "
-                    f"Для закрытия нужно {MIN_SAMPLES} скруглённых — "
-                    f"кадры со сгруппированными списками")
+        if h.get("clusters"):
+            cl = ", ".join(f"{c}pt ×{n}" for c, n in h["clusters"])
+            mark = (f"🕳 скруглённых карточек {h['n']}, и они образуют "
+                    f"{len(h['clusters'])} ГОРБА: {cl}. Одним числом величина "
+                    f"не описывается — среднее ({h['lead']}pt) не встречается "
+                    f"ни в одном замере и легло бы между горбами. "
+                    f"Закрывается: разделением на роли (карточка списка, "
+                    f"карточка листа, крупная карточка) — каждой свой ключ, "
+                    f"либо лестницей в geometry.radius_ladder_pt")
+        elif h.get("clusters"):
+            cl = ", ".join(f"{c} ×{n}" for c, n in h["clusters"][:5])
+            mark = (f"🕳 замерено {h['n']}×, и замеры образуют "
+                    f"{len(h['clusters'])} ГОРБА: {cl}. Одним числом величина "
+                    f"не описывается: лидер {h['lead']} держит "
+                    f"{h['share']:.0%} и остальные горбы не покрывает")
+            nd = need_for(k)
+            if nd:
+                mark += f". Закрывается: {nd[1]}"
         else:
             mark = (f"🕳 замерено {h['n']}×, ведёт {h['lead']}, "
                     f"доля {h['share']:.0%} — согласия нет")
@@ -443,6 +500,19 @@ def court() -> int:
           not by_unanimity([78.0] * 14 + [60.0] * 6)[0])
     check("единогласие НЕ подменяет перевес: общий порог остался 30",
           MIN_SAMPLES == 30 and MIN_UNANIMOUS == 12)
+    _cl = clusters([11.8, 11.9, 12.0, 11.7, 11.8, 15.2, 15.2, 15.3, 15.1,
+                    25.3, 25.4, 25.3, 25.5, 25.3, 25.4, 25.3])
+    check("трёхгорбый пул разобран на горбы, а не усреднён",
+          len(_cl) == 3 and {c for c, _ in _cl} == {11.8, 15.2, 25.4})
+    check("самый населённый горб идёт первым",
+          _cl[0][1] == 7 and abs(_cl[0][0] - 25.4) < 0.2)
+    check("ломаю → красный: среднее трёхгорбого пула не встречается в замерах",
+          not any(abs(x - sum([11.8, 15.2, 25.3]) / 3) < 0.5
+                  for x in (11.8, 15.2, 25.3)))
+    check("однородный пул горбом остаётся одним — ложной многогорбости нет",
+          len(clusters([12.0] * 20)) == 1)
+    check("горб из двух замеров не считается горбом (шум)",
+          clusters([12.0] * 5 + [30.0, 30.1]) == [(12.0, 5)])
     few_ok, *_ = by_lead([0.33] * 5, step=0.01)
     check("ломаю → красный: пять замеров — совокупность мала для суждения",
           not few_ok)
