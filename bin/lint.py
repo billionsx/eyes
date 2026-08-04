@@ -497,6 +497,82 @@ def _judge_var_surfaces(decls, roles, base_allow, light_allow, resolved=(),
     return out
 
 
+# ВСТРОЕННЫЙ СТИЛЬ. Правила департамента читают CSS-запись: `border-radius:
+# 22px`, `background: #F9F9F9`. React пишет то же самое иначе — `borderRadius:
+# 22`, `background: '#F9F9F9'`, — и на этой записи правила молчали: не потому,
+# что нарушения нет, а потому, что синтаксис незнаком.
+#
+# Цена молчания видна на числах. В приложении, которое департамент много раз
+# признавал чистым, 418 объявлений радиуса записаны встроенным стилем и лишь
+# четыре — таблицей стилей. То есть суд шёл по одному проценту предмета и
+# докладывал о чистоте всего. Пустой обход департамент уже назвал промахом
+# адреса (ЗКН-Э006); обход, слепой к записи, — тот же промах, только тише.
+#
+# Починка сделана ОДНИМ местом, а не шестью правилами: текст приводится к
+# CSS-записи до того, как его увидит первое правило. Тогда и правила,
+# которые появятся завтра, увидят встроенный стиль без отдельной правки.
+#
+# Список свойств закрытый и объявленный — угадывать «похоже на свойство»
+# нельзя. Единица дописывается только тем, кому её дописывает сам React:
+# opacity, fontWeight, lineHeight, zIndex, flex единиц не имеют.
+INLINE_PROPS = {
+    "borderRadius": ("border-radius", "px"),
+    "borderTopLeftRadius": ("border-top-left-radius", "px"),
+    "borderTopRightRadius": ("border-top-right-radius", "px"),
+    "borderBottomLeftRadius": ("border-bottom-left-radius", "px"),
+    "borderBottomRightRadius": ("border-bottom-right-radius", "px"),
+    "backgroundColor": ("background-color", ""),
+    "background": ("background", ""),
+    "boxShadow": ("box-shadow", ""),
+    "textShadow": ("text-shadow", ""),
+    "fontSize": ("font-size", "px"),
+    "fontFamily": ("font-family", ""),
+    "letterSpacing": ("letter-spacing", "px"),
+    "textTransform": ("text-transform", ""),
+    "opacity": ("opacity", ""),
+}
+INLINE_DECL = re.compile(
+    r"\b(" + "|".join(sorted(INLINE_PROPS, key=len, reverse=True)) + r")"
+    # Значение в кавычках берётся ЦЕЛИКОМ: у тени и у стека шрифтов запятая
+    # стоит внутри значения («0 2px 8px rgba(0,0,0,.4)», «Menlo, monospace»),
+    # и обрыв по первой запятой рассёк бы объявление пополам — правило
+    # увидело бы огрызок и промолчало. Без кавычек значение цельное само.
+    r"\s*:\s*(?:(['\"])([^'\"\n]*)\2|([^,}\n;]*?))(?=\s*[,}\n;])")
+
+
+def _as_css(m: "re.Match") -> str:
+    """Одно встроенное объявление в CSS-записи. Переносов строк не вносит.
+
+    Судится ТОЛЬКО литерал: число (`borderRadius: 22`) или строка в кавычках
+    (`background: '#F9F9F9'`). Значение, взятое из переменной или выражения —
+    `fontFamily: FT`, `borderRadius: r * 2`, — остаётся нетронутым: во что
+    оно развернётся, статически неизвестно, и приговор такому значению был бы
+    выдумкой (ЗКН-Э001). В приложении, с которого починка началась, таких
+    записей 3200 — ровно они и стали бы шумом, топящим настоящие находки.
+
+    Переменная CSS сюда не попадает намеренно: `var(--r-card)` судится своим
+    путём — по ОБЪЯВЛЕНИЮ, где адрес настоящий и тема известна.
+    """
+    имя, кавычка = m.group(1), m.group(2)
+    значение = (m.group(3) if кавычка else m.group(4) or "").strip()
+    свойство, единица = INLINE_PROPS[имя]
+    if not значение or "${" in значение or значение.startswith("var("):
+        return m.group(0)
+    число = re.fullmatch(r"[-+]?\d*\.?\d+", значение)
+    if not кавычка and not число:
+        return m.group(0)          # выражение — значение неизвестно
+    if единица and число:
+        значение += единица
+    return f"{свойство}:{значение}"
+
+
+def normalize_inline_styles(text: str, suffix: str) -> str:
+    """Встроенный стиль — в CSS-запись, чтобы правила видели оба пути."""
+    if suffix not in (".tsx", ".jsx", ".ts", ".js", ".vue", ".svelte"):
+        return text
+    return INLINE_DECL.sub(_as_css, text)
+
+
 def strip_comments(text: str, suffix: str) -> str:
     text = re.sub(r"/\*.*?\*/", _blank, text, flags=re.S)        # CSS / JS block
     if suffix in (".ts", ".tsx", ".js", ".jsx", ".scss", ".sass",
@@ -504,7 +580,7 @@ def strip_comments(text: str, suffix: str) -> str:
         text = re.sub(r"(?<![:\\])//[^\n]*", " ", text)          # // строка (не https://)
     if suffix in (".html", ".htm"):
         text = re.sub(r"<!--.*?-->", _blank, text, flags=re.S)
-    return text
+    return normalize_inline_styles(text, suffix)
 
 
 # Цвет в CSS законно пишется ШЕСТЬЮ и ТРЕМЯ знаками: #1c1 — это #11CC11,

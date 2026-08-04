@@ -2062,6 +2062,60 @@ def cmd_selftest(root: Path) -> int:
     finally:
         shutil.rmtree(_tmpG, ignore_errors=True)
 
+    print("SELFTEST · встроенный стиль (запись не освобождает от нормы)")
+    _tokI = json.loads((root / "registry" / "standards" / "tokens.json").read_text(encoding="utf-8"))
+    _tmpI = Path(tempfile.mkdtemp())
+    try:
+        def _суд(имя: str, текст: str, правила):
+            (_tmpI / имя).write_text(текст, encoding="utf-8")
+            _ad = {"base": "light", "report": {},
+                   "strict": {"globs": [имя], "rules": правила},
+                   "allow_extra": [], "sizes_extra": [], "radius_extra": []}
+            return {f[0] for f in lint_mod.run(root, _ad, _tokI, "strict", _tmpI)["findings"]}
+
+        _правила = ["AE1", "AE2", "AE5", "AE10", "AE11", "AE20"]
+        _встроенный = ("export const A=()=><>"
+                       "<div style={{borderRadius:22}}/>"
+                       "<div style={{background:'#F9F9F9'}}/>"
+                       "<div style={{boxShadow:'0 2px 8px rgba(0,0,0,.4)'}}/>"
+                       "<div style={{fontSize:17.5}}/>"
+                       "<div style={{fontFamily:'Arial,sans-serif'}}/>"
+                       "<div style={{textTransform:'uppercase'}}/></>")
+        _таблицей = (".a{border-radius:22px}.b{background:#F9F9F9}"
+                     ".c{box-shadow:0 2px 8px rgba(0,0,0,.4)}.d{font-size:17.5px}"
+                     ".e{font-family:Arial,sans-serif}.f{text-transform:uppercase}")
+        _из_tsx = _суд("in.tsx", _встроенный, _правила)
+        _из_css = _суд("in.css", _таблицей, _правила)
+        check("ломаю → красный: встроенный стиль судится (AE1·AE2·AE5·AE10·AE11·AE20)",
+              set(_правила) <= _из_tsx)
+        check("две записи одного нарушения дают ОДИН вердикт",
+              _из_tsx == _из_css)
+        check("чиню → зелёный: встроенный стиль в норме чист",
+              not _суд("ok.tsx",
+                       "export const A=()=><div style={{borderRadius:24,fontSize:17}}/>",
+                       ["AE5", "AE11"]))
+        # Значение из выражения статически неизвестно: приговор ему был бы
+        # выдумкой (ЗКН-Э001). Ровно эти записи и стали бы шумом.
+        check("значение из переменной НЕ судится (ЗКН-Э001)",
+              not _суд("var.tsx",
+                       "export const A=()=><div style={{fontFamily:FT,borderRadius:R}}/>",
+                       ["AE10", "AE11"]))
+        check("переменная CSS по-прежнему идёт своим путём, а не встроенным",
+              not _суд("cssvar.tsx",
+                       "export const A=()=><div style={{borderRadius:'var(--r-card)'}}/>",
+                       ["AE11"]))
+        # Адрес обязан остаться настоящим: нормализация не смеет двигать строки.
+        (_tmpI / "line.tsx").write_text(
+            "\n\n\nexport const A=()=><div style={{borderRadius:22}}/>\n", encoding="utf-8")
+        _ad_l = {"base": "light", "report": {},
+                 "strict": {"globs": ["line.tsx"], "rules": ["AE11"]},
+                 "allow_extra": [], "sizes_extra": [], "radius_extra": []}
+        _найдено = lint_mod.run(root, _ad_l, _tokI, "strict", _tmpI)["findings"]
+        check("адрес находки не съехал: строка названа верно (ЗКН-Э002)",
+              len(_найдено) == 1 and _найдено[0][2] == 4)
+    finally:
+        shutil.rmtree(_tmpI, ignore_errors=True)
+
     print("SELFTEST · честность библиотеки (ЗКН-Э001)")
     check("СВЯЗЫВАЕМАЯ требует число + предмет + адрес",
           _grade.grade_line("Use a margin of at least 16 points around each item.",
