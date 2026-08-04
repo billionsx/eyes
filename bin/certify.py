@@ -193,6 +193,31 @@ def register(out: Path, project: str, month: str, score: float,
     print(f"реестр: {project} · {month} · {score} · {gr} · sha256 {digest[:16]}…")
 
 
+
+def note_chronicle(root: Path, line: str) -> bool:
+    """Запись в хронику ДЕПАРТАМЕНТА — только когда орган работает у себя.
+
+    Сертификат считается двумя способами: прогоном департамента и прогоном
+    самого проекта (ст. 56 · M3-Б, чтобы клиент не выдавал ключ от своего
+    репозитория). Во втором случае департамент забирается разреженно —
+    `bin`, `adapters`, `registry/standards`, — и каталога `registry/state`
+    там НЕТ. Безусловная дозапись роняла прогон на последней строке, уже
+    посчитав сертификат: документ выдан, а шаг красный.
+
+    Хуже сбоя то, что он значил: контур M3 не мог отработать НИ У ОДНОГО
+    клиента, и это не было видно, пока его не запустили живьём (04.08.2026).
+
+    Возвращает True, если запись легла. False — если органу писать некуда:
+    у клиента своя хроника, и департамент её не ведёт.
+    """
+    d = root / "registry" / "state"
+    if not d.is_dir():
+        return False
+    with (d / "CHANGELOG.md").open("a", encoding="utf-8") as f:
+        f.write(line)
+    return True
+
+
 def run(project_root: Path, pdf: bool = False) -> dict:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     c = collect(project_root)
@@ -230,9 +255,9 @@ def run(project_root: Path, pdf: bool = False) -> dict:
                 b.close()
         except Exception as e:
             print(f"pdf: {type(e).__name__} (html/badge выданы)")
-    with (ROOT / "registry" / "state" / "CHANGELOG.md").open("a", encoding="utf-8") as f:
-        f.write(f"### {ts} · сертификация\n- {c['project']}: скор {score} · грейд {grade(score)} "
-                f"(strict {c['strict']} · report {c['report']} · live {c['live']} · сверка {c['verify_diverg']})\n\n")
+    note_chronicle(ROOT, f"### {ts} · сертификация\n- {c['project']}: скор {score} "
+                   f"· грейд {grade(score)} (strict {c['strict']} · report {c['report']} "
+                   f"· live {c['live']} · сверка {c['verify_diverg']})\n\n")
     return {"project": c["project"], "score": score, "grade": grade(score), **{k: c[k] for k in ("strict", "report", "live", "verify_diverg")}}
 
 

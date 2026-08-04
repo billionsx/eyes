@@ -495,6 +495,18 @@ def cmd_selftest(root: Path) -> int:
           wf_mod.LEVEL["read"] < wf_mod.LEVEL["write"]
           and wf_mod.LEVEL["none"] < wf_mod.LEVEL["read"])
 
+    print("SELFTEST · сертификат на чужой машине (ст. 56 · M3-Б)")
+    import certify as _cert
+    _cd = Path(_tf3.mkdtemp(prefix="eyes-cert-"))
+    check("ломаю → красный: без registry/state орган НЕ пишет и НЕ падает "
+          "(разреженный забор у клиента)",
+          _cert.note_chronicle(_cd, "проба\n") is False
+          and not (_cd / "registry").exists())
+    (_cd / "registry" / "state").mkdir(parents=True)
+    check("чиню → зелёный: у себя дома запись ложится в хронику",
+          _cert.note_chronicle(_cd, "проба\n") is True
+          and "проба" in (_cd / "registry" / "state" / "CHANGELOG.md").read_text(encoding="utf-8"))
+
     print("SELFTEST · адресат роста долга (ст. 43)")
     import tempfile as _tf2
     _vd = Path(_tf2.mkdtemp(prefix="eyes-vision-"))
