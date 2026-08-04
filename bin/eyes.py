@@ -2014,6 +2014,54 @@ def cmd_selftest(root: Path) -> int:
     check("область видна в документе кандидатов",
           "Область обязательна" in (root / "bin" / "propose.py").read_text(encoding="utf-8"))
 
+    print("SELFTEST · граница предмета (по чужой оси не судят, ЗКН-Э008)")
+    _tokG = json.loads((root / "registry" / "standards" / "tokens.json").read_text(encoding="utf-8"))
+    _tmpG = Path(tempfile.mkdtemp())
+    try:
+        def _судить(имя: str, текст: str, правила, база="light"):
+            (_tmpG / имя).write_text(текст, encoding="utf-8")
+            _ad = {"base": база, "report": {},
+                   "strict": {"globs": [имя], "rules": правила},
+                   "allow_extra": [], "sizes_extra": [], "radius_extra": []}
+            return {f[0] for f in lint_mod.run(root, _ad, _tokG, "strict", _tmpG)["findings"]}
+
+        # 1. МОНОШИРИННАЯ РОЛЬ. Своя системная голова — ui-monospace.
+        check("AE10 ломаю → красный: пропорциональный стек начат чужой гарнитурой",
+              "AE10" in _судить("ff-bad.css", ".a{font-family:Arial,sans-serif}", ["AE10"]))
+        check("AE10 чиню → зелёный: моноширинный стек начат ui-monospace",
+              "AE10" not in _судить(
+                  "ff-mono.css", ".a{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}", ["AE10"]))
+        check("AE10 подмена головы моноширинного стека всё ещё судится",
+              "AE10" in _судить("ff-menlo.css", ".a{font-family:Menlo,monospace}", ["AE10"]))
+
+        # 2. ТЁМНАЯ ТЕМА У СВЕТЛОГО ПРОЕКТА. Тема названа — лестница её холста.
+        _тёмная = (":root{--bg:#FFFFFF}"
+                   "@media(prefers-color-scheme:dark){:root{--bg:#1C1C1E}}"
+                   ".card{background:var(--bg)}")
+        check("AE1 чиню → зелёный: ступень тёмной лестницы внутри тёмной темы законна",
+              "AE1" not in _судить("th-ok.css", _тёмная, ["AE1"]))
+        _тёплая = (":root{--bg:#FFFFFF}"
+                   "@media(prefers-color-scheme:dark){:root{--bg:#242424}}"
+                   ".card{background:var(--bg)}")
+        check("AE1 ломаю → красный: цвет вне тёмной лестницы внутри тёмной темы пойман",
+              "AE1" in _судить("th-bad.css", _тёплая, ["AE1"]))
+        check("AE1 вне темы светлый проект по-прежнему судится своей базой",
+              "AE1" in _судить("th-base.css",
+                               ":root{--bg:#1C1C1E}.card{background:var(--bg)}", ["AE1"]))
+
+        # 3. ВЫГРУЖАЕМЫЙ ДОКУМЕНТ. Чужой файл холстом ОС не является.
+        _док = ("export const x=()=>{let html='<html><head><style>"
+                "tr:nth-child(even){background:#f9f9f9}</style></head></html>'}")
+        check("AE1 чиню → зелёный: стили собираемого HTML-документа не судятся",
+              "AE1" not in _судить("doc.tsx", _док, ["AE1"]))
+        check("AE1 ломаю → красный: тот же цвет в стилях экрана пойман",
+              "AE1" in _судить("scr.css", ".row{background:#f9f9f9}", ["AE1"]))
+        check("AE1 фрагмент разметки без открытого документа не освобождает",
+              "AE1" in _судить("frag.tsx",
+                               "export const x=()=>{let s='<tr style=\"background:#f9f9f9\">'}", ["AE1"]))
+    finally:
+        shutil.rmtree(_tmpG, ignore_errors=True)
+
     print("SELFTEST · честность библиотеки (ЗКН-Э001)")
     check("СВЯЗЫВАЕМАЯ требует число + предмет + адрес",
           _grade.grade_line("Use a margin of at least 16 points around each item.",

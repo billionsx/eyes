@@ -447,14 +447,27 @@ def _judge_var_scales(decls, roles, tokens, rules, resolved=()):
     return out
 
 
-def _judge_var_surfaces(decls, roles, dark_allow, light_allow, resolved=()):
+def _judge_var_surfaces(decls, roles, base_allow, light_allow, resolved=(),
+                        dark_allow=()):
     """Находки по объявлениям переменных, применяемых как ФОН.
 
-    Судится каждое объявление своей лестницей. Переменная, которую никогда
-    не применяют фоном, не судится вовсе: цвет текста и цвет фона живут на
-    разных лестницах, и мерить один другой значит выдумывать нарушения.
+    Судится каждое объявление СВОЕЙ лестницей — той, чей холст объявление
+    адресует, а не той, что записана базой проекта.
+
+    Различие это не косметическое. Светлый проект (`base: light`) вправе
+    держать тёмную тему, и объявление внутри `prefers-color-scheme: dark`
+    адресует ЧЁРНЫЙ холст: #1C1C1E там — вторая ступень измеренной лестницы
+    (ст. 9), а не нарушение. Раньше такое объявление судилось лестницей
+    базы, то есть светлой, и департамент упрекал проект за верное значение,
+    называя при этом лестницу «тёмной», — приговор по чужой оси, ровно тот
+    случай, что запрещает ЗКН-Э008.
+
+    Переменная, которую никогда не применяют фоном, не судится вовсе: цвет
+    текста и цвет фона живут на разных лестницах, и мерить один другой
+    значит выдумывать нарушения.
     """
     out = []
+    dark_allow = set(dark_allow) or set(base_allow)
     for name, items in sorted(decls.items()):
         if name in resolved:
             continue                  # подстановка уже донесла до правила
@@ -469,10 +482,18 @@ def _judge_var_surfaces(decls, roles, dark_allow, light_allow, resolved=()):
                 if (light_allow and c not in light_allow
                         and _is_surface(c, light_allow)):
                     out.append((rel, line, c, "СВЕТЛОЙ", light_allow))
-            elif scope in ("dark", "base"):
+            elif scope == "dark":
+                # Тема названа прямо — судим лестницей ЕЁ холста.
                 if (dark_allow and c not in dark_allow
                         and _is_surface(c, dark_allow)):
                     out.append((rel, line, c, "тёмной", sorted(dark_allow)))
+            elif scope == "base":
+                # Тема не названа — объявление обязано лежать на лестнице той
+                # базы, которую проект объявил своей.
+                if (base_allow and c not in base_allow
+                        and _is_surface(c, base_allow)):
+                    out.append((rel, line, c, "объявленной проектом",
+                                sorted(base_allow)))
     return out
 
 
@@ -608,6 +629,27 @@ FS_SCALE = re.compile(r"font-size\s*:\s*[^;}]*?(\d*\.?\d+\s*(?:rem|em|%)|clamp\(
                       re.I)
 
 PRINT_SCOPE = re.compile(r"@media[^{]*\bprint\b", re.I)
+
+# ВЫГРУЖАЕМЫЙ ДОКУМЕНТ. Приложение вправе собрать в строке целый HTML-файл
+# и отдать его гостю на скачивание — выгрузку в таблицу, счёт, письмо.
+# Стили внутри такого литерала описывают ЧУЖОЙ документ, который откроется
+# в Excel, в почте, на бумаге, — но не экран, за который отвечает
+# департамент. Это та же граница, что уже проведена для печати: правило
+# судит там, где холст известен, и молчит там, где известен другой.
+#
+# Признак закрытый и объявленный: в строке исходника открыт тег документа
+# (`<html`). Угадывать «похоже на выгрузку» нельзя — стили интерфейса
+# открывающего тега документа не содержат, а фрагмент разметки без него
+# правило по-прежнему судит.
+DOC_LITERAL = re.compile(r"<html\b", re.I)
+
+
+def _in_document_literal(text: str, pos: int) -> bool:
+    """Объявление стоит внутри собираемого HTML-ДОКУМЕНТА, а не в стилях."""
+    начало = text.rfind("\n", 0, pos) + 1
+    конец = text.find("\n", pos)
+    строка = text[начало:конец if конец != -1 else len(text)]
+    return bool(DOC_LITERAL.search(строка))
 
 
 def _in_print_scope(text: str, pos: int) -> bool:
@@ -847,7 +889,8 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             if "AE1" in rules:
                 for m in BG_PROP.finditer(t):
                     c = hex6(m.group(1))
-                    if _in_print_scope(t, m.start()):
+                    if (_in_print_scope(t, m.start())
+                            or _in_document_literal(t, m.start())):
                         continue
                     # Граница предмета ОДНА на оба пути. Иначе фирменный
                     # акцент прощается через объявление переменной и
@@ -944,7 +987,23 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
             if "AE10" in rules:
                 for m in FFAM.finditer(t):
                     v = m.group(1).strip().strip("'\"").lower()
-                    if v.startswith(("var(", "inherit", "monospace")):
+                    if v.startswith(("var(", "inherit")):
+                        continue
+                    # МОНОШИРИННАЯ РОЛЬ. Системный стек роли — не один на все
+                    # случаи: у пропорционального текста голова -apple-system /
+                    # system-ui, у моноширинного она СВОЯ — ui-monospace, за
+                    # которой у Apple стоит SF Mono. Требовать -apple-system
+                    # первым от моноширинного объявления значит требовать
+                    # пропорциональный шрифт там, где нужен моноширинный: путь
+                    # к файлу и команда разъедутся по колонкам. Судить чужой
+                    # головой — то же, что судить по неснятой оси (ЗКН-Э008).
+                    #
+                    # Голова закрытая и объявленная: `ui-monospace` (веб-имя
+                    # системного моноширинного) и голое `monospace` (родовое
+                    # семейство). Стек, начатый КОНКРЕТНОЙ гарнитурой —
+                    # `Menlo, monospace`, — правило по-прежнему судит: это
+                    # подмена системной головы, а не другая роль.
+                    if v.startswith(("ui-monospace", "monospace")):
                         continue
                     # Внутри @font-face `font-family` — это ИМЯ подключаемой
                     # гарнитуры, а не стек ролей. Системный стек здесь не просто
@@ -1096,11 +1155,15 @@ def run(root: Path, adapter: dict, tokens: dict, mode: str, project_root: Path) 
 
     if "AE1" in rules:
         # Спорная переменная судится ПО ОБЪЯВЛЕНИЮ: адрес настоящий, тема
-        # известна из области. Однозначная сюда тоже попадает — и это верно:
-        # объявление вне темы обязано лежать на тёмной лестнице, потому что
-        # база департамента снята с тёмного холста.
+        # известна из области. Объявление вне темы судится лестницей базы
+        # проекта; объявление внутри темы — лестницей ЕЁ холста, даже если
+        # база проекта другая. Тёмная лестница берётся из свода департамента,
+        # а не из базы: она снята с чёрного холста и от базы не зависит.
+        dark_ladder = ({hex6(c) for c in tokens["surfaces"]["allow"]}
+                       | {hex6(c) for c in adapter.get("allow_extra", [])})
         for rel_, ln_, c_, чья, лестница in _judge_var_surfaces(
-                var_decls, var_roles, allow, light_allow, set(var_defs)):
+                var_decls, var_roles, allow, light_allow, set(var_defs),
+                dark_ladder):
             findings.append((
                 "AE1", rel_, ln_,
                 f"переменная фона {c_} вне {чья} лестницы поверхностей "
