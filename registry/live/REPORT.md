@@ -1,5 +1,5 @@
 # ЖИВОЙ ВЗГЛЯД · отчёт (советник)
-Снято: 2026-08-03 19:34 UTC · настоящий DOM+computed, не кадры.
+Снято: 2026-08-04 06:12 UTC · настоящий DOM+computed, не кадры.
 
 ## https://ethnomir.app/
 элементов снято: 20 · находок: 1
@@ -14,7 +14,7 @@
 
 ## https://ethnomir.app/steps
 элементов снято: 87 · находок: 4
-диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 739886, "bodyChildren": 132}
+диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 739890, "bodyChildren": 132}
 - **AE10** · 4: `p.chk` (живой шрифт первой позицией: ui-monospace); `span.chkl` (живой шрифт первой позицией: ui-monospace); `a` (живой шрифт первой позицией: ui-monospace); `span.pathref` (живой шрифт первой позицией: ui-monospace)
 
 ## https://ethnomir.app/way
@@ -33,7 +33,7 @@
 
 ## https://brajs.com/
 элементов снято: 38 · находок: 0
-диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 18517, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19069, "bodyChildren": 2}
 
 ## https://brajs.com/katha
 элементов снято: 33 · находок: 0
@@ -41,5 +41,5 @@
 
 ## https://brajs.com/library
 элементов снято: 38 · находок: 0
-диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 20887, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19076, "bodyChildren": 2}
 

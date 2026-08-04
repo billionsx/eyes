@@ -145,3 +145,6 @@
 {"id": "/documentation/uikit/uiimagereader-c.class/defaultreader", "sha": "8bf8fad437c0d5fb39d0eb43b520a24a976a531a37dca327ff8ca02e9f33adb9", "sieve": 2, "t": "defaultReader", "n": 89, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
 {"id": "/documentation/uikit/uiimagereader-swift.struct/default", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "default", "n": 0, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
 {"id": "/documentation/uikit/uitextrange/end", "sha": "5a712e5ddc0a4f2696965dd172f2276a76295c11ca7187b61d6ba53d100fbbbc", "sieve": 2, "t": "end", "n": 145, "laws": 0, "ts": "2026-08-03 19:18 UTC"}
+{"id": "/documentation/SwiftUI/RemoteDeviceIdentifier", "sha": "222b3084b8e7c85692e44932e10afcdc86296794514881c67543d7648e423bd1", "sieve": 2, "t": "RemoteDeviceIdentifier", "n": 458, "laws": 0, "ts": "2026-08-04 05:36 UTC"}
+{"id": "/documentation/swiftui/view/typeselectequivalent(_:)-1lp9e", "sha": "e9be7b38cdc8b8b39d2fc0b2d5c32703c399ccbdbff2c4b0140f96bdb9cbd34b", "sieve": 2, "t": "typeSelectEquivalent(_:)", "n": 785, "laws": 0, "ts": "2026-08-04 05:45 UTC"}
+{"id": "/documentation/swiftui/worldalignmentbehavior/automatic", "sha": "0ab70f5d791ba57af75f0ed84c4ae96767fb298f6d8e2ca5c071e3f8992cfcab", "sieve": 2, "t": "automatic", "n": 122, "laws": 0, "ts": "2026-08-04 05:46 UTC"}

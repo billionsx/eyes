@@ -154,3 +154,4 @@
 {"id": "/documentation/uikit/uicolor/darktext", "sha": "fa6ad24317a03ccaeab505c30a5450aa94fd6d846784477f772bda55ec29269c", "sieve": 2, "t": "darkText", "n": 176, "laws": 0, "ts": "2026-08-03 19:23 UTC"}
 {"id": "/documentation/uikit/uialertaction/isenabled", "sha": "04f04dba7c3e01259bdb968db133c0fca5b6c5e65a3268144bf507d4566bb0d1", "sieve": 2, "t": "isEnabled", "n": 279, "laws": 0, "ts": "2026-08-03 19:24 UTC"}
 {"id": "/documentation/uikit/nswritingdirection/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-03 19:26 UTC"}
+{"id": "/documentation/swiftui/nshostingmenu/rootview", "sha": "1284308b2e1c83b5b5346f9ba9e653fccd5463c9f13e3b007a0cdd8df566b00e", "sieve": 2, "t": "rootView", "n": 188, "laws": 0, "ts": "2026-08-04 05:54 UTC"}

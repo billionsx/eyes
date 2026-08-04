@@ -1631,3 +1631,36 @@
 - https://brajs.com/katha: элементов 33 · находок 0
 - https://brajs.com/library: элементов 38 · находок 0
 
+### 2026-08-04 06:04 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 340 · законов добыто 204 · изменилось 429
+- фронтир 69000 · всего пройдено 42700 · библиотека 33110 законов / 340 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 33072)
+- закон изменился: /documentation/visionos/presenting-windows-and-spaces · «Presenting windows and spaces»
+- закон изменился: /documentation/visionOS/obscuring-virtual-items-in-a-scene-behind-real-world-items · «Obscuring virtual items in a scene behind real-world items»
+- закон изменился: /documentation/visionos/using-a-reference-object-with-arkit-in-ios · «Using a reference object with ARKit in iOS»
+- закон изменился: /documentation/xcode/configuring-group-activities · «Configuring Group Activities»
+- закон изменился: /documentation/xcode/adopting-type-aware-memory-allocation · «Adopting type-aware memory allocation»
+- закон изменился: /documentation/xcode/adding-package-dependencies-to-your-app · «Adding package dependencies to your app»
+- закон изменился: /documentation/xcode/about-continuous-integration-and-delivery-with-xcode-cloud · «About continuous integration and delivery with Xcode Cloud»
+- закон изменился: /documentation/xcode/invalid-float-cast · «Invalid float cast»
+- закон изменился: /documentation/xcode/detecting-when-your-app-contacts-domains-that-may-be-profiling-users · «Detecting when your app contacts domains that may be profili»
+- закон изменился: /documentation/xcode/connecting-xcode-cloud-to-slack · «Connecting Xcode Cloud to Slack»
+- закон изменился: /documentation/xcode/writing-armv6-code-for-ios · «Writing ARMv6 code for iOS»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 48 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 209 · находок 28
+- https://ethnomir.app/steps: элементов 87 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

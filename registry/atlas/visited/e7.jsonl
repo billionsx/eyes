@@ -163,3 +163,6 @@
 {"id": "/documentation/uikit/uiprintpagerenderer/paperrect", "sha": "0491f4a972b25ebb8bee6f0c8536809543016e775550a0438d083c7ce93b16df", "sieve": 2, "t": "paperRect", "n": 176, "laws": 0, "ts": "2026-08-03 19:15 UTC"}
 {"id": "/documentation/uikit/uitextchecker/completions(forpartialwordrange:in:language:)", "sha": "4c11b10b97c7a07c913ad60079a7de1d2c9ee1e850567a5634fddb058bb1d3a6", "sieve": 2, "t": "completions(forPartialWordRange:in:language:)", "n": 428, "laws": 0, "ts": "2026-08-03 19:17 UTC"}
 {"id": "/documentation/uikit/uicolor/green", "sha": "ee7a371bb179adaa4f03ee24d237d11e068afb85cba998930c8bc14ef612edc9", "sieve": 2, "t": "green", "n": 67, "laws": 0, "ts": "2026-08-03 19:23 UTC"}
+{"id": "/documentation/SwiftUI/Documents", "sha": "3cc83d9c547a6bdda942cfac41f39ff88c9a57d7beaff21735ec261d08358718", "sieve": 2, "t": "Documents", "n": 2078, "laws": 0, "ts": "2026-08-04 05:36 UTC"}
+{"id": "/documentation/swiftui/scrollviewreader/content", "sha": "8a0cc101aa289ec403323ea8964136c09cd1e2c74ea6e78183470b993e0ddd26", "sieve": 2, "t": "content", "n": 54, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
+{"id": "/documentation/swiftui/graphicscontext/shading/color(_:)", "sha": "f06099b176ed09a2ac02e9d17f801fa5f1266a2780b8bce2872a2403755b70ab", "sieve": 2, "t": "color(_:)", "n": 107, "laws": 0, "ts": "2026-08-04 06:04 UTC"}

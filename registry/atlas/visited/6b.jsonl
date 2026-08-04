@@ -170,3 +170,6 @@
 {"id": "/documentation/uikit/nscollectionlayoutsize/init(widthdimension:heightdimension:)", "sha": "d70d373d01974c282a72534c8d7a14d84defa27e9ef4501add356eb1ab88ae03", "sieve": 2, "t": "init(widthDimension:heightDimension:)", "n": 62, "laws": 0, "ts": "2026-08-03 19:20 UTC"}
 {"id": "/documentation/uikit/uicolor/clear", "sha": "1e3f22ed57530f759a435c303f3ad14f6f4a88484156a4f39819487b22c6487c", "sieve": 2, "t": "clear", "n": 62, "laws": 0, "ts": "2026-08-03 19:23 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/glyphproperty/controlcharacter", "sha": "9808437280118dab195daf88d88b5a22fe43d84551b4df7bf153242334034d17", "sieve": 2, "t": "controlCharacter", "n": 147, "laws": 0, "ts": "2026-08-03 19:25 UTC"}
+{"id": "/documentation/swiftui/datepickerstyle/wheel", "sha": "4a98892b26505148ac9b151c8934d9a7f2ad6df76e277fe4f6c235ef5cb055b6", "sieve": 2, "t": "wheel", "n": 82, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
+{"id": "/documentation/swiftui/nshostingmenu/copy(with:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "copy(with:)", "n": 0, "laws": 0, "ts": "2026-08-04 05:54 UTC"}
+{"id": "/documentation/swiftui/manipulable/operation", "sha": "7071b0a79e75ccd78be58ece2292302fd9dea5b062bbdb845fa87699bb86ca4d", "sieve": 2, "t": "Manipulable.Operation", "n": 192, "laws": 0, "ts": "2026-08-04 05:56 UTC"}

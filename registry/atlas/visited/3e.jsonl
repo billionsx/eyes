@@ -163,3 +163,5 @@
 {"id": "/documentation/uikit/uifontdescriptor/symbolictraits-swift.struct/classscripts", "sha": "7cef4fcc0429d3d374963c81f8bf031c73fef7a49ce43d3ea58c1ffd9d4c6e75", "sieve": 2, "t": "classScripts", "n": 43, "laws": 0, "ts": "2026-08-03 19:17 UTC"}
 {"id": "/documentation/uikit/uinavigationbar/nstoolbarsection/content", "sha": "bc31057c86ef67740bf5f7bff2611cbc24ff3336e9d2188f3b1e4f3b8464ec57", "sieve": 2, "t": "UINavigationBar.NSToolbarSection.content", "n": 73, "laws": 0, "ts": "2026-08-03 19:21 UTC"}
 {"id": "/documentation/uikit/nstextstoragedelegate", "sha": "a60ef1beda7fea67b31a941bb93eb459c5f11b9629b3ea6396eaf105686e6ddf", "sieve": 2, "t": "NSTextStorageDelegate", "n": 241, "laws": 0, "ts": "2026-08-03 19:25 UTC"}
+{"id": "/documentation/swiftui/focusinteractions/edit", "sha": "28a2432c7a02131aff337af267b0a1a194641884950717641085f475d4b808ad", "sieve": 2, "t": "edit", "n": 252, "laws": 0, "ts": "2026-08-04 05:48 UTC"}
+{"id": "/documentation/swiftui/view/accessibility(identifier:)", "sha": "ff6c4dbfeb63f0e89c6efa77545f7b177f629fea65a300e5b4928fd572e703d6", "sieve": 2, "t": "accessibility(identifier:)", "n": 119, "laws": 0, "ts": "2026-08-04 05:59 UTC"}

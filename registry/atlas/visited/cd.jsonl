@@ -184,3 +184,7 @@
 {"id": "/documentation/UIKit/UISearchTextField", "sha": "bc5e24855358c3fa0382b9baa56d4d9adcf85110669136fd207bfc3d55d6fc92", "sieve": 2, "t": "UISearchTextField", "n": 1377, "laws": 0, "ts": "2026-08-03 08:08 UTC"}
 {"id": "/documentation/uikit/uipreviewinteractiondelegate/previewinteractiondidcancel(_:)", "sha": "ab14008ea440b914a40701642b77a19dfbd141385b32898caf1d034fea5f3b68", "sieve": 2, "t": "previewInteractionDidCancel(_:)", "n": 279, "laws": 0, "ts": "2026-08-03 19:09 UTC"}
 {"id": "/documentation/uikit/uicolor/tertiarysystemgroupedbackground", "sha": "53523d3087a89c02029767576c2aaa404acbea2044afb55005c537766a370bd8", "sieve": 2, "t": "tertiarySystemGroupedBackground", "n": 187, "laws": 1, "ts": "2026-08-03 19:24 UTC"}
+{"id": "/documentation/SwiftUI/Images", "sha": "8d0bd79b17e3747472fd658fb616859e505cf129cd7efb32ac8cbc9bf2afa863", "sieve": 2, "t": "Images", "n": 1116, "laws": 0, "ts": "2026-08-04 05:36 UTC"}
+{"id": "/documentation/swiftui/controlgroupstyle/compactmenu", "sha": "d47beb30f9ed957a36e40490e1440c0288a0a05e5f76a47ca817f9b9e81b6ef5", "sieve": 2, "t": "compactMenu", "n": 265, "laws": 1, "ts": "2026-08-04 05:49 UTC"}
+{"id": "/documentation/swiftui/edge/set/all", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "all", "n": 0, "laws": 0, "ts": "2026-08-04 05:51 UTC"}
+{"id": "/documentation/swiftui/shapeview/fill(_:style:)", "sha": "ac4f434ce882a2aff5bfd54cf39c55ad19b262edf755dea9d855a50a9c014d68", "sieve": 2, "t": "fill(_:style:)", "n": 112, "laws": 0, "ts": "2026-08-04 05:57 UTC"}

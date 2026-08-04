@@ -161,3 +161,5 @@
 {"id": "/documentation/uikit/uiprintinfo/printerid", "sha": "78ffe9c3225994778b8520a09fce3fc03b3e9ab0b3e8abe45ed11a7bfd369a5a", "sieve": 2, "t": "printerID", "n": 272, "laws": 0, "ts": "2026-08-03 19:14 UTC"}
 {"id": "/documentation/uikit/uiimagereaderconfiguration/prefershighdynamicrange", "sha": "adbef96121bd31ec5af8591c3fb4fd9a7f160879d426fa931e17478866841046", "sieve": 2, "t": "prefersHighDynamicRange", "n": 288, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
 {"id": "/documentation/uikit/uisearchsuggestion/localizedsuggestion", "sha": "18cd30dbcc66e975e21a0e65164ce73f283caecafcc37d3512e46754900a78a9", "sieve": 2, "t": "localizedSuggestion", "n": 78, "laws": 0, "ts": "2026-08-03 19:22 UTC"}
+{"id": "/documentation/SwiftUI/KeyboardShortcut", "sha": "ed66f710010ceb8b83af169d92beaa848eefe1b931b8d1bde0cccd89939427e7", "sieve": 2, "t": "KeyboardShortcut", "n": 356, "laws": 0, "ts": "2026-08-04 05:36 UTC"}
+{"id": "/documentation/swiftui/scrollviewreader/init(content:)", "sha": "5a4931df261dbb208a2121d0cb93bde11c7e351b35d8183556f6ca004a6f84dd", "sieve": 2, "t": "init(content:)", "n": 86, "laws": 0, "ts": "2026-08-04 05:49 UTC"}

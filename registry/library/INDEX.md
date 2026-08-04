@@ -5,7 +5,7 @@
 | Фреймворк | Законов |
 |---|---|
 | uikit | 3859 |
-| swiftui | 2609 |
+| swiftui | 2813 |
 | appkit | 2397 |
 | appintents | 1688 |
 | hig-tables | 1553 |
@@ -13,8 +13,8 @@
 | human-interface-guidelines | 1022 |
 | xcode | 954 |
 | foundation | 850 |
+| big7 | 789 |
 | metal | 757 |
-| big7 | 730 |
 | avfoundation | 685 |
 | visionos | 655 |
 | technotes | 616 |
@@ -345,4 +345,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 32847 · фреймворков: 340
+Итого законов: 33110 · фреймворков: 340

@@ -183,3 +183,4 @@
 {"id": "/documentation/uikit/uipressesevent/allpresses", "sha": "17492c8ac1cb10d4f54bda9e516a2b3f6df61be341c2d59f5bebb83e8d8624e9", "sieve": 2, "t": "allPresses", "n": 117, "laws": 0, "ts": "2026-08-03 19:09 UTC"}
 {"id": "/documentation/uikit/uifontdescriptor/object(forkey:)", "sha": "92531416bd1e32034d5d043433cd64095371c50902e2a0eb59bd496fa1bd7184", "sieve": 2, "t": "object(forKey:)", "n": 146, "laws": 0, "ts": "2026-08-03 19:17 UTC"}
 {"id": "/documentation/uikit/uialertcontrollerseverity/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-03 19:24 UTC"}
+{"id": "/documentation/swiftui/tabcontent/help(_:)-68bf8", "sha": "466d358823c87d2f42cad2af5b1c4a7231e1b5007518e76009ef40c6435fb0ab", "sieve": 2, "t": "help(_:)", "n": 285, "laws": 0, "ts": "2026-08-04 05:47 UTC"}

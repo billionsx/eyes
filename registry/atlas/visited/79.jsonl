@@ -154,3 +154,7 @@
 {"id": "/documentation/uikit/uidropoperation/move", "sha": "c19be1a82df5a9c165086748d2a9268d8958fed498827e415da6dc8a92e7b9bd", "sieve": 2, "t": "UIDropOperation.move", "n": 615, "laws": 0, "ts": "2026-08-03 19:08 UTC"}
 {"id": "/documentation/uikit/uiprintinfo/init()", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init()", "n": 0, "laws": 0, "ts": "2026-08-03 19:14 UTC"}
 {"id": "/documentation/uikit/uicolor/lightgray", "sha": "d111fe096fa3a6b30037251b654796ecfec08de1cd5219c3bfef80239293f4b4", "sieve": 2, "t": "lightGray", "n": 68, "laws": 0, "ts": "2026-08-03 19:23 UTC"}
+{"id": "/documentation/SwiftUI/Color/brown", "sha": "971f0ff6c240994c00f971a39d2c1ef42103727d0e261eb52eedb53a10f0075f", "sieve": 2, "t": "brown", "n": 64, "laws": 1, "ts": "2026-08-04 05:51 UTC"}
+{"id": "/documentation/SwiftUI/Color/green", "sha": "0fcb961a18bafe620478639bbeeee6699075d985eba138a823b7b4897ecbed7a", "sieve": 2, "t": "green", "n": 64, "laws": 1, "ts": "2026-08-04 05:51 UTC"}
+{"id": "/documentation/SwiftUI/Glass/clear", "sha": "0b5ef74599efc6f16b9fb940b359ccad2c65c8ff5393e12693e7344af2d4a6a9", "sieve": 2, "t": "clear", "n": 283, "laws": 2, "ts": "2026-08-04 05:52 UTC"}
+{"id": "/documentation/swiftui/menubutton/init(label:content:)", "sha": "c26a50781ea4236e50549ea5aaf3d3409a804cd76e12049ef7d13309db1408ea", "sieve": 2, "t": "init(label:content:)", "n": 59, "laws": 0, "ts": "2026-08-04 05:57 UTC"}

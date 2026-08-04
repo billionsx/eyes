@@ -177,3 +177,5 @@
 {"id": "/documentation/uikit/uinavigationitem/searchbarplacement-swift.enum/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-03 19:22 UTC"}
 {"id": "/documentation/uikit/nslayoutmanager/glyphproperty/nonbasecharacter", "sha": "1cb75816f8e9b5d2912bb2e013022b9e035204283075a1730b2155414e37208a", "sieve": 2, "t": "nonBaseCharacter", "n": 133, "laws": 0, "ts": "2026-08-03 19:25 UTC"}
 {"id": "/documentation/uikit/nstextstorage/layoutmanagers", "sha": "75b7683dfde4be59de5e55531907ebc27fd252760951911aad03d88848497485", "sieve": 2, "t": "layoutManagers", "n": 48, "laws": 0, "ts": "2026-08-03 19:25 UTC"}
+{"id": "/documentation/swiftui/systemformatstyle/stopwatch", "sha": "2e449651c55ad37e9dbd2dac03c77bb3f7e22cb70bf0e8dd196e3f758074ea20", "sieve": 2, "t": "SystemFormatStyle.Stopwatch", "n": 621, "laws": 0, "ts": "2026-08-04 05:44 UTC"}
+{"id": "/documentation/swiftui/windowplacement/init(_:size:)", "sha": "7da78463925d6ad29a8c1eeed4963daf71b7dca5d3332d7c58c4e94e2863184c", "sieve": 2, "t": "init(_:size:)", "n": 194, "laws": 0, "ts": "2026-08-04 05:45 UTC"}

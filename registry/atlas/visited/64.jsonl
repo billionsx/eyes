@@ -145,3 +145,5 @@
 {"id": "/documentation/uikit/uiimage/renderingmode-swift.enum/init(rawvalue:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(rawValue:)", "n": 0, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
 {"id": "/documentation/uikit/uinavigationbar/nstoolbarsection/none", "sha": "170d9c1b70b6efe8ad7d5afad0bedc6adf397c9b0fe21969f29411acd07098ad", "sieve": 2, "t": "UINavigationBar.NSToolbarSection.none", "n": 183, "laws": 0, "ts": "2026-08-03 19:21 UTC"}
 {"id": "/documentation/uikit/uialertcontrollerseverity/critical", "sha": "9c8a3adebf5790ee31490638da09c78714c68443986ffe76c7adf5ae66c55b80", "sieve": 2, "t": "UIAlertControllerSeverity.critical", "n": 89, "laws": 1, "ts": "2026-08-03 19:24 UTC"}
+{"id": "/documentation/swiftui/menucontrolgroupstyle", "sha": "d8fddc5770042bac269428e70d7efd6393b823f49ea51f922f5f64685fb9ac04", "sieve": 2, "t": "MenuControlGroupStyle", "n": 227, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
+{"id": "/documentation/swiftui/previewmodifier/context", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "Context", "n": 0, "laws": 0, "ts": "2026-08-04 05:54 UTC"}

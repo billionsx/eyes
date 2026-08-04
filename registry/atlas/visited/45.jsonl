@@ -167,3 +167,5 @@
 {"id": "/documentation/devicediscoveryui/devicediscoveryui_extern", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "DeviceDiscoveryUI_EXTERN", "n": 0, "laws": 0, "ts": "2026-08-03 18:58 UTC"}
 {"id": "/documentation/uikit/uicommandalternate/action", "sha": "224f71ebe583f37d01ca292bef6d52f2521b1cb3260aa661330c25c21e9b5731", "sieve": 2, "t": "action", "n": 49, "laws": 0, "ts": "2026-08-03 19:06 UTC"}
 {"id": "/documentation/uikit/nstextlayoutmanager/segmentoptions/init(rawvalue:)", "sha": "a65c88b787741e9a58070ff0eb86b2925c8d5c46444a5043e1f3fe3ac8920bbb", "sieve": 2, "t": "init(rawValue:)", "n": 57, "laws": 0, "ts": "2026-08-03 19:26 UTC"}
+{"id": "/documentation/swiftui/fillstyle/isantialiased", "sha": "6b21c6de28ea84ec7e71870846301162d98d7aa5dd85dc3222e005f22202b3ff", "sieve": 2, "t": "isAntialiased", "n": 85, "laws": 0, "ts": "2026-08-04 05:48 UTC"}
+{"id": "/documentation/swiftui/commandsbuilder/buildeither(second:)", "sha": "c28ba4edd2aa2412e54c70aeac00541815e8d4750bd8d77e795c495add034af3", "sieve": 2, "t": "buildEither(second:)", "n": 102, "laws": 0, "ts": "2026-08-04 05:53 UTC"}

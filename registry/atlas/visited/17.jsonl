@@ -145,3 +145,8 @@
 {"id": "/documentation/uikit/uidocument/state/init(rawvalue:)", "sha": "4c4ec570ccd05ce476003f2df971022692e87eb9e280ebd45a5fba0322c622d5", "sieve": 2, "t": "init(rawValue:)", "n": 64, "laws": 0, "ts": "2026-08-03 19:11 UTC"}
 {"id": "/documentation/uikit/uidocumentbrowseraction/localizedtitle", "sha": "e7448e22bcf543e5ebb1731f4666760ebbbb27ae277aa25eb381175703939bc5", "sieve": 2, "t": "localizedTitle", "n": 53, "laws": 0, "ts": "2026-08-03 19:12 UTC"}
 {"id": "/documentation/uikit/uifont/weight/medium", "sha": "d066a32ca05770f40b60bad035fbc8512b0de717db552563190f5b46c5f67e26", "sieve": 2, "t": "medium", "n": 23, "laws": 0, "ts": "2026-08-03 19:18 UTC"}
+{"id": "/documentation/swiftui/tab/init(_:image:content:)-28a4j", "sha": "d9fe2a56acec3a0f4e1a9d0ddd055c504ae52102a74c30894b39fa371d4d2f6b", "sieve": 2, "t": "init(_:image:content:)", "n": 70, "laws": 0, "ts": "2026-08-04 05:47 UTC"}
+{"id": "/documentation/swiftui/buttonmenustyle", "sha": "888f62108357f036fe1274be50d7f1de7cca3e19e824c68b5badc8e6475db74f", "sieve": 2, "t": "ButtonMenuStyle", "n": 173, "laws": 0, "ts": "2026-08-04 05:51 UTC"}
+{"id": "/documentation/swiftui/view/background(in:fillstyle:)-96bda", "sha": "0938c93cbb11e4e4e7b3f623bfedbb399aa2c724d5e1c075804cde35837aba70", "sieve": 2, "t": "background(in:fillStyle:)", "n": 694, "laws": 3, "ts": "2026-08-04 05:51 UTC"}
+{"id": "/documentation/swiftui/strokeshapeview/background", "sha": "457b7471ca95940ad5c89c044fbf20bb95aa746c3bdbbeebcee9d745016f4df5", "sieve": 2, "t": "background", "n": 39, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
+{"id": "/documentation/swiftui/strokeshapeview/style", "sha": "c3b6dedc13a1f75c5444ab9f41f2bec1648a77f5814f860e3a5f221aff2f2d76", "sieve": 2, "t": "style", "n": 41, "laws": 0, "ts": "2026-08-04 05:57 UTC"}

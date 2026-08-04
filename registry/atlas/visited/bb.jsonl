@@ -160,3 +160,4 @@
 {"id": "/documentation/sharedwithyou/swhighlightchangeeventtrigger", "sha": "46b4d063267b164f50094279e3069f0a41b45b4747cfff8f38f22695dc8228e1", "sieve": 2, "t": "SWHighlightChangeEventTrigger", "n": 168, "laws": 0, "ts": "2026-08-03 07:56 UTC"}
 {"id": "/documentation/dockkit/dockkiterror/notsupportedbydevice", "sha": "85d08cba5b1f7016cf261df0f3494926e9eb79dc4b7148ee490d359881e483d0", "sieve": 2, "t": "DockKitError.notSupportedByDevice", "n": 51, "laws": 0, "ts": "2026-08-03 08:06 UTC"}
 {"id": "/documentation/uikit/uisheetpresentationcontroller/detent/backgroundeffect", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "backgroundEffect", "n": 0, "laws": 0, "ts": "2026-08-03 19:24 UTC"}
+{"id": "/documentation/swiftui/automaticpresentationsizing", "sha": "8ad731bba875ca706adb1f750b9e573569e2afad7f422e483bfc6f48f5c93c45", "sieve": 2, "t": "AutomaticPresentationSizing", "n": 74, "laws": 0, "ts": "2026-08-04 05:54 UTC"}

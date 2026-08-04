@@ -163,3 +163,5 @@
 {"id": "/documentation/passkit/pkpaymentrequest/couponcode", "sha": "b8fba2bb9005e71bcaf38abe745b1085f8a886265b92f8be481d750f574cc98a", "sieve": 2, "t": "couponCode", "n": 272, "laws": 0, "ts": "2026-08-03 08:02 UTC"}
 {"id": "/documentation/uikit/uiprintpagerenderer/drawpage(at:in:)", "sha": "5f4909eefb73bbecb1b31e5e67e042964c5a2ae0194a030af5f99065f07a5749", "sieve": 2, "t": "drawPage(at:in:)", "n": 297, "laws": 0, "ts": "2026-08-03 19:14 UTC"}
 {"id": "/documentation/uikit/uiimage/symbolconfiguration-swift.class/configurationwithoutscale()", "sha": "01dfa8f2dd13c7944a25c540f9625d68d4258688906023108fa7542462ba115a", "sieve": 2, "t": "configurationWithoutScale()", "n": 239, "laws": 0, "ts": "2026-08-03 19:15 UTC"}
+{"id": "/documentation/swiftui/menu/init(_:)", "sha": "6d88b6e4683f09964a6967c7bc29641afd310abfbc17a0ec4ed224e045359baa", "sieve": 2, "t": "init(_:)", "n": 349, "laws": 1, "ts": "2026-08-04 05:51 UTC"}
+{"id": "/documentation/swiftui/view/listsectionspacing(_:)-5t518", "sha": "523d865f0e601fcfdf0f52a8933c24128e5f105305334f7e55e3dbee407f317b", "sieve": 2, "t": "listSectionSpacing(_:)", "n": 363, "laws": 1, "ts": "2026-08-04 05:56 UTC"}

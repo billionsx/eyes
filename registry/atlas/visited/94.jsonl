@@ -160,3 +160,6 @@
 {"id": "/documentation/uikit/uicolor/systemgray5", "sha": "5db2f92645a4d435216f4e8707a40af6576eb6896bdb8ec5a075fa7488dd061d", "sieve": 2, "t": "systemGray5", "n": 237, "laws": 0, "ts": "2026-08-03 19:23 UTC"}
 {"id": "/documentation/uikit/uicolor/systemfill", "sha": "b8e4dd06b7635340ad8a430c8acadf56a7d0db9afe5829a0e98cec033f4574d5", "sieve": 2, "t": "systemFill", "n": 311, "laws": 2, "ts": "2026-08-03 19:24 UTC"}
 {"id": "/documentation/uikit/uialertcontrollerseverity/default", "sha": "b995e554140871d20162435eaed242da539ef9367700bf6304d2142dd7c6bca6", "sieve": 2, "t": "UIAlertControllerSeverity.default", "n": 82, "laws": 1, "ts": "2026-08-03 19:24 UTC"}
+{"id": "/documentation/swiftui/dynamictypesize/accessibility3", "sha": "4db83cfd885cf909d0dca236005a9b66beb37b348f3e905d69b1ce153e15e803", "sieve": 2, "t": "DynamicTypeSize.accessibility3", "n": 29, "laws": 0, "ts": "2026-08-04 05:44 UTC"}
+{"id": "/documentation/swiftui/defaultfocusevaluationpriority/automatic", "sha": "2ab30e2a361b8f4763b1d2ea7f672aad3a73bf4bc21f7b178a72d0ef85c8105f", "sieve": 2, "t": "automatic", "n": 171, "laws": 1, "ts": "2026-08-04 05:48 UTC"}
+{"id": "/documentation/swiftui/menubarextra/init(content:label:)", "sha": "7213ff08c84f28317783896e28d6c2852480899561a9ebdfbac8fecbb1d3cbc8", "sieve": 2, "t": "init(content:label:)", "n": 310, "laws": 0, "ts": "2026-08-04 06:01 UTC"}

@@ -154,3 +154,6 @@
 {"id": "/documentation/uikit/uiprintformatter/draw(in:forpageat:)", "sha": "e88effa869e124bf39c98ac39947a4a0f57a9d1e6306c235030466ac7996f243", "sieve": 2, "t": "draw(in:forPageAt:)", "n": 225, "laws": 0, "ts": "2026-08-03 19:14 UTC"}
 {"id": "/documentation/uikit/uiprintpagerenderer/headerheight", "sha": "810d8dd751a763ecf8002f051114eda4b8b77fbdc9534133423c51a45b8b1eae", "sieve": 2, "t": "headerHeight", "n": 158, "laws": 0, "ts": "2026-08-03 19:15 UTC"}
 {"id": "/documentation/uikit/uiimage/configuration-swift.class/init(locale:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(locale:)", "n": 0, "laws": 0, "ts": "2026-08-03 19:16 UTC"}
+{"id": "/documentation/swiftui/textselection/affinity", "sha": "ae8a14f4767a61261fef537206e268cb086e5ca0fb6d7ec90c5866acaf355029", "sieve": 2, "t": "affinity", "n": 47, "laws": 0, "ts": "2026-08-04 05:45 UTC"}
+{"id": "/documentation/swiftui/tablecolumncustomization/init()", "sha": "0a725bda962120adbbc98f962771f4f30bdb478ed593dd8455b799ef09f5ee87", "sieve": 2, "t": "init()", "n": 155, "laws": 0, "ts": "2026-08-04 05:55 UTC"}
+{"id": "/documentation/swiftui/shapeview/shape", "sha": "24c2fcdf15512fd2faff833959e1726b589b29586fa703a941515cc06b5df3b5", "sieve": 2, "t": "shape", "n": 73, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
