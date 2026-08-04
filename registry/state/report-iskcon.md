@@ -13,7 +13,7 @@
 - `apps/web/src/music/music.css:584` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/play/play.css:27` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/ui/globals.css:450` — переменная фона #E5E5EA вне СВЕТЛОЙ лестницы поверхностей (#FFFFFF → #F2F2F7)
-- `apps/web/src/ui/globals.css:85` — переменная фона #FFFFFF вне тёмной лестницы поверхностей (#000000 → #111111 → #181818 → #1C1C1C → #1C1C1E → #2C2C2C → #2C2C2E)
+- `apps/web/src/ui/globals.css:85` — переменная фона #FFFFFF вне объявленной проектом лестницы поверхностей (#000000 → #111111 → #181818 → #1C1C1C → #1C1C1E → #2C2C2C → #2C2C2E)
 
 ## AE11 · 47
 - `apps/web/src/music/music.css:41` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]

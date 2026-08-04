@@ -1664,3 +1664,8 @@
 - https://brajs.com/katha: элементов 33 · находок 0
 - https://brajs.com/library: элементов 38 · находок 0
 
+### 2026-08-04 08:02 UTC · `apple-newsroom-rss` · ИЗМЕНЕНИЕ
+- https://www.apple.com/newsroom/rss-feed.rss
+- домены мандата: ios27, маркетинг
+- объём текста: 1585 → 1558 зн.
+
