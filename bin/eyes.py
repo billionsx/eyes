@@ -256,7 +256,7 @@ def apply_ratchet(root: Path, adapter_name: str, res: dict, baseline_file: Path)
     worse = {r: (mine.get(r), counts.get(r, 0)) for r in set(mine) | set(counts)
              if r in mine and counts.get(r, 0) > mine[r]}
     fp_now = vision_mod.fingerprint(root)
-    fp_was = vision_mod.known(adapter_name)
+    fp_was = vision_mod.known(adapter_name, baseline_file)
     if worse and fp_was != fp_now:
         for r, (b, n) in sorted(worse.items()):
             print(f"  зрение: {r} было {b} → стало {n}")
@@ -279,7 +279,7 @@ def apply_ratchet(root: Path, adapter_name: str, res: dict, baseline_file: Path)
     if fp_was != fp_now:
         # Зрение изменилось, но долг не вырос — обвинять не в чем, отпечаток
         # догоняет базу молча.
-        vision_mod.remember(adapter_name, fp_now)
+        vision_mod.remember(adapter_name, fp_now, baseline_file)
     tightened = {r: n for r, n in counts.items() if mine.get(r, 10**9) > n}
     new_mine = {r: counts.get(r, 0) for r in sorted(set(mine) | set(counts))}
     if new_mine != mine:
@@ -317,11 +317,12 @@ def cmd_rebase(root: Path, adapter_name: str, why: str, project_root: Path,
     mine = base.get(adapter_name, {})
     new_mine = {r: counts.get(r, 0) for r in sorted(set(mine) | set(counts))}
     moved = {r: (mine.get(r), new_mine[r]) for r in new_mine if mine.get(r) != new_mine[r]}
-    fp_was, fp_now = vision_mod.known(adapter_name), vision_mod.fingerprint(root)
+    fp_was, fp_now = (vision_mod.known(adapter_name, baseline_file),
+                      vision_mod.fingerprint(root))
     base[adapter_name] = new_mine
     baseline_file.write_text(json.dumps(base, ensure_ascii=False, indent=1, sort_keys=True),
                              encoding="utf-8")
-    vision_mod.remember(adapter_name, fp_now)
+    vision_mod.remember(adapter_name, fp_now, baseline_file)
     log = root / "registry" / "state" / "CHANGELOG.md"
     rows = " · ".join(f"{r} {a}→{b}" for r, (a, b) in sorted(moved.items())) or "без сдвига"
     rec = (f"### {_now()} · ПЕРЕСЧЁТ БАЗЫ ДОЛГА · паспорт `{adapter_name}` (ст. 43)\n"
@@ -503,27 +504,26 @@ def cmd_selftest(root: Path) -> int:
                "findings": [("AE11", "a.css", i, "радиус") for i in range(1, 6)]}
     _res_lo = {"rules": ["AE11"], "files": 3,
                "findings": [("AE11", "a.css", 1, "радиус")]}
-    _keep_vf = vision_mod.VISION_FILE
-    vision_mod.VISION_FILE = _rd / "vision.json"
     try:
         _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
         _rc_noфп = apply_ratchet(root, "проба", _res_hi, _bl)
         check("ломаю → красный: рост без записанного отпечатка НЕ обвиняет "
               "клиента (код 2, а не 1)", _rc_noфп == 2)
-        vision_mod.remember("проба", vision_mod.fingerprint(root))
+        vision_mod.remember("проба", vision_mod.fingerprint(root), _bl)
         _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
         check("чиню → зелёный: рост при ТОМ ЖЕ зрении — красный по адресу "
               "клиента (код 1)", apply_ratchet(root, "проба", _res_hi, _bl) == 1)
-        vision_mod.remember("проба", "старыйотпечаток")
+        vision_mod.remember("проба", "старыйотпечаток", _bl)
         _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
         check("зрение изменилось + рост → обвинения нет, требуется пересчёт "
               "(код 2)", apply_ratchet(root, "проба", _res_hi, _bl) == 2)
-        vision_mod.remember("проба", "старыйотпечаток")
+        vision_mod.remember("проба", "старыйотпечаток", _bl)
         _bl.write_text(json.dumps({"проба": {"AE11": 5}}), encoding="utf-8")
         _rc_ok = apply_ratchet(root, "проба", _res_lo, _bl)
         check("зрение изменилось, но долг УПАЛ → зелёный, отпечаток догоняет "
               "молча",
-              _rc_ok == 0 and vision_mod.known("проба") == vision_mod.fingerprint(root))
+              _rc_ok == 0
+              and vision_mod.known("проба", _bl) == vision_mod.fingerprint(root))
         check("храповик ужал базу по факту улучшения",
               json.loads(_bl.read_text(encoding="utf-8"))["проба"]["AE11"] == 1)
         _bl.write_text(json.dumps({"проба": {"AE11": 2}}), encoding="utf-8")
@@ -532,7 +532,14 @@ def cmd_selftest(root: Path) -> int:
                                             "findings": []}, _bl) == 1
               and json.loads(_bl.read_text(encoding="utf-8"))["проба"]["AE11"] == 2)
     finally:
-        vision_mod.VISION_FILE = _keep_vf
+        pass
+    check("отпечаток временной базы лёг РЯДОМ С НЕЙ, а не в живой реестр",
+          (_rd / "base-vision.json").exists()
+          and "проба" not in (vision_mod.load().get("adapters") or {}))
+    check("выведенный путь отпечатка НИКОГДА не совпадает с самой базой "
+          "(иначе отпечаток затрёт долг)",
+          all(vision_mod.path_for(Path(n)) != Path(n)
+              for n in ("base.json", "ae-baseline.json", "vision.json", "x")))
     check("пересчёт без названной причины отклоняется (ст. 43)",
           cmd_rebase(root, "iskcon", "  ", _rd, _bl) == 2)
 

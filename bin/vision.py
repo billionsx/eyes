@@ -38,6 +38,10 @@ BXE · ОТПЕЧАТОК ЗРЕНИЯ (ст. 43).
     встроенный стиль, переменные CSS);
   · изменилось ЧИСЛО в измеренной базе — потому что вердикт несёт число.
 
+Отпечаток лежит РЯДОМ СО СВОЕЙ базой долга (`<база>-vision.json`), а не в
+одном месте на весь департамент: испытание со своей временной базой не имеет
+физической возможности дописать строку в рабочий реестр.
+
 Последнее особенно важно: еженедельный замер геометрии двигает базу, и после
 такого сдвига рост долга — тоже не вина клиента.
 
@@ -58,7 +62,7 @@ sys.path.insert(0, str(BIN))
 import lint as lint_mod  # noqa: E402
 
 CORPUS = ROOT / "tests" / "fixtures" / "vision"
-VISION_FILE = ROOT / "registry" / "state" / "ae-vision.json"
+BASELINE = ROOT / "registry" / "state" / "ae-baseline.json"
 ALL_RULES = [f"AE{i}" for i in range(1, 21)]
 
 
@@ -84,32 +88,50 @@ def fingerprint(root: Path = None, corpus: Path = None,
     return hashlib.sha256(body.encode()).hexdigest()[:12]
 
 
-def load() -> dict:
-    if VISION_FILE.exists():
+def path_for(baseline_file=None) -> Path:
+    """Отпечаток живёт РЯДОМ со своей базой долга, а не в одном месте на всех.
+
+    Пока адрес был один на весь департамент, суд со своей временной базой
+    дописывал строки в живой реестр (пойманы записи «t» и «u» от испытаний
+    храповика). Испытание, оставляющее след в рабочем реестре, однажды
+    подменит собой рабочие данные — и это заметят у клиента. Привязка к базе
+    делает такое невозможным по устройству, а не по внимательности.
+    """
+    b = Path(baseline_file if baseline_file is not None else BASELINE)
+    # Имя выводится ПРИСТАВКОЙ, а не заменой куска: замена «baseline»→«vision»
+    # на базе с другим именем (`base.json` в испытании) дала бы тот же путь,
+    # и отпечаток затёр бы саму базу долга. Приставка не совпадает никогда.
+    return b.with_name(b.stem + "-vision.json")
+
+
+def load(baseline_file=None) -> dict:
+    f = path_for(baseline_file)
+    if f.exists():
         try:
-            return json.loads(VISION_FILE.read_text(encoding="utf-8"))
+            return json.loads(f.read_text(encoding="utf-8"))
         except (ValueError, OSError):
             pass
     return {}
 
 
-def save(d: dict):
-    VISION_FILE.parent.mkdir(parents=True, exist_ok=True)
-    VISION_FILE.write_text(json.dumps(d, ensure_ascii=False, indent=1,
-                                      sort_keys=True) + "\n", encoding="utf-8")
+def save(d: dict, baseline_file=None):
+    f = path_for(baseline_file)
+    f.parent.mkdir(parents=True, exist_ok=True)
+    f.write_text(json.dumps(d, ensure_ascii=False, indent=1,
+                            sort_keys=True) + "\n", encoding="utf-8")
 
 
-def known(adapter: str) -> str:
-    return (load().get("adapters") or {}).get(adapter, "")
+def known(adapter: str, baseline_file=None) -> str:
+    return (load(baseline_file).get("adapters") or {}).get(adapter, "")
 
 
-def remember(adapter: str, fp: str):
-    d = load()
+def remember(adapter: str, fp: str, baseline_file=None):
+    d = load(baseline_file)
     d.setdefault("adapters", {})[adapter] = fp
     d["_смысл"] = ("Отпечаток того, ЧТО департамент способен увидеть. Рядом с "
                    "базой долга он отвечает на вопрос, чья вина в росте: "
                    "клиента или расширившегося зрения (ст. 43).")
-    save(d)
+    save(d, baseline_file)
 
 
 if __name__ == "__main__":
