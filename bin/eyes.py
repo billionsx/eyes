@@ -536,6 +536,22 @@ def cmd_selftest(root: Path) -> int:
     check("пересчёт без названной причины отклоняется (ст. 43)",
           cmd_rebase(root, "iskcon", "  ", _rd, _bl) == 2)
 
+    # Паспорт без доступного кода судится живым взглядом, а не объявляется
+    # поломкой департамента. Но только если живое суждение ЕСТЬ.
+    import projects as _pr
+    _lv = Path(_tf2.mkdtemp(prefix="eyes-live-")) / "REPORT.md"
+    check("ломаю → красный: живого отчёта нет — страниц 0, красный остаётся",
+          _pr.live_verdict(root, "ethnomir", report=_lv)["pages"] == 0)
+    _lv.write_text("# ЖИВОЙ ВЗГЛЯД\n"
+                   "## https://ethnomir.app/steps\n"
+                   "элементов снято: 87 · находок: 4\n"
+                   "## https://чужой.example/\n"
+                   "элементов снято: 10 · находок: 99\n", encoding="utf-8")
+    _v = _pr.live_verdict(root, "ethnomir", report=_lv)
+    check("чиню → зелёный: страница паспорта засчитана с её находками",
+          _v["pages"] == 1 and _v["findings"] == 4)
+    check("чужая страница паспорту не засчитывается", _v["findings"] != 103)
+
     print("SELFTEST · разведка (crawler, офлайн)")
     tmp = Path(tempfile.mkdtemp(prefix="eyes-"))
     try:

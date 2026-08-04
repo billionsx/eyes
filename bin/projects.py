@@ -21,6 +21,7 @@ adapters/DEFAULT (одна строка с именем) → единствен�
 → adapters/default.json.
 """
 import json
+import re
 import os
 from pathlib import Path
 
@@ -178,3 +179,37 @@ if __name__ == "__main__":
         print(f"  {mark} {k}: repo={v.get('repo','—')} prod={v.get('prod','—')} "
               f"globs={len((v.get('report') or {}).get('globs', []))}")
     print("страниц живого взгляда:", len(live_pages()))
+
+def live_verdict(root: Path = None, name: str = "", report: Path = None) -> dict:
+    """Что живой взгляд успел сказать про этот паспорт.
+
+    Зачем. Паспорт, чей код недоступен, до сих пор объявлялся красным как
+    «департамент сломан». 04.08.2026 оказалось, что это неправда дважды:
+    по такому паспорту (ethnomir) живой взгляд ежедневно судит шесть страниц
+    настоящего прода и находит нарушения. Департамент проект ОБСЛУЖИВАЕТ,
+    просто другим органом.
+
+    Возвращает {pages, findings}. Ноль страниц означает, что живого суждения
+    нет — и тогда красный остаётся красным: молчание чистотой не считается
+    (ЗКН-Э001).
+    """
+    root = root or ROOT
+    ad = all_adapters(root).get(name) or {}
+    urls = [str(u).rstrip("/") for u in (ad.get("live_pages") or [])]
+    if ad.get("prod"):
+        urls.append(str(ad["prod"]).rstrip("/"))
+    urls = set(urls)
+    rep = report or (root / "registry" / "live" / "REPORT.md")
+    if not urls or not rep.exists():
+        return {"pages": 0, "findings": 0}
+    pages = findings = 0
+    cur = False
+    for ln in rep.read_text(encoding="utf-8").splitlines():
+        if ln.startswith("## "):
+            cur = ln[3:].strip().rstrip("/") in urls
+            pages += 1 if cur else 0
+        elif cur:
+            m = re.search(r"находок:\s*(\d+)", ln)
+            if m:
+                findings += int(m.group(1))
+    return {"pages": pages, "findings": findings}
