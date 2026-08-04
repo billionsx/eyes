@@ -1,0 +1,5 @@
+/* ЭТАЛОН ИСПЫТАНИЯ. Нарушения здесь намеренные — их не чинят.
+   Контур подключения обязан назвать каждое с числом и адресом. */
+.badge  { opacity: 0.44; border-radius: 7px }
+.title  { letter-spacing: 0.9px; font-size: 19px }
+.shadow { background: #000000; box-shadow: 0 2px 8px rgba(0,0,0,.4) }
