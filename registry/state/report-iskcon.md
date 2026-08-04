@@ -1,7 +1,7 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 226
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 774
 
-## AE1 · 12
+## AE1 · 38
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:203` — фон #F4EFDF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:233` — фон #F5F5F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -12,10 +12,41 @@
 - `apps/web/src/music/music.css:580` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/music/music.css:584` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/play/play.css:27` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/App.tsx:1088` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/App.tsx:1092` — фон #ECECED вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/App.tsx:1096` — фон #F2F2F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/App.tsx:1101` — фон #1D1D1F вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:1810` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:1950` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:1990` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:2030` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:3118` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:3122` — фон #ECECED вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:3126` — фон #F2F2F7 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookDetailPage.tsx:3131` — фон #1D1D1F вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/BookLoaderPage.tsx:601` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/DarshanStories.tsx:447` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/DonateModal.tsx:89` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/DonateModal.tsx:151` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/HomeFeed.tsx:395` — фон #F4F4F6 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/JapaScreen.tsx:528` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/MediaViewer.tsx:84` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/PdfDoc.tsx:206` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/QrSheet.tsx:88` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/QrSheet.tsx:96` — фон #F6F6F8 вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/dhama/DhamaScreen.tsx:140` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/shop/CartScreen.tsx:346` — фон #1D1D1F вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/shop/CartScreen.tsx:386` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
+- `apps/web/src/shop/CartScreen.tsx:413` — фон #1D1D1F вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
 - `apps/web/src/ui/globals.css:450` — переменная фона #E5E5EA вне СВЕТЛОЙ лестницы поверхностей (#FFFFFF → #F2F2F7)
 - `apps/web/src/ui/globals.css:85` — переменная фона #FFFFFF вне объявленной проектом лестницы поверхностей (#000000 → #111111 → #181818 → #1C1C1C → #1C1C1E → #2C2C2C → #2C2C2E)
 
-## AE11 · 47
+## AE10 · 3
+- `apps/web/src/HomeFeed.tsx:361` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/src/PdfDoc.tsx:459` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/src/PdfDoc.tsx:483` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+
+## AE11 · 340
 - `apps/web/src/music/music.css:41` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:98` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:145` — border-radius 5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -62,7 +93,81 @@
 - `apps/web/src/ui/globals.css:990` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:1020` — border-radius 38px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/ui/globals.css:1283` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/main.tsx:205` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/AccountScreen.tsx:250` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/AcharyaScreen.tsx:117` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/AcharyaScreen.tsx:118` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/AcharyaScreen.tsx:179` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/App.tsx:525` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/App.tsx:526` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/App.tsx:537` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/App.tsx:581` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/App.tsx:678` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/App.tsx:1085` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/App.tsx:1088` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/AudioShowcaseCard.tsx:91` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/AudioShowcaseCard.tsx:102` — border-radius 13px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BookDetailPage.tsx:3118` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BookHeroCard.tsx:46` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BookLoaderPage.tsx:457` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BookLoaderPage.tsx:666` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BookLoaderPage.tsx:670` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BooksHub.tsx:43` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BooksHub.tsx:69` — border-radius 13px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BooksHub.tsx:153` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BooksHub.tsx:210` — border-radius 11px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/BooksHub.tsx:255` — border-radius 9px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DailyVerseScreen.tsx:115` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DailyVerseScreen.tsx:117` — border-radius 11px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DailyVerseScreen.tsx:129` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DailyVerseScreen.tsx:130` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DailyVerseScreen.tsx:156` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DailyVerseScreen.tsx:160` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DailyVerseScreen.tsx:174` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanScreen.tsx:92` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanScreen.tsx:120` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanScreen.tsx:148` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanScreen.tsx:169` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanScreen.tsx:234` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanScreen.tsx:236` — border-radius 11px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanScreen.tsx:245` — border-radius 18px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanStories.tsx:165` — border-radius 5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanStories.tsx:446` — border-radius 2px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DarshanStories.tsx:447` — border-radius 2px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DonateModal.tsx:89` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DonateModal.tsx:99` — border-radius 30px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DonateModal.tsx:124` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DonateModal.tsx:151` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DownloaderScreen.tsx:734` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/DownloaderScreen.tsx:778` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EkadashiScreen.tsx:87` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EkadashiScreen.tsx:98` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EkadashiScreen.tsx:137` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:456` — border-radius 1px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:792` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:957` — border-radius 9px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:1587` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:1605` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EventCard.tsx:247` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EventCard.tsx:266` — border-radius 7px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/FavoritesScreen.tsx:238` — border-radius 11px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/FavoritesScreen.tsx:374` — border-radius 2px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeCalendar.tsx:40` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeCalendar.tsx:246` — border-radius 11px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeCalendar.tsx:327` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeCalendar.tsx:697` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeFeed.tsx:31` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeFeed.tsx:395` — border-radius 6px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeFeed.tsx:661` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeFeed.tsx:722` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeIskconInfo.tsx:18` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeIskconInfo.tsx:85` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeMore.tsx:12` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeMore.tsx:93` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomePlaces.tsx:28` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomePlaces.tsx:440` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeScreen.tsx:34` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/HomeScreen.tsx:88` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- … ещё 220
 
 ## AE14 · 6
 - `apps/web/src/music/music.css:366` — цель касания 12px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
@@ -84,7 +189,7 @@
 - `apps/web/src/ui/globals.css:643` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
 - `apps/web/src/ui/globals.css:676` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
 
-## AE2 · 21
+## AE2 · 76
 - `apps/web/src/music/music.css:55` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/music/music.css:233` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/music/music.css:243` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
@@ -103,15 +208,134 @@
 - `apps/web/src/ui/globals.css:1250` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/AccountScreen.tsx:134` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/AccountScreen.tsx:136` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/App.tsx:1085` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/App.tsx:1088` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/App.tsx:1101` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/AudioShowcaseCard.tsx:118` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/AudioShowcaseCard.tsx:134` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BhajanDetailPage.tsx:512` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BookDetailPage.tsx:174` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BookDetailPage.tsx:191` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BookDetailPage.tsx:1810` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BookDetailPage.tsx:3118` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BookDetailPage.tsx:3131` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BookLoaderPage.tsx:601` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/BookMenuSheet.tsx:248` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/DarshanScreen.tsx:92` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/DonateModal.tsx:99` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/EventCard.tsx:247` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/FavoritesScreen.tsx:379` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeCalendar.tsx:40` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeCalendar.tsx:623` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeCalendar.tsx:667` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeFeed.tsx:231` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeFeed.tsx:661` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeFeed.tsx:722` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeIskconInfo.tsx:219` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeScreen.tsx:332` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeScreen.tsx:641` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeScreen.tsx:720` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/HomeSheet.tsx:30` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/JapaScreen.tsx:456` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/JapaScreen.tsx:514` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/JapaScreen.tsx:528` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/KirtanArtistPage.tsx:67` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/MediaViewer.tsx:64` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/MediaViewer.tsx:74` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/MediaViewer.tsx:81` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/MediaViewer.tsx:88` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/NoteEditor.tsx:383` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/NoteEditor.tsx:385` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/NotesScreen.tsx:114` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/NotesScreen.tsx:183` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/Onboarding.tsx:91` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/QrSheet.tsx:79` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/QrSheet.tsx:146` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ReportSheet.tsx:92` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/SadhanaScreen.tsx:224` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/SadhanaScreen.tsx:249` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/SadhanaScreen.tsx:392` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/cardActions.tsx:269` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/dhama/DhamaMap.tsx:93` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/feed/DarshanFeed.tsx:107` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/main.tsx:205` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/play/kirtansb.tsx:124` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/play/lectures.tsx:186` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/play/screens.tsx:820` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/prasad/covers.tsx:113` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/shop/CartScreen.tsx:553` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/shop/CartScreen.tsx:558` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ui/ios.tsx:446` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 
-## AE3 · 2
+## AE3 · 66
 - `apps/web/src/music/music.css:41` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/play/play.css:26` — border-radius 17.5px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/AccountScreen.tsx:243` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/AcharyaScreen.tsx:179` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/App.tsx:537` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/AudioShowcaseCard.tsx:91` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/BhajanCard.tsx:52` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/BookDetailPage.tsx:3118` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/BookHeroCard.tsx:46` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/BookLoaderPage.tsx:457` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/BookMenuSheet.tsx:257` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/BooksHub.tsx:69` — border-radius 13.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/DailyVerseScreen.tsx:115` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/DarshanScreen.tsx:120` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/DonateModal.tsx:89` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/EkadashiScreen.tsx:28` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/EntityPage.tsx:490` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/EventCard.tsx:247` — border-radius 22.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/FavoritesScreen.tsx:379` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/HomeCalendar.tsx:40` — border-radius 22.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/HomeFeed.tsx:31` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/HomeIskconInfo.tsx:18` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/HomeMore.tsx:12` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/HomePlaces.tsx:28` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/HomeScreen.tsx:34` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/JapaScreen.tsx:247` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/KirtanArtistPage.tsx:56` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/MediaViewer.tsx:64` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/MyProgressScreen.tsx:90` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/NoteDetail.tsx:131` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/NoteEditor.tsx:354` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/NoteHeroCard.tsx:65` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/NotesAtSource.tsx:27` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/NotesScreen.tsx:114` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/Onboarding.tsx:88` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/PathScreen.tsx:83` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/PersonHeroCard.tsx:48` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/PujaScreen.tsx:66` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/QrSheet.tsx:79` — border-radius 24.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/ReportSheet.tsx:86` — border-radius 13.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/SadhanaScreen.tsx:125` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/SearchScreen.tsx:129` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/TodayHub.tsx:78` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/VowScreen.tsx:98` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/account/providers.tsx:138` — border-radius 15.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/cardActions.tsx:269` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterDeities.tsx:41` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterEditor.tsx:106` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterEvents.tsx:41` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterHeroCard.tsx:75` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterModeration.tsx:40` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterPhotos.tsx:44` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterSchedule.tsx:62` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CenterScreen.tsx:142` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/CentersScreen.tsx:189` — border-radius 13.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/EntityPicker.tsx:100` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/centers/MyCentersScreen.tsx:56` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/feed/DarshanFeed.tsx:107` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/feed/MediaCard.tsx:46` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/player/MiniPlayer.tsx:64` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/player/ui.tsx:225` — border-radius 26.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/prasad/CookbookScreen.tsx:89` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/prasad/PrasadamScreen.tsx:172` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/prasad/RecipeCard.tsx:36` — border-radius 18.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/prasad/RecipeDetail.tsx:117` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/shop/CartScreen.tsx:85` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 
-## AE4 · 25
+## AE4 · 132
 - `apps/web/src/music/music.css:82` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:112` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:187` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
@@ -137,6 +361,102 @@
 - `apps/web/src/play/play.css:69` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/play/play.css:70` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/ui/globals.css:1085` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/AccountScreen.tsx:165` — letter-spacing 7.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/AccountScreen.tsx:245` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/AcharyaScreen.tsx:285` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/App.tsx:677` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BhajanDetailPage.tsx:464` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:118` — letter-spacing 0.7px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:212` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:238` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:265` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:365` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:473` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:514` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:616` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:681` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:755` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:852` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:909` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1044` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1070` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1106` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1718` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1816` — letter-spacing 1.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1824` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1931` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1954` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:1993` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:2034` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:2061` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:2082` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookDetailPage.tsx:2285` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/BookLoaderPage.tsx:669` — letter-spacing 1.4px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/ContentDetailPage.tsx:296` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/DailyVerseScreen.tsx:126` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/DarshanScreen.tsx:123` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/DarshanScreen.tsx:151` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/DarshanScreen.tsx:257` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EkadashiScreen.tsx:31` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EkadashiScreen.tsx:90` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EntityPage.tsx:183` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EntityPage.tsx:463` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EntityPage.tsx:499` — letter-spacing 0.7px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EntityPage.tsx:566` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EntityPage.tsx:624` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EntityPage.tsx:975` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EventCard.tsx:194` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/EventCard.tsx:252` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/FavoritesScreen.tsx:375` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:204` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:215` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:222` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:233` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:316` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:372` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:565` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeCalendar.tsx:624` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeFeed.tsx:361` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeIskconInfo.tsx:61` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeIskconInfo.tsx:102` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeIskconInfo.tsx:154` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeIskconInfo.tsx:209` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeIskconInfo.tsx:265` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeIskconInfo.tsx:273` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeMore.tsx:22` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeMore.tsx:56` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomePlaces.tsx:131` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomePlaces.tsx:167` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomePlaces.tsx:364` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeScreen.tsx:346` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeScreen.tsx:388` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/HomeScreen.tsx:541` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/JapaScreen.tsx:450` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/JapaScreen.tsx:494` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/JapaScreen.tsx:568` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/MyProgressScreen.tsx:91` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/MyProgressScreen.tsx:116` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/NotesScreen.tsx:111` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/Onboarding.tsx:169` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/Onboarding.tsx:208` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/Onboarding.tsx:276` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/Onboarding.tsx:330` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/PdfDoc.tsx:459` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/PersonHeroCard.tsx:80` — letter-spacing 1.4px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/QrSheet.tsx:168` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/QrSheet.tsx:186` — letter-spacing 1.4px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/SadhanaScreen.tsx:172` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/SadhanaScreen.tsx:530` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/SadhanaScreen.tsx:562` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/SearchScreen.tsx:136` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/TodayHub.tsx:82` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/centers/CenterDeities.tsx:42` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/centers/CenterEditor.tsx:83` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/centers/CenterEvents.tsx:42` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/centers/CenterPhotos.tsx:45` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/centers/CenterSchedule.tsx:63` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/centers/CenterScreen.tsx:139` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
+- … ещё 12
 
 ## AE7 · 10
 - `apps/web/src/music/music.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
