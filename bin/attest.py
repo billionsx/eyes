@@ -198,7 +198,27 @@ def attest(tokens, records, only=None):
         if only and not path.startswith(only):
             continue
         measured = dig(tokens, path)
-        if measured is None:
+        if measured is None or isinstance(measured, str):
+            # ДЫРА, НО СВОД МОЖЕТ ГОВОРИТЬ. Раньше отсутствие замера обрывало
+            # свидетельство: орган печатал «НЕТ ЗАМЕРА» и не смотрел, назвал ли
+            # свод число сам. А для части величин замер невозможен в принципе —
+            # вес начертания и доля высоты прописной не лежат на экране, — и
+            # там ВЫПИСКА ПЕРВОИСТОЧНИКА С АДРЕСОМ есть единственный законный
+            # путь. Молчать о том, что путь есть, — то же молчание, которое
+            # запрещает ЗКН-Э001.
+            laws = law_mod.rank(records, query, DEPTH)
+            held = [(rec, sc) for rec, sc in laws if anchored(rec, anchor)]
+            said = stated(held, unit) if held else []
+            if said:
+                vals = sorted({round(v, 3) for v, _ in said})
+                val, rec = said[0]
+                out.append({"path": path,
+                            "verdict": "ТОЛЬКО СВОД" if len(vals) == 1
+                                       else "СВОД РАЗНОГЛАСИТ",
+                            "measured": None, "unit": unit,
+                            "law": rec["law"], "id": rec["id"],
+                            "stated": val, "variants": vals})
+                continue
             out.append({"path": path, "verdict": "НЕТ ЗАМЕРА", "measured": None,
                         "unit": unit, "law": None, "id": None, "stated": None})
             continue
@@ -214,7 +234,8 @@ def attest(tokens, records, only=None):
 
 def render(rows):
     order = {"ПОДТВЕРЖДЕНО": 0, "ПРОТИВОРЕЧИЕ": 1, "СОГЛАСОВАНО": 2,
-             "НЕМО": 3, "НЕТ ЗАМЕРА": 4}
+             "ТОЛЬКО СВОД": 3, "СВОД РАЗНОГЛАСИТ": 4, "НЕМО": 5,
+             "НЕТ ЗАМЕРА": 6}
     tally = {}
     for r in rows:
         tally[r["verdict"]] = tally.get(r["verdict"], 0) + 1
@@ -354,11 +375,16 @@ def main():
     ap.add_argument("--only", default=None)
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--court", action="store_true")
+    ap.add_argument("--tokens", default="",
+                    help="иная база: например registry/standards/ios27/tokens.next.json")
     a = ap.parse_args()
 
     if a.court:
         return court()
 
+    global TOKENS
+    if a.tokens:
+        TOKENS = Path(a.tokens) if Path(a.tokens).is_absolute() else ROOT / a.tokens
     if not TOKENS.exists():
         print("Измеренная база недоступна:", TOKENS, file=sys.stderr)
         return 1

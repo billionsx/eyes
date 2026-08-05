@@ -1,0 +1,41 @@
+name: eyes-frames
+# ДОБЫТЧИК КАДРОВ (ст. 46). Кадры операционной системы берутся из ОТКРЫТОГО
+# источника — страниц приложений самой Apple в App Store, — а не просятся у
+# основателя. Замер по имеющимся 195 кадрам исчерпан; свидетельство показало,
+# что текст свода нужных чисел не называет. Значит нужны кадры, и добыть их
+# обязан департамент.
+on:
+  schedule:
+    - cron: "17 4 * * 2"
+  workflow_dispatch:
+concurrency:
+  group: eyes-frames
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: "Суд добытчика — до всякой сети"
+        run: python3 bin/frames.py --court
+      - name: "Добыча кадров из App Store"
+        run: python3 bin/frames.py --out /tmp/frames-new --limit 12
+      - name: "Замер новых кадров"
+        run: |
+          pip install pillow --quiet
+          python3 bin/geoscan.py --frames /tmp/frames-new --out /tmp/scan-new.json
+      - name: "Запись в базу: закрывается только то, что сошлось"
+        run: python3 bin/geofill.py --scan /tmp/scan-new.json --write
+      - name: "Суд департамента"
+        run: python3 bin/eyes.py selftest
+      - name: "Эфир"
+        if: always()
+        run: python3 bin/dashboard.py
+      - name: "Хроника добычи"
+        if: always()
+        run: |
+          bash bin/chronicle.sh "eyes: добыча кадров и замер" registry dashboard
