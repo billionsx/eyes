@@ -52,6 +52,28 @@ def inventory(frames_dir: Path) -> dict:
             "dirs": len(dirs)}
 
 
+def radius_funnel(surf) -> dict:
+    """Где теряется радиус: прямые углы, негодная дуга, расхождение концов.
+
+    Родословная (05.08.2026). Добыча дала 148 карточек и ДВА измеренных
+    радиуса. Итог без разбора неотличим от трёх разных причин: у Apple углы
+    прямые; дуга не прошла проверку формы; верх с низом не сошлись. Лечится
+    это по-разному, и гадать между тремя — терять день.
+    """
+    cards = [s for s in surf if s.get("role") == "card"]
+    got = [s for s in cards if s.get("radius_pt") is not None]
+    return {
+        "карточек": len(cards),
+        "радиус_измерен": len(got),
+        "из_них_прямой_угол": sum(1 for s in got if (s.get("radius_pt") or 0) <= 0.5),
+        "из_них_скруглён": sum(1 for s in got if (s.get("radius_pt") or 0) > 0.5),
+        "с_одного_конца": sum(1 for s in cards if s.get("radius_one_end")),
+        "концы_разошлись": sum(1 for s in cards if "radius_unstable" in s),
+        "дуга_не_прошла": len(cards) - len(got)
+                          - sum(1 for s in cards if "radius_unstable" in s),
+    }
+
+
 def top(vals, step=0.5, n=6) -> list:
     q = collections.Counter(round(v / step) * step for v in vals)
     return [{"v": v, "n": c} for v, c in q.most_common(n)]
@@ -82,6 +104,10 @@ def summarize(frames_dir: Path, scan_path: Path) -> dict:
         "шаг_строк": top([v for x in ok for v in (x.get("rows_pt") or [])]),
         "нижние_панели": top([v for x in ok for v in (x.get("bottom_bars_pt") or [])]),
         "роли": dict(collections.Counter(s.get("role") for s in surf)),
+        # ВОРОНКА РАДИУСА. Одних итоговых чисел мало: «радиусов 2 при 148
+        # карточках» не говорит, где потеря — в дуге, в согласии концов или в
+        # том, что углы честно прямые. Каждое звено считается отдельно.
+        "радиус_воронка": radius_funnel(surf),
     }
     if inv.get("scan_error"):
         out["ошибка"] = inv["scan_error"]
@@ -186,6 +212,17 @@ def court() -> int:
         s["звено_обрыва"] == "цепь цела" and s["радиусы"][0]["v"] == 12.5
         and s["роли"] == {"card": 1})
     s = summarize(d / "frames", d / "нет.json")
+    _f = radius_funnel([
+        {"role": "card", "radius_pt": 12.0},
+        {"role": "card", "radius_pt": 0.0},
+        {"role": "card", "radius_unstable": [30.0, 12.0]},
+        {"role": "card"},
+        {"role": "nested", "radius_pt": 9.0}])
+    chk("воронка радиуса разбирает потерю по звеньям, а не даёт один итог",
+        _f["карточек"] == 4 and _f["радиус_измерен"] == 2
+        and _f["из_них_скруглён"] == 1 and _f["из_них_прямой_угол"] == 1
+        and _f["концы_разошлись"] == 1 and _f["дуга_не_прошла"] == 1)
+    chk("вложенное в воронку карточек не попадает", _f["карточек"] == 4)
     chk("нечитаемый замер называется ошибкой, а не нулём кадров",
         "ошибка" in s and s["цепь"]["1_файлов_добыто"] == 2)
     print("СУД зелёный" if ok else "СУД КРАСНЫЙ")
