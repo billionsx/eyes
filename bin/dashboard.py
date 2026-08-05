@@ -63,6 +63,9 @@ def collect() -> dict:
     d["monitor"] = ms
     lv = R / "live" / "REPORT.md"
     d["live"] = {"pages": lv.read_text(encoding="utf-8").count("## ") if lv.exists() else 0}
+    keys = _j(R / "state" / "keys.json", {})
+    d["keys"] = {"worst_days": keys.get("worst_days"),
+                 "rows": keys.get("rows", [])}
     base = _j(R / "state" / "ae-baseline.json", {})
     d["ratchet"] = {k: sum(v.values()) for k, v in base.items()} if base else {}
     b7 = _j(R / "bizlab" / "state.json", {})

@@ -78,6 +78,13 @@ jobs:
       - name: "Изученность — каждая статья кодекса изучена (замер/знание/🕳)"
         run: python3 bin/eyes.py study
 
+      - name: "Дозор сроков — ключи и требования (ст. 54)"
+        # Не роняет прогон: срок это предупреждение, а не отказ. Красным он
+        # станет в реестре и в эфире, и это увидят раньше самого отказа.
+        continue-on-error: true
+        env:
+          EYES_PROJECTS_TOKEN: ${{ secrets.EYES_PROJECTS_TOKEN }}
+        run: python3 bin/keys.py
       - name: "Забор кода подключённых проектов (ст. 57)"
         env:
           EYES_PROJECTS_TOKEN: ${{ secrets.EYES_PROJECTS_TOKEN }}

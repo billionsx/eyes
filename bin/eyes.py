@@ -473,6 +473,21 @@ def cmd_selftest(root: Path) -> int:
     check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
           _loop_rc == 0)
 
+    print("SELFTEST · дозор сроков (ст. 54)")
+    import keys as _keys
+    from datetime import date as _date
+    _t = _date(2026, 8, 5)
+    check("суд дозора сроков зелёный (свой прогон, без сети)",
+          _keys.court() == 0)
+    check("порог тревоги объявлен числом, а не словом",
+          _keys.RED_DAYS == 14 and _keys.WARN_DAYS == 30)
+    check("объявленный срок несёт адрес для сверки — объявление без адреса "
+          "не проверить",
+          all(d.get("адрес") and d.get("источник") for d in _keys.DECLARED))
+    _r = _keys.rows(_t, probe=lambda tok: None)
+    check("ломаю → красный: без ключа орган не выдаёт молчание за исправность",
+          all(x["знак"] == "⚪" for x in _r if x["род"] == "замер"))
+
     print("SELFTEST · сверка оснований (ЗКН-Э010 машиной)")
     _g = gr_mod.check(root)
     check("все сохранённые состояния объявлены, у оснований есть отпечаток",
