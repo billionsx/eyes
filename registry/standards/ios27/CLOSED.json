@@ -18,16 +18,16 @@
   },
   "geometry.screen_pt": {
    "value": [
-    393,
-    852
+    390,
+    845
    ],
-   "why": "согласие 195/195 кадров = 100%",
-   "frames": 195
+   "why": "согласие 11/11 кадров = 100%",
+   "frames": 11
   },
   "measured_frames": {
-   "value": 195,
-   "why": "кадров принято 195",
-   "frames": 195
+   "value": 11,
+   "why": "кадров принято 11",
+   "frames": 11
   },
   "separator.width_pt": {
    "value": 0.33,
