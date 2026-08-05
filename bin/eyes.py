@@ -472,6 +472,27 @@ def cmd_selftest(root: Path) -> int:
     check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
           _loop_rc == 0)
 
+    print("SELFTEST · адресат расхождения на проде (ст. 56 · M2)")
+    import monitor as _mo
+    _old = [["/a:AE9", ".x", "прозрачность"], ["/b:AE11", ".y", "радиус"]]
+    _new = [["/a:AE9", ".x", "прозрачность"], ["/a:AE2", ".z", "тень"]]
+    _d = _mo.diff_findings(_old, _new, ["/a", "/b"], ["/a"])
+    check("страница, снятая лишь однажды, выведена из приговора: "
+          "уход /b не объявлен починкой",
+          [f[0] for f in _d["gone"]] == [] and _d["pages_dropped"] == ["/b"])
+    check("настоящее новое нарушение на снятой в оба раза странице названо",
+          [f[0] for f in _d["new"]] == ["/a:AE2"])
+    _d2 = _mo.diff_findings(_old, _new)
+    check("ломаю → красный: без списков страниц уход /b читается как "
+          "починка — ровно то, что чинилось",
+          [f[0] for f in _d2["gone"]] == ["/b:AE11"])
+    _d3 = _mo.diff_findings(_old, _old, ["/a", "/b"], ["/a", "/b"])
+    check("чиню → зелёный: одинаковые снятия дают пустой приговор",
+          not _d3["new"] and not _d3["gone"])
+    _d4 = _mo.diff_findings(_old, _new, ["/a"], ["/a", "/b"])
+    check("добавленная страница названа отдельно, а не как регресс",
+          _d4["pages_added"] == ["/b"])
+
     print("SELFTEST · сравнимость сертификатов (ст. 56 · M3)")
     import certify as _ce
     import tempfile as _tf4
@@ -1807,8 +1828,10 @@ def cmd_selftest(root: Path) -> int:
     dd2 = mon.diff_findings(oldf, newf)
     check("монитор: регресс пойман, починка подтверждена, неизменное молчит",
           [f[0] for f in dd2["new"]] == ["example-com:AE1"] and [f[0] for f in dd2["gone"]] == ["example-com:AE10"])
+    _same = mon.diff_findings(newf, newf)
     check("монитор: идентичные снятия → тишина",
-          mon.diff_findings(newf, newf) == {"new": [], "gone": []})
+          not _same["new"] and not _same["gone"]
+          and not _same["pages_added"] and not _same["pages_dropped"])
 
     print("SELFTEST · служба M3 (формула объявлена и детерминирована)")
     import certify as cert
