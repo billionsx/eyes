@@ -43,6 +43,7 @@ import lint as lint_mod  # noqa: E402
 import loop as loop_mod  # noqa: E402
 import vision as vision_mod  # noqa: E402
 import wfcheck as wf_mod  # noqa: E402
+import grounds as gr_mod  # noqa: E402
 
 IOS27 = re.compile(r"\b(?:iOS|iPadOS)\s*27\b")
 
@@ -471,6 +472,36 @@ def cmd_selftest(root: Path) -> int:
     _loop_rc = loop_mod.court()
     check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
           _loop_rc == 0)
+
+    print("SELFTEST · сверка оснований (ЗКН-Э010 машиной)")
+    _g = gr_mod.check(root)
+    check("все сохранённые состояния объявлены, у оснований есть отпечаток",
+          not _g["bad"])
+    check("долг назван вслух, а не спрятан: дозор источников без отпечатка сита",
+          len(_g["debts"]) == 1
+          and "watch-state.json" in _g["debts"][0])
+    import tempfile as _tf6
+    _gr = Path(_tf6.mkdtemp(prefix="eyes-gr-"))
+    (_gr / "registry" / "state").mkdir(parents=True)
+    (_gr / "registry" / "live").mkdir(parents=True)
+    (_gr / "registry" / "state" / "новое-state.json").write_text("{}", encoding="utf-8")
+    check("ломаю → красный: НОВОЕ состояние без объявления валит сверку — "
+          "закон больше не зависит от чьей-то внимательности",
+          len(gr_mod.check(_gr)["bad"]) == 1
+          and "НЕ ОБЪЯВЛЕНО" in gr_mod.check(_gr)["bad"][0])
+    (_gr / "registry" / "state" / "новое-state.json").unlink()
+    (_gr / "registry" / "live" / "baseline.json").write_text(
+        json.dumps({"findings": [["a", "b", "c"]], "pages": ["/a"]}), encoding="utf-8")
+    check("ломаю → красный: основание с находками, но без отпечатка",
+          "отпечатка нет" in gr_mod.check(_gr)["bad"][0])
+    (_gr / "registry" / "live" / "baseline.json").write_text(
+        json.dumps({"findings": [["a", "b", "c"]], "pages": ["/a"],
+                    "vision": "аб12"}), encoding="utf-8")
+    check("чиню → зелёный: отпечаток на месте — сверка чиста",
+          not gr_mod.check(_gr)["bad"])
+    (_gr / "registry" / "live" / "baseline.json").write_text("{}", encoding="utf-8")
+    check("пустое основание отпечатка не требует: сравнивать ещё не с чем",
+          not gr_mod.check(_gr)["bad"])
 
     print("SELFTEST · страж App Store: мерка клиента (ст. 56 · M5)")
     import appstore as _ap
