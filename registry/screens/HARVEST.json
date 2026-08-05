@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-05 07:22 UTC",
+ "ts": "2026-08-05 08:12 UTC",
  "apps": [
   {
    "app": "Apple Settings",
@@ -23,7 +23,7 @@
      "n": 2,
      "file": "apple_apps/Apple Photos/02.png",
      "bytes": 170937,
-     "sha256": "cceaa9590d9eff80f99e16b55708cca8de9fa901eb89c2a5de1a3891daaae051"
+     "sha256": "d33aa6b68e68529aa6da3b40250eeb6f42f0b656e73c59facf9080fa0bbeaff0"
     },
     {
      "n": 3,
@@ -39,25 +39,25 @@
      "n": 5,
      "file": "apple_apps/Apple Photos/05.jpg",
      "bytes": 145512,
-     "sha256": "c27b3d32913e80e224f80ed2813e57064476b6cfed4193998f47c497466fa04a"
+     "sha256": "4b3aeb226632870a228a31b07abab4fa15f935b87f6e2c3fb821cf18dc84e6d9"
     },
     {
      "n": 6,
      "file": "apple_apps/Apple Photos/06.jpg",
      "bytes": 119166,
-     "sha256": "46b3f0a50230cd36d07a58b6400c0eb4e0fb477f3025ae39c73b50fcd9f9f769"
+     "sha256": "802d14b249f729470885ddcfd49b59ec77307c4c6182de4b1352c8418a932313"
     },
     {
      "n": 7,
      "file": "apple_apps/Apple Photos/07.jpg",
      "bytes": 111418,
-     "sha256": "d5c5a830f411b9b541512a1bd981123890f385ea2982c902911c6aec7ada2bb9"
+     "sha256": "92ff6add07f2d1bb584cb8010f6c2ca1d356c0306996e974e0472802c5a04982"
     },
     {
      "n": 8,
      "file": "apple_apps/Apple Photos/08.jpg",
      "bytes": 82786,
-     "sha256": "f341a134deeaeeb78ae691db221d7266b37f0eefa547b8e046a8357c6913a31e"
+     "sha256": "0769b9a681f865c91075d667355c79a8b67165fd321a666e09342ac1c2189b16"
     }
    ],
    "error": ""
@@ -77,7 +77,7 @@
      "n": 2,
      "file": "apple_apps/Apple Home/02.png",
      "bytes": 126277,
-     "sha256": "778278fcddefeece77ac02009a8ac4778d5870a4d11f35064981f9dff5c0ea2d"
+     "sha256": "6bb0cda7666de0f34225d13c55082056e6ba81060d8f844f19fce80d634ee827"
     },
     {
      "n": 3,
@@ -87,7 +87,7 @@
      "n": 4,
      "file": "apple_apps/Apple Home/04.jpg",
      "bytes": 104170,
-     "sha256": "30a3860053ffa879723e456fec0c62de9c034153fd13f524d32efa0b282eaf57"
+     "sha256": "23ace1496d0893cb909054e05064c37c7f20585f174089d54545379fe3967705"
     },
     {
      "n": 5,
@@ -99,13 +99,13 @@
      "n": 6,
      "file": "apple_apps/Apple Home/06.jpg",
      "bytes": 71588,
-     "sha256": "ea50149883f916c72b928f94d2de4cf093e6ceeadb2291da7aa91cb99725cec5"
+     "sha256": "3abe1d5c1ce0ea323aeed6299f1b25404d6427ecbac9e96c797e1d706208db2c"
     },
     {
      "n": 7,
      "file": "apple_apps/Apple Home/07.jpg",
      "bytes": 56784,
-     "sha256": "a6588254c4924cadfaff1e922fa285b69d6be04534eff066759e6b9b82532ba3"
+     "sha256": "be41716677b7c92adaf8cac3bc7e05e2e8589041dfce9f935cc243c44ee446c1"
     },
     {
      "n": 8,
@@ -125,13 +125,13 @@
      "n": 1,
      "file": "apple_apps/Apple Wallet/01.jpg",
      "bytes": 33855,
-     "sha256": "3678da2d1607eaaab82abf482a430db09ccfcc2aec79ee05efbaa0c4e0d57099"
+     "sha256": "fb893233170026815887e1c33a3cbebb1f892fe33ea335af3fb57390ad660fa9"
     },
     {
      "n": 2,
      "file": "apple_apps/Apple Wallet/02.png",
      "bytes": 146791,
-     "sha256": "f3c6c54025e7eb256c72797b78eefe867e140b1fa54873a8f9915b5260db4e6c"
+     "sha256": "7315d29d5d9003e6d691d58b5096c04b85c2b1235b9cd01aada7b28f49b61e24"
     },
     {
      "n": 3,
@@ -145,7 +145,7 @@
      "n": 5,
      "file": "apple_apps/Apple Wallet/05.jpg",
      "bytes": 21256,
-     "sha256": "31c19b050bc1cb9ed3befc258486a51d820d42bd9406fa779be91030bdfbc2f5"
+     "sha256": "db10d99b56118bf17b9681d9df1198a725a3560e21a415571c9174d22a36959d"
     },
     {
      "n": 6,
@@ -155,7 +155,7 @@
      "n": 7,
      "file": "apple_apps/Apple Wallet/07.jpg",
      "bytes": 26876,
-     "sha256": "fd3591cae6f4961b1450317f9bcf369f13614885b1021fe71025d0646e8b5535"
+     "sha256": "481b3fe1c6e86eb6ac9ffa5d583edca3764fd2634be84cc003a5e75a1352b887"
     }
    ],
    "error": ""
@@ -175,7 +175,7 @@
      "n": 2,
      "file": "apple_apps/Apple Music/02.png",
      "bytes": 133083,
-     "sha256": "c5bea3e9014de4648ea9aa4eb480e2cd57ef37b23cf81fc50332591d73e74164"
+     "sha256": "d1a4a1f6e173bdb9eafffd78f802b506723cd2f48f79da36214c0562abaea2a3"
     },
     {
      "n": 3,
@@ -185,19 +185,19 @@
      "n": 4,
      "file": "apple_apps/Apple Music/04.jpg",
      "bytes": 112018,
-     "sha256": "f286b04742a701e7e4cd20181c82fb7a81df101b9edb45973ec0c79cb6db8b5d"
+     "sha256": "6f75dd7ceee341e8863344b69f05fec533a02259e805de3f644aa8eddf42a479"
     },
     {
      "n": 5,
      "file": "apple_apps/Apple Music/05.jpg",
      "bytes": 116896,
-     "sha256": "7e029a041fd14077bd80d49663d4b72de7cf196c934b48fab9ca7e75917e6694"
+     "sha256": "94ea9967c292cefd2bdd70b59c02e0854db61bf22a364f55270544befe955288"
     },
     {
      "n": 6,
      "file": "apple_apps/Apple Music/06.jpg",
      "bytes": 57416,
-     "sha256": "bc26dd401d9e49650cd53777dbd9f8f7c77a04aa0b1cbc27fd4655e13971d9ff"
+     "sha256": "376730b1e80f031a4b8568f245b3a1ee8b4331f1324f77b7e6a9ec62a9eb978f"
     },
     {
      "n": 7,
@@ -209,13 +209,13 @@
      "n": 8,
      "file": "apple_apps/Apple Music/08.jpg",
      "bytes": 120606,
-     "sha256": "f0cecf3cfee670d4eda44c6cefd5e1f25439c2e805813fdc144e2b35f4360dce"
+     "sha256": "7c3bfebbc8bf9c11166273942a6cd641f1d15c5de213981ddaf78413db34969f"
     },
     {
      "n": 9,
      "file": "apple_apps/Apple Music/09.jpg",
      "bytes": 95084,
-     "sha256": "5bc0365f82508ce4b42dc9fde753605e8b9c1ba354aa50590698c8bcd5c2d6c1"
+     "sha256": "b9b7b80af981fefc72c15bde3bd205c224b51f18ef0d0c8c866a4c0a16683bf4"
     }
    ],
    "error": ""
@@ -229,13 +229,13 @@
      "n": 1,
      "file": "apple_apps/Apple Books/01.jpg",
      "bytes": 31908,
-     "sha256": "564280f532a9946a46bcfd070fd506d6481534d636fa6171a875857910bf65f5"
+     "sha256": "de33d88d2b5b67dd5c0604c8887d87faf4f723e44428f8e971beb06b03b45162"
     },
     {
      "n": 2,
      "file": "apple_apps/Apple Books/02.png",
      "bytes": 144552,
-     "sha256": "dea6b969c1111237673018c238484c154bb2ca49d9144bd8f08816d29b6d1061"
+     "sha256": "9eb1e451a694070c641b17132ddc99c372ea72870dd34b36fa987eceacabf2f1"
     },
     {
      "n": 3,
@@ -245,25 +245,25 @@
      "n": 4,
      "file": "apple_apps/Apple Books/04.jpg",
      "bytes": 110848,
-     "sha256": "d53890ee3528dc1c25155fa465e306c94bcfc80a580a47e3d8b1e3cf01113358"
+     "sha256": "0784dc4cc9044509b31385e6b539e7715e80653c57616d3af8c86a5526006041"
     },
     {
      "n": 5,
      "file": "apple_apps/Apple Books/05.jpg",
      "bytes": 69768,
-     "sha256": "a649c62865792b09af18a16dedb17dbed82d5a92d56e1cbbdfe6213c28c0458c"
+     "sha256": "45db43afa3b87c4156e76d3936e21584962b6acb443215f341533e811acf456e"
     },
     {
      "n": 6,
      "file": "apple_apps/Apple Books/06.jpg",
      "bytes": 73592,
-     "sha256": "24d2f42fabcbe49d761b0f3c3a9d4a769fda6f8955dc992f36f778c1a702a807"
+     "sha256": "c8feb7b491c1962e37f9214be4beee0db259374ca9ae11701bb4ef6339a76b5d"
     },
     {
      "n": 7,
      "file": "apple_apps/Apple Books/07.jpg",
      "bytes": 116866,
-     "sha256": "889389c3653eeb163733147e9ce9bef6e56efe9c05e01f7b220fe18dd2bf909c"
+     "sha256": "c370a8a44d57e0dd2193324a445fa9551cc40daf1281bf39aa59844e7407e13a"
     },
     {
      "n": 8,
@@ -283,19 +283,19 @@
      "n": 1,
      "file": "apple_apps/Apple Podcasts/01.jpg",
      "bytes": 34555,
-     "sha256": "a87620b148275372d636ca73a2187059f1593504143360e931a58d310b204480"
+     "sha256": "96e8524e63c353438a22b51181332a3b6210d33cb6bfafde52ad7a49828dd497"
     },
     {
      "n": 2,
      "file": "apple_apps/Apple Podcasts/02.png",
      "bytes": 181666,
-     "sha256": "18cfc48df8cd443d21d3b1fdb9b86cf403864aff6259a8e321b0d80704c743ed"
+     "sha256": "2b2ea2b1ca8981a60e3c993da6966b5ff35f22a1ff69b26ed8be6e0406c461f8"
     },
     {
      "n": 3,
      "file": "apple_apps/Apple Podcasts/03.jpg",
      "bytes": 20630,
-     "sha256": "aa68540e26b8f2082b0843c9dcc40b27f0bb85f4d1caec925fd7ebc6dc835ee7"
+     "sha256": "0f119fc58bae9dab2c522d4c8b9fd301caaf50b8234f7c314c6ef488b860c944"
     },
     {
      "n": 4,
@@ -307,13 +307,13 @@
      "n": 5,
      "file": "apple_apps/Apple Podcasts/05.jpg",
      "bytes": 122744,
-     "sha256": "6d5f297ccbd3f288c23660945c864eb2ec24d9bb1fbf95e44ae2fe19ce0129b7"
+     "sha256": "f6693028c5b140a43af9ebc08768b3ea1222cd69aeaeb7afcecc54415aea11f2"
     },
     {
      "n": 6,
      "file": "apple_apps/Apple Podcasts/06.jpg",
      "bytes": 71898,
-     "sha256": "76085f32e4260a1e209269a2e8f6aa986c2c648b063a2a40cf4e9bbcf5c235bb"
+     "sha256": "e7c0ab60afa3140a6ad369c83ff40a3dc0d5e8bfb17431b56aafe67c4f1f04b5"
     },
     {
      "n": 7,
@@ -325,13 +325,13 @@
      "n": 8,
      "file": "apple_apps/Apple Podcasts/08.jpg",
      "bytes": 81702,
-     "sha256": "91f81a487c7776b3e23d19263de92dd4a049b5282fc908caf73fdff847ea6fbf"
+     "sha256": "d001455dd0f4821ee4b0ee0016df00cf6c3de01ab5119e8e11af35a5f4f04df5"
     },
     {
      "n": 9,
      "file": "apple_apps/Apple Podcasts/09.jpg",
      "bytes": 70990,
-     "sha256": "b65580c6dfde5b899b7042c58f392f4a5068cb7b3f48095f76d34f0f6e14af60"
+     "sha256": "f586c652e733279fe1d4f5c59dc608a868d8e24337f994cd5dbefbea14b12da9"
     }
    ],
    "error": ""
@@ -345,13 +345,13 @@
      "n": 1,
      "file": "apple_apps/Apple Reminders/01.jpg",
      "bytes": 24501,
-     "sha256": "6a6420437cf32c46729758d1d8d174b4434e89f5c04ba8288e7c246c18d0c133"
+     "sha256": "21cd4b46115438628ff02ca045aa2ebb7184b5df7b1cc128f45c7352b9121ba1"
     },
     {
      "n": 2,
      "file": "apple_apps/Apple Reminders/02.png",
      "bytes": 92261,
-     "sha256": "cf86c9d04061413628733c405b8b0c306716c62a52436b2d03646484fb4c8671"
+     "sha256": "4f7bda58f58eb5d9ac081c56b9f9223c98ebaa7290f029f53028ef836cd659b6"
     },
     {
      "n": 3,
@@ -361,25 +361,25 @@
      "n": 4,
      "file": "apple_apps/Apple Reminders/04.jpg",
      "bytes": 98668,
-     "sha256": "58e1f1e759e5ca4c4ba16ebf31fa4b65f78c2a262a9f9d16cdb428e5e863d38e"
+     "sha256": "635230fbc75ffc19f1ffbbf719c75bdce176288ad376330a8248f229091eaca6"
     },
     {
      "n": 5,
      "file": "apple_apps/Apple Reminders/05.jpg",
      "bytes": 97886,
-     "sha256": "c2dde50d83da21c3935728823e5cadde47924d8c985cb0dbad2b0c3a1f7a3dd2"
+     "sha256": "11f2dbae1a3491ece3576bed87316df9c068904616760c05743617e630e1977c"
     },
     {
      "n": 6,
      "file": "apple_apps/Apple Reminders/06.jpg",
      "bytes": 44186,
-     "sha256": "c77cf6d062564bb1048bc440c828b6220439ba0f6dcce1cae73567bba3572ef7"
+     "sha256": "c1cbdb6863f3432151c41889c63b266ea3f603229742aaa913ec2d5e191b47d6"
     },
     {
      "n": 7,
      "file": "apple_apps/Apple Reminders/07.jpg",
      "bytes": 144670,
-     "sha256": "4356c98caeefcdc9d09be68ba9e42aef176377ce66eaaaed3285ecfe55f4ee4c"
+     "sha256": "b4f5e3aeb2f24b5a6673fdd63c3758b97a11453777c3d42cfc66b291c92577d4"
     },
     {
      "n": 8,
@@ -391,7 +391,7 @@
      "n": 9,
      "file": "apple_apps/Apple Reminders/09.jpg",
      "bytes": 81390,
-     "sha256": "373f1ef894ab5c4fd61b6718d8c8528fd249c3c78e1b58ac84574e1ce4e60a93"
+     "sha256": "bce5c5e8f99eadc19f96369e974fd1afee3bd230948a38cfa3811fd40412db0b"
     }
    ],
    "error": ""
