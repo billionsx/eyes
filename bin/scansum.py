@@ -85,7 +85,18 @@ def summarize(frames_dir: Path, scan_path: Path) -> dict:
     }
     if inv.get("scan_error"):
         out["ошибка"] = inv["scan_error"]
+    rej = Path(str(scan_path) + ".rejected.json")
+    if rej.exists():
+        try:
+            out["отказы_замерщика"] = json.loads(rej.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            pass
     out["звено_обрыва"] = break_link(out["цепь"])
+    if out["звено_обрыва"].startswith("замер") and out.get("отказы_замерщика"):
+        r = out["отказы_замерщика"].get("reasons") or {}
+        if r:
+            out["звено_обрыва"] += ". Причины отказа: " + "; ".join(
+                f"{k} ×{v}" for k, v in list(r.items())[:3])
     return out
 
 

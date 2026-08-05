@@ -575,12 +575,34 @@ def main() -> int:
     for f in files:
         m = measure(f)
         (res.append(m) if m.get("ok") else bad.update([m.get("why", "?")[:60]]))
+    # ПРИЧИНЫ ОТКАЗА СОХРАНЯЮТСЯ, А НЕ ТОЛЬКО ПЕЧАТАЮТСЯ.
+    #
+    # Родословная (05.08.2026). Замерщик прочитал 50 добытых кадров и не принял
+    # НИ ОДНОГО. Причины он назвал — в журнал прогона, который департаменту
+    # недоступен. Наружу вышел пустой список, неотличимый от «кадров не было».
+    # Полдня ушло на то, чтобы узнать у собственного органа то, что он уже знал.
+    #
+    # Причина отказа — такая же улика, как принятый замер, и живёт рядом с ним.
     print(f"замер: кадров {len(files)} · принято {len(res)} · отвергнуто {sum(bad.values())}")
+    for why, n in bad.most_common(6):
+        print(f"  отвергнуто {n}×: {why}")
     for why, n in bad.most_common(3):
         print(f"  отвергнуто {n}: {why}")
     if a.out:
         Path(a.out).write_text(json.dumps(res, ensure_ascii=False), encoding="utf-8")
+        Path(str(a.out) + ".rejected.json").write_text(json.dumps(
+            {"files": len(files), "accepted": len(res),
+             "rejected": sum(bad.values()),
+             "reasons": dict(bad.most_common())},
+            ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"замеры записаны: {a.out}")
+    if files and not res:
+        # Прочитал всё и не принял ничего — это отказ ОРГАНА, а не свойство
+        # кадров. Молчаливый ноль здесь означал бы, что департамент объявил
+        # свою слепоту отсутствием предмета (ЗКН-Э001).
+        print("::error::замерщик прочитал все кадры и НЕ ПРИНЯЛ НИ ОДНОГО — "
+              "это отказ органа, а не отсутствие кадров")
+        return 1
     return 0
 
 

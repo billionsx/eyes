@@ -29,7 +29,10 @@ jobs:
         run: python3 bin/frames.py --out /tmp/frames-new --limit 12
       - name: "Замер новых кадров"
         run: |
-          pip install pillow --quiet
+          # Суд департамента требует numpy и fonttools; без них он падает
+          # на проверке инструментов, и падение это выглядит как сбой
+          # добычи. Инструменты объявлены, а не угаданы.
+          pip install pillow numpy fonttools --quiet
           python3 bin/geoscan.py --frames /tmp/frames-new --out /tmp/scan-new.json
       - name: "Суд сводки — до всякой записи"
         run: python3 bin/scansum.py --court
