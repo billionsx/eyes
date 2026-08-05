@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 694
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 663
 
 ## AE1 · 38
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -406,7 +406,7 @@
 - `apps/web/src/play/play.css:81` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 - `apps/web/src/play/play.css:81` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
 
-## AE8 · 59
+## AE8 · 28
 - `apps/web/src/music/music.css:421` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:455` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:470` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -415,42 +415,13 @@
 - `apps/web/src/music/music.css:549` — движение 280ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:581` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/music/music.css:595` — движение 9000ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/App.tsx:1093` — движение 400ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/AudioShowcaseCard.tsx:120` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/BhajanDetailPage.tsx:168` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/BookDetailPage.tsx:1221` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/BookDetailPage.tsx:1332` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/BookDetailPage.tsx:1733` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/BookDetailPage.tsx:3123` — движение 400ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/BookHeroCard.tsx:54` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/BooksHub.tsx:274` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/DarshanScreen.tsx:141` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/DarshanStories.tsx:402` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/DarshanStories.tsx:407` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/DarshanStories.tsx:421` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/DarshanStories.tsx:431` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/DarshanStories.tsx:435` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/EntityPage.tsx:503` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/EntityPage.tsx:520` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/EntityPage.tsx:828` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/EntityPage.tsx:957` — движение 220ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/EntityPage.tsx:1468` — движение 260ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/EntityPage.tsx:1495` — движение 260ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/FavoritesScreen.tsx:301` — движение 240ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/HomeFeed.tsx:647` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/HomeFeed.tsx:706` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/JapaScreen.tsx:447` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/JapaScreen.tsx:456` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/JapaScreen.tsx:477` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/MyProgressScreen.tsx:50` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/NotesScreen.tsx:74` — движение 240ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/Onboarding.tsx:94` — движение 700ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/PracticeHub.tsx:120` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/SadhanaScreen.tsx:222` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/SadhanaScreen.tsx:440` — движение 350ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/SadhanaScreen.tsx:540` — движение 300ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/VowScreen.tsx:44` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/VowScreen.tsx:176` — движение 500ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/centers/CenterDeities.tsx:133` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/centers/CenterEditor.tsx:285` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/centers/CenterEvents.tsx:147` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
@@ -461,11 +432,9 @@
 - `apps/web/src/centers/CentersScreen.tsx:165` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/centers/CentersScreen.tsx:180` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/centers/MyCentersScreen.tsx:140` — движение 800ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/player/MiniPlayer.tsx:100` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/player/NowPlaying.tsx:400` — движение 250ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/shop/CartScreen.tsx:88` — движение 700ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 - `apps/web/src/shop/CartScreen.tsx:209` — движение 240ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
-- `apps/web/src/ui/nav4.tsx:187` — движение 200ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
 
 ## AE9 · 36
 - `apps/web/src/music/music.css:114` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
