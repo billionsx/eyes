@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 752
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 694
 
 ## AE1 · 38
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -87,7 +87,7 @@
 - `apps/web/src/music/music.css:617` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:18` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:26` — border-radius 17.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/ui/globals.css:1315` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:1320` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/AccountScreen.tsx:250` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/AcharyaScreen.tsx:117` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/AcharyaScreen.tsx:118` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -205,7 +205,7 @@
 - `apps/web/src/ui/globals.css:1117` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/ui/globals.css:1139` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/ui/globals.css:1151` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
-- `apps/web/src/ui/globals.css:1282` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ui/globals.css:1287` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/AccountScreen.tsx:134` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/AccountScreen.tsx:136` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/App.tsx:1085` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
@@ -335,7 +335,7 @@
 - `apps/web/src/prasad/RecipeDetail.tsx:117` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/shop/CartScreen.tsx:85` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 
-## AE4 · 115
+## AE4 · 57
 - `apps/web/src/music/music.css:82` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:112` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:187` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
@@ -364,73 +364,24 @@
 - `apps/web/src/AccountScreen.tsx:165` — letter-spacing 7.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/AccountScreen.tsx:245` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/AcharyaScreen.tsx:285` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/App.tsx:677` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BhajanDetailPage.tsx:464` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/BookDetailPage.tsx:1816` — letter-spacing 1.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:1824` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:1931` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:1954` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:1993` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:2034` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/BookDetailPage.tsx:2061` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/BookDetailPage.tsx:2082` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookLoaderPage.tsx:669` — letter-spacing 1.4px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/ContentDetailPage.tsx:296` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/DailyVerseScreen.tsx:126` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/DarshanScreen.tsx:123` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/DarshanScreen.tsx:151` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/DarshanScreen.tsx:257` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/EkadashiScreen.tsx:31` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/EkadashiScreen.tsx:90` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EntityPage.tsx:183` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EntityPage.tsx:463` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EntityPage.tsx:499` — letter-spacing 0.7px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EntityPage.tsx:566` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EntityPage.tsx:624` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EntityPage.tsx:975` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/EventCard.tsx:194` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EventCard.tsx:252` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/FavoritesScreen.tsx:375` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:204` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:215` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:222` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:233` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:316` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:372` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:565` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeCalendar.tsx:624` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/HomeFeed.tsx:361` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeIskconInfo.tsx:61` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeIskconInfo.tsx:102` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeIskconInfo.tsx:154` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeIskconInfo.tsx:209` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeIskconInfo.tsx:265` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeIskconInfo.tsx:273` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeMore.tsx:22` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeMore.tsx:56` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomePlaces.tsx:131` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomePlaces.tsx:167` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomePlaces.tsx:364` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeScreen.tsx:346` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeScreen.tsx:388` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/HomeScreen.tsx:541` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/JapaScreen.tsx:450` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/JapaScreen.tsx:494` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/JapaScreen.tsx:568` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/MyProgressScreen.tsx:91` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/MyProgressScreen.tsx:116` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/NotesScreen.tsx:111` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:169` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:208` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:276` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:330` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/PdfDoc.tsx:459` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/PersonHeroCard.tsx:80` — letter-spacing 1.4px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/QrSheet.tsx:168` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/QrSheet.tsx:186` — letter-spacing 1.4px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/SadhanaScreen.tsx:172` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/SadhanaScreen.tsx:530` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/SadhanaScreen.tsx:562` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/SearchScreen.tsx:136` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/TodayHub.tsx:82` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/centers/CenterDeities.tsx:42` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
@@ -441,15 +392,6 @@
 - `apps/web/src/centers/CenterScreen.tsx:139` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/dhama/DhamaScreen.tsx:139` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/player/ui.tsx:153` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/CookbookScreen.tsx:81` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/CookbookScreen.tsx:88` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/CookbookScreen.tsx:124` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/CookbookScreen.tsx:161` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/PrasadamScreen.tsx:158` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/PrasadamScreen.tsx:366` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/PrasadamScreen.tsx:432` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/RecipeDetail.tsx:82` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/prasad/RecipeDetail.tsx:168` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/shop/CartScreen.tsx:311` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 
 ## AE7 · 10
