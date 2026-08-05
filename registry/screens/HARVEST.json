@@ -1,0 +1,402 @@
+{
+ "ts": "2026-08-05 07:22 UTC",
+ "apps": [
+  {
+   "app": "Apple Settings",
+   "page": "https://apps.apple.com/us/app/id1541084045",
+   "classes": "сгруппированные списки",
+   "frames": [],
+   "error": "страница недоступна: HTTPError"
+  },
+  {
+   "app": "Apple Photos",
+   "page": "https://apps.apple.com/us/app/photos/id1584215428",
+   "classes": "сетки плиток",
+   "frames": [
+    {
+     "n": 1,
+     "file": "apple_apps/Apple Photos/01.jpg",
+     "bytes": 36068,
+     "sha256": "45dda89902e02a2895e351e8daf091a7c5088845b759a9ed3df8d97e5364d164"
+    },
+    {
+     "n": 2,
+     "file": "apple_apps/Apple Photos/02.png",
+     "bytes": 170937,
+     "sha256": "cceaa9590d9eff80f99e16b55708cca8de9fa901eb89c2a5de1a3891daaae051"
+    },
+    {
+     "n": 3,
+     "error": "не кадр экрана: 15770 байт"
+    },
+    {
+     "n": 4,
+     "file": "apple_apps/Apple Photos/04.jpg",
+     "bytes": 194364,
+     "sha256": "0f32e43e4ccc7beac9ed70b0869de82cda8bac4e0d79e69398628ccb55737691"
+    },
+    {
+     "n": 5,
+     "file": "apple_apps/Apple Photos/05.jpg",
+     "bytes": 145512,
+     "sha256": "c27b3d32913e80e224f80ed2813e57064476b6cfed4193998f47c497466fa04a"
+    },
+    {
+     "n": 6,
+     "file": "apple_apps/Apple Photos/06.jpg",
+     "bytes": 119166,
+     "sha256": "46b3f0a50230cd36d07a58b6400c0eb4e0fb477f3025ae39c73b50fcd9f9f769"
+    },
+    {
+     "n": 7,
+     "file": "apple_apps/Apple Photos/07.jpg",
+     "bytes": 111418,
+     "sha256": "d5c5a830f411b9b541512a1bd981123890f385ea2982c902911c6aec7ada2bb9"
+    },
+    {
+     "n": 8,
+     "file": "apple_apps/Apple Photos/08.jpg",
+     "bytes": 82786,
+     "sha256": "f341a134deeaeeb78ae691db221d7266b37f0eefa547b8e046a8357c6913a31e"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "app": "Apple Home",
+   "page": "https://apps.apple.com/us/app/home/id1110145103",
+   "classes": "сетки плиток, пустые состояния",
+   "frames": [
+    {
+     "n": 1,
+     "file": "apple_apps/Apple Home/01.jpg",
+     "bytes": 30212,
+     "sha256": "2d960ed63e6aabcc96d0d0d52377b9aa1ffd9ef5faa2e331095f65d1f840b510"
+    },
+    {
+     "n": 2,
+     "file": "apple_apps/Apple Home/02.png",
+     "bytes": 126277,
+     "sha256": "778278fcddefeece77ac02009a8ac4778d5870a4d11f35064981f9dff5c0ea2d"
+    },
+    {
+     "n": 3,
+     "error": "не кадр экрана: 18226 байт"
+    },
+    {
+     "n": 4,
+     "file": "apple_apps/Apple Home/04.jpg",
+     "bytes": 104170,
+     "sha256": "30a3860053ffa879723e456fec0c62de9c034153fd13f524d32efa0b282eaf57"
+    },
+    {
+     "n": 5,
+     "file": "apple_apps/Apple Home/05.jpg",
+     "bytes": 47758,
+     "sha256": "f0273f529be3e36783304f978b1d4fb0c3bd33dcd846281ee9166346d8880d1b"
+    },
+    {
+     "n": 6,
+     "file": "apple_apps/Apple Home/06.jpg",
+     "bytes": 71588,
+     "sha256": "ea50149883f916c72b928f94d2de4cf093e6ceeadb2291da7aa91cb99725cec5"
+    },
+    {
+     "n": 7,
+     "file": "apple_apps/Apple Home/07.jpg",
+     "bytes": 56784,
+     "sha256": "a6588254c4924cadfaff1e922fa285b69d6be04534eff066759e6b9b82532ba3"
+    },
+    {
+     "n": 8,
+     "file": "apple_apps/Apple Home/08.jpg",
+     "bytes": 44770,
+     "sha256": "5eede9513d0e5273947a5ca9a03283537bf48b6d812a2b1c3c3d7fbbfbf8bc20"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "app": "Apple Wallet",
+   "page": "https://apps.apple.com/us/app/apple-wallet/id1160481993",
+   "classes": "слоистые карточки",
+   "frames": [
+    {
+     "n": 1,
+     "file": "apple_apps/Apple Wallet/01.jpg",
+     "bytes": 33855,
+     "sha256": "3678da2d1607eaaab82abf482a430db09ccfcc2aec79ee05efbaa0c4e0d57099"
+    },
+    {
+     "n": 2,
+     "file": "apple_apps/Apple Wallet/02.png",
+     "bytes": 146791,
+     "sha256": "f3c6c54025e7eb256c72797b78eefe867e140b1fa54873a8f9915b5260db4e6c"
+    },
+    {
+     "n": 3,
+     "error": "не кадр экрана: 12860 байт"
+    },
+    {
+     "n": 4,
+     "error": "не кадр экрана: 17376 байт"
+    },
+    {
+     "n": 5,
+     "file": "apple_apps/Apple Wallet/05.jpg",
+     "bytes": 21256,
+     "sha256": "31c19b050bc1cb9ed3befc258486a51d820d42bd9406fa779be91030bdfbc2f5"
+    },
+    {
+     "n": 6,
+     "error": "не кадр экрана: 16328 байт"
+    },
+    {
+     "n": 7,
+     "file": "apple_apps/Apple Wallet/07.jpg",
+     "bytes": 26876,
+     "sha256": "fd3591cae6f4961b1450317f9bcf369f13614885b1021fe71025d0646e8b5535"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "app": "Apple Music",
+   "page": "https://apps.apple.com/us/app/apple-music/id1108187390",
+   "classes": "слоистые карточки, нижняя панель",
+   "frames": [
+    {
+     "n": 1,
+     "file": "apple_apps/Apple Music/01.jpg",
+     "bytes": 32385,
+     "sha256": "fd7cb43cf2b53a7697a77ba26bd82283930549b4f2e5ee8796aadace2db70631"
+    },
+    {
+     "n": 2,
+     "file": "apple_apps/Apple Music/02.png",
+     "bytes": 133083,
+     "sha256": "c5bea3e9014de4648ea9aa4eb480e2cd57ef37b23cf81fc50332591d73e74164"
+    },
+    {
+     "n": 3,
+     "error": "не кадр экрана: 18738 байт"
+    },
+    {
+     "n": 4,
+     "file": "apple_apps/Apple Music/04.jpg",
+     "bytes": 112018,
+     "sha256": "f286b04742a701e7e4cd20181c82fb7a81df101b9edb45973ec0c79cb6db8b5d"
+    },
+    {
+     "n": 5,
+     "file": "apple_apps/Apple Music/05.jpg",
+     "bytes": 116896,
+     "sha256": "7e029a041fd14077bd80d49663d4b72de7cf196c934b48fab9ca7e75917e6694"
+    },
+    {
+     "n": 6,
+     "file": "apple_apps/Apple Music/06.jpg",
+     "bytes": 57416,
+     "sha256": "bc26dd401d9e49650cd53777dbd9f8f7c77a04aa0b1cbc27fd4655e13971d9ff"
+    },
+    {
+     "n": 7,
+     "file": "apple_apps/Apple Music/07.jpg",
+     "bytes": 119718,
+     "sha256": "c142671682e4bbcd5b198ab9730b88fc0be068622599c9ee474343a3547133b1"
+    },
+    {
+     "n": 8,
+     "file": "apple_apps/Apple Music/08.jpg",
+     "bytes": 120606,
+     "sha256": "f0cecf3cfee670d4eda44c6cefd5e1f25439c2e805813fdc144e2b35f4360dce"
+    },
+    {
+     "n": 9,
+     "file": "apple_apps/Apple Music/09.jpg",
+     "bytes": 95084,
+     "sha256": "5bc0365f82508ce4b42dc9fde753605e8b9c1ba354aa50590698c8bcd5c2d6c1"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "app": "Apple Books",
+   "page": "https://apps.apple.com/us/app/apple-books/id364709193",
+   "classes": "сетки, нижняя панель",
+   "frames": [
+    {
+     "n": 1,
+     "file": "apple_apps/Apple Books/01.jpg",
+     "bytes": 31908,
+     "sha256": "564280f532a9946a46bcfd070fd506d6481534d636fa6171a875857910bf65f5"
+    },
+    {
+     "n": 2,
+     "file": "apple_apps/Apple Books/02.png",
+     "bytes": 144552,
+     "sha256": "dea6b969c1111237673018c238484c154bb2ca49d9144bd8f08816d29b6d1061"
+    },
+    {
+     "n": 3,
+     "error": "не кадр экрана: 13330 байт"
+    },
+    {
+     "n": 4,
+     "file": "apple_apps/Apple Books/04.jpg",
+     "bytes": 110848,
+     "sha256": "d53890ee3528dc1c25155fa465e306c94bcfc80a580a47e3d8b1e3cf01113358"
+    },
+    {
+     "n": 5,
+     "file": "apple_apps/Apple Books/05.jpg",
+     "bytes": 69768,
+     "sha256": "a649c62865792b09af18a16dedb17dbed82d5a92d56e1cbbdfe6213c28c0458c"
+    },
+    {
+     "n": 6,
+     "file": "apple_apps/Apple Books/06.jpg",
+     "bytes": 73592,
+     "sha256": "24d2f42fabcbe49d761b0f3c3a9d4a769fda6f8955dc992f36f778c1a702a807"
+    },
+    {
+     "n": 7,
+     "file": "apple_apps/Apple Books/07.jpg",
+     "bytes": 116866,
+     "sha256": "889389c3653eeb163733147e9ce9bef6e56efe9c05e01f7b220fe18dd2bf909c"
+    },
+    {
+     "n": 8,
+     "file": "apple_apps/Apple Books/08.jpg",
+     "bytes": 64126,
+     "sha256": "d55b128a50b1d064dcaf937abd231619ce88fc494aac7f8745667e7e23ecc6be"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "app": "Apple Podcasts",
+   "page": "https://apps.apple.com/us/app/apple-podcasts/id525463029",
+   "classes": "списки, нижняя панель",
+   "frames": [
+    {
+     "n": 1,
+     "file": "apple_apps/Apple Podcasts/01.jpg",
+     "bytes": 34555,
+     "sha256": "a87620b148275372d636ca73a2187059f1593504143360e931a58d310b204480"
+    },
+    {
+     "n": 2,
+     "file": "apple_apps/Apple Podcasts/02.png",
+     "bytes": 181666,
+     "sha256": "18cfc48df8cd443d21d3b1fdb9b86cf403864aff6259a8e321b0d80704c743ed"
+    },
+    {
+     "n": 3,
+     "file": "apple_apps/Apple Podcasts/03.jpg",
+     "bytes": 20630,
+     "sha256": "aa68540e26b8f2082b0843c9dcc40b27f0bb85f4d1caec925fd7ebc6dc835ee7"
+    },
+    {
+     "n": 4,
+     "file": "apple_apps/Apple Podcasts/04.jpg",
+     "bytes": 132184,
+     "sha256": "1a2d843e98ca0ae4ab64b5e149f9236fe873428a2b4fc4cbcaddf03b61aee193"
+    },
+    {
+     "n": 5,
+     "file": "apple_apps/Apple Podcasts/05.jpg",
+     "bytes": 122744,
+     "sha256": "6d5f297ccbd3f288c23660945c864eb2ec24d9bb1fbf95e44ae2fe19ce0129b7"
+    },
+    {
+     "n": 6,
+     "file": "apple_apps/Apple Podcasts/06.jpg",
+     "bytes": 71898,
+     "sha256": "76085f32e4260a1e209269a2e8f6aa986c2c648b063a2a40cf4e9bbcf5c235bb"
+    },
+    {
+     "n": 7,
+     "file": "apple_apps/Apple Podcasts/07.jpg",
+     "bytes": 80372,
+     "sha256": "ad25f548a441f985f92067b2a06ef00a2345cca443003274674fd15a7e4c8645"
+    },
+    {
+     "n": 8,
+     "file": "apple_apps/Apple Podcasts/08.jpg",
+     "bytes": 81702,
+     "sha256": "91f81a487c7776b3e23d19263de92dd4a049b5282fc908caf73fdff847ea6fbf"
+    },
+    {
+     "n": 9,
+     "file": "apple_apps/Apple Podcasts/09.jpg",
+     "bytes": 70990,
+     "sha256": "b65580c6dfde5b899b7042c58f392f4a5068cb7b3f48095f76d34f0f6e14af60"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "app": "Apple Reminders",
+   "page": "https://apps.apple.com/us/app/reminders/id1108187841",
+   "classes": "сгруппированные списки, пустые состояния",
+   "frames": [
+    {
+     "n": 1,
+     "file": "apple_apps/Apple Reminders/01.jpg",
+     "bytes": 24501,
+     "sha256": "6a6420437cf32c46729758d1d8d174b4434e89f5c04ba8288e7c246c18d0c133"
+    },
+    {
+     "n": 2,
+     "file": "apple_apps/Apple Reminders/02.png",
+     "bytes": 92261,
+     "sha256": "cf86c9d04061413628733c405b8b0c306716c62a52436b2d03646484fb4c8671"
+    },
+    {
+     "n": 3,
+     "error": "не кадр экрана: 17654 байт"
+    },
+    {
+     "n": 4,
+     "file": "apple_apps/Apple Reminders/04.jpg",
+     "bytes": 98668,
+     "sha256": "58e1f1e759e5ca4c4ba16ebf31fa4b65f78c2a262a9f9d16cdb428e5e863d38e"
+    },
+    {
+     "n": 5,
+     "file": "apple_apps/Apple Reminders/05.jpg",
+     "bytes": 97886,
+     "sha256": "c2dde50d83da21c3935728823e5cadde47924d8c985cb0dbad2b0c3a1f7a3dd2"
+    },
+    {
+     "n": 6,
+     "file": "apple_apps/Apple Reminders/06.jpg",
+     "bytes": 44186,
+     "sha256": "c77cf6d062564bb1048bc440c828b6220439ba0f6dcce1cae73567bba3572ef7"
+    },
+    {
+     "n": 7,
+     "file": "apple_apps/Apple Reminders/07.jpg",
+     "bytes": 144670,
+     "sha256": "4356c98caeefcdc9d09be68ba9e42aef176377ce66eaaaed3285ecfe55f4ee4c"
+    },
+    {
+     "n": 8,
+     "file": "apple_apps/Apple Reminders/08.jpg",
+     "bytes": 85222,
+     "sha256": "acc58be4aa5a51b85bf2c93b409faa4b4ce6a44bf0972729c005971f6054ea93"
+    },
+    {
+     "n": 9,
+     "file": "apple_apps/Apple Reminders/09.jpg",
+     "bytes": 81390,
+     "sha256": "373f1ef894ab5c4fd61b6718d8c8528fd249c3c78e1b58ac84574e1ce4e60a93"
+    }
+   ],
+   "error": ""
+  }
+ ],
+ "frames": 50,
+ "rejected": 8
+}
