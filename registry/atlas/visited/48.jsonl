@@ -191,3 +191,4 @@
 {"id": "/documentation/swiftui/longpressgesture/init(minimumduration:)", "sha": "a53a51a9b36794761b1fdce88ef2571042a523ed2fbb22d03227edf98079f897", "sieve": 2, "t": "init(minimumDuration:)", "n": 52, "laws": 1, "ts": "2026-08-04 05:53 UTC"}
 {"id": "/documentation/swiftui/multidatepicker/init(selection:label:)", "sha": "a9ab20ab04b5e253754c4d1fdbae36364ee43c03cf0f2879b669c1b1a4990ca5", "sieve": 2, "t": "init(selection:label:)", "n": 72, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
 {"id": "/documentation/swiftui/graphicscontext/filter/blur(radius:options:)", "sha": "e81e92075cdb58eab00541c596652473ae951032aaef0737d91b73028e661b0d", "sieve": 2, "t": "blur(radius:options:)", "n": 99, "laws": 0, "ts": "2026-08-04 06:03 UTC"}
+{"id": "/documentation/tipkit/tips/hidetipsfortesting(_:)", "sha": "6525d2d6a0a1b967f50029a23272a2a115c1d3e98ed4193080899543c2f348a0", "sieve": 2, "t": "hideTipsForTesting(_:)", "n": 248, "laws": 0, "ts": "2026-08-05 05:40 UTC"}

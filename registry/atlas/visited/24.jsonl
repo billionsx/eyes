@@ -153,3 +153,7 @@
 {"id": "/documentation/uikit/uifont/weight/heavy", "sha": "feb33f70ba594b8d6fb60cfefc428850e24626c29faa18bc4a69dde4c1673192", "sieve": 2, "t": "heavy", "n": 22, "laws": 0, "ts": "2026-08-03 19:18 UTC"}
 {"id": "/documentation/SwiftUI/Gestures", "sha": "437d8c5e2098bb54c63db9273b818005d1a0b92f66ff44f82e479ff1a7d7367d", "sieve": 2, "t": "Gestures", "n": 2584, "laws": 2, "ts": "2026-08-04 05:36 UTC"}
 {"id": "/documentation/swiftui/view/disableautocorrection(_:)", "sha": "bece6a43f81ec35dc9039e7919a9af04f2f0e37b22da52fe723bcd8f39f1c3ae", "sieve": 2, "t": "disableAutocorrection(_:)", "n": 551, "laws": 0, "ts": "2026-08-04 05:59 UTC"}
+{"id": "/design/Human-Interface-Guidelines/images", "sha": "61a9c7e54e43122d01c65b7ae077b377e0332389197db9bf990196925618d852", "sieve": 2, "t": "Images", "n": 11331, "laws": 10, "ts": "2026-08-05 05:33 UTC"}
+{"id": "/documentation/metal/mtlpackedfloat3-swift.typealias/z-5juk6", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "z", "n": 0, "laws": 0, "ts": "2026-08-05 05:34 UTC"}
+{"id": "/documentation/avsystemrouting/avsystemroutesession-gp78/stop()", "sha": "8ef1129a3763ce2ae65c86f7809229950904145f2293149202c53c884c8f1abe", "sieve": 2, "t": "stop()", "n": 597, "laws": 0, "ts": "2026-08-05 05:43 UTC"}
+{"id": "/documentation/security/cssm_range-swift.struct", "sha": "38b65b6c94ffa3635bd131546d8104d36ca5a05e26054c8cc9d28f44c73413f0", "sieve": 2, "t": "cssm_range", "n": 72, "laws": 0, "ts": "2026-08-05 05:47 UTC"}

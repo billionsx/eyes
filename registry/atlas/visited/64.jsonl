@@ -147,3 +147,6 @@
 {"id": "/documentation/uikit/uialertcontrollerseverity/critical", "sha": "9c8a3adebf5790ee31490638da09c78714c68443986ffe76c7adf5ae66c55b80", "sieve": 2, "t": "UIAlertControllerSeverity.critical", "n": 89, "laws": 1, "ts": "2026-08-03 19:24 UTC"}
 {"id": "/documentation/swiftui/menucontrolgroupstyle", "sha": "d8fddc5770042bac269428e70d7efd6393b823f49ea51f922f5f64685fb9ac04", "sieve": 2, "t": "MenuControlGroupStyle", "n": 227, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
 {"id": "/documentation/swiftui/previewmodifier/context", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "Context", "n": 0, "laws": 0, "ts": "2026-08-04 05:54 UTC"}
+{"id": "/documentation/Metal/MTLHeap/hazardTrackingMode", "sha": "4f3c483d6872b18c13bef2c83197a3407bc34d87c09e41b735d38e14c2406ef0", "sieve": 2, "t": "hazardTrackingMode", "n": 117, "laws": 0, "ts": "2026-08-05 05:35 UTC"}
+{"id": "/documentation/security/cssm_func_name_addr-swift.struct", "sha": "cba9a9a74fe0419774a57521319f1310586a353a91d2ffd9b8725e471c8e9e27", "sieve": 2, "t": "cssm_func_name_addr", "n": 82, "laws": 0, "ts": "2026-08-05 05:46 UTC"}
+{"id": "/documentation/AppKit/NSToolbarItem/backgroundTintColor", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "backgroundTintColor", "n": 0, "laws": 0, "ts": "2026-08-05 05:59 UTC"}

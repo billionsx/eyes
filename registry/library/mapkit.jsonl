@@ -149,3 +149,9 @@
 {"id": "/documentation/mapkit/identifying-unique-locations-with-place-ids", "law": "After you’ve completed the above steps, delete the temporary set you used to ensure that there were no duplicates amongst Place IDs and their alternates."}
 {"id": "/documentation/mapkit/mkiconstyle", "law": "A class you use to customize the annotation view icon of a point of interest (POI) on the map."}
 {"id": "/documentation/mapkit/mkmapfeatureoptions", "law": "A structure you use to tell the map which kinds of features users can interact with."}
+{"id": "/documentation/mapkit/unified-map-urls", "law": "Use the Maps path components to control aspects of the Maps display, ranging from the presentation of a simple map centered on a location you provide, to finding specific points of interest (POIs) and providing complex multistop driving, walking, or transit directions."}
+{"id": "/documentation/mapkit/unified-map-urls", "law": "Use the path component and parameters to control aspects of the map’s framing and representation."}
+{"id": "/documentation/mapkit/unified-map-urls", "law": "You can use the query parameters to the path in a large number of combinations to control how Maps displays directions."}
+{"id": "/documentation/mapkit/annotating-a-map-with-custom-data", "law": "For example, use a flag icon for an annotation view representing San Francisco."}
+{"id": "/documentation/mapkit/displaying-an-indoor-map", "law": "Use these examples to create your own indoor map with a style that’s consistent with your app’s design."}
+{"id": "/documentation/mapkit/mkannotationview/dragstate-swift.property", "law": "Even if you don’t perform any animations, it’s best practice to change the value of this property to reflect the correct state."}

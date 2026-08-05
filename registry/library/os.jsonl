@@ -9,3 +9,6 @@
 {"id": "/documentation/os/OSAllocatedUnfairLock", "law": "Because of this, it’s unsafe to use this approach across an suspension point."}
 {"id": "/documentation/os/generating-log-messages-from-your-code", "law": "To log raw bytes from a pointer in Objective-C, use the format modifier."}
 {"id": "/documentation/os/generating-log-messages-from-your-code", "law": "To format binary data types, use the specifier and add the total number of bytes and the pointer as arguments to the function."}
+{"id": "/documentation/os/oslogintegerformatting", "law": "You can also create new structures that customize the rules for handling a leading plus sign, special numerical prefixes, the minimum number of digits, and more."}
+{"id": "/documentation/os/ossignposter", "law": "Signposts allow you to record meaningful information about the duration of your app’s tasks using the same subsystems and categories that you use for logging."}
+{"id": "/documentation/os/ossignposter", "law": "also provides functionality to signpost a closure, and to emit individual signposts that don’t have a duration that you can use to highlight points of interest, such as when the user taps a button or performs a specific gesture."}

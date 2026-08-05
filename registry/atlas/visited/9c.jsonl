@@ -175,3 +175,5 @@
 {"id": "/documentation/swiftui/view/autocapitalization(_:)", "sha": "876d785be08e33dc2e28bdf184033b4f4835db15e83f851bcf2f44665e5c1161", "sieve": 2, "t": "autocapitalization(_:)", "n": 337, "laws": 0, "ts": "2026-08-04 05:59 UTC"}
 {"id": "/documentation/swiftui/wkinterfaceobjectrepresentable/updatewkinterfaceobject(_:context:)", "sha": "2f9969d39f3a71d9e923cc90b9f99849d88fcd9789246924f62c58cb50090406", "sieve": 2, "t": "updateWKInterfaceObject(_:context:)", "n": 431, "laws": 0, "ts": "2026-08-04 06:00 UTC"}
 {"id": "/documentation/swiftui/graphicscontext/filter/saturation(_:)", "sha": "281325142d1572a1ac57af226735cd40000234220c0e4a342311bbdd5b8397e3", "sieve": 2, "t": "saturation(_:)", "n": 242, "laws": 0, "ts": "2026-08-04 06:03 UTC"}
+{"id": "/documentation/os/oslog", "sha": "ee6917dfd9668f53702751b8e70ad06a01bef28a0f7823190df3171cf488efc0", "sieve": 2, "t": "OSLog", "n": 568, "laws": 0, "ts": "2026-08-05 05:37 UTC"}
+{"id": "/documentation/MapKit/MapSelectable", "sha": "4a1763e383a012459b7e077fcfbf9adad1b4df22ca17c69a005423d65db79626", "sieve": 2, "t": "MapSelectable", "n": 57, "laws": 0, "ts": "2026-08-05 05:56 UTC"}

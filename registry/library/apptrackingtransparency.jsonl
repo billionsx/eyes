@@ -1,3 +1,6 @@
 {"id": "/documentation/AppTrackingTransparency", "law": "You must use the AppTrackingTransparency framework if your app collects data about end users and shares it with other companies for purposes of tracking across apps and web sites."}
 {"id": "/documentation/AppTrackingTransparency", "law": "To use the AppTrackingTransparency framework: Set up a to display a system-permission alert request for your app installed on end-user devices."}
 {"id": "/documentation/AppTrackingTransparency", "law": "Use to determine the app-tracking permission status."}
+{"id": "/documentation/apptrackingtransparency/attrackingmanager/authorizationstatus", "law": "If authorization to use app tracking data is restricted, the value is: ."}
+{"id": "/documentation/apptrackingtransparency/attrackingmanager/requesttrackingauthorization(completionhandler:)", "law": "The completion handler will be called with the result of the user’s decision for granting or denying permission to use application tracking."}
+{"id": "/documentation/AppTrackingTransparency/ATTrackingManager/requestTrackingAuthorization(completionHandler:)", "law": "The completion handler will be called with the result of the user’s decision for granting or denying permission to use application tracking."}

@@ -162,3 +162,5 @@
 {"id": "/documentation/swiftui/tab/init(_:image:value:content:)-2x9d8", "sha": "194ecf4a53df11979be8de3f5615e4106932c5edc2df8a476a31bdd44bf67415", "sieve": 2, "t": "init(_:image:value:content:)", "n": 116, "laws": 0, "ts": "2026-08-04 05:47 UTC"}
 {"id": "/documentation/swiftui/glassprominentbuttonstyle/makebody(configuration:)", "sha": "39ce518468e2c6136493a620441061789b00578ab5ab46bf693995211bb01ae8", "sieve": 2, "t": "makeBody(configuration:)", "n": 179, "laws": 0, "ts": "2026-08-04 05:50 UTC"}
 {"id": "/documentation/swiftui/openurlaction/init(handler:)", "sha": "a55a26951e5140465ad17ae54fa4285bbc0a99499cf79127487af6b2fcbc626b", "sieve": 2, "t": "init(handler:)", "n": 644, "laws": 0, "ts": "2026-08-04 06:01 UTC"}
+{"id": "/documentation/Metal/MTLCaptureScope", "sha": "814cce1af43ac54c6294a33b65acb451e2acfb6138c33dee66887d662ccaf35e", "sieve": 2, "t": "MTLCaptureScope", "n": 1081, "laws": 0, "ts": "2026-08-05 05:35 UTC"}
+{"id": "/documentation/security/cssm_parsed_crl-swift.struct", "sha": "73e4707164376847efa5a8707fbaf33d20ba47ca84987377847a8c5c4921b1c1", "sieve": 2, "t": "cssm_parsed_crl", "n": 125, "laws": 0, "ts": "2026-08-05 05:47 UTC"}

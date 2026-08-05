@@ -172,3 +172,7 @@
 {"id": "/documentation/swiftui/automaticcontrolgroupstyle", "sha": "e381c2709d733859136488566704e0cf60b4b2119d0df41b84c40fff4e7ccba4", "sieve": 2, "t": "AutomaticControlGroupStyle", "n": 86, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
 {"id": "/documentation/swiftui/controlgroupstyle/palette", "sha": "ab311c675c0de1db3acb9525faff30a821cb5d137e2d2d8c2742c88aeaa64b1a", "sieve": 2, "t": "palette", "n": 397, "laws": 1, "ts": "2026-08-04 05:49 UTC"}
 {"id": "/documentation/swiftui/view/alert(item:content:)", "sha": "11158af7d345c7de363973097222591cb90ad668d4da0adbb73eb145c7473787", "sieve": 2, "t": "alert(item:content:)", "n": 268, "laws": 1, "ts": "2026-08-04 05:59 UTC"}
+{"id": "/documentation/Metal/MTLPixelFormat/rg32Float", "sha": "f2720c9db97caf11bd6bd8a418f3354f8d5374dce10b882f3e2fc6bc47262a8d", "sieve": 2, "t": "MTLPixelFormat.rg32Float", "n": 58, "laws": 0, "ts": "2026-08-05 05:35 UTC"}
+{"id": "/documentation/os/oslogfloatformatting/hex", "sha": "ca4175c1148d009baf9d77765a164ba19e63346e4c0ff8cb007b8f379549f096", "sieve": 2, "t": "hex", "n": 58, "laws": 0, "ts": "2026-08-05 05:37 UTC"}
+{"id": "/documentation/avsystemrouting/avsystemroute-5s2um/routesymbolname", "sha": "cac5e522d864ed1c034c2ca1f56c2836de2f20352ef638fb29e8f1e35808b2fd", "sieve": 2, "t": "routeSymbolName", "n": 367, "laws": 1, "ts": "2026-08-05 05:43 UTC"}
+{"id": "/documentation/AppKit/NSColor/controlTextColor", "sha": "01a2317dda906057ea7f92fb764299e974d207c630e9fbc49af34950eb4219e4", "sieve": 2, "t": "controlTextColor", "n": 135, "laws": 1, "ts": "2026-08-05 06:01 UTC"}

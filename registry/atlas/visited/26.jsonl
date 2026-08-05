@@ -175,3 +175,7 @@
 {"id": "/documentation/SwiftUI/EdgeInsets", "sha": "aad0ae5245c861aecca81697ee56e3290120d4d2f4bc23c1486dc24c7e42d203", "sieve": 2, "t": "EdgeInsets", "n": 222, "laws": 0, "ts": "2026-08-04 05:36 UTC"}
 {"id": "/documentation/swiftui/expandedwindowtoolbarstyle", "sha": "61d0186724616dee8d4d307e1f0dbd4ae124da97474c3a438bbfa6972c23b39c", "sieve": 2, "t": "ExpandedWindowToolbarStyle", "n": 174, "laws": 0, "ts": "2026-08-04 05:46 UTC"}
 {"id": "/documentation/swiftui/shape/fill(_:style:)-5fwbj", "sha": "ac4f434ce882a2aff5bfd54cf39c55ad19b262edf755dea9d855a50a9c014d68", "sieve": 2, "t": "fill(_:style:)", "n": 112, "laws": 0, "ts": "2026-08-04 05:55 UTC"}
+{"id": "/documentation/security/cssm_parsed_crl-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_PARSED_CRL", "n": 0, "laws": 0, "ts": "2026-08-05 05:47 UTC"}
+{"id": "/documentation/AppKit/glyph-attributes", "sha": "644b60a7b31bf02a716b963c3ffbf444051d098b1f85caeb4a4b821cc4b4dde1", "sieve": 2, "t": "Glyph Attributes", "n": 226, "laws": 0, "ts": "2026-08-05 05:57 UTC"}
+{"id": "/documentation/AppKit/NSCursor/dragLink", "sha": "56a6c989289a3688240b9cc075271a66d43cf3b07dbd156e6cdc3574456af369", "sieve": 2, "t": "dragLink", "n": 122, "laws": 0, "ts": "2026-08-05 06:02 UTC"}
+{"id": "/documentation/AppKit/NSPrintInfo", "sha": "5f21e845ac248e6b7b248e83e66c2f5a02486288ce07f5e60d9976f2acdd199f", "sieve": 2, "t": "NSPrintInfo", "n": 1896, "laws": 0, "ts": "2026-08-05 06:03 UTC"}

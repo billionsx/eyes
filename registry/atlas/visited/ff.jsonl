@@ -157,3 +157,5 @@
 {"id": "/documentation/uikit/uieditmenuarrowdirection/up", "sha": "4890aaba2823a7e422d4577d2764aeb9993b4746c6d8c2c350e1be8905439757", "sieve": 2, "t": "UIEditMenuArrowDirection.up", "n": 48, "laws": 0, "ts": "2026-08-03 08:09 UTC"}
 {"id": "/documentation/uikit/uiprintpagerenderer/printformatters", "sha": "f6417a63ee7dccaba6f2f4c4ec490c33996fa7615db065b6b7431ebaf06e54ef", "sieve": 2, "t": "printFormatters", "n": 275, "laws": 0, "ts": "2026-08-03 19:13 UTC"}
 {"id": "/documentation/SwiftUI/View/imageScale(_:)", "sha": "fa011a5197950693ce2da396232849065f9729b5146312b7030b6b993cce2373", "sieve": 2, "t": "imageScale(_:)", "n": 325, "laws": 0, "ts": "2026-08-04 05:52 UTC"}
+{"id": "/documentation/tipkit/tipview/init(_:arrowedge:action:)", "sha": "300b1ed8171e92a87722649c22cb01b390e2096d368195c1b0da989482b2ff74", "sieve": 2, "t": "init(_:arrowEdge:action:)", "n": 398, "laws": 0, "ts": "2026-08-05 05:41 UTC"}
+{"id": "/documentation/security/cssm_acl_entry_info-c.struct", "sha": "c0df5808b324841b8a60165658e78abe788da259fe68e5799fe54320474ef321", "sieve": 2, "t": "cssm_acl_entry_info", "n": 52, "laws": 0, "ts": "2026-08-05 05:44 UTC"}

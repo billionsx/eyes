@@ -1947,3 +1947,36 @@
 ### 2026-08-04 13:52 UTC · сертификация
 - iskcon: скор 65.3 · грейд D (strict 0 · report 774 · live 0 · сверка 0)
 
+### 2026-08-05 06:04 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 801 · законов добыто 246 · изменилось 139
+- фронтир 13376 · всего пройдено 44200 · библиотека 33404 законов / 340 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32643)
+- очередь просеяна приёмом: было 69600, осталось 14075 (отложено 55525)
+- закон изменился: /documentation/visionos/creating-immersive-spaces-in-visionos-with-swiftui · «Creating an immersive space in visionOS»
+- закон изменился: /documentation/visionOS/connecting-ipados-and-visionos-apps-over-the-local-network · «Connecting iPadOS and visionOS apps over the local network»
+- закон изменился: /documentation/visionOS/incorporating-real-world-surroundings-in-an-immersive-experience · «Incorporating real-world surroundings in an immersive experi»
+- закон изменился: /documentation/TechnologyOverviews/ai-machine-learning · «Apple Intelligence and machine learning»
+- закон изменился: /documentation/technologyoverviews/structured-data-models · «Structured data models»
+- закон изменился: /documentation/watchos-apps/enabling-and-receiving-notifications · «Enabling and receiving notifications»
+- закон изменился: /documentation/xcode/validating-your-apps-metal-api-usage · «Validating your app’s Metal API usage»
+- закон изменился: /documentation/Xcode/understanding-hitches-in-your-app · «Understanding hitches in your app»
+- закон изменился: /documentation/xcode/dynamic-type-violation · «Dynamic type violation»
+- закон изменился: /documentation/Xcode/improving-your-app-s-performance · «Improving your app’s performance»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 25 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 205 · находок 28
+- https://ethnomir.app/steps: элементов 88 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

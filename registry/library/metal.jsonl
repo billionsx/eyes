@@ -755,3 +755,9 @@
 {"id": "/documentation/Metal/adapting-your-game-interface-for-smaller-screens", "law": "Use a physical device to test the behavior and user experience for your game’s menus on every supported device."}
 {"id": "/documentation/Metal/improving-your-games-graphics-performance-and-settings", "law": "If you design a game to work at 60 fps, then it’s best if the game’s CPU time not exceed 16 ms and the GPU time not exceed 16 ms."}
 {"id": "/documentation/Metal/improving-your-games-graphics-performance-and-settings", "law": "Consider a cache to store temporary resources, like shadow maps, or use GPU culling to reduce geometric complexity."}
+{"id": "/documentation/metal/generating-and-loading-a-metal-library-symbol-file", "law": "After the command finishes execution, the directory contains both the modified Metal library and its new companion symbol file: The Metal command-line tools for Windows use the same options and arguments as their macOS counterparts."}
+{"id": "/documentation/Metal/MTLPixelFormat", "law": "The alpha component of sRGB pixel formats is always treated as a linear value."}
+{"id": "/documentation/Metal/MTLPixelFormat/bgr10a2Unorm", "law": "On devices with a wide color display, use this format instead of to reduce banding artifacts in your displayed content."}
+{"id": "/documentation/Metal/MTLVertexDescriptor", "law": "When you configure an instance to create this pipeline state, you use an instance to establish the vertex layout for the function associated with the pipeline."}
+{"id": "/documentation/Metal/MTLCaptureManager/defaultCaptureScope", "law": "Use this property to specify a default capture scope for Xcode to use when the user presses the capture button."}
+{"id": "/documentation/Metal/MTLFence", "law": "Earlier versions of Metal support hazard tracking for work you encode and commit with , , and instances, which means you don’t need to synchronize memory operations for resources with a property that’s equal to ."}

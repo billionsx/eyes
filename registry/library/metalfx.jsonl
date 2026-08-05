@@ -6,3 +6,4 @@
 {"id": "/documentation/metalfx", "law": "Otherwise, add an instance, which only requires a pixel color input texture."}
 {"id": "/documentation/metalfx", "law": "Once you’ve created an effect instance, you can use it repeatedly, typically once per frame."}
 {"id": "/documentation/metalfx/mtlfxtemporalscaler", "law": "You can use the scaler to upscale every frame of your app’s scene or rendering in real time."}
+{"id": "/documentation/metalfx/mtlfxspatialscalercolorprocessingmode", "law": "The color space modes for the input and output textures you use with a spatial scaling effect instance."}

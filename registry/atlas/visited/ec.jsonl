@@ -159,3 +159,7 @@
 {"id": "/documentation/swiftui/toolbarplacement/init(id:)", "sha": "d8328796b9dee0affd3406c7d66e8516175f43112d029f79b923df977e6b04d7", "sieve": 2, "t": "init(id:)", "n": 41, "laws": 0, "ts": "2026-08-04 05:46 UTC"}
 {"id": "/documentation/swiftui/glassbackgrounddisplaymode/never", "sha": "9c40747b6885e0f104f12a82881b74853f420e40fc312750a0db0b1ec4287cb2", "sieve": 2, "t": "GlassBackgroundDisplayMode.never", "n": 33, "laws": 1, "ts": "2026-08-04 05:50 UTC"}
 {"id": "/documentation/swiftui/multidatepicker/init(_:selection:in:)", "sha": "8acdd37703ea8eff2c711ca9d0981efd45aa324a34d47f12d8d32b9ae92c34e2", "sieve": 2, "t": "init(_:selection:in:)", "n": 76, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
+{"id": "/documentation/storekit/skadnetwork-2-2-release-notes", "sha": "8da837771f2170747e0a6aff3f7737f9934a3c2f2f95ca929802a963177b00dc", "sieve": 2, "t": "SKAdNetwork 2.2 release notes", "n": 898, "laws": 0, "ts": "2026-08-05 05:50 UTC"}
+{"id": "/documentation/storekit/product/subscriptionoffer/id", "sha": "ce15c6fdab26223ee59329a56813c6342a177c8f83fe2a5f71d9a71bca749cef", "sieve": 2, "t": "id", "n": 441, "laws": 0, "ts": "2026-08-05 05:52 UTC"}
+{"id": "/documentation/MapKit/MKMapRect", "sha": "ffb84bd4a13626a4d374519578b678ffe6168181ebf7e1c452be5245ead51401", "sieve": 2, "t": "MKMapRect", "n": 1022, "laws": 0, "ts": "2026-08-05 05:56 UTC"}
+{"id": "/documentation/AppKit/NSTabView/contentRect", "sha": "f34d207ebd2841c7c96599c3e08f3540e897dc1da6ceb63bb0e21e317dc0c59b", "sieve": 2, "t": "contentRect", "n": 163, "laws": 0, "ts": "2026-08-05 06:03 UTC"}

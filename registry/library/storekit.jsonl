@@ -184,3 +184,14 @@
 {"id": "/documentation/StoreKit/original-api-for-in-app-purchase", "law": "Non-renewing subscriptions to services or content provide access over a limited duration and don’t renew automatically."}
 {"id": "/documentation/StoreKit/supporting-offer-codes-in-your-app", "law": "Including the redemption sheet in your app is recommended, but optional."}
 {"id": "/documentation/StoreKit/supporting-offer-codes-in-your-app", "law": "In the secondary configuration view, use the dropdown menu to select an offer code."}
+{"id": "/documentation/StoreKit/RequestReviewAction", "law": "Because this API may not present an alert, don’t call it in response to a button tap or other user action."}
+{"id": "/documentation/StoreKit/StoreView", "law": "You can provide a view to use as an icon or image for each individual product."}
+{"id": "/documentation/StoreKit/StoreView", "law": "If you provide product identifiers, you can optionally provide placeholder icons for the system to use instead of the automatic placeholder icon."}
+{"id": "/documentation/StoreKit/StoreView", "law": "The app calls the method when people use this button."}
+{"id": "/documentation/StoreKit/Product/PurchaseOption", "law": "Use to control the transaction date and subscription renewal behavior."}
+{"id": "/documentation/StoreKit/StoreButtonKind", "law": "Use the modifier on a view to set the visibility of the buttons."}
+{"id": "/documentation/StoreKit/SubscriptionStoreControlStyle", "law": "Use the view modifier to configure the subscription store control style for a view hierarchy."}
+{"id": "/documentation/StoreKit/SubscriptionStoreControlStyle", "law": "Inside the method, use the parameter, which is a value, to get the properties of the control, such as the subscriptions to merchandise."}
+{"id": "/documentation/StoreKit/SubscriptionStoreControlStyle", "law": "Then, use your custom style as follows: A type that specifies the appearance and interaction of controls in the subscription store view instances within the view hierarchy."}
+{"id": "/documentation/StoreKit/SubscriptionStorePolicyKind", "law": "To set the destination of a policy button in a , use or ."}
+{"id": "/documentation/StoreKit/StoreButtonKind/signIn", "law": "A type of button that people use to sign in."}

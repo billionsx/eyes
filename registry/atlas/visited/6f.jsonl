@@ -158,3 +158,6 @@
 {"id": "/documentation/swiftui/formstyle/configuration", "sha": "b1adf091331fb2d52cb4522780bfac5261edf995a0f97aaaa0d605ff4c947085", "sieve": 2, "t": "FormStyle.Configuration", "n": 198, "laws": 0, "ts": "2026-08-04 05:50 UTC"}
 {"id": "/documentation/swiftui/menustyle/borderlessbutton", "sha": "7d4156ed3d57e0b1917f237e201b88cefabd0ca2cadd3393db7732a6e00db71f", "sieve": 2, "t": "borderlessButton", "n": 292, "laws": 0, "ts": "2026-08-04 05:51 UTC"}
 {"id": "/documentation/swiftui/manipulable/gesturestate", "sha": "4df1f46f41144f7f8bffc8f659100313edcab27bf43e6ccd3540bed42a0b7340", "sieve": 2, "t": "Manipulable.GestureState", "n": 136, "laws": 0, "ts": "2026-08-04 06:00 UTC"}
+{"id": "/design/Human-Interface-Guidelines/gestures", "sha": "e38c110bc7b1119aafa1a3f3cd8a1662163072cf2c3bc1fcc83e22d756afd1bc", "sieve": 2, "t": "Gestures", "n": 12141, "laws": 10, "ts": "2026-08-05 05:33 UTC"}
+{"id": "/documentation/tipkit/tip/shoulddisplay", "sha": "702e0d329b1a9fec0bef3da9e6f6b8d83a4ccbd3ff26f447fdcb69d54d8c1a1a", "sieve": 2, "t": "shouldDisplay", "n": 130, "laws": 0, "ts": "2026-08-05 05:41 UTC"}
+{"id": "/documentation/corelocationui/cllocationbutton/cornerradius", "sha": "1685ddbe25951cf0f0595453db3e83736fc9bac8bc8b2836f77ec109befcb60b", "sieve": 2, "t": "cornerRadius", "n": 32, "laws": 0, "ts": "2026-08-05 05:54 UTC"}

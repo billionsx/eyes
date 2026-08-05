@@ -5,3 +5,9 @@
 {"id": "/documentation/AVSystemRouting/routing-media-to-third-party-devices", "law": "Use to launch the system media player on the remote device: The method returns an that your app uses to control playback and communicate with the remote device."}
 {"id": "/documentation/AVSystemRouting/routing-media-to-third-party-devices", "law": "Use the property to drive playback on the remote device and observe its state."}
 {"id": "/documentation/AVSystemRouting/routing-media-to-third-party-devices", "law": "To enable bidirectional communication with the companion app through a data channel, use when creating the session: After starting an application session, use the class’s to exchange data with the remote device."}
+{"id": "/documentation/avsystemrouting/avsystemroute-5s2um", "law": "Use this object to control playback sessions, communicate with remote applications through data channels, and manage the lifecycle of remote connections."}
+{"id": "/documentation/avsystemrouting/avsystemroutemediasession-98ioq", "law": "Use this object to access playback controls and a data channel for communicating with the remote application."}
+{"id": "/documentation/avsystemrouting/routing-media-to-third-party-devices", "law": "Use to launch the system media player on the remote device: The method returns an that your app uses to control playback and communicate with the remote device."}
+{"id": "/documentation/avsystemrouting", "law": "After starting a session, use the class’s playback control to manage remote playback and receive state updates."}
+{"id": "/documentation/avsystemrouting/avsystemroute-5s2um/routedatachannel", "law": "Use this channel for control messages, state synchronization, and other bidirectional communication needs that are not tied to a specific ."}
+{"id": "/documentation/avsystemrouting/avsystemroute-5s2um/routesymbolname", "law": "Use this value with to create an icon for display in your app’s user interface."}

@@ -130,3 +130,7 @@
 {"id": "/documentation/swiftui/manipulable/operation/set", "sha": "8578c8074b505bf0734f50f361fbde6e0506a0602546d00ba5b22e382faa5317", "sieve": 2, "t": "Manipulable.Operation.Set", "n": 147, "laws": 0, "ts": "2026-08-04 05:56 UTC"}
 {"id": "/documentation/swiftui/view/chartxvisibledomain(length:)", "sha": "772ce8c13eedc83b1897212234a3340efc3eef72a2a41e1cdc80f41596aeeab1", "sieve": 2, "t": "chartXVisibleDomain(length:)", "n": 237, "laws": 1, "ts": "2026-08-04 05:59 UTC"}
 {"id": "/documentation/swiftui/view/chartzselection(value:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "chartZSelection(value:)", "n": 0, "laws": 0, "ts": "2026-08-04 05:59 UTC"}
+{"id": "/documentation/os/os_unfair_lock", "sha": "05301e35806e4f62f4e329a3cb63abf896c96cac46f713e6df5a9e4b8578ee33", "sieve": 2, "t": "os_unfair_lock", "n": 142, "laws": 0, "ts": "2026-08-05 05:36 UTC"}
+{"id": "/documentation/security/cssm_guid-swift.struct", "sha": "f6a22eda1c8675d1a60791106a96cc15551d49a50328e372818b7e8722885a1a", "sieve": 2, "t": "cssm_guid", "n": 106, "laws": 0, "ts": "2026-08-05 05:46 UTC"}
+{"id": "/documentation/security/cssm_memory_funcs-swift.struct", "sha": "b282fd7ad89467e0e5140f1ead60f2838c3db215e47867374964c2ac02c555a2", "sieve": 2, "t": "cssm_memory_funcs", "n": 171, "laws": 0, "ts": "2026-08-05 05:47 UTC"}
+{"id": "/documentation/AppKit/NSTextContainer/textView", "sha": "cc87262b4570b98576fbbe5015592f47c75399be17a957a7ea80563b7fe3a3a7", "sieve": 2, "t": "textView", "n": 312, "laws": 0, "ts": "2026-08-05 05:59 UTC"}

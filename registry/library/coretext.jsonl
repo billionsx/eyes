@@ -1,2 +1,11 @@
 {"id": "/documentation/CoreText", "law": "The Core Text layout engine is designed for high performance, ease of use, and close integration with ."}
 {"id": "/documentation/CoreText", "law": "However, the layout objects ( , , , , , and associated objects) should be used in a single operation, work queue, or thread."}
+{"id": "/documentation/CoreText/kCTFontManagerRegisteredFontsChangedNotification", "law": "This is the string to use as the notification name when subscribing to Core Text Font Manager notifications."}
+{"id": "/documentation/CoreText/CTTextAlignment/init(_:)", "law": "Use this function when you need to map between the UIKit and Core Text constants for text alignment."}
+{"id": "/documentation/coretext", "law": "The Core Text layout engine is designed for high performance, ease of use, and close integration with ."}
+{"id": "/documentation/coretext", "law": "However, the layout objects ( , , , , , and associated objects) should be used in a single operation, work queue, or thread."}
+{"id": "/documentation/CoreText/CTFontManagerRegisterFontsWithAssetNames(_:_:_:_:_:)", "law": "You can use the same names to unregister the fonts with ."}
+{"id": "/documentation/CoreText/CTFontManagerRequestFonts(_:_:)", "law": "Other apps must call this function to make the fonts available for font descriptor matching."}
+{"id": "/documentation/CoreText/CTFontManagerUnregisterFontDescriptors(_:_:_:)", "law": "Unregistered fonts don’t participate in font descriptor matching."}
+{"id": "/documentation/CoreText/CTFontManagerUnregisterFontURLs(_:_:_:)", "law": "Unregistered fonts don’t participate in font descriptor matching."}
+{"id": "/documentation/CoreText/CTFontManagerUnregisterFontURLs(_:_:_:)", "law": "On iOS, you can only use this function to unregister fonts that you registered using or ."}

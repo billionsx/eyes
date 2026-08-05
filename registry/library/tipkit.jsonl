@@ -35,3 +35,16 @@
 {"id": "/documentation/tipkit/tips/parameter", "law": "Tips must be configured using before a parameter’s value will be updated."}
 {"id": "/documentation/tipkit/tips/rule", "law": "Use rules to control when your tips display."}
 {"id": "/documentation/tipkit/tipview", "law": "Use and when adding tips to UIView and NSView hierarchies."}
+{"id": "/documentation/TipKit/TipViewStyle", "law": "Customize the layout and style of your tips by creating a custom : Use the modifier to apply your style to all tips within a view hierarchy: For UIKit and AppKit apps, the property can be used for specifying a custom : A type that applies custom appearance to all tips within a view hierarchy."}
+{"id": "/documentation/tipkit/highlightingappfeatureswithtipkit", "law": "Use this style of tip view if adjusting the underlying layout is undesirable or people don’t need to interact with any controls the tip obscures."}
+{"id": "/documentation/tipkit/highlightingappfeatureswithtipkit", "law": "Buttons present people with additional information and options before they decide whether to use a new feature."}
+{"id": "/documentation/tipkit/tips/configurationoption/displayfrequency(_:)", "law": "Use to control how often new tips are displayed."}
+{"id": "/documentation/tipkit/tipuicollectionviewcell", "law": "Use this cell to create a tip you want to display and layout as a ."}
+{"id": "/documentation/tipkit/tipuicollectionviewcell", "law": "To configure the content and appearance of your cell, use the function and provide a tip along with an optional arrow edge and action handler."}
+{"id": "/documentation/tipkit/tipuiview", "law": "To configure the content and appearance of your view, use the function and provide a tip along with an optional arrow edge and optional action."}
+{"id": "/documentation/tipkit/tipviewstyle", "law": "Customize the layout and style of your tips by creating a custom : Use the modifier to apply your style to all tips within a view hierarchy: For UIKit and AppKit apps, the property can be used for specifying a custom : A type that applies custom appearance to all tips within a view hierarchy."}
+{"id": "/documentation/tipkit/tip/image", "law": "Use this property to display an icon to the left of the and of your tip."}
+{"id": "/documentation/tipkit/tip/maxdisplayduration", "law": "Tip views have a minimum display duration of 60 seconds before they can be automatically invalidated by in order to avoid appearing and disappearing too quickly."}
+{"id": "/documentation/tipkit/tip/maxdisplayduration", "law": "This is a cumulative value; if a tip specifies a 2 minute maximum display duration and is displayed for 1 minute on Monday and 1 minute on Tuesday it will be automatically invalidated and no longer appear."}
+{"id": "/documentation/tipkit/tip/maxdisplayduration", "law": "By default tips have no maximum display duration."}
+{"id": "/documentation/tipkit/tip/rule", "law": "Use rules to control when your tips display."}

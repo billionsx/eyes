@@ -157,3 +157,9 @@
 {"id": "/documentation/swiftui/textselection/affinity", "sha": "ae8a14f4767a61261fef537206e268cb086e5ca0fb6d7ec90c5866acaf355029", "sieve": 2, "t": "affinity", "n": 47, "laws": 0, "ts": "2026-08-04 05:45 UTC"}
 {"id": "/documentation/swiftui/tablecolumncustomization/init()", "sha": "0a725bda962120adbbc98f962771f4f30bdb478ed593dd8455b799ef09f5ee87", "sieve": 2, "t": "init()", "n": 155, "laws": 0, "ts": "2026-08-04 05:55 UTC"}
 {"id": "/documentation/swiftui/shapeview/shape", "sha": "24c2fcdf15512fd2faff833959e1726b589b29586fa703a941515cc06b5df3b5", "sieve": 2, "t": "shape", "n": 73, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
+{"id": "/documentation/os/oslogfloatformatting/exponential", "sha": "0b882ad5445a6233f6677458ebf51e4221c46ea3527b5d0b7a67031bd76d0922", "sieve": 2, "t": "exponential", "n": 240, "laws": 0, "ts": "2026-08-05 05:37 UTC"}
+{"id": "/documentation/pdfkit/data-representations", "sha": "5a0f287c3514b64e53323b1af109a5096c77be8bfa7d26a5207378ddca9ba467", "sieve": 2, "t": "Data Representations", "n": 139, "laws": 0, "ts": "2026-08-05 05:43 UTC"}
+{"id": "/documentation/security/cssm_data-swift.struct", "sha": "8ac78de219397baa0cdc1800b07f4c79fbb56cc64763f3d7c91568584d12ea62", "sieve": 2, "t": "cssm_data", "n": 80, "laws": 0, "ts": "2026-08-05 05:45 UTC"}
+{"id": "/documentation/StoreKit/DisplayMessageAction", "sha": "b28f4f16075ab8dd6e3dbe9d2743a77064600fc01ecd6f1f008b384d23b13b77", "sieve": 2, "t": "DisplayMessageAction", "n": 1283, "laws": 0, "ts": "2026-08-05 05:51 UTC"}
+{"id": "/documentation/messages/mscriticalsmsmessenger/send(_:to:)", "sha": "06d8da9e535fe3484b07732d02f2060d1c18a98d4674e700c218eb6a82488250", "sieve": 2, "t": "send(_:to:)", "n": 480, "laws": 0, "ts": "2026-08-05 05:53 UTC"}
+{"id": "/documentation/AppKit/NSCursor/contextualMenu", "sha": "6bb1f265807dc77e01ef9393a8f1d3aea8682516ba867ef72732010d50db430f", "sieve": 2, "t": "contextualMenu", "n": 85, "laws": 0, "ts": "2026-08-05 06:01 UTC"}

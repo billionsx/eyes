@@ -1,5 +1,4 @@
 {"id": "/documentation/avfaudio/audio-engine", "sha": "c18d786788d9cc2f789cf09b50cbcc02e8c8a46771068c3b8f9df664668c719b", "t": "Audio Engine", "n": 1867, "laws": 0, "ts": "2026-07-24 19:00 UTC"}
-{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "sha": "99901277578b98716978f7ed60ac31dcf21171693e05ce1037f7e25886b26fdf", "t": "Presenting Content Proposals in tvOS", "n": 3606, "laws": 6, "ts": "2026-07-24 19:08 UTC"}
 {"id": "/documentation/CoreGraphics/CGPath", "sha": "6d4c52a7db05110e50b373ea6b9e7ddb4119fccf68f33983fe5826fb84c3f734", "t": "CGPath", "n": 1731, "laws": 0, "ts": "2026-07-25 04:20 UTC"}
 {"id": "/documentation/callkit/cxproviderconfiguration", "sha": "330a0b39de27c0467b928efaa76a08289e9c427d9f12f5feac0d7436f56748af", "t": "CXProviderConfiguration", "n": 817, "laws": 1, "ts": "2026-07-25 18:15 UTC"}
 {"id": "/documentation/corebluetooth/cbcentralmanager/supports(_:)", "sha": "7433215c793b2d625dfec523dd9363041505646a9fa06d35336ff0fddfd0dc44", "t": "supports(_:)", "n": 88, "laws": 0, "ts": "2026-07-25 18:18 UTC"}
@@ -58,7 +57,6 @@
 {"id": "/documentation/callkit/cxprovider/reportcall(with:endedat:reason:)", "sha": "5d59a8bfa0f0a049efe127fe7ea3eb0e34fc683e8061fcbc19a9e17a84ad7ff3", "t": "reportCall(with:endedAt:reason:)", "n": 112, "laws": 0, "ts": "2026-07-29 06:02 UTC"}
 {"id": "/documentation/carplay/cplisttemplateitem", "sha": "27ebf7d730435d463d02a817c083e62e391f851b326a293f99e33e81593f0f1f", "t": "CPListTemplateItem", "n": 278, "laws": 2, "ts": "2026-07-29 06:04 UTC"}
 {"id": "/documentation/intents/inmediaitemtype/tvshow", "sha": "4f8c1214eebb2f86dd4269bf6954dd889412fdd2b07af75cca0d8bc4a2f0e7f3", "t": "INMediaItemType.tvShow", "n": 48, "laws": 0, "ts": "2026-07-29 06:05 UTC"}
-{"id": "/documentation/scenekit/scenekit-constants", "sha": "2fa99918b84896e6972669c0b69956eac3ec5d11d75fa036c83a46e7b048f074", "t": "SceneKit Constants", "n": 99, "laws": 0, "ts": "2026-07-30 05:31 UTC"}
 {"id": "/documentation/watchkit/wkinterfacedevice/isbatterymonitoringenabled", "sha": "8346c84f3adf4ee9f7bd6d5fe427cf7cd7327e1cf99d1372e519fbc48a3746ce", "t": "isBatteryMonitoringEnabled", "n": 217, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
 {"id": "/documentation/watchkit/wkinterfacedevice/layoutdirection", "sha": "f9400d045557609fc2dbc4441d119ed44c910c7bbf023ff8fee8d2f8bd4a6a94", "t": "layoutDirection", "n": 94, "laws": 0, "ts": "2026-07-30 18:47 UTC"}
 {"id": "/documentation/scenekit/scnaction", "sha": "c27391ad3a09b18f9a680321a4c04a21e08b033bbaf64e5eedf06b50ed878038", "t": "SCNAction", "n": 4128, "laws": 1, "ts": "2026-07-30 18:50 UTC"}
@@ -149,3 +147,16 @@
 {"id": "/documentation/swiftui/tabsearchactivation/automatic", "sha": "6b3bbfb095d626c12423124bed35141ece391b20034cfcbbe5308912266169a4", "sieve": 2, "t": "automatic", "n": 178, "laws": 0, "ts": "2026-08-04 05:48 UTC"}
 {"id": "/documentation/SwiftUI/View/padding(_:_:)", "sha": "a1311a0f09717394678a693843b0870ca79111622e5f3f1cf88e7f4006c76cc9", "sieve": 2, "t": "padding(_:_:)", "n": 1068, "laws": 3, "ts": "2026-08-04 05:52 UTC"}
 {"id": "/documentation/swiftui/toggle/init(_:ison:)-2qurm", "sha": "3dc758dbe0c26b37f366882915fcbedaa3e21eb12eb59a6c74ad1a2e38fe2dfb", "sieve": 2, "t": "init(_:isOn:)", "n": 169, "laws": 0, "ts": "2026-08-04 06:02 UTC"}
+{"id": "/documentation/Metal/MTLCommandQueue", "sha": "a01d89cfc6f948490e1761a3a4541c4d4567e1723db04dc1a3197e97e4c0bb4c", "sieve": 2, "t": "MTLCommandQueue", "n": 1280, "laws": 0, "ts": "2026-08-05 05:35 UTC"}
+{"id": "/documentation/Metal/MTLRenderPassAttachmentDescriptor/loadAction", "sha": "0fb71a68f72ec19c44c3fa6600e3cbd90fda374fdf53adab555df12b2db85c3f", "sieve": 2, "t": "loadAction", "n": 648, "laws": 0, "ts": "2026-08-05 05:36 UTC"}
+{"id": "/documentation/avkit/presenting-content-proposals-in-tvos", "sha": "99901277578b98716978f7ed60ac31dcf21171693e05ce1037f7e25886b26fdf", "sieve": 2, "t": "Presenting Content Proposals in tvOS", "n": 3606, "laws": 1, "ts": "2026-08-05 05:39 UTC"}
+{"id": "/documentation/realitykit/photogrammetrysample/id", "sha": "40b99bc8cc0032de871e947fc99d0d8e857b04bd4625a96e06b60aee4126f9a0", "sieve": 2, "t": "id", "n": 77, "laws": 0, "ts": "2026-08-05 05:42 UTC"}
+{"id": "/documentation/RealityKit/QueryPredicate", "sha": "f4ba8ce19cdc8cc612c42983c7f2d7afbc10c09fcc59e52142dfe70ef28620b9", "sieve": 2, "t": "QueryPredicate", "n": 1006, "laws": 1, "ts": "2026-08-05 05:43 UTC"}
+{"id": "/documentation/security/cssm_context-c.struct", "sha": "7ef24f1115af82999c30f694d87f2ed1427378745ff120f2432da944064dbe53", "sieve": 2, "t": "cssm_context", "n": 156, "laws": 0, "ts": "2026-08-05 05:45 UTC"}
+{"id": "/documentation/security/cssm_field-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_FIELD", "n": 0, "laws": 0, "ts": "2026-08-05 05:46 UTC"}
+{"id": "/documentation/security/cssm_query-c.struct", "sha": "fed883d81111fafe3862f0557e4f2c0bacc6777a5cbd8800ac9f7ee5c04fd2fa", "sieve": 2, "t": "cssm_query", "n": 116, "laws": 0, "ts": "2026-08-05 05:47 UTC"}
+{"id": "/documentation/messages/msmessageserrordomain", "sha": "9148b4332fbf665546b8b7450e11aac8507832b6d1481737003f8b8323a5cfc6", "sieve": 2, "t": "MSMessagesErrorDomain", "n": 35, "laws": 0, "ts": "2026-08-05 05:52 UTC"}
+{"id": "/documentation/scenekit/scenekit-constants", "sha": "2fa99918b84896e6972669c0b69956eac3ec5d11d75fa036c83a46e7b048f074", "sieve": 2, "t": "SceneKit Constants", "n": 99, "laws": 0, "ts": "2026-08-05 05:53 UTC"}
+{"id": "/documentation/mapkit/mkgradientpolylinerenderer/locations-7k6qz", "sha": "6d4fb1a7fa2bdbfe5882e87513313e08cfedd388fd8b7469779381554ba72037", "sieve": 2, "t": "locations", "n": 72, "laws": 0, "ts": "2026-08-05 05:56 UTC"}
+{"id": "/documentation/AppKit/NSSegmentedControl", "sha": "a53fb212e30c47b96b78fa8d89dd43d70840c677b5f34c5938ce0dea5ceaa3bd", "sieve": 2, "t": "NSSegmentedControl", "n": 2707, "laws": 1, "ts": "2026-08-05 05:58 UTC"}
+{"id": "/documentation/AppKit/NSCursor/operationNotAllowed", "sha": "559d06680af925d8396415765e0a1b2f473c0ffa013fb4ea3788701e701c9ebc", "sieve": 2, "t": "operationNotAllowed", "n": 249, "laws": 0, "ts": "2026-08-05 06:02 UTC"}

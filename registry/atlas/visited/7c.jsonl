@@ -139,3 +139,7 @@
 {"id": "/documentation/uikit/uifontdescriptor/matrix", "sha": "2237c3b27e47ca9b5dc48848c97aa114e443020a789bb02858eb2016f118818b", "sieve": 2, "t": "matrix", "n": 52, "laws": 0, "ts": "2026-08-03 19:17 UTC"}
 {"id": "/documentation/uikit/uicolor/orange", "sha": "ee7a371bb179adaa4f03ee24d237d11e068afb85cba998930c8bc14ef612edc9", "sieve": 2, "t": "orange", "n": 67, "laws": 0, "ts": "2026-08-03 19:23 UTC"}
 {"id": "/documentation/uikit/nstextselectiondatasource/documentrange", "sha": "0d3fe7742cd5eda58ca1e5fdc039467a1ff538c44e5ff386f49dbb7b5771c4d2", "sieve": 2, "t": "documentRange", "n": 59, "laws": 0, "ts": "2026-08-03 19:26 UTC"}
+{"id": "/documentation/Metal/MTLPixelFormat/rgba32Float", "sha": "8157532a456edc84c5c08c3642cfebcadab9125ea97108498ee679da1947c626", "sieve": 2, "t": "MTLPixelFormat.rgba32Float", "n": 73, "laws": 0, "ts": "2026-08-05 05:35 UTC"}
+{"id": "/documentation/os/oslogintegerformatting/hex", "sha": "73ba7b811c9658ad2895ad0cb934fce6a58e7b8d4fd3985a79649d48d6732d8c", "sieve": 2, "t": "hex", "n": 39, "laws": 0, "ts": "2026-08-05 05:37 UTC"}
+{"id": "/documentation/security/cssm_db_parsing_module_info-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_DB_PARSING_MODULE_INFO", "n": 0, "laws": 0, "ts": "2026-08-05 05:46 UTC"}
+{"id": "/documentation/AppKit/NSCategoryDocumentAttribute", "sha": "974c206ac7b5ddbfa0fedd23103f7bf8ecb5a6e230e36ae2db2e4526137179a9", "sieve": 2, "t": "NSCategoryDocumentAttribute", "n": 115, "laws": 0, "ts": "2026-08-05 06:00 UTC"}

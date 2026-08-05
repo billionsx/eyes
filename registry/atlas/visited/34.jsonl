@@ -153,3 +153,5 @@
 {"id": "/documentation/swiftui/primitivebuttonstyleconfiguration/role", "sha": "ca06436604a9c83b3421f6233ed76dcfa500e655c2fbf3a33d7e443b43cac123", "sieve": 2, "t": "role", "n": 429, "laws": 1, "ts": "2026-08-04 05:51 UTC"}
 {"id": "/documentation/swiftui/view/chartscrollposition(y:)", "sha": "ae9d10d094d92a1b31879e77774485bea89c105327cd10349e8facd6c02f058f", "sieve": 2, "t": "chartScrollPosition(y:)", "n": 75, "laws": 0, "ts": "2026-08-04 05:58 UTC"}
 {"id": "/documentation/swiftui/graphicscontext/blendmode-swift.struct/clear", "sha": "657e73a383b0c7b98d9f67411462326c4115943d5d601439de46447ecfa8a391", "sieve": 2, "t": "clear", "n": 202, "laws": 0, "ts": "2026-08-04 06:02 UTC"}
+{"id": "/documentation/tipkit/tip/statusupdates", "sha": "9d3fd7b0771a951aa11370f9eaebb6950eda29d7b5d8219c542283a79165a743", "sieve": 2, "t": "statusUpdates", "n": 63, "laws": 0, "ts": "2026-08-05 05:41 UTC"}
+{"id": "/documentation/security/cssm_krsubservice-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_KRSUBSERVICE", "n": 0, "laws": 0, "ts": "2026-08-05 05:47 UTC"}

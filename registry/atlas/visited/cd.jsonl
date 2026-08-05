@@ -188,3 +188,5 @@
 {"id": "/documentation/swiftui/controlgroupstyle/compactmenu", "sha": "d47beb30f9ed957a36e40490e1440c0288a0a05e5f76a47ca817f9b9e81b6ef5", "sieve": 2, "t": "compactMenu", "n": 265, "laws": 1, "ts": "2026-08-04 05:49 UTC"}
 {"id": "/documentation/swiftui/edge/set/all", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "all", "n": 0, "laws": 0, "ts": "2026-08-04 05:51 UTC"}
 {"id": "/documentation/swiftui/shapeview/fill(_:style:)", "sha": "ac4f434ce882a2aff5bfd54cf39c55ad19b262edf755dea9d855a50a9c014d68", "sieve": 2, "t": "fill(_:style:)", "n": 112, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
+{"id": "/documentation/RealityKit/Material", "sha": "9de15f6163f788cb44a16950e31bf80d287ee8aa64f3cebee3326e1da014b1aa", "sieve": 2, "t": "Material", "n": 930, "laws": 0, "ts": "2026-08-05 05:42 UTC"}
+{"id": "/documentation/messages/msmessagesappviewcontroller/didbecomeactive(with:)", "sha": "89c0c627db6c0fcbbf15dc714dd9a2934c64a0442857d6378c8167831a5bdd96", "sieve": 2, "t": "didBecomeActive(with:)", "n": 350, "laws": 0, "ts": "2026-08-05 05:52 UTC"}

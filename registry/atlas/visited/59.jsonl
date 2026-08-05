@@ -156,3 +156,7 @@
 {"id": "/documentation/swiftui/navigationcontrolgroupstyle", "sha": "c66d7edba18c142a26e64091efc0dd327a52125ec025021381c28db6d1baba91", "sieve": 2, "t": "NavigationControlGroupStyle", "n": 133, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
 {"id": "/documentation/swiftui/fillshapeview/shape", "sha": "24c2fcdf15512fd2faff833959e1726b589b29586fa703a941515cc06b5df3b5", "sieve": 2, "t": "shape", "n": 73, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
 {"id": "/documentation/swiftui/scene/onchange(of:initial:_:)-7b6vh", "sha": "a15fe93082a16943c7fd5f7702709fc6315a184a8722c5e962179a8617657624", "sieve": 2, "t": "onChange(of:initial:_:)", "n": 692, "laws": 0, "ts": "2026-08-04 06:01 UTC"}
+{"id": "/documentation/security/cssm_net_address-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_NET_ADDRESS", "n": 0, "laws": 0, "ts": "2026-08-05 05:47 UTC"}
+{"id": "/documentation/StoreKit/PurchaseAction", "sha": "954cea05da934f8c6b3ea5245c510ae98672d9a41abd5bdbf6bf9f61c6a42edf", "sieve": 2, "t": "PurchaseAction", "n": 1545, "laws": 0, "ts": "2026-08-05 05:51 UTC"}
+{"id": "/documentation/MapKit/MKAnnotationView/accessoryOffset", "sha": "82ce9efea25b26aae63e88e16b84995aa4e8fc31357284bafd35431705f7fd3c", "sieve": 2, "t": "accessoryOffset", "n": 60, "laws": 0, "ts": "2026-08-05 05:56 UTC"}
+{"id": "/documentation/AppKit/NSLayoutAnchor/hasAmbiguousLayout", "sha": "b96d94585053ab51d90c7dc8f49fda9b577ddcb375871267076fdc5517dea029", "sieve": 2, "t": "hasAmbiguousLayout", "n": 105, "laws": 0, "ts": "2026-08-05 06:02 UTC"}

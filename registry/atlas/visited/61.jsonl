@@ -152,3 +152,4 @@
 {"id": "/documentation/swiftui/scrollposition/scrollto(x:)", "sha": "6080afd6fd819c9803c5fb838ccd35756170eedd7f3c868d742b937e96987576", "sieve": 2, "t": "scrollTo(x:)", "n": 240, "laws": 0, "ts": "2026-08-04 05:55 UTC"}
 {"id": "/documentation/swiftui/view/chartgesture(_:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "chartGesture(_:)", "n": 0, "laws": 0, "ts": "2026-08-04 05:58 UTC"}
 {"id": "/documentation/swiftui/view/chartzscale(domain:type:)", "sha": "497ced5132052b07c5459b543171df4f3e1276185b006c101a1506bb0ea5f02b", "sieve": 2, "t": "chartZScale(domain:type:)", "n": 37, "laws": 0, "ts": "2026-08-04 05:59 UTC"}
+{"id": "/documentation/metal/mtlioerror-swift.struct", "sha": "da4353616e59f5dfde9fdec9bf0d66c16f7c3949c2aee74b156e2afa67ffb42f", "sieve": 2, "t": "MTLIOError", "n": 167, "laws": 0, "ts": "2026-08-05 05:34 UTC"}

@@ -2395,3 +2395,123 @@
 {"id": "/documentation/appkit/nsvisualeffectview/state-swift.enum", "law": "Constants to specify how the material appearance should reflect window activity state."}
 {"id": "/documentation/appkit/nsgesturerecognizer/state-swift.property", "law": "The default declaration of this property is read-only so that external clients (such as other gesture recognizers) can use the value for informational purposes."}
 {"id": "/documentation/appkit/nsevent/buttonmask-swift.property", "law": "Use one or more of the button-mask constants described in to determine which of the pointing device’s buttons are pressed."}
+{"id": "/documentation/AppKit/adopting-the-system-text-cursor-in-custom-text-views", "law": "Set the display mode to always show the text cursor and disable animations."}
+{"id": "/documentation/AppKit/adopting-the-system-text-cursor-in-custom-text-views", "law": "When you use the automatic display mode, you can further customize the animation options depending on the needs of your app."}
+{"id": "/documentation/AppKit/NSWindow/CollectionBehavior-swift.struct", "law": "Use them to specify a preference on how windows behave in window management technologies like Mission Control, Spaces, and Stage Manager."}
+{"id": "/documentation/AppKit/NSScreen/maximumExtendedDynamicRangeColorComponentValue", "law": "The current maximum color component value for the screen."}
+{"id": "/documentation/AppKit/NSAppearanceCustomization/effectiveAppearance", "law": "You can use this property to ensure that an offscreen view sets the appropriate current appearance when it draws onscreen."}
+{"id": "/documentation/AppKit/NSScreen/maximumReferenceExtendedDynamicRangeColorComponentValue", "law": "The current maximum color component value for reference rendering to the screen."}
+{"id": "/documentation/AppKit/NSUserInterfaceCompression", "law": "A protocol that describes how a UI control should redisplay when space is restricted."}
+{"id": "/documentation/AppKit/NSUserInterfaceValidations", "law": "The protocol works with the protocol to allow the target of a user interface element such as a menu item or a toolbar item to decide whether or not the user interface element should be enabled."}
+{"id": "/documentation/AppKit/NSSegmentedControl", "law": "The methods of that do not have covers relate to accessing and setting values for tags and tooltips, programatically setting the key segment, and establishing the mode of the control."}
+{"id": "/documentation/AppKit/NSSplitViewController", "law": "To use a split view controller, you must use Auto Layout for the child views and to support animations that collapse and reveal child views."}
+{"id": "/documentation/AppKit/NSToolbarItem/isHidden", "law": "Use this property to show a toolbar item in one toolbar instance but not another."}
+{"id": "/documentation/AppKit/NSApplication/effectiveAppearance", "law": "This property always contains an object representing the appearance to use during drawing."}
+{"id": "/documentation/AppKit/NSApplication/effectiveAppearance", "law": "If you don’t explicitly assign a value to the property, the app inherits the system’s effective appearance."}
+{"id": "/documentation/AppKit/NSColor/labelColor", "law": "Use this color in the most important text labels of your user interface."}
+{"id": "/documentation/AppKit/NSColor/labelColor", "law": "The primary color to use for text labels."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "The appearance and behavior of materials can also change based on system settings, so always pick a material based on its intended use."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "For example, use the material when your view serves as the background of your window’s sidebar."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "Don’t select materials based on the apparent colors they impart on your interface."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "Sheets and popovers use behind-window blending."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "Toolbars always use in-window blending."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "For custom views, you must explicitly enable vibrancy by overriding the property and returning ."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "Don’t change the vibrancy settings of standard AppKit views and controls."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "It is recommended that you enable vibrancy only in the leaf views of your view hierarchy."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "The same isn’t always true when blending two different color values."}
+{"id": "/documentation/AppKit/NSVisualEffectView", "law": "Dramatically different foreground and background hues can cancel each other out or result in colors that don’t match your original designs."}
+{"id": "/documentation/AppKit/NSMenuToolbarItem", "law": "If you don’t set an action on the , a simple click invokes the menu, and the indicator is purely decorative."}
+{"id": "/documentation/AppKit/NSToolbarItem", "law": "You can display your toolbar item’s content using a custom view if you prefer, rather than an image and text label."}
+{"id": "/documentation/AppKit/NSTrackingSeparatorToolbarItem", "law": "The must be in the same window as the toolbar containing this item before showing the toolbar."}
+{"id": "/documentation/AppKit/NSImage/SymbolScale", "law": "Constants that specify which scale variant of a symbol image to use."}
+{"id": "/documentation/AppKit/NSImage/alignmentRect", "law": "For example, if you have a 20 x 20 pixel icon that includes a glow effect, you might set the alignment rectangle to to indicate the position of the underlying icon without the glow effect."}
+{"id": "/documentation/AppKit/NSImage/alignmentRect", "law": "Alignment rectangles specify baselines that you can use to position the content of an image more accurately."}
+{"id": "/documentation/AppKit/NSImage/alignmentRect", "law": "A rectangle that you can use to position the image during layout."}
+{"id": "/documentation/AppKit/NSImageView/symbolConfiguration", "law": "Specifies a combination of point size, weight, and scale to use when sizing and displaying symbol images."}
+{"id": "/documentation/AppKit/NSFont", "law": "Instead, you use either or to look up an available font and alter its size or matrix to your needs."}
+{"id": "/documentation/AppKit/NSFont/TextStyle", "law": "Constants that specify the preferred text styles you use with fonts."}
+{"id": "/documentation/AppKit/NSGlassEffectContainerView", "law": "Using a glass effect container view can improve performance by reducing the number of passes required to render similar glass effect views."}
+{"id": "/documentation/AppKit/NSScrollView", "law": "When using an object within a scroll view (the usual configuration), you should issue messages that control background drawing state to the scroll view directly, rather than messaging the clip view."}
+{"id": "/documentation/AppKit/NSTableView", "law": "This property affects the visual appearance of the table view differently depending on whether you use a view- or a cell-based table view."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "In that situation, you can use your action method to perform appropriate tasks, such as creating animations for any mouse-related movements, in addition to handling the final results of the gesture recognition process."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "A gesture recognizer has only one action method and one target object, and the method must conform to one of the following signatures: When your code needs additional information about the particulars of a gesture, define your action method to include the gesture recognizer parameter."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "You almost always want the gesture recognizer object when handling continuous gestures."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "For example, for a rotation gesture, you would use the gesture recognizer object to get the updated rotation value."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "You can also use the gesture recognizer object to get the location of where the gesture occurred."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "You can use these calls to update the state of your app or update any custom animations."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "All gesture recognizers must update the value in the state property at appropriate times."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "Specifically, you must update it for all state transitions."}
+{"id": "/documentation/AppKit/NSGestureRecognizer", "law": "For example, you can use the delegate to create dependencies between specific gesture recognizer objects."}
+{"id": "/documentation/AppKit/NSColor/alternateSelectedControlTextColor", "law": "The color to use for text in a selected control."}
+{"id": "/documentation/AppKit/NSColor/alternatingContentBackgroundColors", "law": "The colors to use for alternating content, typically found in table views and collection views."}
+{"id": "/documentation/AppKit/NSColor/controlAccentColor", "law": "Don’t make assumptions about the color space associated with this color."}
+{"id": "/documentation/AppKit/NSColor/controlBackgroundColor", "law": "Do not use this color for drawing."}
+{"id": "/documentation/AppKit/NSColor/controlBackgroundColor", "law": "Instead, use an with the appropriate background material."}
+{"id": "/documentation/AppKit/NSColor/controlBackgroundColor", "law": "The color to use for the background of large controls, such as scroll views or table views."}
+{"id": "/documentation/AppKit/NSColor/controlColor", "law": "If you use assuming that it is a solid, you may have an incorrect appearance."}
+{"id": "/documentation/AppKit/NSColor/controlColor", "law": "The color to use for the flat surfaces of a control."}
+{"id": "/documentation/AppKit/NSColor/controlTextColor", "law": "The color to use for text on enabled controls."}
+{"id": "/documentation/AppKit/NSColor/disabledControlTextColor", "law": "The color to use for text on disabled controls."}
+{"id": "/documentation/AppKit/NSColor/findHighlightColor", "law": "The highlight color to use for the bubble that shows inline search result values."}
+{"id": "/documentation/AppKit/NSColor/gridColor", "law": "The color to use for the optional gridlines, such as those in a table view."}
+{"id": "/documentation/AppKit/NSColor/headerTextColor", "law": "The color to use for text in header cells in table views and outline views."}
+{"id": "/documentation/AppKit/NSColor/highlightColor", "law": "The color to use as a virtual light source on the screen."}
+{"id": "/documentation/AppKit/NSColor/keyboardFocusIndicatorColor", "law": "The color to use for the keyboard focus ring around controls."}
+{"id": "/documentation/AppKit/NSColor/linkColor", "law": "The color to use for links."}
+{"id": "/documentation/AppKit/NSColor/placeholderTextColor", "law": "The color to use for placeholder text in controls or text views."}
+{"id": "/documentation/AppKit/NSColor/quaternaryLabelColor", "law": "Use this color for the least important text in your interface and for separators between text items."}
+{"id": "/documentation/AppKit/NSColor/quaternaryLabelColor", "law": "For example, you would use this color for secondary text that is disabled."}
+{"id": "/documentation/AppKit/NSColor/quaternaryLabelColor", "law": "The quaternary color to use for text labels and separators."}
+{"id": "/documentation/AppKit/NSColor/secondaryLabelColor", "law": "Use this color in text fields that contain less important text in your user interface."}
+{"id": "/documentation/AppKit/NSColor/secondaryLabelColor", "law": "The secondary color to use for text labels."}
+{"id": "/documentation/AppKit/NSColor/selectedContentBackgroundColor", "law": "The color to use for the background of selected and emphasized content."}
+{"id": "/documentation/AppKit/NSColor/selectedControlColor", "law": "The color to use for the face of a selected control—that is, a control that has been clicked or is being dragged."}
+{"id": "/documentation/AppKit/NSColor/selectedControlTextColor", "law": "The color to use for text in a selected control—that is, a control being clicked or dragged."}
+{"id": "/documentation/AppKit/NSColor/selectedMenuItemTextColor", "law": "The color to use for the text in menu items."}
+{"id": "/documentation/AppKit/NSColor/selectedTextBackgroundColor", "law": "The color to use for the background of selected text."}
+{"id": "/documentation/AppKit/NSColor/selectedTextColor", "law": "The color to use for selected text."}
+{"id": "/documentation/AppKit/NSColor/separatorColor", "law": "Do not use this color for split view dividers or window chrome dividers."}
+{"id": "/documentation/AppKit/NSColor/separatorColor", "law": "The color to use for separators between different sections of content."}
+{"id": "/documentation/AppKit/NSColor/shadowColor", "law": "The color to use for virtual shadows cast by raised objects on the screen."}
+{"id": "/documentation/AppKit/NSColor/tertiaryLabelColor", "law": "Use this color for disabled text and for other less important text in your interface."}
+{"id": "/documentation/AppKit/NSColor/tertiaryLabelColor", "law": "The tertiary color to use for text labels."}
+{"id": "/documentation/AppKit/NSColor/textBackgroundColor", "law": "The color to use for the background area behind text."}
+{"id": "/documentation/AppKit/NSColor/textColor", "law": "The color to use for text."}
+{"id": "/documentation/AppKit/NSColor/underPageBackgroundColor", "law": "Use this color to fill the backdrop underneath your app’s main content."}
+{"id": "/documentation/AppKit/NSColor/underPageBackgroundColor", "law": "The color to use in the area beneath your window’s views."}
+{"id": "/documentation/AppKit/NSColor/unemphasizedSelectedContentBackgroundColor", "law": "Use this color when the window containing the content is not key, or when the view containing the content does not have key focus."}
+{"id": "/documentation/AppKit/NSColor/unemphasizedSelectedContentBackgroundColor", "law": "The color to use for selected and unemphasized content."}
+{"id": "/documentation/AppKit/NSColor/unemphasizedSelectedTextBackgroundColor", "law": "Use this color when the window containing the text is not key, or when the view containing the text does not have key focus."}
+{"id": "/documentation/AppKit/NSColor/unemphasizedSelectedTextBackgroundColor", "law": "The color to use for the text background in an unemphasized context."}
+{"id": "/documentation/AppKit/NSColor/unemphasizedSelectedTextColor", "law": "Use this color when the window containing the text is not key, or when the view containing the text does not have key focus."}
+{"id": "/documentation/AppKit/NSColor/unemphasizedSelectedTextColor", "law": "The color to use for selected text in an unemphasized context."}
+{"id": "/documentation/AppKit/NSColor/windowBackgroundColor", "law": "The color to use for the window background."}
+{"id": "/documentation/AppKit/NSColor/windowFrameTextColor", "law": "The color to use for text in a window’s frame."}
+{"id": "/documentation/AppKit/NSLayoutGuide", "law": "Use layout guides to replace the placeholder views you may have created to represent inter-view spaces or encapsulation in your user interface."}
+{"id": "/documentation/AppKit/NSLayoutGuide", "law": "Traditionally, there were a number of Auto Layout techniques that required placeholder views."}
+{"id": "/documentation/AppKit/NSLayoutGuide", "law": "You can use these guides to define the space between elements in your layout."}
+{"id": "/documentation/AppKit/NSLayoutGuide", "law": "The following example shows how to use layout guides to define an equal spacing between a series of views."}
+{"id": "/documentation/AppKit/NSLayoutGuide", "law": "Layout constraints do not fully encapsulate their contents."}
+{"id": "/documentation/AppKit/NSApplication/isFullKeyboardAccessEnabled", "law": "You might use this value to implement your own key loop or to implement in-control tabbing behavior similar to ."}
+{"id": "/documentation/AppKit/NSAccessibility-c.protocol/accessibilityElement", "law": "Use this property to expose this object to accessibility clients as a functional interface element."}
+{"id": "/documentation/AppKit/NSAccessibility-c.protocol/accessibilityElement", "law": "They should only be told that there’s a button in a window."}
+{"id": "/documentation/AppKit/NSStatusBar", "law": "Use status items sparingly and only if the alternatives (such as a Dock menu, preference pane, or status window) are not suitable."}
+{"id": "/documentation/AppKit/NSStatusBar", "law": "For this reason, do not rely on them being available and always provide a user preference for hiding your application’s status items to free up space in the menu bar."}
+{"id": "/documentation/AppKit/NSButton/BezelStyle-swift.enum/flexiblePush", "law": "Use this style of button when you need to accommodate tall or variable height content."}
+{"id": "/documentation/AppKit/NSButton/BezelStyle-swift.enum/smallSquare", "law": "Prefer using a symbol in a gradient button."}
+{"id": "/documentation/AppKit/NSButton/BezelStyle-swift.enum/smallSquare", "law": "Avoid using labels to introduce gradient buttons."}
+{"id": "/documentation/AppKit/NSButton/BezelStyle-swift.enum/pushDisclosure", "law": "Use this style of button when you want your button to look like a disclosure button, commonly seen in toolbars on macOS."}
+{"id": "/documentation/AppKit/NSBox", "law": "Use an object to configure the appearance of the box."}
+{"id": "/documentation/AppKit/NSBox", "law": "You must override the method (inherited from ) if you want to customize the appearance of your objects."}
+{"id": "/documentation/AppKit/NSCollectionView", "law": "AppKit defines layout objects that you can use as-is, but you can also define custom layouts by subclassing ."}
+{"id": "/documentation/AppKit/NSCollectionView", "law": "There are other helper classes and protocols that you can use to customize the layout behavior and other aspects of the collection view interface."}
+{"id": "/documentation/AppKit/NSCollectionView", "law": "Every data source object is required to implement the following methods: The class defines the visual appearance of items in the collection view."}
+{"id": "/documentation/AppKit/NSCollectionView", "law": "Your data source must know enough about the layout to know which supplementary views are supported by the layout object and how those views are displayed."}
+{"id": "/documentation/AppKit/NSCollectionView", "law": "Because individual methods for inserting, deleting, and moving content animate their changes right away, you must use the method when you want to animate multiple changes together."}
+{"id": "/documentation/AppKit/NSOutlineView", "law": "In order for the collapsed state to remain consistent between reloads the item’s pointer must remain the same and the item must maintain sameness."}
+{"id": "/documentation/AppKit/NSAlert", "law": "The methods of the class allow you to specify alert level, alert text, button titles, and a custom icon should you require it."}
+{"id": "/documentation/AppKit/NSAlert", "law": "To display an alert as a sheet, call the method; to display one as an app-modal dialog, use the method."}
+{"id": "/documentation/AppKit/NSAlert", "law": "You should create an object for each alert dialog, creating it only when you need to display an alert, and release it when you are done."}
+{"id": "/documentation/AppKit/NSAlert", "law": "Unless you must maintain compatibility with existing alert-processing code that uses the function-based API, you should allocate ( ) and initialize ( ) the alert object, and then set its attributes using the appropriate methods of the class."}
+{"id": "/documentation/AppKit/NSColorWell", "law": "For example, a drawing app might include a color well to let someone choose the color to use when drawing."}
+{"id": "/documentation/AppKit/NSLevelIndicator", "law": "Unlike sliders, level indicators do not have a “knob” indicating the current setting, and they do not allow the user to adjust the current setting."}

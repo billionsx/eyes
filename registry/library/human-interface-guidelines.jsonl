@@ -1020,3 +1020,27 @@
 {"id": "/design/Human-Interface-Guidelines/materials", "law": "Use standard materials and effects — such as , , and — to convey a sense of structure in the content beneath Liquid Glass."}
 {"id": "/design/Human-Interface-Guidelines/materials", "law": "Choose materials and effects based on semantic meaning and recommended usage."}
 {"id": "/design/Human-Interface-Guidelines/inputs", "law": "Learn about the various methods people use to control your app or game and enter data."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "When you use resizable vectorized shapes, you might want to position control points at whole values so that they’re cleanly aligned at 1x."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "Color profiles help ensure that your app’s colors appear as intended on different displays."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "If you use standard views and system-provided focus APIs — such as — layered images automatically get the parallax treatment when people bring them into focus."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "Using varying levels of opacity to let content shine through higher layers is fine, but your background layer must be opaque — you’ll get an error if it’s not."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "To ensure your layered images look great on Apple TV, preview them throughout your design process using Xcode, the Parallax Previewer app for macOS, or the Parallax Exporter plug-in for Adobe Photoshop."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "If you use Core Animation layers, see for developer guidance."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "Prefer the feathered glass background effect to display text over spatial photos."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "If you need to place text over a spatial photo in your app or game, use the feathered glass background effect."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "If you must display stereoscopic images inline, provide generous spacing between the image and any inline content to help people’s eyes adjust to the depth changes."}
+{"id": "/design/Human-Interface-Guidelines/images", "law": "If you always composite an image on the same solid background color, it’s more efficient to include the background in the image."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "Although the precise movements that make up basic gestures can vary per platform and input device, people are familiar with the underlying functionality of these gestures and expect to use them everywhere."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "People commonly prefer or need to use other inputs — such as their voice, keyboard, or Switch Control — to interact with their devices."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "Don’t assume that people can use a specific gesture to perform a given task."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "Avoid using a familiar gesture like tap or swipe to perform an action that’s unique to your app; similarly, avoid creating a unique gesture to perform a standard action like activating a button or scrolling a long view."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "As people perform a gesture in your app, provide feedback that helps them predict its results and, if necessary, communicates the extent and type of movement required to complete the action."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "If you don’t clearly communicate why a gesture doesn’t work, people might think your app has frozen or they aren’t performing the gesture correctly, leading to frustration."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "If you decide to implement a custom gesture, make sure it’s: Discoverable Straightforward to perform Distinct from other gestures Not the only way to perform an important action in your app or game Make custom gestures easy to learn."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "Offer moments in your app to help people quickly learn and perform custom gestures, and make sure to test your interactions in real use scenarios."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "If you’re finding it difficult to use simple language and graphics to describe a gesture, it may mean people will find the gesture difficult to learn and perform."}
+{"id": "/design/Human-Interface-Guidelines/gestures", "law": "Use shortcut gestures to supplement standard gestures, not replace them."}
+{"id": "/design/Human-Interface-Guidelines/lists-and-tables", "law": "Use an info button only to reveal more information about a row’s content."}
+{"id": "/design/Human-Interface-Guidelines/lists-and-tables", "law": "If you need to let people drill into a list or table row’s subviews, use a disclosure indicator accessory control."}
+{"id": "/design/Human-Interface-Guidelines/lists-and-tables", "law": "Avoid adding an index to a table that displays controls — like disclosure indicators — in the trailing ends of its rows."}
+{"id": "/design/Human-Interface-Guidelines/lists-and-tables", "law": "Account for this effect as you prepare images, and don’t add your own masks to round the corners."}

@@ -164,3 +164,7 @@
 {"id": "/documentation/uikit/uitextchecker/learnword(_:)", "sha": "71507eee8275ec08194354e5db7371fca001c73e8679b1ca83a3059bf326fc72", "sieve": 2, "t": "learnWord(_:)", "n": 201, "laws": 0, "ts": "2026-08-03 19:18 UTC"}
 {"id": "/documentation/uikit/uitextrange/start", "sha": "0d6e6c3839d8004000dd0b713368eb245b956996a120e9e5d4c69ce5d59530de", "sieve": 2, "t": "start", "n": 147, "laws": 0, "ts": "2026-08-03 19:18 UTC"}
 {"id": "/documentation/uikit/uitextselectionrect/transform", "sha": "adf33c04be74e7524a1470e5a124bedc0134cf2b027fe96d8773a02745cdc18d", "sieve": 2, "t": "transform", "n": 155, "laws": 0, "ts": "2026-08-03 19:18 UTC"}
+{"id": "/documentation/security/cssm_spi_ac_funcs-c.struct", "sha": "a1dff971bf3fa16b2aadfa8a0c3027942d26f0c851d02baa0a8aaf8deb5aa1bc", "sieve": 2, "t": "cssm_spi_ac_funcs", "n": 48, "laws": 0, "ts": "2026-08-05 05:48 UTC"}
+{"id": "/documentation/security/cssm_tp_certissue_input-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_TP_CERTISSUE_INPUT", "n": 0, "laws": 0, "ts": "2026-08-05 05:48 UTC"}
+{"id": "/documentation/CoreHaptics/CHHapticEvent", "sha": "be2e5ab60e01d0b2c6a44ccd37a7d2aa6894e7c25f95271364efea285c03f98c", "sieve": 2, "t": "CHHapticEvent", "n": 1472, "laws": 0, "ts": "2026-08-05 05:54 UTC"}
+{"id": "/documentation/networkextension/vpn-on-demand-rules", "sha": "06fe1300f4eecf7c2aa535b40763eb6cff747e8b905d746031472901a917ad03", "sieve": 2, "t": "VPN On Demand Rules", "n": 593, "laws": 0, "ts": "2026-08-05 05:54 UTC"}

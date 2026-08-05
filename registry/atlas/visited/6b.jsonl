@@ -173,3 +173,7 @@
 {"id": "/documentation/swiftui/datepickerstyle/wheel", "sha": "4a98892b26505148ac9b151c8934d9a7f2ad6df76e277fe4f6c235ef5cb055b6", "sieve": 2, "t": "wheel", "n": 82, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
 {"id": "/documentation/swiftui/nshostingmenu/copy(with:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "copy(with:)", "n": 0, "laws": 0, "ts": "2026-08-04 05:54 UTC"}
 {"id": "/documentation/swiftui/manipulable/operation", "sha": "7071b0a79e75ccd78be58ece2292302fd9dea5b062bbdb845fa87699bb86ca4d", "sieve": 2, "t": "Manipulable.Operation", "n": 192, "laws": 0, "ts": "2026-08-04 05:56 UTC"}
+{"id": "/documentation/Metal/MTLTextureType/type2D", "sha": "ed1683c138cb1ee32e2664e7283c6e7b9a4261ffaca8a7768dfe1e7203d9dee9", "sieve": 2, "t": "MTLTextureType.type2D", "n": 32, "laws": 0, "ts": "2026-08-05 05:35 UTC"}
+{"id": "/documentation/security/cssm_key-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_KEY", "n": 0, "laws": 0, "ts": "2026-08-05 05:46 UTC"}
+{"id": "/documentation/security/cssm_query_size_data-swift.struct", "sha": "a58de251cbe977642f19db37444a843a028cc2089885470d0779645c05475313", "sieve": 2, "t": "cssm_query_size_data", "n": 118, "laws": 0, "ts": "2026-08-05 05:47 UTC"}
+{"id": "/documentation/AppKit/NSControlGlyph", "sha": "3543bdb4664e213c1a9107ff844ce56041b6952c8c44750a5ec49864c8438119", "sieve": 2, "t": "NSControlGlyph", "n": 157, "laws": 0, "ts": "2026-08-05 06:02 UTC"}

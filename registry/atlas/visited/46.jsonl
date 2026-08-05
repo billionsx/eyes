@@ -170,3 +170,7 @@
 {"id": "/documentation/swiftui/squareazimuth/orientation", "sha": "f8ada0c4018096339b85d94d53f7389e24a959a4b7079e8ec112eed344e1d4bf", "sieve": 2, "t": "orientation", "n": 121, "laws": 0, "ts": "2026-08-04 05:46 UTC"}
 {"id": "/documentation/swiftui/manipulable/event", "sha": "a099df99bb08d0eb8949d4492c8b02e9a0218ac36b242ca063e988754d860603", "sieve": 2, "t": "Manipulable.Event", "n": 176, "laws": 0, "ts": "2026-08-04 05:56 UTC"}
 {"id": "/documentation/swiftui/view/chartxscale(domain:range:type:)", "sha": "8b458a660d6c7164d1349d6214308b5f3fed10b80a671a8bea10fc2a049171ed", "sieve": 2, "t": "chartXScale(domain:range:type:)", "n": 34, "laws": 0, "ts": "2026-08-04 05:59 UTC"}
+{"id": "/documentation/os/OSSignpostID", "sha": "679d5a6c8dda0733150c766fc58966fc99b40d3ae67b5b246abea5ffc8c8969f", "sieve": 2, "t": "OSSignpostID", "n": 1090, "laws": 0, "ts": "2026-08-05 05:36 UTC"}
+{"id": "/documentation/os/osallocatedunfairlock/unlock()", "sha": "cdbc62d5b9463d3c920beee1f28d573b1a5acb680e98c8ca1a48c689c0f2405d", "sieve": 2, "t": "unlock()", "n": 14, "laws": 0, "ts": "2026-08-05 05:37 UTC"}
+{"id": "/documentation/tipkit/tips/event/init(id:donationlimit:)-7tgi1", "sha": "5e8a7480480fb2796352b9a5290c561865a3fde09ca4fd721ca618a84bc405b3", "sieve": 2, "t": "init(id:donationLimit:)", "n": 526, "laws": 0, "ts": "2026-08-05 05:41 UTC"}
+{"id": "/documentation/metalfx/mtlfxtemporalscalerdescriptor/inputwidth", "sha": "e67d02881bea12147658248b1808a4b60f28598f53e42330a984ea477652ac0c", "sieve": 2, "t": "inputWidth", "n": 93, "laws": 0, "ts": "2026-08-05 05:55 UTC"}

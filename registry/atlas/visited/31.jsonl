@@ -180,3 +180,5 @@
 {"id": "/documentation/swiftui/datepicker/init(_:selection:displayedcomponents:)", "sha": "d700b9b285231be90514dbb8ee5d7d638dae3029ba8bfb0428798d1c1062e161", "sieve": 2, "t": "init(_:selection:displayedComponents:)", "n": 59, "laws": 0, "ts": "2026-08-04 05:56 UTC"}
 {"id": "/documentation/swiftui/tupleview/value", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "value", "n": 0, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
 {"id": "/documentation/swiftui/openurlaction/callasfunction(_:)", "sha": "4e1f5ce3812fdd193bca074a375d6c5974fa20fd4445f3d02a75b7e288f40008", "sieve": 2, "t": "callAsFunction(_:)", "n": 304, "laws": 0, "ts": "2026-08-04 06:01 UTC"}
+{"id": "/documentation/AppKit/NSColor/controlColor", "sha": "ce26a6fdc12286661da48eb9046797f3281e1fd80991a9f66add53c67ee8e800", "sieve": 2, "t": "controlColor", "n": 389, "laws": 2, "ts": "2026-08-05 06:01 UTC"}
+{"id": "/documentation/AppKit/NSRulerMarker", "sha": "482482b247f1b78fb97e866b16d95d8066eacba98a1cb6a1e4efcb3f23e413d8", "sieve": 2, "t": "NSRulerMarker", "n": 681, "laws": 0, "ts": "2026-08-05 06:02 UTC"}

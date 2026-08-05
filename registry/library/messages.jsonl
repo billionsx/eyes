@@ -19,3 +19,17 @@
 {"id": "/documentation/messages/icecreambuilder-building-an-imessage-extension", "law": "If you prefer to send the message immediately then use the method instead."}
 {"id": "/documentation/messages/msmessagesappviewcontroller", "law": "Use this class to manage your extension."}
 {"id": "/documentation/messages/creating-a-sticker-app-with-a-custom-layout", "law": "The cells use a custom to provide an , each of which contains an instance."}
+{"id": "/documentation/messages/msmessagelivelayout", "law": "Use a live layout instance to create custom, interactive messages in the transcript (or input field)."}
+{"id": "/documentation/messages/msmessagelivelayout", "law": "An alternative layout is required to represent your message on devices that don’t have your iMessage app installed, or on devices that aren’t running iOS 11 or later."}
+{"id": "/documentation/messages/msmessagelivelayout", "law": "The template layout automatically provides support for devices that do not support iMessage apps (macOS, iOS 9 and earlier, and SMS devices)."}
+{"id": "/documentation/messages/msmessagesapppresentationstyle/compact", "law": "Because the keyboard is not available, adding text fields or text views to your compact layout is not recommended."}
+{"id": "/documentation/messages/msmessagesapppresentationstyle/compact", "law": "If you have a control that requires input from the keyboard (for example, a text field), you must call to expand the extension as soon as the user selects that control."}
+{"id": "/documentation/messages/msmessagesapppresentationstyle/compact", "law": "Additionally, do not include horizontally scrolling elements in a compact layout."}
+{"id": "/documentation/messages/msmessagesapptranscriptpresentation/messagecornerradius", "law": "Use this value to create concentric rounded subviews inside your view."}
+{"id": "/documentation/messages/msmessagesapptranscriptpresentation/messagecornerradius", "law": "Use continuous corners (kCACornerCurveContinuous) on your view."}
+{"id": "/documentation/messages/msmessagesapptranscriptpresentation/messagecornerradius", "law": "Use trait collection registration to trigger an updated layout when dynamic type size changes."}
+{"id": "/documentation/messages/msmessagesapptranscriptpresentation/messagetintcolor", "law": "This must be a simple RGB color - other color types such as displayP3 or pattern images are not supported."}
+{"id": "/documentation/messages/msmessagesapptranscriptpresentation/messagetintcolor", "law": "If your color needs to be dynamic, you must call when the dynamic conditions change."}
+{"id": "/documentation/messages/msmessagesappviewcontroller/requestpresentationstyle(_:)", "law": "Keep in mind that the user should have ultimate control over the extension’s presentation style."}
+{"id": "/documentation/messages/msmessagesappviewcontroller/willtransition(to:)", "law": "Because the keyboard is not available in the style, adding text fields or text views to your compact layout is not recommended."}
+{"id": "/documentation/messages/mscriticalsmsmessenger/requestauthorization(for:)", "law": "The framework shows an authorization alert for each recipient, one at a time, up to the maximum of recipients the framework allows, which you can determine by examining the constant ."}

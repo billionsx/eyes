@@ -150,3 +150,6 @@
 {"id": "/documentation/swiftui/buttontogglestyle", "sha": "9ffdae551b2113f86f693f992fbfb487a73fef5bd14ae19c17a8531f34fa3dde", "sieve": 2, "t": "ButtonToggleStyle", "n": 206, "laws": 0, "ts": "2026-08-04 05:51 UTC"}
 {"id": "/documentation/swiftui/subscriptionview/action", "sha": "cb4da9762879fbd45b9800f97a40d41bd7a82fbc4d1e7fa69c34985db1da6521", "sieve": 2, "t": "action", "n": 33, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
 {"id": "/documentation/swiftui/textfield/init(_:value:format:prompt:)-3fh51", "sha": "f3df025ccf3e031646473470b80ade1b3077c6526782d61f394af03a32e5efbb", "sieve": 2, "t": "init(_:value:format:prompt:)", "n": 890, "laws": 0, "ts": "2026-08-04 06:02 UTC"}
+{"id": "/documentation/Metal/MTLDrawable", "sha": "b5500637e463f50d463547d6cd0f05ba2950c8996aa7c0bed4e0320a3c19cd93", "sieve": 2, "t": "MTLDrawable", "n": 666, "laws": 0, "ts": "2026-08-05 05:34 UTC"}
+{"id": "/documentation/security/cssm_tp_certchange_input-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_TP_CERTCHANGE_INPUT", "n": 0, "laws": 0, "ts": "2026-08-05 05:48 UTC"}
+{"id": "/documentation/security/cssm_version-swift.struct", "sha": "bc1cad954a4082fc21b808048f042b6915cbe6efced4694435d9b31e19a400a2", "sieve": 2, "t": "cssm_version", "n": 80, "laws": 0, "ts": "2026-08-05 05:49 UTC"}

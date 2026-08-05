@@ -199,3 +199,7 @@
 {"id": "/documentation/swiftui/settingslink/init()", "sha": "af88be45dddf253c2f4c4a5f936c3a7e23143ca25d74c192d54b2265687be4c7", "sieve": 2, "t": "init()", "n": 131, "laws": 0, "ts": "2026-08-04 05:55 UTC"}
 {"id": "/documentation/swiftui/strokeshapeview/shape", "sha": "24c2fcdf15512fd2faff833959e1726b589b29586fa703a941515cc06b5df3b5", "sieve": 2, "t": "shape", "n": 73, "laws": 0, "ts": "2026-08-04 05:57 UTC"}
 {"id": "/documentation/swiftui/view/chartlinestylescale(_:)", "sha": "dd9b8dc45b36371f710bf9488a91a2c63f07d95a74e6648c84455e48af195ab8", "sieve": 2, "t": "chartLineStyleScale(_:)", "n": 43, "laws": 0, "ts": "2026-08-04 05:58 UTC"}
+{"id": "/documentation/tipkit/tips/event/init(id:)-99edo", "sha": "5e8a7480480fb2796352b9a5290c561865a3fde09ca4fd721ca618a84bc405b3", "sieve": 2, "t": "init(id:)", "n": 526, "laws": 0, "ts": "2026-08-05 05:41 UTC"}
+{"id": "/documentation/AppKit/NSBackgroundExtensionView", "sha": "7e5387498e3559386225b90adac3c7b12e917e49e4e9fad0c7a930bd1296ad33", "sieve": 2, "t": "NSBackgroundExtensionView", "n": 406, "laws": 0, "ts": "2026-08-05 05:58 UTC"}
+{"id": "/documentation/AppKit/NSColor/headerTextColor", "sha": "680376006b14dff2025c0d27720bc0e01e21d0e5a8dfd9156cfdd489d07be241", "sieve": 2, "t": "headerTextColor", "n": 194, "laws": 1, "ts": "2026-08-05 06:01 UTC"}
+{"id": "/documentation/AppKit/NSToolbarItem/Identifier", "sha": "049d5de214ab204087b1c20cecda607b528931eeb15448464a8b4ec167845994", "sieve": 2, "t": "NSToolbarItem.Identifier", "n": 857, "laws": 0, "ts": "2026-08-05 06:02 UTC"}

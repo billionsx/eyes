@@ -28,3 +28,4 @@
 {"id": "/documentation/metrickit/statereportingdomain", "law": "Use reverse DNS notation to avoid naming collisions: Pass a set of values to to receive metrics segmented by each domain’s recorded states."}
 {"id": "/documentation/metrickit/statereportingdomain", "law": "Use from the framework to obtain a ."}
 {"id": "/documentation/metrickit/track-performance-by-app-state-using-metrickit", "law": "The person can also change the active variant from the MetricKit Sample settings in the Settings app, which provides a “Use Card Layout” toggle under the “A/B Test” group."}
+{"id": "/documentation/MetricKit/MXUnitAveragePixelLuminance", "law": "Unlike LCD displays, each pixel requires power to display a color, and white draws the most power per pixel."}

@@ -159,3 +159,6 @@
 {"id": "/documentation/uikit/nslinebreakmode/byclipping", "sha": "553bd1319339c8a9ecaeaefdf9eeabfb5dd942dc7efe4e02f23997e9848541e1", "sieve": 2, "t": "NSLineBreakMode.byClipping", "n": 80, "laws": 0, "ts": "2026-08-03 19:25 UTC"}
 {"id": "/documentation/swiftui/gaugestyle/accessorylinearcapacity", "sha": "cdb2dbd1e3375eecbaaef54d0100e14a74863c047119b7259ff0853773bfbf5e", "sieve": 2, "t": "accessoryLinearCapacity", "n": 390, "laws": 0, "ts": "2026-08-04 05:50 UTC"}
 {"id": "/documentation/swiftui/view/accessibility(removetraits:)", "sha": "b059b9986eb9f53e2fcbc76b64f0b91ab8c50aba7676a5eb8e694c67c96a6bab", "sieve": 2, "t": "accessibility(removeTraits:)", "n": 40, "laws": 0, "ts": "2026-08-04 05:59 UTC"}
+{"id": "/documentation/os/os_signpost_emit_with_type", "sha": "c4a34acf9212137171162e1fbb90506fd20caedc79409f77077c8a54ef73973e", "sieve": 2, "t": "os_signpost_emit_with_type", "n": 113, "laws": 0, "ts": "2026-08-05 05:37 UTC"}
+{"id": "/documentation/AppKit/NSPasteboardReading", "sha": "2551c7fa19bc4122c8881c38d81b1e1721613f8b26926f6046a6fc7cebe068df", "sieve": 2, "t": "NSPasteboardReading", "n": 484, "laws": 0, "ts": "2026-08-05 05:58 UTC"}
+{"id": "/documentation/AppKit/NSWorkspace", "sha": "f408771b411b428024a37f8d73a3f5a6725413b8a92ed8ba489d3b7239c4fc2f", "sieve": 2, "t": "NSWorkspace", "n": 4688, "laws": 0, "ts": "2026-08-05 05:59 UTC"}

@@ -100,3 +100,15 @@
 {"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "In general, if an app has a complication on the active watch face, it can safely use four updates per hour, shared between both the app’s background tasks and it’s background observer queries."}
 {"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "However, HealthKit further limits the update on caffeine samples to a maximum of one per hour."}
 {"id": "/documentation/clockkit/creating-and-updating-a-complication-s-timeline", "law": "This means, the first update from HealthKit should trigger within a minute."}
+{"id": "/documentation/clockkit/sharing-an-apple-watch-face", "law": "When presenting a watch face from your app or on the web, always display a preview of the watch face, and a button that uses an official Add Watch Face asset."}
+{"id": "/documentation/clockkit/sharing-an-apple-watch-face", "law": "Always display both the watch face preview with an official Add Apple Watch Face button."}
+{"id": "/documentation/clockkit/adding-placeholders-for-your-complication", "law": "If you don’t provide any placeholders, the system generates a placeholder based on your app icon."}
+{"id": "/documentation/clockkit/adding-placeholders-for-your-complication", "law": "Many complications use only the alpha channel of the image; however, graphic complications use full color images."}
+{"id": "/documentation/clockkit/adding-text-to-a-complication", "law": "Use the default font size as a guide for the type of information your complication displays."}
+{"id": "/documentation/clockkit/building-complications-with-swiftui", "law": "This view is 162 pt x 69 pt on the 40 mm Apple Watch, and 184 pt x 78 pt on the 44 mm watch, but the template provides a safe area inset to help you avoid clipping your content."}
+{"id": "/documentation/clockkit/building-complications-with-swiftui", "law": "Use SwiftUI static views, such as text, shapes, or images, to create your complication’s content."}
+{"id": "/documentation/clockkit/building-complications-with-swiftui", "law": "Because complications show a snapshot of the apps data at a particular point in time, they don’t support features like animation."}
+{"id": "/documentation/clockkit/building-complications-with-swiftui", "law": "Additionally, if the user touches your complication, the system launches your app instead of passing the touch event to the SwiftUI views, so a complication can’t use interactive elements like buttons or switches."}
+{"id": "/documentation/clockkit/building-complications-with-swiftui", "law": "Some watch faces use a complex set of colors; for example, the Solar Dial face sets both a foreground and background color, and the colors change based on the time of day."}
+{"id": "/documentation/clockkit/displaying-progress-views-and-gauges", "law": "You configure gauges much as you do progress views, but gauges have even more options, including minimum and maximum value labels and color gradients."}
+{"id": "/documentation/clockkit/displaying-progress-views-and-gauges", "law": "Finally, you can use the modifier to apply a tint to the progress bar."}

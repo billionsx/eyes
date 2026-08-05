@@ -470,3 +470,8 @@
 {"id": "/documentation/realitykit/custommaterial/specular-swift.property", "law": "As a result, for most materials, you don’t need to specify a value."}
 {"id": "/documentation/realitykit/custommaterial/specular-swift.property", "law": "For some types of dielectric (nonmetallic) materials, like facet-cut glass or gems, PBR algorithms don’t create bright enough specular highlights using just roughness."}
 {"id": "/documentation/realitykit/custommaterial/texturecoordinatetransform-swift.property", "law": "Use this property to transform the texture coordinates and change the way this material maps its textures."}
+{"id": "/documentation/realitykit/photogrammetrysession/configuration-swift.struct/featuresensitivity-swift.property", "law": "Landmarks can be hard to identify if the images don’t have enough contrast, aren’t in focus, or if the object is all one color and lacks surface detail."}
+{"id": "/documentation/RealityKit/VideoMaterial", "law": "Video materials use an instance to control movie playback."}
+{"id": "/documentation/RealityKit/VideoMaterial", "law": "You can use any movie file format that supports to create a video material."}
+{"id": "/documentation/RealityKit/VideoMaterial", "law": "To control playback of the material’s video, use the property, which offers methods like and ."}
+{"id": "/documentation/RealityKit/QueryPredicate", "law": "The following code shows how to build a compound predicate that returns all entities that are either model entities or anchor entities: Use parentheses to control the order of operations when combining predicates."}

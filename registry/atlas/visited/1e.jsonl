@@ -163,3 +163,5 @@
 {"id": "/documentation/uikit/uisearchsuggestion/localizedsuggestion", "sha": "18cd30dbcc66e975e21a0e65164ce73f283caecafcc37d3512e46754900a78a9", "sieve": 2, "t": "localizedSuggestion", "n": 78, "laws": 0, "ts": "2026-08-03 19:22 UTC"}
 {"id": "/documentation/SwiftUI/KeyboardShortcut", "sha": "ed66f710010ceb8b83af169d92beaa848eefe1b931b8d1bde0cccd89939427e7", "sieve": 2, "t": "KeyboardShortcut", "n": 356, "laws": 0, "ts": "2026-08-04 05:36 UTC"}
 {"id": "/documentation/swiftui/scrollviewreader/init(content:)", "sha": "5a4931df261dbb208a2121d0cb93bde11c7e351b35d8183556f6ca004a6f84dd", "sieve": 2, "t": "init(content:)", "n": 86, "laws": 0, "ts": "2026-08-04 05:49 UTC"}
+{"id": "/documentation/Metal/MTLSamplerAddressMode/clampToBorderColor", "sha": "ce15165ba32b77d30f8d69340a16c147e3ad8907402193e9f14a6aa367120ff9", "sieve": 2, "t": "MTLSamplerAddressMode.clampToBorderColor", "n": 181, "laws": 0, "ts": "2026-08-05 05:35 UTC"}
+{"id": "/documentation/security/cssm_tp_certverify_output-c.typealias", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CSSM_TP_CERTVERIFY_OUTPUT", "n": 0, "laws": 0, "ts": "2026-08-05 05:48 UTC"}
