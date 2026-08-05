@@ -1,14 +1,14 @@
 {
  "ethnomir": {
   "branch": "main",
-  "files": 451,
+  "files": 460,
   "repo": "billionsx/ethnomir-app",
   "state": "забран"
  },
  "iskcon": {
   "branch": "main",
-  "files": 11534,
+  "files": 11319,
   "repo": "billionsx/iskcon",
-  "state": "уже забран"
+  "state": "забран"
  }
 }
