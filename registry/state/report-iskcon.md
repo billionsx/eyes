@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `iskcon` · режим report
-Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 663
+Файлов просмотрено: 118 · правила: AE1, AE2, AE3, AE4, AE6, AE7, AE8, AE9, AE10, AE11, AE12, AE13, AE14, AE15, AE18 · находок: 643
 
 ## AE1 · 38
 - `apps/web/src/music/music.css:122` — фон #FFFFFF вне лестницы поверхностей (#000000 → #1C1C1E → #2C2C2E)
@@ -87,7 +87,7 @@
 - `apps/web/src/music/music.css:617` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:18` — border-radius 3px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/play.css:26` — border-radius 17.5px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/ui/globals.css:1320` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/ui/globals.css:1324` — border-radius 25px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/AccountScreen.tsx:250` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/AcharyaScreen.tsx:117` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/AcharyaScreen.tsx:118` — border-radius 4px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -182,12 +182,8 @@
 - `apps/web/src/music/music.css:491` — контраст 3.79:1 (#fff на #FA2D4B) ниже нормы свода 4.5:1 (🍎 живой HIG)
 - `apps/web/src/play/play.css:25` — контраст 3.68:1 (#FA2D4B на #2C2C2E) ниже нормы свода 4.5:1 (🍎 живой HIG)
 
-## AE18 · 5
+## AE18 · 1
 - `apps/web/src/music/music.css:329` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
-- `apps/web/src/ui/globals.css:633` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
-- `apps/web/src/ui/globals.css:634` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
-- `apps/web/src/ui/globals.css:653` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
-- `apps/web/src/ui/globals.css:686` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
 
 ## AE2 · 76
 - `apps/web/src/music/music.css:55` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
@@ -201,11 +197,11 @@
 - `apps/web/src/music/music.css:491` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/music/music.css:576` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/music/music.css:615` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
-- `apps/web/src/ui/globals.css:635` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
-- `apps/web/src/ui/globals.css:1117` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
-- `apps/web/src/ui/globals.css:1139` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
-- `apps/web/src/ui/globals.css:1151` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
-- `apps/web/src/ui/globals.css:1287` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ui/globals.css:639` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ui/globals.css:1121` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ui/globals.css:1143` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ui/globals.css:1155` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/ui/globals.css:1291` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/AccountScreen.tsx:134` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/AccountScreen.tsx:136` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/App.tsx:1085` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
@@ -335,7 +331,7 @@
 - `apps/web/src/prasad/RecipeDetail.tsx:117` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/shop/CartScreen.tsx:85` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 
-## AE4 · 57
+## AE4 · 41
 - `apps/web/src/music/music.css:82` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:112` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/music/music.css:187` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
@@ -360,39 +356,23 @@
 - `apps/web/src/play/play.css:25` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/play/play.css:69` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/play/play.css:70` — letter-spacing -0.45px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/ui/globals.css:1100` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/src/ui/globals.css:1104` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/AccountScreen.tsx:165` — letter-spacing 7.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/AccountScreen.tsx:245` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/AcharyaScreen.tsx:285` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/BhajanDetailPage.tsx:464` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/BookDetailPage.tsx:1824` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:1931` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:1954` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:1993` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/BookDetailPage.tsx:2034` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/BookLoaderPage.tsx:669` — letter-spacing 1.4px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/ContentDetailPage.tsx:296` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/EkadashiScreen.tsx:31` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/EkadashiScreen.tsx:90` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/EventCard.tsx:194` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/HomeFeed.tsx:361` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/MyProgressScreen.tsx:91` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:169` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:208` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:276` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/Onboarding.tsx:330` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/PdfDoc.tsx:459` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/SearchScreen.tsx:136` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/TodayHub.tsx:82` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/centers/CenterDeities.tsx:42` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/centers/CenterEditor.tsx:83` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/centers/CenterEvents.tsx:42` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/centers/CenterPhotos.tsx:45` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/centers/CenterSchedule.tsx:63` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/centers/CenterScreen.tsx:139` — letter-spacing 0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/dhama/DhamaScreen.tsx:139` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `apps/web/src/player/ui.tsx:153` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/src/shop/CartScreen.tsx:311` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 
 ## AE7 · 10
 - `apps/web/src/music/music.css:431` — backdrop-filter: blur без saturate — стекло это размытие+насыщение, не мутная серость
@@ -444,13 +424,13 @@
 - `apps/web/src/music/music.css:588` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:608` — opacity 0.35 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/music/music.css:641` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:992` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1001` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1030` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1132` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1133` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1146` — opacity 0.32 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/ui/globals.css:1175` — opacity 0.9 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:996` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1005` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1034` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1136` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1137` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1150` — opacity 0.32 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/ui/globals.css:1179` — opacity 0.9 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/AcharyaScreen.tsx:118` — opacity 0.4 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/BookDetailPage.tsx:83` — opacity 0.5 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/BookDetailPage.tsx:85` — opacity 0.5 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
