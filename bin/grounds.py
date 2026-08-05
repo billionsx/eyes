@@ -43,6 +43,7 @@ PATTERNS = (
     "registry/live/baseline*.json",
     "registry/atlas/state.json",
     "certificates/*/REGISTER.md",
+    "registry/state/COURT-LAST.md",
 )
 
 # kind: "основание" — по нему выносится приговор, отпечаток обязателен;
@@ -84,6 +85,10 @@ DECLARED = {
         "сводка", None, "итог забора кода: диагноз текущего прогона"),
     "registry/state/FRESH.json": (
         "сводка", None, "свежесть источников: числа текущего снятия"),
+    "registry/state/COURT-LAST.md": (
+        "сводка", None,
+        "красные строки последнего прогона суда: снимок ОДНОГО прогона, ни с "
+        "чем не сравнивается и приговора ни о ком не выносит"),
     "registry/state/keys.json": (
         "сводка", None,
         "дозор сроков: дни до истечения ключей и требований на момент прогона. "

@@ -31,32 +31,41 @@ jobs:
         run: |
           pip install pillow --quiet
           python3 bin/geoscan.py --frames /tmp/frames-new --out /tmp/scan-new.json
-      - name: "Сводка замера в реестр (кадры исчезнут с раннером, числа — нет)"
+      - name: "Суд сводки — до всякой записи"
+        run: python3 bin/scansum.py --court
+      - name: "Сводка замера в реестр: вся цепь, а не итог"
+        # Кусок скрипта, вписанный прямо сюда, суда не имеет и первой же
+        # ошибкой молча пишет нули — неотличимо от честного отсутствия кадров.
+        # Ровно это и случилось 05.08.2026. Теперь это орган со своим судом.
         run: |
-          python3 - <<'PY'
-          import json, pathlib, collections
-          d = json.load(open("/tmp/scan-new.json"))
-          def top(vals, step=0.5, n=6):
-              q = collections.Counter(round(v / step) * step for v in vals)
-              return [{"v": v, "n": c} for v, c in q.most_common(n)]
-          out = {
-            "frames": len(d), "ok": sum(1 for x in d if x.get("ok")),
-            "screens": top([x["screen_pt"][0] for x in d if x.get("screen_pt")], 1),
-            "surfaces": sum(len(x.get("surfaces") or []) for x in d),
-            "radii": top([s["radius_pt"] for x in d for s in (x.get("surfaces") or [])
-                          if s.get("radius_pt", 0) > 0.5]),
-            "rows": top([v for x in d for v in (x.get("rows_pt") or [])]),
-            "bars": top([v for x in d for v in (x.get("bottom_bars_pt") or [])]),
-          }
-          pathlib.Path("registry/screens/SCAN-appstore.json").write_text(
-              json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-          print("сводка замера записана:", out["ok"], "кадров ·",
-                out["surfaces"], "поверхностей")
-          PY
+          python3 bin/scansum.py --frames /tmp/frames-new --scan /tmp/scan-new.json
       - name: "Запись в базу: закрывается только то, что сошлось"
         run: python3 bin/geofill.py --scan /tmp/scan-new.json --write
       - name: "Суд департамента"
-        run: python3 bin/eyes.py selftest
+        # Красные строки суда кладутся В РЕЕСТР до того, как шаг упадёт.
+        # Журнал прогона департаменту недоступен (сеть ограничена), а суд,
+        # падающий только в CI и зелёный с чистого клона, без своих строк
+        # неотличим от загадки. Отказ обязан оставлять документ.
+        run: |
+          set +e
+          python3 bin/eyes.py selftest > /tmp/court.txt 2>&1
+          rc=$?
+          {
+            echo "# СУД ПОСЛЕДНЕГО ПРОГОНА · $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo
+            echo "код возврата: $rc"
+            echo
+            echo '```'
+            grep -c "✓" /tmp/court.txt | sed 's/^/зелёных: /'
+            grep "✗" /tmp/court.txt || echo "красных строк нет"
+            echo '```'
+            echo
+            echo "Последние 30 строк прогона:"
+            echo '```'
+            tail -30 /tmp/court.txt
+            echo '```'
+          } > registry/state/COURT-LAST.md
+          exit $rc
       - name: "Эфир"
         if: always()
         run: python3 bin/dashboard.py
