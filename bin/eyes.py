@@ -472,6 +472,39 @@ def cmd_selftest(root: Path) -> int:
     check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
           _loop_rc == 0)
 
+    print("SELFTEST · страж App Store: мерка клиента (ст. 56 · M5)")
+    import appstore as _ap
+    import tempfile as _tf5
+    check("область поиска берётся из ПАСПОРТА, а не вшита в орган",
+          _ap.search_globs(root, "iskcon") and
+          all("apps/web/src" in g for g in _ap.search_globs(root, "iskcon")))
+    check("паспорта нет — области нет, и это не «не найдено»",
+          _ap.search_globs(root, "нетпаспорта") == [])
+    _pd = Path(_tf5.mkdtemp(prefix="eyes-ap-"))
+    (_pd / "src").mkdir()
+    (_pd / "src" / "a.tsx").write_text("<a href='/privacy'>Приватность</a>\n",
+                                       encoding="utf-8")
+    _r0 = _ap.repo_check(_pd, ["privacy"], [])
+    check("ломаю → красный: без объявленной области орган НЕ обвиняет — "
+          "searched=False, а не ok=False",
+          not _r0["ok"] and not _r0["searched"])
+    check("и в отчёте это отдельное состояние, а не 🔴",
+          "искать негде" in _ap._line("Политика", "5.1", _r0, []))
+    _r1 = _ap.repo_check(_pd, ["privacy"], ["src/**/*.tsx"])
+    check("чиню → зелёный: по объявленной области упоминание найдено с адресом",
+          _r1["ok"] and _r1["at"].startswith("src/a.tsx:"))
+    check("находка названа УЛИКОЙ, а не соответствием гайдлайну",
+          "улика" in _ap._line("Политика", "5.1", _r1, ["src/**/*.tsx"]))
+    _r2 = _ap.repo_check(_pd, ["mailto:"], ["src/**/*.tsx"])
+    check("область объявлена, файлы пройдены, не найдено — вот тогда 🔴 "
+          "и с числом просмотренных файлов",
+          not _r2["ok"] and _r2["searched"] and _r2["files"] == 1
+          and "🔴" in _ap._line("Поддержка", "1.5", _r2, ["src/**/*.tsx"]))
+    check("чек-лист называет, ЧЕЙ он: файл на проект, общий — указатель",
+          (root / "registry" / "appstore" / "CHECKLIST-iskcon.md").exists()
+          and "указатель" in (root / "registry" / "appstore" / "CHECKLIST.md")
+          .read_text(encoding="utf-8"))
+
     print("SELFTEST · адресат расхождения на проде (ст. 56 · M2)")
     import monitor as _mo
     _old = [["/a:AE9", ".x", "прозрачность"], ["/b:AE11", ".y", "радиус"]]
@@ -1899,8 +1932,11 @@ def cmd_selftest(root: Path) -> int:
     try:
         (tmpg / "apps" / "web" / "src").mkdir(parents=True)
         (tmpg / "apps" / "web" / "src" / "App.tsx").write_text('<a href="/privacy">Privacy</a>', encoding="utf-8")
-        chk_p = guard.repo_check(tmpg, ["privacy"])
-        chk_m = guard.repo_check(tmpg, ["nonexistent-word-xyz"])
+        # Область поиска объявляется вызывающим: орган больше не носит
+        # чужую раскладку внутри себя (ЗКН-Э010).
+        _gl = ["apps/web/src/**/*.tsx"]
+        chk_p = guard.repo_check(tmpg, ["privacy"], _gl)
+        chk_m = guard.repo_check(tmpg, ["nonexistent-word-xyz"], _gl)
         check("автопроверка: privacy найден с путём App.tsx:1, отсутствие — честное НЕТ",
               chk_p["ok"] and chk_p["at"].endswith("App.tsx:1") and not chk_m["ok"])
     finally:

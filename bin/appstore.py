@@ -17,6 +17,7 @@ BXE · СЛУЖБА, модуль M5 — страж App Store (ст. 56).
 """
 import gzip
 import hashlib
+import os
 import json
 import re
 import sys
@@ -46,17 +47,57 @@ def parse_points(html: str) -> list:
     return sorted(out, key=lambda p: [int(x) for x in p["n"].split(".")])
 
 
-def repo_check(project_root: Path, words) -> dict:
+def search_globs(root: Path, project: str) -> list:
+    """Где искать — берётся из ПАСПОРТА проекта, а не из чужой раскладки.
+
+    Родословная (05.08.2026). Путь `apps/web/src/**` был вшит в орган. Он верен
+    для одного клиента и неверен для любого другого: проект с раскладкой `src/`
+    или `packages/app/` получал «🔴 НЕ НАЙДЕНА — заведи страницу», хотя страница
+    у него есть. Департамент обвинял клиента в том, чего не было только в глазах
+    департамента (ЗКН-Э010).
+
+    Пусто — значит искать негде, и это говорится вслух, а не выдаётся за
+    отсутствие (ЗКН-Э001).
+    """
+    f = root / "adapters" / f"{project}.json"
+    if not f.exists():
+        return []
+    try:
+        ad = json.loads(f.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return []
+    g = list((ad.get("report") or {}).get("globs") or [])
+    g += list((ad.get("strict") or {}).get("globs") or [])
+    return sorted(set(g))
+
+
+def repo_check(project_root: Path, words, globs=None) -> dict:
+    """Найдено ли УПОМИНАНИЕ. Возврат: ok · адрес · искали ли вообще.
+
+    Совпадение слова на строке — это УЛИКА, а не свидетельство исполнения
+    гайдлайна: слово «privacy» бывает и в комментарии. Поэтому находка
+    называется упоминанием с адресом, а не галочкой соответствия: гайдлайн
+    требует работающей ссылки, и проверить это может человек, открыв адрес.
+    """
     rx = re.compile("|".join(words), re.I)
-    for p in sorted(project_root.glob("apps/web/src/**/*")):
-        if p.is_file() and p.suffix in (".tsx", ".ts", ".html", ".css"):
-            try:
-                for i, ln in enumerate(p.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
-                    if rx.search(ln):
-                        return {"ok": True, "at": f"{p.relative_to(project_root)}:{i}"}
-            except Exception:
+    pats = list(globs or [])
+    if not pats:
+        return {"ok": False, "at": "", "searched": False}
+    seen = 0
+    for pat in pats:
+        for p in sorted(project_root.glob(pat)):
+            if not p.is_file():
                 continue
-    return {"ok": False, "at": ""}
+            seen += 1
+            try:
+                for i, ln in enumerate(p.read_text(encoding="utf-8",
+                                                   errors="replace").splitlines(), 1):
+                    if rx.search(ln):
+                        return {"ok": True, "at": f"{p.relative_to(project_root)}:{i}",
+                                "searched": True, "files": seen}
+            except OSError:
+                continue
+    return {"ok": False, "at": "", "searched": seen > 0, "files": seen}
 
 
 CORPUS = ROOT / "registry" / "corpus" / "appstore"
@@ -94,6 +135,28 @@ def remill() -> list:
     return out
 
 
+def _line(what: str, guide: str, r: dict, globs) -> str:
+    """Строка отчёта. Три разных состояния, а не два.
+
+    Было два: ✅ найдено и 🔴 не найдено. Не найдено при вшитом чужом пути и не
+    найдено при пройденных файлах проекта — разные вещи, и склеивать их в один
+    знак значит обвинять наугад.
+    """
+    if r.get("ok"):
+        return (f"- 📍 {what} (гайдлайн {guide}): упоминание найдено — "
+                f"`{r['at']}`. Это улика, а не соответствие: гайдлайн требует "
+                f"РАБОТАЮЩЕЙ ссылки — откройте адрес и убедитесь")
+    if not r.get("searched"):
+        return (f"- ⚪ {what} (гайдлайн {guide}): искать негде — паспорт проекта "
+                f"не объявил, где лежит интерфейс"
+                + (f" (шаблоны: {', '.join(globs)})" if globs else "")
+                + ". Молчание органа не есть отсутствие страницы (ЗКН-Э001)")
+    return (f"- 🔴 {what} (гайдлайн {guide}): НЕ НАЙДЕНО — просмотрено файлов "
+            f"{r.get('files', 0)} по шаблонам паспорта ({', '.join(globs)}). "
+            f"Если страница есть вне этих шаблонов — поправьте паспорт, "
+            f"а не страницу")
+
+
 def run(project_root: Path, fetch: bool = True) -> dict:
     out = ROOT / "registry" / "appstore"
     out.mkdir(exist_ok=True)
@@ -114,16 +177,17 @@ def run(project_root: Path, fetch: bool = True) -> dict:
     elif (out / "points.json").exists():
         points = json.loads((out / "points.json").read_text(encoding="utf-8"))
         src = f"points.json прошлого прогона · пунктов {len(points)}"
-    priv = repo_check(project_root, [r"privacy", r"конфиденциальн"])
-    supp = repo_check(project_root, [r"mailto:", r"Поддержк", r"Связь:", r"href=\"/contact"])
+    project = os.environ.get("EYES_PROJECT", "") or project_root.name
+    globs = search_globs(ROOT, project)
+    priv = repo_check(project_root, [r"privacy", r"конфиденциальн"], globs)
+    supp = repo_check(project_root, [r"mailto:", r"Поддержк", r"Связь:",
+                                     r"href=\"/contact"], globs)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    md = [f"# СТРАЖ APP STORE · чек-лист перед сабмитом — {ts}",
+    md = [f"# СТРАЖ APP STORE · проект `{project}` · чек-лист перед сабмитом — {ts}",
           f"Источник пунктов: {src}. Каждый пункт — дословный заголовок гайдлайна с адресом.", "",
           "## Автопроверено по репозиторию (факт с путём)",
-          f"- {'✅' if priv['ok'] else '🔴'} Политика конфиденциальности (гайдлайн 5.1): "
-          + (f"найдена — `{priv['at']}`" if priv["ok"] else "НЕ НАЙДЕНА в apps/web/src — заведи страницу/ссылку"),
-          f"- {'✅' if supp['ok'] else '🔴'} Поддержка/контакт (гайдлайн 1.5): "
-          + (f"найдена — `{supp['at']}`" if supp["ok"] else "НЕ НАЙДЕНА в apps/web/src"), ""]
+          _line("Политика конфиденциальности", "5.1", priv, globs),
+          _line("Поддержка/контакт", "1.5", supp, globs), ""]
     if points:
         md.append("## Ключевые пункты — ручная проверка (дословно)")
         for p in points:
@@ -140,7 +204,17 @@ def run(project_root: Path, fetch: bool = True) -> dict:
         md += ["## Разделы (каркас снимка)",
                "- [ ] 1. Safety · 2. Performance · 3. Business · 4. Design · 5. Legal",
                "- [ ] Before You Submit — пройден дословно  \n  `page:" + GUIDE_URL + "`"]
-    (out / "CHECKLIST.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    (out / f"CHECKLIST-{project}.md").write_text("\n".join(md) + "\n",
+                                                 encoding="utf-8")
+    # Общий CHECKLIST.md остаётся указателем, а не последним из проектов:
+    # документ, не называющий, чей он, вводит в заблуждение сильнее пустого.
+    idx = ["# СТРАЖ APP STORE · указатель чек-листов", "",
+           "Чек-лист у каждого проекта СВОЙ: пути, паспорт и находки у них "
+           "разные. Один файл на всех означал, что последний проект стирает "
+           "предыдущий, а документ не говорит, о ком он.", ""]
+    for f in sorted(out.glob("CHECKLIST-*.md")):
+        idx.append(f"- `{f.name}` — проект `{f.name[10:-3]}`")
+    (out / "CHECKLIST.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
     with (ROOT / "registry" / "state" / "CHANGELOG.md").open("a", encoding="utf-8") as f:
         f.write(f"### {ts} · страж App Store\n- пунктов {len(points)} · privacy {'ok' if priv['ok'] else 'НЕТ'} · support {'ok' if supp['ok'] else 'НЕТ'}\n\n")
     return {"points": len(points), "privacy": priv["ok"], "support": supp["ok"]}
