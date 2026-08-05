@@ -473,6 +473,15 @@ def cmd_selftest(root: Path) -> int:
     check("суд петли ревью зелёный (32 проверки, свой прогон выше)",
           _loop_rc == 0)
 
+    print("SELFTEST · производные файлы и столкновения хроники (ст. 54)")
+    import derived as _dv
+    check("суд производных зелёный (свой прогон)", _dv.court() == 0)
+    check("столкновение в ИСТОЧНИКЕ останавливает запись",
+          not _dv.all_derived(["dashboard/data.json", "bin/lint.py"]))
+    check("хроника различает рода столкновения, а не выбирает сторону молча",
+          "столкновение в ИСТОЧНИКЕ" in
+          (root / "bin" / "chronicle.sh").read_text(encoding="utf-8"))
+
     print("SELFTEST · дозор сроков (ст. 54)")
     import keys as _keys
     from datetime import date as _date

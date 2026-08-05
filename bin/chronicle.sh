@@ -39,10 +39,33 @@ for i in 1 2 3 4 5 6; do
     exit 0
   fi
   if ! git pull --rebase -q; then
-    git rebase --abort 2>/dev/null || true
-    echo "::error::хроника НЕ записана: столкновение с чужой работой." \
-         "Сторона не выбирается молча — запись отменена, работа чужая цела."
-    exit 1
+    # СТОЛКНОВЕНИЕ БЫВАЕТ ДВУХ РОДОВ (05.08.2026).
+    #
+    # В ИСТОЧНИКЕ — чужую сторону не восстановить, и запись обязана встать.
+    # В ПРОИЗВОДНОМ — файл собирается прогоном, терять нечего: достаточно
+    # пересобрать. Прежнее правило не различало их и остановило запись из-за
+    # столкновения в перегенерируемом эфире — вместе с ней погиб ДОКУМЕНТ ОБ
+    # ОТКАЗЕ СУДА, ровно тогда, когда он был нужнее всего.
+    #
+    # Список производных поимённый (bin/derived.py) и под судом: глухое «всё
+    # в этой папке производно» однажды проглотит источник.
+    CONFLICTS=$(git diff --name-only --diff-filter=U)
+    if python3 bin/derived.py --check $CONFLICTS; then
+      echo "столкновение только в производных — беру их сторону и пересобираю"
+      for f in $CONFLICTS; do git checkout --theirs -- "$f" 2>/dev/null || true; done
+      python3 bin/dashboard.py >/dev/null 2>&1 || true
+      git add $CONFLICTS 2>/dev/null || true
+      if ! GIT_EDITOR=true git rebase --continue >/dev/null 2>&1; then
+        git rebase --abort 2>/dev/null || true
+        echo "::error::пересборка не сняла столкновение — запись отменена."
+        exit 1
+      fi
+    else
+      git rebase --abort 2>/dev/null || true
+      echo "::error::хроника НЕ записана: столкновение в ИСТОЧНИКЕ." \
+           "Сторона не выбирается молча — запись отменена, работа чужая цела."
+      exit 1
+    fi
   fi
   sleep 4
 done
