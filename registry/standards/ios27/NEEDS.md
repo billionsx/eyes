@@ -1,28 +1,32 @@
 # ЧЕМ ЗАКРЫВАЮТСЯ ДЫРЫ БАЗЫ iOS 27
 
-Дыр: **52** · кадров измерено: **195**
+Дыр: **56** · кадров измерено: **11**
 
 Дыра, не называющая своего сырья, хуже дыры: она выглядит закрываемой завтра. Здесь сказано, чем именно каждая закрывается — и чего департамент не получит, сколько бы кадров ему ни дали.
 
 | вид сырья | дыр | чем закрывается |
 |---|---|---|
-| **КАДР** | 30 | статический кадр iOS 27 в тёмной теме |
+| **КАДР** | 33 | статический кадр iOS 27 в тёмной теме |
 | **ЗАПИСЬ** | 9 | запись экрана 60 fps: длительности на статическом кадре не существует |
 | **ШРИФТ** | 7 | доля высоты прописной берётся из таблиц шрифта |
 | **КАДР+СЛОЙ** | 5 | кадр, где известен цвет под стеклом: иначе прозрачность неотделима от фона |
+| **НЕ КЛАССИФИЦИРОВАНО** | 1 | 🕳 вид сырья не назван — орган обязан быть дополнен, а не угадать |
 | **СВОДКА** | 1 | не величина, а состояние базы: закроется само, когда закроются остальные |
 
-## КАДР — 30
+## КАДР — 33
 
 - `geometry.corner_form_required_above_pt`
 - `geometry.superellipse_n`
-- `geometry.radius_card_pt` · есть 25 из 30
+- `geometry.radius_card_pt`
 - `geometry.radius_card_full_pt`
 - `geometry.radius_tile_pt`
 - `geometry.button_height_pt`
 - `geometry.button_hit_pad_pt`
 - `geometry.chip_height_pt`
+- `geometry.inset_card_pt`
+- `geometry.card_width_pt`
 - `geometry.tabbar_height_pt`
+- `geometry.bottom_bar_with_safe_area_pt`
 - `geometry.layer_axis_pt`
 - `geometry.layer_span_pt`
 - `geometry.layer_inset_pt`
@@ -74,6 +78,10 @@
 - `glass.thick`
 - `opacity_ladder.allow`
 - `opacity_ladder.tolerance`
+
+## НЕ КЛАССИФИЦИРОВАНО — 1
+
+- `separator.width_pt`
 
 ## СВОДКА — 1
 

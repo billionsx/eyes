@@ -208,6 +208,16 @@ def evidence_text(path: str, why: str, need: str, samples=None) -> str:
     return f"🕳 {why}. Закрывается: {need}{tail}"
 
 
+def dig(tree, path):
+    """Значение по пути «узел.ключ». None — пути нет."""
+    cur = tree
+    for part in path.split("."):
+        if not isinstance(cur, dict) or part not in cur:
+            return None
+        cur = cur[part]
+    return cur
+
+
 def mode_of(vals, step=0.5):
     """Лидер совокупности и его доля → (значение, число, доля, следующий)."""
     if not vals:
@@ -461,6 +471,7 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
                                       for x in o) else 0
         return 0
 
+    disputed = {}
     nvals = _closed_in({k: v for k, v in d.items() if k != "base"})
     # ПРОВЕНАНС. Девять значений в базе — не девять замеров: три из них списки
     # цветов и шрифтов, пришедшие другим путём. Объявить все девять «закрытыми
@@ -469,33 +480,23 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
     #
     # Поэтому конвейер ведёт СВОЙ список закрытий с основанием каждого, а
     # строка состояния называет оба числа. Провенанс — документ, а не память.
-    prov_f = base_path.parent / "CLOSED.json"
-    prov = {}
-    if prov_f.exists():
-        try:
-            prov = json.loads(prov_f.read_text(encoding="utf-8")).get("closed", {})
-        except (ValueError, OSError):
-            prov = {}
-    for k, v in (dec.get("closed") or {}).items():
-        prov[k] = {"value": v["value"], "why": v["why"], "frames": dec["frames"]}
-    prov_f.write_text(json.dumps(
-        {"_смысл": "Что закрыл ЗАМЕРНЫЙ КОНВЕЙЕР и на каком основании. База "
-                   "держит и значения из других источников; присваивать их "
-                   "конвейеру нельзя (ЗКН-Э002).",
-         "closed": dict(sorted(prov.items()))},
-        ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    nclosed = len(prov)
-    if isinstance(d.get("base"), str):
-        d["base"] = (f"ios27-dark (КАРКАС: значений стоит {nvals}, из них "
-                     f"закрыто замерным конвейером {nclosed} — провенанс в "
-                     f"CLOSED.json. Остальное — дыры с названным "
-                     f"доказательством. База НЕ действует, пока дыры не "
-                     f"закрыты, Э002)")
 
     n = 0
     for k, v in dec["closed"].items():
         if put(k, v["value"]):
             n += 1
+    # ЗАКРЫТОЕ НЕ ОТКРЫВАЕТСЯ СЛАБЫМ ЗАМЕРОМ.
+    #
+    # Родословная (05.08.2026). Добыча из App Store дала 11 кадров и 13 замеров
+    # разделителя с перевесом 46%. Согласия нет — и орган записал на место
+    # значения дыру, СТЕРЕВ 0.33pt, закрытые 522 замерами со 195 кадров.
+    # Меньшая совокупность отменила большую, и база потеряла знание.
+    #
+    # Улику слабого прогона нельзя ни применить, ни выбросить: применить —
+    # значит дать меньшему перевесить большее; выбросить — значит скрыть
+    # разногласие (ЗКН-Э001). Поэтому она ложится в ОСПОРЕННОЕ рядом с
+    # провенансом: значение стоит, возражение названо, решает основатель
+    # (ст. 7.4).
     for k, h in dec["holes"].items():
         if h.get("allowlist"):
             cl = (", ".join(f"{c}pt ×{n}" for c, n in (h.get("clusters") or []))
@@ -532,6 +533,11 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
             nd = need_for(k)
             if nd:
                 mark += f". Закрывается: {nd[1]}"
+        cur = dig(d, k)
+        if cur is not None and not (isinstance(cur, str) and cur.startswith("🕳")):
+            disputed[k] = {"стоит": cur, "возражение": mark,
+                           "кадров в прогоне": dec.get("frames")}
+            continue
         if put(k, mark):
             n += 1
 
@@ -555,6 +561,32 @@ def apply_to_base(dec: dict, base_path: Path = None) -> int:
         # названным доказательством честнее устаревшей улики (ЗКН-Э002).
         if put(path, evidence_text(path, nd[0], nd[1])):
             n += 1
+    prov_f = base_path.parent / "CLOSED.json"
+    prov = {}
+    if prov_f.exists():
+        try:
+            prov = json.loads(prov_f.read_text(encoding="utf-8")).get("closed", {})
+        except (ValueError, OSError):
+            prov = {}
+    for k, v in (dec.get("closed") or {}).items():
+        prov[k] = {"value": v["value"], "why": v["why"], "frames": dec["frames"]}
+    prov_f.write_text(json.dumps(
+        {"_смысл": "Что закрыл ЗАМЕРНЫЙ КОНВЕЙЕР и на каком основании. База "
+                   "держит и значения из других источников; присваивать их "
+                   "конвейеру нельзя (ЗКН-Э002).",
+         "_оспорено": "Прогоны, чей замер НЕ СОШЁЛСЯ с уже закрытым значением. "
+                      "Значение стоит: меньшая совокупность не отменяет "
+                      "большую. Возражение названо и не выброшено — разрешает "
+                      "основатель (ст. 7.4).",
+         "closed": dict(sorted(prov.items())),
+         "disputed": dict(sorted(disputed.items()))},
+        ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    nclosed = len(prov)
+
+    d["base"] = (f"ios27-dark (КАРКАС: значений стоит {nvals}, из них "
+                 f"закрыто замерным конвейером {nclosed} — провенанс в "
+                 f"CLOSED.json. Остальное — дыры с названным доказательством. "
+                 f"База НЕ действует, пока дыры не закрыты, Э002)")
     base_path.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
     return n
 
@@ -655,6 +687,30 @@ def court() -> int:
           "значений стоит 2" in json.loads(_b2.read_text(encoding="utf-8"))["base"])
     check("провенанс конвейера ведётся отдельным документом",
           (_b2.parent / "CLOSED.json").exists())
+    # ЗАКРЫТОЕ НЕ ОТКРЫВАЕТСЯ СЛАБЫМ ЗАМЕРОМ: 11 кадров не отменяют 195.
+    _b3 = Path(__import__("tempfile").mkdtemp()) / "base.json"
+    _b3.write_text(json.dumps({"base": "каркас",
+                               "separator": {"width_pt": 0.33}},
+                              ensure_ascii=False), encoding="utf-8")
+    apply_to_base({"frames": 11, "closed": {},
+                   "holes": {"separator.width_pt":
+                             {"n": 13, "lead": 0.33, "share": 0.46}}}, _b3)
+    _d3 = json.loads(_b3.read_text(encoding="utf-8"))
+    check("ломаю → красный: слабый прогон НЕ стирает закрытое значение",
+          _d3["separator"]["width_pt"] == 0.33)
+    _p3 = json.loads((_b3.parent / "CLOSED.json").read_text(encoding="utf-8"))
+    check("чиню → зелёный: возражение слабого прогона НАЗВАНО, а не выброшено",
+          "separator.width_pt" in _p3["disputed"]
+          and _p3["disputed"]["separator.width_pt"]["стоит"] == 0.33)
+    _b3.write_text(json.dumps({"base": "каркас",
+                               "separator": {"width_pt": "🕳 замерить"}},
+                              ensure_ascii=False), encoding="utf-8")
+    apply_to_base({"frames": 11, "closed": {},
+                   "holes": {"separator.width_pt":
+                             {"n": 13, "lead": 0.33, "share": 0.46}}}, _b3)
+    check("а вот ДЫРУ улика прогона заполняет как прежде",
+          "🕳 замерено 13×" in
+          json.loads(_b3.read_text(encoding="utf-8"))["separator"]["width_pt"])
 
     scan = [{"ok": True, "screen_pt": [393, 852],
              "surfaces": [{"inset_pt": 16.0, "width_pt": 361.0}],
@@ -716,6 +772,18 @@ def main() -> int:
     for k, v in dec["closed"].items():
         print(f"  {k} = {v['value']}   ({v['why']})")
     print("ОСТАЛОСЬ ДЫРОЙ, но с уликами:")
+    # ЗАКРЫТОЕ НЕ ОТКРЫВАЕТСЯ СЛАБЫМ ЗАМЕРОМ.
+    #
+    # Родословная (05.08.2026). Добыча из App Store дала 11 кадров и 13 замеров
+    # разделителя с перевесом 46%. Согласия нет — и орган записал на место
+    # значения дыру, СТЕРЕВ 0.33pt, закрытые 522 замерами со 195 кадров.
+    # Меньшая совокупность отменила большую, и база потеряла знание.
+    #
+    # Улику слабого прогона нельзя ни применить, ни выбросить: применить —
+    # значит дать меньшему перевесить большее; выбросить — значит скрыть
+    # разногласие (ЗКН-Э001). Поэтому она ложится в ОСПОРЕННОЕ рядом с
+    # провенансом: значение стоит, возражение названо, решает основатель
+    # (ст. 7.4).
     for k, h in dec["holes"].items():
         print(f"  {k}: мерили {h['n']}×, ведёт {h['lead']}, доля {h['share']:.0%}")
     if a.write:
