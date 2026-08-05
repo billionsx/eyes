@@ -47,6 +47,7 @@ jobs:
             bin
             adapters
             registry/standards
+            tests/fixtures/vision
       - name: "Инструменты"
         run: |
           pip install --quiet playwright

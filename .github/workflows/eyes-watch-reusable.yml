@@ -37,6 +37,7 @@ jobs:
             bin
             adapters
             registry/standards
+            tests/fixtures/vision
       - name: "BXE · надзор по коммиту, по измеренным законам"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

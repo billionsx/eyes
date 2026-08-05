@@ -60,6 +60,36 @@ FORMULA = 2
 DENS_MAX = 40.0
 
 
+# СРАВНИМОСТЬ ОЦЕНКИ (04.08.2026).
+#
+# Сертификат ISKCON упал с 83.7 · C до 65.3 · D. Проект при этом не изменился:
+# один и тот же линт на коде от 01.08 и от 04.08 дал ОДИНАКОВЫЕ 774 находки.
+# Упало не качество — выросло зрение департамента, и та же ошибка адресата,
+# что была у храповика, обнаружилась в формуле оценки.
+#
+# Оценку НЕ подкручивают. Долг вошёл плотностью, находки настоящие, формула
+# объявлена. Неверно другое: два числа, снятых РАЗНЫМИ измерителями, ставились
+# рядом в реестре так, будто они об одном. Читающий видит падение и понимает
+# его как ухудшение проекта — а это ложь, сказанная без единого неверного
+# числа.
+#
+# Поэтому сертификат несёт ОТПЕЧАТОК ЗРЕНИЯ, под которым выдан, а реестр
+# сравнивает отпечатки. Отличается от прошлой выдачи — документ говорит прямо:
+# оценки не сравнимы, и вот почему. Цифра остаётся честной, а её чтение
+# перестаёт врать.
+def vision_mark(root: Path) -> str:
+    """Отпечаток зрения департамента или пустая строка, если снять нечем."""
+    try:
+        import sys as _s
+        _s.path.insert(0, str(root / "bin"))
+        import vision as _v
+        return _v.fingerprint(root)
+    except Exception:
+        # Замер требует эталонного корпуса. У клиента он может быть не забран —
+        # тогда отпечатка нет, и это говорится вслух, а не подменяется нулём.
+        return ""
+
+
 def grade(score: float) -> str:
     return "A+" if score >= 98 else "A" if score >= 93 else "B" if score >= 85 else "C" if score >= 70 else "D"
 
@@ -109,7 +139,24 @@ def score_of(c: dict) -> float:
                      - dens_penalty), 1)
 
 
-def render_html(c: dict, score: float, ts: str) -> str:
+def _vis_block(vision: str, warn) -> str:
+    """Надпись о сравнимости — на самом документе, а не в примечании к реестру."""
+    if not vision:
+        return ('<p class="s">Отпечаток зрения снять не удалось: эталонный '
+                'корпус измерителя недоступен. Сравнивать эту оценку с другими '
+                'выдачами нельзя — основания для сравнения нет.</p>')
+    head = f'<p class="s">Отпечаток зрения департамента: <b>{vision}</b>.'
+    if not warn:
+        return head + ' Прошлые выдачи сняты тем же измерителем — оценки сравнимы.</p>'
+    lst = ", ".join(f"{m} ({sc}, зрение {v})" for m, sc, v in warn)
+    return (head + " ОЦЕНКИ НЕ СРАВНИМЫ с прошлыми выдачами: " + lst +
+            ". Они сняты ДРУГИМ измерителем. Падение числа между такими "
+            "выдачами может означать рост зрения департамента, а не ухудшение "
+            "проекта, и читать его как ухудшение нельзя.</p>")
+
+
+def render_html(c: dict, score: float, ts: str, vision: str = "",
+                warn: list = None) -> str:
     g = grade(score)
     rows_f = "".join(f"<tr><td>{r}</td><td>{p}</td><td>{l}</td></tr>" for r, p, l in c["top"]) or \
              "<tr><td colspan=3>находок нет</td></tr>"
@@ -124,6 +171,7 @@ table{{width:100%;border-collapse:collapse;margin:10px 0 22px}} td,th{{border-to
 <p class="s">Проект: <b>{c['project']}</b> · период {ts[:7]} · выдан {ts} · правила: {', '.join(c['rules'])}</p>
 <div class="k"><div><b class="g">{g}</b>грейд</div><div><b>{score}</b>скор</div>
 <div><b>{c['files']}</b>файлов проверено</div><div><b>{c['report']}</b>находок советника открыто</div><div><b>{c['verify_rows']}</b>строк сверки · расхождений {c['verify_diverg']}</div></div>
+{_vis_block(vision, warn)}
 <p class="s">Формула v{FORMULA} (объявлена, ст. 1): score = 100 − 2.0·strict({c['strict']}) − 1.5·live({c['live']}) − 5.0·сверка({c['verify_diverg']}) − 40·d/(d+1), где d = report({c['report']}) / файлов({c['files']}) = {debt_density(c['report'], c['files']):.3f}. Долг советника входит ПЛОТНОСТЬЮ, а не объёмом: иначе большой чистый проект оценивался бы хуже малого грязного. Каждое правило выведено из замера/первоисточника с адресом (📐/🍎), суд департамента зелёный.</p>
 <h3>Файловые находки (top)</h3><table><tr><th>Правило</th><th>Файл</th><th>Строка</th></tr>{rows_f}</table>
 <h3>Живой прод (базовая линия{(' · деплой ' + c['live_sha'][:9]) if c['live_sha'] else ''})</h3>
@@ -158,8 +206,41 @@ def verify_register(out: Path) -> list:
     return problems
 
 
+def vision_conflicts(out: Path, month: str, vision: str) -> list:
+    """Прошлые выдачи, снятые ДРУГИМ измерителем. Читается до выдачи.
+
+    Порядок важен: реестр берёт sha256 уже записанного файла, а предупреждение
+    обязано стоять В самом файле. Значит сравнение отпечатков живёт отдельно от
+    записи реестра, иначе документ ссылался бы на себя.
+    """
+    reg = out / "REGISTER.md"
+    if not vision or not reg.exists():
+        return []
+    bad = []
+    for line in reg.read_text(encoding="utf-8").split("\n"):
+        if not line.startswith("| 20"):
+            continue
+        c = [x.strip() for x in line.split("|")]
+        if c[1] >= month:
+            continue
+        # Отпечаток не записан — это НЕ «тот же самый». Выдача до введения
+        # столбца снята неизвестным измерителем, и объявлять её сравнимой
+        # значило бы выдать незнание за совпадение (ЗКН-Э001).
+        # Ширина строки различает редакции реестра. Старая строка (7 полей)
+        # даёт 9 частей при разрезе по «|», новая (8 полей) — 10. Считать
+        # четвёртое поле отпечатком в старой строке значило бы принять за
+        # отпечаток имя файла: ровно это и случилось при первой правке, и
+        # документ объявил «зрение 2026-07.html».
+        v = c[4].strip("`") if len(c) >= 10 else ""
+        if not v or v == "—":
+            bad.append((c[1], c[2], "не записан"))
+        elif v != vision:
+            bad.append((c[1], c[2], v))
+    return sorted(bad)
+
+
 def register(out: Path, project: str, month: str, score: float,
-             gr: str, ts: str) -> None:
+             gr: str, ts: str, vision: str = "") -> None:
     """РЕЕСТР ВЫДАННЫХ СЕРТИФИКАТОВ (ст. 56 · M3).
 
     Так ведут дело органы сертификации: выданный документ НЕИЗМЕНЕН, а реестр
@@ -180,17 +261,25 @@ def register(out: Path, project: str, month: str, score: float,
             "против файла в этом каталоге. Копий у клиента нет намеренно —\n"
             "копия отстаёт от следующей выдачи (ЗКН-Э005: одно понятие — один\n"
             "источник). Клиент носит бейдж `badge.json` и адрес проверки.\n\n"
-            "| месяц | скор | грейд | файл | размер | sha256 | выдан |\n"
-            "|---|---|---|---|---|---|---|\n")
-    rows = {}
+            "Столбец «зрение» — отпечаток измерителя, под которым выдана\n"
+            "оценка. Оценки с РАЗНЫМИ отпечатками сравнивать нельзя: они\n"
+            "сняты разными измерителями, и падение числа может означать рост\n"
+            "зрения департамента, а не ухудшение проекта.\n\n"
+            "| месяц | скор | грейд | зрение | файл | размер | sha256 | выдан |\n"
+            "|---|---|---|---|---|---|---|---|\n")
+    rows, prev = {}, []
     if reg.exists():
         for line in reg.read_text(encoding="utf-8").split("\n"):
             if line.startswith("| 20"):
-                rows[line.split("|")[1].strip()] = line
-    rows[month] = (f"| {month} | {score} | {gr} | `{month}.html` | {f.stat().st_size} | "
-                   f"`{digest[:16]}…` | {ts} |")
+                cells = [c.strip() for c in line.split("|")]
+                rows[cells[1]] = line
+                prev.append((cells[1], cells[2],
+                             cells[4] if len(cells) > 8 else ""))
+    rows[month] = (f"| {month} | {score} | {gr} | `{vision or '—'}` | `{month}.html` | "
+                   f"{f.stat().st_size} | `{digest[:16]}…` | {ts} |")
     reg.write_text(head + "\n".join(rows[k] for k in sorted(rows)) + "\n", encoding="utf-8")
-    print(f"реестр: {project} · {month} · {score} · {gr} · sha256 {digest[:16]}…")
+    print(f"реестр: {project} · {month} · {score} · {gr} · зрение {vision or '—'} "
+          f"· sha256 {digest[:16]}…")
 
 
 
@@ -236,14 +325,16 @@ def run(project_root: Path, pdf: bool = False) -> dict:
     base = os.environ.get("EYES_CERT_OUT", "")
     out = (Path(base).resolve() if base else ROOT / "certificates") / c["project"]
     out.mkdir(parents=True, exist_ok=True)
-    html = render_html(c, score, ts)
+    vis = vision_mark(ROOT)
     month = ts[:7]
+    warn = vision_conflicts(out, month, vis)
+    html = render_html(c, score, ts, vis, warn)
     (out / f"{month}.html").write_text(html, encoding="utf-8")
     (out / "latest.html").write_text(html, encoding="utf-8")
     color = "brightgreen" if score >= 93 else "green" if score >= 85 else "yellow" if score >= 70 else "red"
     (out / "badge.json").write_text(json.dumps(
         {"schemaVersion": 1, "label": "BXE", "message": f"{score} · {grade(score)}", "color": color}), encoding="utf-8")
-    register(out, c["project"], month, score, grade(score), ts)
+    register(out, c["project"], month, score, grade(score), ts, vis)
     if pdf:
         try:
             from playwright.sync_api import sync_playwright

@@ -33,6 +33,7 @@ jobs:
             bin
             adapters
             registry/standards
+            tests/fixtures/vision
       - name: "BXE · ревью PR клиента по измеренным законам"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
