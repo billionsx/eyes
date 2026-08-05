@@ -9,7 +9,10 @@ on:
     - cron: "17 4 * * 2"
   workflow_dispatch:
 concurrency:
-  group: eyes-frames
+  # Одна очередь на всех, кто коммитит в этот репозиторий: прогон eyes и
+  # прогон добычи 05.08.2026 писали хронику одновременно, и коммит упал.
+  # Это гонка, а не отказ, и лечится она ожиданием, а не повтором.
+  group: eyes-write
   cancel-in-progress: false
 permissions:
   contents: write
@@ -28,6 +31,28 @@ jobs:
         run: |
           pip install pillow --quiet
           python3 bin/geoscan.py --frames /tmp/frames-new --out /tmp/scan-new.json
+      - name: "Сводка замера в реестр (кадры исчезнут с раннером, числа — нет)"
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, collections
+          d = json.load(open("/tmp/scan-new.json"))
+          def top(vals, step=0.5, n=6):
+              q = collections.Counter(round(v / step) * step for v in vals)
+              return [{"v": v, "n": c} for v, c in q.most_common(n)]
+          out = {
+            "frames": len(d), "ok": sum(1 for x in d if x.get("ok")),
+            "screens": top([x["screen_pt"][0] for x in d if x.get("screen_pt")], 1),
+            "surfaces": sum(len(x.get("surfaces") or []) for x in d),
+            "radii": top([s["radius_pt"] for x in d for s in (x.get("surfaces") or [])
+                          if s.get("radius_pt", 0) > 0.5]),
+            "rows": top([v for x in d for v in (x.get("rows_pt") or [])]),
+            "bars": top([v for x in d for v in (x.get("bottom_bars_pt") or [])]),
+          }
+          pathlib.Path("registry/screens/SCAN-appstore.json").write_text(
+              json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+          print("сводка замера записана:", out["ok"], "кадров ·",
+                out["surfaces"], "поверхностей")
+          PY
       - name: "Запись в базу: закрывается только то, что сошлось"
         run: python3 bin/geofill.py --scan /tmp/scan-new.json --write
       - name: "Суд департамента"
