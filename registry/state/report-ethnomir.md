@@ -1,0 +1,667 @@
+# BXE · отчёт линта · адаптер `ethnomir` · режим report
+Файлов просмотрено: 16 · правила: AE1, AE2, AE3, AE4, AE5, AE6, AE7, AE8, AE10, AE11, AE12, AE13, AE14, AE15, AE16, AE17, AE18, AE19, AE20 · находок: 2243
+
+⊘ AE9 воздержалось: проект объявлен светлым (base: light), а лестница прозрачности светлого стекла департаментом не снята — судить нечем
+
+⚠ охват смотрит в пустоту — эти глобы не нашли ни одного файла:
+- `packages/ui/**/*.tsx`
+- `packages/ui/**/*.css`
+
+## AE1 · 31
+- `apps/web/app/billionsx/bx-landing.tsx:661` — фон #F5F5F7 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/billionsx/bx-landing.tsx:789` — фон #F5F5F7 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/billionsx/bx-landing.tsx:1046` — фон #F5F5F7 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/billionsx/bx-landing.tsx:1761` — фон #000000 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/billionsx/bx-landing.tsx:2319` — фон #F5F5F7 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/billionsx/bx-landing.tsx:2674` — фон #F5F5F7 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/billionsx/bx-landing.tsx:2866` — фон #000000 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/contract/page.tsx:15` — фон #525659 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/contract/page.tsx:24` — фон #1D1D1F вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/contract/page.tsx:27` — фон #525659 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/invoice/page.tsx:15` — фон #525659 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/invoice/page.tsx:24` — фон #1D1D1F вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/invoice/page.tsx:27` — фон #525659 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/not-found.tsx:56` — фон #1D1D1F вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:681` — фон #000000 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:692` — фон #000000 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:2377` — фон #1A1A1A вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:7570` — фон #1A1A1A вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:7843` — фон #000000 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:7933` — фон #1C1C1E вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:8143` — фон #000000 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:8766` — фон #0A1028 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:8767` — фон #0A1028 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:10298` — фон #F8F8FA вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:10533` — фон #0A0A0A вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:10792` — фон #E8E4DF вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/page.tsx:10826` — фон #000000 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/way/page.tsx:97` — фон #100E22 вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `apps/web/app/way/page.tsx:98` — фон #0C0F1A вне лестницы поверхностей (#FFFFFF → #F2F2F7, замер)
+- `design-system/billionsx-design-system.css:116` — переменная фона #C6C6C8 вне объявленной проектом лестницы поверхностей (#F2F2F7 → #FFFFFF)
+- `design-system/billionsx-design-system.css:199` — переменная фона #38383A вне тёмной лестницы поверхностей (#000000 → #111111 → #181818 → #1C1C1C → #1C1C1E → #2C2C2C → #2C2C2E)
+
+## AE10 · 14
+- `apps/web/app/page.tsx:1237` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:4904` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:4920` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:8008` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:8890` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9078` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9129` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9174` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9215` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9256` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9305` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9352` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9837` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+- `apps/web/app/page.tsx:9949` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
+
+## AE11 · 618
+- `apps/web/app/billionsx/bx-landing.tsx:298` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:316` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:324` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:380` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:381` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:382` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:437` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:566` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:634` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:667` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:668` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:749` — border-radius 32px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:765` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:781` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:797` — border-radius 1px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:815` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:954` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:987` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1041` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1121` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1153` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1186` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1187` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1195` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1241` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1422` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1431` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1432` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1488` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1489` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1492` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1493` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1525` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1533` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1542` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1543` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1549` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1550` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1620` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1621` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1622` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1777` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1778` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1832` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1833` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1875` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:1876` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2017` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2018` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2019` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2039` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2040` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2046` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2047` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2081` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2085` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2087` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2105` — border-radius 1px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2144` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2144` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2148` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2148` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2179` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2190` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2191` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2197` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2198` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2319` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2320` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2321` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2358` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2359` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2365` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2366` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2457` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2458` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2470` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2471` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2530` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2531` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2568` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2628` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2629` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2782` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2783` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2882` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2883` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2894` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2938` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2939` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2945` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2946` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2991` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:2999` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3031` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3033` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3035` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3084` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3085` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3108` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3140` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3320` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3321` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3331` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3332` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3361` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3418` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3419` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/billionsx/bx-landing.tsx:3427` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:383` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:408` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:440` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:455` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:499` — border-radius 32px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:500` — border-radius 32px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:513` — border-radius 28px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:515` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:516` — border-radius 15px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:545` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `apps/web/app/page.tsx:548` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- … ещё 498
+
+## AE14 · 6
+- `design-system/billionsx-design-system.css:348` — цель касания 24px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `design-system/billionsx-design-system.css:349` — цель касания 28px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `design-system/billionsx-design-system.css:350` — цель касания 34px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `design-system/billionsx-design-system.css:431` — цель касания 31px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `design-system/billionsx-design-system.css:443` — цель касания 27px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+- `design-system/billionsx-design-system.css:443` — цель касания 27px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
+
+## AE17 · 2
+- `apps/web/app/globals.css:34` — поверхность #F2F2F7 задана одним значением на обе темы — проект темы объявляет, но эта поверхность из них выпадает; 🍎 Apple: значения системных цветов меняются от выпуска к выпуску, жёсткое одно на обе темы устаревает молча (/design/human-interface-guidelines/color)
+- `design-system/billionsx-design-system.css:444` — поверхность #FFFFFF задана одним значением на обе темы — проект темы объявляет, но эта поверхность из них выпадает; 🍎 Apple: значения системных цветов меняются от выпуска к выпуску, жёсткое одно на обе темы устаревает молча (/design/human-interface-guidelines/color)
+
+## AE18 · 2
+- `design-system/billionsx-design-system.css:343` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
+- `design-system/billionsx-design-system.css:404` — разделитель 0.5px тоньше замеренного 1pt — полпикселя исчезает на экране 1x и на печати (📐 замер 217 кадров, registry/standards/tokens.json separator)
+
+## AE19 · 1
+- `apps/web/app/billionsx/bx-landing.tsx:299` — кегль задан жёстким px в 3599 местах против 346 масштабируемых — интерфейс не переживёт Dynamic Type; 🍎 Apple растит кегль от xSmall к xxxLarge на 18 % (34→40 pt у Large Title), на ступенях доступности кратно (/design/human-interface-guidelines/typography)
+
+## AE2 · 85
+- `apps/web/app/billionsx/bx-landing.tsx:332` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:341` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:413` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:436` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:472` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:605` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:645` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:753` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:766` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:849` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:881` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:898` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:924` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1090` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1144` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1179` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1229` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1287` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1293` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1380` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1441` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1465` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1477` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1561` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1597` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1666` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1680` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1744` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1816` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1865` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1912` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:1992` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2023` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2096` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2131` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2216` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2228` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2308` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2384` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2431` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2441` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2513` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2563` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2605` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2665` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2703` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2802` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2822` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:2919` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3005` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3045` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3066` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3100` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3152` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3160` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3175` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3181` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3205` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3232` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3244` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3274` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:3310` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:104` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:145` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:185` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/billionsx/bx-landing.tsx:226` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:993` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1077` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1154` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1244` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1280` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1332` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1504` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1565` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/page.tsx:1607` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/app/r/[code]/page.tsx:12` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:272` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:369` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:375` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:384` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:419` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:421` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:445` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:462` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `design-system/billionsx-design-system.css:487` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+
+## AE20 · 174
+- `apps/web/app/billionsx/bx-landing.tsx:312` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:367` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:375` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:407` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:453` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:479` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:483` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:600` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:628` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:774` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:775` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:801` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:832` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:845` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:865` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:917` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:948` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1022` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1085` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1148` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1181` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1223` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1282` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1372` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1414` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1468` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1521` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1588` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1701` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1724` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1745` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1762` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1769` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1807` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1859` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1902` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:1988` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2031` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2076` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2127` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2135` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2136` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2137` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2171` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2247` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2253` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2275` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2304` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2352` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2425` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2432` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2442` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2494` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2554` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2594` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2622` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2624` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2658` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2676` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2699` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2771` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2867` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2874` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2922` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:2969` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3025` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3068` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3101` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3137` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3199` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3264` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3303` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3357` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/billionsx/bx-landing.tsx:3405` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/not-found.tsx:26` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:590` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:596` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:661` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:764` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:815` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:917` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:940` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1009` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1063` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1075` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1130` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1152` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1242` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1278` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1330` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1502` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1563` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1703` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1726` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1732` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1737` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1746` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1913` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:1931` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:2447` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:2451` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:2474` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:2478` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:2726` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:2782` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:2795` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:3015` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:3644` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:3688` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:3782` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:3794` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:3815` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:4805` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:5436` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:5789` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:6057` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:6316` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:6678` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:7022` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- `apps/web/app/page.tsx:7025` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
+- … ещё 54
+
+## AE3 · 4
+- `apps/web/app/billionsx/bx-landing.tsx:103` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/app/not-found.tsx:55` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/app/r/[code]/page.tsx:12` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `design-system/billionsx-design-system.css:325` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+
+## AE4 · 351
+- `apps/web/app/billionsx/bx-landing.tsx:436` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:651` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:1035` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:1181` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:1233` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:1470` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:1606` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:1609` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:1943` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2030` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2218` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2277` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2317` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2507` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2673` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2777` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2841` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:2927` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/billionsx/bx-landing.tsx:3382` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:436` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:590` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:596` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:661` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:675` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:697` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:736` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:764` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:802` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:815` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:918` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:940` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:944` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:993` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1009` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1063` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1064` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1075` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1099` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1130` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1152` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1242` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1278` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1330` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1502` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1563` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1703` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1726` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1732` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1737` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1746` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1855` — letter-spacing -0.6px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1913` — letter-spacing 1.2px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1916` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:1931` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2329` — letter-spacing -0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2428` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2474` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2478` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2529` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2690` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2726` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2782` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2783` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2795` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2964` — letter-spacing -0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2988` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:2989` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3007` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3015` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3123` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3407` — letter-spacing -0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3417` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3442` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3644` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3660` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3688` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3735` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3754` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3770` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3782` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3794` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:3815` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4072` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4073` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4169` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4170` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4296` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4297` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4395` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4434` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4510` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4511` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4546` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4904` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:4996` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:5436` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:5789` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6057` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6316` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6511` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6514` — letter-spacing -0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6529` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6550` — letter-spacing -1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6571` — letter-spacing -0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6600` — letter-spacing -2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6601` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:6678` — letter-spacing 0.8px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7008` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7022` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7024` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7025` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7051` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7129` — letter-spacing 2.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7136` — letter-spacing 3.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7137` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7140` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7141` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7142` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7143` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- `apps/web/app/page.tsx:7144` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
+- … ещё 231
+
+## AE5 · 952
+- `apps/web/app/billionsx/bx-landing.tsx:325` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:377` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:385` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:386` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:436` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:639` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:663` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:670` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:835` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:882` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:955` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1035` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1043` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1155` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1190` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1288` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1314` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1329` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1430` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1444` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1448` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1467` — font-size 100.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1487` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1491` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1541` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1545` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1548` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1552` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1567` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1605` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1609` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1617` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1618` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1727` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1776` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1780` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1783` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1784` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1829` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1835` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1871` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1878` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:1919` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2038` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2042` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2045` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2049` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2178` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2180` — font-size 7.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2182` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2189` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2193` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2196` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2200` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2281` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2317` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2324` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2325` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2357` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2361` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2364` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2368` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2391` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2436` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2460` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2466` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2469` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2473` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2507` — font-size 32.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2519` — font-size 8.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2526` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2529` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2533` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2571` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2625` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2631` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2717` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2752` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2777` — font-size 32.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2779` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2785` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2881` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2885` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2888` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2889` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2897` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:2927` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3000` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3030` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3037` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3083` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3110` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3111` — font-size 8.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3279` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3323` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3330` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/bx-landing.tsx:3335` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/billionsx/page.tsx:15` — font-size 42.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/contract/page.tsx:56` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/invoice/page.tsx:56` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:404` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:435` — font-size 72.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:446` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:455` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:457` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:502` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:547` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:548` — font-size 8.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:550` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:574` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:576` — font-size 80.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:603` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:655` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:660` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:663` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:692` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:693` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:693` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:704` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:704` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- … ещё 832
+
+## AE8 · 3
+- `apps/web/app/billionsx/bx-landing.tsx:576` — движение 40000ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
+- `apps/web/app/billionsx/bx-landing.tsx:583` — движение 50000ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
+- `apps/web/app/r/[code]/page.tsx:36` — движение 1000ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
+
