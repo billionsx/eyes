@@ -47,6 +47,21 @@
    "context": "onOS Technologies Fonts Tools Product Bezels iOS and iPadOS iOS 27 and iPadOS 27 UI Kit Figma Sketch App Icon Template Figma S"
   },
   {
+   "source": "dev-news-rss",
+   "match": "iOS 27",
+   "context": "oad templates and get started building App Store assets for iOS 27.</li> <li>Discover best practices for integrating visual in"
+  },
+  {
+   "source": "dev-news-rss",
+   "match": "iOS 27",
+   "context": "?id=0d2gpmml\">announced in June</a>, new Time Allowances in iOS 27, iPadOS 27, and macOS 27, or later, give parents more flexi"
+  },
+  {
+   "source": "dev-news-rss",
+   "match": "iPadOS 27",
+   "context": "pmml\">announced in June</a>, new Time Allowances in iOS 27, iPadOS 27, and macOS 27, or later, give parents more flexible ways to"
+  },
+  {
    "source": "dev-news",
    "match": "iOS 27",
    "context": "July 9, 2026 As announced in June , new Time Allowances in iOS 27, iPadOS 27, and macOS 27, or later, give parents more flexi"
@@ -85,24 +100,9 @@
    "source": "hig-whats-new",
    "match": "iOS 27",
    "context": "UI Kit for Sketch resourcessearchterm June 8, 2026 Updated iOS 27 and iPadOS 27 design kit for Sketch. Updated macOS UI Kit f"
-  },
-  {
-   "source": "ios-landing",
-   "match": "iOS 27",
-   "context": "inks ## h2: iOS ## h1: Develop for iOS ## h3: What’s new in iOS 27 ## h3: New to iOS development? ## h2: Get to know iOS ## h3"
-  },
-  {
-   "source": "ios-landing",
-   "match": "iOS 27",
-   "context": "with great performance and built-in privacy. What’s new in iOS 27 Dive into the latest key technologies and capabilities. New"
-  },
-  {
-   "source": "ios-release-notes",
-   "match": "iPadOS 27",
-   "context": "2026-07-30 15:54 UTC ## Overview ## Bug Reporting ## iOS & iPadOS 27 ## iOS & iPadOS 26 ## iOS & iPadOS 18 ## iOS & iPadOS 17 ##"
   }
  ],
- "last_scan": "2026-08-05 09:13 UTC",
+ "last_scan": "2026-08-06 08:08 UTC",
  "first_seen": "2026-07-23 08:47 UTC",
  "issue": 1
 }

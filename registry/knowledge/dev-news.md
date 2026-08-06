@@ -6,6 +6,8 @@
 
 ## без раздела
 - ## h2: Upcoming SDK minimum requirements
+- With these new assets, you can go beyond in-use visuals to highlight your brand, seasonal offerings, exciting new content, and more.
+- To help you plan your images and videos ahead of the fall launch, review our new App Store asset best practices, which include recommendations, as well as Figma, Photoshop, and Pixelmator design templates you can use to create captivating and compelling assets.
 - As previously shared, beginning in September 2026, responses will be required when submitting new apps or updates to the App Store, or when submitting apps for notarization for alternative distribution.
 - For significant changes, developers should use the Significant Change API under the PermissionKit framework.
 - Next steps Review documentation and implement the following: Declared Age Range API Significant Change API under PermissionKit New age rating property type in StoreKit App Store server notification Use Apple’s sandbox testing environment to validate that the APIs have been implemented correctly.
@@ -123,5 +125,3 @@
 - Developers of apps that use alternative browser engines can now use WebKit in those same apps.
 - To ensure a smooth transition and avoid push notification delivery failures, please make sure that both old and new server certificates are included in the Trust Store before the cut-off date for each of your application servers that connect to sandbox and production.
 - At this time, you don’t need to update the APNs SSL provider certificates issued to you by Apple.
-- Where required by local regulations, regional ratings will appear alongside Apple global age ratings.
-- Starting April 2025, apps uploaded to App Store Connect must be built with SDKs for iOS 18, iPadOS 18, tvOS 18, visionOS 2, or watchOS 11.

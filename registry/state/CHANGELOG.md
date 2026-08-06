@@ -2348,3 +2348,13 @@
 ### 2026-08-06 06:15 UTC · монитор прода
 - сейчас 11 · новых 1 · закрыто 7 · алерт: эфир
 
+### 2026-08-06 08:07 UTC · `dev-news` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/news/
+- домены мандата: ios27, hig
+- появились: h2: Get ready for new creative assets on the App Store · h2: Enhancements to help you submit and market your apps and games · h3: Submit additional items to App Review · h3: Create double the number of custom product pages and add keywords · h3: Offer codes expand to all In-App Purchase types · h2: New requirement for apps using Sign in with Apple for account creation · h3: Account change guidance · h3: Resources · h2: New requirements for apps available in Texas · h2: Upcoming Currency Change in Bulgaria · h2: App Store submissions now open for the latest OS releases · h2: Awe dropping.
+- объём текста: 106294 → 107051 зн.
+
+### 2026-08-06 08:07 UTC · `dev-news-rss` · первый снимок
+- https://developer.apple.com/news/rss/news.rss
+- домены мандата: ios27
+

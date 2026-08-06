@@ -52,6 +52,7 @@
 ## ios27
 - [`apple-newsroom-rss`](apple-newsroom-rss.md) · положений: 0
 - [`dev-news`](dev-news.md) · положений: 120
+- [`dev-news-rss`](dev-news-rss.md) · положений: 33
 - [`doc-updates`](doc-updates.md) · положений: 35
 - [`hig-whats-new`](hig-whats-new.md) · положений: 16
 - [`ios-landing`](ios-landing.md) · положений: 5
