@@ -1,9 +1,9 @@
 # ЖИВОЙ ВЗГЛЯД · отчёт (советник)
-Снято: 2026-08-06 06:15 UTC · настоящий DOM+computed, не кадры.
+Снято: 2026-08-06 09:11 UTC · настоящий DOM+computed, не кадры.
 
 ## https://ethnomir.app/
 элементов снято: 20 · находок: 1
-диагностика: {"url": "https://ethnomir.app/", "title": "Этномир", "theme": "dark", "ready": "complete", "htmlLen": 38387, "bodyChildren": 13}
+диагностика: {"url": "https://ethnomir.app/", "title": "Этномир", "theme": "dark", "ready": "complete", "htmlLen": 38390, "bodyChildren": 13}
 - **AE1** · 1: `div` (живой тёмный фон #0A0A0A вне лестницы)
 
 ## https://ethnomir.app/billionsx
@@ -12,8 +12,8 @@
 - **AE1** · 1: `a` (живой тёмный фон #1D1D1F вне лестницы)
 
 ## https://ethnomir.app/steps
-элементов снято: 86 · находок: 4
-диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 1377634, "bodyChildren": 252}
+элементов снято: 88 · находок: 4
+диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 1476948, "bodyChildren": 271}
 - **AE10** · 4: `p.chk` (живой шрифт первой позицией: ui-monospace); `span.chkl` (живой шрифт первой позицией: ui-monospace); `a` (живой шрифт первой позицией: ui-monospace); `span.pathref` (живой шрифт первой позицией: ui-monospace)
 
 ## https://ethnomir.app/way
@@ -27,7 +27,7 @@
 
 ## https://ethnomir.app/coverage
 элементов снято: 42 · находок: 2
-диагностика: {"url": "https://ethnomir.app/coverage", "title": "Покрытие доступов — Этномир", "theme": "dark", "ready": "complete", "htmlLen": 118328, "bodyChildren": 27}
+диагностика: {"url": "https://ethnomir.app/coverage", "title": "Покрытие доступов — Этномир", "theme": "dark", "ready": "complete", "htmlLen": 123453, "bodyChildren": 27}
 - **AE10** · 2: `td.tn` (живой шрифт первой позицией: ui-monospace); `code` (живой шрифт первой позицией: ui-monospace)
 
 ## https://brajs.com/
@@ -36,9 +36,9 @@
 
 ## https://brajs.com/katha
 элементов снято: 33 · находок: 0
-диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 21227, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 20675, "bodyChildren": 2}
 
 ## https://brajs.com/library
-элементов снято: 38 · находок: 0
+элементов снято: 40 · находок: 0
 диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 20879, "bodyChildren": 2}
 
