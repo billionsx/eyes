@@ -82,3 +82,5 @@
 {"id": "/documentation/CoreML/MLFeatureProvider", "law": "Use the returned from a method to get the output feature values for that prediction."}
 {"id": "/documentation/CoreML/MLModel/modelDescription", "law": "Model information you use at runtime during development, which Xcode also displays in its Core ML model editor view."}
 {"id": "/documentation/CoreML/MLMultiArray", "law": "Some models use a one-dimensional multiarray for an input or output."}
+{"id": "/documentation/coreml/generating-a-model-encryption-key", "law": "Use the first button in the confirmation dialog to show the model encryption key in Finder, or navigate to the model’s enclosing folder."}
+{"id": "/documentation/CoreML/MLShapedArrayRangeExpression", "law": "An interface for a range expression, which you typically use with subscripts of shaped array types."}

@@ -58,3 +58,8 @@
 {"id": "/documentation/mediaplayer/providing-animated-artwork-for-media-items", "law": "Avoid high frame rate video (greater than 60 fps), as the system may not display your animated artwork."}
 {"id": "/documentation/mediaplayer/mpnowplayinginfocenter/playbackstate", "law": "You must set this property every time the app begins or halts playback, otherwise remote control functionality may not work as expected."}
 {"id": "/documentation/mediaplayer/mpremotecommand", "law": "Registering a remote control event handler If you explicitly don’t want to enable a given command, fetch the command object and set its enabled property to ."}
+{"id": "/documentation/MediaPlayer/MPVolumeView", "law": "Use a volume view to present the user with a slider control for setting the system audio output volume, and a button for choosing the audio output route when the option is available."}
+{"id": "/documentation/MediaPlayer/MPVolumeView", "law": "To instead display a volume slider as an alert, use the functions described in ."}
+{"id": "/documentation/MediaPlayer/MPVolumeView", "law": "Sliders are always displayed as horizontal bars and an indicator, or thumb , notes the current value of the slider, which the user can move to change the setting."}
+{"id": "/documentation/MediaPlayer/MPVolumeView", "law": "The system draws the region between the thumb and the end of the track associated with the slider’s minimum value using the minimum volume slider image ."}
+{"id": "/documentation/MediaPlayer/MPVolumeView", "law": "The system region between the thumb and the end of the track associated with the slider’s maximum value using the maximum volume slider image ."}

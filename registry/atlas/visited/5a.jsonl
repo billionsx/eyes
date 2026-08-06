@@ -174,3 +174,6 @@
 {"id": "/documentation/MetricKit/TotalCellularUploadMetric", "sha": "0faddf33ba9eb3e03c481dbd5b037875a25eeff66758f1dd40ed77c1788b3191", "sieve": 2, "t": "TotalCellularUploadMetric", "n": 315, "laws": 0, "ts": "2026-08-05 05:54 UTC"}
 {"id": "/documentation/AppKit/NSLeftTextAlignment", "sha": "b860284e3da5fca3378152211618136c2089086f20933bb4ecfd201f649f3d16", "sieve": 2, "t": "NSLeftTextAlignment", "n": 30, "laws": 0, "ts": "2026-08-05 06:03 UTC"}
 {"id": "/documentation/AppKit/NSWindow/isReleasedWhenClosed", "sha": "dc1eff1f33c5122abf029e9ff0fc0b674645a9f1cebe0b8bab8e67c27aea4732", "sieve": 2, "t": "isReleasedWhenClosed", "n": 487, "laws": 0, "ts": "2026-08-05 06:03 UTC"}
+{"id": "/documentation/coretext/ctfontmanagergetscopeforurl(_:)", "sha": "0eac08f6b58f5444c1d20cb88cd37108f25d23dcdf37f6d0e7c75c49368c7e47", "sieve": 2, "t": "CTFontManagerGetScopeForURL(_:)", "n": 144, "laws": 0, "ts": "2026-08-06 05:38 UTC"}
+{"id": "/documentation/metalperformanceshaders/mpscnnneuronsoftplus", "sha": "ecaa0624f1d5a3aa2098ec8450a9ea236b8c7fd802971c4aba617517399664c2", "sieve": 2, "t": "MPSCNNNeuronSoftPlus", "n": 154, "laws": 0, "ts": "2026-08-06 05:52 UTC"}
+{"id": "/documentation/CoreML/MLTensorScalar", "sha": "476969093373353be040ef0aae90ff3313f5a9d3a7fa561cd55ba631fe7ae109", "sieve": 2, "t": "MLTensorScalar", "n": 104, "laws": 0, "ts": "2026-08-06 06:02 UTC"}

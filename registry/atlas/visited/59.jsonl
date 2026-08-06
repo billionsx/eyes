@@ -160,3 +160,6 @@
 {"id": "/documentation/StoreKit/PurchaseAction", "sha": "954cea05da934f8c6b3ea5245c510ae98672d9a41abd5bdbf6bf9f61c6a42edf", "sieve": 2, "t": "PurchaseAction", "n": 1545, "laws": 0, "ts": "2026-08-05 05:51 UTC"}
 {"id": "/documentation/MapKit/MKAnnotationView/accessoryOffset", "sha": "82ce9efea25b26aae63e88e16b84995aa4e8fc31357284bafd35431705f7fd3c", "sieve": 2, "t": "accessoryOffset", "n": 60, "laws": 0, "ts": "2026-08-05 05:56 UTC"}
 {"id": "/documentation/AppKit/NSLayoutAnchor/hasAmbiguousLayout", "sha": "b96d94585053ab51d90c7dc8f49fda9b577ddcb375871267076fdc5517dea029", "sieve": 2, "t": "hasAmbiguousLayout", "n": 105, "laws": 0, "ts": "2026-08-05 06:02 UTC"}
+{"id": "/documentation/metalperformanceshaders/mpssvgf", "sha": "cbaaa1c4f4995164e5834b1fb07980b150022bab4585f597fd53cbabcc38adca", "sieve": 2, "t": "MPSSVGF", "n": 1592, "laws": 0, "ts": "2026-08-06 05:50 UTC"}
+{"id": "/documentation/quartzcore/calayer/wantsdynamiccontentscaling", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "wantsDynamicContentScaling", "n": 0, "laws": 0, "ts": "2026-08-06 05:59 UTC"}
+{"id": "/documentation/distributed/localtestingactorid", "sha": "eeaf0a56a061329168bb246d3139a34c9d64b16aeba53b9f23cc81f3332c7ba3", "sieve": 2, "t": "LocalTestingActorID", "n": 76, "laws": 0, "ts": "2026-08-06 06:05 UTC"}

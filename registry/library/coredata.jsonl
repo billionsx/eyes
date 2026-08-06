@@ -143,3 +143,7 @@
 {"id": "/documentation/CoreData/accessing-data-when-the-store-changes", "law": "Managed objects don’t automatically refresh, as this behavior may not be desirable and is difficult to revert."}
 {"id": "/documentation/CoreData/NSManagedObjectContext/save()", "law": "To commit changes to the external store, you must save changes in the chain of contexts up to and including the context whose parent is the persistent store coordinator."}
 {"id": "/documentation/CoreData/NSManagedObjectContext/save()", "law": "Always verify that the context has uncommitted changes (using the property) before invoking the method."}
+{"id": "/documentation/coredata/consuming-relevant-store-changes", "law": "Use persistent history tracking to determine what changes have occurred in the store, and to update your view context only as needed."}
+{"id": "/documentation/coredata/persistent-history", "law": "Use persistent history tracking to determine what changes have occurred in the store since the enabling of persistent history tracking."}
+{"id": "/documentation/coredata/creating-a-core-data-model-for-cloudkit", "law": "As you design your model, be aware of the following limitations and make sure you create a compatible data model."}
+{"id": "/documentation/CoreData/mirroring-a-core-data-store-with-cloudkit", "law": "Design your Core Data model, and use it to initialize the CloudKit schema."}

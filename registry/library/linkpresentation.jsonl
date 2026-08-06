@@ -1,2 +1,6 @@
 {"id": "/documentation/LinkPresentation/LinkMetadata", "law": "Use to store metadata about a URL, including its title, icon, images, and video."}
 {"id": "/documentation/LinkPresentation/LinkMetadata", "law": "For remote URLs, cache the metadata locally to avoid the data and performance cost of fetching it from the internet every time you present it."}
+{"id": "/documentation/LinkPresentation/LPLinkView", "law": "Use it to show a link’s title and icon, associated images, inline audio, video playback, and maps in a familiar and consistent style."}
+{"id": "/documentation/LinkPresentation/LPMetadataProvider", "law": "Use to fetch metadata for a URL, including its title, icon, and image or video links."}
+{"id": "/documentation/LinkPresentation/LPLinkMetadata", "law": "Use to store the metadata about a URL, including its title, icon, images and video."}
+{"id": "/documentation/LinkPresentation/LPLinkMetadata", "law": "You don’t have to fetch new metadata from the internet in order to accelerate the share sheet or to present a rich link."}

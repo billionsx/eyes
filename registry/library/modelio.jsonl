@@ -49,3 +49,6 @@
 {"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:roughness:)", "law": "A renderer can use this texture to create diffuse lighting effects."}
 {"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:roughness:)", "law": "The side of an object rendered with a reflective material would show a hard line between red and blue, but a diffuse material should appear purple, because the side of the object receives a blend of the red light from above and the blue light from below."}
 {"id": "/documentation/modelio/mdltexture/irradiancetexturecube(with:name:dimensions:roughness:)", "law": "You can use reflective and irradiance textures with the class."}
+{"id": "/documentation/ModelIO/MDLMesh", "law": "Each submesh contains index buffer data that describes how the mesh’s vertices should be combined for drawing and references material information describing an intended surface appearance for the submesh."}
+{"id": "/documentation/ModelIO/MDLLightProbe", "law": "A renderer can use this texture to create reflections on surfaces with metallic materials."}
+{"id": "/documentation/ModelIO/MDLMaterial", "law": "Use the property of a object to associate a material with a 3D object for rendering or to find the material assigned to an object loaded from an asset file."}

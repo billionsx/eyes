@@ -182,3 +182,7 @@
 {"id": "/documentation/tipkit/tipuicollectionreusableview", "sha": "e840b5049c7f1f5424b635af4aa2d15538daad01ddec36bac4cfb422e4c28ec2", "sieve": 2, "t": "TipUICollectionReusableView", "n": 448, "laws": 0, "ts": "2026-08-05 05:40 UTC"}
 {"id": "/documentation/security/authorization-rights-flags", "sha": "812848f3a97f6ba9344967ec5c7c145dc788a4ccac2b50e5577680b3858610ac", "sieve": 2, "t": "Authorization Rights Flags", "n": 278, "laws": 0, "ts": "2026-08-05 05:44 UTC"}
 {"id": "/documentation/appkit/nspdfpanel/options-swift.property", "sha": "6e234b3cc93e65c9c5d79c738041a3d39a02a496928f5ac2e5ef96fbb5d133d5", "sieve": 2, "t": "options", "n": 190, "laws": 0, "ts": "2026-08-05 05:57 UTC"}
+{"id": "/documentation/coretext/core-text-functions", "sha": "37d053f3f96f4fac6a56521dbe71f1c7d0f77bc2a49a5ad859392dbfcfaca326", "sieve": 2, "t": "Core Text Functions", "n": 1695, "laws": 0, "ts": "2026-08-06 05:35 UTC"}
+{"id": "/documentation/quartzcore/calayer/borderwidth", "sha": "1167a0b047a406dd789e9ddaecd1d278528a1c126d2008a9a735ee21206ee9b1", "sieve": 2, "t": "borderWidth", "n": 382, "laws": 0, "ts": "2026-08-06 05:57 UTC"}
+{"id": "/documentation/coreml/encrypting-a-model-in-your-app", "sha": "c3f7de45cc92a39f8f9c92a6978bf880c219998f57eac9902a3dc8438b4e1176", "sieve": 2, "t": "Encrypting a Model in Your App", "n": 956, "laws": 0, "ts": "2026-08-06 06:02 UTC"}
+{"id": "/documentation/ObjectiveC/ObjCBool", "sha": "28751b40c9f4200f89f9e530d3f765c7fe02ae9761a48bbc6b6bdb6a89f368de", "sieve": 2, "t": "ObjCBool", "n": 185, "laws": 0, "ts": "2026-08-06 06:04 UTC"}

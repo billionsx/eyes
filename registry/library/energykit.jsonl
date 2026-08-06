@@ -28,3 +28,5 @@
 {"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Create a load event with the state: The event requires zero energy and zero power because charging hasn’t started."}
 {"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "The load event requires you to report active charging."}
 {"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the tariff breakdown to retrieve energy costs when a person connects their utility account: The framework provides insights only after you submit load events."}
+{"id": "/documentation/EnergyKit/ElectricHVACLoadEvent", "law": "Load events for an are accessible to all people that use the Home app."}
+{"id": "/documentation/energykit/electrichvacloadevent", "law": "Load events for an are accessible to all people that use the Home app."}

@@ -2301,3 +2301,36 @@
 ### 2026-08-05 20:26 UTC · монитор прода
 - сейчас 38 · новых 0 · закрыто 0 · алерт: эфир
 
+### 2026-08-06 06:05 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 1071 · законов добыто 148 · изменилось 22
+- фронтир 12576 · всего пройдено 45700 · библиотека 33577 законов / 340 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32504)
+- очередь просеяна приёмом: было 13976, осталось 13005 (отложено 971)
+- закон изменился: /documentation/browserenginekit/limiting-resource-access-in-content-extensions · «Limiting resource access in web content extensions»
+- закон изменился: /documentation/BrowserEngineKit/using-xpc-to-communicate-with-browser-extensions · «Using XPC to communicate with browser extensions»
+- закон изменился: /documentation/browserenginekit/creating-browser-extensions-in-xcode · «Creating browser extensions in Xcode»
+- закон изменился: /documentation/BrowserEngineKit · «BrowserEngineKit»
+- закон изменился: /documentation/CoreData/NSPersistentContainer · «NSPersistentContainer»
+- закон изменился: /documentation/CoreData/NSPersistentStoreRemoteChangeNotificationPostOptionKey · «NSPersistentStoreRemoteChangeNotificationPostOptionKey»
+- закон изменился: /documentation/Virtualization/running-macos-in-a-virtual-machine-on-apple-silicon · «Running macOS in a virtual machine on Apple silicon»
+- закон изменился: /documentation/CoreGraphics/CGPath · «CGPath»
+- закон изменился: /documentation/CoreGraphics/CGBitmapInfo · «CGBitmapInfo»
+- закон изменился: /documentation/CoreGraphics/CGImage · «CGImage»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 106
+
+### · большая семёрка
+- страниц 58 · новых положений 36 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 86 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

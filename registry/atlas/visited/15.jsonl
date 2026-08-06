@@ -161,3 +161,6 @@
 {"id": "/documentation/messages/mssession", "sha": "4fd7c3510102bdf67498ed5ad9eafd112a76c1389168a9f7b1eedd1ba9c19355", "sieve": 2, "t": "MSSession", "n": 2726, "laws": 0, "ts": "2026-08-05 05:52 UTC"}
 {"id": "/documentation/appkit/bezelstyle-deprecated-symbols", "sha": "96f43889ebcc4b6b605cd6043a12a5d3863fae59c29de7d83bdca4280ac8e5ee", "sieve": 2, "t": "Deprecated Symbols", "n": 189, "laws": 0, "ts": "2026-08-05 05:58 UTC"}
 {"id": "/documentation/AppKit/NSFont", "sha": "cb4cea2d6d59b6194c576e8cc4ec094d086246697c15dc7c88123d1958d66c3d", "sieve": 2, "t": "NSFont", "n": 2712, "laws": 1, "ts": "2026-08-05 05:59 UTC"}
+{"id": "/documentation/realitykit/meshdescriptor/materials-swift.property", "sha": "40d37df71b001fac411ac0fcfe7d508865350c3b8b0a3bf16fc362d4e2354b29", "sieve": 2, "t": "materials", "n": 21, "laws": 0, "ts": "2026-08-06 05:40 UTC"}
+{"id": "/documentation/metalperformanceshaders/mpsnnpad", "sha": "3d5b9271b5190b05d1343db3b8554e9eac56d4c5d08bda09f4c28292f46d3885", "sieve": 2, "t": "MPSNNPad", "n": 237, "laws": 0, "ts": "2026-08-06 05:50 UTC"}
+{"id": "/documentation/quartzcore/calayer/sublayertransform", "sha": "62850fd1b3ab69ed1000072c075b5e9c2d0f800bad4ebb1aa92fca3752191aca", "sieve": 2, "t": "sublayerTransform", "n": 334, "laws": 0, "ts": "2026-08-06 05:58 UTC"}

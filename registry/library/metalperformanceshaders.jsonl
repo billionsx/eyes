@@ -41,3 +41,5 @@
 {"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "You may use the property with the methods of an subclass, if and the texture conforms to the requirements of the given kernel."}
 {"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "You can not read or write data to an using the CPU, or use the data in other objects."}
 {"id": "/documentation/metalperformanceshaders/mpstemporaryimage", "law": "Use regular objects for more persistent storage."}
+{"id": "/documentation/metalperformanceshaders/mpsnngraph", "law": "In typical usage, some refinement, especially of padding policies, may be required to get the expected answer from Metal Performance Shaders."}
+{"id": "/documentation/metalperformanceshaders/mpsimage/init(texture:featurechannels:)", "law": "For textures containing typical image data, the parameter should be set to the number of valid color channels (e.g."}

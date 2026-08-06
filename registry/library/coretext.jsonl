@@ -9,3 +9,18 @@
 {"id": "/documentation/CoreText/CTFontManagerUnregisterFontDescriptors(_:_:_:)", "law": "Unregistered fonts don’t participate in font descriptor matching."}
 {"id": "/documentation/CoreText/CTFontManagerUnregisterFontURLs(_:_:_:)", "law": "Unregistered fonts don’t participate in font descriptor matching."}
 {"id": "/documentation/CoreText/CTFontManagerUnregisterFontURLs(_:_:_:)", "law": "On iOS, you can only use this function to unregister fonts that you registered using or ."}
+{"id": "/documentation/coretext/cttextalignment/init(_:)", "law": "Use this function when you need to map between the UIKit and Core Text constants for text alignment."}
+{"id": "/documentation/coretext/kctfontmanagerregisteredfontschangednotification", "law": "This is the string to use as the notification name when subscribing to Core Text Font Manager notifications."}
+{"id": "/documentation/coretext/ctfontcopyfeaturesettings(_:)", "law": "The array contains only the non-default settings that should be applied to the font, or if the default settings should be used."}
+{"id": "/documentation/coretext/ctfontcopyfeaturesettings(_:)", "law": "The feature settings are verified against those that the font supports and any that do not apply are removed."}
+{"id": "/documentation/coretext/ctfontcreatewithfontdescriptor(_:_:_:)", "law": "A best match font is always returned, and default values are used for any unspecified parameters."}
+{"id": "/documentation/coretext/ctfontcreatewithfontdescriptorandoptions(_:_:_:_:)", "law": "A best match font is always returned, and default values are used for any unspecified."}
+{"id": "/documentation/coretext/ctfontuifonttype", "law": "Use these constants with the function to indicate the intended user interface use of the font reference to be created."}
+{"id": "/documentation/coretext/ctfontmanagercreatefontdescriptorfromdata(_:)", "law": "If you wish to make the font available for name matching, use instead."}
+{"id": "/documentation/coretext/ctfontmanagerissupportedfont(_:)", "law": "This function doesn’t validate any font data, so you must handle registration or font descriptor creation failures yourself."}
+{"id": "/documentation/coretext/ctfontmanagerregistergraphicsfont(_:_:)", "law": "Fonts that are backed by files should be registered using ."}
+{"id": "/documentation/coretext/ctfontmanagerrequestfonts(_:_:)", "law": "Other apps must call this function to make the fonts available for font descriptor matching."}
+{"id": "/documentation/coretext/ctfontmanagerregisterfontswithassetnames(_:_:_:_:_:)", "law": "You can use the same names to unregister the fonts with ."}
+{"id": "/documentation/coretext/ctfontmanagerunregisterfontdescriptors(_:_:_:)", "law": "Unregistered fonts don’t participate in font descriptor matching."}
+{"id": "/documentation/coretext/ctfontmanagerunregisterfonturls(_:_:_:)", "law": "Unregistered fonts don’t participate in font descriptor matching."}
+{"id": "/documentation/coretext/ctfontmanagerunregisterfonturls(_:_:_:)", "law": "On iOS, you can only use this function to unregister fonts that you registered using or ."}

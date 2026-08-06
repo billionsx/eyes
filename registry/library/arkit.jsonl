@@ -504,3 +504,22 @@
 {"id": "/documentation/ARKit/ARCoachingOverlayView", "law": "If you do not implement , the coaching overlay responds to the Start Over button by resetting tracking, which also removes any existing anchors."}
 {"id": "/documentation/ARKit/verifying-device-support-and-user-permission", "law": "If your app uses face-tracking AR: Face tracking requires the front-facing TrueDepth camera on iPhone X."}
 {"id": "/documentation/ARKit/verifying-device-support-and-user-permission", "law": "If you use ARKit face tracking features, your app must include a privacy policy describing to users how you intend to use face tracking and face data."}
+{"id": "/documentation/arkit/configuration-objects", "law": "For example, use instead of a world-tracking configuration for 3D motion-capture if you don’t need user face-tracking, collaboration, or scene reconstruction."}
+{"id": "/documentation/arkit/understanding-world-tracking", "law": "Although world tracking can produce realistic AR experiences with accuracy and precision, it relies on details of the device’s physical environment that are not always consistent and can be difficult to measure in real time without a degree of error."}
+{"id": "/documentation/arkit/understanding-world-tracking", "law": "World tracking involves image analysis, which requires a clear image."}
+{"id": "/documentation/arkit/understanding-world-tracking", "law": "Use tracking quality information to provide user feedback ."}
+{"id": "/documentation/arkit/understanding-world-tracking", "law": "The class provides tracking state reason information, which you can use to develop UI that tells a user how to resolve low-quality tracking situations."}
+{"id": "/documentation/arkit/previewing-a-model-with-ar-quick-look", "law": "To prevent the user from scaling your virtual content or to customize the default share sheet behavior, use instead of ."}
+{"id": "/documentation/arkit/providing-3d-virtual-content-with-scenekit", "law": "Use the SceneKit physically based lighting model for materials for a more realistic appearance."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "One way to build compelling AR experiences is to recognize features of the user’s environment and use them to trigger the appearance of virtual content."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "Use in a world-tracking AR session to recognize a reference object and create AR interactions."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "Avoid warm or any other colored light sources."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "(Or, if you leave the box untouched, you can move around the object and the app will attempt to automatically fit a box around it.) Make sure the bounding box contains only features of the object you want to scan (not those from the environment it’s in), then tap the Scan button."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "For best results, move slowly and avoid abrupt motions."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "In this step you can also use the Add (+) button to load a 3D model in USDZ format."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "You can use an Xcode asset catalog to bundle reference objects in an app for use in detection: Open your project’s asset catalog, then use the Add button (+) to add a new AR resource group."}
+{"id": "/documentation/arkit/scanning-and-detecting-3d-objects", "law": "An object to be detected must have the same shape as the scanned reference object."}
+{"id": "/documentation/arkit/adding-realistic-reflections-to-an-ar-experience", "law": "Design virtual content to use fully-reflective surfaces only in small or highly-detailed parts, and use less reflectivity in large flat surfaces."}
+{"id": "/documentation/arkit/adding-realistic-reflections-to-an-ar-experience", "law": "(See the sample function.) Avoid abrupt transitions between different environment textures."}
+{"id": "/documentation/arkit/adding-realistic-reflections-to-an-ar-experience", "law": "Depending on what environment textures are in use before and after the transition, that change may be jarring to the user."}
+{"id": "/documentation/arkit/adding-realistic-reflections-to-an-ar-experience", "law": "To avoid unrealistic transitions, this sample app waits until the first environment texture becomes available before allowing the user to place virtual content."}

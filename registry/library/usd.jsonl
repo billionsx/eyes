@@ -37,3 +37,6 @@
 {"id": "/documentation/USD/creating-usd-files-for-apple-devices", "law": "Avoid relying on preliminary schemas for production content that needs to remain stable across operating system releases."}
 {"id": "/documentation/USD/creating-usd-files-for-apple-devices", "law": "When a preliminary schema you use becomes standardized, re-export your assets using the standard USD schema to ensure long-term compatibility and the broadest renderer support."}
 {"id": "/documentation/USD/creating-usd-files-for-apple-devices", "law": "The number of triangles your renderer must draw each frame is one of the most significant factors affecting performance."}
+{"id": "/documentation/usd/usd-concepts", "law": "You can use it to offset an animation by a number of frames, or play it at a different speed, without touching the source file."}
+{"id": "/documentation/usd/usd-concepts", "law": "Use purpose to include high-resolution geometry for offline rendering, lighter proxies for interactive preview, and guide shapes visible only during authoring."}
+{"id": "/documentation/usd/usd-concepts", "law": "Tools use kind to navigate large scenes efficiently, focusing only on the prims relevant to a given task."}

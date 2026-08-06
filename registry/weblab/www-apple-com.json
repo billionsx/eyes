@@ -6,20 +6,20 @@
   "section-endless-entertainment-gallery"
  ],
  "modules": [
+  "name:hero-ted-lasso",
   "name:hero-bts-2026",
-  "name:hero-macbook-air-m5",
   "name:hero-iphone-family",
-  "name:promo-apple-upgrade",
+  "name:promo-macbook-air-m5",
+  "name:promo-apple-at-work",
   "name:promo-ipad-air-m4",
   "name:promo-macbook-pro",
-  "name:promo-apple-watch-series-11",
   "name:promo-iphone-tradein",
   "name:promo-apple-card",
   "name:endless-entertainment",
   "name:tv-plus-gallery",
   "name:fam-gallery"
  ],
- "imgs": 102,
+ "imgs": 100,
  "videos": 5,
  "cta": 46,
  "h_levels": {

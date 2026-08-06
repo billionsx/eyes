@@ -62,3 +62,11 @@
 {"id": "/documentation/coregraphics/cgimagealphainfo", "law": "You should not premultiply any other color values specified in Core Graphics."}
 {"id": "/documentation/CoreGraphics/CGBitmapInfo", "law": "Applications that store pixel data in memory using ARGB format must take care in how they read data."}
 {"id": "/documentation/CoreGraphics/CGBitmapInfo", "law": "To specify byte ordering, use a bitwise OR operator to combine the appropriate constant with the parameter."}
+{"id": "/documentation/CoreGraphics/quartz-display-services", "law": "You can use these functions to find out what areas on local displays are changing their appearance as the result of operations such as drawing, window movement or scrolling, and display reconfiguration."}
+{"id": "/documentation/coregraphics/quartz-display-services", "law": "You can use these functions to find out what areas on local displays are changing their appearance as the result of operations such as drawing, window movement or scrolling, and display reconfiguration."}
+{"id": "/documentation/CoreGraphics/CGImageAlphaInfo/noneSkipFirst", "law": "If the total size of the pixel is greater than the space required for the number of color components in the color space, the most significant bits are ignored."}
+{"id": "/documentation/CoreGraphics/CGColorRenderingIntent", "law": "The rendering intent specifies how Quartz should handle colors that are not located within the gamut of the destination color space of a graphics context."}
+{"id": "/documentation/CoreGraphics/CGColorRenderingIntent", "law": "If you do not explicitly set the rendering intent by calling the function , the graphics context uses the relative colorimetric rendering intent, except when drawing sampled images."}
+{"id": "/documentation/CoreGraphics/CGColorConversionInfo", "law": "You use color conversion objects to specify the work to be done by an filter, which can then perform GPU-accelerated image conversion."}
+{"id": "/documentation/CoreGraphics/CGColorConversionInfo", "law": "An object that describes how to convert between color spaces for use by other system services."}
+{"id": "/documentation/CoreGraphics/kCGFontIndexInvalid", "law": "An invalid font index (a value which never represents a valid glyph)."}

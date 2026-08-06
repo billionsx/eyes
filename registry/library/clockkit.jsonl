@@ -112,3 +112,6 @@
 {"id": "/documentation/clockkit/building-complications-with-swiftui", "law": "Some watch faces use a complex set of colors; for example, the Solar Dial face sets both a foreground and background color, and the colors change based on the time of day."}
 {"id": "/documentation/clockkit/displaying-progress-views-and-gauges", "law": "You configure gauges much as you do progress views, but gauges have even more options, including minimum and maximum value labels and color gradients."}
 {"id": "/documentation/clockkit/displaying-progress-views-and-gauges", "law": "Finally, you can use the modifier to apply a tint to the progress bar."}
+{"id": "/documentation/clockkit/displaying-essential-information-on-a-watch-face", "law": "To avoid showing a desaturated image, this sample uses to provide both full-color and tinted versions."}
+{"id": "/documentation/ClockKit/sharing-an-apple-watch-face", "law": "When presenting a watch face from your app or on the web, always display a preview of the watch face, and a button that uses an official Add Watch Face asset."}
+{"id": "/documentation/ClockKit/sharing-an-apple-watch-face", "law": "Always display both the watch face preview with an official Add Apple Watch Face button."}

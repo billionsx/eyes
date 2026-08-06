@@ -3857,3 +3857,5 @@
 {"id": "/documentation/uikit/nsparagraphstyle/allowsdefaulttighteningfortruncation", "law": "The maximum amount of tightening performed by the system is dependent on the font, line width, and other factors."}
 {"id": "/documentation/uikit/nstextcontentmanager/automaticallysynchronizestextlayoutmanagers", "law": "Determines if the framework should automatically synchronize all text layout managers when exiting an editing transaction."}
 {"id": "/documentation/uikit/nstextcontentmanager/haseditingtransaction", "law": "Avoid accessing the elements from a nonprimary text layout manager while this values is ."}
+{"id": "/documentation/UIKit/UICollectionReusableView", "law": "You aren’t required to override any of the methods but can do so in cases where you want to respond to changes in the view’s usage or layout."}
+{"id": "/documentation/UIKit/NSLayoutAnchor", "law": "Use these constraints to programatically define your layout using Auto Layout."}

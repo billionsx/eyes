@@ -31,3 +31,5 @@
 {"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "If two objects are equal, they must have the same hash value."}
 {"id": "/documentation/ObjectiveC/NSObjectProtocol/isEqual(_:)", "law": "Make sure you also define in your subclass."}
 {"id": "/documentation/ObjectiveC/NSObject-swift.class/tableView:writeRows:toPasteboard:", "law": "Invoked by after it has been determined that a drag should begin, but before the drag has been started."}
+{"id": "/documentation/objectivec/deprecated-symbols", "law": "Review symbols that are no longer supported and find the replacements to use instead."}
+{"id": "/documentation/ObjectiveC/NSObject-swift.class/accessibilityElements", "law": "However, use this property when you need to make a custom view accessible in ways the system can’t automatically provide."}

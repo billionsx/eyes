@@ -2515,3 +2515,4 @@
 {"id": "/documentation/AppKit/NSAlert", "law": "Unless you must maintain compatibility with existing alert-processing code that uses the function-based API, you should allocate ( ) and initialize ( ) the alert object, and then set its attributes using the appropriate methods of the class."}
 {"id": "/documentation/AppKit/NSColorWell", "law": "For example, a drawing app might include a color well to let someone choose the color to use when drawing."}
 {"id": "/documentation/AppKit/NSLevelIndicator", "law": "Unlike sliders, level indicators do not have a “knob” indicating the current setting, and they do not allow the user to adjust the current setting."}
+{"id": "/documentation/appkit/nsparagraphstyle/linebreakstrategy-swift.property", "law": "This is different from , which controls how to lay out lines of text that don’t fit in a container."}

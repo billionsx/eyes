@@ -1,5 +1,4 @@
 {"id": "/documentation/avfoundation/avcamfilter-applying-filters-to-a-capture-stream", "sha": "06dcc50ee0db723a3c2bf60b8fe8a99c3ff0a0b49ce32cd2e9f233f03d822880", "t": "AVCamFilter: Applying filters to a capture stream", "n": 4901, "laws": 2, "ts": "2026-07-24 19:03 UTC"}
-{"id": "/documentation/CoreGraphics/CGImage", "sha": "47c783e16a640f616360f3f31847e7155ff8bee8d469d9aa85b4d1f522c1ad22", "t": "CGImage", "n": 1556, "laws": 0, "ts": "2026-07-25 04:21 UTC"}
 {"id": "/documentation/Foundation/URL/startAccessingSecurityScopedResource()", "sha": "9bd7ab97182b026af6d48ec87a69462d98aa06a08de69099db1fa6313f2980fd", "t": "startAccessingSecurityScopedResource()", "n": 1284, "laws": 4, "ts": "2026-07-25 18:29 UTC"}
 {"id": "/documentation/foundation/nsuseractivity", "sha": "e287d824e939f3b9f00eac8977cd8b90fa6ed6d0cd430d4d6a67464fa066f07d", "t": "NSUserActivity", "n": 4974, "laws": 4, "ts": "2026-07-25 18:30 UTC"}
 {"id": "/documentation/metal/mtlrendercommandencoder/setfragmenttexture(_:index:)", "sha": "18d0363cbd4ed2ea6c3b7a60526d9ba7d0b2d3076789fd6db05e6249650d725b", "t": "setFragmentTexture(_:index:)", "n": 125, "laws": 0, "ts": "2026-07-25 23:06 UTC"}
@@ -179,3 +178,7 @@
 {"id": "/documentation/AppKit/NSMenuItem/isAlternate", "sha": "612e1c33097b818168bad59018a4e37974361d154256065e3f1170c12bb2d713", "sieve": 2, "t": "isAlternate", "n": 83, "laws": 0, "ts": "2026-08-05 06:02 UTC"}
 {"id": "/documentation/appkit/nsevent/specialkey-swift.struct/f2", "sha": "a4603109959e10a65fdbc6d4dacb7ead547a46980c06319c2ce3febb09bb31ef", "sieve": 2, "t": "f2", "n": 11, "laws": 0, "ts": "2026-08-05 06:03 UTC"}
 {"id": "/documentation/AppKit/NSSpellChecker", "sha": "b38559bb691d21dee6f0021c256c03e4e8f7e16000f6425dc4c0132592077cf4", "sieve": 2, "t": "NSSpellChecker", "n": 3677, "laws": 0, "ts": "2026-08-05 06:03 UTC"}
+{"id": "/documentation/metalperformanceshaders/mps_available_starting", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "MPS_AVAILABLE_STARTING", "n": 0, "laws": 0, "ts": "2026-08-06 05:47 UTC"}
+{"id": "/documentation/metalperformanceshaders/mpsnnpadgradient", "sha": "345c5fd033a9cd33c9bc504aeeb8523a2d01506431bc15e48988cb3772d1f291", "sieve": 2, "t": "MPSNNPadGradient", "n": 51, "laws": 0, "ts": "2026-08-06 05:50 UTC"}
+{"id": "/documentation/CoreGraphics/CGImage", "sha": "47c783e16a640f616360f3f31847e7155ff8bee8d469d9aa85b4d1f522c1ad22", "sieve": 2, "t": "CGImage", "n": 1556, "laws": 0, "ts": "2026-08-06 06:00 UTC"}
+{"id": "/documentation/LinkPresentation/LPLinkMetadata", "sha": "f5131449eb42c5e1f47b8af00646700001a3ebec396f4f4877407872bb2a3a08", "sieve": 2, "t": "LPLinkMetadata", "n": 1724, "laws": 2, "ts": "2026-08-06 06:04 UTC"}

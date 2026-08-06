@@ -168,3 +168,5 @@
 {"id": "/documentation/metalfx/mtlfxtemporaldenoisedscaler", "sha": "313e56e945579dfd2ffd7b6ebd2ee2cafb291aa154c7e0529643ab2b85f08d74", "sieve": 2, "t": "MTLFXTemporalDenoisedScaler", "n": 43, "laws": 0, "ts": "2026-08-05 05:55 UTC"}
 {"id": "/documentation/AppKit/NSApplication/isFullKeyboardAccessEnabled", "sha": "89f51b1244815daec0d726c7ff75ae4fbf689721dab8d80095e6d06d13f25951", "sieve": 2, "t": "isFullKeyboardAccessEnabled", "n": 574, "laws": 1, "ts": "2026-08-05 06:01 UTC"}
 {"id": "/documentation/AppKit/NSButton/isBordered", "sha": "b98086947e941fac77f9d23cbc574ea0758c42c2392a77b09c980b55b3122f03", "sieve": 2, "t": "isBordered", "n": 343, "laws": 0, "ts": "2026-08-05 06:02 UTC"}
+{"id": "/documentation/coretext/ctframe", "sha": "e5abd835e729d5477caa189d2f4b489429c5bfbe7283179891097a9300695e57", "sieve": 2, "t": "CTFrame", "n": 898, "laws": 0, "ts": "2026-08-06 05:37 UTC"}
+{"id": "/documentation/quartzcore/calayer/shouldarchivevalue(forkey:)", "sha": "c1b00e3f3fe33696428eba1b41d98a5e36247db006c36fb73d32aba4295fd771", "sieve": 2, "t": "shouldArchiveValue(forKey:)", "n": 220, "laws": 0, "ts": "2026-08-06 05:58 UTC"}

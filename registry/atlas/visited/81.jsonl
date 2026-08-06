@@ -173,3 +173,8 @@
 {"id": "/documentation/security/cssm_tuplegroup-c.struct", "sha": "67480a34a486bfd560ef86e802c2de5ad767f639c5e8291ac890f0ccab137cbf", "sieve": 2, "t": "cssm_tuplegroup", "n": 46, "laws": 0, "ts": "2026-08-05 05:49 UTC"}
 {"id": "/documentation/corelocationui/cllocationbutton/icon", "sha": "2e637b8dec5dd19d0fff679f835de01f638afafbd56b312564dca4a5ebfc3491", "sieve": 2, "t": "icon", "n": 51, "laws": 0, "ts": "2026-08-05 05:54 UTC"}
 {"id": "/documentation/AppKit/NSPageLayout", "sha": "350093c7d3a5a0215f34d89f2c76739ca22c6ff44ffea238467dad2dc09f7f91", "sieve": 2, "t": "NSPageLayout", "n": 693, "laws": 0, "ts": "2026-08-05 05:59 UTC"}
+{"id": "/documentation/QuartzCore/CATransaction", "sha": "f64b1c9464b99816b8b7d42d4efd73bc883b09ea02b0af643f3f7b6d3d15eae8", "sieve": 2, "t": "CATransaction", "n": 2050, "laws": 2, "ts": "2026-08-06 05:45 UTC"}
+{"id": "/documentation/metalperformanceshaders/mpscnngroupnormalization", "sha": "48fac5107026718bf7310805675789a165ede37e0658423566a7d8b45a8fc5e7", "sieve": 2, "t": "MPSCNNGroupNormalization", "n": 344, "laws": 0, "ts": "2026-08-06 05:47 UTC"}
+{"id": "/documentation/metalperformanceshaders/mpsheapprovider", "sha": "ef7ba83fa56b9d408346470fae46f94c91d5863df7126564b80708b278b8562d", "sieve": 2, "t": "MPSHeapProvider", "n": 58, "laws": 0, "ts": "2026-08-06 05:48 UTC"}
+{"id": "/documentation/metalperformanceshaders/mpscnnarithmetic", "sha": "3a739d32185df6648b0d322b9691dba153560891921d5e227fdf5ec50bfcaa82", "sieve": 2, "t": "MPSCNNArithmetic", "n": 394, "laws": 0, "ts": "2026-08-06 05:51 UTC"}
+{"id": "/documentation/coreml/coreml-enumerations", "sha": "eed2d14f17fbd589878fcdf11a7fa53d671438e0d68d38b5e7f6c1a5ba510408", "sieve": 2, "t": "CoreML Enumerations", "n": 60, "laws": 0, "ts": "2026-08-06 06:02 UTC"}

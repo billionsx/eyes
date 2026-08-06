@@ -2811,3 +2811,4 @@
 {"id": "/documentation/swiftui/graphicscontext/clipoptions/inverse", "law": "When you use this option, SwiftUI uses instead of for the given clip shape."}
 {"id": "/documentation/swiftui/graphicscontext/filter/colorshader(_:)", "law": "For a shader function to act as a color filter it must have a function signature matching: where is the user-space coordinates of the pixel applied to the shader and its source color, as a pre-multiplied color in the destination color space."}
 {"id": "/documentation/swiftui/graphicscontext/filter/colorshader(_:)", "law": "The function should return the modified color value."}
+{"id": "/documentation/SwiftUI/PreviewProvider", "law": "For example, you might want to see a view’s light and dark appearances simultaneously: Use a when you want to maintain different previews, but apply a single modifier to all of them: A type that produces view previews in Xcode."}
