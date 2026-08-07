@@ -2405,3 +2405,17 @@
 - https://brajs.com/katha: элементов 33 · находок 0
 - https://brajs.com/library: элементов 38 · находок 0
 
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 86 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+
+### 2026-08-07 06:46 UTC · монитор прода
+- сейчас 11 · новых 0 · закрыто 0 · алерт: эфир
+
