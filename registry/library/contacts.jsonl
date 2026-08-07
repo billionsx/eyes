@@ -33,3 +33,4 @@
 {"id": "/documentation/contacts/cncontactstore", "law": "There are a few recommended ways you can implement fetch and save requests in your app: Fetch only the properties that you need for contacts."}
 {"id": "/documentation/contacts/cncontactstore", "law": "When fetching all contacts and caching the results, first fetch all contacts identifiers, then fetch batches of detailed contacts by identifiers as required."}
 {"id": "/documentation/contacts/cncontactstore", "law": "Because fetch methods perform I/O, it’s recommended that you avoid using the main thread to execute fetches."}
+{"id": "/documentation/Contacts/accessing-the-contact-store", "law": "Use and to let the person control which contacts your app can access."}

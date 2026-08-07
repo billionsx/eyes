@@ -160,3 +160,6 @@
 {"id": "/documentation/quartzcore/cadisplaylink/frameinterval", "sha": "aa4dc172d9b8664ec70aa189b07b18040440ddf2707b2dcbdb9b2bc50d0ba730", "sieve": 2, "t": "frameInterval", "n": 538, "laws": 0, "ts": "2026-08-06 05:46 UTC"}
 {"id": "/documentation/metalperformanceshaders/mpsimage/width", "sha": "bd65ba3a880769e78e50ae18b2f931d00f878a8971e4d2a4093f1de033db29b9", "sieve": 2, "t": "width", "n": 41, "laws": 0, "ts": "2026-08-06 05:54 UTC"}
 {"id": "/documentation/quartzcore/cashapelayer/fillrule", "sha": "8ba4bcc220e8616b954cb62a4e172a9a9da304cb7eb6e1f100d85f273369aafe", "sieve": 2, "t": "fillRule", "n": 155, "laws": 0, "ts": "2026-08-06 05:56 UTC"}
+{"id": "/documentation/applepayontheweb/setting-up-your-server", "sha": "adc10e6fa54155b7c9d1af6d6d40e03f46ed34b8b7c61feb930bcfd56f862855", "sieve": 2, "t": "Setting Up Your Server", "n": 1603, "laws": 0, "ts": "2026-08-07 04:39 UTC"}
+{"id": "/documentation/metalperformanceshadersgraph/mpsgraph/modulo(_:_:name:)", "sha": "87277957b4e0df32307762f0fc3df30a32ca5ec69efdb80e735ddabb077d7748", "sieve": 2, "t": "modulo(_:_:name:)", "n": 292, "laws": 0, "ts": "2026-08-07 04:54 UTC"}
+{"id": "/documentation/metalkit/mtkviewdelegate/draw(in:)", "sha": "32904bc304b1dfe837772eb08f9f4365878495cc58ea801f536820fe88f4f30b", "sieve": 2, "t": "draw(in:)", "n": 120, "laws": 0, "ts": "2026-08-07 05:01 UTC"}

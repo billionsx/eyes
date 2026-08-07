@@ -256,3 +256,8 @@
 {"id": "/documentation/SceneKit/SCNProgram", "law": "Use these symbols to access the kinds of data listed below."}
 {"id": "/documentation/SceneKit/SCNProgram", "law": "To make a single change to your custom variable data, use : Call the method on the geometry or material to be rendered with your shader, passing an object containing your data structure as the value and the name of the corresponding shader function parameter as the key."}
 {"id": "/documentation/SceneKit/SCNProgram", "law": "Be aware of layout and alignment when encoding an entire structure as an object—for best results, use data types from the SIMD library (such as and ), because those types match the layout and alignment of the GPU data types used in a Metal shader."}
+{"id": "/documentation/SceneKit/SCNAnimatable", "law": "For implicit animation, use the class to quickly create simple animations with very little code."}
+{"id": "/documentation/SceneKit/SCNAnimatable", "law": "For more complex animations, explicitly create objects, and use the methods in the protocol to attach them to the SceneKit objects you want to animate."}
+{"id": "/documentation/SceneKit/SCNAnimatable", "law": "You also use the methods in this protocol to control any animations already attached to a SceneKit object."}
+{"id": "/documentation/SceneKit/SCNAnimatable", "law": "For example, making a node spin continuously for as long as it appears in the scene graph requires explicitly creating an animation that repeats."}
+{"id": "/documentation/SceneKit/SCNAnimationEvent", "law": "Use animation events to add actions to animations, such as playing a sound to coincide with the movement of an animated character, or removing a node from the scene after playing an animation that fades out its visible geometry."}

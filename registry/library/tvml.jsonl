@@ -25,3 +25,29 @@
 {"id": "/documentation/tvml/productbundletemplate", "law": "Use the element to display detailed information about a product bundle, such as a page that describes a television series, including information about the actors, ratings, and series episodes."}
 {"id": "/documentation/tvml/producttemplate", "law": "Use the element to display, for example, a page that describes a movie, including information about the actors, ratings, and like movies."}
 {"id": "/documentation/tvml/ratingtemplate", "law": "Use the element to display a rating for an item."}
+{"id": "/documentation/tvml/adding-resource-icons", "law": "Here’s an example that sets the preview icon on a button: Resource icons do not have different variants for dark and light themes."}
+{"id": "/documentation/tvml/adding-resource-icons", "law": "Use the style to change the color of black and white resource icons."}
+{"id": "/documentation/tvml/miscellaneous-icons", "law": "Miscellaneous icons that don’t fall into a specific category."}
+{"id": "/documentation/tvml/movie-rating-icons-united-states", "law": "Place a parental guidance rating icon next to content to indicate that parents should review the content before allowing their children to see it."}
+{"id": "/documentation/tvml/movie-rating-icons-united-states", "law": "Place a parents strongly cautioned rating icon next to content to indicate that parents should review the content before allowing children under the age of 13 to see it."}
+{"id": "/documentation/tvml/movie-rating-icons-united-states", "law": "This icon is often used to indicate that the movie was never submitted to the MPAA."}
+{"id": "/documentation/tvml/rating-icons-brazil", "law": "Place a restricted 10 rating icon next to content to indicate that children 9 and younger must be accompanied by a parent or guardian.Place a restricted 10 rating icon using ."}
+{"id": "/documentation/tvml/rating-icons-brazil", "law": "Place a restricted 12 rating icon next to content to indicate that children 11 and younger must be accompanied by a parent or guardian."}
+{"id": "/documentation/tvml/rating-icons-brazil", "law": "Place a restricted 14 rating icon next to content to indicate that children 13 and younger must be accompanied by a parent or guardian."}
+{"id": "/documentation/tvml/rating-icons-brazil", "law": "Place a restricted 16 rating icon next to content to indicate that children 15 and younger must be accompanied by a parent or guardian."}
+{"id": "/documentation/tvml/rating-icons-new-zealand", "law": "Place a parental guidance rating icon next to content to indicate that the content can be watched by people of any age, but parental guidance is recommended."}
+{"id": "/documentation/tvml/rating-icons-new-zealand", "law": "Place a parental restriction 13 rating icon next to content to indicate that children under the age of 13 must be supervised by a parent or guardian."}
+{"id": "/documentation/tvml/rating-icons-new-zealand", "law": "Place a parental restriction 16 rating icon next to content to indicate that children under the age of 16 must be supervised by a parent or guardian."}
+{"id": "/documentation/tvml/rating-icons-united-kingdom", "law": "Place a parental guidance rating icon next to content to indicate that the content can be watched by people of any age, but parental guidance is recommended."}
+{"id": "/documentation/tvml/television-rating-icons-united-states", "law": "Place a parental guidance rating icon next to content to indicate that parents should review the content before letting young children watch."}
+{"id": "/documentation/tvml/television-rating-icons-united-states", "law": "Place a parents strongly cautioned rating icon next to content to indicate that parents should review the content before allowing children under the age of 14 to watch."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset", "law": "Here’s an example that sets the inset (unscrollable space) at the top, right, bottom, and left all to 100 points."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset", "law": "Here’s an example that sets the inset (unscrollable space) at the top to 50 points, and the inset at the bottom to 75 points."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset", "law": "When you use unscrollable regions, the content offset is no longer automatically adjusted to allow “peeking” — the partial view of elements directly above and below the focused element."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset", "law": "By default, the entire template is scrollable if you don’t define the tv-scrollable-bounds-inset style."}
+{"id": "/documentation/tvml/tv-text-highlight-style", "law": "Use the style to specify how a label reacts when it comes into focus."}
+{"id": "/documentation/tvml/tv-transition", "law": "Use the style to apply a transition effect to an element."}
+{"id": "/documentation/tvml/autohighlight", "law": "Use the attribute to denote the element that is initially in focus."}
+{"id": "/documentation/tvml/autohighlight", "law": "Specifies that the element should initially be in focus."}
+{"id": "/documentation/tvml/layoutdirection", "law": "Use the attribute to set the language layout direction for a template."}
+{"id": "/documentation/tvml/buttonlockup", "law": "Use the element to add a badge to the the button."}

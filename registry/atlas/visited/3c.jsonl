@@ -175,3 +175,5 @@
 {"id": "/documentation/quartzcore/calayer/cornerradius", "sha": "a04b70a929f6a3d3ca5a3c793a5a880a297ae53b58e45551884cb2931416f2a5", "sieve": 2, "t": "cornerRadius", "n": 490, "laws": 1, "ts": "2026-08-06 05:57 UTC"}
 {"id": "/documentation/CoreGraphics/CGContextSetInterpolationQuality", "sha": "61b2d67924686e1881cd256d233a6f0e75f8680dd7b0a5a5424343ce3108525e", "sieve": 2, "t": "CGContextSetInterpolationQuality", "n": 190, "laws": 0, "ts": "2026-08-06 06:00 UTC"}
 {"id": "/documentation/fileproviderui/fpuiactionextensionviewcontroller", "sha": "154bb38c9701d35c1ce4e39fb1c5fbb5f454ed88076c120991287bd90f06c8a7", "sieve": 2, "t": "FPUIActionExtensionViewController", "n": 931, "laws": 0, "ts": "2026-08-06 06:05 UTC"}
+{"id": "/documentation/tvml/title", "sha": "f44db047632d674bd512ee92c5d91acdbcb2fc99e62459734e19a9e4aa813c44", "sieve": 2, "t": "title", "n": 522, "laws": 0, "ts": "2026-08-07 04:47 UTC"}
+{"id": "/documentation/metalperformanceshadersgraph/mpsgraph/logarithm(with:name:)", "sha": "7f09bc05fd932c9c472a4f9e0acdbe0c4ea1f4ddc9c399bddbe1fd1adb8d1e98", "sieve": 2, "t": "logarithm(with:name:)", "n": 151, "laws": 0, "ts": "2026-08-07 04:54 UTC"}

@@ -70,3 +70,4 @@
 {"id": "/documentation/CoreGraphics/CGColorConversionInfo", "law": "You use color conversion objects to specify the work to be done by an filter, which can then perform GPU-accelerated image conversion."}
 {"id": "/documentation/CoreGraphics/CGColorConversionInfo", "law": "An object that describes how to convert between color spaces for use by other system services."}
 {"id": "/documentation/CoreGraphics/kCGFontIndexInvalid", "law": "An invalid font index (a value which never represents a valid glyph)."}
+{"id": "/documentation/CoreGraphics/CGFont", "law": "For full Unicode and text-layout support, use the services provided by TextKit)."}

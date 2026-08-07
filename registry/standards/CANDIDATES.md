@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 33577 · кандидатов: 55 · из них со ссылкой на свод правил: 35
+Норм просмотрено: 33871 · кандидатов: 58 · из них со ссылкой на свод правил: 35
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -58,8 +58,11 @@
 | line-height | 100 % | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 8 pt | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 20 % | none | 🌐 universal | 1 | 1 | нет |
+| margin / padding | 50 pt | none | ⚠️ tvos | 1 | 1 | нет |
 | margin / padding | 69 pt | none | 🌐 universal | 1 | 1 | нет |
+| margin / padding | 75 pt | none | ⚠️ tvos | 1 | 1 | нет |
 | margin / padding | 78 pt | none | 🌐 universal | 1 | 1 | нет |
+| margin / padding | 100 pt | none | ⚠️ tvos | 1 | 1 | нет |
 | margin / padding | 162 pt | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 184 pt | none | 🌐 universal | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 🌐 universal | 1 | 1 | нет |

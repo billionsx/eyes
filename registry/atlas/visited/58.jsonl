@@ -166,3 +166,5 @@
 {"id": "/documentation/quartzcore/calayer/opacity", "sha": "f1c472d17264086dea24a6445e2626e7d393a27c8cc4ebdd433d29e0eda314a9", "sieve": 2, "t": "opacity", "n": 234, "laws": 0, "ts": "2026-08-06 05:58 UTC"}
 {"id": "/documentation/arkit/meshanchor/meshclassification/tv", "sha": "9c1d315403c6dafc4216c4fecb6fc1736d069a2ed62ed997a9c42289637fa24f", "sieve": 2, "t": "MeshAnchor.MeshClassification.tv", "n": 13, "laws": 0, "ts": "2026-08-06 06:01 UTC"}
 {"id": "/documentation/modelio/mdltexturechannelencoding/uint16-swift.type.property", "sha": "afee96c869d06c4a0fdf7ffb065a238dea56247c4c5787501463269f5fbc2cd2", "sieve": 2, "t": "uint16", "n": 58, "laws": 0, "ts": "2026-08-06 06:03 UTC"}
+{"id": "/documentation/avfoundation/avassetwriter/status-swift.enum", "sha": "83724d3862f6d903af54970b102fe5a4cb2c3fd297fa57d0d3bed716b1f8eef9", "sieve": 2, "t": "AVAssetWriter.Status", "n": 253, "laws": 0, "ts": "2026-08-07 05:04 UTC"}
+{"id": "/documentation/avfoundation/media-assets", "sha": "c80d291bbf0a69ec1fcc1319460e07fb111fd349e6a0d5dfc42d77467562f59e", "sieve": 2, "t": "Media assets", "n": 658, "laws": 0, "ts": "2026-08-07 05:04 UTC"}

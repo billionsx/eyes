@@ -12,3 +12,4 @@
 {"id": "/documentation/MIDIDriverKit", "law": "The framework handles all user-client communication between your driver extension and the Core MIDI server so you don’t need to implement a MIDI driver plug-in."}
 {"id": "/documentation/mididriverkit", "law": "Use the MIDIDriverKit framework to implement a MIDI driver extension that communicates with Core MIDI."}
 {"id": "/documentation/mididriverkit", "law": "The framework handles all user-client communication between your driver extension and the Core MIDI server so you don’t need to implement a MIDI driver plug-in."}
+{"id": "/documentation/mididriverkit/creating-a-midi-device-driver", "law": "Then you can use the other buttons in this section to toggle the offline property and to add or remove ports."}

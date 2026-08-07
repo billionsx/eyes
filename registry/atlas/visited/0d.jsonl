@@ -173,3 +173,4 @@
 {"id": "/documentation/ARKit/BarcodeAnchor/Symbology-swift.enum", "sha": "799aa082c66955de6f313df91420537bd517f82f966251e2d023e80a29e292a6", "sieve": 2, "t": "BarcodeAnchor.Symbology", "n": 944, "laws": 0, "ts": "2026-08-06 06:00 UTC"}
 {"id": "/documentation/ObjectiveC/NSObject-swift.class/accessibilityLanguage", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "accessibilityLanguage", "n": 0, "laws": 0, "ts": "2026-08-06 06:04 UTC"}
 {"id": "/documentation/energykit/electricityguidance", "sha": "a90d143565fd3137baa938a1ab991a1eefad998ea8f67c93544c68b07089b73c", "sieve": 2, "t": "ElectricityGuidance", "n": 785, "laws": 0, "ts": "2026-08-06 06:05 UTC"}
+{"id": "/documentation/safariservices/deprecated-symbols", "sha": "c53a1c2dc528fb89fb0ca0693e92aec4013930e7869feb1c351285214f9331f4", "sieve": 2, "t": "Deprecated symbols", "n": 225, "laws": 0, "ts": "2026-08-07 04:59 UTC"}

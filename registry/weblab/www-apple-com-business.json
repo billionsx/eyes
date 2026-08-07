@@ -25,13 +25,13 @@
   "name:faq",
   "name:index"
  ],
- "imgs": 104,
- "videos": 3,
- "cta": 76,
+ "imgs": 110,
+ "videos": 4,
+ "cta": 78,
  "h_levels": {
   "1": 1,
   "2": 14,
-  "3": 66,
+  "3": 67,
   "4": 9
  },
  "css": [

@@ -40,3 +40,7 @@
 {"id": "/documentation/usd/usd-concepts", "law": "You can use it to offset an animation by a number of frames, or play it at a different speed, without touching the source file."}
 {"id": "/documentation/usd/usd-concepts", "law": "Use purpose to include high-resolution geometry for offline rendering, lighter proxies for interactive preview, and guide shapes visible only during authoring."}
 {"id": "/documentation/usd/usd-concepts", "law": "Tools use kind to navigate large scenes efficiently, focusing only on the prims relevant to a given task."}
+{"id": "/documentation/usd/autoplay", "law": "To support assets that disable , an app should provide a way to start the animation."}
+{"id": "/documentation/usd/playbackmode", "law": "If you don’t define a start animation for the asset, this property indicates whether an animation should restart after it finishes playing."}
+{"id": "/documentation/usd/scenelibrary", "law": "Use the property to refer to a scene to load it or transition to it from another scene."}
+{"id": "/documentation/usd/visibilityaction", "law": "Use this action to display or hide a prim with a transform animation."}

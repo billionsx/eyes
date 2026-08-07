@@ -1,5 +1,4 @@
 {"id": "/documentation/BlockStorageDeviceDriverKit", "sha": "a2947aa64f98e40c8ed0ff6134f974a2c78dcf2e4ce06a8fe5650e408dbeeae1", "t": "BlockStorageDeviceDriverKit", "n": 678, "laws": 1, "ts": "2026-07-24 18:49 UTC"}
-{"id": "/documentation/ServiceManagement", "sha": "73a88c7987b034f2ec5ff65b3a7c35f358711ad3e0330fba59c4e6275b51dc0b", "t": "Service Management", "n": 765, "laws": 3, "ts": "2026-07-24 18:53 UTC"}
 {"id": "/documentation/avfoundation/avassetwriterinput/mediatimescale", "sha": "b6044bcdbe8a3bb0db23a4051c280c742d0ac7545b1b4582fd47cb26d3c899ae", "t": "mediaTimeScale", "n": 270, "laws": 0, "ts": "2026-07-24 19:01 UTC"}
 {"id": "/documentation/Vision/VNDetectFaceRectanglesRequest", "sha": "47e67b483d9b5fd44c026e22aedcbdd3b7ad17d15ed2d9803c8bbec6c62e3cb4", "t": "VNDetectFaceRectanglesRequest", "n": 340, "laws": 0, "ts": "2026-07-24 19:04 UTC"}
 {"id": "/documentation/CoreMedia/CMTag-swift.class/value(onlyIfMatching:)", "sha": "7457a957f7961768a1be3c82efe0aadc4295a619dafe6801dd0dcd6964aac777", "t": "value(onlyIfMatching:)", "n": 197, "laws": 0, "ts": "2026-07-24 19:05 UTC"}
@@ -167,3 +166,8 @@
 {"id": "/documentation/metalperformanceshaders/mpsnngraph/init(coder:device:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(coder:device:)", "n": 0, "laws": 0, "ts": "2026-08-06 05:47 UTC"}
 {"id": "/documentation/metalperformanceshaders/mpscnnpoolingmaxnode", "sha": "68c6705f5e56553e60bdf3466ffb83030614c45ca33c2fe3da4d939fb283d7a0", "sieve": 2, "t": "MPSCNNPoolingMaxNode", "n": 41, "laws": 0, "ts": "2026-08-06 05:55 UTC"}
 {"id": "/documentation/quartzcore/cashapelayer/path", "sha": "463626eb7d05a325567c7caef6d0495aeb9e59c3d566abe0f15c594b8ddf2003", "sieve": 2, "t": "path", "n": 710, "laws": 0, "ts": "2026-08-06 05:56 UTC"}
+{"id": "/documentation/applepayontheweb/apple-pay-on-the-web-version-12-release-notes", "sha": "b5f3b2f8d0809509998bc24d288d7a8a2c029b1d8faf646e9385d119907ce320", "sieve": 2, "t": "Apple Pay on the Web Version 12 Release Notes", "n": 505, "laws": 0, "ts": "2026-08-07 04:39 UTC"}
+{"id": "/documentation/applepayontheweb/applepaypaymentrequest/merchantcapabilities", "sha": "75f5161d7dd4e02f22be0d3b3b2e0139384e57865d07fc59f59842b77658ad89", "sieve": 2, "t": "merchantCapabilities", "n": 524, "laws": 0, "ts": "2026-08-07 04:40 UTC"}
+{"id": "/documentation/applepayontheweb/applepaypayment", "sha": "c8103ff15aa1b161d71a79a7f6caa76e96514cb4b2c2ca832d45e47ada84bfd7", "sieve": 2, "t": "ApplePayPayment", "n": 372, "laws": 0, "ts": "2026-08-07 04:41 UTC"}
+{"id": "/documentation/usd/impulseaction", "sha": "a77a16039f86d22635a83f8c6cada327614abf8236b3b45ee7d43ec7fbddf44f", "sieve": 2, "t": "ImpulseAction", "n": 185, "laws": 0, "ts": "2026-08-07 04:42 UTC"}
+{"id": "/documentation/ServiceManagement", "sha": "73a88c7987b034f2ec5ff65b3a7c35f358711ad3e0330fba59c4e6275b51dc0b", "sieve": 2, "t": "Service Management", "n": 765, "laws": 0, "ts": "2026-08-07 05:00 UTC"}

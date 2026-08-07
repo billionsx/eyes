@@ -163,3 +163,5 @@
 {"id": "/documentation/metalperformanceshaders/mpsnngradientfilternode", "sha": "ef8256d3c857e6f500bd2b2905a12295b2a74cb2939254906a2329c024bf3675", "sieve": 2, "t": "MPSNNGradientFilterNode", "n": 38, "laws": 0, "ts": "2026-08-06 05:55 UTC"}
 {"id": "/documentation/CoreGraphics/kCGFontIndexInvalid", "sha": "3f2bfc97821d3285532b5e2b27d94cf6ab0024a4e0c7e5732609767b113f0cfa", "sieve": 2, "t": "kCGFontIndexInvalid", "n": 69, "laws": 1, "ts": "2026-08-06 06:00 UTC"}
 {"id": "/documentation/coreml/mlcomputeplan-1w21n", "sha": "bcc5a90ab7556af52ee04fc81135510b160ae3e5a0eacc07e69cd37f2eb0f04b", "sieve": 2, "t": "MLComputePlan", "n": 508, "laws": 0, "ts": "2026-08-06 06:02 UTC"}
+{"id": "/documentation/linkpresentation/linkmetadata/unwrappedtype", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "LinkMetadata.UnwrappedType", "n": 0, "laws": 0, "ts": "2026-08-07 04:38 UTC"}
+{"id": "/documentation/metalperformanceshadersgraph/mpsgraph/topk(_:axis:k:name:)", "sha": "b1c85eaeeee0a441aaba518667e768247d4776ec96b8c1dbb183fa8064d9c5a6", "sieve": 2, "t": "topK(_:axis:k:name:)", "n": 408, "laws": 0, "ts": "2026-08-07 04:58 UTC"}

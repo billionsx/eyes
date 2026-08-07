@@ -3859,3 +3859,6 @@
 {"id": "/documentation/uikit/nstextcontentmanager/haseditingtransaction", "law": "Avoid accessing the elements from a nonprimary text layout manager while this values is ."}
 {"id": "/documentation/UIKit/UICollectionReusableView", "law": "You aren’t required to override any of the methods but can do so in cases where you want to respond to changes in the view’s usage or layout."}
 {"id": "/documentation/UIKit/NSLayoutAnchor", "law": "Use these constraints to programatically define your layout using Auto Layout."}
+{"id": "/documentation/UIKit/UIAccessibility/DirectTouchOptions", "law": "Examples of direct touch areas include: A keyboard in a music-creation app A player view in a game that produces sounds An area where you sign your name in a document If an element doesn’t use , VoiceOver speaks the element and immediately starts sending touch events to the app."}
+{"id": "/documentation/UIKit/UIAccessibility/DirectTouchOptions", "law": "Specify to customize VoiceOver regions using these two constants: Use to ensure VoiceOver is silent when a person touches the direct touch area."}
+{"id": "/documentation/UIKit/UIAccessibilityLocationDescriptor", "law": "An accessibility descriptor for a specific geometric point of interest within a view, for use by assistive apps."}

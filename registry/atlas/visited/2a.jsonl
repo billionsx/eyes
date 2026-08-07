@@ -183,3 +183,6 @@
 {"id": "/documentation/AppKit/NSRulerView", "sha": "604b8d41cdfe09e6ad6a7c0b789fbaab836d8715896e27e9712e13c8fd111dac", "sieve": 2, "t": "NSRulerView", "n": 1440, "laws": 0, "ts": "2026-08-05 05:59 UTC"}
 {"id": "/documentation/coretext/ctfontgetglyphcount(_:)", "sha": "3fd9bb22edaacbaae61f7b968b948a68cd9f1fca0fb1e059a1075f286c64b5d7", "sieve": 2, "t": "CTFontGetGlyphCount(_:)", "n": 97, "laws": 0, "ts": "2026-08-06 05:37 UTC"}
 {"id": "/documentation/fileproviderui/fpuiactionextensioncontext/completerequest()", "sha": "76758508abab3e226214d1dd201edb0ca788b4e5bcd14d386cc8a0ab6eebf054", "sieve": 2, "t": "completeRequest()", "n": 100, "laws": 0, "ts": "2026-08-06 06:05 UTC"}
+{"id": "/documentation/tvml/separator", "sha": "465ee634e07d23e20069060aea7214ec94edea3d34b8d194fa24cfd29af9ad07", "sieve": 2, "t": "separator", "n": 288, "laws": 0, "ts": "2026-08-07 04:48 UTC"}
+{"id": "/documentation/metalperformanceshadersgraph/mpsgraph", "sha": "5570c54f85dfc38bf9219378d04d52d33918b56b89b94dd71b9adb8b24b25c93", "sieve": 2, "t": "MPSGraph", "n": 20050, "laws": 0, "ts": "2026-08-07 04:49 UTC"}
+{"id": "/documentation/metalperformanceshadersgraph/mpsgraph/bitwisexor(_:_:name:)", "sha": "e0f55bca4ef8629a2850daf529b475ac5c98382d39c15305b14d20b1e01a174e", "sieve": 2, "t": "bitwiseXOR(_:_:name:)", "n": 176, "laws": 0, "ts": "2026-08-07 04:51 UTC"}

@@ -7,3 +7,10 @@
 {"id": "/documentation/Testing/Attachable", "law": "To further configure an attachable value before you attach it, use it to initialize an instance of and set its properties before passing it to ."}
 {"id": "/documentation/Testing/Attachable", "law": "Most user-defined types do not need to conform to this protocol."}
 {"id": "/documentation/Testing/Attachable", "law": "A type should conform to this protocol if it can be represented as a sequence of bytes that would be diagnostically useful if a test fails."}
+{"id": "/documentation/testing/describing-values", "law": "The testing library provides two protocols, and , that you can use to customize the appearance of values in Swift."}
+{"id": "/documentation/Testing/AddingTags", "law": "If it’s important for a tag to be distinguished from similar tags declared elsewhere in a package or project (or its dependencies), use reverse-DNS naming to create a unique Swift symbol name for your tag:"}
+{"id": "/documentation/Testing/AddingTags", "law": "The following declarations are unsupported: Use tags to provide semantic information for organization, filtering, and customizing appearances."}
+{"id": "/documentation/Testing/OrganizingTests", "law": "The attribute isn’t required for the testing library to recognize that a type contains test functions, but adding it allows customization of a test suite’s appearance in the IDE and at the command line."}
+{"id": "/documentation/Testing/OrganizingTests", "law": "To customize a test suite’s name, supply a string literal as an argument to the attribute: To further customize the appearance and behavior of a test function, use such as ."}
+{"id": "/documentation/testing/organizingtests", "law": "The attribute isn’t required for the testing library to recognize that a type contains test functions, but adding it allows customization of a test suite’s appearance in the IDE and at the command line."}
+{"id": "/documentation/testing/organizingtests", "law": "To customize a test suite’s name, supply a string literal as an argument to the attribute: To further customize the appearance and behavior of a test function, use such as ."}

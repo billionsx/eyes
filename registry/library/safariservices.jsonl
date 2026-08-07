@@ -71,3 +71,8 @@
 {"id": "/documentation/SafariServices/SFSafariViewController", "law": "Don’t embed an as a child view controller in your app, or include it in your view controller hierarchy."}
 {"id": "/documentation/SafariServices/SFSafariViewController", "law": "Always present it modally using the method."}
 {"id": "/documentation/SafariServices/SFSafariViewController", "law": "The custom delegate is recommended, but you can remove it if you prefer the default modal transition behavior."}
+{"id": "/documentation/safariservices/injecting-css-style-sheets-into-a-webpage", "law": "Each dictionary must have a key with a value that specifies the path (relative to the Resources directory of the bundle) to the style sheet to include."}
+{"id": "/documentation/safariservices/passing-messages-between-safari-app-extensions-and-injected-scripts", "law": "For example, you may have a toolbar or contextual menu item that you want to use to affect web content."}
+{"id": "/documentation/safariservices/using-injected-style-sheets-and-scripts", "law": "The system adds style properties in your injected style sheets to existing page style properties, but your styles don’t override existing page styles unless you declare the new ones as ."}
+{"id": "/documentation/safariservices/sfsafariviewcontroller/dismissbuttonstyle-swift.property", "law": "You can use other values such as to show “checkmark” icon to provide consistency with your app."}
+{"id": "/documentation/safariservices/sfsafariviewcontroller/dismissbuttonstyle-swift.property", "law": "The style of dismiss button to use in the navigation bar to close the Safari view controller."}

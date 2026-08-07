@@ -1,6 +1,5 @@
 {"id": "/documentation/CallKit", "sha": "b40e0b3b1ac8a45f1df088c87517bcd76700792a699a034f28888e827c553950", "t": "CallKit", "n": 3037, "laws": 7, "ts": "2026-07-24 18:49 UTC"}
 {"id": "/documentation/CoreImage", "sha": "7c704d3f90d44818b8e022532d6c00eba0d27513ff5f458ae479ccea89a22afc", "t": "Core Image", "n": 2102, "laws": 2, "ts": "2026-07-24 18:50 UTC"}
-{"id": "/documentation/PencilKit", "sha": "26a4a3acf797fba6c7eb339f3730abca2708aa5c770631b6e40a0b62677f0aee", "t": "PencilKit", "n": 1597, "laws": 0, "ts": "2026-07-24 18:52 UTC"}
 {"id": "/documentation/avfoundation/avmetadataobject/objecttype/face", "sha": "aed371636ee1ba114293c561f585c6ec1c81c3cc4474d17c969e8639f6c984b7", "t": "face", "n": 148, "laws": 0, "ts": "2026-07-24 19:04 UTC"}
 {"id": "/documentation/accelerate/applying-vimage-operations-to-video-sample-buffers", "sha": "849c26ffbd55a5dc6addc7f4648dd78f4f74d19ea1a1d1d2cc55eec1889d48cb", "t": "Applying vImage operations to video sample buffers", "n": 3046, "laws": 4, "ts": "2026-07-25 04:23 UTC"}
 {"id": "/documentation/appkit/nscollectionviewdelegate/collectionview(_:validatedrop:proposedindex:dropoperation:)", "sha": "e21971cebaab23a57a1af0e2580197697842b0683512f62e0b5149328ee377fe", "t": "collectionView(_:validateDrop:proposedIndex:dropOperation:)", "n": 788, "laws": 2, "ts": "2026-07-25 18:11 UTC"}
@@ -173,3 +172,8 @@
 {"id": "/documentation/metalperformanceshaders/mpscnngradientkernel", "sha": "0618ec196de2fa7eb8c6f682dc14b1b1fc7d8df9becdcb59c7ba3cc831bfba45", "sieve": 2, "t": "MPSCNNGradientKernel", "n": 477, "laws": 0, "ts": "2026-08-06 05:51 UTC"}
 {"id": "/documentation/quartzcore/calayer/scrollrecttovisible(_:)", "sha": "7f7656a8b5eefe47198fc1e8ae1928eded5c5d2e8391d29416017c1caaa07225", "sieve": 2, "t": "scrollRectToVisible(_:)", "n": 195, "laws": 0, "ts": "2026-08-06 05:58 UTC"}
 {"id": "/documentation/ObjectiveC/objc_msgSend", "sha": "d4b3057d2040a5d970a4b6a77751558eb23b230014a668e711f1e46e1911586a", "sieve": 2, "t": "objc_msgSend", "n": 426, "laws": 0, "ts": "2026-08-06 06:03 UTC"}
+{"id": "/documentation/quartzcore/core-animation-structures", "sha": "4578144262c50bf61e389f8a0395a73100b83ddbb737756c8b1241b3d88e0779", "sieve": 2, "t": "Core Animation Structures", "n": 31, "laws": 0, "ts": "2026-08-07 04:44 UTC"}
+{"id": "/documentation/PencilKit", "sha": "26a4a3acf797fba6c7eb339f3730abca2708aa5c770631b6e40a0b62677f0aee", "sieve": 2, "t": "PencilKit", "n": 1597, "laws": 0, "ts": "2026-08-07 04:46 UTC"}
+{"id": "/documentation/servicemanagement/ksmrightmodifysystemdaemons", "sha": "19164727936abd25a6cc18f7a0102d8f7a74d5d8c92fbe62b549d57bac1fe4d7", "sieve": 2, "t": "kSMRightModifySystemDaemons", "n": 58, "laws": 0, "ts": "2026-08-07 05:01 UTC"}
+{"id": "/documentation/AVFoundation/AVQueuePlayer", "sha": "71ded1d9eae60c48b846e1a10d84e51426b046d9e3f8fb8a9a1f8a4b8091cc8b", "sieve": 2, "t": "AVQueuePlayer", "n": 294, "laws": 0, "ts": "2026-08-07 05:06 UTC"}
+{"id": "/documentation/contacts/cnlabeledvalue/localizedstring(forlabel:)", "sha": "c03b307ae1c172e3f846ce8228a054f119cbe1e86f7db7f80485afd133f60809", "sieve": 2, "t": "localizedString(forLabel:)", "n": 318, "laws": 0, "ts": "2026-08-07 05:08 UTC"}

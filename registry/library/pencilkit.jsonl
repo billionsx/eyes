@@ -46,3 +46,4 @@
 {"id": "/documentation/pencilkit/customizing-scribble-with-interactions", "law": "This sample code project must be run on a physical device with Apple Pencil."}
 {"id": "/documentation/pencilkit/configuring-the-pencilkit-tool-picker", "law": "In addition to showing system tools, the tool picker provides a custom tool that a person can use to place stamps on the canvas."}
 {"id": "/documentation/pencilkit/configuring-the-pencilkit-tool-picker", "law": "If you don’t specify an identifier to differentiate between multiple system tools of the same type, the picker treats those tool items as duplicates and only shows the first item in the list."}
+{"id": "/documentation/PencilKit/PKResponderState", "law": "Use it to attach a tool picker to a specific view and control when that picker is visible."}

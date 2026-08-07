@@ -2,3 +2,6 @@
 {"id": "/documentation/ColorSync", "law": "Use ColorSync to match color across color spaces and to read, author, and embed the International Color Consortium (ICC) profiles that describe them."}
 {"id": "/documentation/colorsync", "law": "Use ColorSync directly when your app needs to manage color itself; for example, a professional photo, print, or video app that builds custom transforms, or a tool that inspects and calibrates the profiles assigned to devices and displays."}
 {"id": "/documentation/colorsync", "law": "Use ColorSync to match color across color spaces and to read, author, and embed the International Color Consortium (ICC) profiles that describe them."}
+{"id": "/documentation/colorsync/headroom-adaptive-gain-curve", "law": "ColorSync provides HAGC through two APIs that describe the same data: In Swift, use to check the curve’s structure at compile time and report invalid values by throwing an error."}
+{"id": "/documentation/colorsync/color-management-modules", "law": "Most apps never work with a CMM directly, because ColorSync selects one automatically."}
+{"id": "/documentation/colorsync/color-transforms", "law": "Color conversion requires significant computation, so the way you apply a transform affects performance."}

@@ -19,3 +19,7 @@
 {"id": "/documentation/MetalKit/MTKView/clearColor", "law": "The color to use to clear the color target when creating a render pass descriptor."}
 {"id": "/documentation/MetalKit/MTKView/device", "law": "You must explicitly set the device object."}
 {"id": "/documentation/MetalKit/MTKViewDelegate/mtkView(_:drawableSizeWillChange:)", "law": "Use this method to recompute any view or projection matrices, or to regenerate any buffers to be compatible with the view’s new size."}
+{"id": "/documentation/MetalKit/MTKMetalVertexDescriptorFromModelIOWithError", "law": "Layout and values for the resulting object must also be set by your application."}
+{"id": "/documentation/metalkit/mtkview", "law": "Use this mode for games and other animated content that’s regularly updated."}
+{"id": "/documentation/metalkit/mtkview/clearcolor", "law": "The color to use to clear the color target when creating a render pass descriptor."}
+{"id": "/documentation/metalkit/mtkview/preferreddevice", "law": "If you set the view’s property to this device object, you reduce the number of cross-GPU texture copies that Core Animation must make to present the view’s contents onscreen."}

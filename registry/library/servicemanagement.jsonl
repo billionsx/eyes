@@ -15,3 +15,5 @@
 {"id": "/documentation/servicemanagement/updating-helper-executables-from-earlier-versions-of-macos", "law": "The user can use this switch to allow the corresponding executables to run when they log in, or in the case of a , when the system starts up."}
 {"id": "/documentation/servicemanagement/updating-helper-executables-from-earlier-versions-of-macos", "law": "The Team Identifier of the or executable in the legacy property list must match that of the app bundle for the key."}
 {"id": "/documentation/servicemanagement/updating-helper-executables-from-earlier-versions-of-macos", "law": "Launch daemons require authentication by the user because the user is authorizing a system level-process."}
+{"id": "/documentation/ServiceManagement/SMAppService", "law": "In macOS 13 and later, use to register and control , , and as helper executables for your app."}
+{"id": "/documentation/servicemanagement/smappservice", "law": "In macOS 13 and later, use to register and control , , and as helper executables for your app."}

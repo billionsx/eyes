@@ -203,3 +203,5 @@
 {"id": "/documentation/quartzcore/catextlayer/alignmentmode", "sha": "8c93aed0e8741977d7d779fd79d4368c31af5ea7ec93940aa9df93f085a0f4a5", "sieve": 2, "t": "alignmentMode", "n": 161, "laws": 0, "ts": "2026-08-06 05:59 UTC"}
 {"id": "/documentation/arkit/providing-3d-virtual-content-with-scenekit", "sha": "b5480118a30e1933000d5be3540545262bcd2def54417866801f645ec59ec71e", "sieve": 2, "t": "Providing 3D Virtual Content with SceneKit", "n": 1509, "laws": 1, "ts": "2026-08-06 06:01 UTC"}
 {"id": "/documentation/ObjectiveC/NSObject-swift.class/objectForWebScript", "sha": "e11bb12d0c5825a0fb11c831a4e422d45fb364da0b92386843cc688ad4ef1aa4", "sieve": 2, "t": "objectForWebScript", "n": 377, "laws": 0, "ts": "2026-08-06 06:04 UTC"}
+{"id": "/documentation/usd/wrapmode", "sha": "1207adc074bc303aeda9bfacb601742bc0e5ca9cb9828c248ccdac4f6bca7582", "sieve": 2, "t": "wrapMode", "n": 112, "laws": 0, "ts": "2026-08-07 04:42 UTC"}
+{"id": "/documentation/quartzcore/predefined-timing-functions", "sha": "7882369f0e2ed7eea60275393ecb844b9cb121a28b6bb43ea8919e2c10c7342e", "sieve": 2, "t": "Predefined Timing Functions", "n": 128, "laws": 0, "ts": "2026-08-07 04:44 UTC"}

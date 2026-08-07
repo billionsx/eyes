@@ -169,3 +169,6 @@
 {"id": "/documentation/metalperformanceshaders/mpscnnmultiplygradient", "sha": "3f217c69580a79f19feacb09f37ca214e9dac21a536617d834bc8d326bbca212", "sieve": 2, "t": "MPSCNNMultiplyGradient", "n": 84, "laws": 0, "ts": "2026-08-06 05:52 UTC"}
 {"id": "/documentation/quartzcore/calayer/backgroundfilters", "sha": "49a4b89e9bdb8ec664404d3326ec773d41e90899508c4a81fb2dfbc431389912", "sieve": 2, "t": "backgroundFilters", "n": 1432, "laws": 2, "ts": "2026-08-06 05:57 UTC"}
 {"id": "/documentation/quartzcore/calayer/preferreddynamicrange", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "preferredDynamicRange", "n": 0, "laws": 0, "ts": "2026-08-06 05:58 UTC"}
+{"id": "/documentation/tvml/stacktemplate", "sha": "ab1bbf5982aee76f6c115f55352f9aa51f1cd430311316d07a424fb8aab75608", "sieve": 2, "t": "stackTemplate", "n": 1065, "laws": 0, "ts": "2026-08-07 04:47 UTC"}
+{"id": "/documentation/tvml/theme", "sha": "0af3c5fd7ecb17a2318520c9d4c8ca631c885780b0e0a418324a43761f024c01", "sieve": 2, "t": "theme", "n": 435, "laws": 0, "ts": "2026-08-07 04:47 UTC"}
+{"id": "/documentation/metalperformanceshadersgraph/mpsgraphrandomdistribution", "sha": "0b9b5d9391f458805b8abdd685f823521f8f5d1ac64a06141c23e8de56479a8a", "sieve": 2, "t": "MPSGraphRandomDistribution", "n": 218, "laws": 0, "ts": "2026-08-07 04:50 UTC"}

@@ -169,3 +169,4 @@
 {"id": "/documentation/QuartzCore/CAPropertyAnimation/keyPath", "sha": "ac726107e1ac5f107f3d7b33e14a6c44a7aa5a5f6646e01e0665879b5c4baa47", "sieve": 2, "t": "keyPath", "n": 126, "laws": 0, "ts": "2026-08-06 05:45 UTC"}
 {"id": "/documentation/quartzcore/cadisplaylink/ispaused", "sha": "37a353ebb8ed7071d7ad056b177cb09be13ac416da5871af156171d312cf4b1a", "sieve": 2, "t": "isPaused", "n": 321, "laws": 0, "ts": "2026-08-06 05:46 UTC"}
 {"id": "/documentation/metalperformanceshaders/mpsnnreducefeaturechannelsmax", "sha": "4e122bb0fd987b0b831689dd284ba400e9d159c35b9bc37ed666059f50af4cfd", "sieve": 2, "t": "MPSNNReduceFeatureChannelsMax", "n": 139, "laws": 0, "ts": "2026-08-06 05:53 UTC"}
+{"id": "/documentation/Metal/MTLPixelFormat/rg11b10Float", "sha": "11ac260f1ba4862fd8287de40221a1dfbe090d96eb6d590f39493a6a43f3dddf", "sieve": 2, "t": "MTLPixelFormat.rg11b10Float", "n": 281, "laws": 0, "ts": "2026-08-07 04:42 UTC"}

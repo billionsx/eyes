@@ -2372,3 +2372,36 @@
 ### 2026-08-06 09:11 UTC · монитор прода
 - сейчас 11 · новых 0 · закрыто 0 · алерт: эфир
 
+### 2026-08-07 05:09 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 1272 · законов добыто 152 · изменилось 29
+- фронтир 11835 · всего пройдено 47200 · библиотека 33871 законов / 340 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32482)
+- очередь просеяна приёмом: было 13176, осталось 12063 (отложено 1113)
+- закон изменился: /documentation/PencilKit · «PencilKit»
+- закон изменился: /documentation/TVML/displaying-a-product-or-bundle-in-a-full-page-template · «Displaying a Product or Bundle in a Full-Page Template»
+- закон изменился: /documentation/tvml/paradetemplate · «paradeTemplate»
+- закон изменился: /documentation/tvml/oneuptemplate · «oneupTemplate»
+- закон изменился: /documentation/SiriKit/integrating-your-app-with-siri-event-suggestions · «Integrating Your App with Siri Event Suggestions»
+- закон изменился: /documentation/SiriKit/soup-chef-accelerating-app-interactions-with-shortcuts · «Soup Chef: Accelerating App Interactions with Shortcuts»
+- закон изменился: /documentation/SiriKit/parameter-vocabularies · «Parameter Vocabularies»
+- закон изменился: /documentation/metalperformanceshadersgraph/adding-custom-functions-to-a-shader-graph · «Adding custom functions to a shader graph»
+- закон изменился: /documentation/sirikit/confirming-the-details-of-an-intent · «Confirming the Details of an Intent»
+- закон изменился: /documentation/sirikit/handling-an-intent · «Handling an Intent»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 48 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 86 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+
