@@ -4,3 +4,4 @@
 {"id": "/documentation/ImagePlayground/ImageCreator", "law": "Use an object to generate images programmatically from your app on devices that support the capability."}
 {"id": "/documentation/ImagePlayground/ImageCreator", "law": "The system’s generative models use that information to generate one or more images and return them to your code."}
 {"id": "/documentation/ImagePlayground/ImageCreator", "law": "Create an object and use its method to start the image generation process."}
+{"id": "/documentation/imageplayground", "law": "Use that information to present a system sheet from your SwiftUI view, or present a system view controller from your UIKit or AppKit interface."}

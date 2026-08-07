@@ -2516,3 +2516,4 @@
 {"id": "/documentation/AppKit/NSColorWell", "law": "For example, a drawing app might include a color well to let someone choose the color to use when drawing."}
 {"id": "/documentation/AppKit/NSLevelIndicator", "law": "Unlike sliders, level indicators do not have a “knob” indicating the current setting, and they do not allow the user to adjust the current setting."}
 {"id": "/documentation/appkit/nsparagraphstyle/linebreakstrategy-swift.property", "law": "This is different from , which controls how to lay out lines of text that don’t fit in a container."}
+{"id": "/documentation/AppKit/NSWindow/backingScaleFactor", "law": "For almost all common cases, developers should avoid using the value of as an input to layout or drawing calculations."}

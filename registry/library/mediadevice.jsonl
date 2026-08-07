@@ -15,3 +15,6 @@
 {"id": "/documentation/MediaDevice/MediaOutputDevice/volumeControl-swift.property", "law": "Specifies how volume can be adjusted on this device, which determines the available volume control methods and how volume controls should be presented in the user interface."}
 {"id": "/documentation/MediaDevice/MediaOutputDevice/canMute", "law": "When , mute controls should not be presented in the user interface for this device."}
 {"id": "/documentation/MediaDevice/MediaDeviceExtension/connectUsingPairingCode(_:to:session:)", "law": "Use the Security framework’s keychain to store any derived key material."}
+{"id": "/documentation/mediadevice/mediaoutputdevice/volumecontrol-swift.enum", "law": "This enumeration specifies how volume can be controlled on a device, affecting which volume control methods are available and how the system should present volume controls to the user."}
+{"id": "/documentation/mediadevice/mediaoutputdevice/volumecontrol-swift.property", "law": "Specifies how volume can be adjusted on this device, which determines the available volume control methods and how volume controls should be presented in the user interface."}
+{"id": "/documentation/mediadevice/creating-a-media-device-extension", "law": "Your extension works with , the framework media apps use to observe routes and control playback."}

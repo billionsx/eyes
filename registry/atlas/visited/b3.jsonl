@@ -191,3 +191,6 @@
 {"id": "/documentation/contacts/data-objects", "sha": "be79383ad7747f299f3d6679714617e56e9a21758404bf2ec79efc2826a6117b", "sieve": 2, "t": "Data Objects", "n": 377, "laws": 0, "ts": "2026-08-07 05:07 UTC"}
 {"id": "/documentation/Testing/Trait", "sha": "8f0addc32683a359caf3ff08d6ac899ec167f9ff3567431faf0608f9ae21e296", "sieve": 2, "t": "Trait", "n": 894, "laws": 0, "ts": "2026-08-07 05:07 UTC"}
 {"id": "/documentation/Contacts/CNContact", "sha": "4d7d626d2ed71f8998686a7de4af903494d18cd73c549fd3c48c283335c89a59", "sieve": 2, "t": "CNContact", "n": 2206, "laws": 0, "ts": "2026-08-07 05:07 UTC"}
+{"id": "/documentation/swift/task/value-40dtq", "sha": "8045af1f7db91ef8acad45ed37c62fa9a39f2d5d2419965d855649fb50f06cd6", "sieve": 2, "t": "value", "n": 489, "laws": 0, "ts": "2026-08-07 18:06 UTC"}
+{"id": "/documentation/photos/phasset/duration", "sha": "49be4e7bf56c44d5961248651b023cb1712e97c01d5b5ff732b40453da321a33", "sieve": 2, "t": "duration", "n": 106, "laws": 1, "ts": "2026-08-07 18:26 UTC"}
+{"id": "/documentation/photos/phimagemanager/requestimage(for:targetsize:contentmode:options:resulthandler:)", "sha": "a94a19b6f04d2a3e0e4a6197623e0cfec07a31858d28bb547eb6e6f33fbf7669", "sieve": 2, "t": "requestImage(for:targetSize:contentMode:options:resultHandler:)", "n": 1772, "laws": 1, "ts": "2026-08-07 18:29 UTC"}

@@ -3862,3 +3862,5 @@
 {"id": "/documentation/UIKit/UIAccessibility/DirectTouchOptions", "law": "Examples of direct touch areas include: A keyboard in a music-creation app A player view in a game that produces sounds An area where you sign your name in a document If an element doesn’t use , VoiceOver speaks the element and immediately starts sending touch events to the app."}
 {"id": "/documentation/UIKit/UIAccessibility/DirectTouchOptions", "law": "Specify to customize VoiceOver regions using these two constants: Use to ensure VoiceOver is silent when a person touches the direct touch area."}
 {"id": "/documentation/UIKit/UIAccessibilityLocationDescriptor", "law": "An accessibility descriptor for a specific geometric point of interest within a view, for use by assistive apps."}
+{"id": "/documentation/UIKit/UITabBar/leadingAccessoryView", "law": "Use this property to integrate a custom view at the leading edge of your tab bar interface."}
+{"id": "/documentation/UIKit/UITabBar/trailingAccessoryView", "law": "Use this property to integrate a custom view at the trailing edge of your tab bar interface."}

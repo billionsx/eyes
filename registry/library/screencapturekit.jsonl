@@ -14,3 +14,7 @@
 {"id": "/documentation/screencapturekit/scstream", "law": "Use a stream to capture video of screen content like apps and windows."}
 {"id": "/documentation/screencapturekit/scstreamframeinfo", "law": "Use keys to retrieve values from the dictionary of metadata attached to the sample buffers that a stream produces."}
 {"id": "/documentation/screencapturekit/scwindow", "law": "Select one or more windows to capture and use them to create an instance of ."}
+{"id": "/documentation/ScreenCaptureKit/SCContentSharingPicker", "law": "Avoid creating your own sharing picker."}
+{"id": "/documentation/ScreenCaptureKit/SCContentSharingPicker", "law": "Use the picker provided by the static property."}
+{"id": "/documentation/screencapturekit/sccontentsharingpicker", "law": "Avoid creating your own sharing picker."}
+{"id": "/documentation/screencapturekit/sccontentsharingpicker", "law": "Use the picker provided by the static property."}

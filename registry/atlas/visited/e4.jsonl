@@ -192,3 +192,5 @@
 {"id": "/documentation/metalperformanceshadersgraph/mpsgraphtensor", "sha": "291881b73b8efe0377dab37d33de1d072e5ce3f0b8766835f1dbf69b3b0e379a", "sieve": 2, "t": "MPSGraphTensor", "n": 234, "laws": 0, "ts": "2026-08-07 04:50 UTC"}
 {"id": "/documentation/avfoundation/using-hevc-video-with-alpha", "sha": "36dee8b75eb48f1eb7e407aceac761a1af04fe61db619a615fb82c9dd71caca2", "sieve": 2, "t": "Using HEVC video with alpha", "n": 181, "laws": 0, "ts": "2026-08-07 05:04 UTC"}
 {"id": "/documentation/contacts/cncontactvcardserialization", "sha": "028691064a7e7d412f3ffb5e1cb55345759670af61183dcb211511383253ff01", "sieve": 2, "t": "CNContactVCardSerialization", "n": 238, "laws": 0, "ts": "2026-08-07 05:08 UTC"}
+{"id": "/documentation/quicklookthumbnailing/qlfilethumbnailrequest/scale", "sha": "c51e5e8366824fce01663cd0dd66b989aacc02e57f72e1a0385691d939a66be4", "sieve": 2, "t": "scale", "n": 37, "laws": 0, "ts": "2026-08-07 18:00 UTC"}
+{"id": "/documentation/mapkitjs/mapkit/polygonoverlay", "sha": "efef550d4e1644c9abca6f4b269fa5a4599ab042c6252ce22ed2b44a6389d834", "sieve": 2, "t": "PolygonOverlay", "n": 169, "laws": 0, "ts": "2026-08-07 18:19 UTC"}

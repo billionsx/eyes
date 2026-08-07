@@ -608,3 +608,19 @@
 {"id": "/documentation/Swift/UnsafeRawPointer", "law": "When calling a function or method with an parameter, you can pass an instance of that specific pointer type, pass an instance of a compatible pointer type, or use Swift’s implicit bridging to pass a compatible pointer."}
 {"id": "/documentation/Swift/UnsafeRawPointer", "law": "Alternatively, you can use Swift’s implicit bridging to pass a pointer to an instance or to the elements of an array."}
 {"id": "/documentation/Swift/Unmanaged", "law": "When you use this type, you become partially responsible for keeping the object alive."}
+{"id": "/documentation/swift/choosing-between-structures-and-classes", "law": "Use classes when you need to control the identity of the data you’re modeling."}
+{"id": "/documentation/swift/choosing-between-structures-and-classes", "law": "Use structures when you’re modeling data that contains information about an entity with an identity that you don’t control."}
+{"id": "/documentation/swift/migrating-your-objective-c-code-to-swift", "law": "Once you migrate a class to Swift, you must remove the corresponding file from the target before building to avoid a duplicate symbol error."}
+{"id": "/documentation/swift/manual-memory-management", "law": "Use typed pointers and buffers to access memory as instances of a specific type."}
+{"id": "/documentation/swift/manual-memory-management", "law": "Use raw pointers and buffers to access memory for loading and storing as raw bytes."}
+{"id": "/documentation/swift/duration/timeformatstyle/pattern-swift.struct", "law": "To customize how a pattern handles zero-padding and fractional parts, use one of the type methods that take these customizations as parameters."}
+{"id": "/documentation/swift/duration/unitsformatstyle/unitwidth-swift.struct", "law": "The width of a unit to use in formatting a duration."}
+{"id": "/documentation/swift/optional/publisher-swift.struct", "law": "In contrast with the publisher, which always produces a single value, this publisher might not send any values and instead finish normally, if is ."}
+{"id": "/documentation/swift/result/publisher-swift.struct", "law": "This latter behavior is a contrast with , which always publishes a single value."}
+{"id": "/documentation/Swift/designating-nullability-in-objective-c-apis", "law": "With these annotations, Swift imports the type without using any implicitly wrapped optionals: The and annotations are simplified forms of the and annotations, which you can use in almost any context that you would use the keyword with a pointer type."}
+{"id": "/documentation/Swift/designating-nullability-in-objective-c-apis", "law": "Complex pointer types, such as , must be explicitly annotated using these annotations."}
+{"id": "/documentation/Swift/designating-nullability-in-objective-c-apis", "law": "For example, to specify a nonnullable pointer to a nullable object reference, use ."}
+{"id": "/documentation/Swift/designating-nullability-in-objective-c-apis", "law": "Use nullability annotations or mark regions as annotated to control how Objective-C declarations are imported into Swift."}
+{"id": "/documentation/Swift/MutableCollection", "law": "A value stored into a subscript of a instance must subsequently be accessible at that same position."}
+{"id": "/documentation/Swift/Optional", "law": "To conditionally bind the wrapped value of an instance to a new variable, use one of the optional binding control structures, including , , and ."}
+{"id": "/documentation/Swift/AsyncIteratorProtocol", "law": "While this example isn’t itself asynchronous, it shows the shape of a custom sequence and iterator, and how to use it as if it were asynchronous: At the call site, this looks like:"}

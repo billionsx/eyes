@@ -8,3 +8,6 @@
 {"id": "/documentation/Dispatch/dispatch_queue_t", "law": "The global concurrent queues invoke blocks in FIFO order but do not wait for their completion, allowing multiple blocks to be invoked concurrently."}
 {"id": "/documentation/Dispatch/DispatchQueue/main", "law": "Alternatively, use asynchronous versions of the call, if available."}
 {"id": "/documentation/Dispatch/DispatchQoS", "law": "Because higher priority work is performed more quickly and with more resources than lower priority work, it typically requires more energy than lower priority work."}
+{"id": "/documentation/Dispatch/dispatch-queue", "law": "When designing tasks for concurrent execution, do not call methods that block the current thread of execution."}
+{"id": "/documentation/Dispatch/DispatchQoS/userInteractive", "law": "For example, use this class for animations or for tracking events interactively."}
+{"id": "/documentation/dispatch/dispatchqueue", "law": "When designing tasks for concurrent execution, do not call methods that block the current thread of execution."}

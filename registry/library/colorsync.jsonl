@@ -5,3 +5,4 @@
 {"id": "/documentation/colorsync/headroom-adaptive-gain-curve", "law": "ColorSync provides HAGC through two APIs that describe the same data: In Swift, use to check the curve’s structure at compile time and report invalid values by throwing an error."}
 {"id": "/documentation/colorsync/color-management-modules", "law": "Most apps never work with a CMM directly, because ColorSync selects one automatically."}
 {"id": "/documentation/colorsync/color-transforms", "law": "Color conversion requires significant computation, so the way you apply a transform affects performance."}
+{"id": "/documentation/colorsync/profile-tags-and-signatures", "law": "Use these constants to look up a tag with , or test for one with , and to interpret a profile’s class and color space."}

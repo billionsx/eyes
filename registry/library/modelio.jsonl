@@ -52,3 +52,4 @@
 {"id": "/documentation/ModelIO/MDLMesh", "law": "Each submesh contains index buffer data that describes how the mesh’s vertices should be combined for drawing and references material information describing an intended surface appearance for the submesh."}
 {"id": "/documentation/ModelIO/MDLLightProbe", "law": "A renderer can use this texture to create reflections on surfaces with metallic materials."}
 {"id": "/documentation/ModelIO/MDLMaterial", "law": "Use the property of a object to associate a material with a 3D object for rendering or to find the material assigned to an object loaded from an asset file."}
+{"id": "/documentation/ModelIO/MDLNamed", "law": "You can use this property to assign descriptive names to objects such as meshes, materials, cameras, and scattering functions to better keep track of the objects in your app."}

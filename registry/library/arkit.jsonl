@@ -524,3 +524,4 @@
 {"id": "/documentation/arkit/adding-realistic-reflections-to-an-ar-experience", "law": "Depending on what environment textures are in use before and after the transition, that change may be jarring to the user."}
 {"id": "/documentation/arkit/adding-realistic-reflections-to-an-ar-experience", "law": "To avoid unrealistic transitions, this sample app waits until the first environment texture becomes available before allowing the user to place virtual content."}
 {"id": "/documentation/ARKit/ARReferenceObject", "law": "To bundle reference objects into an app, use your Xcode project’s asset catalog: In your asset catalog, use the Add (+) button to create an AR Resource Group."}
+{"id": "/documentation/arkit/tracking-geographic-locations-in-ar", "law": "A geotracking session maps geographic coordinates to ARKit’s world-tracking local space, which requires basic world-tracking support."}

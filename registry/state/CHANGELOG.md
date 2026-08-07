@@ -2433,3 +2433,36 @@
 ### 2026-08-07 10:26 UTC · монитор прода
 - сейчас 11 · новых 0 · закрыто 0 · алерт: эфир
 
+### 2026-08-07 18:31 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 1002 · законов добыто 110 · изменилось 19
+- фронтир 10564 · всего пройдено 48700 · библиотека 34029 законов / 340 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32453)
+- очередь просеяна приёмом: было 12435, осталось 11062 (отложено 1373)
+- закон изменился: /documentation/swift/unsafepointer/strideable-implementations · «Strideable Implementations»
+- закон изменился: /documentation/Swift/updating-an-app-to-use-strict-concurrency · «Updating an app to use strict concurrency»
+- закон изменился: /documentation/Swift/MainActor · «MainActor»
+- закон изменился: /documentation/Swift/CVarArg · «CVarArg»
+- закон изменился: /documentation/Swift/Error · «Error»
+- закон изменился: /documentation/Swift/CChar · «CChar»
+- закон изменился: /documentation/Swift/Void · «Void»
+- закон изменился: /documentation/Swift/Equatable · «Equatable»
+- закон изменился: /documentation/Swift/UInt8 · «UInt8»
+- закон изменился: /documentation/Swift/Sequence · «Sequence»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 40 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 87 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

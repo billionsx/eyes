@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 33871 · кандидатов: 58 · из них со ссылкой на свод правил: 35
+Норм просмотрено: 34029 · кандидатов: 58 · из них со ссылкой на свод правил: 35
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -43,6 +43,7 @@
 | margin / padding | 1384 px | none | 🌐 universal | 1 | 1 | да |
 | min-width/min-height интерактивного элемента | 28 pt | min | ⚠️ game | 1 | 1 | да |
 | min-width/min-height интерактивного элемента | 44 pt | min | ⚠️ game | 1 | 1 | да |
+| margin / padding | 100 pt | none | ⚠️ tvos | 3 | 3 | нет |
 | opacity | 50 % | none | 🌐 universal | 3 | 3 | нет |
 | opacity | 100 % | none | 🌐 universal | 2 | 4 | нет |
 | font-size | 44 pt | none | 🌐 universal | 2 | 2 | нет |
@@ -62,7 +63,6 @@
 | margin / padding | 69 pt | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 75 pt | none | ⚠️ tvos | 1 | 1 | нет |
 | margin / padding | 78 pt | none | 🌐 universal | 1 | 1 | нет |
-| margin / padding | 100 pt | none | ⚠️ tvos | 1 | 1 | нет |
 | margin / padding | 162 pt | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 184 pt | none | 🌐 universal | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 🌐 universal | 1 | 1 | нет |
@@ -139,6 +139,8 @@
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
 - **min-width/min-height интерактивного элемента 44 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/game-controls
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
+- **margin / padding 100 pt** (none) — https://developer.apple.com/documentation/tvml/tv-scrollable-bounds-inset, https://developer.apple.com/documentation/tvml/tv-scrollable-bounds-inset-bottom
+  - «Here’s an example that sets the inset (unscrollable space) at the top, right, bottom, and left all to 100 points.»
 - **opacity 50 %** (none) — https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor, https://developer.apple.com/documentation/swiftui/view/opacity(_:)
   - «The default shadow color is black with 50% opacity.»
 - **opacity 100 %** (none) — https://developer.apple.com/documentation/swiftui/color/resolved/opacity, https://developer.apple.com/documentation/swiftui/color/resolvedhdr/opacity
@@ -147,5 +149,3 @@
   - «Use an absolute value to specify exact dimensions, like a 44 x 44 point square: Use an estimated value if the size of your content might change at run»
 - **line-height 2 pt** (none) — https://developer.apple.com/documentation/uikit/uifontdescriptor/symbolictraits-swift.struct/traitlooseleading, https://developer.apple.com/documentation/uikit/uifontdescriptor/symbolictraits-swift.struct/traittightleading
   - «For fonts that you create using , loose leading adds 2 points to the current leading value.»
-- **line-height 20 pt** (none) — https://developer.apple.com/documentation/swiftui/view/contentmargins(_:_:for:)-1lt8b, https://developer.apple.com/documentation/swiftui/view/contentmargins(_:_:for:)-lgl5
-  - «In the following example, the scroll view will automatically inset its content by the safe area plus an additional 20 points on the leading and traili»

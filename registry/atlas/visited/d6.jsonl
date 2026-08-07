@@ -199,3 +199,5 @@
 {"id": "/documentation/tvml/media-queries", "sha": "786296e1a3e6466f2c264aef9696027ba69dba56991cba15bc5330909ee85961", "sieve": 2, "t": "Media Queries", "n": 114, "laws": 0, "ts": "2026-08-07 04:46 UTC"}
 {"id": "/documentation/metalperformanceshadersgraph/mpsgraph/convolution3d(_:weights:descriptor:name:)", "sha": "21ed60bdbed189914028f8be8733346f31e3e46e26cfd619df1ba177ff5c5437", "sieve": 2, "t": "convolution3D(_:weights:descriptor:name:)", "n": 119, "laws": 0, "ts": "2026-08-07 04:51 UTC"}
 {"id": "/documentation/signinwithapplejs/clientconfigi/clientid", "sha": "396433f8dd60860c485c29a4f8aefae534332118c04fced1e01464f4d1618920", "sieve": 2, "t": "clientId", "n": 154, "laws": 0, "ts": "2026-08-07 05:03 UTC"}
+{"id": "/documentation/Swift/Float32", "sha": "7ee948f817476f943496a6c77e78494a5b3e115f42491180e2c759ffda615dd1", "sieve": 2, "t": "Float32", "n": 29, "laws": 0, "ts": "2026-08-07 18:16 UTC"}
+{"id": "/documentation/gamecontroller/gcinputleftpaddle-818ad", "sha": "333061585a6596a983d664aafe431107f7bfb3d3a57263c79df042ded2122df0", "sieve": 2, "t": "GCInputLeftPaddle", "n": 35, "laws": 0, "ts": "2026-08-07 18:22 UTC"}

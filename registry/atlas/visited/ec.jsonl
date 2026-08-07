@@ -175,3 +175,4 @@
 {"id": "/documentation/SafariServices/creating-a-content-blocker", "sha": "8b0099b598e5418a98600497cdc5afd661cad49581337ea7b382bcf9aa8912e1", "sieve": 2, "t": "Creating a content blocker", "n": 3599, "laws": 0, "ts": "2026-08-07 04:59 UTC"}
 {"id": "/documentation/avfoundation/avurlasset-async-properties", "sha": "9682ef53d5118e412c5d51222f96328af78fe6f0ea973e95f50555ea0bf6ddd0", "sieve": 2, "t": "AVURLAsset", "n": 88, "laws": 0, "ts": "2026-08-07 05:05 UTC"}
 {"id": "/documentation/Testing/OrganizingTests", "sha": "bc76720b332d5420c402d809df052d37cfe0ebb52b5d5c95c4f34e7b3bb4a246", "sieve": 2, "t": "Organizing test functions with suite types", "n": 2660, "laws": 2, "ts": "2026-08-07 05:07 UTC"}
+{"id": "/documentation/swift/int/encodable-implementations", "sha": "d7bdb635b2fe1bbece9bec5e140d4cc968e21497ad8639e5d39c333e59958313", "sieve": 2, "t": "Encodable Implementations", "n": 32, "laws": 0, "ts": "2026-08-07 18:06 UTC"}

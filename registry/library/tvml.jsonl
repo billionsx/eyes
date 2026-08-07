@@ -51,3 +51,13 @@
 {"id": "/documentation/tvml/autohighlight", "law": "Specifies that the element should initially be in focus."}
 {"id": "/documentation/tvml/layoutdirection", "law": "Use the attribute to set the language layout direction for a template."}
 {"id": "/documentation/tvml/buttonlockup", "law": "Use the element to add a badge to the the button."}
+{"id": "/documentation/tvml/tv-focus-margin", "law": "Specifies the amount of space required for a custom cell element in focus."}
+{"id": "/documentation/tvml/border-radius", "law": "Use the style to apply rounded corners to elements."}
+{"id": "/documentation/tvml/layout-direction", "law": "All base style sheets now use ."}
+{"id": "/documentation/tvml/layout-direction", "law": "You must use the query to change the language layout."}
+{"id": "/documentation/tvml/tv-theme", "law": "Use the tv-theme query to change the appearance of a template based on the theme specified in UIUserInterfaceStyle in the info.plist or by a theme set by the theme attribute."}
+{"id": "/documentation/tvml/font-weight", "law": "Use the style to specify how thick or thin a font looks."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset-bottom", "law": "Here’s an example that sets the inset at the bottom to 100 points."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset-bottom", "law": "The style creates an unscrollable region of a specified number of points up from the bottom of the Use the style to create an inset only at the bottom, without creating an inset at the top."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset-top", "law": "Here’s an example that sets the inset at the top to 100 points."}
+{"id": "/documentation/tvml/tv-scrollable-bounds-inset-top", "law": "The style creates an unscrollable region of a specified number of points down from the top of the Use the style to create an inset only at the top, without creating an inset at the bottom."}

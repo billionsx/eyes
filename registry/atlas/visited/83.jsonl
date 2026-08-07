@@ -179,3 +179,5 @@
 {"id": "/documentation/tvml/footer", "sha": "9cdf95d5bf1559e5ef770ab656ee847d831f90b16c5c615b7775dd9009043b32", "sieve": 2, "t": "footer", "n": 358, "laws": 0, "ts": "2026-08-07 04:47 UTC"}
 {"id": "/documentation/sirikit/intent-handling-infrastructure", "sha": "945712b40998505a91a836d48bdff4595a9689f4583a4d477d176b8dbab118d0", "sieve": 2, "t": "Intent Handling Infrastructure", "n": 579, "laws": 0, "ts": "2026-08-07 04:48 UTC"}
 {"id": "/documentation/PhotosUI/PHPickerMetadataOptions", "sha": "0287b9a0bdfa2cd84521e888a209a21abb4776a594e0f99fa433c538dfe09042", "sieve": 2, "t": "PHPickerMetadataOptions", "n": 154, "laws": 0, "ts": "2026-08-07 05:03 UTC"}
+{"id": "/documentation/swift/string/index/comparable-implementations", "sha": "bd498263ec669d0a5dc1f39cb9d4470b68d4be63fe0869b40b422e85bc08f3f9", "sieve": 2, "t": "Comparable Implementations", "n": 99, "laws": 0, "ts": "2026-08-07 18:12 UTC"}
+{"id": "/documentation/photos/phassetburstselectiontype", "sha": "ec154a7e390e8ac893c23ecbb098951498ed6ebe9a070db4688884971bf885c3", "sieve": 2, "t": "PHAssetBurstSelectionType", "n": 197, "laws": 0, "ts": "2026-08-07 18:27 UTC"}

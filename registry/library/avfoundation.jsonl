@@ -713,3 +713,8 @@
 {"id": "/documentation/AVFoundation/AVCaptureSlider/localizedValueFormat", "law": "Examples of valid format strings are: “%@%” for “40%” “%@ fps” for “60 fps” “+ %@” for “+ 20” A localized string that defines the presentation of the slider’s value."}
 {"id": "/documentation/AVFoundation/AVPlayer/usesExternalPlaybackWhileExternalScreenIsActive", "law": "A Boolean value that indicates whether the player should automatically switch to external playback mode while the external screen mode is active."}
 {"id": "/documentation/AVFoundation/AVPlayerLayer/isReadyForDisplay", "law": "Use this property to determine when to show or animate a player layer into view."}
+{"id": "/documentation/avfoundation/speech-synthesis", "law": "Optionally, use the speech synthesizer instance to control or respond to ongoing speech; for example, assign its to receive speech event notifications."}
+{"id": "/documentation/avfoundation/extracting-portrait-effects-matte-image-data-from-a-photo", "law": "They’re tagged with a linear transfer function, indicating that no color correction should be applied when working with them."}
+{"id": "/documentation/avfoundation/supporting-airplay-in-your-app", "law": "The picker provides users with a list of potential AirPlay devices they can use with your app."}
+{"id": "/documentation/avfoundation/supporting-airplay-in-your-app", "law": "To control when to show the picker, use to identify the state of the route detector."}
+{"id": "/documentation/avfoundation/supporting-airplay-in-your-app", "law": "This option is better for apps that require control over I/O, perform preprocessing on their media data, or have a DRM model that doesn’t support."}

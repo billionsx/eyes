@@ -237,3 +237,4 @@
 {"id": "/documentation/sirikit/configuring-the-view-controller-for-your-custom-interface", "law": "However, your view controllers don’t receive touch events or any other events while they’re onscreen, and you can’t add gesture recognizers to them."}
 {"id": "/documentation/sirikit/configuring-the-view-controller-for-your-custom-interface", "law": "Therefore, never create an interface with controls or views that require user interactions."}
 {"id": "/documentation/sirikit/configuring-the-view-controller-for-your-custom-interface", "law": "Use child view controllers to switch between different types of content."}
+{"id": "/documentation/sirikit/displaying-shortcut-information-in-a-siri-watch-face-card", "law": "For instance, if you don’t provide an image, the system uses a layout that displays only the title and subtitle fields."}

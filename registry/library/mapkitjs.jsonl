@@ -15,3 +15,15 @@
 {"id": "/documentation/MapKitJS/handling-initialization-events", "law": "Unless you wish to explicitly control initialization timing in JavaScript, use instead of handling initialization events directly."}
 {"id": "/documentation/MapKitJS/handling-initialization-events", "law": "The example below shows a common use case: Respond to events that trigger when MapKit JS initializes."}
 {"id": "/documentation/MapKitJS/mapkit", "law": "Similar to for apps, you can use MapKit JS to display interactive maps with customized annotations and overlays, and provide directions and search services."}
+{"id": "/documentation/mapkitjs/displaying-place-information-using-the-maps-embed-api", "law": "For greater control over the presentation style of the Place Card and map, use ."}
+{"id": "/documentation/mapkitjs/loading-the-latest-version-of-mapkit-js", "law": "Use versioned URLs if you want to be in full control of when MapKit JS updates and get the benefits of browser caching."}
+{"id": "/documentation/mapkitjs/displaying-indoor-maps-with-mapkit-js", "law": "Use these examples to create your own indoor map with a style that is consistent with your app’s design."}
+{"id": "/documentation/mapkitjs/handling-initialization-events", "law": "Unless you wish to explicitly control initialization timing in JavaScript, use instead of handling initialization events directly."}
+{"id": "/documentation/mapkitjs/mapkit-js-5", "law": "The Apple Maps logo in the lower left corner is now displayed on maps with dimensions of 200 x 100 pixels and larger."}
+{"id": "/documentation/mapkitjs/mapkit-js-5", "law": "Ensured that the map type control always shows the active map after opening the map type menu."}
+{"id": "/documentation/mapkitjs/mapkit-js-5", "law": "Made sure clustered annotations don’t freeze when the user pans or zooms the map with gestures."}
+{"id": "/documentation/MapKitJS/displaying-place-information-using-the-maps-embed-api", "law": "For greater control over the presentation style of the Place Card and map, use ."}
+{"id": "/documentation/mapkitjs/mapkit/init", "law": "Unless you wish to explicitly control initialization timing in JavaScript, use instead of this method."}
+{"id": "/documentation/mapkitjs/mapkit/padding", "law": "The getter to use to access the padding class."}
+{"id": "/documentation/mapkitjs/padding", "law": "Use padding to define edge insets on the map."}
+{"id": "/documentation/mapkitjs/padding", "law": "For example, if you want to add your own control on top of the map and ensure that the map doesn’t position annotations underneath it, you can add padding to the map and then position your control within the padded area."}

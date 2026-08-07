@@ -31,7 +31,6 @@
 {"id": "/documentation/foundation/filehandle/standarderror", "sha": "4b50dd49f48d0aae3331130869bfbea581aabba03af0cec657f81a732c3016fe", "t": "standardError", "n": 448, "laws": 0, "ts": "2026-07-26 11:52 UTC"}
 {"id": "/documentation/foundation/data", "sha": "67d6935c01e96e3a1b67668aa39fce7ef2432dd0aba1bb91c0cb44a934a2d16c", "t": "Data", "n": 2600, "laws": 1, "ts": "2026-07-26 11:52 UTC"}
 {"id": "/documentation/accelerate/vdsp/divide(_:_:)-6nfsi", "sha": "13feec3bbcf0b39f671f2cb9913f8730b95967c05d807c0b444023edb429cbd7", "t": "divide(_:_:)", "n": 301, "laws": 0, "ts": "2026-07-26 11:57 UTC"}
-{"id": "/documentation/Swift/Error", "sha": "d9caff57418ef4f259c6c70d4d6e92f4e98465be5fe877c3e8a446547020cb49", "t": "Error", "n": 1900, "laws": 4, "ts": "2026-07-26 12:05 UTC"}
 {"id": "/documentation/accelerate/vforce/ceil(_:)-9dsdt", "sha": "8e375caf19dff23941669648764c016ec2e09d2a277171fbabc009c173f81258", "t": "ceil(_:)", "n": 75, "laws": 0, "ts": "2026-07-26 12:12 UTC"}
 {"id": "/documentation/accelerate/vforce/sin(_:result:)-oida", "sha": "401e14f6365faec554f5670c497581fd5f28c2d41f13b9d8ae3ee9054c9351b8", "t": "sin(_:result:)", "n": 75, "laws": 0, "ts": "2026-07-26 12:13 UTC"}
 {"id": "/documentation/accelerate/vvacoshf(_:_:_:)", "sha": "e959af1093c6785786d9ec1eb0cee705c38280b5906871bd7622651b557a733c", "t": "vvacoshf(_:_:_:)", "n": 230, "laws": 0, "ts": "2026-07-26 12:14 UTC"}
@@ -173,3 +172,8 @@
 {"id": "/documentation/AVFoundation/AVPlayerLayer", "sha": "795d863cd3d4600bff732331d8d8718333470a0dfd9c996cd6bf8cfd53d4900e", "sieve": 2, "t": "AVPlayerLayer", "n": 676, "laws": 0, "ts": "2026-08-07 05:05 UTC"}
 {"id": "/documentation/coremotion/movement-disorder-algorithm-changelog", "sha": "0dacb5365da79b932e699e2ec7dd03d0644c69bc7df67c116d3766c5cde12619", "sieve": 2, "t": "Movement disorder algorithm changelog", "n": 438, "laws": 0, "ts": "2026-08-07 05:06 UTC"}
 {"id": "/documentation/contacts/cnsaverequest", "sha": "15ec65237b5392c33a0612a685047bfc1176a4f5e83f6175bce15c2f158a8261", "sieve": 2, "t": "CNSaveRequest", "n": 1221, "laws": 0, "ts": "2026-08-07 05:08 UTC"}
+{"id": "/documentation/swift/double/customreflectable-implementations", "sha": "691cd48fb0ced9952f2c3a3d200806aec74b435f61d26bc37723f43a7487544f", "sieve": 2, "t": "CustomReflectable Implementations", "n": 36, "laws": 0, "ts": "2026-08-07 18:07 UTC"}
+{"id": "/documentation/swift/string/utf8view/customreflectable-implementations", "sha": "691cd48fb0ced9952f2c3a3d200806aec74b435f61d26bc37723f43a7487544f", "sieve": 2, "t": "CustomReflectable Implementations", "n": 36, "laws": 0, "ts": "2026-08-07 18:12 UTC"}
+{"id": "/documentation/Swift/Error", "sha": "d9caff57418ef4f259c6c70d4d6e92f4e98465be5fe877c3e8a446547020cb49", "sieve": 2, "t": "Error", "n": 1900, "laws": 0, "ts": "2026-08-07 18:14 UTC"}
+{"id": "/documentation/mapkitjs/mapkit/placeselectionaccessory", "sha": "5d27c04a1463a83454f0c04cdcc3c6218a826ebe3fbb650d62ff1f2e2938a8a3", "sieve": 2, "t": "PlaceSelectionAccessory", "n": 185, "laws": 0, "ts": "2026-08-07 18:19 UTC"}
+{"id": "/documentation/photos/phasset/fetchassets(withburstidentifier:options:)", "sha": "7b3e472eaceb3e718de253e7c0aa39d35a53e647f39a575b2ca5b6324458a2c2", "sieve": 2, "t": "fetchAssets(withBurstIdentifier:options:)", "n": 544, "laws": 0, "ts": "2026-08-07 18:26 UTC"}

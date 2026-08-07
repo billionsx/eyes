@@ -2,3 +2,4 @@
 {"id": "/documentation/ShaderGraph", "law": "Some of these nodes are available as standard MaterialX definitions that you can use within your content creation workflow."}
 {"id": "/documentation/ShaderGraph/realitykit/Camera-Index-Switch-(RealityKit)", "law": "Use the node to render stereoscopic images."}
 {"id": "/documentation/ShaderGraph/Geometric/Refract-(RealityKit)", "law": "The vectors passed as the and parameters must both already be normalized to achieve the desired output."}
+{"id": "/documentation/shadergraph", "law": "With the control Shader Graph provides over materials, you can create effects that might otherwise require writing Metal shaders."}

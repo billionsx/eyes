@@ -71,3 +71,4 @@
 {"id": "/documentation/gamecontroller/gchapticslocality", "law": "Use this symbol to specify the location of the actuators when creating a haptic engine."}
 {"id": "/documentation/GameController/GCControllerElement", "law": "Use the property to check whether the user included an element in a system gesture."}
 {"id": "/documentation/GameController/adding-virtual-controls-to-games-that-support-game-controllers-in-ios", "law": "For example, use a to implement a direction pad or a to implement a button."}
+{"id": "/documentation/gamecontroller/gcbuttonelementname-swift.struct", "law": "Because the number and layout of bottom buttons vary by controller, the Game Controller framework identifies them by their easy of use or position to the person’s fingers."}
