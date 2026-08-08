@@ -151,3 +151,4 @@
 {"id": "/documentation/avkit/avplayerview/controlsstyle", "law": "The player view supports several different control styles that you can use to customize the player view’s appearance and behavior."}
 {"id": "/documentation/avkit/avexperiencecontroller/expandedconfiguration/automatictransitiontoimmersive-swift.enum", "law": "Use this enum to describe the desired automatic transition behavior into the immersive experience."}
 {"id": "/documentation/avkit/avexperiencecontroller/transitioncontext/status-swift.property", "law": "Use this to update your application state based on the current state of the transition."}
+{"id": "/documentation/AVKit/adopting-picture-in-picture-for-video-calls", "law": "The PiP window doesn’t receive touch events when you use , so you can’t customize the window’s user interface by adding buttons."}

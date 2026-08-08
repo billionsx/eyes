@@ -89,3 +89,5 @@
 {"id": "/documentation/coreimage/selectively-focusing-on-an-image", "law": "The lower gradient should complement the upper gradient, so that their combined coverage delineates the entire area to blur."}
 {"id": "/documentation/CoreImage/CIColor", "law": "Standard dynamic range (SDR) color color component values range from to , with representing an 0% of that component and representing 100%."}
 {"id": "/documentation/CoreImage/CIColorControls", "law": "The properties you use to configure a color controls filter."}
+{"id": "/documentation/coreimage/filter-attribute-keys", "law": "For example, the Gaussian blur filter has a radius parameter with a minimum of but no maximum value to indicate that all nonnegative values are valid."}
+{"id": "/documentation/coreimage/user-interface-control-options", "law": "You can use these constants to specify the controls that you want associated with each user scenario."}

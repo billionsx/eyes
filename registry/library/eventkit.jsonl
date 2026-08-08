@@ -98,3 +98,6 @@
 {"id": "/documentation/eventkit/updating-with-notifications", "law": "Because your local data is often invalidated or incomplete when a change occurs in the Calendar database, you should refetch your current date range of events whenever you receive an notification."}
 {"id": "/documentation/eventkit/updating-with-notifications", "law": "If you are modifying an event and do not want to refetch it unless it is absolutely necessary, call the method on the event."}
 {"id": "/documentation/eventkit/updating-with-notifications", "law": "If the method returns , you can continue to use the event; otherwise, you must refetch it."}
+{"id": "/documentation/eventkit/accessing-calendar-using-eventkit-and-eventkitui", "law": "Because of these reasons, the app requires write-only access so it can control the date and time of every event added to Calendar."}
+{"id": "/documentation/eventkit/managing-location-based-reminders", "law": "To use the default radius, set its value to 0."}
+{"id": "/documentation/eventkit/setting-an-alarm", "law": "A value of for the radius property will use the system’s default radius; to choose a radius of your own, specify a value in meters."}

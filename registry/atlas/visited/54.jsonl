@@ -193,3 +193,6 @@
 {"id": "/documentation/CoreFoundation/CFLocale", "sha": "952f9bf6258ba4006e171f5538441e31db86c5532a4031e0c018e1fb2574f586", "sieve": 2, "t": "CFLocale", "n": 2381, "laws": 0, "ts": "2026-08-08 04:03 UTC"}
 {"id": "/documentation/corefoundation/cfdata", "sha": "2ded88de9ab6fbb43e2150c90d3c416426aec4270293a95faf319b51559469c3", "sieve": 2, "t": "CFData", "n": 1468, "laws": 0, "ts": "2026-08-08 04:05 UTC"}
 {"id": "/documentation/corefoundation/cfstringcreatewithformat", "sha": "61e8ce623104853402324218e2ffb2d006e5bc95ab40169c9e1580922df7e3a1", "sieve": 2, "t": "CFStringCreateWithFormat", "n": 195, "laws": 0, "ts": "2026-08-08 04:05 UTC"}
+{"id": "/documentation/imageplayground/imageplaygroundconcept", "sha": "be7dd9073efd39a92ecf91d3790abc97296ae290b3196e21601c73cd07d4f989", "sieve": 2, "t": "ImagePlaygroundConcept", "n": 377, "laws": 0, "ts": "2026-08-08 18:02 UTC"}
+{"id": "/documentation/DeveloperToolsSupport/LibraryContentProvider/views", "sha": "6e5cd9764bd470eb8eda279a8f21196c0019fc5673d2c83b76f9b6799fd633ee", "sieve": 2, "t": "views", "n": 464, "laws": 0, "ts": "2026-08-08 18:02 UTC"}
+{"id": "/documentation/regexbuilder/lookahead", "sha": "fe12a836411bafd15a41ea42e93aeafa1a2de1c90af6d43e68ed000eb3c24429", "sieve": 2, "t": "Lookahead", "n": 405, "laws": 0, "ts": "2026-08-08 18:02 UTC"}

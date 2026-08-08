@@ -3,3 +3,4 @@
 {"id": "/documentation/RosterAPI", "law": "Accessing the user and class information requires authorization from an administrator of the ASM organization."}
 {"id": "/documentation/RosterAPI", "law": "When you begin the Roster API authorization flow, use the scopes defined below to request the appropriate level of access: At the end of the authorization flow, use the access token you receive to access the Roster API endpoints, which you use to fetch people and class information."}
 {"id": "/documentation/RosterAPI", "law": "You may use this identifier to associate user information from the Roster API with a user signing in to your app."}
+{"id": "/documentation/RosterAPI/obtaining-information-about-people-and-classes", "law": "Use your credentials to log in to the , then choose Certificates, IDs & Profiles > Services, and click the Configure button in the Account & Organizational Data Sharing section."}

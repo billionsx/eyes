@@ -2,3 +2,6 @@
 {"id": "/documentation/analytics-reports", "law": "To start receiving reports, use the endpoint in the App Store Connect API."}
 {"id": "/documentation/analytics-reports", "law": "After you create your request, use to poll the list of report instances to check whether new instances are downloadable."}
 {"id": "/documentation/analytics-reports", "law": "Rely on column names instead of column positions in the report files to ensure smoother schema upgrades."}
+{"id": "/documentation/Analytics-Reports/privacy", "law": "This approach reflects how different users use your app: For each detailed report row, the total session duration is noised so that, approximately: 68.2% of the time the reported value is expected to be within +/- the corresponding deviation of the true value."}
+{"id": "/documentation/Analytics-Reports/privacy", "law": "Here’s an example noise deviation calculation: If a specific report row has 100,000 true total duration seconds and 5,000 sessions, then the average session duration is 20 seconds."}
+{"id": "/documentation/Analytics-Reports/privacy", "law": "Sessions is separately noised with 1: For the report row with 100,000 true total duration seconds, approximately: 68.2% of the time the reported value appears within +/- 5 seconds (between 99,995 and 100,005)."}

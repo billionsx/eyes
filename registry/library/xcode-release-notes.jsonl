@@ -1,0 +1,3 @@
+{"id": "/documentation/Xcode-Release-Notes/build-system-release-notes-for-xcode-10", "law": "To use the legacy build system, select it in the File > Project/Workspace Settings sheet."}
+{"id": "/documentation/Xcode-Release-Notes/build-system-release-notes-for-xcode-10", "law": "Projects configured to use the legacy build system will display an orange hammer icon in the Activity View."}
+{"id": "/documentation/Xcode-Release-Notes/build-system-release-notes-for-xcode-10", "law": "(32795438, 33286594) Workaround: If required, switch to using the legacy build system in the File > Project/Workspace Settings sheet."}

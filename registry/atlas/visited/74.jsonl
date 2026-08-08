@@ -188,3 +188,6 @@
 {"id": "/documentation/corefoundation/string-comparison-flags", "sha": "22ec4a9d3721dcf007803bb960a56e5c2892a97fb32c91e403428199e1ab3702", "sieve": 2, "t": "String Comparison Flags", "n": 470, "laws": 0, "ts": "2026-08-08 04:02 UTC"}
 {"id": "/documentation/corefoundation/cgsize", "sha": "36cbd82a1c094709d2da7094f30be584c15f4cc1589840617620b01ea12b702b", "sieve": 2, "t": "CGSize", "n": 723, "laws": 0, "ts": "2026-08-08 04:04 UTC"}
 {"id": "/documentation/sharedwithyoucore/swcollaborationmetadata", "sha": "65662271888fb71e3ab99f77cbe004cd5b421dc0d975b38d1469f5bcf68d3c8e", "sieve": 2, "t": "SWCollaborationMetadata", "n": 578, "laws": 0, "ts": "2026-08-08 04:16 UTC"}
+{"id": "/documentation/gamekit/gkturnbasedmatch/status-swift.property", "sha": "2ea28923b7591cf7282540b5ed87294aced0ccfe5ed8fe547d02f546f7dc7b5e", "sieve": 2, "t": "status", "n": 71, "laws": 0, "ts": "2026-08-08 17:47 UTC"}
+{"id": "/documentation/xpc/xpc_endpoint_t", "sha": "e51ed5cf3dbf0fc09403de86f7bfe0398ab65b2d9591e6ab16c079fbbd2cd088", "sieve": 2, "t": "xpc_endpoint_t", "n": 324, "laws": 0, "ts": "2026-08-08 17:48 UTC"}
+{"id": "/documentation/nearbyinteraction/nisession/run(_:)", "sha": "98b8a39406ac0905db2f47298bc5ca07f19776e040818034afbd5187af0bdfba", "sieve": 2, "t": "run(_:)", "n": 823, "laws": 0, "ts": "2026-08-08 17:49 UTC"}

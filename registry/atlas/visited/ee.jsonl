@@ -189,3 +189,5 @@
 {"id": "/documentation/corefoundation/cgfloat-swift.struct/hashable-implementations", "sha": "76e16c1d516e42d10c20a779481aac815db737bb51c18f0cabaa07f5bdb26e2a", "sieve": 2, "t": "Hashable Implementations", "n": 66, "laws": 0, "ts": "2026-08-08 04:02 UTC"}
 {"id": "/documentation/adattributionkit/appimpression/id", "sha": "fd5e1b679547a3087126b24f3e80bdc3e87cf383baf133d19d3c5cc1b2a7297c", "sieve": 2, "t": "id", "n": 27, "laws": 0, "ts": "2026-08-08 04:10 UTC"}
 {"id": "/documentation/charts/areaplot/init(_:xstart:xend:y:)", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(_:xStart:xEnd:y:)", "n": 0, "laws": 0, "ts": "2026-08-08 04:13 UTC"}
+{"id": "/documentation/SecurityFoundation/SFAuthorization", "sha": "cef26e98efa4b96cd3860ca1a8724e817d68617c660bb5bde23b2e2ed1054460", "sieve": 2, "t": "SFAuthorization", "n": 895, "laws": 0, "ts": "2026-08-08 18:00 UTC"}
+{"id": "/documentation/swift/string/unicodescalarview/indices-swift.property", "sha": "7a85db5faac094e92fd4860fb21435212cde6c14c94cf014891406448b77911c", "sieve": 2, "t": "indices", "n": 442, "laws": 0, "ts": "2026-08-08 18:09 UTC"}

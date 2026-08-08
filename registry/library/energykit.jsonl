@@ -30,3 +30,5 @@
 {"id": "/documentation/energykit/providing-informative-charging-history-for-electric-vehicles", "law": "Use the tariff breakdown to retrieve energy costs when a person connects their utility account: The framework provides insights only after you submit load events."}
 {"id": "/documentation/EnergyKit/ElectricHVACLoadEvent", "law": "Load events for an are accessible to all people that use the Home app."}
 {"id": "/documentation/energykit/electrichvacloadevent", "law": "Load events for an are accessible to all people that use the Home app."}
+{"id": "/documentation/energykit/electricvehicleloadevent/session-swift.struct/state-swift.enum", "law": "When a device transitions from from idle to consuming or generating electricity, it must create a load event with ."}
+{"id": "/documentation/energykit/electricalloaddevice/id", "law": "Ensure the identifier: Isn’t empty, and is less than or equal to 64 characters Uses only alphanumeric, space, hyphen, and apostrophe characters Starts and ends with an alphanumeric character A unique, stable identifier for a device."}

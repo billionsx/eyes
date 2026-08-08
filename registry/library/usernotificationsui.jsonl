@@ -1,1 +1,5 @@
 {"id": "/documentation/UserNotificationsUI", "law": "Your extension manages a custom view controller, which you use to present the content from incoming notifications."}
+{"id": "/documentation/UserNotificationsUI/customizing-the-appearance-of-notifications", "law": "You can use your view controller to: Customize the placement of items, including the alert’s title, subtitle, and body text."}
+{"id": "/documentation/UserNotificationsUI/customizing-the-appearance-of-notifications", "law": "The system always displays a header that includes the app name and icon."}
+{"id": "/documentation/UserNotificationsUI/UNNotificationContentExtension", "law": "If the notification category includes custom actions, the system automatically adds action buttons to your notification interface; don’t create those buttons yourself."}
+{"id": "/documentation/UserNotificationsUI/UNNotificationContentExtension", "law": "Do not install gesture recognizers or rely on touch events in your interface."}

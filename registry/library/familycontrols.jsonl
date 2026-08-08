@@ -23,3 +23,8 @@
 {"id": "/documentation/familycontrols/familycontrolserror/unauthorized", "law": "The calling app must be authorized to provide parental controls and access data."}
 {"id": "/documentation/FamilyControls/AuthorizationCenter", "law": "You must add the Family Controls capability to your app before you call the or methods."}
 {"id": "/documentation/FamilyControls/AuthorizationCenter", "law": "After your app has been authorized, additional calls to don’t display the authentication sheet or ask to authorize that individual using Face ID or Touch ID."}
+{"id": "/documentation/FamilyControls/requesting-the-family-controls-entitlement", "law": "Before you distribute an app that uses Family Controls, your Apple Developer Account Holder must request permission to use the entitlement, and update your Xcode project to use the entitlement."}
+{"id": "/documentation/FamilyControls/requesting-the-family-controls-entitlement", "law": "You can also use the tab in to request permission to use the Family Controls entitlement for distribution."}
+{"id": "/documentation/FamilyControls/requesting-the-family-controls-entitlement", "law": "When you receive the Family Controls entitlement, update your Xcode project to use it."}
+{"id": "/documentation/FamilyControls/requesting-the-family-controls-entitlement", "law": "If your Xcode project already includes the Family Controls capability for development and you use automatic signing, Xcode automatically updates your app to use this capability for distribution."}
+{"id": "/documentation/FamilyControls/requesting-the-family-controls-entitlement", "law": "Register your app and its Screen Time API app extensions to use Family Controls."}

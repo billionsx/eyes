@@ -124,3 +124,5 @@
 {"id": "/documentation/usernotifications/unnotificationsound/criticalsoundnamed(_:withaudiovolume:)", "law": "Critical alerts ignore the mute switch and Do Not Disturb."}
 {"id": "/documentation/usernotifications/unnotificationsound/defaultcritical", "law": "Critical alerts ingore the mute switch and Do Not Disturb."}
 {"id": "/documentation/usernotifications/unnotificationsound/defaultcriticalsound(withaudiovolume:)", "law": "Critical alerts ignore the mute switch and Do Not Disturb."}
+{"id": "/documentation/UserNotifications/UNAuthorizationOptions/criticalAlert", "law": "Critical alerts ignore the mute switch and Do Not Disturb; the system plays a critical alert’s sound regardless of the device’s mute or Do Not Disturb settings."}
+{"id": "/documentation/UserNotifications/UNAuthorizationOptions/criticalAlert", "law": "Critical alerts require a special entitlement issued by Apple."}

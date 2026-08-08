@@ -203,3 +203,6 @@
 {"id": "/documentation/applepayontheweb/applepaybuttonlocale/id", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "id", "n": 0, "laws": 0, "ts": "2026-08-08 04:01 UTC"}
 {"id": "/documentation/adattributionkit/appimpression/advertiseditemid", "sha": "0b1d47bc8649ad245c4a51b139437c79790d4752229fbbe5d64f4c6135c2bd41", "sieve": 2, "t": "advertisedItemID", "n": 25, "laws": 0, "ts": "2026-08-08 04:10 UTC"}
 {"id": "/documentation/symbols/replacesymboleffect/downup-swift.property", "sha": "15af24d96151d653d1682db0912bff1398baa668fa2118a08149306a5856d8f5", "sieve": 2, "t": "downUp", "n": 193, "laws": 0, "ts": "2026-08-08 04:11 UTC"}
+{"id": "/documentation/PackageDescription/Target/sources", "sha": "4e06fc6530364c7d1a5b956a853a7d1b479a1194a4d1752305a0d81998638d38", "sieve": 2, "t": "sources", "n": 371, "laws": 0, "ts": "2026-08-08 18:02 UTC"}
+{"id": "/documentation/vision/vnbarcodesymbology/i2of5-cyk4", "sha": "91d59ef829f6849bfef0bf9c25de7e2f84563347b12fd635a7ca77d9cde455ae", "sieve": 2, "t": "i2of5", "n": 61, "laws": 0, "ts": "2026-08-08 18:06 UTC"}
+{"id": "/documentation/servicemanagement/smappservice/status-swift.property", "sha": "0174cdc62267c9f70bcf8bfe0d68fdd5c3c276fa125e9c6877782945d6cf90e4", "sieve": 2, "t": "status", "n": 77, "laws": 0, "ts": "2026-08-08 18:06 UTC"}

@@ -11,3 +11,5 @@
 {"id": "/documentation/Dispatch/dispatch-queue", "law": "When designing tasks for concurrent execution, do not call methods that block the current thread of execution."}
 {"id": "/documentation/Dispatch/DispatchQoS/userInteractive", "law": "For example, use this class for animations or for tracking events interactively."}
 {"id": "/documentation/dispatch/dispatchqueue", "law": "When designing tasks for concurrent execution, do not call methods that block the current thread of execution."}
+{"id": "/documentation/dispatch/dispatch-queue", "law": "When designing tasks for concurrent execution, do not call methods that block the current thread of execution."}
+{"id": "/documentation/dispatch/dispatch-semaphore", "law": "An object that controls access to a resource across multiple execution contexts through use of a traditional counting semaphore."}

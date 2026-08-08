@@ -191,3 +191,5 @@
 {"id": "/documentation/charts/ruleplot/init(_:xstart:xend:y:)-4yxo8", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "init(_:xStart:xEnd:y:)", "n": 0, "laws": 0, "ts": "2026-08-08 04:14 UTC"}
 {"id": "/documentation/exposurenotification/enerrordomain", "sha": "57c05f629f7a861c0e1bd7276228e54dfcb1aedc6e10d2cfda904ad7cf841ebe", "sieve": 2, "t": "ENErrorDomain", "n": 105, "laws": 0, "ts": "2026-08-08 04:17 UTC"}
 {"id": "/documentation/passkit/jpkipasscontents/signingidentity-swift.struct", "sha": "16f5dd47938f6d7e8fecb63d4c810ee0360d8388f3c04c0d9c91220f7afca0d8", "sieve": 2, "t": "JPKIPassContents.SigningIdentity", "n": 264, "laws": 0, "ts": "2026-08-08 04:18 UTC"}
+{"id": "/documentation/mediaaccessibility/mamusichapticsmanager/shared", "sha": "e652e29722aa4d483cd992ef0dcbe8e1c30d70398c47b418a228864e1c406d65", "sieve": 2, "t": "shared", "n": 40, "laws": 0, "ts": "2026-08-08 17:44 UTC"}
+{"id": "/documentation/gamekit/gkturnbasedparticipant/status-swift.property", "sha": "2b7c5268a3b2e46890cd13906105b5245548be7b7e8e8a6443aaa0d225e605ba", "sieve": 2, "t": "status", "n": 30, "laws": 0, "ts": "2026-08-08 17:47 UTC"}

@@ -1,0 +1,4 @@
+{"id": "/documentation/ContactsUI/ContactAccessButton", "law": "You use this button to prompt them to authorize additional contacts for your app to use while operating under limited-access authorization."}
+{"id": "/documentation/ContactsUI/ContactAccessButton", "law": "Use this button in addition to a search UI in your app, such as a text field."}
+{"id": "/documentation/ContactsUI/ContactAccessButton", "law": "To show a picker of all contacts and allow someone to add them to your app, without presenting your own search UI, use ."}
+{"id": "/documentation/ContactsUI/ContactAccessButton", "law": "A SwiftUI button that you use to add to the set of contacts someone shares with your app."}

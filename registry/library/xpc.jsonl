@@ -14,3 +14,5 @@
 {"id": "/documentation/XPC/xpc_connection_set_peer_team_identity_requirement(_:_:)", "law": "Don’t call this function multiple times for the same connection, or call multiple functions that set code-signing requirements on the same connection."}
 {"id": "/documentation/XPC/xpc_connection_set_peer_team_identity_requirement(_:_:)", "law": "If you use either of these approaches, the system terminates your process with an error."}
 {"id": "/documentation/XPC/xpc_endpoint_t", "law": "Upon receiving an endpoint, the recipient can use to create as many distinct connections as necessary."}
+{"id": "/documentation/xpc", "law": "Using in the Foundation framework lets you design a well-defined protocol for clients to use."}
+{"id": "/documentation/xpc/xpc_connection_set_context(_:_:)", "law": "It is recommended that, instead of changing the actual context pointer associated with the object, you instead change the state of the context object itself."}

@@ -199,3 +199,16 @@
 {"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "When you report that the player completes the achievement 100%, the dashboard shows the image for the achievement, and Game Center adds it to the player’s completed achievements."}
 {"id": "/documentation/GameKit/rewarding-players-with-achievements", "law": "For example, use a hidden achievement if an achievement description reveals aspects of your game’s plot, or if you want to surprise the player with awards."}
 {"id": "/documentation/GameKit/sending-messages-to-players-in-turn-based-games", "law": "The code listings in this article use GameKit asynchronous methods that you invoke from an method or within a structure."}
+{"id": "/documentation/gamekit/choosing-a-leaderboard-for-your-challenges", "law": "You don’t select a duration if you associate a challenge with a recurring leaderboard."}
+{"id": "/documentation/gamekit/choosing-a-leaderboard-for-your-challenges", "law": "Because the challenge duration inherits from the recurring leaderboard’s remaining duration, don’t configure a challenge on a recurring leaderboard that has a short duration."}
+{"id": "/documentation/gamekit/creating-activities-for-your-game", "law": "It’s also helpful to avoid tracking incomplete scores or attempts."}
+{"id": "/documentation/gamekit/creating-engaging-challenges-from-leaderboards", "law": "Make sure to call during relevant moments of gameplay instead of when the player starts the game or navigates menus."}
+{"id": "/documentation/gamekit/initializing-and-configuring-game-center", "law": "In the sidebar, click the “Select a device” pop-up button, and select the physical device you use for testing."}
+{"id": "/documentation/gamekit/initializing-and-configuring-game-center", "law": "The best time to initialize Game Center is when the player launches your game, so don’t hide initialization behind game menus or the settings screen."}
+{"id": "/documentation/gamekit/saving-the-player-s-game-data-to-an-icloud-account", "law": "You can save game data to record a player’s progress, separate data for family members who use the same device, and support players who switch between devices."}
+{"id": "/documentation/gamekit/gkaccesspoint/location-swift.property", "law": "Use this property to set one of four corners to display the access point in your game."}
+{"id": "/documentation/GameKit/adding-an-access-point-to-your-game", "law": "Use the property to set the corner in which the access point appears."}
+{"id": "/documentation/GameKit/adding-an-access-point-to-your-game", "law": "For example, you should pause animations when the player clicks or taps the access point to display the dashboard."}
+{"id": "/documentation/GameKit/adding-an-access-point-to-your-game", "law": "You can use the property to change the focus when the player navigates the area behind the access point: Then use the method to show the dashboard when the player selects the access point."}
+{"id": "/documentation/GameKit/creating-activities-for-your-game", "law": "It’s also helpful to avoid tracking incomplete scores or attempts."}
+{"id": "/documentation/GameKit/creating-engaging-challenges-from-leaderboards", "law": "Make sure to call during relevant moments of gameplay instead of when the player starts the game or navigates menus."}

@@ -8,3 +8,5 @@
 {"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "If you need to update your views dynamically, use a timer to trigger programmatic updates."}
 {"id": "/documentation/IntentsUI/INUIHostedViewControlling", "law": "To avoid the duplication of some types of content, implement the properties of the protocol in your view controller."}
 {"id": "/documentation/intentsui/inuihostedviewcontrolling", "law": "However, don’t add gesture recognizers or views that involve user interactions to your view hierarchy."}
+{"id": "/documentation/intentsui/inuiaddvoiceshortcutbutton", "law": "To present this option in your app, use to display an “Add to Siri” button."}
+{"id": "/documentation/intentsui/inuiaddvoiceshortcutviewcontroller", "law": "To present this option in your app, use to display an Add to Siri button."}

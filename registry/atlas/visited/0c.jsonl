@@ -1,5 +1,4 @@
 {"id": "/documentation/AppleArchive", "sha": "135745b6eb7491379610e9143fea6e55c3a34c2c3f04d3ed1579766781bcbc36", "t": "Apple Archive", "n": 1529, "laws": 0, "ts": "2026-07-24 18:44 UTC"}
-{"id": "/documentation/MediaToolbox", "sha": "24aaec2b3beb071c2e1793a82776c6a32580ef200bc6687d0a1d7805f333b732", "t": "Media Toolbox", "n": 691, "laws": 2, "ts": "2026-07-24 18:52 UTC"}
 {"id": "/documentation/VideoToolbox/kVTCompressionPropertyKey_MVHEVCLeftAndRightViewIDs", "sha": "1f4234d847aebe6dbd148d64b46fae66efe90d5cd8a3cda987e408ea1a03018f", "t": "kVTCompressionPropertyKey_MVHEVCLeftAndRightViewIDs", "n": 419, "laws": 0, "ts": "2026-07-24 19:03 UTC"}
 {"id": "/documentation/accelerate/resamplingfilter", "sha": "f7f32b8808340466c882263c371547de51bcd0a12102d3584f33d8ac477dd271", "t": "ResamplingFilter", "n": 333, "laws": 1, "ts": "2026-07-25 04:24 UTC"}
 {"id": "/documentation/appkit/nsresponder", "sha": "1fa6a70e0fcde5ccdad50f2d0096c9fd0fcf7847658cebcbfd97bd8fc9288408", "t": "NSResponder", "n": 3799, "laws": 2, "ts": "2026-07-25 18:09 UTC"}
@@ -173,3 +172,9 @@
 {"id": "/documentation/mididriverkit/iousermidientity/removedestination", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "RemoveDestination", "n": 0, "laws": 0, "ts": "2026-08-08 03:58 UTC"}
 {"id": "/documentation/DockKit/DockAccessory/Animation", "sha": "b97c1c6c268cac818c64cde56d261ac37ef661d71dc38b6ea75a422f9d415a98", "sieve": 2, "t": "DockAccessory.Animation", "n": 297, "laws": 0, "ts": "2026-08-08 03:59 UTC"}
 {"id": "/documentation/exposurenotification/configuring-exposure-notifications", "sha": "fae308dd9ec424c83282475b6f03c5ec245bde410ffa5d35b85d202c6a3dace4", "sieve": 2, "t": "Configuring Exposure Notifications", "n": 11131, "laws": 2, "ts": "2026-08-08 04:11 UTC"}
+{"id": "/documentation/coreimage/cicolor/blue-swift.type.property", "sha": "8752882b73de814458898eb3b2175b2b1d40f458ff5b9b1b2ee238ca132b29b9", "sieve": 2, "t": "blue", "n": 103, "laws": 0, "ts": "2026-08-08 17:45 UTC"}
+{"id": "/documentation/GameKit/adding-an-access-point-to-your-game", "sha": "3296eaea35905975720e2ed7a9557b74e9caf48be7bcc93a964778036f849da6", "sieve": 2, "t": "Adding an access point to your game", "n": 3983, "laws": 3, "ts": "2026-08-08 17:47 UTC"}
+{"id": "/documentation/BundleResources/Information-Property-List/NSExtension", "sha": "6c363d9777643653118d2f9d72dbe875188ae5c2e351427ffb0ced55639d837f", "sieve": 2, "t": "NSExtension", "n": 1011, "laws": 0, "ts": "2026-08-08 17:54 UTC"}
+{"id": "/documentation/dispatch/dispatch-work-item", "sha": "35ad7280eaf95ba45cf40c048ad43e1cefe47eebe830ec6246b93756fd7dde13", "sieve": 2, "t": "Dispatch Work Item", "n": 330, "laws": 0, "ts": "2026-08-08 17:57 UTC"}
+{"id": "/documentation/MediaToolbox", "sha": "24aaec2b3beb071c2e1793a82776c6a32580ef200bc6687d0a1d7805f333b732", "sieve": 2, "t": "Media Toolbox", "n": 691, "laws": 0, "ts": "2026-08-08 17:58 UTC"}
+{"id": "/documentation/swift/float16/additivearithmetic-implementations", "sha": "404a40b02c358ae4add2c05993ffc0adb5b59e4e411752cd02258f47580222f7", "sieve": 2, "t": "AdditiveArithmetic Implementations", "n": 64, "laws": 0, "ts": "2026-08-08 18:10 UTC"}

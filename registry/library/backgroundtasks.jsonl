@@ -39,3 +39,6 @@
 {"id": "/documentation/backgroundtasks/bgtask/expirationhandler", "law": "All expiration handlers must complete before the allocated time."}
 {"id": "/documentation/backgroundtasks/bgtask/settaskcompleted(success:)", "law": "You can reschedule an unsuccessful required task."}
 {"id": "/documentation/backgroundtasks/bgtask/settaskcompleted(success:)", "law": "If you don’t set an expiration handler, the system will mark your task as complete and unsuccessful instead of sending a warning."}
+{"id": "/documentation/BackgroundTasks/choosing-background-strategies-for-your-app", "law": "If your app performs critical work that must continue while it runs in the background, use to alert the system."}
+{"id": "/documentation/BackgroundTasks/choosing-background-strategies-for-your-app", "law": "They don’t display an alert, play a sound, or badge your app’s icon."}
+{"id": "/documentation/BackgroundTasks/choosing-background-strategies-for-your-app", "law": "A messaging app with a muted conversation might use a background push solution, and so might an email app that processes incoming mail without alerting the user."}

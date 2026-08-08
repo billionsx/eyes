@@ -2541,3 +2541,36 @@
 ### 2026-08-08 11:06 UTC · монитор прода
 - сейчас 11 · новых 0 · закрыто 0 · алерт: эфир
 
+### 2026-08-08 18:14 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 3159 · законов добыто 142 · изменилось 39
+- фронтир 10496 · всего пройдено 51700 · библиотека 34376 законов / 350 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32417)
+- очередь просеяна приёмом: было 9752, осталось 8837 (отложено 915)
+- закон изменился: /documentation/GameKit/creating-turn-based-games · «Creating turn-based games»
+- закон изменился: /documentation/NearbyInteraction/finding-devices-with-precision · «Finding devices with precision»
+- закон изменился: /documentation/nearbyinteraction/nialgorithmconvergencestatus-2fnve · «NIAlgorithmConvergenceStatus»
+- закон изменился: /documentation/BundleResources/Information-Property-List/NSAccessorySetupBluetoothServices · «NSAccessorySetupBluetoothServices»
+- закон изменился: /documentation/BundleResources/Information-Property-List/BEEmbeddedWebBrowserEngine · «BEEmbeddedWebBrowserEngine»
+- закон изменился: /documentation/BundleResources/Entitlements · «Entitlements»
+- закон изменился: /documentation/BundleResources/Information-Property-List/BAInitialDownloadRestrictions/BADownloadDomainAllowList · «BADownloadDomainAllowList»
+- закон изменился: /documentation/FileProvider/using-push-notifications-to-signal-changes · «Using push notifications to signal changes»
+- закон изменился: /documentation/avfaudio/audio-engine · «Audio Engine»
+- закон изменился: /documentation/swift-playgrounds · «Swift Playgrounds»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 30 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 86 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

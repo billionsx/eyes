@@ -47,3 +47,8 @@
 {"id": "/documentation/accessorysetupkit/asaccessory/bluetoothidentifier", "law": "Use this identifier to establish a connection to the accessory."}
 {"id": "/documentation/accessorysetupkit/asaccessory/ssid", "law": "Use this identifier to establish a connection to the accessory."}
 {"id": "/documentation/accessorysetupkit/aspickerdisplaysettings/discoverytimeout-swift.struct/unbounded", "law": "Use this timeout value if you set the picker display option and need unlimited time for filtering."}
+{"id": "/documentation/AccessorySetupKit/discovering-and-configuring-accessories", "law": "When the picker sends an accessory added event, use information about the selected device to create a Bluetooth or Wi-Fi connection."}
+{"id": "/documentation/AccessorySetupKit/discovering-and-configuring-accessories", "law": "Collect these items in an array and pass them to the session for the operating system to present a picker: Each display item’s , a property of type , needs to have a or , and at least one of the following accessory identifiers: A and set to the same length."}
+{"id": "/documentation/AccessorySetupKit/discovering-and-configuring-accessories", "law": "If your app needs do this, set the picker’s display settings to use the option."}
+{"id": "/documentation/AccessorySetupKit/discovering-and-configuring-accessories", "law": "If you don’t discover the accessory you expect, manually cause a picker timeout by calling ."}
+{"id": "/documentation/AccessorySetupKit/discovering-and-configuring-accessories", "law": "If your app presents its own UI to configure the accessory, wait for the picker to dismiss, then use the accessory from the first event."}

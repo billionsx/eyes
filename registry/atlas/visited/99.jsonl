@@ -182,3 +182,5 @@
 {"id": "/documentation/charts/lineplot/init(x:y:t:domain:function:)-7bvyi", "sha": "e3e961541e519df70f9e31ebf54f93fd1b277a4261e4d085dc0f27e493783b29", "sieve": 2, "t": "init(x:y:t:domain:function:)", "n": 464, "laws": 0, "ts": "2026-08-08 04:14 UTC"}
 {"id": "/documentation/charts/vectorizedchartcontent/symbolsize(_:)-12tl1", "sha": "56f93a03cdeda69e949baa9132f2e34f212d6ce14efe6fbfceafc065cae061c9", "sieve": 2, "t": "symbolSize(_:)", "n": 52, "laws": 0, "ts": "2026-08-08 04:15 UTC"}
 {"id": "/documentation/fileproviderui/fpuierrordomain", "sha": "a31f73c47fb2cb48e03012452b3d43f7b8df3d992c88ed250a4c32bdf46effd1", "sieve": 2, "t": "FPUIErrorDomain", "n": 69, "laws": 0, "ts": "2026-08-08 04:18 UTC"}
+{"id": "/documentation/swift/uint32/words-swift.struct/indices-swift.property", "sha": "af32dc15f567e48e391624ee9a7e6edc84b40587b5840dd2de76b0419a60c8e0", "sieve": 2, "t": "indices", "n": 445, "laws": 0, "ts": "2026-08-08 18:08 UTC"}
+{"id": "/documentation/swift/substring/indices-swift.property", "sha": "7a85db5faac094e92fd4860fb21435212cde6c14c94cf014891406448b77911c", "sieve": 2, "t": "indices", "n": 442, "laws": 0, "ts": "2026-08-08 18:09 UTC"}

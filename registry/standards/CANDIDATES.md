@@ -1,6 +1,6 @@
 # BXE · кандидаты в правила
 
-Норм просмотрено: 34190 · кандидатов: 58 · из них со ссылкой на свод правил: 35
+Норм просмотрено: 34376 · кандидатов: 59 · из них со ссылкой на свод правил: 35
 
 Кандидат — не правило. Правилом он становится, когда у него есть проверяемое свойство кода, однозначное число и испытание в суде в обе стороны. Принимает основатель (ст. 7.4).
 
@@ -43,8 +43,8 @@
 | margin / padding | 1384 px | none | 🌐 universal | 1 | 1 | да |
 | min-width/min-height интерактивного элемента | 28 pt | min | ⚠️ game | 1 | 1 | да |
 | min-width/min-height интерактивного элемента | 44 pt | min | ⚠️ game | 1 | 1 | да |
+| opacity | 50 % | none | 🌐 universal | 4 | 4 | нет |
 | margin / padding | 100 pt | none | ⚠️ tvos | 3 | 3 | нет |
-| opacity | 50 % | none | 🌐 universal | 3 | 3 | нет |
 | opacity | 100 % | none | 🌐 universal | 2 | 4 | нет |
 | font-size | 44 pt | none | 🌐 universal | 2 | 2 | нет |
 | line-height | 2 pt | none | 🌐 universal | 2 | 2 | нет |
@@ -65,6 +65,7 @@
 | margin / padding | 78 pt | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 162 pt | none | 🌐 universal | 1 | 1 | нет |
 | margin / padding | 184 pt | none | 🌐 universal | 1 | 1 | нет |
+| opacity | 25 % | none | 🌐 universal | 1 | 1 | нет |
 | контраст пары цветов | 20 % | none | 🌐 universal | 1 | 1 | нет |
 
 ## Адреса
@@ -139,10 +140,10 @@
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
 - **min-width/min-height интерактивного элемента 44 pt** (min) — https://developer.apple.com/design/human-interface-guidelines/game-controls
   - «Make sure frequently used controls are a minimum size of 44x44 pt, and less important controls, such as menus, are a minimum size of 28x28 pt to accom»
+- **opacity 50 %** (none) — https://developer.apple.com/documentation/macOS-Release-Notes/macos-15-release-notes, https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor
+  - «in the shadow is drawn with 50% opacity (of whatever draws) and itself draws with 25% opacity.»
 - **margin / padding 100 pt** (none) — https://developer.apple.com/documentation/tvml/tv-scrollable-bounds-inset, https://developer.apple.com/documentation/tvml/tv-scrollable-bounds-inset-bottom
   - «Here’s an example that sets the inset (unscrollable space) at the top, right, bottom, and left all to 100 points.»
-- **opacity 50 %** (none) — https://developer.apple.com/documentation/scenekit/scnlight/shadowcolor, https://developer.apple.com/documentation/swiftui/view/opacity(_:)
-  - «The default shadow color is black with 50% opacity.»
 - **opacity 100 %** (none) — https://developer.apple.com/documentation/swiftui/color/resolved/opacity, https://developer.apple.com/documentation/swiftui/color/resolvedhdr/opacity
   - «A value of means 100% transparency, while a value of means 100% opacity.»
 - **font-size 44 pt** (none) — https://developer.apple.com/documentation/appkit/nscollectionlayoutdimension, https://developer.apple.com/documentation/uikit/nscollectionlayoutdimension

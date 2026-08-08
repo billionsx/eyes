@@ -3,3 +3,4 @@
 {"id": "/documentation/HTTP-Live-Streaming", "law": "You also need the use of a web server and a way to encode live streams as fragmented MPEG-4 media files containing HEVC or H.264 video, and AAC or AC-3 audio."}
 {"id": "/documentation/HTTP-Live-Streaming", "law": "Ensure correct playlist formatting and adherence to guidelines."}
 {"id": "/documentation/HTTP-Live-Streaming", "law": "Use the provided tools to segment your stream, create multivariant playlists, and verify the output of your own tools."}
+{"id": "/documentation/HTTP-Live-Streaming/enabling-low-latency-http-live-streaming-hls", "law": "When playing at low latency, the client must be able to switch renditions with a minimum number of round trips in order to perform bit-rate adaptation."}
