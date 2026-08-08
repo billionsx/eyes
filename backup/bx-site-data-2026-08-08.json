@@ -1,0 +1,4798 @@
+{
+ "зачем": "разовая копия перед исключением этих схем из резервной копии заказчика (закон З-7.9)",
+ "снято": "2026-08-08T19:41:44.855167+00:00",
+ "таблицы": {
+  "bx.team": [
+   {
+    "id": 1,
+    "bio": "Основатель BillionsX. 15+ лет в маркетинге и продажах. Работал с ABB, Eaton, ORBI Group, PARQ Development.",
+    "name": "Евгений Иванов",
+    "role": "Founder &amp; CEO",
+    "links": {},
+    "is_active": true,
+    "photo_url": null,
+    "sort_order": 1
+   },
+   {
+    "id": 2,
+    "bio": "Сооснователь. Эксперт по продажам. Автор методологии Sales xBook. Работал с Укрбуд, ГК Пионер, PF Capital.",
+    "name": "Борис Прядкин",
+    "role": "Co-Founder &amp; CSO",
+    "links": {},
+    "is_active": true,
+    "photo_url": null,
+    "sort_order": 2
+   }
+  ],
+  "bx.cases": [
+   {
+    "id": 25,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "дизайн-системы",
+      "label": "Элементы",
+      "value": "176"
+     },
+     {
+      "desc": "Home IoT",
+      "label": "Бренд",
+      "value": "Smart"
+     },
+     {
+      "desc": "глобальный",
+      "label": "Рынок",
+      "value": "B2C"
+     }
+    ],
+    "name": "Shelll",
+    "slug": "shelll",
+    "color": "#2D3436",
+    "images": [
+     "https://static.tildacdn.com/tild3637-3835-4131-a235-323562353330/01-min.jpg",
+     "https://static.tildacdn.com/tild6236-3436-4266-a231-373938666264/truck.png",
+     "https://static.tildacdn.com/tild3663-3961-4365-b765-616633326337/DSC08096-min.jpg",
+     "https://static.tildacdn.com/tild3931-3739-4463-b061-643238353138/DSC08055-min.jpg",
+     "https://static.tildacdn.com/tild6638-6439-4334-b135-663863383333/DSC08076-min.jpg",
+     "https://static.tildacdn.com/tild6666-6663-4537-b666-303437353832/DSC08057-min.jpg"
+    ],
+    "context": "Мебельный бренд в сегменте luxury с международными амбициями.",
+    "results": [
+     "176 элементов дизайн-системы",
+     "Бренд для массового рынка",
+     "Визуальный язык IoT-продукта",
+     "E-commerce платформа"
+    ],
+    "headline": "Премиальная мебель. Luxury-сегмент.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка от фирменного стиля до 176 элементов дизайн-системы. Визуальный язык, объясняющий технологию.",
+    "timeline": "12 месяцев",
+    "challenge": "IoT умный дом. Сложный технологический продукт нужно сделать понятным для массового B2C-рынка.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 26,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/shelll",
+    "game_changer": "Создание бренда с нуля. Фирменный стиль и digital-присутствие.",
+    "tilda_page_id": "24901110"
+   },
+   {
+    "id": 28,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "premium",
+      "label": "Сегмент",
+      "value": "Ultra"
+     },
+     {
+      "desc": "&amp; Europe",
+      "label": "Локация",
+      "value": "Dubai"
+     },
+     {
+      "desc": "элемента",
+      "label": "Дизайн",
+      "value": "124"
+     }
+    ],
+    "name": "S E N A T E",
+    "slug": "senate",
+    "color": "#1A1A2E",
+    "images": [
+     "https://static.tildacdn.com/tild6538-3833-4263-b536-666462383462/senate.png",
+     "https://static.tildacdn.com/tild6639-3031-4161-a162-323635653864/sclass.png",
+     "https://static.tildacdn.com/tild3332-3363-4238-b663-613265616539/4-2.jpg",
+     "https://static.tildacdn.com/tild3739-3033-4363-b861-666566663934/yachta.png",
+     "https://static.tildacdn.com/tild6439-6662-4662-b532-396162326565/oil.png",
+     "https://static.tildacdn.com/tild3537-3966-4663-b063-386666323361/10-2.jpg"
+    ],
+    "context": "Девелоперский проект в премиальном сегменте.",
+    "results": [
+     "124 элемента визуальной системы",
+     "Ultra-premium позиционирование",
+     "Дубай + Европа покрытие",
+     "Конкурентоспособный luxury-бренд"
+    ],
+    "headline": "Senate. Премиальный девелопмент.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction"
+    ],
+    "solution": "Полная упаковка luxury-бренда: от позиционирования до 124 элементов визуальной системы.",
+    "timeline": "10 месяцев",
+    "challenge": "Ultra-premium недвижимость в Дубае и Европе. Бренд должен конкурировать с мировыми luxury-застройщиками.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 29,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/senate",
+    "game_changer": "xVision + xProduction. Полная упаковка проекта.",
+    "tilda_page_id": "20364040"
+   },
+   {
+    "id": 5,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "корпоративных",
+      "label": "Клиенты",
+      "value": "3,000+"
+     },
+     {
+      "desc": "Fortune 500",
+      "label": "Страны",
+      "value": "100+"
+     },
+     {
+      "desc": "Google Street View",
+      "label": "Позиция",
+      "value": "ТОП-3"
+     }
+    ],
+    "name": "MaxboxVR",
+    "slug": "maxboxvr",
+    "color": "#4285F4",
+    "images": [
+     "https://static.tildacdn.net/tild6361-6339-4035-b164-373331373938/google-new-labs.JPG",
+     "https://static.tildacdn.net/tild3665-3261-4338-b836-323162303032/Sleeve_and_viewer.jpg",
+     "https://static.tildacdn.net/tild6337-6338-4635-a466-373166373934/IMG_1293.jpg",
+     "https://static.tildacdn.net/tild3731-6638-4438-b363-356237393137/IMG_1297.jpg",
+     "https://static.tildacdn.net/tild6561-6439-4438-b138-366561323562/IMG_1303.jpg"
+    ],
+    "context": "3,000+ корпоративных клиентов из 100+ стран. Fortune 500.",
+    "results": [
+     "ТОП-3 Google Street View в мире",
+     "3,000+ корпоративных клиентов",
+     "Эксклюзивный партнёр Google Maps",
+     "Fortune 500 в клиентской базе"
+    ],
+    "headline": "Эксклюзивный партнёр Google Maps. ТОП-3 Google Street View.",
+    "logo_url": "https://static.tildacdn.net/tild3231-6166-4531-a132-396464323565/maxboxvr-for-white.svg",
+    "products": [
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Упаковка инвестиционной модели и бренда. Позиционирование как эксклюзивного партнёра Google Maps.",
+    "timeline": "24 месяца",
+    "challenge": "Нишевый B2B-продукт VR-кардбордов. Нужно выйти на корпоративный рынок Fortune 500.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 5,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/maxboxvr",
+    "game_changer": "Упаковка инвестиционной модели бренда для корпоративного рынка.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 4,
+    "city": "Дублин",
+    "kpis": [
+     {
+      "desc": "годовой",
+      "label": "Оборот",
+      "value": "$34.2B"
+     },
+     {
+      "desc": "глобально",
+      "label": "Сотрудники",
+      "value": "96K"
+     },
+     {
+      "desc": "внедрён",
+      "label": "Метод",
+      "value": "xSales"
+     }
+    ],
+    "name": "Eaton",
+    "slug": "eaton",
+    "color": "#005EB8",
+    "images": [
+     "https://static.tildacdn.net/tild3464-6566-4932-b239-653931396536/Eaton-xstorage-conta.jpg",
+     "https://static.tildacdn.net/tild3338-3766-4361-a539-313430666639/Jining_plant.jpg"
+    ],
+    "context": "Глобальная корпорация управления электроэнергией.",
+    "results": [
+     "xSales адаптирован под все вертикали",
+     "Единая методология для 96,000 сотрудников",
+     "Стандартизация продаж в 100+ странах"
+    ],
+    "headline": "$34.2B. 96,000 сотрудников. 100+ стран.",
+    "logo_url": "https://static.tildacdn.net/tild3635-3239-4365-a662-653633616466/eaton-6.svg",
+    "products": [
+     "xSales"
+    ],
+    "solution": "Адаптация методологии xSales под каждую вертикаль. Единые стандарты при сохранении специфики.",
+    "timeline": "6 месяцев",
+    "challenge": "Корпорация $34.2B. Множество вертикалей бизнеса без единого подхода к продажам.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 4,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "Методология xSales, адаптированная под каждую вертикаль бизнеса.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 29,
+    "city": "Турция",
+    "kpis": [
+     {
+      "desc": "инвестиционная",
+      "label": "Локация",
+      "value": "Турция"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "122"
+     },
+     {
+      "desc": "экосистема",
+      "label": "Digital",
+      "value": "Full"
+     }
+    ],
+    "name": "Asterna",
+    "slug": "asterna",
+    "color": "#264653",
+    "images": [
+     "https://static.tildacdn.com/tild3138-3733-4433-b661-383833386563/_123-min.png",
+     "https://static.tildacdn.com/tild3963-3034-4731-b364-366436306264/5.jpg",
+     "https://static.tildacdn.com/tild6237-6335-4138-b333-346133396531/4.jpg",
+     "https://static.tildacdn.com/tild3663-3531-4934-b235-326364623063/3.jpg",
+     "https://static.tildacdn.com/tild3039-3761-4464-a533-326433336266/__2021-05-20__160324.png",
+     "https://static.tildacdn.com/tild3935-6133-4230-b731-323034393233/athens-in-greece-min.png"
+    ],
+    "context": "Девелоперский проект инвестиционной недвижимости в Турции.",
+    "results": [
+     "Полная digital-экосистема",
+     "Международная воронка продаж",
+     "122 работы в портфолио",
+     "Бренд инвестиционной недвижимости"
+    ],
+    "headline": "Asterna. Инвестиционная недвижимость.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, digital-маркетинг, воронка продаж для международной аудитории.",
+    "timeline": "8 месяцев",
+    "challenge": "Инвестиционная недвижимость в Турции. Нужна упаковка для международного инвестора.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 30,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/asterna",
+    "game_changer": "Полная упаковка бренда и digital-маркетинг.",
+    "tilda_page_id": "19787153"
+   },
+   {
+    "id": 31,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "coaching",
+      "label": "Формат",
+      "value": "Team"
+     },
+     {
+      "desc": "проведено",
+      "label": "Сессии",
+      "value": "50+"
+     },
+     {
+      "desc": "руководители",
+      "label": "Клиенты",
+      "value": "C-level"
+     }
+    ],
+    "name": "Командный Коучинг",
+    "slug": "coaching",
+    "color": "#E76F51",
+    "images": [
+     "https://static.tildacdn.com/tild6661-3865-4332-b564-303962366138/CK1_0175-min.jpg",
+     "https://static.tildacdn.com/tild3739-6530-4334-b061-363432343039/photo_2021-09-18_12-.jpg",
+     "https://static.tildacdn.com/tild3339-3431-4237-a365-666635613338/photo_2021-09-18_12-.jpg",
+     "https://static.tildacdn.com/tild6463-3163-4761-a434-323765336165/__2021-09-18__131443.png",
+     "https://static.tildacdn.com/tild3864-6230-4934-b061-333635626533/IMG_0143-min.jpg",
+     "https://static.tildacdn.com/tild3262-6436-4132-b161-336231326664/WC1_1344.jpg"
+    ],
+    "context": "Корпоративный коучинг и трансформация команд.",
+    "results": [
+     "50+ командных сессий",
+     "Клиенты C-level уровня",
+     "Premium-упаковка формата",
+     "Воронка для corporate клиентов"
+    ],
+    "headline": "Командный коучинг для лидеров.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "Полная упаковка: визуальный стиль, лендинг, воронка продаж для premium-сегмента.",
+    "timeline": "6 месяцев",
+    "challenge": "Командный коучинг для C-level руководителей. Нужна упаковка и продвижение премиум-формата.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 32,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/coaching",
+    "game_changer": "Упаковка методологии и продвижение.",
+    "tilda_page_id": "22724764"
+   },
+   {
+    "id": 43,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "промышленный",
+      "label": "Рынок",
+      "value": "B2B"
+     },
+     {
+      "desc": "экспорт",
+      "label": "Страны",
+      "value": "15+"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "72"
+     }
+    ],
+    "name": "SkyDrones",
+    "slug": "skydrones",
+    "color": "#00B894",
+    "images": [
+     "https://static.tildacdn.com/tild6264-6333-4630-b537-303463636161/gradient.png",
+     "https://static.tildacdn.com/tild6233-3039-4462-a234-386432366634/00100.png",
+     "https://static.tildacdn.com/tild6638-6634-4862-b433-333061613932/561651651.png",
+     "https://static.tildacdn.com/tild3864-6136-4233-b132-333662613966/iphone-min.png",
+     "https://static.tildacdn.com/tild3964-3637-4039-a630-336534666236/00108.png",
+     "https://static.tildacdn.com/tild6532-3937-4661-a237-386164343861/001010.png"
+    ],
+    "context": "Производитель промышленных дронов с международным рынком.",
+    "results": [
+     "Продукт для B2B-рынка упакован",
+     "Экспорт в 15+ стран",
+     "EN + RU версии",
+     "Каталог промышленных решений"
+    ],
+    "headline": "SkyDrones. Промышленные дроны.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "Полная упаковка: от бренда до каталога. EN-версия для 15+ стран экспорта.",
+    "timeline": "8 месяцев",
+    "challenge": "Производитель промышленных дронов. Нужна упаковка для B2B-рынка и международной экспансии.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 44,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/skydrones",
+    "game_changer": "Полная упаковка продукта для B2B-рынка.",
+    "tilda_page_id": "31212501"
+   },
+   {
+    "id": 41,
+    "city": "Швейцария",
+    "kpis": [
+     {
+      "desc": "премиум",
+      "label": "Страна",
+      "value": "Швейцария"
+     },
+     {
+      "desc": "investment",
+      "label": "Сегмент",
+      "value": "Luxury"
+     },
+     {
+      "desc": "элемента",
+      "label": "Дизайн",
+      "value": "74"
+     }
+    ],
+    "name": "Esito",
+    "slug": "esito",
+    "color": "#C0392B",
+    "images": [
+     "https://static.tildacdn.com/tild3936-3636-4232-b463-373639363132/esito-table.png",
+     "https://static.tildacdn.com/tild3162-3332-4362-b232-616538653661/pexels-andrea-piacqu.jpg",
+     "https://static.tildacdn.com/tild3963-3564-4835-b765-356561333230/esito-letter-min.png",
+     "https://static.tildacdn.com/tild6133-6539-4739-b530-386263623361/01-min.png",
+     "https://static.tildacdn.com/tild3464-3661-4333-a331-373537323833/02-min.png",
+     "https://static.tildacdn.com/tild6330-3562-4434-b361-623162383637/03-min.png"
+    ],
+    "context": "Инвестиционные проекты в Европе.",
+    "results": [
+     "74 элемента дизайн-системы",
+     "Швейцарский premium-уровень",
+     "E-commerce платформа",
+     "Бренд уровня private banking"
+    ],
+    "headline": "Esito. Инвестиционная недвижимость.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction"
+    ],
+    "solution": "Premium брендинг: минималистичный швейцарский дизайн, e-commerce, digital-присутствие.",
+    "timeline": "10 месяцев",
+    "challenge": "Швейцарская инвестиционная компания. Нужна упаковка уровня Swiss private banking.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 42,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/esito",
+    "game_changer": "Стратегия и упаковка для международных инвесторов.",
+    "tilda_page_id": "20077218"
+   },
+   {
+    "id": 46,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "B2B SaaS",
+      "label": "Ниша",
+      "value": "Tech"
+     },
+     {
+      "desc": "элементов",
+      "label": "Дизайн",
+      "value": "67"
+     },
+     {
+      "desc": "стек",
+      "label": "Digital",
+      "value": "Full"
+     }
+    ],
+    "name": "SYNCORE",
+    "slug": "syncore",
+    "color": "#0984E3",
+    "images": [
+     "https://static.tildacdn.com/tild3731-6433-4663-b937-303838366264/pexels-francesco-ung.jpg",
+     "https://static.tildacdn.com/tild3534-3836-4136-b734-633563373764/01_expo-min.png",
+     "https://static.tildacdn.com/tild6434-6161-4966-b436-653635333261/gavrilenko.png",
+     "https://static.tildacdn.com/tild3037-3238-4163-b536-373632333061/02_elevator-min.png",
+     "https://static.tildacdn.com/tild3239-3130-4665-b062-666633313234/syncore-photo-o2.jpg",
+     "https://static.tildacdn.com/tild3364-3732-4430-b961-613738633639/03_location-min.png"
+    ],
+    "context": "Технологическая компания с фокусом на корпоративные решения.",
+    "results": [
+     "67 элементов дизайн-системы",
+     "B2B SaaS упаковка",
+     "Корпоративный digital-стек",
+     "Воронка для enterprise-клиентов"
+    ],
+    "headline": "SYNCORE. Технологическая компания.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xSales"
+    ],
+    "solution": "Полная упаковка: от бренда до сайта. 67 элементов визуальной системы.",
+    "timeline": "8 месяцев",
+    "challenge": "B2B SaaS-платформа. Нужна упаковка технического продукта для корпоративного рынка.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 47,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/syncore",
+    "game_changer": "Упаковка бренда и методология продаж.",
+    "tilda_page_id": "21303758"
+   },
+   {
+    "id": 32,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "verse platform",
+      "label": "Продукт",
+      "value": "Meta"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "105"
+     },
+     {
+      "desc": "digital",
+      "label": "Стек",
+      "value": "Full"
+     }
+    ],
+    "name": "meterverses",
+    "slug": "meterverses",
+    "color": "#6C5CE7",
+    "images": [
+     "https://static.tildacdn.com/tild6337-3532-4634-b964-656266353132/macbook_pro-min.png",
+     "https://static.tildacdn.com/tild6532-3937-4237-a265-636564666431/iphone_14_pro-min.png",
+     "https://static.tildacdn.com/tild6166-6638-4266-b438-633239616261/332f3b24-2cd6-4d10-b.png",
+     "https://static.tildacdn.com/tild3437-3930-4931-b339-353865343633/ba771186-59d9-416a-9.png",
+     "https://static.tildacdn.com/tild6466-3330-4537-b761-303562326163/f8050411-310a-41f9-8.png",
+     "https://static.tildacdn.com/tild3338-3930-4564-b832-643062393136/51001992-ab7e-46d3-9.png"
+    ],
+    "context": "Web3 платформа с виртуальной недвижимостью.",
+    "results": [
+     "105 работ в портфолио",
+     "Визуальный язык метавселенной",
+     "Бренд будущего",
+     "Full-stack digital-присутствие"
+    ],
+    "headline": "Metaverse-платформа нового поколения.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction",
+     "xAI"
+    ],
+    "solution": "Полная упаковка: бренд, UX/UI, маркетинг. Визуальный язык метавселенной.",
+    "timeline": "12 месяцев",
+    "challenge": "Метавселенная-платформа. Нужно упаковать футуристический продукт для массовой аудитории.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 33,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/meterverses",
+    "game_changer": "Полная продуктовая упаковка: от бренда до UX/UI.",
+    "tilda_page_id": "33561577"
+   },
+   {
+    "id": 20,
+    "city": "Россия",
+    "kpis": [
+     {
+      "desc": "персональный",
+      "label": "Бренд",
+      "value": "xPerson"
+     },
+     {
+      "desc": "проекты",
+      "label": "Бизнес",
+      "value": "Multi"
+     },
+     {
+      "desc": "книга продаж",
+      "label": "Модель",
+      "value": "xSales"
+     }
+    ],
+    "name": "Владимир Древс",
+    "slug": "drevs",
+    "color": "#560BAD",
+    "images": [
+     "https://static.tildacdn.net/tild6237-3030-4636-b136-623039363938/MG5_7350_3.jpg",
+     "https://static.tildacdn.net/tild3862-6431-4632-b433-643037306363/MG5_7378.jpg",
+     "https://static.tildacdn.net/tild3237-3661-4737-a135-323762316139/MG5_7593.jpg",
+     "https://static.tildacdn.net/tild3336-3330-4235-a338-633438613032/MG5_7606.jpg"
+    ],
+    "context": "Образовательные продукты и персональный бренд.",
+    "results": [
+     "Персональный бренд",
+     "Единая книга продаж",
+     "Multi-проектный формат"
+    ],
+    "headline": "1,500,000+ подписчиков. 50,000+ выпускников.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xPerformance",
+     "xSales"
+    ],
+    "solution": "xPerson + xSales: персональный бренд и единая методология продаж.",
+    "timeline": "8 месяцев",
+    "challenge": "Серийный предприниматель. Нужен персональный бренд + книга продаж для всех проектов.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 20,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "xPerson. Упаковка продуктов и воронки продаж.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 19,
+    "city": "Украина",
+    "kpis": [
+     {
+      "desc": "в месяц",
+      "label": "Дети",
+      "value": "2,344"
+     },
+     {
+      "desc": "открыто",
+      "label": "Студии",
+      "value": "7"
+     },
+     {
+      "desc": "лист Mercury",
+      "label": "Forbes",
+      "value": "Шорт"
+     }
+    ],
+    "name": "Аквакласс",
+    "slug": "aquaclass",
+    "color": "#4CC9F0",
+    "images": [
+     "https://static.tildacdn.com/tild6538-3439-4464-b239-636462633262/01-min.png",
+     "https://static.tildacdn.com/tild3366-3562-4161-a463-653262376464/02-min.png",
+     "https://static.tildacdn.com/tild6137-6161-4535-a663-363063386431/IMG_7027.jpg",
+     "https://static.tildacdn.com/tild6631-6539-4438-b163-373130386535/January_46.jpg"
+    ],
+    "context": "Детское развитие через плавание. Forbes Woman Mercury Awards шорт-лист.",
+    "results": [
+     "2,344 ребёнка в месяц",
+     "7 студий открыто",
+     "Шорт-лист Forbes Woman Mercury Awards",
+     "Бренд федерального уровня"
+    ],
+    "headline": "2,344 ребёнка/мес. 7 студий.",
+    "logo_url": "https://static.tildacdn.net/tild3630-3737-4363-b330-623562393666/aquaclass_txt_logo.svg",
+    "products": [
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка бренда. Фирменный стиль, digital-присутствие, PR-стратегия.",
+    "timeline": "12 месяцев",
+    "challenge": "Детское плавание. Нужно вырасти из локального бизнеса в сеть с признанием Forbes.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 19,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/aquaclass",
+    "game_changer": "Упаковка бренда. Выход в шорт-лист Forbes Woman Mercury Awards.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 36,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "инвестиционный",
+      "label": "Фонд",
+      "value": "Capital"
+     },
+     {
+      "desc": "stack",
+      "label": "Сайт",
+      "value": "Full"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "84"
+     }
+    ],
+    "name": "Babitskyi",
+    "slug": "babitskyi-new",
+    "color": "#D62828",
+    "images": [
+     "https://static.tildacdn.com/tild6265-3264-4662-a132-313832323763/mac-min.png",
+     "https://static.tildacdn.com/tild3566-3134-4036-a463-613933353538/iphone-min.png",
+     "https://static.tildacdn.com/tild6438-3137-4166-a163-633863306133/view-light-architect.png",
+     "https://static.tildacdn.com/tild3939-6133-4664-b964-303532363762/market-min.png",
+     "https://static.tildacdn.com/tild3339-3764-4630-b430-306562396637/prosto-groshi.png",
+     "https://static.tildacdn.com/tild6539-3839-4737-a136-393564653036/Logo.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/babitskyi-new",
+    "results": [
+     "Инвестиционная упаковка",
+     "Полный сайт фонда",
+     "Презентация для инвесторов",
+     "84 работы в портфолио"
+    ],
+    "headline": "Babitskyi — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: от стратегии фонда до сайта и презентации для инвесторов.",
+    "timeline": "6 месяцев",
+    "challenge": "Инвестиционный фонд нового типа. Нужна упаковка для привлечения инвесторов.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 37,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/babitskyi-new",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "21644101"
+   },
+   {
+    "id": 37,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "truck",
+      "label": "Формат",
+      "value": "Food"
+     },
+     {
+      "desc": "масштабирование",
+      "label": "Модель",
+      "value": "Franchise"
+     },
+     {
+      "desc": "партнёрство",
+      "label": "Договор",
+      "value": "Invest"
+     }
+    ],
+    "name": "Billions Truck [RU]",
+    "slug": "truck",
+    "color": "#4285F4",
+    "images": [
+     "https://static.tildacdn.com/tild3635-3666-4532-b531-303039323037/16251-trailer-min.png",
+     "https://static.tildacdn.com/tild3738-6233-4638-a266-373431333538/evgeniy-ivanov-min.png",
+     "https://static.tildacdn.com/tild3661-3364-4464-b139-343461356263/billionstruckviktori.png",
+     "https://static.tildacdn.com/tild3239-6463-4261-b332-313966613032/3681920a-2046-4cd4-8.png",
+     "https://static.tildacdn.com/tild3839-3539-4830-b838-313836633462/7c18ec46-8e89-4197-b.png",
+     "https://static.tildacdn.com/tild3462-3265-4331-b163-653135616633/5764b12f-7667-46c2-a.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/truck",
+    "results": [
+     "Франшизная модель",
+     "Инвестиционный договор",
+     "Полная упаковка food-truck",
+     "Масштабируемый формат"
+    ],
+    "headline": "Billions Truck [RU] — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка + инвестиционный договор. Модель масштабирования через франчайзинг.",
+    "timeline": "6 месяцев",
+    "challenge": "Food-truck проект. Нужна упаковка для франчайзинга и привлечения инвестиционных партнёров.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 38,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/truck",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "36034373"
+   },
+   {
+    "id": 33,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "brand",
+      "label": "Продукт",
+      "value": "Uniform"
+     },
+     {
+      "desc": "платформа",
+      "label": "E-com",
+      "value": "Full"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "101"
+     }
+    ],
+    "name": "U B R A V E S . BRAND UNIFORM",
+    "slug": "ubraves",
+    "color": "#FDCB6E",
+    "images": [
+     "https://static.tildacdn.com/tild3937-3939-4536-a237-633537353763/ubraves-folded-tshir.png",
+     "https://static.tildacdn.com/tild6363-6431-4436-a638-663964663930/2e4be41288bef7d8435c.jpeg",
+     "https://static.tildacdn.com/tild3437-6665-4239-b463-353233613536/7e20a18a5d410fb64d7a.jpeg",
+     "https://static.tildacdn.com/tild3236-3434-4631-b636-626133663730/17ff981510f8d2dd7aac.jpeg",
+     "https://static.tildacdn.com/tild3234-3131-4036-a435-313633626137/8f0aee05453cc8d57d39.jpeg",
+     "https://static.tildacdn.com/tild6566-6265-4431-b864-366262643734/11ced6ac1f4e83183a7e.jpeg"
+    ],
+    "context": "Бренд корпоративной униформы для компаний.",
+    "results": [
+     "E-commerce платформа с нуля",
+     "101 элемент брендинга",
+     "Premium corporate uniform",
+     "Digital-маркетинг"
+    ],
+    "headline": "Премиальная брендированная форма.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка: фирменный стиль, e-commerce платформа, digital-маркетинг.",
+    "timeline": "10 месяцев",
+    "challenge": "Премиальная брендированная форма для корпораций. Нужны бренд и e-commerce с нуля.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 34,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/ubraves",
+    "game_changer": "Фирменный стиль, e-commerce платформа, digital-маркетинг.",
+    "tilda_page_id": "29436654"
+   },
+   {
+    "id": 34,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "школа",
+      "label": "Формат",
+      "value": "Yoga"
+     },
+     {
+      "desc": "community",
+      "label": "Аудитория",
+      "value": "Global"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "98"
+     }
+    ],
+    "name": "Bhakti School",
+    "slug": "bhakti-school",
+    "color": "#1B4965",
+    "images": [
+     "https://static.tildacdn.com/tild6266-6437-4765-b931-643531346434/TPlYE4VLrQg.jpeg",
+     "https://static.tildacdn.com/tild6532-3430-4338-a164-326235623636/_-min.png",
+     "https://static.tildacdn.com/tild6264-6663-4630-b064-333332646333/V28CRuvfkl0-min.jpeg",
+     "https://static.tildacdn.com/tild3831-3535-4165-b236-656530363837/KnAMZXTlb-E-min.jpeg",
+     "https://static.tildacdn.com/tild3231-3832-4832-b830-623136326237/HhwBfZmgBkI-min.jpeg",
+     "https://static.tildacdn.com/tild3066-3863-4665-a162-323438666362/-min.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/bhakti-school",
+    "results": [
+     "Глобальное сообщество",
+     "98 работ в портфолио",
+     "Воронка для онлайн-курсов",
+     "Wellness-бренд мирового уровня"
+    ],
+    "headline": "Bhakti School — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд в стиле wellness, сайт, воронка для онлайн-курсов.",
+    "timeline": "8 месяцев",
+    "challenge": "Международная школа йоги. Нужна digital-упаковка для глобального сообщества.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 35,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/bhakti-school",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "32978335"
+   },
+   {
+    "id": 45,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "персональный",
+      "label": "Бренд",
+      "value": "xPerson"
+     },
+     {
+      "desc": "&amp; wellness",
+      "label": "Тема",
+      "value": "Health"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "69"
+     }
+    ],
+    "name": "Елена Трибрат. Стройность",
+    "slug": "tribrat",
+    "color": "#2D6A4F",
+    "images": [
+     "https://static.tildacdn.com/tild6237-3762-4736-b237-356365666639/photo_2020-05-07_021.jpeg",
+     "https://static.tildacdn.com/tild3931-3161-4633-b730-333535613933/__2020-05-07__144714.png",
+     "https://static.tildacdn.com/tild6333-3262-4030-a439-333631616335/smiling-face-with-sm.png",
+     "https://static.tildacdn.com/tild3134-3734-4733-b861-303965333266/20409.jpg",
+     "https://static.tildacdn.com/tild6461-3236-4265-b936-616337653936/slice-of-pizza_1f355.png",
+     "https://static.tildacdn.com/tild6462-3038-4362-a361-323939643735/party-popper_1f389.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/tribrat",
+    "results": [
+     "Персональный бренд с нуля",
+     "Воронка продаж инфопродуктов",
+     "69 работ в портфолио",
+     "Монетизация экспертизы"
+    ],
+    "headline": "Елена Трибрат. Стройность — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "xPerson: стратегия, упаковка, воронка продаж. От эксперта к инфобизнесу.",
+    "timeline": "8 месяцев",
+    "challenge": "Эксперт по здоровью и стройности. Нужен персональный бренд для монетизации экспертизы.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 46,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/tribrat",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "11207045"
+   },
+   {
+    "id": 47,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "firm",
+      "label": "Ниша",
+      "value": "Law"
+     },
+     {
+      "desc": "юридический",
+      "label": "Сегмент",
+      "value": "Premium"
+     },
+     {
+      "desc": "Украина",
+      "label": "Локация",
+      "value": "Киев"
+     }
+    ],
+    "name": "Kapustin &amp;amp; Partners",
+    "slug": "kapustin",
+    "color": "#6366F1",
+    "images": [
+     "https://static.tildacdn.com/tild3366-3735-4337-a239-326430653465/intercontinental-kie.jpg",
+     "https://static.tildacdn.com/tild3137-3065-4639-a630-333461383637/photo_2020-03-17_143.jpeg",
+     "https://static.tildacdn.com/tild6235-6330-4663-a435-326264663133/fb_1.png",
+     "https://static.tildacdn.com/tild3934-6336-4465-a237-616561666230/low-angle-photo-of-f.jpg",
+     "https://static.tildacdn.com/tild3164-3738-4337-a531-383536643637/architectural-design.jpg",
+     "https://static.tildacdn.com/tild6634-6139-4662-b737-383064376533/__2020-03-17__151420.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/kapustin",
+    "results": [
+     "Premium юридический бренд",
+     "Стандарт Big Law",
+     "20 работ в портфолио",
+     "Digital-присутствие"
+    ],
+    "headline": "Kapustin &amp;amp; Partners — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Ребрендинг: от фирменного стиля до digital-присутствия. Стандарт Big Law.",
+    "timeline": "6 месяцев",
+    "challenge": "Премиальная юридическая фирма. Нужна упаковка уровня международных law firms.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 48,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/kapustin",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "9850350"
+   },
+   {
+    "id": 42,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "brand",
+      "label": "Ниша",
+      "value": "Fashion"
+     },
+     {
+      "desc": "collection",
+      "label": "Линейка",
+      "value": "I'm"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "72"
+     }
+    ],
+    "name": "Icboll. I'm",
+    "slug": "icboll",
+    "color": "#06D6A0",
+    "images": [
+     "https://static.tildacdn.com/tild3632-3239-4135-b662-313362303764/photo_2021-10-04_18-.jpg",
+     "https://static.tildacdn.com/tild3962-6535-4465-b262-386236656461/photo_2021-10-04_15-.jpg",
+     "https://static.tildacdn.com/tild3337-6439-4163-a532-376433616263/IMG_0149.PNG",
+     "https://static.tildacdn.com/tild3366-6338-4261-b364-333430383532/IMG_0151.PNG",
+     "https://static.tildacdn.com/tild3361-3765-4733-b666-303836663536/IMG_0152.PNG",
+     "https://static.tildacdn.com/tild3535-3530-4863-b333-653565663032/IMG_0153.PNG"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/icboll",
+    "results": [
+     "Fashion-бренд с нуля",
+     "72 работы в портфолио",
+     "E-commerce платформа",
+     "Коллекция I'm"
+    ],
+    "headline": "Icboll. I'm — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд-концепт, визуальный стиль, e-commerce, контент.",
+    "timeline": "8 месяцев",
+    "challenge": "Fashion-бренд. Нужна полная упаковка от концепции до e-commerce.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 43,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/icboll",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "22500975"
+   },
+   {
+    "id": 26,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "142"
+     },
+     {
+      "desc": "education",
+      "label": "Формат",
+      "value": "Business"
+     },
+     {
+      "desc": "сегмент",
+      "label": "Аудитория",
+      "value": "Premium"
+     }
+    ],
+    "name": "EZ",
+    "slug": "ez",
+    "color": "#C9A44E",
+    "images": [
+     "https://static.tildacdn.com/tild6465-6536-4533-b633-373635353736/unnamed.jpg",
+     "https://static.tildacdn.com/tild3331-3232-4235-b865-346439363361/last_img.jpg",
+     "https://static.tildacdn.com/tild3866-3437-4662-a430-633736396131/CDF27828-C0EE-4B6D-9.jpeg",
+     "https://static.tildacdn.com/tild3264-3239-4233-a332-656539343565/DD356BC4-5D30-49B3-B.jpeg",
+     "https://static.tildacdn.com/tild3339-3834-4339-a633-636139383064/52880932-FEDE-4EF3-8.jpeg",
+     "https://static.tildacdn.com/tild6265-6566-4663-a436-363964356533/3E6746AE-0D81-48F1-A.jpeg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/ez",
+    "results": [
+     "142 работы в портфолио",
+     "Premium бизнес-образование",
+     "Воронка для premium-клиентов",
+     "Полная digital-экосистема"
+    ],
+    "headline": "EZ — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: визуальный стиль, фотосъёмка, digital-маркетинг, воронка.",
+    "timeline": "12 месяцев",
+    "challenge": "Бизнес-образовательный проект. Нужна упаковка для premium-аудитории.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 27,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/ez",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "35814953"
+   },
+   {
+    "id": 39,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "острова",
+      "label": "Локация",
+      "value": "Бали"
+     },
+     {
+      "desc": "tour",
+      "label": "Формат",
+      "value": "Life"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "75"
+     }
+    ],
+    "name": "Life-тур на островах",
+    "slug": "bali",
+    "color": "#7209B7",
+    "images": [
+     "https://static.tildacdn.com/tild3136-3864-4365-a565-376665333436/bird-s-eye-view-of-o.jpg",
+     "https://static.tildacdn.com/tild3637-3430-4166-b231-313038306530/high-angle-photo-of-.jpg",
+     "https://static.tildacdn.com/tild6636-6632-4263-a263-303038326535/bird-s-eye-view-of-i.jpg",
+     "https://static.tildacdn.com/tild3761-6239-4430-b436-323032323033/statue-with-orange-n.jpg",
+     "https://static.tildacdn.com/tild6664-3834-4566-b365-343662323230/comida-balinesa.jpg",
+     "https://static.tildacdn.com/tild3336-3062-4132-a266-393830633131/photo-of-a-turtle-un.jpg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/bali",
+    "results": [
+     "75 работ в портфолио",
+     "Premium travel-бренд",
+     "Воронка продаж",
+     "Бали life-tour упаковка"
+    ],
+    "headline": "Life-тур на островах — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Визуальный стиль, лендинг, воронка продаж для premium travel-формата.",
+    "timeline": "4 месяца",
+    "challenge": "Life-тур на островах Бали. Нужна упаковка premium-путешествия.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 40,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/bali",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "9725030"
+   },
+   {
+    "id": 40,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "tech",
+      "label": "Ниша",
+      "value": "HR"
+     },
+     {
+      "desc": "платформа",
+      "label": "Модель",
+      "value": "B2B"
+     },
+     {
+      "desc": "покрытие",
+      "label": "Рынок",
+      "value": "СНГ"
+     }
+    ],
+    "name": "HR-WORKERS",
+    "slug": "hr-workers",
+    "color": "#F77F00",
+    "images": [
+     "https://static.tildacdn.com/tild6432-6361-4538-b535-623265336163/manipulyator.png",
+     "https://static.tildacdn.com/tild3338-3934-4132-b432-313966663336/pexels-tiger-lily-44.jpg",
+     "https://static.tildacdn.com/tild6638-3963-4730-b433-616334636433/BMW-2-Series-Gran-Co.jpg",
+     "https://static.tildacdn.com/tild3933-6261-4265-b433-346437346535/kaska.png",
+     "https://static.tildacdn.com/tild3530-3535-4231-b232-326364623238/pexels-ivan-samkov-4.jpg",
+     "https://static.tildacdn.com/tild6134-6532-4131-b566-366465343064/AdobeStock_188196406.jpeg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/hr-workers",
+    "results": [
+     "B2B платформа упакована",
+     "HR tech бренд",
+     "Воронка для корпоративных клиентов",
+     "СНГ покрытие"
+    ],
+    "headline": "HR-WORKERS — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, сайт, B2B-воронка. Визуальный стиль для HR tech.",
+    "timeline": "6 месяцев",
+    "challenge": "HR-платформа для подбора рабочего персонала. Нужна упаковка B2B-продукта.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 41,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/hr-workers",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "17974280"
+   },
+   {
+    "id": 49,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "рынок",
+      "label": "Ниша",
+      "value": "Wellness"
+     },
+     {
+      "desc": "place",
+      "label": "Формат",
+      "value": "Market"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "58"
+     }
+    ],
+    "name": "WELLNESS MARKETS",
+    "slug": "wellness-markets",
+    "color": "#4285F4",
+    "images": [
+     "https://static.tildacdn.com/tild6435-3832-4433-b461-623536343136/2092.jpg",
+     "https://static.tildacdn.com/tild3638-3831-4664-b839-316232666438/pallet.png",
+     "https://static.tildacdn.com/tild3130-3764-4663-b237-386339373965/3022013.jpg",
+     "https://static.tildacdn.com/tild6537-3861-4631-a432-643966613336/3022013.jpg",
+     "https://static.tildacdn.com/tild6565-3934-4163-b434-616637656365/pogruzchik.png",
+     "https://static.tildacdn.com/tild6436-6562-4631-b863-643131363061/3615.jpg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/wellness-markets",
+    "results": [
+     "Wellness маркетплейс",
+     "58 работ в портфолио",
+     "UX/UI платформы",
+     "Digital-маркетинг"
+    ],
+    "headline": "WELLNESS MARKETS — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, маркетплейс UX/UI, digital-маркетинг.",
+    "timeline": "6 месяцев",
+    "challenge": "Маркетплейс wellness-продуктов. Нужна упаковка для нового рынка.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 50,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/wellness-markets",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "14036107"
+   },
+   {
+    "id": 54,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "линейка",
+      "label": "Продукт",
+      "value": "Fashion"
+     },
+     {
+      "desc": "men/women/partners",
+      "label": "Версии",
+      "value": "3"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "51"
+     }
+    ],
+    "name": "x-ever / ru",
+    "slug": "x-ever",
+    "color": "#06D6A0",
+    "images": [
+     "https://static.tildacdn.com/tild3866-3662-4237-a338-646366363231/01_ring-woman-min.png",
+     "https://static.tildacdn.com/tild3866-3237-4534-b339-623961363330/x-ever-11.JPG",
+     "https://static.tildacdn.com/tild3136-6262-4766-a539-646134653834/02_flowers-min.png",
+     "https://static.tildacdn.com/tild3364-3963-4137-b663-333466313332/x-ever-12.JPG",
+     "https://static.tildacdn.com/tild3963-3333-4638-b963-326564353664/04_heart-min.png",
+     "https://static.tildacdn.com/tild3336-6435-4666-b535-346638316464/05_convert-min.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/x-ever",
+    "results": [
+     "3 линейки: men/women/partners",
+     "51 работа в портфолио",
+     "Единый бренд-стандарт",
+     "Fashion e-commerce"
+    ],
+    "headline": "x-ever / ru — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Единый бренд-стандарт + 3 адаптации: men, women, partners.",
+    "timeline": "8 месяцев",
+    "challenge": "Fashion-линейка с тремя сегментами. Нужна единая упаковка с адаптацией под каждую аудиторию.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 55,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/x-ever",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "26820109"
+   },
+   {
+    "id": 23,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "за 2 дня",
+      "label": "Участники",
+      "value": "2,000+"
+     },
+     {
+      "desc": "мировых",
+      "label": "Спикеры",
+      "value": "30+"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "228"
+     }
+    ],
+    "name": "Big Invest Summit 2021",
+    "slug": "big2021",
+    "color": "#6C5CE7",
+    "images": [
+     "https://static.tildacdn.com/tild6638-3763-4534-a365-666237663431/logoartcenter.png",
+     "https://static.tildacdn.com/tild3830-3836-4938-b862-373930313234/back2.jpg",
+     "https://static.tildacdn.com/tild6632-3565-4534-a133-636264383062/kuhar.png",
+     "https://static.tildacdn.com/tild6362-3463-4233-b030-353737386439/ueo.png",
+     "https://static.tildacdn.com/tild3136-3731-4965-a166-633965343938/kir.png",
+     "https://static.tildacdn.com/tild6431-3664-4366-a166-633536313532/kirlogo.png"
+    ],
+    "context": "Второй международный инвестиционный саммит.",
+    "results": [
+     "2,000+ участников",
+     "30+ мировых спикеров",
+     "228 работ в портфолио",
+     "Крупнейший инвестиционный саммит"
+    ],
+    "headline": "Big Invest Summit 2021. 2-я конференция.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "Полная упаковка: бренд, промо, воронка, ивент-дизайн, post-event маркетинг.",
+    "timeline": "4 месяца",
+    "challenge": "Инвестиционный саммит 2021. Ещё масштабнее: 30+ спикеров, 2,000+ участников.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 24,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/big2021",
+    "game_changer": "Масштабирование: 23 → 50+ спикеров. Рекордная конверсия.",
+    "tilda_page_id": "23752743"
+   },
+   {
+    "id": 21,
+    "city": "Россия",
+    "kpis": [
+     {
+      "desc": "персональный",
+      "label": "Бренд",
+      "value": "xPerson"
+     },
+     {
+      "desc": "generation",
+      "label": "Аудитория",
+      "value": "Digital"
+     },
+     {
+      "desc": "to business",
+      "label": "Формат",
+      "value": "Expert"
+     }
+    ],
+    "name": "Артём Бриус",
+    "slug": "brius",
+    "color": "#F72585",
+    "images": [
+     "https://static.tildacdn.com/tild6134-3136-4135-a137-356436306666/nik-min-2.png",
+     "https://static.tildacdn.com/tild6632-6237-4363-b134-386665326666/sharz-min.png",
+     "https://static.tildacdn.com/tild6165-6431-4337-b937-323639383434/ot-min.png"
+    ],
+    "context": "Растущий персональный бренд.",
+    "results": [
+     "Персональный бренд",
+     "Воронка монетизации",
+     "Expert-to-business модель"
+    ],
+    "headline": "1,000,000+ подписчиков.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction"
+    ],
+    "solution": "xPerson: стратегия, упаковка, воронка монетизации для digital-аудитории.",
+    "timeline": "6 месяцев",
+    "challenge": "Молодой эксперт. Нужен персональный бренд для перехода от экспертизы к бизнесу.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 21,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "xPerson. Стратегия роста и монетизации аудитории.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 51,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "девелопмент",
+      "label": "Ниша",
+      "value": "Eco"
+     },
+     {
+      "desc": "building",
+      "label": "Формат",
+      "value": "Green"
+     },
+     {
+      "desc": "стратегия",
+      "label": "Продукт",
+      "value": "xVision"
+     }
+    ],
+    "name": "Copy of Эко Берег",
+    "slug": "ecobereg",
+    "color": "#7209B7",
+    "images": [
+     "https://static.tildacdn.com/tild3634-3735-4133-b034-663739643634/ecobereg-02.png",
+     "https://static.tildacdn.com/tild6235-3037-4432-a665-666637306330/ecobereg-02.png",
+     "https://static.tildacdn.com/tild6461-6238-4830-a364-353639313362/ecobereg-03-min.png",
+     "https://static.tildacdn.com/tild3361-3761-4338-a465-353031663734/ecobereg-04.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/ecobereg",
+    "results": [
+     "Eco-девелоперский бренд",
+     "Зелёное позиционирование",
+     "Digital-маркетинг"
+    ],
+    "headline": "Copy of Эко Берег — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, позиционирование, digital-маркетинг для eco-проекта.",
+    "timeline": "6 месяцев",
+    "challenge": "Эко-девелоперский проект. Нужна упаковка для зелёного строительства.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 52,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/ecobereg",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "38640798"
+   },
+   {
+    "id": 56,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "quality",
+      "label": "Бренд",
+      "value": "Swiss"
+     },
+     {
+      "desc": "transport",
+      "label": "Ниша",
+      "value": "Rail"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "47"
+     }
+    ],
+    "name": "STADLER",
+    "slug": "stadler",
+    "color": "#E63946",
+    "images": [
+     "https://static.tildacdn.com/tild3938-3937-4638-a330-326632386130/macBook_Pro.png",
+     "https://static.tildacdn.com/tild3530-3335-4236-b738-323162623836/05_-.png",
+     "https://static.tildacdn.com/tild3735-3531-4337-a439-353762363530/03_iWach.png",
+     "https://static.tildacdn.com/tild3161-6331-4534-b862-336165313639/09__12.png",
+     "https://static.tildacdn.com/tild6631-6130-4664-b934-306430353231/iPhone___iPad.png",
+     "https://static.tildacdn.com/tild3862-6333-4065-b334-343236366362/04_iPhone___card.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/stadler",
+    "results": [
+     "Swiss quality бренд",
+     "47 работ в портфолио",
+     "B2B каталог",
+     "Digital-упаковка"
+    ],
+    "headline": "STADLER — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд-стандарт, каталог, digital-присутствие Swiss quality.",
+    "timeline": "8 месяцев",
+    "challenge": "Швейцарский производитель ж/д транспорта. Нужна digital-упаковка B2B-бренда.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 57,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/stadler",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "15509448"
+   },
+   {
+    "id": 57,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "premium",
+      "label": "Формат",
+      "value": "Fashion"
+     },
+     {
+      "desc": "Supreme",
+      "label": "Коллекция",
+      "value": "I'm"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "46"
+     }
+    ],
+    "name": "I'm Supreme",
+    "slug": "supreme",
+    "color": "#2D6A4F",
+    "images": [
+     "https://static.tildacdn.com/tild6232-3839-4466-a334-393234383061/_01.png",
+     "https://static.tildacdn.com/tild3561-3933-4232-a464-636336623765/IMG_4740.jpg",
+     "https://static.tildacdn.com/tild6663-6133-4865-a334-363766626462/IMG_1449.jpg",
+     "https://static.tildacdn.com/tild3231-6266-4463-b766-396435366431/IMG_1755.jpg",
+     "https://static.tildacdn.com/tild6335-6536-4432-b137-383637326339/DSC_2709.jpg",
+     "https://static.tildacdn.com/tild3965-6563-4463-b063-626261386231/IMG_1462.jpg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/supreme",
+    "results": [
+     "Fashion premium бренд",
+     "46 работ в портфолио",
+     "E-commerce",
+     "Luxury позиционирование"
+    ],
+    "headline": "I'm Supreme — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, фотосъёмка, e-commerce, контент.",
+    "timeline": "6 месяцев",
+    "challenge": "Premium fashion-линия. Нужна упаковка для luxury-позиционирования.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 58,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/supreme",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "13591733"
+   },
+   {
+    "id": 60,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "drink",
+      "label": "Продукт",
+      "value": "Energy"
+     },
+     {
+      "desc": "масс-маркет",
+      "label": "Рынок",
+      "value": "FMCG"
+     },
+     {
+      "desc": "линейка",
+      "label": "Дизайн",
+      "value": "Full"
+     }
+    ],
+    "name": "Pep's Energy",
+    "slug": "peps-energy",
+    "color": "#D62828",
+    "images": [
+     "https://static.tildacdn.com/tild3261-6363-4139-b064-366136386236/PEPS.jpg",
+     "https://static.tildacdn.com/tild3737-3436-4839-b464-396533356361/Spray_01.png",
+     "https://static.tildacdn.com/tild3832-6330-4162-a137-633937313462/Box_norm_nb.png",
+     "https://static.tildacdn.com/tild6431-3966-4464-b337-346362646538/Spray_02_nb.png",
+     "https://static.tildacdn.com/tild6561-3931-4633-b966-373366336432/noroot.png",
+     "https://static.tildacdn.com/tild3938-6539-4461-b062-653130613165/Gel_small_nb.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/peps-energy",
+    "results": [
+     "FMCG бренд",
+     "Дизайн линейки",
+     "Маркетинг для масс-маркета"
+    ],
+    "headline": "Pep's Energy — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, дизайн банки, маркетинг для FMCG.",
+    "timeline": "4 месяца",
+    "challenge": "Энергетический напиток для массового рынка. Нужна упаковка FMCG-продукта.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 61,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/peps-energy",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "11393208"
+   },
+   {
+    "id": 27,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "активов",
+      "label": "Портфель",
+      "value": "$100M+"
+     },
+     {
+      "desc": "в холдинге",
+      "label": "Компании",
+      "value": "12"
+     },
+     {
+      "desc": "стратегия",
+      "label": "Проект",
+      "value": "xVision"
+     }
+    ],
+    "name": "F1",
+    "slug": "f1",
+    "color": "#C0392B",
+    "images": [
+     "https://static.tildacdn.com/tild3532-3839-4938-a330-663338616164/buldozer-min.png",
+     "https://static.tildacdn.com/tild6631-3232-4438-b535-323131373939/04.jpg",
+     "https://static.tildacdn.com/tild3831-3866-4932-b066-646430363535/05.jpg",
+     "https://static.tildacdn.com/tild6563-3539-4463-b966-613032373935/electro-car.png",
+     "https://static.tildacdn.com/tild6533-3933-4562-a463-376164613763/IMG_1344-min.JPG",
+     "https://static.tildacdn.com/tild3736-6231-4963-a666-636438363837/container-min.png"
+    ],
+    "context": "Семейный инвестиционный холдинг с портфелем проектов.",
+    "results": [
+     "Стратегия для 12 компаний холдинга",
+     "Инвестиционная презентация",
+     "Единый фирменный стиль",
+     "Pitch deck для инвесторов"
+    ],
+    "headline": "F1 Family Holding. Инвестиционный холдинг.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction"
+    ],
+    "solution": "xVision: стратегия холдинга и каждой портфельной компании. Упаковка инвестиционного предложения.",
+    "timeline": "8 месяцев",
+    "challenge": "Семейный инвестиционный холдинг. Нужна стратегическая упаковка для привлечения инвесторов.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 28,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/f1",
+    "game_changer": "Стратегическая упаковка холдинга и его портфельных компаний.",
+    "tilda_page_id": "24464835"
+   },
+   {
+    "id": 48,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "tech",
+      "label": "Ниша",
+      "value": "Food"
+     },
+     {
+      "desc": "мясо",
+      "label": "Продукт",
+      "value": "Premium"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "61"
+     }
+    ],
+    "name": "Evolution Meat",
+    "slug": "meat",
+    "color": "#D62828",
+    "images": [
+     "https://static.tildacdn.com/tild3965-6264-4263-a163-666562633364/iskusstvennoe-myaso.jpg",
+     "https://static.tildacdn.com/tild3535-6361-4133-b235-393033323239/beyond-meat.png",
+     "https://static.tildacdn.com/tild3036-3232-4562-b732-333036616132/steak.gif",
+     "https://static.tildacdn.com/tild6665-3962-4133-a331-656239336361/meat-from-plants.jpg",
+     "https://static.tildacdn.com/tild3364-6362-4331-a163-396166326538/burger.gif",
+     "https://static.tildacdn.com/tild3461-6238-4935-a434-356635613634/iskusstvennoe-myaso.jpg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/meat",
+    "results": [
+     "Premium food-бренд",
+     "Каталог для HoReCa",
+     "61 работа в портфолио",
+     "E-commerce платформа"
+    ],
+    "headline": "Evolution Meat — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, каталог, e-commerce для premium food-бренда.",
+    "timeline": "6 месяцев",
+    "challenge": "Premium мясной бренд. Нужна упаковка для розницы и HoReCa.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 49,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/meat",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "26381360"
+   },
+   {
+    "id": 58,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "premium",
+      "label": "Ниша",
+      "value": "Furniture"
+     },
+     {
+      "desc": "&amp; CIS",
+      "label": "Рынок",
+      "value": "Dubai"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "46"
+     }
+    ],
+    "name": "mebel.black",
+    "slug": "mebel",
+    "color": "#1B4965",
+    "images": [
+     "https://static.tildacdn.com/tild3731-3261-4531-b034-656262373163/17.png",
+     "https://static.tildacdn.com/tild3231-6431-4336-a434-626161636161/07.png",
+     "https://static.tildacdn.com/tild3166-3764-4562-b463-373431383738/04.png",
+     "https://static.tildacdn.com/tild6132-3838-4433-a437-376561626662/01.png",
+     "https://static.tildacdn.com/tild6635-3030-4064-a362-623065383162/15.png",
+     "https://static.tildacdn.com/tild6137-3635-4031-b834-386564336137/05.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/mebel",
+    "results": [
+     "Premium мебельный бренд",
+     "46 работ в портфолио",
+     "Dubai + CIS рынки",
+     "E-commerce"
+    ],
+    "headline": "mebel.black — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, каталог, e-commerce, digital-маркетинг.",
+    "timeline": "6 месяцев",
+    "challenge": "Premium мебельный бренд. Нужна упаковка для Дубая и СНГ.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 59,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/mebel",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "19261222"
+   },
+   {
+    "id": 59,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "delivery",
+      "label": "Ниша",
+      "value": "Food"
+     },
+     {
+      "desc": "meals",
+      "label": "Модель",
+      "value": "Ready"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "45"
+     }
+    ],
+    "name": "All Ready",
+    "slug": "allready",
+    "color": "#6366F1",
+    "images": [
+     "https://static.tildacdn.com/tild6665-6262-4633-b265-623135336636/all.png",
+     "https://static.tildacdn.com/tild6361-6336-4131-b430-383533376666/logo_All_Ready.png",
+     "https://static.tildacdn.com/tild3933-6235-4035-a233-656435343731/5a3ce364-66f7-49d6-b.png",
+     "https://static.tildacdn.com/tild3062-3939-4236-b064-373462373038/89e332a8-3ecb-43be-9.png",
+     "https://static.tildacdn.com/tild3635-3964-4734-b963-656532333231/Frame_1.png",
+     "https://static.tildacdn.com/tild3562-3232-4366-a632-633365613065/6daecb1b-280c-43c3-a.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/allready",
+    "results": [
+     "Food delivery бренд",
+     "45 работ в портфолио",
+     "Приложение",
+     "Digital-маркетинг"
+    ],
+    "headline": "All Ready — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, приложение, маркетинг для food delivery.",
+    "timeline": "6 месяцев",
+    "challenge": "Доставка готовой еды. Нужна упаковка для конкурентного рынка food-tech.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 60,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/allready",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "36854729"
+   },
+   {
+    "id": 30,
+    "city": "Испания",
+    "kpis": [
+     {
+      "desc": "стран",
+      "label": "Проекты",
+      "value": "5"
+     },
+     {
+      "desc": "real estate",
+      "label": "Сегмент",
+      "value": "Luxury"
+     },
+     {
+      "desc": "элементов",
+      "label": "Дизайн",
+      "value": "111"
+     }
+    ],
+    "name": "GBH",
+    "slug": "gbh",
+    "color": "#0077B6",
+    "images": [
+     "https://static.tildacdn.com/tild3736-3931-4236-a638-316636376233/57193-Benidorm.jpg",
+     "https://static.tildacdn.com/tild3863-3133-4535-b633-323364363836/1.png",
+     "https://static.tildacdn.com/tild3866-6532-4332-a431-313735393138/1.png",
+     "https://static.tildacdn.com/tild3463-3130-4537-b832-326632623561/01.jpg",
+     "https://static.tildacdn.com/tild3038-6531-4534-a464-303765313632/02.jpg",
+     "https://static.tildacdn.com/tild6363-6265-4133-a634-666161356431/03.jpg"
+    ],
+    "context": "Девелоперская компания на Средиземноморском побережье Испании.",
+    "results": [
+     "111 элементов бренд-системы",
+     "Присутствие в 5 странах",
+     "Единый стандарт + локализация",
+     "Luxury real estate бренд"
+    ],
+    "headline": "GBH Group. Недвижимость Коста-Бланка.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction",
+     "xSales"
+    ],
+    "solution": "Единый бренд-стандарт + локализация для каждого рынка. 111 элементов визуальной системы.",
+    "timeline": "14 месяцев",
+    "challenge": "Международный luxury-застройщик в 5 странах. Нужен единый бренд при локальной адаптации.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 31,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/gbh",
+    "game_changer": "Упаковка 11+ жилых комплексов. Международная воронка продаж.",
+    "tilda_page_id": "19632083"
+   },
+   {
+    "id": 55,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "персональный",
+      "label": "Бренд",
+      "value": "xPerson"
+     },
+     {
+      "desc": "&amp; lifestyle",
+      "label": "Ниша",
+      "value": "Beauty"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "49"
+     }
+    ],
+    "name": "Юлия Жарова",
+    "slug": "zharova",
+    "color": "#560BAD",
+    "images": [
+     "https://static.tildacdn.com/tild6130-3432-4930-a464-613164643037/658110-PP4N98-728.jpg",
+     "https://static.tildacdn.com/tild3431-3064-4138-a265-373232303033/cherry-blossom_1f338.png",
+     "https://static.tildacdn.com/tild6461-3265-4563-a364-643332336263/zharovayulia-01.JPG",
+     "https://static.tildacdn.com/tild6334-6666-4462-a134-376262383537/346.jpg",
+     "https://static.tildacdn.com/tild6164-3730-4161-a434-366635343161/photo_2020-06-23_172.jpeg",
+     "https://static.tildacdn.com/tild6436-3532-4465-a636-663063383762/photo_2020-06-23_172.jpeg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/zharova",
+    "results": [
+     "Персональный бренд",
+     "49 работ в портфолио",
+     "Beauty &amp; lifestyle ниша"
+    ],
+    "headline": "Юлия Жарова — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "xPerson: визуальный стиль, контент-план, воронка продаж.",
+    "timeline": "6 месяцев",
+    "challenge": "Эксперт в beauty &amp; lifestyle. Нужен персональный бренд для монетизации.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 56,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/zharova",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "12260510"
+   },
+   {
+    "id": 35,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "production",
+      "label": "Формат",
+      "value": "Media"
+     },
+     {
+      "desc": "единицы",
+      "label": "Контент",
+      "value": "93"
+     },
+     {
+      "desc": "platform",
+      "label": "Каналы",
+      "value": "Multi"
+     }
+    ],
+    "name": "BUR MEDIA",
+    "slug": "burmedia",
+    "color": "#E17055",
+    "images": [
+     "https://static.tildacdn.com/tild3638-3830-4430-b432-306432336264/bur-fly-min.png",
+     "https://static.tildacdn.com/tild6435-3636-4539-a430-353432616665/bur-tv-min.png",
+     "https://static.tildacdn.com/tild3932-3763-4430-b036-343661353436/magic-wand_1fa84.png",
+     "https://static.tildacdn.com/tild3734-3232-4535-b462-643131636638/bur-copter-min.png",
+     "https://static.tildacdn.com/tild3930-3132-4863-a234-376233643965/fire_1f525.png",
+     "https://static.tildacdn.com/tild3638-6365-4266-a236-373635643861/01.png"
+    ],
+    "context": "Медиа-продакшн компания.",
+    "results": [
+     "93 единицы контента",
+     "Multi-platform присутствие",
+     "Портфолио для крупных клиентов",
+     "Premium медиа-бренд"
+    ],
+    "headline": "BUR MEDIA. Медиа-продакшн.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка: бренд, портфолио, digital-присутствие для медиа-компании.",
+    "timeline": "8 месяцев",
+    "challenge": "Медиа-продакшн компания. Нужна упаковка для привлечения крупных клиентов.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 36,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/burmedia",
+    "game_changer": "Упаковка бренда и позиционирование.",
+    "tilda_page_id": "30515609"
+   },
+   {
+    "id": 38,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "парламент",
+      "label": "Формат",
+      "value": "IPM"
+     },
+     {
+      "desc": "участниц",
+      "label": "Страны",
+      "value": "30+"
+     },
+     {
+      "desc": "impact",
+      "label": "Миссия",
+      "value": "Social"
+     }
+    ],
+    "name": "Міжнародний Парламент Матерів",
+    "slug": "inpom",
+    "color": "#C9A44E",
+    "images": [
+     "https://static.tildacdn.com/tild6536-6137-4437-a237-353638376637/negative-space-woman.jpg",
+     "https://static.tildacdn.com/tild6266-6332-4361-a362-326538646166/inpom-02-min.png",
+     "https://static.tildacdn.com/tild6638-6133-4537-b438-613839666535/inpom-01-min.png",
+     "https://static.tildacdn.com/tild6666-6432-4862-a337-313434623033/inpom-flower-min.png",
+     "https://static.tildacdn.com/tild3335-3232-4237-b432-343066393764/inpom-03-min.png",
+     "https://static.tildacdn.com/tild3937-3034-4435-b364-303933636230/inpom-04-min.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/inpom",
+    "results": [
+     "Участницы из 30+ стран",
+     "Social impact бренд",
+     "Международный формат",
+     "Digital-упаковка"
+    ],
+    "headline": "Міжнародний Парламент Матерів — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Визуальный стиль, digital-присутствие, ивент-упаковка для 30+ стран.",
+    "timeline": "8 месяцев",
+    "challenge": "Международный Парламент Матерей. Нужна упаковка для социального проекта глобального масштаба.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 39,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/inpom",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "20602194"
+   },
+   {
+    "id": 44,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "&amp; digital",
+      "label": "Ниша",
+      "value": "Crypto"
+     },
+     {
+      "desc": "entrepreneurs",
+      "label": "Аудитория",
+      "value": "Young"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "70"
+     }
+    ],
+    "name": "KOZYR DIGITAL",
+    "slug": "kozyr",
+    "color": "#2C3E50",
+    "images": [
+     "https://static.tildacdn.com/tild3338-3138-4236-a133-323464366661/kozyr-car-min.png",
+     "https://static.tildacdn.com/tild6561-3465-4662-b835-353933313438/kozyr-scene-min.png",
+     "https://static.tildacdn.com/tild3866-6666-4437-b261-326437316530/__2021-12-15__010644.png",
+     "https://static.tildacdn.com/tild6339-6537-4035-a363-336261653037/kozyrs.jpg",
+     "https://static.tildacdn.com/tild3939-3136-4961-a563-343364393736/kozyr-car-min.png",
+     "https://static.tildacdn.com/tild3862-6431-4434-b666-326166373861/kozyrs-lights.jpg"
+    ],
+    "context": "Digital-агентство в автомобильной сфере.",
+    "results": [
+     "Бренд нового поколения",
+     "70 работ в портфолио",
+     "Digital-экосистема",
+     "Аудитория предпринимателей"
+    ],
+    "headline": "KOZYR Digital. Автомобильный маркетинг.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "xPerson: смелый визуальный стиль, digital-экосистема для молодого предпринимателя.",
+    "timeline": "6 месяцев",
+    "challenge": "Digital-предприниматель в крипто и бизнесе. Нужен персональный бренд нового поколения.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 45,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/kozyr",
+    "game_changer": "Ребрендинг и digital-трансформация.",
+    "tilda_page_id": "29556811"
+   },
+   {
+    "id": 50,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "entrepreneurs",
+      "label": "Аудитория",
+      "value": "Women"
+     },
+     {
+      "desc": "&amp; education",
+      "label": "Формат",
+      "value": "Community"
+     },
+     {
+      "desc": "membership",
+      "label": "Модель",
+      "value": "Club"
+     }
+    ],
+    "name": "Billions Woman",
+    "slug": "billions-woman",
+    "color": "#C9A44E",
+    "images": [
+     "https://static.tildacdn.com/tild6230-3163-4265-b232-346261613365/9e875d94282baf079ca5.jpg",
+     "https://static.tildacdn.com/tild6561-3237-4535-a137-346465343763/01-min.png",
+     "https://static.tildacdn.com/tild3730-3934-4964-b763-663434613766/02.png",
+     "https://static.tildacdn.com/tild6161-3039-4261-a162-376230633266/02_-min.png",
+     "https://static.tildacdn.com/tild6462-3939-4130-b036-303565316362/noroot.png",
+     "https://static.tildacdn.com/tild3531-3466-4035-b933-663633386234/noroot.png"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/billions-woman",
+    "results": [
+     "Premium women community",
+     "Membership модель",
+     "Ивент-формат",
+     "Бренд для женщин-предпринимателей"
+    ],
+    "headline": "Billions Woman — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, digital-платформа, ивент-дизайн, membership модель.",
+    "timeline": "8 месяцев",
+    "challenge": "Женское бизнес-сообщество. Нужна упаковка для premium women community.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 51,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/billions-woman",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "21842009"
+   },
+   {
+    "id": 52,
+    "city": "Дубай",
+    "kpis": [
+     {
+      "desc": "ОАЭ",
+      "label": "Локация",
+      "value": "Dubai"
+     },
+     {
+      "desc": "design",
+      "label": "Ниша",
+      "value": "Interior"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "53"
+     }
+    ],
+    "name": "wooddubai",
+    "slug": "wooddubai",
+    "color": "#8B6914",
+    "images": [
+     "https://static.tildacdn.com/tild3638-6230-4463-a466-393365306330/wooddubai-min.png",
+     "https://static.tildacdn.com/tild6430-3438-4531-b637-623331333539/wood-dubai-02-min.png",
+     "https://static.tildacdn.com/tild3337-3334-4032-b437-363036343161/wood-dubai-01-min.png",
+     "https://static.tildacdn.com/tild3362-3364-4439-b330-373365363162/02.png",
+     "https://static.tildacdn.com/tild3034-6265-4634-a138-653437303439/01.png",
+     "https://static.tildacdn.com/tild3537-3631-4034-a164-323161363332/wooddubai-02.jpg"
+    ],
+    "context": "Мебельный бренд из Дубая с эксклюзивным ассортиментом.",
+    "results": [
+     "Dubai luxury market",
+     "53 работы в портфолио",
+     "Каталог для ОАЭ",
+     "Premium интерьерный бренд"
+    ],
+    "headline": "Премиальная мебель ручной работы.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка: бренд, каталог, digital-маркетинг для Dubai luxury market.",
+    "timeline": "6 месяцев",
+    "challenge": "Интерьерная компания в Дубае. Нужна упаковка для luxury-рынка ОАЭ.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 53,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/wooddubai",
+    "game_changer": "Упаковка бренда для luxury-рынка.",
+    "tilda_page_id": "34406167"
+   },
+   {
+    "id": 53,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "мастермайнд",
+      "label": "Формат",
+      "value": "Vision"
+     },
+     {
+      "desc": "founders",
+      "label": "Аудитория",
+      "value": "CEO"
+     },
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "51"
+     }
+    ],
+    "name": "Master Vision",
+    "slug": "master-vision",
+    "color": "#3A0CA3",
+    "images": [
+     "https://static.tildacdn.com/tild6265-3166-4232-a565-626366313232/vision-min.png",
+     "https://static.tildacdn.com/tild6435-6431-4139-a434-323035366436/04-min-min.png",
+     "https://static.tildacdn.com/tild3561-3563-4165-b736-313864313832/01-min.png",
+     "https://static.tildacdn.com/tild3937-3534-4534-a432-613934313039/05-min.png",
+     "https://static.tildacdn.com/tild6330-3839-4336-b835-343334336363/02-min.png",
+     "https://static.tildacdn.com/tild6432-3937-4532-b033-316564353866/05-min.jpg"
+    ],
+    "context": "Детали проекта на billionsx.com/cases/master-vision",
+    "results": [
+     "CEO мастермайнд",
+     "51 работа в портфолио",
+     "Premium клуб основателей"
+    ],
+    "headline": "Master Vision — кейс BillionsX",
+    "logo_url": null,
+    "products": [
+     "xProduction"
+    ],
+    "solution": "Полная упаковка: бренд, ивент-дизайн, digital-воронка для CEO-аудитории.",
+    "timeline": "6 месяцев",
+    "challenge": "Мастермайнд для CEO. Нужна premium-упаковка для клуба основателей.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 54,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/master-vision",
+    "game_changer": "Полная упаковка и продвижение проекта.",
+    "tilda_page_id": "35809707"
+   },
+   {
+    "id": 2,
+    "city": "Батуми",
+    "kpis": [
+     {
+      "desc": "за 1.5 года",
+      "label": "Рост",
+      "value": "20×"
+     },
+     {
+      "desc": "единый стандарт",
+      "label": "Офисы",
+      "value": "55"
+     },
+     {
+      "desc": "продано",
+      "label": "Апартаменты",
+      "value": "12,000+"
+     }
+    ],
+    "name": "ORBI Group",
+    "slug": "orbi",
+    "color": "#1B4965",
+    "images": [
+     "https://static.tildacdn.net/tild3039-3939-4937-a230-663132636130/Orbi-min.png",
+     "https://static.tildacdn.net/tild3663-3535-4231-a536-393530653563/R7_05_Ps-min.jpg",
+     "https://static.tildacdn.net/tild3730-6533-4336-a365-313361643062/R1-min.jpg",
+     "https://static.tildacdn.net/tild3864-3832-4134-a361-343539633639/6-min.png",
+     "https://static.tildacdn.net/tild3763-3262-4662-a262-626236646330/A0052_A-min.jpg"
+    ],
+    "context": "Батуми — рекордное количество международных гостиничных брендов, +20% ежегодно.",
+    "results": [
+     "Рост в 20 раз за 18 месяцев",
+     "Единые стандарты для 55 офисов",
+     "12,000+ проданных апартаментов",
+     "Самый большой комплекс в мире"
+    ],
+    "headline": "12,000+ апартаментов. Самый большой комплекс в мире.",
+    "logo_url": "https://static.tildacdn.net/tild3534-3835-4861-b639-383661306633/kompaniya-po-upakovk.svg",
+    "products": [
+     "xVision",
+     "xProduction",
+     "xSales"
+    ],
+    "solution": "Billions X стал продакт-оунером на 1.5 года. Создали единые стандарты для всех 55 офисов. Выстроили систему маркетинга и продаж.",
+    "timeline": "18 месяцев",
+    "challenge": "Батуми — высокая конкуренция, 55 офисов без единых стандартов, хаотичный маркетинг.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 2,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "1.5 года продакт-оунер. Единые стандарты для 55 офисов. Рост в 20 раз.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 1,
+    "city": "Бали",
+    "kpis": [
+     {
+      "desc": "застройщик Бали",
+      "label": "Позиция",
+      "value": "№1"
+     },
+     {
+      "desc": "распродано",
+      "label": "Виллы",
+      "value": "100%"
+     },
+     {
+      "desc": "коллабораций",
+      "label": "Блогеры",
+      "value": "50+"
+     }
+    ],
+    "name": "PARQ Development",
+    "slug": "parq",
+    "color": "#2D6A4F",
+    "images": [
+     "https://static.tildacdn.net/tild6137-3133-4233-b738-633333306433/02-_bew_big-min.jpg",
+     "https://static.tildacdn.net/tild3432-3961-4363-b535-363364393331/11-2-min.jpg",
+     "https://static.tildacdn.net/tild6462-3034-4337-a165-386633366166/2-2-min.JPG",
+     "https://static.tildacdn.net/tild3335-3466-4361-a164-393538663634/6-min.jpg"
+    ],
+    "context": "Потребность в комфортной недвижимости после пандемии и начала войны.",
+    "results": [
+     "№1 застройщик Бали за 1 год",
+     "100% распродано",
+     "50+ коллабораций с блогерами",
+     "Запуск бренда с нуля"
+    ],
+    "headline": "№1 застройщик Бали за 1 год.",
+    "logo_url": "https://static.tildacdn.net/tild3136-3737-4630-a662-653761313836/parq.svg",
+    "products": [
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "Полная маркетинговая стратегия: упаковка вилл, коллаборации с блогерами, digital-воронка.",
+    "timeline": "12 месяцев",
+    "challenge": "Новый рынок Бали после пандемии. Нужно было стать №1 среди десятков застройщиков.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 1,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/parq",
+    "game_changer": "Дали старт всему маркетингу. Упаковали виллы для коллабораций с блогерами. Распродали район вилл.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 3,
+    "city": "Цюрих",
+    "kpis": [
+     {
+      "desc": "годовой",
+      "label": "Оборот",
+      "value": "$43B"
+     },
+     {
+      "desc": "в 100+ странах",
+      "label": "Сотрудники",
+      "value": "105K"
+     },
+     {
+      "desc": "внедрён",
+      "label": "Метод",
+      "value": "xSales"
+     }
+    ],
+    "name": "ABB",
+    "slug": "abb",
+    "color": "#FF000F",
+    "images": [
+     "https://static.tildacdn.net/tild3665-6239-4835-a132-356362636363/abb-robotics-feature.jpg",
+     "https://static.tildacdn.net/tild3763-3231-4161-b831-353162613062/ABB_04.jpg",
+     "https://static.tildacdn.net/tild3362-3534-4235-a432-383361303265/ABB-IRB-1100-image.jpg",
+     "https://static.tildacdn.net/tild3334-6230-4866-a530-633338336439/ABB_GIS_420_kV.jpg",
+     "https://static.tildacdn.net/tild3730-3135-4737-b934-316533623935/ABB-Remanufactured-R.jpg"
+    ],
+    "context": "Мировой лидер промышленной автоматизации и энергетики.",
+    "results": [
+     "Единая книга продаж для 100+ стран",
+     "Стандартизация 105,000 сотрудников",
+     "xSales как корпоративный стандарт"
+    ],
+    "headline": "$43B. 105,000 сотрудников. 100+ стран.",
+    "logo_url": "https://static.tildacdn.net/tild3237-3966-4333-b931-343033663266/abb-3.svg",
+    "products": [
+     "xSales"
+    ],
+    "solution": "Внедрение xSales: единая книга продаж, скрипты, CRM-процессы для корпоративного масштаба.",
+    "timeline": "6 месяцев",
+    "challenge": "Корпорация $43B без единой методологии продаж. Каждый регион продаёт по-своему.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 3,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "Внедрение xSales на корпоративном уровне. Единая книга продаж.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 6,
+    "city": "США",
+    "kpis": [
+     {
+      "desc": "медиа",
+      "label": "Охват",
+      "value": "160M+"
+     },
+     {
+      "desc": "ABC, Mashable",
+      "label": "Пресса",
+      "value": "Fox, CBS"
+     },
+     {
+      "desc": "категория",
+      "label": "Amazon",
+      "value": "ТОП-5"
+     }
+    ],
+    "name": "Bite Helper",
+    "slug": "bite-helper",
+    "color": "#FF6B35",
+    "images": [
+     "https://static.tildacdn.com/tild6336-6237-4162-b035-323531663565/6-min.png",
+     "https://static.tildacdn.com/tild3064-6335-4633-b564-343634653036/1white_1.jpg",
+     "https://static.tildacdn.com/tild3033-3735-4664-a434-343661316634/PHOTO-2020-02-18-15-.jpg",
+     "https://static.tildacdn.com/tild6430-3766-4035-a637-663239313632/white-bite-helper-mi.png"
+    ],
+    "context": "Рынок медицинских девайсов на $3B.",
+    "results": [
+     "160,000,000+ медиа-охват",
+     "Публикации Fox, CBS, ABC, Mashable",
+     "ТОП-5 Amazon в категории",
+     "Победитель CES"
+    ],
+    "headline": "Победитель CES. ТОП-5 Amazon.",
+    "logo_url": "https://static.tildacdn.net/tild6238-6565-4238-a232-613361366430/bite.svg",
+    "products": [
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "Полная упаковка продукта + PR-кампания в Tier-1 медиа США.",
+    "timeline": "8 месяцев",
+    "challenge": "Медицинский девайс на рынке $3B. Нужен медиа-охват уровня Fortune 500.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 6,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/helper/bite",
+    "game_changer": "Упаковка и продвижение. Медиа-охват 160M+ — Fox, CBS, ABC, Mashable.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 14,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "мировых",
+      "label": "Спикеры",
+      "value": "150+"
+     },
+     {
+      "desc": "Бренсон, Шварц.",
+      "label": "VIP",
+      "value": "Тайсон"
+     },
+     {
+      "desc": "сегмент",
+      "label": "Аудитория",
+      "value": "Premium"
+     }
+    ],
+    "name": "2Space",
+    "slug": "2space",
+    "color": "#F77F00",
+    "images": [
+     "https://static.tildacdn.net/tild3165-6166-4531-b438-633634303333/brenson-min.png",
+     "https://static.tildacdn.net/tild6636-6433-4633-b937-666633303665/5A6A2559-min.jpg",
+     "https://static.tildacdn.net/tild3332-3735-4130-b631-393339373365/IMG_0234.JPG",
+     "https://static.tildacdn.net/tild3462-6139-4663-b333-333438356232/AI5B6465-min.jpg"
+    ],
+    "context": "Образовательная платформа с крупнейшими спикерами мира.",
+    "results": [
+     "150+ мировых спикеров",
+     "Тайсон, Бренсон, Шварценеггер на платформе",
+     "Premium-воронка продаж",
+     "Глобальный охват"
+    ],
+    "headline": "150+ спикеров: Тайсон, Бренсон, Шварценеггер.",
+    "logo_url": "https://static.tildacdn.net/tild3430-3635-4361-a638-613830393539/2space-platinum.svg",
+    "products": [
+     "xProduction",
+     "xPerformance",
+     "xSales"
+    ],
+    "solution": "Полная упаковка, продвижение и воронка продаж для платформы с 150+ спикерами.",
+    "timeline": "12 месяцев",
+    "challenge": "Образовательная платформа с мировыми спикерами. Нужна упаковка для premium-аудитории.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 14,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/2space",
+    "game_changer": "Упаковка, продвижение, воронка продаж для premium-аудитории.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 7,
+    "city": "Москва",
+    "kpis": [
+     {
+      "desc": "годовой",
+      "label": "Оборот",
+      "value": "$246M"
+     },
+     {
+      "desc": "премиальных ЖК",
+      "label": "Проекты",
+      "value": "30"
+     },
+     {
+      "desc": "отраслевых",
+      "label": "Награды",
+      "value": "52"
+     }
+    ],
+    "name": "ГК Пионер",
+    "slug": "pioneer",
+    "color": "#8B5CF6",
+    "images": [
+     "https://static.tildacdn.net/tild3766-6666-4734-b235-376462613031/houses.jpg",
+     "https://static.tildacdn.net/tild6437-6166-4338-a438-376139353961/5b3dcf5eccd21.jpg",
+     "https://static.tildacdn.net/tild3732-3838-4936-b038-663932393763/175486-min.jpg"
+    ],
+    "context": "Крупнейший застройщик премиальных ЖК в Москве.",
+    "results": [
+     "Sales xBook для 30 проектов",
+     "Стандартизация всех менеджеров",
+     "52 отраслевых награды"
+    ],
+    "headline": "$246M оборот. 30 проектов. 52 награды.",
+    "logo_url": "https://static.tildacdn.net/tild3661-6563-4831-b864-303162623734/upakovka-biznesa-kei.svg",
+    "products": [
+     "xSales"
+    ],
+    "solution": "Sales xBook — единая книга продаж. Стандартизация работы каждого менеджера.",
+    "timeline": "12 месяцев",
+    "challenge": "Крупнейший московский застройщик. Менеджеры продают по интуиции, нет единой системы.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 7,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "Sales xBook. Стандартизация работы менеджеров по продажам.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 9,
+    "city": "Киев",
+    "kpis": [
+     {
+      "desc": "построено",
+      "label": "Дома",
+      "value": "63"
+     },
+     {
+      "desc": "Украина",
+      "label": "Бренд",
+      "value": "№1"
+     },
+     {
+      "desc": "саркофаг",
+      "label": "Проект",
+      "value": "ЧАЭС"
+     }
+    ],
+    "name": "Укрбуд",
+    "slug": "ukrbud",
+    "color": "#1D3557",
+    "images": [
+     "https://static.tildacdn.net/tild3734-6561-4864-b733-376164643833/afc3eaf98599f1a713fa.jpg",
+     "https://static.tildacdn.net/tild3933-3831-4138-a262-313231323038/18981c66d56798f8e9b2.jpg",
+     "https://static.tildacdn.net/tild6365-6232-4630-b837-393366623666/0eb8fb90a1bf993490c6.jpg",
+     "https://static.tildacdn.net/tild3730-3762-4433-a663-626364653563/5c911c7e34685b388834.jpg"
+    ],
+    "context": "Самый дорогой строительный бренд Украины.",
+    "results": [
+     "Sales xBook для госкорпорации",
+     "Единая методология продаж",
+     "Стандарт для 63 объектов"
+    ],
+    "headline": "Госкорпорация. 63 дома. Саркофаг ЧАЭС.",
+    "logo_url": "https://static.tildacdn.net/tild6435-3565-4566-b134-303738646536/upakovka-biznesa-kac.svg",
+    "products": [
+     "xSales"
+    ],
+    "solution": "Единая книга методологии продаж совместно с Billion Estate. Sales xBook для всех менеджеров.",
+    "timeline": "8 месяцев",
+    "challenge": "Самый дорогой строительный бренд Украины. Нужна методология продаж уровня корпорации.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 9,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "Единая книга методологии продаж Sales xBook совместно с Billion Estate.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 8,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "спроектировано",
+      "label": "Экраны",
+      "value": "~1,000"
+     },
+     {
+      "desc": "с нуля",
+      "label": "Продукт",
+      "value": "0→1"
+     },
+     {
+      "desc": "от UX до backend",
+      "label": "Стек",
+      "value": "Full"
+     }
+    ],
+    "name": "Metaverse Bank",
+    "slug": "metaverse-bank",
+    "color": "#6366F1",
+    "images": [
+     "https://static.tildacdn.net/tild3262-3330-4633-a131-313837366334/0f7870cd-cd29-4cde-a.png",
+     "https://static.tildacdn.net/tild3331-3035-4164-a232-626362333339/5efe43d1-0373-4e8d-9.png",
+     "https://static.tildacdn.net/tild3436-3365-4933-b232-323833303033/35515ba3-25e3-4d3f-9.png",
+     "https://static.tildacdn.net/tild3734-6436-4935-b132-303037373733/c313f792-67b2-417c-8.png"
+    ],
+    "context": "Стартап на стыке финтеха и метавселенной.",
+    "results": [
+     "~1,000 экранов спроектировано",
+     "Полная архитектура продукта",
+     "UX/UI + backend + AI модули",
+     "Готов к инвестиционному раунду"
+    ],
+    "headline": "Банковская метавселенная нового поколения.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction",
+     "xAI"
+    ],
+    "solution": "Billions X как полная продуктовая команда. ~1,000 экранов от информационной архитектуры до пикселя.",
+    "timeline": "18 месяцев",
+    "challenge": "Стартап на стыке финтеха и метавселенной. Нужен полный продакт-менеджмент с нуля.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 8,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "Полный продакт-менеджмент. ~1,000 экранов от архитектуры до пикселя.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 10,
+    "city": "Москва",
+    "kpis": [
+     {
+      "desc": "в год",
+      "label": "Оборот",
+      "value": "$2B"
+     },
+     {
+      "desc": "ТМХ",
+      "label": "Сотрудники",
+      "value": "100K+"
+     },
+     {
+      "desc": "мир. машиностр.",
+      "label": "Рейтинг",
+      "value": "ТОП-10"
+     }
+    ],
+    "name": "PF Capital",
+    "slug": "pf-capital",
+    "color": "#2B2D42",
+    "images": [
+     "https://static.tildacdn.net/tild3963-6137-4765-a639-613565656632/tmh_2219.jpg",
+     "https://static.tildacdn.net/tild3531-3563-4533-b839-346230333336/592b8c23-42d0-46e8-b.jpg",
+     "https://static.tildacdn.net/tild6433-3062-4435-b239-626230303563/-3_2.jpg"
+    ],
+    "context": "100,000+ сотрудников. Крупнейший производитель подвижного состава.",
+    "results": [
+     "xVision для корпорации $2B",
+     "Стратегия мирового масштаба",
+     "ТОП-10 мирового машиностроения"
+    ],
+    "headline": "$2B/год. Трансмашхолдинг — ТОП-10 мирового машиностроения.",
+    "logo_url": "https://static.tildacdn.net/tild3034-3864-4237-b830-623134613134/upakovka-biznesa-cen.svg",
+    "products": [
+     "xVision"
+    ],
+    "solution": "xVision — стратегическая архитектура для корпорации с оборотом $2B/год.",
+    "timeline": "6 месяцев",
+    "challenge": "Трансмашхолдинг — ТОП-10 мирового машиностроения. Нужна стратегия для корпорации мирового масштаба.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 10,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "xVision для корпорации мирового уровня.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 11,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "298"
+     },
+     {
+      "desc": "предприниматели",
+      "label": "Клиенты",
+      "value": "Forbes"
+     },
+     {
+      "desc": "class level",
+      "label": "Стиль",
+      "value": "World"
+     }
+    ],
+    "name": "Brilliance Events",
+    "slug": "brilliance",
+    "color": "#C9A44E",
+    "images": [
+     "https://static.tildacdn.net/tild6136-6431-4234-b334-643362643566/brilliance-event-001.jpg",
+     "https://static.tildacdn.net/tild3837-3236-4237-a330-666661333833/brilliance-event-001.jpg",
+     "https://static.tildacdn.net/tild3332-3939-4333-a133-316637633234/brilliance-event-000.jpg",
+     "https://static.tildacdn.net/tild3739-6165-4534-b066-653235313763/brilliance-event-001.jpg"
+    ],
+    "context": "Победители главных ивент-премий. Мероприятия для правительств и брендов.",
+    "results": [
+     "Фирменный стиль мирового уровня",
+     "Ивенты для Forbes-предпринимателей",
+     "Мероприятия для правительств",
+     "298 работ в портфолио"
+    ],
+    "headline": "Ивент-шедевры для Forbes-предпринимателей и селебрити.",
+    "logo_url": "https://static.tildacdn.net/tild6665-6561-4734-b663-356430343666/brilliance-logo-gold.svg",
+    "products": [
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка бренда: от фирменного стиля до digital-экосистемы. Единый визуальный язык для всех форматов.",
+    "timeline": "12 месяцев",
+    "challenge": "Ивент-агентство для Forbes-предпринимателей и селебрити. Нужен фирменный стиль мирового уровня.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 11,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/brilliance",
+    "game_changer": "Полная упаковка бренда и фирменный стиль мирового уровня.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 12,
+    "city": "Тбилиси",
+    "kpis": [
+     {
+      "desc": "целиком",
+      "label": "Масштаб",
+      "value": "Страна"
+     },
+     {
+      "desc": "безопасность",
+      "label": "Рейтинг",
+      "value": "ТОП-10"
+     },
+     {
+      "desc": "для государства",
+      "label": "Продукт",
+      "value": "xVision"
+     }
+    ],
+    "name": "Грузия",
+    "slug": "georgia",
+    "color": "#D62828",
+    "images": [
+     "https://static.tildacdn.net/tild3733-6334-4261-a662-616435396232/regnum_picture_15623.jpg",
+     "https://static.tildacdn.net/tild6666-6232-4631-b533-346238393432/mon.jpg",
+     "https://static.tildacdn.net/tild3930-6165-4334-b338-623566326139/_____2019.jpg"
+    ],
+    "context": "ТОП-5 по недвижимости, ТОП-10 по бизнесу. Нужен единый инвестиционный бренд.",
+    "results": [
+     "xVision для целого государства",
+     "Инвестиционный бренд страны",
+     "Стратегия международного позиционирования"
+    ],
+    "headline": "Инвестиционный бренд страны. ТОП-10 безопасность.",
+    "logo_url": "https://static.tildacdn.net/tild6339-6262-4264-a662-333036313765/georgia.svg",
+    "products": [
+     "xVision"
+    ],
+    "solution": "xVision для целой страны. Стратегия инвестиционного бренда Грузии на международном уровне.",
+    "timeline": "6 месяцев",
+    "challenge": "Грузия — ТОП-5 по недвижимости, ТОП-10 по бизнесу. Нет единого инвестиционного бренда страны.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 12,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "xVision для целой страны. Стратегия инвестиционного бренда.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 13,
+    "city": "США",
+    "kpis": [
+     {
+      "desc": "медиа",
+      "label": "Охват",
+      "value": "160M+"
+     },
+     {
+      "desc": "CBS, ABC",
+      "label": "Пресса",
+      "value": "Fox"
+     },
+     {
+      "desc": "в категории",
+      "label": "Конверсия",
+      "value": "Рекорд"
+     }
+    ],
+    "name": "Breathe Helper",
+    "slug": "breathe-helper",
+    "color": "#48BFE3",
+    "images": [
+     "https://static.tildacdn.com/tild6438-3734-4965-a562-633261353033/breathe-helper-mask-.png",
+     "https://static.tildacdn.com/tild3634-3933-4435-b063-633564653536/breathe-helper-mint-.png",
+     "https://static.tildacdn.com/tild3764-3137-4637-b634-636133636239/breathe-helper-eucal.png",
+     "https://static.tildacdn.com/tild6565-6131-4866-a232-383031326335/breathe-helper-pack-.png"
+    ],
+    "context": "Медицинский девайс для массового рынка США.",
+    "results": [
+     "160M+ медиа-охват",
+     "Публикации Fox, CBS, ABC",
+     "Mashable, Business Insider",
+     "Рекордная конверсия в категории"
+    ],
+    "headline": "160,000,000+ медиа-охват. Fox, CBS, ABC.",
+    "logo_url": "https://static.tildacdn.net/tild6161-6232-4438-b265-363930663338/breathe-helper.svg",
+    "products": [
+     "xPerformance"
+    ],
+    "solution": "PR-кампания в Tier-1 медиа: Fox, CBS, ABC, Mashable, Insider. Рекордная конверсия в категории.",
+    "timeline": "8 месяцев",
+    "challenge": "Медицинский девайс для массового рынка США. Нужен медиа-охват уровня корпораций.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 13,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/helper/breathe",
+    "game_changer": "Публикации Fox, CBS, ABC, Mashable, Insider. Рекордная конверсия.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 16,
+    "city": "США",
+    "kpis": [
+     {
+      "desc": "на рынке $3B",
+      "label": "Продукты",
+      "value": "3"
+     },
+     {
+      "desc": "в Pfizer",
+      "label": "Основатель",
+      "value": "25 лет"
+     },
+     {
+      "desc": "медиа",
+      "label": "Охват",
+      "value": "160M+"
+     }
+    ],
+    "name": "Health Helper",
+    "slug": "health-helper",
+    "color": "#06D6A0",
+    "images": [
+     "https://static.tildacdn.com/tild6332-3636-4234-a661-376633383433/DSC03647.JPG",
+     "https://static.tildacdn.com/tild3933-3437-4561-b435-303266373861/9848544E-0DC3-42D4-A.jpeg",
+     "https://static.tildacdn.com/tild3636-3438-4534-b130-383066316134/BF23B9AC-FA6F-4FC9-B.jpeg"
+    ],
+    "context": "Линейка медицинских девайсов для массового рынка.",
+    "results": [
+     "3 продукта выведены на рынок $3B",
+     "Упаковка мирового уровня",
+     "160M+ медиа-охват",
+     "Победитель CES"
+    ],
+    "headline": "3 продукта на рынке $3B. Основатель — 25 лет в Pfizer.",
+    "logo_url": "https://static.tildacdn.net/tild6536-3264-4534-a634-666561643839/health-helper-logo-d.svg",
+    "products": [
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "Полная упаковка линейки: от брендинга до PR-кампании в Fox, CBS, ABC.",
+    "timeline": "12 месяцев",
+    "challenge": "Линейка из 3 медицинских девайсов. Основатель — 25 лет в Pfizer. Нужен выход на массовый рынок США.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 16,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/helper/health",
+    "game_changer": "Полная упаковка линейки продуктов для выхода на рынок США.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 15,
+    "city": "Россия",
+    "kpis": [
+     {
+      "desc": "суммарно",
+      "label": "Подписчики",
+      "value": "9.2M+"
+     },
+     {
+      "desc": "Club №1",
+      "label": "Бренд",
+      "value": "Comedy"
+     },
+     {
+      "desc": "монетизация",
+      "label": "Модель",
+      "value": "xPerson"
+     }
+    ],
+    "name": "Гарик Харламов",
+    "slug": "kharlamov",
+    "color": "#E63946",
+    "images": [
+     "https://static.tildacdn.com/tild6330-3966-4935-b266-626466626331/01.png",
+     "https://static.tildacdn.com/tild6666-3738-4363-b636-393636646530/02.png",
+     "https://static.tildacdn.com/tild3734-3364-4238-b565-346162613063/IMG_9447.JPG",
+     "https://static.tildacdn.com/tild3630-3530-4466-a364-643937333266/181014_TNT_20767-min.png"
+    ],
+    "context": "Самый узнаваемый комик России. Монетизация персонального бренда.",
+    "results": [
+     "Стратегия монетизации 9.2M аудитории",
+     "Бизнес-экосистема вокруг бренда",
+     "xPerson как системный подход"
+    ],
+    "headline": "9,200,000+ подписчиков. Comedy Club.",
+    "logo_url": "https://static.tildacdn.net/tild3361-6564-4238-a465-376166336431/bulldog-gold.svg",
+    "products": [
+     "xVision",
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "xPerson — стратегия монетизации аудитории. Бизнес-экосистема вокруг персонального бренда.",
+    "timeline": "6 месяцев",
+    "challenge": "Самый узнаваемый комик России. Огромная аудитория, но нет системной монетизации.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 15,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": null,
+    "game_changer": "xPerson. Стратегия монетизации аудитории и бизнес-экосистема.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 18,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "мировых",
+      "label": "Спикеры",
+      "value": "23"
+     },
+     {
+      "desc": "за 2 дня",
+      "label": "Участники",
+      "value": "1,500"
+     },
+     {
+      "desc": "инвестиционный",
+      "label": "Формат",
+      "value": "Summit"
+     }
+    ],
+    "name": "Big Invest Summit",
+    "slug": "bis",
+    "color": "#3A0CA3",
+    "images": [
+     "https://static.tildacdn.net/tild6262-6337-4165-b333-323161663539/IMG_3583-min.jpg",
+     "https://static.tildacdn.net/tild3538-3763-4235-a563-653337616536/IMG_2939-min.jpg",
+     "https://static.tildacdn.net/tild3832-6331-4336-a266-323762303533/IMG_3418-min.jpg",
+     "https://static.tildacdn.net/tild6439-3033-4536-b333-626631636239/IMG_3182-min.jpg"
+    ],
+    "context": "Крупнейший инвестиционный саммит с международными спикерами.",
+    "results": [
+     "23 мировых спикера",
+     "1,500 участников за 2 дня",
+     "Полная упаковка саммита",
+     "Digital-воронка продаж"
+    ],
+    "headline": "23 мировых спикера. 1,500 участников.",
+    "logo_url": "https://static.tildacdn.net/tild3239-6632-4965-b734-373137353638/bis-small.svg",
+    "products": [
+     "xProduction",
+     "xPerformance"
+    ],
+    "solution": "Полная упаковка и продвижение: от фирменного стиля до digital-воронки и post-event маркетинга.",
+    "timeline": "4 месяца",
+    "challenge": "Крупнейший инвестиционный саммит. 23 мировых спикера, 1,500 участников. Нужна полная упаковка.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 18,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/bis",
+    "game_changer": "Полная упаковка и продвижение саммита.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 17,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "автор",
+      "label": "Книги",
+      "value": "14"
+     },
+     {
+      "desc": "экземпляров",
+      "label": "Тираж",
+      "value": "~1M"
+     },
+     {
+      "desc": "монетизация",
+      "label": "Бренд",
+      "value": "xPerson"
+     }
+    ],
+    "name": "Ицхак Пинтосевич",
+    "slug": "pintosevich",
+    "color": "#7209B7",
+    "images": [
+     "https://static.tildacdn.com/tild3939-3434-4236-a331-623566383461/isaak-min-2.png",
+     "https://static.tildacdn.com/tild3764-3265-4362-b034-626665656439/MT-31.jpg",
+     "https://static.tildacdn.com/tild6439-6566-4236-b463-663834613763/MT-15-min.jpg",
+     "https://static.tildacdn.com/tild3663-3761-4331-b437-383036316361/CK1_0205-min.jpg"
+    ],
+    "context": "Автор бестселлеров, международный спикер и бизнес-тренер.",
+    "results": [
+     "14 книг, ~1M тираж",
+     "Бестселлер «В Рай на S-class'е» в АСТ",
+     "Отзыв правнука Генри Форда",
+     "1,750,000+ подписчиков"
+    ],
+    "headline": "14 книг. ~1M тираж. 1,750,000+ подписчиков.",
+    "logo_url": "https://static.tildacdn.net/tild6665-6430-4265-b734-326639363231/isaac-logo.svg",
+    "products": [
+     "xVision",
+     "xProduction"
+    ],
+    "solution": "xPerson: от упаковки до бестселлера в АСТ. Стратегия монетизации 1,750,000+ подписчиков.",
+    "timeline": "12 месяцев",
+    "challenge": "Автор 14 книг, ~1M тираж. Нужна системная монетизация аудитории и персонального бренда.",
+    "is_active": true,
+    "created_at": "2026-04-12T15:54:11.326463+00:00",
+    "sort_order": 17,
+    "updated_at": "2026-04-12T15:54:11.326463+00:00",
+    "tilda_alias": "cases/isaac-pintosevich",
+    "game_changer": "Персональный брендинг. Бестселлер «В Рай на S-class'е» — АСТ, отзыв правнука Генри Форда.",
+    "tilda_page_id": null
+   },
+   {
+    "id": 22,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "элемента",
+      "label": "Дизайн",
+      "value": "482"
+     },
+     {
+      "desc": "недвижимость",
+      "label": "Сегмент",
+      "value": "Premium"
+     },
+     {
+      "desc": "digital экосистема",
+      "label": "Охват",
+      "value": "Full"
+     }
+    ],
+    "name": "YARDS",
+    "slug": "yards",
+    "color": "#1B4332",
+    "images": [
+     "https://static.tildacdn.com/tild6163-3231-4261-b334-303166366362/pexels-pixabay-15878.jpg",
+     "https://static.tildacdn.com/tild6332-3039-4538-b766-663661316361/30926-plant-box-mock.png",
+     "https://static.tildacdn.com/tild6335-3362-4939-b735-626566363536/photo_2020-11-06_114.jpeg",
+     "https://static.tildacdn.com/tild3863-3336-4239-a639-643365336635/photo_2020-11-06_114.jpeg",
+     "https://static.tildacdn.com/tild3130-3433-4934-b831-373036623162/photo_2020-11-06_114.jpeg",
+     "https://static.tildacdn.com/tild3032-3961-4638-a534-663239303564/photo_2020-11-05_121.jpeg"
+    ],
+    "context": "Девелоперский проект премиальной недвижимости с масштабным маркетингом.",
+    "results": [
+     "482 дизайн-элемента",
+     "Премиальный брендинг",
+     "Полная digital-экосистема",
+     "Воронка продаж под ключ"
+    ],
+    "headline": "482 дизайн-элемента. Премиальная недвижимость.",
+    "logo_url": null,
+    "products": [
+     "xVision",
+     "xProduction",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка: 482 дизайн-элемента, от фирменного стиля до digital-экосистемы.",
+    "timeline": "18 месяцев",
+    "challenge": "Девелоперский проект премиальной недвижимости. Нужна полная digital-экосистема продаж.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 23,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/yards",
+    "game_changer": "Полная упаковка бренда: от фирменного стиля до digital-экосистемы продаж.",
+    "tilda_page_id": "16492677"
+   },
+   {
+    "id": 24,
+    "city": "Глобально",
+    "kpis": [
+     {
+      "desc": "в портфолио",
+      "label": "Фото",
+      "value": "179"
+     },
+     {
+      "desc": "Club",
+      "label": "Формат",
+      "value": "Business"
+     },
+     {
+      "desc": "участники",
+      "label": "Инвестиции",
+      "value": "$5B+"
+     }
+    ],
+    "name": "ED Global",
+    "slug": "ed-global",
+    "color": "#B8860B",
+    "images": [
+     "https://static.tildacdn.com/tild3466-3261-4536-a161-343034386131/ed-global-00087-min.jpg",
+     "https://static.tildacdn.com/tild3038-6466-4138-b934-393464393165/ed-global-00030-min.jpg",
+     "https://static.tildacdn.com/tild3135-3765-4562-b334-343338383339/ed-global-00027-min.jpg",
+     "https://static.tildacdn.com/tild6363-3433-4536-b137-653063306331/ed-global-00037-min.JPG",
+     "https://static.tildacdn.com/tild3430-3863-4164-a164-616535663562/ed-global-00035-min.JPG",
+     "https://static.tildacdn.com/tild6636-3731-4261-a333-313261313639/ed-global-00040-min.JPG"
+    ],
+    "context": "Бизнес-клуб для предпринимателей и инвесторов международного уровня.",
+    "results": [
+     "179 работ в портфолио",
+     "Gold-визуальный стандарт",
+     "Упаковка уровня private banking",
+     "Ивенты для $5B+ участников"
+    ],
+    "headline": "Элитный бизнес-клуб. Международные инвесторы.",
+    "logo_url": null,
+    "products": [
+     "xProduction",
+     "xPerformance",
+     "xBrand"
+    ],
+    "solution": "Полная упаковка: gold-визуальный стиль, фотосъёмка, digital-присутствие, ивент-дизайн.",
+    "timeline": "12 месяцев",
+    "challenge": "Бизнес-клуб с участниками, управляющими активами на $5B+. Нужна упаковка уровня private banking.",
+    "is_active": true,
+    "created_at": "2026-04-12T16:10:07.84665+00:00",
+    "sort_order": 25,
+    "updated_at": "2026-04-12T16:18:28.412982+00:00",
+    "tilda_alias": "cases/ed-global",
+    "game_changer": "Упаковка бренда мирового уровня. Привлечение международной аудитории.",
+    "tilda_page_id": "29366153"
+   }
+  ],
+  "bx.images": [],
+  "bx.content": [],
+  "bx.products": [
+   {
+    "id": 1,
+    "name": "xVision",
+    "slug": "xvision",
+    "color": "#007AFF",
+    "tagline": "Стратегия и архитектура бизнеса",
+    "features": [
+     "Аудит бизнес-модели и конкурентной среды",
+     "Стратегия позиционирования и дифференциации",
+     "Архитектура продуктовой линейки",
+     "Финансовая модель и юнит-экономика",
+     "Дорожная карта масштабирования"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 1,
+    "description": "Стратегическая архитектура бизнеса. Создаём мастер-план роста: от позиционирования и бизнес-модели до продуктовой линейки и системы монетизации. Видение, которое превращает хаос в механизм."
+   },
+   {
+    "id": 2,
+    "name": "xProduction",
+    "slug": "xproduction",
+    "color": "#FF9500",
+    "tagline": "Упаковка бренда и продукта",
+    "features": [
+     "Фирменный стиль и брендбук",
+     "Сайты и лендинги (Tilda, Next.js, Framer)",
+     "Мобильные приложения",
+     "Презентации и pitch-деки",
+     "Видеопродакшн и 3D-визуализация"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 2,
+    "description": "Упаковка бренда и продукта под ключ. Фирменный стиль, сайты, приложения, презентации, видео — всё, что делает бизнес осязаемым. От первого пикселя до последнего экрана."
+   },
+   {
+    "id": 3,
+    "name": "xSales",
+    "slug": "xsales",
+    "color": "#34C759",
+    "tagline": "Методология и книга продаж",
+    "features": [
+     "Sales xBook — книга методологии продаж",
+     "Настройка CRM и воронки",
+     "Скрипты и речевые модули",
+     "Система KPI и мотивации",
+     "Обучение и сертификация менеджеров"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 3,
+    "description": "Системная методология продаж. Создаём Sales xBook — единую книгу продаж компании: скрипты, CRM-процессы, KPI, обучение команды. Масштабируем то, что работает."
+   },
+   {
+    "id": 4,
+    "name": "xPerformance",
+    "slug": "xperformance",
+    "color": "#FF3B30",
+    "tagline": "Трафик, лиды и медиа-охват",
+    "features": [
+     "Контекстная и таргетированная реклама",
+     "PR и медиа-размещения (Fox, CBS, Forbes)",
+     "SEO и контент-маркетинг",
+     "Лидогенерация и A/B тестирование",
+     "Аналитика и оптимизация ROAS"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 4,
+    "description": "Трафик, лиды и медиа-охват. Запускаем рекламные кампании, выводим в ТОП-медиа, генерируем лиды. 160M+ медиа-охват для клиентов — Fox, CBS, ABC, Forbes."
+   },
+   {
+    "id": 5,
+    "name": "xBrand",
+    "slug": "xbrand",
+    "color": "#AF52DE",
+    "tagline": "Фирменный стиль и айдентика",
+    "features": [
+     "Логотип и знак",
+     "Типографика и цветовая система",
+     "Брендбук и гайдлайны",
+     "Дизайн-система для digital",
+     "Мерч и физические носители"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 5,
+    "description": "Фирменный стиль и айдентика мирового уровня. Логотип, типографика, цветовая система, гайдлайны — бренд, который узнают и запоминают."
+   },
+   {
+    "id": 6,
+    "name": "xPerson",
+    "slug": "xperson",
+    "color": "#FF2D55",
+    "tagline": "Персональный брендинг",
+    "features": [
+     "Стратегия персонального бренда",
+     "Контент-план и tone of voice",
+     "Упаковка экспертизы в инфопродукты",
+     "Монетизация аудитории",
+     "Медиа-присутствие и PR"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 6,
+    "description": "Персональный брендинг для лидеров и предпринимателей. Стратегия монетизации аудитории, контент-план, упаковка экспертизы в продукты."
+   },
+   {
+    "id": 7,
+    "name": "xAI",
+    "slug": "xai",
+    "color": "#5856D6",
+    "tagline": "AI-продукты и автоматизация",
+    "features": [
+     "AI-чатботы для продаж и поддержки",
+     "Автоматизация маркетинга",
+     "Предиктивная аналитика",
+     "AI-генерация контента",
+     "Интеграция с CRM и ERP"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 7,
+    "description": "AI-продукты и автоматизация бизнес-процессов. Внедряем искусственный интеллект в маркетинг, продажи и операционку."
+   },
+   {
+    "id": 8,
+    "name": "xChatbot",
+    "slug": "xchatbot",
+    "color": "#00C7BE",
+    "tagline": "Чат-боты и воронки",
+    "features": [
+     "Telegram и WhatsApp боты",
+     "Автоворонки продаж",
+     "Квалификация лидов",
+     "Интеграция с CRM",
+     "A/B тестирование сценариев"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 8,
+    "description": "Чат-боты и автоворонки продаж. Telegram, WhatsApp, веб — бот, который продаёт 24/7 без менеджера."
+   },
+   {
+    "id": 9,
+    "name": "xSocial",
+    "slug": "xsocial",
+    "color": "#FF6482",
+    "tagline": "SMM и контент-маркетинг",
+    "features": [
+     "Стратегия SMM",
+     "Контент-план и продакшн",
+     "Комьюнити-менеджмент",
+     "Influencer-маркетинг",
+     "Аналитика и отчётность"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 9,
+    "description": "SMM и контент-маркетинг. Стратегия присутствия в социальных сетях, контент-план, продакшн, комьюнити-менеджмент."
+   },
+   {
+    "id": 10,
+    "name": "xTouch",
+    "slug": "xtouch",
+    "color": "#FFD60A",
+    "tagline": "Ивенты и тач-поинты",
+    "features": [
+     "Организация конференций и саммитов",
+     "Презентации и launch-ивенты",
+     "Выставочные стенды и экспо",
+     "Нетворкинг-форматы",
+     "Post-event маркетинг"
+    ],
+    "icon_url": null,
+    "is_active": true,
+    "sort_order": 10,
+    "description": "Ивенты и тач-поинты. Конференции, саммиты, презентации, выставки — создаём незабываемый опыт взаимодействия с брендом."
+   }
+  ],
+  "bx.settings": [
+   {
+    "key": "site",
+    "value": {
+     "title": "BillionsX — Группа доходных компаний",
+     "domain": "billionsx.com",
+     "description": "Маркетинг, продажи и упаковка бизнеса для лидеров рынка"
+    },
+    "updated_at": "2026-04-12T15:51:40.280168+00:00"
+   },
+   {
+    "key": "seo",
+    "value": {
+     "robots": "noindex,nofollow",
+     "og_image": null
+    },
+    "updated_at": "2026-04-12T15:51:40.280168+00:00"
+   },
+   {
+    "key": "analytics",
+    "value": {
+     "gtm_id": null,
+     "ya_metrika_id": null
+    },
+    "updated_at": "2026-04-12T15:51:40.280168+00:00"
+   }
+  ],
+  "bx.testimonials": [
+   {
+    "id": 1,
+    "quote": "За 1.5 года с Billions X мы выросли в 20 раз. Они стали продакт-оунерами и выстроили единые стандарты для 55 офисов.",
+    "case_id": 2,
+    "is_active": true,
+    "sort_order": 1,
+    "author_name": "CEO ORBI Group",
+    "author_role": "Chief Executive Officer",
+    "author_company": "ORBI Group",
+    "revenue_impact": "Рост в 20×"
+   },
+   {
+    "id": 2,
+    "quote": "Billions X дали старт всему маркетингу. Упаковали виллы, привлекли блогеров, распродали район. №1 застройщик Бали за год.",
+    "case_id": 1,
+    "is_active": true,
+    "sort_order": 2,
+    "author_name": "Founder PARQ",
+    "author_role": "Основатель",
+    "author_company": "PARQ Development",
+    "revenue_impact": "№1 на Бали"
+   },
+   {
+    "id": 3,
+    "quote": "Методология xSales изменила подход к продажам на корпоративном уровне. Единая книга продаж для 105,000 сотрудников.",
+    "case_id": 3,
+    "is_active": true,
+    "sort_order": 3,
+    "author_name": "VP Sales ABB",
+    "author_role": "Vice President Sales",
+    "author_company": "ABB",
+    "revenue_impact": "100+ стран"
+   },
+   {
+    "id": 4,
+    "quote": "Billions X упаковали инвестиционную модель так, что мы стали ТОП-3 Google Street View и эксклюзивным партнёром Google Maps.",
+    "case_id": 5,
+    "is_active": true,
+    "sort_order": 4,
+    "author_name": "CEO MaxboxVR",
+    "author_role": "Chief Executive Officer",
+    "author_company": "MaxboxVR",
+    "revenue_impact": "ТОП-3 Google"
+   },
+   {
+    "id": 5,
+    "quote": "Три продукта на рынке $3B. Медиа-охват 160M+. Fox, CBS, ABC, Mashable. Billions X сделали невозможное.",
+    "case_id": 16,
+    "is_active": true,
+    "sort_order": 5,
+    "author_name": "Founder Health Helper",
+    "author_role": "Основатель",
+    "author_company": "Health Helper",
+    "revenue_impact": "160M+ охват"
+   },
+   {
+    "id": 6,
+    "quote": "Бестселлер в АСТ, отзыв правнука Генри Форда. Billions X — единственная команда, которой я доверяю бренд.",
+    "case_id": 17,
+    "is_active": true,
+    "sort_order": 6,
+    "author_name": "Ицхак Пинтосевич",
+    "author_role": "Автор 14 книг",
+    "author_company": "Isaac Pintosevich Systems",
+    "revenue_impact": "14 книг, ~1M тираж"
+   },
+   {
+    "id": 7,
+    "quote": "Billions X создали фирменный стиль мирового уровня. Forbes-предприниматели, селебрити, правительства — один бренд.",
+    "case_id": 11,
+    "is_active": true,
+    "sort_order": 7,
+    "author_name": "CEO Brilliance",
+    "author_role": "Основатель",
+    "author_company": "Brilliance Events",
+    "revenue_impact": "Ивенты для Forbes"
+   },
+   {
+    "id": 8,
+    "quote": "Тайсон, Бренсон, Шварценеггер — 150+ спикеров. Billions X упаковали и выстроили воронку для premium-аудитории.",
+    "case_id": 14,
+    "is_active": true,
+    "sort_order": 8,
+    "author_name": "CEO 2Space",
+    "author_role": "Основатель",
+    "author_company": " 2Space",
+    "revenue_impact": "150+ спикеров"
+   },
+   {
+    "id": 9,
+    "quote": "xSales адаптированная под каждую вертикаль бизнеса на $34.2B. Billions X понимают масштаб корпораций.",
+    "case_id": 4,
+    "is_active": true,
+    "sort_order": 9,
+    "author_name": "VP Eaton EMEA",
+    "author_role": "VP Sales EMEA",
+    "author_company": "Eaton",
+    "revenue_impact": "$34.2B корпорация"
+   },
+   {
+    "id": 10,
+    "quote": "2,344 ребёнка в месяц, 7 студий, шорт-лист Forbes Woman Mercury Awards. Billions X вывели бренд на новый уровень.",
+    "case_id": 19,
+    "is_active": true,
+    "sort_order": 10,
+    "author_name": "CEO Аквакласс",
+    "author_role": "Основатель",
+    "author_company": "Аквакласс",
+    "revenue_impact": "Forbes шорт-лист"
+   }
+  ],
+  "billionsx.bx_pages": [
+   {
+    "id": "2acfb22a-1683-461c-881f-855a696afcf0",
+    "slug": "hero",
+    "config": {},
+    "title_en": "Hero",
+    "title_ru": "Главная",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 1,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "We Engineer Billion-Dollar Brands",
+    "meta_description": null
+   },
+   {
+    "id": "d911220f-27f1-4fbe-97ce-12781ef5e620",
+    "slug": "problem",
+    "config": {},
+    "title_en": "The Problem",
+    "title_ru": "Проблема",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 2,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "95% компаний тратят миллионы на маркетинг, который не работает",
+    "meta_description": null
+   },
+   {
+    "id": "20edc7a3-fbee-4612-baff-e329233d9c34",
+    "slug": "system",
+    "config": {},
+    "title_en": "The System",
+    "title_ru": "Система",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 3,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "Стратегия → Смыслы → Упаковка → Продвижение → Продажи → Рост",
+    "meta_description": null
+   },
+   {
+    "id": "89724bb9-2d60-44f3-9d24-44339ce4db2f",
+    "slug": "cases",
+    "config": {},
+    "title_en": "Impact Portfolio",
+    "title_ru": "Портфолио",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 4,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "Бренды, которые мы вывели на новый уровень",
+    "meta_description": null
+   },
+   {
+    "id": "9fe815dd-8571-412f-98f4-ede7a88edb3e",
+    "slug": "fortune-wall",
+    "config": {},
+    "title_en": "Fortune Wall",
+    "title_ru": "Клиенты",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 5,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "Бренды из Fortune 500 и Forbes",
+    "meta_description": null
+   },
+   {
+    "id": "3d7315cf-2c89-4ec3-af67-018b35dd3299",
+    "slug": "testimonials",
+    "config": {},
+    "title_en": "Social Proof",
+    "title_ru": "Отзывы",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 6,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "Что говорят те, кто уже работал с нами",
+    "meta_description": null
+   },
+   {
+    "id": "014ff302-9b87-4402-8622-149f490c22d1",
+    "slug": "xai-lab",
+    "config": {},
+    "title_en": "xAI Lab",
+    "title_ru": "xAI Lab",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 7,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "Искусственный интеллект в каждом проекте",
+    "meta_description": null
+   },
+   {
+    "id": "53f1c6ab-9092-4785-95c0-a82c4d91c858",
+    "slug": "investment",
+    "config": {},
+    "title_en": "Investment",
+    "title_ru": "Инвестиции",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 8,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "Три уровня входа в работу с Billions X",
+    "meta_description": null
+   },
+   {
+    "id": "527f9381-775b-45fc-b875-d13f1c25ebc4",
+    "slug": "inner-circle",
+    "config": {},
+    "title_en": "Inner Circle",
+    "title_ru": "Заявка",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 9,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "Мы берём 12 проектов в год",
+    "meta_description": null
+   },
+   {
+    "id": "e7079f35-66b3-472a-b3d9-5cccee207be6",
+    "slug": "about",
+    "config": {},
+    "title_en": "About",
+    "title_ru": "О компании",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 10,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00",
+    "subtitle_en": null,
+    "subtitle_ru": "10+ лет инженерии брендов на миллиарды",
+    "meta_description": null
+   }
+  ],
+  "billionsx.bx_config": [
+   {
+    "key": "hero_stats",
+    "value": {
+     "countries": "100+",
+     "years_experience": "10+",
+     "fortune500_clients": "60+",
+     "total_capitalization": "$80B+"
+    },
+    "updated_at": "2026-04-06T10:35:59.927675+00:00"
+   },
+   {
+    "key": "contact_email",
+    "value": "hello@billionsx.com",
+    "updated_at": "2026-04-06T10:35:59.927675+00:00"
+   },
+   {
+    "key": "social_links",
+    "value": {
+     "telegram": "https://t.me/billionsx",
+     "instagram": "https://instagram.com/billionsx"
+    },
+    "updated_at": "2026-04-06T10:35:59.927675+00:00"
+   },
+   {
+    "key": "inner_circle_max_projects",
+    "value": 12,
+    "updated_at": "2026-04-06T10:35:59.927675+00:00"
+   },
+   {
+    "key": "theme",
+    "value": {
+     "dark_bg": "#1C1C1E",
+     "accent_gold": "#C8A44E",
+     "accent_gradient": "linear-gradient(135deg,#C8A44E,#F4D675)"
+    },
+    "updated_at": "2026-04-06T10:35:59.927675+00:00"
+   },
+   {
+    "key": "brand",
+    "value": {
+     "tagline_ru": "We Engineer Billion-Dollar Brands",
+     "certified_badge": true,
+     "tagline_short_ru": "Маркетинг богатых и очень богатых"
+    },
+    "updated_at": "2026-04-06T10:35:59.927675+00:00"
+   }
+  ],
+  "billionsx.bx_methodology": [
+   {
+    "id": "7be3a7cb-e060-40d5-b5dd-71d7940b2cd3",
+    "name": "xVision™",
+    "slug": "xvision",
+    "icon_url": null,
+    "label_en": "Strategy",
+    "label_ru": "Стратегия",
+    "is_active": true,
+    "simple_en": "We study your market deeper than anyone and build a strategy that leads to domination.",
+    "simple_ru": "Мы изучаем ваш рынок, конкурентов и аудиторию глубже, чем кто-либо. И строим стратегию, которая ведёт к доминированию.",
+    "created_at": "2026-04-06T10:36:29.764003+00:00",
+    "sort_order": 1,
+    "detailed_en": null,
+    "detailed_ru": "Комплексная услуга Space Vision: Analytics, Brand Strategy, Product Power, Genetic Brand Engineering, Promotion Strategy, Promotion RoadMap, Strategy Book. Всё собрано в единую книгу стратегии.",
+    "color_accent": "#FF9500",
+    "animation_type": "globe",
+    "pipeline_position": 1
+   },
+   {
+    "id": "319b1320-3757-4b05-a4ac-9d0438b7e69f",
+    "name": "xGenetics™",
+    "slug": "xgenetics",
+    "icon_url": null,
+    "label_en": "Brand DNA",
+    "label_ru": "ДНК бренда",
+    "is_active": true,
+    "simple_en": "We find your brand superpower and engineer missing genes needed to win.",
+    "simple_ru": "Мы находим суперсилу вашего бренда и встраиваем недостающие «гены», которые нужны для победы на рынке.",
+    "created_at": "2026-04-06T10:36:29.764003+00:00",
+    "sort_order": 2,
+    "detailed_en": null,
+    "detailed_ru": "Genetic Brand Engineering — 5 генов: Agile Gene (гибкость), Profit Gene (прибыльность), Heath Gene (хит), Global Gene (масштабность), Champion Gene (чемпион).",
+    "color_accent": "#AF52DE",
+    "animation_type": "dna-helix",
+    "pipeline_position": 2
+   },
+   {
+    "id": "ea0a10c9-2ff6-45f3-a0e3-0614b47ca0a8",
+    "name": "xNeural™",
+    "slug": "xneural",
+    "icon_url": null,
+    "label_en": "Meanings",
+    "label_ru": "Смыслы",
+    "is_active": true,
+    "simple_en": "We find what customers will pay 3x more for — and package it so they pay gladly.",
+    "simple_ru": "Мы находим в вашем продукте то, за что клиенты готовы платить в 3 раза больше. И упаковываем это так, что они платят с удовольствием.",
+    "created_at": "2026-04-06T10:36:29.764003+00:00",
+    "sort_order": 3,
+    "detailed_en": null,
+    "detailed_ru": "Технология Neural Brand Chain позволяет находить все ценные смыслы продукта, которые важны для конечного клиента. Из этих «молекул» смыслов мы собираем дорогой зажигающий продукт.",
+    "color_accent": "#FF2D55",
+    "animation_type": "neural-chain",
+    "pipeline_position": 3
+   },
+   {
+    "id": "4df367f5-e528-4b36-9ed7-b72714b7eba1",
+    "name": "xProduction™",
+    "slug": "xproduction",
+    "icon_url": null,
+    "label_en": "Packaging",
+    "label_ru": "Упаковка",
+    "is_active": true,
+    "simple_en": "We create impressions impossible to look away from. Sites, brands, visuals — Apple level.",
+    "simple_ru": "Мы создаём впечатление, от которого невозможно отвести взгляд. Сайты, бренды, визуалы — всё на уровне Apple.",
+    "created_at": "2026-04-06T10:36:29.764003+00:00",
+    "sort_order": 4,
+    "detailed_en": null,
+    "detailed_ru": "Сайты Brilliance Online, фирменный стиль xBrand, продуктовая упаковка. Стильные сайты призваны показать упакованный продукт и представить его в лучшем свете.",
+    "color_accent": "#007AFF",
+    "animation_type": "brilliance",
+    "pipeline_position": 4
+   },
+   {
+    "id": "baaf5237-5284-46ce-941c-680e2b6d1609",
+    "name": "xPerformance™",
+    "slug": "xperformance",
+    "icon_url": null,
+    "label_en": "Performance",
+    "label_ru": "Продвижение",
+    "is_active": true,
+    "simple_en": "We launch ads that sell. SEO, PR, reputation — we create a flow of pre-sold customers.",
+    "simple_ru": "Мы запускаем рекламу, которая продаёт. SEO, PR, репутация — мы создаём поток клиентов, которые уже хотят купить.",
+    "created_at": "2026-04-06T10:36:29.764003+00:00",
+    "sort_order": 5,
+    "detailed_en": null,
+    "detailed_ru": "Полный цикл: рекламные кампании, SEO PR, управление репутацией, публикации в СМИ, Digital PR. От $5,000 до $50,000/мес.",
+    "color_accent": "#34C759",
+    "animation_type": "performance",
+    "pipeline_position": 5
+   },
+   {
+    "id": "4bb8ae8b-c69c-4894-a43b-fdb9be5c4467",
+    "name": "xSales™",
+    "slug": "xsales",
+    "icon_url": null,
+    "label_en": "Sales",
+    "label_ru": "Продажи",
+    "is_active": true,
+    "simple_en": "We build sales systems that work without you. Product books, team training, deal-closing methodologies.",
+    "simple_ru": "Мы строим системы продаж, которые работают без вас. Книги продукта, обучение отделов, методологии закрытия сделок.",
+    "created_at": "2026-04-06T10:36:29.764003+00:00",
+    "sort_order": 6,
+    "detailed_en": null,
+    "detailed_ru": "Системы управления проектными продажами, единые книги методологии продаж Sales xBook, обучение менеджеров. Проверено на ABB ($43B), Eaton ($34B), Укрбуд, ГК Пионер.",
+    "color_accent": "#FF9500",
+    "animation_type": "sales",
+    "pipeline_position": 6
+   },
+   {
+    "id": "696672b1-d6fb-4f07-bfbc-4e123ac3a45a",
+    "name": "xAI™",
+    "slug": "xai",
+    "icon_url": null,
+    "label_en": "Artificial Intelligence",
+    "label_ru": "Искусственный интеллект",
+    "is_active": true,
+    "simple_en": "In 2026, we integrate AI at every stage. App development, analytics, hypothesis generation — what no other agency has.",
+    "simple_ru": "В 2026 году мы интегрируем AI на каждом этапе. Разработка приложений, аналитика, генерация гипотез — то, чего нет ни у одной студии.",
+    "created_at": "2026-04-06T10:36:29.764003+00:00",
+    "sort_order": 7,
+    "detailed_en": null,
+    "detailed_ru": "AI-разработка приложений (Ethnomir Super App как flagship), AI-аналитика рынка, AI-генерация гипотез, AI-оптимизация рекламы. Полноценная мировая разработка уровня Big Tech.",
+    "color_accent": "#5856D6",
+    "animation_type": "ai-brain",
+    "pipeline_position": 7
+   }
+  ],
+  "billionsx.bx_case_metrics": [
+   {
+    "id": "ea7f598a-94b5-428a-a195-5c49088981a5",
+    "icon": "globe",
+    "case_id": "d319d1e4-77dd-445c-bd31-0ab3ff71b5e6",
+    "value_en": null,
+    "value_ru": "ТОП-10 самых безопасных стран мира",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "80ac1e31-b952-44d9-b44e-c678da87cc1a",
+    "icon": "award",
+    "case_id": "d319d1e4-77dd-445c-bd31-0ab3ff71b5e6",
+    "value_en": null,
+    "value_ru": "ТОП-5 по простоте оформления недвижимости",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "a14aa086-a191-4630-b29a-55da6ba64bce",
+    "icon": "chart",
+    "case_id": "d319d1e4-77dd-445c-bd31-0ab3ff71b5e6",
+    "value_en": null,
+    "value_ru": "ТОП-10 по простоте ведения бизнеса",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "ae502c03-e5d0-4db0-b236-6296981d2fa8",
+    "icon": "trophy",
+    "case_id": "d319d1e4-77dd-445c-bd31-0ab3ff71b5e6",
+    "value_en": null,
+    "value_ru": "№1 по верховенству закона в Восточной Европе и Центральной Азии",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "fd3aa56c-2756-48be-a096-b780f486a44a",
+    "icon": "dollar",
+    "case_id": "17517b45-5d31-4793-b9ef-beb6540fb096",
+    "value_en": null,
+    "value_ru": "Капитализация 43,000,000,000$",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "adf223a6-d9d4-4b30-a39b-be44251dc87d",
+    "icon": "globe",
+    "case_id": "17517b45-5d31-4793-b9ef-beb6540fb096",
+    "value_en": null,
+    "value_ru": "В более чем 100 странах",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "8e5c053a-2ed1-4f25-a80d-1ed705490d8d",
+    "icon": "users",
+    "case_id": "17517b45-5d31-4793-b9ef-beb6540fb096",
+    "value_en": null,
+    "value_ru": "105,000 сотрудников",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "5c275888-24e2-4207-8635-f188f1b313b1",
+    "icon": "award",
+    "case_id": "17517b45-5d31-4793-b9ef-beb6540fb096",
+    "value_en": null,
+    "value_ru": "130-летний опыт",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "7ae37528-6235-4428-bb0e-df8e15b665da",
+    "icon": "dollar",
+    "case_id": "40403700-d664-44cd-94b0-89329e9128e9",
+    "value_en": null,
+    "value_ru": "Капитализация 34,200,000,000$",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "af8f5660-f939-4f7f-acea-98536403c370",
+    "icon": "globe",
+    "case_id": "40403700-d664-44cd-94b0-89329e9128e9",
+    "value_en": null,
+    "value_ru": "В более чем 100 странах",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "2fb1cb92-8d20-4e37-9e9f-4feac48e6977",
+    "icon": "users",
+    "case_id": "40403700-d664-44cd-94b0-89329e9128e9",
+    "value_en": null,
+    "value_ru": "96,000 сотрудников",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "7db01d1d-5b66-45fc-94ad-ae5f9b0c57dc",
+    "icon": "award",
+    "case_id": "40403700-d664-44cd-94b0-89329e9128e9",
+    "value_en": null,
+    "value_ru": "Основана в 1911 году",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "76c0922a-c256-4740-8828-e7845405afa1",
+    "icon": "dollar",
+    "case_id": "f808f487-2153-43eb-934a-1ad4e579e206",
+    "value_en": null,
+    "value_ru": "Оборот 1,986,450,000$/год",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "a8728d51-23d6-4b73-b9af-9f6fa2899d03",
+    "icon": "trophy",
+    "case_id": "f808f487-2153-43eb-934a-1ad4e579e206",
+    "value_en": null,
+    "value_ru": "ТОП-10 мирового транспортного машиностроения",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "b8a1f0f8-9181-4e96-8279-0b8cee163b04",
+    "icon": "users",
+    "case_id": "f808f487-2153-43eb-934a-1ad4e579e206",
+    "value_en": null,
+    "value_ru": "100,000+ сотрудников",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "ffaabc1f-ebfc-42e1-8056-47485a4b4e2a",
+    "icon": "award",
+    "case_id": "f808f487-2153-43eb-934a-1ad4e579e206",
+    "value_en": null,
+    "value_ru": "№1 в СНГ по выручке от продажи новой техники",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "aceb2bf2-3720-4b95-b509-0a45a1065587",
+    "icon": "chart",
+    "case_id": "27eac874-a7ec-40e7-a9f8-8bb153e529c0",
+    "value_en": null,
+    "value_ru": "Рост компании в 20 раз",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "7a84dd45-05fe-42ed-a370-e38fde29e1d0",
+    "icon": "globe",
+    "case_id": "27eac874-a7ec-40e7-a9f8-8bb153e529c0",
+    "value_en": null,
+    "value_ru": "55 офисов в 19 странах",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "2878358c-2f77-456a-8aef-1a708710e46b",
+    "icon": "users",
+    "case_id": "27eac874-a7ec-40e7-a9f8-8bb153e529c0",
+    "value_en": null,
+    "value_ru": "1,500,000 туристов ежегодно",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "fee2d6c8-e00c-48d1-9ae0-7e0b35c51e90",
+    "icon": "trophy",
+    "case_id": "27eac874-a7ec-40e7-a9f8-8bb153e529c0",
+    "value_en": null,
+    "value_ru": "Prix d'Excellence — лучший инвестиционный проект мира",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "6d73732b-631b-44ae-8161-d8c21aab0223",
+    "icon": "trophy",
+    "case_id": "c900e41c-1aed-4625-b8f0-514760ab3bb2",
+    "value_en": null,
+    "value_ru": "Крупнейший и самый быстрорастущий застройщик Бали",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "ba2101ce-74bf-442e-9b26-215ab1f9983d",
+    "icon": "users",
+    "case_id": "c900e41c-1aed-4625-b8f0-514760ab3bb2",
+    "value_en": null,
+    "value_ru": "До 2,000 посетителей PARQ Ubud ежедневно",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "805c6e56-6d53-45ae-a1a0-61063646afcd",
+    "icon": "chart",
+    "case_id": "c900e41c-1aed-4625-b8f0-514760ab3bb2",
+    "value_en": null,
+    "value_ru": "Распродан целый район вилл",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "cdb022c9-02e7-4086-b9de-02b5fe60bdfe",
+    "icon": "award",
+    "case_id": "c900e41c-1aed-4625-b8f0-514760ab3bb2",
+    "value_en": null,
+    "value_ru": "16 лет опыта на рынке девелопмента на Бали",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "211cf16f-456b-4e0a-b117-fa6e2fe7be88",
+    "icon": "award",
+    "case_id": "28928dc5-b389-4ec3-81d3-25623cf89f2c",
+    "value_en": null,
+    "value_ru": "Эксклюзивный партнёр Google Maps по VR CardBoards",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "5b06900b-af9e-4878-b40d-8e71d580d330",
+    "icon": "trophy",
+    "case_id": "28928dc5-b389-4ec3-81d3-25623cf89f2c",
+    "value_en": null,
+    "value_ru": "ТОП-3 партнёр Google Street View",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "289e911a-652c-402c-a905-0a18f461c15e",
+    "icon": "globe",
+    "case_id": "28928dc5-b389-4ec3-81d3-25623cf89f2c",
+    "value_en": null,
+    "value_ru": "3,000+ клиентов из 100+ стран",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "1c44798d-d4ba-40aa-b284-9834d8ddc90e",
+    "icon": "dollar",
+    "case_id": "28928dc5-b389-4ec3-81d3-25623cf89f2c",
+    "value_en": null,
+    "value_ru": "Клиенты — бренды из Fortune Global 500",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "5bcd7597-9cc5-4011-aee3-a78cef87c335",
+    "icon": "trophy",
+    "case_id": "2b37ecb6-b141-4874-9d2a-92e691e3ffa4",
+    "value_en": null,
+    "value_ru": "Победитель CES — крупнейшей выставки электроники в мире",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "b2380dae-e8b5-4b8d-9a31-6cd67b294d9e",
+    "icon": "chart",
+    "case_id": "2b37ecb6-b141-4874-9d2a-92e691e3ffa4",
+    "value_en": null,
+    "value_ru": "ТОП-5 лучших девайсов Amazon",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "cd05afb2-9cf9-47e5-9d6b-b0575f409abf",
+    "icon": "award",
+    "case_id": "2b37ecb6-b141-4874-9d2a-92e691e3ffa4",
+    "value_en": null,
+    "value_ru": "Технология разработана с мировыми университетами",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "94aa183a-1ae0-4e7e-9bc9-041cfcb60d5a",
+    "icon": "award",
+    "case_id": "2b37ecb6-b141-4874-9d2a-92e691e3ffa4",
+    "value_en": null,
+    "value_ru": "Производство — то же, что для NASA",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "be1242e4-6367-439d-8c9a-221846ee3f87",
+    "icon": "award",
+    "case_id": "f9eca89a-8e7e-49f6-b1c0-e737200104e4",
+    "value_en": null,
+    "value_ru": "108 таблиц БД, 87 Edge Functions, 93 RPC",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "f3d0a1ca-b846-465c-a8a6-048b649b658f",
+    "icon": "chart",
+    "case_id": "f9eca89a-8e7e-49f6-b1c0-e737200104e4",
+    "value_en": null,
+    "value_ru": "29-вкладочная CRM-система",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "20c636cc-dd1f-423c-acb0-48ce52d7b708",
+    "icon": "trophy",
+    "case_id": "f9eca89a-8e7e-49f6-b1c0-e737200104e4",
+    "value_en": null,
+    "value_ru": "iOS 26 Liquid Glass дизайн-система",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "9f07de2e-4652-40b6-8159-728cd05277aa",
+    "icon": "award",
+    "case_id": "f9eca89a-8e7e-49f6-b1c0-e737200104e4",
+    "value_en": null,
+    "value_ru": "AI-powered разработка полного цикла",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "5747e004-6928-426c-ad5e-ce1f28faa9bb",
+    "icon": "award",
+    "case_id": "c8b37390-e542-471f-ac6d-34c7c5bc48e3",
+    "value_en": null,
+    "value_ru": "Самый популярный комик по версии Brand Analytics",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "36c00007-25e6-4a42-9cc3-c43fc05e861e",
+    "icon": "trophy",
+    "case_id": "c8b37390-e542-471f-ac6d-34c7c5bc48e3",
+    "value_en": null,
+    "value_ru": "ТОП-3 самых успешных комиков по версии Forbes",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "5c4d6d63-41ce-454d-b6a2-c7ee2904a578",
+    "icon": "users",
+    "case_id": "c8b37390-e542-471f-ac6d-34c7c5bc48e3",
+    "value_en": null,
+    "value_ru": "9,200,000+ подписчиков Instagram",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "f1b69763-a2eb-4657-8647-749dded6bd94",
+    "icon": "chart",
+    "case_id": "c8b37390-e542-471f-ac6d-34c7c5bc48e3",
+    "value_en": null,
+    "value_ru": "100% медиа узнаваемость",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   },
+   {
+    "id": "a09b5710-276c-431d-9563-4d1eb4d63886",
+    "icon": "globe",
+    "case_id": "4367dee7-9db0-4e24-91bb-c965424ef976",
+    "value_en": null,
+    "value_ru": "Обучают специалистов в 37 странах мира",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 1
+   },
+   {
+    "id": "0af65089-195e-436d-bf1a-1babaf4cba9c",
+    "icon": "users",
+    "case_id": "4367dee7-9db0-4e24-91bb-c965424ef976",
+    "value_en": null,
+    "value_ru": "Вывели личные бренды Черняка, Хартманна и других",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 2
+   },
+   {
+    "id": "20a109a3-3a70-4007-9f3a-27e6983489be",
+    "icon": "trophy",
+    "case_id": "4367dee7-9db0-4e24-91bb-c965424ef976",
+    "value_en": null,
+    "value_ru": "Крупнейшая ассоциация коучей IPACT",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 3
+   },
+   {
+    "id": "dde33bca-6af1-4ca8-9ac7-83dc7dd329ce",
+    "icon": "award",
+    "case_id": "4367dee7-9db0-4e24-91bb-c965424ef976",
+    "value_en": null,
+    "value_ru": "Synergy Global Forum — 150+ мировых спикеров",
+    "created_at": "2026-04-06T10:39:42.75773+00:00",
+    "sort_order": 4
+   }
+  ],
+  "billionsx.bx_client_logos": [
+   {
+    "id": "fe423437-7792-4056-8bdb-ddcef413b6b5",
+    "name": "Google",
+    "industry": "tech",
+    "logo_url": "https://static.tildacdn.net/tild3036-3734-4566-b161-316136326262/google-1-1.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 1,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "cfe3b19a-e14d-4385-8ec4-e8b7c0079222",
+    "name": "Microsoft",
+    "industry": "tech",
+    "logo_url": "https://static.tildacdn.net/tild6133-3264-4833-b836-353230626635/microsoft.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 2,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "59b962a9-ad84-4ce2-91b8-bd4006cf6828",
+    "name": "NASA",
+    "industry": "government",
+    "logo_url": "https://static.tildacdn.net/tild6331-3966-4235-a639-386634343662/nasa-3.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 3,
+    "website_url": null,
+    "is_fortune500": false
+   },
+   {
+    "id": "75190d1b-8569-49c0-85d6-55e2905adc04",
+    "name": "Virgin",
+    "industry": "conglomerate",
+    "logo_url": "https://static.tildacdn.net/tild3637-3432-4131-b636-613035353932/virgin.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 4,
+    "website_url": null,
+    "is_fortune500": false
+   },
+   {
+    "id": "e8485b64-fb2c-4ce0-87b8-a8b5a4779f54",
+    "name": "BBC",
+    "industry": "media",
+    "logo_url": "https://static.tildacdn.net/tild6365-6364-4466-b266-646632306432/bbc-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 5,
+    "website_url": null,
+    "is_fortune500": false
+   },
+   {
+    "id": "b8b51145-a1ed-4d86-8b7d-b3516599a82c",
+    "name": "Nike",
+    "industry": "retail",
+    "logo_url": "https://static.tildacdn.net/tild6438-3733-4233-a566-376363663739/nike-4.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 6,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "97154c6d-08e9-49f6-93f6-d873e730e8f0",
+    "name": "BMW",
+    "industry": "automotive",
+    "logo_url": "https://static.tildacdn.net/tild6439-6434-4266-b764-323530343464/bmw.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 7,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "8b253466-e486-4048-9817-2e58c6509931",
+    "name": "Disney",
+    "industry": "media",
+    "logo_url": "https://static.tildacdn.net/tild3966-3935-4734-b836-663833633034/disney.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 8,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "8bb4a720-6690-43ba-93fd-d69f6541aa27",
+    "name": "Visa",
+    "industry": "finance",
+    "logo_url": "https://static.tildacdn.net/tild3464-3039-4639-a562-386563396262/visa.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 9,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "58d1dac4-68de-40b7-a440-d6497beb6897",
+    "name": "Rolls-Royce",
+    "industry": "automotive",
+    "logo_url": "https://static.tildacdn.net/tild3437-6565-4336-a135-646133633838/rolls-royce-por-hern.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 10,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "56e4ba3d-d16c-4569-a834-0c428e3bf2d3",
+    "name": "JP Morgan",
+    "industry": "finance",
+    "logo_url": "https://static.tildacdn.net/tild3437-6134-4461-a532-313266353239/jp-morgan.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 11,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "64975190-87b6-4940-82d5-534c8217c012",
+    "name": "Mercedes-Benz",
+    "industry": "automotive",
+    "logo_url": "https://static.tildacdn.net/tild3162-3562-4136-b437-633333386434/mercedes-benz-4.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 12,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "d913c12f-0da3-4cd1-83bc-966cac0053b0",
+    "name": "Mastercard",
+    "industry": "finance",
+    "logo_url": "https://static.tildacdn.net/tild3531-6261-4239-a634-316532383639/mastercard-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 13,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "2708c0e2-1f63-4d47-8de1-0465d4ef261f",
+    "name": "Adidas",
+    "industry": "retail",
+    "logo_url": "https://static.tildacdn.net/tild6136-6532-4838-b531-313732343866/adidas-9.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 14,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "8690b79a-2c7e-4d8f-842f-c7b605b9b88f",
+    "name": "IBM",
+    "industry": "tech",
+    "logo_url": "https://static.tildacdn.net/tild6135-6361-4866-b137-613131623131/ibm.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 15,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "fcb23a66-63ce-4e01-bc7b-2ac789563e34",
+    "name": "McDonald's",
+    "industry": "fmcg",
+    "logo_url": "https://static.tildacdn.net/tild6463-6636-4337-a435-626564303263/mcdonalds-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 16,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "ba94d78d-a3ca-418e-a357-159034e3fdf9",
+    "name": "Coca-Cola",
+    "industry": "fmcg",
+    "logo_url": "https://static.tildacdn.net/tild3865-3363-4435-b563-613065323162/coca-cola.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 17,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "4b9874c8-dc43-4a48-a34b-3af8c236b8d1",
+    "name": "Johnson &amp; Johnson",
+    "industry": "pharma",
+    "logo_url": "https://static.tildacdn.net/tild6139-3333-4462-b638-643134393835/johnson-johnson.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 18,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "3c790761-a7b5-4d48-bee4-5fd87d0a6f88",
+    "name": "3M",
+    "industry": "industrial",
+    "logo_url": "https://static.tildacdn.net/tild3266-3762-4130-b862-333365663030/3m.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 19,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "9f9dbbed-f161-433c-925a-c374d5b9b651",
+    "name": "General Electric",
+    "industry": "industrial",
+    "logo_url": "https://static.tildacdn.net/tild3034-3365-4239-b135-313333633037/general-electric.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 20,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "08b16eb7-2df5-49cf-97ed-185dcb6ba9dd",
+    "name": "Hugo Boss",
+    "industry": "fashion",
+    "logo_url": "https://static.tildacdn.net/tild6431-6236-4537-a337-363334306134/hugo-boss-logo.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 21,
+    "website_url": null,
+    "is_fortune500": false
+   },
+   {
+    "id": "71a14cf9-fa03-4727-aec0-70ffa0b4144e",
+    "name": "LEGO",
+    "industry": "retail",
+    "logo_url": "https://static.tildacdn.net/tild3138-6139-4438-a239-356533326264/lego-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 22,
+    "website_url": null,
+    "is_fortune500": false
+   },
+   {
+    "id": "33916872-03aa-48f9-a3a5-95a7a00df470",
+    "name": "Universal",
+    "industry": "media",
+    "logo_url": "https://static.tildacdn.net/tild3735-3137-4265-a661-366136313265/universal-3.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 23,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "a5ff69a4-1215-47da-821d-599397491e39",
+    "name": "Accenture",
+    "industry": "consulting",
+    "logo_url": "https://static.tildacdn.net/tild3166-3336-4561-a339-306263386662/accenture-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 24,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "e87e6f5a-45ca-4690-a8a0-0d1c4606d55c",
+    "name": "Deloitte",
+    "industry": "consulting",
+    "logo_url": "https://static.tildacdn.net/tild3539-3162-4338-a438-623062613561/deloitte-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 25,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "0cd1907b-7381-4e56-a517-41c2bfe1857f",
+    "name": "PwC",
+    "industry": "consulting",
+    "logo_url": "https://static.tildacdn.net/tild3865-3936-4538-b736-353232633737/pwc.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 26,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "804ed48e-e70a-4f74-98ec-54d9b36df33e",
+    "name": "Walmart",
+    "industry": "retail",
+    "logo_url": "https://static.tildacdn.net/tild3265-3465-4530-b430-343831333764/walmart.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 27,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "a5cbf3c0-0f03-4b39-accd-55d2b40442a5",
+    "name": "Audi",
+    "industry": "automotive",
+    "logo_url": "https://static.tildacdn.net/tild3832-3263-4664-a466-366338666436/audi-11.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 28,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "6374fb31-8bc2-4fde-bb9c-c8e5f77cd593",
+    "name": "Bayer",
+    "industry": "pharma",
+    "logo_url": "https://static.tildacdn.net/tild3331-3539-4035-a533-623061316632/bayer-5.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 29,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "5962edb0-a59e-4426-b9fd-e4fe6a420c67",
+    "name": "Pfizer",
+    "industry": "pharma",
+    "logo_url": "https://static.tildacdn.net/tild6666-3264-4139-b861-663865623839/pfizer-1.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 30,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "42f8cf27-856d-452e-bd51-edaca6731059",
+    "name": "Siemens",
+    "industry": "industrial",
+    "logo_url": "https://static.tildacdn.net/tild3835-6230-4336-a131-373562633536/siemens-3.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 31,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "19899a04-76de-4294-9394-4eb3ef3e846c",
+    "name": "Hilton",
+    "industry": "hospitality",
+    "logo_url": "https://static.tildacdn.net/tild3435-6164-4330-a465-396331313630/hilton-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 32,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "5829911f-c95e-449e-9381-c09c414b513e",
+    "name": "Honda",
+    "industry": "automotive",
+    "logo_url": "https://static.tildacdn.net/tild3637-3732-4164-a530-363138656631/honda-9.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 33,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "029bdeb3-a37e-468f-ad2d-5876c48ca80e",
+    "name": "Oracle",
+    "industry": "tech",
+    "logo_url": "https://static.tildacdn.net/tild3261-6332-4433-b262-613964336265/oracle-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 34,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "ad10a794-3f15-46c9-983e-c2a0f979a3fa",
+    "name": "Sony",
+    "industry": "tech",
+    "logo_url": "https://static.tildacdn.net/tild3339-3762-4162-a332-646332323361/sony-2.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 35,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "f0e506a6-16da-4396-906b-9c345338a7e6",
+    "name": "Puma",
+    "industry": "retail",
+    "logo_url": "https://static.tildacdn.net/tild3432-6165-4764-b035-366166646330/puma-logo.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 36,
+    "website_url": null,
+    "is_fortune500": false
+   },
+   {
+    "id": "40e59371-a025-4cf4-8c4e-7ddccc74588b",
+    "name": "L'Oréal",
+    "industry": "fmcg",
+    "logo_url": "https://static.tildacdn.net/tild3935-3361-4664-b364-306535653461/l-oreal-3.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 37,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "b2862a55-35d1-4144-b6a8-882d1eea7b81",
+    "name": "Nestlé",
+    "industry": "fmcg",
+    "logo_url": "https://static.tildacdn.net/tild3530-6332-4938-b030-386133653264/nestle-4.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 38,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "11877a63-de64-42ba-bafb-484fc8bf7c35",
+    "name": "Vodafone",
+    "industry": "telecom",
+    "logo_url": "https://static.tildacdn.net/tild3262-3363-4132-b162-393461656331/vodafone-8.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 39,
+    "website_url": null,
+    "is_fortune500": true
+   },
+   {
+    "id": "d64fb91e-772f-453d-a33b-961bcfae0324",
+    "name": "Procter &amp; Gamble",
+    "industry": "fmcg",
+    "logo_url": "https://static.tildacdn.net/tild3230-6537-4737-b631-393939656132/procter-gamble-1.svg",
+    "is_active": true,
+    "created_at": "2026-04-06T10:41:43.331775+00:00",
+    "sort_order": 40,
+    "website_url": null,
+    "is_fortune500": true
+   }
+  ],
+  "billionsx.bx_pricing_tiers": [
+   {
+    "id": "9938b0ad-2d2b-46f4-840b-87f300032f07",
+    "name": "LAUNCH",
+    "slug": "launch",
+    "icon_name": "rocket.fill",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 1,
+    "subtitle_en": "For startups, new products, personal brands",
+    "subtitle_ru": "Для стартапов, новых продуктов, персональных брендов",
+    "color_accent": "#34C759",
+    "description_en": null,
+    "description_ru": null,
+    "target_revenue_ru": "Оборот до $1M",
+    "price_range_display": "$15K – $50K"
+   },
+   {
+    "id": "558e599f-f4a8-4cfb-8898-6a74a284e3c6",
+    "name": "SCALE",
+    "slug": "scale",
+    "icon_name": "chart.line.uptrend.xyaxis",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 2,
+    "subtitle_en": "For growing companies $1M–$50M revenue",
+    "subtitle_ru": "Для растущих компаний с оборотом $1M–$50M",
+    "color_accent": "#007AFF",
+    "description_en": null,
+    "description_ru": null,
+    "target_revenue_ru": "Оборот $1M – $50M",
+    "price_range_display": "$50K – $500K"
+   },
+   {
+    "id": "42657273-1730-40ed-a49f-ae5987cb1e50",
+    "name": "DOMINATE",
+    "slug": "dominate",
+    "icon_name": "crown.fill",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 3,
+    "subtitle_en": "For corporations $50M+, developers, governments",
+    "subtitle_ru": "Для корпораций $50M+, девелоперов, государств",
+    "color_accent": "#C8A44E",
+    "description_en": null,
+    "description_ru": null,
+    "target_revenue_ru": "Оборот $50M+",
+    "price_range_display": "$250K – $1M+"
+   },
+   {
+    "id": "c03d969d-e946-4f05-8aae-b8ec377ea07c",
+    "name": "PARTNERSHIP",
+    "slug": "partnership",
+    "icon_name": "handshake.fill",
+    "is_active": true,
+    "created_at": "2026-04-06T10:35:59.927675+00:00",
+    "sort_order": 4,
+    "subtitle_en": "Strategic partnership with revenue sharing",
+    "subtitle_ru": "Стратегическое партнёрство с разделением выручки",
+    "color_accent": "#AF52DE",
+    "description_en": null,
+    "description_ru": null,
+    "target_revenue_ru": "Для проектов с огромным потенциалом",
+    "price_range_display": "Custom"
+   }
+  ]
+ },
+ "источник": "проект ethnomir-app, схемы billionsx и bx — данные сайта Billions X, к парку отношения не имеющие"
+}
