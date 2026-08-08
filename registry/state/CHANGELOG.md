@@ -2574,3 +2574,14 @@
 - https://brajs.com/katha: элементов 33 · находок 0
 - https://brajs.com/library: элементов 38 · находок 0
 
+### 2026-08-08 19:44 UTC · `dev-news` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/news/
+- домены мандата: ios27, hig
+- появились: h2: Next steps for apps distributed in Texas · h2: Enhancements to help you submit and market your apps and games · h3: Submit additional items to App Review · h3: Create double the number of custom product pages and add keywords · h3: Offer codes expand to all In-App Purchase types · h2: New requirement for apps using Sign in with Apple for account creation · h3: Account change guidance · h3: Resources · h2: New requirements for apps available in Texas · h2: Upcoming Currency Change in Bulgaria · h2: App Store submissions now open for the latest OS releases · h2: Awe dropping.
+- объём текста: 107051 → 104500 зн.
+
+### 2026-08-08 19:44 UTC · `dev-news-rss` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/news/rss/news.rss
+- домены мандата: ios27
+- объём текста: 394068 → 375037 зн.
+

@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `ethnomir` · режим report
-Файлов просмотрено: 15 · правила: AE1, AE2, AE3, AE4, AE5, AE6, AE7, AE8, AE10, AE11, AE12, AE13, AE14, AE15, AE16, AE17, AE18, AE19, AE20 · находок: 1314
+Файлов просмотрено: 15 · правила: AE1, AE2, AE3, AE4, AE5, AE6, AE7, AE8, AE10, AE11, AE12, AE13, AE14, AE15, AE16, AE17, AE18, AE19, AE20 · находок: 134
 
 ⊘ AE9 воздержалось: проект объявлен светлым (base: light), а лестница прозрачности светлого стекла департаментом не снята — судить нечем
 
@@ -42,128 +42,17 @@
 - `apps/web/app/page.tsx:8748` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
 - `apps/web/app/page.tsx:8859` — font-family не начинается с системного стека ['-apple-system', 'system-ui', 'sf pro'] — подмена первой позиции ломает метрики и трекинг
 
-## AE11 · 328
-- `apps/web/app/page.tsx:230` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:274` — border-radius 32px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:275` — border-radius 32px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:288` — border-radius 28px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:291` — border-radius 15px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:320` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:323` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:336` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:346` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:421` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:423` — border-radius 48px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:427` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:439` — border-radius 15px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:456` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:467` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:500` — border-radius 15px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:505` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:507` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:566` — border-radius 15px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:572` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:589` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:697` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:741` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:745` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:749` — border-radius 15px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:776` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:795` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:818` — border-radius 5px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:847` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:865` — border-radius 13px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:879` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:885` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:899` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:909` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:931` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:954` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:971` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1010` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1031` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1046` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1099` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1120` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1147` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1168` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1225` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1259` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1293` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1314` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1352` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1358` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1360` — border-radius 2px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1463` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1527` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1564` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1570` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1572` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1596` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1626` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1653` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1671` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1674` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1702` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1704` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1745` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1745` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1773` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1773` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1806` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1806` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1833` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1833` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1889` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1889` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:1966` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2000` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2002` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2100` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2150` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2151` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2161` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2166` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2169` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2231` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2253` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2255` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2262` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2264` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2309` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2310` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2330` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2342` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2347` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2387` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2401` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2405` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2422` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2428` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2518` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2540` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2572` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2574` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2689` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2735` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2747` — border-radius 22px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2758` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2758` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2759` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2769` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2769` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2786` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2814` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2847` — border-radius 17px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2875` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2877` — border-radius 18px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2924` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2967` — border-radius 30px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:2997` — border-radius 28px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:3000` — border-radius 15px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:3153` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- `apps/web/app/page.tsx:3181` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
-- … ещё 208
+## AE11 · 10
+- `apps/web/app/page.tsx:7707` — border-radius 0px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `design-system/billionsx-design-system.css:69` — border-radius 3px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `design-system/billionsx-design-system.css:356` — border-radius 10px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `design-system/billionsx-design-system.css:438` — border-radius 15.5px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `design-system/billionsx-design-system.css:467` — border-radius 36px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `design-system/billionsx-design-system.css:489` — border-radius 28px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `design-system/billionsx-design-system.css:516` — border-radius 4px вне измеренной лестницы [6.0, 8.0, 12.0, 14.0, 16.0, 20.0, 24.0, 29.0, 37.8]
+- `design-system/billionsx-design-system.css:135` — переменная радиуса 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/app/client.css:38` — переменная радиуса 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/app/client.css:38` — переменная радиуса 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 
 ## AE14 · 6
 - `design-system/billionsx-design-system.css:354` — цель касания 24px — норма свода минимум 44px (44×44pt, 🍎 живой HIG)
@@ -178,7 +67,7 @@
 - `design-system/billionsx-design-system.css:450` — поверхность #FFFFFF задана одним значением на обе темы — проект темы объявляет, но эта поверхность из них выпадает; 🍎 Apple: значения системных цветов меняются от выпуска к выпуску, жёсткое одно на обе темы устаревает молча (/design/human-interface-guidelines/color)
 
 ## AE19 · 1
-- `apps/web/app/contract/page.tsx:56` — кегль задан жёстким px в 3060 местах против 504 масштабируемых — интерфейс не переживёт Dynamic Type; 🍎 Apple растит кегль от xSmall к xxxLarge на 18 % (34→40 pt у Large Title), на ступенях доступности кратно (/design/human-interface-guidelines/typography)
+- `apps/web/app/contract/page.tsx:56` — кегль задан жёстким px в 2310 местах против 398 масштабируемых — интерфейс не переживёт Dynamic Type; 🍎 Apple растит кегль от xSmall к xxxLarge на 18 % (34→40 pt у Large Title), на ступенях доступности кратно (/design/human-interface-guidelines/typography)
 
 ## AE2 · 19
 - `apps/web/app/page.tsx:755` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
@@ -201,124 +90,16 @@
 - `design-system/billionsx-design-system.css:468` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `design-system/billionsx-design-system.css:493` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 
-## AE20 · 83
+## AE20 · 1
 - `apps/web/app/not-found.tsx:26` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:353` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:359` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:424` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:527` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:578` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:679` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:702` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:771` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:825` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:837` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:892` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:914` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1004` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1040` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1092` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1264` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1325` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1465` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1488` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1494` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1499` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1508` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1675` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:1693` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2209` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2213` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2236` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2240` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2488` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2544` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2557` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:2777` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:3406` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:3450` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:3544` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:3556` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:3577` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:4567` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:5198` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:5551` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:5819` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:6078` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:6441` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:6785` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:6788` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7118` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7174` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7213` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7222` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7257` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7536` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7700` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7700` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7701` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7702` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7703` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7706` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7706` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7706` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7707` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7708` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7709` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7711` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:7728` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:8698` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:8988` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9098` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9115` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9127` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9132` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9188` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9196` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9203` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9209` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9223` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9237` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9246` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9258` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9265` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9462` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9464` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
-- `apps/web/app/page.tsx:9648` — text-transform: uppercase — капсы у Apple нет: заголовок группы идёт Title Case (§3.4), капс это iOS 12 (typography.caps_lock)
 
 ## AE3 · 3
 - `apps/web/app/not-found.tsx:55` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/app/r/[code]/page.tsx:12` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `design-system/billionsx-design-system.css:331` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 
-## AE4 · 33
-- `apps/web/app/page.tsx:2769` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:3179` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:3204` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:6364` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
+## AE4 · 7
 - `apps/web/app/page.tsx:6814` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:6907` — letter-spacing 1.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:7700` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:7706` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:7706` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:7759` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:7973` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8030` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8072` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8114` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8150` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8190` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8240` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8330` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8490` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8659` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8729` — letter-spacing 2.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:8796` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/page.tsx:9468` — letter-spacing 1.0px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/r/[code]/page.tsx:64` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/r/[code]/page.tsx:76` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/r/[code]/page.tsx:86` — letter-spacing 0.5px — крышка поправки ±0.4px; роль задаётся в em
-- `apps/web/app/r/[code]/page.tsx:107` — letter-spacing -0.5px — крышка поправки ±0.4px; роль задаётся в em
 - `design-system/billionsx-design-system.css:38` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `design-system/billionsx-design-system.css:234` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `design-system/billionsx-design-system.css:235` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
@@ -326,128 +107,60 @@
 - `design-system/billionsx-design-system.css:330` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 - `design-system/billionsx-design-system.css:417` — letter-spacing -0.43px — крышка поправки ±0.4px; роль задаётся в em
 
-## AE5 · 807
+## AE5 · 53
 - `apps/web/app/contract/page.tsx:56` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/invoice/page.tsx:56` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:220` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:230` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:232` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:277` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:322` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:323` — font-size 8.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:325` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:337` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:339` — font-size 80.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:366` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:418` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:423` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:426` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:455` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:456` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:456` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:467` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:467` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:469` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:505` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:507` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:528` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:545` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:685` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:702` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:725` — font-size 26.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:729` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:746` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:748` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:750` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:754` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:772` — font-size 52.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:777` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:777` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:777` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:783` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:787` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:814` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:825` — font-size 5.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:826` — font-size 4.5px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:861` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:892` — font-size 5.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:893` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:895` — font-size 8.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:907` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:936` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:956` — font-size 42.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1031` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1035` — font-size 8.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1110` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1139` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1141` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1158` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1179` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1185` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1210` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1216` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1240` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1315` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1371` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:1462` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1463` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1465` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1472` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1473` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1488` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1490` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1494` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1496` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1499` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1501` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1504` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1508` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1510` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1514` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:1525` — font-size 96.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1528` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1535` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1555` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1568` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1577` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1581` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1603` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1627` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1628` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1637` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1644` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1646` — font-size 9.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1657` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1675` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1678` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1693` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1694` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1700` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1702` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1704` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1743` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1744` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1745` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1745` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1745` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1746` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1771` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1773` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1773` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1773` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1774` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1803` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1806` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1806` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1806` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1806` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 - `apps/web/app/page.tsx:1815` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1820` — font-size 24.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1827` — font-size 10.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1832` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1833` — font-size 14.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- `apps/web/app/page.tsx:1833` — font-size 18.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
-- … ещё 687
+- `apps/web/app/page.tsx:1868` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:1873` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:1921` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:2475` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:2486` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:2748` — font-size 120.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:2770` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:2775` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:2874` — font-size 80.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:2985` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3029` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3176` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3201` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3246` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3248` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3293` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3381` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3451` — font-size 42.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:3461` — font-size 56.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:4195` — font-size 40.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:6363` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:6771` — font-size 4.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:7547` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:7607` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:7706` — font-size 40.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:7710` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:8211` — font-size 40.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:8396` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:8532` — font-size 44.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:8981` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9177` — font-size 64.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9462` — font-size 6.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9464` — font-size 6.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9468` — font-size 5.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9473` — font-size 6.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9494` — font-size 5.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9495` — font-size 5.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9665` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
+- `apps/web/app/page.tsx:9763` — font-size 48.0px вне шкалы ролей [11.0, 12.0, 13.0, 15.0, 16.0, 17.0, 20.0, 22.0, 28.0, 34.0]
 
 ## AE8 · 1
 - `apps/web/app/r/[code]/page.tsx:36` — движение 1000ms на дефолтной кривой — от 200ms положена измеренная (383ms · cubic-bezier(.32,.72,0,1))
