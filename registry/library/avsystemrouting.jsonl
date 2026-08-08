@@ -13,3 +13,4 @@
 {"id": "/documentation/avsystemrouting/avsystemroute-5s2um/routesymbolname", "law": "Use this value with to create an icon for display in your app’s user interface."}
 {"id": "/documentation/avsystemrouting/avsystemroute-9kkj3", "law": "Use this object to control playback sessions, communicate with remote applications through data channels, and manage the lifecycle of remote connections."}
 {"id": "/documentation/avsystemrouting/avsystemroutemediasession-4mo0j", "law": "Use this object to access playback controls and a data channel for communicating with the remote application."}
+{"id": "/documentation/AVSystemRouting/AVSystemRoute-5s2um", "law": "Use this object to control playback sessions, communicate with remote applications through data channels, and manage the lifecycle of remote connections."}

@@ -74,3 +74,7 @@
 {"id": "/documentation/passkit/pkpaymentbutton/buttonwithtype:style:", "law": "You can extend the button’s width to fit your layout, but do not reduce the width or change the button’s height."}
 {"id": "/documentation/passkit/pkpaymentbuttontype", "law": "The button type you use for payments made with Apple Pay can affect the purchasing experience."}
 {"id": "/documentation/passkit/pkpaymentrequest/shippingcontacteditingmode", "law": "Switching from a noneditable to an editable shipping contact field requires the user to restart the payment process."}
+{"id": "/documentation/PassKit/PKShareablePassMetadata", "law": "Information that you use to configure the sharing sheet for a pass."}
+{"id": "/documentation/PassKit/PKPaymentButtonStyle/whiteOutline", "law": "Use the white button with black outline on white or very light backgrounds that don’t provide sufficient contrast for a plain white button."}
+{"id": "/documentation/PassKit/PKPaymentButtonStyle/whiteOutline", "law": "Don’t place this button on dark or saturated color backgrounds."}
+{"id": "/documentation/PassKit/PKPaymentButtonStyle/whiteOutline", "law": "Use the white button instead."}

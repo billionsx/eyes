@@ -80,3 +80,14 @@
 {"id": "/documentation/safariservices/building-a-safari-app-extension", "law": "Before Safari can find your new extension, you must run the containing app at least once: Make sure that your macOS app is selected in the Scheme menu in Xcode’s main toolbar."}
 {"id": "/documentation/safariservices/converting-a-legacy-safari-extension-to-a-safari-app-extension", "law": "The lists below describe these changes: Modifications are required in these areas: Context menu item validation."}
 {"id": "/documentation/safariservices/adjusting-website-access-permissions", "law": "The user clicks the toolbar button and selects an option to grant permission: for 24 hours on this website, always for this website, or always for all websites."}
+{"id": "/documentation/safariservices/using-contextual-menu-and-toolbar-item-keys", "law": "The key’s value must be an array, and must contain one dictionary with two subkeys for each menu item."}
+{"id": "/documentation/safariservices/using-contextual-menu-and-toolbar-item-keys", "law": "There are four required keys for the toolbar item dictionary."}
+{"id": "/documentation/safariservices/using-contextual-menu-and-toolbar-item-keys", "law": "Here’s an example dictionary in XML: Use the key to provide an image for the toolbar button."}
+{"id": "/documentation/safariservices/using-contextual-menu-and-toolbar-item-keys", "law": "You don’t need to draw the button itself."}
+{"id": "/documentation/safariservices/adjusting-settings-for-a-toolbar-item", "law": "Use if your toolbar item is usable only some of the time."}
+{"id": "/documentation/safariservices/adjusting-settings-for-a-toolbar-item", "law": "When an event occurs that may require your toolbar’s state to change, Safari calls your app extension’s event handler."}
+{"id": "/documentation/safariservices/adjusting-settings-for-a-toolbar-item", "law": "If you have a reference to an object, you can use it to get a proxy object for the toolbar item, and then use that object to set the toolbar’s status directly."}
+{"id": "/documentation/safariservices/adjusting-settings-for-a-toolbar-item", "law": "Use Auto Layout so that your content adapts to different sizes."}
+{"id": "/documentation/safariservices/adjusting-settings-for-contextual-menu-items", "law": "Use the method to validate a contextual menu item."}
+{"id": "/documentation/safariservices/adjusting-settings-for-contextual-menu-items", "law": "The parameter is a code block where you specify whether to hide the menu item, and what text to use for it."}
+{"id": "/documentation/safariservices/adjusting-settings-for-contextual-menu-items", "law": "To change the menu text, use the following code: To use the default text, use the following code: To hide the menu item, use the following code:"}

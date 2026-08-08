@@ -24,3 +24,4 @@
 {"id": "/documentation/quicklookthumbnailing/qlthumbnailreply/init(contextsize:currentcontextdrawing:)", "law": "If you’re using CoreGraphics to draw the thumbnail, use ."}
 {"id": "/documentation/quicklookthumbnailing/qlthumbnailreply/init(contextsize:drawing:)", "law": "Use this initializer if you’re drawing the thumbnail using ."}
 {"id": "/documentation/quicklookthumbnailing/qlthumbnailreply/init(contextsize:drawing:)", "law": "If you’re using or to draw the thumbnail, use the initializer ."}
+{"id": "/documentation/quicklookthumbnailing/qlthumbnailgenerator/request/representationtypes-swift.struct", "law": "Thumbnails come in one of three different types: To request all thumbnail representations, use ."}

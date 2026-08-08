@@ -194,3 +194,6 @@
 {"id": "/documentation/mapkitjs/mapkit/language", "sha": "30f5c1530e5ee55737150fa3f09e4f2288992d8bdf34ab89b6f1665af11d165c", "sieve": 2, "t": "language", "n": 400, "laws": 0, "ts": "2026-08-07 18:19 UTC"}
 {"id": "/documentation/photos", "sha": "621087be40bfabcb1cd1265861eff905542669ffeebf768d2c4940c5b891d930", "sieve": 2, "t": "Photos", "n": 1496, "laws": 0, "ts": "2026-08-07 18:26 UTC"}
 {"id": "/documentation/photos/phassetcollectionchangerequest/addassets(_:)", "sha": "9051835e1ada0b6ef69588605d0a46e03155b85fe23f6ed763a3cd15cd2bf05b", "sieve": 2, "t": "addAssets(_:)", "n": 580, "laws": 0, "ts": "2026-08-07 18:28 UTC"}
+{"id": "/documentation/applepayontheweb/applepaybuttonlocale/hr", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "hr", "n": 0, "laws": 0, "ts": "2026-08-08 04:01 UTC"}
+{"id": "/documentation/charts/chart/init(_:id:content:)", "sha": "08abcfa1b0b771bb9488ace1bccba32de734bfd28ba983a5b8c9c514aab2caf8", "sieve": 2, "t": "init(_:id:content:)", "n": 218, "laws": 0, "ts": "2026-08-08 04:15 UTC"}
+{"id": "/documentation/passkit/pkpaylaterview/amount-1jzg2", "sha": "32387f5b5d3a5e2b97c655bd45cb1ec5228496803eb292b0b6fa27aaa7e36f74", "sieve": 2, "t": "amount", "n": 93, "laws": 0, "ts": "2026-08-08 04:19 UTC"}

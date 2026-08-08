@@ -171,3 +171,8 @@
 {"id": "/documentation/swift/int16/magnitude-swift.property", "sha": "d9063ad367e4cc9daae0f945f605f450a6dfec4689655626b861bfcdf0e31d25", "sieve": 2, "t": "magnitude", "n": 541, "laws": 0, "ts": "2026-08-07 18:10 UTC"}
 {"id": "/documentation/Swift/CollectionOfOne", "sha": "37f0959f84ef08a04b822dc7dff71e7a0b2a50bd2e2669a83171b544e09597db", "sieve": 2, "t": "CollectionOfOne", "n": 657, "laws": 0, "ts": "2026-08-07 18:16 UTC"}
 {"id": "/documentation/symbols/symboleffect/configuration", "sha": "406803c5d214b6294fdd317bb2d8695964b6962791c2d859d3139250c56068f1", "sieve": 2, "t": "configuration", "n": 36, "laws": 0, "ts": "2026-08-07 18:21 UTC"}
+{"id": "/documentation/CoreFoundation/CFDate", "sha": "388c67d39c4782ec4ed0d95438e0e7cf5b1ceba9a660d7f4f5be13648d9529be", "sieve": 2, "t": "CFDate", "n": 1068, "laws": 0, "ts": "2026-08-08 04:03 UTC"}
+{"id": "/documentation/corefoundation/cfbundle", "sha": "fbb43852e59815cec276fe1378610b130193f6c0d4124d3697e8028cbc274405", "sieve": 2, "t": "CFBundle", "n": 6428, "laws": 1, "ts": "2026-08-08 04:04 UTC"}
+{"id": "/documentation/corefoundation/cfarrayapplyfunction(_:_:_:_:)", "sha": "eac612f9e4ef44f1ac8af2f99ca809b6106bf87379a1d6794b11958fa77384be", "sieve": 2, "t": "CFArrayApplyFunction(_:_:_:_:)", "n": 202, "laws": 0, "ts": "2026-08-08 04:08 UTC"}
+{"id": "/documentation/charts/annotationoverflowresolution", "sha": "6367e49f49d8cdcaef4df6f1e7839fc2c03041901f3b9fbb844d37c492a0f2d9", "sieve": 2, "t": "AnnotationOverflowResolution", "n": 149, "laws": 0, "ts": "2026-08-08 04:12 UTC"}
+{"id": "/documentation/sharedwithyoucore/swperson/identityproof", "sha": "ae0ea195ef18104da01abf540720e16d96b20e4ca96bfe51949b35d51a8b6067", "sieve": 2, "t": "SWPerson.IdentityProof", "n": 332, "laws": 0, "ts": "2026-08-08 04:18 UTC"}

@@ -195,3 +195,4 @@
 {"id": "/documentation/Swift/SIMD2", "sha": "d9cf057f3ded2e4e2839485041c509306a7f19002d9d71882127ba0a258171bd", "sieve": 2, "t": "SIMD2", "n": 2520, "laws": 0, "ts": "2026-08-07 18:15 UTC"}
 {"id": "/documentation/photos/phasset/persistentlyidentifiable-implementations", "sha": "da78bb3eefd7e96b487530e38a80b9257d46b7352b0dae59d76ab537dc135810", "sieve": 2, "t": "PersistentlyIdentifiable Implementations", "n": 40, "laws": 0, "ts": "2026-08-07 18:23 UTC"}
 {"id": "/documentation/photos/phlivephoto/size", "sha": "b3505e34983130daedfb6ad8d533320390bd8a4bc8d0f3197c3256a47877906c", "sieve": 2, "t": "size", "n": 39, "laws": 0, "ts": "2026-08-07 18:30 UTC"}
+{"id": "/documentation/applepayontheweb/applepaybuttonlocale/tr", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "tr", "n": 0, "laws": 0, "ts": "2026-08-08 04:02 UTC"}

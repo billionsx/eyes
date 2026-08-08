@@ -193,3 +193,5 @@
 {"id": "/documentation/vision/vncoremlrequest", "law": "The results array of a Core ML-based image analysis request contains a different observation type, depending on the kind of object you use: If the model predicts a single feature, the model’s object has a non- value for and Vision treats the model as a classifier."}
 {"id": "/documentation/vision/vncoremlrequest", "law": "If the model’s outputs include at least one output with a feature type of , Vision treats that model as an image-to-image model."}
 {"id": "/documentation/Vision/TrackObjectRequest", "law": "Use this type of request to track the bounding boxes around objects previously identified in an image."}
+{"id": "/documentation/vision/training-a-create-ml-model-to-classify-flowers", "law": "For example, a parameter such as “Color 299 x 299” indicates the size of the training image."}
+{"id": "/documentation/Vision/VNBarcodeSymbology", "law": "Use to get the specific symbologies the request supports."}

@@ -166,3 +166,7 @@
 {"id": "/documentation/Swift/BinaryFloatingPoint/RawSignificand", "sha": "c3c59c2dca57c734bab70fe88b6c08948f1fa5cefe69a542e666850e749a67c0", "sieve": 2, "t": "RawSignificand", "n": 58, "laws": 0, "ts": "2026-08-07 18:16 UTC"}
 {"id": "/documentation/Swift/AsyncSequence/Failure", "sha": "94d70437bd401ee5ca3b9fd9487c1355df682369c2cb626d068737296dc7ccda", "sieve": 2, "t": "Failure", "n": 67, "laws": 0, "ts": "2026-08-07 18:17 UTC"}
 {"id": "/documentation/mapkitjs/padding", "sha": "c3e2cee3afd28f63560cd98d296bc13ca82beb4918751ba75a8558f939795185", "sieve": 2, "t": "Padding", "n": 940, "laws": 2, "ts": "2026-08-07 18:20 UTC"}
+{"id": "/documentation/corefoundation/cfboolean", "sha": "242af96a959511f3f2c411827109bca36f171fa30364c1ca1169cefff1f5b12c", "sieve": 2, "t": "CFBoolean", "n": 236, "laws": 0, "ts": "2026-08-08 04:04 UTC"}
+{"id": "/documentation/corefoundation/cgrect/zero", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "zero", "n": 0, "laws": 0, "ts": "2026-08-08 04:07 UTC"}
+{"id": "/documentation/distributed/remotecalltarget/description", "sha": "4944979408efb4a4a437bc684da04b55634b128dc798744454c34aaef028fa70", "sieve": 2, "t": "description", "n": 112, "laws": 0, "ts": "2026-08-08 04:11 UTC"}
+{"id": "/documentation/bundleresources/entitlements/com.apple.developer.coreml.neural-engine-access", "sha": "a6ac1c4048de013d6b0937f73500fd375f78058ff9e1ab6536d72da50ba494df", "sieve": 2, "t": "Apple Neural Engine access", "n": 97, "laws": 0, "ts": "2026-08-08 04:21 UTC"}

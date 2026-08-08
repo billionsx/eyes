@@ -18,3 +18,7 @@
 {"id": "/documentation/ScreenCaptureKit/SCContentSharingPicker", "law": "Use the picker provided by the static property."}
 {"id": "/documentation/screencapturekit/sccontentsharingpicker", "law": "Avoid creating your own sharing picker."}
 {"id": "/documentation/screencapturekit/sccontentsharingpicker", "law": "Use the picker provided by the static property."}
+{"id": "/documentation/screencapturekit/sccontentsharingpicker/defaultconfiguration-94q2b", "law": "The default configuration to use for the content capture picker."}
+{"id": "/documentation/screencapturekit/sccontentsharingpicker/defaultconfiguration-9v5sa", "law": "The default configuration to use for the content capture picker."}
+{"id": "/documentation/screencapturekit/sccontentsharingpicker/maximumstreamcount-2kuaa", "law": "The maximum number of streams the content capture picker allows."}
+{"id": "/documentation/screencapturekit/sccontentsharingpicker/maximumstreamcount-66khx", "law": "The maximum number of streams the content capture picker allows."}

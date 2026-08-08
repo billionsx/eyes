@@ -188,3 +188,5 @@
 {"id": "/documentation/mapkitjs/coordinatespan", "sha": "1cea2d9188824c747035ca5e56f089355b736d7144b16b2125efb6e13a1ec8c4", "sieve": 2, "t": "CoordinateSpan", "n": 563, "laws": 0, "ts": "2026-08-07 18:18 UTC"}
 {"id": "/documentation/mapkitjs/lookaroundpreview", "sha": "719eaf931dc52ad6204cc502a0323c0aa833eaba3f74a697c539a4ae7552cdc2", "sieve": 2, "t": "LookAroundPreview", "n": 2059, "laws": 0, "ts": "2026-08-07 18:18 UTC"}
 {"id": "/documentation/gamecontroller/gcdualsenseadaptivetrigger/mode-swift.property", "sha": "111bdbe47190e50d4e0be3381295222a09364be83df3e42afb4cd6cb77c5db48", "sieve": 2, "t": "mode", "n": 237, "laws": 0, "ts": "2026-08-07 18:23 UTC"}
+{"id": "/documentation/CoreFoundation/kCFNotFound", "sha": "0395aa20aea3bf5d0bd4169160db0a996f9525c865c7c28667f0e97393498e77", "sieve": 2, "t": "kCFNotFound", "n": 95, "laws": 0, "ts": "2026-08-08 04:03 UTC"}
+{"id": "/documentation/gamecontroller/gcinputleftthumbstick-5tkci", "sha": "7dfe34255dcd6edf954349b53f4d8252080ff9bb04be61b019d24dea4a5e1eba", "sieve": 2, "t": "GCInputLeftThumbstick", "n": 40, "laws": 0, "ts": "2026-08-08 04:09 UTC"}

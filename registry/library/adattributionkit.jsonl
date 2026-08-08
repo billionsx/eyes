@@ -3,3 +3,5 @@
 {"id": "/documentation/AdAttributionKit", "law": "The following diagram shows the path of ad impressions that qualify for, but don’t win, the ad attribution."}
 {"id": "/documentation/AdAttributionKit", "law": "Apps don’t need to use before calling ad attribution APIs, and can call these APIs regardless of their tracking authorization status."}
 {"id": "/documentation/adattributionkit", "law": "Apps don’t need to use before calling ad attribution APIs, and can call these APIs regardless of their tracking authorization status."}
+{"id": "/documentation/adattributionkit/configuring-attribution-rules-for-your-app", "law": "The structure of the AdAttributionKit additions to the information property list include stanzas that you can use to control the duration of impressions that the system considers eligible for attribution for your app."}
+{"id": "/documentation/adattributionkit/configuring-attribution-rules-for-your-app", "law": "You can also control the cooldown period — the minimum amount of time that needs to pass between conversions before the system accepts new conversions."}

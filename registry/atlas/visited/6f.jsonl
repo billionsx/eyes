@@ -179,3 +179,5 @@
 {"id": "/documentation/mapkitjs/mapkiteventtarget", "sha": "51c5db9c27d3a319e991858782fec7ea7f48b8c633fbbe7928a5cffaca4159fd", "sieve": 2, "t": "MapKitEventTarget", "n": 406, "laws": 0, "ts": "2026-08-07 18:20 UTC"}
 {"id": "/documentation/photos/phasset/adjustmentsstate-swift.enum", "sha": "55696787b2c448951bc5a34d5f9321711a9657dc0f02372e947ac6940c616b86", "sieve": 2, "t": "PHAsset.AdjustmentsState", "n": 168, "laws": 0, "ts": "2026-08-07 18:23 UTC"}
 {"id": "/documentation/photos/phasset/adjustmenttimestamp", "sha": "b38c6305f0a0b391736eb8843fce80a2457bd45437e49226dae33aad9e60411c", "sieve": 2, "t": "adjustmentTimestamp", "n": 243, "laws": 0, "ts": "2026-08-07 18:26 UTC"}
+{"id": "/documentation/Charts/SurfacePlot", "sha": "054a20e21ecae56bc1c230bc3a06e5d61bec93b2d9a7df3f034bab0d7e10a38a", "sieve": 2, "t": "SurfacePlot", "n": 981, "laws": 1, "ts": "2026-08-08 04:12 UTC"}
+{"id": "/documentation/charts/chartcontent/accessibilitylabel(_:)-9tbjv", "sha": "1583f93ed724d9130083c5e64d67b32f4ad36099acaa6f87838598dcfcc00bc5", "sieve": 2, "t": "accessibilityLabel(_:)", "n": 62, "laws": 0, "ts": "2026-08-08 04:15 UTC"}

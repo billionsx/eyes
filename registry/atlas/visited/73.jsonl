@@ -165,3 +165,7 @@
 {"id": "/documentation/symbols/nssymboldisappeareffect", "sha": "b7248d4283cca5538fc088e4a18706f7394611848b004351fcffc7f5e24e1c97", "sieve": 2, "t": "NSSymbolDisappearEffect", "n": 439, "laws": 0, "ts": "2026-08-07 18:21 UTC"}
 {"id": "/documentation/symbols/nssymboleffectoptions/options", "sha": "5a957d4a8f1f602437924159e55cb39541b93e1fc9d5f903ffdc78ccb2f9a339", "sieve": 2, "t": "options", "n": 84, "laws": 0, "ts": "2026-08-07 18:22 UTC"}
 {"id": "/documentation/photos/phasset/fetchassets(withalasseturls:options:)", "sha": "2237696614133b3c7f687c51d94fe6eb7d4580da27c9e8b4e788c8263902fa2d", "sieve": 2, "t": "fetchAssets(withALAssetURLs:options:)", "n": 445, "laws": 0, "ts": "2026-08-07 18:26 UTC"}
+{"id": "/documentation/vision/detectfacecapturequalityrequest/revision-swift.property", "sha": "456172338899c68bf3857e2ac957684b2d1162e0b4acf03d41731552852bd0dc", "sieve": 2, "t": "revision", "n": 49, "laws": 0, "ts": "2026-08-08 03:56 UTC"}
+{"id": "/documentation/Vision/BarcodeSymbology", "sha": "4eba61810c7059e0805110e4cfe5f7098cf9dd5bbbdbea9c17596e25c9e66235", "sieve": 2, "t": "BarcodeSymbology", "n": 751, "laws": 0, "ts": "2026-08-08 03:57 UTC"}
+{"id": "/documentation/CoreFoundation/CFBoolean", "sha": "242af96a959511f3f2c411827109bca36f171fa30364c1ca1169cefff1f5b12c", "sieve": 2, "t": "CFBoolean", "n": 236, "laws": 0, "ts": "2026-08-08 04:02 UTC"}
+{"id": "/documentation/CoreFoundation/CFRange", "sha": "1c3e3bc1b18d8031598421b8c5d57bbd63f5bc89aeb24367267ed8fb022a81c5", "sieve": 2, "t": "CFRange", "n": 217, "laws": 0, "ts": "2026-08-08 04:03 UTC"}

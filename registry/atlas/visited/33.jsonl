@@ -166,3 +166,5 @@
 {"id": "/documentation/mapkitjs/maprectdata", "sha": "1e8816e5e67ddbe200d60908e9bf7321875048dff459dab9b851b381581f0830", "sieve": 2, "t": "MapRectData", "n": 147, "laws": 0, "ts": "2026-08-07 18:20 UTC"}
 {"id": "/documentation/symbols/replacesymboleffect/magicreplace", "sha": "2c27a52929ba39973cdc13390b6d2801ac8862c0e6ad243d451413bd74008c51", "sieve": 2, "t": "ReplaceSymbolEffect.MagicReplace", "n": 189, "laws": 0, "ts": "2026-08-07 18:21 UTC"}
 {"id": "/documentation/photos/phfetchoptions/wantsincrementalchangedetails", "sha": "c86128cdc097c3f6c5d3a2dd6d80a66b262736fecf0cdd9d49e18def8aa02692", "sieve": 2, "t": "wantsIncrementalChangeDetails", "n": 810, "laws": 0, "ts": "2026-08-07 18:28 UTC"}
+{"id": "/documentation/CoreLocation/CLRegion", "sha": "39a4a8470733362697ab3dc6e80a647cbb2acdadfd3a5b54eda0834914e6c449", "sieve": 2, "t": "CLRegion", "n": 599, "laws": 0, "ts": "2026-08-08 04:00 UTC"}
+{"id": "/documentation/sharedwithyoucore/swupdatecollaborationparticipantsaction", "sha": "38ee5c48d64a93c64fd4d17b91118120fbbf595d55ac7743eea92f83bbdb497e", "sieve": 2, "t": "SWUpdateCollaborationParticipantsAction", "n": 402, "laws": 0, "ts": "2026-08-08 04:18 UTC"}

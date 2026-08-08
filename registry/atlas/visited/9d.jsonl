@@ -160,3 +160,4 @@
 {"id": "/documentation/Dispatch/dispatch-queue", "sha": "1cdcde572bdefbdcdaed899fe2659869517115bacb153939c7a1a6b2a6db8a0f", "sieve": 2, "t": "Dispatch Queue", "n": 2697, "laws": 1, "ts": "2026-08-07 18:24 UTC"}
 {"id": "/documentation/photos/phfetchresult/enumerateobjects(at:options:using:)", "sha": "418402439df92e8b9d0362b087d4f51d26f6d4a9e10b985ebec0b626615cec7f", "sieve": 2, "t": "enumerateObjects(at:options:using:)", "n": 343, "laws": 0, "ts": "2026-08-07 18:28 UTC"}
 {"id": "/documentation/shadergraph", "sha": "d6191f7f91ebb1b820be5127777fba58f79cf5e63cd250299b0dad07febc560c", "sieve": 2, "t": "ShaderGraph", "n": 1518, "laws": 1, "ts": "2026-08-07 18:30 UTC"}
+{"id": "/documentation/corefoundation/cfarraygetvalues(_:_:_:)", "sha": "d01e8bf0c30cf69df8a54d75d6064e69af0db309eba6307c06bde74ea8952da2", "sieve": 2, "t": "CFArrayGetValues(_:_:_:)", "n": 41, "laws": 0, "ts": "2026-08-08 04:08 UTC"}

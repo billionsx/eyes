@@ -79,3 +79,13 @@
 {"id": "/documentation/coreimage/ciimageprocessoroutput", "law": "You must provide rendered output to one (and only one) of the properties listed in ."}
 {"id": "/documentation/coreimage/cikernel", "law": "If your custom filter uses both color and geometry information, but does not require processing both at the same time, you can improve performance by separating your image processing code: use a object for the color processing step and a object for the geometry processing step."}
 {"id": "/documentation/coreimage/cikernel", "law": "It may use zero or more input images."}
+{"id": "/documentation/coreimage/generating-an-animation-with-a-core-image-render-destination", "law": "generates the gradient shading image between the current maximum RGB white, , and a fully transparent clear color, ."}
+{"id": "/documentation/coreimage/applying-a-chroma-key-effect", "law": "Use the chroma key effect, also known as bluescreening or greenscreening, to replace the background of an image by setting a color or range of colors to transparent."}
+{"id": "/documentation/coreimage/applying-a-chroma-key-effect", "law": "Use a for-loop to iterate through each color combination of red, green, and blue, simulating a color gradient."}
+{"id": "/documentation/coreimage/applying-a-chroma-key-effect", "law": "Input for green hues to indicate complete removal; use for other hues to leave those colors intact."}
+{"id": "/documentation/coreimage/applying-a-chroma-key-effect", "law": "The filter requires premultiplied alpha values, meaning that the values in the lookup table have their transparency baked into their stored entries rather than applied when accessed."}
+{"id": "/documentation/coreimage/customizing-image-transitions", "law": "Filters in the transition category require your program to load both source and target images in order to transform the source into the destination."}
+{"id": "/documentation/coreimage/customizing-image-transitions", "law": "Now, you must move time forward when you want to perform the transition."}
+{"id": "/documentation/coreimage/selectively-focusing-on-an-image", "law": "The lower gradient should complement the upper gradient, so that their combined coverage delineates the entire area to blur."}
+{"id": "/documentation/CoreImage/CIColor", "law": "Standard dynamic range (SDR) color color component values range from to , with representing an 0% of that component and representing 100%."}
+{"id": "/documentation/CoreImage/CIColorControls", "law": "The properties you use to configure a color controls filter."}

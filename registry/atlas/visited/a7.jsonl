@@ -185,3 +185,5 @@
 {"id": "/documentation/gamecontroller/gcphysicalinputelementname-swift.struct", "sha": "12e44c4c43398e21a7e2a98cc013426080b9726fc6542cc973acd4d917722cb9", "sieve": 2, "t": "GCPhysicalInputElementName", "n": 76, "laws": 0, "ts": "2026-08-07 18:22 UTC"}
 {"id": "/documentation/ScreenCaptureKit/SCRecordingEditor/Mode", "sha": "75549ed91f18b9155665608e97ce9c1998642c5b4d9a4a32afc508c9992a6347", "sieve": 2, "t": "SCRecordingEditor.Mode", "n": 115, "laws": 0, "ts": "2026-08-07 18:25 UTC"}
 {"id": "/documentation/photos/phfetchoptions/includeallburstassets", "sha": "a76ff1d53cb2c19e1760f502d35995cd2ed94a93ce1a9379d2b18cff7ed86034", "sieve": 2, "t": "includeAllBurstAssets", "n": 654, "laws": 0, "ts": "2026-08-07 18:28 UTC"}
+{"id": "/documentation/mididriverkit/iousermidiobject/copyproperty-27g8l", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "CopyProperty", "n": 0, "laws": 0, "ts": "2026-08-08 03:57 UTC"}
+{"id": "/documentation/CoreFoundation/CFFileSecurity", "sha": "0255f52393cf4131543086873155c6b78fb5614524faf5dfe09e0c709aed0ded", "sieve": 2, "t": "CFFileSecurity", "n": 85, "laws": 0, "ts": "2026-08-08 04:03 UTC"}

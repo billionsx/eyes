@@ -2466,3 +2466,36 @@
 - https://brajs.com/katha: элементов 33 · находок 0
 - https://brajs.com/library: элементов 38 · находок 0
 
+### 2026-08-08 04:24 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 687 · законов добыто 121 · изменилось 17
+- фронтир 9152 · всего пройдено 50200 · библиотека 34190 законов / 343 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32434)
+- очередь просеяна приёмом: было 11164, осталось 9965 (отложено 1199)
+- закон изменился: /documentation/vision/recognize-tables-within-a-document · «Recognizing tables within a document»
+- закон изменился: /documentation/Vision/VNDetectFaceRectanglesRequest · «VNDetectFaceRectanglesRequest»
+- закон изменился: /documentation/Vision/VNClassifyImageRequest · «VNClassifyImageRequest»
+- закон изменился: /documentation/DockKit/DockAccessory/FramingMode-swift.enum · «DockAccessory.FramingMode»
+- закон изменился: /documentation/DockKit/DockAccessory/Animation · «DockAccessory.Animation»
+- закон изменился: /documentation/CoreLocation/kCLLocationAccuracyBest · «kCLLocationAccuracyBest»
+- закон изменился: /documentation/CoreImage/CIFormat/RGBAh · «RGBAh»
+- закон изменился: /documentation/CoreImage · «Core Image»
+- закон изменился: /documentation/XCUIAutomation/XCUIApplication/launchEnvironment · «launchEnvironment»
+- закон изменился: /documentation/ExposureNotification/supporting-exposure-notifications-in-ios-12-5 · «Supporting Exposure Notifications in iOS 12.5»
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 44 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 85 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

@@ -201,3 +201,4 @@
 {"id": "/documentation/swift/string/intentinputoptions/keyboardtype-swift.property", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "keyboardType", "n": 0, "laws": 0, "ts": "2026-08-07 18:12 UTC"}
 {"id": "/documentation/photos/phobject", "sha": "60415924628100f300690eb0ae2877851283e2cb98bafe7e50e458ee106aab9f", "sieve": 2, "t": "PHObject", "n": 426, "laws": 0, "ts": "2026-08-07 18:27 UTC"}
 {"id": "/documentation/screencapturekit/sccontentsharingpickerobserver", "sha": "9169f306cecaa3ce0686424dcdfc9c883949f2511407d1620640d1fa5785b38c", "sieve": 2, "t": "SCContentSharingPickerObserver", "n": 274, "laws": 0, "ts": "2026-08-07 18:30 UTC"}
+{"id": "/documentation/Charts/LinePlot", "sha": "64f605eec90bef76b479609fde438a3a6f09c324f4e89d710066b64677896fc3", "sieve": 2, "t": "LinePlot", "n": 1226, "laws": 0, "ts": "2026-08-08 04:12 UTC"}

@@ -25,3 +25,13 @@
 {"id": "/documentation/Charts/BarMark", "law": "Use to represent intervals by using the , , or ."}
 {"id": "/documentation/Charts/Plottable", "law": "You then use those items as the values in a chart, like for the chart in the following example: You can create a custom plottable type by conforming it to this protocol."}
 {"id": "/documentation/Charts/PrimitivePlottableProtocol", "law": "Don’t use this type directly."}
+{"id": "/documentation/charts/customizing-axes-in-swift-charts", "law": "This article demonstrates how to use these features to create the following chart that displays battery levels over the course of a day: For design guidance about charts and their axes, see the section in the Human Interface Guidelines."}
+{"id": "/documentation/Charts/Creating-a-chart-using-Swift-Charts", "law": "In this case, creating a bar chart is a good way to convey the number of each type of toy shape, so you use : The resulting chart clearly communicates that the cube toy shape appears the most: Scale determines the position, height, and color of each ."}
+{"id": "/documentation/Charts/Creating-a-chart-using-Swift-Charts", "law": "However, in this case, the colors that the framework assigns to each mark don’t match the shape colors that they represent."}
+{"id": "/documentation/Charts/Chart3D", "law": "To make your 3D Chart interactive, declare a property of type and pass it as a binding to the view modifier: On available platforms, you can use the modifier to switch from orthographic to perspective projection."}
+{"id": "/documentation/Charts/SurfacePlot", "law": "You can also use to color points on the based on the direction that it is facing."}
+{"id": "/documentation/charts/chart3d", "law": "To make your 3D Chart interactive, declare a property of type and pass it as a binding to the view modifier: On available platforms, you can use the modifier to switch from orthographic to perspective projection."}
+{"id": "/documentation/charts/sectormark", "law": "To ensure that the visualization is easy to read, design pie or donut charts with no more than 5-7 sectors."}
+{"id": "/documentation/charts/sectormark", "law": "Limit the size of the angular inset and corner radius to small values to avoid distorting the shape and relative size of the sectors."}
+{"id": "/documentation/charts/surfaceplot", "law": "You can also use to color points on the based on the direction that it is facing."}
+{"id": "/documentation/charts/chartcontent/symbol(symbol:)", "law": "Sets a SwiftUI view to use as the symbol for the chart content."}

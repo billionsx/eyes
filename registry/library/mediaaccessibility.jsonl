@@ -3,3 +3,8 @@
 {"id": "/documentation/mediaaccessibility/flashing-lights", "law": "People might want to avoid bright, frequent flashes of light in the media they consume."}
 {"id": "/documentation/mediaaccessibility/maflashinglightsprocessor", "law": "If your app performs custom video drawing instead of using APIs, you can use the class to detect and mitigate sequences of flashing effects in your video content."}
 {"id": "/documentation/MediaAccessibility/flashing-lights", "law": "People might want to avoid bright, frequent flashes of light in the media they consume."}
+{"id": "/documentation/mediaaccessibility/music-haptics", "law": "A person can turn on this feature in Settings > Accessibility > Music Haptics."}
+{"id": "/documentation/mediaaccessibility/music-haptics", "law": "To indicate the status of haptic playback for Music Haptics, you can use the following symbols: For more details about using these symbols, refer to the app."}
+{"id": "/documentation/mediaaccessibility/responding-to-changes-in-the-flashing-lights-setting", "law": "To change the setting, open Settings > Accessibility > Motion and turn on Dim Flashing Lights."}
+{"id": "/documentation/MediaAccessibility/music-haptics", "law": "A person can turn on this feature in Settings > Accessibility > Music Haptics."}
+{"id": "/documentation/MediaAccessibility/music-haptics", "law": "To indicate the status of haptic playback for Music Haptics, you can use the following symbols: For more details about using these symbols, refer to the app."}

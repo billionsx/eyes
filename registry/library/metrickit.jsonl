@@ -29,3 +29,4 @@
 {"id": "/documentation/metrickit/statereportingdomain", "law": "Use from the framework to obtain a ."}
 {"id": "/documentation/metrickit/track-performance-by-app-state-using-metrickit", "law": "The person can also change the active variant from the MetricKit Sample settings in the Settings app, which provides a “Use Card Layout” toggle under the “A/B Test” group."}
 {"id": "/documentation/MetricKit/MXUnitAveragePixelLuminance", "law": "Unlike LCD displays, each pixel requires power to display a color, and white draws the most power per pixel."}
+{"id": "/documentation/MetricKit/MetricReport", "law": "Use the collection’s property to retrieve the full-day aggregate, then iterate its array and switch over each : When state reporting is enabled via , the report also populates with values scoped to each recorded app state."}
