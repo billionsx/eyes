@@ -1,5 +1,5 @@
 # ЖИВОЙ ВЗГЛЯД · отчёт (советник)
-Снято: 2026-08-09 04:41 UTC · настоящий DOM+computed, не кадры.
+Снято: 2026-08-09 15:46 UTC · настоящий DOM+computed, не кадры.
 
 ## https://ethnomir.app/
 элементов снято: 20 · находок: 1
@@ -13,7 +13,7 @@
 
 ## https://ethnomir.app/steps
 элементов снято: 86 · находок: 4
-диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 1857144, "bodyChildren": 352}
+диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 1930835, "bodyChildren": 367}
 - **AE10** · 4: `p.chk` (живой шрифт первой позицией: ui-monospace); `span.chkl` (живой шрифт первой позицией: ui-monospace); `a` (живой шрифт первой позицией: ui-monospace); `span.pathref` (живой шрифт первой позицией: ui-monospace)
 
 ## https://ethnomir.app/way
@@ -27,18 +27,19 @@
 
 ## https://ethnomir.app/coverage
 элементов снято: 42 · находок: 2
-диагностика: {"url": "https://ethnomir.app/coverage", "title": "Покрытие доступов — Этномир", "theme": "dark", "ready": "complete", "htmlLen": 120536, "bodyChildren": 27}
+диагностика: {"url": "https://ethnomir.app/coverage", "title": "Покрытие доступов — Этномир", "theme": "dark", "ready": "complete", "htmlLen": 120032, "bodyChildren": 27}
 - **AE10** · 2: `td.tn` (живой шрифт первой позицией: ui-monospace); `code` (живой шрифт первой позицией: ui-monospace)
 
 ## https://brajs.com/
 элементов снято: 38 · находок: 0
-диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 18517, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19069, "bodyChildren": 2}
 
 ## https://brajs.com/katha
 элементов снято: 35 · находок: 0
-диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 22472, "bodyChildren": 2}
+диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 23024, "bodyChildren": 2}
 
 ## https://brajs.com/library
-элементов снято: 38 · находок: 0
-диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 18524, "bodyChildren": 2}
+элементов снято: 46 · находок: 1
+диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 22888, "bodyChildren": 2}
+- **AE2** · 1: `div` (чёрная выпадающая тень на чёрном холсте: rgba(0, 0, 0, 0.05))
 
