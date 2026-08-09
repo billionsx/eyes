@@ -120,3 +120,5 @@
 {"id": "/documentation/swiftdata/modeldocument", "law": "Instead, use one of the initializers on ."}
 {"id": "/documentation/SwiftData/Attribute(_:originalName:hashModifier:)", "law": "The framework’s default behavior for managing a model class’s stored properties is suitable for most use cases."}
 {"id": "/documentation/SwiftData/Attribute(_:originalName:hashModifier:)", "law": "For example, you may want to avoid conflicts in your model data by specifying that an attribute’s value is unique across all instances of that model."}
+{"id": "/documentation/SwiftData/Syncing-model-data-across-a-persons-devices", "law": "It’s important you consider these limitations as you design your app’s model layer (or adapt an existing one) to ensure it remains compatible with CloudKit."}
+{"id": "/documentation/SwiftData/Reverting-data-changes-using-the-undo-manager", "law": "When someone makes data changes in your app and the app saves those changes to the main context, they can use system gestures in iOS and iPadOS like three finger swap and device shake, or choose Edit > Undo or Edit > Redo in macOS, to undo and redo those changes, respectively."}

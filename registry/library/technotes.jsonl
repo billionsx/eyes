@@ -614,3 +614,4 @@
 {"id": "/documentation/Technotes/tn3125-inside-code-signing-provisioning-profiles", "law": "In contrast, restricted entitlements must be authorized by a provisioning profile."}
 {"id": "/documentation/Technotes/tn3178-checking-for-and-resolving-build-uuid-problems", "law": "Consider one of the critical use cases for build UUIDs, namely symbolication."}
 {"id": "/documentation/Technotes/tn3137-on-mac-keychains", "law": "If you don’t understand that design, you may find some of its behavior surprising."}
+{"id": "/documentation/Technotes/tn3181-debugging-invalid-privacy-manifest", "law": "You can create an invalid privacy manifest when you use both and keys as follows: If your app or third-party SDK doesn’t connect, or no longer connects to any tracking domains, remove both and keys from your privacy manifest."}

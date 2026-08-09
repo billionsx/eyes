@@ -4,3 +4,8 @@
 {"id": "/documentation/QuickLook", "law": "Create previews of files to use inside your app, or perform simple edits on previews."}
 {"id": "/documentation/QuickLook/QLPreviewSceneActivationConfiguration", "law": "To provide a preview from a swipe gesture, use an instance of this class with ."}
 {"id": "/documentation/QuickLook/QLPreviewSceneActivationConfiguration", "law": "To provide a preview from a menu action, use an instance of this class with ."}
+{"id": "/documentation/quicklook/previews-or-thumbnail-images-for-macos-10-14-or-earlier", "law": "If your app targets macOS 10.15 and later, use the framework to create thumbnails."}
+{"id": "/documentation/quicklook/qlpreviewsceneactivationconfiguration", "law": "To provide a preview from a swipe gesture, use an instance of this class with ."}
+{"id": "/documentation/quicklook/qlpreviewsceneactivationconfiguration", "law": "To provide a preview from a menu action, use an instance of this class with ."}
+{"id": "/documentation/quicklook/qlpreviewingcontroller", "law": "For Catalyst compatibility, avoid using gesture recognizers that take interactions over large portions of the view to avoid collisions with standard macOS preview behaviors."}
+{"id": "/documentation/quicklook/qlpreviewingcontroller", "law": "Avoid holding the file open during the duration of the preview."}

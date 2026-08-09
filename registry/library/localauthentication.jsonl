@@ -58,3 +58,10 @@
 {"id": "/documentation/localauthentication/accessing-keychain-items-with-face-id-or-touch-id", "law": "However, if you want to alter the default configuration, you can optionally create a context for it to use instead: In this example, you set the context’s parameter to a non-zero value."}
 {"id": "/documentation/localauthentication/accessing-keychain-items-with-face-id-or-touch-id", "law": "As a result, any Touch ID authentication that keychain services requires is satisfied by the most recent device unlock event, if it happened within the given number of seconds (up to five minutes)."}
 {"id": "/documentation/localauthentication/accessing-keychain-items-with-face-id-or-touch-id", "law": "Then use this query to actually create the item: Test the return status and handle error conditions in a way that makes sense for your app."}
+{"id": "/documentation/localauthentication/laaccesscontroloperation", "law": "Use one of these values to specify the operation for which you want to evaluate an access control when calling the method."}
+{"id": "/documentation/localauthentication/lacontext/evaluateaccesscontrol(_:operation:localizedreason:reply:)", "law": "You should not assume that a previous successful evaluation of an access control necessarily leads to a subsequent successful evaluation."}
+{"id": "/documentation/localauthentication/lacontext/localizedcanceltitle", "law": "Use the property to choose a title for the cancel button."}
+{"id": "/documentation/localauthentication/lacontext/localizedfallbacktitle", "law": "Use the property to set a title for the fallback button."}
+{"id": "/documentation/localauthentication/lacontext/touchidauthenticationallowablereuseduration", "law": "The maximum allowable duration for Touch ID authentication reuse is specified by the constant."}
+{"id": "/documentation/localauthentication/latouchidauthenticationmaximumallowablereuseduration", "law": "The maximum allowable reuse duration."}
+{"id": "/documentation/localauthentication/larightstore", "law": "Use an along with an to make secrets accessible only after certain conditions, including authentication, are met."}

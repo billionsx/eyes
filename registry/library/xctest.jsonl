@@ -4,3 +4,8 @@
 {"id": "/documentation/XCTest", "law": "Continue to use XCTest for user interface tests and ."}
 {"id": "/documentation/XCTest/defining-test-cases-and-test-methods", "law": "You can check (or assert ) conditions inside test methods to make sure that your code is behaving as expected."}
 {"id": "/documentation/XCTest/defining-test-cases-and-test-methods", "law": "Use the family of functions to check for Boolean conditions, or non- values, expected values, errors, or thrown exceptions."}
+{"id": "/documentation/XCTest/XCTestCase", "law": "Use the symbols below if you need more customization for test case creation, such as to define test cases dynamically at run time."}
+{"id": "/documentation/XCTest/XCUIDevice", "law": "Use the instance to perform the following interactions with a simulated iOS, watchOS, or tvOS device during a UI test: Press the volume, home, camera, and action buttons."}
+{"id": "/documentation/XCTest/XCTestCase/measure(_:)", "law": "Use if you need more control over when performance measurement starts and ends."}
+{"id": "/documentation/xctest/xctestcase", "law": "Use the symbols below if you need more customization for test case creation, such as to define test cases dynamically at run time."}
+{"id": "/documentation/XCTest/XCTestCase/measureMetrics(_:automaticallyStartMeasuring:for:)", "law": "This method provides more granular control over performance measurement than the method, and should be used when you need to customize the points at which measurement starts and ends within the block, or wish to measure multiple metrics for the block."}

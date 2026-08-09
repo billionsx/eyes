@@ -4,3 +4,6 @@
 {"id": "/documentation/AccessoryTransportExtension/receiving-ios-notifications-on-an-accessory", "law": "Forward this key material to your accessory via Bluetooth and call the completion handler: The completion handler is required."}
 {"id": "/documentation/AccessoryTransportExtension/receiving-ios-notifications-on-an-accessory", "law": "Use the to determine whether a notification requires an alert."}
 {"id": "/documentation/AccessoryTransportExtension/receiving-ios-notifications-on-an-accessory", "law": "For example, use the case for full-screen displays or priority alerts."}
+{"id": "/documentation/accessorytransportextension/receiving-ios-notifications-on-an-accessory", "law": "Forward this key material to your accessory via Bluetooth and call the completion handler: The completion handler is required."}
+{"id": "/documentation/accessorytransportextension/receiving-ios-notifications-on-an-accessory", "law": "Use the to determine whether a notification requires an alert."}
+{"id": "/documentation/accessorytransportextension/receiving-ios-notifications-on-an-accessory", "law": "For example, use the case for full-screen displays or priority alerts."}

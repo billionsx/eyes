@@ -1,2 +1,3 @@
 {"id": "/documentation/JavaScriptCore", "law": "You can use also use JavaScriptCore to insert custom objects into the JavaScript environment."}
 {"id": "/documentation/JavaScriptCore/JSContext", "law": "You create and use JavaScript contexts to evaluate JavaScript scripts from Objective-C or Swift code; to access values that JavaScript defines or calculates; and to make native objects, methods, or functions accessible to JavaScript."}
+{"id": "/documentation/javascriptcore/jscontext", "law": "You create and use JavaScript contexts to evaluate JavaScript scripts from Objective-C or Swift code; to access values that JavaScript defines or calculates; and to make native objects, methods, or functions accessible to JavaScript."}

@@ -1,1 +1,10 @@
 {"id": "/documentation/SecurityInterface/SFAuthorizationView", "law": "You must also either specify automatic updates ( or ) or perform a manual update ( ) to set the lock icon to its initial state."}
+{"id": "/documentation/securityinterface/sfauthorizationpluginview/buttonpressed(_:)", "law": "To do this, use the appropriate function pointers you receive from ."}
+{"id": "/documentation/securityinterface/sfauthorizationpluginview/callbacks()", "law": "Use the structure to get the function pointers to functions such as and ."}
+{"id": "/documentation/securityinterface/sfauthorizationpluginview/firstresponder()", "law": "When the authorization plug-in calls this method, your subclass should return the view that should get the focus for keyboard events."}
+{"id": "/documentation/securityinterface/sfauthorizationpluginview/firstresponder()", "law": "Returns the view that should get focus for keyboard events."}
+{"id": "/documentation/securityinterface/sfauthorizationpluginview/setenabled(_:)", "law": "When the authorization plug-in calls this method, the subclass should call on the controls that are in its view."}
+{"id": "/documentation/securityinterface/sfauthorizationpluginview/update()", "law": "Your subclass of should call this method when a user clicks a button in your view that should result in a new view being displayed."}
+{"id": "/documentation/securityinterface/sfauthorizationview", "law": "You must also either specify automatic updates ( or ) or perform a manual update ( ) to set the lock icon to its initial state."}
+{"id": "/documentation/securityinterface/sfcertificatepanel", "law": "To display a certificate with editable trust settings in a panel or sheet, use the class."}
+{"id": "/documentation/securityinterface/sfcertificatetrustpanel", "law": "To display a certificate in a panel or sheet without editable trust settings, use the class."}

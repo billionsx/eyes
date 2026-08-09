@@ -2585,3 +2585,35 @@
 - домены мандата: ios27
 - объём текста: 394068 → 375037 зн.
 
+### 2026-08-09 04:33 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 3275 · законов добыто 158 · изменилось 7
+- фронтир 11666 · всего пройдено 53200 · библиотека 34564 законов / 354 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32378)
+- очередь просеяна приёмом: было 11096, осталось 9891 (отложено 1205)
+- закон изменился: /documentation/classkitui · «ClassKit UI»
+- закон изменился: /documentation/PermissionKit/PermissionButton · «PermissionButton»
+- закон изменился: /documentation/ExtensionFoundation · «ExtensionFoundation»
+- закон изменился: /documentation/LocalAuthentication/LAContext · «LAContext»
+- закон изменился: /documentation/wifiaware · «Wi-Fi Aware»
+- закон изменился: /documentation/translation/translationsession/request · «TranslationSession.Request»
+- закон изменился: /documentation/wifiaware/wapublisherlistener/devices/allpaireddevices · «allPairedDevices»
+- приём: отложено 5846 ссылок пустых фреймворков (spatial×1228, healthkit×1217, matter×690) — счёт в registry/atlas/deferred.json, адреса восстановимы из корпуса
+- отбор: отсеяно не по предмету 1878 · в очереди изученных и пустых фреймворков 821 из 11666 (было 553)
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 38 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 86 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 35 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

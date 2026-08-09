@@ -3864,3 +3864,6 @@
 {"id": "/documentation/UIKit/UIAccessibilityLocationDescriptor", "law": "An accessibility descriptor for a specific geometric point of interest within a view, for use by assistive apps."}
 {"id": "/documentation/UIKit/UITabBar/leadingAccessoryView", "law": "Use this property to integrate a custom view at the leading edge of your tab bar interface."}
 {"id": "/documentation/UIKit/UITabBar/trailingAccessoryView", "law": "Use this property to integrate a custom view at the trailing edge of your tab bar interface."}
+{"id": "/documentation/UIKit/UICanvasFeedbackGenerator", "law": "The following code example shows how to use a pan gesture to drag a square, playing haptic feedback to indicate when the square aligns with a gridline on the canvas."}
+{"id": "/documentation/UIKit/UIImpactFeedbackGenerator", "law": "The following code example shows how to use a pan gesture to drag a square, playing haptic feedback to indicate when the square collides with the edge of its superview."}
+{"id": "/documentation/UIKit/UIWindowScene/ActivationConfiguration", "law": "To request scene activation from a context menu, use an instance of this class with ."}

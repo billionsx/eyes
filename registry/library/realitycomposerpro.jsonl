@@ -6,3 +6,7 @@
 {"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "To add your first node, use the methods described in ."}
 {"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "If you know what you’re looking for, use the Search box in the Node Selector to narrow the list."}
 {"id": "/documentation/RealityComposerPro/getting-started-with-script-graphs", "law": "Use the simulation to confirm your Script Graph executes as expected before deploying to a device."}
+{"id": "/documentation/realitycomposerpro/realitycomposerpro-essentials-grapheditoroverview", "law": "Reality Composer Pro’s Graph Editor is a node-based, no-code editor you can use to create a variety of assets, including materials, animations, audio effects, and scripts."}
+{"id": "/documentation/realitycomposerpro/realitycomposerpro-essentials-grapheditoroverview", "law": "With one or more nodes selected, Control-click and then use any of the following commands: Cut — Cuts the selected nodes."}
+{"id": "/documentation/realitycomposerpro/realitycomposerpro-essentials-grapheditoroverview", "law": "Use Reality Composer Pro’s node-based editor to build materials, animations, audio effects, and scripts without writing code."}
+{"id": "/documentation/realitycomposerpro/realitycomposerpro-essentials-understandingprototypes", "law": "Use Make Unique when an instance has diverged enough that tracking the prototype is no longer useful."}

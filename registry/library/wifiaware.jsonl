@@ -24,3 +24,4 @@
 {"id": "/documentation/wifiaware/waperformancemode/bulk", "law": "A mode that prioritizes throughput, power, and support for other concurrent Wi-Fi use cases and devices."}
 {"id": "/documentation/wifiaware/waperformancemode/realtime", "law": "A mode that prioritizes latency at the expense of throughput, power, and other concurrent Wi-Fi use cases and devices."}
 {"id": "/documentation/wifiaware/wapublisherlistener/devices/matching(_:)", "law": "A new containing the device filter to use."}
+{"id": "/documentation/wifiaware/building-peer-to-peer-apps", "law": "Although this particular design of connecting to the first available endpoint works for the sample app’s use case, most apps typically review the discovered endpoint and make a connection only if required."}

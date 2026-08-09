@@ -7,3 +7,6 @@
 {"id": "/documentation/DeviceManagement/WebContentFilter", "law": "If , this payload enforces a policy which requires retention of browsing history."}
 {"id": "/documentation/DeviceManagement/WebContentFilter", "law": "This causes Safari to disable clearing of browsing history, and prevents the use of private browsing mode because that mode doesn’t keep browsing history."}
 {"id": "/documentation/DeviceManagement/WebContentFilter/URLFilterParameters-data.dictionary", "law": "The minimum allowed value is 2700 seconds (45 minutes)."}
+{"id": "/documentation/DeviceManagement/configuring-platform-single-sign-on", "law": "Administrators need to ensure there are sufficient controls and auditing processes in place to handle unauthorized changes."}
+{"id": "/documentation/devicemanagement/webclip", "law": "Web clip icons are 144 x 144 pixels for iPad devices with a Retina display, and 114 x 114 pixels for iPhone devices."}
+{"id": "/documentation/devicemanagement/webclip", "law": "Also, for iOS devices it must have a display name and an icon URL for the payload to be valid."}

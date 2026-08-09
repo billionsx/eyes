@@ -1,3 +1,7 @@
 {"id": "/documentation/SpriteKit", "law": "You can use SpriteKit in a compatible iPhone or iPad app running in visionOS, but don’t use it in apps you create specifically for visionOS."}
 {"id": "/documentation/SpriteKit", "law": "Load graphics from various sources, or use an atlas to maximize rendering performance."}
 {"id": "/documentation/SpriteKit", "law": "Multipurpose mathematical objects you use to facilitate other graphical work."}
+{"id": "/documentation/spritekit/configuring-action-timing", "law": "These options are available: Use an action’s property to choose a nonlinear timing mode for an animation."}
+{"id": "/documentation/spritekit/getting-started-with-actions", "law": "The most common use for actions is to animate changes to a node’s properties."}
+{"id": "/documentation/SpriteKit/SKEmitterNode/particleColorBlendFactor", "law": "The maximum value is , which means the particle renders with a full-tint color."}
+{"id": "/documentation/spritekit/skaction/duration", "law": "The duration required to complete an action."}

@@ -4,3 +4,4 @@
 {"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "For cryptography, obfuscation, or cipher uses, use the Security framework, described in ."}
 {"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "To generate basic random values with this random source, use the methods defined in the protocol."}
 {"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "To generate random values with a specific range and distribution, use this random source with the class or one of its subclasses."}
+{"id": "/documentation/gameplaykit/gkrandomsource", "law": "On its own, a random source provides little control over the range or distribution of generated random numbers; to specify such options, use a random source in conjunction with one of the classes."}

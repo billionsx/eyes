@@ -1,0 +1,2 @@
+{"id": "/documentation/Quartz/IKUIFlavorAllowFallback", "law": "If the filter cannot provide a view for the requested size and a fallback is allowed, the filter can use controls of a different size."}
+{"id": "/documentation/Quartz/IKUImaxSize", "law": "Controls whose dimensions are the maximum allowable for the filter view.A width or height of indicates that dimension of the view is not restricted."}

@@ -3,3 +3,6 @@
 {"id": "/documentation/ShaderGraph/realitykit/Camera-Index-Switch-(RealityKit)", "law": "Use the node to render stereoscopic images."}
 {"id": "/documentation/ShaderGraph/Geometric/Refract-(RealityKit)", "law": "The vectors passed as the and parameters must both already be normalized to achieve the desired output."}
 {"id": "/documentation/shadergraph", "law": "With the control Shader Graph provides over materials, you can create effects that might otherwise require writing Metal shaders."}
+{"id": "/documentation/shadergraph/2d-procedural", "law": "For example, you might use a horizontal or vertical ramp node to create a color gradient on a surface."}
+{"id": "/documentation/shadergraph/2d-texture", "law": "Use these nodes to incorporate file-based textures into your material."}
+{"id": "/documentation/shadergraph/3d-procedural", "law": "Use the nodes to add random variations to parts of your material, such as its surface roughness."}

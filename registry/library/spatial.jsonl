@@ -1,0 +1,3 @@
+{"id": "/documentation/spatial/sprect3dapplyprojectivetransform", "law": "Because affine transforms do not preserve rectangles in general, this function returns the smallest rectangle that contains the transformed corner points of the parameter."}
+{"id": "/documentation/spatial/sprect3drotate", "law": "Because affine transforms do not preserve rectangles in general, this function returns the smallest rectangle that contains the transformed corner points of the rect parameter."}
+{"id": "/documentation/spatial/sprect3drotatebyquaternion", "law": "Because affine transforms do not preserve rectangles in general, this function returns the smallest rectangle that contains the transformed corner points of the rect parameter."}

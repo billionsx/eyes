@@ -195,3 +195,8 @@
 {"id": "/documentation/StoreKit/SubscriptionStoreControlStyle", "law": "Then, use your custom style as follows: A type that specifies the appearance and interaction of controls in the subscription store view instances within the view hierarchy."}
 {"id": "/documentation/StoreKit/SubscriptionStorePolicyKind", "law": "To set the destination of a policy button in a , use or ."}
 {"id": "/documentation/StoreKit/StoreButtonKind/signIn", "law": "A type of button that people use to sign in."}
+{"id": "/documentation/StoreKit/validating-receipts-with-the-app-store", "law": "You can’t build a trusted connection between a user’s device and the App Store directly because you don’t control either end of that connection, which makes it susceptible to a machine-in-the-middle attack."}
+{"id": "/documentation/StoreKit/validating-receipts-with-the-app-store", "law": "This approach ensures you don’t have to switch between URLs while your app is in testing, in review by App Review, or live in the App Store."}
+{"id": "/documentation/StoreKit/implementing-offer-codes-in-your-app", "law": "Including the redemption sheet in your app is recommended, but optional."}
+{"id": "/documentation/StoreKit/supporting-win-back-offers-in-your-app", "law": "You can base eligibility on the duration of the customer’s paid subscription, the time since the subscription expired, and the time that must pass between redeemed offers."}
+{"id": "/documentation/StoreKit/supporting-win-back-offers-in-your-app", "law": "The win-back offer sheet and the direct link also use the image, if it’s available."}

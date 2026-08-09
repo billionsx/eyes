@@ -3,3 +3,4 @@
 {"id": "/documentation/Matter", "law": "Once you commission an accessory, it exposes areas of functionality called clusters that you use to control it."}
 {"id": "/documentation/matter", "law": "Use to bring accessories onto a local network, then commission and control those accessories using Matter."}
 {"id": "/documentation/matter", "law": "Once you commission an accessory, it exposes areas of functionality called clusters that you use to control it."}
+{"id": "/documentation/matter/controller-initialization", "law": "You use the device controller to commission and control accessories."}

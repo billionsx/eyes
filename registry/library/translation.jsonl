@@ -30,3 +30,4 @@
 {"id": "/documentation/translation/translationsession/translations(from:)", "law": "If the required languages for translation have already downloaded and the source language is clear, this function returns results without showing any further prompts to the person."}
 {"id": "/documentation/translation/translationsession/translations(from:)", "law": "The strings must either match the you set in the configuration, or if the is , be of the same language."}
 {"id": "/documentation/Translation/LanguageAvailability/supportedLanguages", "law": "A language must download before it can be used in a translation."}
+{"id": "/documentation/Translation/TranslationSession/Configuration", "law": "The following example demonstrates how to initiate a new translation from a button press: A type containing the information to use when performing a translation."}
