@@ -1,0 +1,3 @@
+{"id": "/documentation/paperkit/markup/renderframe", "law": "This frame includes padding around to ensure it includes all the rendered aspects of the content."}
+{"id": "/documentation/paperkit/markupinteractions", "law": "Use to control which actions people can perform on markup elements."}
+{"id": "/documentation/paperkit/shapemarkup", "law": "Use to add geometric shapes, lines, and text containers to your markup content."}

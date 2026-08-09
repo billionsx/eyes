@@ -195,3 +195,6 @@
 {"id": "/documentation/relevancekit/relevantcontext", "sha": "b907d199bed675215d5326d73028b235bfe4357c7c7a887fda246a8e95062290", "sieve": 2, "t": "RelevantContext", "n": 791, "laws": 0, "ts": "2026-08-09 04:18 UTC"}
 {"id": "/documentation/storekittest/sktestsession/timerate-swift.property", "sha": "53097fd96e2d671b49f8e59eaca68d923af96f28f225406bd957346febd646f7", "sieve": 2, "t": "timeRate", "n": 766, "laws": 0, "ts": "2026-08-09 04:22 UTC"}
 {"id": "/documentation/PCIDriverKit/IOPCIDevice", "sha": "118e81fac2e1ad4d081445f5190efb55b411faeb37271957add4669fe0a4e61d", "sieve": 2, "t": "IOPCIDevice", "n": 1836, "laws": 0, "ts": "2026-08-09 04:25 UTC"}
+{"id": "/documentation/AppKit/NSTableCellView", "sha": "7099cb7755158918f58c1b143be0aece7b9859841566df9635eb1ff9eb912456", "sieve": 2, "t": "NSTableCellView", "n": 773, "laws": 0, "ts": "2026-08-09 17:47 UTC"}
+{"id": "/documentation/XCTest/XCTestExpectation", "sha": "32452d3bda233922613bf4efda5f72ff6f4b9a83b749598d8d9a95213da49274", "sieve": 2, "t": "XCTestExpectation", "n": 259, "laws": 0, "ts": "2026-08-09 17:53 UTC"}
+{"id": "/documentation/marketplacekit/installrequirements", "sha": "a47bf4e4f72681e9bcd99a5ba276cbe77ef2fb0301d896f60ee9ae1cd5f04e20", "sieve": 2, "t": "InstallRequirements", "n": 218, "laws": 0, "ts": "2026-08-09 18:09 UTC"}

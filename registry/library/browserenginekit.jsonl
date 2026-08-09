@@ -109,3 +109,5 @@
 {"id": "/documentation/browserenginekit/view-coordination", "law": "Add support for multiple input methods that a person might use with your browser app."}
 {"id": "/documentation/browserenginekit/view-coordination", "law": "For example, someone might connect or disconnect a mouse or trackpad: web pages use CSS media queries like to adapt their interface based on hover support of the primary input device."}
 {"id": "/documentation/browserenginekit/view-coordination", "law": "To support hover state changes, use the class of the framework."}
+{"id": "/documentation/BrowserEngineKit/protecting-code-compiled-just-in-time", "law": "Variables that your JIT code accesses between calls to the memory toggle functions must be in registers, or in heap memory that you access using PAC-protected pointers."}
+{"id": "/documentation/BrowserEngineKit/protecting-code-compiled-just-in-time", "law": "Don’t rely on loop indexes or other variables that are in stack memory, because an attacker might gain control of the stack to change the behavior of your JIT compiler."}

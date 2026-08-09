@@ -11,3 +11,5 @@
 {"id": "/documentation/usernotificationsui/unnotificationcontentextension/mediaplaypausebuttonframe", "law": "The frame rectangle to use for displaying a media playback button."}
 {"id": "/documentation/usernotificationsui/unnotificationcontentextension/mediaplaypausebuttontintcolor", "law": "If you implement the property, you can also implement this property and use it to specify the tint color to apply to the button."}
 {"id": "/documentation/usernotificationsui/unnotificationcontentextension/mediaplaypausebuttontintcolor", "law": "If you don’t implement this property, the system uses a default color for the tint color."}
+{"id": "/documentation/usernotificationsui/unnotificationcontentextensionmediaplaypausebuttontype/none", "law": "Specify this option when you don’t want a media button."}
+{"id": "/documentation/usernotificationsui/unnotificationcontentextensionmediaplaypausebuttontype/default", "law": "This button is always visible."}

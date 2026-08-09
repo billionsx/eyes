@@ -9,3 +9,5 @@
 {"id": "/documentation/XCTest/XCTestCase/measure(_:)", "law": "Use if you need more control over when performance measurement starts and ends."}
 {"id": "/documentation/xctest/xctestcase", "law": "Use the symbols below if you need more customization for test case creation, such as to define test cases dynamically at run time."}
 {"id": "/documentation/XCTest/XCTestCase/measureMetrics(_:automaticallyStartMeasuring:for:)", "law": "This method provides more granular control over performance measurement than the method, and should be used when you need to customize the points at which measurement starts and ends within the block, or wish to measure multiple metrics for the block."}
+{"id": "/documentation/xctest/handling-ui-interruptions", "law": "When an alert or other modal UI is an expected part of the test workflow, don’t write a UI interruption monitor."}
+{"id": "/documentation/xctest/deprecated-symbols", "law": "These symbols are deprecated and are no longer recommended."}

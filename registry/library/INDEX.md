@@ -5,12 +5,12 @@
 | Фреймворк | Законов |
 |---|---|
 | uikit | 3869 |
-| swiftui | 2816 |
+| swiftui | 2817 |
 | appkit | 2522 |
 | appintents | 1688 |
 | hig-tables | 1553 |
 | accelerate | 1327 |
-| big7 | 1060 |
+| big7 | 1098 |
 | human-interface-guidelines | 1046 |
 | xcode | 957 |
 | foundation | 850 |
@@ -49,11 +49,12 @@
 | driverkit | 129 |
 | usernotifications | 128 |
 | networkextension | 127 |
+| xcode-release-notes | 127 |
 | security | 125 |
 | swiftdata | 124 |
 | clockkit | 117 |
 | evaluations | 114 |
-| browserenginekit | 111 |
+| browserenginekit | 113 |
 | virtualization | 108 |
 | watchos-apps | 106 |
 | cloudkit | 105 |
@@ -69,12 +70,13 @@
 | audiodriverkit | 86 |
 | coreml | 86 |
 | passkit | 80 |
+| webkit | 78 |
 | backgroundassets | 77 |
-| webkit | 77 |
 | exposurenotification | 75 |
 | gamecontroller | 74 |
 | quartzcore | 74 |
 | coregraphics | 73 |
+| realitycomposerpro | 72 |
 | walletpasses | 72 |
 | coremotion | 70 |
 | localauthentication | 67 |
@@ -105,6 +107,7 @@
 | photos | 41 |
 | coreai | 40 |
 | coreaudiotypes | 40 |
+| http-live-streaming | 39 |
 | nearbyinteraction | 39 |
 | videotoolbox | 39 |
 | corebluetooth | 38 |
@@ -117,15 +120,15 @@
 | messages | 35 |
 | corenfc | 34 |
 | storekittest | 34 |
+| translation | 34 |
 | applearchive | 33 |
 | metalperformanceshadersgraph | 33 |
-| translation | 33 |
 | metrickit | 32 |
 | foveatedstreaming | 31 |
 | signinwithapple | 31 |
+| devicemanagement | 30 |
 | familycontrols | 30 |
 | photosui | 30 |
-| http-live-streaming | 29 |
 | mapkitjs | 29 |
 | tabletopkit | 29 |
 | coretransferable | 27 |
@@ -137,18 +140,19 @@
 | declaredagerange | 25 |
 | fskit | 25 |
 | metalkit | 25 |
+| pushkit | 25 |
+| spritekit | 25 |
 | corevideo | 24 |
 | pdfkit | 24 |
 | screencapturekit | 24 |
 | visionkit | 24 |
-| pushkit | 23 |
-| xcode-release-notes | 23 |
 | walletorders | 22 |
 | watchconnectivity | 22 |
 | alarmkit | 21 |
 | coreaudio | 21 |
 | musickit | 21 |
 | tvmljs | 21 |
+| macos-release-notes | 20 |
 | mediadevice | 20 |
 | servicemanagement | 19 |
 | xpc | 18 |
@@ -157,12 +161,13 @@
 | dockkit | 16 |
 | pcidriverkit | 16 |
 | sharedwithyou | 16 |
+| systemextensions | 16 |
 | testing | 16 |
 | xcuiautomation | 16 |
 | dispatch | 15 |
 | mididriverkit | 15 |
 | networkingdriverkit | 15 |
-| systemextensions | 15 |
+| usernotificationsui | 15 |
 | devicediscoveryui | 14 |
 | os | 14 |
 | sensitivecontentanalysis | 14 |
@@ -170,11 +175,12 @@
 | adsupport | 13 |
 | combine | 13 |
 | simd | 13 |
-| usernotificationsui | 13 |
-| devicemanagement | 12 |
+| xctest | 13 |
+| analytics-reports | 12 |
 | intentsui | 12 |
-| realitycomposerpro | 12 |
+| marketplacekit | 12 |
 | secureelementcredential | 12 |
+| shadergraph | 12 |
 | spatialpreview | 12 |
 | extensionfoundation | 11 |
 | linkpresentation | 11 |
@@ -182,13 +188,11 @@
 | multipeerconnectivity | 11 |
 | quicklook | 11 |
 | uniformtypeidentifiers | 11 |
-| xctest | 11 |
+| accessorynotifications | 10 |
 | accountdatatransfer | 10 |
 | appintentstesting | 10 |
 | corefoundation | 10 |
 | livephotoskitjs | 10 |
-| macos-release-notes | 10 |
-| marketplacekit | 10 |
 | mediaintents | 10 |
 | securityinterface | 10 |
 | accessorytransportextension | 9 |
@@ -196,15 +200,12 @@
 | createmlcomponents | 9 |
 | metalfx | 9 |
 | symbols | 9 |
-| accessorynotifications | 8 |
-| analytics-reports | 8 |
 | colorsync | 8 |
 | contactsui | 8 |
 | endpointsecurity | 8 |
 | eventkitui | 8 |
 | fileproviderui | 8 |
 | screensaver | 8 |
-| shadergraph | 8 |
 | visualintelligence | 8 |
 | workoutkit | 8 |
 | adattributionkit | 7 |
@@ -218,7 +219,7 @@
 | kernel | 7 |
 | nowplaying | 7 |
 | roomplan | 7 |
-| spritekit | 7 |
+| rosterapi | 7 |
 | system | 7 |
 | tvuikit | 7 |
 | wifiinfrastructure | 7 |
@@ -231,7 +232,7 @@
 | immersivemediasupport | 6 |
 | matter | 6 |
 | notificationcenter | 6 |
-| rosterapi | 6 |
+| playgroundsupport | 6 |
 | serialdriverkit | 6 |
 | synchronization | 6 |
 | advancedcommerceapi | 5 |
@@ -243,7 +244,6 @@
 | glkit | 5 |
 | musicunderstanding | 5 |
 | packagedescription | 5 |
-| playgroundsupport | 5 |
 | preferencepanes | 5 |
 | retentionmessaging | 5 |
 | appstoreservernotifications | 4 |
@@ -255,6 +255,7 @@
 | iworkdocumentexportingapi | 4 |
 | journalingsuggestions | 4 |
 | phase | 4 |
+| quartz | 4 |
 | quicktime-file-format | 4 |
 | replaykit | 4 |
 | safari-developer-tools | 4 |
@@ -279,6 +280,8 @@
 | livecommunicationkit | 3 |
 | mediaintelligence | 3 |
 | merchanttokennotificationservices | 3 |
+| messageui | 3 |
+| paperkit | 3 |
 | professional_video_applications | 3 |
 | relevancekit | 3 |
 | safetykit | 3 |
@@ -312,10 +315,8 @@
 | managedapp | 2 |
 | mattersupport | 2 |
 | mediatoolbox | 2 |
-| messageui | 2 |
 | observation | 2 |
 | paravirtualizedgraphics | 2 |
-| quartz | 2 |
 | quicklookui | 2 |
 | sensorkit | 2 |
 | signinwithapplejs | 2 |
@@ -338,6 +339,7 @@
 | identitydocumentservices | 1 |
 | identitylookup | 1 |
 | installer_js | 1 |
+| ios-ipados-release-notes | 1 |
 | iousbhost | 1 |
 | lockedcameracapture | 1 |
 | managedappdistribution | 1 |
@@ -359,4 +361,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 34564 · фреймворков: 354
+Итого законов: 34855 · фреймворков: 356

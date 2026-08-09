@@ -2631,3 +2631,31 @@
 ### 2026-08-09 15:46 UTC · монитор прода
 - сейчас 12 · новых 1 · закрыто 0 · алерт: эфир
 
+### 2026-08-09 18:13 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 2030 · законов добыто 253 · изменилось 3
+- фронтир 11085 · всего пройдено 54700 · библиотека 34855 законов / 356 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32371)
+- очередь просеяна приёмом: было 12266, осталось 10555 (отложено 1711)
+- закон изменился: /documentation/PushKit/responding-to-voip-notifications-from-pushkit · «Responding to VoIP Notifications from PushKit»
+- закон изменился: /documentation/marketplacekit/distributing-your-app-from-your-website · «Distributing your app from your website»
+- закон изменился: /documentation/PushKit/PKPushRegistryDelegate/pushRegistry(_:didReceiveIncomingPushWith:for:completion:) · «pushRegistry(_:didReceiveIncomingPushWith:for:completion:)»
+- приём: отложено 4798 ссылок пустых фреймворков (spritekit×601, webkit×403, imagecapturecore×349) — счёт в registry/atlas/deferred.json, адреса восстановимы из корпуса
+- отбор: отсеяно не по предмету 2545 · в очереди изученных и пустых фреймворков 989 из 11085 (было 849)
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 47 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 127 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 35 · находок 0
+- https://brajs.com/library: элементов 44 · находок 1
+

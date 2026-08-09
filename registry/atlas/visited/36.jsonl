@@ -218,3 +218,6 @@
 {"id": "/documentation/SpriteKit/SpriteView", "sha": "2affcba33a1e5301d2d330779dc00f516ce5d6f1e6ae5d327fc06ee20055b0c8", "sieve": 2, "t": "SpriteView", "n": 349, "laws": 0, "ts": "2026-08-09 04:15 UTC"}
 {"id": "/documentation/spritekit", "sha": "3c6c0566cccd9ba5384812ffdc318fdf4dbae84da891f0ca5c3b3a649ff71d75", "sieve": 2, "t": "SpriteKit", "n": 2622, "laws": 0, "ts": "2026-08-09 04:18 UTC"}
 {"id": "/documentation/shadergraph/2d-texture", "sha": "15d7bebcb1ce3bca74cc2fa8127160e7799ed019e695e43452f42261168ab7c7", "sieve": 2, "t": "2D-Texture", "n": 496, "laws": 1, "ts": "2026-08-09 04:23 UTC"}
+{"id": "/documentation/xctest/xctattachment/xctattachment-implementations", "sha": "e185df12f2c75242bcf0ad0628f7b851c8c3e503b81d840fa090c6a047b19d4c", "sieve": 2, "t": "XCTAttachment Implementations", "n": 136, "laws": 0, "ts": "2026-08-09 17:52 UTC"}
+{"id": "/documentation/opendirectory/odrecordgetrecordtype(_:)", "sha": "1ab98f688ca8a73400574045de9354b32db3ac8ac25f099fcc908e6d661a445a", "sieve": 2, "t": "ODRecordGetRecordType(_:)", "n": 69, "laws": 0, "ts": "2026-08-09 17:57 UTC"}
+{"id": "/documentation/applicationservices/4030015-newspeecherrorupp", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "NewSpeechErrorUPP(_:)", "n": 0, "laws": 0, "ts": "2026-08-09 18:04 UTC"}

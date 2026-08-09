@@ -31,3 +31,4 @@
 {"id": "/documentation/translation/translationsession/translations(from:)", "law": "The strings must either match the you set in the configuration, or if the is , be of the same language."}
 {"id": "/documentation/Translation/LanguageAvailability/supportedLanguages", "law": "A language must download before it can be used in a translation."}
 {"id": "/documentation/Translation/TranslationSession/Configuration", "law": "The following example demonstrates how to initiate a new translation from a button press: A type containing the information to use when performing a translation."}
+{"id": "/documentation/translation/translationsession/response/attributedtargettext", "law": "To use the correct language after translation, update any attributes that need to reflect the target language, such as the language modifier for VoiceOver."}

@@ -213,3 +213,5 @@
 {"id": "/documentation/Quartz/IKUISizeFlavor", "sha": "b751adba9c7cef9722cd3bc12508ecae3017d4a9f20d6d4e3870fb02e8f7b64c", "sieve": 2, "t": "IKUISizeFlavor", "n": 89, "laws": 0, "ts": "2026-08-09 04:26 UTC"}
 {"id": "/documentation/localauthentication/klaerrorbiometrynotenrolled", "sha": "306c3acab5eb311109a69f62b26e99319f0ca920cb37d8bcc01575f22ac31525", "sieve": 2, "t": "kLAErrorBiometryNotEnrolled", "n": 46, "laws": 0, "ts": "2026-08-09 04:29 UTC"}
 {"id": "/documentation/spatial/rect3d/*(_:_:)-8vu0", "sha": "e92373a1d8f927aa757165b635680c5ba95a23b2206c0941c8a8f79c5868b79a", "sieve": 2, "t": "*(_:_:)", "n": 91, "laws": 0, "ts": "2026-08-09 04:31 UTC"}
+{"id": "/documentation/shadergraph/2d-procedural/worley-noise-2d", "sha": "674b31de93d58f682eeaa7f063c401e10fc6d5441bcb6dd94ae881144c356635", "sieve": 2, "t": "Worley Noise 2D", "n": 779, "laws": 0, "ts": "2026-08-09 17:52 UTC"}
+{"id": "/documentation/applicationservices/1464369-hishapegetasqdrgn", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "HIShapeGetAsQDRgn(_:_:)", "n": 0, "laws": 0, "ts": "2026-08-09 18:03 UTC"}

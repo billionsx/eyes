@@ -186,3 +186,4 @@
 {"id": "/documentation/SerialDriverKit/IOUserSerial", "sha": "5a8d920292c17d2763518cf5639614f348e7486efa285d5ad43adfafd6ca79f2", "sieve": 2, "t": "IOUserSerial", "n": 1167, "laws": 0, "ts": "2026-08-09 04:25 UTC"}
 {"id": "/documentation/localauthentication/klaerrortouchidlockout", "sha": "dbde496538647e39df41eef1cb66e34433e286b1d7bfd282487fcfae32dd8813", "sieve": 2, "t": "kLAErrorTouchIDLockout", "n": 63, "laws": 0, "ts": "2026-08-09 04:29 UTC"}
 {"id": "/documentation/localauthentication/laerror-c.enum/laerrorbiometrylockout", "sha": "cb36c39de2437ece15a5d982d85818910b9b0ec2ca4ff30c5cc40df3565f70c6", "sieve": 2, "t": "LAErrorBiometryLockout", "n": 175, "laws": 0, "ts": "2026-08-09 04:29 UTC"}
+{"id": "/documentation/imagecapturecore/icscannerdocumenttype", "sha": "41b002db7ab453663562709c8a5e4be3b822b32b84c18b24ef4a7a600412607a", "sieve": 2, "t": "ICScannerDocumentType", "n": 2460, "laws": 0, "ts": "2026-08-09 18:12 UTC"}

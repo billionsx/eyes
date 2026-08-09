@@ -5,3 +5,21 @@
 {"id": "/documentation/spritekit/getting-started-with-actions", "law": "The most common use for actions is to animate changes to a node’s properties."}
 {"id": "/documentation/SpriteKit/SKEmitterNode/particleColorBlendFactor", "law": "The maximum value is , which means the particle renders with a full-tint color."}
 {"id": "/documentation/spritekit/skaction/duration", "law": "The duration required to complete an action."}
+{"id": "/documentation/spritekit/accessing-and-modifying-the-node-tree", "law": "See the objects and functions you use to control the node tree’s composition."}
+{"id": "/documentation/spritekit/animate-the-warping-of-a-sprite", "law": "You can, for example, use this approach to distort vector artwork supplied as simple geometric primitives or objects and rendered with a shape node."}
+{"id": "/documentation/spritekit/connecting-bodies-with-joints", "law": "Although you can make a lot of interesting games that use the physics systems already described, you can take your designs further by connecting physics bodies using joints."}
+{"id": "/documentation/spritekit/customizing-the-behavior-of-a-node", "law": "In some app designs, you can rely on the fact that a particular combination of classes is always going to be used together in a specific scene."}
+{"id": "/documentation/spritekit/resizing-a-sprite-in-nine-parts", "law": "The corner pieces are each 12 x 12 pixels and the center is 4 x 4 pixels."}
+{"id": "/documentation/spritekit/resizing-a-sprite-in-nine-parts", "law": "However, sometimes you want to use sprite nodes to build user interface elements, such as buttons or health indicators."}
+{"id": "/documentation/spritekit/resizing-a-sprite-in-nine-parts", "law": "The following figure shows a close-up view of a texture you might use to draw a user interface button."}
+{"id": "/documentation/spritekit/searching-the-node-tree", "law": "A node’s property should be an alphanumeric string without any punctuation."}
+{"id": "/documentation/spritekit/using-base-nodes-to-lay-out-spritekit-content", "law": "Use nonvisual nodes to define the layout of a scene."}
+{"id": "/documentation/spritekit/choosing-a-spritekit-scene-renderer", "law": "combines the full control of Metal with the ease of use of SpriteKit and its library of useful objects."}
+{"id": "/documentation/spritekit/choosing-a-spritekit-scene-renderer", "law": "For example, to take full control of just your game’s tiled background while using SpriteKit to draw the rest, use an and combination instead of , and then write the tiled background code yourself in Metal."}
+{"id": "/documentation/spritekit/responding-to-frame-cycle-events", "law": "For this reason, if you have tasks that you need to run each frame and you need precise control over when they run, you should use the and methods to perform those tasks."}
+{"id": "/documentation/spritekit/scaling-a-scene-s-content-to-fit-the-view", "law": "When you design your game, you should decide on a strategy for handling the scene’s and properties."}
+{"id": "/documentation/spritekit/loading-and-using-textures", "law": "SpriteKit defers loading and preparing the texture as long as possible and provides methods you can use to control these steps."}
+{"id": "/documentation/spritekit/maximizing-texture-performance", "law": "For example, you might use a texture atlas to store all of the textures needed to animate a character or all of the tiles needed to render the background of a gameplay level."}
+{"id": "/documentation/spritekit/configuring-whether-animations-play-during-the-transition", "law": "But perhaps the incoming scene should not animate its content until the transition completes."}
+{"id": "/documentation/spritekit/transitioning-between-two-scenes", "law": "When organizing your game, it can be helpful to create a diagram that shows all the scenes in a game, the transitions that occur between scenes, and the data that must be passed to the new scene when a transition occurs."}
+{"id": "/documentation/spritekit/action-initializers", "law": "If your animation needs fall outside of the suite provided here, then you should: Consider using the methods in Creating Custom Actions below (never subclass ) Consider the advice in"}

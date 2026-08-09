@@ -75,3 +75,4 @@
 {"id": "/documentation/webkit/wkwebview/uidelegate", "law": "The object you use to integrate custom user interface elements, such as contextual menus or panels, into web view interactions."}
 {"id": "/documentation/webkit/wkpreferences", "law": "Use a object to specify the preferences for your website, including the minimum font size, the JavaScript behavior, and the behavior for handling fraudulent websites."}
 {"id": "/documentation/webkit/webview-swift.class/changefont(_:)", "law": "If the receiver doesn’t use the Fonts panel, this method does nothing."}
+{"id": "/documentation/webkit/menu-item-tags", "law": "You can use the tags to differentiate between the different types of menu items."}

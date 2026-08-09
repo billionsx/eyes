@@ -6,3 +6,7 @@
 {"id": "/documentation/shadergraph/2d-procedural", "law": "For example, you might use a horizontal or vertical ramp node to create a color gradient on a surface."}
 {"id": "/documentation/shadergraph/2d-texture", "law": "Use these nodes to incorporate file-based textures into your material."}
 {"id": "/documentation/shadergraph/3d-procedural", "law": "Use the nodes to add random variations to parts of your material, such as its surface roughness."}
+{"id": "/documentation/shadergraph/2d-procedural/cellular-noise-2d", "law": "The shader node procedurally generates noise patterns that you can use to add texture and variation to materials."}
+{"id": "/documentation/shadergraph/2d-procedural/noise-2d", "law": "The Noise 2D shader node procedurally generates Perlin noise patterns that you can use to add texture and variation to materials."}
+{"id": "/documentation/shadergraph/3d-procedural/cellular-noise-3d", "law": "The shader node procedurally generates noise patterns that you can use to add texture and variation to materials."}
+{"id": "/documentation/shadergraph/3d-procedural/noise-3d", "law": "The Noise 3D shader node procedurally generates Perlin noise patterns you can use to add texture and variation to materials."}

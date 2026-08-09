@@ -21,3 +21,5 @@
 {"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "Assigning a value to the property begins the registration process, so always update that property last."}
 {"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "In order to deliver notifications to a user device, your server must know the address of that device."}
 {"id": "/documentation/PushKit/supporting-pushkit-notifications-in-your-app", "law": "To ensure the security of the user’s information, always encrypt the token and all user data before sending it over the network."}
+{"id": "/documentation/PushKit/PKPushType/voIP", "law": "Apps receiving VoIP push notifications must report the call quickly to CallKit, so it can alert the user to the presence of the incoming call."}
+{"id": "/documentation/pushkit/pkpushtype/voip", "law": "Apps receiving VoIP push notifications must report the call quickly to CallKit, so it can alert the user to the presence of the incoming call."}

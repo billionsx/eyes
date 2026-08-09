@@ -13,3 +13,4 @@
 {"id": "/documentation/SystemExtensions/OSBundleUsageDescriptionKey", "law": "This key is required for all DriverKit extensions and must be in the extension’s file."}
 {"id": "/documentation/SystemExtensions/OSBundleUsageDescriptionKey", "law": "For system extensions that are not DriverKit extensions, use instead."}
 {"id": "/documentation/SystemExtensions/implementing-drivers-system-extensions-and-kexts", "law": "The compiler transparently adds and removes PACs to your code at compile time, but the addition of PACs may require you to adjust how you handle pointers in your kexts."}
+{"id": "/documentation/systemextensions/implementing-drivers-system-extensions-and-kexts", "law": "The compiler transparently adds and removes PACs to your code at compile time, but the addition of PACs may require you to adjust how you handle pointers in your kexts."}

@@ -10,3 +10,21 @@
 {"id": "/documentation/DeviceManagement/configuring-platform-single-sign-on", "law": "Administrators need to ensure there are sufficient controls and auditing processes in place to handle unauthorized changes."}
 {"id": "/documentation/devicemanagement/webclip", "law": "Web clip icons are 144 x 144 pixels for iPad devices with a Retina display, and 114 x 114 pixels for iPhone devices."}
 {"id": "/documentation/devicemanagement/webclip", "law": "Also, for iOS devices it must have a display name and an icon URL for the payload to be valid."}
+{"id": "/documentation/devicemanagement/implementing-the-simple-authentication-account-driven-enrollment-flow", "law": "Note that this URL is publicly accessible in typical deployments, so don’t assume its secrecy."}
+{"id": "/documentation/devicemanagement/accessibility", "law": "If , enables “Use scroll gesture” in the Zoom options."}
+{"id": "/documentation/devicemanagement/font", "law": "Each payload must contain exactly one font file in trueType (.ttf) or OpenType (.otf) format."}
+{"id": "/documentation/devicemanagement/homescreenlayout", "law": "An array of dictionaries, each of which must conform to the icon dictionary format."}
+{"id": "/documentation/devicemanagement/homescreenlayout", "law": "An array of arrays of dictionaries, each of which must conform to the icon dictionary format."}
+{"id": "/documentation/devicemanagement/managedmenuextras", "law": "If the delay is too short, the menu extras don’t appear, or disappear from the menu bar."}
+{"id": "/documentation/devicemanagement/managedmenuextras", "law": "The maximum wait, in seconds, for all menu extras to be added or removed."}
+{"id": "/documentation/devicemanagement/passcode", "law": "If , the system requires alphabetic characters instead of only numeric characters."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS If , the system disables the App Store and removes its icon from the Home Screen."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS If , the system disables the camera and removes its icon from the Home Screen, and users are unable to take photographs."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS | visionOS If , the system removes the Trust Enterprise Developer button in Settings > General > VPN & Device Management, which prevents provisioning apps by universal provisioning profiles."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS | visionOS If , the system disables Game Center, and the system removes its icon from the Home Screen."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS If , the system disables the iTunes Music Store and removes its icon from the Home Screen."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Available: macOS 14+ If , the system disables pairing Apple TV for use with the Control Center widget."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS | visionOS If , the system disables Universal Control."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS | visionOS If , disables the ability for a remote FaceTime session to request control of the device."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: iOS | tvOS | visionOS If , then the system bypasses the presentation of a screen capture alert."}
+{"id": "/documentation/devicemanagement/restrictions", "law": "Requires supervision: macOS If , the system prevents turning off Wi-Fi in Settings or Control Center, even by entering or leaving Airplane Mode."}

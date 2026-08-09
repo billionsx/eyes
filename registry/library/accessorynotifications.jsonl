@@ -6,3 +6,5 @@
 {"id": "/documentation/AccessoryNotifications/AlertingContext/shouldAlert", "law": "Use this property to closely match the iPhone’s alerting behavior."}
 {"id": "/documentation/AccessoryNotifications/AlertingContext/shouldAlert", "law": "A Boolean value that indicates the recommended alerting behavior."}
 {"id": "/documentation/AccessoryNotifications/NotificationsForwarding/AccessoryNotificationsHandler/updateNotification(_:)", "law": "Accessories don’t need to alert the person for notification updates; update the displayed notification content without triggering additional alerts."}
+{"id": "/documentation/accessorynotifications/accessorynotification/attributes-swift.property", "law": "Use these attributes to change the visual appearance of and add information about your notification."}
+{"id": "/documentation/accessorynotifications/accessorynotification/attributes-swift.struct", "law": "Use these attributes to change the visual appearance of and add information about your notification."}
