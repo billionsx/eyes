@@ -5,3 +5,9 @@
 {"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "To generate basic random values with this random source, use the methods defined in the protocol."}
 {"id": "/documentation/GameplayKit/GKARC4RandomSource", "law": "To generate random values with a specific range and distribution, use this random source with the class or one of its subclasses."}
 {"id": "/documentation/gameplaykit/gkrandomsource", "law": "On its own, a random source provides little control over the range or distribution of generated random numbers; to specify such options, use a random source in conjunction with one of the classes."}
+{"id": "/documentation/gameplaykit/gkcircleobstacle", "law": "Agents affected by an avoid-obstacles goal will attempt to move such that their radius never overlaps that of a circular obstacle."}
+{"id": "/documentation/gameplaykit/gksphereobstacle", "law": "Agents affected by an avoid-obstacles goal will attempt to move such that their radius never overlaps that of a spherical obstacle."}
+{"id": "/documentation/gameplaykit/gkstate", "law": "In each state class, you use the method to define which other states are valid for a machine to transition into."}
+{"id": "/documentation/gameplaykit/gkstatemachine", "law": "In GameplayKit, you subclass to define each state and the rules for allowed transitions between states, and use a instance to manage a machine that combines several states."}
+{"id": "/documentation/gameplaykit/gkstatemachine", "law": "For example: An enemy character might use a state machine with Chase, Flee, Dead, and Respawn states, each of which drives the enemy’s behavior, with state transitions determined by player actions and elapsed time."}
+{"id": "/documentation/gameplaykit/gkstatemachine", "law": "A game user interface might use Menu, Playing, Paused, and GameOver states, each of which determines what UI elements are shown and what other game elements are running."}

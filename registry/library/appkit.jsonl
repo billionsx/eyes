@@ -2520,3 +2520,10 @@
 {"id": "/documentation/AppKit/NSViewController/representedObject", "law": "When you use the represented object as the file’s owner of a nib file, you can bind controls to the file’s owner using key paths that start with the string ."}
 {"id": "/documentation/AppKit/NSView/exclusiveGestureBehavior-swift.property", "law": "Declares whether gesture recognizers should be exclusive in this view and its subviews."}
 {"id": "/documentation/AppKit/NSScreen/visibleFrame", "law": "The returned rectangle is always based on the current user-interface settings and does not include the area currently occupied by the dock and menu bar."}
+{"id": "/documentation/AppKit/NSButton/contentTintColor", "law": "A tint color to use for the template image and text content."}
+{"id": "/documentation/AppKit/NSTableColumn", "law": "In a cell-based table, you can control the display of the column by specifying subclasses of to use and by setting the font and other display characteristics for these cells."}
+{"id": "/documentation/AppKit/NSToolbarItem/isNavigational", "law": "Mark a toolbar item as navigation if you use it to navigate around your content."}
+{"id": "/documentation/AppKit/NSView/intrinsicContentSize", "law": "The intrinsic size you supply must be independent of the content frame, because there’s no way to dynamically communicate a changed width to the layout system based on a changed height."}
+{"id": "/documentation/AppKit/NSView/safeAreaLayoutGuide", "law": "Use this guide to configure layout rules relative to this safe area."}
+{"id": "/documentation/AppKit/NSView/safeAreaLayoutGuide", "law": "The layout guide you use to position content inside your view’s safe area."}
+{"id": "/documentation/AppKit/NSEvent", "law": "You can also use gesture recognizers to handle some events for you and execute your app’s code at appropriate times."}

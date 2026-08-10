@@ -37,3 +37,15 @@
 {"id": "/documentation/http-live-streaming/hls-authoring-specification-for-apple-devices-appendixes", "law": "During playback you don’t want to switch the number of channels."}
 {"id": "/documentation/http-live-streaming/hls-authoring-specification-for-apple-devices-appendixes", "law": "The attribute should be set to “com.apple.accessibility.video.strobing.general-flash”."}
 {"id": "/documentation/http-live-streaming/hls-authoring-specification-for-apple-devices-appendixes", "law": "If you use the framework the metadata is fetched for you and the timeline is marked with a reddish color."}
+{"id": "/documentation/http-live-streaming/creating-a-multivariant-playlist", "law": "The client then makes use of this information to provide a better user experience when switching streams."}
+{"id": "/documentation/http-live-streaming/event-playlist-construction", "law": "EXT-X-TARGETDURATION: Specifies the maximum media-file duration."}
+{"id": "/documentation/http-live-streaming/event-playlist-construction", "law": "This value must be less than or equal to the target duration."}
+{"id": "/documentation/http-live-streaming/event-playlist-construction", "law": "Always use floating-point durations (supported in protocol version 3)."}
+{"id": "/documentation/http-live-streaming/incorporating-ads-into-a-playlist", "law": "EXT-X-TARGETDURATION: Specifies the maximum media-file duration."}
+{"id": "/documentation/http-live-streaming/incorporating-ads-into-a-playlist", "law": "This value must be less than or equal to the target duration."}
+{"id": "/documentation/http-live-streaming/live-playlist-sliding-window-construction", "law": "EXT-X-TARGETDURATION: Specifies the maximum media-file duration."}
+{"id": "/documentation/http-live-streaming/live-playlist-sliding-window-construction", "law": "This value must be less than or equal to the target duration."}
+{"id": "/documentation/http-live-streaming/live-playlist-sliding-window-construction", "law": "Always use floating-point durations (supported in protocol version 3)."}
+{"id": "/documentation/http-live-streaming/video-on-demand-playlist-construction", "law": "EXT-X-TARGETDURATION: Specifies the maximum media-file duration."}
+{"id": "/documentation/http-live-streaming/video-on-demand-playlist-construction", "law": "This value must be less than or equal to the target duration."}
+{"id": "/documentation/http-live-streaming/video-on-demand-playlist-construction", "law": "Always use floating-point durations (supported in protocol version 3)."}

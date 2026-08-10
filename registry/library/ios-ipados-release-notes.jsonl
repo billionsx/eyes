@@ -1,1 +1,12 @@
 {"id": "/documentation/iOS-iPadOS-Release-Notes/ios-ipados-17_4-release-notes", "law": "Use the API to control when StoreKit messages are displayed in your app."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "(110266324) Conversation Boost in Control Center Hearing Module will not turn on the feature."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "Use this modifier to set the background behind controls in instances within a view to a gradient material effect, or any shape style."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "Use this modifier on the icons to provide and to add a standard border around the icon."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "Use the view modifier to choose any standard button style, or a custom button style."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "Use initializers such as , [ (https://developer.apple.com/documentation/storekit/productview/4202214-init), to provide an icon view for each phase."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "If needed, use to override the default gesture for selection."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "(95918809) Use the view modifier to control spring loading behavior of views."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "Some views, like , default to allowing spring loading, while others, like , do not."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "(98001084) Use the view modifier to make buttons repeatedly trigger their actions on prolonged interactions."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes", "law": "In addition, is now only equal to itself when using , allowing users to differentiate between animations that were intentionally chosen and those that use the animation."}
+{"id": "/documentation/ios-ipados-release-notes/ios-ipados-17_2-release-notes", "law": "(118467046) Workaround: Use the AirPlay button located in the bottom right corner of the video player to start the stream."}

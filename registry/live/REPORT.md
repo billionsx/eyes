@@ -1,5 +1,5 @@
 # ЖИВОЙ ВЗГЛЯД · отчёт (советник)
-Снято: 2026-08-09 18:20 UTC · настоящий DOM+computed, не кадры.
+Снято: 2026-08-10 04:57 UTC · настоящий DOM+computed, не кадры.
 
 ## https://ethnomir.app/
 элементов снято: 20 · находок: 1
@@ -13,7 +13,7 @@
 
 ## https://ethnomir.app/steps
 элементов снято: 127 · находок: 4
-диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 1998194, "bodyChildren": 378}
+диагностика: {"url": "https://ethnomir.app/steps", "title": "Этапы и шаги · Договор № 23-07/2026 · ethnomir.app", "theme": "dark", "ready": "complete", "htmlLen": 2008182, "bodyChildren": 380}
 - **AE10** · 4: `span.pathref` (живой шрифт первой позицией: ui-monospace); `p.chk` (живой шрифт первой позицией: ui-monospace); `span.chkl` (живой шрифт первой позицией: ui-monospace); `a` (живой шрифт первой позицией: ui-monospace)
 
 ## https://ethnomir.app/way
@@ -35,11 +35,10 @@
 диагностика: {"url": "https://brajs.com/", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19069, "bodyChildren": 2}
 
 ## https://brajs.com/katha
-элементов снято: 35 · находок: 0
-диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 22472, "bodyChildren": 2}
+элементов снято: 33 · находок: 0
+диагностика: {"url": "https://brajs.com/katha", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 20675, "bodyChildren": 2}
 
 ## https://brajs.com/library
-элементов снято: 44 · находок: 1
-диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 22888, "bodyChildren": 2}
-- **AE2** · 1: `div` (чёрная выпадающая тень на чёрном холсте: rgba(0, 0, 0, 0.05))
+элементов снято: 38 · находок: 0
+диагностика: {"url": "https://brajs.com/library", "title": "ISKCON ONE LOVE. ИСККОН.", "theme": "dark", "ready": "complete", "htmlLen": 19076, "bodyChildren": 2}
 

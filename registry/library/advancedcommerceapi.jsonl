@@ -3,3 +3,4 @@
 {"id": "/documentation/AdvancedCommerceAPI", "law": "You can use the Advanced Commerce API and the StoreKit API in the same app."}
 {"id": "/documentation/AdvancedCommerceAPI", "law": "Both APIs use the App Store commerce system, including the same signed JWS transactions and JWS renewal info."}
 {"id": "/documentation/AdvancedCommerceAPI", "law": "Your server must support the Transport Layer Security (TLS) protocol 1.2 or later to call the Advanced Commerce API."}
+{"id": "/documentation/advancedcommerceapi/creating-your-purchases", "law": "Don’t use markup language, emoticons, diacritics, or control characters (for example, null, new lines, carriage returns, escape, or other invisible characters) that cause strings to exceed a single line."}

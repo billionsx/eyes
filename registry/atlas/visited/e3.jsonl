@@ -224,3 +224,4 @@
 {"id": "/documentation/financekit/financestore/datatype", "sha": "bf53407489488a4730483ef71d46545335d715b75d5a1662c478fddc36cdfb7c", "sieve": 2, "t": "FinanceStore.DataType", "n": 148, "laws": 0, "ts": "2026-08-09 18:07 UTC"}
 {"id": "/documentation/financekit/accountbalancequery", "sha": "98c80d9359eb61eb7b2151e3c15025fe8c938f2ca26bc762471ec1f41d604185", "sieve": 2, "t": "AccountBalanceQuery", "n": 274, "laws": 0, "ts": "2026-08-09 18:07 UTC"}
 {"id": "/documentation/datadetection/datadetector/options/documentlanguagecode", "sha": "4ca11366e412fcb3c82af6337befb192c4bec04f185c484a7ab824dd7e07dbe5", "sieve": 2, "t": "documentLanguageCode", "n": 126, "laws": 0, "ts": "2026-08-09 18:11 UTC"}
+{"id": "/documentation/devicemanagement/enable-lost-mode-command", "sha": "1e8da62eea260dcb7715dc1fb7e1e7428bf8e55fbe9302ccdf36f263873c4026", "sieve": 2, "t": "Enable Lost Mode", "n": 582, "laws": 0, "ts": "2026-08-10 04:23 UTC"}

@@ -3867,3 +3867,14 @@
 {"id": "/documentation/UIKit/UICanvasFeedbackGenerator", "law": "The following code example shows how to use a pan gesture to drag a square, playing haptic feedback to indicate when the square aligns with a gridline on the canvas."}
 {"id": "/documentation/UIKit/UIImpactFeedbackGenerator", "law": "The following code example shows how to use a pan gesture to drag a square, playing haptic feedback to indicate when the square collides with the edge of its superview."}
 {"id": "/documentation/UIKit/UIWindowScene/ActivationConfiguration", "law": "To request scene activation from a context menu, use an instance of this class with ."}
+{"id": "/documentation/UIKit/getting-high-fidelity-input-with-coalesced-touches", "law": "If you don’t need the extra precision, continue using the set of touch objects that UIKit passes to the methods of your views or gesture recognizers."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "You should never access the tab bar view of a tab bar controller directly."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "If you don’t provide a custom tab bar item for your view controller, the view controller creates a default item containing no image and the text from the view controller’s property."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "You can use the delegate to prevent specific tab bar items from being selected and to perform additional tasks when tabs are selected."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "You can also use the delegate to monitor changes to the tab bar that are made by the More navigation controller, which is described in more detail in ."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "Although the items in the tab bar and toolbar views can change, the views that manage them don’t."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "Any views you display in a tab bar interface should therefore have their property set to resize the view appropriately under any conditions."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "In iOS, the tab bar always stays pinned at the bottom of the screen."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "In iOS, the tab bar always remains in focus at the bottom of the screen."}
+{"id": "/documentation/UIKit/UITabBarController", "law": "Tab bar controllers in tvOS don’t support customization."}
+{"id": "/documentation/UIKit/UISegmentedControl/selectedSegmentTintColor", "law": "The color to use for highlighting the currently selected segment."}

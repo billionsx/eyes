@@ -200,3 +200,6 @@
 {"id": "/documentation/StoreKit/implementing-offer-codes-in-your-app", "law": "Including the redemption sheet in your app is recommended, but optional."}
 {"id": "/documentation/StoreKit/supporting-win-back-offers-in-your-app", "law": "You can base eligibility on the duration of the customer’s paid subscription, the time since the subscription expired, and the time that must pass between redeemed offers."}
 {"id": "/documentation/StoreKit/supporting-win-back-offers-in-your-app", "law": "The win-back offer sheet and the direct link also use the image, if it’s available."}
+{"id": "/documentation/StoreKit/testing-in-app-purchases-in-xcode", "law": "Your app can present an App Store sheet that customers can use to manage their subscriptions."}
+{"id": "/documentation/StoreKit/testing-in-app-purchases-in-xcode", "law": "When you increase the price of an auto-renewable subscription by an amount that requires user consent, the App Store gives the user an opportunity to consent to the price increase by presenting a sheet in your app."}
+{"id": "/documentation/StoreKit/testing-in-app-purchases-in-xcode", "law": "Test for the price increase consent sheet presentation: Navigate to a place in your app where you don’t defer presenting the price increase consent sheet."}

@@ -101,3 +101,4 @@
 {"id": "/documentation/Apple-Silicon/running-your-ios-apps-in-macos", "law": "For example, don’t assume your app runs on a specific device or platform because of the presence or absence of a symbol."}
 {"id": "/documentation/apple-silicon/addressing-architectural-differences-in-your-macos-code", "law": "You can use type-safe function pointers in both your and code."}
 {"id": "/documentation/apple-silicon/addressing-architectural-differences-in-your-macos-code", "law": "The following example shows you how to use the builtin intrinsic for the instruction to count the number of leading zeros in an integer."}
+{"id": "/documentation/apple-silicon/debugging-a-custom-kernel-extension", "law": "The debugger automatically searches any spotlight-indexed directories and the directory on the local system for symbol information to use during debugging."}

@@ -6,3 +6,6 @@
 {"id": "/documentation/endpointsecurity/message", "law": "Handlers use this information to react to the event."}
 {"id": "/documentation/endpointsecurity/message", "law": "In the case of authorization events, handlers must actively respond to the message and authorize or deny the monitored action."}
 {"id": "/documentation/endpointsecurity/message", "law": "The client must respond before the specified by the message."}
+{"id": "/documentation/endpointsecurity/es_exec_arg(_:_:)", "law": "The returned pointer must not outlive the parameter passed to the function, because the pointer will likely be invalid after the function returns."}
+{"id": "/documentation/endpointsecurity/es_exec_env(_:_:)", "law": "The returned pointer must not outlive the parameter passed to the function, because the pointer will likely be invalid after the function returns."}
+{"id": "/documentation/endpointsecurity/es_exec_fd(_:_:)", "law": "The returned pointer must not outlive the parameter passed to the function, because the pointer will likely be invalid after the function returns."}

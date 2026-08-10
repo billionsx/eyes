@@ -4,14 +4,14 @@
 
 | Фреймворк | Законов |
 |---|---|
-| uikit | 3869 |
+| uikit | 3880 |
 | swiftui | 2817 |
-| appkit | 2522 |
+| appkit | 2529 |
 | appintents | 1688 |
 | hig-tables | 1553 |
 | accelerate | 1327 |
-| big7 | 1098 |
-| human-interface-guidelines | 1046 |
+| big7 | 1145 |
+| human-interface-guidelines | 1058 |
 | xcode | 957 |
 | foundation | 850 |
 | metal | 764 |
@@ -20,7 +20,7 @@
 | swift | 638 |
 | technotes | 617 |
 | arkit | 527 |
-| realitykit | 477 |
+| realitykit | 491 |
 | web-landings | 409 |
 | technologyoverviews | 368 |
 | bundleresources | 330 |
@@ -35,7 +35,7 @@
 | widgetkit | 225 |
 | watchkit | 223 |
 | gamekit | 214 |
-| storekit | 202 |
+| storekit | 205 |
 | vision | 197 |
 | groupactivities | 191 |
 | avfaudio | 167 |
@@ -46,19 +46,19 @@
 | authenticationservices | 138 |
 | accessibility | 133 |
 | intents | 133 |
+| xcode-release-notes | 133 |
 | driverkit | 129 |
 | usernotifications | 128 |
 | networkextension | 127 |
-| xcode-release-notes | 127 |
-| security | 125 |
+| security | 127 |
 | swiftdata | 124 |
 | clockkit | 117 |
+| cloudkit | 114 |
 | evaluations | 114 |
 | browserenginekit | 113 |
 | virtualization | 108 |
 | watchos-apps | 106 |
-| cloudkit | 105 |
-| apple-silicon | 103 |
+| apple-silicon | 104 |
 | corelocation | 103 |
 | eventkit | 103 |
 | automaticassessmentconfiguration | 96 |
@@ -93,6 +93,7 @@
 | accessorysetupkit | 54 |
 | cryptokit | 54 |
 | classkit | 53 |
+| http-live-streaming | 51 |
 | tvservices | 51 |
 | tipkit | 50 |
 | pencilkit | 49 |
@@ -107,10 +108,10 @@
 | photos | 41 |
 | coreai | 40 |
 | coreaudiotypes | 40 |
-| http-live-streaming | 39 |
 | nearbyinteraction | 39 |
 | videotoolbox | 39 |
 | corebluetooth | 38 |
+| devicemanagement | 38 |
 | charts | 37 |
 | hiddriverkit | 37 |
 | contacts | 36 |
@@ -126,7 +127,6 @@
 | metrickit | 32 |
 | foveatedstreaming | 31 |
 | signinwithapple | 31 |
-| devicemanagement | 30 |
 | familycontrols | 30 |
 | photosui | 30 |
 | mapkitjs | 29 |
@@ -174,14 +174,18 @@
 | signinwithapplerestapi | 14 |
 | adsupport | 13 |
 | combine | 13 |
+| gameplaykit | 13 |
 | simd | 13 |
 | xctest | 13 |
 | analytics-reports | 12 |
 | intentsui | 12 |
+| ios-ipados-release-notes | 12 |
 | marketplacekit | 12 |
 | secureelementcredential | 12 |
 | shadergraph | 12 |
 | spatialpreview | 12 |
+| coretelephony | 11 |
+| endpointsecurity | 11 |
 | extensionfoundation | 11 |
 | linkpresentation | 11 |
 | mediaaccessibility | 11 |
@@ -196,17 +200,19 @@
 | mediaintents | 10 |
 | securityinterface | 10 |
 | accessorytransportextension | 9 |
-| coretelephony | 9 |
 | createmlcomponents | 9 |
 | metalfx | 9 |
 | symbols | 9 |
 | colorsync | 8 |
 | contactsui | 8 |
-| endpointsecurity | 8 |
 | eventkitui | 8 |
 | fileproviderui | 8 |
+| immersivemediasupport | 8 |
+| paperkit | 8 |
+| playgroundsupport | 8 |
 | screensaver | 8 |
 | visualintelligence | 8 |
+| wifiinfrastructure | 8 |
 | workoutkit | 8 |
 | adattributionkit | 7 |
 | appstoreserverapi | 7 |
@@ -214,7 +220,6 @@
 | corelocationui | 7 |
 | coremidi | 7 |
 | financekit | 7 |
-| gameplaykit | 7 |
 | imageplayground | 7 |
 | kernel | 7 |
 | nowplaying | 7 |
@@ -222,20 +227,17 @@
 | rosterapi | 7 |
 | system | 7 |
 | tvuikit | 7 |
-| wifiinfrastructure | 7 |
+| advancedcommerceapi | 6 |
 | appdatatransfer | 6 |
 | applepaywebmerchantregistrationapi | 6 |
 | apptrackingtransparency | 6 |
 | cryptotokenkit | 6 |
 | devicecheck | 6 |
 | dnssd | 6 |
-| immersivemediasupport | 6 |
 | matter | 6 |
 | notificationcenter | 6 |
-| playgroundsupport | 6 |
 | serialdriverkit | 6 |
 | synchronization | 6 |
-| advancedcommerceapi | 5 |
 | applemusicfeed | 5 |
 | carkey | 5 |
 | contactprovider | 5 |
@@ -249,6 +251,7 @@
 | appstoreservernotifications | 4 |
 | classkitui | 4 |
 | coreaudiokit | 4 |
+| coreservices | 4 |
 | crashreportextension | 4 |
 | devicediscoveryextension | 4 |
 | iokit | 4 |
@@ -281,7 +284,6 @@
 | mediaintelligence | 3 |
 | merchanttokennotificationservices | 3 |
 | messageui | 3 |
-| paperkit | 3 |
 | professional_video_applications | 3 |
 | relevancekit | 3 |
 | safetykit | 3 |
@@ -339,7 +341,6 @@
 | identitydocumentservices | 1 |
 | identitylookup | 1 |
 | installer_js | 1 |
-| ios-ipados-release-notes | 1 |
 | iousbhost | 1 |
 | lockedcameracapture | 1 |
 | managedappdistribution | 1 |
@@ -361,4 +362,4 @@
 | weatherkit | 1 |
 | xcselect | 1 |
 
-Итого законов: 34855 · фреймворков: 356
+Итого законов: 35024 · фреймворков: 357

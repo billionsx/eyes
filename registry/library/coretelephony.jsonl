@@ -7,3 +7,5 @@
 {"id": "/documentation/CoreTelephony/iphone-quick-switch", "law": "To ensure a high quality user experience, your app, as well as its supporting services need to handle this transition seamlessly, and keep track of both active and passive devices to ensure people aren’t locked out of services your app provides."}
 {"id": "/documentation/CoreTelephony/CTCellularPlanProvisioning", "law": "An object you use to download and install a carrier eSIM."}
 {"id": "/documentation/CoreTelephony/CTCellularPlanProvisioningRequest", "law": "You must set the property for the request to be valid."}
+{"id": "/documentation/coretelephony/iphone-quick-switch", "law": "To ensure a high quality user experience, your app, as well as its supporting services need to handle this transition seamlessly, and keep track of both active and passive devices to ensure people aren’t locked out of services your app provides."}
+{"id": "/documentation/CoreTelephony/CTSlicingManager", "law": "Use to control how your app’s network traffic routes through cellular network slices."}

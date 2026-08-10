@@ -475,3 +475,17 @@
 {"id": "/documentation/RealityKit/VideoMaterial", "law": "You can use any movie file format that supports to create a video material."}
 {"id": "/documentation/RealityKit/VideoMaterial", "law": "To control playback of the material’s video, use the property, which offers methods like and ."}
 {"id": "/documentation/RealityKit/QueryPredicate", "law": "The following code shows how to build a compound predicate that returns all entities that are either model entities or anchor entities: Use parentheses to control the order of operations when combining predicates."}
+{"id": "/documentation/RealityKit/PhysicallyBasedMaterial/BaseColor-swift.struct", "law": "Use this struct to specify an entity’s base color, which defines the entity’s appearance before RealityKit calculates the effect of lighting or material properties such as or ."}
+{"id": "/documentation/RealityKit/CharacterControllerComponent", "law": "A common use case for is to control a character in a video game."}
+{"id": "/documentation/RealityKit/CharacterControllerComponent", "law": "You can also use to run code for each frame, but avoid using it to control physics-based motion in your scene."}
+{"id": "/documentation/RealityKit/DirectionalLightComponent", "law": "Turn on shadows for a directional light by adding the component to an entity that has a ."}
+{"id": "/documentation/RealityKit/DirectionalLightComponent", "law": "Use this component with shadows by adding and to an entity’s set."}
+{"id": "/documentation/RealityKit/IKComponent", "law": "Video games and live productions use inverse kinematics (IK) solvers to procedurally adapt the animation of virtual characters to the environment and the person using the experience."}
+{"id": "/documentation/RealityKit/IKComponent", "law": "Use to create and control a full body iterative IK solver for your character."}
+{"id": "/documentation/RealityKit/SpotLightComponent", "law": "Turn on shadows for a spotlight by adding the component to an entity that has a ."}
+{"id": "/documentation/RealityKit/SpotLightComponent", "law": "The following table shows some real-world scenarios, to better explain how you can use to control the brightness of the light in lumens, and to control how the level of brightness diminishes with distance from the light source:"}
+{"id": "/documentation/RealityKit/BillboardAction", "law": "Ensure a correct bind target is supplied when creating the animation."}
+{"id": "/documentation/RealityKit/BillboardAction", "law": "Ensure the action can transition back to a non-billboard state by adding the component to the entity and check the property has a value that you expect."}
+{"id": "/documentation/RealityKit/PlayAudioAction", "law": "Set the duration of the action to match the length of the audio being played to ensure the entire audio plays."}
+{"id": "/documentation/RealityKit/SetEntityEnabledAction", "law": "Use the animation generated from this action within an animation group to determine when the entity should be enabled, and visible in the scene."}
+{"id": "/documentation/RealityKit/SetEntityEnabledAction", "law": "Animations do not play on entities that are disabled."}

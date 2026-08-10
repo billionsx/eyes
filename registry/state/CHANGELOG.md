@@ -2659,3 +2659,36 @@
 - https://brajs.com/katha: элементов 35 · находок 0
 - https://brajs.com/library: элементов 44 · находок 1
 
+### 2026-08-10 04:49 UTC · атлас · шаг дня
+- пройдено 1500 · в очередь 1585 · законов добыто 122 · изменилось 9
+- фронтир 10465 · всего пройдено 56200 · библиотека 35024 законов / 357 фреймворков
+- перечитывание по ситу v2: возвращено 600 (просрочено всего 32368)
+- очередь просеяна приёмом: было 11685, осталось 10380 (отложено 1305)
+- закон изменился: /documentation/CloudKit/CKModifyRecordsOperation · «CKModifyRecordsOperation»
+- закон изменился: /documentation/Evaluations/designing-evaluation-datasets · «Designing datasets to test your feature»
+- закон изменился: /documentation/Evaluations/ModelJudgeEvaluator · «ModelJudgeEvaluator»
+- закон изменился: /documentation/CoreTransferable/FileRepresentation · «FileRepresentation»
+- закон изменился: /documentation/CoreTransferable/ProxyRepresentation · «ProxyRepresentation»
+- закон изменился: /documentation/CryptoKit/Curve25519/Signing/PrivateKey · «Curve25519.Signing.PrivateKey»
+- закон изменился: /documentation/CryptoKit/P256/Signing/PrivateKey · «P256.Signing.PrivateKey»
+- закон изменился: /documentation/CryptoKit/SymmetricKey · «SymmetricKey»
+- закон изменился: /documentation/WeatherKit/WeatherService · «WeatherService»
+- приём: отложено 6410 ссылок пустых фреймворков (cloudkit×709, endpointsecurity×601, coreservices×518) — счёт в registry/atlas/deferred.json, адреса восстановимы из корпуса
+
+### · веб-атлас лендингов
+- страниц 87 · секций-видов 253 · модулей-видов 527 · новых типографических законов 0
+
+### · большая семёрка
+- страниц 58 · новых положений 35 · рамок в карте 13
+
+### живой взгляд
+- https://ethnomir.app/: элементов 20 · находок 1
+- https://ethnomir.app/billionsx: элементов 6 · находок 1
+- https://ethnomir.app/steps: элементов 127 · находок 4
+- https://ethnomir.app/way: элементов 72 · находок 3
+- https://ethnomir.app/team: элементов 52 · находок 0
+- https://ethnomir.app/coverage: элементов 42 · находок 2
+- https://brajs.com/: элементов 38 · находок 0
+- https://brajs.com/katha: элементов 33 · находок 0
+- https://brajs.com/library: элементов 38 · находок 0
+

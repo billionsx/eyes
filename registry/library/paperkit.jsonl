@@ -1,3 +1,8 @@
 {"id": "/documentation/paperkit/markup/renderframe", "law": "This frame includes padding around to ensure it includes all the rendered aspects of the content."}
 {"id": "/documentation/paperkit/markupinteractions", "law": "Use to control which actions people can perform on markup elements."}
 {"id": "/documentation/paperkit/shapemarkup", "law": "Use to add geometric shapes, lines, and text containers to your markup content."}
+{"id": "/documentation/paperkit/getting-started-with-paperkit", "law": "Whether you’re building a document viewer, note-taking app, design tool, or an app that requires content annotation, PaperKit provides the foundation for rich markup experiences."}
+{"id": "/documentation/paperkit/shapemarkup/shape-swift.property", "law": "For example a corner radius of is equivalent to a radius of 10% of the minimum dimension of the shape."}
+{"id": "/documentation/paperkit/shapemarkup/shape-swift.property", "law": "Use for a shape type with scaled values relative to the shape’s ."}
+{"id": "/documentation/paperkit/shapemarkup/endlinemarker", "law": "Use to check whether the current shape supports line markers."}
+{"id": "/documentation/paperkit/shapemarkup/startlinemarker", "law": "Use to check whether the current shape supports line markers."}

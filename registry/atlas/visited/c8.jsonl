@@ -205,3 +205,6 @@
 {"id": "/documentation/applicationservices/3882831-axtextmarkerrangegettypeid", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "AXTextMarkerRangeGetTypeID()", "n": 0, "laws": 0, "ts": "2026-08-09 18:04 UTC"}
 {"id": "/documentation/avrouting/avroutingplaybackparticipant", "sha": "4804a99c3ce2c0395df38355c2b1940fa29ef891feddc35daa45ee87a10e5986", "sieve": 2, "t": "AVRoutingPlaybackParticipant", "n": 248, "laws": 0, "ts": "2026-08-09 18:11 UTC"}
 {"id": "/documentation/imagecapturecore/icscannerfunctionalunit", "sha": "098e1245dd3af0f97db3db547af51cf7cf1c1e22615309e3ac2b14fc52e34545", "sieve": 2, "t": "ICScannerFunctionalUnit", "n": 828, "laws": 0, "ts": "2026-08-09 18:12 UTC"}
+{"id": "/documentation/swift/simd16/one-3gc92", "sha": "d33e9726dd5865428fd5ea374182f37b70e58352d0040bc4303be42561970f47", "sieve": 2, "t": "one", "n": 31, "laws": 0, "ts": "2026-08-10 04:28 UTC"}
+{"id": "/documentation/glkit/glktextureinfo/alphastate-c.ivar", "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sieve": 2, "t": "alphaState", "n": 0, "laws": 0, "ts": "2026-08-10 04:38 UTC"}
+{"id": "/documentation/coreservices/1447164-aedeleteitem", "sha": "d19adc4ce522b8e55c9894ccefbc8931580419197441ee96489878f409da5a9b", "sieve": 2, "t": "AEDeleteItem(_:_:)", "n": 188, "laws": 0, "ts": "2026-08-10 04:41 UTC"}
