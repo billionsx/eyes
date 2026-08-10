@@ -1,5 +1,5 @@
 # BXE · отчёт линта · адаптер `ethnomir` · режим report
-Файлов просмотрено: 15 · правила: AE1, AE2, AE3, AE4, AE5, AE6, AE7, AE8, AE10, AE11, AE12, AE13, AE14, AE15, AE16, AE17, AE18, AE19, AE20 · находок: 134
+Файлов просмотрено: 16 · правила: AE1, AE2, AE3, AE4, AE5, AE6, AE7, AE8, AE10, AE11, AE12, AE13, AE14, AE15, AE16, AE17, AE18, AE19, AE20 · находок: 134
 
 ⊘ AE9 воздержалось: проект объявлен светлым (base: light), а лестница прозрачности светлого стекла департаментом не снята — судить нечем
 
@@ -67,7 +67,7 @@
 - `design-system/billionsx-design-system.css:450` — поверхность #FFFFFF задана одним значением на обе темы — проект темы объявляет, но эта поверхность из них выпадает; 🍎 Apple: значения системных цветов меняются от выпуска к выпуску, жёсткое одно на обе темы устаревает молча (/design/human-interface-guidelines/color)
 
 ## AE19 · 1
-- `apps/web/app/contract/page.tsx:56` — кегль задан жёстким px в 2310 местах против 398 масштабируемых — интерфейс не переживёт Dynamic Type; 🍎 Apple растит кегль от xSmall к xxxLarge на 18 % (34→40 pt у Large Title), на ступенях доступности кратно (/design/human-interface-guidelines/typography)
+- `apps/web/app/contract/page.tsx:56` — кегль задан жёстким px в 2310 местах против 413 масштабируемых — интерфейс не переживёт Dynamic Type; 🍎 Apple растит кегль от xSmall к xxxLarge на 18 % (34→40 pt у Large Title), на ступенях доступности кратно (/design/human-interface-guidelines/typography)
 
 ## AE2 · 19
 - `apps/web/app/page.tsx:755` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
