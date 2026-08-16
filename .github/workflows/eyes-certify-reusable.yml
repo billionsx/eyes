@@ -1,0 +1,88 @@
+name: eyes-certify-reusable
+# СЕРТИФИКАТ БЕЗ КЛЮЧА (ст. 56 · M3-Б). Третий путь подключения.
+#
+# Было: сертификат считал департамент, а для этого он забирал код проекта к
+# себе (bin/fetch.py). Публичный проект берётся без ключа, приватный — нет:
+# клиенту пришлось бы завести ключ доступа к своему репозиторию и отдать его
+# департаменту. Ключ, который можно не выдавать, не выдают; чужой ключ
+# департамент не держит вовсе.
+#
+# Стало: считает ПРОГОН САМОГО ПРОЕКТА, на встроенном ключе своего
+# репозитория. Департамент публичен и забирается без всякой авторизации.
+# Формула, реестр и отпечатки sha256 — те же, орган тот же (bin/certify.py):
+# меняется только то, ЧЬЯ машина считает и где ложится документ.
+#
+# Клиент кладёт себе десять строк — и получает сертификат в .eyes/ своего
+# репозитория, помесячно, с реестром и защитой от подмены.
+on:
+  workflow_call:
+    inputs:
+      globs:
+        description: "CSV-глобы файлов клиента (например src/**/*.css,src/**/*.tsx)"
+        required: true
+        type: string
+      project:
+        description: "Имя проекта клиента (паспорт в adapters/, если он есть)"
+        required: false
+        type: string
+        default: "client"
+      commit:
+        description: "Положить сертификат в репозиторий проекта"
+        required: false
+        type: boolean
+        default: true
+jobs:
+  certify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: billionsx/eyes
+          path: __eyes
+          sparse-checkout: |
+            bin
+            adapters
+            registry/standards
+            tests/fixtures/vision
+      - name: "Инструменты"
+        run: |
+          pip install --quiet playwright
+          python3 -m playwright install --with-deps chromium > /dev/null 2>&1
+      - name: "BXE · сертификат проекта, своим прогоном"
+        env:
+          PROJECT_ROOT: .
+          EYES_CERT_OUT: ${{ github.workspace }}/.eyes
+          EYES_CLIENT_GLOBS: ${{ inputs.globs }}
+          EYES_CLIENT_PROJECT: ${{ inputs.project }}
+          EYES_PROJECT: ${{ inputs.project }}
+        run: python3 __eyes/bin/certify.py --pdf
+      - name: "Подлинность выданного — реестр ↔ файлы (ст. 44)"
+        run: |
+          python3 - <<'PY'
+          import sys; sys.path.insert(0, "__eyes/bin")
+          import certify
+          from pathlib import Path
+          bad = []
+          for d in sorted(Path(".eyes").glob("*")):
+              if d.is_dir():
+                  bad += [f"{d.name}: {p}" for p in certify.verify_register(d)]
+          print("\n".join(bad) if bad else "реестр сертификата чист")
+          sys.exit(1 if bad else 0)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bxe-certificate
+          path: .eyes/
+      - name: "Положить документ владельцу"
+        if: ${{ inputs.commit }}
+        run: |
+          git config user.name "Billions X Eyes"
+          git config user.email "eyes@billionsx.com"
+          git add .eyes
+          git diff --cached --quiet || git commit -m "bxe: сертификат месяца"
+          git push

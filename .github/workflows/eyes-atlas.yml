@@ -1,0 +1,77 @@
+name: eyes-atlas
+# УРОЖАЙ (устав ст. 49): шаг атласа документации, веб-атлас, кит, большая
+# семёрка, живой взгляд на прод подключённых проектов. Своя группа —
+# пуши репозитория урожай не трогают.
+on:
+  schedule:
+    - cron: "7 17 * * *"   # урожай — один в сутки
+    # 16.08.2026: второй урожай (37 2 * * *) снят. Замер за 30 дней:
+    # 36 прогонов, 1386 стенных минут — это 56% всей нагрузки департамента
+    # при том, что рабочих правил атлас не дал ни одного. Бюджет 1500 URL
+    # проходится за сутки одним заходом; второй заход шёл по тем же
+    # адресам. Публичный репозиторий минут не тратит, но нагрузка обязана
+    # быть оправданной выработкой, а не бесплатностью.
+  workflow_dispatch:
+concurrency:
+  group: eyes-atlas
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: "Инструменты"
+        run: |
+          pip install --quiet pillow numpy fonttools playwright
+          python3 -m playwright install --with-deps chromium > /dev/null 2>&1
+          command -v 7z >/dev/null || sudo apt-get -yq install p7zip-full >/dev/null
+      - name: "Суд — короткий (гейт урожая)"
+        run: python3 bin/eyes.py selftest > /dev/null
+      - name: "Атлас — шаг по всей документации (ст. 37.1)"
+        run: python3 bin/eyes.py atlas --budget 1500
+      - name: "Добытчик правил-кандидатов (свод → заготовки)"
+        run: python3 bin/propose.py || true
+      - name: "Веб-атлас — кит лендингов Apple (ст. 36.3)"
+        run: python3 bin/eyes.py weblab || true
+      - name: "Большая семёрка — познание бизнес-логики (ст. 55)"
+        timeout-minutes: 12
+        continue-on-error: true
+        run: |
+          python3 bin/eyes.py consult > registry/bizlab/last-run.log 2>&1 || echo "ШАГ УПАЛ RC=$?" >> registry/bizlab/last-run.log
+          tail -4 registry/bizlab/last-run.log
+      - name: "Кит — величины официальных китов (ст. 36.1)"
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          FIGMA_KIT_KEY: ${{ secrets.FIGMA_KIT_KEY }}
+        run: python3 bin/eyes.py kit || true
+      - name: "Живой взгляд — прод подключённых проектов (ст. 37.3)"
+        timeout-minutes: 10
+        continue-on-error: true
+        run: |
+          python3 bin/liveview.py --live || echo "живой взгляд — см. registry/live"
+      - name: "Эфир"
+        if: always()
+        run: python3 bin/dashboard.py
+      - name: "Хроника урожая"
+        if: always()
+        run: |
+          bash bin/chronicle.sh "eyes: урожай (атлас · веб-атлас · кит · живой взгляд)" registry dashboard
+
+      - name: "Эфир снаружи — домен обязан отдавать свежую сборку (ст. 54)"
+        if: always()
+        continue-on-error: true
+        run: |
+          for i in 1 2 3 4 5 6 7 8; do
+            sleep 45
+            python3 bin/livecheck.py && exit 0
+          done
+          echo "домен не догнал репозиторий за 6 минут — вердикт в registry/state/SITE.md"
+
+      - name: "Хроника эфира снаружи"
+        if: always()
+        run: |
+          bash bin/chronicle.sh "eyes — вердикт эфира на домене" registry/state/SITE.md

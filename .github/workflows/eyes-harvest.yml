@@ -1,0 +1,75 @@
+# ЖАТВА · автономное обогащение департамента первоисточником.
+#
+# Работник обходит свод HIG по машинному JSON Apple и просеивает страницы
+# на числа с адресом. Фронт растёт сам: каждая разобранная страница отдаёт
+# ссылки на соседние. Бюджет страниц на прогон — департамент ходит к Apple
+# гостем, а не пылесосом.
+#
+# Правка Apple не проходит молча: если опубликованное значение изменилось,
+# прогон предъявляет старое и новое с адресом.
+name: eyes-harvest
+on:
+  schedule:
+    - cron: "41 4 * * *"        # ежедневно 04:41 UTC
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: "бюджет страниц на прогон"
+        default: "12"
+      seed:
+        description: "заложить фронт заново"
+        type: boolean
+        default: false
+concurrency:
+  group: eyes-harvest
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  reap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: "Суд органов до жатвы"
+        run: |
+          python3 bin/harvest.py --court
+          python3 bin/palette.py --court
+          python3 bin/typescale.py --court
+          python3 bin/devices.py --court
+          python3 bin/rebuild.py --court
+      - name: "Перемол склада: новые сита по уже пройденному, без сети"
+        run: python3 bin/harvest.py --remill || true
+      - name: "Жатва по фронту"
+        run: |
+          python3 bin/harvest.py --pages "${{ inputs.pages || 12 }}" ${{ inputs.seed == 'true' && '--seed' || '' }}
+      - name: "Пересборка выводимых сводов из источника"
+        # Своды выводимы: палитра, шкала, устройства получаются из склада и
+        # библиотеки. Собирать их по одному значило бы держать три места,
+        # где помнят порядок; орган пересборки помнит его один раз.
+        run: |
+          python3 bin/rebuild.py
+          python3 bin/rebuild.py --check
+      - name: "Правки Apple — предъявить, если были"
+        if: always()
+        run: |
+          if [ -s registry/state/APPLE-CHANGES.md ]; then
+            N=$(grep -c "^| 20" registry/state/APPLE-CHANGES.md || echo 0)
+            echo "::notice title=летопись::правок Apple в летописи: $N"
+            tail -3 registry/state/APPLE-CHANGES.md
+          fi
+      - name: "Суд департамента после жатвы"
+        run: python3 bin/eyes.py selftest | tail -3
+      - name: "Хроника жатвы"
+        if: always()
+        run: |
+          git config user.email "eyes@billionsx"
+          git config user.name "Billions X Eyes"
+          git add registry/standards/palette.json registry/state/harvest.json \
+                  registry/corpus/hig registry/library/hig-tables.jsonl \
+                  registry/standards/typescale.json registry/standards/devices.json \
+                  registry/standards/tokens.json \
+                  registry/state/APPLE-CHANGES.md || true
+          git diff --cached --quiet || git commit -q -m "жатва: урожай первоисточника"
+          git pull --rebase -q || true
+          git push || echo "нечего пушить"

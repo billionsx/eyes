@@ -1,0 +1,80 @@
+name: eyes-monitor
+# МОНИТОР ПРОДА (ст. 56 · M2). Департамент САМ замечает деплой клиента.
+#
+# Было: проект после деплоя стучал в департамент через repository_dispatch,
+# и ради этого клиенту требовался ЛИЧНЫЙ КЛЮЧ с правом писать в чужой
+# репозиторий — заводить, хранить, помнить о сроке, менять при ротации.
+# Ключ, который можно не выдавать, не выдают.
+#
+# Стало: раз в четверть часа орган свежести (bin/fresh.py) спрашивает
+# ПУБЛИЧНЫЙ API про последний успешный деплой каждого подключённого проекта.
+# Ничего не изменилось — выход за секунды, тяжёлый монитор не поднимается.
+# Изменилось — монитор идёт смотреть живыми глазами.
+#
+# Что это дало: реакция до 15 минут вместо расписания раз в 6 часов, и у
+# клиента больше нет ни одного ключа доступа к департаменту.
+#
+# repository_dispatch оставлен как запасной путь для тех, кто уже настроил
+# пинг: он больше не нужен, но и не мешает.
+on:
+  repository_dispatch:
+    types: [deployed]
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "смотреть даже без нового деплоя"
+        type: boolean
+        default: true
+concurrency:
+  group: eyes-monitor
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: "Свежесть: есть ли новый деплой у подключённых проектов"
+        id: fresh
+        env:
+          # Встроенный ключ ПРОГОНА, а не чей-то личный: нужен лишь затем,
+          # чтобы не упереться в лимит анонимных запросов.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 bin/fresh.py --write || true
+      - name: "Нового деплоя нет — не поднимаем тяжёлый монитор"
+        id: gate
+        run: |
+          NEW="${{ steps.fresh.outputs.new }}"
+          FORCE="${{ github.event_name != 'schedule' }}"
+          if [ "$NEW" = "true" ] || [ "$FORCE" = "true" ]; then
+            echo "go=true" >> $GITHUB_OUTPUT
+          else
+            echo "go=false" >> $GITHUB_OUTPUT
+            echo "::notice::деплоя не было — выходим за секунды"
+          fi
+      - name: "Инструменты"
+        if: steps.gate.outputs.go == 'true'
+        
+        run: |
+          pip install --quiet playwright
+          python3 -m playwright install --with-deps chromium > /dev/null 2>&1
+      - name: "Монитор прода — живой взгляд, дифф с базовой линией (M2)"
+        if: steps.gate.outputs.go == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DEPLOY_SHA: ${{ github.event.client_payload.sha || steps.fresh.outputs.sha }}
+          DEPLOY_REPO: ${{ github.event.client_payload.repo || steps.fresh.outputs.repo }}
+        run: python3 bin/monitor.py
+      - name: "Эфир"
+        if: always() && steps.gate.outputs.go == 'true' 
+        run: python3 bin/dashboard.py
+      - name: "Хроника монитора"
+        if: always() && steps.gate.outputs.go == 'true' 
+        run: |
+          bash bin/chronicle.sh "eyes: монитор прода" registry dashboard

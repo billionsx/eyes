@@ -1,0 +1,36 @@
+name: eyes-appstore
+# СТРАЖ APP STORE (ст. 56 · M5): 15-е число — прогон каждого подключённого
+# проекта по живым App Review Guidelines.
+on:
+  schedule:
+    - cron: "41 9 15 * *"
+  workflow_dispatch:
+concurrency:
+  group: eyes-appstore
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: "Забор кода проектов"
+        env:
+          EYES_PROJECTS_TOKEN: ${{ secrets.EYES_PROJECTS_TOKEN }}
+        run: python3 bin/fetch.py
+      - name: "Страж — чек-лист из живых гайдлайнов"
+        run: |
+          for d in _projects/*/; do
+            a=$(basename "$d")
+            EYES_PROJECT="$a" PROJECT_ROOT="$d" python3 bin/appstore.py
+          done
+      - name: "Эфир"
+        if: always()
+        run: python3 bin/dashboard.py
+      - name: "Хроника стража"
+        if: always()
+        run: |
+          bash bin/chronicle.sh "eyes: страж App Store" registry dashboard
