@@ -2770,3 +2770,13 @@
 - https://brajs.com/katha: элементов 35 · находок 0
 - https://brajs.com/library: элементов 38 · находок 0
 
+### живой взгляд
+- https://brajs.com/music: элементов 0 · находок 0
+- https://brajs.com/play: элементов 0 · находок 0
+- https://brajs.com/: элементов 0 · находок 0
+- https://brajs.com/katha: элементов 0 · находок 0
+- https://brajs.com/library: элементов 0 · находок 0
+
+### 2026-08-16 10:19 UTC · монитор прода
+- сейчас 0 · новых 0 · закрыто 12 · алерт: эфир
+
