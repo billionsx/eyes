@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-16 08:52 UTC",
+ "ts": "2026-08-16 09:23 UTC",
  "atlas": {
   "visited": 56200,
   "frontier": 10465,
@@ -31,7 +31,7 @@
  },
  "brief": "BIG7 · бриф недели 2026-W33",
  "live": {
-  "pages": 9
+  "pages": 5
  },
  "keys": {
   "worst_days": 23,
