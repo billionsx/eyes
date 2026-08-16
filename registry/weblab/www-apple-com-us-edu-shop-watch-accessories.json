@@ -2,13 +2,13 @@
  "url": "https://www.apple.com/us-edu/shop/watch/accessories",
  "sections": [],
  "modules": [],
- "imgs": 101,
+ "imgs": 80,
  "videos": 0,
  "cta": 13,
  "h_levels": {
   "1": 1,
   "2": 5,
-  "3": 22
+  "3": 21
  },
  "css": [
   "https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-globalelements-2.25.0-4bbf8/dist/ac-globalnav.css",
