@@ -20,7 +20,7 @@
 - `apps/web/src/play/lectures.tsx:186` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/library.tsx:115` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/library.tsx:247` — border-radius 6px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/play/player.tsx:286` — border-radius 0px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/play/player.tsx:311` — border-radius 0px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/play/screens.tsx:820` — border-radius 10px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:41` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/music/music.css:98` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
