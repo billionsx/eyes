@@ -30,7 +30,7 @@
 - Starting in iOS 27, apps built with the latest SDK must use the scene-based life cycle or they fail to launch.
 - Read for best practices to ensure your app behaves as expected on a Sidecar display.
 - Read the latest article update to help you migrate your Core Data app to use SwiftData with .
-- Learn how to use with and a SwiftData .
+- Learn how to use with doc://com.apple.documentation/documentation/swiftdata/resultssectioncollection and a SwiftData .
 - Developers of sensitive and secure apps can use the framework to request an evaluation from the system to help detect if someone is at risk of a social engineering threat.
 - Use the framework to work with 3D spatial content from a macOS app within a connected visionOS device in real time.
 - Use the new framework to let the system control playback of your media in the standard playback interface across the Lock Screen, in Control Center, on Apple Watch, and in CarPlay.

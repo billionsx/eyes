@@ -1,7 +1,7 @@
 # знание · `dev-news-rss`
 Источник: https://developer.apple.com/news/rss/news.rss
 Домены мандата: ios27
-Нормативных положений: 33 (детерминированная выжимка, не пересказ)
+Нормативных положений: 32 (детерминированная выжимка, не пересказ)
 
 
 ## без раздела
@@ -37,4 +37,3 @@
 - The API will also let you know if you need to get a parent or guardian's permission for significant app updates for a child.</p><p>Developers can use the Declared Age Range API to present significant update notifications to adults in these states through the Significant Update Action, now in beta.
 - Developers can use this app description field to indicate information that may not be captured in other areas of the product page, such as social media age restrictions for people under a certain age.
 - </p><p><strong>In-app controls on the App Store product page</strong></p><p>This year, Apple updated the age ratings questionnaire that is required for all apps.
-- </li> <li>5.1.2(i): Clarifies that you must clearly disclose where personal data will be shared with third parties, including with third-p

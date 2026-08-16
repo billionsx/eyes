@@ -1,6 +1,6 @@
 # iOS & iPadOS Release Notes
 # https://developer.apple.com/documentation/ios-ipados-release-notes
-# снято: 2026-07-30 15:54 UTC
+# снято: 2026-08-16 08:48 UTC
 
 ## Overview
 ## Bug Reporting
@@ -19,7 +19,7 @@ Release notes provide details on API changes, known issues, fixes, workarounds, 
 ## Bug Reporting
 For issues not mentioned in release notes, send feedback through . When writing your report, please include the full version number in the title and in the description. This looks like “13 (17A_xxxx_).” You can find the full version number in Settings > General > About > Version. For more information, visit . Learn about changes to the iOS & iPadOS SDK.
 ## iOS & iPadOS 27
-iOS & iPadOS 27 Beta 4 Release Notes.
+iOS & iPadOS 27 Beta 5 Release Notes.
 ## iOS & iPadOS 26
 iOS & iPadOS 26.6 Release Notes. iOS & iPadOS 26.5 Release Notes. iOS & iPadOS 26.4 Release Notes. iOS & iPadOS 26.3 Release Notes. iOS & iPadOS 26.2 Release Notes. iOS & iPadOS 26.1 Release Notes. iOS & iPadOS 26 Release Notes.
 ## iOS & iPadOS 18

@@ -45,7 +45,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:02 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "de354a1f239bc559f35daa29a2c49d8c11617cb522a8e134f63bfde0245a1a98",
@@ -124,7 +124,7 @@
    "h3: Association with Apple"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
   "last_modified": "Tue, 31 Mar 2026 20:38:04 GMT",
   "route": "html",
   "sha": "f456c02b68f335ed6d82161c318fa3e0a5f509a5c0497e3f1f357af1a189808c",
@@ -140,14 +140,14 @@
   ],
   "etag": "",
   "headings": [],
-  "last_changed": "2026-08-04 08:02 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "Wed, 05 Aug 2026 00:01:36 GMT",
+  "last_changed": "2026-08-16 08:49 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Fri, 14 Aug 2026 05:04:46 GMT",
   "route": "html",
-  "sha": "724ef09550614cefb5dd7784ae7d355e1dacd59fe33b1f65e6b8f8e73a6dcd40",
+  "sha": "73011f27c33903bb74528a991aa7a718096c05cd67a29eeb7d59dfa15b5f4b77",
   "sieve": 1,
-  "text_len": 1558,
-  "title": "<![CDATA[Apple Newsroom]]><![CDATA[Leagues Cup kicks off tomorrow, August 4, on Apple TV ]]><![CDATA[Apple reports third quarter results ]]><![CDATA[Apple Upgrade launches in the United States ]]><![CDATA[Apple Maps to power navigation experience for Ford UEV Platform ]]><![CDATA[Major League Soccer returns to Apple TV tomorrow ]]><![CDATA[Madden NFL 27 Arcade Edition brings gridiron action to Apple Arcade on August 6 ]]><![CDATA[Apple and Major League Baseball announce August “Friday Night Baseball” schedule ]]><![CDATA[Apple scores record 89 Emmy Award nominations ]]><![CDATA[Apple to increase spend with Broadcom to produce billions more U.S. chips ]]><![CDATA[Apple Creator Studio gets smarter, faster, and more connected ]]><![CDATA[Apple announces changes to iOS in Brazil ]]><![CDATA[Apple unveils innovative features and intelligence experiences across services ]]><![CDATA[Apple aids app development with new intelligence frameworks and advanced tools ]]><![CDATA[Apple unveils next generation of Apple Intelligence, Siri AI, and more ]]><![CDATA[Apple Intelligence brings powerful AI capabilities into everyday experiences ]]><![CDATA[Apple introduces Siri AI, a profoundly more capable and personal assistant ]]><![CDATA[Apple previews new child safety features ]]><![CDATA[Due to DMA, Siri AI delayed in EU for iOS 27 and iPadOS 27 ]]><![CDATA[Apple expands App Store capabilities to help developers grow and reach new users ]]><![CDATA[Apple and Major League Baseball announce July “Friday Night Baseball” schedule ]]>",
+  "text_len": 1529,
+  "title": "<![CDATA[Apple Newsroom]]><![CDATA[Apple opens Advanced Manufacturing Center in Houston ]]><![CDATA[Apple Arcade levels up with Block Blast!+ and Art of Fauna: Cozy Puzzles+ ]]><![CDATA[Apple, MLB announce September “Friday Night Baseball” schedule ]]><![CDATA[Leagues Cup kicks off tomorrow, August 4, on Apple TV ]]><![CDATA[Apple reports third quarter results ]]><![CDATA[Apple Upgrade launches in the United States ]]><![CDATA[Apple Maps to power navigation experience for Ford UEV Platform ]]><![CDATA[Major League Soccer returns to Apple TV tomorrow ]]><![CDATA[Madden NFL 27 Arcade Edition brings gridiron action to Apple Arcade on August 6 ]]><![CDATA[Apple and Major League Baseball announce August “Friday Night Baseball” schedule ]]><![CDATA[Apple scores record 89 Emmy Award nominations ]]><![CDATA[Apple to increase spend with Broadcom to produce billions more U.S. chips ]]><![CDATA[Apple Creator Studio gets smarter, faster, and more connected ]]><![CDATA[Apple announces changes to iOS in Brazil ]]><![CDATA[Apple unveils innovative features and intelligence experiences across services ]]><![CDATA[Apple aids app development with new intelligence frameworks and advanced tools ]]><![CDATA[Apple unveils next generation of Apple Intelligence, Siri AI, and more ]]><![CDATA[Apple Intelligence brings powerful AI capabilities into everyday experiences ]]><![CDATA[Apple introduces Siri AI, a profoundly more capable and personal assistant ]]><![CDATA[Apple previews new child safety features ]]>",
   "url": "https://www.apple.com/newsroom/rss-feed.rss"
  },
  "appstore-whats-new": {
@@ -214,7 +214,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:03 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "fcf0f6c00775aa40e7f656acb6804bc73c8e501adf95ae6aa23a65d994442e0d",
@@ -263,8 +263,8 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-24 17:43 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
-  "last_modified": "Mon, 27 Jul 2026 22:47:51 GMT",
+  "last_checked": "2026-08-16 08:50 UTC",
+  "last_modified": "Thu, 13 Aug 2026 23:34:58 GMT",
   "route": "html",
   "sha": "ba833649422656f37449fffee5a8c0aba15f06b32abfafaa311c80e06f24e80e",
   "sieve": 1,
@@ -341,7 +341,7 @@
    "h3: Games"
   ],
   "last_changed": "2026-08-03 07:02 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "fdf62c0ad65b9447d382f8772dc2ee0239aeea82d234d08679bfd217045cbbd6",
@@ -404,7 +404,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:01 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
+  "last_checked": "2026-08-16 08:48 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "eaa3d5a9c0f761c12776616b798370a8e6ebe7f8a4945a73fa56675f56200892",
@@ -449,7 +449,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-24 17:43 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "Tue, 12 May 2026 17:19:10 GMT",
   "route": "html",
   "sha": "910fa4f4aefa08afca32811c84c918c695a108b1f951ceaa7740770c45a7068d",
@@ -497,13 +497,13 @@
    "h3: Programs",
    "h3: Events"
   ],
-  "last_changed": "2026-08-03 07:03 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_changed": "2026-08-16 08:50 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "",
   "route": "html",
-  "sha": "58ab79a89e9282be069988656673e9755ef3fe07134a4d243d1373e63dc76b13",
+  "sha": "4c20f29ba3d784308ddd04c6e27d77579b497c316101b2227c1245d09dbd6577",
   "sieve": 1,
-  "text_len": 4180,
+  "text_len": 4104,
   "title": "Download - Apple Developer",
   "url": "https://developer.apple.com/download/"
  },
@@ -553,7 +553,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:03 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "b814c30d34354097f2e6e9b50367703674e38ee64338201fea50e6cc355aabc6",
@@ -585,6 +585,7 @@
    "h2: Featured",
    "h2: Quick Links",
    "h2: News",
+   "h2: Updates to age ratings for the Republic of Korea",
    "h2: Get ready for new creative assets on the App Store",
    "h2: Age rating questionnaire now includes social media questions",
    "h2: Design kits for iOS, iPadOS, and macOS 27 are here",
@@ -627,16 +628,15 @@
    "h2: New Requirements for Social Media Apps in Australia",
    "h2: App Store Award winners announced",
    "h2: App Store Award finalists announced",
-   "h2: Introducing the App Store Mini Apps Partner Program",
-   "h2: Updated App Review Guidelines now available"
+   "h2: Introducing the App Store Mini Apps Partner Program"
   ],
-  "last_changed": "2026-08-08 19:44 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "Mon, 10 Aug 2026 06:55:42 GMT",
+  "last_changed": "2026-08-16 08:49 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Sun, 16 Aug 2026 08:48:59 GMT",
   "route": "html",
-  "sha": "15f273c9376058b6073a8e29c523b0146df47cda1b1712500975d48b8cb5c430",
+  "sha": "78dc84f9af7ff455e9d753f2a86b00466c16c42832bdc34c0cca2b2de915df9a",
   "sieve": 1,
-  "text_len": 104500,
+  "text_len": 103988,
   "title": "Latest News - Apple Developer",
   "url": "https://developer.apple.com/news/"
  },
@@ -646,14 +646,14 @@
   ],
   "etag": "",
   "headings": [],
-  "last_changed": "2026-08-08 19:44 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
+  "last_changed": "2026-08-16 08:49 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
   "last_modified": "",
   "route": "html",
-  "sha": "4af3b984a595d6dd9b51a3d7f72d87228e2163b8ec17b9ddfff33aaa633e4160",
+  "sha": "ae0fa1a8f43158033a01b133deca6508e1ce95df8f0ee45b7b5c3e3da79b16e0",
   "sieve": 1,
-  "text_len": 375037,
-  "title": "Latest News - Apple DeveloperGet ready for new creative assets on the App StoreHello Developer: August 2026Age rating questionnaire now includes social media questionsHello Developer: July 2026Design kits for iOS, iPadOS, and macOS 27 are hereUpdated Apple Developer Program License Agreement now availableChanges to iOS in BrazilNew domain for Sign in with Apple and iCloud+ Hide My EmailWWDC26 surveyFind out what's new for Apple developersIntroducing Time AllowancesUpdated Apple Developer Program License Agreement and App Review Guidelines now available Update for Apps Distributed in TexasApple Developer Centers are expanding to BerlinIntroducing the 2026 Apple Design Award winnersAll systems glowGet ready with the latest beta releasesUpcoming changes to age ratings in Australia and VietnamIntroducing the 2026 Apple Design Award finalistsComing bright upHello Developer: May 2026Get the most out of your Apple Developer accountBrazilian betting license requirement for App Store availabilityTo those who build communityNow Available: Monthly Subscriptions with a 12-Month CommitmentLykke Studios: In pursuit of puffy perfectionHello Developer: April 2026How Infold Games fashioned an open world for Infinity NikkiQ&amp;A: How Plane Finder set itself up for the long haulApp Store expands support to 11 new languagesUpdated Apple Developer Program License Agreement now availableGet ready with the latest beta releasesUpdate on regulated medical device apps in the European Economic Area, United Kingdom, and United StatesNew In-App Purchase and subscription data now available in AnalyticsWWDC26: June 8-12, 2026Apple Developer is now on bilibili and LinkedInAdjustments to the China storefront of the App Store on iOS and iPadOSHello Developer: March 2026Age requirements for apps distributed in Brazil, Australia, Singapore, Utah, and LouisianaGet ready with the latest beta releasesUpdated App Review Guidelines now availableSwift Student Challenge submissions are now openHello Developer: February 2026Upcoming SDK minimum requirementsPrice updates for apps, In-App Purchases, and subscriptionsHello Developer: January 2026Update on age requirements for apps distributed in TexasChanges to iOS in JapanUpdated Apple Developer Program License Agreement now availableNew Requirements for Social Media Apps in AustraliaHello Developer: December 2025App Store Award winners announcedApp Store Award finalists announcedIntroducing the App Store Mini Apps Partner ProgramUpdated App Review Guidelines now availableHello Developer: November 2025Next steps for apps distributed in TexasGet ready with the latest beta releasesPrice updates for apps, In-App Purchases, and subscriptionsEnhancements to help you submit and market your apps and gamesNew requirement for apps using Sign in with Apple for account creationUpdated Apple Developer Program License Agreement now availableNew requirements for apps available in TexasHello Developer: October 2025Upcoming Currency Change in BulgariaGet ready with the latest beta releasesApp Store submissions now open for the latest OS releasesHello Developer: September 2025Awe dropping.Tax and Price Updates for Apps, In-App Purchases, and SubscriptionsHello Developer: August 2025Updated age ratings in App Store ConnectNew 64-bit requirement for watchOS appsiOS and iPadOS 26 design kits are hereUpdates for apps in the European UnionToday @ WWDC25: Day 5Today @ WWDC25: Day 4Today @ WWDC25: Day 3Today @ WWDC25: Day 2Find out what’s new for Apple developersUpdated agreements and guidelines now availableToday @ WWDC25: Day 1Introducing the 2025 Apple Design Award winners and finalistsHello Developer: June 2025Sleek peek.Tax and Price updates for Apps, In-App Purchases, and SubscriptionsHello Developer: May 2025Random access memories: Inside the time-shifting narrative of The WreckUpdated guidelines now availableHello Developer: April 2025Rooms at the top: How this ADA-winning team built a title that defies descriptionWWDC25: June 9-13, 2025Assassin’s Creed Shadows comes to MacHello Developer: March 2025Apple Developer is now on WeChatGet ready with the latest beta releasesNew requirement for apps on the App Store in the European UnionNew features for APNs token authentication are now availableUpcoming changes to offers and trials for subscriptions in South KoreaTax and price updates for apps, In-App Purchases, and subscriptionsGame distribution on the App Store in VietnamHello Developer: February 2025The good news bears: Inside the adorably unorthodox design of Bears GratitudeApply for the Swift Student Challenge now through February 23Introducing the Advanced Commerce APIApps without trader status will be removed from the App Store in the EUReminder: Upcoming Changes to the App Store Receipt Signing Intermediate CertificateAlgorithm changes to server connections for Apple Pay on the WebHello Developer: January 2025Walk this way: How Oko leverages AI to make street crossings more accessibleGet ready with the latest beta releasesApp Store Award winners announcedUpdated Apple Developer Program License Agreement now availableHello Developer: December 2024Get your apps and games ready for the holidaysApp Store Award finalists announcedPrice and tax updates for apps, In-App Purchases, and subscriptionsEnhancements to the App Store featuring processNew Broadcast Push Notification Metrics Now Available in the Push Notifications ConsoleCoding in the kitchen: How Devin Davies whipped up the tasty recipe app CroutonHello Developer: November 2024Upcoming changes to the App Store Receipt Signing Intermediate CertificateTestFlight enhancements to help you reach testersGet ready with the latest beta releasesUpdated agreements now availableNew requirement for app updates in the European UnionApple Push Notification service server certificate updateHello Developer: October 2024Masters of puppets: How ROUND8 Studio carved out a niche for Lies of PAnnouncing the Swift Student Challenge 2025Upcoming regional age ratings in Australia and FranceUpdate on iPadOS 18 apps distributed in the European UnionWin-back offers for auto-renewable subscriptions now availableApp Store submissions now open for the latest OS releasesHello Developer: September 2024Behind the Design: The rhythms of RytmosPrice and tax updates for apps, In-App Purchases, and subscriptionsIt’s Glowtime.Upcoming changes to the browser choice screen, default apps, and app deletion for EU usersUpcoming requirements for app distribution in the European UnionApple Entrepreneur Camp applications are now open",
+  "text_len": 373917,
+  "title": "Latest News - Apple DeveloperUpdates to age ratings for the Republic of KoreaGet ready for new creative assets on the App StoreHello Developer: August 2026Age rating questionnaire now includes social media questionsHello Developer: July 2026Design kits for iOS, iPadOS, and macOS 27 are hereUpdated Apple Developer Program License Agreement now availableChanges to iOS in BrazilNew domain for Sign in with Apple and iCloud+ Hide My EmailWWDC26 surveyFind out what's new for Apple developersIntroducing Time AllowancesUpdated Apple Developer Program License Agreement and App Review Guidelines now available Update for Apps Distributed in TexasApple Developer Centers are expanding to BerlinIntroducing the 2026 Apple Design Award winnersAll systems glowGet ready with the latest beta releasesUpcoming changes to age ratings in Australia and VietnamIntroducing the 2026 Apple Design Award finalistsComing bright upHello Developer: May 2026Get the most out of your Apple Developer accountBrazilian betting license requirement for App Store availabilityTo those who build communityNow Available: Monthly Subscriptions with a 12-Month CommitmentLykke Studios: In pursuit of puffy perfectionHello Developer: April 2026How Infold Games fashioned an open world for Infinity NikkiQ&amp;A: How Plane Finder set itself up for the long haulApp Store expands support to 11 new languagesUpdated Apple Developer Program License Agreement now availableGet ready with the latest beta releasesUpdate on regulated medical device apps in the European Economic Area, United Kingdom, and United StatesNew In-App Purchase and subscription data now available in AnalyticsWWDC26: June 8-12, 2026Apple Developer is now on bilibili and LinkedInAdjustments to the China storefront of the App Store on iOS and iPadOSHello Developer: March 2026Age requirements for apps distributed in Brazil, Australia, Singapore, Utah, and LouisianaGet ready with the latest beta releasesUpdated App Review Guidelines now availableSwift Student Challenge submissions are now openHello Developer: February 2026Upcoming SDK minimum requirementsPrice updates for apps, In-App Purchases, and subscriptionsHello Developer: January 2026Update on age requirements for apps distributed in TexasChanges to iOS in JapanUpdated Apple Developer Program License Agreement now availableNew Requirements for Social Media Apps in AustraliaHello Developer: December 2025App Store Award winners announcedApp Store Award finalists announcedIntroducing the App Store Mini Apps Partner ProgramUpdated App Review Guidelines now availableHello Developer: November 2025Next steps for apps distributed in TexasGet ready with the latest beta releasesPrice updates for apps, In-App Purchases, and subscriptionsEnhancements to help you submit and market your apps and gamesNew requirement for apps using Sign in with Apple for account creationUpdated Apple Developer Program License Agreement now availableNew requirements for apps available in TexasHello Developer: October 2025Upcoming Currency Change in BulgariaGet ready with the latest beta releasesApp Store submissions now open for the latest OS releasesHello Developer: September 2025Awe dropping.Tax and Price Updates for Apps, In-App Purchases, and SubscriptionsHello Developer: August 2025Updated age ratings in App Store ConnectNew 64-bit requirement for watchOS appsiOS and iPadOS 26 design kits are hereUpdates for apps in the European UnionToday @ WWDC25: Day 5Today @ WWDC25: Day 4Today @ WWDC25: Day 3Today @ WWDC25: Day 2Find out what’s new for Apple developersUpdated agreements and guidelines now availableToday @ WWDC25: Day 1Introducing the 2025 Apple Design Award winners and finalistsHello Developer: June 2025Sleek peek.Tax and Price updates for Apps, In-App Purchases, and SubscriptionsHello Developer: May 2025Random access memories: Inside the time-shifting narrative of The WreckUpdated guidelines now availableHello Developer: April 2025Rooms at the top: How this ADA-winning team built a title that defies descriptionWWDC25: June 9-13, 2025Assassin’s Creed Shadows comes to MacHello Developer: March 2025Apple Developer is now on WeChatGet ready with the latest beta releasesNew requirement for apps on the App Store in the European UnionNew features for APNs token authentication are now availableUpcoming changes to offers and trials for subscriptions in South KoreaTax and price updates for apps, In-App Purchases, and subscriptionsGame distribution on the App Store in VietnamHello Developer: February 2025The good news bears: Inside the adorably unorthodox design of Bears GratitudeApply for the Swift Student Challenge now through February 23Introducing the Advanced Commerce APIApps without trader status will be removed from the App Store in the EUReminder: Upcoming Changes to the App Store Receipt Signing Intermediate CertificateAlgorithm changes to server connections for Apple Pay on the WebHello Developer: January 2025Walk this way: How Oko leverages AI to make street crossings more accessibleGet ready with the latest beta releasesApp Store Award winners announcedUpdated Apple Developer Program License Agreement now availableHello Developer: December 2024Get your apps and games ready for the holidaysApp Store Award finalists announcedPrice and tax updates for apps, In-App Purchases, and subscriptionsEnhancements to the App Store featuring processNew Broadcast Push Notification Metrics Now Available in the Push Notifications ConsoleCoding in the kitchen: How Devin Davies whipped up the tasty recipe app CroutonHello Developer: November 2024Upcoming changes to the App Store Receipt Signing Intermediate CertificateTestFlight enhancements to help you reach testersGet ready with the latest beta releasesUpdated agreements now availableNew requirement for app updates in the European UnionApple Push Notification service server certificate updateHello Developer: October 2024Masters of puppets: How ROUND8 Studio carved out a niche for Lies of PAnnouncing the Swift Student Challenge 2025Upcoming regional age ratings in Australia and FranceUpdate on iPadOS 18 apps distributed in the European UnionWin-back offers for auto-renewable subscriptions now availableApp Store submissions now open for the latest OS releasesHello Developer: September 2024Behind the Design: The rhythms of RytmosPrice and tax updates for apps, In-App Purchases, and subscriptionsIt’s Glowtime.Upcoming changes to the browser choice screen, default apps, and app deletion for EU users",
   "url": "https://developer.apple.com/news/rss/news.rss"
  },
  "dev-programs": {
@@ -700,7 +700,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-24 17:43 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "Fri, 31 Jul 2026 18:06:15 GMT",
   "note": "500",
   "route": "html",
@@ -715,7 +715,7 @@
    "ios27",
    "hig"
   ],
-  "etag": "W/\"7dc76a41938a763db6144f61804d30fe\"",
+  "etag": "\"23bc5-65857ff8fda48\"",
   "headings": [
    "The 27 platform releases – June 2026",
    "Xcode 27",
@@ -738,13 +738,13 @@
    "Technology and frameworks",
    "Past releases"
   ],
-  "last_changed": "2026-07-23 18:36 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_changed": "2026-08-16 08:49 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:53:53 GMT",
   "route": "docc",
-  "sha": "d92705b4ae0edfa1871f144c1d73732683b0bd9b12f0bd2323778d249d2d5539",
+  "sha": "5d377a1f7005c389832ddd689eab19450b12d0e4bdecc1fc78e8805a391ae77f",
   "sieve": 1,
-  "text_len": 13629,
+  "text_len": 13708,
   "title": "Updates",
   "url": "https://developer.apple.com/documentation/updates/"
  },
@@ -803,7 +803,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-23 08:46 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
+  "last_checked": "2026-08-16 08:47 UTC",
   "last_modified": "Fri, 30 Jan 2026 23:10:21 GMT",
   "sha": "1fdb1271cb328f4d062b563f8c1066ae60ef3e35aede43f478b958c8160ea933",
   "sieve": 1,
@@ -818,7 +818,7 @@
    "анимация",
    "доступность"
   ],
-  "etag": "W/\"27205b808728f80572bef181caf185b1\"",
+  "etag": "\"14c12-658580f15de17\"",
   "headings": [
    "Vision",
    "Hearing",
@@ -834,8 +834,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 18:47 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "01fee43b27349051ab43e9d4deb02cdab5574eeadfab778eaadb677a415421d4",
   "sieve": 1,
@@ -847,7 +847,7 @@
   "domains": [
    "popup"
   ],
-  "etag": "W/\"b37c3396394c9ea216662a4999df04a5\"",
+  "etag": "\"8eed-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Anatomy",
@@ -863,8 +863,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "0e8fb6116c3bdfd44ebe92d5c21c5d33642b7179bddd3c55de5ebd5e43277238",
   "sieve": 1,
@@ -877,7 +877,7 @@
    "иконки",
    "динамические-иконки"
   ],
-  "etag": "W/\"08618958e4822b4e9cdc2a6b9bf013a1\"",
+  "etag": "\"b500-658580f0f7883\"",
   "headings": [
    "Layer design",
    "Icon shape",
@@ -896,8 +896,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-28 06:33 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "4723a842948d00279c788759a51d666f450d5ce9891a060372dc5cca7fc3ada0",
   "sieve": 1,
@@ -909,7 +909,7 @@
   "domains": [
    "apple-pay"
   ],
-  "etag": "W/\"c6b3307e3e8303b16615f802e7d9bd9d\"",
+  "etag": "\"1a150-658580f133047\"",
   "headings": [
    "Offering Apple Pay",
    "Streamlining checkout",
@@ -939,8 +939,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "5610082c974faf6a134188110a42beb33e47c149275733ef51dca5476a9c2d67",
   "sieve": 1,
@@ -953,7 +953,7 @@
    "плашки",
    "капсулы"
   ],
-  "etag": "W/\"14ba5462979c60e5894cd7df4d5f4e6d\"",
+  "etag": "\"112b4-658580f15de17\"",
   "headings": [
    "Best practices",
    "Style",
@@ -974,8 +974,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "a693e65bdc63e632fe849ceeef5fa1854bbd809655c59c012c47a7b5730a405d",
   "sieve": 1,
@@ -989,7 +989,7 @@
    "Fitness",
    "геймификация"
   ],
-  "etag": "W/\"f2bb324e55aa1a4ff5f6e8c7666a999a\"",
+  "etag": "\"560d-658580f0f7883\"",
   "headings": [
    "Best practices",
    "Designing effective charts",
@@ -1001,8 +1001,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "2626c074d55626f731c05975894e1748abc1b82f2d48059aa7e64c9a9ed1bf63",
   "sieve": 1,
@@ -1015,7 +1015,7 @@
    "цвет",
    "градиенты"
   ],
-  "etag": "W/\"642ed6f9490ed072c9f66917d264f9bb\"",
+  "etag": "\"2c715-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Inclusive color",
@@ -1039,8 +1039,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:35 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "9ddfc8c66030648851da9b7677dd9c4231eaa945d7c0ba2de0d675506f7ceee3",
   "sieve": 1,
@@ -1053,7 +1053,7 @@
    "цвет",
    "тени"
   ],
-  "etag": "W/\"02a15493369b58198fc75c76fd3fddc2\"",
+  "etag": "\"971f-658580f15de17\"",
   "headings": [
    "Best practices",
    "Dark Mode colors",
@@ -1068,8 +1068,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "67d4ea1c496a3a6cf07b5f2a3f22993cbe511dc5d11fc7e2fd207aff7da6c376",
   "sieve": 1,
@@ -1081,7 +1081,7 @@
   "domains": [
    "кроссплатформенность"
   ],
-  "etag": "W/\"8d0595f4d8f55c0f84e8bd7a954949f6\"",
+  "etag": "\"53d2-658580f0f7883\"",
   "headings": [
    "Best practices",
    "Resources",
@@ -1090,8 +1090,8 @@
    "Videos"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "fc173ae2340ae26fe63ce3cdc0d4f4a856dac7a62f052e7164c61308ee3cb954",
   "sieve": 1,
@@ -1103,7 +1103,7 @@
   "domains": [
    "кроссплатформенность"
   ],
-  "etag": "W/\"f71fdfdceacb672a0517d4ad54cc3e5a\"",
+  "etag": "\"6385-658580f0f7883\"",
   "headings": [
    "Best practices",
    "Resources",
@@ -1112,8 +1112,8 @@
    "Videos"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "2b559f724907762c3af8af3234593a3da0de6689270966106481504ab8edb9fa",
   "sieve": 1,
@@ -1126,7 +1126,7 @@
    "кроссплатформенность",
    "TV"
   ],
-  "etag": "W/\"30c2f32c2ccf5a76d57536812729947e\"",
+  "etag": "\"40c3-658580f133047\"",
   "headings": [
    "Best practices",
    "Resources",
@@ -1136,8 +1136,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:38 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "94e2c57abc778d4a7cc382692e150c96d91c9ae87cc6d3f038aeaa2b17ba14f5",
   "sieve": 1,
@@ -1150,7 +1150,7 @@
    "пространственность",
    "стекло-движение"
   ],
-  "etag": "W/\"c2f4d6299f2d6d078a491a1c957631ef\"",
+  "etag": "\"8764-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Resources",
@@ -1160,8 +1160,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "8775e1318c5541bcaf202c362aebf7f60dd59c07bd565fe0800764716c1bde83",
   "sieve": 1,
@@ -1174,7 +1174,7 @@
    "apple-watch",
    "кроссплатформенность"
   ],
-  "etag": "W/\"5017da3f67f99f62e41f8d22cca75727\"",
+  "etag": "\"5c58-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Resources",
@@ -1184,8 +1184,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "f6be8e77c7989d32b0f3521a8ab0adc3ad6c780886e0ef088a832ecf8a55768b",
   "sieve": 1,
@@ -1197,7 +1197,7 @@
   "domains": [
    "геймификация"
   ],
-  "etag": "W/\"87242b41136d6392cce413b4495da45e\"",
+  "etag": "\"fd4b-658580f0f7883\"",
   "headings": [
    "Accessing Game Center",
    "Integrating the access point",
@@ -1218,8 +1218,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "053ecd4e01a936d4f1c9064b688f059de75e12d65ece2377cc7d9c899b961e2c",
   "sieve": 1,
@@ -1232,7 +1232,7 @@
    "жесты",
    "надавливание"
   ],
-  "etag": "W/\"18eff442ce05085450e2c1160f7011f6\"",
+  "etag": "\"ed3e-658580f15de17\"",
   "headings": [
    "Best practices",
    "Custom gestures",
@@ -1254,8 +1254,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "e38c110bc7b1119aafa1a3f3cd8a1662163072cf2c3bc1fcc83e22d756afd1bc",
   "sieve": 1,
@@ -1267,7 +1267,7 @@
   "domains": [
    "вибрации"
   ],
-  "etag": "W/\"8a57abaa8b213d0ae1ba5d728d4aab07\"",
+  "etag": "\"c945-658580f0f7883\"",
   "headings": [
    "Best practices",
    "Custom haptics",
@@ -1285,8 +1285,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "2f88300d534615e685244062fd181abbdce7037c8a0f2d676df2d85a26785d8b",
   "sieve": 1,
@@ -1298,7 +1298,7 @@
   "domains": [
    "иконки"
   ],
-  "etag": "W/\"3ae2dd956f236dcb434cafb3cef76bdf\"",
+  "etag": "\"134e5-658580f0f7883\"",
   "headings": [
    "Best practices",
    "Standard icons",
@@ -1320,8 +1320,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "51d1ec63d6216f324d05dcc6a76c68d8d69e5ba78f880db3822cd5b232b17911",
   "sieve": 1,
@@ -1334,15 +1334,15 @@
    "hig",
    "целостность"
   ],
-  "etag": "W/\"ee9badcf9fdd219f6f146deaf9e006ec\"",
+  "etag": "\"6de2-658580f0c25f9\"",
   "headings": [
    "Design fundamentals",
    "Foundations of design",
    "New and updated"
   ],
   "last_changed": "2026-07-28 06:32 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "5ec92fcb1a30fae72b166b8fc96b71d3a7854362f4a2b5bb48de94d1853c5d06",
   "sieve": 1,
@@ -1356,7 +1356,7 @@
    "минимализм",
    "кроссплатформенность"
   ],
-  "etag": "W/\"540d2c4809fec89d0c1c4ffd3ed968a4\"",
+  "etag": "\"1bf13-658580f133047\"",
   "headings": [
    "Best practices",
    "Visual hierarchy",
@@ -1381,8 +1381,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "7d9cd7d5c86fcbfb9b263fff292e36eb1a85fd7ebb2ad3821bd80f24d2fe5aa5",
   "sieve": 1,
@@ -1394,7 +1394,7 @@
   "domains": [
    "динамические-острова"
   ],
-  "etag": "W/\"724ed8235e408b598d310d47911788f8\"",
+  "etag": "\"18286-658580f0f7883\"",
   "headings": [
    "Anatomy",
    "Compact",
@@ -1430,8 +1430,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "abb434f177767861b0efb9e9edc2eb750c71dcafe8ab6a5d96c56fa644512697",
   "sieve": 1,
@@ -1446,7 +1446,7 @@
    "полупрозрачность",
    "многослойность"
   ],
-  "etag": "W/\"a3d220bcb8c5c66176862f24cd40f15d\"",
+  "etag": "\"12b38-658580f133047\"",
   "headings": [
    "Liquid Glass",
    "Standard materials",
@@ -1463,8 +1463,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:35 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "b8a2b286c9d6d9641a9449bdb8d79708649d819c994fa9fa24a7eae5f229b042",
   "sieve": 1,
@@ -1476,7 +1476,7 @@
   "domains": [
    "динамичные-меню"
   ],
-  "etag": "W/\"0255a5c4d7bfaf4997f5076731414608\"",
+  "etag": "\"befa-658580f15de17\"",
   "headings": [
    "Labels",
    "Icons",
@@ -1493,8 +1493,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "4cff9f2cc767ba04a2c946211e0ed7869f521528eb54415d889e01a22d183e40",
   "sieve": 1,
@@ -1508,7 +1508,7 @@
    "кинетика",
    "эффекты"
   ],
-  "etag": "W/\"986cd3ee76a0fc55e72c0e65fa619e56\"",
+  "etag": "\"7984-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Providing feedback",
@@ -1523,8 +1523,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "b2dc8a62a7c54d099734fa6072ff4b2b60da78c66a4cfd2e0d3bfafdae8598c3",
   "sieve": 1,
@@ -1536,33 +1536,16 @@
   "domains": [
    "архитектура-приложений"
   ],
-  "etag": "W/\"9229c5bf1d5251c1c31555affd3a8208\"",
-  "headings": [
-   "Best practices",
-   "Titles",
-   "Navigation",
-   "Actions",
-   "Item groupings",
-   "Platform considerations",
-   "iOS",
-   "iPadOS",
-   "macOS",
-   "visionOS",
-   "watchOS",
-   "Resources",
-   "Related",
-   "Developer documentation",
-   "Videos",
-   "Change log"
-  ],
-  "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
-  "route": "docc",
-  "sha": "15ac9730ed2a8f38ccd8a39f02f0cdb11ede4f9352f127a3a49555b181888c79",
+  "etag": "\"44f3-658580f0c25f9\"",
+  "headings": [],
+  "last_changed": "2026-08-16 08:48 UTC",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
+  "route": "html",
+  "sha": "db40d18391eb994ce15cbbfe1267936277584e23675b0c746d8f946147c0a712",
   "sieve": 1,
-  "text_len": 13986,
-  "title": "Toolbars",
+  "text_len": 40,
+  "title": "Toolbars | Apple Developer Documentation",
   "url": "https://developer.apple.com/design/human-interface-guidelines/navigation-bars"
  },
  "hig-pickers": {
@@ -1570,7 +1553,7 @@
    "контролы",
    "Calendar"
   ],
-  "etag": "W/\"9dc5f0cae321c7dc8e2a42d1af89e7bd\"",
+  "etag": "\"6c98-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1584,8 +1567,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "87ea986c057910d62c765d4db148602d88414dafc883d5b6cb23858228ec71d3",
   "sieve": 1,
@@ -1597,7 +1580,7 @@
   "domains": [
    "popup"
   ],
-  "etag": "W/\"0536042e1590886f729c2c6286ef7059\"",
+  "etag": "\"5992-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1608,8 +1591,8 @@
    "Developer documentation"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "6ca8b3e10b74b135881a7ca7feb181cbeb13c1d06b6501c8966067189a420c84",
   "sieve": 1,
@@ -1622,7 +1605,7 @@
    "контролы",
    "анимация"
   ],
-  "etag": "W/\"2c18def3895a179093dda57975324866\"",
+  "etag": "\"6a4e-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1635,8 +1618,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "8ea86cb422f40519df1384bbb4546fbd06206bec05ebf5e83bdb5012f0196482",
   "sieve": 1,
@@ -1649,7 +1632,7 @@
    "рейтинги",
    "отзывы"
   ],
-  "etag": "W/\"5abb3d9e2980d7fa377d48a034c84221\"",
+  "etag": "\"2efa-658580f15de17\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1659,8 +1642,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "a04e401cc86d547a541392ecd0643d6977ec982f3f8e674d55c40e334a40afd5",
   "sieve": 1,
@@ -1673,7 +1656,7 @@
    "многослойность",
    "popup"
   ],
-  "etag": "W/\"16a1b063b7c90916790f1de25c0703af\"",
+  "etag": "\"ddec-658580f0c25f9\"",
   "headings": [
    "Anatomy",
    "Best practices",
@@ -1688,8 +1671,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "1a3ac887201749c2c72680563696636c96ec4dd1d7a9282f96d17a00b9d170fb",
   "sieve": 1,
@@ -1701,7 +1684,7 @@
   "domains": [
    "ползунки"
   ],
-  "etag": "W/\"811fe34e4ef41db03471f46268d910fc\"",
+  "etag": "\"6ad8-658580f133047\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1715,8 +1698,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "ec5adf91f3aa26f1933408a3e0f04ff80af0d90647a3d442be5e9db7725660b9",
   "sieve": 1,
@@ -1730,7 +1713,7 @@
    "суб-приложения",
    "кроссплатформенность"
   ],
-  "etag": "W/\"dd84ae4089673b7acefded1782578b95\"",
+  "etag": "\"87c1-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1747,8 +1730,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "6ab0712178ec361072c2c096febab74287b0c9b8c535f4d900cea99b8b73bdbf",
   "sieve": 1,
@@ -1761,7 +1744,7 @@
    "хром",
    "острова"
   ],
-  "etag": "W/\"8bad160d5cf9a8c57171a84bccb57562\"",
+  "etag": "\"358b-658580f0f7883\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1769,8 +1752,8 @@
    "Developer documentation"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "18c7dd2db959ac0a3dcd625698d760a37bb67d2dafaed14ff29c197c21b284c2",
   "sieve": 1,
@@ -1783,7 +1766,7 @@
    "динамичные-меню",
    "архитектура-приложений"
   ],
-  "etag": "W/\"8e56847dd69bccd2bc271b550b02c0fa\"",
+  "etag": "\"d008-658580f15de17\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1798,8 +1781,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "9f4faa666379640a866bbd8be332b682b709eb0891f3f15d6da973f21005cdab",
   "sieve": 1,
@@ -1812,7 +1795,7 @@
    "контролы",
    "формы"
   ],
-  "etag": "W/\"f0049cbc741a4427142fd140831b04e5\"",
+  "etag": "\"6425-658580f133047\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1825,8 +1808,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "95d4f4aab9371d345eb12588d5402dde3069b6dc346a7f46cd85a80de1d1fc39",
   "sieve": 1,
@@ -1839,7 +1822,7 @@
    "контролы",
    "ползунки"
   ],
-  "etag": "W/\"13de11d0893ca619b834d400a840d895\"",
+  "etag": "\"96c3-658580f133047\"",
   "headings": [
    "Best practices",
    "Platform considerations",
@@ -1854,8 +1837,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "116b53512ca6e8dc94a83b4e60568fe6d4cfcdf9342c8b6d00043f079a708814",
   "sieve": 1,
@@ -1868,7 +1851,7 @@
    "панели",
    "меню"
   ],
-  "etag": "W/\"9229c5bf1d5251c1c31555affd3a8208\"",
+  "etag": "\"11c59-658580f0c25f9\"",
   "headings": [
    "Best practices",
    "Titles",
@@ -1888,8 +1871,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:37 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "15ac9730ed2a8f38ccd8a39f02f0cdb11ede4f9352f127a3a49555b181888c79",
   "sieve": 1,
@@ -1902,7 +1885,7 @@
    "кернинг",
    "шрифты"
   ],
-  "etag": "W/\"e7446e4ab62f2eaac63b7acd30aa8e9b\"",
+  "etag": "\"44a35-658580f0f7883\"",
   "headings": [
    "Ensuring legibility",
    "Conveying hierarchy",
@@ -1934,8 +1917,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "ed10163280ef90cc3ccf2ba23d034ef07d5b6a3fdec0b9c6c2efe649e4ed2faa",
   "sieve": 1,
@@ -1947,7 +1930,7 @@
   "domains": [
    "apple-wallet"
   ],
-  "etag": "W/\"a30fa8faf0f2cd54434b51eff8ec4da6\"",
+  "etag": "\"1f97b-658580f0f7883\"",
   "headings": [
    "Passes",
    "Pass anatomy",
@@ -1981,8 +1964,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "ac4f476bd9966b678dc06541da39205c29e1a2aafc5dbfe16221d487475605f1",
   "sieve": 1,
@@ -2026,7 +2009,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-23 08:46 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
+  "last_checked": "2026-08-16 08:47 UTC",
   "last_modified": "Mon, 27 Jul 2026 22:47:51 GMT",
   "route": "html",
   "sha": "73e1e3ba98a4a9bb50a9c4e22d0d82f80e620e40bf0183706bc65831047d1983",
@@ -2040,7 +2023,7 @@
    "динамические-острова",
    "кроссплатформенность"
   ],
-  "etag": "W/\"5cc52842d3718cc44b89f2f7cdc277e5\"",
+  "etag": "\"22b57-658580f15de17\"",
   "headings": [
    "Anatomy",
    "System family widgets",
@@ -2077,8 +2060,8 @@
    "Change log"
   ],
   "last_changed": "2026-07-23 17:36 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:58:13 GMT",
   "route": "docc",
   "sha": "cfeadcf922b0656baf60c3673cd58040c911c2f4a73bfb8385009e7a930d4258",
   "sieve": 1,
@@ -2129,7 +2112,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:02 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "87a3d5a286bd2a52980bcf4e692f37b24a8622f8fd6ab6868a32db7e6424ef72",
@@ -2188,7 +2171,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-23 08:47 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
+  "last_checked": "2026-08-16 08:48 UTC",
   "last_modified": "Mon, 27 Jul 2026 22:47:51 GMT",
   "route": "html",
   "sha": "749bc7554bcc911b5114f1984047ca41e5c09990191dd47633e100518b0db251",
@@ -2201,7 +2184,7 @@
   "domains": [
    "ios27"
   ],
-  "etag": "W/\"72afe392eb5264f698635e2ab5cf5aa0\"",
+  "etag": "\"aff6-658b58c733a21\"",
   "headings": [
    "Overview",
    "Bug Reporting",
@@ -2215,11 +2198,11 @@
    "iOS & iPadOS 13",
    "iOS 12"
   ],
-  "last_changed": "2026-07-30 15:54 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
-  "last_modified": "",
+  "last_changed": "2026-08-16 08:48 UTC",
+  "last_checked": "2026-08-16 08:48 UTC",
+  "last_modified": "Mon, 10 Aug 2026 18:30:28 GMT",
   "route": "docc",
-  "sha": "931b818ec41b3d7bf33eeb3da507579fecb497cf4a5e3ca41fba37d5db52a262",
+  "sha": "fdd79aea15d2bba360d1edde40d5d48782bdbdd7cd6deecbcf6224f231ddfd7c",
   "sieve": 1,
   "text_len": 2585,
   "title": "iOS & iPadOS Release Notes",
@@ -2293,7 +2276,7 @@
    "h4: Build a responsive camera app that launches quickly"
   ],
   "last_changed": "2026-07-23 18:08 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
   "last_modified": "Mon, 27 Jul 2026 22:47:51 GMT",
   "route": "html",
   "sha": "8d3950065f980982e11e71bf5074da6566b990498ee5db11033438da7a58822f",
@@ -2353,7 +2336,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-23 08:47 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
+  "last_checked": "2026-08-16 08:48 UTC",
   "last_modified": "Mon, 27 Jul 2026 22:47:51 GMT",
   "route": "html",
   "sha": "c1a87537530976c6d2f34b1e800123566f617bd3800ff7ff4569418033d6181a",
@@ -2368,7 +2351,7 @@
    "свечение",
    "стекло-движение"
   ],
-  "etag": "W/\"61f866bc3f4b03654e850ebfc794f731\"",
+  "etag": "\"250da-65857ffb38310\"",
   "headings": [
    "Overview",
    "See your app with Liquid Glass",
@@ -2383,8 +2366,8 @@
    "Platform considerations"
   ],
   "last_changed": "2026-07-23 18:34 UTC",
-  "last_checked": "2026-08-10 06:55 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:47 UTC",
+  "last_modified": "Thu, 06 Aug 2026 02:53:55 GMT",
   "route": "docc",
   "sha": "98f4dc35bb1a57da18a153c67ce72985a4f9c3f7e19e760fa2a64391626c4a74",
   "sieve": 1,
@@ -2434,7 +2417,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-24 17:43 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "Mon, 27 Jul 2026 22:47:51 GMT",
   "note": "500",
   "route": "html",
@@ -2485,7 +2468,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-07-24 17:43 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "Mon, 27 Jul 2026 22:47:51 GMT",
   "note": "500",
   "route": "html",
@@ -2538,7 +2521,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:00 UTC",
-  "last_checked": "2026-08-10 06:56 UTC",
+  "last_checked": "2026-08-16 08:47 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "a4c6cf6f067c6d97968dbbadcb0f56055a2e1cc1e6366b1fa134f577f349bbe2",
@@ -2591,7 +2574,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:02 UTC",
-  "last_checked": "2026-08-10 06:57 UTC",
+  "last_checked": "2026-08-16 08:49 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "a4c6cf6f067c6d97968dbbadcb0f56055a2e1cc1e6366b1fa134f577f349bbe2",
@@ -2606,7 +2589,7 @@
    "анимация",
    "спринги"
   ],
-  "etag": "W/\"ccb7c2221b548babf2db5ac24829652b\"",
+  "etag": "\"1386e-658583ef588cf\"",
   "headings": [
    "Overview",
    "Getting the default animation",
@@ -2622,8 +2605,8 @@
    "Type Methods"
   ],
   "last_changed": "2026-07-23 18:47 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Thu, 06 Aug 2026 03:11:36 GMT",
   "route": "docc",
   "sha": "b5613eae899e6cbbdbf8424dd764ca339d08c4f13c55d3765918e13a32aa9d12",
   "sieve": 1,
@@ -2637,7 +2620,7 @@
    "спринги",
    "анимация"
   ],
-  "etag": "W/\"d8bc64a753c82df9ae303e7682c08bd5\"",
+  "etag": "\"a018-658583e91d1af\"",
   "headings": [
    "Overview",
    "Creating a spring",
@@ -2648,8 +2631,8 @@
    "Calculating forces and durations"
   ],
   "last_changed": "2026-07-24 16:51 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
-  "last_modified": "",
+  "last_checked": "2026-08-16 08:50 UTC",
+  "last_modified": "Thu, 06 Aug 2026 03:11:30 GMT",
   "route": "docc",
   "sha": "a96c4346dbc3c0e0b8a75f8d38152219c027d70a3b0c52b8182757c852a4918c",
   "sieve": 1,
@@ -2703,7 +2686,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:03 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "195ad76fcfc4ea1edf4cb7c438c68c73d8eb4d315bd031a7bc83bb5cf1961ffc",
@@ -2766,7 +2749,7 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:02 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
   "last_modified": "",
   "route": "html",
   "sha": "7c0acef52d247bfe60239b8c9057857192b9dc09a8d5a8c01038f608ce4a2cd6",
@@ -2811,13 +2794,13 @@
    "h3: Programs",
    "h3: Events"
   ],
-  "last_changed": "2026-08-03 07:03 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
-  "last_modified": "Mon, 10 Aug 2026 06:58:29 GMT",
+  "last_changed": "2026-08-16 08:50 UTC",
+  "last_checked": "2026-08-16 08:50 UTC",
+  "last_modified": "Sun, 16 Aug 2026 08:50:16 GMT",
   "route": "html",
-  "sha": "37deaa79a2d8487d959fdcb98c4cc493bf73cfc184be87582086e48e7e76896e",
+  "sha": "8ec13c57bd526cfe76a5f25b2bddbe05d7b9181c8632c935f2b069fc24dd5cd2",
   "sieve": 1,
-  "text_len": 11253,
+  "text_len": 11355,
   "title": "Design - Videos - Apple Developer",
   "url": "https://developer.apple.com/videos/design/"
  },
@@ -2858,8 +2841,8 @@
    "h3: Events"
   ],
   "last_changed": "2026-08-03 07:02 UTC",
-  "last_checked": "2026-08-10 06:58 UTC",
-  "last_modified": "Mon, 10 Aug 2026 06:58:05 GMT",
+  "last_checked": "2026-08-16 08:49 UTC",
+  "last_modified": "Sun, 16 Aug 2026 08:49:51 GMT",
   "route": "html",
   "sha": "b1233b8793b6780d76e88928487bb5f4eef845d9aa86e8e9c0b077bdb02e60ad",
   "sieve": 1,

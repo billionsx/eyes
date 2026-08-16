@@ -47,12 +47,12 @@
 - [`hig-whats-new`](hig-whats-new.md) · положений: 16
 
 ## iOS 27
-- [`dev-download`](dev-download.md) · положений: 3
+- [`dev-download`](dev-download.md) · положений: 1
 
 ## ios27
 - [`apple-newsroom-rss`](apple-newsroom-rss.md) · положений: 0
 - [`dev-news`](dev-news.md) · положений: 120
-- [`dev-news-rss`](dev-news-rss.md) · положений: 33
+- [`dev-news-rss`](dev-news-rss.md) · положений: 32
 - [`doc-updates`](doc-updates.md) · положений: 35
 - [`hig-whats-new`](hig-whats-new.md) · положений: 16
 - [`ios-landing`](ios-landing.md) · положений: 5
@@ -87,7 +87,7 @@
 - [`hig-split-views`](hig-split-views.md) · положений: 18
 
 ## архитектура-приложений
-- [`hig-navigation-bars`](hig-navigation-bars.md) · положений: 34
+- [`hig-navigation-bars`](hig-navigation-bars.md) · положений: 0
 - [`hig-tab-bars`](hig-tab-bars.md) · положений: 23
 
 ## бейджи
@@ -133,7 +133,7 @@
 - [`hig-gestures`](hig-gestures.md) · положений: 39
 
 ## загрузки
-- [`dev-download`](dev-download.md) · положений: 3
+- [`dev-download`](dev-download.md) · положений: 1
 
 ## иконки
 - [`design-resources`](design-resources.md) · положений: 10
@@ -144,7 +144,7 @@
 - [`sf-symbols-8`](sf-symbols-8.md) · положений: 4
 
 ## инструменты
-- [`dev-download`](dev-download.md) · положений: 3
+- [`dev-download`](dev-download.md) · положений: 1
 - [`icon-composer`](icon-composer.md) · положений: 2
 - [`pass-designer`](pass-designer.md) · положений: 5
 - [`reality-composer-pro`](reality-composer-pro.md) · положений: 1

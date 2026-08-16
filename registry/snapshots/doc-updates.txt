@@ -1,6 +1,6 @@
 # Updates
 # https://developer.apple.com/documentation/updates/
-# снято: 2026-07-23 18:36 UTC
+# снято: 2026-08-16 08:49 UTC
 
 ## The 27 platform releases – June 2026
 ## Xcode 27
@@ -46,7 +46,7 @@ Use closures as part of automatic observation tracking to automatically invalida
 ## AppKit
 Create events similar to UIControl events on NSControl with the new type. Update views automatically in response to Observable model changes using the guidance in . macOS 27 improves the touch experience when your Mac app is running on an iPad as a Sidecar display. Read for best practices to ensure your app behaves as expected on a Sidecar display.
 ## SwiftData
-Read the latest article update to help you migrate your Core Data app to use SwiftData with . Learn how to use with and a SwiftData .
+Read the latest article update to help you migrate your Core Data app to use SwiftData with . Learn how to use with doc://com.apple.documentation/documentation/swiftdata/resultssectioncollection and a SwiftData .
 ## Privacy and Security
 Developers of sensitive and secure apps can use the framework to request an evaluation from the system to help detect if someone is at risk of a social engineering threat. This information can be used in combination with other factors to enable a developer to help keep their users more protected.
 ## Graphics and Media

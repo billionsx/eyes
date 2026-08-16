@@ -2695,3 +2695,45 @@
 ### · big7-бриф 2026-W33
 - положений в брифе 450 · рамок выросло 9
 
+### 2026-08-16 08:48 UTC · `hig-navigation-bars` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/design/human-interface-guidelines/navigation-bars
+- домены мандата: архитектура-приложений
+- исчезли: Best practices · Titles · Navigation · Actions · Item groupings · Platform considerations · iOS · iPadOS · macOS · visionOS · watchOS · Resources
+- объём текста: 13986 → 40 зн.
+
+### 2026-08-16 08:48 UTC · `ios-release-notes` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/documentation/ios-ipados-release-notes
+- домены мандата: ios27
+- объём текста: 2585 → 2585 зн.
+
+### 2026-08-16 08:49 UTC · `dev-news` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/news/
+- домены мандата: ios27, hig
+- появились: h2: Updates to age ratings for the Republic of Korea · h2: Next steps for apps distributed in Texas · h2: Enhancements to help you submit and market your apps and games · h3: Submit additional items to App Review · h3: Create double the number of custom product pages and add keywords · h3: Offer codes expand to all In-App Purchase types · h2: New requirement for apps using Sign in with Apple for account creation · h3: Account change guidance · h3: Resources · h2: New requirements for apps available in Texas · h2: Upcoming Currency Change in Bulgaria · h2: App Store submissions now open for the latest OS releases
+- объём текста: 104500 → 103988 зн.
+
+### 2026-08-16 08:49 UTC · `dev-news-rss` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/news/rss/news.rss
+- домены мандата: ios27
+- объём текста: 375037 → 373917 зн.
+
+### 2026-08-16 08:49 UTC · `apple-newsroom-rss` · ИЗМЕНЕНИЕ
+- https://www.apple.com/newsroom/rss-feed.rss
+- домены мандата: ios27, маркетинг
+- объём текста: 1558 → 1529 зн.
+
+### 2026-08-16 08:49 UTC · `doc-updates` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/documentation/updates/
+- домены мандата: ios27, hig
+- объём текста: 13629 → 13708 зн.
+
+### 2026-08-16 08:50 UTC · `videos-design` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/videos/design/
+- домены мандата: UI/UX, видео, Liquid Glass
+- объём текста: 11253 → 11355 зн.
+
+### 2026-08-16 08:50 UTC · `dev-download` · ИЗМЕНЕНИЕ
+- https://developer.apple.com/download/
+- домены мандата: загрузки, инструменты, iOS 27
+- объём текста: 4180 → 4104 зн.
+
