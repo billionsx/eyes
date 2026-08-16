@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-16 09:51 UTC",
+ "ts": "2026-08-16 09:56 UTC",
  "atlas": {
   "visited": 56200,
   "frontier": 10465,
@@ -175,7 +175,7 @@
     "id": "T13",
     "task": "Урожай неубиваем пушами/отменами",
     "status": "done",
-    "organ": "eyes-atlas.yml — своя concurrency-группа",
+    "organ": "eyes-yield.yml + eyes-atlas.yml — свои concurrency-группы (разделены ст. 49.2)",
     "article": "ст. 37.3 (примеч.)"
    },
    {
@@ -287,5 +287,5 @@
    }
   ]
  },
- "articles": 77
+ "articles": 78
 }

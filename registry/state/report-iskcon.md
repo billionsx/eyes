@@ -137,11 +137,11 @@
 - `apps/web/src/EkadashiScreen.tsx:87` — border-radius 20px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/EkadashiScreen.tsx:98` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/EkadashiScreen.tsx:137` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/EntityPage.tsx:456` — border-radius 1px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/EntityPage.tsx:792` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/EntityPage.tsx:957` — border-radius 9px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/EntityPage.tsx:1587` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
-- `apps/web/src/EntityPage.tsx:1605` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:458` — border-radius 1px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:794` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:959` — border-radius 9px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:1608` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
+- `apps/web/src/EntityPage.tsx:1650` — border-radius 14px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/EventCard.tsx:247` — border-radius 22px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/EventCard.tsx:266` — border-radius 7px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
 - `apps/web/src/FavoritesScreen.tsx:238` — border-radius 11px вне измеренной лестницы [8.0, 12.0, 16.0, 24.0, 29.0, 37.8]
@@ -256,7 +256,7 @@
 - `apps/web/src/feed/DarshanFeed.tsx:107` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/main.tsx:205` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/play/kirtansb.tsx:124` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
-- `apps/web/src/play/lectures.tsx:186` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
+- `apps/web/src/play/lectures.tsx:199` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/play/screens.tsx:820` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/prasad/covers.tsx:113` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
 - `apps/web/src/shop/CartScreen.tsx:553` — свечение/тень запрещены (box/text-shadow, drop-shadow) — глубина = СТУПЕНЬ ПОВЕРХНОСТИ. Замерено на обоих холстах: на чёрном (217 кадров) и на светлом (635 кромок, профиль холста у кромки — медиана 0.000)
@@ -280,7 +280,7 @@
 - `apps/web/src/DarshanScreen.tsx:120` — border-radius 20.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/DonateModal.tsx:89` — border-radius 14.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/EkadashiScreen.tsx:28` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
-- `apps/web/src/EntityPage.tsx:490` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
+- `apps/web/src/EntityPage.tsx:492` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/EventCard.tsx:247` — border-radius 22.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/FavoritesScreen.tsx:379` — border-radius 16.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
 - `apps/web/src/HomeCalendar.tsx:40` — border-radius 22.0px > 12pt без формы суперэллипса (clip-path:path / corner-shape)
@@ -429,9 +429,9 @@
 - `apps/web/src/DarshanStories.tsx:536` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/DarshanStories.tsx:536` — opacity 0.8 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/DownloaderScreen.tsx:549` — opacity 0.35 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/EntityPage.tsx:184` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/EntityPage.tsx:364` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
-- `apps/web/src/EntityPage.tsx:462` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/EntityPage.tsx:186` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/EntityPage.tsx:366` — opacity 0.45 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
+- `apps/web/src/EntityPage.tsx:464` — opacity 0.55 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/HomeCalendar.tsx:697` — opacity 0.7 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/HomeScreen.tsx:335` — opacity 0.5 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
 - `apps/web/src/HomeSheet.tsx:32` — opacity 0.5 вне лестницы [0.0, 0.05, 0.06, 0.09, 0.18, 0.3, 0.6, 1.0] (метки iOS + измеренное стекло)
