@@ -28,7 +28,9 @@ permissions:
 jobs:
   reap:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # 16.08.2026: 15 → 25. Дозор источников добавлен в этот контур и стоит
+    # ~193 с; прежний потолок оставлял жатве запас, которого больше нет.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - name: "Суд органов до жатвы"
@@ -38,6 +40,16 @@ jobs:
           python3 bin/typescale.py --court
           python3 bin/devices.py --court
           python3 bin/rebuild.py --court
+      - name: "Разведка — дозор источников Apple (ст. 49: ежедневно)"
+        # 16.08.2026 · перенесён сюда из приёма. Дозор ходит по короткому
+        # курируемому списку страниц условными запросами: неизменившаяся
+        # страница стоит Apple один 304. Ему нужен СУТОЧНЫЙ ход, а не пуш в
+        # код департамента, и жатва — единственный ежесуточный контур.
+        # Ошибка дозора жатву не роняет: изменение первоисточника — событие
+        # летописи, а не отказ сборки.
+        continue-on-error: true
+        run: python3 bin/eyes.py crawl
+
       - name: "Перемол склада: новые сита по уже пройденному, без сети"
         run: python3 bin/harvest.py --remill || true
       - name: "Жатва по фронту"
@@ -65,7 +77,9 @@ jobs:
         run: |
           git config user.email "eyes@billionsx"
           git config user.name "Billions X Eyes"
-          git add registry/standards/palette.json registry/state/harvest.json \
+          git add registry/state/watch-state.json registry/snapshots \
+                  registry/state/CHANGELOG.md \
+                  registry/standards/palette.json registry/state/harvest.json \
                   registry/corpus/hig registry/library/hig-tables.jsonl \
                   registry/standards/typescale.json registry/standards/devices.json \
                   registry/standards/tokens.json \
