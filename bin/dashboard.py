@@ -169,7 +169,7 @@ def render(d: dict):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="refresh" content="600">
 <title>Billions X Eyes · эфир</title>
-<meta name="description" content="Департамент стандартов Apple: живые числа реестров, законы, храповик долга подключённых проектов.">
+<meta name="description" content="Департамент остановлен 18.08.2026. Числа заморожены и текущего состояния проектов не описывают.">
 <style>
 :root{{color-scheme:dark}}
 *{{box-sizing:border-box}}
@@ -190,12 +190,27 @@ td{{padding:8px;border-top:1px solid #2C2C2E;font-size:13.5px;vertical-align:top
 .s-partial{{color:#FFD60A}}.s-blocked{{color:#FF453A}}
 a{{color:#0A84FF;text-decoration:none}}
 footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
+.stop{{background:#3A0D0A;border:1px solid #FF453A;border-radius:18px;padding:20px 22px;margin:0 0 24px}}
+.stop h2{{margin:0 0 10px;font-size:22px;font-weight:700;color:#FF453A;letter-spacing:-.3px}}
+.stop p{{margin:0 0 8px;font-size:14.5px;color:rgba(255,255,255,.82)}}
+.stop p:last-child{{margin-bottom:0}}
+.stale{{opacity:.45}}
 </style>
 <header>
 <h1>Billions X Eyes</h1>
-<div class="sub">Департамент стандартов Apple · автономный · эфир пересобран {d['ts']}</div>
+<div class="sub">Департамент стандартов Apple · эфир пересобран {d['ts']}</div>
 </header>
-<div class="g">
+<div class="stop">
+<h2>⛔ Департамент остановлен полностью · 18.08.2026</h2>
+<p>По слову основателя отключены фундаментально любые связи и любые процессы.
+Все контуры сняты, все паспорта погашены, клиентские контуры удалены из репозиториев проектов.
+Ни один орган не ходит ни в один репозиторий, ни в один прод, ни в один источник Apple.</p>
+<p><b>Числа ниже — последние, а не текущие.</b> Они не обновляются с этой даты и не описывают
+состояние ни одного проекта сегодня. Читать их как «сегодня чисто» нельзя: департамент молчит
+не потому, что чисто, а потому что выключен.</p>
+<p>Молчание не смеет читаться как чистота — ЗКН-Э006, и запрет действует в момент остановки тоже.</p>
+</div>
+<div class="g stale">
 <div class="c"><div class="n">{d['library']['laws']}</div><div class="l">законов в библиотеке · {d['library']['frameworks']} фреймворков · +{d['web_laws']} веб</div></div>
 <div class="c"><div class="n">{d['atlas']['visited']}</div><div class="l">страниц документации пройдено · фронтир {d['atlas']['frontier']}</div></div>
 <div class="c"><div class="n">{d['knowledge']}</div><div class="l">положений знания · {d['sources']} источников дозора</div></div>
@@ -208,7 +223,7 @@ footer{{margin-top:32px;color:rgba(255,255,255,.45);font-size:13px}}
 </div>
 <h2>Поручения</h2>
 <table>{rows}</table>
-<footer>Числа — только из реестров департамента, ни одного из головы (ЗКН-Э001).
+<footer>Эфир заморожен 18.08.2026 вместе с департаментом. Числа — только из реестров, ни одного из головы (ЗКН-Э001), но с этой даты они не пересчитываются.
 Исходники и хроника: <a href="https://github.com/billionsx/eyes">github.com/billionsx/eyes</a> ·
 лист в Markdown: <a href="https://github.com/billionsx/eyes/blob/main/dashboard/DASHBOARD.md">DASHBOARD.md</a></footer>
 </html>"""
