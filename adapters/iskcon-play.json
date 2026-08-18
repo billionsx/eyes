@@ -1,50 +1,52 @@
 {
- "project": "iskcon-play",
- "created": "2026-08-16",
- "pt_to_css_px": 1,
- "allow_extra": [],
- "sizes_extra": [],
- "report": {
-  "globs": [
-   "apps/web/src/play/**/*.css",
-   "apps/web/src/play/**/*.tsx",
-   "apps/web/src/play/**/*.ts",
-   "apps/web/src/music/music.css"
+  "project": "iskcon-play",
+  "created": "2026-08-16",
+  "pt_to_css_px": 1,
+  "allow_extra": [],
+  "sizes_extra": [],
+  "report": {
+    "globs": [
+      "apps/web/src/play/**/*.css",
+      "apps/web/src/play/**/*.tsx",
+      "apps/web/src/play/**/*.ts",
+      "apps/web/src/music/music.css"
+    ],
+    "rules": [
+      "AE1",
+      "AE2",
+      "AE3",
+      "AE4",
+      "AE6",
+      "AE7",
+      "AE8",
+      "AE9",
+      "AE10",
+      "AE11",
+      "AE12",
+      "AE13",
+      "AE14",
+      "AE15",
+      "AE18"
+    ]
+  },
+  "strict": {
+    "globs": [],
+    "rules": [
+      "AE18"
+    ]
+  },
+  "_порядок": "оболочка плеера судится ОТДЕЛЬНЫМ паспортом: она живёт по канону iOS 26.5, а не по законам ONE LOVE, и её долг не должен тонуть в легаси приложения. Храповик свой — рост по оболочке виден сразу.",
+  "_music": "домен /music живёт по products/music.md и изолирован распоряжением основателя — свод один, метод один",
+  "radius_extra": [],
+  "enabled": false,
+  "repo": "billionsx/iskcon",
+  "branch": "main",
+  "prod": "https://brajs.com",
+  "live_pages": [
+    "https://brajs.com/music",
+    "https://brajs.com/play"
   ],
-  "rules": [
-   "AE1",
-   "AE2",
-   "AE3",
-   "AE4",
-   "AE6",
-   "AE7",
-   "AE8",
-   "AE9",
-   "AE10",
-   "AE11",
-   "AE12",
-   "AE13",
-   "AE14",
-   "AE15",
-   "AE18"
-  ]
- },
- "strict": {
-  "globs": [],
-  "rules": [
-   "AE18"
-  ]
- },
- "_порядок": "оболочка плеера судится ОТДЕЛЬНЫМ паспортом: она живёт по канону iOS 26.5, а не по законам ONE LOVE, и её долг не должен тонуть в легаси приложения. Храповик свой — рост по оболочке виден сразу.",
- "_music": "домен /music живёт по products/music.md и изолирован распоряжением основателя — свод один, метод один",
- "radius_extra": [],
- "enabled": true,
- "repo": "billionsx/iskcon",
- "branch": "main",
- "prod": "https://brajs.com",
- "live_pages": [
-  "https://brajs.com/music",
-  "https://brajs.com/play"
- ],
- "deploy_workflow": "Deploy Web (Cloudflare)"
+  "deploy_workflow": "Deploy Web (Cloudflare)",
+  "frozen_reason": "ПОЛНОЕ ОТКЛЮЧЕНИЕ ДЕПАРТАМЕНТА 18.08.2026 по слову основателя: сняты все контуры, погашены все паспорта, клиентские контуры удалены из billionsx/iskcon, ЗКН-Д030 там понижен У5 → У1. Возврат — только отдельным решением основателя.",
+  "frozen_at": "2026-08-18"
 }

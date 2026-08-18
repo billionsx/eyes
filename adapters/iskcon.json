@@ -1,49 +1,51 @@
 {
- "project": "iskcon",
- "created": "2026-07-23",
- "pt_to_css_px": 1,
- "allow_extra": [],
- "sizes_extra": [],
- "report": {
-  "globs": [
-   "apps/web/src/**/*.css",
-   "apps/web/src/**/*.tsx"
+  "project": "iskcon",
+  "created": "2026-07-23",
+  "pt_to_css_px": 1,
+  "allow_extra": [],
+  "sizes_extra": [],
+  "report": {
+    "globs": [
+      "apps/web/src/**/*.css",
+      "apps/web/src/**/*.tsx"
+    ],
+    "rules": [
+      "AE1",
+      "AE2",
+      "AE3",
+      "AE4",
+      "AE6",
+      "AE7",
+      "AE8",
+      "AE9",
+      "AE10",
+      "AE11",
+      "AE12",
+      "AE13",
+      "AE14",
+      "AE15",
+      "AE18"
+    ]
+  },
+  "strict": {
+    "globs": [],
+    "rules": [
+      "AE18"
+    ]
+  },
+  "_порядок": "в этом проекте У5 уже несут свои гейты (one-love-lint, ios26-tokens, ios26-lint, laws-lint) — департамент их не дублирует. Его report — СОВЕТНИК поверх apps/web; его собственный строгий гейт — selftest на живых нарушениях. Перевод правил в strict — только решением основателя.",
+  "_music": "домен /music живёт по products/music.md и изолирован распоряжением основателя — свод один, метод один",
+  "radius_extra": [],
+  "enabled": false,
+  "repo": "billionsx/iskcon",
+  "branch": "main",
+  "prod": "https://brajs.com",
+  "live_pages": [
+    "https://brajs.com/",
+    "https://brajs.com/katha",
+    "https://brajs.com/library"
   ],
-  "rules": [
-   "AE1",
-   "AE2",
-   "AE3",
-   "AE4",
-   "AE6",
-   "AE7",
-   "AE8",
-   "AE9",
-   "AE10",
-   "AE11",
-   "AE12",
-   "AE13",
-   "AE14",
-   "AE15",
-   "AE18"
-  ]
- },
- "strict": {
-  "globs": [],
-  "rules": [
-   "AE18"
-  ]
- },
- "_порядок": "в этом проекте У5 уже несут свои гейты (one-love-lint, ios26-tokens, ios26-lint, laws-lint) — департамент их не дублирует. Его report — СОВЕТНИК поверх apps/web; его собственный строгий гейт — selftest на живых нарушениях. Перевод правил в strict — только решением основателя.",
- "_music": "домен /music живёт по products/music.md и изолирован распоряжением основателя — свод один, метод один",
- "radius_extra": [],
- "enabled": true,
- "repo": "billionsx/iskcon",
- "branch": "main",
- "prod": "https://brajs.com",
- "live_pages": [
-  "https://brajs.com/",
-  "https://brajs.com/katha",
-  "https://brajs.com/library"
- ],
- "deploy_workflow": "Deploy Web (Cloudflare)"
+  "deploy_workflow": "Deploy Web (Cloudflare)",
+  "frozen_reason": "ПОЛНОЕ ОТКЛЮЧЕНИЕ ДЕПАРТАМЕНТА 18.08.2026 по слову основателя: сняты все контуры, погашены все паспорта, клиентские контуры удалены из billionsx/iskcon, ЗКН-Д030 там понижен У5 → У1. Возврат — только отдельным решением основателя.",
+  "frozen_at": "2026-08-18"
 }
